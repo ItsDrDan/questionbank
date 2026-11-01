@@ -1,0 +1,97 @@
+{
+ "updated": "2026-11-01",
+ "banks": {
+  "sig-figs": 52,
+  "redox": 208,
+  "gas-laws": 21,
+  "thermochemistry": 29,
+  "chem-1b-readiness": 42,
+  "quantum": 836
+ },
+ "chapters": {
+  "3A-1": {
+   "sig-figs": 52
+  },
+  "1A-1": {
+   "sig-figs": 52,
+   "chem-1b-readiness": 12
+  },
+  "3A-10": {
+   "redox": 152
+  },
+  "1A-4": {
+   "redox": 208,
+   "chem-1b-readiness": 10
+  },
+  "1B-17": {
+   "redox": 56
+  },
+  "3A-8": {
+   "gas-laws": 11
+  },
+  "1A-9": {
+   "gas-laws": 21,
+   "chem-1b-readiness": 10
+  },
+  "3A-7": {
+   "thermochemistry": 29
+  },
+  "1A-10": {
+   "thermochemistry": 29,
+   "chem-1b-readiness": 10
+  },
+  "1A-2": {
+   "chem-1b-readiness": 12
+  },
+  "1A-3": {
+   "chem-1b-readiness": 12
+  },
+  "1B-ready": {
+   "chem-1b-readiness": 42
+  },
+  "1A-5": {
+   "chem-1b-readiness": 10
+  },
+  "1B-14": {
+   "chem-1b-readiness": 10
+  },
+  "1B-12": {
+   "chem-1b-readiness": 10
+  },
+  "1B-13": {
+   "chem-1b-readiness": 10
+  },
+  "3A-3": {
+   "quantum": 321
+  },
+  "1A-6": {
+   "quantum": 836
+  }
+ },
+ "skills": {
+  "sigfig.count": 32,
+  "sigfig.round-sigfigs": 10,
+  "sigfig.round-decimals": 10,
+  "redox.oxidation-numbers": 62,
+  "redox.activity-series": 42,
+  "redox.identify": 32,
+  "redox.half-reactions": 25,
+  "redox.acidic": 17,
+  "redox.basic": 14,
+  "redox.concepts": 16,
+  "gaslaws.kmt": 11,
+  "gaslaws.speed": 4,
+  "gaslaws.real": 6,
+  "thermo.phase-energy": 29,
+  "bridge.core-toolkit": 12,
+  "bridge.matter-energy": 10,
+  "bridge.reactions-in-water": 10,
+  "bridge.kinetics-equilibrium": 10,
+  "quantum.light": 195,
+  "quantum.bohr": 129,
+  "quantum.numbers": 132,
+  "quantum.config": 250,
+  "quantum.orbitals": 66,
+  "quantum.trends": 64
+ }
+}

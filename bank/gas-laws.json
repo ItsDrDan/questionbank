@@ -1,0 +1,591 @@
+[
+ {
+  "id": "gaslaws-09529f2b",
+  "skill": "gaslaws.kmt",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-8",
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "What causes gas pressure?",
+  "answer": "Gas particles colliding with the walls of the container",
+  "choices": [
+   "Gas particles colliding with the walls of the container",
+   "Gas particles sticking to each other",
+   "The weight of the container",
+   "Gas particles slowing down"
+  ],
+  "explain": "Pressure is the push from billions of collisions with the container walls.",
+  "tag": "kmt",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 0
+  }
+ },
+ {
+  "id": "gaslaws-332d731e",
+  "skill": "gaslaws.kmt",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-8",
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "The average kinetic energy of gas particles is proportional to the…",
+  "answer": "Kelvin temperature",
+  "choices": [
+   "Kelvin temperature",
+   "Volume of the container",
+   "Number of moles",
+   "Molar mass of the gas"
+  ],
+  "explain": "KMT: average kinetic energy ∝ T (in kelvins).",
+  "tag": "kmt",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 1
+  }
+ },
+ {
+  "id": "gaslaws-5b1e8950",
+  "skill": "gaslaws.kmt",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-8",
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "He and Xe are in the same room at 25 °C. Which statement is true?",
+  "answer": "They have the same average kinetic energy",
+  "choices": [
+   "They have the same average kinetic energy",
+   "Xe has more kinetic energy because it is heavier",
+   "He has more kinetic energy because it is lighter",
+   "Neither has kinetic energy"
+  ],
+  "explain": "Same temperature means same average kinetic energy, no matter the gas.",
+  "tag": "kmt",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 2
+  }
+ },
+ {
+  "id": "gaslaws-dac4e3dd",
+  "skill": "gaslaws.kmt",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-8",
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "According to KMT, gas particles…",
+  "answer": "Are far apart, with lots of empty space between them",
+  "choices": [
+   "Are far apart, with lots of empty space between them",
+   "Are packed tightly together",
+   "Attract each other strongly",
+   "Stay in one place and vibrate"
+  ],
+  "explain": "Gases are mostly empty space. That is why they compress easily.",
+  "tag": "kmt",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 3
+  }
+ },
+ {
+  "id": "gaslaws-866e007b",
+  "skill": "gaslaws.kmt",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-8",
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "Collisions between ideal gas particles are…",
+  "answer": "Elastic: energy is transferred but not lost",
+  "choices": [
+   "Elastic: energy is transferred but not lost",
+   "Sticky: particles clump together",
+   "Rare: particles almost never collide",
+   "Explosive: energy is created"
+  ],
+  "explain": "Energy moves between particles, but the average kinetic energy does not change with time.",
+  "tag": "kmt",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 4
+  }
+ },
+ {
+  "id": "gaslaws-d52466e8",
+  "skill": "gaslaws.kmt",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-8",
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "Why does 1 mol of ANY gas occupy 22.4 L at STP?",
+  "answer": "Gas particles are tiny and far apart, so their identity barely matters",
+  "choices": [
+   "Gas particles are tiny and far apart, so their identity barely matters",
+   "All gases have the same molar mass",
+   "All gas particles are the same size",
+   "Gases have no mass"
+  ],
+  "explain": "The volume is almost all empty space, so it depends on the number of particles, not which gas.",
+  "tag": "kmt",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 5
+  }
+ },
+ {
+  "id": "gaslaws-0d51d477",
+  "skill": "gaslaws.kmt",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-8",
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "What happens to air pressure as you climb a mountain?",
+  "answer": "It decreases",
+  "choices": [
+   "It decreases",
+   "It increases",
+   "It stays the same",
+   "It doubles"
+  ],
+  "explain": "There is less air above you pushing down, so atmospheric pressure drops with altitude.",
+  "tag": "kmt",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 6
+  }
+ },
+ {
+  "id": "gaslaws-6377025c",
+  "skill": "gaslaws.kmt",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-8",
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "Which pressure equals 1 atm?",
+  "answer": "760 mmHg",
+  "choices": [
+   "760 mmHg",
+   "76 mmHg",
+   "100 mmHg",
+   "1 mmHg"
+  ],
+  "explain": "1 atm = 760 mmHg = 760 torr = 101,325 Pa.",
+  "tag": "kmt",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 7
+  }
+ },
+ {
+  "id": "gaslaws-a2a24483",
+  "skill": "gaslaws.kmt",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-8",
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "In gas-law calculations, temperature must be in…",
+  "answer": "Kelvins",
+  "choices": [
+   "Kelvins",
+   "Degrees Celsius",
+   "Degrees Fahrenheit",
+   "Any unit, as long as both match"
+  ],
+  "explain": "Gas laws need an absolute scale, so always use K. Doubling °C does not double the energy!",
+  "tag": "kmt",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 8
+  }
+ },
+ {
+  "id": "gaslaws-8ecad5c1",
+  "skill": "gaslaws.kmt",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-8",
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "In a <b>direct</b> relationship between A and B…",
+  "answer": "When A goes up, B goes up",
+  "choices": [
+   "When A goes up, B goes up",
+   "When A goes up, B goes down",
+   "A and B do not change",
+   "B is always larger than A"
+  ],
+  "explain": "Direct = both move the same way. Inverse = they move opposite ways.",
+  "tag": "kmt",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 9
+  }
+ },
+ {
+  "id": "gaslaws-45cabe99",
+  "skill": "gaslaws.kmt",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-8",
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "Which gas laws can you use when the state of the gas is NOT changing (one set of conditions)?",
+  "answer": "The ideal gas law, PV = nRT",
+  "choices": [
+   "The ideal gas law, PV = nRT",
+   "Boyle’s law",
+   "The combined gas law",
+   "Charles’s law"
+  ],
+  "explain": "Simple and combined gas laws compare two states. PV = nRT describes one state.",
+  "tag": "kmt",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 10
+  }
+ },
+ {
+  "id": "gaslaws-a8c2ebee",
+  "skill": "gaslaws.speed",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "At the same temperature, which gas has the fastest average speed?",
+  "answer": "H₂",
+  "choices": [
+   "H₂",
+   "O₂",
+   "CO₂",
+   "Xe"
+  ],
+  "explain": "Same kinetic energy, so the lightest particle (smallest M) moves fastest.",
+  "tag": "speed",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 11
+  }
+ },
+ {
+  "id": "gaslaws-c10a31af",
+  "skill": "gaslaws.speed",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "List in order of INCREASING rate of diffusion (same T): He, Kr, NO, O₂",
+  "answer": "Kr < O₂ < NO < He",
+  "choices": [
+   "Kr < O₂ < NO < He",
+   "He < NO < O₂ < Kr",
+   "O₂ < NO < Kr < He",
+   "Kr < NO < O₂ < He"
+  ],
+  "explain": "Rate ∝ 1/√M. Kr (83.8) is slowest; then O₂ (32.0), NO (30.0), He (4.0) is fastest.",
+  "tag": "speed",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 12
+  }
+ },
+ {
+  "id": "gaslaws-9e057f37",
+  "skill": "gaslaws.speed",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "When temperature increases, the speed distribution of gas particles…",
+  "answer": "Shifts to higher speeds and becomes broader",
+  "choices": [
+   "Shifts to higher speeds and becomes broader",
+   "Shifts to lower speeds",
+   "Becomes narrower",
+   "Does not change"
+  ],
+  "explain": "Hotter gas: higher average speed and a wider range of speeds.",
+  "tag": "speed",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 13
+  }
+ },
+ {
+  "id": "gaslaws-f30396da",
+  "skill": "gaslaws.speed",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "Graham’s law: the rate of effusion is…",
+  "answer": "Inversely proportional to the square root of molar mass",
+  "choices": [
+   "Inversely proportional to the square root of molar mass",
+   "Directly proportional to molar mass",
+   "Inversely proportional to temperature",
+   "Independent of molar mass"
+  ],
+  "explain": "rate ∝ 1/√M. Lighter gases escape faster.",
+  "tag": "speed",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 14
+  }
+ },
+ {
+  "id": "gaslaws-bf2385df",
+  "skill": "gaslaws.real",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "Real gases behave LEAST ideally at…",
+  "answer": "High pressure and low temperature",
+  "choices": [
+   "High pressure and low temperature",
+   "Low pressure and high temperature",
+   "STP only",
+   "Low pressure and low volume of particles"
+  ],
+  "explain": "High P squeezes particles close (their volume matters); low T lets attractions matter.",
+  "tag": "real",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 15
+  }
+ },
+ {
+  "id": "gaslaws-b0f870a4",
+  "skill": "gaslaws.real",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "Because of attractive forces, the real pressure of a gas is…",
+  "answer": "Lower than the ideal pressure",
+  "choices": [
+   "Lower than the ideal pressure",
+   "Higher than the ideal pressure",
+   "The same as the ideal pressure",
+   "Zero"
+  ],
+  "explain": "Attractions soften collisions with the walls, so P<sub>real</sub> < P<sub>ideal</sub>. The van der Waals “a” term corrects this.",
+  "tag": "real",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 16
+  }
+ },
+ {
+  "id": "gaslaws-f9464ba5",
+  "skill": "gaslaws.real",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "Because gas particles take up space, the real volume of a gas is…",
+  "answer": "Larger than the ideal volume",
+  "choices": [
+   "Larger than the ideal volume",
+   "Smaller than the ideal volume",
+   "The same as the ideal volume",
+   "Zero"
+  ],
+  "explain": "Particles have their own volume, so V<sub>real</sub> > V<sub>ideal</sub>. The “b” term corrects this: (V − nb).",
+  "tag": "real",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 17
+  }
+ },
+ {
+  "id": "gaslaws-be5ad7fb",
+  "skill": "gaslaws.real",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "Which gas behaves most like an ideal gas?",
+  "answer": "He",
+  "choices": [
+   "He",
+   "NH₃",
+   "H₂O",
+   "Cl₂"
+  ],
+  "explain": "He is small with very weak attractions. NH₃ and H₂O hydrogen bond; Cl₂ is large and polarizable.",
+  "tag": "real",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 18
+  }
+ },
+ {
+  "id": "gaslaws-78e7834e",
+  "skill": "gaslaws.real",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "In the van der Waals equation, the constant <i>a</i> corrects for…",
+  "answer": "Attractions between particles",
+  "choices": [
+   "Attractions between particles",
+   "The volume of the particles",
+   "The temperature",
+   "The number of moles"
+  ],
+  "explain": "a = attractions (pressure correction); b = particle volume (volume correction).",
+  "tag": "real",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 19
+  }
+ },
+ {
+  "id": "gaslaws-2f3e457e",
+  "skill": "gaslaws.real",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-9"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "Which gas would have the LARGER van der Waals constant <i>a</i>?",
+  "answer": "NH₃",
+  "choices": [
+   "NH₃",
+   "He",
+   "Ne",
+   "H₂"
+  ],
+  "explain": "Stronger intermolecular forces (NH₃ hydrogen bonds) mean a larger a.",
+  "tag": "real",
+  "from": {
+   "game": "gaslaws",
+   "list": "CONCEPTS",
+   "index": 20
+  }
+ }
+]

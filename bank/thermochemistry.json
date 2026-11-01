@@ -1,0 +1,814 @@
+[
+ {
+  "id": "thermochemistry-cc82f431",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Sweat and cooling",
+  "prompt": "Sweat evaporates from your skin. What happens?",
+  "answer": "Water absorbs heat; skin cools",
+  "choices": [
+   "Water releases heat; skin warms",
+   "Water absorbs heat; skin cools",
+   "No energy is transferred"
+  ],
+  "explain": "Evaporation absorbs heat from the skin and surroundings.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 0
+  }
+ },
+ {
+  "id": "thermochemistry-639219a5",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "A chilly test tube",
+  "prompt": "A reaction makes its test tube feel colder. Consider the reacting mixture as the system.",
+  "answer": "Endothermic: absorbs heat from surroundings",
+  "choices": [
+   "Endothermic: absorbs heat from surroundings",
+   "Exothermic: releases heat to surroundings",
+   "Endothermic: releases heat to surroundings"
+  ],
+  "explain": "The system absorbs heat from the surrounding test tube and skin.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 1
+  }
+ },
+ {
+  "id": "thermochemistry-bfa3f100",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Same mass, same temperature change",
+  "prompt": "Compare equal masses of water and aluminum heated by the same ΔT. Which needs more heat?",
+  "answer": "Water",
+  "choices": [
+   "Water",
+   "Aluminum",
+   "Both need the same heat"
+  ],
+  "explain": "Water has the greater specific heat capacity, so mcΔT is larger.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 2
+  }
+ },
+ {
+  "id": "thermochemistry-198f9a07",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Temperature and energy",
+  "prompt": "What does temperature measure?",
+  "answer": "Average particle kinetic energy",
+  "choices": [
+   "Average particle kinetic energy",
+   "Total energy regardless of sample mass",
+   "Only potential energy"
+  ],
+  "explain": "Temperature describes average kinetic energy, not total heat content.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 3
+  }
+ },
+ {
+  "id": "thermochemistry-d2b418b2",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "During a plateau",
+  "prompt": "What happens to temperature while a pure substance boils at fixed pressure?",
+  "answer": "Remains constant",
+  "choices": [
+   "Remains constant",
+   "Always increases",
+   "Always decreases"
+  ],
+  "explain": "Heat changes the phase and intermolecular potential energy during the plateau.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 4
+  }
+ },
+ {
+  "id": "thermochemistry-6d329a0d",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Instant cold pack",
+  "prompt": "An instant cold pack feels cold after you squeeze it and the salt dissolves. Treat the dissolving mixture as the system.",
+  "answer": "Endothermic: absorbs heat from the surroundings",
+  "choices": [
+   "Endothermic: absorbs heat from the surroundings",
+   "Exothermic: releases heat to the surroundings",
+   "No heat is exchanged"
+  ],
+  "explain": "The cold feeling means heat flows from your hand into the mixture, so the process is endothermic (q > 0).",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 5
+  }
+ },
+ {
+  "id": "thermochemistry-d12380b1",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Chemical hand warmer",
+  "prompt": "A chemical hand warmer feels hot while it reacts. Treat the reacting chemicals as the system.",
+  "answer": "Exothermic: releases heat to the surroundings",
+  "choices": [
+   "Exothermic: releases heat to the surroundings",
+   "Endothermic: absorbs heat from the surroundings",
+   "Endothermic: releases heat to the surroundings"
+  ],
+  "explain": "Heat leaves the reacting chemicals and warms your hands, so the reaction is exothermic (q < 0).",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 6
+  }
+ },
+ {
+  "id": "thermochemistry-c1ce6f8a",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Steam burns",
+  "prompt": "Steam at 100 °C usually burns skin worse than liquid water at 100 °C. What is the best explanation?",
+  "answer": "Condensing steam releases extra heat",
+  "choices": [
+   "Condensing steam releases extra heat",
+   "Steam has a higher temperature than boiling water",
+   "Steam has no heat to give"
+  ],
+  "explain": "Condensation releases the heat of vaporization in addition to the heat released as the water cools.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 7
+  }
+ },
+ {
+  "id": "thermochemistry-26b44a8d",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Ice melting in a drink",
+  "prompt": "Ice melts in a room-temperature drink. What happens to the heat the ice takes in?",
+  "answer": "It breaks attractions between water molecules",
+  "choices": [
+   "It breaks attractions between water molecules",
+   "It is destroyed",
+   "It makes the ice colder"
+  ],
+  "explain": "The heat of fusion increases the potential energy of the molecules as they move apart, not their average kinetic energy.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 8
+  }
+ },
+ {
+  "id": "thermochemistry-5983e196",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Cold metal rail",
+  "prompt": "You touch a cold metal rail with a warm hand. Which way does heat flow?",
+  "answer": "From your hand to the rail",
+  "choices": [
+   "From your hand to the rail",
+   "From the rail to your hand",
+   "Neither; the temperatures are unrelated"
+  ],
+  "explain": "Heat always flows spontaneously from the warmer object to the cooler object.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 9
+  }
+ },
+ {
+  "id": "thermochemistry-db045867",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Water on a cold glass",
+  "prompt": "Water droplets form on the outside of a cold glass on a humid day. What is happening to the water vapor?",
+  "answer": "It condenses and releases heat",
+  "choices": [
+   "It condenses and releases heat",
+   "It evaporates and absorbs heat",
+   "It freezes and absorbs heat"
+  ],
+  "explain": "Vapor to liquid is condensation, an exothermic phase change.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 10
+  }
+ },
+ {
+  "id": "thermochemistry-5899cb0b",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Sign of q",
+  "prompt": "A system releases heat to its surroundings. What is the sign of q for the system?",
+  "answer": "Negative",
+  "choices": [
+   "Negative",
+   "Positive",
+   "Zero"
+  ],
+  "explain": "Energy leaving the system makes q negative.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 11
+  }
+ },
+ {
+  "id": "thermochemistry-014fc9e2",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Which warms faster?",
+  "prompt": "The same amount of heat is added to 50 g of water and 50 g of iron. Which temperature rises more?",
+  "answer": "Iron",
+  "choices": [
+   "Iron",
+   "Water",
+   "Both rise equally"
+  ],
+  "explain": "Iron has a much smaller specific heat than water, so the same q causes a larger ΔT.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 12
+  }
+ },
+ {
+  "id": "thermochemistry-eaa4e4ac",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Freezer",
+  "prompt": "Liquid water in a freezer turns into ice. What happens to energy in the water?",
+  "answer": "It releases heat as it freezes",
+  "choices": [
+   "It releases heat as it freezes",
+   "It absorbs heat as it freezes",
+   "Its energy does not change"
+  ],
+  "explain": "Freezing is exothermic: the water gives heat to the colder surroundings.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 13
+  }
+ },
+ {
+  "id": "thermochemistry-8e1a7b67",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Coastal climate",
+  "prompt": "Coastal cities often have milder temperatures than inland cities. Which property of water helps most?",
+  "answer": "High specific heat capacity",
+  "choices": [
+   "High specific heat capacity",
+   "Low density",
+   "High boiling point only"
+  ],
+  "explain": "Water absorbs or releases a lot of heat with a small temperature change, which moderates temperature swings.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 14
+  }
+ },
+ {
+  "id": "thermochemistry-3f4a07d6",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Cooling coffee",
+  "prompt": "A hot cup of coffee cools on a desk. What is the sign of q for the coffee?",
+  "answer": "Negative",
+  "choices": [
+   "Negative",
+   "Positive",
+   "Zero"
+  ],
+  "explain": "Heat flows out of the coffee into the cooler surroundings, so q is negative for the coffee.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 15
+  }
+ },
+ {
+  "id": "thermochemistry-83010063",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Dry ice",
+  "prompt": "Dry ice (solid CO₂) changes directly to gas at room conditions. Which statement is correct?",
+  "answer": "Sublimation absorbs heat",
+  "choices": [
+   "Sublimation absorbs heat",
+   "Sublimation releases heat",
+   "Sublimation is the same as freezing"
+  ],
+  "explain": "Solid to gas is sublimation, an endothermic phase change.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 16
+  }
+ },
+ {
+  "id": "thermochemistry-285e04da",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Rubbing alcohol",
+  "prompt": "Rubbing alcohol feels cold when it evaporates from your skin. Why?",
+  "answer": "Evaporation absorbs heat from the skin",
+  "choices": [
+   "Evaporation absorbs heat from the skin",
+   "The alcohol is colder than ice",
+   "Evaporation releases heat to the skin"
+  ],
+  "explain": "Evaporating liquid takes in heat from the skin, which cools the skin.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 17
+  }
+ },
+ {
+  "id": "thermochemistry-733c0d0f",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Bathtub versus cup",
+  "prompt": "A bathtub of 40 °C water and a cup of 90 °C water are compared. Which contains more total thermal energy?",
+  "answer": "The bathtub",
+  "choices": [
+   "The bathtub",
+   "The cup",
+   "They contain equal thermal energy"
+  ],
+  "explain": "Thermal energy depends on mass as well as temperature, and the bathtub holds far more water.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 18
+  }
+ },
+ {
+  "id": "thermochemistry-0ccf7a42",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Fusion versus vaporization",
+  "prompt": "For water, which phase change needs more heat per mole at normal pressure?",
+  "answer": "Vaporization",
+  "choices": [
+   "Vaporization",
+   "Fusion",
+   "They need equal heat"
+  ],
+  "explain": "Vaporization (about 40.7 kJ/mol) needs far more heat than fusion (about 6.02 kJ/mol) because the attractions are separated completely.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 19
+  }
+ },
+ {
+  "id": "thermochemistry-c759488e",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Burning a candle",
+  "prompt": "A candle burns and warms the air above it. Treat the burning wax as the system.",
+  "answer": "Exothermic: releases heat to the surroundings",
+  "choices": [
+   "Exothermic: releases heat to the surroundings",
+   "Endothermic: absorbs heat from the surroundings",
+   "Neither; no energy changes"
+  ],
+  "explain": "Combustion releases heat, so q is negative for the reacting system.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 20
+  }
+ },
+ {
+  "id": "thermochemistry-a22d6e9c",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Freezing plateau",
+  "prompt": "What happens to temperature while pure water freezes at fixed pressure?",
+  "answer": "Remains constant",
+  "choices": [
+   "Remains constant",
+   "Keeps rising",
+   "Keeps falling"
+  ],
+  "explain": "The released heat comes from the phase change, so the temperature stays at the freezing point until freezing is complete.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 21
+  }
+ },
+ {
+  "id": "thermochemistry-a9af4fd1",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "State function",
+  "prompt": "Which quantity depends only on the initial and final states, not on the path taken?",
+  "answer": "Enthalpy change (ΔH)",
+  "choices": [
+   "Enthalpy change (ΔH)",
+   "Heat (q)",
+   "Work (w)"
+  ],
+  "explain": "ΔH and ΔE are state functions. Heat and work depend on the path, although their sum ΔE = q + w does not.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 22
+  }
+ },
+ {
+  "id": "thermochemistry-672969c0",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Isolated system",
+  "prompt": "A sealed, insulated, rigid container exchanges neither matter nor energy with its surroundings. What is ΔE for the contents?",
+  "answer": "Zero",
+  "choices": [
+   "Zero",
+   "Positive",
+   "Negative"
+  ],
+  "explain": "With no heat or work crossing the boundary, q = 0 and w = 0, so ΔE = 0.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 23
+  }
+ },
+ {
+  "id": "thermochemistry-7233a4c0",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Sign of work",
+  "prompt": "A gas expands against a constant external pressure. What is the sign of w for the gas?",
+  "answer": "Negative",
+  "choices": [
+   "Negative",
+   "Positive",
+   "Zero"
+  ],
+  "explain": "Work done BY the system lowers its energy, so w is negative. Work done ON the system is positive.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 24
+  }
+ },
+ {
+  "id": "thermochemistry-09e01d8f",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Constant-volume heat",
+  "prompt": "A reaction is run in a rigid bomb calorimeter. The heat measured equals which quantity?",
+  "answer": "ΔE (internal energy change)",
+  "choices": [
+   "ΔE (internal energy change)",
+   "ΔH (enthalpy change)",
+   "ΔG (free energy change)"
+  ],
+  "explain": "At constant volume no PΔV work occurs, so qv = ΔE.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 25
+  }
+ },
+ {
+  "id": "thermochemistry-ba3f4a15",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Constant-pressure heat",
+  "prompt": "A reaction is run in an open coffee-cup calorimeter. The heat measured equals which quantity?",
+  "answer": "ΔH (enthalpy change)",
+  "choices": [
+   "ΔH (enthalpy change)",
+   "ΔE (internal energy change)",
+   "Work done"
+  ],
+  "explain": "At constant pressure qp = ΔH.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 26
+  }
+ },
+ {
+  "id": "thermochemistry-a5e5462b",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Reversing a reaction",
+  "prompt": "A reaction has ΔH = −120 kJ. What is ΔH for the reverse reaction?",
+  "answer": "+120 kJ",
+  "choices": [
+   "+120 kJ",
+   "−120 kJ",
+   "0 kJ"
+  ],
+  "explain": "Reversing a reaction changes the sign of ΔH and leaves the magnitude unchanged.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 27
+  }
+ },
+ {
+  "id": "thermochemistry-66ad1655",
+  "skill": "thermo.phase-energy",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Standard enthalpy of an element",
+  "prompt": "What is ΔHf° of an element in its standard state, such as O2(g)?",
+  "answer": "Zero",
+  "choices": [
+   "Zero",
+   "Positive",
+   "Negative"
+  ],
+  "explain": "Formation enthalpy is defined as zero for an element in its most stable form at standard conditions.",
+  "from": {
+   "game": "thermochemistry",
+   "list": "concepts",
+   "index": 28
+  }
+ }
+]

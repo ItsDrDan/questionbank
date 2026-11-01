@@ -1,0 +1,1228 @@
+[
+ {
+  "id": "sigfig-eafc6c2d",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 7 m?",
+  "answer": "1",
+  "hint": "Every nonzero digit is significant.",
+  "explain": "The single nonzero digit is significant.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 0
+  }
+ },
+ {
+  "id": "sigfig-63199eb3",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 0.004?",
+  "answer": "1",
+  "hint": "Ignore zeros that only locate the decimal point.",
+  "explain": "Leading zeros are not significant. Only the 4 counts.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 1
+  }
+ },
+ {
+  "id": "sigfig-c95fc30f",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 45 g?",
+  "answer": "2",
+  "hint": "Nonzero digits always count.",
+  "explain": "Both nonzero digits are significant.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 2
+  }
+ },
+ {
+  "id": "sigfig-7d448520",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 900?",
+  "answer": "1",
+  "hint": "Compare this with 900., where the decimal point makes the trailing zeros significant.",
+  "explain": "Without a decimal point, trailing zeros in this whole number are not counted as significant in this study tool.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 3
+  }
+ },
+ {
+  "id": "sigfig-c98025ed",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 0.00450?",
+  "answer": "3",
+  "hint": "Ignore leading zeros. Count from the first nonzero digit through the final trailing decimal zero.",
+  "explain": "The leading zeros are not significant, but the final zero after the decimal is significant.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 4
+  }
+ },
+ {
+  "id": "sigfig-11067594",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 900.?",
+  "answer": "3",
+  "hint": "A decimal point written after a whole number makes the trailing zeros significant.",
+  "explain": "The decimal point indicates that both trailing zeros are significant.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 5
+  }
+ },
+ {
+  "id": "sigfig-161ba807",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 12.30 mL?",
+  "answer": "4",
+  "hint": "The unit does not affect the number of significant figures.",
+  "explain": "The trailing zero is after a decimal point, so it is significant.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 6
+  }
+ },
+ {
+  "id": "sigfig-e4c69321",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 90.05 °C?",
+  "answer": "4",
+  "hint": "Interior zeros count.",
+  "explain": "Zeros between nonzero digits are significant.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 7
+  }
+ },
+ {
+  "id": "sigfig-2d530a47",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 3.0400 × 10<sup>5</sup> Pa?",
+  "answer": "5",
+  "hint": "Ignore the ×10 exponent and count the digits in 3.0400.",
+  "explain": "In scientific notation, only the coefficient determines the number of significant figures.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 8
+  }
+ },
+ {
+  "id": "sigfig-e0e6aabd",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 100.20 mg?",
+  "answer": "5",
+  "hint": "Once counting starts at the first nonzero digit, every shown digit here counts.",
+  "explain": "The interior zeros and the trailing zero after the decimal are all significant.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 9
+  }
+ },
+ {
+  "id": "sigfig-ac2e04f7",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 0.007020 g?",
+  "answer": "4",
+  "hint": "Start counting at 7, not at the zeros before it.",
+  "explain": "Leading zeros are not significant. The zero between 7 and 2 and the final trailing zero are significant.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 10
+  }
+ },
+ {
+  "id": "sigfig-f884b5de",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 250.0 mL?",
+  "answer": "4",
+  "hint": "The final zero is meaningful.",
+  "explain": "Because a decimal point is shown, all trailing zeros are significant.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 11
+  }
+ },
+ {
+  "id": "sigfig-d901b2f6",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 6.022 × 10<sup>23</sup> particles?",
+  "answer": "4",
+  "hint": "The exponent does not count.",
+  "explain": "The coefficient 6.022 contains four significant figures.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 12
+  }
+ },
+ {
+  "id": "sigfig-8924e677",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 1.20 × 10<sup>−3</sup> mol?",
+  "answer": "3",
+  "hint": "Count only the digits in 1.20.",
+  "explain": "The coefficient 1.20 has three significant figures.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 13
+  }
+ },
+ {
+  "id": "sigfig-9ca5a7cf",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 7.0 × 10<sup>−6</sup> m?",
+  "answer": "2",
+  "hint": "A trailing zero after a decimal is significant.",
+  "explain": "The coefficient 7.0 contains two significant figures.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 14
+  }
+ },
+ {
+  "id": "sigfig-6e57dacc",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 4.50000 g?",
+  "answer": "6",
+  "hint": "Count the 4, 5, and every trailing decimal zero.",
+  "explain": "All trailing zeros after the decimal point are significant.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 15
+  }
+ },
+ {
+  "id": "sigfig-da4515c3",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 102.030 mL?",
+  "answer": "6",
+  "hint": "Zeros between nonzero digits count, and the final zero after the decimal counts too.",
+  "explain": "Interior zeros and the trailing decimal zero are significant.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 16
+  }
+ },
+ {
+  "id": "sigfig-be474a14",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 8.765432 × 10<sup>2</sup> J?",
+  "answer": "7",
+  "hint": "Ignore the exponent and count the digits in the coefficient.",
+  "explain": "The coefficient contains seven significant figures.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 17
+  }
+ },
+ {
+  "id": "sigfig-b7398b1f",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 1000.500 g?",
+  "answer": "7",
+  "hint": "With a decimal shown, the written zeros are meaningful.",
+  "explain": "Because a decimal point is present, the zeros between 1 and 5 are significant, and the final two zeros are significant.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 18
+  }
+ },
+ {
+  "id": "sigfig-a63ef807",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 12.345678 L?",
+  "answer": "8",
+  "hint": "Every nonzero digit counts.",
+  "explain": "All eight nonzero digits are significant.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 19
+  }
+ },
+ {
+  "id": "sigfig-5aea8712",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 0.0012345678 mol?",
+  "answer": "8",
+  "hint": "Start counting at the first nonzero digit.",
+  "explain": "The leading zeros are not significant; the eight digits from 1 through 8 are significant.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 20
+  }
+ },
+ {
+  "id": "sigfig-9a9974eb",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 9.87654321 × 10<sup>−4</sup> M?",
+  "answer": "9",
+  "hint": "Count every digit in 9.87654321.",
+  "explain": "The coefficient contains nine significant figures.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 21
+  }
+ },
+ {
+  "id": "sigfig-a7796f69",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 1234.50000 mg?",
+  "answer": "9",
+  "hint": "The decimal point makes the trailing zeros significant.",
+  "explain": "All nonzero digits and all trailing zeros after the decimal point are significant.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 22
+  }
+ },
+ {
+  "id": "sigfig-3415f5c9",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 0.0800 L?",
+  "answer": "3",
+  "hint": "Start with the 8.",
+  "explain": "Leading zeros are not significant, while trailing zeros after the decimal are significant.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 23
+  }
+ },
+ {
+  "id": "sigfig-21afe0fb",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 4500 kg?",
+  "answer": "2",
+  "hint": "There is no decimal point shown.",
+  "explain": "In this tool, trailing zeros in a whole number without a decimal point are not counted as significant.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 24
+  }
+ },
+ {
+  "id": "sigfig-b9795258",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How many significant figures are in 4500. kg?",
+  "answer": "4",
+  "hint": "A decimal point after a whole number changes how its trailing zeros are interpreted.",
+  "explain": "The decimal point indicates that the trailing zeros are significant.",
+  "from": {
+   "game": "sigfig",
+   "list": "countBank",
+   "index": 25
+  }
+ },
+ {
+  "id": "sigfig-82888461",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "How many significant figures are in 18 students?",
+  "answer": "oo",
+  "accept": [
+   "oo",
+   "infinite",
+   "∞"
+  ],
+  "hint": "This value was counted, not measured. Enter oo.",
+  "explain": "This is an exact counted quantity, so it has an infinite number of significant figures.",
+  "from": {
+   "game": "sigfig",
+   "list": "countedBank",
+   "index": 0
+  }
+ },
+ {
+  "id": "sigfig-cec0b11b",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "How many significant figures are in 6 beakers?",
+  "answer": "oo",
+  "accept": [
+   "oo",
+   "infinite",
+   "∞"
+  ],
+  "hint": "Exact counted quantities use oo in this tool.",
+  "explain": "A counted number is exact and has an infinite number of significant figures.",
+  "from": {
+   "game": "sigfig",
+   "list": "countedBank",
+   "index": 1
+  }
+ },
+ {
+  "id": "sigfig-41bddab8",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "How many significant figures are in 24 test tubes?",
+  "answer": "oo",
+  "accept": [
+   "oo",
+   "infinite",
+   "∞"
+  ],
+  "hint": "Counted quantities are exact. Enter oo.",
+  "explain": "This is an exact count, not a measurement.",
+  "from": {
+   "game": "sigfig",
+   "list": "countedBank",
+   "index": 2
+  }
+ },
+ {
+  "id": "sigfig-d285db28",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "How many significant figures are in 3 lab partners?",
+  "answer": "oo",
+  "accept": [
+   "oo",
+   "infinite",
+   "∞"
+  ],
+  "hint": "A counted number has no measurement uncertainty.",
+  "explain": "The value is an exact count and therefore has infinite significant figures.",
+  "from": {
+   "game": "sigfig",
+   "list": "countedBank",
+   "index": 3
+  }
+ },
+ {
+  "id": "sigfig-4b9108f3",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "How many significant figures are in 12 eggs?",
+  "answer": "oo",
+  "accept": [
+   "oo",
+   "infinite",
+   "∞"
+  ],
+  "hint": "Think exact count rather than measurement.",
+  "explain": "This is an exact counted value, so it has infinite significant figures.",
+  "from": {
+   "game": "sigfig",
+   "list": "countedBank",
+   "index": 4
+  }
+ },
+ {
+  "id": "sigfig-56e1f492",
+  "skill": "sigfig.count",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "How many significant figures are in 8 graduated cylinders?",
+  "answer": "oo",
+  "accept": [
+   "oo",
+   "infinite",
+   "∞"
+  ],
+  "hint": "Counted objects are exact. Enter oo.",
+  "explain": "This is an exact counted quantity and therefore has infinite significant figures.",
+  "from": {
+   "game": "sigfig",
+   "list": "countedBank",
+   "index": 5
+  }
+ },
+ {
+  "id": "sigfig-432c8a09",
+  "skill": "sigfig.round-sigfigs",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 12.347 to 3 significant figures.",
+  "answer": "12.3",
+  "hint": "Start at the first nonzero digit. Keep three total significant digits: 1, 2, and 3.",
+  "explain": "The fourth significant digit is 4, so the 3 stays unchanged.",
+  "from": {
+   "game": "sigfig",
+   "list": "sigRoundBank",
+   "index": 0
+  }
+ },
+ {
+  "id": "sigfig-0bf3a441",
+  "skill": "sigfig.round-sigfigs",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 0.004567 to 2 significant figures.",
+  "answer": "0.0046",
+  "hint": "Leading zeros do not count. The first two significant digits are 4 and 5.",
+  "explain": "The next digit is 6, so 5 rounds up to 6.",
+  "from": {
+   "game": "sigfig",
+   "list": "sigRoundBank",
+   "index": 1
+  }
+ },
+ {
+  "id": "sigfig-507140d1",
+  "skill": "sigfig.round-sigfigs",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 83.764 to 4 significant figures.",
+  "answer": "83.76",
+  "hint": "Keep the first four significant digits.",
+  "explain": "The next digit is 4, so no rounding up is needed.",
+  "from": {
+   "game": "sigfig",
+   "list": "sigRoundBank",
+   "index": 2
+  }
+ },
+ {
+  "id": "sigfig-827f1a9d",
+  "skill": "sigfig.round-sigfigs",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 105.87 to 3 significant figures.",
+  "answer": "106",
+  "hint": "The zero between 1 and 5 is significant.",
+  "explain": "The next digit is 8, so 105 rounds to 106.",
+  "from": {
+   "game": "sigfig",
+   "list": "sigRoundBank",
+   "index": 3
+  }
+ },
+ {
+  "id": "sigfig-a3bf280e",
+  "skill": "sigfig.round-sigfigs",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 0.09076 to 3 significant figures.",
+  "answer": "0.0908",
+  "hint": "The leading zeros do not count. Begin with the 9.",
+  "explain": "The first three significant digits are 9, 0, and 7. The next digit is 6, so 7 rounds up.",
+  "from": {
+   "game": "sigfig",
+   "list": "sigRoundBank",
+   "index": 4
+  }
+ },
+ {
+  "id": "sigfig-595feb6e",
+  "skill": "sigfig.round-sigfigs",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 12345 to 2 significant figures.",
+  "answer": "12000",
+  "hint": "Keep the first two significant digits, then replace the remaining positions with zeros.",
+  "explain": "The third significant digit is 3, so 12 stays unchanged.",
+  "from": {
+   "game": "sigfig",
+   "list": "sigRoundBank",
+   "index": 5
+  }
+ },
+ {
+  "id": "sigfig-05cd8d86",
+  "skill": "sigfig.round-sigfigs",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 98765 to 3 significant figures.",
+  "answer": "98800",
+  "hint": "Keep 9, 8, and 7. Then inspect the next digit.",
+  "explain": "The next digit is 6, so 987 rounds to 988.",
+  "from": {
+   "game": "sigfig",
+   "list": "sigRoundBank",
+   "index": 6
+  }
+ },
+ {
+  "id": "sigfig-406ac688",
+  "skill": "sigfig.round-sigfigs",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 2.9951 to 3 significant figures.",
+  "answer": "3.00",
+  "hint": "Be careful: rounding can cause a carry into the previous digit.",
+  "explain": "The next digit is 5, so 2.99 rounds upward to 3.00. The zeros are needed to show three significant figures.",
+  "from": {
+   "game": "sigfig",
+   "list": "sigRoundBank",
+   "index": 7
+  }
+ },
+ {
+  "id": "sigfig-5d48a158",
+  "skill": "sigfig.round-sigfigs",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 0.00080944 to 4 significant figures.",
+  "answer": "0.0008094",
+  "hint": "Start counting significant figures at 8.",
+  "explain": "The fifth significant digit is 4, so the final retained digit stays unchanged.",
+  "from": {
+   "game": "sigfig",
+   "list": "sigRoundBank",
+   "index": 8
+  }
+ },
+ {
+  "id": "sigfig-9e7ab0c2",
+  "skill": "sigfig.round-sigfigs",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 65.050 to 4 significant figures.",
+  "answer": "65.05",
+  "hint": "Zeros between nonzero digits are significant.",
+  "explain": "The requested four significant figures are 6, 5, 0, and 5.",
+  "from": {
+   "game": "sigfig",
+   "list": "sigRoundBank",
+   "index": 9
+  }
+ },
+ {
+  "id": "sigfig-94c9cc92",
+  "skill": "sigfig.round-decimals",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 12.347 to 2 decimal places.",
+  "answer": "12.35",
+  "hint": "Count two digits to the right of the decimal point.",
+  "explain": "The third decimal digit is 7, so the hundredths place rounds up.",
+  "from": {
+   "game": "sigfig",
+   "list": "decimalBank",
+   "index": 0
+  }
+ },
+ {
+  "id": "sigfig-d04834dc",
+  "skill": "sigfig.round-decimals",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 5.8049 to 3 decimal places.",
+  "answer": "5.805",
+  "hint": "Keep three digits after the decimal point.",
+  "explain": "The fourth decimal digit is 9, so the third decimal digit rounds up.",
+  "from": {
+   "game": "sigfig",
+   "list": "decimalBank",
+   "index": 1
+  }
+ },
+ {
+  "id": "sigfig-0d77abe4",
+  "skill": "sigfig.round-decimals",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 0.00678 to 4 decimal places.",
+  "answer": "0.0068",
+  "hint": "Decimal places count from the decimal point, even when the digits are zeros.",
+  "explain": "The first four decimal places are 0, 0, 6, and 7. The next digit is 8, so 7 rounds up.",
+  "from": {
+   "game": "sigfig",
+   "list": "decimalBank",
+   "index": 2
+  }
+ },
+ {
+  "id": "sigfig-4de565ee",
+  "skill": "sigfig.round-decimals",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 38.1257 to 1 decimal place.",
+  "answer": "38.1",
+  "hint": "Keep only one digit to the right of the decimal.",
+  "explain": "The second decimal digit is 2, so the tenths digit stays unchanged.",
+  "from": {
+   "game": "sigfig",
+   "list": "decimalBank",
+   "index": 3
+  }
+ },
+ {
+  "id": "sigfig-b000871b",
+  "skill": "sigfig.round-decimals",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 104.999 to 2 decimal places.",
+  "answer": "105.00",
+  "hint": "Rounding can carry across the decimal point.",
+  "explain": "The third decimal digit is 9, so 104.99 rounds to 105.00. The two zeros show two decimal places.",
+  "from": {
+   "game": "sigfig",
+   "list": "decimalBank",
+   "index": 4
+  }
+ },
+ {
+  "id": "sigfig-2baf8232",
+  "skill": "sigfig.round-decimals",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 7.2 to 3 decimal places.",
+  "answer": "7.200",
+  "hint": "If the value already has fewer decimal places than requested, add zeros.",
+  "explain": "Three decimal places must be shown explicitly.",
+  "from": {
+   "game": "sigfig",
+   "list": "decimalBank",
+   "index": 5
+  }
+ },
+ {
+  "id": "sigfig-1d309296",
+  "skill": "sigfig.round-decimals",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 0.45061 to 3 decimal places.",
+  "answer": "0.451",
+  "hint": "Count exactly three positions after the decimal point.",
+  "explain": "The fourth decimal digit is 6, so 0.450 rounds to 0.451.",
+  "from": {
+   "game": "sigfig",
+   "list": "decimalBank",
+   "index": 6
+  }
+ },
+ {
+  "id": "sigfig-f0e57f84",
+  "skill": "sigfig.round-decimals",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 91.444 to 2 decimal places.",
+  "answer": "91.44",
+  "hint": "Look at the third digit after the decimal.",
+  "explain": "The third decimal digit is 4, so the hundredths digit remains unchanged.",
+  "from": {
+   "game": "sigfig",
+   "list": "decimalBank",
+   "index": 7
+  }
+ },
+ {
+  "id": "sigfig-a98a46de",
+  "skill": "sigfig.round-decimals",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 3.9997 to 3 decimal places.",
+  "answer": "4.000",
+  "hint": "Keep three decimal places, even if rounding changes the whole-number portion.",
+  "explain": "The fourth decimal digit is 7, so 3.999 rounds to 4.000.",
+  "from": {
+   "game": "sigfig",
+   "list": "decimalBank",
+   "index": 8
+  }
+ },
+ {
+  "id": "sigfig-5156391e",
+  "skill": "sigfig.round-decimals",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "origin": "original",
+  "type": "text",
+  "prompt": "Round 16.0502 to 3 decimal places.",
+  "answer": "16.050",
+  "hint": "Count three digits after the decimal, including zeros.",
+  "explain": "The fourth decimal digit is 2, so the third decimal digit stays unchanged.",
+  "from": {
+   "game": "sigfig",
+   "list": "decimalBank",
+   "index": 9
+  }
+ }
+]

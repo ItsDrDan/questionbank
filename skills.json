@@ -1,0 +1,3748 @@
+{
+ "updated": "2026-11-01",
+ "note": "One entry per game mode. kind: generated = made by code each time; static = fixed list; mixed = both. bankSkills = matching questions in bank/.",
+ "skills": [
+  {
+   "id": "algebratrainer.md",
+   "game": "algebratrainer",
+   "mode": "md",
+   "title": "Level 1 · × ÷",
+   "courses": [
+    "3A",
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1A-1",
+    "1A-11",
+    "1A-3",
+    "1A-4",
+    "1A-5",
+    "1A-6",
+    "1A-9",
+    "1B-12",
+    "1B-14",
+    "1B-16",
+    "1B-17",
+    "3A-1",
+    "3A-11",
+    "3A-12",
+    "3A-3",
+    "3A-5",
+    "3A-7",
+    "3A-8",
+    "3A-9"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "tap-operation (algebra moves on tiles)",
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/algebratrainer/"
+  },
+  {
+   "id": "algebratrainer.as",
+   "game": "algebratrainer",
+   "mode": "as",
+   "title": "Level 2 · + −",
+   "courses": [
+    "3A",
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1A-1",
+    "1A-3",
+    "1A-5",
+    "1A-9",
+    "1B-14",
+    "1B-17",
+    "3A-1",
+    "3A-12",
+    "3A-7",
+    "3A-8",
+    "3A-9"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "tap-operation (algebra moves on tiles)",
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/algebratrainer/"
+  },
+  {
+   "id": "algebratrainer.mx",
+   "game": "algebratrainer",
+   "mode": "mx",
+   "title": "Level 3 · Mixed",
+   "courses": [
+    "3A",
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1A-1",
+    "1A-2",
+    "1A-3",
+    "1A-5",
+    "1B-12",
+    "1B-16",
+    "3A-1",
+    "3A-2",
+    "3A-7",
+    "3A-9"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "tap-operation (algebra moves on tiles)",
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/algebratrainer/"
+  },
+  {
+   "id": "algebratrainer.lg",
+   "game": "algebratrainer",
+   "mode": "lg",
+   "title": "Level 4 · Logs",
+   "courses": [
+    "3A",
+    "1B"
+   ],
+   "chapters": [
+    "1B-12",
+    "1B-14",
+    "1B-16",
+    "1B-17",
+    "1B-21",
+    "3A-12"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "tap-operation (algebra moves on tiles)",
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/algebratrainer/"
+  },
+  {
+   "id": "carbohydrates.classify",
+   "game": "carbohydrates",
+   "mode": "classify",
+   "title": "Classify Sugars",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-9"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/carbohydrates/"
+  },
+  {
+   "id": "carbohydrates.fischer",
+   "game": "carbohydrates",
+   "mode": "fischer",
+   "title": "Fischer Projections",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-9",
+    "3B-6"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/carbohydrates/"
+  },
+  {
+   "id": "carbohydrates.haworth",
+   "game": "carbohydrates",
+   "mode": "haworth",
+   "title": "Haworth Rings",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-9"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/carbohydrates/"
+  },
+  {
+   "id": "carbohydrates.stereo",
+   "game": "carbohydrates",
+   "mode": "stereo",
+   "title": "Stereochemistry",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-6",
+    "3B-9"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/carbohydrates/"
+  },
+  {
+   "id": "carbohydrates.disacc",
+   "game": "carbohydrates",
+   "mode": "disacc",
+   "title": "Di- & Polysaccharides",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-9"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/carbohydrates/"
+  },
+  {
+   "id": "carbohydrates.react",
+   "game": "carbohydrates",
+   "mode": "react",
+   "title": "Sugar Reactions",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-9",
+    "3B-5"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/carbohydrates/"
+  },
+  {
+   "id": "chem1bready.mixed",
+   "game": "chem1bready",
+   "mode": "mixed",
+   "title": "Mixed Practice",
+   "courses": [
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1B-ready"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice",
+    "text",
+    "drawing"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/chem1bready/"
+  },
+  {
+   "id": "chem1bready.diagnostic",
+   "game": "chem1bready",
+   "mode": "diagnostic",
+   "title": "Readiness Check",
+   "courses": [
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1B-ready"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice",
+    "text"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/chem1bready/"
+  },
+  {
+   "id": "chem1bready.titration",
+   "game": "chem1bready",
+   "mode": "titration",
+   "title": "Acid–Base Stoichiometry",
+   "courses": [
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1A-3",
+    "1A-4",
+    "1B-ready",
+    "1B-14"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/chem1bready/"
+  },
+  {
+   "id": "chem1bready.limiting",
+   "game": "chem1bready",
+   "mode": "limiting",
+   "title": "Mole Match",
+   "courses": [
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1A-4",
+    "1B-ready"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/chem1bready/"
+  },
+  {
+   "id": "chem1bready.ions",
+   "game": "chem1bready",
+   "mode": "ions",
+   "title": "Dissolution Lab",
+   "courses": [
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1A-3",
+    "1A-4",
+    "1A-11",
+    "1B-ready",
+    "1B-15"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/chem1bready/"
+  },
+  {
+   "id": "chem1bready.reactions",
+   "game": "chem1bready",
+   "mode": "reactions",
+   "title": "Predicting & Balancing",
+   "courses": [
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1A-4",
+    "1B-ready",
+    "3A-10"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "text",
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/chem1bready/"
+  },
+  {
+   "id": "chem1bready.aqueous",
+   "game": "chem1bready",
+   "mode": "aqueous",
+   "title": "Reactions in Water",
+   "courses": [
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1A-4",
+    "1B-ready",
+    "1B-14"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "multiple-choice",
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/chem1bready/",
+   "bankSkills": [
+    "bridge.reactions-in-water"
+   ]
+  },
+  {
+   "id": "chem1bready.lewis",
+   "game": "chem1bready",
+   "mode": "lewis",
+   "title": "Lewis Workshop",
+   "courses": [
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1A-7",
+    "1B-ready"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "drawing",
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/chem1bready/"
+  },
+  {
+   "id": "chem1bready.geometry",
+   "game": "chem1bready",
+   "mode": "geometry",
+   "title": "Shape & Hybridization",
+   "courses": [
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1A-7",
+    "1A-8",
+    "1B-ready"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "multiple-choice",
+    "numeric"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/chem1bready/"
+  },
+  {
+   "id": "chem1bready.mo",
+   "game": "chem1bready",
+   "mode": "mo",
+   "title": "MO Explorer",
+   "courses": [
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1A-8",
+    "1B-ready"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/chem1bready/"
+  },
+  {
+   "id": "chem1bready.foundations",
+   "game": "chem1bready",
+   "mode": "foundations",
+   "title": "Core Toolkit",
+   "courses": [
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1A-1",
+    "1A-2",
+    "1A-3",
+    "1A-6",
+    "1B-ready"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "multiple-choice",
+    "numeric"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/chem1bready/",
+   "bankSkills": [
+    "bridge.core-toolkit"
+   ]
+  },
+  {
+   "id": "chem1bready.physical",
+   "game": "chem1bready",
+   "mode": "physical",
+   "title": "Matter & Energy",
+   "courses": [
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1A-5",
+    "1A-9",
+    "1A-10",
+    "1A-11",
+    "1B-ready"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "multiple-choice",
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/chem1bready/",
+   "bankSkills": [
+    "bridge.matter-energy"
+   ]
+  },
+  {
+   "id": "chem1bready.redox",
+   "game": "chem1bready",
+   "mode": "redox",
+   "title": "REDOX Refresh",
+   "courses": [
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1A-4",
+    "1B-ready",
+    "1B-17"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/chem1bready/"
+  },
+  {
+   "id": "chem1bready.kineq",
+   "game": "chem1bready",
+   "mode": "kineq",
+   "title": "Kinetics & Equilibrium Prep",
+   "courses": [
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1B-12",
+    "1B-13",
+    "1B-ready"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "multiple-choice",
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/chem1bready/",
+   "bankSkills": [
+    "bridge.kinetics-equilibrium"
+   ]
+  },
+  {
+   "id": "elements.nametosymbol",
+   "game": "elements",
+   "mode": "nameToSymbol",
+   "title": "Name → Symbol",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-2",
+    "1A-2"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "text"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/elements/"
+  },
+  {
+   "id": "elements.symboltoname",
+   "game": "elements",
+   "mode": "symbolToName",
+   "title": "Symbol → Name",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-2",
+    "1A-2"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "text"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/elements/"
+  },
+  {
+   "id": "functionalgroups.spot",
+   "game": "functionalgroups",
+   "mode": "spot",
+   "title": "Spot the Group",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-1"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/functionalgroups/"
+  },
+  {
+   "id": "functionalgroups.classify",
+   "game": "functionalgroups",
+   "mode": "classify",
+   "title": "1° 2° 3°",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-2",
+    "3B-4",
+    "3B-8"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/functionalgroups/"
+  },
+  {
+   "id": "functionalgroups.name",
+   "game": "functionalgroups",
+   "mode": "name",
+   "title": "Name It",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-2",
+    "3B-4",
+    "3B-5",
+    "3B-7",
+    "3B-8"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/functionalgroups/"
+  },
+  {
+   "id": "functionalgroups.match",
+   "game": "functionalgroups",
+   "mode": "match",
+   "title": "Draw It",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-2",
+    "3B-4",
+    "3B-5",
+    "3B-7",
+    "3B-8"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice (structure pictures)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/functionalgroups/"
+  },
+  {
+   "id": "functionalgroups.react",
+   "game": "functionalgroups",
+   "mode": "react",
+   "title": "Predict the Product",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-2",
+    "3B-4",
+    "3B-5",
+    "3B-7",
+    "3B-8"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice (structure pictures)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/functionalgroups/"
+  },
+  {
+   "id": "functionalgroups.props",
+   "game": "functionalgroups",
+   "mode": "props",
+   "title": "Properties",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-2",
+    "3B-4",
+    "3B-5",
+    "3B-7",
+    "3B-8"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/functionalgroups/"
+  },
+  {
+   "id": "functionalgroups.med",
+   "game": "functionalgroups",
+   "mode": "med",
+   "title": "Med Molecules",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-1",
+    "3B-3",
+    "3B-14"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "multiple-choice (pick labeled region A/B/...)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/functionalgroups/"
+  },
+  {
+   "id": "functionalgroups.blitz",
+   "game": "functionalgroups",
+   "mode": "blitz",
+   "title": "Blitz (60 s)",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-1"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/functionalgroups/"
+  },
+  {
+   "id": "gaslaws.units",
+   "game": "gaslaws",
+   "mode": "units",
+   "title": "Units First",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-8",
+    "3A-1",
+    "1A-9"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "numeric (absolute-tolerance, kind:abs)"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/gaslaws/"
+  },
+  {
+   "id": "gaslaws.kmt",
+   "game": "gaslaws",
+   "mode": "kmt",
+   "title": "Gas Behavior (KMT, direct vs inverse)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-8",
+    "1A-9"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/gaslaws/",
+   "bankSkills": [
+    "gaslaws.kmt"
+   ]
+  },
+  {
+   "id": "gaslaws.boyle",
+   "game": "gaslaws",
+   "mode": "boyle",
+   "title": "Boyle’s Law",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-8",
+    "1A-9"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice (equation card pick, guided step choices)"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/gaslaws/"
+  },
+  {
+   "id": "gaslaws.temp",
+   "game": "gaslaws",
+   "mode": "temp",
+   "title": "Charles & Gay-Lussac",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-8",
+    "1A-9"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice (equation card)"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/gaslaws/"
+  },
+  {
+   "id": "gaslaws.avog",
+   "game": "gaslaws",
+   "mode": "avog",
+   "title": "Avogadro’s Law",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-8",
+    "1A-9"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice (equation card)"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/gaslaws/"
+  },
+  {
+   "id": "gaslaws.combined",
+   "game": "gaslaws",
+   "mode": "combined",
+   "title": "Combined Gas Law",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-8",
+    "1A-9"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice (equation card)"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/gaslaws/"
+  },
+  {
+   "id": "gaslaws.ideal",
+   "game": "gaslaws",
+   "mode": "ideal",
+   "title": "Ideal Gas Law",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-8",
+    "1A-9"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice (equation card)"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/gaslaws/"
+  },
+  {
+   "id": "gaslaws.stp",
+   "game": "gaslaws",
+   "mode": "stp",
+   "title": "Molar Volume (STP)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-8",
+    "3A-11",
+    "1A-9"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/gaslaws/"
+  },
+  {
+   "id": "gaslaws.molar",
+   "game": "gaslaws",
+   "mode": "molar",
+   "title": "Molar Mass & Mystery Gas",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-8",
+    "1A-9"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/gaslaws/"
+  },
+  {
+   "id": "gaslaws.dalton",
+   "game": "gaslaws",
+   "mode": "dalton",
+   "title": "Partial Pressures",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-8",
+    "1A-9"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/gaslaws/"
+  },
+  {
+   "id": "gaslaws.wet",
+   "game": "gaslaws",
+   "mode": "wet",
+   "title": "Gas Over Water",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-8",
+    "1A-9"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/gaslaws/"
+  },
+  {
+   "id": "gaslaws.stoich",
+   "game": "gaslaws",
+   "mode": "stoich",
+   "title": "Gas Stoichiometry",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-11",
+    "3A-8",
+    "1A-9",
+    "1A-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/gaslaws/"
+  },
+  {
+   "id": "gaslaws.which",
+   "game": "gaslaws",
+   "mode": "which",
+   "title": "Which Law?",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-8",
+    "1A-9"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice (equation card)",
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/gaslaws/"
+  },
+  {
+   "id": "gaslaws.rms",
+   "game": "gaslaws",
+   "mode": "rms",
+   "title": "Molecular Speed",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-9"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/gaslaws/",
+   "bankSkills": [
+    "gaslaws.speed"
+   ]
+  },
+  {
+   "id": "gaslaws.graham",
+   "game": "gaslaws",
+   "mode": "graham",
+   "title": "Graham’s Law",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-9"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/gaslaws/"
+  },
+  {
+   "id": "gaslaws.real",
+   "game": "gaslaws",
+   "mode": "real",
+   "title": "Real Gases",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-9"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/gaslaws/",
+   "bankSkills": [
+    "gaslaws.real"
+   ]
+  },
+  {
+   "id": "gaslaws.mixed",
+   "game": "gaslaws",
+   "mode": "mixed",
+   "title": "Mixed (Practice Quest)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-8",
+    "1A-9"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/gaslaws/"
+  },
+  {
+   "id": "gaslaws.unit-quests",
+   "game": "gaslaws",
+   "mode": "unit quests",
+   "title": "Gas Basics / Changing Conditions / One Set of Conditions / Gas Mixtures / Gas Reactions / Speed & Real Gases (1A)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-8",
+    "1A-9"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/gaslaws/"
+  },
+  {
+   "id": "gaslaws.check",
+   "game": "gaslaws",
+   "mode": "check",
+   "title": "Readiness Check (10 questions + study plan)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-8",
+    "1A-9"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/gaslaws/"
+  },
+  {
+   "id": "ionicformula.mixed",
+   "game": "ionicformula",
+   "mode": "mixed",
+   "title": "Mixed Practice",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-4",
+    "1A-2"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "text (name)",
+    "text (formula editor with subscripts)",
+    "drag (build ionic compound from ion cards)"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/ionicformula/"
+  },
+  {
+   "id": "ionicformula.binaryionic",
+   "game": "ionicformula",
+   "mode": "binaryionic",
+   "title": "Binary Ionic Only",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-4",
+    "1A-2"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "text (name)",
+    "text (formula)",
+    "drag (build)"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/ionicformula/"
+  },
+  {
+   "id": "ionicformula.polyatomicionic",
+   "game": "ionicformula",
+   "mode": "polyatomicionic",
+   "title": "Polyatomic Ionic Only",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-4",
+    "1A-2"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "text (name)",
+    "text (formula)",
+    "drag (build)"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/ionicformula/"
+  },
+  {
+   "id": "ionicformula.name",
+   "game": "ionicformula",
+   "mode": "name",
+   "title": "Formula → Name",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-4",
+    "1A-2"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "text (name)"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/ionicformula/"
+  },
+  {
+   "id": "ionicformula.build",
+   "game": "ionicformula",
+   "mode": "build",
+   "title": "Name → Formula / Build",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-4",
+    "1A-2"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "text (formula)",
+    "drag (build)"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/ionicformula/"
+  },
+  {
+   "id": "ionicformula.acids",
+   "game": "ionicformula",
+   "mode": "acids",
+   "title": "Acids Only",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-4",
+    "1A-2"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "text (name)",
+    "text (formula)"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/ionicformula/"
+  },
+  {
+   "id": "ionicformula.covalent",
+   "game": "ionicformula",
+   "mode": "covalent",
+   "title": "Covalent Only",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-4",
+    "1A-2"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "text (name)",
+    "text (formula)"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/ionicformula/"
+  },
+  {
+   "id": "ionicformula.free",
+   "game": "ionicformula",
+   "mode": "free",
+   "title": "Free Builder Mode",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-4",
+    "1A-2"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "drag (build)",
+    "click (periodic table picker)"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/ionicformula/"
+  },
+  {
+   "id": "lewisstructures.lewis",
+   "game": "lewisstructures",
+   "mode": "lewis",
+   "title": "Lewis Builder",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-6",
+    "1A-7",
+    "1B-ready"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "numeric (valence e- count)",
+    "drawing (drag atoms, bonds, lone pairs)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/lewisstructures/"
+  },
+  {
+   "id": "lewisstructures.geometry",
+   "game": "lewisstructures",
+   "mode": "geometry",
+   "title": "VSEPR Shapes",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-6",
+    "1A-7",
+    "1B-ready"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "numeric (electron domains, lone pairs per center)",
+    "multiple-choice (shape select)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/lewisstructures/"
+  },
+  {
+   "id": "lewisstructures.polarity",
+   "game": "lewisstructures",
+   "mode": "polarity",
+   "title": "Polarity Lab",
+   "courses": [
+    "3A",
+    "1A",
+    "3B"
+   ],
+   "chapters": [
+    "3A-6",
+    "1A-7",
+    "3B-1"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "numeric (ΔEN text)",
+    "multiple-choice (polar/nonpolar, trend radio)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/lewisstructures/"
+  },
+  {
+   "id": "lewisstructures.large",
+   "game": "lewisstructures",
+   "mode": "large",
+   "title": "Multiple Centers",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-7"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "numeric",
+    "drawing"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/lewisstructures/"
+  },
+  {
+   "id": "lewisstructures.exceptions",
+   "game": "lewisstructures",
+   "mode": "exceptions",
+   "title": "Octet Exceptions",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-7"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "numeric",
+    "drawing"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/lewisstructures/"
+  },
+  {
+   "id": "lewisstructures.resonance",
+   "game": "lewisstructures",
+   "mode": "resonance",
+   "title": "Resonance",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-7"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "numeric",
+    "drawing (multiple resonance forms)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/lewisstructures/"
+  },
+  {
+   "id": "lewisstructures.lewis",
+   "game": "lewisstructures",
+   "mode": "lewis",
+   "title": "Lewis Structure Builder (3B)",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-1",
+    "1A-20"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "multiple-choice/numeric bonding-trend check",
+    "drawing"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/lewisstructures/"
+  },
+  {
+   "id": "lewisstructures.geometry",
+   "game": "lewisstructures",
+   "mode": "geometry",
+   "title": "VSEPR (3B)",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-1"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/lewisstructures/"
+  },
+  {
+   "id": "lewisstructures.expanded",
+   "game": "lewisstructures",
+   "mode": "expanded",
+   "title": "Expanded Structures",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-1",
+    "3B-2"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "drawing"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/lewisstructures/"
+  },
+  {
+   "id": "lewisstructures.condensed",
+   "game": "lewisstructures",
+   "mode": "condensed",
+   "title": "Condensed Formulas",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-1",
+    "3B-2"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "text (typed condensed formula, parsed to graph)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/lewisstructures/"
+  },
+  {
+   "id": "lewisstructures.skeletal",
+   "game": "lewisstructures",
+   "mode": "skeletal",
+   "title": "Skeletal Formulas",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-1",
+    "3B-2"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "drawing (line-angle builder)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/lewisstructures/"
+  },
+  {
+   "id": "metric.prefixtonumber",
+   "game": "metric",
+   "mode": "prefixToNumber",
+   "title": "Prefix Name → Number",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-1",
+    "1A-1"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/metric/"
+  },
+  {
+   "id": "metric.symboltonumber",
+   "game": "metric",
+   "mode": "symbolToNumber",
+   "title": "Prefix Symbol → Number",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-1",
+    "1A-1"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/metric/"
+  },
+  {
+   "id": "metric.prefixtosymbol",
+   "game": "metric",
+   "mode": "prefixToSymbol",
+   "title": "Prefix Name → Symbol",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-1",
+    "1A-1"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "text"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/metric/"
+  },
+  {
+   "id": "metric.symboltoprefix",
+   "game": "metric",
+   "mode": "symbolToPrefix",
+   "title": "Prefix Symbol → Name",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-1",
+    "1A-1"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "text"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/metric/"
+  },
+  {
+   "id": "metric.scientifictoprefix",
+   "game": "metric",
+   "mode": "scientificToPrefix",
+   "title": "Scientific Notation → Prefix",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-1",
+    "1A-1"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "text"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/metric/"
+  },
+  {
+   "id": "metric.standardtoprefix",
+   "game": "metric",
+   "mode": "standardToPrefix",
+   "title": "Standard Notation → Prefix",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-1",
+    "1A-1"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "text"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/metric/"
+  },
+  {
+   "id": "moles.learn-mole",
+   "game": "moles",
+   "mode": "learn:mole",
+   "title": "Learn Trail 1 · What Is a Mole?",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-5",
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "factor-cards"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.learn-molar",
+   "game": "moles",
+   "mode": "learn:molar",
+   "title": "Learn Trail 2 · Molar Mass",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-5",
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.learn-gmol",
+   "game": "moles",
+   "mode": "learn:gmol",
+   "title": "Learn Trail 3 · Grams ↔ Moles",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-5",
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "factor-cards"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.learn-ratio",
+   "game": "moles",
+   "mode": "learn:ratio",
+   "title": "Learn Trail 4 · Atoms in a Formula",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-5",
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "integer",
+    "factor-cards"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.learn-sense",
+   "game": "moles",
+   "mode": "learn:sense",
+   "title": "Learn Trail 5 · Mole Sense",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-5",
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.learn-road",
+   "game": "moles",
+   "mode": "learn:road",
+   "title": "Learn Trail 6 · Mole Road Map",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-5",
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "factor-cards"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.learn-percent",
+   "game": "moles",
+   "mode": "learn:percent",
+   "title": "Learn Trail 7 · Percent Composition",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-5",
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.learn-emp",
+   "game": "moles",
+   "mode": "learn:emp",
+   "title": "Learn Trail 8 · Empirical Formula",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-5",
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "formula-text",
+    "numeric"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.learn-molec",
+   "game": "moles",
+   "mode": "learn:molec",
+   "title": "Learn Trail 9 · Molecular Formula",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-5",
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "formula-text",
+    "integer"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.learn-hydrate",
+   "game": "moles",
+   "mode": "learn:hydrate",
+   "title": "Learn Trail 10 · Hydrates",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "integer",
+    "numeric",
+    "formula-text"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.learn-comb",
+   "game": "moles",
+   "mode": "learn:comb",
+   "title": "Learn Trail 11 · Combustion Analysis",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "formula-text",
+    "numeric"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.learn-soln",
+   "game": "moles",
+   "mode": "learn:soln",
+   "title": "Learn Trail 12 · Molarity & Dilution",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.mixed",
+   "game": "moles",
+   "mode": "mixed",
+   "title": "Mixed Practice",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-5",
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice",
+    "formula-text",
+    "factor-cards"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.road",
+   "game": "moles",
+   "mode": "road",
+   "title": "Mole Road Map",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-5",
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "factor-cards"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.molar",
+   "game": "moles",
+   "mode": "molar",
+   "title": "Molar Mass Lab",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-5",
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "integer"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.percent",
+   "game": "moles",
+   "mode": "percent",
+   "title": "Percent Composition",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-5",
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.formula",
+   "game": "moles",
+   "mode": "formula",
+   "title": "Formula Finder",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-5",
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "formula-text",
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.sense",
+   "game": "moles",
+   "mode": "sense",
+   "title": "Mole Sense",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-5",
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.health",
+   "game": "moles",
+   "mode": "health",
+   "title": "Health Science",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-5",
+    "1A-3"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "numeric",
+    "factor-cards"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.solution",
+   "game": "moles",
+   "mode": "solution",
+   "title": "Solution Lab",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "moles.check",
+   "game": "moles",
+   "mode": "check",
+   "title": "Skill Check Prep (10 questions + study plan)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-5",
+    "1A-3"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice",
+    "formula-text"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/moles/"
+  },
+  {
+   "id": "organic.picture-name",
+   "game": "organic",
+   "mode": "picture-name",
+   "title": "Picture → Name",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-1"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "multiple-choice (16 name buttons)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/organic/"
+  },
+  {
+   "id": "organic.name-picture",
+   "game": "organic",
+   "mode": "name-picture",
+   "title": "Name → Picture",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-1"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "multiple-choice (16 picture buttons)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/organic/"
+  },
+  {
+   "id": "organic.mixed",
+   "game": "organic",
+   "mode": "mixed",
+   "title": "Mixed Practice",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-1"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/organic/"
+  },
+  {
+   "id": "organicreactions.identify",
+   "game": "organicreactions",
+   "mode": "identify",
+   "title": "Identify the Reaction",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-2",
+    "3B-4",
+    "3B-5",
+    "3B-7",
+    "3B-8"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice (reaction type)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/organicreactions/"
+  },
+  {
+   "id": "organicreactions.product",
+   "game": "organicreactions",
+   "mode": "product",
+   "title": "Draw the Product",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-2",
+    "3B-4",
+    "3B-5",
+    "3B-7",
+    "3B-8"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "drawing (sketch pad, graded by SMILES graph match)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/organicreactions/"
+  },
+  {
+   "id": "organicreactions.reactant",
+   "game": "organicreactions",
+   "mode": "reactant",
+   "title": "Draw the Reactant",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-2",
+    "3B-4",
+    "3B-5",
+    "3B-7",
+    "3B-8"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "drawing"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/organicreactions/"
+  },
+  {
+   "id": "organicreactions.name",
+   "game": "organicreactions",
+   "mode": "name",
+   "title": "Name It",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-2",
+    "3B-4",
+    "3B-5",
+    "3B-7",
+    "3B-8"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "text (typed name; ALIAS accepts alternates)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/organicreactions/"
+  },
+  {
+   "id": "organicreactions.full",
+   "game": "organicreactions",
+   "mode": "full",
+   "title": "Full Reaction",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-2",
+    "3B-4",
+    "3B-5",
+    "3B-7",
+    "3B-8"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "drawing",
+    "multiple-choice",
+    "text"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/organicreactions/"
+  },
+  {
+   "id": "polyatomic.nametoformula",
+   "game": "polyatomic",
+   "mode": "nameToFormula",
+   "title": "Name → Formula",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-4",
+    "1A-2"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "text"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/polyatomic/"
+  },
+  {
+   "id": "polyatomic.formulatoname",
+   "game": "polyatomic",
+   "mode": "formulaToName",
+   "title": "Formula → Name",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-4",
+    "1A-2"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "text"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/polyatomic/"
+  },
+  {
+   "id": "polyatomic.mixed",
+   "game": "polyatomic",
+   "mode": "mixed",
+   "title": "Mixed: Name ↔ Formula",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-4",
+    "1A-2"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "text"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/polyatomic/"
+  },
+  {
+   "id": "quantumchemistry.light",
+   "game": "quantumchemistry",
+   "mode": "light",
+   "title": "Light & photons (1A) / Light & photons (3A)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "1A-6",
+    "3A-3"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "multiple-choice",
+    "numeric"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/quantumchemistry/",
+   "bankSkills": [
+    "quantum.light"
+   ]
+  },
+  {
+   "id": "quantumchemistry.bohr",
+   "game": "quantumchemistry",
+   "mode": "bohr",
+   "title": "Bohr & quantum ideas (1A) / Bohr model & spectra (3A)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "1A-6",
+    "3A-3"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "multiple-choice",
+    "numeric"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/quantumchemistry/",
+   "bankSkills": [
+    "quantum.bohr"
+   ]
+  },
+  {
+   "id": "quantumchemistry.numbers",
+   "game": "quantumchemistry",
+   "mode": "numbers",
+   "title": "Quantum numbers (1A) / Shells & subshells (3A)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "1A-6",
+    "3A-3"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "multiple-choice",
+    "numeric",
+    "multi-select",
+    "quantum-number-set entry (type quantumset)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/quantumchemistry/",
+   "bankSkills": [
+    "quantum.numbers"
+   ]
+  },
+  {
+   "id": "quantumchemistry.orbitals",
+   "game": "quantumchemistry",
+   "mode": "orbitals",
+   "title": "Orbital builder (1A) / Orbital diagrams (3A)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "1A-6",
+    "3A-3"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "orbital-box builder (click to cycle arrows; type orbital)",
+    "multiple-choice",
+    "multi-select"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/quantumchemistry/",
+   "bankSkills": [
+    "quantum.orbitals"
+   ]
+  },
+  {
+   "id": "quantumchemistry.config",
+   "game": "quantumchemistry",
+   "mode": "config",
+   "title": "Electron configurations",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "1A-6",
+    "3A-3"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "multiple-choice",
+    "numeric",
+    "text (typed configuration, type configinput)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/quantumchemistry/",
+   "bankSkills": [
+    "quantum.config"
+   ]
+  },
+  {
+   "id": "quantumchemistry.trends",
+   "game": "quantumchemistry",
+   "mode": "trends",
+   "title": "Periodic trends",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "1A-6",
+    "3A-3"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "multiple-choice",
+    "numeric"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/quantumchemistry/",
+   "bankSkills": [
+    "quantum.trends"
+   ]
+  },
+  {
+   "id": "quantumchemistry.mixed",
+   "game": "quantumchemistry",
+   "mode": "mixed",
+   "title": "Mixed practice",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "1A-6",
+    "3A-3"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "all of the above"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/quantumchemistry/"
+  },
+  {
+   "id": "quantumchemistry.skillcheck",
+   "game": "quantumchemistry",
+   "mode": "skillcheck",
+   "title": "Skill Check Prep (10-item quiz)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "1A-6",
+    "3A-3"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "all of the above"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/quantumchemistry/"
+  },
+  {
+   "id": "reactions.balance",
+   "game": "reactions",
+   "mode": "balance",
+   "title": "Balance Reactions",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-10",
+    "1A-4"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "numeric (coefficient boxes)",
+    "multiple-choice (reaction-type select)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/reactions/"
+  },
+  {
+   "id": "reactions.predict",
+   "game": "reactions",
+   "mode": "predict",
+   "title": "Predict Reactions (3A Beginner / Intermediate / Champion; 1A full editor)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-10",
+    "1A-4"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "text (equation editor with phases/charges)",
+    "multiple-choice (type select, does-it-react gate, guided steps)",
+    "numeric (charge entry)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/reactions/"
+  },
+  {
+   "id": "reactions.ionic",
+   "game": "reactions",
+   "mode": "ionic",
+   "title": "Net Ionic Equations (3A Beginner / Intermediate / Champion)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-10",
+    "1A-4"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "text (molecular/complete ionic/net ionic equation editor)",
+    "multiple-choice (phases, cancellation tutorial)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/reactions/"
+  },
+  {
+   "id": "reactions.blitz-types",
+   "game": "reactions",
+   "mode": "blitz:types",
+   "title": "Blitz · Reaction types",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-10",
+    "1A-4"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/reactions/"
+  },
+  {
+   "id": "reactions.blitz-sol",
+   "game": "reactions",
+   "mode": "blitz:sol",
+   "title": "Blitz · Soluble or not?",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-10",
+    "3A-9",
+    "1A-4"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/reactions/"
+  },
+  {
+   "id": "reactions.blitz-act",
+   "game": "reactions",
+   "mode": "blitz:act",
+   "title": "Blitz · Will it react? (activity series)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-10",
+    "1A-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/reactions/"
+  },
+  {
+   "id": "reactions.blitz-dd",
+   "game": "reactions",
+   "mode": "blitz:dd",
+   "title": "Blitz · What drives it? (double displacement)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-10",
+    "1A-4"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/reactions/"
+  },
+  {
+   "id": "reactions.blitz-swap",
+   "game": "reactions",
+   "mode": "blitz:swap",
+   "title": "Blitz · Mix it! (named solutions)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-10",
+    "3A-4",
+    "1A-4",
+    "1A-2"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/reactions/"
+  },
+  {
+   "id": "reactions.blitz-spec",
+   "game": "reactions",
+   "mode": "blitz:spec",
+   "title": "Blitz · Spot the spectator",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-10",
+    "1A-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/reactions/"
+  },
+  {
+   "id": "reactions.blitz-bal",
+   "game": "reactions",
+   "mode": "blitz:bal",
+   "title": "Blitz · Balanced or not?",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-10",
+    "1A-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/reactions/"
+  },
+  {
+   "id": "reactions.blitz-tf",
+   "game": "reactions",
+   "mode": "blitz:tf",
+   "title": "Blitz · True or false?",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-10",
+    "1A-4"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/reactions/"
+  },
+  {
+   "id": "reactions.blitz-all",
+   "game": "reactions",
+   "mode": "blitz:all",
+   "title": "Blitz · Mixed bag",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-10",
+    "1A-4"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/reactions/"
+  },
+  {
+   "id": "reactions.skillcheck",
+   "game": "reactions",
+   "mode": "skillcheck",
+   "title": "Skill Check Prep (10 Qs, weak-spot tracking)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-10",
+    "1A-4"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/reactions/"
+  },
+  {
+   "id": "reactions.weakspot",
+   "game": "reactions",
+   "mode": "weakspot",
+   "title": "Practice my weak spot",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-10",
+    "1A-4"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/reactions/"
+  },
+  {
+   "id": "redox.ox",
+   "game": "redox",
+   "mode": "ox",
+   "title": "Oxidation States",
+   "courses": [
+    "1A",
+    "3A"
+   ],
+   "chapters": [
+    "3A-10",
+    "1A-4"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/redox/",
+   "bankSkills": [
+    "redox.oxidation-numbers"
+   ]
+  },
+  {
+   "id": "redox.roles",
+   "game": "redox",
+   "mode": "roles",
+   "title": "Identify REDOX",
+   "courses": [
+    "1A",
+    "3A"
+   ],
+   "chapters": [
+    "3A-10",
+    "1A-4"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/redox/",
+   "bankSkills": [
+    "redox.identify"
+   ]
+  },
+  {
+   "id": "redox.activity",
+   "game": "redox",
+   "mode": "activity",
+   "title": "Activity Series",
+   "courses": [
+    "1A",
+    "3A"
+   ],
+   "chapters": [
+    "3A-10",
+    "1A-4"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/redox/",
+   "bankSkills": [
+    "redox.activity-series"
+   ]
+  },
+  {
+   "id": "redox.half",
+   "game": "redox",
+   "mode": "half",
+   "title": "Half-Reaction Method",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-4",
+    "1B-17"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/redox/",
+   "bankSkills": [
+    "redox.half-reactions"
+   ]
+  },
+  {
+   "id": "redox.acid",
+   "game": "redox",
+   "mode": "acid",
+   "title": "Acidic REDOX",
+   "courses": [
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1A-4",
+    "1B-17"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/redox/",
+   "bankSkills": [
+    "redox.acidic"
+   ]
+  },
+  {
+   "id": "redox.base",
+   "game": "redox",
+   "mode": "base",
+   "title": "Basic REDOX",
+   "courses": [
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1A-4",
+    "1B-17"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/redox/",
+   "bankSkills": [
+    "redox.basic"
+   ]
+  },
+  {
+   "id": "redox.concepts",
+   "game": "redox",
+   "mode": "concepts",
+   "title": "REDOX Concepts",
+   "courses": [
+    "3A"
+   ],
+   "chapters": [
+    "3A-10"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "multiple-choice",
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/redox/",
+   "bankSkills": [
+    "redox.concepts"
+   ]
+  },
+  {
+   "id": "redox.cells",
+   "game": "redox",
+   "mode": "cells",
+   "title": "Galvanic Cells",
+   "courses": [
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1B-17"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/redox/"
+  },
+  {
+   "id": "sigfig.count",
+   "game": "sigfig",
+   "mode": "count",
+   "title": "Count Sig Figs",
+   "courses": [
+    "3A"
+   ],
+   "chapters": [
+    "3A-1"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "text"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/sigfig/",
+   "bankSkills": [
+    "sigfig.count"
+   ]
+  },
+  {
+   "id": "sigfig.siground",
+   "game": "sigfig",
+   "mode": "siground",
+   "title": "Round to Sig Figs",
+   "courses": [
+    "3A"
+   ],
+   "chapters": [
+    "3A-1"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/sigfig/",
+   "bankSkills": [
+    "sigfig.round-sigfigs"
+   ]
+  },
+  {
+   "id": "sigfig.decimal",
+   "game": "sigfig",
+   "mode": "decimal",
+   "title": "Round to Decimal Places",
+   "courses": [
+    "3A"
+   ],
+   "chapters": [
+    "3A-1"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/sigfig/",
+   "bankSkills": [
+    "sigfig.round-decimals"
+   ]
+  },
+  {
+   "id": "sigfig.mixed",
+   "game": "sigfig",
+   "mode": "mixed",
+   "title": "Mixed Practice",
+   "courses": [
+    "3A"
+   ],
+   "chapters": [
+    "3A-1"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "text",
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/sigfig/"
+  },
+  {
+   "id": "stoichiometry.learn-recipe",
+   "game": "stoichiometry",
+   "mode": "learn:recipe",
+   "title": "Learn Trail 1 · Recipe Ratios",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-11",
+    "1A-4"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/stoichiometry/"
+  },
+  {
+   "id": "stoichiometry.learn-ratio",
+   "game": "stoichiometry",
+   "mode": "learn:ratio",
+   "title": "Learn Trail 2 · Read the Mole Ratio",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-11",
+    "1A-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/stoichiometry/"
+  },
+  {
+   "id": "stoichiometry.learn-molmol",
+   "game": "stoichiometry",
+   "mode": "learn:molmol",
+   "title": "Learn Trail 3 · Moles → Moles",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-11",
+    "1A-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "factor-cards"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/stoichiometry/"
+  },
+  {
+   "id": "stoichiometry.learn-gmol",
+   "game": "stoichiometry",
+   "mode": "learn:gmol",
+   "title": "Learn Trail 4 · Grams ↔ Moles",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-11",
+    "1A-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "factor-cards"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/stoichiometry/"
+  },
+  {
+   "id": "stoichiometry.learn-gg",
+   "game": "stoichiometry",
+   "mode": "learn:gg",
+   "title": "Learn Trail 5 · Grams → Grams",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-11",
+    "1A-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "factor-cards"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/stoichiometry/"
+  },
+  {
+   "id": "stoichiometry.learn-stp",
+   "game": "stoichiometry",
+   "mode": "learn:stp",
+   "title": "Learn Trail 6 · Gases at STP",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-11",
+    "1A-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "factor-cards"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/stoichiometry/"
+  },
+  {
+   "id": "stoichiometry.learn-soln",
+   "game": "stoichiometry",
+   "mode": "learn:soln",
+   "title": "Learn Trail 7 · Solutions: mL & M",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-11",
+    "1A-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "factor-cards"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/stoichiometry/"
+  },
+  {
+   "id": "stoichiometry.learn-limit",
+   "game": "stoichiometry",
+   "mode": "learn:limit",
+   "title": "Learn Trail 8 · Limiting Reactant",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-11",
+    "1A-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/stoichiometry/"
+  },
+  {
+   "id": "stoichiometry.learn-yield",
+   "game": "stoichiometry",
+   "mode": "learn:yield",
+   "title": "Learn Trail 9 · Percent Yield",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-11",
+    "1A-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/stoichiometry/"
+  },
+  {
+   "id": "stoichiometry.mixed",
+   "game": "stoichiometry",
+   "mode": "mixed",
+   "title": "Mixed Practice",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-11",
+    "1A-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "factor-cards",
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/stoichiometry/"
+  },
+  {
+   "id": "stoichiometry.mass",
+   "game": "stoichiometry",
+   "mode": "mass",
+   "title": "Mass Quest",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-11",
+    "1A-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "factor-cards"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/stoichiometry/"
+  },
+  {
+   "id": "stoichiometry.solution",
+   "game": "stoichiometry",
+   "mode": "solution",
+   "title": "Solution Lab",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-11",
+    "1A-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "factor-cards"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/stoichiometry/"
+  },
+  {
+   "id": "stoichiometry.gas",
+   "game": "stoichiometry",
+   "mode": "gas",
+   "title": "Gas Explorer",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-11",
+    "1A-9",
+    "1A-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "factor-cards",
+    "text"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/stoichiometry/"
+  },
+  {
+   "id": "stoichiometry.limiting",
+   "game": "stoichiometry",
+   "mode": "limiting",
+   "title": "Limiting Reactants",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-11",
+    "1A-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/stoichiometry/"
+  },
+  {
+   "id": "stoichiometry.yield",
+   "game": "stoichiometry",
+   "mode": "yield",
+   "title": "Yield Quest",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-11",
+    "1A-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/stoichiometry/"
+  },
+  {
+   "id": "stoichiometry.reaction",
+   "game": "stoichiometry",
+   "mode": "reaction",
+   "title": "Reaction → Stoichiometry",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-4",
+    "1B-ready"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "multiple-choice",
+    "coefficients/balancing",
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/stoichiometry/"
+  },
+  {
+   "id": "stoichiometry.challenge",
+   "game": "stoichiometry",
+   "mode": "challenge",
+   "title": "Challenge Mode",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-4",
+    "1B-ready"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/stoichiometry/"
+  },
+  {
+   "id": "thermochemistry.mixed",
+   "game": "thermochemistry",
+   "mode": "mixed",
+   "title": "✦ Mixed Practice (3A)",
+   "courses": [
+    "3A"
+   ],
+   "chapters": [
+    "3A-7",
+    "3A-11"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "numeric (with units, sig-fig/precision)",
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/thermochemistry/"
+  },
+  {
+   "id": "thermochemistry.identify",
+   "game": "thermochemistry",
+   "mode": "identify",
+   "title": "❄ Phase & Energy Detective",
+   "courses": [
+    "3A"
+   ],
+   "chapters": [
+    "3A-7"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/thermochemistry/",
+   "bankSkills": [
+    "thermo.phase-energy"
+   ]
+  },
+  {
+   "id": "thermochemistry.sensible",
+   "game": "thermochemistry",
+   "mode": "sensible",
+   "title": "🌡 Temperature & Heat (q = mcΔT)",
+   "courses": [
+    "3A"
+   ],
+   "chapters": [
+    "3A-7",
+    "1A-5"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric (with units, sig-fig/precision)",
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/thermochemistry/"
+  },
+  {
+   "id": "thermochemistry.latent",
+   "game": "thermochemistry",
+   "mode": "latent",
+   "title": "💧 Phase-Change Heat (q = nΔH)",
+   "courses": [
+    "3A"
+   ],
+   "chapters": [
+    "3A-7",
+    "1A-10"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric (with units, sig-fig/precision)",
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/thermochemistry/"
+  },
+  {
+   "id": "thermochemistry.explore",
+   "game": "thermochemistry",
+   "mode": "explore",
+   "title": "🧊 Heat Explorer",
+   "courses": [
+    "3A"
+   ],
+   "chapters": [
+    "3A-7"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice",
+    "numeric (with units, sig-fig/precision)",
+    "interactive sim"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/thermochemistry/"
+  },
+  {
+   "id": "thermochemistry.challenge",
+   "game": "thermochemistry",
+   "mode": "challenge",
+   "title": "🔥 Total-Heat Challenge",
+   "courses": [
+    "3A"
+   ],
+   "chapters": [
+    "3A-7",
+    "1A-10"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric (with units, sig-fig/precision)",
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/thermochemistry/"
+  },
+  {
+   "id": "thermochemistry.check3a",
+   "game": "thermochemistry",
+   "mode": "check3A",
+   "title": "10-Question Check (3A)",
+   "courses": [
+    "3A"
+   ],
+   "chapters": [
+    "3A-7"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "numeric (with units, sig-fig/precision)",
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/thermochemistry/"
+  },
+  {
+   "id": "thermochemistry.basics",
+   "game": "thermochemistry",
+   "mode": "basics",
+   "title": "🌡 Heat Foundations (1A)",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-5",
+    "1A-10"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "numeric (with units, sig-fig/precision)",
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/thermochemistry/"
+  },
+  {
+   "id": "thermochemistry.energy",
+   "game": "thermochemistry",
+   "mode": "energy",
+   "title": "⚡ Heat & Work",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-5"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric (with units, sig-fig/precision)",
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/thermochemistry/"
+  },
+  {
+   "id": "thermochemistry.calorimetry",
+   "game": "thermochemistry",
+   "mode": "calorimetry",
+   "title": "☕ Calorimetry",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-5"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric (with units, sig-fig/precision)"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/thermochemistry/"
+  },
+  {
+   "id": "thermochemistry.hess",
+   "game": "thermochemistry",
+   "mode": "hess",
+   "title": "🧩 Hess’s Law",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-5"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "interactive cards (click reverse, multiplier entry, click-to-cancel)",
+    "numeric (with units, sig-fig/precision)"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/thermochemistry/"
+  },
+  {
+   "id": "thermochemistry.formation",
+   "game": "thermochemistry",
+   "mode": "formation",
+   "title": "📋 Formation Data",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-5"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "numeric (with units, sig-fig/precision)",
+    "text (chemical formula for combustion products)",
+    "numeric (coefficients, fractions allowed)"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/thermochemistry/"
+  },
+  {
+   "id": "thermochemistry.enthalpy",
+   "game": "thermochemistry",
+   "mode": "enthalpy",
+   "title": "🧪 Enthalpy Stoichiometry",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-5",
+    "1A-4"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "numeric (with units, sig-fig/precision)",
+    "numeric (coefficients)",
+    "text (chemical formula)"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/thermochemistry/"
+  },
+  {
+   "id": "thermochemistry.advanced",
+   "game": "thermochemistry",
+   "mode": "advanced",
+   "title": "🔥 Challenge (1A)",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-5",
+    "1A-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric (with units, sig-fig/precision)",
+    "numeric (coefficients)",
+    "text (chemical formula)"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/thermochemistry/"
+  },
+  {
+   "id": "thermochemistry.mixed1a",
+   "game": "thermochemistry",
+   "mode": "mixed1A",
+   "title": "✦ Mixed Practice (1A)",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-5"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "numeric (with units, sig-fig/precision)",
+    "multiple-choice",
+    "interactive cards"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/thermochemistry/"
+  },
+  {
+   "id": "thermochemistry.check1a",
+   "game": "thermochemistry",
+   "mode": "check1A",
+   "title": "10-Question Check (1A)",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-5"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "numeric (with units, sig-fig/precision)",
+    "multiple-choice",
+    "interactive cards"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/thermochemistry/"
+  }
+ ]
+}

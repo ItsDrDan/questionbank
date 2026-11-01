@@ -1,0 +1,1284 @@
+[
+ {
+  "id": "chem1bready-ff670ffe",
+  "skill": "bridge.core-toolkit",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-1",
+   "1A-2",
+   "1A-3",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Charge balance",
+  "prompt": "Which formula represents aluminum sulfate?",
+  "answer": "Al2(SO4)3",
+  "choices": [
+   "Al2(SO4)3",
+   "AlSO4",
+   "Al3SO4",
+   "Al2SO4"
+  ],
+  "explain": "Two Al³⁺ ions and three SO₄²⁻ ions give total charge zero.",
+  "from": {
+   "game": "chem1bready",
+   "list": "CORE",
+   "index": 0
+  }
+ },
+ {
+  "id": "chem1bready-6959a614",
+  "skill": "bridge.core-toolkit",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-1",
+   "1A-2",
+   "1A-3",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Cation electron configuration",
+  "prompt": "What is the ground-state electron configuration of Fe2+?",
+  "answer": "[Ar] 3d6",
+  "choices": [
+   "[Ar] 3d6",
+   "[Ar] 4s2 3d4",
+   "[Ar] 4s1 3d5",
+   "[Ar] 3d8"
+  ],
+  "explain": "Fe loses its two 4s electrons before 3d electrons.",
+  "from": {
+   "game": "chem1bready",
+   "list": "CORE",
+   "index": 1
+  }
+ },
+ {
+  "id": "chem1bready-7dbd9b66",
+  "skill": "bridge.core-toolkit",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-1",
+   "1A-2",
+   "1A-3",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Ion vs atom",
+  "prompt": "What happens when a neutral Mg atom becomes Mg2+?",
+  "answer": "It loses two electrons",
+  "choices": [
+   "It loses two electrons",
+   "It gains two protons",
+   "It gains two electrons",
+   "It loses two neutrons"
+  ],
+  "explain": "Ion formation changes electrons, not the nuclear proton count.",
+  "from": {
+   "game": "chem1bready",
+   "list": "CORE",
+   "index": 2
+  }
+ },
+ {
+  "id": "chem1bready-305838a1",
+  "skill": "bridge.core-toolkit",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-1",
+   "1A-2",
+   "1A-3",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Periodic trends",
+  "prompt": "Which atom is larger: Na or Cl, in the same period?",
+  "answer": "Na",
+  "choices": [
+   "Na",
+   "Cl",
+   "They have identical radius",
+   "No periodic trend exists"
+  ],
+  "explain": "Across a period, increasing effective nuclear charge generally contracts atomic radius.",
+  "from": {
+   "game": "chem1bready",
+   "list": "CORE",
+   "index": 3
+  }
+ },
+ {
+  "id": "chem1bready-8c9e8496",
+  "skill": "bridge.core-toolkit",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-1",
+   "1A-2",
+   "1A-3",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Isoelectronic ions",
+  "prompt": "Which is larger: O2− or Mg2+?",
+  "answer": "O2−",
+  "choices": [
+   "O2−",
+   "Mg2+",
+   "Exactly equal",
+   "Neither has electrons"
+  ],
+  "explain": "Both have 10 electrons; lower nuclear charge gives O²⁻ the larger radius.",
+  "from": {
+   "game": "chem1bready",
+   "list": "CORE",
+   "index": 4
+  }
+ },
+ {
+  "id": "chem1bready-2222f92d",
+  "skill": "bridge.core-toolkit",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-1",
+   "1A-2",
+   "1A-3",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Electronegativity",
+  "prompt": "Which atom is most electronegative?",
+  "answer": "F",
+  "choices": [
+   "F",
+   "Na",
+   "C",
+   "Mg"
+  ],
+  "explain": "Fluorine has the greatest electronegativity among these atoms.",
+  "from": {
+   "game": "chem1bready",
+   "list": "CORE",
+   "index": 5
+  }
+ },
+ {
+  "id": "chem1bready-9e27af5d",
+  "skill": "bridge.core-toolkit",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-1",
+   "1A-2",
+   "1A-3",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Quantum numbers",
+  "prompt": "Which quantum-number pair is impossible?",
+  "answer": "n = 2, l = 2",
+  "choices": [
+   "n = 2, l = 2",
+   "n = 3, l = 2",
+   "n = 2, l = 1",
+   "n = 1, l = 0"
+  ],
+  "explain": "For a given n, l ranges from 0 through n − 1.",
+  "from": {
+   "game": "chem1bready",
+   "list": "CORE",
+   "index": 6
+  }
+ },
+ {
+  "id": "chem1bready-25d12f9e",
+  "skill": "bridge.core-toolkit",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-1",
+   "1A-2",
+   "1A-3",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Hund’s rule",
+  "prompt": "How are three electrons arranged in three degenerate p orbitals?",
+  "answer": "One in each orbital, parallel spins",
+  "choices": [
+   "One in each orbital, parallel spins",
+   "Pair two before filling the third",
+   "All three in one orbital",
+   "One orbital holds three spins"
+  ],
+  "explain": "Singly occupy each equal-energy orbital with parallel spins before pairing.",
+  "from": {
+   "game": "chem1bready",
+   "list": "CORE",
+   "index": 7
+  }
+ },
+ {
+  "id": "chem1bready-565bd3fd",
+  "skill": "bridge.core-toolkit",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-1",
+   "1A-2",
+   "1A-3",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Empirical vs molecular",
+  "prompt": "A compound has empirical formula CH2O and molar mass 180.16 g/mol. Which molecular formula fits?",
+  "answer": "C6H12O6",
+  "choices": [
+   "C6H12O6",
+   "CH2O",
+   "C3H6O3",
+   "C12H24O12"
+  ],
+  "explain": "The empirical formula mass is about 30.03 g/mol; multiplier ≈ 6.",
+  "from": {
+   "game": "chem1bready",
+   "list": "CORE",
+   "index": 8
+  }
+ },
+ {
+  "id": "chem1bready-cdfdfb34",
+  "skill": "bridge.core-toolkit",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-1",
+   "1A-2",
+   "1A-3",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Sig figs",
+  "prompt": "How many significant figures are in 0.004070?",
+  "answer": "4",
+  "choices": [
+   "4",
+   "2",
+   "3",
+   "6"
+  ],
+  "explain": "Leading zeros are placeholders; the internal zero and trailing decimal zero are significant.",
+  "from": {
+   "game": "chem1bready",
+   "list": "CORE",
+   "index": 9
+  }
+ },
+ {
+  "id": "chem1bready-1442e1b3",
+  "skill": "bridge.core-toolkit",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-1",
+   "1A-2",
+   "1A-3",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Accuracy vs precision",
+  "prompt": "Measurements cluster tightly but far from the accepted value. They are…",
+  "answer": "Precise but inaccurate",
+  "choices": [
+   "Precise but inaccurate",
+   "Accurate but imprecise",
+   "Both accurate and precise",
+   "Neither measurable nor reportable"
+  ],
+  "explain": "Precision concerns agreement among measurements; accuracy concerns agreement with the accepted value.",
+  "from": {
+   "game": "chem1bready",
+   "list": "CORE",
+   "index": 10
+  }
+ },
+ {
+  "id": "chem1bready-28932d4a",
+  "skill": "bridge.core-toolkit",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-1",
+   "1A-2",
+   "1A-3",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Matter classification",
+  "prompt": "A uniform salt solution is best classified as…",
+  "answer": "A homogeneous mixture",
+  "choices": [
+   "A homogeneous mixture",
+   "A pure element",
+   "A pure compound",
+   "A heterogeneous mixture with visible phases"
+  ],
+  "explain": "A solution is a homogeneous mixture; its composition can vary.",
+  "from": {
+   "game": "chem1bready",
+   "list": "CORE",
+   "index": 11
+  }
+ },
+ {
+  "id": "chem1bready-0e6baa13",
+  "skill": "bridge.matter-energy",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-5",
+   "1A-9",
+   "1A-10",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Intermolecular forces",
+  "prompt": "What strongest intermolecular attraction occurs between water molecules?",
+  "answer": "Hydrogen bonding",
+  "choices": [
+   "Hydrogen bonding",
+   "Covalent O–H bonding between molecules",
+   "Metallic bonding",
+   "Only London dispersion"
+  ],
+  "explain": "Water has hydrogen bonded to oxygen and an oxygen lone pair on neighboring molecules.",
+  "from": {
+   "game": "chem1bready",
+   "list": "PHYSICAL",
+   "index": 0
+  }
+ },
+ {
+  "id": "chem1bready-97290cdd",
+  "skill": "bridge.matter-energy",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-5",
+   "1A-9",
+   "1A-10",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Dispersion forces",
+  "prompt": "Which statement about London dispersion forces is correct?",
+  "answer": "All atoms and molecules exhibit them",
+  "choices": [
+   "All atoms and molecules exhibit them",
+   "Only polar molecules exhibit them",
+   "They are covalent bonds",
+   "They require hydrogen bonded to fluorine"
+  ],
+  "explain": "Temporary correlated electron-density fluctuations create dispersion attractions.",
+  "from": {
+   "game": "chem1bready",
+   "list": "PHYSICAL",
+   "index": 1
+  }
+ },
+ {
+  "id": "chem1bready-f960cede",
+  "skill": "bridge.matter-energy",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-5",
+   "1A-9",
+   "1A-10",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Vapor pressure",
+  "prompt": "At the same temperature, stronger intermolecular attractions generally give…",
+  "answer": "Lower vapor pressure",
+  "choices": [
+   "Lower vapor pressure",
+   "Higher vapor pressure",
+   "Exactly zero vapor pressure",
+   "No change in boiling point"
+  ],
+  "explain": "Fewer molecules escape into the vapor when attractions are stronger.",
+  "from": {
+   "game": "chem1bready",
+   "list": "PHYSICAL",
+   "index": 2
+  }
+ },
+ {
+  "id": "chem1bready-1977c44a",
+  "skill": "bridge.matter-energy",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-5",
+   "1A-9",
+   "1A-10",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Dissolving a salt",
+  "prompt": "What interaction helps stabilize ions in water?",
+  "answer": "Ion–dipole attractions",
+  "choices": [
+   "Ion–dipole attractions",
+   "Only ion–ion attractions in a crystal",
+   "Covalent bonding of every ion to water",
+   "Metallic electron sea"
+  ],
+  "explain": "Water’s polar dipoles hydrate dissolved ions.",
+  "from": {
+   "game": "chem1bready",
+   "list": "PHYSICAL",
+   "index": 3
+  }
+ },
+ {
+  "id": "chem1bready-bbd63698",
+  "skill": "bridge.matter-energy",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-5",
+   "1A-9",
+   "1A-10",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Entropy intuition",
+  "prompt": "A gas expands into a larger volume at the same temperature. Which direction is favored for the gas entropy?",
+  "answer": "Increase",
+  "choices": [
+   "Increase",
+   "Decrease",
+   "Exactly unchanged in all cases",
+   "Entropy becomes negative"
+  ],
+  "explain": "The gas has more accessible positional microstates in the larger volume.",
+  "from": {
+   "game": "chem1bready",
+   "list": "PHYSICAL",
+   "index": 4
+  }
+ },
+ {
+  "id": "chem1bready-d43a3e32",
+  "skill": "bridge.matter-energy",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-5",
+   "1A-9",
+   "1A-10",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Dissolution energetics",
+  "prompt": "Breaking an ionic lattice by separating its ions is…",
+  "answer": "Energy absorbing",
+  "choices": [
+   "Energy absorbing",
+   "Always energy releasing",
+   "Always neutralization",
+   "Always a reduction"
+  ],
+  "explain": "Separating oppositely charged ions requires energy; hydration releases energy. The total can have either sign.",
+  "from": {
+   "game": "chem1bready",
+   "list": "PHYSICAL",
+   "index": 5
+  }
+ },
+ {
+  "id": "chem1bready-13da3e8d",
+  "skill": "bridge.matter-energy",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-5",
+   "1A-9",
+   "1A-10",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Electrolytes",
+  "prompt": "Which gives the greatest ideal dissolved-particle concentration at equal formula-equivalent molarity?",
+  "answer": "AlCl3",
+  "choices": [
+   "AlCl3",
+   "NaCl",
+   "Glucose",
+   "CaCl2"
+  ],
+  "explain": "Complete dissociation gives AlCl₃ four ions, CaCl₂ three, NaCl two; glucose stays molecular.",
+  "from": {
+   "game": "chem1bready",
+   "list": "PHYSICAL",
+   "index": 6
+  }
+ },
+ {
+  "id": "chem1bready-907f9e94",
+  "skill": "bridge.matter-energy",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-5",
+   "1A-9",
+   "1A-10",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Kinetic molecular theory",
+  "prompt": "Two ideal gases have the same temperature. They have the same…",
+  "answer": "Average translational kinetic energy",
+  "choices": [
+   "Average translational kinetic energy",
+   "Average molecular speed",
+   "Molecular mass",
+   "Density"
+  ],
+  "explain": "Average translational kinetic energy depends on absolute temperature; average speeds also depend on mass.",
+  "from": {
+   "game": "chem1bready",
+   "list": "PHYSICAL",
+   "index": 7
+  }
+ },
+ {
+  "id": "chem1bready-ab3e9896",
+  "skill": "bridge.matter-energy",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-5",
+   "1A-9",
+   "1A-10",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Crystal classes",
+  "prompt": "Which solid is a covalent network?",
+  "answer": "Diamond",
+  "choices": [
+   "Diamond",
+   "Solid argon",
+   "NaCl crystal",
+   "Solid methane"
+  ],
+  "explain": "Diamond has an extended covalent network; molecular or atomic solids are held by intermolecular attractions.",
+  "from": {
+   "game": "chem1bready",
+   "list": "PHYSICAL",
+   "index": 8
+  }
+ },
+ {
+  "id": "chem1bready-b2b5ab2c",
+  "skill": "bridge.matter-energy",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-5",
+   "1A-9",
+   "1A-10",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Colligative idea",
+  "prompt": "Which changes depend primarily on dissolved-particle count in the ideal dilute limit?",
+  "answer": "Freezing-point depression",
+  "choices": [
+   "Freezing-point depression",
+   "Chemical identity alone determines all effects",
+   "Atomic number of the solvent only",
+   "Oxidation state changes"
+  ],
+  "explain": "Colligative properties depend on solute particle concentration, with electrolyte dissociation affecting particle count.",
+  "from": {
+   "game": "chem1bready",
+   "list": "PHYSICAL",
+   "index": 9
+  }
+ },
+ {
+  "id": "chem1bready-84ba6f9c",
+  "skill": "bridge.reactions-in-water",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-ready",
+   "1B-14"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Strong acid in water",
+  "prompt": "What best represents HCl(aq)?",
+  "answer": "Hydrated H3O+ and Cl− ions",
+  "choices": [
+   "Hydrated H3O+ and Cl− ions",
+   "Intact HCl molecules only",
+   "H and Cl neutral atoms",
+   "Solid HCl crystals"
+  ],
+  "explain": "HCl ionizes essentially completely in water: HCl + H₂O → H₃O⁺ + Cl⁻.",
+  "from": {
+   "game": "chem1bready",
+   "list": "WATER_CONCEPTS",
+   "index": 0
+  }
+ },
+ {
+  "id": "chem1bready-1e9c9449",
+  "skill": "bridge.reactions-in-water",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-ready",
+   "1B-14"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Weak acid in water",
+  "prompt": "What best describes CH3COOH(aq) before adding base?",
+  "answer": "Mostly acid molecules with some ions",
+  "choices": [
+   "Mostly acid molecules with some ions",
+   "Only free H+ and acetate ions",
+   "No particles are present",
+   "Only neutral carbon atoms"
+  ],
+  "explain": "A weak acid is only partially ionized. Weak does not mean dilute.",
+  "from": {
+   "game": "chem1bready",
+   "list": "WATER_CONCEPTS",
+   "index": 1
+  }
+ },
+ {
+  "id": "chem1bready-972a999d",
+  "skill": "bridge.reactions-in-water",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-ready",
+   "1B-14"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Weak acid + strong base",
+  "prompt": "Choose the net ionic reaction.",
+  "answer": "CH3COOH + OH− → CH3COO− + H2O",
+  "choices": [
+   "CH3COOH + OH− → CH3COO− + H2O",
+   "Na+ + Cl− → NaCl(s)",
+   "CH3COOH → C + H2",
+   "H2O → H2 + O2"
+  ],
+  "explain": "Do not split a weak acid into ions. Hydroxide removes its acidic proton and produces conjugate base.",
+  "from": {
+   "game": "chem1bready",
+   "list": "WATER_CONCEPTS",
+   "index": 2
+  }
+ },
+ {
+  "id": "chem1bready-ddd6bd48",
+  "skill": "bridge.reactions-in-water",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-ready",
+   "1B-14"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "At equivalence",
+  "prompt": "A weak monoprotic acid is titrated exactly with NaOH. What acid-derived species dominates after stoichiometric reaction?",
+  "answer": "Its conjugate base",
+  "choices": [
+   "Its conjugate base",
+   "Unreacted acid exclusively",
+   "Excess hydroxide from titrant",
+   "Neutral metal atoms"
+  ],
+  "explain": "Neutralization makes the conjugate base. Subsequent hydrolysis is an equilibrium problem, not extra stoichiometric OH⁻.",
+  "from": {
+   "game": "chem1bready",
+   "list": "WATER_CONCEPTS",
+   "index": 3
+  }
+ },
+ {
+  "id": "chem1bready-cfdc59c2",
+  "skill": "bridge.reactions-in-water",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-ready",
+   "1B-14"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Salt or precipitate?",
+  "prompt": "NaNO3(aq) appears in a molecular precipitation equation. What is actually dissolved?",
+  "answer": "Na+ and NO3− ions",
+  "choices": [
+   "Na+ and NO3− ions",
+   "Neutral NaNO3 molecules only",
+   "Na metal and nitrogen gas",
+   "NaNO3 precipitate"
+  ],
+  "explain": "Soluble strong electrolytes remain as hydrated ions.",
+  "from": {
+   "game": "chem1bready",
+   "list": "WATER_CONCEPTS",
+   "index": 4
+  }
+ },
+ {
+  "id": "chem1bready-df67c31a",
+  "skill": "bridge.reactions-in-water",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-ready",
+   "1B-14"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Net ionic spectators",
+  "prompt": "For HCl(aq) + NaOH(aq), which ions are spectators?",
+  "answer": "Na+ and Cl−",
+  "choices": [
+   "Na+ and Cl−",
+   "H3O+ and OH−",
+   "Na+ and OH−",
+   "Cl− and H3O+"
+  ],
+  "explain": "Na⁺ and Cl⁻ remain dissolved before and after the reaction.",
+  "from": {
+   "game": "chem1bready",
+   "list": "WATER_CONCEPTS",
+   "index": 5
+  }
+ },
+ {
+  "id": "chem1bready-e1a33746",
+  "skill": "bridge.reactions-in-water",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-ready",
+   "1B-14"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Gas evolution",
+  "prompt": "Acid reacts with carbonate. Which products explain the bubbling?",
+  "answer": "CO2(g) and H2O(l)",
+  "choices": [
+   "CO2(g) and H2O(l)",
+   "O2(g) only",
+   "H2(g) and O2(g)",
+   "Solid elemental carbon"
+  ],
+  "explain": "Carbonic acid formed by protonating carbonate decomposes into CO₂ and water.",
+  "from": {
+   "game": "chem1bready",
+   "list": "WATER_CONCEPTS",
+   "index": 6
+  }
+ },
+ {
+  "id": "chem1bready-12edf0e8",
+  "skill": "bridge.reactions-in-water",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-ready",
+   "1B-14"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Equivalence vs endpoint",
+  "prompt": "Which statement is correct?",
+  "answer": "Equivalence is stoichiometric; endpoint is an observed signal",
+  "choices": [
+   "Equivalence is stoichiometric; endpoint is an observed signal",
+   "They always mean exactly the same volume",
+   "Endpoint means all ions disappear",
+   "Equivalence always means pH 7"
+  ],
+  "explain": "The endpoint is the indicator or instrument response; it approximates equivalence.",
+  "from": {
+   "game": "chem1bready",
+   "list": "WATER_CONCEPTS",
+   "index": 7
+  }
+ },
+ {
+  "id": "chem1bready-471305f9",
+  "skill": "bridge.reactions-in-water",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-ready",
+   "1B-14"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Water orientation",
+  "prompt": "Which end of water points preferentially toward Ca2+?",
+  "answer": "Oxygen end",
+  "choices": [
+   "Oxygen end",
+   "Hydrogen end",
+   "Both ends equally",
+   "Water has no polarity"
+  ],
+  "explain": "Oxygen is the partially negative end; ion–dipole attractions hydrate cations.",
+  "from": {
+   "game": "chem1bready",
+   "list": "WATER_CONCEPTS",
+   "index": 8
+  }
+ },
+ {
+  "id": "chem1bready-05969dc1",
+  "skill": "bridge.reactions-in-water",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-ready",
+   "1B-14"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Precipitation",
+  "prompt": "AgNO3(aq) + NaCl(aq) forms AgCl(s). Which pair is removed into the solid?",
+  "answer": "Ag+ and Cl−",
+  "choices": [
+   "Ag+ and Cl−",
+   "Na+ and NO3−",
+   "Na+ and Cl−",
+   "Ag+ and NO3−"
+  ],
+  "explain": "Ag⁺ + Cl⁻ → AgCl(s); Na⁺ and NO₃⁻ remain dissolved.",
+  "from": {
+   "game": "chem1bready",
+   "list": "WATER_CONCEPTS",
+   "index": 9
+  }
+ },
+ {
+  "id": "chem1bready-a87be7a1",
+  "skill": "bridge.kinetics-equilibrium",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Equilibrium is dynamic",
+  "prompt": "A reaction has reached equilibrium. What is true?",
+  "answer": "The forward and reverse rates are equal",
+  "choices": [
+   "The forward and reverse rates are equal",
+   "Both reactions have stopped",
+   "Reactant and product concentrations must be equal",
+   "All reactants have been used up"
+  ],
+  "explain": "At equilibrium both reactions continue at the same rate, so concentrations stay constant (not necessarily equal).",
+  "from": {
+   "game": "chem1bready",
+   "list": "KE_CONCEPTS",
+   "index": 0
+  }
+ },
+ {
+  "id": "chem1bready-0477bd84",
+  "skill": "bridge.kinetics-equilibrium",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Square brackets",
+  "prompt": "In kinetics and equilibrium, what does [NO2] mean?",
+  "answer": "The molar concentration of NO2 (mol/L)",
+  "choices": [
+   "The molar concentration of NO2 (mol/L)",
+   "The mass of NO2 in grams",
+   "The number of NO2 molecules",
+   "The partial pressure of NO2 in torr"
+  ],
+  "explain": "Brackets mean molarity: moles of solute per liter of solution or container volume.",
+  "from": {
+   "game": "chem1bready",
+   "list": "KE_CONCEPTS",
+   "index": 1
+  }
+ },
+ {
+  "id": "chem1bready-7c24336a",
+  "skill": "bridge.kinetics-equilibrium",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Phases in an equation",
+  "prompt": "In CaCO3(s) ⇌ CaO(s) + CO2(g), which species is a gas?",
+  "answer": "CO2",
+  "choices": [
+   "CO2",
+   "CaCO3",
+   "CaO",
+   "None of them"
+  ],
+  "explain": "Read the state symbols: (s) solid, (l) liquid, (g) gas, (aq) dissolved in water. Only CO₂ is (g).",
+  "from": {
+   "game": "chem1bready",
+   "list": "KE_CONCEPTS",
+   "index": 2
+  }
+ },
+ {
+  "id": "chem1bready-e08bef28",
+  "skill": "bridge.kinetics-equilibrium",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Heat in an equation",
+  "prompt": "For N2(g) + 3 H2(g) → 2 NH3(g), ΔH = −92 kJ. Where does heat appear if you write it into the equation?",
+  "answer": "As a product",
+  "choices": [
+   "As a product",
+   "As a reactant",
+   "On both sides",
+   "Heat is not involved"
+  ],
+  "explain": "A negative ΔH (exothermic) releases heat, so heat is written on the product side.",
+  "from": {
+   "game": "chem1bready",
+   "list": "KE_CONCEPTS",
+   "index": 3
+  }
+ },
+ {
+  "id": "chem1bready-23886916",
+  "skill": "bridge.kinetics-equilibrium",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Endothermic",
+  "prompt": "ΔH = +57 kJ for N2O4(g) → 2 NO2(g). What does this mean?",
+  "answer": "The reaction absorbs heat; heat acts like a reactant",
+  "choices": [
+   "The reaction absorbs heat; heat acts like a reactant",
+   "The reaction releases heat; heat acts like a product",
+   "The reaction is always fast",
+   "The reaction cannot happen"
+  ],
+  "explain": "Positive ΔH is endothermic: heat is taken in, so it behaves like a reactant.",
+  "from": {
+   "game": "chem1bready",
+   "list": "KE_CONCEPTS",
+   "index": 4
+  }
+ },
+ {
+  "id": "chem1bready-5ed83a39",
+  "skill": "bridge.kinetics-equilibrium",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Catalyst",
+  "prompt": "What does a catalyst do?",
+  "answer": "Speeds up a reaction without being used up",
+  "choices": [
+   "Speeds up a reaction without being used up",
+   "Changes the products that form",
+   "Is used up as a reactant",
+   "Makes an exothermic reaction endothermic"
+  ],
+  "explain": "A catalyst gives a faster pathway (lower activation energy) and is regenerated; ΔH and products are unchanged.",
+  "from": {
+   "game": "chem1bready",
+   "list": "KE_CONCEPTS",
+   "index": 5
+  }
+ },
+ {
+  "id": "chem1bready-5b144dab",
+  "skill": "bridge.kinetics-equilibrium",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Why reactions speed up",
+  "prompt": "Why does raising the temperature usually speed up a reaction?",
+  "answer": "Particles move faster and collide harder and more often",
+  "choices": [
+   "Particles move faster and collide harder and more often",
+   "Molecules get larger",
+   "The number of reactant molecules increases",
+   "Products stop forming"
+  ],
+  "explain": "Faster particles collide more often and more of the collisions have enough energy to react.",
+  "from": {
+   "game": "chem1bready",
+   "list": "KE_CONCEPTS",
+   "index": 6
+  }
+ },
+ {
+  "id": "chem1bready-67861d96",
+  "skill": "bridge.kinetics-equilibrium",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Strong or weak acid",
+  "prompt": "Which acid is weak (only partly ionized in water)?",
+  "answer": "HF",
+  "choices": [
+   "HF",
+   "HCl",
+   "HNO3",
+   "HBr"
+  ],
+  "explain": "On the green sheet, HCl, HBr, HI, HNO₃, H₂SO₄ and HClO₄ are strong; HF is weak.",
+  "from": {
+   "game": "chem1bready",
+   "list": "KE_CONCEPTS",
+   "index": 7
+  }
+ },
+ {
+  "id": "chem1bready-de058c98",
+  "skill": "bridge.kinetics-equilibrium",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Concentration and collisions",
+  "prompt": "You double the concentration of a reactant in solution. What happens to the collisions per second?",
+  "answer": "They increase (more particles in the same volume)",
+  "choices": [
+   "They increase (more particles in the same volume)",
+   "They decrease",
+   "They stay the same",
+   "They stop"
+  ],
+  "explain": "More particles per liter means more frequent collisions, a key idea behind rate laws.",
+  "from": {
+   "game": "chem1bready",
+   "list": "KE_CONCEPTS",
+   "index": 8
+  }
+ },
+ {
+  "id": "chem1bready-54ce6514",
+  "skill": "bridge.kinetics-equilibrium",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Gas pressure and moles",
+  "prompt": "At constant T and V, you double the moles of a gas. What happens to its pressure?",
+  "answer": "It doubles",
+  "choices": [
+   "It doubles",
+   "It halves",
+   "It stays the same",
+   "It becomes zero"
+  ],
+  "explain": "P = nRT/V, so at constant T and V pressure is directly proportional to moles.",
+  "from": {
+   "game": "chem1bready",
+   "list": "KE_CONCEPTS",
+   "index": 9
+  }
+ }
+]

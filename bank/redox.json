@@ -1,0 +1,8384 @@
+[
+ {
+  "id": "redox-35dab8c8",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of O in O₂?",
+  "answer": "0",
+  "hint": "A pure element has an oxidation state of 0.",
+  "explain": "O₂ is an elemental form, so O = 0.",
+  "data": {
+   "f": "O₂",
+   "target": "O",
+   "ans": "0",
+   "hint": "A pure element has an oxidation state of 0.",
+   "why": "O₂ is an elemental form, so O = 0."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 0
+  }
+ },
+ {
+  "id": "redox-5579518d",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of S (average) in Na₂S₂O₃?",
+  "answer": "2",
+  "hint": "Na = +1 and O = −2. The oxidation states must add to 0.",
+  "explain": "2(+1) + 2(S) + 3(−2) = 0, so the average S oxidation state is +2.",
+  "data": {
+   "f": "Na₂S₂O₃",
+   "target": "S (average)",
+   "ans": "2",
+   "hint": "Na = +1 and O = −2. The oxidation states must add to 0.",
+   "why": "2(+1) + 2(S) + 3(−2) = 0, so the average S oxidation state is +2."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 1
+  }
+ },
+ {
+  "id": "redox-672c7e48",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of P in Mg₂P₂O₇?",
+  "answer": "5",
+  "hint": "Mg = +2 and O = −2.",
+  "explain": "2(+2) + 2(P) + 7(−2) = 0, so P = +5.",
+  "data": {
+   "f": "Mg₂P₂O₇",
+   "target": "P",
+   "ans": "5",
+   "hint": "Mg = +2 and O = −2.",
+   "why": "2(+2) + 2(P) + 7(−2) = 0, so P = +5."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 2
+  }
+ },
+ {
+  "id": "redox-3949391a",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of Hg in Hg₂Cl₂?",
+  "answer": "1",
+  "hint": "Cl is usually −1.",
+  "explain": "2(Hg) + 2(−1) = 0, so each Hg = +1.",
+  "data": {
+   "f": "Hg₂Cl₂",
+   "target": "Hg",
+   "ans": "1",
+   "hint": "Cl is usually −1.",
+   "why": "2(Hg) + 2(−1) = 0, so each Hg = +1."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 3
+  }
+ },
+ {
+  "id": "redox-1aaad63b",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of O in H₂O₂?",
+  "answer": "-1",
+  "hint": "This is a peroxide — an exception to the usual oxygen rule.",
+  "explain": "In a peroxide, O = −1.",
+  "data": {
+   "f": "H₂O₂",
+   "target": "O",
+   "ans": "-1",
+   "hint": "This is a peroxide — an exception to the usual oxygen rule.",
+   "why": "In a peroxide, O = −1."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 4
+  }
+ },
+ {
+  "id": "redox-ed040f58",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of Mn in KMnO₄?",
+  "answer": "7",
+  "hint": "K = +1 and O = −2.",
+  "explain": "+1 + Mn + 4(−2)=0, so Mn = +7.",
+  "data": {
+   "f": "KMnO₄",
+   "target": "Mn",
+   "ans": "7",
+   "hint": "K = +1 and O = −2.",
+   "why": "+1 + Mn + 4(−2)=0, so Mn = +7."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 5
+  }
+ },
+ {
+  "id": "redox-ac4d83ff",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of Cr in Cr₂O₇²⁻?",
+  "answer": "6",
+  "hint": "The oxidation-state sum must equal the ion charge (−2).",
+  "explain": "2(Cr)+7(−2)=−2, so Cr = +6.",
+  "data": {
+   "f": "Cr₂O₇²⁻",
+   "target": "Cr",
+   "ans": "6",
+   "hint": "The oxidation-state sum must equal the ion charge (−2).",
+   "why": "2(Cr)+7(−2)=−2, so Cr = +6."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 6
+  }
+ },
+ {
+  "id": "redox-0355eff7",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of N in NH₄⁺?",
+  "answer": "-3",
+  "hint": "H is +1 in this ion.",
+  "explain": "N + 4(+1)=+1, so N = −3.",
+  "data": {
+   "f": "NH₄⁺",
+   "target": "N",
+   "ans": "-3",
+   "hint": "H is +1 in this ion.",
+   "why": "N + 4(+1)=+1, so N = −3."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 7
+  }
+ },
+ {
+  "id": "redox-58763fbc",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of S in SO₄²⁻?",
+  "answer": "6",
+  "hint": "O is −2 and the sum equals −2.",
+  "explain": "S + 4(−2)=−2, so S = +6.",
+  "data": {
+   "f": "SO₄²⁻",
+   "target": "S",
+   "ans": "6",
+   "hint": "O is −2 and the sum equals −2.",
+   "why": "S + 4(−2)=−2, so S = +6."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 8
+  }
+ },
+ {
+  "id": "redox-62ac49d7",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of Cl in ClO₃⁻?",
+  "answer": "5",
+  "hint": "O is −2. The oxidation-state sum equals −1.",
+  "explain": "Cl + 3(−2)=−1, so Cl = +5.",
+  "data": {
+   "f": "ClO₃⁻",
+   "target": "Cl",
+   "ans": "5",
+   "hint": "O is −2. The oxidation-state sum equals −1.",
+   "why": "Cl + 3(−2)=−1, so Cl = +5."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 9
+  }
+ },
+ {
+  "id": "redox-d959baff",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of Fe in Fe₂O₃?",
+  "answer": "3",
+  "hint": "O is −2.",
+  "explain": "2(Fe)+3(−2)=0, so Fe = +3.",
+  "data": {
+   "f": "Fe₂O₃",
+   "target": "Fe",
+   "ans": "3",
+   "hint": "O is −2.",
+   "why": "2(Fe)+3(−2)=0, so Fe = +3."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 10
+  }
+ },
+ {
+  "id": "redox-d6d409a0",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of H in CaH₂?",
+  "answer": "-1",
+  "hint": "Hydrogen is usually +1, but metal hydrides are an exception.",
+  "explain": "Ca is +2, so each H must be −1.",
+  "data": {
+   "f": "CaH₂",
+   "target": "H",
+   "ans": "-1",
+   "hint": "Hydrogen is usually +1, but metal hydrides are an exception.",
+   "why": "Ca is +2, so each H must be −1."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 11
+  }
+ },
+ {
+  "id": "redox-6e7ff694",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of Br in BrF₄⁻?",
+  "answer": "3",
+  "hint": "F is always −1. The sum equals −1.",
+  "explain": "Br + 4(−1)=−1, so Br = +3.",
+  "data": {
+   "f": "BrF₄⁻",
+   "target": "Br",
+   "ans": "3",
+   "hint": "F is always −1. The sum equals −1.",
+   "why": "Br + 4(−1)=−1, so Br = +3."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 12
+  }
+ },
+ {
+  "id": "redox-5c466b14",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of C (average) in C₂H₆?",
+  "answer": "-3",
+  "hint": "H = +1 with a nonmetal.",
+  "explain": "2(C)+6(+1)=0, so each C averages −3.",
+  "data": {
+   "f": "C₂H₆",
+   "target": "C (average)",
+   "ans": "-3",
+   "hint": "H = +1 with a nonmetal.",
+   "why": "2(C)+6(+1)=0, so each C averages −3."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 13
+  }
+ },
+ {
+  "id": "redox-64de9d20",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of Cr in K₂Cr₂O₇?",
+  "answer": "6",
+  "hint": "K = +1 and O = −2.",
+  "explain": "2(+1) + 2(Cr) + 7(−2) = 0, so Cr = +6.",
+  "data": {
+   "f": "K₂Cr₂O₇",
+   "target": "Cr",
+   "ans": "6",
+   "hint": "K = +1 and O = −2.",
+   "why": "2(+1) + 2(Cr) + 7(−2) = 0, so Cr = +6."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 14
+  }
+ },
+ {
+  "id": "redox-27dc96a4",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of P in H₃PO₄?",
+  "answer": "5",
+  "hint": "H = +1 and O = −2.",
+  "explain": "3(+1) + P + 4(−2) = 0, so P = +5.",
+  "data": {
+   "f": "H₃PO₄",
+   "target": "P",
+   "ans": "5",
+   "hint": "H = +1 and O = −2.",
+   "why": "3(+1) + P + 4(−2) = 0, so P = +5."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 15
+  }
+ },
+ {
+  "id": "redox-7ab686f9",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of C in CO₃²⁻?",
+  "answer": "4",
+  "hint": "O is −2 and the sum equals the ion charge (−2).",
+  "explain": "C + 3(−2) = −2, so C = +4.",
+  "data": {
+   "f": "CO₃²⁻",
+   "target": "C",
+   "ans": "4",
+   "hint": "O is −2 and the sum equals the ion charge (−2).",
+   "why": "C + 3(−2) = −2, so C = +4."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 16
+  }
+ },
+ {
+  "id": "redox-dc60a2b6",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of N in N₂O?",
+  "answer": "1",
+  "hint": "O is −2 and the molecule is neutral. Both N atoms are equivalent here.",
+  "explain": "2(N) + (−2) = 0, so N = +1.",
+  "data": {
+   "f": "N₂O",
+   "target": "N",
+   "ans": "1",
+   "hint": "O is −2 and the molecule is neutral. Both N atoms are equivalent here.",
+   "why": "2(N) + (−2) = 0, so N = +1."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 17
+  }
+ },
+ {
+  "id": "redox-3bc11e45",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of H in LiAlH₄?",
+  "answer": "-1",
+  "hint": "Li = +1 and Al = +3. This is a metal hydride.",
+  "explain": "+1 + 3 + 4(H) = 0, so each H = −1.",
+  "data": {
+   "f": "LiAlH₄",
+   "target": "H",
+   "ans": "-1",
+   "hint": "Li = +1 and Al = +3. This is a metal hydride.",
+   "why": "+1 + 3 + 4(H) = 0, so each H = −1."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 18
+  }
+ },
+ {
+  "id": "redox-e20311cd",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of Mn in MnO₄²⁻?",
+  "answer": "6",
+  "hint": "O is −2 and the sum equals −2.",
+  "explain": "Mn + 4(−2) = −2, so Mn = +6.",
+  "data": {
+   "f": "MnO₄²⁻",
+   "target": "Mn",
+   "ans": "6",
+   "hint": "O is −2 and the sum equals −2.",
+   "why": "Mn + 4(−2) = −2, so Mn = +6."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 19
+  }
+ },
+ {
+  "id": "redox-c9299dae",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of C in CH₃OH?",
+  "answer": "-2",
+  "hint": "H = +1 and O = −2 in this molecule.",
+  "explain": "C + 4(+1) + (−2) = 0, so C = −2.",
+  "data": {
+   "f": "CH₃OH",
+   "target": "C",
+   "ans": "-2",
+   "hint": "H = +1 and O = −2 in this molecule.",
+   "why": "C + 4(+1) + (−2) = 0, so C = −2."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 20
+  }
+ },
+ {
+  "id": "redox-a1bc2613",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of C (average) in C₆H₁₂O₆?",
+  "answer": "0",
+  "hint": "H = +1 and O = −2. Solve for the average C.",
+  "explain": "6(C) + 12(+1) + 6(−2) = 0, so C averages 0.",
+  "data": {
+   "f": "C₆H₁₂O₆",
+   "target": "C (average)",
+   "ans": "0",
+   "hint": "H = +1 and O = −2. Solve for the average C.",
+   "why": "6(C) + 12(+1) + 6(−2) = 0, so C averages 0."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 21
+  }
+ },
+ {
+  "id": "redox-e3828137",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of Cl in ClO₄⁻?",
+  "answer": "7",
+  "hint": "O is −2 and the sum equals −1.",
+  "explain": "Cl + 4(−2) = −1, so Cl = +7.",
+  "data": {
+   "f": "ClO₄⁻",
+   "target": "Cl",
+   "ans": "7",
+   "hint": "O is −2 and the sum equals −1.",
+   "why": "Cl + 4(−2) = −1, so Cl = +7."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 22
+  }
+ },
+ {
+  "id": "redox-6b72b2e4",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "number",
+  "prompt": "What is the oxidation number of V in VO₂⁺?",
+  "answer": "5",
+  "hint": "O is −2 and the sum equals +1.",
+  "explain": "V + 2(−2) = +1, so V = +5.",
+  "data": {
+   "f": "VO₂⁺",
+   "target": "V",
+   "ans": "5",
+   "hint": "O is −2 and the sum equals +1.",
+   "why": "V + 2(−2) = +1, so V = +5."
+  },
+  "from": {
+   "game": "redox",
+   "list": "oxQuestions",
+   "index": 23
+  }
+ },
+ {
+  "id": "redox-996c4ffe",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in KMnO4.",
+  "answer": {
+   "K": 1,
+   "Mn": 7,
+   "O": -2
+  },
+  "data": {
+   "f": "KMnO4",
+   "states": {
+    "K": 1,
+    "Mn": 7,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 0
+  }
+ },
+ {
+  "id": "redox-ecee7017",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in H2O2.",
+  "answer": {
+   "H": 1,
+   "O": -1
+  },
+  "data": {
+   "f": "H2O2",
+   "states": {
+    "H": 1,
+    "O": -1
+   },
+   "note": "Peroxide oxygen has oxidation state −1."
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 1
+  }
+ },
+ {
+  "id": "redox-247478eb",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in Cr2O7^2-.",
+  "answer": {
+   "Cr": 6,
+   "O": -2
+  },
+  "data": {
+   "f": "Cr2O7^2-",
+   "states": {
+    "Cr": 6,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 2
+  }
+ },
+ {
+  "id": "redox-6ce70474",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in NH4^+.",
+  "answer": {
+   "N": -3,
+   "H": 1
+  },
+  "data": {
+   "f": "NH4^+",
+   "states": {
+    "N": -3,
+    "H": 1
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 3
+  }
+ },
+ {
+  "id": "redox-8e68ffc0",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in SO4^2-.",
+  "answer": {
+   "S": 6,
+   "O": -2
+  },
+  "data": {
+   "f": "SO4^2-",
+   "states": {
+    "S": 6,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 4
+  }
+ },
+ {
+  "id": "redox-5f4a65fc",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in Na2S2O3.",
+  "answer": {
+   "Na": 1,
+   "S": 2,
+   "O": -2
+  },
+  "data": {
+   "f": "Na2S2O3",
+   "states": {
+    "Na": 1,
+    "S": 2,
+    "O": -2
+   },
+   "note": "Enter the AVERAGE sulfur oxidation state (+2). The two sulfur atoms are not equivalent: their individual states are +5 and −1."
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 5
+  }
+ },
+ {
+  "id": "redox-b0594420",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in Mg2P2O7.",
+  "answer": {
+   "Mg": 2,
+   "P": 5,
+   "O": -2
+  },
+  "data": {
+   "f": "Mg2P2O7",
+   "states": {
+    "Mg": 2,
+    "P": 5,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 6
+  }
+ },
+ {
+  "id": "redox-71184183",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in Hg2Cl2.",
+  "answer": {
+   "Hg": 1,
+   "Cl": -1
+  },
+  "data": {
+   "f": "Hg2Cl2",
+   "states": {
+    "Hg": 1,
+    "Cl": -1
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 7
+  }
+ },
+ {
+  "id": "redox-96358044",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in Fe2O3.",
+  "answer": {
+   "Fe": 3,
+   "O": -2
+  },
+  "data": {
+   "f": "Fe2O3",
+   "states": {
+    "Fe": 3,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 8
+  }
+ },
+ {
+  "id": "redox-dfaa5d43",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in CaH2.",
+  "answer": {
+   "Ca": 2,
+   "H": -1
+  },
+  "data": {
+   "f": "CaH2",
+   "states": {
+    "Ca": 2,
+    "H": -1
+   },
+   "note": "This is a metal hydride: H is −1."
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 9
+  }
+ },
+ {
+  "id": "redox-f082fb54",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in BrF4^-.",
+  "answer": {
+   "Br": 3,
+   "F": -1
+  },
+  "data": {
+   "f": "BrF4^-",
+   "states": {
+    "Br": 3,
+    "F": -1
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 10
+  }
+ },
+ {
+  "id": "redox-754ee641",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in C2H6.",
+  "answer": {
+   "C": -3,
+   "H": 1
+  },
+  "data": {
+   "f": "C2H6",
+   "states": {
+    "C": -3,
+    "H": 1
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 11
+  }
+ },
+ {
+  "id": "redox-c36f3b27",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in ClO3^-.",
+  "answer": {
+   "Cl": 5,
+   "O": -2
+  },
+  "data": {
+   "f": "ClO3^-",
+   "states": {
+    "Cl": 5,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 12
+  }
+ },
+ {
+  "id": "redox-51abfe82",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in O2.",
+  "answer": {
+   "O": 0
+  },
+  "data": {
+   "f": "O2",
+   "states": {
+    "O": 0
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 13
+  }
+ },
+ {
+  "id": "redox-e9789bcc",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in Na2O2.",
+  "answer": {
+   "Na": 1,
+   "O": -1
+  },
+  "data": {
+   "f": "Na2O2",
+   "states": {
+    "Na": 1,
+    "O": -1
+   },
+   "note": "Na2O2 is a peroxide, so O is −1."
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 14
+  }
+ },
+ {
+  "id": "redox-fbe196e5",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in OF2.",
+  "answer": {
+   "O": 2,
+   "F": -1
+  },
+  "data": {
+   "f": "OF2",
+   "states": {
+    "O": 2,
+    "F": -1
+   },
+   "note": "Fluorine is −1; oxygen is +2 in OF2."
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 15
+  }
+ },
+ {
+  "id": "redox-dc16eec6",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in H3PO4.",
+  "answer": {
+   "H": 1,
+   "P": 5,
+   "O": -2
+  },
+  "data": {
+   "f": "H3PO4",
+   "states": {
+    "H": 1,
+    "P": 5,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 16
+  }
+ },
+ {
+  "id": "redox-704e039d",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in NO3^-.",
+  "answer": {
+   "N": 5,
+   "O": -2
+  },
+  "data": {
+   "f": "NO3^-",
+   "states": {
+    "N": 5,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 17
+  }
+ },
+ {
+  "id": "redox-050f0896",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in SO3^2-.",
+  "answer": {
+   "S": 4,
+   "O": -2
+  },
+  "data": {
+   "f": "SO3^2-",
+   "states": {
+    "S": 4,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 18
+  }
+ },
+ {
+  "id": "redox-7c758f68",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in MnO2.",
+  "answer": {
+   "Mn": 4,
+   "O": -2
+  },
+  "data": {
+   "f": "MnO2",
+   "states": {
+    "Mn": 4,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 19
+  }
+ },
+ {
+  "id": "redox-c696440c",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in CO2.",
+  "answer": {
+   "C": 4,
+   "O": -2
+  },
+  "data": {
+   "f": "CO2",
+   "states": {
+    "C": 4,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 20
+  }
+ },
+ {
+  "id": "redox-3ddf5161",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in CH4.",
+  "answer": {
+   "C": -4,
+   "H": 1
+  },
+  "data": {
+   "f": "CH4",
+   "states": {
+    "C": -4,
+    "H": 1
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 21
+  }
+ },
+ {
+  "id": "redox-e41dfc87",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in NaClO.",
+  "answer": {
+   "Na": 1,
+   "Cl": 1,
+   "O": -2
+  },
+  "data": {
+   "f": "NaClO",
+   "states": {
+    "Na": 1,
+    "Cl": 1,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 22
+  }
+ },
+ {
+  "id": "redox-3d3db87c",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in Al2(SO4)3.",
+  "answer": {
+   "Al": 3,
+   "S": 6,
+   "O": -2
+  },
+  "data": {
+   "f": "Al2(SO4)3",
+   "states": {
+    "Al": 3,
+    "S": 6,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 23
+  }
+ },
+ {
+  "id": "redox-bda851e1",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in HCO3^-.",
+  "answer": {
+   "H": 1,
+   "C": 4,
+   "O": -2
+  },
+  "data": {
+   "f": "HCO3^-",
+   "states": {
+    "H": 1,
+    "C": 4,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 24
+  }
+ },
+ {
+  "id": "redox-bff64f75",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in Cu(NO3)2.",
+  "answer": {
+   "Cu": 2,
+   "N": 5,
+   "O": -2
+  },
+  "data": {
+   "f": "Cu(NO3)2",
+   "states": {
+    "Cu": 2,
+    "N": 5,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 25
+  }
+ },
+ {
+  "id": "redox-9b577856",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in LiH.",
+  "answer": {
+   "Li": 1,
+   "H": -1
+  },
+  "data": {
+   "f": "LiH",
+   "states": {
+    "Li": 1,
+    "H": -1
+   },
+   "note": "Hydrogen is −1 in a metal hydride."
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 26
+  }
+ },
+ {
+  "id": "redox-dba95bec",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in IO4^-.",
+  "answer": {
+   "I": 7,
+   "O": -2
+  },
+  "data": {
+   "f": "IO4^-",
+   "states": {
+    "I": 7,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 27
+  }
+ },
+ {
+  "id": "redox-d37fa902",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in K2Cr2O7.",
+  "answer": {
+   "K": 1,
+   "Cr": 6,
+   "O": -2
+  },
+  "data": {
+   "f": "K2Cr2O7",
+   "states": {
+    "K": 1,
+    "Cr": 6,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 28
+  }
+ },
+ {
+  "id": "redox-63386117",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in CO3^2-.",
+  "answer": {
+   "C": 4,
+   "O": -2
+  },
+  "data": {
+   "f": "CO3^2-",
+   "states": {
+    "C": 4,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 29
+  }
+ },
+ {
+  "id": "redox-a4c150b4",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in N2O.",
+  "answer": {
+   "N": 1,
+   "O": -2
+  },
+  "data": {
+   "f": "N2O",
+   "states": {
+    "N": 1,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 30
+  }
+ },
+ {
+  "id": "redox-f38be56b",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in LiAlH4.",
+  "answer": {
+   "Li": 1,
+   "Al": 3,
+   "H": -1
+  },
+  "data": {
+   "f": "LiAlH4",
+   "states": {
+    "Li": 1,
+    "Al": 3,
+    "H": -1
+   },
+   "note": "Hydrogen is −1 in a metal hydride."
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 31
+  }
+ },
+ {
+  "id": "redox-fea706b7",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in MnO4^2-.",
+  "answer": {
+   "Mn": 6,
+   "O": -2
+  },
+  "data": {
+   "f": "MnO4^2-",
+   "states": {
+    "Mn": 6,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 32
+  }
+ },
+ {
+  "id": "redox-73285291",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in CH3OH.",
+  "answer": {
+   "C": -2,
+   "H": 1,
+   "O": -2
+  },
+  "data": {
+   "f": "CH3OH",
+   "states": {
+    "C": -2,
+    "H": 1,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 33
+  }
+ },
+ {
+  "id": "redox-d9d7ea63",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in ClO4^-.",
+  "answer": {
+   "Cl": 7,
+   "O": -2
+  },
+  "data": {
+   "f": "ClO4^-",
+   "states": {
+    "Cl": 7,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 34
+  }
+ },
+ {
+  "id": "redox-e4095b60",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in VO2^+.",
+  "answer": {
+   "V": 5,
+   "O": -2
+  },
+  "data": {
+   "f": "VO2^+",
+   "states": {
+    "V": 5,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 35
+  }
+ },
+ {
+  "id": "redox-ff5e9574",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in HClO2.",
+  "answer": {
+   "H": 1,
+   "Cl": 3,
+   "O": -2
+  },
+  "data": {
+   "f": "HClO2",
+   "states": {
+    "H": 1,
+    "Cl": 3,
+    "O": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 36
+  }
+ },
+ {
+  "id": "redox-f5f01d02",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.oxidation-numbers",
+  "type": "oxidation-chart",
+  "prompt": "Assign an oxidation number to every element in Ca(OH)2.",
+  "answer": {
+   "Ca": 2,
+   "O": -2,
+   "H": 1
+  },
+  "data": {
+   "f": "Ca(OH)2",
+   "states": {
+    "Ca": 2,
+    "O": -2,
+    "H": 1
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "chartQuestions",
+   "index": 37
+  }
+ },
+ {
+  "id": "redox-d8bbc092",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Zn(s) + Cu²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "Zn²⁺(aq) + Cu(s)",
+  "explain": "Zn is above Cu in the activity series, so Zn is oxidized and Cu²⁺ is reduced.",
+  "data": {
+   "rxn": "Zn(s) + Cu²⁺(aq) → ?",
+   "yes": true,
+   "prod": "Zn²⁺(aq) + Cu(s)",
+   "why": "Zn is above Cu in the activity series, so Zn is oxidized and Cu²⁺ is reduced."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 0
+  }
+ },
+ {
+  "id": "redox-d9cb628a",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Cu(s) + Zn²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "No",
+  "products": "No reaction",
+  "explain": "Cu is below Zn, so Cu cannot displace Zn²⁺ under the activity-series rule.",
+  "data": {
+   "rxn": "Cu(s) + Zn²⁺(aq) → ?",
+   "yes": false,
+   "prod": "No reaction",
+   "why": "Cu is below Zn, so Cu cannot displace Zn²⁺ under the activity-series rule."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 1
+  }
+ },
+ {
+  "id": "redox-ed762e67",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Mg(s) + 2H⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "Mg²⁺(aq) + H₂(g)",
+  "explain": "Mg is above H₂, so Mg can reduce H⁺ to H₂.",
+  "data": {
+   "rxn": "Mg(s) + 2H⁺(aq) → ?",
+   "yes": true,
+   "prod": "Mg²⁺(aq) + H₂(g)",
+   "why": "Mg is above H₂, so Mg can reduce H⁺ to H₂."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 2
+  }
+ },
+ {
+  "id": "redox-a48493e0",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Ag(s) + H⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "No",
+  "products": "No reaction",
+  "explain": "Ag is below H₂, so Ag does not displace H⁺ in this model.",
+  "data": {
+   "rxn": "Ag(s) + H⁺(aq) → ?",
+   "yes": false,
+   "prod": "No reaction",
+   "why": "Ag is below H₂, so Ag does not displace H⁺ in this model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 3
+  }
+ },
+ {
+  "id": "redox-a7d1b5f5",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Al(s) + Fe³⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "Al³⁺(aq) + Fe(s)",
+  "explain": "Al is above Fe, so the oxidation of Al is favored relative to Fe.",
+  "data": {
+   "rxn": "Al(s) + Fe³⁺(aq) → ?",
+   "yes": true,
+   "prod": "Al³⁺(aq) + Fe(s)",
+   "why": "Al is above Fe, so the oxidation of Al is favored relative to Fe."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 4
+  }
+ },
+ {
+  "id": "redox-34c3646d",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Sn(s) + Zn²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "No",
+  "products": "No reaction",
+  "explain": "Sn is below Zn.",
+  "data": {
+   "rxn": "Sn(s) + Zn²⁺(aq) → ?",
+   "yes": false,
+   "prod": "No reaction",
+   "why": "Sn is below Zn."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 5
+  }
+ },
+ {
+  "id": "redox-b5ebd788",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Cl₂(aq) + 2Br⁻(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "2Cl⁻(aq) + Br₂(aq)",
+  "explain": "Cl₂ is above Br₂ in the halogen activity series and is more easily reduced.",
+  "data": {
+   "rxn": "Cl₂(aq) + 2Br⁻(aq) → ?",
+   "yes": true,
+   "prod": "2Cl⁻(aq) + Br₂(aq)",
+   "why": "Cl₂ is above Br₂ in the halogen activity series and is more easily reduced."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 6
+  }
+ },
+ {
+  "id": "redox-43705e03",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? I₂(aq) + 2Cl⁻(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "No",
+  "products": "No reaction",
+  "explain": "I₂ is below Cl₂ and cannot oxidize Cl⁻ in this activity-series model.",
+  "data": {
+   "rxn": "I₂(aq) + 2Cl⁻(aq) → ?",
+   "yes": false,
+   "prod": "No reaction",
+   "why": "I₂ is below Cl₂ and cannot oxidize Cl⁻ in this activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 7
+  }
+ },
+ {
+  "id": "redox-2f9fea76",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? F₂(aq) + 2Br⁻(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "2F⁻(aq) + Br₂(aq)",
+  "explain": "F₂ is the strongest oxidizer in the listed halogen series.",
+  "data": {
+   "rxn": "F₂(aq) + 2Br⁻(aq) → ?",
+   "yes": true,
+   "prod": "2F⁻(aq) + Br₂(aq)",
+   "why": "F₂ is the strongest oxidizer in the listed halogen series."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 8
+  }
+ },
+ {
+  "id": "redox-8617a7d4",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Br₂(aq) + 2I⁻(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "2Br⁻(aq) + I₂(aq)",
+  "explain": "Br₂ is above I₂ and can oxidize I⁻.",
+  "data": {
+   "rxn": "Br₂(aq) + 2I⁻(aq) → ?",
+   "yes": true,
+   "prod": "2Br⁻(aq) + I₂(aq)",
+   "why": "Br₂ is above I₂ and can oxidize I⁻."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 9
+  }
+ },
+ {
+  "id": "redox-00b827d8",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Cl₂(aq) + 2I⁻(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "2Cl⁻(aq) + I₂(aq)",
+  "explain": "Cl₂ is above I₂ in the halogen series, so Cl₂ oxidizes I⁻.",
+  "data": {
+   "rxn": "Cl₂(aq) + 2I⁻(aq) → ?",
+   "yes": true,
+   "prod": "2Cl⁻(aq) + I₂(aq)",
+   "why": "Cl₂ is above I₂ in the halogen series, so Cl₂ oxidizes I⁻."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 10
+  }
+ },
+ {
+  "id": "redox-8f8d1e82",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Br₂(aq) + 2Cl⁻(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "No",
+  "products": "No reaction",
+  "explain": "Br₂ is below Cl₂, so it cannot oxidize Cl⁻.",
+  "data": {
+   "rxn": "Br₂(aq) + 2Cl⁻(aq) → ?",
+   "yes": false,
+   "prod": "No reaction",
+   "why": "Br₂ is below Cl₂, so it cannot oxidize Cl⁻."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 11
+  }
+ },
+ {
+  "id": "redox-f62dbcdd",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? I₂(aq) + 2Br⁻(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "No",
+  "products": "No reaction",
+  "explain": "I₂ is below Br₂, so it cannot oxidize Br⁻.",
+  "data": {
+   "rxn": "I₂(aq) + 2Br⁻(aq) → ?",
+   "yes": false,
+   "prod": "No reaction",
+   "why": "I₂ is below Br₂, so it cannot oxidize Br⁻."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 12
+  }
+ },
+ {
+  "id": "redox-c79488d8",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? F₂(aq) + 2Cl⁻(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "2F⁻(aq) + Cl₂(aq)",
+  "explain": "F₂ is the top halogen, so it oxidizes Cl⁻.",
+  "data": {
+   "rxn": "F₂(aq) + 2Cl⁻(aq) → ?",
+   "yes": true,
+   "prod": "2F⁻(aq) + Cl₂(aq)",
+   "why": "F₂ is the top halogen, so it oxidizes Cl⁻."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 13
+  }
+ },
+ {
+  "id": "redox-f6f357cf",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Fe(s) + 2H⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "Fe²⁺(aq) + H₂(g)",
+  "explain": "Fe is above H₂, so Fe can reduce H⁺ to H₂.",
+  "data": {
+   "rxn": "Fe(s) + 2H⁺(aq) → ?",
+   "yes": true,
+   "prod": "Fe²⁺(aq) + H₂(g)",
+   "why": "Fe is above H₂, so Fe can reduce H⁺ to H₂."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 14
+  }
+ },
+ {
+  "id": "redox-e9fad102",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Cu(s) + 2H⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "No",
+  "products": "No reaction",
+  "explain": "Cu is below H₂, so Cu does not displace H⁺.",
+  "data": {
+   "rxn": "Cu(s) + 2H⁺(aq) → ?",
+   "yes": false,
+   "prod": "No reaction",
+   "why": "Cu is below H₂, so Cu does not displace H⁺."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 15
+  }
+ },
+ {
+  "id": "redox-4019ac10",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Pb(s) + 2H⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "Pb²⁺(aq) + H₂(g)",
+  "explain": "Pb is above H₂ in the series, so Pb can reduce H⁺.",
+  "data": {
+   "rxn": "Pb(s) + 2H⁺(aq) → ?",
+   "yes": true,
+   "prod": "Pb²⁺(aq) + H₂(g)",
+   "why": "Pb is above H₂ in the series, so Pb can reduce H⁺."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 16
+  }
+ },
+ {
+  "id": "redox-651094da",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Hg(l) + 2H⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "No",
+  "products": "No reaction",
+  "explain": "Hg is below H₂, so Hg does not displace H⁺.",
+  "data": {
+   "rxn": "Hg(l) + 2H⁺(aq) → ?",
+   "yes": false,
+   "prod": "No reaction",
+   "why": "Hg is below H₂, so Hg does not displace H⁺."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 17
+  }
+ },
+ {
+  "id": "redox-a7dde521",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Mg(s) + Cr³⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "3 Mg²⁺(aq) + 2 Cr(s)",
+  "explain": "Mg is above Cr, so Mg can reduce the Cr ions in the activity-series model.",
+  "data": {
+   "rxn": "Mg(s) + Cr³⁺(aq) → ?",
+   "yes": true,
+   "prod": "3 Mg²⁺(aq) + 2 Cr(s)",
+   "why": "Mg is above Cr, so Mg can reduce the Cr ions in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 18
+  }
+ },
+ {
+  "id": "redox-c488f09d",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Cr(s) + Mg²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "No",
+  "products": "No reaction",
+  "explain": "Cr is below Mg, so it cannot displace Mg in the activity-series model.",
+  "data": {
+   "rxn": "Cr(s) + Mg²⁺(aq) → ?",
+   "yes": false,
+   "prod": "No reaction",
+   "why": "Cr is below Mg, so it cannot displace Mg in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 19
+  }
+ },
+ {
+  "id": "redox-6da0808c",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Al(s) + Fe²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "2 Al³⁺(aq) + 3 Fe(s)",
+  "explain": "Al is above Fe, so Al can reduce the Fe ions in the activity-series model.",
+  "data": {
+   "rxn": "Al(s) + Fe²⁺(aq) → ?",
+   "yes": true,
+   "prod": "2 Al³⁺(aq) + 3 Fe(s)",
+   "why": "Al is above Fe, so Al can reduce the Fe ions in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 20
+  }
+ },
+ {
+  "id": "redox-2d5df056",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Fe(s) + Al³⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "No",
+  "products": "No reaction",
+  "explain": "Fe is below Al, so it cannot displace Al in the activity-series model.",
+  "data": {
+   "rxn": "Fe(s) + Al³⁺(aq) → ?",
+   "yes": false,
+   "prod": "No reaction",
+   "why": "Fe is below Al, so it cannot displace Al in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 21
+  }
+ },
+ {
+  "id": "redox-8b1097e0",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Zn(s) + Ag¹⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "Zn²⁺(aq) + 2 Ag(s)",
+  "explain": "Zn is above Ag, so Zn can reduce the Ag ions in the activity-series model.",
+  "data": {
+   "rxn": "Zn(s) + Ag¹⁺(aq) → ?",
+   "yes": true,
+   "prod": "Zn²⁺(aq) + 2 Ag(s)",
+   "why": "Zn is above Ag, so Zn can reduce the Ag ions in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 22
+  }
+ },
+ {
+  "id": "redox-612eade1",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Ag(s) + Zn²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "No",
+  "products": "No reaction",
+  "explain": "Ag is below Zn, so it cannot displace Zn in the activity-series model.",
+  "data": {
+   "rxn": "Ag(s) + Zn²⁺(aq) → ?",
+   "yes": false,
+   "prod": "No reaction",
+   "why": "Ag is below Zn, so it cannot displace Zn in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 23
+  }
+ },
+ {
+  "id": "redox-955c6182",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Ni(s) + Cu²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "Ni²⁺(aq) + Cu(s)",
+  "explain": "Ni is above Cu, so Ni can reduce the Cu ions in the activity-series model.",
+  "data": {
+   "rxn": "Ni(s) + Cu²⁺(aq) → ?",
+   "yes": true,
+   "prod": "Ni²⁺(aq) + Cu(s)",
+   "why": "Ni is above Cu, so Ni can reduce the Cu ions in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 24
+  }
+ },
+ {
+  "id": "redox-61c6786b",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Cu(s) + Ni²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "No",
+  "products": "No reaction",
+  "explain": "Cu is below Ni, so it cannot displace Ni in the activity-series model.",
+  "data": {
+   "rxn": "Cu(s) + Ni²⁺(aq) → ?",
+   "yes": false,
+   "prod": "No reaction",
+   "why": "Cu is below Ni, so it cannot displace Ni in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 25
+  }
+ },
+ {
+  "id": "redox-35b5e1f2",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Fe(s) + Pb²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "Fe²⁺(aq) + Pb(s)",
+  "explain": "Fe is above Pb, so Fe can reduce the Pb ions in the activity-series model.",
+  "data": {
+   "rxn": "Fe(s) + Pb²⁺(aq) → ?",
+   "yes": true,
+   "prod": "Fe²⁺(aq) + Pb(s)",
+   "why": "Fe is above Pb, so Fe can reduce the Pb ions in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 26
+  }
+ },
+ {
+  "id": "redox-929c8c26",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Pb(s) + Fe²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "No",
+  "products": "No reaction",
+  "explain": "Pb is below Fe, so it cannot displace Fe in the activity-series model.",
+  "data": {
+   "rxn": "Pb(s) + Fe²⁺(aq) → ?",
+   "yes": false,
+   "prod": "No reaction",
+   "why": "Pb is below Fe, so it cannot displace Fe in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 27
+  }
+ },
+ {
+  "id": "redox-6b78033b",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Sn(s) + Cu²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "Sn²⁺(aq) + Cu(s)",
+  "explain": "Sn is above Cu, so Sn can reduce the Cu ions in the activity-series model.",
+  "data": {
+   "rxn": "Sn(s) + Cu²⁺(aq) → ?",
+   "yes": true,
+   "prod": "Sn²⁺(aq) + Cu(s)",
+   "why": "Sn is above Cu, so Sn can reduce the Cu ions in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 28
+  }
+ },
+ {
+  "id": "redox-c30cc0b1",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Cu(s) + Sn²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "No",
+  "products": "No reaction",
+  "explain": "Cu is below Sn, so it cannot displace Sn in the activity-series model.",
+  "data": {
+   "rxn": "Cu(s) + Sn²⁺(aq) → ?",
+   "yes": false,
+   "prod": "No reaction",
+   "why": "Cu is below Sn, so it cannot displace Sn in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 29
+  }
+ },
+ {
+  "id": "redox-7d0e3c03",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Mg(s) + Zn²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "Mg²⁺(aq) + Zn(s)",
+  "explain": "Mg is above Zn, so Mg can reduce the Zn ions in the activity-series model.",
+  "data": {
+   "rxn": "Mg(s) + Zn²⁺(aq) → ?",
+   "yes": true,
+   "prod": "Mg²⁺(aq) + Zn(s)",
+   "why": "Mg is above Zn, so Mg can reduce the Zn ions in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 30
+  }
+ },
+ {
+  "id": "redox-448cb70e",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Zn(s) + Mg²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "No",
+  "products": "No reaction",
+  "explain": "Zn is below Mg, so it cannot displace Mg in the activity-series model.",
+  "data": {
+   "rxn": "Zn(s) + Mg²⁺(aq) → ?",
+   "yes": false,
+   "prod": "No reaction",
+   "why": "Zn is below Mg, so it cannot displace Mg in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 31
+  }
+ },
+ {
+  "id": "redox-50b425ca",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Co(s) + Ag¹⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "Co²⁺(aq) + 2 Ag(s)",
+  "explain": "Co is above Ag, so Co can reduce the Ag ions in the activity-series model.",
+  "data": {
+   "rxn": "Co(s) + Ag¹⁺(aq) → ?",
+   "yes": true,
+   "prod": "Co²⁺(aq) + 2 Ag(s)",
+   "why": "Co is above Ag, so Co can reduce the Ag ions in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 32
+  }
+ },
+ {
+  "id": "redox-89a3e6b6",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Ag(s) + Co²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "No",
+  "products": "No reaction",
+  "explain": "Ag is below Co, so it cannot displace Co in the activity-series model.",
+  "data": {
+   "rxn": "Ag(s) + Co²⁺(aq) → ?",
+   "yes": false,
+   "prod": "No reaction",
+   "why": "Ag is below Co, so it cannot displace Co in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 33
+  }
+ },
+ {
+  "id": "redox-cec7ed81",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Ca(s) + Zn²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "Ca²⁺(aq) + Zn(s)",
+  "explain": "Ca is above Zn, so Ca can reduce the Zn ions in the activity-series model.",
+  "data": {
+   "rxn": "Ca(s) + Zn²⁺(aq) → ?",
+   "yes": true,
+   "prod": "Ca²⁺(aq) + Zn(s)",
+   "why": "Ca is above Zn, so Ca can reduce the Zn ions in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 34
+  }
+ },
+ {
+  "id": "redox-82976b58",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Zn(s) + Ca²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "No",
+  "products": "No reaction",
+  "explain": "Zn is below Ca, so it cannot displace Ca in the activity-series model.",
+  "data": {
+   "rxn": "Zn(s) + Ca²⁺(aq) → ?",
+   "yes": false,
+   "prod": "No reaction",
+   "why": "Zn is below Ca, so it cannot displace Ca in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 35
+  }
+ },
+ {
+  "id": "redox-b0dde4c1",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Mn(s) + Fe²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "Mn²⁺(aq) + Fe(s)",
+  "explain": "Mn is above Fe, so Mn can reduce the Fe ions in the activity-series model.",
+  "data": {
+   "rxn": "Mn(s) + Fe²⁺(aq) → ?",
+   "yes": true,
+   "prod": "Mn²⁺(aq) + Fe(s)",
+   "why": "Mn is above Fe, so Mn can reduce the Fe ions in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 36
+  }
+ },
+ {
+  "id": "redox-813b5af7",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Pb(s) + Cu²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "Pb²⁺(aq) + Cu(s)",
+  "explain": "Pb is above Cu, so Pb can reduce the Cu ions in the activity-series model.",
+  "data": {
+   "rxn": "Pb(s) + Cu²⁺(aq) → ?",
+   "yes": true,
+   "prod": "Pb²⁺(aq) + Cu(s)",
+   "why": "Pb is above Cu, so Pb can reduce the Cu ions in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 37
+  }
+ },
+ {
+  "id": "redox-0c152724",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Cu(s) + Pb²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "No",
+  "products": "No reaction",
+  "explain": "Cu is below Pb, so it cannot displace Pb in the activity-series model.",
+  "data": {
+   "rxn": "Cu(s) + Pb²⁺(aq) → ?",
+   "yes": false,
+   "prod": "No reaction",
+   "why": "Cu is below Pb, so it cannot displace Pb in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 38
+  }
+ },
+ {
+  "id": "redox-8c1593c3",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Al(s) + Zn²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "2 Al³⁺(aq) + 3 Zn(s)",
+  "explain": "Al is above Zn, so Al can reduce the Zn ions in the activity-series model.",
+  "data": {
+   "rxn": "Al(s) + Zn²⁺(aq) → ?",
+   "yes": true,
+   "prod": "2 Al³⁺(aq) + 3 Zn(s)",
+   "why": "Al is above Zn, so Al can reduce the Zn ions in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 39
+  }
+ },
+ {
+  "id": "redox-efa4fb47",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Zn(s) + Al³⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "No",
+  "products": "No reaction",
+  "explain": "Zn is below Al, so it cannot displace Al in the activity-series model.",
+  "data": {
+   "rxn": "Zn(s) + Al³⁺(aq) → ?",
+   "yes": false,
+   "prod": "No reaction",
+   "why": "Zn is below Al, so it cannot displace Al in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 40
+  }
+ },
+ {
+  "id": "redox-bdb77212",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.activity-series",
+  "type": "mc",
+  "prompt": "Will this reaction occur? Na(s) + Mg²⁺(aq) → ?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": "Yes",
+  "products": "2 Na¹⁺(aq) + Mg(s)",
+  "explain": "Na is above Mg, so Na can reduce the Mg ions in the activity-series model.",
+  "data": {
+   "rxn": "Na(s) + Mg²⁺(aq) → ?",
+   "yes": true,
+   "prod": "2 Na¹⁺(aq) + Mg(s)",
+   "why": "Na is above Mg, so Na can reduce the Mg ions in the activity-series model."
+  },
+  "from": {
+   "game": "redox",
+   "list": "activityQuestions",
+   "index": 41
+  }
+ },
+ {
+  "id": "redox-48dd94cf",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "CH4",
+   "reduced": "O2"
+  },
+  "data": {
+   "reactants": [
+    "CH4",
+    "O2"
+   ],
+   "products": [
+    "CO2",
+    "H2O"
+   ],
+   "ox": {
+    "from": "CH4",
+    "to": "CO2",
+    "el": "C",
+    "before": -4,
+    "after": 4
+   },
+   "red": {
+    "from": "O2",
+    "to": "CO2",
+    "el": "O",
+    "before": 0,
+    "after": -2
+   },
+   "type": "Combustion",
+   "displayEq": {
+    "L": {
+     "CH4": 1,
+     "O2": 2
+    },
+    "R": {
+     "CO2": 1,
+     "H2O": 2
+    }
+   },
+   "final": {
+    "L": {
+     "CH4": 1,
+     "O2": 2
+    },
+    "R": {
+     "CO2": 1,
+     "H2O": 2
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 0
+  }
+ },
+ {
+  "id": "redox-73d62268",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "Zn",
+   "reduced": "CuSO4"
+  },
+  "data": {
+   "reactants": [
+    "Zn",
+    "CuSO4"
+   ],
+   "products": [
+    "ZnSO4",
+    "Cu"
+   ],
+   "ox": {
+    "from": "Zn",
+    "to": "ZnSO4",
+    "el": "Zn",
+    "before": 0,
+    "after": 2
+   },
+   "red": {
+    "from": "CuSO4",
+    "to": "Cu",
+    "el": "Cu",
+    "before": 2,
+    "after": 0
+   },
+   "type": "Single displacement",
+   "displayEq": {
+    "L": {
+     "Zn": 1,
+     "CuSO4": 1
+    },
+    "R": {
+     "ZnSO4": 1,
+     "Cu": 1
+    }
+   },
+   "final": {
+    "L": {
+     "Zn": 1,
+     "CuSO4": 1
+    },
+    "R": {
+     "ZnSO4": 1,
+     "Cu": 1
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 1
+  }
+ },
+ {
+  "id": "redox-830ce572",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "Mg",
+   "reduced": "O2"
+  },
+  "data": {
+   "reactants": [
+    "Mg",
+    "O2"
+   ],
+   "products": [
+    "MgO"
+   ],
+   "ox": {
+    "from": "Mg",
+    "to": "MgO",
+    "el": "Mg",
+    "before": 0,
+    "after": 2
+   },
+   "red": {
+    "from": "O2",
+    "to": "MgO",
+    "el": "O",
+    "before": 0,
+    "after": -2
+   },
+   "type": "Combination",
+   "displayEq": {
+    "L": {
+     "Mg": 2,
+     "O2": 1
+    },
+    "R": {
+     "MgO": 2
+    }
+   },
+   "final": {
+    "L": {
+     "Mg": 2,
+     "O2": 1
+    },
+    "R": {
+     "MgO": 2
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 2
+  }
+ },
+ {
+  "id": "redox-847eceae",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "HgO",
+   "reduced": "HgO"
+  },
+  "data": {
+   "reactants": [
+    "HgO"
+   ],
+   "products": [
+    "Hg",
+    "O2"
+   ],
+   "ox": {
+    "from": "HgO",
+    "to": "O2",
+    "el": "O",
+    "before": -2,
+    "after": 0
+   },
+   "red": {
+    "from": "HgO",
+    "to": "Hg",
+    "el": "Hg",
+    "before": 2,
+    "after": 0
+   },
+   "type": "Decomposition",
+   "displayEq": {
+    "L": {
+     "HgO": 2
+    },
+    "R": {
+     "Hg": 2,
+     "O2": 1
+    }
+   },
+   "final": {
+    "L": {
+     "HgO": 2
+    },
+    "R": {
+     "Hg": 2,
+     "O2": 1
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 3
+  }
+ },
+ {
+  "id": "redox-4d60c1d6",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "C2H6",
+   "reduced": "O2"
+  },
+  "data": {
+   "reactants": [
+    "C2H6",
+    "O2"
+   ],
+   "products": [
+    "CO2",
+    "H2O"
+   ],
+   "ox": {
+    "from": "C2H6",
+    "to": "CO2",
+    "el": "C",
+    "before": -3,
+    "after": 4
+   },
+   "red": {
+    "from": "O2",
+    "to": "CO2",
+    "el": "O",
+    "before": 0,
+    "after": -2
+   },
+   "type": "Combustion",
+   "displayEq": {
+    "L": {
+     "C2H6": 2,
+     "O2": 7
+    },
+    "R": {
+     "CO2": 4,
+     "H2O": 6
+    }
+   },
+   "final": {
+    "L": {
+     "C2H6": 2,
+     "O2": 7
+    },
+    "R": {
+     "CO2": 4,
+     "H2O": 6
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 4
+  }
+ },
+ {
+  "id": "redox-1679cec2",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "Mg",
+   "reduced": "HCl"
+  },
+  "data": {
+   "reactants": [
+    "Mg",
+    "HCl"
+   ],
+   "products": [
+    "MgCl2",
+    "H2"
+   ],
+   "ox": {
+    "from": "Mg",
+    "to": "MgCl2",
+    "el": "Mg",
+    "before": 0,
+    "after": 2
+   },
+   "red": {
+    "from": "HCl",
+    "to": "H2",
+    "el": "H",
+    "before": 1,
+    "after": 0
+   },
+   "type": "Single displacement",
+   "displayEq": {
+    "L": {
+     "Mg": 1,
+     "HCl": 2
+    },
+    "R": {
+     "MgCl2": 1,
+     "H2": 1
+    }
+   },
+   "final": {
+    "L": {
+     "Mg": 1,
+     "HCl": 2
+    },
+    "R": {
+     "MgCl2": 1,
+     "H2": 1
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 5
+  }
+ },
+ {
+  "id": "redox-3c2c3593",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "Al",
+   "reduced": "O2"
+  },
+  "data": {
+   "reactants": [
+    "Al",
+    "O2"
+   ],
+   "products": [
+    "Al2O3"
+   ],
+   "ox": {
+    "from": "Al",
+    "to": "Al2O3",
+    "el": "Al",
+    "before": 0,
+    "after": 3
+   },
+   "red": {
+    "from": "O2",
+    "to": "Al2O3",
+    "el": "O",
+    "before": 0,
+    "after": -2
+   },
+   "type": "Combination",
+   "displayEq": {
+    "L": {
+     "Al": 4,
+     "O2": 3
+    },
+    "R": {
+     "Al2O3": 2
+    }
+   },
+   "final": {
+    "L": {
+     "Al": 4,
+     "O2": 3
+    },
+    "R": {
+     "Al2O3": 2
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 6
+  }
+ },
+ {
+  "id": "redox-e10daddd",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "Ag2O",
+   "reduced": "Ag2O"
+  },
+  "data": {
+   "reactants": [
+    "Ag2O"
+   ],
+   "products": [
+    "Ag",
+    "O2"
+   ],
+   "ox": {
+    "from": "Ag2O",
+    "to": "O2",
+    "el": "O",
+    "before": -2,
+    "after": 0
+   },
+   "red": {
+    "from": "Ag2O",
+    "to": "Ag",
+    "el": "Ag",
+    "before": 1,
+    "after": 0
+   },
+   "type": "Decomposition",
+   "displayEq": {
+    "L": {
+     "Ag2O": 2
+    },
+    "R": {
+     "Ag": 4,
+     "O2": 1
+    }
+   },
+   "final": {
+    "L": {
+     "Ag2O": 2
+    },
+    "R": {
+     "Ag": 4,
+     "O2": 1
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 7
+  }
+ },
+ {
+  "id": "redox-62a64bb4",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "C3H8",
+   "reduced": "O2"
+  },
+  "data": {
+   "reactants": [
+    "C3H8",
+    "O2"
+   ],
+   "products": [
+    "CO2",
+    "H2O"
+   ],
+   "ox": {
+    "from": "C3H8",
+    "to": "CO2",
+    "el": "C",
+    "before": -2.6666666666666665,
+    "after": 4
+   },
+   "red": {
+    "from": "O2",
+    "to": "CO2",
+    "el": "O",
+    "before": 0,
+    "after": -2
+   },
+   "type": "Combustion",
+   "displayEq": {
+    "L": {
+     "C3H8": 1,
+     "O2": 5
+    },
+    "R": {
+     "CO2": 3,
+     "H2O": 4
+    }
+   },
+   "final": {
+    "L": {
+     "C3H8": 1,
+     "O2": 5
+    },
+    "R": {
+     "CO2": 3,
+     "H2O": 4
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 8
+  }
+ },
+ {
+  "id": "redox-ebc18662",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "Fe",
+   "reduced": "CuSO4"
+  },
+  "data": {
+   "reactants": [
+    "Fe",
+    "CuSO4"
+   ],
+   "products": [
+    "FeSO4",
+    "Cu"
+   ],
+   "ox": {
+    "from": "Fe",
+    "to": "FeSO4",
+    "el": "Fe",
+    "before": 0,
+    "after": 2
+   },
+   "red": {
+    "from": "CuSO4",
+    "to": "Cu",
+    "el": "Cu",
+    "before": 2,
+    "after": 0
+   },
+   "type": "Single displacement",
+   "displayEq": {
+    "L": {
+     "Fe": 1,
+     "CuSO4": 1
+    },
+    "R": {
+     "FeSO4": 1,
+     "Cu": 1
+    }
+   },
+   "final": {
+    "L": {
+     "Fe": 1,
+     "CuSO4": 1
+    },
+    "R": {
+     "FeSO4": 1,
+     "Cu": 1
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 9
+  }
+ },
+ {
+  "id": "redox-b35f4ef5",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "Na",
+   "reduced": "Cl2"
+  },
+  "data": {
+   "reactants": [
+    "Na",
+    "Cl2"
+   ],
+   "products": [
+    "NaCl"
+   ],
+   "ox": {
+    "from": "Na",
+    "to": "NaCl",
+    "el": "Na",
+    "before": 0,
+    "after": 1
+   },
+   "red": {
+    "from": "Cl2",
+    "to": "NaCl",
+    "el": "Cl",
+    "before": 0,
+    "after": -1
+   },
+   "type": "Combination",
+   "displayEq": {
+    "L": {
+     "Na": 2,
+     "Cl2": 1
+    },
+    "R": {
+     "NaCl": 2
+    }
+   },
+   "final": {
+    "L": {
+     "Na": 2,
+     "Cl2": 1
+    },
+    "R": {
+     "NaCl": 2
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 10
+  }
+ },
+ {
+  "id": "redox-f399d1ba",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "KClO3",
+   "reduced": "KClO3"
+  },
+  "data": {
+   "reactants": [
+    "KClO3"
+   ],
+   "products": [
+    "KCl",
+    "O2"
+   ],
+   "ox": {
+    "from": "KClO3",
+    "to": "O2",
+    "el": "O",
+    "before": -2,
+    "after": 0
+   },
+   "red": {
+    "from": "KClO3",
+    "to": "KCl",
+    "el": "Cl",
+    "before": 5,
+    "after": -1
+   },
+   "type": "Decomposition",
+   "displayEq": {
+    "L": {
+     "KClO3": 2
+    },
+    "R": {
+     "KCl": 2,
+     "O2": 3
+    }
+   },
+   "final": {
+    "L": {
+     "KClO3": 2
+    },
+    "R": {
+     "KCl": 2,
+     "O2": 3
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 11
+  }
+ },
+ {
+  "id": "redox-c0625340",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "C2H4",
+   "reduced": "O2"
+  },
+  "data": {
+   "reactants": [
+    "C2H4",
+    "O2"
+   ],
+   "products": [
+    "CO2",
+    "H2O"
+   ],
+   "ox": {
+    "from": "C2H4",
+    "to": "CO2",
+    "el": "C",
+    "before": -2,
+    "after": 4
+   },
+   "red": {
+    "from": "O2",
+    "to": "CO2",
+    "el": "O",
+    "before": 0,
+    "after": -2
+   },
+   "type": "Combustion",
+   "displayEq": {
+    "L": {
+     "C2H4": 1,
+     "O2": 3
+    },
+    "R": {
+     "CO2": 2,
+     "H2O": 2
+    }
+   },
+   "final": {
+    "L": {
+     "C2H4": 1,
+     "O2": 3
+    },
+    "R": {
+     "CO2": 2,
+     "H2O": 2
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 12
+  }
+ },
+ {
+  "id": "redox-aea7422c",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "Cu",
+   "reduced": "AgNO3"
+  },
+  "data": {
+   "reactants": [
+    "Cu",
+    "AgNO3"
+   ],
+   "products": [
+    "Cu(NO3)2",
+    "Ag"
+   ],
+   "ox": {
+    "from": "Cu",
+    "to": "Cu(NO3)2",
+    "el": "Cu",
+    "before": 0,
+    "after": 2
+   },
+   "red": {
+    "from": "AgNO3",
+    "to": "Ag",
+    "el": "Ag",
+    "before": 1,
+    "after": 0
+   },
+   "type": "Single displacement",
+   "displayEq": {
+    "L": {
+     "Cu": 1,
+     "AgNO3": 2
+    },
+    "R": {
+     "Cu(NO3)2": 1,
+     "Ag": 2
+    }
+   },
+   "final": {
+    "L": {
+     "Cu": 1,
+     "AgNO3": 2
+    },
+    "R": {
+     "Cu(NO3)2": 1,
+     "Ag": 2
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 13
+  }
+ },
+ {
+  "id": "redox-1d070968",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "H2",
+   "reduced": "O2"
+  },
+  "data": {
+   "reactants": [
+    "H2",
+    "O2"
+   ],
+   "products": [
+    "H2O"
+   ],
+   "ox": {
+    "from": "H2",
+    "to": "H2O",
+    "el": "H",
+    "before": 0,
+    "after": 1
+   },
+   "red": {
+    "from": "O2",
+    "to": "H2O",
+    "el": "O",
+    "before": 0,
+    "after": -2
+   },
+   "type": "Combination",
+   "displayEq": {
+    "L": {
+     "H2": 2,
+     "O2": 1
+    },
+    "R": {
+     "H2O": 2
+    }
+   },
+   "final": {
+    "L": {
+     "H2": 2,
+     "O2": 1
+    },
+    "R": {
+     "H2O": 2
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 14
+  }
+ },
+ {
+  "id": "redox-fd174164",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "H2O2",
+   "reduced": "H2O2"
+  },
+  "data": {
+   "reactants": [
+    "H2O2"
+   ],
+   "products": [
+    "H2O",
+    "O2"
+   ],
+   "ox": {
+    "from": "H2O2",
+    "to": "O2",
+    "el": "O",
+    "before": -1,
+    "after": 0
+   },
+   "red": {
+    "from": "H2O2",
+    "to": "H2O",
+    "el": "O",
+    "before": -1,
+    "after": -2
+   },
+   "type": "Decomposition",
+   "displayEq": {
+    "L": {
+     "H2O2": 2
+    },
+    "R": {
+     "H2O": 2,
+     "O2": 1
+    }
+   },
+   "final": {
+    "L": {
+     "H2O2": 2
+    },
+    "R": {
+     "H2O": 2,
+     "O2": 1
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 15
+  }
+ },
+ {
+  "id": "redox-cdf90e5a",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "C2H2",
+   "reduced": "O2"
+  },
+  "data": {
+   "reactants": [
+    "C2H2",
+    "O2"
+   ],
+   "products": [
+    "CO2",
+    "H2O"
+   ],
+   "ox": {
+    "from": "C2H2",
+    "to": "CO2",
+    "el": "C",
+    "before": -1,
+    "after": 4
+   },
+   "red": {
+    "from": "O2",
+    "to": "CO2",
+    "el": "O",
+    "before": 0,
+    "after": -2
+   },
+   "type": "Combustion",
+   "displayEq": {
+    "L": {
+     "C2H2": 2,
+     "O2": 5
+    },
+    "R": {
+     "CO2": 4,
+     "H2O": 2
+    }
+   },
+   "final": {
+    "L": {
+     "C2H2": 2,
+     "O2": 5
+    },
+    "R": {
+     "CO2": 4,
+     "H2O": 2
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 16
+  }
+ },
+ {
+  "id": "redox-dfe4df3e",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "Al",
+   "reduced": "CuCl2"
+  },
+  "data": {
+   "reactants": [
+    "Al",
+    "CuCl2"
+   ],
+   "products": [
+    "AlCl3",
+    "Cu"
+   ],
+   "ox": {
+    "from": "Al",
+    "to": "AlCl3",
+    "el": "Al",
+    "before": 0,
+    "after": 3
+   },
+   "red": {
+    "from": "CuCl2",
+    "to": "Cu",
+    "el": "Cu",
+    "before": 2,
+    "after": 0
+   },
+   "type": "Single displacement",
+   "displayEq": {
+    "L": {
+     "Al": 2,
+     "CuCl2": 3
+    },
+    "R": {
+     "AlCl3": 2,
+     "Cu": 3
+    }
+   },
+   "final": {
+    "L": {
+     "Al": 2,
+     "CuCl2": 3
+    },
+    "R": {
+     "AlCl3": 2,
+     "Cu": 3
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 17
+  }
+ },
+ {
+  "id": "redox-95d1432e",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "Fe",
+   "reduced": "O2"
+  },
+  "data": {
+   "reactants": [
+    "Fe",
+    "O2"
+   ],
+   "products": [
+    "Fe2O3"
+   ],
+   "ox": {
+    "from": "Fe",
+    "to": "Fe2O3",
+    "el": "Fe",
+    "before": 0,
+    "after": 3
+   },
+   "red": {
+    "from": "O2",
+    "to": "Fe2O3",
+    "el": "O",
+    "before": 0,
+    "after": -2
+   },
+   "type": "Combination",
+   "displayEq": {
+    "L": {
+     "Fe": 4,
+     "O2": 3
+    },
+    "R": {
+     "Fe2O3": 2
+    }
+   },
+   "final": {
+    "L": {
+     "Fe": 4,
+     "O2": 3
+    },
+    "R": {
+     "Fe2O3": 2
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 18
+  }
+ },
+ {
+  "id": "redox-224bc512",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "H2O",
+   "reduced": "H2O"
+  },
+  "data": {
+   "reactants": [
+    "H2O"
+   ],
+   "products": [
+    "H2",
+    "O2"
+   ],
+   "ox": {
+    "from": "H2O",
+    "to": "O2",
+    "el": "O",
+    "before": -2,
+    "after": 0
+   },
+   "red": {
+    "from": "H2O",
+    "to": "H2",
+    "el": "H",
+    "before": 1,
+    "after": 0
+   },
+   "type": "Decomposition",
+   "displayEq": {
+    "L": {
+     "H2O": 2
+    },
+    "R": {
+     "H2": 2,
+     "O2": 1
+    }
+   },
+   "final": {
+    "L": {
+     "H2O": 2
+    },
+    "R": {
+     "H2": 2,
+     "O2": 1
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 19
+  }
+ },
+ {
+  "id": "redox-c202bf45",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "CH3OH",
+   "reduced": "O2"
+  },
+  "data": {
+   "reactants": [
+    "CH3OH",
+    "O2"
+   ],
+   "products": [
+    "CO2",
+    "H2O"
+   ],
+   "ox": {
+    "from": "CH3OH",
+    "to": "CO2",
+    "el": "C",
+    "before": -2,
+    "after": 4
+   },
+   "red": {
+    "from": "O2",
+    "to": "CO2",
+    "el": "O",
+    "before": 0,
+    "after": -2
+   },
+   "type": "Combustion",
+   "displayEq": {
+    "L": {
+     "CH3OH": 2,
+     "O2": 3
+    },
+    "R": {
+     "CO2": 2,
+     "H2O": 4
+    }
+   },
+   "final": {
+    "L": {
+     "CH3OH": 2,
+     "O2": 3
+    },
+    "R": {
+     "CO2": 2,
+     "H2O": 4
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 20
+  }
+ },
+ {
+  "id": "redox-6abec9b1",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "KBr",
+   "reduced": "Cl2"
+  },
+  "data": {
+   "reactants": [
+    "Cl2",
+    "KBr"
+   ],
+   "products": [
+    "KCl",
+    "Br2"
+   ],
+   "ox": {
+    "from": "KBr",
+    "to": "Br2",
+    "el": "Br",
+    "before": -1,
+    "after": 0
+   },
+   "red": {
+    "from": "Cl2",
+    "to": "KCl",
+    "el": "Cl",
+    "before": 0,
+    "after": -1
+   },
+   "type": "Single displacement",
+   "displayEq": {
+    "L": {
+     "Cl2": 1,
+     "KBr": 2
+    },
+    "R": {
+     "KCl": 2,
+     "Br2": 1
+    }
+   },
+   "final": {
+    "L": {
+     "Cl2": 1,
+     "KBr": 2
+    },
+    "R": {
+     "KCl": 2,
+     "Br2": 1
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 21
+  }
+ },
+ {
+  "id": "redox-6a37edb0",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "Zn",
+   "reduced": "S"
+  },
+  "data": {
+   "reactants": [
+    "Zn",
+    "S"
+   ],
+   "products": [
+    "ZnS"
+   ],
+   "ox": {
+    "from": "Zn",
+    "to": "ZnS",
+    "el": "Zn",
+    "before": 0,
+    "after": 2
+   },
+   "red": {
+    "from": "S",
+    "to": "ZnS",
+    "el": "S",
+    "before": 0,
+    "after": -2
+   },
+   "type": "Combination",
+   "displayEq": {
+    "L": {
+     "Zn": 1,
+     "S": 1
+    },
+    "R": {
+     "ZnS": 1
+    }
+   },
+   "final": {
+    "L": {
+     "Zn": 1,
+     "S": 1
+    },
+    "R": {
+     "ZnS": 1
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 22
+  }
+ },
+ {
+  "id": "redox-50c023a5",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "NaH",
+   "reduced": "NaH"
+  },
+  "data": {
+   "reactants": [
+    "NaH"
+   ],
+   "products": [
+    "Na",
+    "H2"
+   ],
+   "ox": {
+    "from": "NaH",
+    "to": "H2",
+    "el": "H",
+    "before": -1,
+    "after": 0
+   },
+   "red": {
+    "from": "NaH",
+    "to": "Na",
+    "el": "Na",
+    "before": 1,
+    "after": 0
+   },
+   "type": "Decomposition",
+   "displayEq": {
+    "L": {
+     "NaH": 2
+    },
+    "R": {
+     "Na": 2,
+     "H2": 1
+    }
+   },
+   "final": {
+    "L": {
+     "NaH": 2
+    },
+    "R": {
+     "Na": 2,
+     "H2": 1
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 23
+  }
+ },
+ {
+  "id": "redox-a9fbd65a",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "C2H5OH",
+   "reduced": "O2"
+  },
+  "data": {
+   "reactants": [
+    "C2H5OH",
+    "O2"
+   ],
+   "products": [
+    "CO2",
+    "H2O"
+   ],
+   "ox": {
+    "from": "C2H5OH",
+    "to": "CO2",
+    "el": "C",
+    "before": -2,
+    "after": 4
+   },
+   "red": {
+    "from": "O2",
+    "to": "CO2",
+    "el": "O",
+    "before": 0,
+    "after": -2
+   },
+   "type": "Combustion",
+   "displayEq": {
+    "L": {
+     "C2H5OH": 1,
+     "O2": 3
+    },
+    "R": {
+     "CO2": 2,
+     "H2O": 3
+    }
+   },
+   "final": {
+    "L": {
+     "C2H5OH": 1,
+     "O2": 3
+    },
+    "R": {
+     "CO2": 2,
+     "H2O": 3
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 24
+  }
+ },
+ {
+  "id": "redox-306bc1d7",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "Zn",
+   "reduced": "HCl"
+  },
+  "data": {
+   "reactants": [
+    "Zn",
+    "HCl"
+   ],
+   "products": [
+    "ZnCl2",
+    "H2"
+   ],
+   "ox": {
+    "from": "Zn",
+    "to": "ZnCl2",
+    "el": "Zn",
+    "before": 0,
+    "after": 2
+   },
+   "red": {
+    "from": "HCl",
+    "to": "H2",
+    "el": "H",
+    "before": 1,
+    "after": 0
+   },
+   "type": "Single displacement",
+   "displayEq": {
+    "L": {
+     "Zn": 1,
+     "HCl": 2
+    },
+    "R": {
+     "ZnCl2": 1,
+     "H2": 1
+    }
+   },
+   "final": {
+    "L": {
+     "Zn": 1,
+     "HCl": 2
+    },
+    "R": {
+     "ZnCl2": 1,
+     "H2": 1
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 25
+  }
+ },
+ {
+  "id": "redox-b7dfb412",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "Ca",
+   "reduced": "O2"
+  },
+  "data": {
+   "reactants": [
+    "Ca",
+    "O2"
+   ],
+   "products": [
+    "CaO"
+   ],
+   "ox": {
+    "from": "Ca",
+    "to": "CaO",
+    "el": "Ca",
+    "before": 0,
+    "after": 2
+   },
+   "red": {
+    "from": "O2",
+    "to": "CaO",
+    "el": "O",
+    "before": 0,
+    "after": -2
+   },
+   "type": "Combination",
+   "displayEq": {
+    "L": {
+     "Ca": 2,
+     "O2": 1
+    },
+    "R": {
+     "CaO": 2
+    }
+   },
+   "final": {
+    "L": {
+     "Ca": 2,
+     "O2": 1
+    },
+    "R": {
+     "CaO": 2
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 26
+  }
+ },
+ {
+  "id": "redox-3f9ef534",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "Al2O3",
+   "reduced": "Al2O3"
+  },
+  "data": {
+   "reactants": [
+    "Al2O3"
+   ],
+   "products": [
+    "Al",
+    "O2"
+   ],
+   "ox": {
+    "from": "Al2O3",
+    "to": "O2",
+    "el": "O",
+    "before": -2,
+    "after": 0
+   },
+   "red": {
+    "from": "Al2O3",
+    "to": "Al",
+    "el": "Al",
+    "before": 3,
+    "after": 0
+   },
+   "type": "Decomposition",
+   "displayEq": {
+    "L": {
+     "Al2O3": 2
+    },
+    "R": {
+     "Al": 4,
+     "O2": 3
+    }
+   },
+   "final": {
+    "L": {
+     "Al2O3": 2
+    },
+    "R": {
+     "Al": 4,
+     "O2": 3
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 27
+  }
+ },
+ {
+  "id": "redox-c1b2cea3",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "C6H12O6",
+   "reduced": "O2"
+  },
+  "data": {
+   "reactants": [
+    "C6H12O6",
+    "O2"
+   ],
+   "products": [
+    "CO2",
+    "H2O"
+   ],
+   "ox": {
+    "from": "C6H12O6",
+    "to": "CO2",
+    "el": "C",
+    "before": 0,
+    "after": 4
+   },
+   "red": {
+    "from": "O2",
+    "to": "CO2",
+    "el": "O",
+    "before": 0,
+    "after": -2
+   },
+   "type": "Combustion",
+   "displayEq": {
+    "L": {
+     "C6H12O6": 1,
+     "O2": 6
+    },
+    "R": {
+     "CO2": 6,
+     "H2O": 6
+    }
+   },
+   "final": {
+    "L": {
+     "C6H12O6": 1,
+     "O2": 6
+    },
+    "R": {
+     "CO2": 6,
+     "H2O": 6
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 28
+  }
+ },
+ {
+  "id": "redox-9a2fd43c",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "KI",
+   "reduced": "Br2"
+  },
+  "data": {
+   "reactants": [
+    "Br2",
+    "KI"
+   ],
+   "products": [
+    "KBr",
+    "I2"
+   ],
+   "ox": {
+    "from": "KI",
+    "to": "I2",
+    "el": "I",
+    "before": -1,
+    "after": 0
+   },
+   "red": {
+    "from": "Br2",
+    "to": "KBr",
+    "el": "Br",
+    "before": 0,
+    "after": -1
+   },
+   "type": "Single displacement",
+   "displayEq": {
+    "L": {
+     "Br2": 1,
+     "KI": 2
+    },
+    "R": {
+     "KBr": 2,
+     "I2": 1
+    }
+   },
+   "final": {
+    "L": {
+     "Br2": 1,
+     "KI": 2
+    },
+    "R": {
+     "KBr": 2,
+     "I2": 1
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 29
+  }
+ },
+ {
+  "id": "redox-58d3325d",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "H2",
+   "reduced": "N2"
+  },
+  "data": {
+   "reactants": [
+    "N2",
+    "H2"
+   ],
+   "products": [
+    "NH3"
+   ],
+   "ox": {
+    "from": "H2",
+    "to": "NH3",
+    "el": "H",
+    "before": 0,
+    "after": 1
+   },
+   "red": {
+    "from": "N2",
+    "to": "NH3",
+    "el": "N",
+    "before": 0,
+    "after": -3
+   },
+   "type": "Combination",
+   "displayEq": {
+    "L": {
+     "N2": 1,
+     "H2": 3
+    },
+    "R": {
+     "NH3": 2
+    }
+   },
+   "final": {
+    "L": {
+     "N2": 1,
+     "H2": 3
+    },
+    "R": {
+     "NH3": 2
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 30
+  }
+ },
+ {
+  "id": "redox-3aa30d2f",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "skill": "redox.identify",
+  "type": "redox-identify",
+  "prompt": "Identify what is oxidized and what is reduced.",
+  "answer": {
+   "oxidized": "NaCl",
+   "reduced": "NaCl"
+  },
+  "data": {
+   "reactants": [
+    "NaCl"
+   ],
+   "products": [
+    "Na",
+    "Cl2"
+   ],
+   "ox": {
+    "from": "NaCl",
+    "to": "Cl2",
+    "el": "Cl",
+    "before": -1,
+    "after": 0
+   },
+   "red": {
+    "from": "NaCl",
+    "to": "Na",
+    "el": "Na",
+    "before": 1,
+    "after": 0
+   },
+   "type": "Decomposition",
+   "displayEq": {
+    "L": {
+     "NaCl": 2
+    },
+    "R": {
+     "Na": 2,
+     "Cl2": 1
+    }
+   },
+   "final": {
+    "L": {
+     "NaCl": 2
+    },
+    "R": {
+     "Na": 2,
+     "Cl2": 1
+    }
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "identificationMeta",
+   "index": 31
+  }
+ },
+ {
+  "id": "redox-60d880bd",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Zn + Cu^2+ → Zn^2+ + Cu",
+  "data": {
+   "reactants": [
+    "Zn",
+    "Cu^2+"
+   ],
+   "products": [
+    "Zn^2+",
+    "Cu"
+   ],
+   "ox": {
+    "from": "Zn",
+    "to": "Zn^2+",
+    "el": "Zn",
+    "before": 0,
+    "after": 2
+   },
+   "red": {
+    "from": "Cu^2+",
+    "to": "Cu",
+    "el": "Cu",
+    "before": 2,
+    "after": 0
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 0
+  }
+ },
+ {
+  "id": "redox-08fc7df6",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Al + Cu^2+ → Al^3+ + Cu",
+  "data": {
+   "reactants": [
+    "Al",
+    "Cu^2+"
+   ],
+   "products": [
+    "Al^3+",
+    "Cu"
+   ],
+   "ox": {
+    "from": "Al",
+    "to": "Al^3+",
+    "el": "Al",
+    "before": 0,
+    "after": 3
+   },
+   "red": {
+    "from": "Cu^2+",
+    "to": "Cu",
+    "el": "Cu",
+    "before": 2,
+    "after": 0
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 1
+  }
+ },
+ {
+  "id": "redox-d570929f",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Sn^2+ + Fe^3+ → Sn^4+ + Fe^2+",
+  "data": {
+   "reactants": [
+    "Sn^2+",
+    "Fe^3+"
+   ],
+   "products": [
+    "Sn^4+",
+    "Fe^2+"
+   ],
+   "ox": {
+    "from": "Sn^2+",
+    "to": "Sn^4+",
+    "el": "Sn",
+    "before": 2,
+    "after": 4
+   },
+   "red": {
+    "from": "Fe^3+",
+    "to": "Fe^2+",
+    "el": "Fe",
+    "before": 3,
+    "after": 2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 2
+  }
+ },
+ {
+  "id": "redox-c4f5592b",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Cl2 + Br^- → Cl^- + Br2",
+  "data": {
+   "reactants": [
+    "Cl2",
+    "Br^-"
+   ],
+   "products": [
+    "Cl^-",
+    "Br2"
+   ],
+   "ox": {
+    "from": "Br^-",
+    "to": "Br2",
+    "el": "Br",
+    "before": -1,
+    "after": 0
+   },
+   "red": {
+    "from": "Cl2",
+    "to": "Cl^-",
+    "el": "Cl",
+    "before": 0,
+    "after": -1
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 3
+  }
+ },
+ {
+  "id": "redox-227d3abc",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Fe^3+ + I^- → Fe^2+ + I2",
+  "data": {
+   "reactants": [
+    "Fe^3+",
+    "I^-"
+   ],
+   "products": [
+    "Fe^2+",
+    "I2"
+   ],
+   "ox": {
+    "from": "I^-",
+    "to": "I2",
+    "el": "I",
+    "before": -1,
+    "after": 0
+   },
+   "red": {
+    "from": "Fe^3+",
+    "to": "Fe^2+",
+    "el": "Fe",
+    "before": 3,
+    "after": 2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 4
+  }
+ },
+ {
+  "id": "redox-7f0a31cf",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Mg + Ag^+ → Mg^2+ + Ag",
+  "data": {
+   "reactants": [
+    "Mg",
+    "Ag^+"
+   ],
+   "products": [
+    "Mg^2+",
+    "Ag"
+   ],
+   "ox": {
+    "from": "Mg",
+    "to": "Mg^2+",
+    "el": "Mg",
+    "before": 0,
+    "after": 2
+   },
+   "red": {
+    "from": "Ag^+",
+    "to": "Ag",
+    "el": "Ag",
+    "before": 1,
+    "after": 0
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 5
+  }
+ },
+ {
+  "id": "redox-2f77df6e",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Fe + Cl2 → Fe^3+ + Cl^-",
+  "data": {
+   "reactants": [
+    "Fe",
+    "Cl2"
+   ],
+   "products": [
+    "Fe^3+",
+    "Cl^-"
+   ],
+   "ox": {
+    "from": "Fe",
+    "to": "Fe^3+",
+    "el": "Fe",
+    "before": 0,
+    "after": 3
+   },
+   "red": {
+    "from": "Cl2",
+    "to": "Cl^-",
+    "el": "Cl",
+    "before": 0,
+    "after": -1
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 6
+  }
+ },
+ {
+  "id": "redox-4928c08d",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Cu + Ag^+ → Cu^2+ + Ag",
+  "data": {
+   "reactants": [
+    "Cu",
+    "Ag^+"
+   ],
+   "products": [
+    "Cu^2+",
+    "Ag"
+   ],
+   "ox": {
+    "from": "Cu",
+    "to": "Cu^2+",
+    "el": "Cu",
+    "before": 0,
+    "after": 2
+   },
+   "red": {
+    "from": "Ag^+",
+    "to": "Ag",
+    "el": "Ag",
+    "before": 1,
+    "after": 0
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 7
+  }
+ },
+ {
+  "id": "redox-430eb5d6",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Al + Ni^2+ → Al^3+ + Ni",
+  "data": {
+   "reactants": [
+    "Al",
+    "Ni^2+"
+   ],
+   "products": [
+    "Al^3+",
+    "Ni"
+   ],
+   "ox": {
+    "from": "Al",
+    "to": "Al^3+",
+    "el": "Al",
+    "before": 0,
+    "after": 3
+   },
+   "red": {
+    "from": "Ni^2+",
+    "to": "Ni",
+    "el": "Ni",
+    "before": 2,
+    "after": 0
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 8
+  }
+ },
+ {
+  "id": "redox-f109ba68",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Ca + F2 → Ca^2+ + F^-",
+  "data": {
+   "reactants": [
+    "Ca",
+    "F2"
+   ],
+   "products": [
+    "Ca^2+",
+    "F^-"
+   ],
+   "ox": {
+    "from": "Ca",
+    "to": "Ca^2+",
+    "el": "Ca",
+    "before": 0,
+    "after": 2
+   },
+   "red": {
+    "from": "F2",
+    "to": "F^-",
+    "el": "F",
+    "before": 0,
+    "after": -1
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 9
+  }
+ },
+ {
+  "id": "redox-7a379ebc",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Li + Cl2 → Li^+ + Cl^-",
+  "data": {
+   "reactants": [
+    "Li",
+    "Cl2"
+   ],
+   "products": [
+    "Li^+",
+    "Cl^-"
+   ],
+   "ox": {
+    "from": "Li",
+    "to": "Li^+",
+    "el": "Li",
+    "before": 0,
+    "after": 1
+   },
+   "red": {
+    "from": "Cl2",
+    "to": "Cl^-",
+    "el": "Cl",
+    "before": 0,
+    "after": -1
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 10
+  }
+ },
+ {
+  "id": "redox-cec473d5",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Br2 + I^- → Br^- + I2",
+  "data": {
+   "reactants": [
+    "Br2",
+    "I^-"
+   ],
+   "products": [
+    "Br^-",
+    "I2"
+   ],
+   "ox": {
+    "from": "I^-",
+    "to": "I2",
+    "el": "I",
+    "before": -1,
+    "after": 0
+   },
+   "red": {
+    "from": "Br2",
+    "to": "Br^-",
+    "el": "Br",
+    "before": 0,
+    "after": -1
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 11
+  }
+ },
+ {
+  "id": "redox-7038b5e0",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Zn + H^+ → Zn^2+ + H2",
+  "data": {
+   "reactants": [
+    "Zn",
+    "H^+"
+   ],
+   "products": [
+    "Zn^2+",
+    "H2"
+   ],
+   "ox": {
+    "from": "Zn",
+    "to": "Zn^2+",
+    "el": "Zn",
+    "before": 0,
+    "after": 2
+   },
+   "red": {
+    "from": "H^+",
+    "to": "H2",
+    "el": "H",
+    "before": 1,
+    "after": 0
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 12
+  }
+ },
+ {
+  "id": "redox-1ab303e7",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Cr + Sn^4+ → Cr^3+ + Sn^2+",
+  "data": {
+   "reactants": [
+    "Cr",
+    "Sn^4+"
+   ],
+   "products": [
+    "Cr^3+",
+    "Sn^2+"
+   ],
+   "ox": {
+    "from": "Cr",
+    "to": "Cr^3+",
+    "el": "Cr",
+    "before": 0,
+    "after": 3
+   },
+   "red": {
+    "from": "Sn^4+",
+    "to": "Sn^2+",
+    "el": "Sn",
+    "before": 4,
+    "after": 2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 13
+  }
+ },
+ {
+  "id": "redox-d412e2b3",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Fe^2+ + Ce^4+ → Fe^3+ + Ce^3+",
+  "data": {
+   "reactants": [
+    "Fe^2+",
+    "Ce^4+"
+   ],
+   "products": [
+    "Fe^3+",
+    "Ce^3+"
+   ],
+   "ox": {
+    "from": "Fe^2+",
+    "to": "Fe^3+",
+    "el": "Fe",
+    "before": 2,
+    "after": 3
+   },
+   "red": {
+    "from": "Ce^4+",
+    "to": "Ce^3+",
+    "el": "Ce",
+    "before": 4,
+    "after": 3
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 14
+  }
+ },
+ {
+  "id": "redox-2116657a",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: H2 + Cu^2+ → H^+ + Cu",
+  "data": {
+   "reactants": [
+    "H2",
+    "Cu^2+"
+   ],
+   "products": [
+    "H^+",
+    "Cu"
+   ],
+   "ox": {
+    "from": "H2",
+    "to": "H^+",
+    "el": "H",
+    "before": 0,
+    "after": 1
+   },
+   "red": {
+    "from": "Cu^2+",
+    "to": "Cu",
+    "el": "Cu",
+    "before": 2,
+    "after": 0
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 15
+  }
+ },
+ {
+  "id": "redox-cc5ddb31",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Ca + Cu^2+ → Ca^2+ + Cu",
+  "data": {
+   "reactants": [
+    "Ca",
+    "Cu^2+"
+   ],
+   "products": [
+    "Ca^2+",
+    "Cu"
+   ],
+   "ox": {
+    "from": "Ca",
+    "to": "Ca^2+",
+    "el": "Ca",
+    "before": 0,
+    "after": 2
+   },
+   "red": {
+    "from": "Cu^2+",
+    "to": "Cu",
+    "el": "Cu",
+    "before": 2,
+    "after": 0
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 16
+  }
+ },
+ {
+  "id": "redox-196aacce",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Fe + Cu^2+ → Fe^2+ + Cu",
+  "data": {
+   "reactants": [
+    "Fe",
+    "Cu^2+"
+   ],
+   "products": [
+    "Fe^2+",
+    "Cu"
+   ],
+   "ox": {
+    "from": "Fe",
+    "to": "Fe^2+",
+    "el": "Fe",
+    "before": 0,
+    "after": 2
+   },
+   "red": {
+    "from": "Cu^2+",
+    "to": "Cu",
+    "el": "Cu",
+    "before": 2,
+    "after": 0
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 17
+  }
+ },
+ {
+  "id": "redox-051d2b55",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Al + Ag^+ → Al^3+ + Ag",
+  "data": {
+   "reactants": [
+    "Al",
+    "Ag^+"
+   ],
+   "products": [
+    "Al^3+",
+    "Ag"
+   ],
+   "ox": {
+    "from": "Al",
+    "to": "Al^3+",
+    "el": "Al",
+    "before": 0,
+    "after": 3
+   },
+   "red": {
+    "from": "Ag^+",
+    "to": "Ag",
+    "el": "Ag",
+    "before": 1,
+    "after": 0
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 18
+  }
+ },
+ {
+  "id": "redox-6a15c233",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Zn + Fe^3+ → Zn^2+ + Fe^2+",
+  "data": {
+   "reactants": [
+    "Zn",
+    "Fe^3+"
+   ],
+   "products": [
+    "Zn^2+",
+    "Fe^2+"
+   ],
+   "ox": {
+    "from": "Zn",
+    "to": "Zn^2+",
+    "el": "Zn",
+    "before": 0,
+    "after": 2
+   },
+   "red": {
+    "from": "Fe^3+",
+    "to": "Fe^2+",
+    "el": "Fe",
+    "before": 3,
+    "after": 2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 19
+  }
+ },
+ {
+  "id": "redox-17fe5e3f",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Cu + Fe^3+ → Cu^2+ + Fe^2+",
+  "data": {
+   "reactants": [
+    "Cu",
+    "Fe^3+"
+   ],
+   "products": [
+    "Cu^2+",
+    "Fe^2+"
+   ],
+   "ox": {
+    "from": "Cu",
+    "to": "Cu^2+",
+    "el": "Cu",
+    "before": 0,
+    "after": 2
+   },
+   "red": {
+    "from": "Fe^3+",
+    "to": "Fe^2+",
+    "el": "Fe",
+    "before": 3,
+    "after": 2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 20
+  }
+ },
+ {
+  "id": "redox-f9804a71",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Cl2 + Fe^2+ → Cl^- + Fe^3+",
+  "data": {
+   "reactants": [
+    "Cl2",
+    "Fe^2+"
+   ],
+   "products": [
+    "Cl^-",
+    "Fe^3+"
+   ],
+   "ox": {
+    "from": "Fe^2+",
+    "to": "Fe^3+",
+    "el": "Fe",
+    "before": 2,
+    "after": 3
+   },
+   "red": {
+    "from": "Cl2",
+    "to": "Cl^-",
+    "el": "Cl",
+    "before": 0,
+    "after": -1
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 21
+  }
+ },
+ {
+  "id": "redox-0bdb6b4c",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Br2 + Sn^2+ → Br^- + Sn^4+",
+  "data": {
+   "reactants": [
+    "Br2",
+    "Sn^2+"
+   ],
+   "products": [
+    "Br^-",
+    "Sn^4+"
+   ],
+   "ox": {
+    "from": "Sn^2+",
+    "to": "Sn^4+",
+    "el": "Sn",
+    "before": 2,
+    "after": 4
+   },
+   "red": {
+    "from": "Br2",
+    "to": "Br^-",
+    "el": "Br",
+    "before": 0,
+    "after": -1
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 22
+  }
+ },
+ {
+  "id": "redox-f7d0e89b",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Al + Pb^2+ → Al^3+ + Pb",
+  "data": {
+   "reactants": [
+    "Al",
+    "Pb^2+"
+   ],
+   "products": [
+    "Al^3+",
+    "Pb"
+   ],
+   "ox": {
+    "from": "Al",
+    "to": "Al^3+",
+    "el": "Al",
+    "before": 0,
+    "after": 3
+   },
+   "red": {
+    "from": "Pb^2+",
+    "to": "Pb",
+    "el": "Pb",
+    "before": 2,
+    "after": 0
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 23
+  }
+ },
+ {
+  "id": "redox-cc1bd0e0",
+  "skill": "redox.half-reactions",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction: Na + H^+ → Na^+ + H2",
+  "data": {
+   "reactants": [
+    "Na",
+    "H^+"
+   ],
+   "products": [
+    "Na^+",
+    "H2"
+   ],
+   "ox": {
+    "from": "Na",
+    "to": "Na^+",
+    "el": "Na",
+    "before": 0,
+    "after": 1
+   },
+   "red": {
+    "from": "H^+",
+    "to": "H2",
+    "el": "H",
+    "before": 1,
+    "after": 0
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "halfMeta",
+   "index": 24
+  }
+ },
+ {
+  "id": "redox-e90478ad",
+  "skill": "redox.acidic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in acidic solution: MnO4^- + Fe^2+ → Mn^2+ + Fe^3+",
+  "data": {
+   "reactants": [
+    "MnO4^-",
+    "Fe^2+"
+   ],
+   "products": [
+    "Mn^2+",
+    "Fe^3+"
+   ],
+   "ox": {
+    "from": "Fe^2+",
+    "to": "Fe^3+",
+    "el": "Fe",
+    "before": 2,
+    "after": 3
+   },
+   "red": {
+    "from": "MnO4^-",
+    "to": "Mn^2+",
+    "el": "Mn",
+    "before": 7,
+    "after": 2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "acidMeta",
+   "index": 0
+  }
+ },
+ {
+  "id": "redox-a14b288b",
+  "skill": "redox.acidic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in acidic solution: Cr2O7^2- + Fe^2+ → Cr^3+ + Fe^3+",
+  "data": {
+   "reactants": [
+    "Cr2O7^2-",
+    "Fe^2+"
+   ],
+   "products": [
+    "Cr^3+",
+    "Fe^3+"
+   ],
+   "ox": {
+    "from": "Fe^2+",
+    "to": "Fe^3+",
+    "el": "Fe",
+    "before": 2,
+    "after": 3
+   },
+   "red": {
+    "from": "Cr2O7^2-",
+    "to": "Cr^3+",
+    "el": "Cr",
+    "before": 6,
+    "after": 3
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "acidMeta",
+   "index": 1
+  }
+ },
+ {
+  "id": "redox-646762eb",
+  "skill": "redox.acidic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in acidic solution: MnO4^- + H2O2 → Mn^2+ + O2",
+  "data": {
+   "reactants": [
+    "MnO4^-",
+    "H2O2"
+   ],
+   "products": [
+    "Mn^2+",
+    "O2"
+   ],
+   "ox": {
+    "from": "H2O2",
+    "to": "O2",
+    "el": "O",
+    "before": -1,
+    "after": 0
+   },
+   "red": {
+    "from": "MnO4^-",
+    "to": "Mn^2+",
+    "el": "Mn",
+    "before": 7,
+    "after": 2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "acidMeta",
+   "index": 2
+  }
+ },
+ {
+  "id": "redox-4e5a72b3",
+  "skill": "redox.acidic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in acidic solution: NO3^- + Cu → NO + Cu^2+",
+  "data": {
+   "reactants": [
+    "NO3^-",
+    "Cu"
+   ],
+   "products": [
+    "NO",
+    "Cu^2+"
+   ],
+   "ox": {
+    "from": "Cu",
+    "to": "Cu^2+",
+    "el": "Cu",
+    "before": 0,
+    "after": 2
+   },
+   "red": {
+    "from": "NO3^-",
+    "to": "NO",
+    "el": "N",
+    "before": 5,
+    "after": 2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "acidMeta",
+   "index": 3
+  }
+ },
+ {
+  "id": "redox-6334ae55",
+  "skill": "redox.acidic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in acidic solution: IO3^- + I^- → I2",
+  "data": {
+   "reactants": [
+    "IO3^-",
+    "I^-"
+   ],
+   "products": [
+    "I2"
+   ],
+   "ox": {
+    "from": "I^-",
+    "to": "I2",
+    "el": "I",
+    "before": -1,
+    "after": 0
+   },
+   "red": {
+    "from": "IO3^-",
+    "to": "I2",
+    "el": "I",
+    "before": 5,
+    "after": 0
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "acidMeta",
+   "index": 4
+  }
+ },
+ {
+  "id": "redox-42b1bb2d",
+  "skill": "redox.acidic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in acidic solution: H2O2 + Sn^2+ → H2O + Sn^4+",
+  "data": {
+   "reactants": [
+    "H2O2",
+    "Sn^2+"
+   ],
+   "products": [
+    "H2O",
+    "Sn^4+"
+   ],
+   "ox": {
+    "from": "Sn^2+",
+    "to": "Sn^4+",
+    "el": "Sn",
+    "before": 2,
+    "after": 4
+   },
+   "red": {
+    "from": "H2O2",
+    "to": "H2O",
+    "el": "O",
+    "before": -1,
+    "after": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "acidMeta",
+   "index": 5
+  }
+ },
+ {
+  "id": "redox-1ab3d8ff",
+  "skill": "redox.acidic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in acidic solution: PbO2 + Hg → Hg2^2+ + Pb^2+",
+  "data": {
+   "reactants": [
+    "PbO2",
+    "Hg"
+   ],
+   "products": [
+    "Hg2^2+",
+    "Pb^2+"
+   ],
+   "ox": {
+    "from": "Hg",
+    "to": "Hg2^2+",
+    "el": "Hg",
+    "before": 0,
+    "after": 1
+   },
+   "red": {
+    "from": "PbO2",
+    "to": "Pb^2+",
+    "el": "Pb",
+    "before": 4,
+    "after": 2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "acidMeta",
+   "index": 6
+  }
+ },
+ {
+  "id": "redox-67af276d",
+  "skill": "redox.acidic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in acidic solution: Al + Cr2O7^2- → Al^3+ + Cr^3+",
+  "data": {
+   "reactants": [
+    "Al",
+    "Cr2O7^2-"
+   ],
+   "products": [
+    "Al^3+",
+    "Cr^3+"
+   ],
+   "ox": {
+    "from": "Al",
+    "to": "Al^3+",
+    "el": "Al",
+    "before": 0,
+    "after": 3
+   },
+   "red": {
+    "from": "Cr2O7^2-",
+    "to": "Cr^3+",
+    "el": "Cr",
+    "before": 6,
+    "after": 3
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "acidMeta",
+   "index": 7
+  }
+ },
+ {
+  "id": "redox-6ee62844",
+  "skill": "redox.acidic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in acidic solution: H2S + NO3^- → S + NO",
+  "data": {
+   "reactants": [
+    "H2S",
+    "NO3^-"
+   ],
+   "products": [
+    "S",
+    "NO"
+   ],
+   "ox": {
+    "from": "H2S",
+    "to": "S",
+    "el": "S",
+    "before": -2,
+    "after": 0
+   },
+   "red": {
+    "from": "NO3^-",
+    "to": "NO",
+    "el": "N",
+    "before": 5,
+    "after": 2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "acidMeta",
+   "index": 8
+  }
+ },
+ {
+  "id": "redox-d5a8c4a2",
+  "skill": "redox.acidic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in acidic solution: MnO4^- + H2O2 → MnO2 + O2",
+  "data": {
+   "reactants": [
+    "MnO4^-",
+    "H2O2"
+   ],
+   "products": [
+    "MnO2",
+    "O2"
+   ],
+   "ox": {
+    "from": "H2O2",
+    "to": "O2",
+    "el": "O",
+    "before": -1,
+    "after": 0
+   },
+   "red": {
+    "from": "MnO4^-",
+    "to": "MnO2",
+    "el": "Mn",
+    "before": 7,
+    "after": 4
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "acidMeta",
+   "index": 9
+  }
+ },
+ {
+  "id": "redox-e5d998f4",
+  "skill": "redox.acidic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in acidic solution: Sn^2+ + NO → Sn + NO3^-",
+  "data": {
+   "reactants": [
+    "Sn^2+",
+    "NO"
+   ],
+   "products": [
+    "Sn",
+    "NO3^-"
+   ],
+   "ox": {
+    "from": "NO",
+    "to": "NO3^-",
+    "el": "N",
+    "before": 2,
+    "after": 5
+   },
+   "red": {
+    "from": "Sn^2+",
+    "to": "Sn",
+    "el": "Sn",
+    "before": 2,
+    "after": 0
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "acidMeta",
+   "index": 10
+  }
+ },
+ {
+  "id": "redox-6cc7de95",
+  "skill": "redox.acidic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in acidic solution: MnO4^- + C2O4^2- → Mn^2+ + CO2",
+  "data": {
+   "reactants": [
+    "MnO4^-",
+    "C2O4^2-"
+   ],
+   "products": [
+    "Mn^2+",
+    "CO2"
+   ],
+   "ox": {
+    "from": "C2O4^2-",
+    "to": "CO2",
+    "el": "C",
+    "before": 3,
+    "after": 4
+   },
+   "red": {
+    "from": "MnO4^-",
+    "to": "Mn^2+",
+    "el": "Mn",
+    "before": 7,
+    "after": 2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "acidMeta",
+   "index": 11
+  }
+ },
+ {
+  "id": "redox-bbeb0d92",
+  "skill": "redox.acidic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in acidic solution: Cr2O7^2- + I^- → Cr^3+ + I2",
+  "data": {
+   "reactants": [
+    "Cr2O7^2-",
+    "I^-"
+   ],
+   "products": [
+    "Cr^3+",
+    "I2"
+   ],
+   "ox": {
+    "from": "I^-",
+    "to": "I2",
+    "el": "I",
+    "before": -1,
+    "after": 0
+   },
+   "red": {
+    "from": "Cr2O7^2-",
+    "to": "Cr^3+",
+    "el": "Cr",
+    "before": 6,
+    "after": 3
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "acidMeta",
+   "index": 12
+  }
+ },
+ {
+  "id": "redox-910d68cb",
+  "skill": "redox.acidic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in acidic solution: H2O2 + Fe^2+ → H2O + Fe^3+",
+  "data": {
+   "reactants": [
+    "H2O2",
+    "Fe^2+"
+   ],
+   "products": [
+    "H2O",
+    "Fe^3+"
+   ],
+   "ox": {
+    "from": "Fe^2+",
+    "to": "Fe^3+",
+    "el": "Fe",
+    "before": 2,
+    "after": 3
+   },
+   "red": {
+    "from": "H2O2",
+    "to": "H2O",
+    "el": "O",
+    "before": -1,
+    "after": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "acidMeta",
+   "index": 13
+  }
+ },
+ {
+  "id": "redox-51554c66",
+  "skill": "redox.acidic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in acidic solution: BrO3^- + Br^- → Br2",
+  "data": {
+   "reactants": [
+    "BrO3^-",
+    "Br^-"
+   ],
+   "products": [
+    "Br2"
+   ],
+   "ox": {
+    "from": "Br^-",
+    "to": "Br2",
+    "el": "Br",
+    "before": -1,
+    "after": 0
+   },
+   "red": {
+    "from": "BrO3^-",
+    "to": "Br2",
+    "el": "Br",
+    "before": 5,
+    "after": 0
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "acidMeta",
+   "index": 14
+  }
+ },
+ {
+  "id": "redox-1b5bafd1",
+  "skill": "redox.acidic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in acidic solution: Cu + NO3^- → Cu^2+ + NO2",
+  "data": {
+   "reactants": [
+    "Cu",
+    "NO3^-"
+   ],
+   "products": [
+    "Cu^2+",
+    "NO2"
+   ],
+   "ox": {
+    "from": "Cu",
+    "to": "Cu^2+",
+    "el": "Cu",
+    "before": 0,
+    "after": 2
+   },
+   "red": {
+    "from": "NO3^-",
+    "to": "NO2",
+    "el": "N",
+    "before": 5,
+    "after": 4
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "acidMeta",
+   "index": 15
+  }
+ },
+ {
+  "id": "redox-d3245747",
+  "skill": "redox.acidic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in acidic solution: MnO4^- + SO3^2- → Mn^2+ + SO4^2-",
+  "data": {
+   "reactants": [
+    "MnO4^-",
+    "SO3^2-"
+   ],
+   "products": [
+    "Mn^2+",
+    "SO4^2-"
+   ],
+   "ox": {
+    "from": "SO3^2-",
+    "to": "SO4^2-",
+    "el": "S",
+    "before": 4,
+    "after": 6
+   },
+   "red": {
+    "from": "MnO4^-",
+    "to": "Mn^2+",
+    "el": "Mn",
+    "before": 7,
+    "after": 2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "acidMeta",
+   "index": 16
+  }
+ },
+ {
+  "id": "redox-03787ac4",
+  "skill": "redox.basic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in basic solution: MnO4^- + I^- → MnO2 + I2",
+  "data": {
+   "reactants": [
+    "MnO4^-",
+    "I^-"
+   ],
+   "products": [
+    "MnO2",
+    "I2"
+   ],
+   "ox": {
+    "from": "I^-",
+    "to": "I2",
+    "el": "I",
+    "before": -1,
+    "after": 0
+   },
+   "red": {
+    "from": "MnO4^-",
+    "to": "MnO2",
+    "el": "Mn",
+    "before": 7,
+    "after": 4
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "baseMeta",
+   "index": 0
+  }
+ },
+ {
+  "id": "redox-13d2e0ee",
+  "skill": "redox.basic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in basic solution: MnO4^- + SO3^2- → MnO2 + SO4^2-",
+  "data": {
+   "reactants": [
+    "MnO4^-",
+    "SO3^2-"
+   ],
+   "products": [
+    "MnO2",
+    "SO4^2-"
+   ],
+   "ox": {
+    "from": "SO3^2-",
+    "to": "SO4^2-",
+    "el": "S",
+    "before": 4,
+    "after": 6
+   },
+   "red": {
+    "from": "MnO4^-",
+    "to": "MnO2",
+    "el": "Mn",
+    "before": 7,
+    "after": 4
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "baseMeta",
+   "index": 1
+  }
+ },
+ {
+  "id": "redox-77eecc44",
+  "skill": "redox.basic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in basic solution: ClO^- + Cr(OH)3 → Cl^- + CrO4^2-",
+  "data": {
+   "reactants": [
+    "ClO^-",
+    "Cr(OH)3"
+   ],
+   "products": [
+    "Cl^-",
+    "CrO4^2-"
+   ],
+   "ox": {
+    "from": "Cr(OH)3",
+    "to": "CrO4^2-",
+    "el": "Cr",
+    "before": 3,
+    "after": 6
+   },
+   "red": {
+    "from": "ClO^-",
+    "to": "Cl^-",
+    "el": "Cl",
+    "before": 1,
+    "after": -1
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "baseMeta",
+   "index": 2
+  }
+ },
+ {
+  "id": "redox-3d9970f0",
+  "skill": "redox.basic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in basic solution: CN^- + MnO4^- → CNO^- + MnO2",
+  "data": {
+   "reactants": [
+    "CN^-",
+    "MnO4^-"
+   ],
+   "products": [
+    "CNO^-",
+    "MnO2"
+   ],
+   "ox": {
+    "from": "CN^-",
+    "to": "CNO^-",
+    "el": "C",
+    "before": 2,
+    "after": 4
+   },
+   "red": {
+    "from": "MnO4^-",
+    "to": "MnO2",
+    "el": "Mn",
+    "before": 7,
+    "after": 4
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "baseMeta",
+   "index": 3
+  }
+ },
+ {
+  "id": "redox-bed8125b",
+  "skill": "redox.basic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in basic solution: SO3^2- + Cu(OH)2 → SO4^2- + CuOH",
+  "data": {
+   "reactants": [
+    "SO3^2-",
+    "Cu(OH)2"
+   ],
+   "products": [
+    "SO4^2-",
+    "CuOH"
+   ],
+   "ox": {
+    "from": "SO3^2-",
+    "to": "SO4^2-",
+    "el": "S",
+    "before": 4,
+    "after": 6
+   },
+   "red": {
+    "from": "Cu(OH)2",
+    "to": "CuOH",
+    "el": "Cu",
+    "before": 2,
+    "after": 1
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "baseMeta",
+   "index": 4
+  }
+ },
+ {
+  "id": "redox-3f284657",
+  "skill": "redox.basic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in basic solution: O2 + Mn(OH)2 → MnO2",
+  "data": {
+   "reactants": [
+    "O2",
+    "Mn(OH)2"
+   ],
+   "products": [
+    "MnO2"
+   ],
+   "ox": {
+    "from": "Mn(OH)2",
+    "to": "MnO2",
+    "el": "Mn",
+    "before": 2,
+    "after": 4
+   },
+   "red": {
+    "from": "O2",
+    "to": "H2O",
+    "el": "O",
+    "before": 0,
+    "after": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "baseMeta",
+   "index": 5
+  }
+ },
+ {
+  "id": "redox-bb2cbc46",
+  "skill": "redox.basic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in basic solution: NO3^- + H2 → NO",
+  "data": {
+   "reactants": [
+    "NO3^-",
+    "H2"
+   ],
+   "products": [
+    "NO"
+   ],
+   "ox": {
+    "from": "H2",
+    "to": "H^+",
+    "el": "H",
+    "before": 0,
+    "after": 1
+   },
+   "red": {
+    "from": "NO3^-",
+    "to": "NO",
+    "el": "N",
+    "before": 5,
+    "after": 2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "baseMeta",
+   "index": 6
+  }
+ },
+ {
+  "id": "redox-121058a0",
+  "skill": "redox.basic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in basic solution: Al + CrO4^2- → Al(OH)3 + Cr(OH)4^-",
+  "data": {
+   "reactants": [
+    "Al",
+    "CrO4^2-"
+   ],
+   "products": [
+    "Al(OH)3",
+    "Cr(OH)4^-"
+   ],
+   "ox": {
+    "from": "Al",
+    "to": "Al(OH)3",
+    "el": "Al",
+    "before": 0,
+    "after": 3
+   },
+   "red": {
+    "from": "CrO4^2-",
+    "to": "Cr(OH)4^-",
+    "el": "Cr",
+    "before": 6,
+    "after": 3
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "baseMeta",
+   "index": 7
+  }
+ },
+ {
+  "id": "redox-288d0e09",
+  "skill": "redox.basic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in basic solution: ClO3^- + MnO2 → Cl^- + MnO4^-",
+  "data": {
+   "reactants": [
+    "ClO3^-",
+    "MnO2"
+   ],
+   "products": [
+    "Cl^-",
+    "MnO4^-"
+   ],
+   "ox": {
+    "from": "MnO2",
+    "to": "MnO4^-",
+    "el": "Mn",
+    "before": 4,
+    "after": 7
+   },
+   "red": {
+    "from": "ClO3^-",
+    "to": "Cl^-",
+    "el": "Cl",
+    "before": 5,
+    "after": -1
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "baseMeta",
+   "index": 8
+  }
+ },
+ {
+  "id": "redox-57f13fac",
+  "skill": "redox.basic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in basic solution: Fe(OH)2 + O2 → Fe(OH)3",
+  "data": {
+   "reactants": [
+    "Fe(OH)2",
+    "O2"
+   ],
+   "products": [
+    "Fe(OH)3"
+   ],
+   "ox": {
+    "from": "Fe(OH)2",
+    "to": "Fe(OH)3",
+    "el": "Fe",
+    "before": 2,
+    "after": 3
+   },
+   "red": {
+    "from": "O2",
+    "to": "H2O",
+    "el": "O",
+    "before": 0,
+    "after": -2
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "baseMeta",
+   "index": 9
+  }
+ },
+ {
+  "id": "redox-9d16bb46",
+  "skill": "redox.basic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in basic solution: CrO4^2- + Fe(OH)2 → Cr(OH)3 + Fe(OH)3",
+  "data": {
+   "reactants": [
+    "CrO4^2-",
+    "Fe(OH)2"
+   ],
+   "products": [
+    "Cr(OH)3",
+    "Fe(OH)3"
+   ],
+   "ox": {
+    "from": "Fe(OH)2",
+    "to": "Fe(OH)3",
+    "el": "Fe",
+    "before": 2,
+    "after": 3
+   },
+   "red": {
+    "from": "CrO4^2-",
+    "to": "Cr(OH)3",
+    "el": "Cr",
+    "before": 6,
+    "after": 3
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "baseMeta",
+   "index": 10
+  }
+ },
+ {
+  "id": "redox-483be51c",
+  "skill": "redox.basic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in basic solution: MnO4^- + NO2^- → MnO2 + NO3^-",
+  "data": {
+   "reactants": [
+    "MnO4^-",
+    "NO2^-"
+   ],
+   "products": [
+    "MnO2",
+    "NO3^-"
+   ],
+   "ox": {
+    "from": "NO2^-",
+    "to": "NO3^-",
+    "el": "N",
+    "before": 3,
+    "after": 5
+   },
+   "red": {
+    "from": "MnO4^-",
+    "to": "MnO2",
+    "el": "Mn",
+    "before": 7,
+    "after": 4
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "baseMeta",
+   "index": 11
+  }
+ },
+ {
+  "id": "redox-52b0950d",
+  "skill": "redox.basic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in basic solution: H2O2 + ClO2 → ClO2^- + O2",
+  "data": {
+   "reactants": [
+    "H2O2",
+    "ClO2"
+   ],
+   "products": [
+    "ClO2^-",
+    "O2"
+   ],
+   "ox": {
+    "from": "H2O2",
+    "to": "O2",
+    "el": "O",
+    "before": -1,
+    "after": 0
+   },
+   "red": {
+    "from": "ClO2",
+    "to": "ClO2^-",
+    "el": "Cl",
+    "before": 4,
+    "after": 3
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "baseMeta",
+   "index": 12
+  }
+ },
+ {
+  "id": "redox-8963088d",
+  "skill": "redox.basic",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-17"
+  ],
+  "origin": "original",
+  "type": "redox-balance",
+  "prompt": "Balance this REDOX reaction in basic solution: SO3^2- + CrO4^2- → SO4^2- + Cr(OH)3",
+  "data": {
+   "reactants": [
+    "SO3^2-",
+    "CrO4^2-"
+   ],
+   "products": [
+    "SO4^2-",
+    "Cr(OH)3"
+   ],
+   "ox": {
+    "from": "SO3^2-",
+    "to": "SO4^2-",
+    "el": "S",
+    "before": 4,
+    "after": 6
+   },
+   "red": {
+    "from": "CrO4^2-",
+    "to": "Cr(OH)3",
+    "el": "Cr",
+    "before": 6,
+    "after": 3
+   }
+  },
+  "from": {
+   "game": "redox",
+   "list": "baseMeta",
+   "index": 13
+  }
+ },
+ {
+  "id": "redox-0e9230fd",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "Oxidation is…",
+  "answer": "the loss of electrons",
+  "choices": [
+   "the loss of electrons",
+   "the gain of electrons",
+   "the gain of protons",
+   "the loss of neutrons"
+  ],
+  "explain": "LEO: Loss of Electrons is Oxidation.",
+  "from": {
+   "game": "redox",
+   "list": "CONCEPT_FACTS",
+   "index": 0
+  }
+ },
+ {
+  "id": "redox-ebb9df5d",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "Reduction is…",
+  "answer": "the gain of electrons",
+  "choices": [
+   "the gain of electrons",
+   "the loss of electrons",
+   "the loss of protons",
+   "the gain of neutrons"
+  ],
+  "explain": "GER: Gain of Electrons is Reduction.",
+  "from": {
+   "game": "redox",
+   "list": "CONCEPT_FACTS",
+   "index": 1
+  }
+ },
+ {
+  "id": "redox-9051b198",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "The reducing agent is the substance that…",
+  "answer": "is oxidized",
+  "choices": [
+   "is oxidized",
+   "is reduced",
+   "gains electrons",
+   "is left unchanged"
+  ],
+  "explain": "A reducing agent donates electrons, so it is itself oxidized.",
+  "from": {
+   "game": "redox",
+   "list": "CONCEPT_FACTS",
+   "index": 2
+  }
+ },
+ {
+  "id": "redox-116cbb56",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "The oxidizing agent is the substance that…",
+  "answer": "is reduced",
+  "choices": [
+   "is reduced",
+   "is oxidized",
+   "loses electrons",
+   "is left unchanged"
+  ],
+  "explain": "An oxidizing agent accepts electrons, so it is itself reduced.",
+  "from": {
+   "game": "redox",
+   "list": "CONCEPT_FACTS",
+   "index": 3
+  }
+ },
+ {
+  "id": "redox-17857d16",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "When an atom is oxidized, its oxidation number…",
+  "answer": "increases",
+  "choices": [
+   "increases",
+   "decreases",
+   "stays the same",
+   "becomes zero"
+  ],
+  "explain": "Losing electrons makes the atom more positive, so the oxidation number increases.",
+  "from": {
+   "game": "redox",
+   "list": "CONCEPT_FACTS",
+   "index": 4
+  }
+ },
+ {
+  "id": "redox-ed3ef4ab",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "When an atom is reduced, its oxidation number…",
+  "answer": "decreases",
+  "choices": [
+   "decreases",
+   "increases",
+   "stays the same",
+   "becomes +1"
+  ],
+  "explain": "Gaining electrons makes the atom more negative, so the oxidation number decreases.",
+  "from": {
+   "game": "redox",
+   "list": "CONCEPT_FACTS",
+   "index": 5
+  }
+ },
+ {
+  "id": "redox-aad8ee09",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "In an electrochemical cell, oxidation occurs at the…",
+  "answer": "anode",
+  "choices": [
+   "anode",
+   "cathode",
+   "salt bridge",
+   "wire"
+  ],
+  "explain": "An Ox, Red Cat: oxidation at the anode, reduction at the cathode.",
+  "from": {
+   "game": "redox",
+   "list": "CONCEPT_FACTS",
+   "index": 6
+  }
+ },
+ {
+  "id": "redox-e3f9c7ce",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "In an electrochemical cell, reduction occurs at the…",
+  "answer": "cathode",
+  "choices": [
+   "cathode",
+   "anode",
+   "salt bridge",
+   "electrolyte only"
+  ],
+  "explain": "Reduction takes place at the cathode.",
+  "from": {
+   "game": "redox",
+   "list": "CONCEPT_FACTS",
+   "index": 7
+  }
+ },
+ {
+  "id": "redox-dc65dfe7",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "The purpose of a salt bridge is to…",
+  "answer": "keep each half-cell electrically neutral by letting ions move",
+  "choices": [
+   "keep each half-cell electrically neutral by letting ions move",
+   "carry electrons between the electrodes",
+   "stop all current from flowing",
+   "supply the metal for the electrodes"
+  ],
+  "explain": "Ions migrate through the salt bridge to balance charge while electrons flow through the wire.",
+  "from": {
+   "game": "redox",
+   "list": "CONCEPT_FACTS",
+   "index": 8
+  }
+ },
+ {
+  "id": "redox-595f9f47",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "Rusting of iron is an example of…",
+  "answer": "oxidation of iron by oxygen and water",
+  "choices": [
+   "oxidation of iron by oxygen and water",
+   "reduction of iron by water",
+   "a precipitation reaction only",
+   "a neutralization reaction"
+  ],
+  "explain": "Iron loses electrons to form iron(III) oxides, which is oxidation.",
+  "from": {
+   "game": "redox",
+   "list": "CONCEPT_FACTS",
+   "index": 9
+  }
+ },
+ {
+  "id": "redox-8bc6c97b",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "A sacrificial anode (such as zinc on a steel hull) protects iron because…",
+  "answer": "zinc is oxidized more easily than iron",
+  "choices": [
+   "zinc is oxidized more easily than iron",
+   "zinc is reduced more easily than iron",
+   "zinc blocks oxygen as paint does",
+   "zinc is a poorer reducing agent than iron"
+  ],
+  "explain": "The more easily oxidized metal corrodes first and spares the iron.",
+  "from": {
+   "game": "redox",
+   "list": "CONCEPT_FACTS",
+   "index": 10
+  }
+ },
+ {
+  "id": "redox-4195cc30",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "Galvanizing steel means coating it with…",
+  "answer": "zinc",
+  "choices": [
+   "zinc",
+   "copper",
+   "gold",
+   "lead"
+  ],
+  "explain": "Zinc coating both blocks air and acts as a sacrificial metal.",
+  "from": {
+   "game": "redox",
+   "list": "CONCEPT_FACTS",
+   "index": 11
+  }
+ },
+ {
+  "id": "redox-d4992b26",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "A rechargeable battery can be recharged because…",
+  "answer": "its cell reaction can be driven backward by an external current",
+  "choices": [
+   "its cell reaction can be driven backward by an external current",
+   "it contains no reactants",
+   "its electrodes never change",
+   "it works only by physical changes"
+  ],
+  "explain": "Supplying electrical energy reverses the cell reaction, restoring the reactants.",
+  "from": {
+   "game": "redox",
+   "list": "CONCEPT_FACTS",
+   "index": 12
+  }
+ },
+ {
+  "id": "redox-ccd5defd",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "Which is a typical oxidizing agent?",
+  "answer": "O₂",
+  "choices": [
+   "O₂",
+   "Na",
+   "Li",
+   "H₂ only in basic solution"
+  ],
+  "explain": "Oxygen readily gains electrons, so it is a common oxidizing agent.",
+  "from": {
+   "game": "redox",
+   "list": "CONCEPT_FACTS",
+   "index": 13
+  }
+ },
+ {
+  "id": "redox-a4132f53",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "Which is a typical reducing agent?",
+  "answer": "Na",
+  "choices": [
+   "Na",
+   "O₂",
+   "F₂",
+   "Cl₂"
+  ],
+  "explain": "Active metals such as sodium readily lose electrons.",
+  "from": {
+   "game": "redox",
+   "list": "CONCEPT_FACTS",
+   "index": 14
+  }
+ },
+ {
+  "id": "redox-32328d6d",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "A combustion reaction is always a…",
+  "answer": "REDOX reaction",
+  "choices": [
+   "REDOX reaction",
+   "precipitation reaction",
+   "acid–base reaction",
+   "decomposition with no electron transfer"
+  ],
+  "explain": "Oxygen gains electrons while the fuel loses them, so electrons are transferred.",
+  "from": {
+   "game": "redox",
+   "list": "CONCEPT_FACTS",
+   "index": 15
+  }
+ }
+]

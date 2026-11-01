@@ -1,0 +1,343 @@
+{
+ "from": "polyatomic",
+ "source": "Green Sheet",
+ "ions": [
+  {
+   "name": "borate",
+   "html": "BO<sub>3</sub><sup>3−</sup>",
+   "formulas": [
+    "BO3^3-"
+   ],
+   "names": [
+    "borate"
+   ],
+   "group": "oxyanions"
+  },
+  {
+   "name": "carbonate",
+   "html": "CO<sub>3</sub><sup>2−</sup>",
+   "formulas": [
+    "CO3^2-"
+   ],
+   "names": [
+    "carbonate"
+   ],
+   "group": "oxyanions"
+  },
+  {
+   "name": "nitrate",
+   "html": "NO<sub>3</sub><sup>−</sup>",
+   "formulas": [
+    "NO3^-"
+   ],
+   "names": [
+    "nitrate"
+   ],
+   "group": "oxyanions"
+  },
+  {
+   "name": "silicate",
+   "html": "SiO<sub>3</sub><sup>2−</sup>",
+   "formulas": [
+    "SiO3^2-"
+   ],
+   "names": [
+    "silicate"
+   ],
+   "group": "oxyanions"
+  },
+  {
+   "name": "phosphate",
+   "html": "PO<sub>4</sub><sup>3−</sup>",
+   "formulas": [
+    "PO4^3-"
+   ],
+   "names": [
+    "phosphate"
+   ],
+   "group": "oxyanions"
+  },
+  {
+   "name": "sulfate",
+   "html": "SO<sub>4</sub><sup>2−</sup>",
+   "formulas": [
+    "SO4^2-"
+   ],
+   "names": [
+    "sulfate"
+   ],
+   "group": "oxyanions"
+  },
+  {
+   "name": "chlorate",
+   "html": "ClO<sub>3</sub><sup>−</sup>",
+   "formulas": [
+    "ClO3^-"
+   ],
+   "names": [
+    "chlorate"
+   ],
+   "group": "oxyanions"
+  },
+  {
+   "name": "arsenate",
+   "html": "AsO<sub>4</sub><sup>3−</sup>",
+   "formulas": [
+    "AsO4^3-"
+   ],
+   "names": [
+    "arsenate"
+   ],
+   "group": "oxyanions"
+  },
+  {
+   "name": "selenate",
+   "html": "SeO<sub>4</sub><sup>2−</sup>",
+   "formulas": [
+    "SeO4^2-"
+   ],
+   "names": [
+    "selenate"
+   ],
+   "group": "oxyanions"
+  },
+  {
+   "name": "bromate",
+   "html": "BrO<sub>3</sub><sup>−</sup>",
+   "formulas": [
+    "BrO3^-"
+   ],
+   "names": [
+    "bromate"
+   ],
+   "group": "oxyanions"
+  },
+  {
+   "name": "tellurate",
+   "html": "TeO<sub>4</sub><sup>2−</sup>",
+   "formulas": [
+    "TeO4^2-"
+   ],
+   "names": [
+    "tellurate"
+   ],
+   "group": "oxyanions"
+  },
+  {
+   "name": "iodate",
+   "html": "IO<sub>3</sub><sup>−</sup>",
+   "formulas": [
+    "IO3^-"
+   ],
+   "names": [
+    "iodate"
+   ],
+   "group": "oxyanions"
+  },
+  {
+   "name": "hydronium",
+   "html": "H<sub>3</sub>O<sup>+</sup>",
+   "formulas": [
+    "H3O^+"
+   ],
+   "names": [
+    "hydronium"
+   ],
+   "group": "common"
+  },
+  {
+   "name": "ammonium",
+   "html": "NH<sub>4</sub><sup>+</sup>",
+   "formulas": [
+    "NH4^+"
+   ],
+   "names": [
+    "ammonium"
+   ],
+   "group": "common"
+  },
+  {
+   "name": "mercury(I)",
+   "html": "Hg<sub>2</sub><sup>2+</sup>",
+   "formulas": [
+    "Hg2^2+"
+   ],
+   "names": [
+    "mercury(I)",
+    "mercury 1",
+    "mercury(I) ion",
+    "mercury one"
+   ],
+   "group": "common"
+  },
+  {
+   "name": "hydroxide",
+   "html": "OH<sup>−</sup>",
+   "formulas": [
+    "OH^-"
+   ],
+   "names": [
+    "hydroxide"
+   ],
+   "group": "common"
+  },
+  {
+   "name": "cyanide",
+   "html": "CN<sup>−</sup>",
+   "formulas": [
+    "CN^-"
+   ],
+   "names": [
+    "cyanide"
+   ],
+   "group": "common"
+  },
+  {
+   "name": "peroxide",
+   "html": "O<sub>2</sub><sup>2−</sup>",
+   "formulas": [
+    "O2^2-"
+   ],
+   "names": [
+    "peroxide"
+   ],
+   "group": "common"
+  },
+  {
+   "name": "permanganate",
+   "html": "MnO<sub>4</sub><sup>−</sup>",
+   "formulas": [
+    "MnO4^-"
+   ],
+   "names": [
+    "permanganate"
+   ],
+   "group": "common"
+  },
+  {
+   "name": "chromate",
+   "html": "CrO<sub>4</sub><sup>2−</sup>",
+   "formulas": [
+    "CrO4^2-"
+   ],
+   "names": [
+    "chromate"
+   ],
+   "group": "common"
+  },
+  {
+   "name": "dichromate",
+   "html": "Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup>",
+   "formulas": [
+    "Cr2O7^2-"
+   ],
+   "names": [
+    "dichromate"
+   ],
+   "group": "common"
+  },
+  {
+   "name": "oxalate",
+   "html": "C<sub>2</sub>O<sub>4</sub><sup>2−</sup>",
+   "formulas": [
+    "C2O4^2-"
+   ],
+   "names": [
+    "oxalate"
+   ],
+   "group": "common"
+  },
+  {
+   "name": "acetate",
+   "html": "C<sub>2</sub>H<sub>3</sub>O<sub>2</sub><sup>−</sup>",
+   "formulas": [
+    "C2H3O2^-",
+    "CH3COO^-"
+   ],
+   "names": [
+    "acetate"
+   ],
+   "group": "common",
+   "displayNoteHtml": "Also written <span class='chem'>CH<sub>3</sub>COO<sup>−</sup></span>"
+  },
+  {
+   "name": "perchlorate",
+   "html": "ClO<sub>4</sub><sup>−</sup>",
+   "formulas": [
+    "ClO4^-"
+   ],
+   "names": [
+    "perchlorate"
+   ],
+   "group": "rules"
+  },
+  {
+   "name": "chlorite",
+   "html": "ClO<sub>2</sub><sup>−</sup>",
+   "formulas": [
+    "ClO2^-"
+   ],
+   "names": [
+    "chlorite"
+   ],
+   "group": "rules"
+  },
+  {
+   "name": "hypochlorite",
+   "html": "ClO<sup>−</sup>",
+   "formulas": [
+    "ClO^-"
+   ],
+   "names": [
+    "hypochlorite"
+   ],
+   "group": "rules"
+  },
+  {
+   "name": "thiosulfate",
+   "html": "S<sub>2</sub>O<sub>3</sub><sup>2−</sup>",
+   "formulas": [
+    "S2O3^2-"
+   ],
+   "names": [
+    "thiosulfate"
+   ],
+   "group": "rules"
+  },
+  {
+   "name": "hydrogenphosphate",
+   "html": "HPO<sub>4</sub><sup>2−</sup>",
+   "formulas": [
+    "HPO4^2-"
+   ],
+   "names": [
+    "hydrogenphosphate",
+    "hydrogen phosphate"
+   ],
+   "group": "rules"
+  },
+  {
+   "name": "dihydrogenphosphate",
+   "html": "H<sub>2</sub>PO<sub>4</sub><sup>−</sup>",
+   "formulas": [
+    "H2PO4^-"
+   ],
+   "names": [
+    "dihydrogenphosphate",
+    "dihydrogen phosphate"
+   ],
+   "group": "rules"
+  },
+  {
+   "name": "sulfite",
+   "html": "SO<sub>3</sub><sup>2−</sup>",
+   "formulas": [
+    "SO3^2-"
+   ],
+   "names": [
+    "sulfite"
+   ],
+   "group": "solubility"
+  }
+ ]
+}
