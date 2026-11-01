@@ -1,0 +1,1816 @@
+[
+ {
+  "id": "metric-076a3aa0",
+  "skill": "metric.prefixtonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix: <strong>tera</strong><br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 1000000000000,
+  "tolerance": 0.001,
+  "explain": "<strong>tera</strong> (T) = 10¹² = 1,000,000,000,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToNumber",
+   "index": 0
+  }
+ },
+ {
+  "id": "metric-91c36026",
+  "skill": "metric.prefixtonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix: <strong>giga</strong><br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 1000000000,
+  "tolerance": 0.001,
+  "explain": "<strong>giga</strong> (G) = 10⁹ = 1,000,000,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToNumber",
+   "index": 1
+  }
+ },
+ {
+  "id": "metric-620e7867",
+  "skill": "metric.prefixtonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix: <strong>mega</strong><br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 1000000,
+  "tolerance": 0.001,
+  "explain": "<strong>mega</strong> (M) = 10⁶ = 1,000,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToNumber",
+   "index": 2
+  }
+ },
+ {
+  "id": "metric-cd4e202e",
+  "skill": "metric.prefixtonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix: <strong>kilo</strong><br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 1000,
+  "tolerance": 0.001,
+  "explain": "<strong>kilo</strong> (k) = 10³ = 1,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToNumber",
+   "index": 3
+  }
+ },
+ {
+  "id": "metric-74f04aca",
+  "skill": "metric.prefixtonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix: <strong>hecto</strong><br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 100,
+  "tolerance": 0.001,
+  "explain": "<strong>hecto</strong> (h) = 10² = 100",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToNumber",
+   "index": 4
+  }
+ },
+ {
+  "id": "metric-2ae28b04",
+  "skill": "metric.prefixtonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix: <strong>deca</strong><br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 10,
+  "tolerance": 0.001,
+  "explain": "<strong>deca</strong> (da) = 10¹ = 10",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToNumber",
+   "index": 5
+  }
+ },
+ {
+  "id": "metric-8c325e07",
+  "skill": "metric.prefixtonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix: <strong>deci</strong><br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 0.1,
+  "tolerance": 0.001,
+  "explain": "<strong>deci</strong> (d) = 10⁻¹ = 0.1",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToNumber",
+   "index": 6
+  }
+ },
+ {
+  "id": "metric-6985b7a7",
+  "skill": "metric.prefixtonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix: <strong>centi</strong><br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 0.01,
+  "tolerance": 0.001,
+  "explain": "<strong>centi</strong> (c) = 10⁻² = 0.01",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToNumber",
+   "index": 7
+  }
+ },
+ {
+  "id": "metric-29ac3056",
+  "skill": "metric.prefixtonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix: <strong>milli</strong><br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 0.001,
+  "tolerance": 0.001,
+  "explain": "<strong>milli</strong> (m) = 10⁻³ = 0.001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToNumber",
+   "index": 8
+  }
+ },
+ {
+  "id": "metric-3a43b705",
+  "skill": "metric.prefixtonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix: <strong>micro</strong><br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 0.000001,
+  "tolerance": 0.001,
+  "explain": "<strong>micro</strong> (µ) = 10⁻⁶ = 0.000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToNumber",
+   "index": 9
+  }
+ },
+ {
+  "id": "metric-a267837e",
+  "skill": "metric.prefixtonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix: <strong>nano</strong><br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 1e-9,
+  "tolerance": 0.001,
+  "explain": "<strong>nano</strong> (n) = 10⁻⁹ = 0.000000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToNumber",
+   "index": 10
+  }
+ },
+ {
+  "id": "metric-06bba8d0",
+  "skill": "metric.prefixtonumber",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix: <strong>pico</strong><br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 1e-12,
+  "tolerance": 0.001,
+  "explain": "<strong>pico</strong> (p) = 10⁻¹² = 0.000000000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToNumber",
+   "index": 11
+  }
+ },
+ {
+  "id": "metric-4259d75a",
+  "skill": "metric.prefixtonumber",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix: <strong>femto</strong><br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 1e-15,
+  "tolerance": 0.001,
+  "explain": "<strong>femto</strong> (f) = 10⁻¹⁵ = 0.000000000000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToNumber",
+   "index": 12
+  }
+ },
+ {
+  "id": "metric-de6fb226",
+  "skill": "metric.symboltonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix symbol: <strong>T</strong> (symbols are case-sensitive)<br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 1000000000000,
+  "tolerance": 0.001,
+  "explain": "<strong>tera</strong> (T) = 10¹² = 1,000,000,000,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToNumber",
+   "index": 0
+  }
+ },
+ {
+  "id": "metric-a228e867",
+  "skill": "metric.symboltonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix symbol: <strong>G</strong> (symbols are case-sensitive)<br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 1000000000,
+  "tolerance": 0.001,
+  "explain": "<strong>giga</strong> (G) = 10⁹ = 1,000,000,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToNumber",
+   "index": 1
+  }
+ },
+ {
+  "id": "metric-26a6f3fb",
+  "skill": "metric.symboltonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix symbol: <strong>M</strong> (symbols are case-sensitive)<br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 1000000,
+  "tolerance": 0.001,
+  "explain": "<strong>mega</strong> (M) = 10⁶ = 1,000,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToNumber",
+   "index": 2
+  }
+ },
+ {
+  "id": "metric-0476bf19",
+  "skill": "metric.symboltonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix symbol: <strong>k</strong> (symbols are case-sensitive)<br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 1000,
+  "tolerance": 0.001,
+  "explain": "<strong>kilo</strong> (k) = 10³ = 1,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToNumber",
+   "index": 3
+  }
+ },
+ {
+  "id": "metric-a19180bf",
+  "skill": "metric.symboltonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix symbol: <strong>h</strong> (symbols are case-sensitive)<br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 100,
+  "tolerance": 0.001,
+  "explain": "<strong>hecto</strong> (h) = 10² = 100",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToNumber",
+   "index": 4
+  }
+ },
+ {
+  "id": "metric-ed1e7be7",
+  "skill": "metric.symboltonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix symbol: <strong>da</strong> (symbols are case-sensitive)<br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 10,
+  "tolerance": 0.001,
+  "explain": "<strong>deca</strong> (da) = 10¹ = 10",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToNumber",
+   "index": 5
+  }
+ },
+ {
+  "id": "metric-e1872f5b",
+  "skill": "metric.symboltonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix symbol: <strong>d</strong> (symbols are case-sensitive)<br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 0.1,
+  "tolerance": 0.001,
+  "explain": "<strong>deci</strong> (d) = 10⁻¹ = 0.1",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToNumber",
+   "index": 6
+  }
+ },
+ {
+  "id": "metric-50966be3",
+  "skill": "metric.symboltonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix symbol: <strong>c</strong> (symbols are case-sensitive)<br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 0.01,
+  "tolerance": 0.001,
+  "explain": "<strong>centi</strong> (c) = 10⁻² = 0.01",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToNumber",
+   "index": 7
+  }
+ },
+ {
+  "id": "metric-a1617a4b",
+  "skill": "metric.symboltonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix symbol: <strong>m</strong> (symbols are case-sensitive)<br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 0.001,
+  "tolerance": 0.001,
+  "explain": "<strong>milli</strong> (m) = 10⁻³ = 0.001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToNumber",
+   "index": 8
+  }
+ },
+ {
+  "id": "metric-1e736576",
+  "skill": "metric.symboltonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix symbol: <strong>µ</strong> (symbols are case-sensitive)<br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 0.000001,
+  "tolerance": 0.001,
+  "explain": "<strong>micro</strong> (µ) = 10⁻⁶ = 0.000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToNumber",
+   "index": 9
+  }
+ },
+ {
+  "id": "metric-cdea14eb",
+  "skill": "metric.symboltonumber",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix symbol: <strong>n</strong> (symbols are case-sensitive)<br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 1e-9,
+  "tolerance": 0.001,
+  "explain": "<strong>nano</strong> (n) = 10⁻⁹ = 0.000000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToNumber",
+   "index": 10
+  }
+ },
+ {
+  "id": "metric-83a25cdb",
+  "skill": "metric.symboltonumber",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix symbol: <strong>p</strong> (symbols are case-sensitive)<br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 1e-12,
+  "tolerance": 0.001,
+  "explain": "<strong>pico</strong> (p) = 10⁻¹² = 0.000000000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToNumber",
+   "index": 11
+  }
+ },
+ {
+  "id": "metric-4de41df0",
+  "skill": "metric.symboltonumber",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-1"
+  ],
+  "type": "number",
+  "prompt": "What numerical value corresponds to the SI prefix symbol: <strong>f</strong> (symbols are case-sensitive)<br>Enter the numerical value, e.g. 1 × 10^-3 or 0.001.",
+  "answer": 1e-15,
+  "tolerance": 0.001,
+  "explain": "<strong>femto</strong> (f) = 10⁻¹⁵ = 0.000000000000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToNumber",
+   "index": 12
+  }
+ },
+ {
+  "id": "metric-ca64dcdf",
+  "skill": "metric.prefixtosymbol",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "prompt": "What is the SI symbol for the prefix: <strong>tera</strong><br>Enter the SI prefix symbol (symbols are case-sensitive).",
+  "type": "text",
+  "answer": "T",
+  "explain": "<strong>tera</strong> (T) = 10¹² = 1,000,000,000,000",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToSymbol",
+   "index": 0
+  }
+ },
+ {
+  "id": "metric-355c5bd2",
+  "skill": "metric.prefixtosymbol",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "prompt": "What is the SI symbol for the prefix: <strong>giga</strong><br>Enter the SI prefix symbol (symbols are case-sensitive).",
+  "type": "text",
+  "answer": "G",
+  "explain": "<strong>giga</strong> (G) = 10⁹ = 1,000,000,000",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToSymbol",
+   "index": 1
+  }
+ },
+ {
+  "id": "metric-40a23da2",
+  "skill": "metric.prefixtosymbol",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "prompt": "What is the SI symbol for the prefix: <strong>mega</strong><br>Choose the SI prefix symbol (symbols are case-sensitive).",
+  "type": "mc",
+  "choices": [
+   "G",
+   "M",
+   "k",
+   "h"
+  ],
+  "answer": "M",
+  "explain": "<strong>mega</strong> (M) = 10⁶ = 1,000,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToSymbol",
+   "index": 2
+  }
+ },
+ {
+  "id": "metric-90c02ac8",
+  "skill": "metric.prefixtosymbol",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "prompt": "What is the SI symbol for the prefix: <strong>kilo</strong><br>Enter the SI prefix symbol (symbols are case-sensitive).",
+  "type": "text",
+  "answer": "k",
+  "explain": "<strong>kilo</strong> (k) = 10³ = 1,000",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToSymbol",
+   "index": 3
+  }
+ },
+ {
+  "id": "metric-9a6e1d56",
+  "skill": "metric.prefixtosymbol",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "prompt": "What is the SI symbol for the prefix: <strong>hecto</strong><br>Enter the SI prefix symbol (symbols are case-sensitive).",
+  "type": "text",
+  "answer": "h",
+  "explain": "<strong>hecto</strong> (h) = 10² = 100",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToSymbol",
+   "index": 4
+  }
+ },
+ {
+  "id": "metric-e7c7a290",
+  "skill": "metric.prefixtosymbol",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "prompt": "What is the SI symbol for the prefix: <strong>deca</strong><br>Enter the SI prefix symbol (symbols are case-sensitive).",
+  "type": "text",
+  "answer": "da",
+  "explain": "<strong>deca</strong> (da) = 10¹ = 10",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToSymbol",
+   "index": 5
+  }
+ },
+ {
+  "id": "metric-83169799",
+  "skill": "metric.prefixtosymbol",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "prompt": "What is the SI symbol for the prefix: <strong>deci</strong><br>Enter the SI prefix symbol (symbols are case-sensitive).",
+  "type": "text",
+  "answer": "d",
+  "explain": "<strong>deci</strong> (d) = 10⁻¹ = 0.1",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToSymbol",
+   "index": 6
+  }
+ },
+ {
+  "id": "metric-91394150",
+  "skill": "metric.prefixtosymbol",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "prompt": "What is the SI symbol for the prefix: <strong>centi</strong><br>Enter the SI prefix symbol (symbols are case-sensitive).",
+  "type": "text",
+  "answer": "c",
+  "explain": "<strong>centi</strong> (c) = 10⁻² = 0.01",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToSymbol",
+   "index": 7
+  }
+ },
+ {
+  "id": "metric-8e26ad3f",
+  "skill": "metric.prefixtosymbol",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "prompt": "What is the SI symbol for the prefix: <strong>milli</strong><br>Choose the SI prefix symbol (symbols are case-sensitive).",
+  "type": "mc",
+  "choices": [
+   "d",
+   "c",
+   "m",
+   "µ"
+  ],
+  "answer": "m",
+  "explain": "<strong>milli</strong> (m) = 10⁻³ = 0.001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToSymbol",
+   "index": 8
+  }
+ },
+ {
+  "id": "metric-3c53e4a3",
+  "skill": "metric.prefixtosymbol",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "prompt": "What is the SI symbol for the prefix: <strong>micro</strong><br>Enter the SI prefix symbol (symbols are case-sensitive).",
+  "type": "text",
+  "answer": "µ",
+  "accept": [
+   "μ",
+   "u"
+  ],
+  "explain": "<strong>micro</strong> (µ) = 10⁻⁶ = 0.000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToSymbol",
+   "index": 9
+  }
+ },
+ {
+  "id": "metric-0637859f",
+  "skill": "metric.prefixtosymbol",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "prompt": "What is the SI symbol for the prefix: <strong>nano</strong><br>Enter the SI prefix symbol (symbols are case-sensitive).",
+  "type": "text",
+  "answer": "n",
+  "explain": "<strong>nano</strong> (n) = 10⁻⁹ = 0.000000001",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToSymbol",
+   "index": 10
+  }
+ },
+ {
+  "id": "metric-4d11d7b6",
+  "skill": "metric.prefixtosymbol",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-1"
+  ],
+  "prompt": "What is the SI symbol for the prefix: <strong>pico</strong><br>Enter the SI prefix symbol (symbols are case-sensitive).",
+  "type": "text",
+  "answer": "p",
+  "explain": "<strong>pico</strong> (p) = 10⁻¹² = 0.000000000001",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToSymbol",
+   "index": 11
+  }
+ },
+ {
+  "id": "metric-d717d2f5",
+  "skill": "metric.prefixtosymbol",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-1"
+  ],
+  "prompt": "What is the SI symbol for the prefix: <strong>femto</strong><br>Enter the SI prefix symbol (symbols are case-sensitive).",
+  "type": "text",
+  "answer": "f",
+  "explain": "<strong>femto</strong> (f) = 10⁻¹⁵ = 0.000000000000001",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "metric",
+   "list": "sample:prefixToSymbol",
+   "index": 12
+  }
+ },
+ {
+  "id": "metric-643bbb8d",
+  "skill": "metric.symboltoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "What SI prefix name corresponds to the symbol: <strong>T</strong> (symbols are case-sensitive)<br>Enter the SI prefix name.",
+  "answer": "tera",
+  "explain": "<strong>tera</strong> (T) = 10¹² = 1,000,000,000,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToPrefix",
+   "index": 0
+  }
+ },
+ {
+  "id": "metric-004a156c",
+  "skill": "metric.symboltoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "What SI prefix name corresponds to the symbol: <strong>G</strong> (symbols are case-sensitive)<br>Enter the SI prefix name.",
+  "answer": "giga",
+  "explain": "<strong>giga</strong> (G) = 10⁹ = 1,000,000,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToPrefix",
+   "index": 1
+  }
+ },
+ {
+  "id": "metric-e4eda8c2",
+  "skill": "metric.symboltoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "What SI prefix name corresponds to the symbol: <strong>M</strong> (symbols are case-sensitive)<br>Enter the SI prefix name.",
+  "answer": "mega",
+  "explain": "<strong>mega</strong> (M) = 10⁶ = 1,000,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToPrefix",
+   "index": 2
+  }
+ },
+ {
+  "id": "metric-674cbd70",
+  "skill": "metric.symboltoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "What SI prefix name corresponds to the symbol: <strong>k</strong> (symbols are case-sensitive)<br>Enter the SI prefix name.",
+  "answer": "kilo",
+  "explain": "<strong>kilo</strong> (k) = 10³ = 1,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToPrefix",
+   "index": 3
+  }
+ },
+ {
+  "id": "metric-beb4c475",
+  "skill": "metric.symboltoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "What SI prefix name corresponds to the symbol: <strong>h</strong> (symbols are case-sensitive)<br>Enter the SI prefix name.",
+  "answer": "hecto",
+  "explain": "<strong>hecto</strong> (h) = 10² = 100",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToPrefix",
+   "index": 4
+  }
+ },
+ {
+  "id": "metric-ccdae44c",
+  "skill": "metric.symboltoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "What SI prefix name corresponds to the symbol: <strong>da</strong> (symbols are case-sensitive)<br>Enter the SI prefix name.",
+  "answer": "deca",
+  "explain": "<strong>deca</strong> (da) = 10¹ = 10",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToPrefix",
+   "index": 5
+  }
+ },
+ {
+  "id": "metric-c0f0c461",
+  "skill": "metric.symboltoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "What SI prefix name corresponds to the symbol: <strong>d</strong> (symbols are case-sensitive)<br>Enter the SI prefix name.",
+  "answer": "deci",
+  "explain": "<strong>deci</strong> (d) = 10⁻¹ = 0.1",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToPrefix",
+   "index": 6
+  }
+ },
+ {
+  "id": "metric-895a7eec",
+  "skill": "metric.symboltoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "What SI prefix name corresponds to the symbol: <strong>c</strong> (symbols are case-sensitive)<br>Enter the SI prefix name.",
+  "answer": "centi",
+  "explain": "<strong>centi</strong> (c) = 10⁻² = 0.01",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToPrefix",
+   "index": 7
+  }
+ },
+ {
+  "id": "metric-e994ded8",
+  "skill": "metric.symboltoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "What SI prefix name corresponds to the symbol: <strong>m</strong> (symbols are case-sensitive)<br>Enter the SI prefix name.",
+  "answer": "milli",
+  "explain": "<strong>milli</strong> (m) = 10⁻³ = 0.001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToPrefix",
+   "index": 8
+  }
+ },
+ {
+  "id": "metric-c343873b",
+  "skill": "metric.symboltoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "What SI prefix name corresponds to the symbol: <strong>µ</strong> (symbols are case-sensitive)<br>Enter the SI prefix name.",
+  "answer": "micro",
+  "explain": "<strong>micro</strong> (µ) = 10⁻⁶ = 0.000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToPrefix",
+   "index": 9
+  }
+ },
+ {
+  "id": "metric-b17e713c",
+  "skill": "metric.symboltoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "What SI prefix name corresponds to the symbol: <strong>n</strong> (symbols are case-sensitive)<br>Enter the SI prefix name.",
+  "answer": "nano",
+  "explain": "<strong>nano</strong> (n) = 10⁻⁹ = 0.000000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToPrefix",
+   "index": 10
+  }
+ },
+ {
+  "id": "metric-a35e8b03",
+  "skill": "metric.symboltoprefix",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "What SI prefix name corresponds to the symbol: <strong>p</strong> (symbols are case-sensitive)<br>Enter the SI prefix name.",
+  "answer": "pico",
+  "explain": "<strong>pico</strong> (p) = 10⁻¹² = 0.000000000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToPrefix",
+   "index": 11
+  }
+ },
+ {
+  "id": "metric-d33fbd13",
+  "skill": "metric.symboltoprefix",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "What SI prefix name corresponds to the symbol: <strong>f</strong> (symbols are case-sensitive)<br>Enter the SI prefix name.",
+  "answer": "femto",
+  "explain": "<strong>femto</strong> (f) = 10⁻¹⁵ = 0.000000000000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:symbolToPrefix",
+   "index": 12
+  }
+ },
+ {
+  "id": "metric-607bf267",
+  "skill": "metric.scientifictoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>10¹²</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "tera",
+  "accept": [
+   "T"
+  ],
+  "explain": "<strong>tera</strong> (T) = 10¹² = 1,000,000,000,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:scientificToPrefix",
+   "index": 0
+  }
+ },
+ {
+  "id": "metric-de68f56f",
+  "skill": "metric.scientifictoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>10⁹</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "giga",
+  "accept": [
+   "G"
+  ],
+  "explain": "<strong>giga</strong> (G) = 10⁹ = 1,000,000,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:scientificToPrefix",
+   "index": 1
+  }
+ },
+ {
+  "id": "metric-b26a0920",
+  "skill": "metric.scientifictoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>10⁶</strong><br>Enter the SI prefix name.",
+  "answer": "mega",
+  "explain": "<strong>mega</strong> (M) = 10⁶ = 1,000,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:scientificToPrefix",
+   "index": 2
+  }
+ },
+ {
+  "id": "metric-ec5985a5",
+  "skill": "metric.scientifictoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>10³</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "kilo",
+  "accept": [
+   "k"
+  ],
+  "explain": "<strong>kilo</strong> (k) = 10³ = 1,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:scientificToPrefix",
+   "index": 3
+  }
+ },
+ {
+  "id": "metric-7d6f5e11",
+  "skill": "metric.scientifictoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>10²</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "hecto",
+  "accept": [
+   "h"
+  ],
+  "explain": "<strong>hecto</strong> (h) = 10² = 100",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:scientificToPrefix",
+   "index": 4
+  }
+ },
+ {
+  "id": "metric-82ef3ec2",
+  "skill": "metric.scientifictoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>10¹</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "deca",
+  "accept": [
+   "da"
+  ],
+  "explain": "<strong>deca</strong> (da) = 10¹ = 10",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:scientificToPrefix",
+   "index": 5
+  }
+ },
+ {
+  "id": "metric-424ab08e",
+  "skill": "metric.scientifictoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>10⁻¹</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "deci",
+  "accept": [
+   "d"
+  ],
+  "explain": "<strong>deci</strong> (d) = 10⁻¹ = 0.1",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:scientificToPrefix",
+   "index": 6
+  }
+ },
+ {
+  "id": "metric-865d154e",
+  "skill": "metric.scientifictoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>10⁻²</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "centi",
+  "accept": [
+   "c"
+  ],
+  "explain": "<strong>centi</strong> (c) = 10⁻² = 0.01",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:scientificToPrefix",
+   "index": 7
+  }
+ },
+ {
+  "id": "metric-0a3a1aa2",
+  "skill": "metric.scientifictoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>10⁻³</strong><br>Enter the SI prefix name.",
+  "answer": "milli",
+  "explain": "<strong>milli</strong> (m) = 10⁻³ = 0.001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:scientificToPrefix",
+   "index": 8
+  }
+ },
+ {
+  "id": "metric-662143ac",
+  "skill": "metric.scientifictoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>10⁻⁶</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "micro",
+  "accept": [
+   "µ",
+   "μ",
+   "u"
+  ],
+  "explain": "<strong>micro</strong> (µ) = 10⁻⁶ = 0.000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:scientificToPrefix",
+   "index": 9
+  }
+ },
+ {
+  "id": "metric-560924ac",
+  "skill": "metric.scientifictoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>10⁻⁹</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "nano",
+  "accept": [
+   "n"
+  ],
+  "explain": "<strong>nano</strong> (n) = 10⁻⁹ = 0.000000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:scientificToPrefix",
+   "index": 10
+  }
+ },
+ {
+  "id": "metric-c8cc4eeb",
+  "skill": "metric.scientifictoprefix",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>10⁻¹²</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "pico",
+  "accept": [
+   "p"
+  ],
+  "explain": "<strong>pico</strong> (p) = 10⁻¹² = 0.000000000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:scientificToPrefix",
+   "index": 11
+  }
+ },
+ {
+  "id": "metric-9279c277",
+  "skill": "metric.scientifictoprefix",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>10⁻¹⁵</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "femto",
+  "accept": [
+   "f"
+  ],
+  "explain": "<strong>femto</strong> (f) = 10⁻¹⁵ = 0.000000000000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:scientificToPrefix",
+   "index": 12
+  }
+ },
+ {
+  "id": "metric-593558ee",
+  "skill": "metric.standardtoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>1,000,000,000,000</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "tera",
+  "accept": [
+   "T"
+  ],
+  "explain": "<strong>tera</strong> (T) = 10¹² = 1,000,000,000,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:standardToPrefix",
+   "index": 0
+  }
+ },
+ {
+  "id": "metric-2ab06843",
+  "skill": "metric.standardtoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>1,000,000,000</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "giga",
+  "accept": [
+   "G"
+  ],
+  "explain": "<strong>giga</strong> (G) = 10⁹ = 1,000,000,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:standardToPrefix",
+   "index": 1
+  }
+ },
+ {
+  "id": "metric-8e68da88",
+  "skill": "metric.standardtoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>1,000,000</strong><br>Enter the SI prefix name.",
+  "answer": "mega",
+  "explain": "<strong>mega</strong> (M) = 10⁶ = 1,000,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:standardToPrefix",
+   "index": 2
+  }
+ },
+ {
+  "id": "metric-f4471926",
+  "skill": "metric.standardtoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>1,000</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "kilo",
+  "accept": [
+   "k"
+  ],
+  "explain": "<strong>kilo</strong> (k) = 10³ = 1,000",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:standardToPrefix",
+   "index": 3
+  }
+ },
+ {
+  "id": "metric-1a86164d",
+  "skill": "metric.standardtoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>100</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "hecto",
+  "accept": [
+   "h"
+  ],
+  "explain": "<strong>hecto</strong> (h) = 10² = 100",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:standardToPrefix",
+   "index": 4
+  }
+ },
+ {
+  "id": "metric-f9e99477",
+  "skill": "metric.standardtoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>10</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "deca",
+  "accept": [
+   "da"
+  ],
+  "explain": "<strong>deca</strong> (da) = 10¹ = 10",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:standardToPrefix",
+   "index": 5
+  }
+ },
+ {
+  "id": "metric-6610a831",
+  "skill": "metric.standardtoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>0.1</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "deci",
+  "accept": [
+   "d"
+  ],
+  "explain": "<strong>deci</strong> (d) = 10⁻¹ = 0.1",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:standardToPrefix",
+   "index": 6
+  }
+ },
+ {
+  "id": "metric-7798d257",
+  "skill": "metric.standardtoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>0.01</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "centi",
+  "accept": [
+   "c"
+  ],
+  "explain": "<strong>centi</strong> (c) = 10⁻² = 0.01",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:standardToPrefix",
+   "index": 7
+  }
+ },
+ {
+  "id": "metric-7b8b2253",
+  "skill": "metric.standardtoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>0.001</strong><br>Enter the SI prefix name.",
+  "answer": "milli",
+  "explain": "<strong>milli</strong> (m) = 10⁻³ = 0.001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:standardToPrefix",
+   "index": 8
+  }
+ },
+ {
+  "id": "metric-995d2449",
+  "skill": "metric.standardtoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>0.000001</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "micro",
+  "accept": [
+   "µ",
+   "μ",
+   "u"
+  ],
+  "explain": "<strong>micro</strong> (µ) = 10⁻⁶ = 0.000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:standardToPrefix",
+   "index": 9
+  }
+ },
+ {
+  "id": "metric-f1fbeb4c",
+  "skill": "metric.standardtoprefix",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-1",
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>0.000000001</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "nano",
+  "accept": [
+   "n"
+  ],
+  "explain": "<strong>nano</strong> (n) = 10⁻⁹ = 0.000000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:standardToPrefix",
+   "index": 10
+  }
+ },
+ {
+  "id": "metric-5eb9a5a3",
+  "skill": "metric.standardtoprefix",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>0.000000000001</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "pico",
+  "accept": [
+   "p"
+  ],
+  "explain": "<strong>pico</strong> (p) = 10⁻¹² = 0.000000000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:standardToPrefix",
+   "index": 11
+  }
+ },
+ {
+  "id": "metric-2a331cd5",
+  "skill": "metric.standardtoprefix",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-1"
+  ],
+  "type": "text",
+  "prompt": "Which SI prefix corresponds to: <strong>0.000000000000001</strong><br>Enter the SI prefix name or symbol.",
+  "answer": "femto",
+  "accept": [
+   "f"
+  ],
+  "explain": "<strong>femto</strong> (f) = 10⁻¹⁵ = 0.000000000000001",
+  "origin": "original",
+  "from": {
+   "game": "metric",
+   "list": "sample:standardToPrefix",
+   "index": 12
+  }
+ }
+]

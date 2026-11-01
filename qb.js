@@ -55,16 +55,28 @@
   function check(q, response) {
     var r = String(response == null ? '' : response).trim();
     if (q.type === 'mc' || q.type === 'text') {
-      var ok = [q.answer].concat(q.accept || []).map(function (a) { return String(a).trim().toLowerCase(); });
-      return ok.indexOf(r.toLowerCase()) >= 0;
+      // Formulas and symbols (CO vs Co, m vs M) are graded case-sensitively; names are not.
+      var cs = q.caseSensitive && q.type === 'text', norm = function (a) { a = String(a).trim().replace(/\s+/g, ' '); return cs ? a : a.toLowerCase(); };
+      var ok = [q.answer].concat(q.accept || []).map(norm);
+      return ok.indexOf(norm(r)) >= 0;
     }
     if (q.type === 'number') {
       var x = parseFloat(r.replace(/[×x]\s*10\^?/i, 'e').replace(/\s/g, '')), a = parseFloat(q.answer);
       if (!isFinite(x) || !isFinite(a)) return false;
-      return a === 0 ? Math.abs(x) < 1e-9 : Math.abs(x - a) / Math.abs(a) <= (q.tolerance || 0.01);
+      var close = a === 0 ? Math.abs(x) < 1e-9 : Math.abs(x - a) / Math.abs(a) <= (q.tolerance || 0.01);
+      if (!close || !q.sigfigs) return close;
+      return sigFigs(r) === q.sigfigs; // e.g. 740 to 3 sig figs must be typed 7.40e2, 7.40 × 10^2 or 740.
     }
     return null;
   }
+  // Count significant figures in what the student typed (the number part before any × 10^ / e).
+  function sigFigs(text) {
+    var m = String(text).trim().replace(/−/g, '-').split(/\s*(?:[×x*]\s*10\^?|e)/i)[0].replace(/^[+-]/, '');
+    if (!/^\d*\.?\d*$/.test(m) || !/\d/.test(m)) return 0;
+    var hasPoint = m.indexOf('.') >= 0, digits = m.replace('.', '').replace(/^0+/, '');
+    if (!hasPoint) digits = digits.replace(/0+$/, '');
+    return digits.length || 1;
+  }
 
-  window.QB = { get: get, check: check, data: function (name) { return fetchJSON('data/' + name + '.json'); }, skills: function () { return fetchJSON('skills.json'); }, index: function () { return fetchJSON('index.json'); }, base: BASE };
+  window.QB = { get: get, check: check, sigFigs: sigFigs, data: function (name) { return fetchJSON('data/' + name + '.json'); }, skills: function () { return fetchJSON('skills.json'); }, index: function () { return fetchJSON('index.json'); }, base: BASE };
 })();

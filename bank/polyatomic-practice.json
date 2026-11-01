@@ -1,0 +1,1518 @@
+[
+ {
+  "id": "polyatomic-cd65c047",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>borate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "BO3^3-",
+  "accept": [
+   "BO33-",
+   "BO3-3"
+  ],
+  "explain": "borate = BO<sub>3</sub><sup>3−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 0
+  }
+ },
+ {
+  "id": "polyatomic-5b43835a",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>carbonate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "CO3^2-",
+  "accept": [
+   "CO32-",
+   "CO3-2"
+  ],
+  "explain": "carbonate = CO<sub>3</sub><sup>2−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 1
+  }
+ },
+ {
+  "id": "polyatomic-f8f2175a",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>nitrate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "NO3^-",
+  "accept": [
+   "NO3-",
+   "NO3^1-",
+   "NO31-",
+   "NO3-1"
+  ],
+  "explain": "nitrate = NO<sub>3</sub><sup>−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 2
+  }
+ },
+ {
+  "id": "polyatomic-18c0670e",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>silicate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "SiO3^2-",
+  "accept": [
+   "SiO32-",
+   "SiO3-2"
+  ],
+  "explain": "silicate = SiO<sub>3</sub><sup>2−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 3
+  }
+ },
+ {
+  "id": "polyatomic-054574a2",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>phosphate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "PO4^3-",
+  "accept": [
+   "PO43-",
+   "PO4-3"
+  ],
+  "explain": "phosphate = PO<sub>4</sub><sup>3−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 4
+  }
+ },
+ {
+  "id": "polyatomic-c50aa61e",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>sulfate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "SO4^2-",
+  "accept": [
+   "SO42-",
+   "SO4-2"
+  ],
+  "explain": "sulfate = SO<sub>4</sub><sup>2−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 5
+  }
+ },
+ {
+  "id": "polyatomic-230f1e40",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>chlorate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "ClO3^-",
+  "accept": [
+   "ClO3-",
+   "ClO3^1-",
+   "ClO31-",
+   "ClO3-1"
+  ],
+  "explain": "chlorate = ClO<sub>3</sub><sup>−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 6
+  }
+ },
+ {
+  "id": "polyatomic-3e0a827a",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>arsenate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "AsO4^3-",
+  "accept": [
+   "AsO43-",
+   "AsO4-3"
+  ],
+  "explain": "arsenate = AsO<sub>4</sub><sup>3−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 7
+  }
+ },
+ {
+  "id": "polyatomic-8558daed",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>selenate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "SeO4^2-",
+  "accept": [
+   "SeO42-",
+   "SeO4-2"
+  ],
+  "explain": "selenate = SeO<sub>4</sub><sup>2−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 8
+  }
+ },
+ {
+  "id": "polyatomic-c036b866",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>bromate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "BrO3^-",
+  "accept": [
+   "BrO3-",
+   "BrO3^1-",
+   "BrO31-",
+   "BrO3-1"
+  ],
+  "explain": "bromate = BrO<sub>3</sub><sup>−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 9
+  }
+ },
+ {
+  "id": "polyatomic-f3c5a1a9",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>tellurate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "TeO4^2-",
+  "accept": [
+   "TeO42-",
+   "TeO4-2"
+  ],
+  "explain": "tellurate = TeO<sub>4</sub><sup>2−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 10
+  }
+ },
+ {
+  "id": "polyatomic-c13d6956",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>iodate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "IO3^-",
+  "accept": [
+   "IO3-",
+   "IO3^1-",
+   "IO31-",
+   "IO3-1"
+  ],
+  "explain": "iodate = IO<sub>3</sub><sup>−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 11
+  }
+ },
+ {
+  "id": "polyatomic-35db7d5a",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>hydronium</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "H3O^+",
+  "accept": [
+   "H3O+",
+   "H3O^1+",
+   "H3O1+",
+   "H3O+1"
+  ],
+  "explain": "hydronium = H<sub>3</sub>O<sup>+</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 12
+  }
+ },
+ {
+  "id": "polyatomic-f2a269d2",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>ammonium</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "NH4^+",
+  "accept": [
+   "NH4+",
+   "NH4^1+",
+   "NH41+",
+   "NH4+1"
+  ],
+  "explain": "ammonium = NH<sub>4</sub><sup>+</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 13
+  }
+ },
+ {
+  "id": "polyatomic-73d23122",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>mercury(I)</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "Hg2^2+",
+  "accept": [
+   "Hg22+",
+   "Hg2+2"
+  ],
+  "explain": "mercury(I) = Hg<sub>2</sub><sup>2+</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 14
+  }
+ },
+ {
+  "id": "polyatomic-cce1f829",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>hydroxide</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "OH^-",
+  "accept": [
+   "OH-",
+   "OH^1-",
+   "OH1-",
+   "OH-1"
+  ],
+  "explain": "hydroxide = OH<sup>−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 15
+  }
+ },
+ {
+  "id": "polyatomic-0d721f26",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>cyanide</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "CN^-",
+  "accept": [
+   "CN-",
+   "CN^1-",
+   "CN1-",
+   "CN-1"
+  ],
+  "explain": "cyanide = CN<sup>−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 16
+  }
+ },
+ {
+  "id": "polyatomic-c7a0ab3f",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>peroxide</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "O2^2-",
+  "accept": [
+   "O22-",
+   "O2-2"
+  ],
+  "explain": "peroxide = O<sub>2</sub><sup>2−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 17
+  }
+ },
+ {
+  "id": "polyatomic-9d96456f",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>permanganate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "MnO4^-",
+  "accept": [
+   "MnO4-",
+   "MnO4^1-",
+   "MnO41-",
+   "MnO4-1"
+  ],
+  "explain": "permanganate = MnO<sub>4</sub><sup>−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 18
+  }
+ },
+ {
+  "id": "polyatomic-3749f037",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>chromate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "CrO4^2-",
+  "accept": [
+   "CrO42-",
+   "CrO4-2"
+  ],
+  "explain": "chromate = CrO<sub>4</sub><sup>2−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 19
+  }
+ },
+ {
+  "id": "polyatomic-811111d2",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>dichromate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "Cr2O7^2-",
+  "accept": [
+   "Cr2O72-",
+   "Cr2O7-2"
+  ],
+  "explain": "dichromate = Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 20
+  }
+ },
+ {
+  "id": "polyatomic-3685426d",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>oxalate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "C2O4^2-",
+  "accept": [
+   "C2O42-",
+   "C2O4-2"
+  ],
+  "explain": "oxalate = C<sub>2</sub>O<sub>4</sub><sup>2−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 21
+  }
+ },
+ {
+  "id": "polyatomic-4ff2529e",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>acetate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "C2H3O2^-",
+  "accept": [
+   "C2H3O2-",
+   "C2H3O2^1-",
+   "C2H3O21-",
+   "C2H3O2-1",
+   "CH3COO^-",
+   "CH3COO-",
+   "CH3COO^1-",
+   "CH3COO1-",
+   "CH3COO-1"
+  ],
+  "explain": "acetate = C<sub>2</sub>H<sub>3</sub>O<sub>2</sub><sup>−</sup>. Also written <span class='chem'>CH<sub>3</sub>COO<sup>−</sup></span>.",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 22
+  }
+ },
+ {
+  "id": "polyatomic-c8d55ffc",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>perchlorate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "ClO4^-",
+  "accept": [
+   "ClO4-",
+   "ClO4^1-",
+   "ClO41-",
+   "ClO4-1"
+  ],
+  "explain": "perchlorate = ClO<sub>4</sub><sup>−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 23
+  }
+ },
+ {
+  "id": "polyatomic-e1ffeb27",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>chlorite</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "ClO2^-",
+  "accept": [
+   "ClO2-",
+   "ClO2^1-",
+   "ClO21-",
+   "ClO2-1"
+  ],
+  "explain": "chlorite = ClO<sub>2</sub><sup>−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 24
+  }
+ },
+ {
+  "id": "polyatomic-f88ef661",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>hypochlorite</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "ClO^-",
+  "accept": [
+   "ClO-",
+   "ClO^1-",
+   "ClO1-",
+   "ClO-1"
+  ],
+  "explain": "hypochlorite = ClO<sup>−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 25
+  }
+ },
+ {
+  "id": "polyatomic-07cdeea9",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>thiosulfate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "S2O3^2-",
+  "accept": [
+   "S2O32-",
+   "S2O3-2"
+  ],
+  "explain": "thiosulfate = S<sub>2</sub>O<sub>3</sub><sup>2−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 26
+  }
+ },
+ {
+  "id": "polyatomic-c0ba8ba5",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>hydrogenphosphate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "HPO4^2-",
+  "accept": [
+   "HPO42-",
+   "HPO4-2"
+  ],
+  "explain": "hydrogenphosphate = HPO<sub>4</sub><sup>2−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 27
+  }
+ },
+ {
+  "id": "polyatomic-910685f7",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>dihydrogenphosphate</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "H2PO4^-",
+  "accept": [
+   "H2PO4-",
+   "H2PO4^1-",
+   "H2PO41-",
+   "H2PO4-1"
+  ],
+  "explain": "dihydrogenphosphate = H<sub>2</sub>PO<sub>4</sub><sup>−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 28
+  }
+ },
+ {
+  "id": "polyatomic-635ced96",
+  "skill": "polyatomic.nametoformula",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Write the formula, with its charge, for the <strong>sulfite</strong> ion.<br>Type it like SO4^2- (element symbols are case-sensitive).",
+  "answer": "SO3^2-",
+  "accept": [
+   "SO32-",
+   "SO3-2"
+  ],
+  "explain": "sulfite = SO<sub>3</sub><sup>2−</sup>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:nameToFormula",
+   "index": 29
+  }
+ },
+ {
+  "id": "polyatomic-82c7f848",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>BO<sub>3</sub><sup>3−</sup></strong>",
+  "answer": "borate",
+  "explain": "borate = BO<sub>3</sub><sup>3−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 0
+  }
+ },
+ {
+  "id": "polyatomic-ba57c34e",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>CO<sub>3</sub><sup>2−</sup></strong>",
+  "answer": "carbonate",
+  "explain": "carbonate = CO<sub>3</sub><sup>2−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 1
+  }
+ },
+ {
+  "id": "polyatomic-e6213d6d",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>NO<sub>3</sub><sup>−</sup></strong>",
+  "answer": "nitrate",
+  "explain": "nitrate = NO<sub>3</sub><sup>−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 2
+  }
+ },
+ {
+  "id": "polyatomic-9829ef60",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>SiO<sub>3</sub><sup>2−</sup></strong>",
+  "answer": "silicate",
+  "explain": "silicate = SiO<sub>3</sub><sup>2−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 3
+  }
+ },
+ {
+  "id": "polyatomic-5ad23a3d",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>PO<sub>4</sub><sup>3−</sup></strong>",
+  "answer": "phosphate",
+  "explain": "phosphate = PO<sub>4</sub><sup>3−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 4
+  }
+ },
+ {
+  "id": "polyatomic-784c4c09",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>SO<sub>4</sub><sup>2−</sup></strong>",
+  "answer": "sulfate",
+  "explain": "sulfate = SO<sub>4</sub><sup>2−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 5
+  }
+ },
+ {
+  "id": "polyatomic-844e19d9",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>ClO<sub>3</sub><sup>−</sup></strong>",
+  "answer": "chlorate",
+  "explain": "chlorate = ClO<sub>3</sub><sup>−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 6
+  }
+ },
+ {
+  "id": "polyatomic-a29c6e2a",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>AsO<sub>4</sub><sup>3−</sup></strong>",
+  "answer": "arsenate",
+  "explain": "arsenate = AsO<sub>4</sub><sup>3−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 7
+  }
+ },
+ {
+  "id": "polyatomic-a8206eb0",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>SeO<sub>4</sub><sup>2−</sup></strong>",
+  "answer": "selenate",
+  "explain": "selenate = SeO<sub>4</sub><sup>2−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 8
+  }
+ },
+ {
+  "id": "polyatomic-fb8f4c84",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>BrO<sub>3</sub><sup>−</sup></strong>",
+  "answer": "bromate",
+  "explain": "bromate = BrO<sub>3</sub><sup>−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 9
+  }
+ },
+ {
+  "id": "polyatomic-1ec1a7ce",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>TeO<sub>4</sub><sup>2−</sup></strong>",
+  "answer": "tellurate",
+  "explain": "tellurate = TeO<sub>4</sub><sup>2−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 10
+  }
+ },
+ {
+  "id": "polyatomic-1e1572bb",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>IO<sub>3</sub><sup>−</sup></strong>",
+  "answer": "iodate",
+  "explain": "iodate = IO<sub>3</sub><sup>−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 11
+  }
+ },
+ {
+  "id": "polyatomic-513ff36d",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>H<sub>3</sub>O<sup>+</sup></strong>",
+  "answer": "hydronium",
+  "explain": "hydronium = H<sub>3</sub>O<sup>+</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 12
+  }
+ },
+ {
+  "id": "polyatomic-c43bfb33",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>NH<sub>4</sub><sup>+</sup></strong>",
+  "answer": "ammonium",
+  "explain": "ammonium = NH<sub>4</sub><sup>+</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 13
+  }
+ },
+ {
+  "id": "polyatomic-1cfaffa0",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>Hg<sub>2</sub><sup>2+</sup></strong>",
+  "answer": "mercury(I)",
+  "accept": [
+   "mercury 1",
+   "mercury(I) ion",
+   "mercury one",
+   "mercury (I)",
+   "mercury (I) ion"
+  ],
+  "explain": "mercury(I) = Hg<sub>2</sub><sup>2+</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 14
+  }
+ },
+ {
+  "id": "polyatomic-e22e46fd",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>OH<sup>−</sup></strong>",
+  "answer": "hydroxide",
+  "explain": "hydroxide = OH<sup>−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 15
+  }
+ },
+ {
+  "id": "polyatomic-3a07f962",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>CN<sup>−</sup></strong>",
+  "answer": "cyanide",
+  "explain": "cyanide = CN<sup>−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 16
+  }
+ },
+ {
+  "id": "polyatomic-a4ac6833",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>O<sub>2</sub><sup>2−</sup></strong>",
+  "answer": "peroxide",
+  "explain": "peroxide = O<sub>2</sub><sup>2−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 17
+  }
+ },
+ {
+  "id": "polyatomic-ab0ec806",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>MnO<sub>4</sub><sup>−</sup></strong>",
+  "answer": "permanganate",
+  "explain": "permanganate = MnO<sub>4</sub><sup>−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 18
+  }
+ },
+ {
+  "id": "polyatomic-c668c8a1",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>CrO<sub>4</sub><sup>2−</sup></strong>",
+  "answer": "chromate",
+  "explain": "chromate = CrO<sub>4</sub><sup>2−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 19
+  }
+ },
+ {
+  "id": "polyatomic-a0117c88",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup></strong>",
+  "answer": "dichromate",
+  "explain": "dichromate = Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 20
+  }
+ },
+ {
+  "id": "polyatomic-ae9295c2",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>C<sub>2</sub>O<sub>4</sub><sup>2−</sup></strong>",
+  "answer": "oxalate",
+  "explain": "oxalate = C<sub>2</sub>O<sub>4</sub><sup>2−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 21
+  }
+ },
+ {
+  "id": "polyatomic-eb0bc218",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>C<sub>2</sub>H<sub>3</sub>O<sub>2</sub><sup>−</sup></strong>",
+  "answer": "acetate",
+  "explain": "acetate = C<sub>2</sub>H<sub>3</sub>O<sub>2</sub><sup>−</sup>. Also written <span class='chem'>CH<sub>3</sub>COO<sup>−</sup></span>.",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 22
+  }
+ },
+ {
+  "id": "polyatomic-961380cf",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>ClO<sub>4</sub><sup>−</sup></strong>",
+  "answer": "perchlorate",
+  "explain": "perchlorate = ClO<sub>4</sub><sup>−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 23
+  }
+ },
+ {
+  "id": "polyatomic-10bc8de8",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>ClO<sub>2</sub><sup>−</sup></strong>",
+  "answer": "chlorite",
+  "explain": "chlorite = ClO<sub>2</sub><sup>−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 24
+  }
+ },
+ {
+  "id": "polyatomic-be74d1aa",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>ClO<sup>−</sup></strong>",
+  "answer": "hypochlorite",
+  "explain": "hypochlorite = ClO<sup>−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 25
+  }
+ },
+ {
+  "id": "polyatomic-a314bdf8",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>S<sub>2</sub>O<sub>3</sub><sup>2−</sup></strong>",
+  "answer": "thiosulfate",
+  "explain": "thiosulfate = S<sub>2</sub>O<sub>3</sub><sup>2−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 26
+  }
+ },
+ {
+  "id": "polyatomic-7777ed44",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>HPO<sub>4</sub><sup>2−</sup></strong>",
+  "answer": "hydrogenphosphate",
+  "accept": [
+   "hydrogen phosphate"
+  ],
+  "explain": "hydrogenphosphate = HPO<sub>4</sub><sup>2−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 27
+  }
+ },
+ {
+  "id": "polyatomic-a3437b5c",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>H<sub>2</sub>PO<sub>4</sub><sup>−</sup></strong>",
+  "answer": "dihydrogenphosphate",
+  "accept": [
+   "dihydrogen phosphate"
+  ],
+  "explain": "dihydrogenphosphate = H<sub>2</sub>PO<sub>4</sub><sup>−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 28
+  }
+ },
+ {
+  "id": "polyatomic-1f9434c6",
+  "skill": "polyatomic.formulatoname",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "Name this ion: <strong>SO<sub>3</sub><sup>2−</sup></strong>",
+  "answer": "sulfite",
+  "explain": "sulfite = SO<sub>3</sub><sup>2−</sup>",
+  "origin": "original",
+  "from": {
+   "game": "polyatomic",
+   "list": "sample:formulaToName",
+   "index": 29
+  }
+ }
+]

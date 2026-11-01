@@ -11,17 +11,28 @@
   "final-exam-3a": 252,
   "final-exam-3b": 784,
   "final-exam-1a": 386,
-  "final-exam-1b": 307
+  "final-exam-1b": 307,
+  "elements-practice": 78,
+  "gaslaws-practice": 578,
+  "ionicformula-practice": 168,
+  "metric-practice": 78,
+  "moles-practice": 343,
+  "polyatomic-practice": 60,
+  "stoichiometry-practice": 630,
+  "thermochemistry-practice": 440
  },
  "chapters": {
   "3A-1": {
    "sig-figs": 52,
-   "final-exam-3a": 40
+   "final-exam-3a": 40,
+   "gaslaws-practice": 20,
+   "metric-practice": 66
   },
   "1A-1": {
    "sig-figs": 52,
    "chem-1b-readiness": 12,
-   "final-exam-1a": 31
+   "final-exam-1a": 31,
+   "metric-practice": 78
   },
   "3A-10": {
    "redox": 152,
@@ -32,7 +43,10 @@
    "redox": 208,
    "chem-1b-readiness": 10,
    "reactions": 222,
-   "final-exam-1a": 36
+   "final-exam-1a": 36,
+   "gaslaws-practice": 20,
+   "stoichiometry-practice": 630,
+   "thermochemistry-practice": 75
   },
   "1B-17": {
    "redox": 56,
@@ -40,36 +54,47 @@
   },
   "3A-8": {
    "gas-laws": 11,
-   "final-exam-3a": 18
+   "final-exam-3a": 18,
+   "gaslaws-practice": 266
   },
   "1A-9": {
    "gas-laws": 21,
    "chem-1b-readiness": 10,
-   "final-exam-1a": 33
+   "final-exam-1a": 33,
+   "gaslaws-practice": 380,
+   "stoichiometry-practice": 70
   },
   "3A-7": {
    "thermochemistry": 29,
-   "final-exam-3a": 24
+   "final-exam-3a": 24,
+   "thermochemistry-practice": 175
   },
   "1A-10": {
    "thermochemistry": 29,
    "chem-1b-readiness": 10,
-   "final-exam-1a": 25
+   "final-exam-1a": 25,
+   "thermochemistry-practice": 35
   },
   "1A-2": {
    "chem-1b-readiness": 12,
-   "final-exam-1a": 22
+   "final-exam-1a": 22,
+   "elements-practice": 78,
+   "ionicformula-practice": 168,
+   "polyatomic-practice": 60
   },
   "1A-3": {
    "chem-1b-readiness": 12,
-   "final-exam-1a": 28
+   "final-exam-1a": 28,
+   "moles-practice": 343
   },
   "1B-ready": {
-   "chem-1b-readiness": 42
+   "chem-1b-readiness": 42,
+   "stoichiometry-practice": 70
   },
   "1A-5": {
    "chem-1b-readiness": 10,
-   "final-exam-1a": 32
+   "final-exam-1a": 32,
+   "thermochemistry-practice": 265
   },
   "1B-14": {
    "chem-1b-readiness": 10,
@@ -95,13 +120,17 @@
    "final-exam-3a": 252
   },
   "3A-2": {
-   "final-exam-3a": 10
+   "final-exam-3a": 10,
+   "elements-practice": 78
   },
   "3A-4": {
-   "final-exam-3a": 14
+   "final-exam-3a": 14,
+   "ionicformula-practice": 168,
+   "polyatomic-practice": 60
   },
   "3A-5": {
-   "final-exam-3a": 13
+   "final-exam-3a": 13,
+   "moles-practice": 205
   },
   "3A-6": {
    "final-exam-3a": 29
@@ -110,7 +139,9 @@
    "final-exam-3a": 21
   },
   "3A-11": {
-   "final-exam-3a": 21
+   "final-exam-3a": 21,
+   "gaslaws-practice": 58,
+   "stoichiometry-practice": 490
   },
   "3A-12": {
    "final-exam-3a": 18
@@ -205,10 +236,10 @@
   "redox.acidic": 17,
   "redox.basic": 14,
   "redox.concepts": 16,
-  "gaslaws.kmt": 11,
+  "gaslaws.kmt": 39,
   "gaslaws.speed": 4,
   "gaslaws.real": 6,
-  "thermo.phase-energy": 29,
+  "thermochemistry.concepts": 29,
   "bridge.core-toolkit": 12,
   "bridge.matter-energy": 10,
   "bridge.reactions-in-water": 10,
@@ -277,6 +308,71 @@
   "finalexam.1b.thermo": 40,
   "finalexam.1b.electro": 39,
   "finalexam.1b.coordination": 13,
-  "finalexam.1b.nuclear": 12
+  "finalexam.1b.nuclear": 12,
+  "elements.nametosymbol": 39,
+  "elements.symboltoname": 39,
+  "gaslaws.units": 40,
+  "gaslaws.boyle": 40,
+  "gaslaws.charles-gay-lussac": 40,
+  "gaslaws.avogadro": 40,
+  "gaslaws.combined": 40,
+  "gaslaws.ideal": 40,
+  "gaslaws.stp-molar-volume": 38,
+  "gaslaws.molar-mass": 40,
+  "gaslaws.partial-pressure": 38,
+  "gaslaws.gas-over-water": 40,
+  "gaslaws.gas-stoichiometry": 40,
+  "gaslaws.rms-speed": 38,
+  "gaslaws.graham": 38,
+  "gaslaws.van-der-waals": 38,
+  "ionicformula.binaryionic": 40,
+  "ionicformula.polyatomicionic": 40,
+  "ionicformula.acids": 48,
+  "ionicformula.covalent": 40,
+  "metric.prefixtonumber": 13,
+  "metric.symboltonumber": 13,
+  "metric.prefixtosymbol": 13,
+  "metric.symboltoprefix": 13,
+  "metric.scientifictoprefix": 13,
+  "metric.standardtoprefix": 13,
+  "moles.road": 70,
+  "moles.molar": 35,
+  "moles.percent": 56,
+  "moles.formula": 73,
+  "moles.sense": 35,
+  "moles.health": 39,
+  "moles.solution": 35,
+  "polyatomic.nametoformula": 30,
+  "polyatomic.formulatoname": 30,
+  "stoichiometry.learn-recipe": 35,
+  "stoichiometry.learn-ratio": 35,
+  "stoichiometry.learn-molmol": 35,
+  "stoichiometry.learn-gmol": 35,
+  "stoichiometry.learn-gg": 35,
+  "stoichiometry.learn-stp": 35,
+  "stoichiometry.learn-soln": 35,
+  "stoichiometry.learn-limit": 35,
+  "stoichiometry.learn-yield": 35,
+  "stoichiometry.mass": 35,
+  "stoichiometry.solution": 35,
+  "stoichiometry.solution-1a": 35,
+  "stoichiometry.gas": 35,
+  "stoichiometry.gas-1a": 35,
+  "stoichiometry.limiting": 35,
+  "stoichiometry.yield": 35,
+  "stoichiometry.reaction": 35,
+  "stoichiometry.challenge": 35,
+  "thermochemistry.phase-energy-detective": 40,
+  "thermochemistry.specific-heat": 35,
+  "thermochemistry.phase-change-heat": 35,
+  "thermochemistry.heat-explorer": 30,
+  "thermochemistry.total-heat": 35,
+  "thermochemistry.heat-foundations": 35,
+  "thermochemistry.heat-work": 35,
+  "thermochemistry.calorimetry": 40,
+  "thermochemistry.hess": 40,
+  "thermochemistry.formation-enthalpy": 40,
+  "thermochemistry.reaction-enthalpy": 40,
+  "thermochemistry.advanced-challenge": 35
  }
 }

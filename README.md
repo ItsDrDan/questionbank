@@ -58,6 +58,19 @@ Chapter ids match the study hub's course map (`games/data/hub.js`).
 For Canvas embeds and downloaded copies, a game can also carry a snapshot as `window.QB_FALLBACK`,
 so it still works when the bank can't be reached.
 
+## Practice questions sampled from the games
+
+Most games make their questions with code. `tools/samplers/<game>.js` runs a game's own question makers with a fixed
+random seed and saves the results as `bank/<game>-practice.json` (so the same questions come out every night unless
+the game changes, and question ids stay stable for stats). Every sampled answer is graded correct by the game's own
+checker before it is saved. Text answers that are formulas or symbols are graded case-sensitively (`caseSensitive`),
+and number answers with `sigfigs` must be typed with that many significant figures.
+
+Sampled so far: sig figs, metric, elements, polyatomic ions, naming & formulas (real ions and real covalent compounds only),
+moles, stoichiometry, gas laws, thermochemistry (Hess's law from OpenStax only).
+
+To check one sampler: `node tools/sample.js <game>`.
+
 ## Keeping it up to date
 
 `tools/build.js` runs every night (and any time you press **Run workflow** on the Actions tab).

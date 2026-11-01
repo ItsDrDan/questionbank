@@ -6,6 +6,7 @@
 const fs = require('fs'), path = require('path'), crypto = require('crypto');
 const { chromium } = require('playwright');
 const { grab } = require('./grab');
+const { openGame, validate } = require('./sample');
 
 const REPOS = path.resolve(process.argv[2] || '../');
 const OUT = path.resolve(__dirname, '..');
@@ -24,7 +25,10 @@ async function pull(page, game, vars) {
   return out;
 }
 
+// A text answer that looks like a formula or symbol (CsF, SO4^2-, Fe, T, m) is graded case-sensitively.
+const looksLikeFormula = a => typeof a === 'string' && !/\s/.test(a) && (a.length <= 2 || /\d|\^|[A-Z].*[A-Z]/.test(a)) && /[A-Za-z]/.test(a);
 function item(game, list, i, fields) {
+  if (fields.type === 'text' && fields.caseSensitive === undefined && looksLikeFormula(fields.answer)) fields = { ...fields, caseSensitive: true };
   const id = game + '-' + hid(game, list, fields.prompt, fields.answer ?? fields.data);
   return Object.assign({ id }, fields, { from: { game, list, index: i } });
 }
@@ -90,7 +94,7 @@ function mcFromArray(a, hasTitle) {
     const g = 'thermochemistry', d = await pull(page, g, ['concepts', 'FORMATION']);
     add('thermochemistry', d.concepts.map((a, i) => {
       const [title, q, ans, choices, why] = a;
-      return item(g, 'concepts', i, { skill: 'thermo.phase-energy', courses: ['3A', '1A'], chapters: ['3A-7', '1A-10'], origin: 'original', type: 'mc', title, prompt: q, answer: ans, choices, explain: why });
+      return item(g, 'concepts', i, { skill: 'thermochemistry.concepts', courses: ['3A', '1A'], chapters: ['3A-7', '1A-10'], origin: 'original', type: 'mc', title, prompt: q, answer: ans, choices, explain: why });
     }));
     fs.writeFileSync(path.join(OUT, 'data/formation-enthalpies.json'), JSON.stringify({ from: 'thermochemistry', source: 'OpenStax Chemistry 2e, Appendix G', units: 'kJ/mol', values: d.FORMATION }, null, 1));
   }
@@ -203,6 +207,21 @@ function mcFromArray(a, hasTitle) {
     fs.writeFileSync(path.join(OUT, 'data/med-molecules.json'), JSON.stringify({ from: 'functionalgroups', molecules: f.MEDLIB }, null, 1));
     const s = await pull(page, 'carbohydrates', ['SUG']);
     fs.writeFileSync(path.join(OUT, 'data/sugars.json'), JSON.stringify({ from: 'carbohydrates', sugars: Array.isArray(s.SUG) ? Object.fromEntries(s.SUG) : s.SUG }, null, 1));
+  }
+
+  // ---------- Sampled questions: each game's own question makers, run with a fixed seed ----------
+  // One sampler per game in tools/samplers/<game>.js. Output goes to bank/<game>-practice.json.
+  for (const f of fs.readdirSync(path.join(__dirname, 'samplers')).filter(f => f.endsWith('.js')).sort()) {
+    const game = f.replace(/\.js$/, '');
+    if (!fs.existsSync(path.join(REPOS, game, 'index.html'))) { console.log('skip sampler (no game folder):', game); continue; }
+    try {
+      const gp = await openGame(browser, REPOS, game);
+      const items = await require(path.join(__dirname, 'samplers', f))(gp, { game, seed: n => gp.evaluate(n => window.__seed(n), n) });
+      await gp.close();
+      const problems = validate(items);
+      if (problems.length) { console.log('sampler', game, 'has problems, skipped:', problems.slice(0, 5)); continue; }
+      add(game + '-practice', items.map((q, i) => { const { from, ...rest } = q; return item(game, (from && from.list) || 'sample', (from && from.index) ?? i, rest); }));
+    } catch (e) { console.log('sampler', game, 'failed:', e.message.split('\n')[0]); }
   }
   await browser.close();
 
