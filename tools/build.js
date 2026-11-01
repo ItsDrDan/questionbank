@@ -133,6 +133,21 @@ function mcFromArray(a, hasTitle) {
       answer: side(d.r, d.coef.slice(0, d.r.length), d.states) + ' → ' + side(d.p, d.coef.slice(d.r.length), d.states),
       hint: d.hint, data: d })));
   }
+
+  // ---------- Ion table: Green Sheet polyatomics (polyatomic game) + cations and monatomic anions (Naming & Formulas) ----------
+  {
+    const src = path.join(REPOS, 'ionicformula', 'index.html');
+    const CAT = grab(src, 'CATIONS'), MONO = grab(src, 'MONATOMIC_ANIONS');
+    const poly = (await pull(page, 'polyatomic', ['ions'])).ions;
+    const sup = q => (Math.abs(q) === 1 ? '' : Math.abs(q)) + (q > 0 ? '+' : '-');
+    const cations = CAT.map(c => ({ formula: c.sym + '^' + sup(c.charge), symbol: c.sym, charge: c.charge, name: c.type === 2 ? c.name.toLowerCase() + '(' + ['', 'I', 'II', 'III', 'IV'][c.charge] + ')' : c.name.toLowerCase(), typeII: c.type === 2, polyatomic: /[A-Z].*[A-Z0-9]/.test(c.sym) }));
+    for (const c of cations) if (c.symbol === 'Hg2') c.name = 'mercury(I)';          // Hg2^2+ is mercury(I)
+    for (const c of grab(path.join(REPOS, 'reactions', 'index.html'), 'CATS'))       // add Reaction Rumble's extra cations (Pb2+, Sr2+)
+      if (c.n && !cations.some(x => x.symbol === c.s && x.charge === c.q)) cations.push({ formula: c.s + '^' + sup(c.q), symbol: c.s, charge: c.q, name: c.n, typeII: /\(/.test(c.n), polyatomic: false });
+    const anions = MONO.map(a => ({ formula: a.sym + '^' + sup(-a.charge), symbol: a.sym, charge: -a.charge, name: a.name, polyatomic: false }));
+    const polyatomic = poly.map(i => { const m = i.formulas[0].match(/^(.*)\^(\d*)([+-])$/); return { formula: i.formulas[0], symbol: m[1], charge: (m[3] === '-' ? -1 : 1) * +(m[2] || 1), name: i.name, alsoCalled: i.names.filter(n => n !== i.name), greenSheetGroup: i.group, polyatomic: true }; });
+    fs.writeFileSync(path.join(OUT, 'data/ions.json'), JSON.stringify({ from: ['ionicformula', 'polyatomic'], note: 'Real ions only. Rule-practice names that Naming & Formulas builds (e.g. carbonite) are not listed. Polyatomic ions follow the Green Sheet.', cations, anions, polyatomic }, null, 1));
+  }
   // ---------- Shared reference data ----------
   {
     const p = await pull(page, 'polyatomic', ['ions']);

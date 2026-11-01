@@ -1,0 +1,532 @@
+{
+ "from": [
+  "ionicformula",
+  "polyatomic"
+ ],
+ "note": "Real ions only. Rule-practice names that Naming & Formulas builds (e.g. carbonite) are not listed. Polyatomic ions follow the Green Sheet.",
+ "cations": [
+  {
+   "formula": "Na^+",
+   "symbol": "Na",
+   "charge": 1,
+   "name": "sodium",
+   "typeII": false,
+   "polyatomic": false
+  },
+  {
+   "formula": "K^+",
+   "symbol": "K",
+   "charge": 1,
+   "name": "potassium",
+   "typeII": false,
+   "polyatomic": false
+  },
+  {
+   "formula": "Sn^4+",
+   "symbol": "Sn",
+   "charge": 4,
+   "name": "tin(IV)",
+   "typeII": true,
+   "polyatomic": false
+  },
+  {
+   "formula": "Li^+",
+   "symbol": "Li",
+   "charge": 1,
+   "name": "lithium",
+   "typeII": false,
+   "polyatomic": false
+  },
+  {
+   "formula": "Al^3+",
+   "symbol": "Al",
+   "charge": 3,
+   "name": "aluminum",
+   "typeII": false,
+   "polyatomic": false
+  },
+  {
+   "formula": "Ca^2+",
+   "symbol": "Ca",
+   "charge": 2,
+   "name": "calcium",
+   "typeII": false,
+   "polyatomic": false
+  },
+  {
+   "formula": "Cr^3+",
+   "symbol": "Cr",
+   "charge": 3,
+   "name": "chromium(III)",
+   "typeII": true,
+   "polyatomic": false
+  },
+  {
+   "formula": "Mg^2+",
+   "symbol": "Mg",
+   "charge": 2,
+   "name": "magnesium",
+   "typeII": false,
+   "polyatomic": false
+  },
+  {
+   "formula": "Fe^3+",
+   "symbol": "Fe",
+   "charge": 3,
+   "name": "iron(III)",
+   "typeII": true,
+   "polyatomic": false
+  },
+  {
+   "formula": "Fe^2+",
+   "symbol": "Fe",
+   "charge": 2,
+   "name": "iron(II)",
+   "typeII": true,
+   "polyatomic": false
+  },
+  {
+   "formula": "Cu^2+",
+   "symbol": "Cu",
+   "charge": 2,
+   "name": "copper(II)",
+   "typeII": true,
+   "polyatomic": false
+  },
+  {
+   "formula": "Cu^+",
+   "symbol": "Cu",
+   "charge": 1,
+   "name": "copper(I)",
+   "typeII": true,
+   "polyatomic": false
+  },
+  {
+   "formula": "Ni^2+",
+   "symbol": "Ni",
+   "charge": 2,
+   "name": "nickel(II)",
+   "typeII": true,
+   "polyatomic": false
+  },
+  {
+   "formula": "Ag^+",
+   "symbol": "Ag",
+   "charge": 1,
+   "name": "silver",
+   "typeII": false,
+   "polyatomic": false
+  },
+  {
+   "formula": "Zn^2+",
+   "symbol": "Zn",
+   "charge": 2,
+   "name": "zinc",
+   "typeII": false,
+   "polyatomic": false
+  },
+  {
+   "formula": "Co^2+",
+   "symbol": "Co",
+   "charge": 2,
+   "name": "cobalt(II)",
+   "typeII": true,
+   "polyatomic": false
+  },
+  {
+   "formula": "Cs^+",
+   "symbol": "Cs",
+   "charge": 1,
+   "name": "cesium",
+   "typeII": false,
+   "polyatomic": false
+  },
+  {
+   "formula": "Rb^+",
+   "symbol": "Rb",
+   "charge": 1,
+   "name": "rubidium",
+   "typeII": false,
+   "polyatomic": false
+  },
+  {
+   "formula": "NH4^+",
+   "symbol": "NH4",
+   "charge": 1,
+   "name": "ammonium",
+   "typeII": false,
+   "polyatomic": true
+  },
+  {
+   "formula": "H3O^+",
+   "symbol": "H3O",
+   "charge": 1,
+   "name": "hydronium",
+   "typeII": false,
+   "polyatomic": true
+  },
+  {
+   "formula": "Hg2^2+",
+   "symbol": "Hg2",
+   "charge": 2,
+   "name": "mercury(I)",
+   "typeII": true,
+   "polyatomic": true
+  },
+  {
+   "formula": "Ba^2+",
+   "symbol": "Ba",
+   "charge": 2,
+   "name": "barium",
+   "typeII": false,
+   "polyatomic": false
+  },
+  {
+   "formula": "Pb^2+",
+   "symbol": "Pb",
+   "charge": 2,
+   "name": "lead(II)",
+   "typeII": true,
+   "polyatomic": false
+  },
+  {
+   "formula": "Sr^2+",
+   "symbol": "Sr",
+   "charge": 2,
+   "name": "strontium",
+   "typeII": false,
+   "polyatomic": false
+  }
+ ],
+ "anions": [
+  {
+   "formula": "Br^-",
+   "symbol": "Br",
+   "charge": -1,
+   "name": "bromide",
+   "polyatomic": false
+  },
+  {
+   "formula": "Cl^-",
+   "symbol": "Cl",
+   "charge": -1,
+   "name": "chloride",
+   "polyatomic": false
+  },
+  {
+   "formula": "N^3-",
+   "symbol": "N",
+   "charge": -3,
+   "name": "nitride",
+   "polyatomic": false
+  },
+  {
+   "formula": "F^-",
+   "symbol": "F",
+   "charge": -1,
+   "name": "fluoride",
+   "polyatomic": false
+  },
+  {
+   "formula": "I^-",
+   "symbol": "I",
+   "charge": -1,
+   "name": "iodide",
+   "polyatomic": false
+  },
+  {
+   "formula": "O^2-",
+   "symbol": "O",
+   "charge": -2,
+   "name": "oxide",
+   "polyatomic": false
+  },
+  {
+   "formula": "S^2-",
+   "symbol": "S",
+   "charge": -2,
+   "name": "sulfide",
+   "polyatomic": false
+  }
+ ],
+ "polyatomic": [
+  {
+   "formula": "BO3^3-",
+   "symbol": "BO3",
+   "charge": -3,
+   "name": "borate",
+   "alsoCalled": [],
+   "greenSheetGroup": "oxyanions",
+   "polyatomic": true
+  },
+  {
+   "formula": "CO3^2-",
+   "symbol": "CO3",
+   "charge": -2,
+   "name": "carbonate",
+   "alsoCalled": [],
+   "greenSheetGroup": "oxyanions",
+   "polyatomic": true
+  },
+  {
+   "formula": "NO3^-",
+   "symbol": "NO3",
+   "charge": -1,
+   "name": "nitrate",
+   "alsoCalled": [],
+   "greenSheetGroup": "oxyanions",
+   "polyatomic": true
+  },
+  {
+   "formula": "SiO3^2-",
+   "symbol": "SiO3",
+   "charge": -2,
+   "name": "silicate",
+   "alsoCalled": [],
+   "greenSheetGroup": "oxyanions",
+   "polyatomic": true
+  },
+  {
+   "formula": "PO4^3-",
+   "symbol": "PO4",
+   "charge": -3,
+   "name": "phosphate",
+   "alsoCalled": [],
+   "greenSheetGroup": "oxyanions",
+   "polyatomic": true
+  },
+  {
+   "formula": "SO4^2-",
+   "symbol": "SO4",
+   "charge": -2,
+   "name": "sulfate",
+   "alsoCalled": [],
+   "greenSheetGroup": "oxyanions",
+   "polyatomic": true
+  },
+  {
+   "formula": "ClO3^-",
+   "symbol": "ClO3",
+   "charge": -1,
+   "name": "chlorate",
+   "alsoCalled": [],
+   "greenSheetGroup": "oxyanions",
+   "polyatomic": true
+  },
+  {
+   "formula": "AsO4^3-",
+   "symbol": "AsO4",
+   "charge": -3,
+   "name": "arsenate",
+   "alsoCalled": [],
+   "greenSheetGroup": "oxyanions",
+   "polyatomic": true
+  },
+  {
+   "formula": "SeO4^2-",
+   "symbol": "SeO4",
+   "charge": -2,
+   "name": "selenate",
+   "alsoCalled": [],
+   "greenSheetGroup": "oxyanions",
+   "polyatomic": true
+  },
+  {
+   "formula": "BrO3^-",
+   "symbol": "BrO3",
+   "charge": -1,
+   "name": "bromate",
+   "alsoCalled": [],
+   "greenSheetGroup": "oxyanions",
+   "polyatomic": true
+  },
+  {
+   "formula": "TeO4^2-",
+   "symbol": "TeO4",
+   "charge": -2,
+   "name": "tellurate",
+   "alsoCalled": [],
+   "greenSheetGroup": "oxyanions",
+   "polyatomic": true
+  },
+  {
+   "formula": "IO3^-",
+   "symbol": "IO3",
+   "charge": -1,
+   "name": "iodate",
+   "alsoCalled": [],
+   "greenSheetGroup": "oxyanions",
+   "polyatomic": true
+  },
+  {
+   "formula": "H3O^+",
+   "symbol": "H3O",
+   "charge": 1,
+   "name": "hydronium",
+   "alsoCalled": [],
+   "greenSheetGroup": "common",
+   "polyatomic": true
+  },
+  {
+   "formula": "NH4^+",
+   "symbol": "NH4",
+   "charge": 1,
+   "name": "ammonium",
+   "alsoCalled": [],
+   "greenSheetGroup": "common",
+   "polyatomic": true
+  },
+  {
+   "formula": "Hg2^2+",
+   "symbol": "Hg2",
+   "charge": 2,
+   "name": "mercury(I)",
+   "alsoCalled": [
+    "mercury 1",
+    "mercury(I) ion",
+    "mercury one"
+   ],
+   "greenSheetGroup": "common",
+   "polyatomic": true
+  },
+  {
+   "formula": "OH^-",
+   "symbol": "OH",
+   "charge": -1,
+   "name": "hydroxide",
+   "alsoCalled": [],
+   "greenSheetGroup": "common",
+   "polyatomic": true
+  },
+  {
+   "formula": "CN^-",
+   "symbol": "CN",
+   "charge": -1,
+   "name": "cyanide",
+   "alsoCalled": [],
+   "greenSheetGroup": "common",
+   "polyatomic": true
+  },
+  {
+   "formula": "O2^2-",
+   "symbol": "O2",
+   "charge": -2,
+   "name": "peroxide",
+   "alsoCalled": [],
+   "greenSheetGroup": "common",
+   "polyatomic": true
+  },
+  {
+   "formula": "MnO4^-",
+   "symbol": "MnO4",
+   "charge": -1,
+   "name": "permanganate",
+   "alsoCalled": [],
+   "greenSheetGroup": "common",
+   "polyatomic": true
+  },
+  {
+   "formula": "CrO4^2-",
+   "symbol": "CrO4",
+   "charge": -2,
+   "name": "chromate",
+   "alsoCalled": [],
+   "greenSheetGroup": "common",
+   "polyatomic": true
+  },
+  {
+   "formula": "Cr2O7^2-",
+   "symbol": "Cr2O7",
+   "charge": -2,
+   "name": "dichromate",
+   "alsoCalled": [],
+   "greenSheetGroup": "common",
+   "polyatomic": true
+  },
+  {
+   "formula": "C2O4^2-",
+   "symbol": "C2O4",
+   "charge": -2,
+   "name": "oxalate",
+   "alsoCalled": [],
+   "greenSheetGroup": "common",
+   "polyatomic": true
+  },
+  {
+   "formula": "C2H3O2^-",
+   "symbol": "C2H3O2",
+   "charge": -1,
+   "name": "acetate",
+   "alsoCalled": [],
+   "greenSheetGroup": "common",
+   "polyatomic": true
+  },
+  {
+   "formula": "ClO4^-",
+   "symbol": "ClO4",
+   "charge": -1,
+   "name": "perchlorate",
+   "alsoCalled": [],
+   "greenSheetGroup": "rules",
+   "polyatomic": true
+  },
+  {
+   "formula": "ClO2^-",
+   "symbol": "ClO2",
+   "charge": -1,
+   "name": "chlorite",
+   "alsoCalled": [],
+   "greenSheetGroup": "rules",
+   "polyatomic": true
+  },
+  {
+   "formula": "ClO^-",
+   "symbol": "ClO",
+   "charge": -1,
+   "name": "hypochlorite",
+   "alsoCalled": [],
+   "greenSheetGroup": "rules",
+   "polyatomic": true
+  },
+  {
+   "formula": "S2O3^2-",
+   "symbol": "S2O3",
+   "charge": -2,
+   "name": "thiosulfate",
+   "alsoCalled": [],
+   "greenSheetGroup": "rules",
+   "polyatomic": true
+  },
+  {
+   "formula": "HPO4^2-",
+   "symbol": "HPO4",
+   "charge": -2,
+   "name": "hydrogenphosphate",
+   "alsoCalled": [
+    "hydrogen phosphate"
+   ],
+   "greenSheetGroup": "rules",
+   "polyatomic": true
+  },
+  {
+   "formula": "H2PO4^-",
+   "symbol": "H2PO4",
+   "charge": -1,
+   "name": "dihydrogenphosphate",
+   "alsoCalled": [
+    "dihydrogen phosphate"
+   ],
+   "greenSheetGroup": "rules",
+   "polyatomic": true
+  },
+  {
+   "formula": "SO3^2-",
+   "symbol": "SO3",
+   "charge": -2,
+   "name": "sulfite",
+   "alsoCalled": [],
+   "greenSheetGroup": "solubility",
+   "polyatomic": true
+  }
+ ]
+}
