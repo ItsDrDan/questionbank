@@ -71,7 +71,8 @@ and add its repo name to `.github/workflows/build.yml`.
 
 The bank is public. Anything that follows a publisher test bank, an ACS exam, or Dr. Dan's own quizzes,
 skill checks or exams stays out of it, even if a game uses it. Right now that means:
-Quantum Quest items tagged `tro`, `acs`, `quiz7`, `unit6` or `3A`, and Bridge to 1B's Tro-aligned `BRIDGE_CONCEPTS`.
+Quantum Quest items tagged `tro` or `acs`, and Bridge to 1B's Tro-aligned `BRIDGE_CONCEPTS`.
+Skill Check questions are never copied into games; the Quantum Quest items that followed Skill Check 7 were rewritten (Nov 2026).
 Lists still waiting for a source check (Reaction Rumble's true/false Blitz, the worksheet Hess's law set, Lewis items citing
 textbook problem numbers) are also not included yet.
 

@@ -103,11 +103,11 @@ function mcFromArray(a, hasTitle) {
       add('chem-1b-readiness', d[list].map((a, i) => item(g, list, i, { skill, courses: ['1A', '1B'], chapters, origin: 'original', type: 'mc', ...mcFromArray(a, true) })));
   }
 
-  // ---------- Quantum Quest: only items Dr. Dan wrote himself (no src tag) ----------
+  // ---------- Quantum Quest: Dr. Dan's own items, his Unit 6 worksheet set and the 3A config set ----------
   {
     const g = 'quantumchemistry', d = await pull(page, g, ['bank']);
     const chapters = { '3A': '3A-3', '1A': '1A-6' };
-    const keep = d.bank.map((q, i) => [q, i]).filter(([q]) => !q.src);
+    const keep = d.bank.map((q, i) => [q, i]).filter(([q]) => !q.src || q.src === 'unit6' || q.src === '3A'); // publisher (tro) and ACS-style items stay out
     add('quantum', keep.map(([q, i]) => {
       const courses = q.c3a ? ['3A', '1A'] : ['1A'];
       const t = q.type === 'number' ? 'number' : q.type === 'choice' ? 'mc' : 'quantum-' + q.type;

@@ -22411,5 +22411,4023 @@
    "list": "bank",
    "index": 835
   }
+ },
+ {
+  "id": "quantumchemistry-9e23f1fa",
+  "skill": "quantum.light",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Light has a wavelength of 4052 Å (1 Å = 10⁻¹⁰ m). What is the energy of one photon?",
+  "hint": "Convert Å to m (× 10⁻¹⁰), then E = hc/λ.",
+  "explain": "λ = 4.052 × 10<sup>-7</sup> m; E = hc/λ = 4.902 × 10<sup>-19</sup> J.",
+  "answer": 4.90245508390918e-19,
+  "unit": "J",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 937
+  }
+ },
+ {
+  "id": "quantumchemistry-c7019017",
+  "skill": "quantum.light",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Light has a wavelength of 2537 Å (1 Å = 10⁻¹⁰ m). What is the energy of one photon?",
+  "hint": "Convert Å to m (× 10⁻¹⁰), then E = hc/λ.",
+  "explain": "λ = 2.537 × 10<sup>-7</sup> m; E = hc/λ = 7.830 × 10<sup>-19</sup> J.",
+  "answer": 7.830014978320851e-19,
+  "unit": "J",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 938
+  }
+ },
+ {
+  "id": "quantumchemistry-7480ef70",
+  "skill": "quantum.light",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Light has a wavelength of 6563 Å (1 Å = 10⁻¹⁰ m). What is the energy of one photon?",
+  "hint": "Convert Å to m (× 10⁻¹⁰), then E = hc/λ.",
+  "explain": "λ = 6.563 × 10<sup>-7</sup> m; E = hc/λ = 3.027 × 10<sup>-19</sup> J.",
+  "answer": 3.026778607344202e-19,
+  "unit": "J",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 939
+  }
+ },
+ {
+  "id": "quantumchemistry-c9ab6045",
+  "skill": "quantum.light",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Light has a wavelength of 3000 Å (1 Å = 10⁻¹⁰ m). What is the energy of one photon?",
+  "hint": "Convert Å to m (× 10⁻¹⁰), then E = hc/λ.",
+  "explain": "λ = 3.000 × 10<sup>-7</sup> m; E = hc/λ = 6.622 × 10<sup>-19</sup> J.",
+  "answer": 6.621582666666667e-19,
+  "unit": "J",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 940
+  }
+ },
+ {
+  "id": "quantumchemistry-0dfa7484",
+  "skill": "quantum.light",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "A beam of 4052 Å light strikes calcium metal, whose work function is 4.600 × 10<sup>-19</sup> J. What is the maximum kinetic energy of an ejected electron?",
+  "hint": "Convert Å to m, find E<sub>photon</sub> = hc/λ, then KE<sub>max</sub> = E<sub>photon</sub> − φ.",
+  "explain": "E<sub>photon</sub> = 4.902 × 10<sup>-19</sup> J; KE<sub>max</sub> = 4.902 × 10<sup>-19</sup> − 4.600 × 10<sup>-19</sup> = 3.025 × 10<sup>-20</sup> J.",
+  "answer": 3.024550839091804e-20,
+  "unit": "J",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 941
+  }
+ },
+ {
+  "id": "quantumchemistry-9e76ca50",
+  "skill": "quantum.light",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "A beam of 2500 Å light strikes zinc metal, whose work function is 6.940 × 10<sup>-19</sup> J. What is the maximum kinetic energy of an ejected electron?",
+  "hint": "Convert Å to m, find E<sub>photon</sub> = hc/λ, then KE<sub>max</sub> = E<sub>photon</sub> − φ.",
+  "explain": "E<sub>photon</sub> = 7.946 × 10<sup>-19</sup> J; KE<sub>max</sub> = 7.946 × 10<sup>-19</sup> − 6.940 × 10<sup>-19</sup> = 1.006 × 10<sup>-19</sup> J.",
+  "answer": 1.0058991999999998e-19,
+  "unit": "J",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 942
+  }
+ },
+ {
+  "id": "quantumchemistry-19ebcce2",
+  "skill": "quantum.light",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "A beam of 3500 Å light strikes calcium metal, whose work function is 4.600 × 10<sup>-19</sup> J. What is the maximum kinetic energy of an ejected electron?",
+  "hint": "Convert Å to m, find E<sub>photon</sub> = hc/λ, then KE<sub>max</sub> = E<sub>photon</sub> − φ.",
+  "explain": "E<sub>photon</sub> = 5.676 × 10<sup>-19</sup> J; KE<sub>max</sub> = 5.676 × 10<sup>-19</sup> − 4.600 × 10<sup>-19</sup> = 1.076 × 10<sup>-19</sup> J.",
+  "answer": 1.0756422857142853e-19,
+  "unit": "J",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 943
+  }
+ },
+ {
+  "id": "quantumchemistry-6200adae",
+  "skill": "quantum.light",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "A beam of 2200 Å light strikes copper metal, whose work function is 7.450 × 10<sup>-19</sup> J. What is the maximum kinetic energy of an ejected electron?",
+  "hint": "Convert Å to m, find E<sub>photon</sub> = hc/λ, then KE<sub>max</sub> = E<sub>photon</sub> − φ.",
+  "explain": "E<sub>photon</sub> = 9.029 × 10<sup>-19</sup> J; KE<sub>max</sub> = 9.029 × 10<sup>-19</sup> − 7.450 × 10<sup>-19</sup> = 1.579 × 10<sup>-19</sup> J.",
+  "answer": 1.5794309090909092e-19,
+  "unit": "J",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 944
+  }
+ },
+ {
+  "id": "quantumchemistry-72dcd6dc",
+  "skill": "quantum.bohr",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "A 386 g football thrown at 96.6 km/h. What is its de Broglie wavelength?",
+  "hint": "Convert to SI first: mass in kg, speed in m/s (km/h ÷ 3.6; distance ÷ time). Then λ = h/(mv).",
+  "explain": "v = 26.83 m/s, m = 0.3860 kg → λ = h/(mv) = 6.397 × 10<sup>-35</sup> m. This is far too small to detect, which is why everyday objects do not show wave behavior.",
+  "answer": 6.397193705145946e-35,
+  "unit": "m",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 952
+  }
+ },
+ {
+  "id": "quantumchemistry-f3e522f6",
+  "skill": "quantum.bohr",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "A 69.7 kg sprinter who runs 100. m in 11.12 s (use the average speed). What is its de Broglie wavelength?",
+  "hint": "Convert to SI first: mass in kg, speed in m/s (km/h ÷ 3.6; distance ÷ time). Then λ = h/(mv).",
+  "explain": "v = 8.993 m/s, m = 69.70 kg → λ = h/(mv) = 1.057 × 10<sup>-36</sup> m. This is far too small to detect, which is why everyday objects do not show wave behavior.",
+  "answer": 1.0571179340028694e-36,
+  "unit": "m",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 953
+  }
+ },
+ {
+  "id": "quantumchemistry-ec2ef2ef",
+  "skill": "quantum.bohr",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "A 91.4 kg runner who covers 400. m in 47.84 s (use the average speed). What is its de Broglie wavelength?",
+  "hint": "Convert to SI first: mass in kg, speed in m/s (km/h ÷ 3.6; distance ÷ time). Then λ = h/(mv).",
+  "explain": "v = 8.361 m/s, m = 91.40 kg → λ = h/(mv) = 8.670 × 10<sup>-37</sup> m. This is far too small to detect, which is why everyday objects do not show wave behavior.",
+  "answer": 8.670345733041576e-37,
+  "unit": "m",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 954
+  }
+ },
+ {
+  "id": "quantumchemistry-e114912b",
+  "skill": "quantum.bohr",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "An electron (mass 9.11 × 10⁻²⁸ g) moving at 3.22 × 10⁶ m/s. What is its de Broglie wavelength?",
+  "hint": "Convert to SI first: mass in kg, speed in m/s (km/h ÷ 3.6; distance ÷ time). Then λ = h/(mv).",
+  "explain": "v = 3.220e+6 m/s, m = 9.110 × 10<sup>-31</sup> kg → λ = h/(mv) = 2.259 × 10<sup>-10</sup> m. ",
+  "answer": 2.258796899182524e-10,
+  "unit": "m",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 955
+  }
+ },
+ {
+  "id": "quantumchemistry-b021491a",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Li.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "Li has 3 electrons: [He] 2s<sup>1</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[He] 2s1",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Li.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "Li has 3 electrons: [He] 2s<sup>1</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1503
+  }
+ },
+ {
+  "id": "quantumchemistry-7af1749e",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Be.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "Be has 4 electrons: [He] 2s<sup>2</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[He] 2s2",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Be.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "Be has 4 electrons: [He] 2s<sup>2</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1504
+  }
+ },
+ {
+  "id": "quantumchemistry-fee4484e",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral B.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "B has 5 electrons: [He] 2s<sup>2</sup> 2p<sup>1</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[He] 2s2 2p1",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral B.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "B has 5 electrons: [He] 2s<sup>2</sup> 2p<sup>1</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1505
+  }
+ },
+ {
+  "id": "quantumchemistry-9cdfe9ae",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral C.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "C has 6 electrons: [He] 2s<sup>2</sup> 2p<sup>2</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[He] 2s2 2p2",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral C.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "C has 6 electrons: [He] 2s<sup>2</sup> 2p<sup>2</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1506
+  }
+ },
+ {
+  "id": "quantumchemistry-a515b7f3",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral N.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "N has 7 electrons: [He] 2s<sup>2</sup> 2p<sup>3</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[He] 2s2 2p3",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral N.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "N has 7 electrons: [He] 2s<sup>2</sup> 2p<sup>3</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1507
+  }
+ },
+ {
+  "id": "quantumchemistry-cf0c0996",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral O.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "O has 8 electrons: [He] 2s<sup>2</sup> 2p<sup>4</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[He] 2s2 2p4",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral O.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "O has 8 electrons: [He] 2s<sup>2</sup> 2p<sup>4</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1508
+  }
+ },
+ {
+  "id": "quantumchemistry-b061e9cf",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral F.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "F has 9 electrons: [He] 2s<sup>2</sup> 2p<sup>5</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[He] 2s2 2p5",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral F.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "F has 9 electrons: [He] 2s<sup>2</sup> 2p<sup>5</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1509
+  }
+ },
+ {
+  "id": "quantumchemistry-7d7ef605",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Na.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "Na has 11 electrons: [Ne] 3s<sup>1</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne] 3s1",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Na.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "Na has 11 electrons: [Ne] 3s<sup>1</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1510
+  }
+ },
+ {
+  "id": "quantumchemistry-531f694f",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Mg.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "Mg has 12 electrons: [Ne] 3s<sup>2</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne] 3s2",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Mg.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "Mg has 12 electrons: [Ne] 3s<sup>2</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1511
+  }
+ },
+ {
+  "id": "quantumchemistry-ee6a89dd",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Al.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "Al has 13 electrons: [Ne] 3s<sup>2</sup> 3p<sup>1</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne] 3s2 3p1",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Al.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "Al has 13 electrons: [Ne] 3s<sup>2</sup> 3p<sup>1</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1512
+  }
+ },
+ {
+  "id": "quantumchemistry-6c6b52e6",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Si.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "Si has 14 electrons: [Ne] 3s<sup>2</sup> 3p<sup>2</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne] 3s2 3p2",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Si.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "Si has 14 electrons: [Ne] 3s<sup>2</sup> 3p<sup>2</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1513
+  }
+ },
+ {
+  "id": "quantumchemistry-1f33373c",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral P.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "P has 15 electrons: [Ne] 3s<sup>2</sup> 3p<sup>3</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne] 3s2 3p3",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral P.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "P has 15 electrons: [Ne] 3s<sup>2</sup> 3p<sup>3</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1514
+  }
+ },
+ {
+  "id": "quantumchemistry-d2d40faa",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral S.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "S has 16 electrons: [Ne] 3s<sup>2</sup> 3p<sup>4</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne] 3s2 3p4",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral S.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "S has 16 electrons: [Ne] 3s<sup>2</sup> 3p<sup>4</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1515
+  }
+ },
+ {
+  "id": "quantumchemistry-4fdefe1f",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Cl.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "Cl has 17 electrons: [Ne] 3s<sup>2</sup> 3p<sup>5</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne] 3s2 3p5",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Cl.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "Cl has 17 electrons: [Ne] 3s<sup>2</sup> 3p<sup>5</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1516
+  }
+ },
+ {
+  "id": "quantumchemistry-03f19bb9",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral K.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "K has 19 electrons: [Ar] 4s<sup>1</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ar] 4s1",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral K.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "K has 19 electrons: [Ar] 4s<sup>1</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1517
+  }
+ },
+ {
+  "id": "quantumchemistry-988e5ba7",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Ca.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "Ca has 20 electrons: [Ar] 4s<sup>2</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ar] 4s2",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Ca.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "Ca has 20 electrons: [Ar] 4s<sup>2</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1518
+  }
+ },
+ {
+  "id": "quantumchemistry-5173df5f",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Ga.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "Ga has 31 electrons: [Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>1</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ar] 4s2 3d10 4p1",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Ga.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "Ga has 31 electrons: [Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>1</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1519
+  }
+ },
+ {
+  "id": "quantumchemistry-9a52284e",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Ge.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "Ge has 32 electrons: [Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>2</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ar] 4s2 3d10 4p2",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Ge.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "Ge has 32 electrons: [Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>2</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1520
+  }
+ },
+ {
+  "id": "quantumchemistry-1fdf6e7d",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral As.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "As has 33 electrons: [Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>3</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ar] 4s2 3d10 4p3",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral As.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "As has 33 electrons: [Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>3</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1521
+  }
+ },
+ {
+  "id": "quantumchemistry-95028b9e",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Se.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "Se has 34 electrons: [Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>4</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ar] 4s2 3d10 4p4",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Se.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "Se has 34 electrons: [Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>4</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1522
+  }
+ },
+ {
+  "id": "quantumchemistry-f6af18be",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Br.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "Br has 35 electrons: [Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>5</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ar] 4s2 3d10 4p5",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Br.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "Br has 35 electrons: [Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>5</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1523
+  }
+ },
+ {
+  "id": "quantumchemistry-1d119060",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Rb.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "Rb has 37 electrons: [Kr] 5s<sup>1</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Kr] 5s1",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Rb.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "Rb has 37 electrons: [Kr] 5s<sup>1</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1524
+  }
+ },
+ {
+  "id": "quantumchemistry-58aeb1fa",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Sr.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "Sr has 38 electrons: [Kr] 5s<sup>2</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Kr] 5s2",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Sr.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "Sr has 38 electrons: [Kr] 5s<sup>2</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1525
+  }
+ },
+ {
+  "id": "quantumchemistry-e07fcc90",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral In.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "In has 49 electrons: [Kr] 5s<sup>2</sup> 4d<sup>10</sup> 5p<sup>1</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Kr] 5s2 4d10 5p1",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral In.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "In has 49 electrons: [Kr] 5s<sup>2</sup> 4d<sup>10</sup> 5p<sup>1</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1526
+  }
+ },
+ {
+  "id": "quantumchemistry-b96ac77a",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Sn.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "Sn has 50 electrons: [Kr] 5s<sup>2</sup> 4d<sup>10</sup> 5p<sup>2</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Kr] 5s2 4d10 5p2",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Sn.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "Sn has 50 electrons: [Kr] 5s<sup>2</sup> 4d<sup>10</sup> 5p<sup>2</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1527
+  }
+ },
+ {
+  "id": "quantumchemistry-b4bb41c1",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Sb.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "Sb has 51 electrons: [Kr] 5s<sup>2</sup> 4d<sup>10</sup> 5p<sup>3</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Kr] 5s2 4d10 5p3",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Sb.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "Sb has 51 electrons: [Kr] 5s<sup>2</sup> 4d<sup>10</sup> 5p<sup>3</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1528
+  }
+ },
+ {
+  "id": "quantumchemistry-3fb37aaf",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Te.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "Te has 52 electrons: [Kr] 5s<sup>2</sup> 4d<sup>10</sup> 5p<sup>4</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Kr] 5s2 4d10 5p4",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Te.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "Te has 52 electrons: [Kr] 5s<sup>2</sup> 4d<sup>10</sup> 5p<sup>4</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1529
+  }
+ },
+ {
+  "id": "quantumchemistry-7525ea35",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral I.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "I has 53 electrons: [Kr] 5s<sup>2</sup> 4d<sup>10</sup> 5p<sup>5</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Kr] 5s2 4d10 5p5",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral I.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "I has 53 electrons: [Kr] 5s<sup>2</sup> 4d<sup>10</sup> 5p<sup>5</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1530
+  }
+ },
+ {
+  "id": "quantumchemistry-8c2606f8",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Cs.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "Cs has 55 electrons: [Xe] 6s<sup>1</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Xe] 6s1",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Cs.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "Cs has 55 electrons: [Xe] 6s<sup>1</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1531
+  }
+ },
+ {
+  "id": "quantumchemistry-aff2f6f5",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Ba.",
+  "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+  "explain": "Ba has 56 electrons: [Xe] 6s<sup>2</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Xe] 6s2",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for neutral Ba.",
+   "data": "Start with the previous noble gas in brackets, e.g. [Ne] 3s2 3p1. Type normal digits; they display as superscripts.",
+   "hint": "Find the noble gas at the end of the row above. Then fill the remaining electrons in order: ns, then (n − 1)d if the row has one, then np.",
+   "why": "Ba has 56 electrons: [Xe] 6s<sup>2</sup>.",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1532
+  }
+ },
+ {
+  "id": "quantumchemistry-11992923",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion Na⁺.",
+  "hint": "Na loses 1 electron from its outermost shell.",
+  "explain": "Na⁺ has 10 electrons → [Ne], the same configuration as a noble gas (octet rule).",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne]",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion Na⁺.",
+   "data": "Use a noble gas in brackets. If the ion has exactly a noble gas’s electron count, the answer is just that noble gas, e.g. [Ne].",
+   "hint": "Na loses 1 electron from its outermost shell.",
+   "why": "Na⁺ has 10 electrons → [Ne], the same configuration as a noble gas (octet rule).",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1533
+  }
+ },
+ {
+  "id": "quantumchemistry-87c06f1d",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion Mg²⁺.",
+  "hint": "Mg loses 2 electrons from its outermost shell.",
+  "explain": "Mg²⁺ has 10 electrons → [Ne], the same configuration as a noble gas (octet rule).",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne]",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion Mg²⁺.",
+   "data": "Use a noble gas in brackets. If the ion has exactly a noble gas’s electron count, the answer is just that noble gas, e.g. [Ne].",
+   "hint": "Mg loses 2 electrons from its outermost shell.",
+   "why": "Mg²⁺ has 10 electrons → [Ne], the same configuration as a noble gas (octet rule).",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1534
+  }
+ },
+ {
+  "id": "quantumchemistry-49c6b710",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion Al³⁺.",
+  "hint": "Al loses 3 electrons from its outermost shell.",
+  "explain": "Al³⁺ has 10 electrons → [Ne], the same configuration as a noble gas (octet rule).",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne]",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion Al³⁺.",
+   "data": "Use a noble gas in brackets. If the ion has exactly a noble gas’s electron count, the answer is just that noble gas, e.g. [Ne].",
+   "hint": "Al loses 3 electrons from its outermost shell.",
+   "why": "Al³⁺ has 10 electrons → [Ne], the same configuration as a noble gas (octet rule).",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1535
+  }
+ },
+ {
+  "id": "quantumchemistry-ca73b0aa",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion K⁺.",
+  "hint": "K loses 1 electron from its outermost shell.",
+  "explain": "K⁺ has 18 electrons → [Ar], the same configuration as a noble gas (octet rule).",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ar]",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion K⁺.",
+   "data": "Use a noble gas in brackets. If the ion has exactly a noble gas’s electron count, the answer is just that noble gas, e.g. [Ne].",
+   "hint": "K loses 1 electron from its outermost shell.",
+   "why": "K⁺ has 18 electrons → [Ar], the same configuration as a noble gas (octet rule).",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1536
+  }
+ },
+ {
+  "id": "quantumchemistry-cb4a01e2",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion Ca²⁺.",
+  "hint": "Ca loses 2 electrons from its outermost shell.",
+  "explain": "Ca²⁺ has 18 electrons → [Ar], the same configuration as a noble gas (octet rule).",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ar]",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion Ca²⁺.",
+   "data": "Use a noble gas in brackets. If the ion has exactly a noble gas’s electron count, the answer is just that noble gas, e.g. [Ne].",
+   "hint": "Ca loses 2 electrons from its outermost shell.",
+   "why": "Ca²⁺ has 18 electrons → [Ar], the same configuration as a noble gas (octet rule).",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1537
+  }
+ },
+ {
+  "id": "quantumchemistry-d6c67080",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion N³⁻.",
+  "hint": "N gains 3 electrons to complete its p subshell.",
+  "explain": "N³⁻ has 10 electrons → [Ne], the same configuration as a noble gas (octet rule).",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne]",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion N³⁻.",
+   "data": "Use a noble gas in brackets. If the ion has exactly a noble gas’s electron count, the answer is just that noble gas, e.g. [Ne].",
+   "hint": "N gains 3 electrons to complete its p subshell.",
+   "why": "N³⁻ has 10 electrons → [Ne], the same configuration as a noble gas (octet rule).",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1538
+  }
+ },
+ {
+  "id": "quantumchemistry-50f5d7f0",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion O²⁻.",
+  "hint": "O gains 2 electrons to complete its p subshell.",
+  "explain": "O²⁻ has 10 electrons → [Ne], the same configuration as a noble gas (octet rule).",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne]",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion O²⁻.",
+   "data": "Use a noble gas in brackets. If the ion has exactly a noble gas’s electron count, the answer is just that noble gas, e.g. [Ne].",
+   "hint": "O gains 2 electrons to complete its p subshell.",
+   "why": "O²⁻ has 10 electrons → [Ne], the same configuration as a noble gas (octet rule).",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1539
+  }
+ },
+ {
+  "id": "quantumchemistry-cdf54816",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion F⁻.",
+  "hint": "F gains 1 electron to complete its p subshell.",
+  "explain": "F⁻ has 10 electrons → [Ne], the same configuration as a noble gas (octet rule).",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne]",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion F⁻.",
+   "data": "Use a noble gas in brackets. If the ion has exactly a noble gas’s electron count, the answer is just that noble gas, e.g. [Ne].",
+   "hint": "F gains 1 electron to complete its p subshell.",
+   "why": "F⁻ has 10 electrons → [Ne], the same configuration as a noble gas (octet rule).",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1540
+  }
+ },
+ {
+  "id": "quantumchemistry-4357d1d8",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion S²⁻.",
+  "hint": "S gains 2 electrons to complete its p subshell.",
+  "explain": "S²⁻ has 18 electrons → [Ar], the same configuration as a noble gas (octet rule).",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ar]",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion S²⁻.",
+   "data": "Use a noble gas in brackets. If the ion has exactly a noble gas’s electron count, the answer is just that noble gas, e.g. [Ne].",
+   "hint": "S gains 2 electrons to complete its p subshell.",
+   "why": "S²⁻ has 18 electrons → [Ar], the same configuration as a noble gas (octet rule).",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1541
+  }
+ },
+ {
+  "id": "quantumchemistry-e3f51f5c",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion Cl⁻.",
+  "hint": "Cl gains 1 electron to complete its p subshell.",
+  "explain": "Cl⁻ has 18 electrons → [Ar], the same configuration as a noble gas (octet rule).",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ar]",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion Cl⁻.",
+   "data": "Use a noble gas in brackets. If the ion has exactly a noble gas’s electron count, the answer is just that noble gas, e.g. [Ne].",
+   "hint": "Cl gains 1 electron to complete its p subshell.",
+   "why": "Cl⁻ has 18 electrons → [Ar], the same configuration as a noble gas (octet rule).",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1542
+  }
+ },
+ {
+  "id": "quantumchemistry-558ec2ce",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion Br⁻.",
+  "hint": "Br gains 1 electron to complete its p subshell.",
+  "explain": "Br⁻ has 36 electrons → [Kr], the same configuration as a noble gas (octet rule).",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Kr]",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion Br⁻.",
+   "data": "Use a noble gas in brackets. If the ion has exactly a noble gas’s electron count, the answer is just that noble gas, e.g. [Ne].",
+   "hint": "Br gains 1 electron to complete its p subshell.",
+   "why": "Br⁻ has 36 electrons → [Kr], the same configuration as a noble gas (octet rule).",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1543
+  }
+ },
+ {
+  "id": "quantumchemistry-1140a0c0",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion I⁻.",
+  "hint": "I gains 1 electron to complete its p subshell.",
+  "explain": "I⁻ has 54 electrons → [Xe], the same configuration as a noble gas (octet rule).",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Xe]",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion I⁻.",
+   "data": "Use a noble gas in brackets. If the ion has exactly a noble gas’s electron count, the answer is just that noble gas, e.g. [Ne].",
+   "hint": "I gains 1 electron to complete its p subshell.",
+   "why": "I⁻ has 54 electrons → [Xe], the same configuration as a noble gas (octet rule).",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1544
+  }
+ },
+ {
+  "id": "quantumchemistry-903dc89c",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion Se²⁻.",
+  "hint": "Se gains 2 electrons to complete its p subshell.",
+  "explain": "Se²⁻ has 36 electrons → [Kr], the same configuration as a noble gas (octet rule).",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Kr]",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion Se²⁻.",
+   "data": "Use a noble gas in brackets. If the ion has exactly a noble gas’s electron count, the answer is just that noble gas, e.g. [Ne].",
+   "hint": "Se gains 2 electrons to complete its p subshell.",
+   "why": "Se²⁻ has 36 electrons → [Kr], the same configuration as a noble gas (octet rule).",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1545
+  }
+ },
+ {
+  "id": "quantumchemistry-db42911c",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion Sr²⁺.",
+  "hint": "Sr loses 2 electrons from its outermost shell.",
+  "explain": "Sr²⁺ has 36 electrons → [Kr], the same configuration as a noble gas (octet rule).",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Kr]",
+   "q": "Write the <b>noble-gas (shorthand)</b> electron configuration for the ion Sr²⁺.",
+   "data": "Use a noble gas in brackets. If the ion has exactly a noble gas’s electron count, the answer is just that noble gas, e.g. [Ne].",
+   "hint": "Sr loses 2 electrons from its outermost shell.",
+   "why": "Sr²⁺ has 36 electrons → [Kr], the same configuration as a noble gas (octet rule).",
+   "src": "3A",
+   "c3a": true
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1546
+  }
+ },
+ {
+  "id": "quantumchemistry-91f68010",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "A mystery element from the second row of the periodic table loses its electrons one at a time. The energy needed for each removal is in the table. Name the element.",
+  "hint": "Look for the one BIG jump (often 4× or more). The number of IEs before the jump = number of valence electrons = the main-group group number.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>1</sub> = 520 to IE<sub>2</sub> = 7,298 kJ/mol (about 14.0×). The first 1 electron is valence electron; IE<sub>2</sub> removes a core electron from a filled noble-gas shell. So the element has 1 valence electron → lithium (Li).",
+  "answer": "lithium (Li)",
+  "choices": [
+   "lithium (Li)",
+   "carbon (C)",
+   "nitrogen (N)",
+   "beryllium (Be)"
+  ],
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1547
+  }
+ },
+ {
+  "id": "quantumchemistry-c9e811df",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Use the ionization-energy data in the table for this second-row element. How many of its electrons are valence electrons?",
+  "hint": "Count the ionization energies that come before the largest jump.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>1</sub> = 520 to IE<sub>2</sub> = 7,298 kJ/mol (about 14.0×). The first 1 electron is valence electron; IE<sub>2</sub> removes a core electron from a filled noble-gas shell. So the element has 1 valence electron → lithium (Li).",
+  "answer": 1,
+  "unit": "valence electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1548
+  }
+ },
+ {
+  "id": "quantumchemistry-cd2be880",
+  "skill": "quantum.config",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "This second-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+  "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>1</sub> = 520 to IE<sub>2</sub> = 7,298 kJ/mol (about 14.0×). The first 1 electron is valence electron; IE<sub>2</sub> removes a core electron from a filled noble-gas shell. So the element has 1 valence electron → lithium (Li). Its configuration is [He] 2s<sup>1</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[He] 2s1",
+   "q": "This second-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+   "data": "<table class=\"ie-table\"><thead><tr><th>IE<sub>1</sub></th><th>IE<sub>2</sub></th><th>IE<sub>3</sub></th></tr></thead><tbody><tr><td>520</td><td>7,298</td><td>11,815</td></tr></tbody></table><small>Successive ionization energies in kJ/mol (NIST data, rounded).</small>",
+   "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+   "why": "Compare each IE with the one before it. The huge jump is from IE<sub>1</sub> = 520 to IE<sub>2</sub> = 7,298 kJ/mol (about 14.0×). The first 1 electron is valence electron; IE<sub>2</sub> removes a core electron from a filled noble-gas shell. So the element has 1 valence electron → lithium (Li). Its configuration is [He] 2s<sup>1</sup>.",
+   "noDiagram": true,
+   "ieTableQ": true,
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1549
+  }
+ },
+ {
+  "id": "quantumchemistry-5b93e444",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "A mystery element from the second row of the periodic table loses its electrons one at a time. The energy needed for each removal is in the table. Name the element.",
+  "hint": "Look for the one BIG jump (often 4× or more). The number of IEs before the jump = number of valence electrons = the main-group group number.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>2</sub> = 1,757 to IE<sub>3</sub> = 14,849 kJ/mol (about 8.5×). The first 2 electrons are valence electrons; IE<sub>3</sub> removes a core electron from a filled noble-gas shell. So the element has 2 valence electrons → beryllium (Be).",
+  "answer": "beryllium (Be)",
+  "choices": [
+   "beryllium (Be)",
+   "lithium (Li)",
+   "nitrogen (N)",
+   "boron (B)"
+  ],
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1550
+  }
+ },
+ {
+  "id": "quantumchemistry-67edf4fe",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Use the ionization-energy data in the table for this second-row element. How many of its electrons are valence electrons?",
+  "hint": "Count the ionization energies that come before the largest jump.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>2</sub> = 1,757 to IE<sub>3</sub> = 14,849 kJ/mol (about 8.5×). The first 2 electrons are valence electrons; IE<sub>3</sub> removes a core electron from a filled noble-gas shell. So the element has 2 valence electrons → beryllium (Be).",
+  "answer": 2,
+  "unit": "valence electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1551
+  }
+ },
+ {
+  "id": "quantumchemistry-17d9b1c8",
+  "skill": "quantum.config",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "This second-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+  "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>2</sub> = 1,757 to IE<sub>3</sub> = 14,849 kJ/mol (about 8.5×). The first 2 electrons are valence electrons; IE<sub>3</sub> removes a core electron from a filled noble-gas shell. So the element has 2 valence electrons → beryllium (Be). Its configuration is [He] 2s<sup>2</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[He] 2s2",
+   "q": "This second-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+   "data": "<table class=\"ie-table\"><thead><tr><th>IE<sub>1</sub></th><th>IE<sub>2</sub></th><th>IE<sub>3</sub></th><th>IE<sub>4</sub></th></tr></thead><tbody><tr><td>900</td><td>1,757</td><td>14,849</td><td>21,007</td></tr></tbody></table><small>Successive ionization energies in kJ/mol (NIST data, rounded).</small>",
+   "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+   "why": "Compare each IE with the one before it. The huge jump is from IE<sub>2</sub> = 1,757 to IE<sub>3</sub> = 14,849 kJ/mol (about 8.5×). The first 2 electrons are valence electrons; IE<sub>3</sub> removes a core electron from a filled noble-gas shell. So the element has 2 valence electrons → beryllium (Be). Its configuration is [He] 2s<sup>2</sup>.",
+   "noDiagram": true,
+   "ieTableQ": true,
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1552
+  }
+ },
+ {
+  "id": "quantumchemistry-e2375a4a",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "A mystery element from the second row of the periodic table loses its electrons one at a time. The energy needed for each removal is in the table. Name the element.",
+  "hint": "Look for the one BIG jump (often 4× or more). The number of IEs before the jump = number of valence electrons = the main-group group number.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>3</sub> = 3,660 to IE<sub>4</sub> = 25,026 kJ/mol (about 6.8×). The first 3 electrons are valence electrons; IE<sub>4</sub> removes a core electron from a filled noble-gas shell. So the element has 3 valence electrons → boron (B).",
+  "answer": "boron (B)",
+  "choices": [
+   "boron (B)",
+   "lithium (Li)",
+   "carbon (C)",
+   "neon (Ne)"
+  ],
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1553
+  }
+ },
+ {
+  "id": "quantumchemistry-d01b9ac4",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Use the ionization-energy data in the table for this second-row element. How many of its electrons are valence electrons?",
+  "hint": "Count the ionization energies that come before the largest jump.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>3</sub> = 3,660 to IE<sub>4</sub> = 25,026 kJ/mol (about 6.8×). The first 3 electrons are valence electrons; IE<sub>4</sub> removes a core electron from a filled noble-gas shell. So the element has 3 valence electrons → boron (B).",
+  "answer": 3,
+  "unit": "valence electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1554
+  }
+ },
+ {
+  "id": "quantumchemistry-625c5e07",
+  "skill": "quantum.config",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "This second-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+  "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>3</sub> = 3,660 to IE<sub>4</sub> = 25,026 kJ/mol (about 6.8×). The first 3 electrons are valence electrons; IE<sub>4</sub> removes a core electron from a filled noble-gas shell. So the element has 3 valence electrons → boron (B). Its configuration is [He] 2s<sup>2</sup> 2p<sup>1</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[He] 2s2 2p1",
+   "q": "This second-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+   "data": "<table class=\"ie-table\"><thead><tr><th>IE<sub>1</sub></th><th>IE<sub>2</sub></th><th>IE<sub>3</sub></th><th>IE<sub>4</sub></th><th>IE<sub>5</sub></th></tr></thead><tbody><tr><td>801</td><td>2,427</td><td>3,660</td><td>25,026</td><td>32,827</td></tr></tbody></table><small>Successive ionization energies in kJ/mol (NIST data, rounded).</small>",
+   "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+   "why": "Compare each IE with the one before it. The huge jump is from IE<sub>3</sub> = 3,660 to IE<sub>4</sub> = 25,026 kJ/mol (about 6.8×). The first 3 electrons are valence electrons; IE<sub>4</sub> removes a core electron from a filled noble-gas shell. So the element has 3 valence electrons → boron (B). Its configuration is [He] 2s<sup>2</sup> 2p<sup>1</sup>.",
+   "noDiagram": true,
+   "ieTableQ": true,
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1555
+  }
+ },
+ {
+  "id": "quantumchemistry-edb8c835",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "A mystery element from the second row of the periodic table loses its electrons one at a time. The energy needed for each removal is in the table. Name the element.",
+  "hint": "Look for the one BIG jump (often 4× or more). The number of IEs before the jump = number of valence electrons = the main-group group number.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>4</sub> = 6,223 to IE<sub>5</sub> = 37,831 kJ/mol (about 6.1×). The first 4 electrons are valence electrons; IE<sub>5</sub> removes a core electron from a filled noble-gas shell. So the element has 4 valence electrons → carbon (C).",
+  "answer": "carbon (C)",
+  "choices": [
+   "carbon (C)",
+   "beryllium (Be)",
+   "nitrogen (N)",
+   "fluorine (F)"
+  ],
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1556
+  }
+ },
+ {
+  "id": "quantumchemistry-08569e73",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Use the ionization-energy data in the table for this second-row element. How many of its electrons are valence electrons?",
+  "hint": "Count the ionization energies that come before the largest jump.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>4</sub> = 6,223 to IE<sub>5</sub> = 37,831 kJ/mol (about 6.1×). The first 4 electrons are valence electrons; IE<sub>5</sub> removes a core electron from a filled noble-gas shell. So the element has 4 valence electrons → carbon (C).",
+  "answer": 4,
+  "unit": "valence electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1557
+  }
+ },
+ {
+  "id": "quantumchemistry-4a7cd0d1",
+  "skill": "quantum.config",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "This second-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+  "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>4</sub> = 6,223 to IE<sub>5</sub> = 37,831 kJ/mol (about 6.1×). The first 4 electrons are valence electrons; IE<sub>5</sub> removes a core electron from a filled noble-gas shell. So the element has 4 valence electrons → carbon (C). Its configuration is [He] 2s<sup>2</sup> 2p<sup>2</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[He] 2s2 2p2",
+   "q": "This second-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+   "data": "<table class=\"ie-table\"><thead><tr><th>IE<sub>1</sub></th><th>IE<sub>2</sub></th><th>IE<sub>3</sub></th><th>IE<sub>4</sub></th><th>IE<sub>5</sub></th><th>IE<sub>6</sub></th></tr></thead><tbody><tr><td>1,087</td><td>2,353</td><td>4,621</td><td>6,223</td><td>37,831</td><td>47,277</td></tr></tbody></table><small>Successive ionization energies in kJ/mol (NIST data, rounded).</small>",
+   "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+   "why": "Compare each IE with the one before it. The huge jump is from IE<sub>4</sub> = 6,223 to IE<sub>5</sub> = 37,831 kJ/mol (about 6.1×). The first 4 electrons are valence electrons; IE<sub>5</sub> removes a core electron from a filled noble-gas shell. So the element has 4 valence electrons → carbon (C). Its configuration is [He] 2s<sup>2</sup> 2p<sup>2</sup>.",
+   "noDiagram": true,
+   "ieTableQ": true,
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1558
+  }
+ },
+ {
+  "id": "quantumchemistry-6d7d5522",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "A mystery element from the second row of the periodic table loses its electrons one at a time. The energy needed for each removal is in the table. Name the element.",
+  "hint": "Look for the one BIG jump (often 4× or more). The number of IEs before the jump = number of valence electrons = the main-group group number.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>5</sub> = 9,445 to IE<sub>6</sub> = 53,267 kJ/mol (about 5.6×). The first 5 electrons are valence electrons; IE<sub>6</sub> removes a core electron from a filled noble-gas shell. So the element has 5 valence electrons → nitrogen (N).",
+  "answer": "nitrogen (N)",
+  "choices": [
+   "nitrogen (N)",
+   "neon (Ne)",
+   "carbon (C)",
+   "fluorine (F)"
+  ],
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1559
+  }
+ },
+ {
+  "id": "quantumchemistry-5cc950b3",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Use the ionization-energy data in the table for this second-row element. How many of its electrons are valence electrons?",
+  "hint": "Count the ionization energies that come before the largest jump.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>5</sub> = 9,445 to IE<sub>6</sub> = 53,267 kJ/mol (about 5.6×). The first 5 electrons are valence electrons; IE<sub>6</sub> removes a core electron from a filled noble-gas shell. So the element has 5 valence electrons → nitrogen (N).",
+  "answer": 5,
+  "unit": "valence electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1560
+  }
+ },
+ {
+  "id": "quantumchemistry-d11ffd31",
+  "skill": "quantum.config",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "This second-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+  "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>5</sub> = 9,445 to IE<sub>6</sub> = 53,267 kJ/mol (about 5.6×). The first 5 electrons are valence electrons; IE<sub>6</sub> removes a core electron from a filled noble-gas shell. So the element has 5 valence electrons → nitrogen (N). Its configuration is [He] 2s<sup>2</sup> 2p<sup>3</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[He] 2s2 2p3",
+   "q": "This second-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+   "data": "<table class=\"ie-table\"><thead><tr><th>IE<sub>1</sub></th><th>IE<sub>2</sub></th><th>IE<sub>3</sub></th><th>IE<sub>4</sub></th><th>IE<sub>5</sub></th><th>IE<sub>6</sub></th><th>IE<sub>7</sub></th></tr></thead><tbody><tr><td>1,402</td><td>2,856</td><td>4,578</td><td>7,475</td><td>9,445</td><td>53,267</td><td>64,360</td></tr></tbody></table><small>Successive ionization energies in kJ/mol (NIST data, rounded).</small>",
+   "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+   "why": "Compare each IE with the one before it. The huge jump is from IE<sub>5</sub> = 9,445 to IE<sub>6</sub> = 53,267 kJ/mol (about 5.6×). The first 5 electrons are valence electrons; IE<sub>6</sub> removes a core electron from a filled noble-gas shell. So the element has 5 valence electrons → nitrogen (N). Its configuration is [He] 2s<sup>2</sup> 2p<sup>3</sup>.",
+   "noDiagram": true,
+   "ieTableQ": true,
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1561
+  }
+ },
+ {
+  "id": "quantumchemistry-6d0ff61c",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "A mystery element from the second row of the periodic table loses its electrons one at a time. The energy needed for each removal is in the table. Name the element.",
+  "hint": "Look for the one BIG jump (often 4× or more). The number of IEs before the jump = number of valence electrons = the main-group group number.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>6</sub> = 13,327 to IE<sub>7</sub> = 71,330 kJ/mol (about 5.4×). The first 6 electrons are valence electrons; IE<sub>7</sub> removes a core electron from a filled noble-gas shell. So the element has 6 valence electrons → oxygen (O).",
+  "answer": "oxygen (O)",
+  "choices": [
+   "oxygen (O)",
+   "carbon (C)",
+   "lithium (Li)",
+   "fluorine (F)"
+  ],
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1562
+  }
+ },
+ {
+  "id": "quantumchemistry-c5b8d6f4",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Use the ionization-energy data in the table for this second-row element. How many of its electrons are valence electrons?",
+  "hint": "Count the ionization energies that come before the largest jump.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>6</sub> = 13,327 to IE<sub>7</sub> = 71,330 kJ/mol (about 5.4×). The first 6 electrons are valence electrons; IE<sub>7</sub> removes a core electron from a filled noble-gas shell. So the element has 6 valence electrons → oxygen (O).",
+  "answer": 6,
+  "unit": "valence electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1563
+  }
+ },
+ {
+  "id": "quantumchemistry-48b0a6eb",
+  "skill": "quantum.config",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "This second-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+  "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>6</sub> = 13,327 to IE<sub>7</sub> = 71,330 kJ/mol (about 5.4×). The first 6 electrons are valence electrons; IE<sub>7</sub> removes a core electron from a filled noble-gas shell. So the element has 6 valence electrons → oxygen (O). Its configuration is [He] 2s<sup>2</sup> 2p<sup>4</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[He] 2s2 2p4",
+   "q": "This second-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+   "data": "<table class=\"ie-table\"><thead><tr><th>IE<sub>1</sub></th><th>IE<sub>2</sub></th><th>IE<sub>3</sub></th><th>IE<sub>4</sub></th><th>IE<sub>5</sub></th><th>IE<sub>6</sub></th><th>IE<sub>7</sub></th><th>IE<sub>8</sub></th></tr></thead><tbody><tr><td>1,314</td><td>3,388</td><td>5,300</td><td>7,469</td><td>10,990</td><td>13,327</td><td>71,330</td><td>84,078</td></tr></tbody></table><small>Successive ionization energies in kJ/mol (NIST data, rounded).</small>",
+   "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+   "why": "Compare each IE with the one before it. The huge jump is from IE<sub>6</sub> = 13,327 to IE<sub>7</sub> = 71,330 kJ/mol (about 5.4×). The first 6 electrons are valence electrons; IE<sub>7</sub> removes a core electron from a filled noble-gas shell. So the element has 6 valence electrons → oxygen (O). Its configuration is [He] 2s<sup>2</sup> 2p<sup>4</sup>.",
+   "noDiagram": true,
+   "ieTableQ": true,
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1564
+  }
+ },
+ {
+  "id": "quantumchemistry-2e792eb6",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "A mystery element from the second row of the periodic table loses its electrons one at a time. The energy needed for each removal is in the table. Name the element.",
+  "hint": "Look for the one BIG jump (often 4× or more). The number of IEs before the jump = number of valence electrons = the main-group group number.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>7</sub> = 17,868 to IE<sub>8</sub> = 92,038 kJ/mol (about 5.2×). The first 7 electrons are valence electrons; IE<sub>8</sub> removes a core electron from a filled noble-gas shell. So the element has 7 valence electrons → fluorine (F).",
+  "answer": "fluorine (F)",
+  "choices": [
+   "fluorine (F)",
+   "neon (Ne)",
+   "beryllium (Be)",
+   "lithium (Li)"
+  ],
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1565
+  }
+ },
+ {
+  "id": "quantumchemistry-90ea6c16",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Use the ionization-energy data in the table for this second-row element. How many of its electrons are valence electrons?",
+  "hint": "Count the ionization energies that come before the largest jump.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>7</sub> = 17,868 to IE<sub>8</sub> = 92,038 kJ/mol (about 5.2×). The first 7 electrons are valence electrons; IE<sub>8</sub> removes a core electron from a filled noble-gas shell. So the element has 7 valence electrons → fluorine (F).",
+  "answer": 7,
+  "unit": "valence electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1566
+  }
+ },
+ {
+  "id": "quantumchemistry-bd452781",
+  "skill": "quantum.config",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "This second-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+  "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>7</sub> = 17,868 to IE<sub>8</sub> = 92,038 kJ/mol (about 5.2×). The first 7 electrons are valence electrons; IE<sub>8</sub> removes a core electron from a filled noble-gas shell. So the element has 7 valence electrons → fluorine (F). Its configuration is [He] 2s<sup>2</sup> 2p<sup>5</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[He] 2s2 2p5",
+   "q": "This second-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+   "data": "<table class=\"ie-table\"><thead><tr><th>IE<sub>1</sub></th><th>IE<sub>2</sub></th><th>IE<sub>3</sub></th><th>IE<sub>4</sub></th><th>IE<sub>5</sub></th><th>IE<sub>6</sub></th><th>IE<sub>7</sub></th><th>IE<sub>8</sub></th></tr></thead><tbody><tr><td>1,681</td><td>3,374</td><td>6,050</td><td>8,408</td><td>11,023</td><td>15,164</td><td>17,868</td><td>92,038</td></tr></tbody></table><small>Successive ionization energies in kJ/mol (NIST data, rounded).</small>",
+   "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+   "why": "Compare each IE with the one before it. The huge jump is from IE<sub>7</sub> = 17,868 to IE<sub>8</sub> = 92,038 kJ/mol (about 5.2×). The first 7 electrons are valence electrons; IE<sub>8</sub> removes a core electron from a filled noble-gas shell. So the element has 7 valence electrons → fluorine (F). Its configuration is [He] 2s<sup>2</sup> 2p<sup>5</sup>.",
+   "noDiagram": true,
+   "ieTableQ": true,
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1567
+  }
+ },
+ {
+  "id": "quantumchemistry-a83b37ff",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "A mystery element from the second row of the periodic table loses its electrons one at a time. The energy needed for each removal is in the table. Name the element.",
+  "hint": "Look for the one BIG jump (often 4× or more). The number of IEs before the jump = number of valence electrons = the main-group group number.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>8</sub> = 23,070 to IE<sub>9</sub> = 115,380 kJ/mol (about 5.0×). The first 8 electrons are valence electrons; IE<sub>9</sub> removes a core electron from a filled noble-gas shell. So the element has 8 valence electrons → neon (Ne).",
+  "answer": "neon (Ne)",
+  "choices": [
+   "neon (Ne)",
+   "boron (B)",
+   "oxygen (O)",
+   "fluorine (F)"
+  ],
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1568
+  }
+ },
+ {
+  "id": "quantumchemistry-71c81cb0",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Use the ionization-energy data in the table for this second-row element. How many of its electrons are valence electrons?",
+  "hint": "Count the ionization energies that come before the largest jump.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>8</sub> = 23,070 to IE<sub>9</sub> = 115,380 kJ/mol (about 5.0×). The first 8 electrons are valence electrons; IE<sub>9</sub> removes a core electron from a filled noble-gas shell. So the element has 8 valence electrons → neon (Ne).",
+  "answer": 8,
+  "unit": "valence electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1569
+  }
+ },
+ {
+  "id": "quantumchemistry-e33559ff",
+  "skill": "quantum.config",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "This second-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+  "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>8</sub> = 23,070 to IE<sub>9</sub> = 115,380 kJ/mol (about 5.0×). The first 8 electrons are valence electrons; IE<sub>9</sub> removes a core electron from a filled noble-gas shell. So the element has 8 valence electrons → neon (Ne). Its configuration is [He] 2s<sup>2</sup> 2p<sup>6</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[He] 2s2 2p6",
+   "q": "This second-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+   "data": "<table class=\"ie-table\"><thead><tr><th>IE<sub>1</sub></th><th>IE<sub>2</sub></th><th>IE<sub>3</sub></th><th>IE<sub>4</sub></th><th>IE<sub>5</sub></th><th>IE<sub>6</sub></th><th>IE<sub>7</sub></th><th>IE<sub>8</sub></th><th>IE<sub>9</sub></th></tr></thead><tbody><tr><td>2,081</td><td>3,952</td><td>6,122</td><td>9,371</td><td>12,177</td><td>15,238</td><td>19,999</td><td>23,070</td><td>115,380</td></tr></tbody></table><small>Successive ionization energies in kJ/mol (NIST data, rounded).</small>",
+   "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+   "why": "Compare each IE with the one before it. The huge jump is from IE<sub>8</sub> = 23,070 to IE<sub>9</sub> = 115,380 kJ/mol (about 5.0×). The first 8 electrons are valence electrons; IE<sub>9</sub> removes a core electron from a filled noble-gas shell. So the element has 8 valence electrons → neon (Ne). Its configuration is [He] 2s<sup>2</sup> 2p<sup>6</sup>.",
+   "noDiagram": true,
+   "ieTableQ": true,
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1570
+  }
+ },
+ {
+  "id": "quantumchemistry-9aa1c78a",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "A mystery element from the third row of the periodic table loses its electrons one at a time. The energy needed for each removal is in the table. Name the element.",
+  "hint": "Look for the one BIG jump (often 4× or more). The number of IEs before the jump = number of valence electrons = the main-group group number.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>1</sub> = 496 to IE<sub>2</sub> = 4,562 kJ/mol (about 9.2×). The first 1 electron is valence electron; IE<sub>2</sub> removes a core electron from a filled noble-gas shell. So the element has 1 valence electron → sodium (Na).",
+  "answer": "sodium (Na)",
+  "choices": [
+   "sodium (Na)",
+   "chlorine (Cl)",
+   "argon (Ar)",
+   "phosphorus (P)"
+  ],
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1571
+  }
+ },
+ {
+  "id": "quantumchemistry-5514a4db",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Use the ionization-energy data in the table for this third-row element. How many of its electrons are valence electrons?",
+  "hint": "Count the ionization energies that come before the largest jump.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>1</sub> = 496 to IE<sub>2</sub> = 4,562 kJ/mol (about 9.2×). The first 1 electron is valence electron; IE<sub>2</sub> removes a core electron from a filled noble-gas shell. So the element has 1 valence electron → sodium (Na).",
+  "answer": 1,
+  "unit": "valence electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1572
+  }
+ },
+ {
+  "id": "quantumchemistry-a97c9441",
+  "skill": "quantum.config",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "This third-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+  "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>1</sub> = 496 to IE<sub>2</sub> = 4,562 kJ/mol (about 9.2×). The first 1 electron is valence electron; IE<sub>2</sub> removes a core electron from a filled noble-gas shell. So the element has 1 valence electron → sodium (Na). Its configuration is [Ne] 3s<sup>1</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne] 3s1",
+   "q": "This third-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+   "data": "<table class=\"ie-table\"><thead><tr><th>IE<sub>1</sub></th><th>IE<sub>2</sub></th><th>IE<sub>3</sub></th><th>IE<sub>4</sub></th><th>IE<sub>5</sub></th><th>IE<sub>6</sub></th><th>IE<sub>7</sub></th><th>IE<sub>8</sub></th></tr></thead><tbody><tr><td>496</td><td>4,562</td><td>6,910</td><td>9,543</td><td>13,354</td><td>16,613</td><td>20,117</td><td>25,496</td></tr></tbody></table><small>Successive ionization energies in kJ/mol (NIST data, rounded).</small>",
+   "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+   "why": "Compare each IE with the one before it. The huge jump is from IE<sub>1</sub> = 496 to IE<sub>2</sub> = 4,562 kJ/mol (about 9.2×). The first 1 electron is valence electron; IE<sub>2</sub> removes a core electron from a filled noble-gas shell. So the element has 1 valence electron → sodium (Na). Its configuration is [Ne] 3s<sup>1</sup>.",
+   "noDiagram": true,
+   "ieTableQ": true,
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1573
+  }
+ },
+ {
+  "id": "quantumchemistry-31715834",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "A mystery element from the third row of the periodic table loses its electrons one at a time. The energy needed for each removal is in the table. Name the element.",
+  "hint": "Look for the one BIG jump (often 4× or more). The number of IEs before the jump = number of valence electrons = the main-group group number.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>2</sub> = 1,451 to IE<sub>3</sub> = 7,733 kJ/mol (about 5.3×). The first 2 electrons are valence electrons; IE<sub>3</sub> removes a core electron from a filled noble-gas shell. So the element has 2 valence electrons → magnesium (Mg).",
+  "answer": "magnesium (Mg)",
+  "choices": [
+   "magnesium (Mg)",
+   "phosphorus (P)",
+   "argon (Ar)",
+   "aluminum (Al)"
+  ],
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1574
+  }
+ },
+ {
+  "id": "quantumchemistry-457a1186",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Use the ionization-energy data in the table for this third-row element. How many of its electrons are valence electrons?",
+  "hint": "Count the ionization energies that come before the largest jump.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>2</sub> = 1,451 to IE<sub>3</sub> = 7,733 kJ/mol (about 5.3×). The first 2 electrons are valence electrons; IE<sub>3</sub> removes a core electron from a filled noble-gas shell. So the element has 2 valence electrons → magnesium (Mg).",
+  "answer": 2,
+  "unit": "valence electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1575
+  }
+ },
+ {
+  "id": "quantumchemistry-5785a59d",
+  "skill": "quantum.config",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "This third-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+  "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>2</sub> = 1,451 to IE<sub>3</sub> = 7,733 kJ/mol (about 5.3×). The first 2 electrons are valence electrons; IE<sub>3</sub> removes a core electron from a filled noble-gas shell. So the element has 2 valence electrons → magnesium (Mg). Its configuration is [Ne] 3s<sup>2</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne] 3s2",
+   "q": "This third-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+   "data": "<table class=\"ie-table\"><thead><tr><th>IE<sub>1</sub></th><th>IE<sub>2</sub></th><th>IE<sub>3</sub></th><th>IE<sub>4</sub></th><th>IE<sub>5</sub></th><th>IE<sub>6</sub></th><th>IE<sub>7</sub></th><th>IE<sub>8</sub></th></tr></thead><tbody><tr><td>738</td><td>1,451</td><td>7,733</td><td>10,543</td><td>13,630</td><td>18,020</td><td>21,711</td><td>25,661</td></tr></tbody></table><small>Successive ionization energies in kJ/mol (NIST data, rounded).</small>",
+   "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+   "why": "Compare each IE with the one before it. The huge jump is from IE<sub>2</sub> = 1,451 to IE<sub>3</sub> = 7,733 kJ/mol (about 5.3×). The first 2 electrons are valence electrons; IE<sub>3</sub> removes a core electron from a filled noble-gas shell. So the element has 2 valence electrons → magnesium (Mg). Its configuration is [Ne] 3s<sup>2</sup>.",
+   "noDiagram": true,
+   "ieTableQ": true,
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1576
+  }
+ },
+ {
+  "id": "quantumchemistry-70d64311",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "A mystery element from the third row of the periodic table loses its electrons one at a time. The energy needed for each removal is in the table. Name the element.",
+  "hint": "Look for the one BIG jump (often 4× or more). The number of IEs before the jump = number of valence electrons = the main-group group number.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>3</sub> = 2,745 to IE<sub>4</sub> = 11,577 kJ/mol (about 4.2×). The first 3 electrons are valence electrons; IE<sub>4</sub> removes a core electron from a filled noble-gas shell. So the element has 3 valence electrons → aluminum (Al).",
+  "answer": "aluminum (Al)",
+  "choices": [
+   "aluminum (Al)",
+   "silicon (Si)",
+   "chlorine (Cl)",
+   "phosphorus (P)"
+  ],
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1577
+  }
+ },
+ {
+  "id": "quantumchemistry-3ce47606",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Use the ionization-energy data in the table for this third-row element. How many of its electrons are valence electrons?",
+  "hint": "Count the ionization energies that come before the largest jump.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>3</sub> = 2,745 to IE<sub>4</sub> = 11,577 kJ/mol (about 4.2×). The first 3 electrons are valence electrons; IE<sub>4</sub> removes a core electron from a filled noble-gas shell. So the element has 3 valence electrons → aluminum (Al).",
+  "answer": 3,
+  "unit": "valence electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1578
+  }
+ },
+ {
+  "id": "quantumchemistry-bb227ee9",
+  "skill": "quantum.config",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "This third-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+  "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>3</sub> = 2,745 to IE<sub>4</sub> = 11,577 kJ/mol (about 4.2×). The first 3 electrons are valence electrons; IE<sub>4</sub> removes a core electron from a filled noble-gas shell. So the element has 3 valence electrons → aluminum (Al). Its configuration is [Ne] 3s<sup>2</sup> 3p<sup>1</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne] 3s2 3p1",
+   "q": "This third-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+   "data": "<table class=\"ie-table\"><thead><tr><th>IE<sub>1</sub></th><th>IE<sub>2</sub></th><th>IE<sub>3</sub></th><th>IE<sub>4</sub></th><th>IE<sub>5</sub></th><th>IE<sub>6</sub></th><th>IE<sub>7</sub></th><th>IE<sub>8</sub></th></tr></thead><tbody><tr><td>578</td><td>1,817</td><td>2,745</td><td>11,577</td><td>14,842</td><td>18,379</td><td>23,326</td><td>27,465</td></tr></tbody></table><small>Successive ionization energies in kJ/mol (NIST data, rounded).</small>",
+   "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+   "why": "Compare each IE with the one before it. The huge jump is from IE<sub>3</sub> = 2,745 to IE<sub>4</sub> = 11,577 kJ/mol (about 4.2×). The first 3 electrons are valence electrons; IE<sub>4</sub> removes a core electron from a filled noble-gas shell. So the element has 3 valence electrons → aluminum (Al). Its configuration is [Ne] 3s<sup>2</sup> 3p<sup>1</sup>.",
+   "noDiagram": true,
+   "ieTableQ": true,
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1579
+  }
+ },
+ {
+  "id": "quantumchemistry-940aef3e",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "A mystery element from the third row of the periodic table loses its electrons one at a time. The energy needed for each removal is in the table. Name the element.",
+  "hint": "Look for the one BIG jump (often 4× or more). The number of IEs before the jump = number of valence electrons = the main-group group number.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>4</sub> = 4,356 to IE<sub>5</sub> = 16,091 kJ/mol (about 3.7×). The first 4 electrons are valence electrons; IE<sub>5</sub> removes a core electron from a filled noble-gas shell. So the element has 4 valence electrons → silicon (Si).",
+  "answer": "silicon (Si)",
+  "choices": [
+   "silicon (Si)",
+   "sodium (Na)",
+   "aluminum (Al)",
+   "argon (Ar)"
+  ],
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1580
+  }
+ },
+ {
+  "id": "quantumchemistry-145adf21",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Use the ionization-energy data in the table for this third-row element. How many of its electrons are valence electrons?",
+  "hint": "Count the ionization energies that come before the largest jump.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>4</sub> = 4,356 to IE<sub>5</sub> = 16,091 kJ/mol (about 3.7×). The first 4 electrons are valence electrons; IE<sub>5</sub> removes a core electron from a filled noble-gas shell. So the element has 4 valence electrons → silicon (Si).",
+  "answer": 4,
+  "unit": "valence electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1581
+  }
+ },
+ {
+  "id": "quantumchemistry-f9ffef78",
+  "skill": "quantum.config",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "This third-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+  "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>4</sub> = 4,356 to IE<sub>5</sub> = 16,091 kJ/mol (about 3.7×). The first 4 electrons are valence electrons; IE<sub>5</sub> removes a core electron from a filled noble-gas shell. So the element has 4 valence electrons → silicon (Si). Its configuration is [Ne] 3s<sup>2</sup> 3p<sup>2</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne] 3s2 3p2",
+   "q": "This third-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+   "data": "<table class=\"ie-table\"><thead><tr><th>IE<sub>1</sub></th><th>IE<sub>2</sub></th><th>IE<sub>3</sub></th><th>IE<sub>4</sub></th><th>IE<sub>5</sub></th><th>IE<sub>6</sub></th><th>IE<sub>7</sub></th><th>IE<sub>8</sub></th></tr></thead><tbody><tr><td>787</td><td>1,577</td><td>3,232</td><td>4,356</td><td>16,091</td><td>19,805</td><td>23,780</td><td>29,287</td></tr></tbody></table><small>Successive ionization energies in kJ/mol (NIST data, rounded).</small>",
+   "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+   "why": "Compare each IE with the one before it. The huge jump is from IE<sub>4</sub> = 4,356 to IE<sub>5</sub> = 16,091 kJ/mol (about 3.7×). The first 4 electrons are valence electrons; IE<sub>5</sub> removes a core electron from a filled noble-gas shell. So the element has 4 valence electrons → silicon (Si). Its configuration is [Ne] 3s<sup>2</sup> 3p<sup>2</sup>.",
+   "noDiagram": true,
+   "ieTableQ": true,
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1582
+  }
+ },
+ {
+  "id": "quantumchemistry-3b22b2ab",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "A mystery element from the third row of the periodic table loses its electrons one at a time. The energy needed for each removal is in the table. Name the element.",
+  "hint": "Look for the one BIG jump (often 4× or more). The number of IEs before the jump = number of valence electrons = the main-group group number.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>5</sub> = 6,274 to IE<sub>6</sub> = 21,267 kJ/mol (about 3.4×). The first 5 electrons are valence electrons; IE<sub>6</sub> removes a core electron from a filled noble-gas shell. So the element has 5 valence electrons → phosphorus (P).",
+  "answer": "phosphorus (P)",
+  "choices": [
+   "phosphorus (P)",
+   "sulfur (S)",
+   "chlorine (Cl)",
+   "silicon (Si)"
+  ],
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1583
+  }
+ },
+ {
+  "id": "quantumchemistry-63bc3274",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Use the ionization-energy data in the table for this third-row element. How many of its electrons are valence electrons?",
+  "hint": "Count the ionization energies that come before the largest jump.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>5</sub> = 6,274 to IE<sub>6</sub> = 21,267 kJ/mol (about 3.4×). The first 5 electrons are valence electrons; IE<sub>6</sub> removes a core electron from a filled noble-gas shell. So the element has 5 valence electrons → phosphorus (P).",
+  "answer": 5,
+  "unit": "valence electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1584
+  }
+ },
+ {
+  "id": "quantumchemistry-6be28b5a",
+  "skill": "quantum.config",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "This third-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+  "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>5</sub> = 6,274 to IE<sub>6</sub> = 21,267 kJ/mol (about 3.4×). The first 5 electrons are valence electrons; IE<sub>6</sub> removes a core electron from a filled noble-gas shell. So the element has 5 valence electrons → phosphorus (P). Its configuration is [Ne] 3s<sup>2</sup> 3p<sup>3</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne] 3s2 3p3",
+   "q": "This third-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+   "data": "<table class=\"ie-table\"><thead><tr><th>IE<sub>1</sub></th><th>IE<sub>2</sub></th><th>IE<sub>3</sub></th><th>IE<sub>4</sub></th><th>IE<sub>5</sub></th><th>IE<sub>6</sub></th><th>IE<sub>7</sub></th><th>IE<sub>8</sub></th></tr></thead><tbody><tr><td>1,012</td><td>1,907</td><td>2,914</td><td>4,964</td><td>6,274</td><td>21,267</td><td>25,431</td><td>29,872</td></tr></tbody></table><small>Successive ionization energies in kJ/mol (NIST data, rounded).</small>",
+   "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+   "why": "Compare each IE with the one before it. The huge jump is from IE<sub>5</sub> = 6,274 to IE<sub>6</sub> = 21,267 kJ/mol (about 3.4×). The first 5 electrons are valence electrons; IE<sub>6</sub> removes a core electron from a filled noble-gas shell. So the element has 5 valence electrons → phosphorus (P). Its configuration is [Ne] 3s<sup>2</sup> 3p<sup>3</sup>.",
+   "noDiagram": true,
+   "ieTableQ": true,
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1585
+  }
+ },
+ {
+  "id": "quantumchemistry-e94d107d",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "A mystery element from the third row of the periodic table loses its electrons one at a time. The energy needed for each removal is in the table. Name the element.",
+  "hint": "Look for the one BIG jump (often 4× or more). The number of IEs before the jump = number of valence electrons = the main-group group number.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>6</sub> = 8,496 to IE<sub>7</sub> = 27,107 kJ/mol (about 3.2×). The first 6 electrons are valence electrons; IE<sub>7</sub> removes a core electron from a filled noble-gas shell. So the element has 6 valence electrons → sulfur (S).",
+  "answer": "sulfur (S)",
+  "choices": [
+   "sulfur (S)",
+   "argon (Ar)",
+   "aluminum (Al)",
+   "magnesium (Mg)"
+  ],
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1586
+  }
+ },
+ {
+  "id": "quantumchemistry-5b9a19bd",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Use the ionization-energy data in the table for this third-row element. How many of its electrons are valence electrons?",
+  "hint": "Count the ionization energies that come before the largest jump.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>6</sub> = 8,496 to IE<sub>7</sub> = 27,107 kJ/mol (about 3.2×). The first 6 electrons are valence electrons; IE<sub>7</sub> removes a core electron from a filled noble-gas shell. So the element has 6 valence electrons → sulfur (S).",
+  "answer": 6,
+  "unit": "valence electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1587
+  }
+ },
+ {
+  "id": "quantumchemistry-b29879e7",
+  "skill": "quantum.config",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "This third-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+  "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>6</sub> = 8,496 to IE<sub>7</sub> = 27,107 kJ/mol (about 3.2×). The first 6 electrons are valence electrons; IE<sub>7</sub> removes a core electron from a filled noble-gas shell. So the element has 6 valence electrons → sulfur (S). Its configuration is [Ne] 3s<sup>2</sup> 3p<sup>4</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne] 3s2 3p4",
+   "q": "This third-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+   "data": "<table class=\"ie-table\"><thead><tr><th>IE<sub>1</sub></th><th>IE<sub>2</sub></th><th>IE<sub>3</sub></th><th>IE<sub>4</sub></th><th>IE<sub>5</sub></th><th>IE<sub>6</sub></th><th>IE<sub>7</sub></th><th>IE<sub>8</sub></th></tr></thead><tbody><tr><td>1,000</td><td>2,252</td><td>3,357</td><td>4,556</td><td>7,004</td><td>8,496</td><td>27,107</td><td>31,719</td></tr></tbody></table><small>Successive ionization energies in kJ/mol (NIST data, rounded).</small>",
+   "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+   "why": "Compare each IE with the one before it. The huge jump is from IE<sub>6</sub> = 8,496 to IE<sub>7</sub> = 27,107 kJ/mol (about 3.2×). The first 6 electrons are valence electrons; IE<sub>7</sub> removes a core electron from a filled noble-gas shell. So the element has 6 valence electrons → sulfur (S). Its configuration is [Ne] 3s<sup>2</sup> 3p<sup>4</sup>.",
+   "noDiagram": true,
+   "ieTableQ": true,
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1588
+  }
+ },
+ {
+  "id": "quantumchemistry-13b1b86f",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "A mystery element from the third row of the periodic table loses its electrons one at a time. The energy needed for each removal is in the table. Name the element.",
+  "hint": "Look for the one BIG jump (often 4× or more). The number of IEs before the jump = number of valence electrons = the main-group group number.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>7</sub> = 11,018 to IE<sub>8</sub> = 33,604 kJ/mol (about 3.0×). The first 7 electrons are valence electrons; IE<sub>8</sub> removes a core electron from a filled noble-gas shell. So the element has 7 valence electrons → chlorine (Cl).",
+  "answer": "chlorine (Cl)",
+  "choices": [
+   "chlorine (Cl)",
+   "silicon (Si)",
+   "aluminum (Al)",
+   "sulfur (S)"
+  ],
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1589
+  }
+ },
+ {
+  "id": "quantumchemistry-df7a49ce",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Use the ionization-energy data in the table for this third-row element. How many of its electrons are valence electrons?",
+  "hint": "Count the ionization energies that come before the largest jump.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>7</sub> = 11,018 to IE<sub>8</sub> = 33,604 kJ/mol (about 3.0×). The first 7 electrons are valence electrons; IE<sub>8</sub> removes a core electron from a filled noble-gas shell. So the element has 7 valence electrons → chlorine (Cl).",
+  "answer": 7,
+  "unit": "valence electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1590
+  }
+ },
+ {
+  "id": "quantumchemistry-ed261740",
+  "skill": "quantum.config",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "This third-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+  "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>7</sub> = 11,018 to IE<sub>8</sub> = 33,604 kJ/mol (about 3.0×). The first 7 electrons are valence electrons; IE<sub>8</sub> removes a core electron from a filled noble-gas shell. So the element has 7 valence electrons → chlorine (Cl). Its configuration is [Ne] 3s<sup>2</sup> 3p<sup>5</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne] 3s2 3p5",
+   "q": "This third-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+   "data": "<table class=\"ie-table\"><thead><tr><th>IE<sub>1</sub></th><th>IE<sub>2</sub></th><th>IE<sub>3</sub></th><th>IE<sub>4</sub></th><th>IE<sub>5</sub></th><th>IE<sub>6</sub></th><th>IE<sub>7</sub></th><th>IE<sub>8</sub></th></tr></thead><tbody><tr><td>1,251</td><td>2,298</td><td>3,822</td><td>5,159</td><td>6,542</td><td>9,362</td><td>11,018</td><td>33,604</td></tr></tbody></table><small>Successive ionization energies in kJ/mol (NIST data, rounded).</small>",
+   "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+   "why": "Compare each IE with the one before it. The huge jump is from IE<sub>7</sub> = 11,018 to IE<sub>8</sub> = 33,604 kJ/mol (about 3.0×). The first 7 electrons are valence electrons; IE<sub>8</sub> removes a core electron from a filled noble-gas shell. So the element has 7 valence electrons → chlorine (Cl). Its configuration is [Ne] 3s<sup>2</sup> 3p<sup>5</sup>.",
+   "noDiagram": true,
+   "ieTableQ": true,
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1591
+  }
+ },
+ {
+  "id": "quantumchemistry-0c64614f",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "prompt": "A mystery element from the third row of the periodic table loses its electrons one at a time. The energy needed for each removal is in the table. Name the element.",
+  "hint": "Look for the one BIG jump (often 4× or more). The number of IEs before the jump = number of valence electrons = the main-group group number.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>8</sub> = 13,842 to IE<sub>9</sub> = 40,760 kJ/mol (about 2.9×). The first 8 electrons are valence electrons; IE<sub>9</sub> removes a core electron from a filled noble-gas shell. So the element has 8 valence electrons → argon (Ar).",
+  "answer": "argon (Ar)",
+  "choices": [
+   "argon (Ar)",
+   "magnesium (Mg)",
+   "silicon (Si)",
+   "sulfur (S)"
+  ],
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1592
+  }
+ },
+ {
+  "id": "quantumchemistry-784ee949",
+  "skill": "quantum.trends",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Use the ionization-energy data in the table for this third-row element. How many of its electrons are valence electrons?",
+  "hint": "Count the ionization energies that come before the largest jump.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>8</sub> = 13,842 to IE<sub>9</sub> = 40,760 kJ/mol (about 2.9×). The first 8 electrons are valence electrons; IE<sub>9</sub> removes a core electron from a filled noble-gas shell. So the element has 8 valence electrons → argon (Ar).",
+  "answer": 8,
+  "unit": "valence electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1593
+  }
+ },
+ {
+  "id": "quantumchemistry-8f1488b0",
+  "skill": "quantum.config",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-configinput",
+  "prompt": "This third-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+  "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+  "explain": "Compare each IE with the one before it. The huge jump is from IE<sub>8</sub> = 13,842 to IE<sub>9</sub> = 40,760 kJ/mol (about 2.9×). The first 8 electrons are valence electrons; IE<sub>9</sub> removes a core electron from a filled noble-gas shell. So the element has 8 valence electrons → argon (Ar). Its configuration is [Ne] 3s<sup>2</sup> 3p<sup>6</sup>.",
+  "data": {
+   "mode": "config",
+   "type": "configinput",
+   "requireCore": true,
+   "answer": "[Ne] 3s2 3p6",
+   "q": "This third-row element has the ionization energies in the table. Figure out which element it is, then type its <b>noble-gas</b> (shorthand) electron configuration.",
+   "data": "<table class=\"ie-table\"><thead><tr><th>IE<sub>1</sub></th><th>IE<sub>2</sub></th><th>IE<sub>3</sub></th><th>IE<sub>4</sub></th><th>IE<sub>5</sub></th><th>IE<sub>6</sub></th><th>IE<sub>7</sub></th><th>IE<sub>8</sub></th><th>IE<sub>9</sub></th></tr></thead><tbody><tr><td>1,521</td><td>2,666</td><td>3,931</td><td>5,771</td><td>7,238</td><td>8,781</td><td>11,995</td><td>13,842</td><td>40,760</td></tr></tbody></table><small>Successive ionization energies in kJ/mol (NIST data, rounded).</small>",
+   "hint": "Find the big jump to get the number of valence electrons (group), use the period to find the element, then write [noble gas] + valence subshells.",
+   "why": "Compare each IE with the one before it. The huge jump is from IE<sub>8</sub> = 13,842 to IE<sub>9</sub> = 40,760 kJ/mol (about 2.9×). The first 8 electrons are valence electrons; IE<sub>9</sub> removes a core electron from a filled noble-gas shell. So the element has 8 valence electrons → argon (Ar). Its configuration is [Ne] 3s<sup>2</sup> 3p<sup>6</sup>.",
+   "noDiagram": true,
+   "ieTableQ": true,
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1594
+  }
+ },
+ {
+  "id": "quantumchemistry-25418939",
+  "skill": "quantum.numbers",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-multichoice",
+  "prompt": "A student describes an electron with n = 4, ℓ = 1, m<sub>ℓ</sub> = −1, m<sub>s</sub> = −½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+  "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+  "explain": "All four values follow the rules: ℓ = 1 < n = 4, |mℓ| ≤ ℓ, and ms = ±½. This electron is in a 4p orbital.",
+  "data": {
+   "mode": "numbers",
+   "type": "multichoice",
+   "q": "A student describes an electron with n = 4, ℓ = 1, m<sub>ℓ</sub> = −1, m<sub>s</sub> = −½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+   "choices": [
+    "n",
+    "ℓ",
+    "mℓ",
+    "ms",
+    "None — this set is allowed"
+   ],
+   "answers": [
+    "None — this set is allowed"
+   ],
+   "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+   "why": "All four values follow the rules: ℓ = 1 < n = 4, |mℓ| ≤ ℓ, and ms = ±½. This electron is in a 4p orbital.",
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1595
+  }
+ },
+ {
+  "id": "quantumchemistry-f419a2d6",
+  "skill": "quantum.numbers",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-multichoice",
+  "prompt": "A student describes an electron with n = 2, ℓ = 2, m<sub>ℓ</sub> = 0, m<sub>s</sub> = +½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+  "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+  "explain": "Forbidden value: ℓ. ℓ must be between 0 and n − 1 (0 to 1).",
+  "data": {
+   "mode": "numbers",
+   "type": "multichoice",
+   "q": "A student describes an electron with n = 2, ℓ = 2, m<sub>ℓ</sub> = 0, m<sub>s</sub> = +½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+   "choices": [
+    "n",
+    "ℓ",
+    "mℓ",
+    "ms",
+    "None — this set is allowed"
+   ],
+   "answers": [
+    "ℓ"
+   ],
+   "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+   "why": "Forbidden value: ℓ. ℓ must be between 0 and n − 1 (0 to 1).",
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1596
+  }
+ },
+ {
+  "id": "quantumchemistry-2c5e60d9",
+  "skill": "quantum.numbers",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-multichoice",
+  "prompt": "A student describes an electron with n = 3, ℓ = 0, m<sub>ℓ</sub> = +1, m<sub>s</sub> = +½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+  "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+  "explain": "Forbidden value: mℓ. |mℓ| cannot exceed ℓ = 0.",
+  "data": {
+   "mode": "numbers",
+   "type": "multichoice",
+   "q": "A student describes an electron with n = 3, ℓ = 0, m<sub>ℓ</sub> = +1, m<sub>s</sub> = +½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+   "choices": [
+    "n",
+    "ℓ",
+    "mℓ",
+    "ms",
+    "None — this set is allowed"
+   ],
+   "answers": [
+    "mℓ"
+   ],
+   "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+   "why": "Forbidden value: mℓ. |mℓ| cannot exceed ℓ = 0.",
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1597
+  }
+ },
+ {
+  "id": "quantumchemistry-52528001",
+  "skill": "quantum.numbers",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-multichoice",
+  "prompt": "A student describes an electron with n = 5, ℓ = 2, m<sub>ℓ</sub> = +2, m<sub>s</sub> = 1. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+  "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+  "explain": "Forbidden value: ms. ms can only be +½ or −½.",
+  "data": {
+   "mode": "numbers",
+   "type": "multichoice",
+   "q": "A student describes an electron with n = 5, ℓ = 2, m<sub>ℓ</sub> = +2, m<sub>s</sub> = 1. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+   "choices": [
+    "n",
+    "ℓ",
+    "mℓ",
+    "ms",
+    "None — this set is allowed"
+   ],
+   "answers": [
+    "ms"
+   ],
+   "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+   "why": "Forbidden value: ms. ms can only be +½ or −½.",
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1598
+  }
+ },
+ {
+  "id": "quantumchemistry-9730e00d",
+  "skill": "quantum.numbers",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-multichoice",
+  "prompt": "A student describes an electron with n = 1, ℓ = 1, m<sub>ℓ</sub> = 0, m<sub>s</sub> = −½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+  "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+  "explain": "Forbidden value: ℓ. ℓ must be between 0 and n − 1 (0 to 0).",
+  "data": {
+   "mode": "numbers",
+   "type": "multichoice",
+   "q": "A student describes an electron with n = 1, ℓ = 1, m<sub>ℓ</sub> = 0, m<sub>s</sub> = −½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+   "choices": [
+    "n",
+    "ℓ",
+    "mℓ",
+    "ms",
+    "None — this set is allowed"
+   ],
+   "answers": [
+    "ℓ"
+   ],
+   "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+   "why": "Forbidden value: ℓ. ℓ must be between 0 and n − 1 (0 to 0).",
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1599
+  }
+ },
+ {
+  "id": "quantumchemistry-8446205e",
+  "skill": "quantum.numbers",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-multichoice",
+  "prompt": "A student describes an electron with n = 0, ℓ = 1, m<sub>ℓ</sub> = 0, m<sub>s</sub> = +½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+  "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+  "explain": "Forbidden values: n, ℓ. n must be a positive integer. ℓ must be between 0 and n − 1.",
+  "data": {
+   "mode": "numbers",
+   "type": "multichoice",
+   "q": "A student describes an electron with n = 0, ℓ = 1, m<sub>ℓ</sub> = 0, m<sub>s</sub> = +½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+   "choices": [
+    "n",
+    "ℓ",
+    "mℓ",
+    "ms",
+    "None — this set is allowed"
+   ],
+   "answers": [
+    "n",
+    "ℓ"
+   ],
+   "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+   "why": "Forbidden values: n, ℓ. n must be a positive integer. ℓ must be between 0 and n − 1.",
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1600
+  }
+ },
+ {
+  "id": "quantumchemistry-5b2d9380",
+  "skill": "quantum.numbers",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-multichoice",
+  "prompt": "A student describes an electron with n = 4, ℓ = 3, m<sub>ℓ</sub> = −4, m<sub>s</sub> = +½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+  "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+  "explain": "Forbidden value: mℓ. |mℓ| cannot exceed ℓ = 3.",
+  "data": {
+   "mode": "numbers",
+   "type": "multichoice",
+   "q": "A student describes an electron with n = 4, ℓ = 3, m<sub>ℓ</sub> = −4, m<sub>s</sub> = +½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+   "choices": [
+    "n",
+    "ℓ",
+    "mℓ",
+    "ms",
+    "None — this set is allowed"
+   ],
+   "answers": [
+    "mℓ"
+   ],
+   "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+   "why": "Forbidden value: mℓ. |mℓ| cannot exceed ℓ = 3.",
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1601
+  }
+ },
+ {
+  "id": "quantumchemistry-b00deb79",
+  "skill": "quantum.numbers",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-multichoice",
+  "prompt": "A student describes an electron with n = 3, ℓ = 2, m<sub>ℓ</sub> = −2, m<sub>s</sub> = +½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+  "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+  "explain": "All four values follow the rules: ℓ = 2 < n = 3, |mℓ| ≤ ℓ, and ms = ±½. This electron is in a 3d orbital.",
+  "data": {
+   "mode": "numbers",
+   "type": "multichoice",
+   "q": "A student describes an electron with n = 3, ℓ = 2, m<sub>ℓ</sub> = −2, m<sub>s</sub> = +½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+   "choices": [
+    "n",
+    "ℓ",
+    "mℓ",
+    "ms",
+    "None — this set is allowed"
+   ],
+   "answers": [
+    "None — this set is allowed"
+   ],
+   "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+   "why": "All four values follow the rules: ℓ = 2 < n = 3, |mℓ| ≤ ℓ, and ms = ±½. This electron is in a 3d orbital.",
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1602
+  }
+ },
+ {
+  "id": "quantumchemistry-0e85becf",
+  "skill": "quantum.numbers",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-multichoice",
+  "prompt": "A student describes an electron with n = 2, ℓ = 1, m<sub>ℓ</sub> = −1, m<sub>s</sub> = 0. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+  "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+  "explain": "Forbidden value: ms. ms can only be +½ or −½.",
+  "data": {
+   "mode": "numbers",
+   "type": "multichoice",
+   "q": "A student describes an electron with n = 2, ℓ = 1, m<sub>ℓ</sub> = −1, m<sub>s</sub> = 0. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+   "choices": [
+    "n",
+    "ℓ",
+    "mℓ",
+    "ms",
+    "None — this set is allowed"
+   ],
+   "answers": [
+    "ms"
+   ],
+   "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+   "why": "Forbidden value: ms. ms can only be +½ or −½.",
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1603
+  }
+ },
+ {
+  "id": "quantumchemistry-a5d7e5dc",
+  "skill": "quantum.numbers",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-multichoice",
+  "prompt": "A student describes an electron with n = 6, ℓ = 2, m<sub>ℓ</sub> = +3, m<sub>s</sub> = −½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+  "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+  "explain": "Forbidden value: mℓ. |mℓ| cannot exceed ℓ = 2.",
+  "data": {
+   "mode": "numbers",
+   "type": "multichoice",
+   "q": "A student describes an electron with n = 6, ℓ = 2, m<sub>ℓ</sub> = +3, m<sub>s</sub> = −½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+   "choices": [
+    "n",
+    "ℓ",
+    "mℓ",
+    "ms",
+    "None — this set is allowed"
+   ],
+   "answers": [
+    "mℓ"
+   ],
+   "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+   "why": "Forbidden value: mℓ. |mℓ| cannot exceed ℓ = 2.",
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1604
+  }
+ },
+ {
+  "id": "quantumchemistry-85a835b8",
+  "skill": "quantum.numbers",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-multichoice",
+  "prompt": "A student describes an electron with n = 4, ℓ = 4, m<sub>ℓ</sub> = +1, m<sub>s</sub> = −½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+  "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+  "explain": "Forbidden value: ℓ. ℓ must be between 0 and n − 1 (0 to 3).",
+  "data": {
+   "mode": "numbers",
+   "type": "multichoice",
+   "q": "A student describes an electron with n = 4, ℓ = 4, m<sub>ℓ</sub> = +1, m<sub>s</sub> = −½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+   "choices": [
+    "n",
+    "ℓ",
+    "mℓ",
+    "ms",
+    "None — this set is allowed"
+   ],
+   "answers": [
+    "ℓ"
+   ],
+   "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+   "why": "Forbidden value: ℓ. ℓ must be between 0 and n − 1 (0 to 3).",
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1605
+  }
+ },
+ {
+  "id": "quantumchemistry-6ed27967",
+  "skill": "quantum.numbers",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-multichoice",
+  "prompt": "A student describes an electron with n = 5, ℓ = 0, m<sub>ℓ</sub> = 0, m<sub>s</sub> = −½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+  "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+  "explain": "All four values follow the rules: ℓ = 0 < n = 5, |mℓ| ≤ ℓ, and ms = ±½. This electron is in a 5s orbital.",
+  "data": {
+   "mode": "numbers",
+   "type": "multichoice",
+   "q": "A student describes an electron with n = 5, ℓ = 0, m<sub>ℓ</sub> = 0, m<sub>s</sub> = −½. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+   "choices": [
+    "n",
+    "ℓ",
+    "mℓ",
+    "ms",
+    "None — this set is allowed"
+   ],
+   "answers": [
+    "None — this set is allowed"
+   ],
+   "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+   "why": "All four values follow the rules: ℓ = 0 < n = 5, |mℓ| ≤ ℓ, and ms = ±½. This electron is in a 5s orbital.",
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1606
+  }
+ },
+ {
+  "id": "quantumchemistry-b4ea60e7",
+  "skill": "quantum.numbers",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-multichoice",
+  "prompt": "A student describes an electron with n = 3, ℓ = 1, m<sub>ℓ</sub> = −3, m<sub>s</sub> = 1. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+  "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+  "explain": "Forbidden values: mℓ, ms. |mℓ| cannot exceed ℓ = 1. ms can only be +½ or −½.",
+  "data": {
+   "mode": "numbers",
+   "type": "multichoice",
+   "q": "A student describes an electron with n = 3, ℓ = 1, m<sub>ℓ</sub> = −3, m<sub>s</sub> = 1. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+   "choices": [
+    "n",
+    "ℓ",
+    "mℓ",
+    "ms",
+    "None — this set is allowed"
+   ],
+   "answers": [
+    "mℓ",
+    "ms"
+   ],
+   "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+   "why": "Forbidden values: mℓ, ms. |mℓ| cannot exceed ℓ = 1. ms can only be +½ or −½.",
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1607
+  }
+ },
+ {
+  "id": "quantumchemistry-394e985a",
+  "skill": "quantum.numbers",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "quantum-multichoice",
+  "prompt": "A student describes an electron with n = 2, ℓ = 0, m<sub>ℓ</sub> = 0, m<sub>s</sub> = −1. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+  "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+  "explain": "Forbidden value: ms. ms can only be +½ or −½.",
+  "data": {
+   "mode": "numbers",
+   "type": "multichoice",
+   "q": "A student describes an electron with n = 2, ℓ = 0, m<sub>ℓ</sub> = 0, m<sub>s</sub> = −1. Which value(s) break the rules? Pick all that apply, or pick “None” if every value is allowed.",
+   "choices": [
+    "n",
+    "ℓ",
+    "mℓ",
+    "ms",
+    "None — this set is allowed"
+   ],
+   "answers": [
+    "ms"
+   ],
+   "hint": "Check each rule separately: n = 1, 2, 3…; ℓ = 0 to n − 1; mℓ = −ℓ to +ℓ; ms = +½ or −½ only.",
+   "why": "Forbidden value: ms. ms can only be +½ or −½.",
+   "c3a": false
+  },
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1608
+  }
+ },
+ {
+  "id": "quantumchemistry-e2749696",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Count every electron that sits in a <b>p orbital</b> (any shell) in a ground-state P atom. What is the total?",
+  "hint": "Write the full configuration and add every p subshell (2…).",
+  "explain": "P: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>3</sup>. Adding every p subshell gives 2p<sup>6</sup> + 3p<sup>3</sup> = 9 electrons.",
+  "answer": 9,
+  "unit": "electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1609
+  }
+ },
+ {
+  "id": "quantumchemistry-037a93f5",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Count every electron that sits in a <b>p orbital</b> (any shell) in a ground-state Ar atom. What is the total?",
+  "hint": "Write the full configuration and add every p subshell (2…).",
+  "explain": "Ar: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup>. Adding every p subshell gives 2p<sup>6</sup> + 3p<sup>6</sup> = 12 electrons.",
+  "answer": 12,
+  "unit": "electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1610
+  }
+ },
+ {
+  "id": "quantumchemistry-fe6a057a",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Count every electron that sits in a <b>p orbital</b> (any shell) in a ground-state Se atom. What is the total?",
+  "hint": "Write the full configuration and add every p subshell (2…).",
+  "explain": "Se: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>4</sup>. Adding every p subshell gives 2p<sup>6</sup> + 3p<sup>6</sup> + 4p<sup>4</sup> = 16 electrons.",
+  "answer": 16,
+  "unit": "electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1611
+  }
+ },
+ {
+  "id": "quantumchemistry-6f7f1f55",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Count every electron that sits in a <b>p orbital</b> (any shell) in a ground-state F atom. What is the total?",
+  "hint": "Write the full configuration and add every p subshell (2…).",
+  "explain": "F: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>5</sup>. Adding every p subshell gives 2p<sup>5</sup> = 5 electrons.",
+  "answer": 5,
+  "unit": "electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1612
+  }
+ },
+ {
+  "id": "quantumchemistry-a09c0d44",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Count every electron that sits in a <b>p orbital</b> (any shell) in a ground-state Ge atom. What is the total?",
+  "hint": "Write the full configuration and add every p subshell (2…).",
+  "explain": "Ge: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>2</sup>. Adding every p subshell gives 2p<sup>6</sup> + 3p<sup>6</sup> + 4p<sup>2</sup> = 14 electrons.",
+  "answer": 14,
+  "unit": "electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1613
+  }
+ },
+ {
+  "id": "quantumchemistry-cfe3095e",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Count every electron that sits in a <b>p orbital</b> (any shell) in a ground-state Kr atom. What is the total?",
+  "hint": "Write the full configuration and add every p subshell (2…).",
+  "explain": "Kr: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>6</sup>. Adding every p subshell gives 2p<sup>6</sup> + 3p<sup>6</sup> + 4p<sup>6</sup> = 18 electrons.",
+  "answer": 18,
+  "unit": "electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1614
+  }
+ },
+ {
+  "id": "quantumchemistry-69d515fe",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Count every electron that sits in an <b>s orbital</b> (any shell) in a ground-state K atom. What is the total?",
+  "hint": "Write the full configuration and add every s subshell (2…).",
+  "explain": "K: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>1</sup>. Adding every s subshell gives 1s<sup>2</sup> + 2s<sup>2</sup> + 3s<sup>2</sup> + 4s<sup>1</sup> = 7 electrons.",
+  "answer": 7,
+  "unit": "electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1615
+  }
+ },
+ {
+  "id": "quantumchemistry-c7d1bb73",
+  "skill": "quantum.config",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-3",
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Count every electron that sits in an <b>s orbital</b> (any shell) in a ground-state Mg atom. What is the total?",
+  "hint": "Write the full configuration and add every s subshell (2…).",
+  "explain": "Mg: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup>. Adding every s subshell gives 1s<sup>2</sup> + 2s<sup>2</sup> + 3s<sup>2</sup> = 6 electrons.",
+  "answer": 6,
+  "unit": "electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1616
+  }
+ },
+ {
+  "id": "quantumchemistry-69268bb0",
+  "skill": "quantum.config",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Count every electron that sits in a <b>d orbital</b> (any shell) in a ground-state Zn atom. What is the total?",
+  "hint": "Write the full configuration and add every d subshell (2…).",
+  "explain": "Zn: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>10</sup>. Adding every d subshell gives 3d<sup>10</sup> = 10 electrons.",
+  "answer": 10,
+  "unit": "electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1617
+  }
+ },
+ {
+  "id": "quantumchemistry-e66fcf2c",
+  "skill": "quantum.config",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "Count every electron that sits in a <b>d orbital</b> (any shell) in a ground-state Mn atom. What is the total?",
+  "hint": "Write the full configuration and add every d subshell (2…).",
+  "explain": "Mn: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>5</sup>. Adding every d subshell gives 3d<sup>5</sup> = 5 electrons.",
+  "answer": 5,
+  "unit": "electrons",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1618
+  }
+ },
+ {
+  "id": "quantumchemistry-f9f91fe1",
+  "skill": "quantum.bohr",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "A hydrogen atom travels at 610 m/s. Find its de Broglie wavelength. (You need the mass of ONE atom in kg.)",
+  "hint": "Mass of one atom = (molar mass in g/mol ÷ 1000) ÷ N<sub>A</sub>. Then λ = h/(mv).",
+  "explain": "m = 1.008 g/mol × (1 kg/1000 g) ÷ 6.022 × 10²³ = 1.674 × 10<sup>-27</sup> kg; λ = h/(mv) = 6.489 × 10<sup>-10</sup> m.",
+  "answer": 6.489359224564142e-10,
+  "unit": "m",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1619
+  }
+ },
+ {
+  "id": "quantumchemistry-adf9bc34",
+  "skill": "quantum.bohr",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "A helium atom travels at 980 m/s. Find its de Broglie wavelength. (You need the mass of ONE atom in kg.)",
+  "hint": "Mass of one atom = (molar mass in g/mol ÷ 1000) ÷ N<sub>A</sub>. Then λ = h/(mv).",
+  "explain": "m = 4.003 g/mol × (1 kg/1000 g) ÷ 6.022 × 10²³ = 6.647 × 10<sup>-27</sup> kg; λ = h/(mv) = 1.017 × 10<sup>-10</sup> m.",
+  "answer": 1.0171394923195358e-10,
+  "unit": "m",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1620
+  }
+ },
+ {
+  "id": "quantumchemistry-5d410654",
+  "skill": "quantum.bohr",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "A neon atom travels at 350 m/s. Find its de Broglie wavelength. (You need the mass of ONE atom in kg.)",
+  "hint": "Mass of one atom = (molar mass in g/mol ÷ 1000) ÷ N<sub>A</sub>. Then λ = h/(mv).",
+  "explain": "m = 20.18 g/mol × (1 kg/1000 g) ÷ 6.022 × 10²³ = 3.351 × 10<sup>-26</sup> kg; λ = h/(mv) = 5.649 × 10<sup>-11</sup> m.",
+  "answer": 5.6494084666572287e-11,
+  "unit": "m",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1621
+  }
+ },
+ {
+  "id": "quantumchemistry-d4e57ced",
+  "skill": "quantum.bohr",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "A hydrogen atom travels at 2,400 m/s. Find its de Broglie wavelength. (You need the mass of ONE atom in kg.)",
+  "hint": "Mass of one atom = (molar mass in g/mol ÷ 1000) ÷ N<sub>A</sub>. Then λ = h/(mv).",
+  "explain": "m = 1.008 g/mol × (1 kg/1000 g) ÷ 6.022 × 10²³ = 1.674 × 10<sup>-27</sup> kg; λ = h/(mv) = 1.649 × 10<sup>-10</sup> m.",
+  "answer": 1.6493788029100529e-10,
+  "unit": "m",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1622
+  }
+ },
+ {
+  "id": "quantumchemistry-8a876e0d",
+  "skill": "quantum.bohr",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How fast must a proton (mass 1.673 × 10<sup>-27</sup> kg) move to have a de Broglie wavelength of 74.0 pm?",
+  "hint": "Convert pm to m (× 10⁻¹²), then v = h/(mλ).",
+  "explain": "v = h/(mλ) = (6.626 × 10⁻³⁴)/(1.673 × 10<sup>-27</sup> × 7.400 × 10<sup>-11</sup>) = 5.352 × 10<sup>3</sup> m/s.",
+  "answer": 5352.094473433384,
+  "unit": "m/s",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1623
+  }
+ },
+ {
+  "id": "quantumchemistry-ab04cee2",
+  "skill": "quantum.bohr",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How fast must a neutron (mass 1.675 × 10<sup>-27</sup> kg) move to have a de Broglie wavelength of 112 pm?",
+  "hint": "Convert pm to m (× 10⁻¹²), then v = h/(mλ).",
+  "explain": "v = h/(mλ) = (6.626 × 10⁻³⁴)/(1.675 × 10<sup>-27</sup> × 1.120 × 10<sup>-10</sup>) = 3.532 × 10<sup>3</sup> m/s.",
+  "answer": 3531.9829424307036,
+  "unit": "m/s",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1624
+  }
+ },
+ {
+  "id": "quantumchemistry-7a9b3c8f",
+  "skill": "quantum.bohr",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How fast must an electron (mass 9.109 × 10<sup>-31</sup> kg) move to have a de Broglie wavelength of 175 pm?",
+  "hint": "Convert pm to m (× 10⁻¹²), then v = h/(mλ).",
+  "explain": "v = h/(mλ) = (6.626 × 10⁻³⁴)/(9.109 × 10<sup>-31</sup> × 1.750 × 10<sup>-10</sup>) = 4.157 × 10<sup>6</sup> m/s.",
+  "answer": 4156642.567005944,
+  "unit": "m/s",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1625
+  }
+ },
+ {
+  "id": "quantumchemistry-dd90983f",
+  "skill": "quantum.bohr",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "type": "number",
+  "prompt": "How fast must an electron (mass 9.109 × 10<sup>-31</sup> kg) move to have a de Broglie wavelength of 92.0 pm?",
+  "hint": "Convert pm to m (× 10⁻¹²), then v = h/(mλ).",
+  "explain": "v = h/(mλ) = (6.626 × 10⁻³⁴)/(9.109 × 10<sup>-31</sup> × 9.200 × 10<sup>-11</sup>) = 7.907 × 10<sup>6</sup> m/s.",
+  "answer": 7906657.056804785,
+  "unit": "m/s",
+  "from": {
+   "game": "quantumchemistry",
+   "list": "bank",
+   "index": 1626
+  }
  }
 ]
