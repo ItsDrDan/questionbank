@@ -134,6 +134,43 @@ function mcFromArray(a, hasTitle) {
       hint: d.hint, data: d })));
   }
 
+  // ---------- Final Boss! (finalexam): standardized-final-style multiple choice for 3A, 3B, 1A, 1B ----------
+  // Every item is original. Items modeled on Dr. Dan's Canvas quizzes carry src:'canvas-quiz' and are left out.
+  // Items with drawings (Lewis/skeletal structures, figures, picture choices) get type 'finalboss-mc'
+  // with the raw drawing data in `data`; Final Boss!'s renderer (also used by Exam Practice in
+  // functionalgroups / organicreactions / carbohydrates) draws them. Text-only items are plain 'mc'.
+  {
+    const g = 'finalexam', d = await pull(page, g, ['BANK']);
+    const SUB = '₀₁₂₃₄₅₆₇₈₉', SUP = { 0: '⁰', 1: '¹', 2: '²', 3: '³', 4: '⁴', 5: '⁵', 6: '⁶', 7: '⁷', 8: '⁸', 9: '⁹', '+': '⁺', '-': '⁻', '−': '⁻', n: 'ⁿ' };
+    const plain = h => strip(String(h ?? '')
+      .replace(/<sub>([^<]*)<\/sub>/g, (m, t) => /^[0-9]+$/.test(t) ? [...t].map(c => SUB[c]).join('') : '_' + t)
+      .replace(/<sup>([^<]*)<\/sup>/g, (m, t) => [...t].every(c => SUP[c]) ? [...t].map(c => SUP[c]).join('') : '^' + t)
+      .replace(/<br\s*\/?>/g, ' ').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&'));
+    const CH = {
+      '3A': { measure: ['1'], atoms: ['2'], electrons: ['3'], matter: ['1', '7'], naming: ['4'], moles: ['5'], bonding: ['6'], energy: ['7'], gases: ['8'], solutions: ['9'], reactions: ['10'], stoich: ['11'], acids: ['12'], equilibrium: ['13'], nuclear: ['14'] },
+      '3B': { structure: ['1'], properties: ['1'], hydrocarbons: ['2'], isomers: ['2', '6'], aromatic: ['3'], alcohols: ['4'], carbonyls: ['5'], chirality: ['6'], acids_esters: ['7'], amines: ['8'], carbs: ['9'], lipids: ['10'], proteins: ['11'], enzymes: ['12'], nucleic: ['13'], metabolism: ['14', '15', '16', '17'] },
+      '1A': { measure: ['1'], atoms: ['2'], composition: ['3'], reactions: ['4'], thermo: ['5'], quantum: ['6'], periodic: ['6'], bonding: ['7'], advanced: ['8'], gases: ['9'], liquids: ['10'], solutions: ['11'] },
+      '1B': { kinetics: ['12'], equilibrium: ['13'], acidbase: ['14'], buffers: ['15'], solubility: ['15'], thermo: ['16'], electro: ['17'], coordination: ['19'], nuclear: ['21'] } };
+    const MID = ['structure', 'properties', 'hydrocarbons', 'isomers', 'aromatic', 'alcohols', 'carbonyls', 'chirality', 'acids_esters', 'amines'];
+    let skipped = 0;
+    for (const course of ['3A', '3B', '1A', '1B']) {
+      const list = 'BANK.' + course;
+      add('final-exam-' + course.toLowerCase(), (d.BANK[course] || []).map((q, i) => {
+        if (q.src === 'canvas-quiz') { skipped++; return null; }
+        const drawn = !!(q.s || q.cs || q.f) || q.c.some(c => String(c).startsWith('§'));
+        const chapters = (CH[course][q.t] || []).map(n => course + '-' + n).concat(course === '3A' ? ['3A-review'] : []);
+        return item(g, list, i, {
+          skill: 'finalexam.' + course.toLowerCase() + '.' + q.t, courses: [course], chapters, origin: 'original',
+          made: q.src || 'original', exam: course === '3B' ? (MID.includes(q.t) ? 'midterm' : 'final') : 'final',
+          type: drawn ? 'finalboss-mc' : 'mc', difficulty: q.d, calc: !!q.k,
+          prompt: plain(q.q), choices: q.c.map(plain), answer: plain(q.c[0]), hint: plain(q.h), explain: plain(q.w),
+          html: { prompt: q.q, choices: q.c, hint: q.h, explain: q.w },
+          data: drawn ? { s: q.s, cs: q.cs, f: q.f } : undefined });
+      }).filter(Boolean));
+    }
+    console.log('finalexam: skipped', skipped, 'canvas-quiz items');
+  }
+
   // ---------- Ion table: Green Sheet polyatomics (polyatomic game) + cations and monatomic anions (Naming & Formulas) ----------
   {
     const src = path.join(REPOS, 'ionicformula', 'index.html');

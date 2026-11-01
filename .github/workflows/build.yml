@@ -16,7 +16,7 @@ jobs:
       - name: Get the games
         run: |
           mkdir games && cd games
-          for r in ionicformula reactions sigfig redox gaslaws thermochemistry chem1bready quantumchemistry polyatomic elements moles functionalgroups carbohydrates; do
+          for r in ionicformula reactions sigfig redox gaslaws thermochemistry chem1bready quantumchemistry polyatomic elements moles functionalgroups carbohydrates finalexam; do
             git clone --depth 1 https://github.com/ItsDrDan/$r.git
           done
       - uses: actions/setup-node@v4

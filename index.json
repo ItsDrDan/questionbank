@@ -7,68 +7,191 @@
   "thermochemistry": 29,
   "chem-1b-readiness": 42,
   "quantum": 972,
-  "reactions": 222
+  "reactions": 222,
+  "final-exam-3a": 252,
+  "final-exam-3b": 784,
+  "final-exam-1a": 386,
+  "final-exam-1b": 307
  },
  "chapters": {
   "3A-1": {
-   "sig-figs": 52
+   "sig-figs": 52,
+   "final-exam-3a": 40
   },
   "1A-1": {
    "sig-figs": 52,
-   "chem-1b-readiness": 12
+   "chem-1b-readiness": 12,
+   "final-exam-1a": 31
   },
   "3A-10": {
    "redox": 152,
-   "reactions": 222
+   "reactions": 222,
+   "final-exam-3a": 21
   },
   "1A-4": {
    "redox": 208,
    "chem-1b-readiness": 10,
-   "reactions": 222
+   "reactions": 222,
+   "final-exam-1a": 36
   },
   "1B-17": {
-   "redox": 56
+   "redox": 56,
+   "final-exam-1b": 39
   },
   "3A-8": {
-   "gas-laws": 11
+   "gas-laws": 11,
+   "final-exam-3a": 18
   },
   "1A-9": {
    "gas-laws": 21,
-   "chem-1b-readiness": 10
+   "chem-1b-readiness": 10,
+   "final-exam-1a": 33
   },
   "3A-7": {
-   "thermochemistry": 29
+   "thermochemistry": 29,
+   "final-exam-3a": 24
   },
   "1A-10": {
    "thermochemistry": 29,
-   "chem-1b-readiness": 10
+   "chem-1b-readiness": 10,
+   "final-exam-1a": 25
   },
   "1A-2": {
-   "chem-1b-readiness": 12
+   "chem-1b-readiness": 12,
+   "final-exam-1a": 22
   },
   "1A-3": {
-   "chem-1b-readiness": 12
+   "chem-1b-readiness": 12,
+   "final-exam-1a": 28
   },
   "1B-ready": {
    "chem-1b-readiness": 42
   },
   "1A-5": {
-   "chem-1b-readiness": 10
+   "chem-1b-readiness": 10,
+   "final-exam-1a": 32
   },
   "1B-14": {
-   "chem-1b-readiness": 10
+   "chem-1b-readiness": 10,
+   "final-exam-1b": 44
   },
   "1B-12": {
-   "chem-1b-readiness": 10
+   "chem-1b-readiness": 10,
+   "final-exam-1b": 47
   },
   "1B-13": {
-   "chem-1b-readiness": 10
+   "chem-1b-readiness": 10,
+   "final-exam-1b": 44
   },
   "3A-3": {
-   "quantum": 373
+   "quantum": 373,
+   "final-exam-3a": 16
   },
   "1A-6": {
-   "quantum": 972
+   "quantum": 972,
+   "final-exam-1a": 47
+  },
+  "3A-review": {
+   "final-exam-3a": 252
+  },
+  "3A-2": {
+   "final-exam-3a": 10
+  },
+  "3A-4": {
+   "final-exam-3a": 14
+  },
+  "3A-5": {
+   "final-exam-3a": 13
+  },
+  "3A-6": {
+   "final-exam-3a": 29
+  },
+  "3A-9": {
+   "final-exam-3a": 21
+  },
+  "3A-11": {
+   "final-exam-3a": 21
+  },
+  "3A-12": {
+   "final-exam-3a": 18
+  },
+  "3A-13": {
+   "final-exam-3a": 10
+  },
+  "3A-14": {
+   "final-exam-3a": 10
+  },
+  "3B-1": {
+   "final-exam-3b": 118
+  },
+  "3B-2": {
+   "final-exam-3b": 99
+  },
+  "3B-3": {
+   "final-exam-3b": 25
+  },
+  "3B-4": {
+   "final-exam-3b": 44
+  },
+  "3B-5": {
+   "final-exam-3b": 42
+  },
+  "3B-6": {
+   "final-exam-3b": 113
+  },
+  "3B-7": {
+   "final-exam-3b": 40
+  },
+  "3B-8": {
+   "final-exam-3b": 43
+  },
+  "3B-9": {
+   "final-exam-3b": 62
+  },
+  "3B-10": {
+   "final-exam-3b": 46
+  },
+  "3B-11": {
+   "final-exam-3b": 49
+  },
+  "3B-12": {
+   "final-exam-3b": 33
+  },
+  "3B-13": {
+   "final-exam-3b": 36
+  },
+  "3B-14": {
+   "final-exam-3b": 74
+  },
+  "3B-15": {
+   "final-exam-3b": 74
+  },
+  "3B-16": {
+   "final-exam-3b": 74
+  },
+  "3B-17": {
+   "final-exam-3b": 74
+  },
+  "1A-7": {
+   "final-exam-1a": 68
+  },
+  "1A-8": {
+   "final-exam-1a": 45
+  },
+  "1A-11": {
+   "final-exam-1a": 19
+  },
+  "1B-15": {
+   "final-exam-1b": 68
+  },
+  "1B-16": {
+   "final-exam-1b": 40
+  },
+  "1B-19": {
+   "final-exam-1b": 13
+  },
+  "1B-21": {
+   "final-exam-1b": 12
   }
  },
  "skills": {
@@ -102,6 +225,58 @@
   "reactions.double-displacement": 45,
   "reactions.combustion": 25,
   "reactions.neutralization": 22,
-  "reactions.gas-evolution": 38
+  "reactions.gas-evolution": 38,
+  "finalexam.3a.measure": 27,
+  "finalexam.3a.atoms": 10,
+  "finalexam.3a.electrons": 16,
+  "finalexam.3a.matter": 13,
+  "finalexam.3a.naming": 14,
+  "finalexam.3a.moles": 13,
+  "finalexam.3a.bonding": 29,
+  "finalexam.3a.energy": 11,
+  "finalexam.3a.gases": 18,
+  "finalexam.3a.solutions": 21,
+  "finalexam.3a.reactions": 21,
+  "finalexam.3a.stoich": 21,
+  "finalexam.3a.acids": 18,
+  "finalexam.3a.equilibrium": 10,
+  "finalexam.3a.nuclear": 10,
+  "finalexam.3b.structure": 59,
+  "finalexam.3b.hydrocarbons": 59,
+  "finalexam.3b.aromatic": 25,
+  "finalexam.3b.alcohols": 44,
+  "finalexam.3b.carbonyls": 42,
+  "finalexam.3b.chirality": 73,
+  "finalexam.3b.acids_esters": 40,
+  "finalexam.3b.amines": 43,
+  "finalexam.3b.carbs": 62,
+  "finalexam.3b.lipids": 46,
+  "finalexam.3b.proteins": 49,
+  "finalexam.3b.enzymes": 33,
+  "finalexam.3b.nucleic": 36,
+  "finalexam.3b.metabolism": 74,
+  "finalexam.3b.isomers": 40,
+  "finalexam.3b.properties": 59,
+  "finalexam.1a.measure": 31,
+  "finalexam.1a.atoms": 22,
+  "finalexam.1a.composition": 28,
+  "finalexam.1a.reactions": 36,
+  "finalexam.1a.thermo": 32,
+  "finalexam.1a.quantum": 26,
+  "finalexam.1a.periodic": 21,
+  "finalexam.1a.bonding": 68,
+  "finalexam.1a.advanced": 45,
+  "finalexam.1a.gases": 33,
+  "finalexam.1a.liquids": 25,
+  "finalexam.1a.solutions": 19,
+  "finalexam.1b.kinetics": 47,
+  "finalexam.1b.equilibrium": 44,
+  "finalexam.1b.acidbase": 44,
+  "finalexam.1b.buffers": 36,
+  "finalexam.1b.solubility": 32,
+  "finalexam.1b.thermo": 40,
+  "finalexam.1b.electro": 39,
+  "finalexam.1b.coordination": 13,
+  "finalexam.1b.nuclear": 12
  }
 }

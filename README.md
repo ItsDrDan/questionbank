@@ -9,7 +9,7 @@ Live at **https://itsdrdan.github.io/questionbank/** (once GitHub Pages is turne
 
 | Path | What it is |
 |---|---|
-| `bank/*.json` | Questions, one file per topic, all in the same format (below). |
+| `bank/*.json` | Questions, one file per topic (or per course for Final Boss), all in the same format (below). |
 | `data/*.json` | Shared reference tables: elements (names, Yellow Sheet masses, IE, EA, electronegativity), Green Sheet polyatomic ions, OpenStax ΔHf° values, activity series, the 123 Med Molecules, sugars. |
 | `index.json` | Counts of questions per bank, per skill, and per chapter. Built automatically. |
 | `skills.json` | **The skill map.** Every mode in every game, with its courses and study-hub chapter ids (`3A-10`, `1A-4`, `1B-ready`, `3B-9`…). Edit by hand when a game gains a mode. |
@@ -76,4 +76,8 @@ Skill Check questions are never copied into games; the Quantum Quest items that 
 Lists still waiting for a source check (Reaction Rumble's true/false Blitz, the worksheet Hess's law set, Lewis items citing
 textbook problem numbers) are also not included yet.
 
-Final Boss (`finalexam`) is not connected yet.
+Final Boss (`finalexam`) is connected: `bank/final-exam-{3a,3b,1a,1b}.json` hold its standardized-final-style
+multiple choice (original items; `made` says how each was written: `original`, `drawn`, `study-guide` or `video`).
+Items Final Boss modeled on Dr. Dan's Canvas quizzes (`src: canvas-quiz` in the game) are skipped.
+Items with structures or figures are type `finalboss-mc` (raw drawing data in `data`, original HTML in `html`);
+Final Boss's renderer draws them, and so does Exam Practice in Organic Origins, Bond Voyage! and Sweet Structures.
