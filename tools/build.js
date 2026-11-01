@@ -119,6 +119,20 @@ function mcFromArray(a, hasTitle) {
     }));
   }
 
+
+  // ---------- Reaction Rumble: all 222 reactions with balanced coefficients and phases ----------
+  {
+    const g = 'reactions';
+    await page.goto('file://' + path.join(REPOS, g, 'index.html'), { waitUntil: 'load' });
+    await page.waitForTimeout(400);
+    const D = await page.evaluate(() => D.map(d => ({ cat: d.cat, r: d.r, p: d.p, coef: d.coef, hint: d.hint, states: Object.fromEntries([...d.r, ...d.p].map(f => [f, stateOf(f, d)])) })));
+    const side = (fs, cs, st) => fs.map((f, i) => (cs[i] === 1 ? '' : cs[i] + ' ') + f + '(' + st[f] + ')').join(' + ');
+    add('reactions', D.map((d, i) => item(g, 'D', i, {
+      skill: 'reactions.' + d.cat.toLowerCase().replace(/\s+/g, '-'), courses: ['3A', '1A'], chapters: ['3A-10', '1A-4'], origin: 'original',
+      type: 'reaction', prompt: 'Predict the products and balance: ' + d.r.join(' + ') + ' →',
+      answer: side(d.r, d.coef.slice(0, d.r.length), d.states) + ' → ' + side(d.p, d.coef.slice(d.r.length), d.states),
+      hint: d.hint, data: d })));
+  }
   // ---------- Shared reference data ----------
   {
     const p = await pull(page, 'polyatomic', ['ions']);

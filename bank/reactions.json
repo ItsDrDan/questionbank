@@ -1,0 +1,10130 @@
+[
+ {
+  "id": "reactions-8db3a3c0",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Mg + O2 →",
+  "answer": "2 Mg(s) + O2(g) → 2 MgO(s)",
+  "hint": "Magnesium and oxygen form magnesium oxide.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Mg",
+    "O2"
+   ],
+   "p": [
+    "MgO"
+   ],
+   "coef": [
+    2,
+    1,
+    2
+   ],
+   "hint": "Magnesium and oxygen form magnesium oxide.",
+   "states": {
+    "Mg": "s",
+    "O2": "g",
+    "MgO": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 0
+  }
+ },
+ {
+  "id": "reactions-04269c31",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Al + Cl2 →",
+  "answer": "2 Al(s) + 3 Cl2(g) → 2 AlCl3(s)",
+  "hint": "Aluminum forms Al³⁺; chloride is Cl⁻.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Al",
+    "Cl2"
+   ],
+   "p": [
+    "AlCl3"
+   ],
+   "coef": [
+    2,
+    3,
+    2
+   ],
+   "hint": "Aluminum forms Al³⁺; chloride is Cl⁻.",
+   "states": {
+    "Al": "s",
+    "Cl2": "g",
+    "AlCl3": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 1
+  }
+ },
+ {
+  "id": "reactions-535064d0",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Na + Cl2 →",
+  "answer": "2 Na(s) + Cl2(g) → 2 NaCl(s)",
+  "hint": "Chlorine is diatomic.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Na",
+    "Cl2"
+   ],
+   "p": [
+    "NaCl"
+   ],
+   "coef": [
+    2,
+    1,
+    2
+   ],
+   "hint": "Chlorine is diatomic.",
+   "states": {
+    "Na": "s",
+    "Cl2": "g",
+    "NaCl": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 2
+  }
+ },
+ {
+  "id": "reactions-390d4419",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Fe + S →",
+  "answer": "Fe(s) + S(s) → FeS(s)",
+  "hint": "Iron(II) sulfide forms in this example.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Fe",
+    "S"
+   ],
+   "p": [
+    "FeS"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Iron(II) sulfide forms in this example.",
+   "states": {
+    "Fe": "s",
+    "S": "s",
+    "FeS": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 3
+  }
+ },
+ {
+  "id": "reactions-bef96233",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Ca + O2 →",
+  "answer": "2 Ca(s) + O2(g) → 2 CaO(s)",
+  "hint": "Remember oxygen is O₂.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Ca",
+    "O2"
+   ],
+   "p": [
+    "CaO"
+   ],
+   "coef": [
+    2,
+    1,
+    2
+   ],
+   "hint": "Remember oxygen is O₂.",
+   "states": {
+    "Ca": "s",
+    "O2": "g",
+    "CaO": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 4
+  }
+ },
+ {
+  "id": "reactions-f8274559",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: H2 + O2 →",
+  "answer": "2 H2(g) + O2(g) → 2 H2O(l)",
+  "hint": "Balance hydrogen and oxygen separately.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "H2",
+    "O2"
+   ],
+   "p": [
+    "H2O"
+   ],
+   "coef": [
+    2,
+    1,
+    2
+   ],
+   "hint": "Balance hydrogen and oxygen separately.",
+   "states": {
+    "H2": "g",
+    "O2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 5
+  }
+ },
+ {
+  "id": "reactions-a8a268e6",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: N2 + H2 →",
+  "answer": "N2(g) + 3 H2(g) → 2 NH3(g)",
+  "hint": "Ammonia is NH₃; nitrogen and hydrogen are diatomic.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "N2",
+    "H2"
+   ],
+   "p": [
+    "NH3"
+   ],
+   "coef": [
+    1,
+    3,
+    2
+   ],
+   "hint": "Ammonia is NH₃; nitrogen and hydrogen are diatomic.",
+   "states": {
+    "N2": "g",
+    "H2": "g",
+    "NH3": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 6
+  }
+ },
+ {
+  "id": "reactions-56044060",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: SO3 + H2O →",
+  "answer": "SO3(g) + H2O(l) → H2SO4(aq)",
+  "hint": "A nonmetal oxide and water form an oxyacid.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "SO3",
+    "H2O"
+   ],
+   "p": [
+    "H2SO4"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "A nonmetal oxide and water form an oxyacid.",
+   "states": {
+    "SO3": "g",
+    "H2O": "l",
+    "H2SO4": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 7
+  }
+ },
+ {
+  "id": "reactions-f321d4d1",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: H2O2 →",
+  "answer": "2 H2O2(aq) → 2 H2O(l) + O2(g)",
+  "hint": "Oxygen gas is diatomic.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "H2O2"
+   ],
+   "p": [
+    "H2O",
+    "O2"
+   ],
+   "coef": [
+    2,
+    2,
+    1
+   ],
+   "hint": "Oxygen gas is diatomic.",
+   "states": {
+    "H2O2": "aq",
+    "H2O": "l",
+    "O2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 8
+  }
+ },
+ {
+  "id": "reactions-c5bef405",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: KClO3 →",
+  "answer": "2 KClO3(s) → 2 KCl(s) + 3 O2(g)",
+  "hint": "Chlorate decomposes to chloride and oxygen.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "KClO3"
+   ],
+   "p": [
+    "KCl",
+    "O2"
+   ],
+   "coef": [
+    2,
+    2,
+    3
+   ],
+   "hint": "Chlorate decomposes to chloride and oxygen.",
+   "states": {
+    "KClO3": "s",
+    "KCl": "s",
+    "O2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 9
+  }
+ },
+ {
+  "id": "reactions-af19556e",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: CaCO3 →",
+  "answer": "CaCO3(s) → CaO(s) + CO2(g)",
+  "hint": "Carbonates can decompose to metal oxide and CO₂.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "CaCO3"
+   ],
+   "p": [
+    "CaO",
+    "CO2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Carbonates can decompose to metal oxide and CO₂.",
+   "states": {
+    "CaCO3": "s",
+    "CaO": "s",
+    "CO2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 10
+  }
+ },
+ {
+  "id": "reactions-f4ddb95c",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: NaHCO3 →",
+  "answer": "2 NaHCO3(s) → Na2CO3(s) + CO2(g) + H2O(l)",
+  "hint": "Bicarbonate decomposes to carbonate, CO₂ and water.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "NaHCO3"
+   ],
+   "p": [
+    "Na2CO3",
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    1,
+    1,
+    1
+   ],
+   "hint": "Bicarbonate decomposes to carbonate, CO₂ and water.",
+   "states": {
+    "NaHCO3": "s",
+    "Na2CO3": "s",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 11
+  }
+ },
+ {
+  "id": "reactions-42f38579",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: HgO →",
+  "answer": "2 HgO(s) → 2 Hg(l) + O2(g)",
+  "hint": "Elemental oxygen is diatomic.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "HgO"
+   ],
+   "p": [
+    "Hg",
+    "O2"
+   ],
+   "coef": [
+    2,
+    2,
+    1
+   ],
+   "hint": "Elemental oxygen is diatomic.",
+   "states": {
+    "HgO": "s",
+    "Hg": "l",
+    "O2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 12
+  }
+ },
+ {
+  "id": "reactions-17e98a77",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: H2CO3 →",
+  "answer": "H2CO3(aq) → CO2(g) + H2O(l)",
+  "hint": "Carbonic acid breaks down into gas and water.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "H2CO3"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Carbonic acid breaks down into gas and water.",
+   "states": {
+    "H2CO3": "aq",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 13
+  }
+ },
+ {
+  "id": "reactions-a99b2342",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Zn + HCl →",
+  "answer": "Zn(s) + 2 HCl(aq) → ZnCl2(aq) + H2(g)",
+  "hint": "Zinc displaces hydrogen from acid; H₂ is diatomic.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Zn",
+    "HCl"
+   ],
+   "p": [
+    "ZnCl2",
+    "H2"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    1
+   ],
+   "hint": "Zinc displaces hydrogen from acid; H₂ is diatomic.",
+   "states": {
+    "Zn": "s",
+    "HCl": "aq",
+    "ZnCl2": "aq",
+    "H2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 14
+  }
+ },
+ {
+  "id": "reactions-674def2f",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Mg + H2SO4 →",
+  "answer": "Mg(s) + H2SO4(aq) → MgSO4(aq) + H2(g)",
+  "hint": "Mg²⁺ pairs with SO₄²⁻.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Mg",
+    "H2SO4"
+   ],
+   "p": [
+    "MgSO4",
+    "H2"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Mg²⁺ pairs with SO₄²⁻.",
+   "states": {
+    "Mg": "s",
+    "H2SO4": "aq",
+    "MgSO4": "aq",
+    "H2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 15
+  }
+ },
+ {
+  "id": "reactions-a8373c69",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Fe + CuSO4 →",
+  "answer": "Fe(s) + CuSO4(aq) → FeSO4(aq) + Cu(s)",
+  "hint": "Iron displaces copper, producing iron(II) sulfate.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Fe",
+    "CuSO4"
+   ],
+   "p": [
+    "FeSO4",
+    "Cu"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Iron displaces copper, producing iron(II) sulfate.",
+   "states": {
+    "Fe": "s",
+    "CuSO4": "aq",
+    "FeSO4": "aq",
+    "Cu": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 16
+  }
+ },
+ {
+  "id": "reactions-18589615",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Cu + AgNO3 →",
+  "answer": "Cu(s) + 2 AgNO3(aq) → Cu(NO3)2(aq) + 2 Ag(s)",
+  "hint": "Copper(II) nitrate is Cu(NO₃)₂.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Cu",
+    "AgNO3"
+   ],
+   "p": [
+    "Cu(NO3)2",
+    "Ag"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    2
+   ],
+   "hint": "Copper(II) nitrate is Cu(NO₃)₂.",
+   "states": {
+    "Cu": "s",
+    "AgNO3": "aq",
+    "Cu(NO3)2": "aq",
+    "Ag": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 17
+  }
+ },
+ {
+  "id": "reactions-fa4dbee4",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Al + CuCl2 →",
+  "answer": "2 Al(s) + 3 CuCl2(aq) → 2 AlCl3(aq) + 3 Cu(s)",
+  "hint": "Al³⁺ and Cl⁻ form AlCl₃.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Al",
+    "CuCl2"
+   ],
+   "p": [
+    "AlCl3",
+    "Cu"
+   ],
+   "coef": [
+    2,
+    3,
+    2,
+    3
+   ],
+   "hint": "Al³⁺ and Cl⁻ form AlCl₃.",
+   "states": {
+    "Al": "s",
+    "CuCl2": "aq",
+    "AlCl3": "aq",
+    "Cu": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 18
+  }
+ },
+ {
+  "id": "reactions-cb318441",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Cl2 + KI →",
+  "answer": "Cl2(g) + 2 KI(aq) → 2 KCl(aq) + I2(s)",
+  "hint": "Chlorine displaces iodide; iodine is I₂.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Cl2",
+    "KI"
+   ],
+   "p": [
+    "KCl",
+    "I2"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1
+   ],
+   "hint": "Chlorine displaces iodide; iodine is I₂.",
+   "states": {
+    "Cl2": "g",
+    "KI": "aq",
+    "KCl": "aq",
+    "I2": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 19
+  }
+ },
+ {
+  "id": "reactions-b424951f",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: AgNO3 + NaCl →",
+  "answer": "AgNO3(aq) + NaCl(aq) → AgCl(s) + NaNO3(aq)",
+  "hint": "AgCl is insoluble on the green sheet.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "AgNO3",
+    "NaCl"
+   ],
+   "p": [
+    "AgCl",
+    "NaNO3"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "AgCl is insoluble on the green sheet.",
+   "states": {
+    "AgNO3": "aq",
+    "NaCl": "aq",
+    "AgCl": "s",
+    "NaNO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 20
+  }
+ },
+ {
+  "id": "reactions-3d85846e",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Pb(NO3)2 + KI →",
+  "answer": "Pb(NO3)2(aq) + 2 KI(aq) → PbI2(s) + 2 KNO3(aq)",
+  "hint": "Pb²⁺ and I⁻ form PbI₂.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "Pb(NO3)2",
+    "KI"
+   ],
+   "p": [
+    "PbI2",
+    "KNO3"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    2
+   ],
+   "hint": "Pb²⁺ and I⁻ form PbI₂.",
+   "states": {
+    "Pb(NO3)2": "aq",
+    "KI": "aq",
+    "PbI2": "s",
+    "KNO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 21
+  }
+ },
+ {
+  "id": "reactions-328f53fd",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: BaCl2 + Na2SO4 →",
+  "answer": "BaCl2(aq) + Na2SO4(aq) → BaSO4(s) + 2 NaCl(aq)",
+  "hint": "BaSO₄ is insoluble.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "BaCl2",
+    "Na2SO4"
+   ],
+   "p": [
+    "BaSO4",
+    "NaCl"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "hint": "BaSO₄ is insoluble.",
+   "states": {
+    "BaCl2": "aq",
+    "Na2SO4": "aq",
+    "BaSO4": "s",
+    "NaCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 22
+  }
+ },
+ {
+  "id": "reactions-974be07d",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: CaCl2 + Na2CO3 →",
+  "answer": "CaCl2(aq) + Na2CO3(aq) → CaCO3(s) + 2 NaCl(aq)",
+  "hint": "Carbonates are insoluble except Group 1 and ammonium.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "CaCl2",
+    "Na2CO3"
+   ],
+   "p": [
+    "CaCO3",
+    "NaCl"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "hint": "Carbonates are insoluble except Group 1 and ammonium.",
+   "states": {
+    "CaCl2": "aq",
+    "Na2CO3": "aq",
+    "CaCO3": "s",
+    "NaCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 23
+  }
+ },
+ {
+  "id": "reactions-2de77862",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: FeCl3 + NaOH →",
+  "answer": "FeCl3(aq) + 3 NaOH(aq) → Fe(OH)3(s) + 3 NaCl(aq)",
+  "hint": "Fe³⁺ needs three OH⁻ ions.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "FeCl3",
+    "NaOH"
+   ],
+   "p": [
+    "Fe(OH)3",
+    "NaCl"
+   ],
+   "coef": [
+    1,
+    3,
+    1,
+    3
+   ],
+   "hint": "Fe³⁺ needs three OH⁻ ions.",
+   "states": {
+    "FeCl3": "aq",
+    "NaOH": "aq",
+    "Fe(OH)3": "s",
+    "NaCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 24
+  }
+ },
+ {
+  "id": "reactions-9ed0f612",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: CuSO4 + NaOH →",
+  "answer": "CuSO4(aq) + 2 NaOH(aq) → Cu(OH)2(s) + Na2SO4(aq)",
+  "hint": "Cu²⁺ pairs with two hydroxides.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "CuSO4",
+    "NaOH"
+   ],
+   "p": [
+    "Cu(OH)2",
+    "Na2SO4"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    1
+   ],
+   "hint": "Cu²⁺ pairs with two hydroxides.",
+   "states": {
+    "CuSO4": "aq",
+    "NaOH": "aq",
+    "Cu(OH)2": "s",
+    "Na2SO4": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 25
+  }
+ },
+ {
+  "id": "reactions-857c122c",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Al2(SO4)3 + BaCl2 →",
+  "answer": "Al2(SO4)3(aq) + 3 BaCl2(aq) → 2 AlCl3(aq) + 3 BaSO4(s)",
+  "hint": "Balance BaSO₄ and AlCl₃ before the reactants.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "Al2(SO4)3",
+    "BaCl2"
+   ],
+   "p": [
+    "AlCl3",
+    "BaSO4"
+   ],
+   "coef": [
+    1,
+    3,
+    2,
+    3
+   ],
+   "hint": "Balance BaSO₄ and AlCl₃ before the reactants.",
+   "states": {
+    "Al2(SO4)3": "aq",
+    "BaCl2": "aq",
+    "AlCl3": "aq",
+    "BaSO4": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 26
+  }
+ },
+ {
+  "id": "reactions-cbc704e9",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: CH4 + O2 →",
+  "answer": "CH4(g) + 2 O2(g) → CO2(g) + 2 H2O(l)",
+  "hint": "Balance carbon, then hydrogen, then oxygen.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "CH4",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    2
+   ],
+   "hint": "Balance carbon, then hydrogen, then oxygen.",
+   "states": {
+    "CH4": "g",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 27
+  }
+ },
+ {
+  "id": "reactions-fb5733b7",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C2H6 + O2 →",
+  "answer": "2 C2H6(g) + 7 O2(g) → 4 CO2(g) + 6 H2O(l)",
+  "hint": "You may need to double every coefficient to remove a fraction.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C2H6",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    7,
+    4,
+    6
+   ],
+   "hint": "You may need to double every coefficient to remove a fraction.",
+   "states": {
+    "C2H6": "g",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 28
+  }
+ },
+ {
+  "id": "reactions-1650ae6e",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C3H8 + O2 →",
+  "answer": "C3H8(g) + 5 O2(g) → 3 CO2(g) + 4 H2O(l)",
+  "hint": "There are three carbons and eight hydrogens.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C3H8",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    5,
+    3,
+    4
+   ],
+   "hint": "There are three carbons and eight hydrogens.",
+   "states": {
+    "C3H8": "g",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 29
+  }
+ },
+ {
+  "id": "reactions-ec0dfd16",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C4H10 + O2 →",
+  "answer": "2 C4H10(g) + 13 O2(g) → 8 CO2(g) + 10 H2O(l)",
+  "hint": "Remove any fractional O₂ coefficient at the end.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C4H10",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    13,
+    8,
+    10
+   ],
+   "hint": "Remove any fractional O₂ coefficient at the end.",
+   "states": {
+    "C4H10": "g",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 30
+  }
+ },
+ {
+  "id": "reactions-2800ce6e",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C2H4 + O2 →",
+  "answer": "C2H4(g) + 3 O2(g) → 2 CO2(g) + 2 H2O(l)",
+  "hint": "Balance C, then H, then O.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C2H4",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    3,
+    2,
+    2
+   ],
+   "hint": "Balance C, then H, then O.",
+   "states": {
+    "C2H4": "g",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 31
+  }
+ },
+ {
+  "id": "reactions-c0abb1b1",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C2H2 + O2 →",
+  "answer": "2 C2H2(g) + 5 O2(g) → 4 CO2(g) + 2 H2O(l)",
+  "hint": "Use the smallest whole-number coefficients.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C2H2",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    5,
+    4,
+    2
+   ],
+   "hint": "Use the smallest whole-number coefficients.",
+   "states": {
+    "C2H2": "g",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 32
+  }
+ },
+ {
+  "id": "reactions-d7ff90bf",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: HCl + NaOH →",
+  "answer": "HCl(aq) + NaOH(aq) → NaCl(aq) + H2O(l)",
+  "hint": "H⁺ combines with OH⁻ to form water.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "HCl",
+    "NaOH"
+   ],
+   "p": [
+    "NaCl",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "H⁺ combines with OH⁻ to form water.",
+   "states": {
+    "HCl": "aq",
+    "NaOH": "aq",
+    "NaCl": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 33
+  }
+ },
+ {
+  "id": "reactions-4ab58f8f",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: H2SO4 + KOH →",
+  "answer": "H2SO4(aq) + 2 KOH(aq) → K2SO4(aq) + 2 H2O(l)",
+  "hint": "Sulfuric acid has two acidic hydrogens.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "H2SO4",
+    "KOH"
+   ],
+   "p": [
+    "K2SO4",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    2
+   ],
+   "hint": "Sulfuric acid has two acidic hydrogens.",
+   "states": {
+    "H2SO4": "aq",
+    "KOH": "aq",
+    "K2SO4": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 34
+  }
+ },
+ {
+  "id": "reactions-13e8f957",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: HNO3 + Ca(OH)2 →",
+  "answer": "2 HNO3(aq) + Ca(OH)2(aq) → Ca(NO3)2(aq) + 2 H2O(l)",
+  "hint": "Calcium hydroxide supplies two OH⁻ ions.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "HNO3",
+    "Ca(OH)2"
+   ],
+   "p": [
+    "Ca(NO3)2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    1,
+    1,
+    2
+   ],
+   "hint": "Calcium hydroxide supplies two OH⁻ ions.",
+   "states": {
+    "HNO3": "aq",
+    "Ca(OH)2": "aq",
+    "Ca(NO3)2": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 35
+  }
+ },
+ {
+  "id": "reactions-930c99b8",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: H3PO4 + NaOH →",
+  "answer": "H3PO4(aq) + 3 NaOH(aq) → Na3PO4(aq) + 3 H2O(l)",
+  "hint": "Complete neutralization requires three hydroxides.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "H3PO4",
+    "NaOH"
+   ],
+   "p": [
+    "Na3PO4",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    3,
+    1,
+    3
+   ],
+   "hint": "Complete neutralization requires three hydroxides.",
+   "states": {
+    "H3PO4": "aq",
+    "NaOH": "aq",
+    "Na3PO4": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 36
+  }
+ },
+ {
+  "id": "reactions-44f057f3",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: HBr + Ba(OH)2 →",
+  "answer": "2 HBr(aq) + Ba(OH)2(aq) → BaBr2(aq) + 2 H2O(l)",
+  "hint": "Barium hydroxide supplies two OH⁻ ions.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "HBr",
+    "Ba(OH)2"
+   ],
+   "p": [
+    "BaBr2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    1,
+    1,
+    2
+   ],
+   "hint": "Barium hydroxide supplies two OH⁻ ions.",
+   "states": {
+    "HBr": "aq",
+    "Ba(OH)2": "aq",
+    "BaBr2": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 37
+  }
+ },
+ {
+  "id": "reactions-dd2e08bb",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Na2CO3 + HCl →",
+  "answer": "Na2CO3(aq) + 2 HCl(aq) → 2 NaCl(aq) + CO2(g) + H2O(l)",
+  "hint": "H₂CO₃ breaks into CO₂ and H₂O.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "Na2CO3",
+    "HCl"
+   ],
+   "p": [
+    "NaCl",
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1,
+    1
+   ],
+   "hint": "H₂CO₃ breaks into CO₂ and H₂O.",
+   "states": {
+    "Na2CO3": "aq",
+    "HCl": "aq",
+    "NaCl": "aq",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 38
+  }
+ },
+ {
+  "id": "reactions-b5e9a54a",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: CaCO3 + HNO3 →",
+  "answer": "CaCO3(s) + 2 HNO3(aq) → Ca(NO3)2(aq) + CO2(g) + H2O(l)",
+  "hint": "Carbonate + acid produces carbon dioxide.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "CaCO3",
+    "HNO3"
+   ],
+   "p": [
+    "Ca(NO3)2",
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    1,
+    1
+   ],
+   "hint": "Carbonate + acid produces carbon dioxide.",
+   "states": {
+    "CaCO3": "s",
+    "HNO3": "aq",
+    "Ca(NO3)2": "aq",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 39
+  }
+ },
+ {
+  "id": "reactions-2f68e426",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Na2SO3 + HCl →",
+  "answer": "Na2SO3(aq) + 2 HCl(aq) → 2 NaCl(aq) + SO2(g) + H2O(l)",
+  "hint": "H₂SO₃ breaks into SO₂ and H₂O.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "Na2SO3",
+    "HCl"
+   ],
+   "p": [
+    "NaCl",
+    "SO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1,
+    1
+   ],
+   "hint": "H₂SO₃ breaks into SO₂ and H₂O.",
+   "states": {
+    "Na2SO3": "aq",
+    "HCl": "aq",
+    "NaCl": "aq",
+    "SO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 40
+  }
+ },
+ {
+  "id": "reactions-d50981ac",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: K2SO3 + HNO3 →",
+  "answer": "K2SO3(aq) + 2 HNO3(aq) → 2 KNO3(aq) + SO2(g) + H2O(l)",
+  "hint": "Sulfite + acid produces sulfur dioxide.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "K2SO3",
+    "HNO3"
+   ],
+   "p": [
+    "KNO3",
+    "SO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1,
+    1
+   ],
+   "hint": "Sulfite + acid produces sulfur dioxide.",
+   "states": {
+    "K2SO3": "aq",
+    "HNO3": "aq",
+    "KNO3": "aq",
+    "SO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 41
+  }
+ },
+ {
+  "id": "reactions-f4bbb0a0",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Na2S + HCl →",
+  "answer": "Na2S(aq) + 2 HCl(aq) → 2 NaCl(aq) + H2S(g)",
+  "hint": "Sulfide + acid produces hydrogen sulfide gas.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "Na2S",
+    "HCl"
+   ],
+   "p": [
+    "NaCl",
+    "H2S"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1
+   ],
+   "hint": "Sulfide + acid produces hydrogen sulfide gas.",
+   "states": {
+    "Na2S": "aq",
+    "HCl": "aq",
+    "NaCl": "aq",
+    "H2S": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 42
+  }
+ },
+ {
+  "id": "reactions-e36aa55b",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: FeS + HCl →",
+  "answer": "FeS(s) + 2 HCl(aq) → FeCl2(aq) + H2S(g)",
+  "hint": "Iron(II) sulfide and acid release H₂S.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "FeS",
+    "HCl"
+   ],
+   "p": [
+    "FeCl2",
+    "H2S"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    1
+   ],
+   "hint": "Iron(II) sulfide and acid release H₂S.",
+   "states": {
+    "FeS": "s",
+    "HCl": "aq",
+    "FeCl2": "aq",
+    "H2S": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 43
+  }
+ },
+ {
+  "id": "reactions-834229d5",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: NH4Cl + NaOH →",
+  "answer": "NH4Cl(aq) + NaOH(aq) → NaCl(aq) + NH3(g) + H2O(l)",
+  "hint": "Ammonium + strong base produces NH₃ and H₂O.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "NH4Cl",
+    "NaOH"
+   ],
+   "p": [
+    "NaCl",
+    "NH3",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Ammonium + strong base produces NH₃ and H₂O.",
+   "states": {
+    "NH4Cl": "aq",
+    "NaOH": "aq",
+    "NaCl": "aq",
+    "NH3": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 44
+  }
+ },
+ {
+  "id": "reactions-114cfe60",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: (NH4)2SO4 + KOH →",
+  "answer": "(NH4)2SO4(aq) + 2 KOH(aq) → K2SO4(aq) + 2 NH3(g) + 2 H2O(l)",
+  "hint": "There are two ammonium ions in the reactant.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "(NH4)2SO4",
+    "KOH"
+   ],
+   "p": [
+    "K2SO4",
+    "NH3",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    2,
+    2
+   ],
+   "hint": "There are two ammonium ions in the reactant.",
+   "states": {
+    "(NH4)2SO4": "aq",
+    "KOH": "aq",
+    "K2SO4": "aq",
+    "NH3": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 45
+  }
+ },
+ {
+  "id": "reactions-cf612673",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Li + F2 →",
+  "answer": "2 Li(s) + F2(g) → 2 LiF(s)",
+  "hint": "Fluorine is F₂; lithium fluoride is LiF.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Li",
+    "F2"
+   ],
+   "p": [
+    "LiF"
+   ],
+   "coef": [
+    2,
+    1,
+    2
+   ],
+   "hint": "Fluorine is F₂; lithium fluoride is LiF.",
+   "states": {
+    "Li": "s",
+    "F2": "g",
+    "LiF": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 46
+  }
+ },
+ {
+  "id": "reactions-82080dc3",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: K + Br2 →",
+  "answer": "2 K(s) + Br2(l) → 2 KBr(s)",
+  "hint": "Bromine is Br₂.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "K",
+    "Br2"
+   ],
+   "p": [
+    "KBr"
+   ],
+   "coef": [
+    2,
+    1,
+    2
+   ],
+   "hint": "Bromine is Br₂.",
+   "states": {
+    "K": "s",
+    "Br2": "l",
+    "KBr": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 47
+  }
+ },
+ {
+  "id": "reactions-8d5a0f93",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Ca + Cl2 →",
+  "answer": "Ca(s) + Cl2(g) → CaCl2(s)",
+  "hint": "Calcium is 2+ and chloride is 1−.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Ca",
+    "Cl2"
+   ],
+   "p": [
+    "CaCl2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Calcium is 2+ and chloride is 1−.",
+   "states": {
+    "Ca": "s",
+    "Cl2": "g",
+    "CaCl2": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 48
+  }
+ },
+ {
+  "id": "reactions-ac017464",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Sr + O2 →",
+  "answer": "2 Sr(s) + O2(g) → 2 SrO(s)",
+  "hint": "Strontium oxide contains Sr²⁺ and O²⁻.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Sr",
+    "O2"
+   ],
+   "p": [
+    "SrO"
+   ],
+   "coef": [
+    2,
+    1,
+    2
+   ],
+   "hint": "Strontium oxide contains Sr²⁺ and O²⁻.",
+   "states": {
+    "Sr": "s",
+    "O2": "g",
+    "SrO": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 49
+  }
+ },
+ {
+  "id": "reactions-dfb240fd",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Ba + Cl2 →",
+  "answer": "Ba(s) + Cl2(g) → BaCl2(s)",
+  "hint": "Barium forms Ba²⁺.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Ba",
+    "Cl2"
+   ],
+   "p": [
+    "BaCl2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Barium forms Ba²⁺.",
+   "states": {
+    "Ba": "s",
+    "Cl2": "g",
+    "BaCl2": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 50
+  }
+ },
+ {
+  "id": "reactions-cbc4514b",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Mg + Cl2 →",
+  "answer": "Mg(s) + Cl2(g) → MgCl2(s)",
+  "hint": "Magnesium forms Mg²⁺.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Mg",
+    "Cl2"
+   ],
+   "p": [
+    "MgCl2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Magnesium forms Mg²⁺.",
+   "states": {
+    "Mg": "s",
+    "Cl2": "g",
+    "MgCl2": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 51
+  }
+ },
+ {
+  "id": "reactions-20a829b5",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Al + O2 →",
+  "answer": "4 Al(s) + 3 O2(g) → 2 Al2O3(s)",
+  "hint": "Aluminum forms Al³⁺ and oxide O²⁻.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Al",
+    "O2"
+   ],
+   "p": [
+    "Al2O3"
+   ],
+   "coef": [
+    4,
+    3,
+    2
+   ],
+   "hint": "Aluminum forms Al³⁺ and oxide O²⁻.",
+   "states": {
+    "Al": "s",
+    "O2": "g",
+    "Al2O3": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 52
+  }
+ },
+ {
+  "id": "reactions-001fd6f9",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Fe + Cl2 →",
+  "answer": "2 Fe(s) + 3 Cl2(g) → 2 FeCl3(s)",
+  "hint": "This reaction forms iron(III) chloride.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Fe",
+    "Cl2"
+   ],
+   "p": [
+    "FeCl3"
+   ],
+   "coef": [
+    2,
+    3,
+    2
+   ],
+   "hint": "This reaction forms iron(III) chloride.",
+   "states": {
+    "Fe": "s",
+    "Cl2": "g",
+    "FeCl3": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 53
+  }
+ },
+ {
+  "id": "reactions-0d8998a4",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: P4 + O2 →",
+  "answer": "P4(s) + 5 O2(g) → P4O10(s)",
+  "hint": "Elemental phosphorus is P₄ here.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "P4",
+    "O2"
+   ],
+   "p": [
+    "P4O10"
+   ],
+   "coef": [
+    1,
+    5,
+    1
+   ],
+   "hint": "Elemental phosphorus is P₄ here.",
+   "states": {
+    "P4": "s",
+    "O2": "g",
+    "P4O10": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 54
+  }
+ },
+ {
+  "id": "reactions-972cfcc1",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C + O2 →",
+  "answer": "C(s) + O2(g) → CO2(g)",
+  "hint": "Carbon burns in excess oxygen.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "C",
+    "O2"
+   ],
+   "p": [
+    "CO2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Carbon burns in excess oxygen.",
+   "states": {
+    "C": "s",
+    "O2": "g",
+    "CO2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 55
+  }
+ },
+ {
+  "id": "reactions-f224d3cc",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: S + O2 →",
+  "answer": "S(s) + O2(g) → SO2(g)",
+  "hint": "Sulfur burns to sulfur dioxide.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "S",
+    "O2"
+   ],
+   "p": [
+    "SO2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Sulfur burns to sulfur dioxide.",
+   "states": {
+    "S": "s",
+    "O2": "g",
+    "SO2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 56
+  }
+ },
+ {
+  "id": "reactions-8baa27bc",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: CO2 + H2O →",
+  "answer": "CO2(g) + H2O(l) → H2CO3(aq)",
+  "hint": "Carbon dioxide and water form carbonic acid.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "CO2",
+    "H2O"
+   ],
+   "p": [
+    "H2CO3"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Carbon dioxide and water form carbonic acid.",
+   "states": {
+    "CO2": "g",
+    "H2O": "l",
+    "H2CO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 57
+  }
+ },
+ {
+  "id": "reactions-201b2182",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: CaO + H2O →",
+  "answer": "CaO(s) + H2O(l) → Ca(OH)2(s)",
+  "hint": "A metal oxide plus water forms a hydroxide.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "CaO",
+    "H2O"
+   ],
+   "p": [
+    "Ca(OH)2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "A metal oxide plus water forms a hydroxide.",
+   "states": {
+    "CaO": "s",
+    "H2O": "l",
+    "Ca(OH)2": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 58
+  }
+ },
+ {
+  "id": "reactions-fe13e958",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Ca(OH)2 →",
+  "answer": "Ca(OH)2(s) → CaO(s) + H2O(l)",
+  "hint": "A hydroxide can form an oxide and water.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "Ca(OH)2"
+   ],
+   "p": [
+    "CaO",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "A hydroxide can form an oxide and water.",
+   "states": {
+    "Ca(OH)2": "s",
+    "CaO": "s",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 59
+  }
+ },
+ {
+  "id": "reactions-cd1afdae",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: MgCO3 →",
+  "answer": "MgCO3(s) → MgO(s) + CO2(g)",
+  "hint": "Carbonate decomposes to oxide and CO₂.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "MgCO3"
+   ],
+   "p": [
+    "MgO",
+    "CO2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Carbonate decomposes to oxide and CO₂.",
+   "states": {
+    "MgCO3": "s",
+    "MgO": "s",
+    "CO2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 60
+  }
+ },
+ {
+  "id": "reactions-04f49a26",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: ZnCO3 →",
+  "answer": "ZnCO3(s) → ZnO(s) + CO2(g)",
+  "hint": "Carbonate decomposes to oxide and CO₂.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "ZnCO3"
+   ],
+   "p": [
+    "ZnO",
+    "CO2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Carbonate decomposes to oxide and CO₂.",
+   "states": {
+    "ZnCO3": "s",
+    "ZnO": "s",
+    "CO2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 61
+  }
+ },
+ {
+  "id": "reactions-c8b98257",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: SrCO3 →",
+  "answer": "SrCO3(s) → SrO(s) + CO2(g)",
+  "hint": "Strontium carbonate decomposes to its oxide and CO₂.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "SrCO3"
+   ],
+   "p": [
+    "SrO",
+    "CO2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Strontium carbonate decomposes to its oxide and CO₂.",
+   "states": {
+    "SrCO3": "s",
+    "SrO": "s",
+    "CO2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 62
+  }
+ },
+ {
+  "id": "reactions-bc673425",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: CuCO3 →",
+  "answer": "CuCO3(s) → CuO(s) + CO2(g)",
+  "hint": "Copper(II) carbonate yields copper(II) oxide.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "CuCO3"
+   ],
+   "p": [
+    "CuO",
+    "CO2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Copper(II) carbonate yields copper(II) oxide.",
+   "states": {
+    "CuCO3": "s",
+    "CuO": "s",
+    "CO2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 63
+  }
+ },
+ {
+  "id": "reactions-69cd30d9",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Ag2O →",
+  "answer": "2 Ag2O(s) → 4 Ag(s) + O2(g)",
+  "hint": "Remember elemental oxygen is O₂.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "Ag2O"
+   ],
+   "p": [
+    "Ag",
+    "O2"
+   ],
+   "coef": [
+    2,
+    4,
+    1
+   ],
+   "hint": "Remember elemental oxygen is O₂.",
+   "states": {
+    "Ag2O": "s",
+    "Ag": "s",
+    "O2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 64
+  }
+ },
+ {
+  "id": "reactions-e6842ced",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: NaClO3 →",
+  "answer": "2 NaClO3(s) → 2 NaCl(s) + 3 O2(g)",
+  "hint": "Chlorate decomposes to chloride and oxygen.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "NaClO3"
+   ],
+   "p": [
+    "NaCl",
+    "O2"
+   ],
+   "coef": [
+    2,
+    2,
+    3
+   ],
+   "hint": "Chlorate decomposes to chloride and oxygen.",
+   "states": {
+    "NaClO3": "s",
+    "NaCl": "s",
+    "O2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 65
+  }
+ },
+ {
+  "id": "reactions-998f7cd5",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: KNO3 →",
+  "answer": "2 KNO3(s) → 2 KNO2(s) + O2(g)",
+  "hint": "This nitrate decomposes to nitrite and oxygen.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "KNO3"
+   ],
+   "p": [
+    "KNO2",
+    "O2"
+   ],
+   "coef": [
+    2,
+    2,
+    1
+   ],
+   "hint": "This nitrate decomposes to nitrite and oxygen.",
+   "states": {
+    "KNO3": "s",
+    "KNO2": "s",
+    "O2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 66
+  }
+ },
+ {
+  "id": "reactions-324e73ff",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Mg(OH)2 →",
+  "answer": "Mg(OH)2(s) → MgO(s) + H2O(l)",
+  "hint": "Hydroxide decomposes into oxide and water.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "Mg(OH)2"
+   ],
+   "p": [
+    "MgO",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Hydroxide decomposes into oxide and water.",
+   "states": {
+    "Mg(OH)2": "s",
+    "MgO": "s",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 67
+  }
+ },
+ {
+  "id": "reactions-1c7042ff",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Zn + CuSO4 →",
+  "answer": "Zn(s) + CuSO4(aq) → ZnSO4(aq) + Cu(s)",
+  "hint": "Zinc displaces copper.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Zn",
+    "CuSO4"
+   ],
+   "p": [
+    "ZnSO4",
+    "Cu"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Zinc displaces copper.",
+   "states": {
+    "Zn": "s",
+    "CuSO4": "aq",
+    "ZnSO4": "aq",
+    "Cu": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 68
+  }
+ },
+ {
+  "id": "reactions-e305d2fc",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Mg + CuCl2 →",
+  "answer": "Mg(s) + CuCl2(aq) → MgCl2(aq) + Cu(s)",
+  "hint": "Magnesium displaces copper.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Mg",
+    "CuCl2"
+   ],
+   "p": [
+    "MgCl2",
+    "Cu"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Magnesium displaces copper.",
+   "states": {
+    "Mg": "s",
+    "CuCl2": "aq",
+    "MgCl2": "aq",
+    "Cu": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 69
+  }
+ },
+ {
+  "id": "reactions-2684f0d3",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Fe + HCl →",
+  "answer": "Fe(s) + 2 HCl(aq) → FeCl2(aq) + H2(g)",
+  "hint": "Iron forms Fe²⁺ in this example.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Fe",
+    "HCl"
+   ],
+   "p": [
+    "FeCl2",
+    "H2"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    1
+   ],
+   "hint": "Iron forms Fe²⁺ in this example.",
+   "states": {
+    "Fe": "s",
+    "HCl": "aq",
+    "FeCl2": "aq",
+    "H2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 70
+  }
+ },
+ {
+  "id": "reactions-f474b64b",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Al + HCl →",
+  "answer": "2 Al(s) + 6 HCl(aq) → 2 AlCl3(aq) + 3 H2(g)",
+  "hint": "Aluminum forms Al³⁺; H₂ is diatomic.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Al",
+    "HCl"
+   ],
+   "p": [
+    "AlCl3",
+    "H2"
+   ],
+   "coef": [
+    2,
+    6,
+    2,
+    3
+   ],
+   "hint": "Aluminum forms Al³⁺; H₂ is diatomic.",
+   "states": {
+    "Al": "s",
+    "HCl": "aq",
+    "AlCl3": "aq",
+    "H2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 71
+  }
+ },
+ {
+  "id": "reactions-7c00461c",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Ca + HCl →",
+  "answer": "Ca(s) + 2 HCl(aq) → CaCl2(aq) + H2(g)",
+  "hint": "Calcium forms Ca²⁺.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Ca",
+    "HCl"
+   ],
+   "p": [
+    "CaCl2",
+    "H2"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    1
+   ],
+   "hint": "Calcium forms Ca²⁺.",
+   "states": {
+    "Ca": "s",
+    "HCl": "aq",
+    "CaCl2": "aq",
+    "H2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 72
+  }
+ },
+ {
+  "id": "reactions-d4703418",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Zn + AgNO3 →",
+  "answer": "Zn(s) + 2 AgNO3(aq) → Zn(NO3)2(aq) + 2 Ag(s)",
+  "hint": "Zinc replaces silver; nitrate remains intact.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Zn",
+    "AgNO3"
+   ],
+   "p": [
+    "Zn(NO3)2",
+    "Ag"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    2
+   ],
+   "hint": "Zinc replaces silver; nitrate remains intact.",
+   "states": {
+    "Zn": "s",
+    "AgNO3": "aq",
+    "Zn(NO3)2": "aq",
+    "Ag": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 73
+  }
+ },
+ {
+  "id": "reactions-48d8172e",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Mg + AgNO3 →",
+  "answer": "Mg(s) + 2 AgNO3(aq) → Mg(NO3)2(aq) + 2 Ag(s)",
+  "hint": "Magnesium forms a 2+ ion.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Mg",
+    "AgNO3"
+   ],
+   "p": [
+    "Mg(NO3)2",
+    "Ag"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    2
+   ],
+   "hint": "Magnesium forms a 2+ ion.",
+   "states": {
+    "Mg": "s",
+    "AgNO3": "aq",
+    "Mg(NO3)2": "aq",
+    "Ag": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 74
+  }
+ },
+ {
+  "id": "reactions-25195615",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Br2 + KI →",
+  "answer": "Br2(l) + 2 KI(aq) → 2 KBr(aq) + I2(s)",
+  "hint": "Bromine displaces iodide; iodine is diatomic.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Br2",
+    "KI"
+   ],
+   "p": [
+    "KBr",
+    "I2"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1
+   ],
+   "hint": "Bromine displaces iodide; iodine is diatomic.",
+   "states": {
+    "Br2": "l",
+    "KI": "aq",
+    "KBr": "aq",
+    "I2": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 75
+  }
+ },
+ {
+  "id": "reactions-81ba3fab",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Cl2 + KBr →",
+  "answer": "Cl2(g) + 2 KBr(aq) → 2 KCl(aq) + Br2(l)",
+  "hint": "Chlorine displaces bromide.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Cl2",
+    "KBr"
+   ],
+   "p": [
+    "KCl",
+    "Br2"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1
+   ],
+   "hint": "Chlorine displaces bromide.",
+   "states": {
+    "Cl2": "g",
+    "KBr": "aq",
+    "KCl": "aq",
+    "Br2": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 76
+  }
+ },
+ {
+  "id": "reactions-057973e4",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Al + FeCl3 →",
+  "answer": "Al(s) + FeCl3(aq) → AlCl3(aq) + Fe(s)",
+  "hint": "Aluminum displaces iron.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Al",
+    "FeCl3"
+   ],
+   "p": [
+    "AlCl3",
+    "Fe"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Aluminum displaces iron.",
+   "states": {
+    "Al": "s",
+    "FeCl3": "aq",
+    "AlCl3": "aq",
+    "Fe": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 77
+  }
+ },
+ {
+  "id": "reactions-d281d6bf",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: AgNO3 + KBr →",
+  "answer": "AgNO3(aq) + KBr(aq) → AgBr(s) + KNO3(aq)",
+  "hint": "Silver bromide is insoluble.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "AgNO3",
+    "KBr"
+   ],
+   "p": [
+    "AgBr",
+    "KNO3"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Silver bromide is insoluble.",
+   "states": {
+    "AgNO3": "aq",
+    "KBr": "aq",
+    "AgBr": "s",
+    "KNO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 78
+  }
+ },
+ {
+  "id": "reactions-10b0fff9",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: AgNO3 + KI →",
+  "answer": "AgNO3(aq) + KI(aq) → AgI(s) + KNO3(aq)",
+  "hint": "Silver iodide is insoluble.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "AgNO3",
+    "KI"
+   ],
+   "p": [
+    "AgI",
+    "KNO3"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Silver iodide is insoluble.",
+   "states": {
+    "AgNO3": "aq",
+    "KI": "aq",
+    "AgI": "s",
+    "KNO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 79
+  }
+ },
+ {
+  "id": "reactions-0cf71361",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Pb(NO3)2 + NaCl →",
+  "answer": "Pb(NO3)2(aq) + 2 NaCl(aq) → PbCl2(s) + 2 NaNO3(aq)",
+  "hint": "Lead(II) chloride is insoluble by this sheet.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "Pb(NO3)2",
+    "NaCl"
+   ],
+   "p": [
+    "PbCl2",
+    "NaNO3"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    2
+   ],
+   "hint": "Lead(II) chloride is insoluble by this sheet.",
+   "states": {
+    "Pb(NO3)2": "aq",
+    "NaCl": "aq",
+    "PbCl2": "s",
+    "NaNO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 80
+  }
+ },
+ {
+  "id": "reactions-0246e3a3",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Ba(NO3)2 + Na2SO4 →",
+  "answer": "Ba(NO3)2(aq) + Na2SO4(aq) → BaSO4(s) + 2 NaNO3(aq)",
+  "hint": "Barium sulfate precipitates.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "Ba(NO3)2",
+    "Na2SO4"
+   ],
+   "p": [
+    "BaSO4",
+    "NaNO3"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "hint": "Barium sulfate precipitates.",
+   "states": {
+    "Ba(NO3)2": "aq",
+    "Na2SO4": "aq",
+    "BaSO4": "s",
+    "NaNO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 81
+  }
+ },
+ {
+  "id": "reactions-a1466d62",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: SrCl2 + K2SO4 →",
+  "answer": "SrCl2(aq) + K2SO4(aq) → SrSO4(s) + 2 KCl(aq)",
+  "hint": "Strontium sulfate precipitates.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "SrCl2",
+    "K2SO4"
+   ],
+   "p": [
+    "SrSO4",
+    "KCl"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "hint": "Strontium sulfate precipitates.",
+   "states": {
+    "SrCl2": "aq",
+    "K2SO4": "aq",
+    "SrSO4": "s",
+    "KCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 82
+  }
+ },
+ {
+  "id": "reactions-3d4d9c52",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: CaCl2 + K2CO3 →",
+  "answer": "CaCl2(aq) + K2CO3(aq) → CaCO3(s) + 2 KCl(aq)",
+  "hint": "Calcium carbonate precipitates.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "CaCl2",
+    "K2CO3"
+   ],
+   "p": [
+    "CaCO3",
+    "KCl"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "hint": "Calcium carbonate precipitates.",
+   "states": {
+    "CaCl2": "aq",
+    "K2CO3": "aq",
+    "CaCO3": "s",
+    "KCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 83
+  }
+ },
+ {
+  "id": "reactions-652994bd",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: CuCl2 + NaOH →",
+  "answer": "CuCl2(aq) + 2 NaOH(aq) → Cu(OH)2(s) + 2 NaCl(aq)",
+  "hint": "Copper(II) hydroxide is insoluble.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "CuCl2",
+    "NaOH"
+   ],
+   "p": [
+    "Cu(OH)2",
+    "NaCl"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    2
+   ],
+   "hint": "Copper(II) hydroxide is insoluble.",
+   "states": {
+    "CuCl2": "aq",
+    "NaOH": "aq",
+    "Cu(OH)2": "s",
+    "NaCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 84
+  }
+ },
+ {
+  "id": "reactions-2f4b2c5b",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: FeCl3 + KOH →",
+  "answer": "FeCl3(aq) + 3 KOH(aq) → Fe(OH)3(s) + 3 KCl(aq)",
+  "hint": "Iron(III) hydroxide is insoluble.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "FeCl3",
+    "KOH"
+   ],
+   "p": [
+    "Fe(OH)3",
+    "KCl"
+   ],
+   "coef": [
+    1,
+    3,
+    1,
+    3
+   ],
+   "hint": "Iron(III) hydroxide is insoluble.",
+   "states": {
+    "FeCl3": "aq",
+    "KOH": "aq",
+    "Fe(OH)3": "s",
+    "KCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 85
+  }
+ },
+ {
+  "id": "reactions-29efc62e",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: MgCl2 + NaOH →",
+  "answer": "MgCl2(aq) + 2 NaOH(aq) → Mg(OH)2(s) + 2 NaCl(aq)",
+  "hint": "Magnesium hydroxide is insoluble.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "MgCl2",
+    "NaOH"
+   ],
+   "p": [
+    "Mg(OH)2",
+    "NaCl"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    2
+   ],
+   "hint": "Magnesium hydroxide is insoluble.",
+   "states": {
+    "MgCl2": "aq",
+    "NaOH": "aq",
+    "Mg(OH)2": "s",
+    "NaCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 86
+  }
+ },
+ {
+  "id": "reactions-2af63ecd",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: AlCl3 + NaOH →",
+  "answer": "AlCl3(aq) + 3 NaOH(aq) → Al(OH)3(s) + 3 NaCl(aq)",
+  "hint": "Aluminum hydroxide is insoluble.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "AlCl3",
+    "NaOH"
+   ],
+   "p": [
+    "Al(OH)3",
+    "NaCl"
+   ],
+   "coef": [
+    1,
+    3,
+    1,
+    3
+   ],
+   "hint": "Aluminum hydroxide is insoluble.",
+   "states": {
+    "AlCl3": "aq",
+    "NaOH": "aq",
+    "Al(OH)3": "s",
+    "NaCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 87
+  }
+ },
+ {
+  "id": "reactions-e7698fb4",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Ca(NO3)2 + Na3PO4 →",
+  "answer": "3 Ca(NO3)2(aq) + 2 Na3PO4(aq) → Ca3(PO4)2(s) + 6 NaNO3(aq)",
+  "hint": "Phosphates are insoluble except Group 1 and ammonium.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "Ca(NO3)2",
+    "Na3PO4"
+   ],
+   "p": [
+    "Ca3(PO4)2",
+    "NaNO3"
+   ],
+   "coef": [
+    3,
+    2,
+    1,
+    6
+   ],
+   "hint": "Phosphates are insoluble except Group 1 and ammonium.",
+   "states": {
+    "Ca(NO3)2": "aq",
+    "Na3PO4": "aq",
+    "Ca3(PO4)2": "s",
+    "NaNO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 88
+  }
+ },
+ {
+  "id": "reactions-d31e8f61",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: FeCl3 + Na3PO4 →",
+  "answer": "FeCl3(aq) + Na3PO4(aq) → FePO4(s) + 3 NaCl(aq)",
+  "hint": "Iron(III) and phosphate charges cancel 1:1.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "FeCl3",
+    "Na3PO4"
+   ],
+   "p": [
+    "FePO4",
+    "NaCl"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    3
+   ],
+   "hint": "Iron(III) and phosphate charges cancel 1:1.",
+   "states": {
+    "FeCl3": "aq",
+    "Na3PO4": "aq",
+    "FePO4": "s",
+    "NaCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 89
+  }
+ },
+ {
+  "id": "reactions-62acdf39",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: AgNO3 + Na2CO3 →",
+  "answer": "2 AgNO3(aq) + Na2CO3(aq) → Ag2CO3(s) + 2 NaNO3(aq)",
+  "hint": "Silver carbonate precipitates.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "AgNO3",
+    "Na2CO3"
+   ],
+   "p": [
+    "Ag2CO3",
+    "NaNO3"
+   ],
+   "coef": [
+    2,
+    1,
+    1,
+    2
+   ],
+   "hint": "Silver carbonate precipitates.",
+   "states": {
+    "AgNO3": "aq",
+    "Na2CO3": "aq",
+    "Ag2CO3": "s",
+    "NaNO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 90
+  }
+ },
+ {
+  "id": "reactions-452a0779",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C3H6 + O2 →",
+  "answer": "2 C3H6(g) + 9 O2(g) → 6 CO2(g) + 6 H2O(l)",
+  "hint": "Balance carbon and hydrogen first.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C3H6",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    9,
+    6,
+    6
+   ],
+   "hint": "Balance carbon and hydrogen first.",
+   "states": {
+    "C3H6": "g",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 91
+  }
+ },
+ {
+  "id": "reactions-6b503bbe",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C3H4 + O2 →",
+  "answer": "C3H4(g) + 4 O2(g) → 3 CO2(g) + 2 H2O(l)",
+  "hint": "Balance carbon, hydrogen, then oxygen.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C3H4",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    4,
+    3,
+    2
+   ],
+   "hint": "Balance carbon, hydrogen, then oxygen.",
+   "states": {
+    "C3H4": "g",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 92
+  }
+ },
+ {
+  "id": "reactions-b90f85c6",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C4H8 + O2 →",
+  "answer": "C4H8(g) + 6 O2(g) → 4 CO2(g) + 4 H2O(l)",
+  "hint": "Eight hydrogen atoms make four water molecules.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C4H8",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    6,
+    4,
+    4
+   ],
+   "hint": "Eight hydrogen atoms make four water molecules.",
+   "states": {
+    "C4H8": "g",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 93
+  }
+ },
+ {
+  "id": "reactions-de33c365",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C5H12 + O2 →",
+  "answer": "C5H12(l) + 8 O2(g) → 5 CO2(g) + 6 H2O(l)",
+  "hint": "Five carbons make five carbon dioxide molecules.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C5H12",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    8,
+    5,
+    6
+   ],
+   "hint": "Five carbons make five carbon dioxide molecules.",
+   "states": {
+    "C5H12": "l",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 94
+  }
+ },
+ {
+  "id": "reactions-f7025f03",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C6H14 + O2 →",
+  "answer": "2 C6H14(l) + 19 O2(g) → 12 CO2(g) + 14 H2O(l)",
+  "hint": "You may need to double all coefficients.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C6H14",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    19,
+    12,
+    14
+   ],
+   "hint": "You may need to double all coefficients.",
+   "states": {
+    "C6H14": "l",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 95
+  }
+ },
+ {
+  "id": "reactions-385d74d1",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C2H6O + O2 →",
+  "answer": "C2H6O(l) + 3 O2(g) → 2 CO2(g) + 3 H2O(l)",
+  "hint": "This fuel already contains one oxygen atom.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C2H6O",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    3,
+    2,
+    3
+   ],
+   "hint": "This fuel already contains one oxygen atom.",
+   "states": {
+    "C2H6O": "l",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 96
+  }
+ },
+ {
+  "id": "reactions-ffd54655",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C3H8O + O2 →",
+  "answer": "2 C3H8O(l) + 9 O2(g) → 6 CO2(g) + 8 H2O(l)",
+  "hint": "Account for oxygen already in the fuel.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C3H8O",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    9,
+    6,
+    8
+   ],
+   "hint": "Account for oxygen already in the fuel.",
+   "states": {
+    "C3H8O": "l",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 97
+  }
+ },
+ {
+  "id": "reactions-23fb1468",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: HCl + KOH →",
+  "answer": "HCl(aq) + KOH(aq) → KCl(aq) + H2O(l)",
+  "hint": "One H⁺ and one OH⁻ form water.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "HCl",
+    "KOH"
+   ],
+   "p": [
+    "KCl",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "One H⁺ and one OH⁻ form water.",
+   "states": {
+    "HCl": "aq",
+    "KOH": "aq",
+    "KCl": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 98
+  }
+ },
+ {
+  "id": "reactions-b2424cff",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: HNO3 + NaOH →",
+  "answer": "HNO3(aq) + NaOH(aq) → NaNO3(aq) + H2O(l)",
+  "hint": "Nitrate and sodium form the salt.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "HNO3",
+    "NaOH"
+   ],
+   "p": [
+    "NaNO3",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Nitrate and sodium form the salt.",
+   "states": {
+    "HNO3": "aq",
+    "NaOH": "aq",
+    "NaNO3": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 99
+  }
+ },
+ {
+  "id": "reactions-1265cdc6",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: HCl + Ca(OH)2 →",
+  "answer": "2 HCl(aq) + Ca(OH)2(aq) → CaCl2(aq) + 2 H2O(l)",
+  "hint": "There are two hydroxides per formula unit.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "HCl",
+    "Ca(OH)2"
+   ],
+   "p": [
+    "CaCl2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    1,
+    1,
+    2
+   ],
+   "hint": "There are two hydroxides per formula unit.",
+   "states": {
+    "HCl": "aq",
+    "Ca(OH)2": "aq",
+    "CaCl2": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 100
+  }
+ },
+ {
+  "id": "reactions-0a0bb94e",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: H2SO4 + NaOH →",
+  "answer": "H2SO4(aq) + 2 NaOH(aq) → Na2SO4(aq) + 2 H2O(l)",
+  "hint": "Sulfuric acid supplies two H⁺ ions.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "H2SO4",
+    "NaOH"
+   ],
+   "p": [
+    "Na2SO4",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    2
+   ],
+   "hint": "Sulfuric acid supplies two H⁺ ions.",
+   "states": {
+    "H2SO4": "aq",
+    "NaOH": "aq",
+    "Na2SO4": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 101
+  }
+ },
+ {
+  "id": "reactions-b8de1e4e",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: HBr + KOH →",
+  "answer": "HBr(aq) + KOH(aq) → KBr(aq) + H2O(l)",
+  "hint": "One to one neutralization.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "HBr",
+    "KOH"
+   ],
+   "p": [
+    "KBr",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "One to one neutralization.",
+   "states": {
+    "HBr": "aq",
+    "KOH": "aq",
+    "KBr": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 102
+  }
+ },
+ {
+  "id": "reactions-3f8e0dd5",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: HI + NaOH →",
+  "answer": "HI(aq) + NaOH(aq) → NaI(aq) + H2O(l)",
+  "hint": "Iodide becomes part of the salt.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "HI",
+    "NaOH"
+   ],
+   "p": [
+    "NaI",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Iodide becomes part of the salt.",
+   "states": {
+    "HI": "aq",
+    "NaOH": "aq",
+    "NaI": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 103
+  }
+ },
+ {
+  "id": "reactions-a6aab616",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: HClO4 + KOH →",
+  "answer": "HClO4(aq) + KOH(aq) → KClO4(aq) + H2O(l)",
+  "hint": "Perchlorate stays intact.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "HClO4",
+    "KOH"
+   ],
+   "p": [
+    "KClO4",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Perchlorate stays intact.",
+   "states": {
+    "HClO4": "aq",
+    "KOH": "aq",
+    "KClO4": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 104
+  }
+ },
+ {
+  "id": "reactions-9d39d6f8",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: H3PO4 + KOH →",
+  "answer": "H3PO4(aq) + 3 KOH(aq) → K3PO4(aq) + 3 H2O(l)",
+  "hint": "This is complete neutralization of phosphoric acid.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "H3PO4",
+    "KOH"
+   ],
+   "p": [
+    "K3PO4",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    3,
+    1,
+    3
+   ],
+   "hint": "This is complete neutralization of phosphoric acid.",
+   "states": {
+    "H3PO4": "aq",
+    "KOH": "aq",
+    "K3PO4": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 105
+  }
+ },
+ {
+  "id": "reactions-27c01133",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: K2CO3 + HCl →",
+  "answer": "K2CO3(aq) + 2 HCl(aq) → 2 KCl(aq) + CO2(g) + H2O(l)",
+  "hint": "Carbonate and acid produce CO₂.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "K2CO3",
+    "HCl"
+   ],
+   "p": [
+    "KCl",
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1,
+    1
+   ],
+   "hint": "Carbonate and acid produce CO₂.",
+   "states": {
+    "K2CO3": "aq",
+    "HCl": "aq",
+    "KCl": "aq",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 106
+  }
+ },
+ {
+  "id": "reactions-e40a5823",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: NaHCO3 + HCl →",
+  "answer": "NaHCO3(aq) + HCl(aq) → NaCl(aq) + CO2(g) + H2O(l)",
+  "hint": "Bicarbonate and acid produce CO₂.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "NaHCO3",
+    "HCl"
+   ],
+   "p": [
+    "NaCl",
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Bicarbonate and acid produce CO₂.",
+   "states": {
+    "NaHCO3": "aq",
+    "HCl": "aq",
+    "NaCl": "aq",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 107
+  }
+ },
+ {
+  "id": "reactions-30192d62",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Na2CO3 + HNO3 →",
+  "answer": "Na2CO3(aq) + 2 HNO3(aq) → 2 NaNO3(aq) + CO2(g) + H2O(l)",
+  "hint": "Carbonate and acid produce CO₂.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "Na2CO3",
+    "HNO3"
+   ],
+   "p": [
+    "NaNO3",
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1,
+    1
+   ],
+   "hint": "Carbonate and acid produce CO₂.",
+   "states": {
+    "Na2CO3": "aq",
+    "HNO3": "aq",
+    "NaNO3": "aq",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 108
+  }
+ },
+ {
+  "id": "reactions-8cf3bfa5",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: K2SO3 + HCl →",
+  "answer": "K2SO3(aq) + 2 HCl(aq) → 2 KCl(aq) + SO2(g) + H2O(l)",
+  "hint": "Sulfite and acid produce SO₂.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "K2SO3",
+    "HCl"
+   ],
+   "p": [
+    "KCl",
+    "SO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1,
+    1
+   ],
+   "hint": "Sulfite and acid produce SO₂.",
+   "states": {
+    "K2SO3": "aq",
+    "HCl": "aq",
+    "KCl": "aq",
+    "SO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 109
+  }
+ },
+ {
+  "id": "reactions-3477c89c",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Na2SO3 + HNO3 →",
+  "answer": "Na2SO3(aq) + 2 HNO3(aq) → 2 NaNO3(aq) + SO2(g) + H2O(l)",
+  "hint": "Sulfite and acid produce SO₂.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "Na2SO3",
+    "HNO3"
+   ],
+   "p": [
+    "NaNO3",
+    "SO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1,
+    1
+   ],
+   "hint": "Sulfite and acid produce SO₂.",
+   "states": {
+    "Na2SO3": "aq",
+    "HNO3": "aq",
+    "NaNO3": "aq",
+    "SO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 110
+  }
+ },
+ {
+  "id": "reactions-c72326f9",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: K2S + HCl →",
+  "answer": "K2S(aq) + 2 HCl(aq) → 2 KCl(aq) + H2S(g)",
+  "hint": "Sulfide and acid produce H₂S.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "K2S",
+    "HCl"
+   ],
+   "p": [
+    "KCl",
+    "H2S"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1
+   ],
+   "hint": "Sulfide and acid produce H₂S.",
+   "states": {
+    "K2S": "aq",
+    "HCl": "aq",
+    "KCl": "aq",
+    "H2S": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 111
+  }
+ },
+ {
+  "id": "reactions-d822756e",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Na2S + HNO3 →",
+  "answer": "Na2S(aq) + 2 HNO3(aq) → 2 NaNO3(aq) + H2S(g)",
+  "hint": "Sulfide and acid produce H₂S.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "Na2S",
+    "HNO3"
+   ],
+   "p": [
+    "NaNO3",
+    "H2S"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1
+   ],
+   "hint": "Sulfide and acid produce H₂S.",
+   "states": {
+    "Na2S": "aq",
+    "HNO3": "aq",
+    "NaNO3": "aq",
+    "H2S": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 112
+  }
+ },
+ {
+  "id": "reactions-862c2186",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: NH4NO3 + NaOH →",
+  "answer": "NH4NO3(aq) + NaOH(aq) → NaNO3(aq) + NH3(g) + H2O(l)",
+  "hint": "Ammonium and strong base release NH₃.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "NH4NO3",
+    "NaOH"
+   ],
+   "p": [
+    "NaNO3",
+    "NH3",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Ammonium and strong base release NH₃.",
+   "states": {
+    "NH4NO3": "aq",
+    "NaOH": "aq",
+    "NaNO3": "aq",
+    "NH3": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 113
+  }
+ },
+ {
+  "id": "reactions-8cc4efd0",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: NH4Cl + KOH →",
+  "answer": "NH4Cl(aq) + KOH(aq) → KCl(aq) + NH3(g) + H2O(l)",
+  "hint": "Ammonium and strong base release NH₃.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "NH4Cl",
+    "KOH"
+   ],
+   "p": [
+    "KCl",
+    "NH3",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Ammonium and strong base release NH₃.",
+   "states": {
+    "NH4Cl": "aq",
+    "KOH": "aq",
+    "KCl": "aq",
+    "NH3": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 114
+  }
+ },
+ {
+  "id": "reactions-901bd7db",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: (NH4)2SO4 + NaOH →",
+  "answer": "(NH4)2SO4(aq) + 2 NaOH(aq) → Na2SO4(aq) + 2 NH3(g) + 2 H2O(l)",
+  "hint": "Two ammonium ions yield two ammonia molecules.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "(NH4)2SO4",
+    "NaOH"
+   ],
+   "p": [
+    "Na2SO4",
+    "NH3",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    2,
+    2
+   ],
+   "hint": "Two ammonium ions yield two ammonia molecules.",
+   "states": {
+    "(NH4)2SO4": "aq",
+    "NaOH": "aq",
+    "Na2SO4": "aq",
+    "NH3": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 115
+  }
+ },
+ {
+  "id": "reactions-3e15a75b",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Zn + S →",
+  "answer": "Zn(s) + S(s) → ZnS(s)",
+  "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Zn",
+    "S"
+   ],
+   "p": [
+    "ZnS"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+   "states": {
+    "Zn": "s",
+    "S": "s",
+    "ZnS": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 116
+  }
+ },
+ {
+  "id": "reactions-3ccda937",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Al + S →",
+  "answer": "2 Al(s) + 3 S(s) → Al2S3(s)",
+  "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Al",
+    "S"
+   ],
+   "p": [
+    "Al2S3"
+   ],
+   "coef": [
+    2,
+    3,
+    1
+   ],
+   "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+   "states": {
+    "Al": "s",
+    "S": "s",
+    "Al2S3": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 117
+  }
+ },
+ {
+  "id": "reactions-e1021a2e",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Ca + Br2 →",
+  "answer": "Ca(s) + Br2(l) → CaBr2(s)",
+  "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Ca",
+    "Br2"
+   ],
+   "p": [
+    "CaBr2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+   "states": {
+    "Ca": "s",
+    "Br2": "l",
+    "CaBr2": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 118
+  }
+ },
+ {
+  "id": "reactions-3c111d94",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Mg + Br2 →",
+  "answer": "Mg(s) + Br2(l) → MgBr2(s)",
+  "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Mg",
+    "Br2"
+   ],
+   "p": [
+    "MgBr2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+   "states": {
+    "Mg": "s",
+    "Br2": "l",
+    "MgBr2": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 119
+  }
+ },
+ {
+  "id": "reactions-00eba1f7",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Al + Br2 →",
+  "answer": "2 Al(s) + 3 Br2(l) → 2 AlBr3(s)",
+  "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Al",
+    "Br2"
+   ],
+   "p": [
+    "AlBr3"
+   ],
+   "coef": [
+    2,
+    3,
+    2
+   ],
+   "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+   "states": {
+    "Al": "s",
+    "Br2": "l",
+    "AlBr3": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 120
+  }
+ },
+ {
+  "id": "reactions-fc0dafb1",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Zn + Cl2 →",
+  "answer": "Zn(s) + Cl2(g) → ZnCl2(s)",
+  "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Zn",
+    "Cl2"
+   ],
+   "p": [
+    "ZnCl2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+   "states": {
+    "Zn": "s",
+    "Cl2": "g",
+    "ZnCl2": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 121
+  }
+ },
+ {
+  "id": "reactions-70cdffd1",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Zn + Br2 →",
+  "answer": "Zn(s) + Br2(l) → ZnBr2(s)",
+  "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Zn",
+    "Br2"
+   ],
+   "p": [
+    "ZnBr2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+   "states": {
+    "Zn": "s",
+    "Br2": "l",
+    "ZnBr2": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 122
+  }
+ },
+ {
+  "id": "reactions-3ff79367",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Ca + N2 →",
+  "answer": "3 Ca(s) + N2(g) → Ca3N2(s)",
+  "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Ca",
+    "N2"
+   ],
+   "p": [
+    "Ca3N2"
+   ],
+   "coef": [
+    3,
+    1,
+    1
+   ],
+   "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+   "states": {
+    "Ca": "s",
+    "N2": "g",
+    "Ca3N2": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 123
+  }
+ },
+ {
+  "id": "reactions-cd1e4b0a",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Mg + N2 →",
+  "answer": "3 Mg(s) + N2(g) → Mg3N2(s)",
+  "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Mg",
+    "N2"
+   ],
+   "p": [
+    "Mg3N2"
+   ],
+   "coef": [
+    3,
+    1,
+    1
+   ],
+   "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+   "states": {
+    "Mg": "s",
+    "N2": "g",
+    "Mg3N2": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 124
+  }
+ },
+ {
+  "id": "reactions-b33a8ea3",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Li + Cl2 →",
+  "answer": "2 Li(s) + Cl2(g) → 2 LiCl(s)",
+  "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Li",
+    "Cl2"
+   ],
+   "p": [
+    "LiCl"
+   ],
+   "coef": [
+    2,
+    1,
+    2
+   ],
+   "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+   "states": {
+    "Li": "s",
+    "Cl2": "g",
+    "LiCl": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 125
+  }
+ },
+ {
+  "id": "reactions-9fb867d0",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Sr + Cl2 →",
+  "answer": "Sr(s) + Cl2(g) → SrCl2(s)",
+  "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "Sr",
+    "Cl2"
+   ],
+   "p": [
+    "SrCl2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+   "states": {
+    "Sr": "s",
+    "Cl2": "g",
+    "SrCl2": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 126
+  }
+ },
+ {
+  "id": "reactions-9fa2576d",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: BaO + H2O →",
+  "answer": "BaO(s) + H2O(l) → Ba(OH)2(s)",
+  "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "BaO",
+    "H2O"
+   ],
+   "p": [
+    "Ba(OH)2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Combine the elements or oxide and water into the stated product. Balance using the smallest whole-number coefficients.",
+   "states": {
+    "BaO": "s",
+    "H2O": "l",
+    "Ba(OH)2": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 127
+  }
+ },
+ {
+  "id": "reactions-a39091af",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: BaCO3 →",
+  "answer": "BaCO3(s) → BaO(s) + CO2(g)",
+  "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "BaCO3"
+   ],
+   "p": [
+    "BaO",
+    "CO2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+   "states": {
+    "BaCO3": "s",
+    "BaO": "s",
+    "CO2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 128
+  }
+ },
+ {
+  "id": "reactions-cf108f09",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: FeCO3 →",
+  "answer": "FeCO3(s) → FeO(s) + CO2(g)",
+  "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "FeCO3"
+   ],
+   "p": [
+    "FeO",
+    "CO2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+   "states": {
+    "FeCO3": "s",
+    "FeO": "s",
+    "CO2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 129
+  }
+ },
+ {
+  "id": "reactions-59ef43c9",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: MnCO3 →",
+  "answer": "MnCO3(s) → MnO(s) + CO2(g)",
+  "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "MnCO3"
+   ],
+   "p": [
+    "MnO",
+    "CO2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+   "states": {
+    "MnCO3": "s",
+    "MnO": "s",
+    "CO2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 130
+  }
+ },
+ {
+  "id": "reactions-494ad710",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: NiCO3 →",
+  "answer": "NiCO3(s) → NiO(s) + CO2(g)",
+  "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "NiCO3"
+   ],
+   "p": [
+    "NiO",
+    "CO2"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+   "states": {
+    "NiCO3": "s",
+    "NiO": "s",
+    "CO2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 131
+  }
+ },
+ {
+  "id": "reactions-e8f92bd6",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Zn(OH)2 →",
+  "answer": "Zn(OH)2(s) → ZnO(s) + H2O(l)",
+  "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "Zn(OH)2"
+   ],
+   "p": [
+    "ZnO",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+   "states": {
+    "Zn(OH)2": "s",
+    "ZnO": "s",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 132
+  }
+ },
+ {
+  "id": "reactions-6ab75e79",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Cu(OH)2 →",
+  "answer": "Cu(OH)2(s) → CuO(s) + H2O(l)",
+  "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "Cu(OH)2"
+   ],
+   "p": [
+    "CuO",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1
+   ],
+   "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+   "states": {
+    "Cu(OH)2": "s",
+    "CuO": "s",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 133
+  }
+ },
+ {
+  "id": "reactions-88e7727d",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Fe(OH)3 →",
+  "answer": "2 Fe(OH)3(s) → Fe2O3(s) + 3 H2O(l)",
+  "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "Fe(OH)3"
+   ],
+   "p": [
+    "Fe2O3",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    1,
+    3
+   ],
+   "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+   "states": {
+    "Fe(OH)3": "s",
+    "Fe2O3": "s",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 134
+  }
+ },
+ {
+  "id": "reactions-d0b8bd16",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Al(OH)3 →",
+  "answer": "2 Al(OH)3(s) → Al2O3(s) + 3 H2O(l)",
+  "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "Al(OH)3"
+   ],
+   "p": [
+    "Al2O3",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    1,
+    3
+   ],
+   "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+   "states": {
+    "Al(OH)3": "s",
+    "Al2O3": "s",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 135
+  }
+ },
+ {
+  "id": "reactions-2b7d0536",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: LiClO3 →",
+  "answer": "2 LiClO3(s) → 2 LiCl(s) + 3 O2(g)",
+  "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "LiClO3"
+   ],
+   "p": [
+    "LiCl",
+    "O2"
+   ],
+   "coef": [
+    2,
+    2,
+    3
+   ],
+   "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+   "states": {
+    "LiClO3": "s",
+    "LiCl": "s",
+    "O2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 136
+  }
+ },
+ {
+  "id": "reactions-5974148e",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Ca(ClO3)2 →",
+  "answer": "Ca(ClO3)2(s) → CaCl2(s) + 3 O2(g)",
+  "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "Ca(ClO3)2"
+   ],
+   "p": [
+    "CaCl2",
+    "O2"
+   ],
+   "coef": [
+    1,
+    1,
+    3
+   ],
+   "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+   "states": {
+    "Ca(ClO3)2": "s",
+    "CaCl2": "s",
+    "O2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 137
+  }
+ },
+ {
+  "id": "reactions-34807642",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Ba(ClO3)2 →",
+  "answer": "Ba(ClO3)2(s) → BaCl2(s) + 3 O2(g)",
+  "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "Ba(ClO3)2"
+   ],
+   "p": [
+    "BaCl2",
+    "O2"
+   ],
+   "coef": [
+    1,
+    1,
+    3
+   ],
+   "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+   "states": {
+    "Ba(ClO3)2": "s",
+    "BaCl2": "s",
+    "O2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 138
+  }
+ },
+ {
+  "id": "reactions-724d6236",
+  "skill": "reactions.decomposition",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: KHCO3 →",
+  "answer": "2 KHCO3(s) → K2CO3(s) + CO2(g) + H2O(l)",
+  "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+  "data": {
+   "cat": "Decomposition",
+   "r": [
+    "KHCO3"
+   ],
+   "p": [
+    "K2CO3",
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    1,
+    1,
+    1
+   ],
+   "hint": "Heating causes the compound to decompose. Carbonates release CO₂; hydroxides release water; chlorates release O₂. Keep polyatomic groups together when useful.",
+   "states": {
+    "KHCO3": "s",
+    "K2CO3": "s",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 139
+  }
+ },
+ {
+  "id": "reactions-937690cd",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Zn + HBr →",
+  "answer": "Zn(s) + 2 HBr(aq) → ZnBr2(aq) + H2(g)",
+  "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Zn",
+    "HBr"
+   ],
+   "p": [
+    "ZnBr2",
+    "H2"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    1
+   ],
+   "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+   "states": {
+    "Zn": "s",
+    "HBr": "aq",
+    "ZnBr2": "aq",
+    "H2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 140
+  }
+ },
+ {
+  "id": "reactions-6985179f",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Mg + HCl →",
+  "answer": "Mg(s) + 2 HCl(aq) → MgCl2(aq) + H2(g)",
+  "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Mg",
+    "HCl"
+   ],
+   "p": [
+    "MgCl2",
+    "H2"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    1
+   ],
+   "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+   "states": {
+    "Mg": "s",
+    "HCl": "aq",
+    "MgCl2": "aq",
+    "H2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 141
+  }
+ },
+ {
+  "id": "reactions-f18eb2f6",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Mg + HBr →",
+  "answer": "Mg(s) + 2 HBr(aq) → MgBr2(aq) + H2(g)",
+  "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Mg",
+    "HBr"
+   ],
+   "p": [
+    "MgBr2",
+    "H2"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    1
+   ],
+   "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+   "states": {
+    "Mg": "s",
+    "HBr": "aq",
+    "MgBr2": "aq",
+    "H2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 142
+  }
+ },
+ {
+  "id": "reactions-8005f3f8",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Fe + HBr →",
+  "answer": "Fe(s) + 2 HBr(aq) → FeBr2(aq) + H2(g)",
+  "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Fe",
+    "HBr"
+   ],
+   "p": [
+    "FeBr2",
+    "H2"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    1
+   ],
+   "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+   "states": {
+    "Fe": "s",
+    "HBr": "aq",
+    "FeBr2": "aq",
+    "H2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 143
+  }
+ },
+ {
+  "id": "reactions-8f837dc3",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Zn + CuCl2 →",
+  "answer": "Zn(s) + CuCl2(aq) → ZnCl2(aq) + Cu(s)",
+  "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Zn",
+    "CuCl2"
+   ],
+   "p": [
+    "ZnCl2",
+    "Cu"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+   "states": {
+    "Zn": "s",
+    "CuCl2": "aq",
+    "ZnCl2": "aq",
+    "Cu": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 144
+  }
+ },
+ {
+  "id": "reactions-5512f185",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Fe + CuCl2 →",
+  "answer": "Fe(s) + CuCl2(aq) → FeCl2(aq) + Cu(s)",
+  "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Fe",
+    "CuCl2"
+   ],
+   "p": [
+    "FeCl2",
+    "Cu"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+   "states": {
+    "Fe": "s",
+    "CuCl2": "aq",
+    "FeCl2": "aq",
+    "Cu": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 145
+  }
+ },
+ {
+  "id": "reactions-087d121e",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Mg + FeCl2 →",
+  "answer": "Mg(s) + FeCl2(aq) → MgCl2(aq) + Fe(s)",
+  "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Mg",
+    "FeCl2"
+   ],
+   "p": [
+    "MgCl2",
+    "Fe"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+   "states": {
+    "Mg": "s",
+    "FeCl2": "aq",
+    "MgCl2": "aq",
+    "Fe": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 146
+  }
+ },
+ {
+  "id": "reactions-ddd114bb",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Zn + FeSO4 →",
+  "answer": "Zn(s) + FeSO4(aq) → ZnSO4(aq) + Fe(s)",
+  "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Zn",
+    "FeSO4"
+   ],
+   "p": [
+    "ZnSO4",
+    "Fe"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+   "states": {
+    "Zn": "s",
+    "FeSO4": "aq",
+    "ZnSO4": "aq",
+    "Fe": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 147
+  }
+ },
+ {
+  "id": "reactions-faa94c7d",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Al + AgNO3 →",
+  "answer": "Al(s) + 3 AgNO3(aq) → Al(NO3)3(aq) + 3 Ag(s)",
+  "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Al",
+    "AgNO3"
+   ],
+   "p": [
+    "Al(NO3)3",
+    "Ag"
+   ],
+   "coef": [
+    1,
+    3,
+    1,
+    3
+   ],
+   "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+   "states": {
+    "Al": "s",
+    "AgNO3": "aq",
+    "Al(NO3)3": "aq",
+    "Ag": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 148
+  }
+ },
+ {
+  "id": "reactions-20a5a3dc",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Cl2 + NaBr →",
+  "answer": "Cl2(g) + 2 NaBr(aq) → 2 NaCl(aq) + Br2(l)",
+  "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Cl2",
+    "NaBr"
+   ],
+   "p": [
+    "NaCl",
+    "Br2"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1
+   ],
+   "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+   "states": {
+    "Cl2": "g",
+    "NaBr": "aq",
+    "NaCl": "aq",
+    "Br2": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 149
+  }
+ },
+ {
+  "id": "reactions-f740dd42",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Cl2 + NaI →",
+  "answer": "Cl2(g) + 2 NaI(aq) → 2 NaCl(aq) + I2(s)",
+  "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Cl2",
+    "NaI"
+   ],
+   "p": [
+    "NaCl",
+    "I2"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1
+   ],
+   "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+   "states": {
+    "Cl2": "g",
+    "NaI": "aq",
+    "NaCl": "aq",
+    "I2": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 150
+  }
+ },
+ {
+  "id": "reactions-b903da75",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Br2 + NaI →",
+  "answer": "Br2(l) + 2 NaI(aq) → 2 NaBr(aq) + I2(s)",
+  "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Br2",
+    "NaI"
+   ],
+   "p": [
+    "NaBr",
+    "I2"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1
+   ],
+   "hint": "Use the activity series: the more active metal or halogen displaces the less active one. Hydrogen and the halogens are diatomic in elemental form.",
+   "states": {
+    "Br2": "l",
+    "NaI": "aq",
+    "NaBr": "aq",
+    "I2": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 151
+  }
+ },
+ {
+  "id": "reactions-4df7e60a",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: AgNO3 + HCl →",
+  "answer": "AgNO3(aq) + HCl(aq) → AgCl(s) + HNO3(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "AgNO3",
+    "HCl"
+   ],
+   "p": [
+    "AgCl",
+    "HNO3"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "AgNO3": "aq",
+    "HCl": "aq",
+    "AgCl": "s",
+    "HNO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 152
+  }
+ },
+ {
+  "id": "reactions-5a3fef20",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: AgNO3 + KCl →",
+  "answer": "AgNO3(aq) + KCl(aq) → AgCl(s) + KNO3(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "AgNO3",
+    "KCl"
+   ],
+   "p": [
+    "AgCl",
+    "KNO3"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "AgNO3": "aq",
+    "KCl": "aq",
+    "AgCl": "s",
+    "KNO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 153
+  }
+ },
+ {
+  "id": "reactions-c21ac9b7",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: AgNO3 + NaBr →",
+  "answer": "AgNO3(aq) + NaBr(aq) → AgBr(s) + NaNO3(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "AgNO3",
+    "NaBr"
+   ],
+   "p": [
+    "AgBr",
+    "NaNO3"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "AgNO3": "aq",
+    "NaBr": "aq",
+    "AgBr": "s",
+    "NaNO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 154
+  }
+ },
+ {
+  "id": "reactions-59055727",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: AgNO3 + NaI →",
+  "answer": "AgNO3(aq) + NaI(aq) → AgI(s) + NaNO3(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "AgNO3",
+    "NaI"
+   ],
+   "p": [
+    "AgI",
+    "NaNO3"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "AgNO3": "aq",
+    "NaI": "aq",
+    "AgI": "s",
+    "NaNO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 155
+  }
+ },
+ {
+  "id": "reactions-66dd414a",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: BaCl2 + K2SO4 →",
+  "answer": "BaCl2(aq) + K2SO4(aq) → BaSO4(s) + 2 KCl(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "BaCl2",
+    "K2SO4"
+   ],
+   "p": [
+    "BaSO4",
+    "KCl"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "BaCl2": "aq",
+    "K2SO4": "aq",
+    "BaSO4": "s",
+    "KCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 156
+  }
+ },
+ {
+  "id": "reactions-d855fcab",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Ba(NO3)2 + K2SO4 →",
+  "answer": "Ba(NO3)2(aq) + K2SO4(aq) → BaSO4(s) + 2 KNO3(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "Ba(NO3)2",
+    "K2SO4"
+   ],
+   "p": [
+    "BaSO4",
+    "KNO3"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "Ba(NO3)2": "aq",
+    "K2SO4": "aq",
+    "BaSO4": "s",
+    "KNO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 157
+  }
+ },
+ {
+  "id": "reactions-1ca092bd",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: SrCl2 + Na2SO4 →",
+  "answer": "SrCl2(aq) + Na2SO4(aq) → SrSO4(s) + 2 NaCl(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "SrCl2",
+    "Na2SO4"
+   ],
+   "p": [
+    "SrSO4",
+    "NaCl"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "SrCl2": "aq",
+    "Na2SO4": "aq",
+    "SrSO4": "s",
+    "NaCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 158
+  }
+ },
+ {
+  "id": "reactions-59ee4a11",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Ca(NO3)2 + K2CO3 →",
+  "answer": "Ca(NO3)2(aq) + K2CO3(aq) → CaCO3(s) + 2 KNO3(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "Ca(NO3)2",
+    "K2CO3"
+   ],
+   "p": [
+    "CaCO3",
+    "KNO3"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "Ca(NO3)2": "aq",
+    "K2CO3": "aq",
+    "CaCO3": "s",
+    "KNO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 159
+  }
+ },
+ {
+  "id": "reactions-705f7b56",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: BaCl2 + Na2CO3 →",
+  "answer": "BaCl2(aq) + Na2CO3(aq) → BaCO3(s) + 2 NaCl(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "BaCl2",
+    "Na2CO3"
+   ],
+   "p": [
+    "BaCO3",
+    "NaCl"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "BaCl2": "aq",
+    "Na2CO3": "aq",
+    "BaCO3": "s",
+    "NaCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 160
+  }
+ },
+ {
+  "id": "reactions-5469d0e0",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: SrCl2 + Na2CO3 →",
+  "answer": "SrCl2(aq) + Na2CO3(aq) → SrCO3(s) + 2 NaCl(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "SrCl2",
+    "Na2CO3"
+   ],
+   "p": [
+    "SrCO3",
+    "NaCl"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "SrCl2": "aq",
+    "Na2CO3": "aq",
+    "SrCO3": "s",
+    "NaCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 161
+  }
+ },
+ {
+  "id": "reactions-822df91b",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: MgCl2 + Na2CO3 →",
+  "answer": "MgCl2(aq) + Na2CO3(aq) → MgCO3(s) + 2 NaCl(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "MgCl2",
+    "Na2CO3"
+   ],
+   "p": [
+    "MgCO3",
+    "NaCl"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "MgCl2": "aq",
+    "Na2CO3": "aq",
+    "MgCO3": "s",
+    "NaCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 162
+  }
+ },
+ {
+  "id": "reactions-6adef338",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: FeCl2 + NaOH →",
+  "answer": "FeCl2(aq) + 2 NaOH(aq) → Fe(OH)2(s) + 2 NaCl(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "FeCl2",
+    "NaOH"
+   ],
+   "p": [
+    "Fe(OH)2",
+    "NaCl"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    2
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "FeCl2": "aq",
+    "NaOH": "aq",
+    "Fe(OH)2": "s",
+    "NaCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 163
+  }
+ },
+ {
+  "id": "reactions-cf6e99e7",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: FeCl2 + KOH →",
+  "answer": "FeCl2(aq) + 2 KOH(aq) → Fe(OH)2(s) + 2 KCl(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "FeCl2",
+    "KOH"
+   ],
+   "p": [
+    "Fe(OH)2",
+    "KCl"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    2
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "FeCl2": "aq",
+    "KOH": "aq",
+    "Fe(OH)2": "s",
+    "KCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 164
+  }
+ },
+ {
+  "id": "reactions-67d63e44",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: ZnCl2 + NaOH →",
+  "answer": "ZnCl2(aq) + 2 NaOH(aq) → Zn(OH)2(s) + 2 NaCl(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "ZnCl2",
+    "NaOH"
+   ],
+   "p": [
+    "Zn(OH)2",
+    "NaCl"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    2
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "ZnCl2": "aq",
+    "NaOH": "aq",
+    "Zn(OH)2": "s",
+    "NaCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 165
+  }
+ },
+ {
+  "id": "reactions-2eec584f",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: ZnSO4 + KOH →",
+  "answer": "ZnSO4(aq) + 2 KOH(aq) → Zn(OH)2(s) + K2SO4(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "ZnSO4",
+    "KOH"
+   ],
+   "p": [
+    "Zn(OH)2",
+    "K2SO4"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    1
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "ZnSO4": "aq",
+    "KOH": "aq",
+    "Zn(OH)2": "s",
+    "K2SO4": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 166
+  }
+ },
+ {
+  "id": "reactions-e9646b0d",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: AlCl3 + KOH →",
+  "answer": "AlCl3(aq) + 3 KOH(aq) → Al(OH)3(s) + 3 KCl(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "AlCl3",
+    "KOH"
+   ],
+   "p": [
+    "Al(OH)3",
+    "KCl"
+   ],
+   "coef": [
+    1,
+    3,
+    1,
+    3
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "AlCl3": "aq",
+    "KOH": "aq",
+    "Al(OH)3": "s",
+    "KCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 167
+  }
+ },
+ {
+  "id": "reactions-0ce26feb",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Cu(NO3)2 + KOH →",
+  "answer": "Cu(NO3)2(aq) + 2 KOH(aq) → Cu(OH)2(s) + 2 KNO3(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "Cu(NO3)2",
+    "KOH"
+   ],
+   "p": [
+    "Cu(OH)2",
+    "KNO3"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    2
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "Cu(NO3)2": "aq",
+    "KOH": "aq",
+    "Cu(OH)2": "s",
+    "KNO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 168
+  }
+ },
+ {
+  "id": "reactions-0349d922",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: MgCl2 + KOH →",
+  "answer": "MgCl2(aq) + 2 KOH(aq) → Mg(OH)2(s) + 2 KCl(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "MgCl2",
+    "KOH"
+   ],
+   "p": [
+    "Mg(OH)2",
+    "KCl"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    2
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "MgCl2": "aq",
+    "KOH": "aq",
+    "Mg(OH)2": "s",
+    "KCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 169
+  }
+ },
+ {
+  "id": "reactions-e1a5a569",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: CaCl2 + Na3PO4 →",
+  "answer": "3 CaCl2(aq) + 2 Na3PO4(aq) → Ca3(PO4)2(s) + 6 NaCl(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "CaCl2",
+    "Na3PO4"
+   ],
+   "p": [
+    "Ca3(PO4)2",
+    "NaCl"
+   ],
+   "coef": [
+    3,
+    2,
+    1,
+    6
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "CaCl2": "aq",
+    "Na3PO4": "aq",
+    "Ca3(PO4)2": "s",
+    "NaCl": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 170
+  }
+ },
+ {
+  "id": "reactions-a41ce849",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: AgNO3 + Na3PO4 →",
+  "answer": "3 AgNO3(aq) + Na3PO4(aq) → Ag3PO4(s) + 3 NaNO3(aq)",
+  "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "AgNO3",
+    "Na3PO4"
+   ],
+   "p": [
+    "Ag3PO4",
+    "NaNO3"
+   ],
+   "coef": [
+    3,
+    1,
+    1,
+    3
+   ],
+   "hint": "Mix aqueous reactant solutions. Swap cations, use ion charges to write neutral formulas, and identify the precipitate using the solubility chart. Use stoichiometric amounts; do not add excess hydroxide.",
+   "states": {
+    "AgNO3": "aq",
+    "Na3PO4": "aq",
+    "Ag3PO4": "s",
+    "NaNO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 171
+  }
+ },
+ {
+  "id": "reactions-1c7eb17e",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: HBr + NaOH →",
+  "answer": "HBr(aq) + NaOH(aq) → NaBr(aq) + H2O(l)",
+  "hint": "Strong acid and strong base form water and an aqueous salt. H⁺ + OH⁻ → H₂O.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "HBr",
+    "NaOH"
+   ],
+   "p": [
+    "NaBr",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Strong acid and strong base form water and an aqueous salt. H⁺ + OH⁻ → H₂O.",
+   "states": {
+    "HBr": "aq",
+    "NaOH": "aq",
+    "NaBr": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 172
+  }
+ },
+ {
+  "id": "reactions-f4b4aa18",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: HI + KOH →",
+  "answer": "HI(aq) + KOH(aq) → KI(aq) + H2O(l)",
+  "hint": "Strong acid and strong base form water and an aqueous salt. H⁺ + OH⁻ → H₂O.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "HI",
+    "KOH"
+   ],
+   "p": [
+    "KI",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Strong acid and strong base form water and an aqueous salt. H⁺ + OH⁻ → H₂O.",
+   "states": {
+    "HI": "aq",
+    "KOH": "aq",
+    "KI": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 173
+  }
+ },
+ {
+  "id": "reactions-e56c146c",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: HNO3 + KOH →",
+  "answer": "HNO3(aq) + KOH(aq) → KNO3(aq) + H2O(l)",
+  "hint": "Strong acid and strong base form water and an aqueous salt. H⁺ + OH⁻ → H₂O.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "HNO3",
+    "KOH"
+   ],
+   "p": [
+    "KNO3",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Strong acid and strong base form water and an aqueous salt. H⁺ + OH⁻ → H₂O.",
+   "states": {
+    "HNO3": "aq",
+    "KOH": "aq",
+    "KNO3": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 174
+  }
+ },
+ {
+  "id": "reactions-93673830",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: HClO4 + NaOH →",
+  "answer": "HClO4(aq) + NaOH(aq) → NaClO4(aq) + H2O(l)",
+  "hint": "Strong acid and strong base form water and an aqueous salt. H⁺ + OH⁻ → H₂O.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "HClO4",
+    "NaOH"
+   ],
+   "p": [
+    "NaClO4",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Strong acid and strong base form water and an aqueous salt. H⁺ + OH⁻ → H₂O.",
+   "states": {
+    "HClO4": "aq",
+    "NaOH": "aq",
+    "NaClO4": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 175
+  }
+ },
+ {
+  "id": "reactions-9e776307",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: HCl + Ba(OH)2 →",
+  "answer": "2 HCl(aq) + Ba(OH)2(aq) → BaCl2(aq) + 2 H2O(l)",
+  "hint": "Neutralize every acidic H with OH to form water. Barium sulfate, if formed, precipitates; balance molecular species before writing ions.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "HCl",
+    "Ba(OH)2"
+   ],
+   "p": [
+    "BaCl2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    1,
+    1,
+    2
+   ],
+   "hint": "Neutralize every acidic H with OH to form water. Barium sulfate, if formed, precipitates; balance molecular species before writing ions.",
+   "states": {
+    "HCl": "aq",
+    "Ba(OH)2": "aq",
+    "BaCl2": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 176
+  }
+ },
+ {
+  "id": "reactions-8faf5cb6",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: HNO3 + Ba(OH)2 →",
+  "answer": "2 HNO3(aq) + Ba(OH)2(aq) → Ba(NO3)2(aq) + 2 H2O(l)",
+  "hint": "Neutralize every acidic H with OH to form water. Barium sulfate, if formed, precipitates; balance molecular species before writing ions.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "HNO3",
+    "Ba(OH)2"
+   ],
+   "p": [
+    "Ba(NO3)2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    1,
+    1,
+    2
+   ],
+   "hint": "Neutralize every acidic H with OH to form water. Barium sulfate, if formed, precipitates; balance molecular species before writing ions.",
+   "states": {
+    "HNO3": "aq",
+    "Ba(OH)2": "aq",
+    "Ba(NO3)2": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 177
+  }
+ },
+ {
+  "id": "reactions-0528a759",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: HBr + Ca(OH)2 →",
+  "answer": "2 HBr(aq) + Ca(OH)2(aq) → CaBr2(aq) + 2 H2O(l)",
+  "hint": "Neutralize every acidic H with OH to form water. Barium sulfate, if formed, precipitates; balance molecular species before writing ions.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "HBr",
+    "Ca(OH)2"
+   ],
+   "p": [
+    "CaBr2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    1,
+    1,
+    2
+   ],
+   "hint": "Neutralize every acidic H with OH to form water. Barium sulfate, if formed, precipitates; balance molecular species before writing ions.",
+   "states": {
+    "HBr": "aq",
+    "Ca(OH)2": "aq",
+    "CaBr2": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 178
+  }
+ },
+ {
+  "id": "reactions-4548589f",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: H2SO4 + Ba(OH)2 →",
+  "answer": "H2SO4(aq) + Ba(OH)2(aq) → BaSO4(s) + 2 H2O(l)",
+  "hint": "Neutralize every acidic H with OH to form water. Barium sulfate, if formed, precipitates; balance molecular species before writing ions.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "H2SO4",
+    "Ba(OH)2"
+   ],
+   "p": [
+    "BaSO4",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "hint": "Neutralize every acidic H with OH to form water. Barium sulfate, if formed, precipitates; balance molecular species before writing ions.",
+   "states": {
+    "H2SO4": "aq",
+    "Ba(OH)2": "aq",
+    "BaSO4": "s",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 179
+  }
+ },
+ {
+  "id": "reactions-a03e53d2",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Na2CO3 + HBr →",
+  "answer": "Na2CO3(aq) + 2 HBr(aq) → 2 NaBr(aq) + CO2(g) + H2O(l)",
+  "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "Na2CO3",
+    "HBr"
+   ],
+   "p": [
+    "NaBr",
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1,
+    1
+   ],
+   "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+   "states": {
+    "Na2CO3": "aq",
+    "HBr": "aq",
+    "NaBr": "aq",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 180
+  }
+ },
+ {
+  "id": "reactions-e98a6474",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: K2CO3 + HBr →",
+  "answer": "K2CO3(aq) + 2 HBr(aq) → 2 KBr(aq) + CO2(g) + H2O(l)",
+  "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "K2CO3",
+    "HBr"
+   ],
+   "p": [
+    "KBr",
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1,
+    1
+   ],
+   "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+   "states": {
+    "K2CO3": "aq",
+    "HBr": "aq",
+    "KBr": "aq",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 181
+  }
+ },
+ {
+  "id": "reactions-e9ff245e",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: NaHCO3 + HNO3 →",
+  "answer": "NaHCO3(aq) + HNO3(aq) → NaNO3(aq) + CO2(g) + H2O(l)",
+  "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "NaHCO3",
+    "HNO3"
+   ],
+   "p": [
+    "NaNO3",
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+   "states": {
+    "NaHCO3": "aq",
+    "HNO3": "aq",
+    "NaNO3": "aq",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 182
+  }
+ },
+ {
+  "id": "reactions-8b169949",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: NaHCO3 + HBr →",
+  "answer": "NaHCO3(aq) + HBr(aq) → NaBr(aq) + CO2(g) + H2O(l)",
+  "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "NaHCO3",
+    "HBr"
+   ],
+   "p": [
+    "NaBr",
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+   "states": {
+    "NaHCO3": "aq",
+    "HBr": "aq",
+    "NaBr": "aq",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 183
+  }
+ },
+ {
+  "id": "reactions-c347206f",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: K2CO3 + HNO3 →",
+  "answer": "K2CO3(aq) + 2 HNO3(aq) → 2 KNO3(aq) + CO2(g) + H2O(l)",
+  "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "K2CO3",
+    "HNO3"
+   ],
+   "p": [
+    "KNO3",
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1,
+    1
+   ],
+   "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+   "states": {
+    "K2CO3": "aq",
+    "HNO3": "aq",
+    "KNO3": "aq",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 184
+  }
+ },
+ {
+  "id": "reactions-5434e532",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Na2SO3 + HBr →",
+  "answer": "Na2SO3(aq) + 2 HBr(aq) → 2 NaBr(aq) + SO2(g) + H2O(l)",
+  "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "Na2SO3",
+    "HBr"
+   ],
+   "p": [
+    "NaBr",
+    "SO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1,
+    1
+   ],
+   "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+   "states": {
+    "Na2SO3": "aq",
+    "HBr": "aq",
+    "NaBr": "aq",
+    "SO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 185
+  }
+ },
+ {
+  "id": "reactions-a080ad43",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: K2SO3 + HBr →",
+  "answer": "K2SO3(aq) + 2 HBr(aq) → 2 KBr(aq) + SO2(g) + H2O(l)",
+  "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "K2SO3",
+    "HBr"
+   ],
+   "p": [
+    "KBr",
+    "SO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1,
+    1
+   ],
+   "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+   "states": {
+    "K2SO3": "aq",
+    "HBr": "aq",
+    "KBr": "aq",
+    "SO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 186
+  }
+ },
+ {
+  "id": "reactions-8949f0da",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Na2S + HBr →",
+  "answer": "Na2S(aq) + 2 HBr(aq) → 2 NaBr(aq) + H2S(g)",
+  "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "Na2S",
+    "HBr"
+   ],
+   "p": [
+    "NaBr",
+    "H2S"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1
+   ],
+   "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+   "states": {
+    "Na2S": "aq",
+    "HBr": "aq",
+    "NaBr": "aq",
+    "H2S": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 187
+  }
+ },
+ {
+  "id": "reactions-a13cfda0",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: K2S + HBr →",
+  "answer": "K2S(aq) + 2 HBr(aq) → 2 KBr(aq) + H2S(g)",
+  "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "K2S",
+    "HBr"
+   ],
+   "p": [
+    "KBr",
+    "H2S"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1
+   ],
+   "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+   "states": {
+    "K2S": "aq",
+    "HBr": "aq",
+    "KBr": "aq",
+    "H2S": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 188
+  }
+ },
+ {
+  "id": "reactions-3fe58142",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: FeS + HBr →",
+  "answer": "FeS(s) + 2 HBr(aq) → FeBr2(aq) + H2S(g)",
+  "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "FeS",
+    "HBr"
+   ],
+   "p": [
+    "FeBr2",
+    "H2S"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    1
+   ],
+   "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+   "states": {
+    "FeS": "s",
+    "HBr": "aq",
+    "FeBr2": "aq",
+    "H2S": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 189
+  }
+ },
+ {
+  "id": "reactions-43434823",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: NH4NO3 + KOH →",
+  "answer": "NH4NO3(aq) + KOH(aq) → KNO3(aq) + NH3(g) + H2O(l)",
+  "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "NH4NO3",
+    "KOH"
+   ],
+   "p": [
+    "KNO3",
+    "NH3",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+   "states": {
+    "NH4NO3": "aq",
+    "KOH": "aq",
+    "KNO3": "aq",
+    "NH3": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 190
+  }
+ },
+ {
+  "id": "reactions-4813e18f",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: NH4Br + NaOH →",
+  "answer": "NH4Br(aq) + NaOH(aq) → NaBr(aq) + NH3(g) + H2O(l)",
+  "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "NH4Br",
+    "NaOH"
+   ],
+   "p": [
+    "NaBr",
+    "NH3",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+   "states": {
+    "NH4Br": "aq",
+    "NaOH": "aq",
+    "NaBr": "aq",
+    "NH3": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 191
+  }
+ },
+ {
+  "id": "reactions-d4e37513",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: NH4Br + KOH →",
+  "answer": "NH4Br(aq) + KOH(aq) → KBr(aq) + NH3(g) + H2O(l)",
+  "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "NH4Br",
+    "KOH"
+   ],
+   "p": [
+    "KBr",
+    "NH3",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+   "states": {
+    "NH4Br": "aq",
+    "KOH": "aq",
+    "KBr": "aq",
+    "NH3": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 192
+  }
+ },
+ {
+  "id": "reactions-4201df4a",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: NH4Cl + Ba(OH)2 →",
+  "answer": "2 NH4Cl(aq) + Ba(OH)2(aq) → BaCl2(aq) + 2 NH3(g) + 2 H2O(l)",
+  "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "NH4Cl",
+    "Ba(OH)2"
+   ],
+   "p": [
+    "BaCl2",
+    "NH3",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    1,
+    1,
+    2,
+    2
+   ],
+   "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+   "states": {
+    "NH4Cl": "aq",
+    "Ba(OH)2": "aq",
+    "BaCl2": "aq",
+    "NH3": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 193
+  }
+ },
+ {
+  "id": "reactions-c472218c",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: (NH4)2SO4 + Ba(OH)2 →",
+  "answer": "(NH4)2SO4(aq) + Ba(OH)2(aq) → BaSO4(s) + 2 NH3(g) + 2 H2O(l)",
+  "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "(NH4)2SO4",
+    "Ba(OH)2"
+   ],
+   "p": [
+    "BaSO4",
+    "NH3",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    2,
+    2
+   ],
+   "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+   "states": {
+    "(NH4)2SO4": "aq",
+    "Ba(OH)2": "aq",
+    "BaSO4": "s",
+    "NH3": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 194
+  }
+ },
+ {
+  "id": "reactions-2eaaf664",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: NaHCO3 + HClO4 →",
+  "answer": "NaHCO3(aq) + HClO4(aq) → NaClO4(aq) + CO2(g) + H2O(l)",
+  "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "NaHCO3",
+    "HClO4"
+   ],
+   "p": [
+    "NaClO4",
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Use the gas recipe: carbonate or bicarbonate → CO₂ + H₂O; sulfite → SO₂ + H₂O; sulfide → H₂S; ammonium plus base → NH₃ + H₂O. Cancel unchanged aqueous ions.",
+   "states": {
+    "NaHCO3": "aq",
+    "HClO4": "aq",
+    "NaClO4": "aq",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 195
+  }
+ },
+ {
+  "id": "reactions-4e0c6b14",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C4H6 + O2 →",
+  "answer": "2 C4H6(g) + 11 O2(g) → 8 CO2(g) + 6 H2O(l)",
+  "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C4H6",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    11,
+    8,
+    6
+   ],
+   "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+   "states": {
+    "C4H6": "g",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 196
+  }
+ },
+ {
+  "id": "reactions-78ce9d31",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C5H10 + O2 →",
+  "answer": "2 C5H10(l) + 15 O2(g) → 10 CO2(g) + 10 H2O(l)",
+  "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C5H10",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    15,
+    10,
+    10
+   ],
+   "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+   "states": {
+    "C5H10": "l",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 197
+  }
+ },
+ {
+  "id": "reactions-96662ae0",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C5H8 + O2 →",
+  "answer": "C5H8(l) + 7 O2(g) → 5 CO2(g) + 4 H2O(l)",
+  "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C5H8",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    7,
+    5,
+    4
+   ],
+   "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+   "states": {
+    "C5H8": "l",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 198
+  }
+ },
+ {
+  "id": "reactions-622fa733",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C6H12 + O2 →",
+  "answer": "C6H12(l) + 9 O2(g) → 6 CO2(g) + 6 H2O(l)",
+  "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C6H12",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    9,
+    6,
+    6
+   ],
+   "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+   "states": {
+    "C6H12": "l",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 199
+  }
+ },
+ {
+  "id": "reactions-9634b3d9",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C6H10 + O2 →",
+  "answer": "2 C6H10(l) + 17 O2(g) → 12 CO2(g) + 10 H2O(l)",
+  "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C6H10",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    17,
+    12,
+    10
+   ],
+   "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+   "states": {
+    "C6H10": "l",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 200
+  }
+ },
+ {
+  "id": "reactions-a86e2cfb",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C7H16 + O2 →",
+  "answer": "C7H16(l) + 11 O2(g) → 7 CO2(g) + 8 H2O(l)",
+  "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C7H16",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    11,
+    7,
+    8
+   ],
+   "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+   "states": {
+    "C7H16": "l",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 201
+  }
+ },
+ {
+  "id": "reactions-80d1a57c",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C8H18 + O2 →",
+  "answer": "2 C8H18(l) + 25 O2(g) → 16 CO2(g) + 18 H2O(l)",
+  "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C8H18",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    25,
+    16,
+    18
+   ],
+   "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+   "states": {
+    "C8H18": "l",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 202
+  }
+ },
+ {
+  "id": "reactions-0989e960",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C2H6O2 + O2 →",
+  "answer": "2 C2H6O2(l) + 5 O2(g) → 4 CO2(g) + 6 H2O(l)",
+  "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C2H6O2",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    5,
+    4,
+    6
+   ],
+   "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+   "states": {
+    "C2H6O2": "l",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 203
+  }
+ },
+ {
+  "id": "reactions-fbd8cdf0",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C3H6O + O2 →",
+  "answer": "C3H6O(l) + 4 O2(g) → 3 CO2(g) + 3 H2O(l)",
+  "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C3H6O",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    4,
+    3,
+    3
+   ],
+   "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+   "states": {
+    "C3H6O": "l",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 204
+  }
+ },
+ {
+  "id": "reactions-9c6a4e90",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C6H12O6 + O2 →",
+  "answer": "C6H12O6(s) + 6 O2(g) → 6 CO2(g) + 6 H2O(l)",
+  "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C6H12O6",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    6,
+    6,
+    6
+   ],
+   "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+   "states": {
+    "C6H12O6": "s",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 205
+  }
+ },
+ {
+  "id": "reactions-18cb0349",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: CH3OH + O2 →",
+  "answer": "2 CH3OH(l) + 3 O2(g) → 2 CO2(g) + 4 H2O(l)",
+  "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "CH3OH",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    2,
+    3,
+    2,
+    4
+   ],
+   "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+   "states": {
+    "CH3OH": "l",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 206
+  }
+ },
+ {
+  "id": "reactions-d876e8bb",
+  "skill": "reactions.combustion",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: C4H10O + O2 →",
+  "answer": "C4H10O(l) + 6 O2(g) → 4 CO2(g) + 5 H2O(l)",
+  "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+  "data": {
+   "cat": "Combustion",
+   "r": [
+    "C4H10O",
+    "O2"
+   ],
+   "p": [
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    6,
+    4,
+    5
+   ],
+   "hint": "Complete combustion in excess oxygen produces CO₂ and H₂O. Balance C, then H, then O, including oxygen already present in the fuel; finish with whole-number coefficients.",
+   "states": {
+    "C4H10O": "l",
+    "O2": "g",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 207
+  }
+ },
+ {
+  "id": "reactions-e574395e",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Na + H2O →",
+  "answer": "2 Na(s) + 2 H2O(l) → 2 NaOH(aq) + H2(g)",
+  "hint": "Very active metals displace hydrogen from water, forming a hydroxide and H₂.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Na",
+    "H2O"
+   ],
+   "p": [
+    "NaOH",
+    "H2"
+   ],
+   "coef": [
+    2,
+    2,
+    2,
+    1
+   ],
+   "hint": "Very active metals displace hydrogen from water, forming a hydroxide and H₂.",
+   "states": {
+    "Na": "s",
+    "H2O": "l",
+    "NaOH": "aq",
+    "H2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 208
+  }
+ },
+ {
+  "id": "reactions-01b8b585",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: K + H2O →",
+  "answer": "2 K(s) + 2 H2O(l) → 2 KOH(aq) + H2(g)",
+  "hint": "Very active metals displace hydrogen from water, forming a hydroxide and H₂.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "K",
+    "H2O"
+   ],
+   "p": [
+    "KOH",
+    "H2"
+   ],
+   "coef": [
+    2,
+    2,
+    2,
+    1
+   ],
+   "hint": "Very active metals displace hydrogen from water, forming a hydroxide and H₂.",
+   "states": {
+    "K": "s",
+    "H2O": "l",
+    "KOH": "aq",
+    "H2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 209
+  }
+ },
+ {
+  "id": "reactions-c9f260dd",
+  "skill": "reactions.single-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Ca + H2O →",
+  "answer": "Ca(s) + 2 H2O(l) → Ca(OH)2(aq) + H2(g)",
+  "hint": "Very active metals displace hydrogen from water, forming a hydroxide and H₂.",
+  "data": {
+   "cat": "Single displacement",
+   "r": [
+    "Ca",
+    "H2O"
+   ],
+   "p": [
+    "Ca(OH)2",
+    "H2"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    1
+   ],
+   "hint": "Very active metals displace hydrogen from water, forming a hydroxide and H₂.",
+   "states": {
+    "Ca": "s",
+    "H2O": "l",
+    "Ca(OH)2": "aq",
+    "H2": "g"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 210
+  }
+ },
+ {
+  "id": "reactions-2aeb7bb4",
+  "skill": "reactions.combination",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: K + F2 →",
+  "answer": "2 K(s) + F2(g) → 2 KF(s)",
+  "hint": "Fluorine is diatomic, F₂; potassium forms K⁺.",
+  "data": {
+   "cat": "Combination",
+   "r": [
+    "K",
+    "F2"
+   ],
+   "p": [
+    "KF"
+   ],
+   "coef": [
+    2,
+    1,
+    2
+   ],
+   "hint": "Fluorine is diatomic, F₂; potassium forms K⁺.",
+   "states": {
+    "K": "s",
+    "F2": "g",
+    "KF": "s"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 211
+  }
+ },
+ {
+  "id": "reactions-f905b33f",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: K2SO4 + SrI2 →",
+  "answer": "K2SO4(aq) + SrI2(aq) → SrSO4(s) + 2 KI(aq)",
+  "hint": "Swap partners. Sulfate is insoluble with Sr²⁺.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "K2SO4",
+    "SrI2"
+   ],
+   "p": [
+    "SrSO4",
+    "KI"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "hint": "Swap partners. Sulfate is insoluble with Sr²⁺.",
+   "states": {
+    "K2SO4": "aq",
+    "SrI2": "aq",
+    "SrSO4": "s",
+    "KI": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 212
+  }
+ },
+ {
+  "id": "reactions-d0769dae",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Pb(NO3)2 + K2SO4 →",
+  "answer": "Pb(NO3)2(aq) + K2SO4(aq) → PbSO4(s) + 2 KNO3(aq)",
+  "hint": "Swap partners. Sulfate is insoluble with Pb²⁺.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "Pb(NO3)2",
+    "K2SO4"
+   ],
+   "p": [
+    "PbSO4",
+    "KNO3"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "hint": "Swap partners. Sulfate is insoluble with Pb²⁺.",
+   "states": {
+    "Pb(NO3)2": "aq",
+    "K2SO4": "aq",
+    "PbSO4": "s",
+    "KNO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 213
+  }
+ },
+ {
+  "id": "reactions-b4bb403f",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: MgCl2 + AgNO3 →",
+  "answer": "MgCl2(aq) + 2 AgNO3(aq) → 2 AgCl(s) + Mg(NO3)2(aq)",
+  "hint": "Swap partners. Chloride is insoluble with Ag⁺.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "MgCl2",
+    "AgNO3"
+   ],
+   "p": [
+    "AgCl",
+    "Mg(NO3)2"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1
+   ],
+   "hint": "Swap partners. Chloride is insoluble with Ag⁺.",
+   "states": {
+    "MgCl2": "aq",
+    "AgNO3": "aq",
+    "AgCl": "s",
+    "Mg(NO3)2": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 214
+  }
+ },
+ {
+  "id": "reactions-940327c3",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: Na2S + Fe(NO3)2 →",
+  "answer": "Na2S(aq) + Fe(NO3)2(aq) → FeS(s) + 2 NaNO3(aq)",
+  "hint": "Swap partners. Sulfide is insoluble except with Group 1, NH₄⁺, Ca²⁺, Sr²⁺, Ba²⁺.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "Na2S",
+    "Fe(NO3)2"
+   ],
+   "p": [
+    "FeS",
+    "NaNO3"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "hint": "Swap partners. Sulfide is insoluble except with Group 1, NH₄⁺, Ca²⁺, Sr²⁺, Ba²⁺.",
+   "states": {
+    "Na2S": "aq",
+    "Fe(NO3)2": "aq",
+    "FeS": "s",
+    "NaNO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 215
+  }
+ },
+ {
+  "id": "reactions-a7a16eaf",
+  "skill": "reactions.double-displacement",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: K2S + Fe(NO3)2 →",
+  "answer": "K2S(aq) + Fe(NO3)2(aq) → FeS(s) + 2 KNO3(aq)",
+  "hint": "Swap partners. Sulfide is insoluble except with Group 1, NH₄⁺, Ca²⁺, Sr²⁺, Ba²⁺.",
+  "data": {
+   "cat": "Double displacement",
+   "r": [
+    "K2S",
+    "Fe(NO3)2"
+   ],
+   "p": [
+    "FeS",
+    "KNO3"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "hint": "Swap partners. Sulfide is insoluble except with Group 1, NH₄⁺, Ca²⁺, Sr²⁺, Ba²⁺.",
+   "states": {
+    "K2S": "aq",
+    "Fe(NO3)2": "aq",
+    "FeS": "s",
+    "KNO3": "aq"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 216
+  }
+ },
+ {
+  "id": "reactions-da560176",
+  "skill": "reactions.neutralization",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: HCl + LiOH →",
+  "answer": "HCl(aq) + LiOH(aq) → LiCl(aq) + H2O(l)",
+  "hint": "Strong acid and strong base form water and an aqueous salt.",
+  "data": {
+   "cat": "Neutralization",
+   "r": [
+    "HCl",
+    "LiOH"
+   ],
+   "p": [
+    "LiCl",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Strong acid and strong base form water and an aqueous salt.",
+   "states": {
+    "HCl": "aq",
+    "LiOH": "aq",
+    "LiCl": "aq",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 217
+  }
+ },
+ {
+  "id": "reactions-769699ad",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: (NH4)2CO3 + HCl →",
+  "answer": "(NH4)2CO3(aq) + 2 HCl(aq) → 2 NH4Cl(aq) + CO2(g) + H2O(l)",
+  "hint": "Carbonate + acid → H₂CO₃ → CO₂ + H₂O.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "(NH4)2CO3",
+    "HCl"
+   ],
+   "p": [
+    "NH4Cl",
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1,
+    1
+   ],
+   "hint": "Carbonate + acid → H₂CO₃ → CO₂ + H₂O.",
+   "states": {
+    "(NH4)2CO3": "aq",
+    "HCl": "aq",
+    "NH4Cl": "aq",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 218
+  }
+ },
+ {
+  "id": "reactions-53e28a7b",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: K2CO3 + HI →",
+  "answer": "K2CO3(aq) + 2 HI(aq) → 2 KI(aq) + CO2(g) + H2O(l)",
+  "hint": "Carbonate + acid → H₂CO₃ → CO₂ + H₂O.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "K2CO3",
+    "HI"
+   ],
+   "p": [
+    "KI",
+    "CO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    2,
+    1,
+    1
+   ],
+   "hint": "Carbonate + acid → H₂CO₃ → CO₂ + H₂O.",
+   "states": {
+    "K2CO3": "aq",
+    "HI": "aq",
+    "KI": "aq",
+    "CO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 219
+  }
+ },
+ {
+  "id": "reactions-c2bab1e7",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: MgSO3 + HI →",
+  "answer": "MgSO3(aq) + 2 HI(aq) → MgI2(aq) + SO2(g) + H2O(l)",
+  "hint": "Sulfite + acid → H₂SO₃ → SO₂ + H₂O.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "MgSO3",
+    "HI"
+   ],
+   "p": [
+    "MgI2",
+    "SO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    2,
+    1,
+    1,
+    1
+   ],
+   "hint": "Sulfite + acid → H₂SO₃ → SO₂ + H₂O.",
+   "states": {
+    "MgSO3": "aq",
+    "HI": "aq",
+    "MgI2": "aq",
+    "SO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 220
+  }
+ },
+ {
+  "id": "reactions-268e21fd",
+  "skill": "reactions.gas-evolution",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-10",
+   "1A-4"
+  ],
+  "origin": "original",
+  "type": "reaction",
+  "prompt": "Predict the products and balance: NaHSO3 + HNO3 →",
+  "answer": "NaHSO3(aq) + HNO3(aq) → NaNO3(aq) + SO2(g) + H2O(l)",
+  "hint": "Hydrogen sulfite + acid → H₂SO₃ → SO₂ + H₂O.",
+  "data": {
+   "cat": "Gas evolution",
+   "r": [
+    "NaHSO3",
+    "HNO3"
+   ],
+   "p": [
+    "NaNO3",
+    "SO2",
+    "H2O"
+   ],
+   "coef": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hint": "Hydrogen sulfite + acid → H₂SO₃ → SO₂ + H₂O.",
+   "states": {
+    "NaHSO3": "aq",
+    "HNO3": "aq",
+    "NaNO3": "aq",
+    "SO2": "g",
+    "H2O": "l"
+   }
+  },
+  "from": {
+   "game": "reactions",
+   "list": "D",
+   "index": 221
+  }
+ }
+]

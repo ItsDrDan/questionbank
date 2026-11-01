@@ -6,7 +6,8 @@
   "gas-laws": 21,
   "thermochemistry": 29,
   "chem-1b-readiness": 42,
-  "quantum": 972
+  "quantum": 972,
+  "reactions": 222
  },
  "chapters": {
   "3A-1": {
@@ -17,11 +18,13 @@
    "chem-1b-readiness": 12
   },
   "3A-10": {
-   "redox": 152
+   "redox": 152,
+   "reactions": 222
   },
   "1A-4": {
    "redox": 208,
-   "chem-1b-readiness": 10
+   "chem-1b-readiness": 10,
+   "reactions": 222
   },
   "1B-17": {
    "redox": 56
@@ -92,6 +95,13 @@
   "quantum.numbers": 146,
   "quantum.config": 320,
   "quantum.orbitals": 66,
-  "quantum.trends": 96
+  "quantum.trends": 96,
+  "reactions.combination": 34,
+  "reactions.decomposition": 27,
+  "reactions.single-displacement": 31,
+  "reactions.double-displacement": 45,
+  "reactions.combustion": 25,
+  "reactions.neutralization": 22,
+  "reactions.gas-evolution": 38
  }
 }
