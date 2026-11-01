@@ -15132,5 +15132,5192 @@
    "list": "BANK.3A",
    "index": 251
   }
+ },
+ {
+  "id": "finalexam-7c7c8d82",
+  "skill": "finalexam.3a.atoms",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-2",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Chlorine-37 gains an electron to become the ion ³⁷Cl⁻. Which set of particle counts describes this ion?",
+  "choices": [
+   "17 p, 20 n, 18 e",
+   "17 p, 20 n, 16 e",
+   "17 p, 37 n, 18 e",
+   "18 p, 19 n, 18 e"
+  ],
+  "answer": "17 p, 20 n, 18 e",
+  "hint": "Atomic number gives protons; mass number minus protons gives neutrons; a negative charge means extra electrons.",
+  "explain": "Cl is element 17, so 17 protons; 37 − 17 = 20 neutrons; a 1− charge means one electron MORE than protons: 17 p, 20 n, 18 e. \"16 e\" subtracts the electron instead of adding it, and \"37 n\" uses the mass number as the neutron count.",
+  "html": {
+   "prompt": "Chlorine-37 gains an electron to become the ion <sup>37</sup>Cl<sup>−</sup>. Which set of particle counts describes this ion?",
+   "choices": [
+    "17 p, 20 n, 18 e",
+    "17 p, 20 n, 16 e",
+    "17 p, 37 n, 18 e",
+    "18 p, 19 n, 18 e"
+   ],
+   "hint": "Atomic number gives protons; mass number minus protons gives neutrons; a negative charge means extra electrons.",
+   "explain": "Cl is element 17, so 17 protons; 37 − 17 = 20 neutrons; a 1− charge means one electron MORE than protons: <b>17 p, 20 n, 18 e</b>. \"16 e\" subtracts the electron instead of adding it, and \"37 n\" uses the mass number as the neutron count."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 252
+  }
+ },
+ {
+  "id": "finalexam-85c172a4",
+  "skill": "finalexam.3a.atoms",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-2",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which species has 12 protons, 12 neutrons and 10 electrons?",
+  "choices": [
+   "²⁴Mg²⁺",
+   "²⁴Mg²⁻",
+   "²²Mg²⁺",
+   "²⁴Na⁺"
+  ],
+  "answer": "²⁴Mg²⁺",
+  "hint": "Protons fix the element. Mass number = protons + neutrons. Charge = protons − electrons.",
+  "explain": "12 protons is Mg; 12 + 12 = mass number 24; charge = 12 − 10 = 2+: ²⁴Mg²⁺. A 2− ion would have 14 electrons, and ²²Mg has only 10 neutrons.",
+  "html": {
+   "prompt": "Which species has 12 protons, 12 neutrons and 10 electrons?",
+   "choices": [
+    "<sup>24</sup>Mg<sup>2+</sup>",
+    "<sup>24</sup>Mg<sup>2−</sup>",
+    "<sup>22</sup>Mg<sup>2+</sup>",
+    "<sup>24</sup>Na<sup>+</sup>"
+   ],
+   "hint": "Protons fix the element. Mass number = protons + neutrons. Charge = protons − electrons.",
+   "explain": "12 protons is Mg; 12 + 12 = mass number 24; charge = 12 − 10 = 2+: <b><sup>24</sup>Mg<sup>2+</sup></b>. A 2− ion would have 14 electrons, and <sup>22</sup>Mg has only 10 neutrons."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 253
+  }
+ },
+ {
+  "id": "finalexam-15fbd872",
+  "skill": "finalexam.3a.atoms",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-2",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which ion has the same number of electrons as a neutral argon atom?",
+  "choices": [
+   "K⁺",
+   "Na⁺",
+   "Br⁻",
+   "Mg²⁺"
+  ],
+  "answer": "K⁺",
+  "hint": "Argon has 18 electrons. For each ion, start from the atomic number and add or remove electrons for the charge.",
+  "explain": "K has 19 electrons; losing one gives 18, the same as Ar: K⁺. Na⁺ and Mg²⁺ have 10 electrons (like Ne), and Br⁻ has 36 (like Kr).",
+  "html": {
+   "prompt": "Which ion has the same number of electrons as a neutral argon atom?",
+   "choices": [
+    "K<sup>+</sup>",
+    "Na<sup>+</sup>",
+    "Br<sup>−</sup>",
+    "Mg<sup>2+</sup>"
+   ],
+   "hint": "Argon has 18 electrons. For each ion, start from the atomic number and add or remove electrons for the charge.",
+   "explain": "K has 19 electrons; losing one gives 18, the same as Ar: <b>K<sup>+</sup></b>. Na<sup>+</sup> and Mg<sup>2+</sup> have 10 electrons (like Ne), and Br<sup>−</sup> has 36 (like Kr)."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 254
+  }
+ },
+ {
+  "id": "finalexam-70acbeb1",
+  "skill": "finalexam.3a.atoms",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-2",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Potassium-40, found naturally in the human body, and calcium-40 have the same mass number. Which statement about these two atoms is true?",
+  "choices": [
+   "They have different numbers of protons, so they are not isotopes.",
+   "They are isotopes because they have the same mass number.",
+   "They have the same number of neutrons.",
+   "They have the same number of protons."
+  ],
+  "answer": "They have different numbers of protons, so they are not isotopes.",
+  "hint": "Isotopes are atoms of the SAME element. What decides which element an atom is?",
+  "explain": "K has 19 protons and 21 neutrons; Ca has 20 protons and 20 neutrons. Different proton numbers mean different elements, so they are not isotopes. Isotopes share the atomic number, not the mass number.",
+  "html": {
+   "prompt": "Potassium-40, found naturally in the human body, and calcium-40 have the same mass number. Which statement about these two atoms is true?",
+   "choices": [
+    "They have different numbers of protons, so they are not isotopes.",
+    "They are isotopes because they have the same mass number.",
+    "They have the same number of neutrons.",
+    "They have the same number of protons."
+   ],
+   "hint": "Isotopes are atoms of the SAME element. What decides which element an atom is?",
+   "explain": "K has 19 protons and 21 neutrons; Ca has 20 protons and 20 neutrons. Different proton numbers mean different elements, so they are <b>not isotopes</b>. Isotopes share the atomic number, not the mass number."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 255
+  }
+ },
+ {
+  "id": "finalexam-cabe2230",
+  "skill": "finalexam.3a.atoms",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-2",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "Natural magnesium is a mix of the three isotopes in the table. Calculate the atomic mass that should appear for Mg on the periodic table.",
+  "choices": [
+   "24.31 amu",
+   "24.99 amu",
+   "23.99 amu",
+   "2431 amu"
+  ],
+  "answer": "24.31 amu",
+  "hint": "Weighted average: change each percent to a decimal, multiply by that isotope's mass, then add.",
+  "explain": "(23.99)(0.7899) + (24.99)(0.1000) + (25.98)(0.1101) = 18.95 + 2.50 + 2.86 = 24.31 amu. 24.99 amu is the simple average, which ignores that Mg-24 is far more abundant; 2431 forgets to divide the percents by 100.",
+  "html": {
+   "prompt": "Natural magnesium is a mix of the three isotopes in the table. Calculate the atomic mass that should appear for Mg on the periodic table.",
+   "choices": [
+    "24.31 amu",
+    "24.99 amu",
+    "23.99 amu",
+    "2431 amu"
+   ],
+   "hint": "Weighted average: change each percent to a decimal, multiply by that isotope's mass, then add.",
+   "explain": "(23.99)(0.7899) + (24.99)(0.1000) + (25.98)(0.1101) = 18.95 + 2.50 + 2.86 = <b>24.31 amu</b>. 24.99 amu is the simple average, which ignores that Mg-24 is far more abundant; 2431 forgets to divide the percents by 100."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Isotope",
+      "Mass (amu)",
+      "Abundance (%)"
+     ],
+     "rows": [
+      [
+       "Mg-24",
+       "23.99",
+       "78.99"
+      ],
+      [
+       "Mg-25",
+       "24.99",
+       "10.00"
+      ],
+      [
+       "Mg-26",
+       "25.98",
+       "11.01"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 256
+  }
+ },
+ {
+  "id": "finalexam-06b0c5d5",
+  "skill": "finalexam.3a.atoms",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-2",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "An isotope used in a nuclear-medicine test has a mass number of 75 and contains 41 neutrons. Which isotope symbol represents it?",
+  "choices": [
+   "⁷⁵₃₄Se",
+   "⁷⁵₄₁Nb",
+   "⁴¹₃₄Se",
+   "¹¹⁶₃₄Se"
+  ],
+  "answer": "⁷⁵₃₄Se",
+  "hint": "Protons = mass number − neutrons. The number of protons tells you which element it is.",
+  "explain": "Protons = 75 − 41 = 34, and element 34 is selenium: ⁷⁵₃₄Se. Nb (element 41) treats the neutron count as the atomic number; 116 adds neutrons to the mass number.",
+  "html": {
+   "prompt": "An isotope used in a nuclear-medicine test has a mass number of 75 and contains 41 neutrons. Which isotope symbol represents it?",
+   "choices": [
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>75</sup><sub>34</sub></span>Se</span>",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>75</sup><sub>41</sub></span>Nb</span>",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>41</sup><sub>34</sub></span>Se</span>",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>116</sup><sub>34</sub></span>Se</span>"
+   ],
+   "hint": "Protons = mass number − neutrons. The number of protons tells you which element it is.",
+   "explain": "Protons = 75 − 41 = 34, and element 34 is selenium: <b><span class=\"nw\"><span class=\"ss pre\"><sup>75</sup><sub>34</sub></span>Se</span></b>. Nb (element 41) treats the neutron count as the atomic number; 116 adds neutrons to the mass number."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 257
+  }
+ },
+ {
+  "id": "finalexam-f0bacb3b",
+  "skill": "finalexam.3a.atoms",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-2",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which statement about subatomic particles is correct?",
+  "choices": [
+   "A neutron has about the same mass as a proton and has no charge.",
+   "An electron has about the same mass as a proton but the opposite charge.",
+   "Protons and electrons are both found in the nucleus.",
+   "A neutron has a negative charge and is found outside the nucleus."
+  ],
+  "answer": "A neutron has about the same mass as a proton and has no charge.",
+  "hint": "Recall the charge, relative mass and location of protons, neutrons and electrons.",
+  "explain": "Protons (+1) and neutrons (0) each have a mass of about 1 amu and sit in the nucleus: a neutron has about the same mass as a proton and no charge. An electron is about 1/1836 the mass of a proton and is outside the nucleus.",
+  "html": {
+   "prompt": "Which statement about subatomic particles is correct?",
+   "choices": [
+    "A neutron has about the same mass as a proton and has no charge.",
+    "An electron has about the same mass as a proton but the opposite charge.",
+    "Protons and electrons are both found in the nucleus.",
+    "A neutron has a negative charge and is found outside the nucleus."
+   ],
+   "hint": "Recall the charge, relative mass and location of protons, neutrons and electrons.",
+   "explain": "Protons (+1) and neutrons (0) each have a mass of about 1 amu and sit in the nucleus: <b>a neutron has about the same mass as a proton and no charge</b>. An electron is about 1/1836 the mass of a proton and is outside the nucleus."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 258
+  }
+ },
+ {
+  "id": "finalexam-12b4ade0",
+  "skill": "finalexam.3a.atoms",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-2",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Where are most of the mass and most of the volume of an atom found?",
+  "choices": [
+   "Mass in the nucleus; volume in the electron cloud",
+   "Mass in the electrons; volume in the nucleus",
+   "Mass and volume both in the nucleus",
+   "Mass spread evenly; volume in the nucleus"
+  ],
+  "answer": "Mass in the nucleus; volume in the electron cloud",
+  "hint": "Protons and neutrons are much heavier than electrons. Think of the gold-foil result: most alpha particles passed straight through.",
+  "explain": "Protons and neutrons, which carry nearly all the mass, are packed into a tiny nucleus, while electrons move through a region roughly 100,000 times wider: mass in the nucleus; volume in the electron cloud.",
+  "html": {
+   "prompt": "Where are most of the mass and most of the volume of an atom found?",
+   "choices": [
+    "Mass in the nucleus; volume in the electron cloud",
+    "Mass in the electrons; volume in the nucleus",
+    "Mass and volume both in the nucleus",
+    "Mass spread evenly; volume in the nucleus"
+   ],
+   "hint": "Protons and neutrons are much heavier than electrons. Think of the gold-foil result: most alpha particles passed straight through.",
+   "explain": "Protons and neutrons, which carry nearly all the mass, are packed into a tiny nucleus, while electrons move through a region roughly 100,000 times wider: <b>mass in the nucleus; volume in the electron cloud</b>."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 259
+  }
+ },
+ {
+  "id": "finalexam-1d73ba86",
+  "skill": "finalexam.3a.atoms",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-2",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "A neutron is added to the nucleus of a carbon atom. Which statement is true about the new atom?",
+  "choices": [
+   "It is still carbon, with a mass number one higher.",
+   "It becomes nitrogen because its mass number increased.",
+   "It becomes a carbon ion with a 1− charge.",
+   "Its atomic number increases by one."
+  ],
+  "answer": "It is still carbon, with a mass number one higher.",
+  "hint": "Which particle decides the element? Which particles count in the mass number? Does a neutron carry charge?",
+  "explain": "Only the number of protons decides the element, and a neutron has no charge, so the atom is still carbon, with a mass number one higher (an isotope). The atomic number counts protons only, so it does not change.",
+  "html": {
+   "prompt": "A neutron is added to the nucleus of a carbon atom. Which statement is true about the new atom?",
+   "choices": [
+    "It is still carbon, with a mass number one higher.",
+    "It becomes nitrogen because its mass number increased.",
+    "It becomes a carbon ion with a 1− charge.",
+    "Its atomic number increases by one."
+   ],
+   "hint": "Which particle decides the element? Which particles count in the mass number? Does a neutron carry charge?",
+   "explain": "Only the number of protons decides the element, and a neutron has no charge, so the atom is <b>still carbon, with a mass number one higher</b> (an isotope). The atomic number counts protons only, so it does not change."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 260
+  }
+ },
+ {
+  "id": "finalexam-2cad89d7",
+  "skill": "finalexam.3a.atoms",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-2",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Xenon-133 is used in lung ventilation scans. Which atom has the same number of neutrons as an atom of xenon-133?",
+  "choices": [
+   "iodine-132",
+   "iodine-133",
+   "xenon-132",
+   "cesium-133"
+  ],
+  "answer": "iodine-132",
+  "hint": "Neutrons = mass number − atomic number. Work this out for xenon-133 and for each choice.",
+  "explain": "Xe-133: 133 − 54 = 79 neutrons. I-132: 132 − 53 = 79 neutrons. I-133 has 80 and Cs-133 has 78: the same mass number does not mean the same neutron count. Xe-132 is an isotope of Xe-133, so it has one FEWER neutron (78).",
+  "html": {
+   "prompt": "Xenon-133 is used in lung ventilation scans. Which atom has the same number of neutrons as an atom of xenon-133?",
+   "choices": [
+    "iodine-132",
+    "iodine-133",
+    "xenon-132",
+    "cesium-133"
+   ],
+   "hint": "Neutrons = mass number − atomic number. Work this out for xenon-133 and for each choice.",
+   "explain": "Xe-133: 133 − 54 = 79 neutrons. I-132: 132 − 53 = <b>79 neutrons</b>. I-133 has 80 and Cs-133 has 78: the same mass number does not mean the same neutron count. Xe-132 is an isotope of Xe-133, so it has one FEWER neutron (78)."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 261
+  }
+ },
+ {
+  "id": "finalexam-126275e8",
+  "skill": "finalexam.3a.atoms",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-2",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Strontium-89, given as Sr²⁺, relieves bone-cancer pain because it collects in bone in place of an ion of an element in the same group as strontium. Which ion does Sr²⁺ replace?",
+  "choices": [
+   "Ca²⁺",
+   "Rb⁺",
+   "Y³⁺",
+   "Zn²⁺"
+  ],
+  "answer": "Ca²⁺",
+  "hint": "Elements in the same vertical group of the periodic table have similar chemistry. Which element above strontium is a major part of bone?",
+  "explain": "Strontium is in Group 2A, directly below calcium, so Sr²⁺ behaves like Ca²⁺ and is built into bone mineral. Rb and Y are strontium's neighbors in the same PERIOD, not the same group; Zn²⁺ has the same charge but is a transition metal.",
+  "html": {
+   "prompt": "Strontium-89, given as Sr<sup>2+</sup>, relieves bone-cancer pain because it collects in bone in place of an ion of an element in the same group as strontium. Which ion does Sr<sup>2+</sup> replace?",
+   "choices": [
+    "Ca<sup>2+</sup>",
+    "Rb<sup>+</sup>",
+    "Y<sup>3+</sup>",
+    "Zn<sup>2+</sup>"
+   ],
+   "hint": "Elements in the same vertical group of the periodic table have similar chemistry. Which element above strontium is a major part of bone?",
+   "explain": "Strontium is in Group 2A, directly below calcium, so Sr<sup>2+</sup> behaves like <b>Ca<sup>2+</sup></b> and is built into bone mineral. Rb and Y are strontium's neighbors in the same PERIOD, not the same group; Zn<sup>2+</sup> has the same charge but is a transition metal."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 262
+  }
+ },
+ {
+  "id": "finalexam-1d9fd227",
+  "skill": "finalexam.3a.atoms",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-2",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "The periodic table lists the atomic mass of chlorine as 35.45 amu, but no chlorine atom has this mass. Why?",
+  "choices": [
+   "It is a weighted average of the masses of chlorine's isotopes.",
+   "Electrons add a fraction of a mass unit to each atom.",
+   "Some neutrons in chlorine have only half the usual mass.",
+   "It is the mass of the most common chlorine isotope."
+  ],
+  "answer": "It is a weighted average of the masses of chlorine's isotopes.",
+  "hint": "Natural chlorine is a mixture of chlorine-35 and chlorine-37.",
+  "explain": "About 76% of chlorine atoms are Cl-35 (34.97 amu) and 24% are Cl-37 (36.97 amu). The listed value is the weighted average of the isotope masses, so it falls between them, closer to Cl-35. Electrons are far too light to explain 0.45 amu.",
+  "html": {
+   "prompt": "The periodic table lists the atomic mass of chlorine as 35.45 amu, but no chlorine atom has this mass. Why?",
+   "choices": [
+    "It is a weighted average of the masses of chlorine's isotopes.",
+    "Electrons add a fraction of a mass unit to each atom.",
+    "Some neutrons in chlorine have only half the usual mass.",
+    "It is the mass of the most common chlorine isotope."
+   ],
+   "hint": "Natural chlorine is a mixture of chlorine-35 and chlorine-37.",
+   "explain": "About 76% of chlorine atoms are Cl-35 (34.97 amu) and 24% are Cl-37 (36.97 amu). The listed value is the <b>weighted average of the isotope masses</b>, so it falls between them, closer to Cl-35. Electrons are far too light to explain 0.45 amu."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 263
+  }
+ },
+ {
+  "id": "finalexam-ecdac295",
+  "skill": "finalexam.3a.energy",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "The heating curve shows a sample of ice being heated until it becomes steam. Which segment shows the ice melting?",
+  "choices": [
+   "B",
+   "A",
+   "C",
+   "D"
+  ],
+  "answer": "B",
+  "hint": "During a phase change the temperature stays constant. Which flat segment is at the melting point of water?",
+  "explain": "The flat segment at 0 °C is melting: B. Segment A is ice warming, C is liquid water warming, and D (the flat part at 100 °C) is boiling.",
+  "html": {
+   "prompt": "The heating curve shows a sample of ice being heated until it becomes steam. Which segment shows the ice melting?",
+   "choices": [
+    "B",
+    "A",
+    "C",
+    "D"
+   ],
+   "hint": "During a phase change the temperature stays constant. Which flat segment is at the melting point of water?",
+   "explain": "The flat segment at 0 °C is melting: <b>B</b>. Segment A is ice warming, C is liquid water warming, and D (the flat part at 100 °C) is boiling."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "plot",
+     "x": {
+      "label": "Heat added",
+      "min": 0,
+      "max": 10.5,
+      "ticks": []
+     },
+     "y": {
+      "label": "Temperature (°C)",
+      "min": -30,
+      "max": 130,
+      "ticks": [
+       -20,
+       0,
+       20,
+       40,
+       60,
+       80,
+       100,
+       120
+      ]
+     },
+     "series": [
+      {
+       "pts": [
+        [
+         0,
+         -20
+        ],
+        [
+         1,
+         0
+        ],
+        [
+         3,
+         0
+        ],
+        [
+         5,
+         100
+        ],
+        [
+         9,
+         100
+        ],
+        [
+         10,
+         120
+        ]
+       ]
+      }
+     ],
+     "mono": true,
+     "grid": true,
+     "marks": [
+      [
+       1,
+       -15,
+       "A"
+      ],
+      [
+       2,
+       9,
+       "B"
+      ],
+      [
+       3.7,
+       55,
+       "C"
+      ],
+      [
+       7,
+       109,
+       "D"
+      ],
+      [
+       9.3,
+       121,
+       "E"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 264
+  }
+ },
+ {
+  "id": "finalexam-a387c900",
+  "skill": "finalexam.3a.energy",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "For the heating curve of water shown, the heat for which segments is calculated with q = m·ΔH (heat of fusion or vaporization) rather than q = m·c·ΔT?",
+  "choices": [
+   "B and D",
+   "A and C",
+   "A, C and E",
+   "C and D"
+  ],
+  "answer": "B and D",
+  "hint": "q = m·c·ΔT needs a temperature change. Which segments have no temperature change at all?",
+  "explain": "On the flat segments the temperature is constant (ΔT = 0), so q = m·c·ΔT would give zero; the heat goes into the phase change and is found with q = m·ΔH: B and D. A, C and E are sloped, so each uses q = m·c·ΔT with the specific heat of that phase.",
+  "html": {
+   "prompt": "For the heating curve of water shown, the heat for which segments is calculated with q = m·ΔH (heat of fusion or vaporization) rather than q = m·c·ΔT?",
+   "choices": [
+    "B and D",
+    "A and C",
+    "A, C and E",
+    "C and D"
+   ],
+   "hint": "q = m·c·ΔT needs a temperature change. Which segments have no temperature change at all?",
+   "explain": "On the flat segments the temperature is constant (ΔT = 0), so q = m·c·ΔT would give zero; the heat goes into the phase change and is found with q = m·ΔH: <b>B and D</b>. A, C and E are sloped, so each uses q = m·c·ΔT with the specific heat of that phase."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "plot",
+     "x": {
+      "label": "Heat added",
+      "min": 0,
+      "max": 10.5,
+      "ticks": []
+     },
+     "y": {
+      "label": "Temperature (°C)",
+      "min": -30,
+      "max": 130,
+      "ticks": [
+       -20,
+       0,
+       20,
+       40,
+       60,
+       80,
+       100,
+       120
+      ]
+     },
+     "series": [
+      {
+       "pts": [
+        [
+         0,
+         -20
+        ],
+        [
+         1,
+         0
+        ],
+        [
+         3,
+         0
+        ],
+        [
+         5,
+         100
+        ],
+        [
+         9,
+         100
+        ],
+        [
+         10,
+         120
+        ]
+       ]
+      }
+     ],
+     "mono": true,
+     "grid": true,
+     "marks": [
+      [
+       1,
+       -15,
+       "A"
+      ],
+      [
+       2,
+       9,
+       "B"
+      ],
+      [
+       3.7,
+       55,
+       "C"
+      ],
+      [
+       7,
+       109,
+       "D"
+      ],
+      [
+       9.3,
+       121,
+       "E"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 265
+  }
+ },
+ {
+  "id": "finalexam-c9a93e95",
+  "skill": "finalexam.3a.energy",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "The heating curve is for 10.0 g of water, drawn to scale. Why is segment D much longer than segment B?",
+  "choices": [
+   "Boiling separates molecules completely; melting only loosens them.",
+   "More water is present during boiling than during melting.",
+   "The temperature rises faster during boiling than during melting.",
+   "Boiling releases heat, while melting absorbs heat."
+  ],
+  "answer": "Boiling separates molecules completely; melting only loosens them.",
+  "hint": "Compare what happens to the attractions between water molecules during melting and during boiling.",
+  "explain": "Melting only loosens the attractions (334 J/g = 3.34 kJ here), but boiling must pull the molecules completely apart (2260 J/g = 22.6 kJ): vaporization takes far more energy than fusion. The same 10.0 g of water is present throughout, the temperature does not rise during either phase change, and both phase changes absorb heat.",
+  "html": {
+   "prompt": "The heating curve is for 10.0 g of water, drawn to scale. Why is segment D much longer than segment B?",
+   "choices": [
+    "Boiling separates molecules completely; melting only loosens them.",
+    "More water is present during boiling than during melting.",
+    "The temperature rises faster during boiling than during melting.",
+    "Boiling releases heat, while melting absorbs heat."
+   ],
+   "hint": "Compare what happens to the attractions between water molecules during melting and during boiling.",
+   "explain": "Melting only loosens the attractions (334 J/g = 3.34 kJ here), but boiling must pull the molecules completely apart (2260 J/g = 22.6 kJ): <b>vaporization takes far more energy than fusion</b>. The same 10.0 g of water is present throughout, the temperature does not rise during either phase change, and both phase changes absorb heat."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "plot",
+     "x": {
+      "label": "Heat added (kJ)",
+      "min": 0,
+      "max": 32,
+      "ticks": [
+       0,
+       5,
+       10,
+       15,
+       20,
+       25,
+       30
+      ]
+     },
+     "y": {
+      "label": "Temperature (°C)",
+      "min": -30,
+      "max": 130,
+      "ticks": [
+       -20,
+       0,
+       20,
+       40,
+       60,
+       80,
+       100,
+       120
+      ]
+     },
+     "series": [
+      {
+       "pts": [
+        [
+         0,
+         -20
+        ],
+        [
+         0.418,
+         0
+        ],
+        [
+         3.758,
+         0
+        ],
+        [
+         7.942,
+         100
+        ],
+        [
+         30.542,
+         100
+        ],
+        [
+         30.944,
+         120
+        ]
+       ]
+      }
+     ],
+     "mono": true,
+     "grid": true,
+     "marks": [
+      [
+       1.6,
+       -14,
+       "A"
+      ],
+      [
+       2,
+       9,
+       "B"
+      ],
+      [
+       4.4,
+       56,
+       "C"
+      ],
+      [
+       19,
+       109,
+       "D"
+      ],
+      [
+       28.8,
+       113,
+       "E"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 266
+  }
+ },
+ {
+  "id": "finalexam-babe09de",
+  "skill": "finalexam.3a.energy",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Melted paraffin wax is used in hand-therapy baths. The cooling curve shows a sample of wax cooling in air. Which statement describes segment Q?",
+  "choices": [
+   "The wax is freezing and releasing heat while its temperature stays constant.",
+   "The wax is melting and absorbing heat while its temperature stays constant.",
+   "The wax has stopped losing heat because its temperature is constant.",
+   "The solid wax is cooling, so q = m·c·ΔT applies."
+  ],
+  "answer": "The wax is freezing and releasing heat while its temperature stays constant.",
+  "hint": "A flat segment on a cooling curve is a phase change. Is heat still leaving the wax?",
+  "explain": "Segment Q is flat at the freezing point, so liquid wax is turning to solid. Heat keeps flowing out to the air, but it comes from forming attractions, not from a temperature drop: freezing, releasing heat at constant temperature. That released heat is what warms a patient's hands.",
+  "html": {
+   "prompt": "Melted paraffin wax is used in hand-therapy baths. The cooling curve shows a sample of wax cooling in air. Which statement describes segment Q?",
+   "choices": [
+    "The wax is freezing and releasing heat while its temperature stays constant.",
+    "The wax is melting and absorbing heat while its temperature stays constant.",
+    "The wax has stopped losing heat because its temperature is constant.",
+    "The solid wax is cooling, so q = m·c·ΔT applies."
+   ],
+   "hint": "A flat segment on a cooling curve is a phase change. Is heat still leaving the wax?",
+   "explain": "Segment Q is flat at the freezing point, so liquid wax is turning to solid. Heat keeps flowing out to the air, but it comes from forming attractions, not from a temperature drop: <b>freezing, releasing heat at constant temperature</b>. That released heat is what warms a patient's hands."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "plot",
+     "x": {
+      "label": "Time (min)",
+      "min": 0,
+      "max": 20,
+      "ticks": [
+       0,
+       4,
+       8,
+       12,
+       16,
+       20
+      ]
+     },
+     "y": {
+      "label": "Temperature (°C)",
+      "min": 20,
+      "max": 90,
+      "ticks": [
+       20,
+       30,
+       40,
+       50,
+       60,
+       70,
+       80,
+       90
+      ]
+     },
+     "series": [
+      {
+       "pts": [
+        [
+         0,
+         85
+        ],
+        [
+         0.36,
+         79.02
+        ],
+        [
+         0.73,
+         74.09
+        ],
+        [
+         1.09,
+         69.99
+        ],
+        [
+         1.45,
+         66.6
+        ],
+        [
+         1.82,
+         63.76
+        ],
+        [
+         2.18,
+         61.39
+        ],
+        [
+         2.55,
+         59.4
+        ],
+        [
+         2.91,
+         57.72
+        ],
+        [
+         3.27,
+         56.28
+        ],
+        [
+         3.64,
+         55.06
+        ],
+        [
+         4,
+         54
+        ],
+        [
+         12,
+         54
+        ],
+        [
+         12.62,
+         49.32
+        ],
+        [
+         13.23,
+         45.4
+        ],
+        [
+         13.85,
+         42.11
+        ],
+        [
+         14.46,
+         39.35
+        ],
+        [
+         15.08,
+         37.04
+        ],
+        [
+         15.69,
+         35.1
+        ],
+        [
+         16.31,
+         33.47
+        ],
+        [
+         16.92,
+         32.1
+        ],
+        [
+         17.54,
+         30.96
+        ],
+        [
+         18.15,
+         30
+        ],
+        [
+         18.77,
+         29.19
+        ],
+        [
+         19.38,
+         28.52
+        ],
+        [
+         20,
+         27.95
+        ]
+       ]
+      }
+     ],
+     "mono": true,
+     "grid": true,
+     "marks": [
+      [
+       2.6,
+       70,
+       "P"
+      ],
+      [
+       8,
+       59,
+       "Q"
+      ],
+      [
+       15.5,
+       40,
+       "R"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 267
+  }
+ },
+ {
+  "id": "finalexam-953531af",
+  "skill": "finalexam.3a.energy",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "A bag holding 25.0 g of ice at 0 °C is placed on a sprained ankle. The ice melts, and the water warms to 37.0 °C. How much heat does the bag absorb? Use the data in the table.",
+  "choices": [
+   "12.2 kJ",
+   "3.87 kJ",
+   "8.35 kJ",
+   "10.3 kJ"
+  ],
+  "answer": "12.2 kJ",
+  "hint": "Two steps: melting at constant temperature (q = m·ΔH_fus), then warming liquid water (q = m·c·ΔT). Add them.",
+  "explain": "Melt: (25.0 g)(334 J/g) = 8350 J. Warm the liquid: (25.0 g)(4.184 J g⁻¹ °C⁻¹)(37.0 °C) = 3870 J. Total = 12.2 kJ. 3.87 kJ skips the melting step, and 10.3 kJ uses the specific heat of ice for the liquid water.",
+  "html": {
+   "prompt": "A bag holding 25.0 g of ice at 0 °C is placed on a sprained ankle. The ice melts, and the water warms to 37.0 °C. How much heat does the bag absorb? Use the data in the table.",
+   "choices": [
+    "12.2 kJ",
+    "3.87 kJ",
+    "8.35 kJ",
+    "10.3 kJ"
+   ],
+   "hint": "Two steps: melting at constant temperature (q = m·ΔH<sub>fus</sub>), then warming liquid water (q = m·c·ΔT). Add them.",
+   "explain": "Melt: (25.0 g)(334 J/g) = 8350 J. Warm the liquid: (25.0 g)(4.184 J g⁻¹ °C⁻¹)(37.0 °C) = 3870 J. Total = <b>12.2 kJ</b>. 3.87 kJ skips the melting step, and 10.3 kJ uses the specific heat of ice for the liquid water."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Property of water",
+      "Value"
+     ],
+     "rows": [
+      [
+       "Heat of fusion",
+       "334 J g<sup>−1</sup>"
+      ],
+      [
+       "Specific heat, ice",
+       "2.09 J g<sup>−1</sup> °C<sup>−1</sup>"
+      ],
+      [
+       "Specific heat, liquid",
+       "4.184 J g<sup>−1</sup> °C<sup>−1</sup>"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 268
+  }
+ },
+ {
+  "id": "finalexam-e396a419",
+  "skill": "finalexam.3a.energy",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Equal masses of the four substances in the table absorb the same amount of heat. Which one has the largest temperature increase?",
+  "choices": [
+   "gold",
+   "water",
+   "aluminum",
+   "iron"
+  ],
+  "answer": "gold",
+  "hint": "Rearrange q = m·c·ΔT: with the same q and m, ΔT is inversely proportional to c.",
+  "explain": "ΔT = q / (m·c). The smallest specific heat gives the biggest temperature change: gold (0.129). Water, with the largest specific heat, warms the least, which is why it is used to keep temperatures steady.",
+  "html": {
+   "prompt": "Equal masses of the four substances in the table absorb the same amount of heat. Which one has the largest temperature increase?",
+   "choices": [
+    "gold",
+    "water",
+    "aluminum",
+    "iron"
+   ],
+   "hint": "Rearrange q = m·c·ΔT: with the same q and m, ΔT is inversely proportional to c.",
+   "explain": "ΔT = q / (m·c). The smallest specific heat gives the biggest temperature change: <b>gold</b> (0.129). Water, with the largest specific heat, warms the least, which is why it is used to keep temperatures steady."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Substance",
+      "Specific heat (J g<sup>−1</sup> °C<sup>−1</sup>)"
+     ],
+     "rows": [
+      [
+       "water",
+       "4.184"
+      ],
+      [
+       "aluminum",
+       "0.897"
+      ],
+      [
+       "iron",
+       "0.449"
+      ],
+      [
+       "gold",
+       "0.129"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 269
+  }
+ },
+ {
+  "id": "finalexam-32fb69d8",
+  "skill": "finalexam.3a.energy",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Equal masses of aluminum, iron and gold are heated to 100 °C and dropped into separate identical cups of cool water. Using the table, which metal raises the water temperature the most?",
+  "choices": [
+   "aluminum",
+   "gold",
+   "iron",
+   "All three raise it the same amount."
+  ],
+  "answer": "aluminum",
+  "hint": "A hot metal gives up q = m·c·ΔT as it cools. Which metal stores the most heat per gram per degree?",
+  "explain": "All three start at 100 °C, so the metal with the largest specific heat releases the most heat as it cools: aluminum (0.897 vs 0.449 and 0.129). Gold heats up and cools down the fastest, but it carries the least heat.",
+  "html": {
+   "prompt": "Equal masses of aluminum, iron and gold are heated to 100 °C and dropped into separate identical cups of cool water. Using the table, which metal raises the water temperature the most?",
+   "choices": [
+    "aluminum",
+    "gold",
+    "iron",
+    "All three raise it the same amount."
+   ],
+   "hint": "A hot metal gives up q = m·c·ΔT as it cools. Which metal stores the most heat per gram per degree?",
+   "explain": "All three start at 100 °C, so the metal with the largest specific heat releases the most heat as it cools: <b>aluminum</b> (0.897 vs 0.449 and 0.129). Gold heats up and cools down the fastest, but it carries the least heat."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Substance",
+      "Specific heat (J g<sup>−1</sup> °C<sup>−1</sup>)"
+     ],
+     "rows": [
+      [
+       "water",
+       "4.184"
+      ],
+      [
+       "aluminum",
+       "0.897"
+      ],
+      [
+       "iron",
+       "0.449"
+      ],
+      [
+       "gold",
+       "0.129"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 270
+  }
+ },
+ {
+  "id": "finalexam-eaa72947",
+  "skill": "finalexam.3a.energy",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "Adding a certain amount of heat to 20.0 g of water raises its temperature by 5.0 °C. The same amount of heat is added to 20.0 g of iron (specific heat 0.449 J g⁻¹ °C⁻¹). By how much does the temperature of the iron rise?",
+  "choices": [
+   "47 °C",
+   "0.54 °C",
+   "5.0 °C",
+   "23 °C"
+  ],
+  "answer": "47 °C",
+  "hint": "Find q for the water with q = m·c·ΔT (c = 4.184 J g⁻¹ °C⁻¹), then solve the same equation for the iron's ΔT.",
+  "explain": "q = (20.0 g)(4.184)(5.0 °C) = 418 J. For iron: ΔT = 418 J / [(20.0 g)(0.449)] = 47 °C. Iron has a much smaller specific heat, so its temperature rises far MORE; 0.54 °C inverts the ratio of specific heats.",
+  "html": {
+   "prompt": "Adding a certain amount of heat to 20.0 g of water raises its temperature by 5.0 °C. The same amount of heat is added to 20.0 g of iron (specific heat 0.449 J g⁻¹ °C⁻¹). By how much does the temperature of the iron rise?",
+   "choices": [
+    "47 °C",
+    "0.54 °C",
+    "5.0 °C",
+    "23 °C"
+   ],
+   "hint": "Find q for the water with q = m·c·ΔT (c = 4.184 J g⁻¹ °C⁻¹), then solve the same equation for the iron's ΔT.",
+   "explain": "q = (20.0 g)(4.184)(5.0 °C) = 418 J. For iron: ΔT = 418 J / [(20.0 g)(0.449)] = <b>47 °C</b>. Iron has a much smaller specific heat, so its temperature rises far MORE; 0.54 °C inverts the ratio of specific heats."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 271
+  }
+ },
+ {
+  "id": "finalexam-371f4b33",
+  "skill": "finalexam.3a.energy",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Sweat evaporates from a runner's skin. If the sweat is the system, which description is correct?",
+  "choices": [
+   "Endothermic; heat flows from the skin into the sweat, so the skin cools.",
+   "Exothermic; heat flows from the sweat into the skin, so the skin cools.",
+   "Endothermic; heat flows from the sweat into the skin, so the skin warms.",
+   "Exothermic; heat flows from the skin into the sweat, so the skin warms."
+  ],
+  "answer": "Endothermic; heat flows from the skin into the sweat, so the skin cools.",
+  "hint": "Does liquid → gas need energy or release it? Heat moves into the system for an endothermic process.",
+  "explain": "Evaporation must overcome attractions between water molecules, so it absorbs heat: endothermic, heat flows from the skin into the sweat. The skin (surroundings) loses heat and cools; that is how sweating controls body temperature.",
+  "html": {
+   "prompt": "Sweat evaporates from a runner's skin. If the sweat is the system, which description is correct?",
+   "choices": [
+    "Endothermic; heat flows from the skin into the sweat, so the skin cools.",
+    "Exothermic; heat flows from the sweat into the skin, so the skin cools.",
+    "Endothermic; heat flows from the sweat into the skin, so the skin warms.",
+    "Exothermic; heat flows from the skin into the sweat, so the skin warms."
+   ],
+   "hint": "Does liquid → gas need energy or release it? Heat moves into the system for an endothermic process.",
+   "explain": "Evaporation must overcome attractions between water molecules, so it absorbs heat: <b>endothermic, heat flows from the skin into the sweat</b>. The skin (surroundings) loses heat and cools; that is how sweating controls body temperature."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 272
+  }
+ },
+ {
+  "id": "finalexam-f74c4698",
+  "skill": "finalexam.3a.energy",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "A trainer breaks the inner pouch of a cold pack so that ammonium nitrate dissolves in water, and the pack quickly turns cold on an athlete's knee. For the dissolving process (the system), which is true?",
+  "choices": [
+   "The process is endothermic, and q for the system is positive.",
+   "The process is exothermic, and q for the system is negative.",
+   "The process is endothermic, and q for the system is negative.",
+   "The process is exothermic, and q for the system is positive."
+  ],
+  "answer": "The process is endothermic, and q for the system is positive.",
+  "hint": "Your hand feels cold because heat leaves it. Where does that heat go, and what sign does q have when a system gains heat?",
+  "explain": "Heat flows from your hand into the dissolving mixture, so the system absorbs heat: endothermic, q > 0. A common mistake is to call it exothermic because \"cold\" is leaving the pack; cold is not a form of energy.",
+  "html": {
+   "prompt": "A trainer breaks the inner pouch of a cold pack so that ammonium nitrate dissolves in water, and the pack quickly turns cold on an athlete's knee. For the dissolving process (the system), which is true?",
+   "choices": [
+    "The process is endothermic, and q for the system is positive.",
+    "The process is exothermic, and q for the system is negative.",
+    "The process is endothermic, and q for the system is negative.",
+    "The process is exothermic, and q for the system is positive."
+   ],
+   "hint": "Your hand feels cold because heat leaves it. Where does that heat go, and what sign does q have when a system gains heat?",
+   "explain": "Heat flows from your hand into the dissolving mixture, so the system absorbs heat: <b>endothermic, q &gt; 0</b>. A common mistake is to call it exothermic because \"cold\" is leaving the pack; cold is not a form of energy."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 273
+  }
+ },
+ {
+  "id": "finalexam-1fb6ff24",
+  "skill": "finalexam.3a.energy",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which process releases heat to the surroundings?",
+  "choices": [
+   "water vapor condensing on a cold window",
+   "ice melting in a glass of water",
+   "rubbing alcohol evaporating from skin",
+   "dry ice (solid CO₂) subliming"
+  ],
+  "answer": "water vapor condensing on a cold window",
+  "hint": "Changes toward a more ordered, closer-packed state (gas → liquid → solid) form attractions. Is energy released or absorbed?",
+  "explain": "When vapor condenses, attractions form between molecules and energy is released: condensation is exothermic. Melting, evaporation and sublimation all break attractions, so they absorb heat.",
+  "html": {
+   "prompt": "Which process releases heat to the surroundings?",
+   "choices": [
+    "water vapor condensing on a cold window",
+    "ice melting in a glass of water",
+    "rubbing alcohol evaporating from skin",
+    "dry ice (solid CO<sub>2</sub>) subliming"
+   ],
+   "hint": "Changes toward a more ordered, closer-packed state (gas → liquid → solid) form attractions. Is energy released or absorbed?",
+   "explain": "When vapor condenses, attractions form between molecules and energy is released: <b>condensation is exothermic</b>. Melting, evaporation and sublimation all break attractions, so they absorb heat."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 274
+  }
+ },
+ {
+  "id": "finalexam-f0f64058",
+  "skill": "finalexam.3a.energy",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "On nights when frost is expected, Central Valley citrus growers spray their orchards with water. As the water freezes on the fruit, it",
+  "choices": [
+   "releases heat, which keeps the fruit near 0 °C.",
+   "absorbs heat from the fruit, cooling it below 0 °C.",
+   "absorbs cold from the air, protecting the fruit.",
+   "releases cold, which stops ice from forming inside the fruit."
+  ],
+  "answer": "releases heat, which keeps the fruit near 0 °C.",
+  "hint": "Is freezing (liquid → solid) exothermic or endothermic? Think about the heating curve run backward.",
+  "explain": "Freezing forms attractions between water molecules, so it releases heat. While liquid water is still freezing on the fruit, the temperature stays at 0 °C, protecting the fruit from colder air. \"Cold\" is not energy; only heat flows.",
+  "html": {
+   "prompt": "On nights when frost is expected, Central Valley citrus growers spray their orchards with water. As the water freezes on the fruit, it",
+   "choices": [
+    "releases heat, which keeps the fruit near 0 °C.",
+    "absorbs heat from the fruit, cooling it below 0 °C.",
+    "absorbs cold from the air, protecting the fruit.",
+    "releases cold, which stops ice from forming inside the fruit."
+   ],
+   "hint": "Is freezing (liquid → solid) exothermic or endothermic? Think about the heating curve run backward.",
+   "explain": "Freezing forms attractions between water molecules, so it <b>releases heat</b>. While liquid water is still freezing on the fruit, the temperature stays at 0 °C, protecting the fruit from colder air. \"Cold\" is not energy; only heat flows."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 275
+  }
+ },
+ {
+  "id": "finalexam-7ed711b4",
+  "skill": "finalexam.3a.moles",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-5",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "A tablet contains 500. mg of acetaminophen (molar mass in the table). How many moles of acetaminophen is this?",
+  "choices": [
+   "3.31×10⁻³ mol",
+   "3.31 mol",
+   "0.302 mol",
+   "7.56×10⁴ mol"
+  ],
+  "answer": "3.31×10⁻³ mol",
+  "hint": "Convert milligrams to grams first, then divide by the molar mass.",
+  "explain": "500. mg = 0.500 g; 0.500 g ÷ 151.16 g mol⁻¹ = 3.31×10⁻³ mol. 3.31 mol uses milligrams as if they were grams; 0.302 mol divides molar mass by mass (inverted).",
+  "html": {
+   "prompt": "A tablet contains 500. mg of acetaminophen (molar mass in the table). How many moles of acetaminophen is this?",
+   "choices": [
+    "3.31×10<sup>−3</sup> mol",
+    "3.31 mol",
+    "0.302 mol",
+    "7.56×10<sup>4</sup> mol"
+   ],
+   "hint": "Convert milligrams to grams first, then divide by the molar mass.",
+   "explain": "500. mg = 0.500 g; 0.500 g ÷ 151.16 g mol⁻¹ = <b>3.31×10<sup>−3</sup> mol</b>. 3.31 mol uses milligrams as if they were grams; 0.302 mol divides molar mass by mass (inverted)."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Compound",
+      "Molar mass (g mol<sup>−1</sup>)"
+     ],
+     "rows": [
+      [
+       "acetaminophen, C<sub>8</sub>H<sub>9</sub>NO<sub>2</sub>",
+       "151.16"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 276
+  }
+ },
+ {
+  "id": "finalexam-839cbf6d",
+  "skill": "finalexam.3a.moles",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-5",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "A regular-strength aspirin tablet contains 1.09×10²¹ molecules of aspirin. Using the molar mass in the table, what is the mass of aspirin in the tablet in milligrams?",
+  "choices": [
+   "326 mg",
+   "0.326 mg",
+   "1.81 mg",
+   "0.0100 mg"
+  ],
+  "answer": "326 mg",
+  "hint": "molecules → moles (divide by Avogadro's number) → grams (multiply by molar mass) → milligrams.",
+  "explain": "1.09×10²¹ ÷ 6.022×10²³ = 1.81×10⁻³ mol; × 180.15 g mol⁻¹ = 0.326 g = 326 mg. 0.326 mg leaves the answer in grams but labels it mg; 1.81 mg treats moles as grams; 0.0100 mg divides by the molar mass instead of multiplying.",
+  "html": {
+   "prompt": "A regular-strength aspirin tablet contains 1.09×10<sup>21</sup> molecules of aspirin. Using the molar mass in the table, what is the mass of aspirin in the tablet in milligrams?",
+   "choices": [
+    "326 mg",
+    "0.326 mg",
+    "1.81 mg",
+    "0.0100 mg"
+   ],
+   "hint": "molecules → moles (divide by Avogadro's number) → grams (multiply by molar mass) → milligrams.",
+   "explain": "1.09×10<sup>21</sup> ÷ 6.022×10<sup>23</sup> = 1.81×10<sup>−3</sup> mol; × 180.15 g mol⁻¹ = 0.326 g = <b>326 mg</b>. 0.326 mg leaves the answer in grams but labels it mg; 1.81 mg treats moles as grams; 0.0100 mg divides by the molar mass instead of multiplying."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Compound",
+      "Molar mass (g mol<sup>−1</sup>)"
+     ],
+     "rows": [
+      [
+       "aspirin, C<sub>9</sub>H<sub>8</sub>O<sub>4</sub>",
+       "180.15"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 277
+  }
+ },
+ {
+  "id": "finalexam-fcce17e0",
+  "skill": "finalexam.3a.moles",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-5",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": true,
+  "prompt": "A 1.00 L bag of normal saline contains 9.00 g of sodium chloride, NaCl. How many moles of NaCl are in the bag?",
+  "choices": [
+   "0.154 mol",
+   "6.49 mol",
+   "526 mol",
+   "0.254 mol"
+  ],
+  "answer": "0.154 mol",
+  "hint": "Add the atomic masses of Na and Cl from the periodic table, then divide grams by grams per mole.",
+  "explain": "Molar mass NaCl = 22.99 + 35.45 = 58.44 g mol⁻¹; 9.00 g ÷ 58.44 g mol⁻¹ = 0.154 mol. 0.254 mol uses only the mass of Cl; 526 multiplies instead of dividing.",
+  "html": {
+   "prompt": "A 1.00 L bag of normal saline contains 9.00 g of sodium chloride, NaCl. How many moles of NaCl are in the bag?",
+   "choices": [
+    "0.154 mol",
+    "6.49 mol",
+    "526 mol",
+    "0.254 mol"
+   ],
+   "hint": "Add the atomic masses of Na and Cl from the periodic table, then divide grams by grams per mole.",
+   "explain": "Molar mass NaCl = 22.99 + 35.45 = 58.44 g mol⁻¹; 9.00 g ÷ 58.44 g mol⁻¹ = <b>0.154 mol</b>. 0.254 mol uses only the mass of Cl; 526 multiplies instead of dividing."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 278
+  }
+ },
+ {
+  "id": "finalexam-cce1b7de",
+  "skill": "finalexam.3a.moles",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-5",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "An antacid tablet contains 1.25 g of calcium carbonate, CaCO₃. How many oxygen atoms does the calcium carbonate contain?",
+  "choices": [
+   "2.26×10²²",
+   "7.52×10²¹",
+   "3.76×10²²",
+   "1.88×10²²"
+  ],
+  "answer": "2.26×10²²",
+  "hint": "Find moles of CaCO₃, convert to formula units, then use the subscript: each formula unit has 3 O atoms.",
+  "explain": "CaCO₃ = 100.09 g mol⁻¹; 1.25 g ÷ 100.09 = 0.01249 mol; × 6.022×10²³ = 7.52×10²¹ formula units; × 3 O = 2.26×10²² O atoms. 7.52×10²¹ forgets the ×3; 3.76×10²² counts all 5 atoms.",
+  "html": {
+   "prompt": "An antacid tablet contains 1.25 g of calcium carbonate, CaCO<sub>3</sub>. How many oxygen atoms does the calcium carbonate contain?",
+   "choices": [
+    "2.26×10<sup>22</sup>",
+    "7.52×10<sup>21</sup>",
+    "3.76×10<sup>22</sup>",
+    "1.88×10<sup>22</sup>"
+   ],
+   "hint": "Find moles of CaCO<sub>3</sub>, convert to formula units, then use the subscript: each formula unit has 3 O atoms.",
+   "explain": "CaCO<sub>3</sub> = 100.09 g mol⁻¹; 1.25 g ÷ 100.09 = 0.01249 mol; × 6.022×10<sup>23</sup> = 7.52×10<sup>21</sup> formula units; × 3 O = <b>2.26×10<sup>22</sup> O atoms</b>. 7.52×10<sup>21</sup> forgets the ×3; 3.76×10<sup>22</sup> counts all 5 atoms."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 279
+  }
+ },
+ {
+  "id": "finalexam-067ea363",
+  "skill": "finalexam.3a.moles",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-5",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "Iron supplements often contain iron(II) sulfate, FeSO₄. What is the mass percent of iron in FeSO₄?",
+  "choices": [
+   "36.77%",
+   "63.23%",
+   "58.14%",
+   "16.67%"
+  ],
+  "answer": "36.77%",
+  "hint": "Mass percent = (mass of the element in one mole ÷ molar mass of the compound) × 100.",
+  "explain": "Molar mass = 55.85 + 32.06 + 4(16.00) = 151.91 g mol⁻¹; 55.85 ÷ 151.91 × 100 = 36.77%. 58.14% divides by the mass of sulfate only, and 16.67% (1 of 6 atoms) counts atoms instead of mass.",
+  "html": {
+   "prompt": "Iron supplements often contain iron(II) sulfate, FeSO<sub>4</sub>. What is the mass percent of iron in FeSO<sub>4</sub>?",
+   "choices": [
+    "36.77%",
+    "63.23%",
+    "58.14%",
+    "16.67%"
+   ],
+   "hint": "Mass percent = (mass of the element in one mole ÷ molar mass of the compound) × 100.",
+   "explain": "Molar mass = 55.85 + 32.06 + 4(16.00) = 151.91 g mol⁻¹; 55.85 ÷ 151.91 × 100 = <b>36.77%</b>. 58.14% divides by the mass of sulfate only, and 16.67% (1 of 6 atoms) counts atoms instead of mass."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 280
+  }
+ },
+ {
+  "id": "finalexam-a22c891a",
+  "skill": "finalexam.3a.moles",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-5",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "Muscles produce lactic acid during hard exercise. Its percent composition is 40.0% carbon, 6.71% hydrogen and 53.3% oxygen. Which is the simplest whole-number formula?",
+  "choices": [
+   "CH₂O",
+   "C₃H₆O₃",
+   "C₂H₄O",
+   "CH₂O₂"
+  ],
+  "answer": "CH₂O",
+  "hint": "Assume 100 g, convert each mass to moles, then divide every mole value by the smallest one.",
+  "explain": "In 100 g: C 40.0/12.01 = 3.33 mol, H 6.71/1.008 = 6.66 mol, O 53.3/16.00 = 3.33 mol. Dividing by 3.33 gives 1 : 2 : 1, so CH₂O. C₃H₆O₃ is the molecular formula of lactic acid, but it is not the simplest ratio.",
+  "html": {
+   "prompt": "Muscles produce lactic acid during hard exercise. Its percent composition is 40.0% carbon, 6.71% hydrogen and 53.3% oxygen. Which is the simplest whole-number formula?",
+   "choices": [
+    "CH<sub>2</sub>O",
+    "C<sub>3</sub>H<sub>6</sub>O<sub>3</sub>",
+    "C<sub>2</sub>H<sub>4</sub>O",
+    "CH<sub>2</sub>O<sub>2</sub>"
+   ],
+   "hint": "Assume 100 g, convert each mass to moles, then divide every mole value by the smallest one.",
+   "explain": "In 100 g: C 40.0/12.01 = 3.33 mol, H 6.71/1.008 = 6.66 mol, O 53.3/16.00 = 3.33 mol. Dividing by 3.33 gives 1 : 2 : 1, so <b>CH<sub>2</sub>O</b>. C<sub>3</sub>H<sub>6</sub>O<sub>3</sub> is the molecular formula of lactic acid, but it is not the simplest ratio."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 281
+  }
+ },
+ {
+  "id": "finalexam-4e425901",
+  "skill": "finalexam.3a.moles",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-5",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "A 5.00 g sample of an iron oxide pigment contains 3.50 g of iron; the rest is oxygen. What is the empirical formula of the oxide?",
+  "choices": [
+   "Fe₂O₃",
+   "FeO",
+   "Fe₃O₄",
+   "Fe₃O₂"
+  ],
+  "answer": "Fe₂O₃",
+  "hint": "Find the mass of oxygen by subtraction, convert both masses to moles, and find the simplest whole-number ratio.",
+  "explain": "O = 5.00 − 3.50 = 1.50 g. Fe: 3.50/55.85 = 0.0627 mol; O: 1.50/16.00 = 0.0938 mol. Ratio O/Fe = 1.50, so double to 2 : 3 → Fe₂O₃. Rounding 1 : 1.5 down to 1 : 1 gives FeO; Fe₃O₂ inverts the ratio.",
+  "html": {
+   "prompt": "A 5.00 g sample of an iron oxide pigment contains 3.50 g of iron; the rest is oxygen. What is the empirical formula of the oxide?",
+   "choices": [
+    "Fe<sub>2</sub>O<sub>3</sub>",
+    "FeO",
+    "Fe<sub>3</sub>O<sub>4</sub>",
+    "Fe<sub>3</sub>O<sub>2</sub>"
+   ],
+   "hint": "Find the mass of oxygen by subtraction, convert both masses to moles, and find the simplest whole-number ratio.",
+   "explain": "O = 5.00 − 3.50 = 1.50 g. Fe: 3.50/55.85 = 0.0627 mol; O: 1.50/16.00 = 0.0938 mol. Ratio O/Fe = 1.50, so double to 2 : 3 → <b>Fe<sub>2</sub>O<sub>3</sub></b>. Rounding 1 : 1.5 down to 1 : 1 gives FeO; Fe<sub>3</sub>O<sub>2</sub> inverts the ratio."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 282
+  }
+ },
+ {
+  "id": "finalexam-2d5b71f9",
+  "skill": "finalexam.3a.moles",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-5",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "Analysis shows that the simplest atom ratio in nicotine is C₅H₇N, and a mass spectrometer gives its molar mass as 162.2 g mol⁻¹. Which molecular formula fits both results?",
+  "choices": [
+   "C₁₀H₁₄N₂",
+   "C₅H₇N",
+   "C₁₅H₂₁N₃",
+   "C₁₀H₇N₂"
+  ],
+  "answer": "C₁₀H₁₄N₂",
+  "hint": "Divide the molar mass by the empirical-formula mass, then multiply EVERY subscript by that whole number.",
+  "explain": "Empirical-formula mass = 5(12.01) + 7(1.008) + 14.01 = 81.12 g mol⁻¹; 162.2 ÷ 81.12 = 2, so C₁₀H₁₄N₂. C₁₀H₇N₂ forgets to double the hydrogens.",
+  "html": {
+   "prompt": "Analysis shows that the simplest atom ratio in nicotine is C<sub>5</sub>H<sub>7</sub>N, and a mass spectrometer gives its molar mass as 162.2 g mol⁻¹. Which molecular formula fits both results?",
+   "choices": [
+    "C<sub>10</sub>H<sub>14</sub>N<sub>2</sub>",
+    "C<sub>5</sub>H<sub>7</sub>N",
+    "C<sub>15</sub>H<sub>21</sub>N<sub>3</sub>",
+    "C<sub>10</sub>H<sub>7</sub>N<sub>2</sub>"
+   ],
+   "hint": "Divide the molar mass by the empirical-formula mass, then multiply EVERY subscript by that whole number.",
+   "explain": "Empirical-formula mass = 5(12.01) + 7(1.008) + 14.01 = 81.12 g mol⁻¹; 162.2 ÷ 81.12 = 2, so <b>C<sub>10</sub>H<sub>14</sub>N<sub>2</sub></b>. C<sub>10</sub>H<sub>7</sub>N<sub>2</sub> forgets to double the hydrogens."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 283
+  }
+ },
+ {
+  "id": "finalexam-ad05689c",
+  "skill": "finalexam.3a.moles",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-5",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": true,
+  "prompt": "A dose of ibuprofen is 0.0250 mol. What mass is this, reported to the correct number of significant figures? Use the molar mass in the table.",
+  "choices": [
+   "5.16 g",
+   "5.157 g",
+   "5.2 g",
+   "8.25×10³ g"
+  ],
+  "answer": "5.16 g",
+  "hint": "mass = moles × molar mass. The answer keeps as many significant figures as the least precise value (0.0250 has three).",
+  "explain": "(0.0250 mol)(206.27 g mol⁻¹) = 5.157 g, rounded to three significant figures: 5.16 g. Leading zeros in 0.0250 are not significant, but the trailing zero is, so 5.2 g (two figures) drops too much and 5.157 g keeps too many. 8.25×10³ g divides molar mass by moles instead of multiplying.",
+  "html": {
+   "prompt": "A dose of ibuprofen is 0.0250 mol. What mass is this, reported to the correct number of significant figures? Use the molar mass in the table.",
+   "choices": [
+    "5.16 g",
+    "5.157 g",
+    "5.2 g",
+    "8.25×10<sup>3</sup> g"
+   ],
+   "hint": "mass = moles × molar mass. The answer keeps as many significant figures as the least precise value (0.0250 has three).",
+   "explain": "(0.0250 mol)(206.27 g mol⁻¹) = 5.157 g, rounded to three significant figures: <b>5.16 g</b>. Leading zeros in 0.0250 are not significant, but the trailing zero is, so 5.2 g (two figures) drops too much and 5.157 g keeps too many. 8.25×10<sup>3</sup> g divides molar mass by moles instead of multiplying."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Compound",
+      "Molar mass (g mol<sup>−1</sup>)"
+     ],
+     "rows": [
+      [
+       "ibuprofen, C<sub>13</sub>H<sub>18</sub>O<sub>2</sub>",
+       "206.27"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 284
+  }
+ },
+ {
+  "id": "finalexam-ab9d6b38",
+  "skill": "finalexam.3a.moles",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-5",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Hospitals use helium, oxygen, carbon dioxide and nitrous oxide gases. Which 10.0 g sample contains the greatest number of particles (atoms or molecules)?",
+  "choices": [
+   "10.0 g of He",
+   "10.0 g of O₂",
+   "10.0 g of CO₂",
+   "10.0 g of N₂O"
+  ],
+  "answer": "10.0 g of He",
+  "hint": "Particles are proportional to moles. For the same mass, which substance has the smallest molar mass?",
+  "explain": "moles = mass ÷ molar mass, so the smallest molar mass gives the most moles and particles: He (4.003 g mol⁻¹) gives 2.50 mol, versus 0.313 mol O₂ and about 0.227 mol of CO₂ or N₂O: 10.0 g of He. A heavier molecule means FEWER particles per gram.",
+  "html": {
+   "prompt": "Hospitals use helium, oxygen, carbon dioxide and nitrous oxide gases. Which 10.0 g sample contains the greatest number of particles (atoms or molecules)?",
+   "choices": [
+    "10.0 g of He",
+    "10.0 g of O<sub>2</sub>",
+    "10.0 g of CO<sub>2</sub>",
+    "10.0 g of N<sub>2</sub>O"
+   ],
+   "hint": "Particles are proportional to moles. For the same mass, which substance has the smallest molar mass?",
+   "explain": "moles = mass ÷ molar mass, so the smallest molar mass gives the most moles and particles: He (4.003 g mol⁻¹) gives 2.50 mol, versus 0.313 mol O<sub>2</sub> and about 0.227 mol of CO<sub>2</sub> or N<sub>2</sub>O: <b>10.0 g of He</b>. A heavier molecule means FEWER particles per gram."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 285
+  }
+ },
+ {
+  "id": "finalexam-40148ae3",
+  "skill": "finalexam.3a.matter",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-1",
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "The four boxes use one color per element. Which box holds a mixture in which one substance is an element and the other is a compound?",
+  "choices": [
+   "III",
+   "I",
+   "II",
+   "IV"
+  ],
+  "answer": "III",
+  "hint": "First count the kinds of particles (mixture or pure). Then check whether each kind has one type of atom (element) or two (compound).",
+  "explain": "Box III has two kinds of particles: red–red molecules (an element) and blue–red–red molecules (a compound). Box I is a pure element, Box II is a pure compound, and Box IV is a mixture of two elements.",
+  "html": {
+   "prompt": "The four boxes use one color per element. Which box holds a mixture in which one substance is an element and the other is a compound?",
+   "choices": [
+    "III",
+    "I",
+    "II",
+    "IV"
+   ],
+   "hint": "First count the kinds of particles (mixture or pure). Then check whether each kind has one type of atom (element) or two (compound).",
+   "explain": "<b>Box III</b> has two kinds of particles: red–red molecules (an element) and blue–red–red molecules (a compound). Box I is a pure element, Box II is a pure compound, and Box IV is a mixture of two elements."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "particles",
+     "key": {
+      "X": {
+       "c": "#e0675a",
+       "r": 9
+      },
+      "Y": {
+       "c": "#3b82b4",
+       "r": 9
+      }
+     },
+     "seed": 11,
+     "boxes": [
+      {
+       "cap": "I",
+       "mols": [
+        [
+         "X",
+         "X"
+        ],
+        [
+         "X",
+         "X"
+        ],
+        [
+         "X",
+         "X"
+        ],
+        [
+         "X",
+         "X"
+        ],
+        [
+         "X",
+         "X"
+        ],
+        [
+         "X",
+         "X"
+        ]
+       ]
+      },
+      {
+       "cap": "II",
+       "mols": [
+        [
+         "Y",
+         "X",
+         "X"
+        ],
+        [
+         "Y",
+         "X",
+         "X"
+        ],
+        [
+         "Y",
+         "X",
+         "X"
+        ],
+        [
+         "Y",
+         "X",
+         "X"
+        ],
+        [
+         "Y",
+         "X",
+         "X"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "type": "particles",
+     "key": {
+      "X": {
+       "c": "#e0675a",
+       "r": 9
+      },
+      "Y": {
+       "c": "#3b82b4",
+       "r": 9
+      }
+     },
+     "seed": 12,
+     "boxes": [
+      {
+       "cap": "III",
+       "mols": [
+        [
+         "X",
+         "X"
+        ],
+        [
+         "X",
+         "X"
+        ],
+        [
+         "X",
+         "X"
+        ],
+        [
+         "X",
+         "X"
+        ],
+        [
+         "Y",
+         "X",
+         "X"
+        ],
+        [
+         "Y",
+         "X",
+         "X"
+        ],
+        [
+         "Y",
+         "X",
+         "X"
+        ],
+        [
+         "Y",
+         "X",
+         "X"
+        ]
+       ]
+      },
+      {
+       "cap": "IV",
+       "mols": [
+        [
+         "X",
+         "X"
+        ],
+        [
+         "X",
+         "X"
+        ],
+        [
+         "X",
+         "X"
+        ],
+        [
+         "X",
+         "X"
+        ],
+        [
+         "Y",
+         "Y"
+        ],
+        [
+         "Y",
+         "Y"
+        ],
+        [
+         "Y",
+         "Y"
+        ],
+        [
+         "Y",
+         "Y"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 286
+  }
+ },
+ {
+  "id": "finalexam-b0e79cad",
+  "skill": "finalexam.3a.matter",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-1",
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "The boxes show a sample before and after an electric current passes through it. Which statement describes the change?",
+  "choices": [
+   "A compound broke down into two elements; a chemical change.",
+   "Two elements combined into a compound; a chemical change.",
+   "The water boiled into a gas; a physical change.",
+   "A mixture was separated into its parts; a physical change."
+  ],
+  "answer": "A compound broke down into two elements; a chemical change.",
+  "hint": "Identify the particles in the \"Before\" box and in the \"After\" box. Are they the same substances?",
+  "explain": "Before: only H₂O molecules (a compound). After: H₂ and O₂ molecules (two elements). New substances formed: a compound broke down into elements, a chemical change (decomposition by electrolysis). The water was a pure compound, not a mixture of H₂ and O₂.",
+  "html": {
+   "prompt": "The boxes show a sample before and after an electric current passes through it. Which statement describes the change?",
+   "choices": [
+    "A compound broke down into two elements; a chemical change.",
+    "Two elements combined into a compound; a chemical change.",
+    "The water boiled into a gas; a physical change.",
+    "A mixture was separated into its parts; a physical change."
+   ],
+   "hint": "Identify the particles in the \"Before\" box and in the \"After\" box. Are they the same substances?",
+   "explain": "Before: only H<sub>2</sub>O molecules (a compound). After: H<sub>2</sub> and O<sub>2</sub> molecules (two elements). New substances formed: <b>a compound broke down into elements, a chemical change</b> (decomposition by electrolysis). The water was a pure compound, not a mixture of H<sub>2</sub> and O<sub>2</sub>."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "particles",
+     "arrow": true,
+     "key": {
+      "O": {
+       "c": "#e0675a",
+       "n": "O",
+       "r": 10
+      },
+      "H": {
+       "c": "#e9eef2",
+       "n": "H",
+       "r": 7
+      }
+     },
+     "seed": 21,
+     "boxes": [
+      {
+       "cap": "Before",
+       "mols": [
+        [
+         "O",
+         "H",
+         "H"
+        ],
+        [
+         "O",
+         "H",
+         "H"
+        ],
+        [
+         "O",
+         "H",
+         "H"
+        ],
+        [
+         "O",
+         "H",
+         "H"
+        ],
+        [
+         "O",
+         "H",
+         "H"
+        ],
+        [
+         "O",
+         "H",
+         "H"
+        ]
+       ]
+      },
+      {
+       "cap": "After",
+       "mols": [
+        [
+         "H",
+         "H"
+        ],
+        [
+         "H",
+         "H"
+        ],
+        [
+         "H",
+         "H"
+        ],
+        [
+         "H",
+         "H"
+        ],
+        [
+         "H",
+         "H"
+        ],
+        [
+         "H",
+         "H"
+        ],
+        [
+         "O",
+         "O"
+        ],
+        [
+         "O",
+         "O"
+        ],
+        [
+         "O",
+         "O"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 287
+  }
+ },
+ {
+  "id": "finalexam-08571bc2",
+  "skill": "finalexam.3a.matter",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-1",
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Which box contains atoms of only one element but is still a mixture?",
+  "choices": [
+   "Box I",
+   "Box II",
+   "Box III",
+   "Box IV"
+  ],
+  "answer": "Box I",
+  "hint": "A mixture contains more than one kind of particle. Can two different particles be built from the same kind of atom?",
+  "explain": "Box I has only O atoms, but they form two different substances, O₂ and O₃ (ozone), so it is a mixture. Box II is pure O₂, Box III is pure CO (a compound), and Box IV is a mixture of a compound (CO) and an element (O₂).",
+  "html": {
+   "prompt": "Which box contains atoms of only one element but is still a mixture?",
+   "choices": [
+    "Box I",
+    "Box II",
+    "Box III",
+    "Box IV"
+   ],
+   "hint": "A mixture contains more than one kind of particle. Can two different particles be built from the same kind of atom?",
+   "explain": "<b>Box I</b> has only O atoms, but they form two different substances, O<sub>2</sub> and O<sub>3</sub> (ozone), so it is a mixture. Box II is pure O<sub>2</sub>, Box III is pure CO (a compound), and Box IV is a mixture of a compound (CO) and an element (O<sub>2</sub>)."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "particles",
+     "key": {
+      "O": {
+       "c": "#e0675a",
+       "n": "O",
+       "r": 10
+      },
+      "C": {
+       "c": "#4a5560",
+       "n": "C",
+       "r": 10
+      }
+     },
+     "seed": 37,
+     "boxes": [
+      {
+       "cap": "I",
+       "mols": [
+        [
+         "O",
+         "O"
+        ],
+        [
+         "O",
+         "O"
+        ],
+        [
+         "O",
+         "O"
+        ],
+        [
+         "O",
+         "O"
+        ],
+        [
+         "O",
+         "O"
+        ],
+        [
+         "O",
+         "O",
+         "O"
+        ],
+        [
+         "O",
+         "O",
+         "O"
+        ],
+        [
+         "O",
+         "O",
+         "O"
+        ]
+       ]
+      },
+      {
+       "cap": "II",
+       "mols": [
+        [
+         "O",
+         "O"
+        ],
+        [
+         "O",
+         "O"
+        ],
+        [
+         "O",
+         "O"
+        ],
+        [
+         "O",
+         "O"
+        ],
+        [
+         "O",
+         "O"
+        ],
+        [
+         "O",
+         "O"
+        ],
+        [
+         "O",
+         "O"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "type": "particles",
+     "key": {
+      "O": {
+       "c": "#e0675a",
+       "n": "O",
+       "r": 10
+      },
+      "C": {
+       "c": "#4a5560",
+       "n": "C",
+       "r": 10
+      }
+     },
+     "seed": 32,
+     "boxes": [
+      {
+       "cap": "III",
+       "mols": [
+        [
+         "C",
+         "O"
+        ],
+        [
+         "C",
+         "O"
+        ],
+        [
+         "C",
+         "O"
+        ],
+        [
+         "C",
+         "O"
+        ],
+        [
+         "C",
+         "O"
+        ],
+        [
+         "C",
+         "O"
+        ]
+       ]
+      },
+      {
+       "cap": "IV",
+       "mols": [
+        [
+         "C",
+         "O"
+        ],
+        [
+         "C",
+         "O"
+        ],
+        [
+         "C",
+         "O"
+        ],
+        [
+         "C",
+         "O"
+        ],
+        [
+         "O",
+         "O"
+        ],
+        [
+         "O",
+         "O"
+        ],
+        [
+         "O",
+         "O"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 288
+  }
+ },
+ {
+  "id": "finalexam-3f764ba7",
+  "skill": "finalexam.3a.matter",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-1",
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "An antacid tablet is dropped into an open cup of water sitting on a balance. The tablet fizzes, and the balance reading drops by 0.45 g. Which statement explains the drop?",
+  "choices": [
+   "Carbon dioxide gas formed and escaped into the air.",
+   "Mass was destroyed as the tablet reacted.",
+   "The dissolved tablet weighs less than the solid tablet did.",
+   "Mass was converted into the energy given off by the fizzing."
+  ],
+  "answer": "Carbon dioxide gas formed and escaped into the air.",
+  "hint": "Atoms are neither created nor destroyed in a chemical reaction. Where could some of the atoms have gone?",
+  "explain": "The tablet reacts to form a new substance, CO₂ gas, which leaves the open cup: carbon dioxide escaped. Mass is conserved (in a closed container the reading would not change). Dissolving does not change mass, and ordinary chemical reactions do not turn a measurable amount of mass into energy.",
+  "html": {
+   "prompt": "An antacid tablet is dropped into an open cup of water sitting on a balance. The tablet fizzes, and the balance reading drops by 0.45 g. Which statement explains the drop?",
+   "choices": [
+    "Carbon dioxide gas formed and escaped into the air.",
+    "Mass was destroyed as the tablet reacted.",
+    "The dissolved tablet weighs less than the solid tablet did.",
+    "Mass was converted into the energy given off by the fizzing."
+   ],
+   "hint": "Atoms are neither created nor destroyed in a chemical reaction. Where could some of the atoms have gone?",
+   "explain": "The tablet reacts to form a new substance, CO<sub>2</sub> gas, which leaves the open cup: <b>carbon dioxide escaped</b>. Mass is conserved (in a closed container the reading would not change). Dissolving does not change mass, and ordinary chemical reactions do not turn a measurable amount of mass into energy."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 289
+  }
+ },
+ {
+  "id": "finalexam-01f63242",
+  "skill": "finalexam.3a.matter",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-1",
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which statement about oxygen gas describes a physical property rather than a chemical property?",
+  "choices": [
+   "It is colorless and odorless.",
+   "It supports the burning of fuels.",
+   "It reacts with iron to form rust.",
+   "It combines with glucose in cells to release energy."
+  ],
+  "answer": "It is colorless and odorless.",
+  "hint": "A physical property can be observed without changing the substance into a different substance.",
+  "explain": "Color and odor can be observed without changing O₂ into anything else: colorless and odorless is a physical property. Supporting combustion, rusting iron and reacting with glucose all form new substances, so they are chemical properties.",
+  "html": {
+   "prompt": "Which statement about oxygen gas describes a physical property rather than a chemical property?",
+   "choices": [
+    "It is colorless and odorless.",
+    "It supports the burning of fuels.",
+    "It reacts with iron to form rust.",
+    "It combines with glucose in cells to release energy."
+   ],
+   "hint": "A physical property can be observed without changing the substance into a different substance.",
+   "explain": "Color and odor can be observed without changing O<sub>2</sub> into anything else: <b>colorless and odorless</b> is a physical property. Supporting combustion, rusting iron and reacting with glucose all form new substances, so they are chemical properties."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 290
+  }
+ },
+ {
+  "id": "finalexam-8d71703c",
+  "skill": "finalexam.3a.matter",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-1",
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which property is true of a gas but NOT of a liquid?",
+  "choices": [
+   "It fills the entire volume of its container.",
+   "It takes the shape of its container.",
+   "Its particles are in constant, random motion.",
+   "Its particles can move past one another."
+  ],
+  "answer": "It fills the entire volume of its container.",
+  "hint": "Liquids and gases are both fluids. Which feature depends on the particles being far apart?",
+  "explain": "Liquids keep a fixed volume, but gas particles are far apart and move freely, so a gas fills its whole container. Both liquids and gases take the shape of their container, flow because their particles move past one another, and have particles in constant motion.",
+  "html": {
+   "prompt": "Which property is true of a gas but NOT of a liquid?",
+   "choices": [
+    "It fills the entire volume of its container.",
+    "It takes the shape of its container.",
+    "Its particles are in constant, random motion.",
+    "Its particles can move past one another."
+   ],
+   "hint": "Liquids and gases are both fluids. Which feature depends on the particles being far apart?",
+   "explain": "Liquids keep a fixed volume, but gas particles are far apart and move freely, so a gas <b>fills its whole container</b>. Both liquids and gases take the shape of their container, flow because their particles move past one another, and have particles in constant motion."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 291
+  }
+ },
+ {
+  "id": "finalexam-6ceecd8b",
+  "skill": "finalexam.3a.matter",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-1",
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which of these is a heterogeneous mixture?",
+  "choices": [
+   "an antibiotic suspension labeled \"shake well\"",
+   "70% rubbing alcohol (isopropyl alcohol in water)",
+   "a 5% dextrose (sugar) IV solution",
+   "distilled water from a pharmacy"
+  ],
+  "answer": "an antibiotic suspension labeled \"shake well\"",
+  "hint": "In a heterogeneous mixture the composition is not uniform; the parts can settle or be seen separately.",
+  "explain": "Solid particles in a suspension settle out, so it is not uniform: heterogeneous (hence \"shake well\"). Rubbing alcohol and dextrose solution are homogeneous mixtures (solutions), and distilled water is a pure compound.",
+  "html": {
+   "prompt": "Which of these is a heterogeneous mixture?",
+   "choices": [
+    "an antibiotic suspension labeled \"shake well\"",
+    "70% rubbing alcohol (isopropyl alcohol in water)",
+    "a 5% dextrose (sugar) IV solution",
+    "distilled water from a pharmacy"
+   ],
+   "hint": "In a heterogeneous mixture the composition is not uniform; the parts can settle or be seen separately.",
+   "explain": "Solid particles in a suspension settle out, so it is not uniform: <b>heterogeneous</b> (hence \"shake well\"). Rubbing alcohol and dextrose solution are homogeneous mixtures (solutions), and distilled water is a pure compound."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 292
+  }
+ },
+ {
+  "id": "finalexam-0d7d3a9b",
+  "skill": "finalexam.3a.matter",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-1",
+   "3A-7",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which group lists three compounds and nothing else?",
+  "choices": [
+   "water, carbon dioxide, table salt",
+   "ozone, carbon monoxide, glucose",
+   "air, carbon dioxide, ammonia",
+   "diamond, table salt, methane"
+  ],
+  "answer": "water, carbon dioxide, table salt",
+  "hint": "A compound is a pure substance made of two or more elements chemically combined. Check every item in each list.",
+  "explain": "H₂O, CO₂ and NaCl each contain two or more elements bonded together: all compounds. Ozone (O₃) and diamond (C) are elements even though they contain many atoms, and air is a mixture.",
+  "html": {
+   "prompt": "Which group lists three compounds and nothing else?",
+   "choices": [
+    "water, carbon dioxide, table salt",
+    "ozone, carbon monoxide, glucose",
+    "air, carbon dioxide, ammonia",
+    "diamond, table salt, methane"
+   ],
+   "hint": "A compound is a pure substance made of two or more elements chemically combined. Check every item in each list.",
+   "explain": "H<sub>2</sub>O, CO<sub>2</sub> and NaCl each contain two or more elements bonded together: <b>all compounds</b>. Ozone (O<sub>3</sub>) and diamond (C) are elements even though they contain many atoms, and air is a mixture."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 293
+  }
+ },
+ {
+  "id": "finalexam-b2391292",
+  "skill": "finalexam.3a.naming",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-4",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Some saline laxatives contain sodium dihydrogen phosphate. Which formula matches this name?",
+  "choices": [
+   "NaH₂PO₄",
+   "Na₂HPO₄",
+   "Na(H₂PO₄)₂",
+   "NaH₂PO₃"
+  ],
+  "answer": "NaH₂PO₄",
+  "hint": "Dihydrogen phosphate is H₂PO⁻₄. Balance its charge against Na⁺.",
+  "explain": "Na⁺ and H₂PO⁻₄ balance one-to-one: NaH₂PO₄. Na₂HPO₄ is sodium hydrogen phosphate (HPO²⁻₄); the \"-ite\" ending, not \"-ate\", would mean one fewer oxygen.",
+  "html": {
+   "prompt": "Some saline laxatives contain sodium dihydrogen phosphate. Which formula matches this name?",
+   "choices": [
+    "NaH<sub>2</sub>PO<sub>4</sub>",
+    "Na<sub>2</sub>HPO<sub>4</sub>",
+    "Na(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub>",
+    "NaH<sub>2</sub>PO<sub>3</sub>"
+   ],
+   "hint": "Dihydrogen phosphate is <span class=\"nw\">H<sub>2</sub>PO<span class=\"ss\"><sup>−</sup><sub>4</sub></span>.</span> Balance its charge against Na<sup>+</sup>.",
+   "explain": "Na<sup>+</sup> and <span class=\"nw\">H<sub>2</sub>PO<span class=\"ss\"><sup>−</sup><sub>4</sub></span></span> balance one-to-one: <b>NaH<sub>2</sub>PO<sub>4</sub></b>. Na<sub>2</sub>HPO<sub>4</sub> is sodium hydrogen phosphate <span class=\"nw\">(HPO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>);</span> the \"-ite\" ending, not \"-ate\", would mean one fewer oxygen."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 294
+  }
+ },
+ {
+  "id": "finalexam-03043928",
+  "skill": "finalexam.3a.naming",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-4",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "A dilute solution of KMnO₄ is used to treat some skin infections. What is the name of KMnO₄?",
+  "choices": [
+   "potassium permanganate",
+   "potassium manganate",
+   "potassium manganese tetroxide",
+   "potassium permanganite"
+  ],
+  "answer": "potassium permanganate",
+  "hint": "K⁺ is the cation. Find the polyatomic anion MnO⁻₄ on your ion sheet.",
+  "explain": "K⁺ + MnO⁻₄ (permanganate) gives potassium permanganate. Ionic compounds do not use prefixes such as \"tetr-\", and manganate is MnO²⁻₄, a different ion.",
+  "html": {
+   "prompt": "A dilute solution of KMnO<sub>4</sub> is used to treat some skin infections. What is the name of KMnO<sub>4</sub>?",
+   "choices": [
+    "potassium permanganate",
+    "potassium manganate",
+    "potassium manganese tetroxide",
+    "potassium permanganite"
+   ],
+   "hint": "K<sup>+</sup> is the cation. Find the polyatomic anion <span class=\"nw\">MnO<span class=\"ss\"><sup>−</sup><sub>4</sub></span></span> on your ion sheet.",
+   "explain": "K<sup>+</sup> + <span class=\"nw\">MnO<span class=\"ss\"><sup>−</sup><sub>4</sub></span></span> (permanganate) gives <b>potassium permanganate</b>. Ionic compounds do not use prefixes such as \"tetr-\", and manganate is <span class=\"nw\">MnO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>,</span> a different ion."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 295
+  }
+ },
+ {
+  "id": "finalexam-339aeb11",
+  "skill": "finalexam.3a.naming",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-4",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "A red compound used in some antifouling boat paints has the formula Cu₂O. What is its correct name?",
+  "choices": [
+   "copper(I) oxide",
+   "copper(II) oxide",
+   "dicopper oxide",
+   "copper oxide"
+  ],
+  "answer": "copper(I) oxide",
+  "hint": "Copper can form more than one ion, so its charge must be shown. Oxide is O²⁻; what charge must each Cu carry?",
+  "explain": "Two Cu ions balance one O²⁻, so each is Cu⁺ (oxidation number +1): copper(I) oxide. The Roman numeral is the ion charge, not the subscript, and ionic names do not use prefixes like \"di-\".",
+  "html": {
+   "prompt": "A red compound used in some antifouling boat paints has the formula Cu<sub>2</sub>O. What is its correct name?",
+   "choices": [
+    "copper(I) oxide",
+    "copper(II) oxide",
+    "dicopper oxide",
+    "copper oxide"
+   ],
+   "hint": "Copper can form more than one ion, so its charge must be shown. Oxide is O<sup>2−</sup>; what charge must each Cu carry?",
+   "explain": "Two Cu ions balance one O<sup>2−</sup>, so each is Cu<sup>+</sup> (oxidation number +1): <b>copper(I) oxide</b>. The Roman numeral is the ion charge, not the subscript, and ionic names do not use prefixes like \"di-\"."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 296
+  }
+ },
+ {
+  "id": "finalexam-4fb5152a",
+  "skill": "finalexam.3a.naming",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-4",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "What is the name of Co₃(PO₄)₂, a pigment called cobalt violet?",
+  "choices": [
+   "cobalt(II) phosphate",
+   "cobalt(III) phosphate",
+   "tricobalt diphosphate",
+   "cobalt(II) phosphite"
+  ],
+  "answer": "cobalt(II) phosphate",
+  "hint": "Phosphate is PO³⁻₄. Total negative charge = 2 × (3−). Divide that among the three cobalt ions.",
+  "explain": "Two PO³⁻₄ ions give 6−, shared by 3 Co ions, so each is Co²⁺: cobalt(II) phosphate. \"Cobalt(III)\" copies the subscript 3 as the charge; phosphite would be PO³⁻₃.",
+  "html": {
+   "prompt": "What is the name of Co<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>, a pigment called cobalt violet?",
+   "choices": [
+    "cobalt(II) phosphate",
+    "cobalt(III) phosphate",
+    "tricobalt diphosphate",
+    "cobalt(II) phosphite"
+   ],
+   "hint": "Phosphate is <span class=\"nw\">PO<span class=\"ss\"><sup>3−</sup><sub>4</sub></span>.</span> Total negative charge = 2 × (3−). Divide that among the three cobalt ions.",
+   "explain": "Two <span class=\"nw\">PO<span class=\"ss\"><sup>3−</sup><sub>4</sub></span></span> ions give 6−, shared by 3 Co ions, so each is Co<sup>2+</sup>: <b>cobalt(II) phosphate</b>. \"Cobalt(III)\" copies the subscript 3 as the charge; phosphite would be <span class=\"nw\">PO<span class=\"ss\"><sup>3−</sup><sub>3</sub></span>.</span>"
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 297
+  }
+ },
+ {
+  "id": "finalexam-163fbbaa",
+  "skill": "finalexam.3a.naming",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-4",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Lead(II) acetate was once used in some hair dyes. What is its formula?",
+  "choices": [
+   "Pb(C₂H₃O₂)₂",
+   "PbC₂H₃O₂",
+   "Pb₂C₂H₃O₂",
+   "Pb(C₂H₃O₂)₄"
+  ],
+  "answer": "Pb(C₂H₃O₂)₂",
+  "hint": "The Roman numeral gives the lead charge. Acetate is C₂H₃O⁻₂. Use parentheses for more than one polyatomic ion.",
+  "explain": "Pb²⁺ needs two C₂H₃O⁻₂ ions: Pb(C₂H₃O₂)₂. Pb(C₂H₃O₂)₄ would be lead(IV) acetate.",
+  "html": {
+   "prompt": "Lead(II) acetate was once used in some hair dyes. What is its formula?",
+   "choices": [
+    "Pb(C<sub>2</sub>H<sub>3</sub>O<sub>2</sub>)<sub>2</sub>",
+    "PbC<sub>2</sub>H<sub>3</sub>O<sub>2</sub>",
+    "Pb<sub>2</sub>C<sub>2</sub>H<sub>3</sub>O<sub>2</sub>",
+    "Pb(C<sub>2</sub>H<sub>3</sub>O<sub>2</sub>)<sub>4</sub>"
+   ],
+   "hint": "The Roman numeral gives the lead charge. Acetate is <span class=\"nw\">C<sub>2</sub>H<sub>3</sub>O<span class=\"ss\"><sup>−</sup><sub>2</sub></span>.</span> Use parentheses for more than one polyatomic ion.",
+   "explain": "Pb<sup>2+</sup> needs two <span class=\"nw\">C<sub>2</sub>H<sub>3</sub>O<span class=\"ss\"><sup>−</sup><sub>2</sub></span></span> ions: <b>Pb(C<sub>2</sub>H<sub>3</sub>O<sub>2</sub>)<sub>2</sub></b>. Pb(C<sub>2</sub>H<sub>3</sub>O<sub>2</sub>)<sub>4</sub> would be lead(IV) acetate."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 298
+  }
+ },
+ {
+  "id": "finalexam-525a8646",
+  "skill": "finalexam.3a.naming",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-4",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which compound is named using Greek prefixes such as mono-, di- and penta-?",
+  "choices": [
+   "PCl₅",
+   "MgCl₂",
+   "AlCl₃",
+   "Na₂S"
+  ],
+  "answer": "PCl₅",
+  "hint": "Prefixes are used only for molecular compounds. What kinds of elements form a molecular compound?",
+  "explain": "P and Cl are both nonmetals, so PCl₅ is molecular and is named phosphorus pentachloride. MgCl₂ (magnesium chloride), AlCl₃ (aluminum chloride) and Na₂S (sodium sulfide) are ionic: a metal plus a nonmetal, so the charges fix the ratio and no prefixes are used.",
+  "html": {
+   "prompt": "Which compound is named using Greek prefixes such as <i>mono-</i>, <i>di-</i> and <i>penta-</i>?",
+   "choices": [
+    "PCl<sub>5</sub>",
+    "MgCl<sub>2</sub>",
+    "AlCl<sub>3</sub>",
+    "Na<sub>2</sub>S"
+   ],
+   "hint": "Prefixes are used only for molecular compounds. What kinds of elements form a molecular compound?",
+   "explain": "P and Cl are both nonmetals, so <b>PCl<sub>5</sub></b> is molecular and is named phosphorus pentachloride. MgCl<sub>2</sub> (magnesium chloride), AlCl<sub>3</sub> (aluminum chloride) and Na<sub>2</sub>S (sodium sulfide) are ionic: a metal plus a nonmetal, so the charges fix the ratio and no prefixes are used."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 299
+  }
+ },
+ {
+  "id": "finalexam-d18467de",
+  "skill": "finalexam.3a.naming",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-4",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Dinitrogen monoxide (\"laughing gas\") is used for sedation in dental offices. What is its formula?",
+  "choices": [
+   "N₂O",
+   "NO₂",
+   "NO",
+   "N₂O₅"
+  ],
+  "answer": "N₂O",
+  "hint": "Each prefix gives the number of atoms of the element it is attached to: di- = 2, mono- = 1.",
+  "explain": "Di-nitrogen = 2 N atoms; mon-oxide = 1 O atom: N₂O. NO₂ is nitrogen dioxide, which swaps the numbers.",
+  "html": {
+   "prompt": "Dinitrogen monoxide (\"laughing gas\") is used for sedation in dental offices. What is its formula?",
+   "choices": [
+    "N<sub>2</sub>O",
+    "NO<sub>2</sub>",
+    "NO",
+    "N<sub>2</sub>O<sub>5</sub>"
+   ],
+   "hint": "Each prefix gives the number of atoms of the element it is attached to: di- = 2, mono- = 1.",
+   "explain": "Di-nitrogen = 2 N atoms; mon-oxide = 1 O atom: <b>N<sub>2</sub>O</b>. NO<sub>2</sub> is nitrogen dioxide, which swaps the numbers."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 300
+  }
+ },
+ {
+  "id": "finalexam-a9203ccd",
+  "skill": "finalexam.3a.naming",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-4",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Barium sulfate is swallowed as a contrast agent for X-ray images of the digestive tract. What is its formula?",
+  "choices": [
+   "BaSO₄",
+   "Ba₂SO₄",
+   "Ba(SO₄)₂",
+   "BaSO₃"
+  ],
+  "answer": "BaSO₄",
+  "hint": "Barium is in Group 2A. Find the charge of the sulfate ion on your ion sheet, then balance the charges.",
+  "explain": "Ba²⁺ and SO²⁻₄ balance one-to-one: BaSO₄. Ba₂SO₄ treats barium as 1+, Ba(SO₄)₂ treats it as 4+, and BaSO₃ is barium sulfite.",
+  "html": {
+   "prompt": "Barium sulfate is swallowed as a contrast agent for X-ray images of the digestive tract. What is its formula?",
+   "choices": [
+    "BaSO<sub>4</sub>",
+    "Ba<sub>2</sub>SO<sub>4</sub>",
+    "Ba(SO<sub>4</sub>)<sub>2</sub>",
+    "BaSO<sub>3</sub>"
+   ],
+   "hint": "Barium is in Group 2A. Find the charge of the sulfate ion on your ion sheet, then balance the charges.",
+   "explain": "Ba<sup>2+</sup> and <span class=\"nw\">SO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span> balance one-to-one: <b>BaSO<sub>4</sub></b>. Ba<sub>2</sub>SO<sub>4</sub> treats barium as 1+, Ba(SO<sub>4</sub>)<sub>2</sub> treats it as 4+, and BaSO<sub>3</sub> is barium sulfite."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 301
+  }
+ },
+ {
+  "id": "finalexam-d3dd8e1f",
+  "skill": "finalexam.3a.naming",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-4",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Three of the name–formula pairs are correct. Which pair is INCORRECT?",
+  "choices": [
+   "sodium sulfite, Na₂SO₄",
+   "iron(III) sulfate, Fe₂(SO₄)₃",
+   "potassium dichromate, K₂Cr₂O₇",
+   "magnesium nitride, Mg₃N₂"
+  ],
+  "answer": "sodium sulfite, Na₂SO₄",
+  "hint": "Check the ion behind each name: -ite has one fewer oxygen than -ate. Then check that the charges balance.",
+  "explain": "Sulfite is SO²⁻₃, so sodium sulfite is Na₂SO₃; Na₂SO₄ is sodium sulfate: sodium sulfite, Na₂SO₄ is incorrect. The other three balance: 2(3+) = 3(2−), 2(1+) = 2−, 3(2+) = 2(3−).",
+  "html": {
+   "prompt": "Three of the name–formula pairs are correct. Which pair is INCORRECT?",
+   "choices": [
+    "sodium sulfite, Na<sub>2</sub>SO<sub>4</sub>",
+    "iron(III) sulfate, Fe<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>",
+    "potassium dichromate, K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>",
+    "magnesium nitride, Mg<sub>3</sub>N<sub>2</sub>"
+   ],
+   "hint": "Check the ion behind each name: -ite has one fewer oxygen than -ate. Then check that the charges balance.",
+   "explain": "Sulfite is <span class=\"nw\">SO<span class=\"ss\"><sup>2−</sup><sub>3</sub></span>,</span> so sodium sulfite is Na<sub>2</sub>SO<sub>3</sub>; Na<sub>2</sub>SO<sub>4</sub> is sodium sulfate: <b>sodium sulfite, Na<sub>2</sub>SO<sub>4</sub> is incorrect</b>. The other three balance: 2(3+) = 3(2−), 2(1+) = 2−, 3(2+) = 2(3−)."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 302
+  }
+ },
+ {
+  "id": "finalexam-7d4a7412",
+  "skill": "finalexam.3a.naming",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-4",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "For which compound must the name include a Roman numeral?",
+  "choices": [
+   "CuCl₂",
+   "ZnCl₂",
+   "AgCl",
+   "CaCl₂"
+  ],
+  "answer": "CuCl₂",
+  "hint": "Roman numerals are used only for metals that can form more than one cation (Type II).",
+  "explain": "Copper forms both Cu⁺ and Cu²⁺, so CuCl₂ is copper(II) chloride: CuCl₂. Zinc (always 2+), silver (always 1+) and calcium (always 2+) have only one common charge, so no numeral is used.",
+  "html": {
+   "prompt": "For which compound must the name include a Roman numeral?",
+   "choices": [
+    "CuCl<sub>2</sub>",
+    "ZnCl<sub>2</sub>",
+    "AgCl",
+    "CaCl<sub>2</sub>"
+   ],
+   "hint": "Roman numerals are used only for metals that can form more than one cation (Type II).",
+   "explain": "Copper forms both Cu<sup>+</sup> and Cu<sup>2+</sup>, so CuCl<sub>2</sub> is copper(II) chloride: <b>CuCl<sub>2</sub></b>. Zinc (always 2+), silver (always 1+) and calcium (always 2+) have only one common charge, so no numeral is used."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 303
+  }
+ },
+ {
+  "id": "finalexam-274af0d6",
+  "skill": "finalexam.3a.equilibrium",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-13",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Carbon dioxide in blood takes part in the equilibria shown. A patient with a lung disease cannot exhale enough CO₂, so CO₂ builds up in the blood. What happens?",
+  "choices": [
+   "The equilibria shift right; [H⁺] rises and blood pH falls.",
+   "The equilibria shift right; [H⁺] falls and blood pH rises.",
+   "The equilibria shift left; [H⁺] rises and blood pH falls.",
+   "The equilibria shift left; [H⁺] falls and blood pH rises."
+  ],
+  "answer": "The equilibria shift right; [H⁺] rises and blood pH falls.",
+  "hint": "Adding a reactant pushes an equilibrium toward products. A higher [H⁺] means a lower pH.",
+  "explain": "Extra CO₂ (a reactant) shifts the equilibria to the right, making more H⁺, so pH falls (respiratory acidosis). Remember that pH goes DOWN as [H⁺] goes UP.",
+  "html": {
+   "prompt": "Carbon dioxide in blood takes part in the equilibria shown. A patient with a lung disease cannot exhale enough CO<sub>2</sub>, so CO<sub>2</sub> builds up in the blood. What happens?",
+   "choices": [
+    "The equilibria shift right; [H<sup>+</sup>] rises and blood pH falls.",
+    "The equilibria shift right; [H<sup>+</sup>] falls and blood pH rises.",
+    "The equilibria shift left; [H<sup>+</sup>] rises and blood pH falls.",
+    "The equilibria shift left; [H<sup>+</sup>] falls and blood pH rises."
+   ],
+   "hint": "Adding a reactant pushes an equilibrium toward products. A higher [H<sup>+</sup>] means a lower pH.",
+   "explain": "Extra CO<sub>2</sub> (a reactant) shifts the equilibria to the <b>right</b>, making more H<sup>+</sup>, so <b>pH falls</b> (respiratory acidosis). Remember that pH goes DOWN as [H<sup>+</sup>] goes UP."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "CO<sub>2</sub>(aq) + H<sub>2</sub>O(l) ⇌ H<sub>2</sub>CO<sub>3</sub>(aq) ⇌ H<sup>+</sup>(aq) + <span class=\"nw\">HCO<span class=\"ss\"><sup>−</sup><sub>3</sub></span>(aq)</span>"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 304
+  }
+ },
+ {
+  "id": "finalexam-27a4fbdf",
+  "skill": "finalexam.3a.equilibrium",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-13",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Carbon monoxide binds to hemoglobin (Hb) and blocks oxygen transport. A poisoned patient is given 100% oxygen. How does this help, according to the equilibrium shown?",
+  "choices": [
+   "High [O₂] shifts the equilibrium right, releasing CO from hemoglobin.",
+   "High [O₂] shifts the equilibrium left, releasing CO from hemoglobin.",
+   "High [O₂] increases the value of K, so CO is released.",
+   "O₂ reacts with CO directly, so the equilibrium does not shift."
+  ],
+  "answer": "High [O₂] shifts the equilibrium right, releasing CO from hemoglobin.",
+  "hint": "Which side is O₂ on? Increasing a reactant concentration shifts the equilibrium away from it.",
+  "explain": "O₂ is a reactant, so raising [O₂] shifts the equilibrium right, turning HbCO into HbO₂ and releasing CO to be exhaled. Changing concentrations never changes K; only temperature does.",
+  "html": {
+   "prompt": "Carbon monoxide binds to hemoglobin (Hb) and blocks oxygen transport. A poisoned patient is given 100% oxygen. How does this help, according to the equilibrium shown?",
+   "choices": [
+    "High [O<sub>2</sub>] shifts the equilibrium right, releasing CO from hemoglobin.",
+    "High [O<sub>2</sub>] shifts the equilibrium left, releasing CO from hemoglobin.",
+    "High [O<sub>2</sub>] increases the value of K, so CO is released.",
+    "O<sub>2</sub> reacts with CO directly, so the equilibrium does not shift."
+   ],
+   "hint": "Which side is O<sub>2</sub> on? Increasing a reactant concentration shifts the equilibrium away from it.",
+   "explain": "O<sub>2</sub> is a reactant, so raising [O<sub>2</sub>] <b>shifts the equilibrium right</b>, turning HbCO into HbO<sub>2</sub> and <b>releasing CO</b> to be exhaled. Changing concentrations never changes K; only temperature does."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "HbCO(aq) + O<sub>2</sub>(aq) ⇌ HbO<sub>2</sub>(aq) + CO(aq)"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 305
+  }
+ },
+ {
+  "id": "finalexam-2f511a18",
+  "skill": "finalexam.3a.equilibrium",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-13",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "The equilibrium constant expression for a reaction that makes methanol is shown. Which balanced equation does it describe?",
+  "choices": [
+   "CO(g) + 2 H₂(g) ⇌ CH₃OH(g)",
+   "CH₃OH(g) ⇌ CO(g) + 2 H₂(g)",
+   "CO(g) + 2 H₂(g) ⇌ CH₃OH(l)",
+   "2 CO(g) + 4 H₂(g) ⇌ 2 CH₃OH(g)"
+  ],
+  "answer": "CO(g) + 2 H₂(g) ⇌ CH₃OH(g)",
+  "hint": "Products go on top, reactants on the bottom, coefficients become exponents, and pure liquids and solids are left out.",
+  "explain": "CH₃OH is on top, so it is the product; [H₂]² means a coefficient of 2: CO(g) + 2 H₂(g) ⇌ CH₃OH(g). The reverse reaction gives the inverted expression; with CH₃OH(l) the liquid would be left out (K = 1/([CO][H₂]²)); doubling the equation squares every term.",
+  "html": {
+   "prompt": "The equilibrium constant expression for a reaction that makes methanol is shown. Which balanced equation does it describe?",
+   "choices": [
+    "CO(g) + 2 H<sub>2</sub>(g) ⇌ CH<sub>3</sub>OH(g)",
+    "CH<sub>3</sub>OH(g) ⇌ CO(g) + 2 H<sub>2</sub>(g)",
+    "CO(g) + 2 H<sub>2</sub>(g) ⇌ CH<sub>3</sub>OH(l)",
+    "2 CO(g) + 4 H<sub>2</sub>(g) ⇌ 2 CH<sub>3</sub>OH(g)"
+   ],
+   "hint": "Products go on top, reactants on the bottom, coefficients become exponents, and pure liquids and solids are left out.",
+   "explain": "CH<sub>3</sub>OH is on top, so it is the product; [H<sub>2</sub>]<sup>2</sup> means a coefficient of 2: <b>CO(g) + 2 H<sub>2</sub>(g) ⇌ CH<sub>3</sub>OH(g)</b>. The reverse reaction gives the inverted expression; with CH<sub>3</sub>OH(l) the liquid would be left out (K = 1/([CO][H<sub>2</sub>]<sup>2</sup>)); doubling the equation squares every term."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "K = [CH<sub>3</sub>OH] / ([CO][H<sub>2</sub>]<sup>2</sup>)"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 306
+  }
+ },
+ {
+  "id": "finalexam-29b130bb",
+  "skill": "finalexam.3a.equilibrium",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-13",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "In water, ammonia forms ammonium and hydroxide ions as shown. Which expression correctly gives K?",
+  "choices": [
+   "K = [NH⁺₄][OH⁻] / [NH₃]",
+   "K = [NH⁺₄][OH⁻] / ([NH₃][H₂O])",
+   "K = [NH₃] / ([NH⁺₄][OH⁻])",
+   "K = [NH₃][H₂O] / ([NH⁺₄][OH⁻])"
+  ],
+  "answer": "K = [NH⁺₄][OH⁻] / [NH₃]",
+  "hint": "Pure liquids and solids are left out of K expressions. Check the physical state of each substance.",
+  "explain": "Water is a pure liquid (l), so it is left out: K = [NH⁺₄][OH⁻] / [NH₃]. Including [H₂O] is the most common mistake.",
+  "html": {
+   "prompt": "In water, ammonia forms ammonium and hydroxide ions as shown. Which expression correctly gives K?",
+   "choices": [
+    "K = <span class=\"nw\">[NH<span class=\"ss\"><sup>+</sup><sub>4</sub></span>][OH</span><sup>−</sup>] / [NH<sub>3</sub>]",
+    "K = <span class=\"nw\">[NH<span class=\"ss\"><sup>+</sup><sub>4</sub></span>][OH</span><sup>−</sup>] / ([NH<sub>3</sub>][H<sub>2</sub>O])",
+    "K = [NH<sub>3</sub>] / <span class=\"nw\">([NH<span class=\"ss\"><sup>+</sup><sub>4</sub></span>][OH</span><sup>−</sup>])",
+    "K = [NH<sub>3</sub>][H<sub>2</sub>O] / <span class=\"nw\">([NH<span class=\"ss\"><sup>+</sup><sub>4</sub></span>][OH</span><sup>−</sup>])"
+   ],
+   "hint": "Pure liquids and solids are left out of K expressions. Check the physical state of each substance.",
+   "explain": "Water is a pure liquid (l), so it is left out: <b>K = <span class=\"nw\">[NH<span class=\"ss\"><sup>+</sup><sub>4</sub></span>][OH</span><sup>−</sup>] / [NH<sub>3</sub>]</b>. Including [H<sub>2</sub>O] is the most common mistake."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "NH<sub>3</sub>(aq) + H<sub>2</sub>O(l) ⇌ <span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>4</sub></span>(aq)</span> + OH<sup>−</sup>(aq)"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 307
+  }
+ },
+ {
+  "id": "finalexam-bcab6c21",
+  "skill": "finalexam.3a.equilibrium",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-13",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "The table gives the concentrations in an equilibrium mixture for the reaction shown. What is the value of K?",
+  "choices": [
+   "32",
+   "40",
+   "0.031",
+   "2.1"
+  ],
+  "answer": "32",
+  "hint": "Write the K expression first (products over reactants, coefficients as exponents), then substitute the equilibrium concentrations.",
+  "explain": "K = [HI]² / ([H₂][I₂]) = (0.80)² / [(0.10)(0.20)] = 0.64 / 0.020 = 32. 40 forgets to square [HI]; 0.031 is reactants over products.",
+  "html": {
+   "prompt": "The table gives the concentrations in an equilibrium mixture for the reaction shown. What is the value of K?",
+   "choices": [
+    "32",
+    "40",
+    "0.031",
+    "2.1"
+   ],
+   "hint": "Write the K expression first (products over reactants, coefficients as exponents), then substitute the equilibrium concentrations.",
+   "explain": "K = [HI]<sup>2</sup> / ([H<sub>2</sub>][I<sub>2</sub>]) = (0.80)<sup>2</sup> / [(0.10)(0.20)] = 0.64 / 0.020 = <b>32</b>. 40 forgets to square [HI]; 0.031 is reactants over products."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "H<sub>2</sub>(g) + I<sub>2</sub>(g) ⇌ 2 HI(g)"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Species",
+      "Concentration (M)"
+     ],
+     "rows": [
+      [
+       "H<sub>2</sub>",
+       "0.10"
+      ],
+      [
+       "I<sub>2</sub>",
+       "0.20"
+      ],
+      [
+       "HI",
+       "0.80"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 308
+  }
+ },
+ {
+  "id": "finalexam-30021153",
+  "skill": "finalexam.3a.equilibrium",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-13",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Use the energy diagram for a reaction. What is the activation energy of the forward reaction?",
+  "choices": [
+   "80 kJ",
+   "100 kJ",
+   "120 kJ",
+   "20 kJ"
+  ],
+  "answer": "80 kJ",
+  "hint": "Activation energy is the climb from the reactants' energy up to the top of the hill.",
+  "explain": "Reactants are at 40 kJ and the peak is at 120 kJ: E_a = 120 − 40 = 80 kJ. 100 kJ is measured from the products (that is the reverse E_a); 120 kJ is the peak height, not the climb.",
+  "html": {
+   "prompt": "Use the energy diagram for a reaction. What is the activation energy of the forward reaction?",
+   "choices": [
+    "80 kJ",
+    "100 kJ",
+    "120 kJ",
+    "20 kJ"
+   ],
+   "hint": "Activation energy is the climb from the reactants' energy up to the top of the hill.",
+   "explain": "Reactants are at 40 kJ and the peak is at 120 kJ: E<sub>a</sub> = 120 − 40 = <b>80 kJ</b>. 100 kJ is measured from the products (that is the reverse E<sub>a</sub>); 120 kJ is the peak height, not the climb."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "plot",
+     "x": {
+      "label": "Reaction progress",
+      "min": 0,
+      "max": 10,
+      "ticks": []
+     },
+     "y": {
+      "label": "Potential energy (kJ)",
+      "min": 0,
+      "max": 140,
+      "ticks": [
+       0,
+       20,
+       40,
+       60,
+       80,
+       100,
+       120,
+       140
+      ]
+     },
+     "series": [
+      {
+       "pts": [
+        [
+         0,
+         40
+        ],
+        [
+         0.167,
+         40
+        ],
+        [
+         0.333,
+         40
+        ],
+        [
+         0.5,
+         40
+        ],
+        [
+         0.667,
+         40
+        ],
+        [
+         0.833,
+         40
+        ],
+        [
+         1,
+         40
+        ],
+        [
+         1.167,
+         40
+        ],
+        [
+         1.333,
+         40
+        ],
+        [
+         1.5,
+         40
+        ],
+        [
+         1.667,
+         40
+        ],
+        [
+         1.833,
+         40
+        ],
+        [
+         2,
+         40
+        ],
+        [
+         2.167,
+         40.874
+        ],
+        [
+         2.333,
+         43.458
+        ],
+        [
+         2.5,
+         47.639
+        ],
+        [
+         2.667,
+         53.235
+        ],
+        [
+         2.833,
+         60
+        ],
+        [
+         3,
+         67.639
+        ],
+        [
+         3.167,
+         75.819
+        ],
+        [
+         3.333,
+         84.181
+        ],
+        [
+         3.5,
+         92.361
+        ],
+        [
+         3.667,
+         100
+        ],
+        [
+         3.833,
+         106.765
+        ],
+        [
+         4,
+         112.361
+        ],
+        [
+         4.167,
+         116.542
+        ],
+        [
+         4.333,
+         119.126
+        ],
+        [
+         4.5,
+         120
+        ],
+        [
+         4.667,
+         119.24
+        ],
+        [
+         4.833,
+         116.985
+        ],
+        [
+         5,
+         113.301
+        ],
+        [
+         5.167,
+         108.302
+        ],
+        [
+         5.333,
+         102.139
+        ],
+        [
+         5.5,
+         95
+        ],
+        [
+         5.667,
+         87.101
+        ],
+        [
+         5.833,
+         78.682
+        ],
+        [
+         6,
+         70
+        ],
+        [
+         6.167,
+         61.318
+        ],
+        [
+         6.333,
+         52.899
+        ],
+        [
+         6.5,
+         45
+        ],
+        [
+         6.667,
+         37.861
+        ],
+        [
+         6.833,
+         31.698
+        ],
+        [
+         7,
+         26.699
+        ],
+        [
+         7.167,
+         23.015
+        ],
+        [
+         7.333,
+         20.76
+        ],
+        [
+         7.5,
+         20
+        ],
+        [
+         7.667,
+         20
+        ],
+        [
+         7.833,
+         20
+        ],
+        [
+         8,
+         20
+        ],
+        [
+         8.167,
+         20
+        ],
+        [
+         8.333,
+         20
+        ],
+        [
+         8.5,
+         20
+        ],
+        [
+         8.667,
+         20
+        ],
+        [
+         8.833,
+         20
+        ],
+        [
+         9,
+         20
+        ],
+        [
+         9.167,
+         20
+        ],
+        [
+         9.333,
+         20
+        ],
+        [
+         9.5,
+         20
+        ],
+        [
+         9.667,
+         20
+        ],
+        [
+         9.833,
+         20
+        ],
+        [
+         10,
+         20
+        ]
+       ]
+      }
+     ],
+     "mono": true,
+     "grid": true,
+     "marks": [
+      [
+       1,
+       47,
+       "Reactants"
+      ],
+      [
+       9,
+       27,
+       "Products"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 309
+  }
+ },
+ {
+  "id": "finalexam-19252b26",
+  "skill": "finalexam.3a.equilibrium",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-13",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Curves 1 and 2 show the same reaction without and with a catalyst. Which statement is correct?",
+  "choices": [
+   "It lowers the activation energy but does not change ΔH.",
+   "It lowers both the activation energy and the value of ΔH.",
+   "It makes the reaction more exothermic.",
+   "It raises the energy of the products."
+  ],
+  "answer": "It lowers the activation energy but does not change ΔH.",
+  "hint": "Compare the peaks of the two curves, then compare where each curve starts and ends.",
+  "explain": "Curve 2 has a lower peak, so the catalyst gives a lower-energy path: lower E_a. Both curves start at 40 kJ and end at 20 kJ, so ΔH = −20 kJ is unchanged. Enzymes speed up reactions in the body the same way.",
+  "html": {
+   "prompt": "Curves 1 and 2 show the same reaction without and with a catalyst. Which statement is correct?",
+   "choices": [
+    "It lowers the activation energy but does not change ΔH.",
+    "It lowers both the activation energy and the value of ΔH.",
+    "It makes the reaction more exothermic.",
+    "It raises the energy of the products."
+   ],
+   "hint": "Compare the peaks of the two curves, then compare where each curve starts and ends.",
+   "explain": "Curve 2 has a lower peak, so the catalyst gives a lower-energy path: <b>lower E<sub>a</sub></b>. Both curves start at 40 kJ and end at 20 kJ, so <b>ΔH = −20 kJ is unchanged</b>. Enzymes speed up reactions in the body the same way."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "plot",
+     "x": {
+      "label": "Reaction progress",
+      "min": 0,
+      "max": 10,
+      "ticks": []
+     },
+     "y": {
+      "label": "Potential energy (kJ)",
+      "min": 0,
+      "max": 140,
+      "ticks": [
+       0,
+       20,
+       40,
+       60,
+       80,
+       100,
+       120,
+       140
+      ]
+     },
+     "series": [
+      {
+       "pts": [
+        [
+         0,
+         40
+        ],
+        [
+         0.167,
+         40
+        ],
+        [
+         0.333,
+         40
+        ],
+        [
+         0.5,
+         40
+        ],
+        [
+         0.667,
+         40
+        ],
+        [
+         0.833,
+         40
+        ],
+        [
+         1,
+         40
+        ],
+        [
+         1.167,
+         40
+        ],
+        [
+         1.333,
+         40
+        ],
+        [
+         1.5,
+         40
+        ],
+        [
+         1.667,
+         40
+        ],
+        [
+         1.833,
+         40
+        ],
+        [
+         2,
+         40
+        ],
+        [
+         2.167,
+         40.874
+        ],
+        [
+         2.333,
+         43.458
+        ],
+        [
+         2.5,
+         47.639
+        ],
+        [
+         2.667,
+         53.235
+        ],
+        [
+         2.833,
+         60
+        ],
+        [
+         3,
+         67.639
+        ],
+        [
+         3.167,
+         75.819
+        ],
+        [
+         3.333,
+         84.181
+        ],
+        [
+         3.5,
+         92.361
+        ],
+        [
+         3.667,
+         100
+        ],
+        [
+         3.833,
+         106.765
+        ],
+        [
+         4,
+         112.361
+        ],
+        [
+         4.167,
+         116.542
+        ],
+        [
+         4.333,
+         119.126
+        ],
+        [
+         4.5,
+         120
+        ],
+        [
+         4.667,
+         119.24
+        ],
+        [
+         4.833,
+         116.985
+        ],
+        [
+         5,
+         113.301
+        ],
+        [
+         5.167,
+         108.302
+        ],
+        [
+         5.333,
+         102.139
+        ],
+        [
+         5.5,
+         95
+        ],
+        [
+         5.667,
+         87.101
+        ],
+        [
+         5.833,
+         78.682
+        ],
+        [
+         6,
+         70
+        ],
+        [
+         6.167,
+         61.318
+        ],
+        [
+         6.333,
+         52.899
+        ],
+        [
+         6.5,
+         45
+        ],
+        [
+         6.667,
+         37.861
+        ],
+        [
+         6.833,
+         31.698
+        ],
+        [
+         7,
+         26.699
+        ],
+        [
+         7.167,
+         23.015
+        ],
+        [
+         7.333,
+         20.76
+        ],
+        [
+         7.5,
+         20
+        ],
+        [
+         7.667,
+         20
+        ],
+        [
+         7.833,
+         20
+        ],
+        [
+         8,
+         20
+        ],
+        [
+         8.167,
+         20
+        ],
+        [
+         8.333,
+         20
+        ],
+        [
+         8.5,
+         20
+        ],
+        [
+         8.667,
+         20
+        ],
+        [
+         8.833,
+         20
+        ],
+        [
+         9,
+         20
+        ],
+        [
+         9.167,
+         20
+        ],
+        [
+         9.333,
+         20
+        ],
+        [
+         9.5,
+         20
+        ],
+        [
+         9.667,
+         20
+        ],
+        [
+         9.833,
+         20
+        ],
+        [
+         10,
+         20
+        ]
+       ],
+       "label": "1",
+       "labelAt": 27,
+       "dx": 22,
+       "dy": -14
+      },
+      {
+       "pts": [
+        [
+         0,
+         40
+        ],
+        [
+         0.167,
+         40
+        ],
+        [
+         0.333,
+         40
+        ],
+        [
+         0.5,
+         40
+        ],
+        [
+         0.667,
+         40
+        ],
+        [
+         0.833,
+         40
+        ],
+        [
+         1,
+         40
+        ],
+        [
+         1.167,
+         40
+        ],
+        [
+         1.333,
+         40
+        ],
+        [
+         1.5,
+         40
+        ],
+        [
+         1.667,
+         40
+        ],
+        [
+         1.833,
+         40
+        ],
+        [
+         2,
+         40
+        ],
+        [
+         2.167,
+         40.382
+        ],
+        [
+         2.333,
+         41.513
+        ],
+        [
+         2.5,
+         43.342
+        ],
+        [
+         2.667,
+         45.79
+        ],
+        [
+         2.833,
+         48.75
+        ],
+        [
+         3,
+         52.092
+        ],
+        [
+         3.167,
+         55.671
+        ],
+        [
+         3.333,
+         59.329
+        ],
+        [
+         3.5,
+         62.908
+        ],
+        [
+         3.667,
+         66.25
+        ],
+        [
+         3.833,
+         69.21
+        ],
+        [
+         4,
+         71.658
+        ],
+        [
+         4.167,
+         73.487
+        ],
+        [
+         4.333,
+         74.618
+        ],
+        [
+         4.5,
+         75
+        ],
+        [
+         4.667,
+         74.582
+        ],
+        [
+         4.833,
+         73.342
+        ],
+        [
+         5,
+         71.316
+        ],
+        [
+         5.167,
+         68.566
+        ],
+        [
+         5.333,
+         65.177
+        ],
+        [
+         5.5,
+         61.25
+        ],
+        [
+         5.667,
+         56.906
+        ],
+        [
+         5.833,
+         52.275
+        ],
+        [
+         6,
+         47.5
+        ],
+        [
+         6.167,
+         42.725
+        ],
+        [
+         6.333,
+         38.094
+        ],
+        [
+         6.5,
+         33.75
+        ],
+        [
+         6.667,
+         29.823
+        ],
+        [
+         6.833,
+         26.434
+        ],
+        [
+         7,
+         23.684
+        ],
+        [
+         7.167,
+         21.658
+        ],
+        [
+         7.333,
+         20.418
+        ],
+        [
+         7.5,
+         20
+        ],
+        [
+         7.667,
+         20
+        ],
+        [
+         7.833,
+         20
+        ],
+        [
+         8,
+         20
+        ],
+        [
+         8.167,
+         20
+        ],
+        [
+         8.333,
+         20
+        ],
+        [
+         8.5,
+         20
+        ],
+        [
+         8.667,
+         20
+        ],
+        [
+         8.833,
+         20
+        ],
+        [
+         9,
+         20
+        ],
+        [
+         9.167,
+         20
+        ],
+        [
+         9.333,
+         20
+        ],
+        [
+         9.5,
+         20
+        ],
+        [
+         9.667,
+         20
+        ],
+        [
+         9.833,
+         20
+        ],
+        [
+         10,
+         20
+        ]
+       ],
+       "label": "2",
+       "labelAt": 27,
+       "dx": 4,
+       "dy": 26
+      }
+     ],
+     "mono": true,
+     "grid": true
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 310
+  }
+ },
+ {
+  "id": "finalexam-be9d6be5",
+  "skill": "finalexam.3a.equilibrium",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-13",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Chewing food breaks it into smaller pieces before it is digested. Why does this speed up digestion reactions?",
+  "choices": [
+   "It increases the surface area where enzymes can collide with food.",
+   "It lowers the activation energy of the digestion reactions.",
+   "It raises the temperature of the food in the mouth.",
+   "It increases the amount of energy released by digestion."
+  ],
+  "answer": "It increases the surface area where enzymes can collide with food.",
+  "hint": "Reactions happen where particles collide. What changes when a solid is cut into smaller pieces?",
+  "explain": "Smaller pieces expose more surface, so more molecules can collide with digestive enzymes per second: greater surface area. The activation energy and the energy released are unchanged; only catalysts (enzymes) lower E_a.",
+  "html": {
+   "prompt": "Chewing food breaks it into smaller pieces before it is digested. Why does this speed up digestion reactions?",
+   "choices": [
+    "It increases the surface area where enzymes can collide with food.",
+    "It lowers the activation energy of the digestion reactions.",
+    "It raises the temperature of the food in the mouth.",
+    "It increases the amount of energy released by digestion."
+   ],
+   "hint": "Reactions happen where particles collide. What changes when a solid is cut into smaller pieces?",
+   "explain": "Smaller pieces expose more surface, so more molecules can collide with digestive enzymes per second: <b>greater surface area</b>. The activation energy and the energy released are unchanged; only catalysts (enzymes) lower E<sub>a</sub>."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 311
+  }
+ },
+ {
+  "id": "finalexam-506f3629",
+  "skill": "finalexam.3a.equilibrium",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-13",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "A catalyst is added to the system shown after it has reached equilibrium. What happens?",
+  "choices": [
+   "No shift; forward and reverse rates increase by the same factor.",
+   "The equilibrium shifts right, producing more SO₃.",
+   "The equilibrium shifts left, because the reverse reaction speeds up.",
+   "K increases, because the forward reaction becomes faster."
+  ],
+  "answer": "No shift; forward and reverse rates increase by the same factor.",
+  "hint": "A catalyst lowers the activation energy for both the forward and the reverse reaction.",
+  "explain": "A catalyst speeds up the forward and reverse reactions equally, so an equilibrium mixture does not shift and K is unchanged. A catalyst only helps a system reach equilibrium faster.",
+  "html": {
+   "prompt": "A catalyst is added to the system shown after it has reached equilibrium. What happens?",
+   "choices": [
+    "No shift; forward and reverse rates increase by the same factor.",
+    "The equilibrium shifts right, producing more SO<sub>3</sub>.",
+    "The equilibrium shifts left, because the reverse reaction speeds up.",
+    "K increases, because the forward reaction becomes faster."
+   ],
+   "hint": "A catalyst lowers the activation energy for both the forward and the reverse reaction.",
+   "explain": "A catalyst speeds up the forward and reverse reactions equally, so an equilibrium mixture <b>does not shift</b> and K is unchanged. A catalyst only helps a system reach equilibrium faster."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "2 SO<sub>2</sub>(g) + O<sub>2</sub>(g) ⇌ 2 SO<sub>3</sub>(g)  ΔH = −198 kJ"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 312
+  }
+ },
+ {
+  "id": "finalexam-785e08b7",
+  "skill": "finalexam.3a.nuclear",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-14",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Phosphorus-32 is used to treat some blood disorders. What is particle X in its decay equation?",
+  "choices": [
+   "⁰_−1e",
+   "⁰_+1e",
+   "⁴₂He",
+   "¹₀n"
+  ],
+  "answer": "⁰_−1e",
+  "hint": "Mass numbers (top) and atomic numbers (bottom) must add up to the same totals on both sides.",
+  "explain": "Mass: 32 = 32 + 0. Charge: 15 = 16 + Z, so Z = −1: X is ⁰_−1e, a beta particle. A neutron in the nucleus became a proton, so the atomic number went UP by one. A positron would lower it.",
+  "html": {
+   "prompt": "Phosphorus-32 is used to treat some blood disorders. What is particle X in its decay equation?",
+   "choices": [
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>−1</sub></span>e</span>",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>+1</sub></span>e</span>",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span>",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>0</sub></span>n</span>"
+   ],
+   "hint": "Mass numbers (top) and atomic numbers (bottom) must add up to the same totals on both sides.",
+   "explain": "Mass: 32 = 32 + 0. Charge: 15 = 16 + Z, so Z = −1: X is <b><span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>−1</sub></span>e,</span> a beta particle</b>. A neutron in the nucleus became a proton, so the atomic number went UP by one. A positron would lower it."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "<span class=\"nw\"><span class=\"ss pre\"><sup>32</sup><sub>15</sub></span>P</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>32</sup><sub>16</sub></span>S</span> + X"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 313
+  }
+ },
+ {
+  "id": "finalexam-74ff4c07",
+  "skill": "finalexam.3a.nuclear",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-14",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Technetium-99m, the most widely used medical imaging isotope, decays as shown. What is emitted?",
+  "choices": [
+   "a gamma ray, ⁰₀γ",
+   "a beta particle, ⁰_−1e",
+   "a positron, ⁰_+1e",
+   "an alpha particle, ⁴₂He"
+  ],
+  "answer": "a gamma ray, ⁰₀γ",
+  "hint": "Compare the mass numbers and atomic numbers on the two sides. What kind of radiation changes neither?",
+  "explain": "Mass number (99) and atomic number (43) are unchanged; the \"m\" (metastable) nucleus just drops to a lower energy state by emitting a gamma ray. Beta or positron emission would change the atomic number, and alpha would change both numbers.",
+  "html": {
+   "prompt": "Technetium-99m, the most widely used medical imaging isotope, decays as shown. What is emitted?",
+   "choices": [
+    "a gamma ray, <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>0</sub></span></span>γ",
+    "a beta particle, <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>−1</sub></span>e</span>",
+    "a positron, <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>+1</sub></span>e</span>",
+    "an alpha particle, <span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span>"
+   ],
+   "hint": "Compare the mass numbers and atomic numbers on the two sides. What kind of radiation changes neither?",
+   "explain": "Mass number (99) and atomic number (43) are unchanged; the \"m\" (metastable) nucleus just drops to a lower energy state by emitting <b>a gamma ray</b>. Beta or positron emission would change the atomic number, and alpha would change both numbers."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "<span class=\"nw\"><span class=\"ss pre\"><sup>99m</sup><sub>43</sub></span>Tc</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>99</sup><sub>43</sub></span>Tc</span> + ?"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 314
+  }
+ },
+ {
+  "id": "finalexam-be010f47",
+  "skill": "finalexam.3a.nuclear",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-14",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Carbon-11 is a positron emitter used in PET brain scans. Compared with the carbon-11 nucleus, how does the nucleus formed by its decay differ?",
+  "choices": [
+   "one fewer proton and one more neutron",
+   "one more proton and one fewer neutron",
+   "the same protons and one fewer neutron",
+   "two fewer protons and two fewer neutrons"
+  ],
+  "answer": "one fewer proton and one more neutron",
+  "hint": "A positron is ⁰_+1e. Balance the atomic number; the mass number stays the same.",
+  "explain": "¹¹₆C → ¹¹₅B + ⁰_+1e. C-11 has 6 p and 5 n; B-11 has 5 p and 6 n: a proton became a neutron, so one fewer proton and one more neutron. One more proton is beta (⁰_−1e) decay, and losing 2 p and 2 n is alpha decay.",
+  "html": {
+   "prompt": "Carbon-11 is a positron emitter used in PET brain scans. Compared with the carbon-11 nucleus, how does the nucleus formed by its decay differ?",
+   "choices": [
+    "one fewer proton and one more neutron",
+    "one more proton and one fewer neutron",
+    "the same protons and one fewer neutron",
+    "two fewer protons and two fewer neutrons"
+   ],
+   "hint": "A positron is <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>+1</sub></span>e.</span> Balance the atomic number; the mass number stays the same.",
+   "explain": "<span class=\"nw\"><span class=\"ss pre\"><sup>11</sup><sub>6</sub></span>C</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>11</sup><sub>5</sub></span>B</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>+1</sub></span>e.</span> C-11 has 6 p and 5 n; B-11 has 5 p and 6 n: a proton became a neutron, so <b>one fewer proton and one more neutron</b>. One more proton is beta <span class=\"nw\">(<span class=\"ss pre\"><sup>0</sup><sub>−1</sub></span>e)</span> decay, and losing 2 p and 2 n is alpha decay."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 315
+  }
+ },
+ {
+  "id": "finalexam-1d2ab783",
+  "skill": "finalexam.3a.nuclear",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-14",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "The graph shows the mass of a radioisotope in a sample used for a medical scan. What is the half-life of the isotope?",
+  "choices": [
+   "6 h",
+   "3 h",
+   "12 h",
+   "24 h"
+  ],
+  "answer": "6 h",
+  "hint": "Read the starting mass, find half of it on the vertical axis, then read the time on the curve.",
+  "explain": "The mass starts at 80 mg and falls to 40 mg at 6 h; it is 20 mg at 12 h and 10 mg at 18 h, so every 6 h it halves. 12 h is the time to reach one-fourth, and 24 h is the time to reach one-sixteenth.",
+  "html": {
+   "prompt": "The graph shows the mass of a radioisotope in a sample used for a medical scan. What is the half-life of the isotope?",
+   "choices": [
+    "6 h",
+    "3 h",
+    "12 h",
+    "24 h"
+   ],
+   "hint": "Read the starting mass, find half of it on the vertical axis, then read the time on the curve.",
+   "explain": "The mass starts at 80 mg and falls to 40 mg at <b>6 h</b>; it is 20 mg at 12 h and 10 mg at 18 h, so every 6 h it halves. 12 h is the time to reach one-fourth, and 24 h is the time to reach one-sixteenth."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "plot",
+     "x": {
+      "label": "Time (h)",
+      "min": 0,
+      "max": 30,
+      "ticks": [
+       0,
+       3,
+       6,
+       9,
+       12,
+       15,
+       18,
+       21,
+       24,
+       27,
+       30
+      ]
+     },
+     "y": {
+      "label": "Mass of isotope (mg)",
+      "min": 0,
+      "max": 80,
+      "ticks": [
+       0,
+       10,
+       20,
+       30,
+       40,
+       50,
+       60,
+       70,
+       80
+      ]
+     },
+     "series": [
+      {
+       "pts": [
+        [
+         0,
+         80
+        ],
+        [
+         0.75,
+         73.36
+        ],
+        [
+         1.5,
+         67.272
+        ],
+        [
+         2.25,
+         61.688
+        ],
+        [
+         3,
+         56.569
+        ],
+        [
+         3.75,
+         51.874
+        ],
+        [
+         4.5,
+         47.568
+        ],
+        [
+         5.25,
+         43.62
+        ],
+        [
+         6,
+         40
+        ],
+        [
+         6.75,
+         36.68
+        ],
+        [
+         7.5,
+         33.636
+        ],
+        [
+         8.25,
+         30.844
+        ],
+        [
+         9,
+         28.284
+        ],
+        [
+         9.75,
+         25.937
+        ],
+        [
+         10.5,
+         23.784
+        ],
+        [
+         11.25,
+         21.81
+        ],
+        [
+         12,
+         20
+        ],
+        [
+         12.75,
+         18.34
+        ],
+        [
+         13.5,
+         16.818
+        ],
+        [
+         14.25,
+         15.422
+        ],
+        [
+         15,
+         14.142
+        ],
+        [
+         15.75,
+         12.968
+        ],
+        [
+         16.5,
+         11.892
+        ],
+        [
+         17.25,
+         10.905
+        ],
+        [
+         18,
+         10
+        ],
+        [
+         18.75,
+         9.17
+        ],
+        [
+         19.5,
+         8.409
+        ],
+        [
+         20.25,
+         7.711
+        ],
+        [
+         21,
+         7.071
+        ],
+        [
+         21.75,
+         6.484
+        ],
+        [
+         22.5,
+         5.946
+        ],
+        [
+         23.25,
+         5.453
+        ],
+        [
+         24,
+         5
+        ],
+        [
+         24.75,
+         4.585
+        ],
+        [
+         25.5,
+         4.204
+        ],
+        [
+         26.25,
+         3.856
+        ],
+        [
+         27,
+         3.536
+        ],
+        [
+         27.75,
+         3.242
+        ],
+        [
+         28.5,
+         2.973
+        ],
+        [
+         29.25,
+         2.726
+        ],
+        [
+         30,
+         2.5
+        ]
+       ]
+      }
+     ],
+     "mono": true,
+     "grid": true
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 316
+  }
+ },
+ {
+  "id": "finalexam-59c9d448",
+  "skill": "finalexam.3a.nuclear",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-14",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "Fluorine-18, used in PET scans, has a half-life of 110 minutes. How long does it take for the activity of an F-18 dose to drop to 1/8 of its starting value?",
+  "choices": [
+   "330 min",
+   "880 min",
+   "220 min",
+   "110 min"
+  ],
+  "answer": "330 min",
+  "hint": "Each half-life cuts the activity in half. How many halvings turn 1 into 1/8?",
+  "explain": "1 → 1/2 → 1/4 → 1/8 is three half-lives: 3 × 110 min = 330 min (5.5 h). 880 min multiplies by 8 instead of counting halvings; 220 min (two half-lives) leaves 1/4.",
+  "html": {
+   "prompt": "Fluorine-18, used in PET scans, has a half-life of 110 minutes. How long does it take for the activity of an F-18 dose to drop to 1/8 of its starting value?",
+   "choices": [
+    "330 min",
+    "880 min",
+    "220 min",
+    "110 min"
+   ],
+   "hint": "Each half-life cuts the activity in half. How many halvings turn 1 into 1/8?",
+   "explain": "1 → 1/2 → 1/4 → 1/8 is three half-lives: 3 × 110 min = <b>330 min</b> (5.5 h). 880 min multiplies by 8 instead of counting halvings; 220 min (two half-lives) leaves 1/4."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 317
+  }
+ },
+ {
+  "id": "finalexam-6e475847",
+  "skill": "finalexam.3a.nuclear",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-14",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "In a PET scan, each positron emitted by the tracer quickly meets an electron. What does the scanner detect?",
+  "choices": [
+   "two gamma rays traveling in opposite directions",
+   "two alpha particles traveling in opposite directions",
+   "a single beta particle from the tracer",
+   "neutrons released from the tracer nucleus"
+  ],
+  "answer": "two gamma rays traveling in opposite directions",
+  "hint": "A positron is the antimatter partner of an electron. When matter and antimatter meet, their mass becomes energy.",
+  "explain": "The positron and electron annihilate, and their mass turns into two gamma rays (511 keV each) that fly off in opposite directions. Detectors around the patient pick up each pair, which locates the tracer in the body.",
+  "html": {
+   "prompt": "In a PET scan, each positron emitted by the tracer quickly meets an electron. What does the scanner detect?",
+   "choices": [
+    "two gamma rays traveling in opposite directions",
+    "two alpha particles traveling in opposite directions",
+    "a single beta particle from the tracer",
+    "neutrons released from the tracer nucleus"
+   ],
+   "hint": "A positron is the antimatter partner of an electron. When matter and antimatter meet, their mass becomes energy.",
+   "explain": "The positron and electron annihilate, and their mass turns into <b>two gamma rays</b> (511 keV each) that fly off in opposite directions. Detectors around the patient pick up each pair, which locates the tracer in the body."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 318
+  }
+ },
+ {
+  "id": "finalexam-4ca76c58",
+  "skill": "finalexam.3a.nuclear",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-14",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "A radiology technologist wears a badge that tracks her radiation dose. Which unit measures the biological effect of the radiation absorbed by the body?",
+  "choices": [
+   "sievert (Sv)",
+   "becquerel (Bq)",
+   "curie (Ci)",
+   "gray (Gy)"
+  ],
+  "answer": "sievert (Sv)",
+  "hint": "Three of these measure something else: decays per second (two units) or energy absorbed per kilogram. Which unit accounts for the type of radiation?",
+  "explain": "The sievert (or rem) is the equivalent dose: absorbed energy adjusted for how damaging each type of radiation is. The gray measures absorbed energy only; becquerels and curies measure activity (decays per second) of the source.",
+  "html": {
+   "prompt": "A radiology technologist wears a badge that tracks her radiation dose. Which unit measures the biological effect of the radiation absorbed by the body?",
+   "choices": [
+    "sievert (Sv)",
+    "becquerel (Bq)",
+    "curie (Ci)",
+    "gray (Gy)"
+   ],
+   "hint": "Three of these measure something else: decays per second (two units) or energy absorbed per kilogram. Which unit accounts for the type of radiation?",
+   "explain": "The <b>sievert</b> (or rem) is the equivalent dose: absorbed energy adjusted for how damaging each type of radiation is. The gray measures absorbed energy only; becquerels and curies measure activity (decays per second) of the source."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 319
+  }
+ },
+ {
+  "id": "finalexam-34cf89d8",
+  "skill": "finalexam.3a.nuclear",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-14",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "A patient receives a 25 mCi dose of technetium-99m. What does the unit millicurie (mCi) describe?",
+  "choices": [
+   "the activity of the sample: how many nuclei decay per second",
+   "the energy of radiation absorbed per kilogram of tissue",
+   "the biological damage done by the radiation",
+   "the mass of the radioactive isotope given"
+  ],
+  "answer": "the activity of the sample: how many nuclei decay per second",
+  "hint": "The curie is defined by the number of disintegrations per second of a radioactive source.",
+  "explain": "One curie is 3.7×10¹⁰ decays per second, so the curie measures activity, how many nuclei decay each second. Absorbed energy is measured in grays (or rads), and biological effect in sieverts (or rems).",
+  "html": {
+   "prompt": "A patient receives a 25 mCi dose of technetium-99m. What does the unit millicurie (mCi) describe?",
+   "choices": [
+    "the activity of the sample: how many nuclei decay per second",
+    "the energy of radiation absorbed per kilogram of tissue",
+    "the biological damage done by the radiation",
+    "the mass of the radioactive isotope given"
+   ],
+   "hint": "The curie is defined by the number of disintegrations per second of a radioactive source.",
+   "explain": "One curie is 3.7×10<sup>10</sup> decays per second, so the curie measures <b>activity</b>, how many nuclei decay each second. Absorbed energy is measured in grays (or rads), and biological effect in sieverts (or rems)."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 320
+  }
+ },
+ {
+  "id": "finalexam-73f6fc62",
+  "skill": "finalexam.3a.nuclear",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-14",
+   "3A-review"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Iodine-131 is a beta emitter used to treat an overactive thyroid gland. Why does it destroy thyroid tissue while causing little damage to the rest of the body?",
+  "choices": [
+   "Iodine collects in the thyroid, and beta particles have a short range.",
+   "Beta particles pass through other tissues without being absorbed.",
+   "I-131 emits alpha particles that can travel only to the thyroid.",
+   "I-131 becomes radioactive only after the thyroid absorbs it."
+  ],
+  "answer": "Iodine collects in the thyroid, and beta particles have a short range.",
+  "hint": "Where in the body does iodine collect? How far do beta particles travel in tissue?",
+  "explain": "The thyroid takes up iodide to make its hormones, so I-131 collects there. Its beta particles travel only a few millimeters in tissue, so the dose is delivered mainly to the thyroid. Radioactive decay does not depend on location in the body.",
+  "html": {
+   "prompt": "Iodine-131 is a beta emitter used to treat an overactive thyroid gland. Why does it destroy thyroid tissue while causing little damage to the rest of the body?",
+   "choices": [
+    "Iodine collects in the thyroid, and beta particles have a short range.",
+    "Beta particles pass through other tissues without being absorbed.",
+    "I-131 emits alpha particles that can travel only to the thyroid.",
+    "I-131 becomes radioactive only after the thyroid absorbs it."
+   ],
+   "hint": "Where in the body does iodine collect? How far do beta particles travel in tissue?",
+   "explain": "The thyroid takes up iodide to make its hormones, so I-131 collects there. Its beta particles travel only a few millimeters in tissue, so <b>the dose is delivered mainly to the thyroid</b>. Radioactive decay does not depend on location in the body."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3A",
+   "index": 321
+  }
  }
 ]
