@@ -968,7 +968,7 @@
   }
  },
  {
-  "id": "ionicformula-6672fcb3",
+  "id": "ionicformula-4ddc1ba9",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -979,10 +979,13 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct name for this ionic compound?<br><strong>Ag<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub></strong>",
-  "answer": "silver dichromate",
+  "prompt": "What is the correct name for this ionic compound?<br><strong>CuIO<sub>3</sub></strong>",
+  "answer": "copper(I) iodate",
+  "accept": [
+   "copper (I) iodate"
+  ],
   "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
-  "explain": "<strong>silver dichromate</strong> = Ag<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>",
+  "explain": "<strong>copper(I) iodate</strong> = CuIO<sub>3</sub>",
   "origin": "original",
   "from": {
    "game": "ionicformula",
@@ -991,7 +994,7 @@
   }
  },
  {
-  "id": "ionicformula-e04babb1",
+  "id": "ionicformula-6b795c35",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1002,13 +1005,10 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct name for this ionic compound?<br><strong>Cu<sub>3</sub>(AsO<sub>4</sub>)<sub>2</sub></strong>",
-  "answer": "copper(II) arsenate",
-  "accept": [
-   "copper (II) arsenate"
-  ],
+  "prompt": "What is the correct name for this ionic compound?<br><strong>AgC<sub>2</sub>H<sub>3</sub>O<sub>2</sub></strong>",
+  "answer": "silver acetate",
   "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
-  "explain": "<strong>copper(II) arsenate</strong> = Cu<sub>3</sub>(AsO<sub>4</sub>)<sub>2</sub>",
+  "explain": "<strong>silver acetate</strong> = AgC<sub>2</sub>H<sub>3</sub>O<sub>2</sub>",
   "origin": "original",
   "from": {
    "game": "ionicformula",
@@ -1017,7 +1017,7 @@
   }
  },
  {
-  "id": "ionicformula-c28d9820",
+  "id": "ionicformula-23a5151e",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1028,10 +1028,14 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct name for this ionic compound?<br><strong>RbClO</strong>",
-  "answer": "rubidium hypochlorite",
+  "prompt": "What is the correct name for this ionic compound?<br><strong>CuH<sub>2</sub>PO<sub>4</sub></strong>",
+  "answer": "copper(I) dihydrogen phosphate",
+  "accept": [
+   "copper(I) dihydrogenphosphate",
+   "copper (I) dihydrogen phosphate"
+  ],
   "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
-  "explain": "<strong>rubidium hypochlorite</strong> = RbClO",
+  "explain": "<strong>copper(I) dihydrogenphosphate</strong> = CuH<sub>2</sub>PO<sub>4</sub>",
   "origin": "original",
   "from": {
    "game": "ionicformula",
@@ -1040,7 +1044,7 @@
   }
  },
  {
-  "id": "ionicformula-4232c6dd",
+  "id": "ionicformula-c2ee1760",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1051,12 +1055,11 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>ammonium iodide</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
-  "answer": "NH4I",
-  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
-  "explain": "<strong>ammonium iodide</strong> = NH<sub>4</sub>I",
+  "prompt": "What is the correct name for this ionic compound?<br><strong>KClO<sub>3</sub></strong>",
+  "answer": "potassium chlorate",
+  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
+  "explain": "<strong>potassium chlorate</strong> = KClO<sub>3</sub>",
   "origin": "original",
-  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:polyatomicionic",
@@ -1064,7 +1067,7 @@
   }
  },
  {
-  "id": "ionicformula-cffd3ade",
+  "id": "ionicformula-cee1ea7d",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1075,11 +1078,12 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct name for this ionic compound?<br><strong>ZnS<sub>2</sub>O<sub>3</sub></strong>",
-  "answer": "zinc thiosulfate",
-  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
-  "explain": "<strong>zinc thiosulfate</strong> = ZnS<sub>2</sub>O<sub>3</sub>",
+  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>ammonium sulfide</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
+  "answer": "(NH4)2S",
+  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
+  "explain": "<strong>ammonium sulfide</strong> = (NH<sub>4</sub>)<sub>2</sub>S",
   "origin": "original",
+  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:polyatomicionic",
@@ -1087,7 +1091,7 @@
   }
  },
  {
-  "id": "ionicformula-ea99b307",
+  "id": "ionicformula-1364e8d6",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1098,15 +1102,89 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct name for this ionic compound?<br><strong>ZnTeO<sub>4</sub></strong>",
-  "answer": "zinc tellurate",
-  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
-  "explain": "<strong>zinc tellurate</strong> = ZnTeO<sub>4</sub>",
+  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>silver thiosulfate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
+  "answer": "Ag2S2O3",
+  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
+  "explain": "<strong>silver thiosulfate</strong> = Ag<sub>2</sub>S<sub>2</sub>O<sub>3</sub>",
   "origin": "original",
+  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:polyatomicionic",
    "index": 5
+  }
+ },
+ {
+  "id": "ionicformula-531483aa",
+  "skill": "ionicformula.polyatomicionic",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct name for this ionic compound?<br><strong>Zn<sub>3</sub>(AsO<sub>4</sub>)<sub>2</sub></strong>",
+  "answer": "zinc arsenate",
+  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
+  "explain": "<strong>zinc arsenate</strong> = Zn<sub>3</sub>(AsO<sub>4</sub>)<sub>2</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:polyatomicionic",
+   "index": 6
+  }
+ },
+ {
+  "id": "ionicformula-f3fa4399",
+  "skill": "ionicformula.polyatomicionic",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct name for this ionic compound?<br><strong>Cr(IO<sub>3</sub>)<sub>3</sub></strong>",
+  "answer": "chromium(III) iodate",
+  "accept": [
+   "chromium (III) iodate"
+  ],
+  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
+  "explain": "<strong>chromium(III) iodate</strong> = Cr(IO<sub>3</sub>)<sub>3</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:polyatomicionic",
+   "index": 7
+  }
+ },
+ {
+  "id": "ionicformula-6995bb70",
+  "skill": "ionicformula.polyatomicionic",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>aluminum selenate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
+  "answer": "Al2(SeO4)3",
+  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
+  "explain": "<strong>aluminum selenate</strong> = Al<sub>2</sub>(SeO<sub>4</sub>)<sub>3</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:polyatomicionic",
+   "index": 8
   }
  },
  {
@@ -1129,11 +1207,11 @@
   "from": {
    "game": "ionicformula",
    "list": "sample:polyatomicionic",
-   "index": 6
+   "index": 9
   }
  },
  {
-  "id": "ionicformula-5f57cbdc",
+  "id": "ionicformula-04b33cbc",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1144,20 +1222,20 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>nickel(II) permanganate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
-  "answer": "Ni(MnO4)2",
+  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>nickel(II) dichromate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
+  "answer": "NiCr2O7",
   "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
-  "explain": "<strong>nickel(II) permanganate</strong> = Ni(MnO<sub>4</sub>)<sub>2</sub>",
+  "explain": "<strong>nickel(II) dichromate</strong> = NiCr<sub>2</sub>O<sub>7</sub>",
   "origin": "original",
   "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:polyatomicionic",
-   "index": 7
+   "index": 10
   }
  },
  {
-  "id": "ionicformula-e4902312",
+  "id": "ionicformula-8eaf4c9f",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1168,22 +1246,19 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct name for this ionic compound?<br><strong>CsH<sub>2</sub>PO<sub>4</sub></strong>",
-  "answer": "cesium dihydrogen phosphate",
-  "accept": [
-   "cesium dihydrogenphosphate"
-  ],
+  "prompt": "What is the correct name for this ionic compound?<br><strong>Cs<sub>2</sub>SO<sub>3</sub></strong>",
+  "answer": "cesium sulfite",
   "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
-  "explain": "<strong>cesium dihydrogenphosphate</strong> = CsH<sub>2</sub>PO<sub>4</sub>",
+  "explain": "<strong>cesium sulfite</strong> = Cs<sub>2</sub>SO<sub>3</sub>",
   "origin": "original",
   "from": {
    "game": "ionicformula",
    "list": "sample:polyatomicionic",
-   "index": 8
+   "index": 11
   }
  },
  {
-  "id": "ionicformula-8d204f90",
+  "id": "ionicformula-aad7f580",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1194,18 +1269,68 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct name for this ionic compound?<br><strong>CuSeO<sub>4</sub></strong>",
-  "answer": "copper(II) selenate",
+  "prompt": "What is the correct name for this ionic compound?<br><strong>CuCO<sub>3</sub></strong>",
+  "answer": "copper(II) carbonate",
   "accept": [
-   "copper (II) selenate"
+   "copper (II) carbonate"
   ],
   "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
-  "explain": "<strong>copper(II) selenate</strong> = CuSeO<sub>4</sub>",
+  "explain": "<strong>copper(II) carbonate</strong> = CuCO<sub>3</sub>",
   "origin": "original",
   "from": {
    "game": "ionicformula",
    "list": "sample:polyatomicionic",
-   "index": 9
+   "index": 12
+  }
+ },
+ {
+  "id": "ionicformula-bface066",
+  "skill": "ionicformula.polyatomicionic",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>nickel(II) dihydrogenphosphate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
+  "answer": "Ni(H2PO4)2",
+  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
+  "explain": "<strong>nickel(II) dihydrogenphosphate</strong> = Ni(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:polyatomicionic",
+   "index": 13
+  }
+ },
+ {
+  "id": "ionicformula-1d1c2bec",
+  "skill": "ionicformula.polyatomicionic",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct name for this ionic compound?<br><strong>Cu(BrO<sub>3</sub>)<sub>2</sub></strong>",
+  "answer": "copper(II) bromate",
+  "accept": [
+   "copper (II) bromate"
+  ],
+  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
+  "explain": "<strong>copper(II) bromate</strong> = Cu(BrO<sub>3</sub>)<sub>2</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:polyatomicionic",
+   "index": 14
   }
  },
  {
@@ -1229,129 +1354,11 @@
   "from": {
    "game": "ionicformula",
    "list": "sample:polyatomicionic",
-   "index": 10
-  }
- },
- {
-  "id": "ionicformula-62364b1f",
-  "skill": "ionicformula.polyatomicionic",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct name for this ionic compound?<br><strong>CsClO<sub>4</sub></strong>",
-  "answer": "cesium perchlorate",
-  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
-  "explain": "<strong>cesium perchlorate</strong> = CsClO<sub>4</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:polyatomicionic",
-   "index": 11
-  }
- },
- {
-  "id": "ionicformula-6c753439",
-  "skill": "ionicformula.polyatomicionic",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>copper(II) permanganate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
-  "answer": "Cu(MnO4)2",
-  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
-  "explain": "<strong>copper(II) permanganate</strong> = Cu(MnO<sub>4</sub>)<sub>2</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:polyatomicionic",
-   "index": 12
-  }
- },
- {
-  "id": "ionicformula-ad2c02bc",
-  "skill": "ionicformula.polyatomicionic",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>barium tellurate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
-  "answer": "BaTeO4",
-  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
-  "explain": "<strong>barium tellurate</strong> = BaTeO<sub>4</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:polyatomicionic",
-   "index": 13
-  }
- },
- {
-  "id": "ionicformula-d5ccaf2e",
-  "skill": "ionicformula.polyatomicionic",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct name for this ionic compound?<br><strong>LiIO<sub>3</sub></strong>",
-  "answer": "lithium iodate",
-  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
-  "explain": "<strong>lithium iodate</strong> = LiIO<sub>3</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:polyatomicionic",
-   "index": 14
-  }
- },
- {
-  "id": "ionicformula-8f278cf3",
-  "skill": "ionicformula.polyatomicionic",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>magnesium arsenate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
-  "answer": "Mg3(AsO4)2",
-  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
-  "explain": "<strong>magnesium arsenate</strong> = Mg<sub>3</sub>(AsO<sub>4</sub>)<sub>2</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:polyatomicionic",
    "index": 15
   }
  },
  {
-  "id": "ionicformula-4b2322d7",
+  "id": "ionicformula-6d08bb39",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1362,16 +1369,207 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>silver nitrate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
-  "answer": "AgNO3",
+  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>copper(II) dichromate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
+  "answer": "CuCr2O7",
   "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
-  "explain": "<strong>silver nitrate</strong> = AgNO<sub>3</sub>",
+  "explain": "<strong>copper(II) dichromate</strong> = CuCr<sub>2</sub>O<sub>7</sub>",
   "origin": "original",
   "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:polyatomicionic",
    "index": 16
+  }
+ },
+ {
+  "id": "ionicformula-4c0962b2",
+  "skill": "ionicformula.polyatomicionic",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct name for this ionic compound?<br><strong>K<sub>2</sub>CO<sub>3</sub></strong>",
+  "answer": "potassium carbonate",
+  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
+  "explain": "<strong>potassium carbonate</strong> = K<sub>2</sub>CO<sub>3</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:polyatomicionic",
+   "index": 17
+  }
+ },
+ {
+  "id": "ionicformula-23bec01f",
+  "skill": "ionicformula.polyatomicionic",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct name for this ionic compound?<br><strong>CrPO<sub>4</sub></strong>",
+  "answer": "chromium(III) phosphate",
+  "accept": [
+   "chromium (III) phosphate"
+  ],
+  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
+  "explain": "<strong>chromium(III) phosphate</strong> = CrPO<sub>4</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:polyatomicionic",
+   "index": 18
+  }
+ },
+ {
+  "id": "ionicformula-9724708f",
+  "skill": "ionicformula.polyatomicionic",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>sodium bromate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
+  "answer": "NaBrO3",
+  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
+  "explain": "<strong>sodium bromate</strong> = NaBrO<sub>3</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:polyatomicionic",
+   "index": 19
+  }
+ },
+ {
+  "id": "ionicformula-d8e94980",
+  "skill": "ionicformula.polyatomicionic",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct name for this ionic compound?<br><strong>Ba(OH)<sub>2</sub></strong>",
+  "answer": "barium hydroxide",
+  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
+  "explain": "<strong>barium hydroxide</strong> = Ba(OH)<sub>2</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:polyatomicionic",
+   "index": 20
+  }
+ },
+ {
+  "id": "ionicformula-b21f7e15",
+  "skill": "ionicformula.polyatomicionic",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>iron(II) tellurate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
+  "answer": "FeTeO4",
+  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
+  "explain": "<strong>iron(II) tellurate</strong> = FeTeO<sub>4</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:polyatomicionic",
+   "index": 21
+  }
+ },
+ {
+  "id": "ionicformula-2dbd1b82",
+  "skill": "ionicformula.polyatomicionic",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>cobalt(II) thiosulfate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
+  "answer": "CoS2O3",
+  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
+  "explain": "<strong>cobalt(II) thiosulfate</strong> = CoS<sub>2</sub>O<sub>3</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:polyatomicionic",
+   "index": 22
+  }
+ },
+ {
+  "id": "ionicformula-7a156592",
+  "skill": "ionicformula.polyatomicionic",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>silver hydrogenphosphate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
+  "answer": "Ag2HPO4",
+  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
+  "explain": "<strong>silver hydrogenphosphate</strong> = Ag<sub>2</sub>HPO<sub>4</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:polyatomicionic",
+   "index": 23
+  }
+ },
+ {
+  "id": "ionicformula-5c097a14",
+  "skill": "ionicformula.polyatomicionic",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct name for this ionic compound?<br><strong>MgSO<sub>4</sub></strong>",
+  "answer": "magnesium sulfate",
+  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
+  "explain": "<strong>magnesium sulfate</strong> = MgSO<sub>4</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:polyatomicionic",
+   "index": 24
   }
  },
  {
@@ -1394,204 +1592,11 @@
   "from": {
    "game": "ionicformula",
    "list": "sample:polyatomicionic",
-   "index": 17
-  }
- },
- {
-  "id": "ionicformula-8c52c999",
-  "skill": "ionicformula.polyatomicionic",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct name for this ionic compound?<br><strong>Na<sub>2</sub>CrO<sub>4</sub></strong>",
-  "answer": "sodium chromate",
-  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
-  "explain": "<strong>sodium chromate</strong> = Na<sub>2</sub>CrO<sub>4</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:polyatomicionic",
-   "index": 18
-  }
- },
- {
-  "id": "ionicformula-af6ef529",
-  "skill": "ionicformula.polyatomicionic",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>iron(III) perchlorate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
-  "answer": "Fe(ClO4)3",
-  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
-  "explain": "<strong>iron(III) perchlorate</strong> = Fe(ClO<sub>4</sub>)<sub>3</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:polyatomicionic",
-   "index": 19
-  }
- },
- {
-  "id": "ionicformula-e92c2bbb",
-  "skill": "ionicformula.polyatomicionic",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct name for this ionic compound?<br><strong>Fe(NO<sub>3</sub>)<sub>3</sub></strong>",
-  "answer": "iron(III) nitrate",
-  "accept": [
-   "iron (III) nitrate"
-  ],
-  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
-  "explain": "<strong>iron(III) nitrate</strong> = Fe(NO<sub>3</sub>)<sub>3</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:polyatomicionic",
-   "index": 20
-  }
- },
- {
-  "id": "ionicformula-93c86c6e",
-  "skill": "ionicformula.polyatomicionic",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct name for this ionic compound?<br><strong>K<sub>2</sub>O<sub>2</sub></strong>",
-  "answer": "potassium peroxide",
-  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
-  "explain": "<strong>potassium peroxide</strong> = K<sub>2</sub>O<sub>2</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:polyatomicionic",
-   "index": 21
-  }
- },
- {
-  "id": "ionicformula-cbad8ff1",
-  "skill": "ionicformula.polyatomicionic",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>cobalt(II) iodate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
-  "answer": "Co(IO3)2",
-  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
-  "explain": "<strong>cobalt(II) iodate</strong> = Co(IO<sub>3</sub>)<sub>2</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:polyatomicionic",
-   "index": 22
-  }
- },
- {
-  "id": "ionicformula-9c9e0893",
-  "skill": "ionicformula.polyatomicionic",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct name for this ionic compound?<br><strong>Cr<sub>2</sub>(CO<sub>3</sub>)<sub>3</sub></strong>",
-  "answer": "chromium(III) carbonate",
-  "accept": [
-   "chromium (III) carbonate"
-  ],
-  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
-  "explain": "<strong>chromium(III) carbonate</strong> = Cr<sub>2</sub>(CO<sub>3</sub>)<sub>3</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:polyatomicionic",
-   "index": 23
-  }
- },
- {
-  "id": "ionicformula-54f4e762",
-  "skill": "ionicformula.polyatomicionic",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>cesium borate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
-  "answer": "Cs3BO3",
-  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
-  "explain": "<strong>cesium borate</strong> = Cs<sub>3</sub>BO<sub>3</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:polyatomicionic",
-   "index": 24
-  }
- },
- {
-  "id": "ionicformula-ab18125b",
-  "skill": "ionicformula.polyatomicionic",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct name for this ionic compound?<br><strong>Zn(CN)<sub>2</sub></strong>",
-  "answer": "zinc cyanide",
-  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
-  "explain": "<strong>zinc cyanide</strong> = Zn(CN)<sub>2</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:polyatomicionic",
    "index": 25
   }
  },
  {
-  "id": "ionicformula-95980492",
+  "id": "ionicformula-78a9d1de",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1602,12 +1607,14 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>iron(II) peroxide</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
-  "answer": "FeO2",
-  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
-  "explain": "<strong>iron(II) peroxide</strong> = FeO<sub>2</sub>",
+  "prompt": "What is the correct name for this ionic compound?<br><strong>Sn(IO<sub>3</sub>)<sub>4</sub></strong>",
+  "answer": "tin(IV) iodate",
+  "accept": [
+   "tin (IV) iodate"
+  ],
+  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
+  "explain": "<strong>tin(IV) iodate</strong> = Sn(IO<sub>3</sub>)<sub>4</sub>",
   "origin": "original",
-  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:polyatomicionic",
@@ -1615,7 +1622,7 @@
   }
  },
  {
-  "id": "ionicformula-2f76c804",
+  "id": "ionicformula-8e2563a7",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1626,13 +1633,10 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct name for this ionic compound?<br><strong>LiH<sub>2</sub>PO<sub>4</sub></strong>",
-  "answer": "lithium dihydrogen phosphate",
-  "accept": [
-   "lithium dihydrogenphosphate"
-  ],
+  "prompt": "What is the correct name for this ionic compound?<br><strong>Na<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub></strong>",
+  "answer": "sodium dichromate",
   "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
-  "explain": "<strong>lithium dihydrogenphosphate</strong> = LiH<sub>2</sub>PO<sub>4</sub>",
+  "explain": "<strong>sodium dichromate</strong> = Na<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>",
   "origin": "original",
   "from": {
    "game": "ionicformula",
@@ -1641,7 +1645,7 @@
   }
  },
  {
-  "id": "ionicformula-bde29284",
+  "id": "ionicformula-569adaef",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1652,16 +1656,63 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>calcium oxalate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
-  "answer": "CaC2O4",
+  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>aluminum bromate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
+  "answer": "Al(BrO3)3",
   "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
-  "explain": "<strong>calcium oxalate</strong> = CaC<sub>2</sub>O<sub>4</sub>",
+  "explain": "<strong>aluminum bromate</strong> = Al(BrO<sub>3</sub>)<sub>3</sub>",
   "origin": "original",
   "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:polyatomicionic",
    "index": 28
+  }
+ },
+ {
+  "id": "ionicformula-2dcb8ab9",
+  "skill": "ionicformula.polyatomicionic",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct name for this ionic compound?<br><strong>AgOH</strong>",
+  "answer": "silver hydroxide",
+  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
+  "explain": "<strong>silver hydroxide</strong> = AgOH",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:polyatomicionic",
+   "index": 29
+  }
+ },
+ {
+  "id": "ionicformula-b4108302",
+  "skill": "ionicformula.polyatomicionic",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>magnesium hydroxide</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
+  "answer": "Mg(OH)2",
+  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
+  "explain": "<strong>magnesium hydroxide</strong> = Mg(OH)<sub>2</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:polyatomicionic",
+   "index": 30
   }
  },
  {
@@ -1680,7 +1731,6 @@
   "answer": "iron(III) hydrogen phosphate",
   "accept": [
    "iron(III) hydrogenphosphate",
-   "iron (III) hydrogenphosphate",
    "iron (III) hydrogen phosphate"
   ],
   "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
@@ -1689,62 +1739,11 @@
   "from": {
    "game": "ionicformula",
    "list": "sample:polyatomicionic",
-   "index": 29
-  }
- },
- {
-  "id": "ionicformula-87a90180",
-  "skill": "ionicformula.polyatomicionic",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>tin(IV) carbonate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
-  "answer": "Sn(CO3)2",
-  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
-  "explain": "<strong>tin(IV) carbonate</strong> = Sn(CO<sub>3</sub>)<sub>2</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:polyatomicionic",
-   "index": 30
-  }
- },
- {
-  "id": "ionicformula-b78b4fd3",
-  "skill": "ionicformula.polyatomicionic",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>rubidium acetate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
-  "answer": "RbC2H3O2",
-  "accept": [
-   "RbCH3COO"
-  ],
-  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
-  "explain": "<strong>rubidium acetate</strong> = RbC<sub>2</sub>H<sub>3</sub>O<sub>2</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:polyatomicionic",
    "index": 31
   }
  },
  {
-  "id": "ionicformula-a6911c28",
+  "id": "ionicformula-47dc3453",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1755,12 +1754,11 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>lithium dichromate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
-  "answer": "Li2Cr2O7",
-  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
-  "explain": "<strong>lithium dichromate</strong> = Li<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>",
+  "prompt": "What is the correct name for this ionic compound?<br><strong>KMnO<sub>4</sub></strong>",
+  "answer": "potassium permanganate",
+  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
+  "explain": "<strong>potassium permanganate</strong> = KMnO<sub>4</sub>",
   "origin": "original",
-  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:polyatomicionic",
@@ -1768,7 +1766,7 @@
   }
  },
  {
-  "id": "ionicformula-0b57da26",
+  "id": "ionicformula-44592049",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1779,10 +1777,13 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct name for this ionic compound?<br><strong>Ca(OH)<sub>2</sub></strong>",
-  "answer": "calcium hydroxide",
+  "prompt": "What is the correct name for this ionic compound?<br><strong>Fe(CN)<sub>2</sub></strong>",
+  "answer": "iron(II) cyanide",
+  "accept": [
+   "iron (II) cyanide"
+  ],
   "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
-  "explain": "<strong>calcium hydroxide</strong> = Ca(OH)<sub>2</sub>",
+  "explain": "<strong>iron(II) cyanide</strong> = Fe(CN)<sub>2</sub>",
   "origin": "original",
   "from": {
    "game": "ionicformula",
@@ -1791,7 +1792,7 @@
   }
  },
  {
-  "id": "ionicformula-786a856c",
+  "id": "ionicformula-59230688",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1802,12 +1803,11 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>barium perchlorate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
-  "answer": "Ba(ClO4)2",
-  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
-  "explain": "<strong>barium perchlorate</strong> = Ba(ClO<sub>4</sub>)<sub>2</sub>",
+  "prompt": "What is the correct name for this ionic compound?<br><strong>Zn(MnO<sub>4</sub>)<sub>2</sub></strong>",
+  "answer": "zinc permanganate",
+  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
+  "explain": "<strong>zinc permanganate</strong> = Zn(MnO<sub>4</sub>)<sub>2</sub>",
   "origin": "original",
-  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:polyatomicionic",
@@ -1815,7 +1815,7 @@
   }
  },
  {
-  "id": "ionicformula-35ede437",
+  "id": "ionicformula-cf2af309",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1826,11 +1826,12 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct name for this ionic compound?<br><strong>ZnCO<sub>3</sub></strong>",
-  "answer": "zinc carbonate",
-  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
-  "explain": "<strong>zinc carbonate</strong> = ZnCO<sub>3</sub>",
+  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>iron(II) chromate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
+  "answer": "FeCrO4",
+  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
+  "explain": "<strong>iron(II) chromate</strong> = FeCrO<sub>4</sub>",
   "origin": "original",
+  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:polyatomicionic",
@@ -1838,7 +1839,7 @@
   }
  },
  {
-  "id": "ionicformula-365d9c60",
+  "id": "ionicformula-c4890293",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1849,11 +1850,12 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct name for this ionic compound?<br><strong>NH<sub>4</sub>IO<sub>3</sub></strong>",
-  "answer": "ammonium iodate",
-  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
-  "explain": "<strong>ammonium iodate</strong> = NH<sub>4</sub>IO<sub>3</sub>",
+  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>magnesium perchlorate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
+  "answer": "Mg(ClO4)2",
+  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
+  "explain": "<strong>magnesium perchlorate</strong> = Mg(ClO<sub>4</sub>)<sub>2</sub>",
   "origin": "original",
+  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:polyatomicionic",
@@ -1861,7 +1863,7 @@
   }
  },
  {
-  "id": "ionicformula-bb442c98",
+  "id": "ionicformula-2b6bc292",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1872,10 +1874,13 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>potassium selenate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
-  "answer": "K2SeO4",
+  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>calcium acetate</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
+  "answer": "Ca(C2H3O2)2",
+  "accept": [
+   "Ca(CH3COO)2"
+  ],
   "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
-  "explain": "<strong>potassium selenate</strong> = K<sub>2</sub>SeO<sub>4</sub>",
+  "explain": "<strong>calcium acetate</strong> = Ca(C<sub>2</sub>H<sub>3</sub>O<sub>2</sub>)<sub>2</sub>",
   "origin": "original",
   "caseSensitive": true,
   "from": {
@@ -1885,7 +1890,7 @@
   }
  },
  {
-  "id": "ionicformula-7f675ce2",
+  "id": "ionicformula-7f364779",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1896,10 +1901,13 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct name for this ionic compound?<br><strong>Li<sub>2</sub>TeO<sub>4</sub></strong>",
-  "answer": "lithium tellurate",
+  "prompt": "What is the correct name for this ionic compound?<br><strong>Hg<sub>2</sub>TeO<sub>4</sub></strong>",
+  "answer": "mercury(I) tellurate",
+  "accept": [
+   "mercury (I) tellurate"
+  ],
   "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
-  "explain": "<strong>lithium tellurate</strong> = Li<sub>2</sub>TeO<sub>4</sub>",
+  "explain": "<strong>mercury(I) tellurate</strong> = Hg<sub>2</sub>TeO<sub>4</sub>",
   "origin": "original",
   "from": {
    "game": "ionicformula",
@@ -1908,7 +1916,7 @@
   }
  },
  {
-  "id": "ionicformula-b8f1abe0",
+  "id": "ionicformula-d95dc7a8",
   "skill": "ionicformula.polyatomicionic",
   "courses": [
    "3A",
@@ -1919,254 +1927,18 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the ionic compound named below?<br><strong>mercury(I) iodide</strong><br>Type the formula with plain numbers for subscripts, e.g. Ca(NO3)2.",
-  "answer": "Hg2I2",
-  "hint": "Identify each ion and its charge, then balance the charges in the lowest whole-number ratio. Use parentheses around a polyatomic ion when more than one copy is needed. Do not include ion charges in the final neutral formula.",
-  "explain": "<strong>mercury(I) iodide</strong> = Hg<sub>2</sub>I<sub>2</sub>",
+  "prompt": "What is the correct name for this ionic compound?<br><strong>Fe<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub></strong>",
+  "answer": "iron(III) sulfate",
+  "accept": [
+   "iron (III) sulfate"
+  ],
+  "hint": "Identify the cation and anion first. Green Sheet variants may use one prefix family at a time; hydrogen/dihydrogen may also combine with an -ite form. If the metal can form more than one charge, determine the Roman numeral from the formula.",
+  "explain": "<strong>iron(III) sulfate</strong> = Fe<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>",
   "origin": "original",
-  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:polyatomicionic",
    "index": 39
-  }
- },
- {
-  "id": "ionicformula-c13d0cde",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>hydrobromic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "HBr",
-  "hint": "Use the charge of the monatomic anion to determine how many H atoms are needed.",
-  "explain": "<strong>hydrobromic acid</strong> = HBr",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 0
-  }
- },
- {
-  "id": "ionicformula-e444506c",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>HBr</strong>",
-  "answer": "hydrobromic acid",
-  "hint": "For a binary acid, use hydro- + the nonmetal root + -ic acid.",
-  "explain": "<strong>hydrobromic acid</strong> = HBr",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 1
-  }
- },
- {
-  "id": "ionicformula-c366aae8",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>carbonic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "H2CO3",
-  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
-  "explain": "<strong>carbonic acid</strong> = H<sub>2</sub>CO<sub>3</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 2
-  }
- },
- {
-  "id": "ionicformula-2798c71d",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>chromic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "H2CrO4",
-  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
-  "explain": "<strong>chromic acid</strong> = H<sub>2</sub>CrO<sub>4</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 3
-  }
- },
- {
-  "id": "ionicformula-c7e4658b",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>sulfuric acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "H2SO4",
-  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
-  "explain": "<strong>sulfuric acid</strong> = H<sub>2</sub>SO<sub>4</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 4
-  }
- },
- {
-  "id": "ionicformula-4f21e395",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>sulfurous acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "H2SO3",
-  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
-  "explain": "<strong>sulfurous acid</strong> = H<sub>2</sub>SO<sub>3</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 5
-  }
- },
- {
-  "id": "ionicformula-ac674160",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>thiosulfuric acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "H2S2O3",
-  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
-  "explain": "<strong>thiosulfuric acid</strong> = H<sub>2</sub>S<sub>2</sub>O<sub>3</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 6
-  }
- },
- {
-  "id": "ionicformula-43d8c2b8",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>HF</strong>",
-  "answer": "hydrofluoric acid",
-  "hint": "For a binary acid, use hydro- + the nonmetal root + -ic acid.",
-  "explain": "<strong>hydrofluoric acid</strong> = HF",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 7
-  }
- },
- {
-  "id": "ionicformula-7a136c0a",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>permanganic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "HMnO4",
-  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
-  "explain": "<strong>permanganic acid</strong> = HMnO<sub>4</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 8
-  }
- },
- {
-  "id": "ionicformula-73760b6f",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>arsenic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "H3AsO4",
-  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
-  "explain": "<strong>arsenic acid</strong> = H<sub>3</sub>AsO<sub>4</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 9
   }
  },
  {
@@ -2190,11 +1962,11 @@
   "from": {
    "game": "ionicformula",
    "list": "sample:acids",
-   "index": 10
+   "index": 0
   }
  },
  {
-  "id": "ionicformula-1134e477",
+  "id": "ionicformula-c13d0cde",
   "skill": "ionicformula.acids",
   "courses": [
    "3A",
@@ -2205,11 +1977,249 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>HIO<sub>3</sub></strong>",
-  "answer": "iodic acid",
-  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
-  "explain": "<strong>iodic acid</strong> = HIO<sub>3</sub>",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>hydrobromic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "HBr",
+  "hint": "Use the charge of the monatomic anion to determine how many H atoms are needed.",
+  "explain": "<strong>hydrobromic acid</strong> = HBr",
   "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 1
+  }
+ },
+ {
+  "id": "ionicformula-e444506c",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct acid name for this formula?<br><strong>HBr</strong>",
+  "answer": "hydrobromic acid",
+  "hint": "For a binary acid, use hydro- + the nonmetal root + -ic acid.",
+  "explain": "<strong>hydrobromic acid</strong> = HBr",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 2
+  }
+ },
+ {
+  "id": "ionicformula-c366aae8",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>carbonic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "H2CO3",
+  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
+  "explain": "<strong>carbonic acid</strong> = H<sub>2</sub>CO<sub>3</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 3
+  }
+ },
+ {
+  "id": "ionicformula-85ae06a2",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>hydrochloric acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "HCl",
+  "hint": "Use the charge of the monatomic anion to determine how many H atoms are needed.",
+  "explain": "<strong>hydrochloric acid</strong> = HCl",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 4
+  }
+ },
+ {
+  "id": "ionicformula-2cd1dd54",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>2</sub>SiO<sub>3</sub></strong>",
+  "answer": "silicic acid",
+  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
+  "explain": "<strong>silicic acid</strong> = H<sub>2</sub>SiO<sub>3</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 5
+  }
+ },
+ {
+  "id": "ionicformula-2798c71d",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>chromic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "H2CrO4",
+  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
+  "explain": "<strong>chromic acid</strong> = H<sub>2</sub>CrO<sub>4</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 6
+  }
+ },
+ {
+  "id": "ionicformula-c95f7731",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct acid name for this formula?<br><strong>HCl</strong>",
+  "answer": "hydrochloric acid",
+  "hint": "For a binary acid, use hydro- + the nonmetal root + -ic acid.",
+  "explain": "<strong>hydrochloric acid</strong> = HCl",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 7
+  }
+ },
+ {
+  "id": "ionicformula-4f21e395",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>sulfurous acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "H2SO3",
+  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
+  "explain": "<strong>sulfurous acid</strong> = H<sub>2</sub>SO<sub>3</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 8
+  }
+ },
+ {
+  "id": "ionicformula-a150c1c9",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>chloric acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "HClO3",
+  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
+  "explain": "<strong>chloric acid</strong> = HClO<sub>3</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 9
+  }
+ },
+ {
+  "id": "ionicformula-a5763cec",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>bromic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "HBrO3",
+  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
+  "explain": "<strong>bromic acid</strong> = HBrO<sub>3</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 10
+  }
+ },
+ {
+  "id": "ionicformula-ac674160",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>thiosulfuric acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "H2S2O3",
+  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
+  "explain": "<strong>thiosulfuric acid</strong> = H<sub>2</sub>S<sub>2</sub>O<sub>3</sub>",
+  "origin": "original",
+  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:acids",
@@ -2217,7 +2227,7 @@
   }
  },
  {
-  "id": "ionicformula-f6290b1f",
+  "id": "ionicformula-79121593",
   "skill": "ionicformula.acids",
   "courses": [
    "3A",
@@ -2228,12 +2238,11 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>hydrosulfuric acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "H2S",
-  "hint": "Use the charge of the monatomic anion to determine how many H atoms are needed.",
-  "explain": "<strong>hydrosulfuric acid</strong> = H<sub>2</sub>S",
+  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>2</sub>SeO<sub>4</sub></strong>",
+  "answer": "selenic acid",
+  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
+  "explain": "<strong>selenic acid</strong> = H<sub>2</sub>SeO<sub>4</sub>",
   "origin": "original",
-  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:acids",
@@ -2241,7 +2250,7 @@
   }
  },
  {
-  "id": "ionicformula-053b5612",
+  "id": "ionicformula-43d8c2b8",
   "skill": "ionicformula.acids",
   "courses": [
    "3A",
@@ -2252,10 +2261,10 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>2</sub>S<sub>2</sub>O<sub>3</sub></strong>",
-  "answer": "thiosulfuric acid",
-  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
-  "explain": "<strong>thiosulfuric acid</strong> = H<sub>2</sub>S<sub>2</sub>O<sub>3</sub>",
+  "prompt": "What is the correct acid name for this formula?<br><strong>HF</strong>",
+  "answer": "hydrofluoric acid",
+  "hint": "For a binary acid, use hydro- + the nonmetal root + -ic acid.",
+  "explain": "<strong>hydrofluoric acid</strong> = HF",
   "origin": "original",
   "from": {
    "game": "ionicformula",
@@ -2264,7 +2273,7 @@
   }
  },
  {
-  "id": "ionicformula-d58dbd1a",
+  "id": "ionicformula-7a136c0a",
   "skill": "ionicformula.acids",
   "courses": [
    "3A",
@@ -2275,11 +2284,12 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>2</sub>SO<sub>4</sub></strong>",
-  "answer": "sulfuric acid",
-  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
-  "explain": "<strong>sulfuric acid</strong> = H<sub>2</sub>SO<sub>4</sub>",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>permanganic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "HMnO4",
+  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
+  "explain": "<strong>permanganic acid</strong> = HMnO<sub>4</sub>",
   "origin": "original",
+  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:acids",
@@ -2287,7 +2297,7 @@
   }
  },
  {
-  "id": "ionicformula-10dff773",
+  "id": "ionicformula-73760b6f",
   "skill": "ionicformula.acids",
   "courses": [
    "3A",
@@ -2298,11 +2308,12 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>2</sub>SO<sub>3</sub></strong>",
-  "answer": "sulfurous acid",
-  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
-  "explain": "<strong>sulfurous acid</strong> = H<sub>2</sub>SO<sub>3</sub>",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>arsenic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "H3AsO4",
+  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
+  "explain": "<strong>arsenic acid</strong> = H<sub>3</sub>AsO<sub>4</sub>",
   "origin": "original",
+  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:acids",
@@ -2334,7 +2345,7 @@
   }
  },
  {
-  "id": "ionicformula-a1742c90",
+  "id": "ionicformula-1134e477",
   "skill": "ionicformula.acids",
   "courses": [
    "3A",
@@ -2345,12 +2356,11 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>dichromic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "H2Cr2O7",
-  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
-  "explain": "<strong>dichromic acid</strong> = H<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>",
+  "prompt": "What is the correct acid name for this formula?<br><strong>HIO<sub>3</sub></strong>",
+  "answer": "iodic acid",
+  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
+  "explain": "<strong>iodic acid</strong> = HIO<sub>3</sub>",
   "origin": "original",
-  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:acids",
@@ -2358,7 +2368,7 @@
   }
  },
  {
-  "id": "ionicformula-85ae06a2",
+  "id": "ionicformula-1892e122",
   "skill": "ionicformula.acids",
   "courses": [
    "3A",
@@ -2369,12 +2379,11 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>hydrochloric acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "HCl",
-  "hint": "Use the charge of the monatomic anion to determine how many H atoms are needed.",
-  "explain": "<strong>hydrochloric acid</strong> = HCl",
+  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>3</sub>PO<sub>4</sub></strong>",
+  "answer": "phosphoric acid",
+  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
+  "explain": "<strong>phosphoric acid</strong> = H<sub>3</sub>PO<sub>4</sub>",
   "origin": "original",
-  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:acids",
@@ -2382,7 +2391,7 @@
   }
  },
  {
-  "id": "ionicformula-e503d1da",
+  "id": "ionicformula-30d32d21",
   "skill": "ionicformula.acids",
   "courses": [
    "3A",
@@ -2393,11 +2402,12 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>HMnO<sub>4</sub></strong>",
-  "answer": "permanganic acid",
-  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
-  "explain": "<strong>permanganic acid</strong> = HMnO<sub>4</sub>",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>hydroiodic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "HI",
+  "hint": "Use the charge of the monatomic anion to determine how many H atoms are needed.",
+  "explain": "<strong>hydroiodic acid</strong> = HI",
   "origin": "original",
+  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:acids",
@@ -2405,7 +2415,7 @@
   }
  },
  {
-  "id": "ionicformula-2cd1dd54",
+  "id": "ionicformula-053b5612",
   "skill": "ionicformula.acids",
   "courses": [
    "3A",
@@ -2416,10 +2426,10 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>2</sub>SiO<sub>3</sub></strong>",
-  "answer": "silicic acid",
+  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>2</sub>S<sub>2</sub>O<sub>3</sub></strong>",
+  "answer": "thiosulfuric acid",
   "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
-  "explain": "<strong>silicic acid</strong> = H<sub>2</sub>SiO<sub>3</sub>",
+  "explain": "<strong>thiosulfuric acid</strong> = H<sub>2</sub>S<sub>2</sub>O<sub>3</sub>",
   "origin": "original",
   "from": {
    "game": "ionicformula",
@@ -2428,7 +2438,7 @@
   }
  },
  {
-  "id": "ionicformula-e8f0edfd",
+  "id": "ionicformula-10dff773",
   "skill": "ionicformula.acids",
   "courses": [
    "3A",
@@ -2439,10 +2449,10 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>HClO<sub>4</sub></strong>",
-  "answer": "perchloric acid",
+  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>2</sub>SO<sub>3</sub></strong>",
+  "answer": "sulfurous acid",
   "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
-  "explain": "<strong>perchloric acid</strong> = HClO<sub>4</sub>",
+  "explain": "<strong>sulfurous acid</strong> = H<sub>2</sub>SO<sub>3</sub>",
   "origin": "original",
   "from": {
    "game": "ionicformula",
@@ -2474,7 +2484,7 @@
   }
  },
  {
-  "id": "ionicformula-0a8144b4",
+  "id": "ionicformula-fe26b2b2",
   "skill": "ionicformula.acids",
   "courses": [
    "3A",
@@ -2485,11 +2495,12 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>2</sub>S</strong>",
-  "answer": "hydrosulfuric acid",
-  "hint": "For a binary acid, use hydro- + the nonmetal root + -ic acid.",
-  "explain": "<strong>hydrosulfuric acid</strong> = H<sub>2</sub>S",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>iodic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "HIO3",
+  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
+  "explain": "<strong>iodic acid</strong> = HIO<sub>3</sub>",
   "origin": "original",
+  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:acids",
@@ -2497,7 +2508,7 @@
   }
  },
  {
-  "id": "ionicformula-3d78dbc6",
+  "id": "ionicformula-a1742c90",
   "skill": "ionicformula.acids",
   "courses": [
    "3A",
@@ -2508,11 +2519,12 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>HNO<sub>3</sub></strong>",
-  "answer": "nitric acid",
-  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
-  "explain": "<strong>nitric acid</strong> = HNO<sub>3</sub>",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>dichromic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "H2Cr2O7",
+  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
+  "explain": "<strong>dichromic acid</strong> = H<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>",
   "origin": "original",
+  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:acids",
@@ -2520,7 +2532,7 @@
   }
  },
  {
-  "id": "ionicformula-4a738424",
+  "id": "ionicformula-29d4e2c9",
   "skill": "ionicformula.acids",
   "courses": [
    "3A",
@@ -2531,12 +2543,11 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>chlorous acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "HClO2",
-  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
-  "explain": "<strong>chlorous acid</strong> = HClO<sub>2</sub>",
+  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>2</sub>CrO<sub>4</sub></strong>",
+  "answer": "chromic acid",
+  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
+  "explain": "<strong>chromic acid</strong> = H<sub>2</sub>CrO<sub>4</sub>",
   "origin": "original",
-  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:acids",
@@ -2544,7 +2555,7 @@
   }
  },
  {
-  "id": "ionicformula-a5763cec",
+  "id": "ionicformula-404fe5c7",
   "skill": "ionicformula.acids",
   "courses": [
    "3A",
@@ -2555,86 +2566,15 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>bromic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "HBrO3",
-  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
-  "explain": "<strong>bromic acid</strong> = HBrO<sub>3</sub>",
+  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>3</sub>BO<sub>3</sub></strong>",
+  "answer": "boric acid",
+  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
+  "explain": "<strong>boric acid</strong> = H<sub>3</sub>BO<sub>3</sub>",
   "origin": "original",
-  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:acids",
    "index": 26
-  }
- },
- {
-  "id": "ionicformula-1892e122",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>3</sub>PO<sub>4</sub></strong>",
-  "answer": "phosphoric acid",
-  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
-  "explain": "<strong>phosphoric acid</strong> = H<sub>3</sub>PO<sub>4</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 27
-  }
- },
- {
-  "id": "ionicformula-91dca78f",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>perchloric acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "HClO4",
-  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
-  "explain": "<strong>perchloric acid</strong> = HClO<sub>4</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 28
-  }
- },
- {
-  "id": "ionicformula-86bec6eb",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>HBrO<sub>3</sub></strong>",
-  "answer": "bromic acid",
-  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
-  "explain": "<strong>bromic acid</strong> = HBrO<sub>3</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 29
   }
  },
  {
@@ -2658,11 +2598,11 @@
   "from": {
    "game": "ionicformula",
    "list": "sample:acids",
-   "index": 30
+   "index": 27
   }
  },
  {
-  "id": "ionicformula-404fe5c7",
+  "id": "ionicformula-a8b26267",
   "skill": "ionicformula.acids",
   "courses": [
    "3A",
@@ -2673,226 +2613,15 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>3</sub>BO<sub>3</sub></strong>",
-  "answer": "boric acid",
+  "prompt": "What is the correct acid name for this formula?<br><strong>HClO</strong>",
+  "answer": "hypochlorous acid",
   "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
-  "explain": "<strong>boric acid</strong> = H<sub>3</sub>BO<sub>3</sub>",
+  "explain": "<strong>hypochlorous acid</strong> = HClO",
   "origin": "original",
   "from": {
    "game": "ionicformula",
    "list": "sample:acids",
-   "index": 31
-  }
- },
- {
-  "id": "ionicformula-6d3345fe",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub></strong>",
-  "answer": "dichromic acid",
-  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
-  "explain": "<strong>dichromic acid</strong> = H<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 32
-  }
- },
- {
-  "id": "ionicformula-d56dc8f5",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>3</sub>AsO<sub>4</sub></strong>",
-  "answer": "arsenic acid",
-  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
-  "explain": "<strong>arsenic acid</strong> = H<sub>3</sub>AsO<sub>4</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 33
-  }
- },
- {
-  "id": "ionicformula-29d4e2c9",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>2</sub>CrO<sub>4</sub></strong>",
-  "answer": "chromic acid",
-  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
-  "explain": "<strong>chromic acid</strong> = H<sub>2</sub>CrO<sub>4</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 34
-  }
- },
- {
-  "id": "ionicformula-fbdf57bb",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>2</sub>CO<sub>3</sub></strong>",
-  "answer": "carbonic acid",
-  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
-  "explain": "<strong>carbonic acid</strong> = H<sub>2</sub>CO<sub>3</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 35
-  }
- },
- {
-  "id": "ionicformula-d0498bad",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>selenic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "H2SeO4",
-  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
-  "explain": "<strong>selenic acid</strong> = H<sub>2</sub>SeO<sub>4</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 36
-  }
- },
- {
-  "id": "ionicformula-79121593",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>2</sub>SeO<sub>4</sub></strong>",
-  "answer": "selenic acid",
-  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
-  "explain": "<strong>selenic acid</strong> = H<sub>2</sub>SeO<sub>4</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 37
-  }
- },
- {
-  "id": "ionicformula-a150c1c9",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>chloric acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "HClO3",
-  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
-  "explain": "<strong>chloric acid</strong> = HClO<sub>3</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 38
-  }
- },
- {
-  "id": "ionicformula-29a67c71",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>hydrofluoric acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "HF",
-  "hint": "Use the charge of the monatomic anion to determine how many H atoms are needed.",
-  "explain": "<strong>hydrofluoric acid</strong> = HF",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 39
-  }
- },
- {
-  "id": "ionicformula-fe26b2b2",
-  "skill": "ionicformula.acids",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>iodic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "HIO3",
-  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
-  "explain": "<strong>iodic acid</strong> = HIO<sub>3</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:acids",
-   "index": 40
+   "index": 28
   }
  },
  {
@@ -2915,11 +2644,11 @@
   "from": {
    "game": "ionicformula",
    "list": "sample:acids",
-   "index": 41
+   "index": 29
   }
  },
  {
-  "id": "ionicformula-1d5367a5",
+  "id": "ionicformula-86bec6eb",
   "skill": "ionicformula.acids",
   "courses": [
    "3A",
@@ -2930,20 +2659,19 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>nitric acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "HNO3",
-  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
-  "explain": "<strong>nitric acid</strong> = HNO<sub>3</sub>",
+  "prompt": "What is the correct acid name for this formula?<br><strong>HBrO<sub>3</sub></strong>",
+  "answer": "bromic acid",
+  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
+  "explain": "<strong>bromic acid</strong> = HBrO<sub>3</sub>",
   "origin": "original",
-  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:acids",
-   "index": 42
+   "index": 30
   }
  },
  {
-  "id": "ionicformula-c95f7731",
+  "id": "ionicformula-0a8144b4",
   "skill": "ionicformula.acids",
   "courses": [
    "3A",
@@ -2954,15 +2682,15 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>HCl</strong>",
-  "answer": "hydrochloric acid",
+  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>2</sub>S</strong>",
+  "answer": "hydrosulfuric acid",
   "hint": "For a binary acid, use hydro- + the nonmetal root + -ic acid.",
-  "explain": "<strong>hydrochloric acid</strong> = HCl",
+  "explain": "<strong>hydrosulfuric acid</strong> = H<sub>2</sub>S",
   "origin": "original",
   "from": {
    "game": "ionicformula",
    "list": "sample:acids",
-   "index": 43
+   "index": 31
   }
  },
  {
@@ -2985,7 +2713,100 @@
   "from": {
    "game": "ionicformula",
    "list": "sample:acids",
-   "index": 44
+   "index": 32
+  }
+ },
+ {
+  "id": "ionicformula-e8f0edfd",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct acid name for this formula?<br><strong>HClO<sub>4</sub></strong>",
+  "answer": "perchloric acid",
+  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
+  "explain": "<strong>perchloric acid</strong> = HClO<sub>4</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 33
+  }
+ },
+ {
+  "id": "ionicformula-6d3345fe",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub></strong>",
+  "answer": "dichromic acid",
+  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
+  "explain": "<strong>dichromic acid</strong> = H<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 34
+  }
+ },
+ {
+  "id": "ionicformula-91dca78f",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>perchloric acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "HClO4",
+  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
+  "explain": "<strong>perchloric acid</strong> = HClO<sub>4</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 35
+  }
+ },
+ {
+  "id": "ionicformula-3d78dbc6",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct acid name for this formula?<br><strong>HNO<sub>3</sub></strong>",
+  "answer": "nitric acid",
+  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
+  "explain": "<strong>nitric acid</strong> = HNO<sub>3</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 36
   }
  },
  {
@@ -3009,11 +2830,11 @@
   "from": {
    "game": "ionicformula",
    "list": "sample:acids",
-   "index": 45
+   "index": 37
   }
  },
  {
-  "id": "ionicformula-30d32d21",
+  "id": "ionicformula-1d5367a5",
   "skill": "ionicformula.acids",
   "courses": [
    "3A",
@@ -3024,10 +2845,199 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the acid named below?<br><strong>hydroiodic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
-  "answer": "HI",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>nitric acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "HNO3",
+  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
+  "explain": "<strong>nitric acid</strong> = HNO<sub>3</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 38
+  }
+ },
+ {
+  "id": "ionicformula-4a738424",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>chlorous acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "HClO2",
+  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
+  "explain": "<strong>chlorous acid</strong> = HClO<sub>2</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 39
+  }
+ },
+ {
+  "id": "ionicformula-d56dc8f5",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>3</sub>AsO<sub>4</sub></strong>",
+  "answer": "arsenic acid",
+  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
+  "explain": "<strong>arsenic acid</strong> = H<sub>3</sub>AsO<sub>4</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 40
+  }
+ },
+ {
+  "id": "ionicformula-c7e4658b",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>sulfuric acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "H2SO4",
+  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
+  "explain": "<strong>sulfuric acid</strong> = H<sub>2</sub>SO<sub>4</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 41
+  }
+ },
+ {
+  "id": "ionicformula-d58dbd1a",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>2</sub>SO<sub>4</sub></strong>",
+  "answer": "sulfuric acid",
+  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
+  "explain": "<strong>sulfuric acid</strong> = H<sub>2</sub>SO<sub>4</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 42
+  }
+ },
+ {
+  "id": "ionicformula-e503d1da",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct acid name for this formula?<br><strong>HMnO<sub>4</sub></strong>",
+  "answer": "permanganic acid",
+  "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
+  "explain": "<strong>permanganic acid</strong> = HMnO<sub>4</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 43
+  }
+ },
+ {
+  "id": "ionicformula-29a67c71",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>hydrofluoric acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "HF",
   "hint": "Use the charge of the monatomic anion to determine how many H atoms are needed.",
-  "explain": "<strong>hydroiodic acid</strong> = HI",
+  "explain": "<strong>hydrofluoric acid</strong> = HF",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 44
+  }
+ },
+ {
+  "id": "ionicformula-d0498bad",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>selenic acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "H2SeO4",
+  "hint": "Convert the acid ending back to its oxyanion: -ic acid comes from -ate and -ous acid comes from -ite, then add enough H+ to neutralize the anion charge.",
+  "explain": "<strong>selenic acid</strong> = H<sub>2</sub>SeO<sub>4</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:acids",
+   "index": 45
+  }
+ },
+ {
+  "id": "ionicformula-f6290b1f",
+  "skill": "ionicformula.acids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the acid named below?<br><strong>hydrosulfuric acid</strong><br>Type the formula with plain numbers for subscripts, e.g. H2SO4.",
+  "answer": "H2S",
+  "hint": "Use the charge of the monatomic anion to determine how many H atoms are needed.",
+  "explain": "<strong>hydrosulfuric acid</strong> = H<sub>2</sub>S",
   "origin": "original",
   "caseSensitive": true,
   "from": {
@@ -3037,7 +3047,7 @@
   }
  },
  {
-  "id": "ionicformula-a8b26267",
+  "id": "ionicformula-fbdf57bb",
   "skill": "ionicformula.acids",
   "courses": [
    "3A",
@@ -3048,10 +3058,10 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct acid name for this formula?<br><strong>HClO</strong>",
-  "answer": "hypochlorous acid",
+  "prompt": "What is the correct acid name for this formula?<br><strong>H<sub>2</sub>CO<sub>3</sub></strong>",
+  "answer": "carbonic acid",
   "hint": "For an oxyacid, identify the oxyanion: -ate becomes -ic acid and -ite becomes -ous acid. Keep a single per- or hypo- prefix when present.",
-  "explain": "<strong>hypochlorous acid</strong> = HClO",
+  "explain": "<strong>carbonic acid</strong> = H<sub>2</sub>CO<sub>3</sub>",
   "origin": "original",
   "from": {
    "game": "ionicformula",
@@ -3084,6 +3094,147 @@
   }
  },
  {
+  "id": "ionicformula-0d5da347",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>tetraphosphorus trisulfide</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
+  "answer": "P4S3",
+  "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
+  "explain": "<strong>tetraphosphorus trisulfide</strong> = P<sub>4</sub>S<sub>3</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 1
+  }
+ },
+ {
+  "id": "ionicformula-fbced378",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>diboron trioxide</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
+  "answer": "B2O3",
+  "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
+  "explain": "<strong>diboron trioxide</strong> = B<sub>2</sub>O<sub>3</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 2
+  }
+ },
+ {
+  "id": "ionicformula-42646367",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>iodine monobromide</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
+  "answer": "IBr",
+  "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
+  "explain": "<strong>iodine monobromide</strong> = IBr",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 3
+  }
+ },
+ {
+  "id": "ionicformula-f165c654",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct molecular name for this formula?<br><strong>SiO<sub>2</sub></strong>",
+  "answer": "silicon dioxide",
+  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
+  "explain": "<strong>silicon dioxide</strong> = SiO<sub>2</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 4
+  }
+ },
+ {
+  "id": "ionicformula-f1286d26",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct molecular name for this formula?<br><strong>CF<sub>4</sub></strong>",
+  "answer": "carbon tetrafluoride",
+  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
+  "explain": "<strong>carbon tetrafluoride</strong> = CF<sub>4</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 5
+  }
+ },
+ {
+  "id": "ionicformula-b6b6a5cd",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct molecular name for this formula?<br><strong>PBr<sub>3</sub></strong>",
+  "answer": "phosphorus tribromide",
+  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
+  "explain": "<strong>phosphorus tribromide</strong> = PBr<sub>3</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 6
+  }
+ },
+ {
   "id": "ionicformula-36a898df",
   "skill": "ionicformula.covalent",
   "courses": [
@@ -3103,11 +3254,11 @@
   "from": {
    "game": "ionicformula",
    "list": "sample:covalent",
-   "index": 1
+   "index": 7
   }
  },
  {
-  "id": "ionicformula-78923710",
+  "id": "ionicformula-bb8ff6e2",
   "skill": "ionicformula.covalent",
   "courses": [
    "3A",
@@ -3118,16 +3269,248 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>boron tribromide</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
-  "answer": "BBr3",
+  "prompt": "What is the correct molecular name for this formula?<br><strong>CO</strong>",
+  "answer": "carbon monoxide",
+  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
+  "explain": "<strong>carbon monoxide</strong> = CO",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 8
+  }
+ },
+ {
+  "id": "ionicformula-cda30aa7",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>boron trichloride</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
+  "answer": "BCl3",
   "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
-  "explain": "<strong>boron tribromide</strong> = BBr<sub>3</sub>",
+  "explain": "<strong>boron trichloride</strong> = BCl<sub>3</sub>",
   "origin": "original",
   "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:covalent",
-   "index": 2
+   "index": 9
+  }
+ },
+ {
+  "id": "ionicformula-90633441",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct molecular name for this formula?<br><strong>PCl<sub>3</sub></strong>",
+  "answer": "phosphorus trichloride",
+  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
+  "explain": "<strong>phosphorus trichloride</strong> = PCl<sub>3</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 10
+  }
+ },
+ {
+  "id": "ionicformula-a3ae2de0",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct molecular name for this formula?<br><strong>BrF<sub>5</sub></strong>",
+  "answer": "bromine pentafluoride",
+  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
+  "explain": "<strong>bromine pentafluoride</strong> = BrF<sub>5</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 11
+  }
+ },
+ {
+  "id": "ionicformula-c4ee0abe",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>tetraphosphorus hexoxide</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
+  "answer": "P4O6",
+  "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
+  "explain": "<strong>tetraphosphorus hexoxide</strong> = P<sub>4</sub>O<sub>6</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 12
+  }
+ },
+ {
+  "id": "ionicformula-72a45242",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>selenium tetrachloride</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
+  "answer": "SeCl4",
+  "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
+  "explain": "<strong>selenium tetrachloride</strong> = SeCl<sub>4</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 13
+  }
+ },
+ {
+  "id": "ionicformula-3cdb56f3",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct molecular name for this formula?<br><strong>IF<sub>7</sub></strong>",
+  "answer": "iodine heptafluoride",
+  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
+  "explain": "<strong>iodine heptafluoride</strong> = IF<sub>7</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 14
+  }
+ },
+ {
+  "id": "ionicformula-8ab35a64",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct molecular name for this formula?<br><strong>PCl<sub>5</sub></strong>",
+  "answer": "phosphorus pentachloride",
+  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
+  "explain": "<strong>phosphorus pentachloride</strong> = PCl<sub>5</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 15
+  }
+ },
+ {
+  "id": "ionicformula-9e8311ff",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct molecular name for this formula?<br><strong>CO<sub>2</sub></strong>",
+  "answer": "carbon dioxide",
+  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
+  "explain": "<strong>carbon dioxide</strong> = CO<sub>2</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 16
+  }
+ },
+ {
+  "id": "ionicformula-dd71e6bb",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct molecular name for this formula?<br><strong>ClO<sub>2</sub></strong>",
+  "answer": "chlorine dioxide",
+  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
+  "explain": "<strong>chlorine dioxide</strong> = ClO<sub>2</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 17
+  }
+ },
+ {
+  "id": "ionicformula-621c7db4",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct molecular name for this formula?<br><strong>SeF<sub>6</sub></strong>",
+  "answer": "selenium hexafluoride",
+  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
+  "explain": "<strong>selenium hexafluoride</strong> = SeF<sub>6</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 18
   }
  },
  {
@@ -3151,11 +3534,11 @@
   "from": {
    "game": "ionicformula",
    "list": "sample:covalent",
-   "index": 3
+   "index": 19
   }
  },
  {
-  "id": "ionicformula-a4fba58b",
+  "id": "ionicformula-9c1d2811",
   "skill": "ionicformula.covalent",
   "courses": [
    "3A",
@@ -3166,20 +3549,20 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>phosphorus pentachloride</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
-  "answer": "PCl5",
+  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>dinitrogen trioxide</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
+  "answer": "N2O3",
   "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
-  "explain": "<strong>phosphorus pentachloride</strong> = PCl<sub>5</sub>",
+  "explain": "<strong>dinitrogen trioxide</strong> = N<sub>2</sub>O<sub>3</sub>",
   "origin": "original",
   "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:covalent",
-   "index": 4
+   "index": 20
   }
  },
  {
-  "id": "ionicformula-8ab35a64",
+  "id": "ionicformula-e437bbfa",
   "skill": "ionicformula.covalent",
   "courses": [
    "3A",
@@ -3190,15 +3573,62 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct molecular name for this formula?<br><strong>PCl<sub>5</sub></strong>",
-  "answer": "phosphorus pentachloride",
+  "prompt": "What is the correct molecular name for this formula?<br><strong>BCl<sub>3</sub></strong>",
+  "answer": "boron trichloride",
   "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
-  "explain": "<strong>phosphorus pentachloride</strong> = PCl<sub>5</sub>",
+  "explain": "<strong>boron trichloride</strong> = BCl<sub>3</sub>",
   "origin": "original",
   "from": {
    "game": "ionicformula",
    "list": "sample:covalent",
-   "index": 5
+   "index": 21
+  }
+ },
+ {
+  "id": "ionicformula-f5eccbcf",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct molecular name for this formula?<br><strong>SF<sub>6</sub></strong>",
+  "answer": "sulfur hexafluoride",
+  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
+  "explain": "<strong>sulfur hexafluoride</strong> = SF<sub>6</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 22
+  }
+ },
+ {
+  "id": "ionicformula-da5ddb07",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>nitrogen trifluoride</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
+  "answer": "NF3",
+  "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
+  "explain": "<strong>nitrogen trifluoride</strong> = NF<sub>3</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 23
   }
  },
  {
@@ -3222,7 +3652,54 @@
   "from": {
    "game": "ionicformula",
    "list": "sample:covalent",
-   "index": 6
+   "index": 24
+  }
+ },
+ {
+  "id": "ionicformula-d0a17175",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>dinitrogen monoxide</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
+  "answer": "N2O",
+  "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
+  "explain": "<strong>dinitrogen monoxide</strong> = N<sub>2</sub>O",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 25
+  }
+ },
+ {
+  "id": "ionicformula-7bb6cabb",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct molecular name for this formula?<br><strong>SO<sub>2</sub></strong>",
+  "answer": "sulfur dioxide",
+  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
+  "explain": "<strong>sulfur dioxide</strong> = SO<sub>2</sub>",
+  "origin": "original",
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 26
   }
  },
  {
@@ -3245,11 +3722,11 @@
   "from": {
    "game": "ionicformula",
    "list": "sample:covalent",
-   "index": 7
+   "index": 27
   }
  },
  {
-  "id": "ionicformula-38479acd",
+  "id": "ionicformula-c5381029",
   "skill": "ionicformula.covalent",
   "courses": [
    "3A",
@@ -3260,39 +3737,15 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>phosphorus trichloride</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
-  "answer": "PCl3",
-  "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
-  "explain": "<strong>phosphorus trichloride</strong> = PCl<sub>3</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 8
-  }
- },
- {
-  "id": "ionicformula-f5eccbcf",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct molecular name for this formula?<br><strong>SF<sub>6</sub></strong>",
-  "answer": "sulfur hexafluoride",
+  "prompt": "What is the correct molecular name for this formula?<br><strong>I<sub>2</sub>O<sub>5</sub></strong>",
+  "answer": "diiodine pentoxide",
   "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
-  "explain": "<strong>sulfur hexafluoride</strong> = SF<sub>6</sub>",
+  "explain": "<strong>diiodine pentoxide</strong> = I<sub>2</sub>O<sub>5</sub>",
   "origin": "original",
   "from": {
    "game": "ionicformula",
    "list": "sample:covalent",
-   "index": 9
+   "index": 28
   }
  },
  {
@@ -3316,455 +3769,11 @@
   "from": {
    "game": "ionicformula",
    "list": "sample:covalent",
-   "index": 10
-  }
- },
- {
-  "id": "ionicformula-9e8311ff",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct molecular name for this formula?<br><strong>CO<sub>2</sub></strong>",
-  "answer": "carbon dioxide",
-  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
-  "explain": "<strong>carbon dioxide</strong> = CO<sub>2</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 11
-  }
- },
- {
-  "id": "ionicformula-90633441",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct molecular name for this formula?<br><strong>PCl<sub>3</sub></strong>",
-  "answer": "phosphorus trichloride",
-  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
-  "explain": "<strong>phosphorus trichloride</strong> = PCl<sub>3</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 12
-  }
- },
- {
-  "id": "ionicformula-bb8ff6e2",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct molecular name for this formula?<br><strong>CO</strong>",
-  "answer": "carbon monoxide",
-  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
-  "explain": "<strong>carbon monoxide</strong> = CO",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 13
-  }
- },
- {
-  "id": "ionicformula-f3f6d4ab",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>dinitrogen tetroxide</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
-  "answer": "N2O4",
-  "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
-  "explain": "<strong>dinitrogen tetroxide</strong> = N<sub>2</sub>O<sub>4</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 14
-  }
- },
- {
-  "id": "ionicformula-4b96ca8e",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>phosphorus trifluoride</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
-  "answer": "PF3",
-  "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
-  "explain": "<strong>phosphorus trifluoride</strong> = PF<sub>3</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 15
-  }
- },
- {
-  "id": "ionicformula-f1286d26",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct molecular name for this formula?<br><strong>CF<sub>4</sub></strong>",
-  "answer": "carbon tetrafluoride",
-  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
-  "explain": "<strong>carbon tetrafluoride</strong> = CF<sub>4</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 16
-  }
- },
- {
-  "id": "ionicformula-4a49f8f8",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct molecular name for this formula?<br><strong>S<sub>2</sub>Cl<sub>2</sub></strong>",
-  "answer": "disulfur dichloride",
-  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
-  "explain": "<strong>disulfur dichloride</strong> = S<sub>2</sub>Cl<sub>2</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 17
-  }
- },
- {
-  "id": "ionicformula-e54fcc6a",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct molecular name for this formula?<br><strong>SeO<sub>3</sub></strong>",
-  "answer": "selenium trioxide",
-  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
-  "explain": "<strong>selenium trioxide</strong> = SeO<sub>3</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 18
-  }
- },
- {
-  "id": "ionicformula-07dccc6a",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct molecular name for this formula?<br><strong>BrF</strong>",
-  "answer": "bromine monofluoride",
-  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
-  "explain": "<strong>bromine monofluoride</strong> = BrF",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 19
-  }
- },
- {
-  "id": "ionicformula-ae96384b",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>oxygen difluoride</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
-  "answer": "OF2",
-  "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
-  "explain": "<strong>oxygen difluoride</strong> = OF<sub>2</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 20
-  }
- },
- {
-  "id": "ionicformula-67782157",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>silicon tetraiodide</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
-  "answer": "SiI4",
-  "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
-  "explain": "<strong>silicon tetraiodide</strong> = SiI<sub>4</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 21
-  }
- },
- {
-  "id": "ionicformula-58b321b4",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct molecular name for this formula?<br><strong>PF<sub>3</sub></strong>",
-  "answer": "phosphorus trifluoride",
-  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
-  "explain": "<strong>phosphorus trifluoride</strong> = PF<sub>3</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 22
-  }
- },
- {
-  "id": "ionicformula-f91de45d",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct molecular name for this formula?<br><strong>SCl<sub>2</sub></strong>",
-  "answer": "sulfur dichloride",
-  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
-  "explain": "<strong>sulfur dichloride</strong> = SCl<sub>2</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 23
-  }
- },
- {
-  "id": "ionicformula-fb4f7c83",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>nitrogen dioxide</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
-  "answer": "NO2",
-  "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
-  "explain": "<strong>nitrogen dioxide</strong> = NO<sub>2</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 24
-  }
- },
- {
-  "id": "ionicformula-0cbb603e",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>carbon disulfide</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
-  "answer": "CS2",
-  "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
-  "explain": "<strong>carbon disulfide</strong> = CS<sub>2</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 25
-  }
- },
- {
-  "id": "ionicformula-3b61d222",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct molecular name for this formula?<br><strong>CCl<sub>4</sub></strong>",
-  "answer": "carbon tetrachloride",
-  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
-  "explain": "<strong>carbon tetrachloride</strong> = CCl<sub>4</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 26
-  }
- },
- {
-  "id": "ionicformula-18b5c595",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct molecular name for this formula?<br><strong>SF<sub>4</sub></strong>",
-  "answer": "sulfur tetrafluoride",
-  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
-  "explain": "<strong>sulfur tetrafluoride</strong> = SF<sub>4</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 27
-  }
- },
- {
-  "id": "ionicformula-545386d3",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>carbon tetraiodide</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
-  "answer": "CI4",
-  "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
-  "explain": "<strong>carbon tetraiodide</strong> = CI<sub>4</sub>",
-  "origin": "original",
-  "caseSensitive": true,
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 28
-  }
- },
- {
-  "id": "ionicformula-3b3b41ad",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct molecular name for this formula?<br><strong>SiBr<sub>4</sub></strong>",
-  "answer": "silicon tetrabromide",
-  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
-  "explain": "<strong>silicon tetrabromide</strong> = SiBr<sub>4</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
    "index": 29
   }
  },
  {
-  "id": "ionicformula-705743c4",
+  "id": "ionicformula-05be7c9d",
   "skill": "ionicformula.covalent",
   "courses": [
    "3A",
@@ -3775,11 +3784,12 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct molecular name for this formula?<br><strong>N<sub>2</sub>O</strong>",
-  "answer": "dinitrogen monoxide",
-  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
-  "explain": "<strong>dinitrogen monoxide</strong> = N<sub>2</sub>O",
+  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>iodine monochloride</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
+  "answer": "ICl",
+  "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
+  "explain": "<strong>iodine monochloride</strong> = ICl",
   "origin": "original",
+  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:covalent",
@@ -3787,7 +3797,7 @@
   }
  },
  {
-  "id": "ionicformula-b185f243",
+  "id": "ionicformula-a8cb1b59",
   "skill": "ionicformula.covalent",
   "courses": [
    "3A",
@@ -3798,10 +3808,10 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct molecular name for this formula?<br><strong>SO<sub>3</sub></strong>",
-  "answer": "sulfur trioxide",
+  "prompt": "What is the correct molecular name for this formula?<br><strong>IBr</strong>",
+  "answer": "iodine monobromide",
   "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
-  "explain": "<strong>sulfur trioxide</strong> = SO<sub>3</sub>",
+  "explain": "<strong>iodine monobromide</strong> = IBr",
   "origin": "original",
   "from": {
    "game": "ionicformula",
@@ -3810,7 +3820,7 @@
   }
  },
  {
-  "id": "ionicformula-7ce26168",
+  "id": "ionicformula-5da306ca",
   "skill": "ionicformula.covalent",
   "courses": [
    "3A",
@@ -3821,10 +3831,10 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>carbon tetrafluoride</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
-  "answer": "CF4",
+  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>tetraphosphorus decoxide</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
+  "answer": "P4O10",
   "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
-  "explain": "<strong>carbon tetrafluoride</strong> = CF<sub>4</sub>",
+  "explain": "<strong>tetraphosphorus decoxide</strong> = P<sub>4</sub>O<sub>10</sub>",
   "origin": "original",
   "caseSensitive": true,
   "from": {
@@ -3834,7 +3844,7 @@
   }
  },
  {
-  "id": "ionicformula-e815d15b",
+  "id": "ionicformula-3a1a9e41",
   "skill": "ionicformula.covalent",
   "courses": [
    "3A",
@@ -3845,12 +3855,11 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>iodine trichloride</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
-  "answer": "ICl3",
-  "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
-  "explain": "<strong>iodine trichloride</strong> = ICl<sub>3</sub>",
+  "prompt": "What is the correct molecular name for this formula?<br><strong>P<sub>4</sub>S<sub>3</sub></strong>",
+  "answer": "tetraphosphorus trisulfide",
+  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
+  "explain": "<strong>tetraphosphorus trisulfide</strong> = P<sub>4</sub>S<sub>3</sub>",
   "origin": "original",
-  "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:covalent",
@@ -3858,7 +3867,7 @@
   }
  },
  {
-  "id": "ionicformula-05abb342",
+  "id": "ionicformula-46fae7a9",
   "skill": "ionicformula.covalent",
   "courses": [
    "3A",
@@ -3869,10 +3878,10 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>boron trifluoride</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
-  "answer": "BF3",
+  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>carbon tetrachloride</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
+  "answer": "CCl4",
   "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
-  "explain": "<strong>boron trifluoride</strong> = BF<sub>3</sub>",
+  "explain": "<strong>carbon tetrachloride</strong> = CCl<sub>4</sub>",
   "origin": "original",
   "caseSensitive": true,
   "from": {
@@ -3882,7 +3891,7 @@
   }
  },
  {
-  "id": "ionicformula-24ba4dee",
+  "id": "ionicformula-168f2db5",
   "skill": "ionicformula.covalent",
   "courses": [
    "3A",
@@ -3893,62 +3902,16 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct molecular name for this formula?<br><strong>BrF<sub>3</sub></strong>",
-  "answer": "bromine trifluoride",
-  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
-  "explain": "<strong>bromine trifluoride</strong> = BrF<sub>3</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 35
-  }
- },
- {
-  "id": "ionicformula-7459c426",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct molecular name for this formula?<br><strong>BI<sub>3</sub></strong>",
-  "answer": "boron triiodide",
-  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
-  "explain": "<strong>boron triiodide</strong> = BI<sub>3</sub>",
-  "origin": "original",
-  "from": {
-   "game": "ionicformula",
-   "list": "sample:covalent",
-   "index": 36
-  }
- },
- {
-  "id": "ionicformula-8d4975e9",
-  "skill": "ionicformula.covalent",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-4",
-   "1A-2"
-  ],
-  "type": "text",
-  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>bromine pentafluoride</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
-  "answer": "BrF5",
+  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>phosphorus pentafluoride</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
+  "answer": "PF5",
   "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
-  "explain": "<strong>bromine pentafluoride</strong> = BrF<sub>5</sub>",
+  "explain": "<strong>phosphorus pentafluoride</strong> = PF<sub>5</sub>",
   "origin": "original",
   "caseSensitive": true,
   "from": {
    "game": "ionicformula",
    "list": "sample:covalent",
-   "index": 37
+   "index": 35
   }
  },
  {
@@ -3971,11 +3934,11 @@
   "from": {
    "game": "ionicformula",
    "list": "sample:covalent",
-   "index": 38
+   "index": 36
   }
  },
  {
-  "id": "ionicformula-c7b726e8",
+  "id": "ionicformula-b826e822",
   "skill": "ionicformula.covalent",
   "courses": [
    "3A",
@@ -3986,12 +3949,59 @@
    "1A-2"
   ],
   "type": "text",
-  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>trisilicon tetranitride</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
-  "answer": "Si3N4",
+  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>selenium trioxide</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
+  "answer": "SeO3",
   "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
-  "explain": "<strong>trisilicon tetranitride</strong> = Si<sub>3</sub>N<sub>4</sub>",
+  "explain": "<strong>selenium trioxide</strong> = SeO<sub>3</sub>",
   "origin": "original",
   "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 37
+  }
+ },
+ {
+  "id": "ionicformula-a4fba58b",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct formula for the covalent compound named below?<br><strong>phosphorus pentachloride</strong><br>Type the formula with plain numbers for subscripts, e.g. N2O4.",
+  "answer": "PCl5",
+  "hint": "Translate each numerical prefix directly into a subscript: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6, hepta = 7, octa = 8, nona = 9, deca = 10.",
+  "explain": "<strong>phosphorus pentachloride</strong> = PCl<sub>5</sub>",
+  "origin": "original",
+  "caseSensitive": true,
+  "from": {
+   "game": "ionicformula",
+   "list": "sample:covalent",
+   "index": 38
+  }
+ },
+ {
+  "id": "ionicformula-7a129185",
+  "skill": "ionicformula.covalent",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-4",
+   "1A-2"
+  ],
+  "type": "text",
+  "prompt": "What is the correct molecular name for this formula?<br><strong>NO<sub>2</sub></strong>",
+  "answer": "nitrogen dioxide",
+  "hint": "Use mono- through deca- to show atom counts. Do not use mono- on the first element when its subscript is 1. The second element always gets a prefix and changes to an -ide ending.",
+  "explain": "<strong>nitrogen dioxide</strong> = NO<sub>2</sub>",
+  "origin": "original",
   "from": {
    "game": "ionicformula",
    "list": "sample:covalent",

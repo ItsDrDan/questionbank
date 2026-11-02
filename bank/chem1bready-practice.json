@@ -9144,7 +9144,7 @@
   "unit": "s",
   "tolerance": 0.005,
   "hint": "Two negatives make a positive time.",
-  "explain": "<p><b>Take the ratio, then its ln:</b> <div class=\"da da-plain\">0.292 ÷ 0.584 = 0.500; ln(0.500) = <b>-0.693</b></div></p><p><b>Divide by −k:</b> <div class=\"da\" data-left=\"/1/s\"><span class=\"da-lead\">t =</span><span class=\"da-frac\"><span class=\"da-top\"><span class=\"da-q\"><span class=\"da-n\">-0.693</span></span></span><span class=\"da-bot\"><span class=\"da-q\"><span class=\"da-n\">−0.0723</span> <span class=\"da-u\">1/s</span></span></span></span><span class=\"da-op\">=</span><span class=\"da-res\">9.59 s</span></div><p class=\"da-note\">1 ÷ (1/s) = s, so the time comes out in seconds.</p><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> ( <kbd>ln</kbd> ( 0.292 ÷ 0.584 ) ) ÷ (−) 0.0723 <kbd>enter</kbd> · wrap the whole ln argument in parentheses.</p></p>",
+  "explain": "<p><b>Take the ratio, then its ln:</b> <div class=\"da da-plain\">0.292 ÷ 0.584 = 0.500; ln(0.500) = <b>-0.693</b></div></p><p><b>Divide by −k:</b> <div class=\"da\" data-left=\"/1/s\"><span class=\"da-lead\">t =</span><span class=\"da-frac\"><span class=\"da-top\"><span class=\"da-q\"><span class=\"da-n\">-0.693</span></span></span><span class=\"da-bot\"><span class=\"da-q\"><span class=\"da-n\">−0.0723</span> <span class=\"da-u\">1/s</span></span></span></span><span class=\"da-op\">=</span><span class=\"da-res\">9.59 s</span></div><p class=\"da-note\">1 ÷ (1/s) = s, so the time comes out in seconds.</p><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> ( <kbd>ln</kbd> ( 0.292 ÷ 0.584 ) ) ÷ (−) 0.0723 <kbd>enter</kbd> · wrap the whole ln argument in parentheses.</p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -9172,7 +9172,7 @@
   "unit": "M",
   "tolerance": 0.005,
   "hint": "Isolate x², then square-root both sides.",
-  "explain": "<p><b>Solve x² ÷ c = K:</b> <div class=\"da da-plain\">x² = K × c = 5.39 × 10⁻⁴ × 0.554 = 2.99 × 10⁻⁴; x = √(2.99 × 10⁻⁴) = <b>0.0173 M</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>x²</kbd> gives √: <kbd>2nd</kbd> <kbd>x²</kbd> ( 5.39 × 10⁻⁴ × 0.554 ) <kbd>enter</kbd></p></p>",
+  "explain": "<p><b>Solve x² ÷ c = K:</b> <div class=\"da da-plain\">x² = K × c = 5.39 × 10⁻⁴ × 0.554 = 2.99 × 10⁻⁴; x = √(2.99 × 10⁻⁴) = <b>0.0173 M</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>x²</kbd> gives √: <kbd>2nd</kbd> <kbd>x²</kbd> ( 5.39 × 10⁻⁴ × 0.554 ) <kbd>enter</kbd></p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -9200,7 +9200,7 @@
   "unit": "%",
   "tolerance": 0.005,
   "hint": "Under 5% means c − x ≈ c was a fair approximation.",
-  "explain": "<p><b>Solve x² ÷ c = K:</b> <div class=\"da da-plain\">x² = K × c = 5.39 × 10⁻⁴ × 0.554 = 2.99 × 10⁻⁴; x = √(2.99 × 10⁻⁴) = <b>0.0173 M</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>x²</kbd> gives √: <kbd>2nd</kbd> <kbd>x²</kbd> ( 5.39 × 10⁻⁴ × 0.554 ) <kbd>enter</kbd></p></p><p><b>Check the 5% rule:</b> <div class=\"da\" data-left=\"\"><span class=\"da-frac\"><span class=\"da-top\"><span class=\"da-q\"><span class=\"da-n\">0.0173</span> <span class=\"da-u cx\">M</span></span></span><span class=\"da-bot\"><span class=\"da-q\"><span class=\"da-n\">0.554</span> <span class=\"da-u cx\">M</span></span></span></span><span class=\"da-op\">×</span><span class=\"da-q\"><span class=\"da-n\">100%</span></span><span class=\"da-op\">=</span><span class=\"da-res\">3.12%</span></div></p>",
+  "explain": "<p><b>Solve x² ÷ c = K:</b> <div class=\"da da-plain\">x² = K × c = 5.39 × 10⁻⁴ × 0.554 = 2.99 × 10⁻⁴; x = √(2.99 × 10⁻⁴) = <b>0.0173 M</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>x²</kbd> gives √: <kbd>2nd</kbd> <kbd>x²</kbd> ( 5.39 × 10⁻⁴ × 0.554 ) <kbd>enter</kbd></p></p><p><b>Check the 5% rule:</b> <div class=\"da\" data-left=\"\"><span class=\"da-frac\"><span class=\"da-top\"><span class=\"da-q\"><span class=\"da-n\">0.0173</span> <span class=\"da-u cx\">M</span></span></span><span class=\"da-bot\"><span class=\"da-q\"><span class=\"da-n\">0.554</span> <span class=\"da-u cx\">M</span></span></span></span><span class=\"da-op\">×</span><span class=\"da-q\"><span class=\"da-n\">100%</span></span><span class=\"da-op\">=</span><span class=\"da-res\">3.12%</span></div></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -9227,7 +9227,7 @@
   "answer": 3.02,
   "tolerance": 0.005,
   "hint": "The log of a number less than 1 is negative. The exponent tells you roughly what the log will be: 10⁻⁵ → about −5.",
-  "explain": "<p><b>Take the base-10 log:</b> <div class=\"da da-plain\">log(9.52 × 10<sup>-4</sup>) = log(9.52) + log(10<sup>-4</sup>) = 0.979 + (-4) = <b>-3.02</b></div><div class=\"da da-plain\">−log(x) = <b>3.02</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>log</kbd> ( 9.52 <kbd>EE</kbd> -4 ) <kbd>enter</kbd> · close the parenthesis before pressing enter.</p></p>",
+  "explain": "<p><b>Take the base-10 log:</b> <div class=\"da da-plain\">log(9.52 × 10<sup>-4</sup>) = log(9.52) + log(10<sup>-4</sup>) = 0.979 + (-4) = <b>-3.02</b></div><div class=\"da da-plain\">−log(x) = <b>3.02</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>log</kbd> ( 9.52 <kbd>EE</kbd> -4 ) <kbd>enter</kbd> · close the parenthesis before pressing enter.</p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -9254,7 +9254,7 @@
   "answer": -6.96,
   "tolerance": 0.005,
   "hint": "ln and log are different keys. Both are negative here, and ln is 2.303 times bigger.",
-  "explain": "<p><b>Take the base-10 log:</b> <div class=\"da da-plain\">log(9.52 × 10<sup>-4</sup>) = log(9.52) + log(10<sup>-4</sup>) = 0.979 + (-4) = <b>-3.02</b></div><div class=\"da da-plain\">−log(x) = <b>3.02</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>log</kbd> ( 9.52 <kbd>EE</kbd> -4 ) <kbd>enter</kbd> · close the parenthesis before pressing enter.</p></p><p><b>Take the natural log:</b> <div class=\"da da-plain\">ln(x) = 2.303 × log(x) = 2.303 × (-3.02) = <b>-6.96</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>ln</kbd> ( 9.52 <kbd>EE</kbd> -4 ) <kbd>enter</kbd></p></p>",
+  "explain": "<p><b>Take the base-10 log:</b> <div class=\"da da-plain\">log(9.52 × 10<sup>-4</sup>) = log(9.52) + log(10<sup>-4</sup>) = 0.979 + (-4) = <b>-3.02</b></div><div class=\"da da-plain\">−log(x) = <b>3.02</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>log</kbd> ( 9.52 <kbd>EE</kbd> -4 ) <kbd>enter</kbd> · close the parenthesis before pressing enter.</p></p><p><b>Take the natural log:</b> <div class=\"da da-plain\">ln(x) = 2.303 × log(x) = 2.303 × (-3.02) = <b>-6.96</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>ln</kbd> ( 9.52 <kbd>EE</kbd> -4 ) <kbd>enter</kbd></p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -9308,7 +9308,7 @@
   "answer": 33300,
   "tolerance": 0.005,
   "hint": "ln K > 0 means K > 1; products are favored.",
-  "explain": "<p><b>Match the energy units:</b> <div class=\"da\" data-left=\"/mol,J\"><span class=\"da-lead\">ΔG° =</span><span class=\"da-q\"><span class=\"da-n\">-25.8</span> <span class=\"da-u cx\">kJ</span>/<span class=\"da-u\">mol</span></span><span class=\"da-op\">×</span><span class=\"da-frac\"><span class=\"da-top\"><span class=\"da-q\"><span class=\"da-n\">1000</span> <span class=\"da-u\">J</span></span></span><span class=\"da-bot\"><span class=\"da-q\"><span class=\"da-n\">1</span> <span class=\"da-u cx\">kJ</span></span></span></span><span class=\"da-op\">=</span><span class=\"da-res\">-2.58 × 10⁴ J/mol</span></div></p><p><b>Solve for ln K:</b> <div class=\"da\" data-left=\"\"><span class=\"da-lead\">ln K =</span><span class=\"da-frac\"><span class=\"da-top\"><span class=\"da-q\"><span class=\"da-n\">−(-2.58 × 10⁴)</span> <span class=\"da-u cx\">J</span>/<span class=\"da-u cx\">mol</span></span></span><span class=\"da-bot\"><span class=\"da-q\"><span class=\"da-n\">8.314</span> <span class=\"da-u cx\">J</span>/(<span class=\"da-u cx\">mol</span>·<span class=\"da-u cx\">K</span>)</span><span class=\"da-dot\">×</span><span class=\"da-q\"><span class=\"da-n\">298</span> <span class=\"da-u cx\">K</span></span></span></span><span class=\"da-op\">=</span><span class=\"da-res\">10.4</span></div><p class=\"da-note\">J, mol and K all cancel: ln K has no units.</p></p><p><b>Undo the ln:</b> <div class=\"da da-plain\">K = e<sup>10.4</sup> = <b>3.33 × 10⁴</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>ln</kbd> 10.4 <kbd>enter</kbd></p></p>",
+  "explain": "<p><b>Match the energy units:</b> <div class=\"da\" data-left=\"/mol,J\"><span class=\"da-lead\">ΔG° =</span><span class=\"da-q\"><span class=\"da-n\">-25.8</span> <span class=\"da-u cx\">kJ</span>/<span class=\"da-u\">mol</span></span><span class=\"da-op\">×</span><span class=\"da-frac\"><span class=\"da-top\"><span class=\"da-q\"><span class=\"da-n\">1000</span> <span class=\"da-u\">J</span></span></span><span class=\"da-bot\"><span class=\"da-q\"><span class=\"da-n\">1</span> <span class=\"da-u cx\">kJ</span></span></span></span><span class=\"da-op\">=</span><span class=\"da-res\">-2.58 × 10⁴ J/mol</span></div></p><p><b>Solve for ln K:</b> <div class=\"da\" data-left=\"\"><span class=\"da-lead\">ln K =</span><span class=\"da-frac\"><span class=\"da-top\"><span class=\"da-q\"><span class=\"da-n\">−(-2.58 × 10⁴)</span> <span class=\"da-u cx\">J</span>/<span class=\"da-u cx\">mol</span></span></span><span class=\"da-bot\"><span class=\"da-q\"><span class=\"da-n\">8.314</span> <span class=\"da-u cx\">J</span>/(<span class=\"da-u cx\">mol</span>·<span class=\"da-u cx\">K</span>)</span><span class=\"da-dot\">×</span><span class=\"da-q\"><span class=\"da-n\">298</span> <span class=\"da-u cx\">K</span></span></span></span><span class=\"da-op\">=</span><span class=\"da-res\">10.4</span></div><p class=\"da-note\">J, mol and K all cancel: ln K has no units.</p></p><p><b>Undo the ln:</b> <div class=\"da da-plain\">K = e<sup>10.4</sup> = <b>3.33 × 10⁴</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>ln</kbd> 10.4 <kbd>enter</kbd></p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -9446,7 +9446,7 @@
   "unit": "M",
   "tolerance": 0.005,
   "hint": "Under the root, b² − 4ac becomes b² + 4|c| because c is negative. The TI‑36X Pro can solve the whole thing with poly-solv.",
-  "explain": "<p><b>Identify a, b and c:</b> <div class=\"da da-plain\">a = 1, b = 0.287, c = -0.199</div></p><p><b>Use the quadratic formula:</b> <div class=\"da da-plain\">x = [−0.287 + √(0.287² + 4 × 0.199)] ÷ 2 = <b>0.325 M</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>2nd</kbd> then <kbd>poly-solv</kbd> (printed above the cos key) · choose 2 for a quadratic, enter a, b and c, and it gives both roots. Faster and no sign slips.</p></p>",
+  "explain": "<p><b>Identify a, b and c:</b> <div class=\"da da-plain\">a = 1, b = 0.287, c = -0.199</div></p><p><b>Use the quadratic formula:</b> <div class=\"da da-plain\">x = [−0.287 + √(0.287² + 4 × 0.199)] ÷ 2 = <b>0.325 M</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>2nd</kbd> then <kbd>poly-solv</kbd> (printed above the cos key) · choose 2 for a quadratic, enter a, b and c, and it gives both roots. Faster and no sign slips.</p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -9556,7 +9556,7 @@
   "answer": 0.000263,
   "tolerance": 0.005,
   "hint": "Type answers like 2.5E-6. (10⁻³)² = 10⁻⁶, so the exponent doubles.",
-  "explain": "<p><b>Square first, then divide:</b> <div class=\"da da-plain\">(9.71 × 10<sup>-4</sup>)² = 9.43 × 10⁻⁷; ÷ 3.59 × 10⁻³ = <b>2.63 × 10⁻⁴</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> ( 9.71 <kbd>EE</kbd> -4 ) <kbd>x²</kbd> ÷ ( 3.59 <kbd>EE</kbd> -3 ) <kbd>enter</kbd> · EE, never ×10^ typed out, and parentheses around each number.</p></p>",
+  "explain": "<p><b>Square first, then divide:</b> <div class=\"da da-plain\">(9.71 × 10<sup>-4</sup>)² = 9.43 × 10⁻⁷; ÷ 3.59 × 10⁻³ = <b>2.63 × 10⁻⁴</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> ( 9.71 <kbd>EE</kbd> -4 ) <kbd>x²</kbd> ÷ ( 3.59 <kbd>EE</kbd> -3 ) <kbd>enter</kbd> · EE, never ×10^ typed out, and parentheses around each number.</p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -9584,7 +9584,7 @@
   "unit": "M",
   "tolerance": 0.005,
   "hint": "Move the sign first (log[H⁺] = −pH), then use 10 to that power.",
-  "explain": "<p><b>Undo a base-10 log:</b> <div class=\"da da-plain\">log[H⁺] = −10.8 → [H⁺] = 10<sup>−10.8</sup> = <b>1.58 × 10⁻¹¹ M</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>log</kbd> gives 10<sup>x</sup>: type <kbd>2nd</kbd> <kbd>log</kbd> (−) 10.8 <kbd>enter</kbd> · use the (−) key for the negative sign, not the minus key.</p></p>",
+  "explain": "<p><b>Undo a base-10 log:</b> <div class=\"da da-plain\">log[H⁺] = −10.8 → [H⁺] = 10<sup>−10.8</sup> = <b>1.58 × 10⁻¹¹ M</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>log</kbd> gives 10<sup>x</sup>: type <kbd>2nd</kbd> <kbd>log</kbd> (−) 10.8 <kbd>enter</kbd> · use the (−) key for the negative sign, not the minus key.</p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -9611,7 +9611,7 @@
   "answer": 0.27,
   "tolerance": 0.005,
   "hint": "ln pairs with e; log pairs with 10. A negative ln means y is between 0 and 1.",
-  "explain": "<p><b>Undo a base-10 log:</b> <div class=\"da da-plain\">log[H⁺] = −10.8 → [H⁺] = 10<sup>−10.8</sup> = <b>1.58 × 10⁻¹¹ M</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>log</kbd> gives 10<sup>x</sup>: type <kbd>2nd</kbd> <kbd>log</kbd> (−) 10.8 <kbd>enter</kbd> · use the (−) key for the negative sign, not the minus key.</p></p><p><b>Undo a natural log:</b> <div class=\"da da-plain\">y = e<sup>-1.31</sup> = <b>0.270</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>ln</kbd> gives e<sup>x</sup>: <kbd>2nd</kbd> <kbd>ln</kbd> (−) 1.31 <kbd>enter</kbd></p></p>",
+  "explain": "<p><b>Undo a base-10 log:</b> <div class=\"da da-plain\">log[H⁺] = −10.8 → [H⁺] = 10<sup>−10.8</sup> = <b>1.58 × 10⁻¹¹ M</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>log</kbd> gives 10<sup>x</sup>: type <kbd>2nd</kbd> <kbd>log</kbd> (−) 10.8 <kbd>enter</kbd> · use the (−) key for the negative sign, not the minus key.</p></p><p><b>Undo a natural log:</b> <div class=\"da da-plain\">y = e<sup>-1.31</sup> = <b>0.270</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>ln</kbd> gives e<sup>x</sup>: <kbd>2nd</kbd> <kbd>ln</kbd> (−) 1.31 <kbd>enter</kbd></p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -9723,7 +9723,7 @@
   "unit": "M",
   "tolerance": 0.005,
   "hint": "Move the sign first (log[H⁺] = −pH), then use 10 to that power.",
-  "explain": "<p><b>Undo a base-10 log:</b> <div class=\"da da-plain\">log[H⁺] = −8.98 → [H⁺] = 10<sup>−8.98</sup> = <b>1.05 × 10⁻⁹ M</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>log</kbd> gives 10<sup>x</sup>: type <kbd>2nd</kbd> <kbd>log</kbd> (−) 8.98 <kbd>enter</kbd> · use the (−) key for the negative sign, not the minus key.</p></p>",
+  "explain": "<p><b>Undo a base-10 log:</b> <div class=\"da da-plain\">log[H⁺] = −8.98 → [H⁺] = 10<sup>−8.98</sup> = <b>1.05 × 10⁻⁹ M</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>log</kbd> gives 10<sup>x</sup>: type <kbd>2nd</kbd> <kbd>log</kbd> (−) 8.98 <kbd>enter</kbd> · use the (−) key for the negative sign, not the minus key.</p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -9750,7 +9750,7 @@
   "answer": 0.0146,
   "tolerance": 0.005,
   "hint": "ln pairs with e; log pairs with 10. A negative ln means y is between 0 and 1.",
-  "explain": "<p><b>Undo a base-10 log:</b> <div class=\"da da-plain\">log[H⁺] = −8.98 → [H⁺] = 10<sup>−8.98</sup> = <b>1.05 × 10⁻⁹ M</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>log</kbd> gives 10<sup>x</sup>: type <kbd>2nd</kbd> <kbd>log</kbd> (−) 8.98 <kbd>enter</kbd> · use the (−) key for the negative sign, not the minus key.</p></p><p><b>Undo a natural log:</b> <div class=\"da da-plain\">y = e<sup>-4.23</sup> = <b>0.0146</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>ln</kbd> gives e<sup>x</sup>: <kbd>2nd</kbd> <kbd>ln</kbd> (−) 4.23 <kbd>enter</kbd></p></p>",
+  "explain": "<p><b>Undo a base-10 log:</b> <div class=\"da da-plain\">log[H⁺] = −8.98 → [H⁺] = 10<sup>−8.98</sup> = <b>1.05 × 10⁻⁹ M</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>log</kbd> gives 10<sup>x</sup>: type <kbd>2nd</kbd> <kbd>log</kbd> (−) 8.98 <kbd>enter</kbd> · use the (−) key for the negative sign, not the minus key.</p></p><p><b>Undo a natural log:</b> <div class=\"da da-plain\">y = e<sup>-4.23</sup> = <b>0.0146</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>ln</kbd> gives e<sup>x</sup>: <kbd>2nd</kbd> <kbd>ln</kbd> (−) 4.23 <kbd>enter</kbd></p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -9831,7 +9831,7 @@
   "answer": 4.14,
   "tolerance": 0.005,
   "hint": "The log of a number less than 1 is negative. The exponent tells you roughly what the log will be: 10⁻⁵ → about −5.",
-  "explain": "<p><b>Take the base-10 log:</b> <div class=\"da da-plain\">log(7.22 × 10<sup>-5</sup>) = log(7.22) + log(10<sup>-5</sup>) = 0.859 + (-5) = <b>-4.14</b></div><div class=\"da da-plain\">−log(x) = <b>4.14</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>log</kbd> ( 7.22 <kbd>EE</kbd> -5 ) <kbd>enter</kbd> · close the parenthesis before pressing enter.</p></p>",
+  "explain": "<p><b>Take the base-10 log:</b> <div class=\"da da-plain\">log(7.22 × 10<sup>-5</sup>) = log(7.22) + log(10<sup>-5</sup>) = 0.859 + (-5) = <b>-4.14</b></div><div class=\"da da-plain\">−log(x) = <b>4.14</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>log</kbd> ( 7.22 <kbd>EE</kbd> -5 ) <kbd>enter</kbd> · close the parenthesis before pressing enter.</p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -9858,7 +9858,7 @@
   "answer": -9.54,
   "tolerance": 0.005,
   "hint": "ln and log are different keys. Both are negative here, and ln is 2.303 times bigger.",
-  "explain": "<p><b>Take the base-10 log:</b> <div class=\"da da-plain\">log(7.22 × 10<sup>-5</sup>) = log(7.22) + log(10<sup>-5</sup>) = 0.859 + (-5) = <b>-4.14</b></div><div class=\"da da-plain\">−log(x) = <b>4.14</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>log</kbd> ( 7.22 <kbd>EE</kbd> -5 ) <kbd>enter</kbd> · close the parenthesis before pressing enter.</p></p><p><b>Take the natural log:</b> <div class=\"da da-plain\">ln(x) = 2.303 × log(x) = 2.303 × (-4.14) = <b>-9.54</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>ln</kbd> ( 7.22 <kbd>EE</kbd> -5 ) <kbd>enter</kbd></p></p>",
+  "explain": "<p><b>Take the base-10 log:</b> <div class=\"da da-plain\">log(7.22 × 10<sup>-5</sup>) = log(7.22) + log(10<sup>-5</sup>) = 0.859 + (-5) = <b>-4.14</b></div><div class=\"da da-plain\">−log(x) = <b>4.14</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>log</kbd> ( 7.22 <kbd>EE</kbd> -5 ) <kbd>enter</kbd> · close the parenthesis before pressing enter.</p></p><p><b>Take the natural log:</b> <div class=\"da da-plain\">ln(x) = 2.303 × log(x) = 2.303 × (-4.14) = <b>-9.54</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>ln</kbd> ( 7.22 <kbd>EE</kbd> -5 ) <kbd>enter</kbd></p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -9886,7 +9886,7 @@
   "unit": "s",
   "tolerance": 0.005,
   "hint": "Two negatives make a positive time.",
-  "explain": "<p><b>Take the ratio, then its ln:</b> <div class=\"da da-plain\">0.0476 ÷ 0.381 = 0.125; ln(0.125) = <b>-2.08</b></div></p><p><b>Divide by −k:</b> <div class=\"da\" data-left=\"/1/s\"><span class=\"da-lead\">t =</span><span class=\"da-frac\"><span class=\"da-top\"><span class=\"da-q\"><span class=\"da-n\">-2.08</span></span></span><span class=\"da-bot\"><span class=\"da-q\"><span class=\"da-n\">−0.0152</span> <span class=\"da-u\">1/s</span></span></span></span><span class=\"da-op\">=</span><span class=\"da-res\">137 s</span></div><p class=\"da-note\">1 ÷ (1/s) = s, so the time comes out in seconds.</p><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> ( <kbd>ln</kbd> ( 0.0476 ÷ 0.381 ) ) ÷ (−) 0.0152 <kbd>enter</kbd> · wrap the whole ln argument in parentheses.</p></p>",
+  "explain": "<p><b>Take the ratio, then its ln:</b> <div class=\"da da-plain\">0.0476 ÷ 0.381 = 0.125; ln(0.125) = <b>-2.08</b></div></p><p><b>Divide by −k:</b> <div class=\"da\" data-left=\"/1/s\"><span class=\"da-lead\">t =</span><span class=\"da-frac\"><span class=\"da-top\"><span class=\"da-q\"><span class=\"da-n\">-2.08</span></span></span><span class=\"da-bot\"><span class=\"da-q\"><span class=\"da-n\">−0.0152</span> <span class=\"da-u\">1/s</span></span></span></span><span class=\"da-op\">=</span><span class=\"da-res\">137 s</span></div><p class=\"da-note\">1 ÷ (1/s) = s, so the time comes out in seconds.</p><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> ( <kbd>ln</kbd> ( 0.0476 ÷ 0.381 ) ) ÷ (−) 0.0152 <kbd>enter</kbd> · wrap the whole ln argument in parentheses.</p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -9913,7 +9913,7 @@
   "answer": 0.0157,
   "tolerance": 0.005,
   "hint": "Type answers like 2.5E-6. (10⁻³)² = 10⁻⁶, so the exponent doubles.",
-  "explain": "<p><b>Square first, then divide:</b> <div class=\"da da-plain\">(9.89 × 10<sup>-2</sup>)² = 9.78 × 10⁻³; ÷ 0.624 = <b>0.0157</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> ( 9.89 <kbd>EE</kbd> -2 ) <kbd>x²</kbd> ÷ ( 6.24 <kbd>EE</kbd> -1 ) <kbd>enter</kbd> · EE, never ×10^ typed out, and parentheses around each number.</p></p>",
+  "explain": "<p><b>Square first, then divide:</b> <div class=\"da da-plain\">(9.89 × 10<sup>-2</sup>)² = 9.78 × 10⁻³; ÷ 0.624 = <b>0.0157</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> ( 9.89 <kbd>EE</kbd> -2 ) <kbd>x²</kbd> ÷ ( 6.24 <kbd>EE</kbd> -1 ) <kbd>enter</kbd> · EE, never ×10^ typed out, and parentheses around each number.</p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -9941,7 +9941,7 @@
   "unit": "M",
   "tolerance": 0.005,
   "hint": "Under the root, b² − 4ac becomes b² + 4|c| because c is negative. The TI‑36X Pro can solve the whole thing with poly-solv.",
-  "explain": "<p><b>Identify a, b and c:</b> <div class=\"da da-plain\">a = 1, b = 0.336, c = -0.266</div></p><p><b>Use the quadratic formula:</b> <div class=\"da da-plain\">x = [−0.336 + √(0.336² + 4 × 0.266)] ÷ 2 = <b>0.374 M</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>2nd</kbd> then <kbd>poly-solv</kbd> (printed above the cos key) · choose 2 for a quadratic, enter a, b and c, and it gives both roots. Faster and no sign slips.</p></p>",
+  "explain": "<p><b>Identify a, b and c:</b> <div class=\"da da-plain\">a = 1, b = 0.336, c = -0.266</div></p><p><b>Use the quadratic formula:</b> <div class=\"da da-plain\">x = [−0.336 + √(0.336² + 4 × 0.266)] ÷ 2 = <b>0.374 M</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>2nd</kbd> then <kbd>poly-solv</kbd> (printed above the cos key) · choose 2 for a quadratic, enter a, b and c, and it gives both roots. Faster and no sign slips.</p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -9969,7 +9969,7 @@
   "unit": "M",
   "tolerance": 0.005,
   "hint": "Isolate x², then square-root both sides.",
-  "explain": "<p><b>Solve x² ÷ c = K:</b> <div class=\"da da-plain\">x² = K × c = 7.15 × 10⁻⁶ × 0.396 = 2.83 × 10⁻⁶; x = √(2.83 × 10⁻⁶) = <b>1.68 × 10⁻³ M</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>x²</kbd> gives √: <kbd>2nd</kbd> <kbd>x²</kbd> ( 7.15 × 10⁻⁶ × 0.396 ) <kbd>enter</kbd></p></p>",
+  "explain": "<p><b>Solve x² ÷ c = K:</b> <div class=\"da da-plain\">x² = K × c = 7.15 × 10⁻⁶ × 0.396 = 2.83 × 10⁻⁶; x = √(2.83 × 10⁻⁶) = <b>1.68 × 10⁻³ M</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>x²</kbd> gives √: <kbd>2nd</kbd> <kbd>x²</kbd> ( 7.15 × 10⁻⁶ × 0.396 ) <kbd>enter</kbd></p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -9997,7 +9997,7 @@
   "unit": "%",
   "tolerance": 0.005,
   "hint": "Under 5% means c − x ≈ c was a fair approximation.",
-  "explain": "<p><b>Solve x² ÷ c = K:</b> <div class=\"da da-plain\">x² = K × c = 7.15 × 10⁻⁶ × 0.396 = 2.83 × 10⁻⁶; x = √(2.83 × 10⁻⁶) = <b>1.68 × 10⁻³ M</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>x²</kbd> gives √: <kbd>2nd</kbd> <kbd>x²</kbd> ( 7.15 × 10⁻⁶ × 0.396 ) <kbd>enter</kbd></p></p><p><b>Check the 5% rule:</b> <div class=\"da\" data-left=\"\"><span class=\"da-frac\"><span class=\"da-top\"><span class=\"da-q\"><span class=\"da-n\">1.68 × 10⁻³</span> <span class=\"da-u cx\">M</span></span></span><span class=\"da-bot\"><span class=\"da-q\"><span class=\"da-n\">0.396</span> <span class=\"da-u cx\">M</span></span></span></span><span class=\"da-op\">×</span><span class=\"da-q\"><span class=\"da-n\">100%</span></span><span class=\"da-op\">=</span><span class=\"da-res\">0.425%</span></div></p>",
+  "explain": "<p><b>Solve x² ÷ c = K:</b> <div class=\"da da-plain\">x² = K × c = 7.15 × 10⁻⁶ × 0.396 = 2.83 × 10⁻⁶; x = √(2.83 × 10⁻⁶) = <b>1.68 × 10⁻³ M</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>x²</kbd> gives √: <kbd>2nd</kbd> <kbd>x²</kbd> ( 7.15 × 10⁻⁶ × 0.396 ) <kbd>enter</kbd></p></p><p><b>Check the 5% rule:</b> <div class=\"da\" data-left=\"\"><span class=\"da-frac\"><span class=\"da-top\"><span class=\"da-q\"><span class=\"da-n\">1.68 × 10⁻³</span> <span class=\"da-u cx\">M</span></span></span><span class=\"da-bot\"><span class=\"da-q\"><span class=\"da-n\">0.396</span> <span class=\"da-u cx\">M</span></span></span></span><span class=\"da-op\">×</span><span class=\"da-q\"><span class=\"da-n\">100%</span></span><span class=\"da-op\">=</span><span class=\"da-res\">0.425%</span></div></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -10051,7 +10051,7 @@
   "answer": 888000,
   "tolerance": 0.005,
   "hint": "ln K > 0 means K > 1; products are favored.",
-  "explain": "<p><b>Match the energy units:</b> <div class=\"da\" data-left=\"/mol,J\"><span class=\"da-lead\">ΔG° =</span><span class=\"da-q\"><span class=\"da-n\">-35.3</span> <span class=\"da-u cx\">kJ</span>/<span class=\"da-u\">mol</span></span><span class=\"da-op\">×</span><span class=\"da-frac\"><span class=\"da-top\"><span class=\"da-q\"><span class=\"da-n\">1000</span> <span class=\"da-u\">J</span></span></span><span class=\"da-bot\"><span class=\"da-q\"><span class=\"da-n\">1</span> <span class=\"da-u cx\">kJ</span></span></span></span><span class=\"da-op\">=</span><span class=\"da-res\">-3.53 × 10⁴ J/mol</span></div></p><p><b>Solve for ln K:</b> <div class=\"da\" data-left=\"\"><span class=\"da-lead\">ln K =</span><span class=\"da-frac\"><span class=\"da-top\"><span class=\"da-q\"><span class=\"da-n\">−(-3.53 × 10⁴)</span> <span class=\"da-u cx\">J</span>/<span class=\"da-u cx\">mol</span></span></span><span class=\"da-bot\"><span class=\"da-q\"><span class=\"da-n\">8.314</span> <span class=\"da-u cx\">J</span>/(<span class=\"da-u cx\">mol</span>·<span class=\"da-u cx\">K</span>)</span><span class=\"da-dot\">×</span><span class=\"da-q\"><span class=\"da-n\">310</span> <span class=\"da-u cx\">K</span></span></span></span><span class=\"da-op\">=</span><span class=\"da-res\">13.7</span></div><p class=\"da-note\">J, mol and K all cancel: ln K has no units.</p></p><p><b>Undo the ln:</b> <div class=\"da da-plain\">K = e<sup>13.7</sup> = <b>8.88 × 10⁵</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>ln</kbd> 13.7 <kbd>enter</kbd></p></p>",
+  "explain": "<p><b>Match the energy units:</b> <div class=\"da\" data-left=\"/mol,J\"><span class=\"da-lead\">ΔG° =</span><span class=\"da-q\"><span class=\"da-n\">-35.3</span> <span class=\"da-u cx\">kJ</span>/<span class=\"da-u\">mol</span></span><span class=\"da-op\">×</span><span class=\"da-frac\"><span class=\"da-top\"><span class=\"da-q\"><span class=\"da-n\">1000</span> <span class=\"da-u\">J</span></span></span><span class=\"da-bot\"><span class=\"da-q\"><span class=\"da-n\">1</span> <span class=\"da-u cx\">kJ</span></span></span></span><span class=\"da-op\">=</span><span class=\"da-res\">-3.53 × 10⁴ J/mol</span></div></p><p><b>Solve for ln K:</b> <div class=\"da\" data-left=\"\"><span class=\"da-lead\">ln K =</span><span class=\"da-frac\"><span class=\"da-top\"><span class=\"da-q\"><span class=\"da-n\">−(-3.53 × 10⁴)</span> <span class=\"da-u cx\">J</span>/<span class=\"da-u cx\">mol</span></span></span><span class=\"da-bot\"><span class=\"da-q\"><span class=\"da-n\">8.314</span> <span class=\"da-u cx\">J</span>/(<span class=\"da-u cx\">mol</span>·<span class=\"da-u cx\">K</span>)</span><span class=\"da-dot\">×</span><span class=\"da-q\"><span class=\"da-n\">310</span> <span class=\"da-u cx\">K</span></span></span></span><span class=\"da-op\">=</span><span class=\"da-res\">13.7</span></div><p class=\"da-note\">J, mol and K all cancel: ln K has no units.</p></p><p><b>Undo the ln:</b> <div class=\"da da-plain\">K = e<sup>13.7</sup> = <b>8.88 × 10⁵</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>2nd</kbd> <kbd>ln</kbd> 13.7 <kbd>enter</kbd></p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -10161,7 +10161,7 @@
   "answer": 5.59,
   "tolerance": 0.005,
   "hint": "The log of a number less than 1 is negative. The exponent tells you roughly what the log will be: 10⁻⁵ → about −5.",
-  "explain": "<p><b>Take the base-10 log:</b> <div class=\"da da-plain\">log(2.57 × 10<sup>-6</sup>) = log(2.57) + log(10<sup>-6</sup>) = 0.410 + (-6) = <b>-5.59</b></div><div class=\"da da-plain\">−log(x) = <b>5.59</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>log</kbd> ( 2.57 <kbd>EE</kbd> -6 ) <kbd>enter</kbd> · close the parenthesis before pressing enter.</p></p>",
+  "explain": "<p><b>Take the base-10 log:</b> <div class=\"da da-plain\">log(2.57 × 10<sup>-6</sup>) = log(2.57) + log(10<sup>-6</sup>) = 0.410 + (-6) = <b>-5.59</b></div><div class=\"da da-plain\">−log(x) = <b>5.59</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>log</kbd> ( 2.57 <kbd>EE</kbd> -6 ) <kbd>enter</kbd> · close the parenthesis before pressing enter.</p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
@@ -10188,7 +10188,7 @@
   "answer": -12.9,
   "tolerance": 0.005,
   "hint": "ln and log are different keys. Both are negative here, and ln is 2.303 times bigger.",
-  "explain": "<p><b>Take the base-10 log:</b> <div class=\"da da-plain\">log(2.57 × 10<sup>-6</sup>) = log(2.57) + log(10<sup>-6</sup>) = 0.410 + (-6) = <b>-5.59</b></div><div class=\"da da-plain\">−log(x) = <b>5.59</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>log</kbd> ( 2.57 <kbd>EE</kbd> -6 ) <kbd>enter</kbd> · close the parenthesis before pressing enter.</p></p><p><b>Take the natural log:</b> <div class=\"da da-plain\">ln(x) = 2.303 × log(x) = 2.303 × (-5.59) = <b>-12.9</b></div><p class=\"da-note\"><b>🧮 TI‑36X Pro:</b> <kbd>ln</kbd> ( 2.57 <kbd>EE</kbd> -6 ) <kbd>enter</kbd></p></p>",
+  "explain": "<p><b>Take the base-10 log:</b> <div class=\"da da-plain\">log(2.57 × 10<sup>-6</sup>) = log(2.57) + log(10<sup>-6</sup>) = 0.410 + (-6) = <b>-5.59</b></div><div class=\"da da-plain\">−log(x) = <b>5.59</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>log</kbd> ( 2.57 <kbd>EE</kbd> -6 ) <kbd>enter</kbd> · close the parenthesis before pressing enter.</p></p><p><b>Take the natural log:</b> <div class=\"da da-plain\">ln(x) = 2.303 × log(x) = 2.303 × (-5.59) = <b>-12.9</b></div><p class=\"da-note\"><b><svg class=\"ui\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2.5\"/><path d=\"M8.5 7h7M8.5 11h2M13.5 11h2M8.5 15h2M13.5 15h2\"/></svg> TI‑36X Pro:</b> <kbd>ln</kbd> ( 2.57 <kbd>EE</kbd> -6 ) <kbd>enter</kbd></p></p>",
   "origin": "original",
   "from": {
    "game": "chem1bready",
