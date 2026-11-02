@@ -2835,32 +2835,6 @@
   }
  },
  {
-  "id": "stoichiometry-68fb98b2",
-  "skill": "stoichiometry.learn-gmol",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCO<sub>3</sub></span> &rarr; <span class=\"formula\">CaO</span> + <span class=\"formula\">CO<sub>2</sub></span></div><div>How many moles of <span class=\"formula\">CaO</span> can form from <span class=\"measure\">300. g</span> <span class=\"formula\">CaCO<sub>3</sub></span>?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">CaO</span></td><td>56.08</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr></table>",
-  "answer": 3,
-  "unit": "mol CaO",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "Step 1: grams of CaCO3 → moles (divide by 100.09 g/mol). Step 2: mole ratio from the coefficients.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 300. g CaCO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol CaCO<sub>3</sub></span><span class=\"den\">100.09 g CaCO<sub>3</sub></span></span> = <b>2.997 mol CaCO<sub>3</sub></b></li><li><b>Mole ratio:</b> 2.997 mol CaCO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol CaO</span><span class=\"den\">1 mol CaCO<sub>3</sub></span></span> = <b>2.997 mol CaO</b></li></ol><div class=\"solution-chain\">300. g CaCO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol CaCO<sub>3</sub></span><span class=\"den\">100.09 g CaCO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol CaO</span><span class=\"den\">1 mol CaCO<sub>3</sub></span></span> <b>=</b> 3.00 mol CaO</div><div>Round to 3 significant figures: <b>3.00 mol CaO</b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-gmol",
-   "index": 1
-  }
- },
- {
   "id": "stoichiometry-e59e3647",
   "skill": "stoichiometry.learn-gmol",
   "courses": [
@@ -2883,7 +2857,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 2
+   "index": 1
   }
  },
  {
@@ -2909,7 +2883,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 3
+   "index": 2
   }
  },
  {
@@ -2935,7 +2909,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 4
+   "index": 3
   }
  },
  {
@@ -2961,7 +2935,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 5
+   "index": 4
   }
  },
  {
@@ -2987,7 +2961,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 6
+   "index": 5
   }
  },
  {
@@ -3013,7 +2987,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 7
+   "index": 6
   }
  },
  {
@@ -3039,33 +3013,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 8
-  }
- },
- {
-  "id": "stoichiometry-2f139971",
-  "skill": "stoichiometry.learn-gmol",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCO<sub>3</sub></span> &rarr; <span class=\"formula\">CaO</span> + <span class=\"formula\">CO<sub>2</sub></span></div><div>How many moles of <span class=\"formula\">CO<sub>2</sub></span> form along with <span class=\"measure\">280. g</span> <span class=\"formula\">CaO</span>?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">CaO</span></td><td>56.08</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr></table>",
-  "answer": 4.99,
-  "unit": "mol CO2",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "Step 1: grams of CaO → moles (divide by 56.08 g/mol). Step 2: mole ratio from the coefficients.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 280. g CaO × <span class=\"fraction\"><span class=\"num\">1 mol CaO</span><span class=\"den\">56.08 g CaO</span></span> = <b>4.993 mol CaO</b></li><li><b>Mole ratio:</b> 4.993 mol CaO × <span class=\"fraction\"><span class=\"num\">1 mol CO<sub>2</sub></span><span class=\"den\">1 mol CaO</span></span> = <b>4.993 mol CO<sub>2</sub></b></li></ol><div class=\"solution-chain\">280. g CaO <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol CaO</span><span class=\"den\">56.08 g CaO</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol CO<sub>2</sub></span><span class=\"den\">1 mol CaO</span></span> <b>=</b> 4.99 mol CO<sub>2</sub></div><div>Round to 3 significant figures: <b>4.99 mol CO<sub>2</sub></b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-gmol",
-   "index": 9
+   "index": 7
   }
  },
  {
@@ -3091,7 +3039,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 10
+   "index": 8
   }
  },
  {
@@ -3117,33 +3065,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 11
-  }
- },
- {
-  "id": "stoichiometry-13ec5e98",
-  "skill": "stoichiometry.learn-gmol",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">N<sub>2</sub></span> + 3 <span class=\"formula\">H<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NH<sub>3</sub></span></div><div>What mass (in grams) of <span class=\"formula\">NH<sub>3</sub></span> can form from <span class=\"measure\">5.00 mol</span> <span class=\"formula\">N<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">N<sub>2</sub></span></td><td>28.014</td></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">NH<sub>3</sub></span></td><td>17.031</td></tr></table>",
-  "answer": 170,
-  "unit": "g NH3",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "You start in moles, so begin with the mole ratio. Then multiply by the molar mass of NH3 (17.031 g/mol).",
-  "explain": "<ol class=\"sol-steps\"><li><b>Mole ratio:</b> 5.00 mol N<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">2 mol NH<sub>3</sub></span><span class=\"den\">1 mol N<sub>2</sub></span></span> = <b>10.00 mol NH<sub>3</sub></b></li><li><b>Out of moles:</b> 10.00 mol NH<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">17.031 g NH<sub>3</sub></span><span class=\"den\">1 mol NH<sub>3</sub></span></span> = <b>170.3 g NH<sub>3</sub></b></li></ol><div class=\"solution-chain\">5.00 mol N<sub>2</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol NH<sub>3</sub></span><span class=\"den\">1 mol N<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">17.031 g NH<sub>3</sub></span><span class=\"den\">1 mol NH<sub>3</sub></span></span> <b>=</b> 170. g NH<sub>3</sub></div><div>Round to 3 significant figures: <b>170. g NH<sub>3</sub></b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-gmol",
-   "index": 12
+   "index": 9
   }
  },
  {
@@ -3169,7 +3091,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 13
+   "index": 10
   }
  },
  {
@@ -3195,7 +3117,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 14
+   "index": 11
   }
  },
  {
@@ -3221,7 +3143,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 15
+   "index": 12
   }
  },
  {
@@ -3247,7 +3169,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 16
+   "index": 13
   }
  },
  {
@@ -3273,7 +3195,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 17
+   "index": 14
   }
  },
  {
@@ -3299,7 +3221,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 18
+   "index": 15
   }
  },
  {
@@ -3325,7 +3247,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 19
+   "index": 16
   }
  },
  {
@@ -3351,7 +3273,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 20
+   "index": 17
   }
  },
  {
@@ -3377,7 +3299,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 21
+   "index": 18
   }
  },
  {
@@ -3403,7 +3325,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 22
+   "index": 19
   }
  },
  {
@@ -3429,7 +3351,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 23
+   "index": 20
   }
  },
  {
@@ -3455,7 +3377,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 24
+   "index": 21
   }
  },
  {
@@ -3481,7 +3403,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 25
+   "index": 22
   }
  },
  {
@@ -3507,7 +3429,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 26
+   "index": 23
   }
  },
  {
@@ -3533,7 +3455,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 27
+   "index": 24
   }
  },
  {
@@ -3559,7 +3481,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 28
+   "index": 25
   }
  },
  {
@@ -3585,7 +3507,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 29
+   "index": 26
   }
  },
  {
@@ -3611,7 +3533,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 30
+   "index": 27
   }
  },
  {
@@ -3637,7 +3559,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 31
+   "index": 28
   }
  },
  {
@@ -3663,7 +3585,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 32
+   "index": 29
   }
  },
  {
@@ -3689,7 +3611,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gmol",
-   "index": 33
+   "index": 30
   }
  },
  {
@@ -3711,6 +3633,84 @@
   "sigfigs": 3,
   "hint": "You start in moles, so begin with the mole ratio. Then multiply by the molar mass of H2O2 (34.014 g/mol).",
   "explain": "<ol class=\"sol-steps\"><li><b>Mole ratio:</b> 6.00 mol H<sub>2</sub>O × <span class=\"fraction\"><span class=\"num\">2 mol H<sub>2</sub>O<sub>2</sub></span><span class=\"den\">2 mol H<sub>2</sub>O</span></span> = <b>6.000 mol H<sub>2</sub>O<sub>2</sub></b></li><li><b>Out of moles:</b> 6.000 mol H<sub>2</sub>O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">34.014 g H<sub>2</sub>O<sub>2</sub></span><span class=\"den\">1 mol H<sub>2</sub>O<sub>2</sub></span></span> = <b>204.1 g H<sub>2</sub>O<sub>2</sub></b></li></ol><div class=\"solution-chain\">6.00 mol H<sub>2</sub>O <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol H<sub>2</sub>O<sub>2</sub></span><span class=\"den\">2 mol H<sub>2</sub>O</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">34.014 g H<sub>2</sub>O<sub>2</sub></span><span class=\"den\">1 mol H<sub>2</sub>O<sub>2</sub></span></span> <b>=</b> 204 g H<sub>2</sub>O<sub>2</sub></div><div>Round to 3 significant figures: <b>204 g H<sub>2</sub>O<sub>2</sub></b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-gmol",
+   "index": 31
+  }
+ },
+ {
+  "id": "stoichiometry-62e51baf",
+  "skill": "stoichiometry.learn-gmol",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">H<sub>2</sub>O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">H<sub>2</sub>O</span> + <span class=\"formula\">O<sub>2</sub></span></div><div>How many moles of <span class=\"formula\">H<sub>2</sub>O</span> can form from <span class=\"measure\">51.0 g</span> <span class=\"formula\">H<sub>2</sub>O<sub>2</sub></span>?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub>O<sub>2</sub></span></td><td>34.014</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr></table>",
+  "answer": 1.5,
+  "unit": "mol H2O",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "Step 1: grams of H2O2 → moles (divide by 34.014 g/mol). Step 2: mole ratio from the coefficients.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 51.0 g H<sub>2</sub>O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>O<sub>2</sub></span><span class=\"den\">34.014 g H<sub>2</sub>O<sub>2</sub></span></span> = <b>1.499 mol H<sub>2</sub>O<sub>2</sub></b></li><li><b>Mole ratio:</b> 1.499 mol H<sub>2</sub>O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">2 mol H<sub>2</sub>O</span><span class=\"den\">2 mol H<sub>2</sub>O<sub>2</sub></span></span> = <b>1.499 mol H<sub>2</sub>O</b></li></ol><div class=\"solution-chain\">51.0 g H<sub>2</sub>O<sub>2</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>O<sub>2</sub></span><span class=\"den\">34.014 g H<sub>2</sub>O<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol H<sub>2</sub>O</span><span class=\"den\">2 mol H<sub>2</sub>O<sub>2</sub></span></span> <b>=</b> 1.50 mol H<sub>2</sub>O</div><div>Round to 3 significant figures: <b>1.50 mol H<sub>2</sub>O</b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-gmol",
+   "index": 32
+  }
+ },
+ {
+  "id": "stoichiometry-ae998e05",
+  "skill": "stoichiometry.learn-gmol",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Mg</span> + <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">MgO</span></div><div>How many moles of <span class=\"formula\">O<sub>2</sub></span> react completely with <span class=\"measure\">146 g</span> <span class=\"formula\">Mg</span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Mg</span></td><td>24.31</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">MgO</span></td><td>40.31</td></tr></table>",
+  "answer": 3,
+  "unit": "mol O2",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "Step 1: grams of Mg → moles (divide by 24.31 g/mol). Step 2: mole ratio from the coefficients.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 146 g Mg × <span class=\"fraction\"><span class=\"num\">1 mol Mg</span><span class=\"den\">24.31 g Mg</span></span> = <b>6.006 mol Mg</b></li><li><b>Mole ratio:</b> 6.006 mol Mg × <span class=\"fraction\"><span class=\"num\">1 mol O<sub>2</sub></span><span class=\"den\">2 mol Mg</span></span> = <b>3.003 mol O<sub>2</sub></b></li></ol><div class=\"solution-chain\">146 g Mg <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol Mg</span><span class=\"den\">24.31 g Mg</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol O<sub>2</sub></span><span class=\"den\">2 mol Mg</span></span> <b>=</b> 3.00 mol O<sub>2</sub></div><div>Round to 3 significant figures: <b>3.00 mol O<sub>2</sub></b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-gmol",
+   "index": 33
+  }
+ },
+ {
+  "id": "stoichiometry-6501b16d",
+  "skill": "stoichiometry.learn-gmol",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\">4 <span class=\"formula\">Fe</span> + 3 <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">Fe<sub>2</sub>O<sub>3</sub></span></div><div>How many moles of <span class=\"formula\">O<sub>2</sub></span> must react to make <span class=\"measure\">958 g</span> <span class=\"formula\">Fe<sub>2</sub>O<sub>3</sub></span>?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Fe</span></td><td>55.85</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">Fe<sub>2</sub>O<sub>3</sub></span></td><td>159.70</td></tr></table>",
+  "answer": 9,
+  "unit": "mol O2",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "Step 1: grams of Fe2O3 → moles (divide by 159.70 g/mol). Step 2: mole ratio from the coefficients.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 958 g Fe<sub>2</sub>O<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol Fe<sub>2</sub>O<sub>3</sub></span><span class=\"den\">159.70 g Fe<sub>2</sub>O<sub>3</sub></span></span> = <b>5.999 mol Fe<sub>2</sub>O<sub>3</sub></b></li><li><b>Mole ratio:</b> 5.999 mol Fe<sub>2</sub>O<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">3 mol O<sub>2</sub></span><span class=\"den\">2 mol Fe<sub>2</sub>O<sub>3</sub></span></span> = <b>8.998 mol O<sub>2</sub></b></li></ol><div class=\"solution-chain\">958 g Fe<sub>2</sub>O<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol Fe<sub>2</sub>O<sub>3</sub></span><span class=\"den\">159.70 g Fe<sub>2</sub>O<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">3 mol O<sub>2</sub></span><span class=\"den\">2 mol Fe<sub>2</sub>O<sub>3</sub></span></span> <b>=</b> 9.00 mol O<sub>2</sub></div><div>Round to 3 significant figures: <b>9.00 mol O<sub>2</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -3797,32 +3797,6 @@
   }
  },
  {
-  "id": "stoichiometry-a01dc616",
-  "skill": "stoichiometry.learn-gg",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Mg</span> + <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">MgO</span></div><div>What mass (in grams) of <span class=\"formula\">Mg</span> react completely with <span class=\"measure\">320. g</span> <span class=\"formula\">O<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Mg</span></td><td>24.31</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">MgO</span></td><td>40.31</td></tr></table>",
-  "answer": 486,
-  "unit": "g Mg",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "1 · Into moles: divide by the molar mass of O2. 2 · Mole ratio: coefficients of Mg over O2. 3 · Out of moles: multiply by the molar mass of Mg.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 320. g O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 mol O<sub>2</sub></span><span class=\"den\">31.998 g O<sub>2</sub></span></span> = <b>10.00 mol O<sub>2</sub></b></li><li><b>Mole ratio:</b> 10.00 mol O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">2 mol Mg</span><span class=\"den\">1 mol O<sub>2</sub></span></span> = <b>20.00 mol Mg</b></li><li><b>Out of moles:</b> 20.00 mol Mg × <span class=\"fraction\"><span class=\"num\">24.31 g Mg</span><span class=\"den\">1 mol Mg</span></span> = <b>486.2 g Mg</b></li></ol><div class=\"solution-chain\">320. g O<sub>2</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol O<sub>2</sub></span><span class=\"den\">31.998 g O<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol Mg</span><span class=\"den\">1 mol O<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">24.31 g Mg</span><span class=\"den\">1 mol Mg</span></span> <b>=</b> 486 g Mg</div><div>Round to 3 significant figures: <b>486 g Mg</b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-gg",
-   "index": 3
-  }
- },
- {
   "id": "stoichiometry-2d3b7b6a",
   "skill": "stoichiometry.learn-gg",
   "courses": [
@@ -3845,7 +3819,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 4
+   "index": 3
   }
  },
  {
@@ -3871,33 +3845,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 5
-  }
- },
- {
-  "id": "stoichiometry-c64d3532",
-  "skill": "stoichiometry.learn-gg",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">Zn</span> + 2 <span class=\"formula\">HCl</span> &rarr; <span class=\"formula\">ZnCl<sub>2</sub></span> + <span class=\"formula\">H<sub>2</sub></span></div><div>What mass (in grams) of <span class=\"formula\">ZnCl<sub>2</sub></span> can form from <span class=\"measure\">91.2 g</span> <span class=\"formula\">HCl</span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Zn</span></td><td>65.39</td></tr><tr><td><span class=\"formula\">HCl</span></td><td>36.46</td></tr><tr><td><span class=\"formula\">ZnCl<sub>2</sub></span></td><td>136.29</td></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr></table>",
-  "answer": 170,
-  "unit": "g ZnCl2",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "1 · Into moles: divide by the molar mass of HCl. 2 · Mole ratio: coefficients of ZnCl2 over HCl. 3 · Out of moles: multiply by the molar mass of ZnCl2.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 91.2 g HCl × <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">36.46 g HCl</span></span> = <b>2.501 mol HCl</b></li><li><b>Mole ratio:</b> 2.501 mol HCl × <span class=\"fraction\"><span class=\"num\">1 mol ZnCl<sub>2</sub></span><span class=\"den\">2 mol HCl</span></span> = <b>1.251 mol ZnCl<sub>2</sub></b></li><li><b>Out of moles:</b> 1.251 mol ZnCl<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">136.29 g ZnCl<sub>2</sub></span><span class=\"den\">1 mol ZnCl<sub>2</sub></span></span> = <b>170.5 g ZnCl<sub>2</sub></b></li></ol><div class=\"solution-chain\">91.2 g HCl <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">36.46 g HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol ZnCl<sub>2</sub></span><span class=\"den\">2 mol HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">136.29 g ZnCl<sub>2</sub></span><span class=\"den\">1 mol ZnCl<sub>2</sub></span></span> <b>=</b> 170. g ZnCl<sub>2</sub></div><div>Round to 3 significant figures: <b>170. g ZnCl<sub>2</sub></b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-gg",
-   "index": 6
+   "index": 4
   }
  },
  {
@@ -3923,7 +3871,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 7
+   "index": 5
   }
  },
  {
@@ -3949,7 +3897,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 8
+   "index": 6
   }
  },
  {
@@ -3975,33 +3923,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 9
-  }
- },
- {
-  "id": "stoichiometry-e6504007",
-  "skill": "stoichiometry.learn-gg",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCO<sub>3</sub></span> &rarr; <span class=\"formula\">CaO</span> + <span class=\"formula\">CO<sub>2</sub></span></div><div>What mass (in grams) of <span class=\"formula\">CaO</span> form along with <span class=\"measure\">440. g</span> <span class=\"formula\">CO<sub>2</sub></span>?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">CaO</span></td><td>56.08</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr></table>",
-  "answer": 561,
-  "unit": "g CaO",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "1 · Into moles: divide by the molar mass of CO2. 2 · Mole ratio: coefficients of CaO over CO2. 3 · Out of moles: multiply by the molar mass of CaO.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 440. g CO<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 mol CO<sub>2</sub></span><span class=\"den\">44.009 g CO<sub>2</sub></span></span> = <b>9.998 mol CO<sub>2</sub></b></li><li><b>Mole ratio:</b> 9.998 mol CO<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 mol CaO</span><span class=\"den\">1 mol CO<sub>2</sub></span></span> = <b>9.998 mol CaO</b></li><li><b>Out of moles:</b> 9.998 mol CaO × <span class=\"fraction\"><span class=\"num\">56.08 g CaO</span><span class=\"den\">1 mol CaO</span></span> = <b>560.7 g CaO</b></li></ol><div class=\"solution-chain\">440. g CO<sub>2</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol CO<sub>2</sub></span><span class=\"den\">44.009 g CO<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol CaO</span><span class=\"den\">1 mol CO<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">56.08 g CaO</span><span class=\"den\">1 mol CaO</span></span> <b>=</b> 561 g CaO</div><div>Round to 3 significant figures: <b>561 g CaO</b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-gg",
-   "index": 10
+   "index": 7
   }
  },
  {
@@ -4027,7 +3949,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 11
+   "index": 8
   }
  },
  {
@@ -4053,7 +3975,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 12
+   "index": 9
   }
  },
  {
@@ -4079,7 +4001,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 13
+   "index": 10
   }
  },
  {
@@ -4105,7 +4027,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 14
+   "index": 11
   }
  },
  {
@@ -4131,7 +4053,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 15
+   "index": 12
   }
  },
  {
@@ -4157,7 +4079,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 16
+   "index": 13
   }
  },
  {
@@ -4183,7 +4105,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 17
+   "index": 14
   }
  },
  {
@@ -4209,59 +4131,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 18
-  }
- },
- {
-  "id": "stoichiometry-343ec68b",
-  "skill": "stoichiometry.learn-gg",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CH<sub>4</sub></span> + 2 <span class=\"formula\">O<sub>2</sub></span> &rarr; <span class=\"formula\">CO<sub>2</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>What mass (in grams) of <span class=\"formula\">O<sub>2</sub></span> must react to make <span class=\"measure\">180. g</span> <span class=\"formula\">H<sub>2</sub>O</span>?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CH<sub>4</sub></span></td><td>16.043</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
-  "answer": 320,
-  "unit": "g O2",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "1 · Into moles: divide by the molar mass of H2O. 2 · Mole ratio: coefficients of O2 over H2O. 3 · Out of moles: multiply by the molar mass of O2.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 180. g H<sub>2</sub>O × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>O</span><span class=\"den\">18.015 g H<sub>2</sub>O</span></span> = <b>9.992 mol H<sub>2</sub>O</b></li><li><b>Mole ratio:</b> 9.992 mol H<sub>2</sub>O × <span class=\"fraction\"><span class=\"num\">2 mol O<sub>2</sub></span><span class=\"den\">2 mol H<sub>2</sub>O</span></span> = <b>9.992 mol O<sub>2</sub></b></li><li><b>Out of moles:</b> 9.992 mol O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">31.998 g O<sub>2</sub></span><span class=\"den\">1 mol O<sub>2</sub></span></span> = <b>319.7 g O<sub>2</sub></b></li></ol><div class=\"solution-chain\">180. g H<sub>2</sub>O <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>O</span><span class=\"den\">18.015 g H<sub>2</sub>O</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol O<sub>2</sub></span><span class=\"den\">2 mol H<sub>2</sub>O</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">31.998 g O<sub>2</sub></span><span class=\"den\">1 mol O<sub>2</sub></span></span> <b>=</b> 320. g O<sub>2</sub></div><div>Round to 3 significant figures: <b>320. g O<sub>2</sub></b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-gg",
-   "index": 19
-  }
- },
- {
-  "id": "stoichiometry-c0bd6d9d",
-  "skill": "stoichiometry.learn-gg",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\">4 <span class=\"formula\">Fe</span> + 3 <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">Fe<sub>2</sub>O<sub>3</sub></span></div><div>What mass (in grams) of <span class=\"formula\">Fe<sub>2</sub>O<sub>3</sub></span> can form from <span class=\"measure\">48.0 g</span> <span class=\"formula\">O<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Fe</span></td><td>55.85</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">Fe<sub>2</sub>O<sub>3</sub></span></td><td>159.70</td></tr></table>",
-  "answer": 160,
-  "unit": "g Fe2O3",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "1 · Into moles: divide by the molar mass of O2. 2 · Mole ratio: coefficients of Fe2O3 over O2. 3 · Out of moles: multiply by the molar mass of Fe2O3.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 48.0 g O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 mol O<sub>2</sub></span><span class=\"den\">31.998 g O<sub>2</sub></span></span> = <b>1.500 mol O<sub>2</sub></b></li><li><b>Mole ratio:</b> 1.500 mol O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">2 mol Fe<sub>2</sub>O<sub>3</sub></span><span class=\"den\">3 mol O<sub>2</sub></span></span> = <b>1.000 mol Fe<sub>2</sub>O<sub>3</sub></b></li><li><b>Out of moles:</b> 1.000 mol Fe<sub>2</sub>O<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">159.70 g Fe<sub>2</sub>O<sub>3</sub></span><span class=\"den\">1 mol Fe<sub>2</sub>O<sub>3</sub></span></span> = <b>159.7 g Fe<sub>2</sub>O<sub>3</sub></b></li></ol><div class=\"solution-chain\">48.0 g O<sub>2</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol O<sub>2</sub></span><span class=\"den\">31.998 g O<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol Fe<sub>2</sub>O<sub>3</sub></span><span class=\"den\">3 mol O<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">159.70 g Fe<sub>2</sub>O<sub>3</sub></span><span class=\"den\">1 mol Fe<sub>2</sub>O<sub>3</sub></span></span> <b>=</b> 160. g Fe<sub>2</sub>O<sub>3</sub></div><div>Round to 3 significant figures: <b>160. g Fe<sub>2</sub>O<sub>3</sub></b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-gg",
-   "index": 20
+   "index": 15
   }
  },
  {
@@ -4287,7 +4157,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 21
+   "index": 16
   }
  },
  {
@@ -4313,7 +4183,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 22
+   "index": 17
   }
  },
  {
@@ -4339,7 +4209,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 23
+   "index": 18
   }
  },
  {
@@ -4365,33 +4235,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 24
-  }
- },
- {
-  "id": "stoichiometry-caec1e58",
-  "skill": "stoichiometry.learn-gg",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCO<sub>3</sub></span> &rarr; <span class=\"formula\">CaO</span> + <span class=\"formula\">CO<sub>2</sub></span></div><div>What mass (in grams) of <span class=\"formula\">CaCO<sub>3</sub></span> must react to make <span class=\"measure\">112 g</span> <span class=\"formula\">CaO</span>?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">CaO</span></td><td>56.08</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr></table>",
-  "answer": 200,
-  "unit": "g CaCO3",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "1 · Into moles: divide by the molar mass of CaO. 2 · Mole ratio: coefficients of CaCO3 over CaO. 3 · Out of moles: multiply by the molar mass of CaCO3.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 112 g CaO × <span class=\"fraction\"><span class=\"num\">1 mol CaO</span><span class=\"den\">56.08 g CaO</span></span> = <b>1.997 mol CaO</b></li><li><b>Mole ratio:</b> 1.997 mol CaO × <span class=\"fraction\"><span class=\"num\">1 mol CaCO<sub>3</sub></span><span class=\"den\">1 mol CaO</span></span> = <b>1.997 mol CaCO<sub>3</sub></b></li><li><b>Out of moles:</b> 1.997 mol CaCO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">100.09 g CaCO<sub>3</sub></span><span class=\"den\">1 mol CaCO<sub>3</sub></span></span> = <b>199.9 g CaCO<sub>3</sub></b></li></ol><div class=\"solution-chain\">112 g CaO <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol CaO</span><span class=\"den\">56.08 g CaO</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol CaCO<sub>3</sub></span><span class=\"den\">1 mol CaO</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">100.09 g CaCO<sub>3</sub></span><span class=\"den\">1 mol CaCO<sub>3</sub></span></span> <b>=</b> 200. g CaCO<sub>3</sub></div><div>Round to 3 significant figures: <b>200. g CaCO<sub>3</sub></b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-gg",
-   "index": 25
+   "index": 19
   }
  },
  {
@@ -4417,7 +4261,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 26
+   "index": 20
   }
  },
  {
@@ -4443,7 +4287,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 27
+   "index": 21
   }
  },
  {
@@ -4469,7 +4313,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 28
+   "index": 22
   }
  },
  {
@@ -4495,7 +4339,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 29
+   "index": 23
   }
  },
  {
@@ -4521,7 +4365,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 30
+   "index": 24
   }
  },
  {
@@ -4547,7 +4391,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 31
+   "index": 25
   }
  },
  {
@@ -4573,7 +4417,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 32
+   "index": 26
   }
  },
  {
@@ -4599,7 +4443,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-gg",
-   "index": 33
+   "index": 27
   }
  },
  {
@@ -4621,6 +4465,162 @@
   "sigfigs": 3,
   "hint": "1 · Into moles: divide by the molar mass of N2. 2 · Mole ratio: coefficients of NH3 over N2. 3 · Out of moles: multiply by the molar mass of NH3.",
   "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 168 g N<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 mol N<sub>2</sub></span><span class=\"den\">28.014 g N<sub>2</sub></span></span> = <b>5.997 mol N<sub>2</sub></b></li><li><b>Mole ratio:</b> 5.997 mol N<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">2 mol NH<sub>3</sub></span><span class=\"den\">1 mol N<sub>2</sub></span></span> = <b>11.99 mol NH<sub>3</sub></b></li><li><b>Out of moles:</b> 11.99 mol NH<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">17.031 g NH<sub>3</sub></span><span class=\"den\">1 mol NH<sub>3</sub></span></span> = <b>204.3 g NH<sub>3</sub></b></li></ol><div class=\"solution-chain\">168 g N<sub>2</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol N<sub>2</sub></span><span class=\"den\">28.014 g N<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol NH<sub>3</sub></span><span class=\"den\">1 mol N<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">17.031 g NH<sub>3</sub></span><span class=\"den\">1 mol NH<sub>3</sub></span></span> <b>=</b> 204 g NH<sub>3</sub></div><div>Round to 3 significant figures: <b>204 g NH<sub>3</sub></b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-gg",
+   "index": 28
+  }
+ },
+ {
+  "id": "stoichiometry-7092b6d5",
+  "skill": "stoichiometry.learn-gg",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Al</span> + 3 <span class=\"formula\">Cl<sub>2</sub></span> &rarr; 2 <span class=\"formula\">AlCl<sub>3</sub></span></div><div>What mass (in grams) of <span class=\"formula\">Al</span> must react to make <span class=\"measure\">533 g</span> <span class=\"formula\">AlCl<sub>3</sub></span>?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Al</span></td><td>26.98</td></tr><tr><td><span class=\"formula\">Cl<sub>2</sub></span></td><td>70.90</td></tr><tr><td><span class=\"formula\">AlCl<sub>3</sub></span></td><td>133.33</td></tr></table>",
+  "answer": 108,
+  "unit": "g Al",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "1 · Into moles: divide by the molar mass of AlCl3. 2 · Mole ratio: coefficients of Al over AlCl3. 3 · Out of moles: multiply by the molar mass of Al.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 533 g AlCl<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol AlCl<sub>3</sub></span><span class=\"den\">133.33 g AlCl<sub>3</sub></span></span> = <b>3.998 mol AlCl<sub>3</sub></b></li><li><b>Mole ratio:</b> 3.998 mol AlCl<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">2 mol Al</span><span class=\"den\">2 mol AlCl<sub>3</sub></span></span> = <b>3.998 mol Al</b></li><li><b>Out of moles:</b> 3.998 mol Al × <span class=\"fraction\"><span class=\"num\">26.98 g Al</span><span class=\"den\">1 mol Al</span></span> = <b>107.9 g Al</b></li></ol><div class=\"solution-chain\">533 g AlCl<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol AlCl<sub>3</sub></span><span class=\"den\">133.33 g AlCl<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol Al</span><span class=\"den\">2 mol AlCl<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">26.98 g Al</span><span class=\"den\">1 mol Al</span></span> <b>=</b> 108 g Al</div><div>Round to 3 significant figures: <b>108 g Al</b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-gg",
+   "index": 29
+  }
+ },
+ {
+  "id": "stoichiometry-e9aff5a3",
+  "skill": "stoichiometry.learn-gg",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">CH<sub>4</sub></span> + 2 <span class=\"formula\">O<sub>2</sub></span> &rarr; <span class=\"formula\">CO<sub>2</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>What mass (in grams) of <span class=\"formula\">O<sub>2</sub></span> react completely with <span class=\"measure\">4.01 g</span> <span class=\"formula\">CH<sub>4</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CH<sub>4</sub></span></td><td>16.043</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
+  "answer": 16,
+  "unit": "g O2",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "1 · Into moles: divide by the molar mass of CH4. 2 · Mole ratio: coefficients of O2 over CH4. 3 · Out of moles: multiply by the molar mass of O2.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 4.01 g CH<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1 mol CH<sub>4</sub></span><span class=\"den\">16.043 g CH<sub>4</sub></span></span> = <b>0.2500 mol CH<sub>4</sub></b></li><li><b>Mole ratio:</b> 0.2500 mol CH<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">2 mol O<sub>2</sub></span><span class=\"den\">1 mol CH<sub>4</sub></span></span> = <b>0.4999 mol O<sub>2</sub></b></li><li><b>Out of moles:</b> 0.4999 mol O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">31.998 g O<sub>2</sub></span><span class=\"den\">1 mol O<sub>2</sub></span></span> = <b>16.00 g O<sub>2</sub></b></li></ol><div class=\"solution-chain\">4.01 g CH<sub>4</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol CH<sub>4</sub></span><span class=\"den\">16.043 g CH<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol O<sub>2</sub></span><span class=\"den\">1 mol CH<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">31.998 g O<sub>2</sub></span><span class=\"den\">1 mol O<sub>2</sub></span></span> <b>=</b> 16.0 g O<sub>2</sub></div><div>Round to 3 significant figures: <b>16.0 g O<sub>2</sub></b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-gg",
+   "index": 30
+  }
+ },
+ {
+  "id": "stoichiometry-1017f2f3",
+  "skill": "stoichiometry.learn-gg",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">N<sub>2</sub></span> + 3 <span class=\"formula\">H<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NH<sub>3</sub></span></div><div>What mass (in grams) of <span class=\"formula\">N<sub>2</sub></span> react completely with <span class=\"measure\">4.03 g</span> <span class=\"formula\">H<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">N<sub>2</sub></span></td><td>28.014</td></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">NH<sub>3</sub></span></td><td>17.031</td></tr></table>",
+  "answer": 18.7,
+  "unit": "g N2",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "1 · Into moles: divide by the molar mass of H2. 2 · Mole ratio: coefficients of N2 over H2. 3 · Out of moles: multiply by the molar mass of N2.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 4.03 g H<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub></span><span class=\"den\">2.016 g H<sub>2</sub></span></span> = <b>1.999 mol H<sub>2</sub></b></li><li><b>Mole ratio:</b> 1.999 mol H<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 mol N<sub>2</sub></span><span class=\"den\">3 mol H<sub>2</sub></span></span> = <b>0.6663 mol N<sub>2</sub></b></li><li><b>Out of moles:</b> 0.6663 mol N<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">28.014 g N<sub>2</sub></span><span class=\"den\">1 mol N<sub>2</sub></span></span> = <b>18.67 g N<sub>2</sub></b></li></ol><div class=\"solution-chain\">4.03 g H<sub>2</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub></span><span class=\"den\">2.016 g H<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol N<sub>2</sub></span><span class=\"den\">3 mol H<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">28.014 g N<sub>2</sub></span><span class=\"den\">1 mol N<sub>2</sub></span></span> <b>=</b> 18.7 g N<sub>2</sub></div><div>Round to 3 significant figures: <b>18.7 g N<sub>2</sub></b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-gg",
+   "index": 31
+  }
+ },
+ {
+  "id": "stoichiometry-c2e3b4c9",
+  "skill": "stoichiometry.learn-gg",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span> + 5 <span class=\"formula\">O<sub>2</sub></span> &rarr; 3 <span class=\"formula\">CO<sub>2</sub></span> + 4 <span class=\"formula\">H<sub>2</sub>O</span></div><div>What mass (in grams) of <span class=\"formula\">CO<sub>2</sub></span> can form from <span class=\"measure\">88.2 g</span> <span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span></td><td>44.097</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
+  "answer": 264,
+  "unit": "g CO2",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "1 · Into moles: divide by the molar mass of C3H8. 2 · Mole ratio: coefficients of CO2 over C3H8. 3 · Out of moles: multiply by the molar mass of CO2.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 88.2 g C<sub>3</sub>H<sub>8</sub> × <span class=\"fraction\"><span class=\"num\">1 mol C<sub>3</sub>H<sub>8</sub></span><span class=\"den\">44.097 g C<sub>3</sub>H<sub>8</sub></span></span> = <b>2.000 mol C<sub>3</sub>H<sub>8</sub></b></li><li><b>Mole ratio:</b> 2.000 mol C<sub>3</sub>H<sub>8</sub> × <span class=\"fraction\"><span class=\"num\">3 mol CO<sub>2</sub></span><span class=\"den\">1 mol C<sub>3</sub>H<sub>8</sub></span></span> = <b>6.000 mol CO<sub>2</sub></b></li><li><b>Out of moles:</b> 6.000 mol CO<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">44.009 g CO<sub>2</sub></span><span class=\"den\">1 mol CO<sub>2</sub></span></span> = <b>264.1 g CO<sub>2</sub></b></li></ol><div class=\"solution-chain\">88.2 g C<sub>3</sub>H<sub>8</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol C<sub>3</sub>H<sub>8</sub></span><span class=\"den\">44.097 g C<sub>3</sub>H<sub>8</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">3 mol CO<sub>2</sub></span><span class=\"den\">1 mol C<sub>3</sub>H<sub>8</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">44.009 g CO<sub>2</sub></span><span class=\"den\">1 mol CO<sub>2</sub></span></span> <b>=</b> 264 g CO<sub>2</sub></div><div>Round to 3 significant figures: <b>264 g CO<sub>2</sub></b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-gg",
+   "index": 32
+  }
+ },
+ {
+  "id": "stoichiometry-7f1bbd63",
+  "skill": "stoichiometry.learn-gg",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">N<sub>2</sub></span> + 3 <span class=\"formula\">H<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NH<sub>3</sub></span></div><div>What mass (in grams) of <span class=\"formula\">NH<sub>3</sub></span> can form from <span class=\"measure\">28.0 g</span> <span class=\"formula\">N<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">N<sub>2</sub></span></td><td>28.014</td></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">NH<sub>3</sub></span></td><td>17.031</td></tr></table>",
+  "answer": 34,
+  "unit": "g NH3",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "1 · Into moles: divide by the molar mass of N2. 2 · Mole ratio: coefficients of NH3 over N2. 3 · Out of moles: multiply by the molar mass of NH3.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 28.0 g N<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 mol N<sub>2</sub></span><span class=\"den\">28.014 g N<sub>2</sub></span></span> = <b>0.9995 mol N<sub>2</sub></b></li><li><b>Mole ratio:</b> 0.9995 mol N<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">2 mol NH<sub>3</sub></span><span class=\"den\">1 mol N<sub>2</sub></span></span> = <b>1.999 mol NH<sub>3</sub></b></li><li><b>Out of moles:</b> 1.999 mol NH<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">17.031 g NH<sub>3</sub></span><span class=\"den\">1 mol NH<sub>3</sub></span></span> = <b>34.04 g NH<sub>3</sub></b></li></ol><div class=\"solution-chain\">28.0 g N<sub>2</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol N<sub>2</sub></span><span class=\"den\">28.014 g N<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol NH<sub>3</sub></span><span class=\"den\">1 mol N<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">17.031 g NH<sub>3</sub></span><span class=\"den\">1 mol NH<sub>3</sub></span></span> <b>=</b> 34.0 g NH<sub>3</sub></div><div>Round to 3 significant figures: <b>34.0 g NH<sub>3</sub></b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-gg",
+   "index": 33
+  }
+ },
+ {
+  "id": "stoichiometry-4bb49de9",
+  "skill": "stoichiometry.learn-gg",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">KClO<sub>3</sub></span> &rarr; 2 <span class=\"formula\">KCl</span> + 3 <span class=\"formula\">O<sub>2</sub></span></div><div>What mass (in grams) of <span class=\"formula\">KCl</span> form along with <span class=\"measure\">64.0 g</span> <span class=\"formula\">O<sub>2</sub></span>?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">KClO<sub>3</sub></span></td><td>122.55</td></tr><tr><td><span class=\"formula\">KCl</span></td><td>74.55</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr></table>",
+  "answer": 99.4,
+  "unit": "g KCl",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "1 · Into moles: divide by the molar mass of O2. 2 · Mole ratio: coefficients of KCl over O2. 3 · Out of moles: multiply by the molar mass of KCl.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 64.0 g O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 mol O<sub>2</sub></span><span class=\"den\">31.998 g O<sub>2</sub></span></span> = <b>2.000 mol O<sub>2</sub></b></li><li><b>Mole ratio:</b> 2.000 mol O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">2 mol KCl</span><span class=\"den\">3 mol O<sub>2</sub></span></span> = <b>1.333 mol KCl</b></li><li><b>Out of moles:</b> 1.333 mol KCl × <span class=\"fraction\"><span class=\"num\">74.55 g KCl</span><span class=\"den\">1 mol KCl</span></span> = <b>99.41 g KCl</b></li></ol><div class=\"solution-chain\">64.0 g O<sub>2</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol O<sub>2</sub></span><span class=\"den\">31.998 g O<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol KCl</span><span class=\"den\">3 mol O<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">74.55 g KCl</span><span class=\"den\">1 mol KCl</span></span> <b>=</b> 99.4 g KCl</div><div>Round to 3 significant figures: <b>99.4 g KCl</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -6556,32 +6556,6 @@
   }
  },
  {
-  "id": "stoichiometry-8c0b2205",
-  "skill": "stoichiometry.learn-limit",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Na</span> + <span class=\"formula\">Cl<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NaCl</span></div><div>A reaction mixture contains <span class=\"measure\">230. g</span> <span class=\"formula\">Na</span> and <span class=\"measure\">284 g</span> <span class=\"formula\">Cl<sub>2</sub></span>. What is the theoretical yield, in <b>moles of <span class=\"formula\">NaCl</span></b>?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Na</span></td><td>22.99</td></tr><tr><td><span class=\"formula\">Cl<sub>2</sub></span></td><td>70.90</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table>",
-  "answer": 8.01,
-  "unit": "mol NaCl",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "Find how many moles of NaCl each reactant could make. The smaller amount is the theoretical yield.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Product from Na:</b> 230. g Na × <span class=\"fraction\"><span class=\"num\">1 mol Na</span><span class=\"den\">22.99 g Na</span></span> × <span class=\"fraction\"><span class=\"num\">2 mol NaCl</span><span class=\"den\">2 mol Na</span></span> = <b>10.00 mol <span class=\"formula\">NaCl</span></b></li><li><b>Product from Cl2:</b> 284 g Cl<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 mol Cl<sub>2</sub></span><span class=\"den\">70.90 g Cl<sub>2</sub></span></span> × <span class=\"fraction\"><span class=\"num\">2 mol NaCl</span><span class=\"den\">1 mol Cl<sub>2</sub></span></span> = <b>8.011 mol <span class=\"formula\">NaCl</span></b></li><li><b>Compare:</b> <span class=\"formula\">Cl<sub>2</sub></span> makes less <span class=\"formula\">NaCl</span> (8.011 mol), so <b><span class=\"formula\">Cl<sub>2</sub></span> is the limiting reactant</b>.</li></ol><div>Theoretical yield = the smaller amount = <b>8.01 mol <span class=\"formula\">NaCl</span></b>.</div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-limit",
-   "index": 4
-  }
- },
- {
   "id": "stoichiometry-58fec8f3",
   "skill": "stoichiometry.learn-limit",
   "courses": [
@@ -6604,7 +6578,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 5
+   "index": 4
   }
  },
  {
@@ -6630,7 +6604,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 6
+   "index": 5
   }
  },
  {
@@ -6657,7 +6631,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 7
+   "index": 6
   }
  },
  {
@@ -6683,7 +6657,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 8
+   "index": 7
   }
  },
  {
@@ -6709,7 +6683,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 9
+   "index": 8
   }
  },
  {
@@ -6735,7 +6709,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 10
+   "index": 9
   }
  },
  {
@@ -6761,7 +6735,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 11
+   "index": 10
   }
  },
  {
@@ -6787,7 +6761,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 12
+   "index": 11
   }
  },
  {
@@ -6813,7 +6787,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 13
+   "index": 12
   }
  },
  {
@@ -6840,7 +6814,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 14
+   "index": 13
   }
  },
  {
@@ -6867,7 +6841,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 15
+   "index": 14
   }
  },
  {
@@ -6894,7 +6868,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 16
+   "index": 15
   }
  },
  {
@@ -6921,7 +6895,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 17
+   "index": 16
   }
  },
  {
@@ -6948,7 +6922,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 18
+   "index": 17
   }
  },
  {
@@ -6974,7 +6948,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 19
+   "index": 18
   }
  },
  {
@@ -7000,7 +6974,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 20
+   "index": 19
   }
  },
  {
@@ -7026,7 +7000,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 21
+   "index": 20
   }
  },
  {
@@ -7053,7 +7027,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 22
+   "index": 21
   }
  },
  {
@@ -7079,7 +7053,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 23
+   "index": 22
   }
  },
  {
@@ -7106,7 +7080,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 24
+   "index": 23
   }
  },
  {
@@ -7133,7 +7107,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 25
+   "index": 24
   }
  },
  {
@@ -7160,7 +7134,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 26
+   "index": 25
   }
  },
  {
@@ -7187,7 +7161,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 27
+   "index": 26
   }
  },
  {
@@ -7214,7 +7188,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 28
+   "index": 27
   }
  },
  {
@@ -7241,7 +7215,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 29
+   "index": 28
   }
  },
  {
@@ -7268,33 +7242,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 30
-  }
- },
- {
-  "id": "stoichiometry-3b3fe941",
-  "skill": "stoichiometry.learn-limit",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Mg</span> + <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">MgO</span></div><div>A reaction mixture contains <span class=\"measure\">48.6 g</span> <span class=\"formula\">Mg</span> and <span class=\"measure\">160. g</span> <span class=\"formula\">O<sub>2</sub></span>. What is the theoretical yield, in <b>moles of <span class=\"formula\">MgO</span></b>?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Mg</span></td><td>24.31</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">MgO</span></td><td>40.31</td></tr></table>",
-  "answer": 2,
-  "unit": "mol MgO",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "Find how many moles of MgO each reactant could make. The smaller amount is the theoretical yield.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Product from Mg:</b> 48.6 g Mg × <span class=\"fraction\"><span class=\"num\">1 mol Mg</span><span class=\"den\">24.31 g Mg</span></span> × <span class=\"fraction\"><span class=\"num\">2 mol MgO</span><span class=\"den\">2 mol Mg</span></span> = <b>1.999 mol <span class=\"formula\">MgO</span></b></li><li><b>Product from O2:</b> 160. g O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 mol O<sub>2</sub></span><span class=\"den\">31.998 g O<sub>2</sub></span></span> × <span class=\"fraction\"><span class=\"num\">2 mol MgO</span><span class=\"den\">1 mol O<sub>2</sub></span></span> = <b>10.00 mol <span class=\"formula\">MgO</span></b></li><li><b>Compare:</b> <span class=\"formula\">Mg</span> makes less <span class=\"formula\">MgO</span> (1.999 mol), so <b><span class=\"formula\">Mg</span> is the limiting reactant</b>.</li></ol><div>Theoretical yield = the smaller amount = <b>2.00 mol <span class=\"formula\">MgO</span></b>.</div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-limit",
-   "index": 31
+   "index": 29
   }
  },
  {
@@ -7321,33 +7269,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-limit",
-   "index": 32
-  }
- },
- {
-  "id": "stoichiometry-16e260a4",
-  "skill": "stoichiometry.learn-limit",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CH<sub>4</sub></span> + 2 <span class=\"formula\">O<sub>2</sub></span> &rarr; <span class=\"formula\">CO<sub>2</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>A reaction mixture contains <span class=\"measure\">8.02 g</span> <span class=\"formula\">CH<sub>4</sub></span> and <span class=\"measure\">160. g</span> <span class=\"formula\">O<sub>2</sub></span>. What is the theoretical yield, in <b>moles of <span class=\"formula\">H<sub>2</sub>O</span></b>?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CH<sub>4</sub></span></td><td>16.043</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
-  "answer": 1,
-  "unit": "mol H2O",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "Find how many moles of H2O each reactant could make. The smaller amount is the theoretical yield.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Product from CH4:</b> 8.02 g CH<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1 mol CH<sub>4</sub></span><span class=\"den\">16.043 g CH<sub>4</sub></span></span> × <span class=\"fraction\"><span class=\"num\">2 mol H<sub>2</sub>O</span><span class=\"den\">1 mol CH<sub>4</sub></span></span> = <b>0.9998 mol <span class=\"formula\">H<sub>2</sub>O</span></b></li><li><b>Product from O2:</b> 160. g O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 mol O<sub>2</sub></span><span class=\"den\">31.998 g O<sub>2</sub></span></span> × <span class=\"fraction\"><span class=\"num\">2 mol H<sub>2</sub>O</span><span class=\"den\">2 mol O<sub>2</sub></span></span> = <b>5.000 mol <span class=\"formula\">H<sub>2</sub>O</span></b></li><li><b>Compare:</b> <span class=\"formula\">CH<sub>4</sub></span> makes less <span class=\"formula\">H<sub>2</sub>O</span> (0.9998 mol), so <b><span class=\"formula\">CH<sub>4</sub></span> is the limiting reactant</b>.</li></ol><div>Theoretical yield = the smaller amount = <b>1.00 mol <span class=\"formula\">H<sub>2</sub>O</span></b>.</div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-limit",
-   "index": 33
+   "index": 30
   }
  },
  {
@@ -7370,6 +7292,84 @@
   "answer": "<span class=\"formula\">Na</span>",
   "hint": "Find how many moles of NaCl each reactant could make. The reactant that makes LESS product is limiting. Careful: the smaller starting amount is not always limiting. Coefficients matter!",
   "explain": "<ol class=\"sol-steps\"><li><b>Product from Na:</b> 6.00 mol Na × <span class=\"fraction\"><span class=\"num\">2 mol NaCl</span><span class=\"den\">2 mol Na</span></span> = <b>6.000 mol <span class=\"formula\">NaCl</span></b></li><li><b>Product from Cl2:</b> 5.00 mol Cl<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">2 mol NaCl</span><span class=\"den\">1 mol Cl<sub>2</sub></span></span> = <b>10.00 mol <span class=\"formula\">NaCl</span></b></li><li><b>Compare:</b> <span class=\"formula\">Na</span> makes less <span class=\"formula\">NaCl</span> (6.000 mol), so <b><span class=\"formula\">Na</span> is the limiting reactant</b>.</li></ol><div><b><span class=\"formula\">Na</span></b> is limiting.</div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-limit",
+   "index": 31
+  }
+ },
+ {
+  "id": "stoichiometry-06f3fe02",
+  "skill": "stoichiometry.learn-limit",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Al</span> + 3 <span class=\"formula\">Cl<sub>2</sub></span> &rarr; 2 <span class=\"formula\">AlCl<sub>3</sub></span></div><div>A reaction mixture contains <span class=\"measure\">10.0 mol</span> <span class=\"formula\">Al</span> and <span class=\"measure\">1.50 mol</span> <span class=\"formula\">Cl<sub>2</sub></span>. What is the theoretical yield, in <b>moles of <span class=\"formula\">AlCl<sub>3</sub></span></b>?</div>",
+  "answer": 1,
+  "unit": "mol AlCl3",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "Find how many moles of AlCl3 each reactant could make. The smaller amount is the theoretical yield.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Product from Al:</b> 10.0 mol Al × <span class=\"fraction\"><span class=\"num\">2 mol AlCl<sub>3</sub></span><span class=\"den\">2 mol Al</span></span> = <b>10.00 mol <span class=\"formula\">AlCl<sub>3</sub></span></b></li><li><b>Product from Cl2:</b> 1.50 mol Cl<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">2 mol AlCl<sub>3</sub></span><span class=\"den\">3 mol Cl<sub>2</sub></span></span> = <b>1.000 mol <span class=\"formula\">AlCl<sub>3</sub></span></b></li><li><b>Compare:</b> <span class=\"formula\">Cl<sub>2</sub></span> makes less <span class=\"formula\">AlCl<sub>3</sub></span> (1.000 mol), so <b><span class=\"formula\">Cl<sub>2</sub></span> is the limiting reactant</b>.</li></ol><div>Theoretical yield = the smaller amount = <b>1.00 mol <span class=\"formula\">AlCl<sub>3</sub></span></b>.</div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-limit",
+   "index": 32
+  }
+ },
+ {
+  "id": "stoichiometry-85af7275",
+  "skill": "stoichiometry.learn-limit",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span> + 5 <span class=\"formula\">O<sub>2</sub></span> &rarr; 3 <span class=\"formula\">CO<sub>2</sub></span> + 4 <span class=\"formula\">H<sub>2</sub>O</span></div><div>A reaction mixture contains <span class=\"measure\">0.500 mol</span> <span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span> and <span class=\"measure\">4.00 mol</span> <span class=\"formula\">O<sub>2</sub></span>. What is the theoretical yield, in <b>moles of <span class=\"formula\">CO<sub>2</sub></span></b>?</div>",
+  "answer": 1.5,
+  "unit": "mol CO2",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "Find how many moles of CO2 each reactant could make. The smaller amount is the theoretical yield.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Product from C3H8:</b> 0.500 mol C<sub>3</sub>H<sub>8</sub> × <span class=\"fraction\"><span class=\"num\">3 mol CO<sub>2</sub></span><span class=\"den\">1 mol C<sub>3</sub>H<sub>8</sub></span></span> = <b>1.500 mol <span class=\"formula\">CO<sub>2</sub></span></b></li><li><b>Product from O2:</b> 4.00 mol O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">3 mol CO<sub>2</sub></span><span class=\"den\">5 mol O<sub>2</sub></span></span> = <b>2.400 mol <span class=\"formula\">CO<sub>2</sub></span></b></li><li><b>Compare:</b> <span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span> makes less <span class=\"formula\">CO<sub>2</sub></span> (1.500 mol), so <b><span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span> is the limiting reactant</b>.</li></ol><div>Theoretical yield = the smaller amount = <b>1.50 mol <span class=\"formula\">CO<sub>2</sub></span></b>.</div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-limit",
+   "index": 33
+  }
+ },
+ {
+  "id": "stoichiometry-5d8fd520",
+  "skill": "stoichiometry.learn-limit",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Al</span> + 3 <span class=\"formula\">Cl<sub>2</sub></span> &rarr; 2 <span class=\"formula\">AlCl<sub>3</sub></span></div><div>A reaction mixture contains <span class=\"measure\">2.50 mol</span> <span class=\"formula\">Al</span> and <span class=\"measure\">1.50 mol</span> <span class=\"formula\">Cl<sub>2</sub></span>. What is the theoretical yield, in <b>moles of <span class=\"formula\">AlCl<sub>3</sub></span></b>?</div>",
+  "answer": 1,
+  "unit": "mol AlCl3",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "Find how many moles of AlCl3 each reactant could make. The smaller amount is the theoretical yield.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Product from Al:</b> 2.50 mol Al × <span class=\"fraction\"><span class=\"num\">2 mol AlCl<sub>3</sub></span><span class=\"den\">2 mol Al</span></span> = <b>2.500 mol <span class=\"formula\">AlCl<sub>3</sub></span></b></li><li><b>Product from Cl2:</b> 1.50 mol Cl<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">2 mol AlCl<sub>3</sub></span><span class=\"den\">3 mol Cl<sub>2</sub></span></span> = <b>1.000 mol <span class=\"formula\">AlCl<sub>3</sub></span></b></li><li><b>Compare:</b> <span class=\"formula\">Cl<sub>2</sub></span> makes less <span class=\"formula\">AlCl<sub>3</sub></span> (1.000 mol), so <b><span class=\"formula\">Cl<sub>2</sub></span> is the limiting reactant</b>.</li></ol><div>Theoretical yield = the smaller amount = <b>1.00 mol <span class=\"formula\">AlCl<sub>3</sub></span></b>.</div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -7430,32 +7430,6 @@
   }
  },
  {
-  "id": "stoichiometry-27956ce8",
-  "skill": "stoichiometry.learn-yield",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCO<sub>3</sub></span> &rarr; <span class=\"formula\">CaO</span> + <span class=\"formula\">CO<sub>2</sub></span></div><div>Starting with <span class=\"measure\">100. g</span> <span class=\"formula\">CaCO<sub>3</sub></span>, a student collects <span class=\"measure\">35.2 g</span> <span class=\"formula\">CO<sub>2</sub></span>. What is the percent yield?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">CaO</span></td><td>56.08</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr></table>",
-  "answer": 80.1,
-  "unit": "%",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "First find the theoretical yield of CO2 with grams → moles → moles → grams. Percent yield = actual ÷ theoretical × 100%.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 100. g CaCO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol CaCO<sub>3</sub></span><span class=\"den\">100.09 g CaCO<sub>3</sub></span></span> = <b>0.9991 mol CaCO<sub>3</sub></b></li><li><b>Mole ratio:</b> 0.9991 mol CaCO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol CO<sub>2</sub></span><span class=\"den\">1 mol CaCO<sub>3</sub></span></span> = <b>0.9991 mol CO<sub>2</sub></b></li><li><b>Theoretical yield:</b> 0.9991 mol CO<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">44.009 g CO<sub>2</sub></span><span class=\"den\">1 mol CO<sub>2</sub></span></span> = <b>43.97 g CO<sub>2</sub></b></li><li><b>Percent yield:</b> <span class=\"fraction\"><span class=\"num\">35.2 g actual</span><span class=\"den\">43.97 g theoretical</span></span> × 100% = <b>80.06%</b></li></ol><div>Percent yield = <b>80.1%</b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-yield",
-   "index": 2
-  }
- },
- {
   "id": "stoichiometry-0b9788b2",
   "skill": "stoichiometry.learn-yield",
   "courses": [
@@ -7478,7 +7452,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 3
+   "index": 2
   }
  },
  {
@@ -7504,33 +7478,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 4
-  }
- },
- {
-  "id": "stoichiometry-7c98ac2d",
-  "skill": "stoichiometry.learn-yield",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">H<sub>2</sub>O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">H<sub>2</sub>O</span> + <span class=\"formula\">O<sub>2</sub></span></div><div>Starting with <span class=\"measure\">340. g</span> <span class=\"formula\">H<sub>2</sub>O<sub>2</sub></span>, a student collects <span class=\"measure\">144 g</span> <span class=\"formula\">O<sub>2</sub></span>. What is the percent yield?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub>O<sub>2</sub></span></td><td>34.014</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr></table>",
-  "answer": 90,
-  "unit": "%",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "First find the theoretical yield of O2 with grams → moles → moles → grams. Percent yield = actual ÷ theoretical × 100%.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 340. g H<sub>2</sub>O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>O<sub>2</sub></span><span class=\"den\">34.014 g H<sub>2</sub>O<sub>2</sub></span></span> = <b>9.996 mol H<sub>2</sub>O<sub>2</sub></b></li><li><b>Mole ratio:</b> 9.996 mol H<sub>2</sub>O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 mol O<sub>2</sub></span><span class=\"den\">2 mol H<sub>2</sub>O<sub>2</sub></span></span> = <b>4.998 mol O<sub>2</sub></b></li><li><b>Theoretical yield:</b> 4.998 mol O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">31.998 g O<sub>2</sub></span><span class=\"den\">1 mol O<sub>2</sub></span></span> = <b>159.9 g O<sub>2</sub></b></li><li><b>Percent yield:</b> <span class=\"fraction\"><span class=\"num\">144 g actual</span><span class=\"den\">159.9 g theoretical</span></span> × 100% = <b>90.04%</b></li></ol><div>Percent yield = <b>90.0%</b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-yield",
-   "index": 5
+   "index": 3
   }
  },
  {
@@ -7556,7 +7504,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 6
+   "index": 4
   }
  },
  {
@@ -7582,7 +7530,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 7
+   "index": 5
   }
  },
  {
@@ -7608,7 +7556,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 8
+   "index": 6
   }
  },
  {
@@ -7634,7 +7582,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 9
+   "index": 7
   }
  },
  {
@@ -7660,7 +7608,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 10
+   "index": 8
   }
  },
  {
@@ -7686,7 +7634,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 11
+   "index": 9
   }
  },
  {
@@ -7712,7 +7660,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 12
+   "index": 10
   }
  },
  {
@@ -7738,7 +7686,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 13
+   "index": 11
   }
  },
  {
@@ -7764,7 +7712,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 14
+   "index": 12
   }
  },
  {
@@ -7790,7 +7738,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 15
+   "index": 13
   }
  },
  {
@@ -7816,7 +7764,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 16
+   "index": 14
   }
  },
  {
@@ -7842,7 +7790,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 17
+   "index": 15
   }
  },
  {
@@ -7868,7 +7816,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 18
+   "index": 16
   }
  },
  {
@@ -7894,7 +7842,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 19
+   "index": 17
   }
  },
  {
@@ -7920,7 +7868,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 20
+   "index": 18
   }
  },
  {
@@ -7946,7 +7894,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 21
+   "index": 19
   }
  },
  {
@@ -7972,7 +7920,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 22
+   "index": 20
   }
  },
  {
@@ -7998,7 +7946,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 23
+   "index": 21
   }
  },
  {
@@ -8024,7 +7972,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 24
+   "index": 22
   }
  },
  {
@@ -8050,7 +7998,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 25
+   "index": 23
   }
  },
  {
@@ -8076,7 +8024,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 26
+   "index": 24
   }
  },
  {
@@ -8102,7 +8050,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 27
+   "index": 25
   }
  },
  {
@@ -8128,7 +8076,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 28
+   "index": 26
   }
  },
  {
@@ -8154,33 +8102,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 29
-  }
- },
- {
-  "id": "stoichiometry-251e7cf2",
-  "skill": "stoichiometry.learn-yield",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Al</span> + 3 <span class=\"formula\">Cl<sub>2</sub></span> &rarr; 2 <span class=\"formula\">AlCl<sub>3</sub></span></div><div>Starting with <span class=\"measure\">27.0 g</span> <span class=\"formula\">Al</span>, a student collects <span class=\"measure\">100. g</span> <span class=\"formula\">AlCl<sub>3</sub></span>. What is the percent yield? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Al</span></td><td>26.98</td></tr><tr><td><span class=\"formula\">Cl<sub>2</sub></span></td><td>70.90</td></tr><tr><td><span class=\"formula\">AlCl<sub>3</sub></span></td><td>133.33</td></tr></table>",
-  "answer": 74.9,
-  "unit": "%",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "First find the theoretical yield of AlCl3 with grams → moles → moles → grams. Percent yield = actual ÷ theoretical × 100%.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 27.0 g Al × <span class=\"fraction\"><span class=\"num\">1 mol Al</span><span class=\"den\">26.98 g Al</span></span> = <b>1.001 mol Al</b></li><li><b>Mole ratio:</b> 1.001 mol Al × <span class=\"fraction\"><span class=\"num\">2 mol AlCl<sub>3</sub></span><span class=\"den\">2 mol Al</span></span> = <b>1.001 mol AlCl<sub>3</sub></b></li><li><b>Theoretical yield:</b> 1.001 mol AlCl<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">133.33 g AlCl<sub>3</sub></span><span class=\"den\">1 mol AlCl<sub>3</sub></span></span> = <b>133.4 g AlCl<sub>3</sub></b></li><li><b>Percent yield:</b> <span class=\"fraction\"><span class=\"num\">100. g actual</span><span class=\"den\">133.4 g theoretical</span></span> × 100% = <b>74.95%</b></li></ol><div>Percent yield = <b>74.9%</b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-yield",
-   "index": 30
+   "index": 27
   }
  },
  {
@@ -8206,7 +8128,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 31
+   "index": 28
   }
  },
  {
@@ -8232,7 +8154,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 32
+   "index": 29
   }
  },
  {
@@ -8258,7 +8180,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
-   "index": 33
+   "index": 30
   }
  },
  {
@@ -8284,11 +8206,89 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-yield",
+   "index": 31
+  }
+ },
+ {
+  "id": "stoichiometry-06995827",
+  "skill": "stoichiometry.learn-yield",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">KClO<sub>3</sub></span> &rarr; 2 <span class=\"formula\">KCl</span> + 3 <span class=\"formula\">O<sub>2</sub></span></div><div>Starting with <span class=\"measure\">368 g</span> <span class=\"formula\">KClO<sub>3</sub></span>, a student collects <span class=\"measure\">168 g</span> <span class=\"formula\">KCl</span>. What is the percent yield?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">KClO<sub>3</sub></span></td><td>122.55</td></tr><tr><td><span class=\"formula\">KCl</span></td><td>74.55</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr></table>",
+  "answer": 75,
+  "unit": "%",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "First find the theoretical yield of KCl with grams → moles → moles → grams. Percent yield = actual ÷ theoretical × 100%.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 368 g KClO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol KClO<sub>3</sub></span><span class=\"den\">122.55 g KClO<sub>3</sub></span></span> = <b>3.003 mol KClO<sub>3</sub></b></li><li><b>Mole ratio:</b> 3.003 mol KClO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">2 mol KCl</span><span class=\"den\">2 mol KClO<sub>3</sub></span></span> = <b>3.003 mol KCl</b></li><li><b>Theoretical yield:</b> 3.003 mol KCl × <span class=\"fraction\"><span class=\"num\">74.55 g KCl</span><span class=\"den\">1 mol KCl</span></span> = <b>223.9 g KCl</b></li><li><b>Percent yield:</b> <span class=\"fraction\"><span class=\"num\">168 g actual</span><span class=\"den\">223.9 g theoretical</span></span> × 100% = <b>75.05%</b></li></ol><div>Percent yield = <b>75.0%</b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-yield",
+   "index": 32
+  }
+ },
+ {
+  "id": "stoichiometry-310f8351",
+  "skill": "stoichiometry.learn-yield",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\">4 <span class=\"formula\">Fe</span> + 3 <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">Fe<sub>2</sub>O<sub>3</sub></span></div><div>Starting with <span class=\"measure\">256 g</span> <span class=\"formula\">O<sub>2</sub></span>, a student collects <span class=\"measure\">639 g</span> <span class=\"formula\">Fe<sub>2</sub>O<sub>3</sub></span>. What is the percent yield? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Fe</span></td><td>55.85</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">Fe<sub>2</sub>O<sub>3</sub></span></td><td>159.70</td></tr></table>",
+  "answer": 75,
+  "unit": "%",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "First find the theoretical yield of Fe2O3 with grams → moles → moles → grams. Percent yield = actual ÷ theoretical × 100%.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 256 g O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 mol O<sub>2</sub></span><span class=\"den\">31.998 g O<sub>2</sub></span></span> = <b>8.001 mol O<sub>2</sub></b></li><li><b>Mole ratio:</b> 8.001 mol O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">2 mol Fe<sub>2</sub>O<sub>3</sub></span><span class=\"den\">3 mol O<sub>2</sub></span></span> = <b>5.334 mol Fe<sub>2</sub>O<sub>3</sub></b></li><li><b>Theoretical yield:</b> 5.334 mol Fe<sub>2</sub>O<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">159.70 g Fe<sub>2</sub>O<sub>3</sub></span><span class=\"den\">1 mol Fe<sub>2</sub>O<sub>3</sub></span></span> = <b>851.8 g Fe<sub>2</sub>O<sub>3</sub></b></li><li><b>Percent yield:</b> <span class=\"fraction\"><span class=\"num\">639 g actual</span><span class=\"den\">851.8 g theoretical</span></span> × 100% = <b>75.02%</b></li></ol><div>Percent yield = <b>75.0%</b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-yield",
+   "index": 33
+  }
+ },
+ {
+  "id": "stoichiometry-33cb3c7b",
+  "skill": "stoichiometry.learn-yield",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\">% yield = (actual ÷ theoretical) × 100%</div><div>The theoretical yield of a reaction is <span class=\"measure\">20.0 g</span>. The student actually collects <span class=\"measure\">18.0 g</span>. What is the percent yield?</div>",
+  "answer": 90,
+  "unit": "%",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "Actual yield = what you really collected. Theoretical = the most you could make. Percent yield = actual ÷ theoretical × 100%.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Divide:</b> 18.0 ÷ 20.0 = <b>0.9000</b></li><li><b>× 100%:</b> 0.9000 × 100% = <b>90.00%</b></li></ol><div>Percent yield = <b>90.0%</b>. It should be less than 100%.</div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-yield",
    "index": 34
   }
  },
  {
-  "id": "stoichiometry-0f03d579",
+  "id": "stoichiometry-182c7dcb",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8299,7 +8299,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">H<sub>2</sub></span> + <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many grams of <span class=\"formula\">H<sub>2</sub>O</span> can form from <span class=\"measure\">2.24 mol H<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">H<sub>2</sub></span> + <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many  grams of <span class=\"formula\">H<sub>2</sub>O</span> can form from <span class=\"measure\">2.24 mol H<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
   "answer": 40.4,
   "unit": "g H2O",
   "tolerance": 0.005,
@@ -8314,7 +8314,7 @@
   }
  },
  {
-  "id": "stoichiometry-95e47743",
+  "id": "stoichiometry-6332d308",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8325,7 +8325,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">H<sub>2</sub></span> + <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many grams of <span class=\"formula\">H<sub>2</sub>O</span> can form from <span class=\"measure\">6.91 × 10²² molecules of <span class=\"formula\">H<sub>2</sub></span></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">H<sub>2</sub></span> + <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many  grams of <span class=\"formula\">H<sub>2</sub>O</span> can form from <span class=\"measure\">6.91 × 10²² particles H<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
   "answer": 2.07,
   "unit": "g H2O",
   "tolerance": 0.005,
@@ -8340,7 +8340,7 @@
   }
  },
  {
-  "id": "stoichiometry-3f82b2d6",
+  "id": "stoichiometry-ef2725d8",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8351,7 +8351,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div>How many moles of <span class=\"formula\">CaCO<sub>3</sub></span> can form from <span class=\"measure\">27.8 g CaCl<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCl<sub>2</sub></span></td><td>110.98</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span></td><td>105.99</td></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div>How many  moles of <span class=\"formula\">CaCO<sub>3</sub></span> can form from <span class=\"measure\">27.8 g CaCl<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCl<sub>2</sub></span></td><td>110.98</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span></td><td>105.99</td></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table>",
   "answer": 0.25,
   "unit": "mol CaCO3",
   "tolerance": 0.005,
@@ -8366,7 +8366,7 @@
   }
  },
  {
-  "id": "stoichiometry-464fe24c",
+  "id": "stoichiometry-0733fd96",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8377,7 +8377,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">Zn</span> + 2 <span class=\"formula\">HCl</span> &rarr; <span class=\"formula\">ZnCl<sub>2</sub></span> + <span class=\"formula\">H<sub>2</sub></span></div><div>How many moles of <span class=\"formula\">ZnCl<sub>2</sub></span> can form from <span class=\"measure\">47.1 g Zn</span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Zn</span></td><td>65.39</td></tr><tr><td><span class=\"formula\">HCl</span></td><td>36.46</td></tr><tr><td><span class=\"formula\">ZnCl<sub>2</sub></span></td><td>136.29</td></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr></table>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">Zn</span> + 2 <span class=\"formula\">HCl</span> &rarr; <span class=\"formula\">ZnCl<sub>2</sub></span> + <span class=\"formula\">H<sub>2</sub></span></div><div>How many  moles of <span class=\"formula\">ZnCl<sub>2</sub></span> can form from <span class=\"measure\">47.1 g Zn</span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Zn</span></td><td>65.39</td></tr><tr><td><span class=\"formula\">HCl</span></td><td>36.46</td></tr><tr><td><span class=\"formula\">ZnCl<sub>2</sub></span></td><td>136.29</td></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr></table>",
   "answer": 0.72,
   "unit": "mol ZnCl2",
   "tolerance": 0.005,
@@ -8392,7 +8392,7 @@
   }
  },
  {
-  "id": "stoichiometry-eb6b7bf5",
+  "id": "stoichiometry-98693cfc",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8403,7 +8403,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">AgNO<sub>3</sub></span> + <span class=\"formula\">NaCl</span> &rarr; <span class=\"formula\">AgCl</span> + <span class=\"formula\">NaNO<sub>3</sub></span></div><div>How many grams of <span class=\"formula\">AgCl</span> can form from <span class=\"measure\">0.443 mol NaCl</span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">AgNO<sub>3</sub></span></td><td>169.87</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr><tr><td><span class=\"formula\">AgCl</span></td><td>143.32</td></tr><tr><td><span class=\"formula\">NaNO<sub>3</sub></span></td><td>84.99</td></tr></table>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">AgNO<sub>3</sub></span> + <span class=\"formula\">NaCl</span> &rarr; <span class=\"formula\">AgCl</span> + <span class=\"formula\">NaNO<sub>3</sub></span></div><div>How many  grams of <span class=\"formula\">AgCl</span> can form from <span class=\"measure\">0.443 mol NaCl</span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">AgNO<sub>3</sub></span></td><td>169.87</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr><tr><td><span class=\"formula\">AgCl</span></td><td>143.32</td></tr><tr><td><span class=\"formula\">NaNO<sub>3</sub></span></td><td>84.99</td></tr></table>",
   "answer": 63.5,
   "unit": "g AgCl",
   "tolerance": 0.005,
@@ -8418,7 +8418,7 @@
   }
  },
  {
-  "id": "stoichiometry-674b7d11",
+  "id": "stoichiometry-8a9ab64b",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8429,7 +8429,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Mg</span> + <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">MgO</span></div><div>How many formula units of <span class=\"formula\">MgO</span> can form from <span class=\"measure\">35.9 g O<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Mg</span></td><td>24.31</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">MgO</span></td><td>40.31</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Mg</span> + <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">MgO</span></div><div>How many particles of <span class=\"formula\">MgO</span> can form from <span class=\"measure\">35.9 g O<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Mg</span></td><td>24.31</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">MgO</span></td><td>40.31</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
   "answer": 1.35e+24,
   "unit": "particles MgO",
   "tolerance": 0.005,
@@ -8444,7 +8444,7 @@
   }
  },
  {
-  "id": "stoichiometry-7edc778f",
+  "id": "stoichiometry-e904a89c",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8455,7 +8455,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div>How many formula units of <span class=\"formula\">CaCO<sub>3</sub></span> can form from <span class=\"measure\">5.42 g Na<sub>2</sub>CO<sub>3</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCl<sub>2</sub></span></td><td>110.98</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span></td><td>105.99</td></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div>How many particles of <span class=\"formula\">CaCO<sub>3</sub></span> can form from <span class=\"measure\">5.42 g Na<sub>2</sub>CO<sub>3</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCl<sub>2</sub></span></td><td>110.98</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span></td><td>105.99</td></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
   "answer": 3.08e+22,
   "unit": "particles CaCO3",
   "tolerance": 0.005,
@@ -8470,7 +8470,7 @@
   }
  },
  {
-  "id": "stoichiometry-4dbba10f",
+  "id": "stoichiometry-1d1d55eb",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8481,7 +8481,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Al</span> + 3 <span class=\"formula\">Cl<sub>2</sub></span> &rarr; 2 <span class=\"formula\">AlCl<sub>3</sub></span></div><div>How many formula units of <span class=\"formula\">AlCl<sub>3</sub></span> can form from <span class=\"measure\">45.3 g Cl<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Al</span></td><td>26.98</td></tr><tr><td><span class=\"formula\">Cl<sub>2</sub></span></td><td>70.90</td></tr><tr><td><span class=\"formula\">AlCl<sub>3</sub></span></td><td>133.33</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Al</span> + 3 <span class=\"formula\">Cl<sub>2</sub></span> &rarr; 2 <span class=\"formula\">AlCl<sub>3</sub></span></div><div>How many particles of <span class=\"formula\">AlCl<sub>3</sub></span> can form from <span class=\"measure\">45.3 g Cl<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Al</span></td><td>26.98</td></tr><tr><td><span class=\"formula\">Cl<sub>2</sub></span></td><td>70.90</td></tr><tr><td><span class=\"formula\">AlCl<sub>3</sub></span></td><td>133.33</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
   "answer": 2.57e+23,
   "unit": "particles AlCl3",
   "tolerance": 0.005,
@@ -8496,7 +8496,7 @@
   }
  },
  {
-  "id": "stoichiometry-d0b46576",
+  "id": "stoichiometry-ebba99e9",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8507,7 +8507,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CH<sub>4</sub></span> + 2 <span class=\"formula\">O<sub>2</sub></span> &rarr; <span class=\"formula\">CO<sub>2</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many grams of <span class=\"formula\">CO<sub>2</sub></span> can form from <span class=\"measure\">0.732 mol CH<sub>4</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CH<sub>4</sub></span></td><td>16.043</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">CH<sub>4</sub></span> + 2 <span class=\"formula\">O<sub>2</sub></span> &rarr; <span class=\"formula\">CO<sub>2</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many  grams of <span class=\"formula\">CO<sub>2</sub></span> can form from <span class=\"measure\">0.732 mol CH<sub>4</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CH<sub>4</sub></span></td><td>16.043</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
   "answer": 32.2,
   "unit": "g CO2",
   "tolerance": 0.005,
@@ -8522,7 +8522,7 @@
   }
  },
  {
-  "id": "stoichiometry-b62a2e10",
+  "id": "stoichiometry-f3c665ff",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8533,13 +8533,13 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div>How many grams of <span class=\"formula\">NaCl</span> can form from <span class=\"measure\">1.20 mol Na<sub>2</sub>CO<sub>3</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCl<sub>2</sub></span></td><td>110.98</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span></td><td>105.99</td></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div>How many  grams of <span class=\"formula\">NaCl</span> can form from <span class=\"measure\">1.20 mol Na<sub>2</sub>CO<sub>3</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCl<sub>2</sub></span></td><td>110.98</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span></td><td>105.99</td></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table>",
   "answer": 140,
   "unit": "g NaCl",
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Start with the given amount and convert it to moles. Use the coefficients of the balanced equation as the mole ratio. Convert moles of the desired substance to the requested unit.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Mole ratio:</b> 1.20 mol Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">2 mol NaCl</span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>2.400 mol NaCl</b></li><li><b>Out of moles:</b> 2.400 mol NaCl × <span class=\"fraction\"><span class=\"num\">58.44 g NaCl</span><span class=\"den\">1 mol NaCl</span></span> = <b>140.3 g NaCl</b></li></ol><div class=\"solution-chain\">1.20 mol Na<sub>2</sub>CO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol NaCl</span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">58.44 g NaCl</span><span class=\"den\">1 mol NaCl</span></span> <b>=</b> 140. g NaCl</div><div>Round to 3 significant figures: <b>140. g NaCl</b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Mole ratio:</b> 1.20 mol Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">2 mol NaCl</span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>2.400 mol NaCl</b></li><li><b>Out of moles:</b> 2.400 mol NaCl × <span class=\"fraction\"><span class=\"num\">58.44 g NaCl</span><span class=\"den\">1 mol NaCl</span></span> = <b>140.3 g NaCl</b></li></ol><div class=\"solution-chain\">1.20 mol Na<sub>2</sub>CO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol NaCl</span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">58.44 g NaCl</span><span class=\"den\">1 mol NaCl</span></span> <b>=</b> 1.40 × 10² g NaCl</div><div>Round to 3 significant figures: <b>1.40 × 10² g NaCl</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -8548,7 +8548,7 @@
   }
  },
  {
-  "id": "stoichiometry-85284691",
+  "id": "stoichiometry-c20de3cc",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8559,7 +8559,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">KClO<sub>3</sub></span> &rarr; 2 <span class=\"formula\">KCl</span> + 3 <span class=\"formula\">O<sub>2</sub></span></div><div>How many grams of <span class=\"formula\">KCl</span> can form from <span class=\"measure\">26.7 g KClO<sub>3</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">KClO<sub>3</sub></span></td><td>122.55</td></tr><tr><td><span class=\"formula\">KCl</span></td><td>74.55</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr></table>",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">KClO<sub>3</sub></span> &rarr; 2 <span class=\"formula\">KCl</span> + 3 <span class=\"formula\">O<sub>2</sub></span></div><div>How many  grams of <span class=\"formula\">KCl</span> can form from <span class=\"measure\">26.7 g KClO<sub>3</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">KClO<sub>3</sub></span></td><td>122.55</td></tr><tr><td><span class=\"formula\">KCl</span></td><td>74.55</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr></table>",
   "answer": 16.2,
   "unit": "g KCl",
   "tolerance": 0.005,
@@ -8574,7 +8574,7 @@
   }
  },
  {
-  "id": "stoichiometry-5e5b9b85",
+  "id": "stoichiometry-e7e03871",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8585,7 +8585,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">H<sub>2</sub>O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">H<sub>2</sub>O</span> + <span class=\"formula\">O<sub>2</sub></span></div><div>How many moles of <span class=\"formula\">H<sub>2</sub>O</span> can form from <span class=\"measure\">53.6 g H<sub>2</sub>O<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub>O<sub>2</sub></span></td><td>34.014</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr></table>",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">H<sub>2</sub>O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">H<sub>2</sub>O</span> + <span class=\"formula\">O<sub>2</sub></span></div><div>How many  moles of <span class=\"formula\">H<sub>2</sub>O</span> can form from <span class=\"measure\">53.6 g H<sub>2</sub>O<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub>O<sub>2</sub></span></td><td>34.014</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr></table>",
   "answer": 1.58,
   "unit": "mol H2O",
   "tolerance": 0.005,
@@ -8600,7 +8600,7 @@
   }
  },
  {
-  "id": "stoichiometry-6130af24",
+  "id": "stoichiometry-6b5df48a",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8611,7 +8611,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CH<sub>4</sub></span> + 2 <span class=\"formula\">O<sub>2</sub></span> &rarr; <span class=\"formula\">CO<sub>2</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many grams of <span class=\"formula\">CO<sub>2</sub></span> can form from <span class=\"measure\">40.2 g O<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CH<sub>4</sub></span></td><td>16.043</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">CH<sub>4</sub></span> + 2 <span class=\"formula\">O<sub>2</sub></span> &rarr; <span class=\"formula\">CO<sub>2</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many  grams of <span class=\"formula\">CO<sub>2</sub></span> can form from <span class=\"measure\">40.2 g O<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CH<sub>4</sub></span></td><td>16.043</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
   "answer": 27.6,
   "unit": "g CO2",
   "tolerance": 0.005,
@@ -8626,7 +8626,7 @@
   }
  },
  {
-  "id": "stoichiometry-66cefe4e",
+  "id": "stoichiometry-df5771f2",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8637,7 +8637,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CH<sub>4</sub></span> + 2 <span class=\"formula\">O<sub>2</sub></span> &rarr; <span class=\"formula\">CO<sub>2</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many molecules of <span class=\"formula\">CO<sub>2</sub></span> can form from <span class=\"measure\">41.5 g O<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CH<sub>4</sub></span></td><td>16.043</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">CH<sub>4</sub></span> + 2 <span class=\"formula\">O<sub>2</sub></span> &rarr; <span class=\"formula\">CO<sub>2</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many particles of <span class=\"formula\">CO<sub>2</sub></span> can form from <span class=\"measure\">41.5 g O<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CH<sub>4</sub></span></td><td>16.043</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
   "answer": 3.91e+23,
   "unit": "particles CO2",
   "tolerance": 0.005,
@@ -8652,7 +8652,7 @@
   }
  },
  {
-  "id": "stoichiometry-b545427e",
+  "id": "stoichiometry-2d98c5e4",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8663,7 +8663,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">H<sub>2</sub></span> + <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many grams of <span class=\"formula\">H<sub>2</sub>O</span> can form from <span class=\"measure\">3.39 × 10²² molecules of <span class=\"formula\">O<sub>2</sub></span></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">H<sub>2</sub></span> + <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many  grams of <span class=\"formula\">H<sub>2</sub>O</span> can form from <span class=\"measure\">3.39 × 10²² particles O<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
   "answer": 2.03,
   "unit": "g H2O",
   "tolerance": 0.005,
@@ -8678,7 +8678,7 @@
   }
  },
  {
-  "id": "stoichiometry-315d76fa",
+  "id": "stoichiometry-01391d94",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8689,7 +8689,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Na</span> + <span class=\"formula\">Cl<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NaCl</span></div><div>How many formula units of <span class=\"formula\">NaCl</span> can form from <span class=\"measure\">16.3 g Cl<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Na</span></td><td>22.99</td></tr><tr><td><span class=\"formula\">Cl<sub>2</sub></span></td><td>70.90</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Na</span> + <span class=\"formula\">Cl<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NaCl</span></div><div>How many particles of <span class=\"formula\">NaCl</span> can form from <span class=\"measure\">16.3 g Cl<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Na</span></td><td>22.99</td></tr><tr><td><span class=\"formula\">Cl<sub>2</sub></span></td><td>70.90</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
   "answer": 2.77e+23,
   "unit": "particles NaCl",
   "tolerance": 0.005,
@@ -8704,7 +8704,7 @@
   }
  },
  {
-  "id": "stoichiometry-7c4ce7c9",
+  "id": "stoichiometry-470c9e34",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8715,7 +8715,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">N<sub>2</sub></span> + 3 <span class=\"formula\">H<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NH<sub>3</sub></span></div><div>How many grams of <span class=\"formula\">NH<sub>3</sub></span> can form from <span class=\"measure\">2.12 mol N<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">N<sub>2</sub></span></td><td>28.014</td></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">NH<sub>3</sub></span></td><td>17.031</td></tr></table>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">N<sub>2</sub></span> + 3 <span class=\"formula\">H<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NH<sub>3</sub></span></div><div>How many  grams of <span class=\"formula\">NH<sub>3</sub></span> can form from <span class=\"measure\">2.12 mol N<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">N<sub>2</sub></span></td><td>28.014</td></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">NH<sub>3</sub></span></td><td>17.031</td></tr></table>",
   "answer": 72.2,
   "unit": "g NH3",
   "tolerance": 0.005,
@@ -8730,7 +8730,7 @@
   }
  },
  {
-  "id": "stoichiometry-0de48a16",
+  "id": "stoichiometry-a2f324f7",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8741,7 +8741,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">KClO<sub>3</sub></span> &rarr; 2 <span class=\"formula\">KCl</span> + 3 <span class=\"formula\">O<sub>2</sub></span></div><div>How many grams of <span class=\"formula\">KCl</span> can form from <span class=\"measure\">3.11 × 10²² formula units of <span class=\"formula\">KClO<sub>3</sub></span></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">KClO<sub>3</sub></span></td><td>122.55</td></tr><tr><td><span class=\"formula\">KCl</span></td><td>74.55</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">KClO<sub>3</sub></span> &rarr; 2 <span class=\"formula\">KCl</span> + 3 <span class=\"formula\">O<sub>2</sub></span></div><div>How many  grams of <span class=\"formula\">KCl</span> can form from <span class=\"measure\">3.11 × 10²² particles KClO<sub>3</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">KClO<sub>3</sub></span></td><td>122.55</td></tr><tr><td><span class=\"formula\">KCl</span></td><td>74.55</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
   "answer": 3.85,
   "unit": "g KCl",
   "tolerance": 0.005,
@@ -8756,7 +8756,7 @@
   }
  },
  {
-  "id": "stoichiometry-9cc00611",
+  "id": "stoichiometry-8913a01f",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8767,7 +8767,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">Zn</span> + 2 <span class=\"formula\">HCl</span> &rarr; <span class=\"formula\">ZnCl<sub>2</sub></span> + <span class=\"formula\">H<sub>2</sub></span></div><div>How many grams of <span class=\"formula\">H<sub>2</sub></span> can form from <span class=\"measure\">0.118 mol HCl</span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Zn</span></td><td>65.39</td></tr><tr><td><span class=\"formula\">HCl</span></td><td>36.46</td></tr><tr><td><span class=\"formula\">ZnCl<sub>2</sub></span></td><td>136.29</td></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr></table>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">Zn</span> + 2 <span class=\"formula\">HCl</span> &rarr; <span class=\"formula\">ZnCl<sub>2</sub></span> + <span class=\"formula\">H<sub>2</sub></span></div><div>How many  grams of <span class=\"formula\">H<sub>2</sub></span> can form from <span class=\"measure\">0.118 mol HCl</span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Zn</span></td><td>65.39</td></tr><tr><td><span class=\"formula\">HCl</span></td><td>36.46</td></tr><tr><td><span class=\"formula\">ZnCl<sub>2</sub></span></td><td>136.29</td></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr></table>",
   "answer": 0.119,
   "unit": "g H2",
   "tolerance": 0.005,
@@ -8782,7 +8782,7 @@
   }
  },
  {
-  "id": "stoichiometry-d23c9bee",
+  "id": "stoichiometry-a5ae1cde",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8793,7 +8793,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">KClO<sub>3</sub></span> &rarr; 2 <span class=\"formula\">KCl</span> + 3 <span class=\"formula\">O<sub>2</sub></span></div><div>How many grams of <span class=\"formula\">KCl</span> can form from <span class=\"measure\">1.64 mol KClO<sub>3</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">KClO<sub>3</sub></span></td><td>122.55</td></tr><tr><td><span class=\"formula\">KCl</span></td><td>74.55</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr></table>",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">KClO<sub>3</sub></span> &rarr; 2 <span class=\"formula\">KCl</span> + 3 <span class=\"formula\">O<sub>2</sub></span></div><div>How many  grams of <span class=\"formula\">KCl</span> can form from <span class=\"measure\">1.64 mol KClO<sub>3</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">KClO<sub>3</sub></span></td><td>122.55</td></tr><tr><td><span class=\"formula\">KCl</span></td><td>74.55</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr></table>",
   "answer": 122,
   "unit": "g KCl",
   "tolerance": 0.005,
@@ -8808,7 +8808,7 @@
   }
  },
  {
-  "id": "stoichiometry-5945a457",
+  "id": "stoichiometry-0d1c3988",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8819,7 +8819,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">N<sub>2</sub></span> + 3 <span class=\"formula\">H<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NH<sub>3</sub></span></div><div>How many molecules of <span class=\"formula\">NH<sub>3</sub></span> can form from <span class=\"measure\">4.72 g N<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">N<sub>2</sub></span></td><td>28.014</td></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">NH<sub>3</sub></span></td><td>17.031</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">N<sub>2</sub></span> + 3 <span class=\"formula\">H<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NH<sub>3</sub></span></div><div>How many particles of <span class=\"formula\">NH<sub>3</sub></span> can form from <span class=\"measure\">4.72 g N<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">N<sub>2</sub></span></td><td>28.014</td></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">NH<sub>3</sub></span></td><td>17.031</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
   "answer": 2.03e+23,
   "unit": "particles NH3",
   "tolerance": 0.005,
@@ -8834,7 +8834,7 @@
   }
  },
  {
-  "id": "stoichiometry-fdeb59e8",
+  "id": "stoichiometry-c1eec217",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8845,7 +8845,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many grams of <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> can form from <span class=\"measure\">5.20 g H<sub>2</sub>SO<sub>4</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span></td><td>98.07</td></tr><tr><td><span class=\"formula\">NaOH</span></td><td>40.00</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span></td><td>142.04</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many  grams of <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> can form from <span class=\"measure\">5.20 g H<sub>2</sub>SO<sub>4</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span></td><td>98.07</td></tr><tr><td><span class=\"formula\">NaOH</span></td><td>40.00</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span></td><td>142.04</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
   "answer": 7.53,
   "unit": "g Na2SO4",
   "tolerance": 0.005,
@@ -8860,7 +8860,7 @@
   }
  },
  {
-  "id": "stoichiometry-73aa6153",
+  "id": "stoichiometry-db4003fc",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8871,7 +8871,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span> + 5 <span class=\"formula\">O<sub>2</sub></span> &rarr; 3 <span class=\"formula\">CO<sub>2</sub></span> + 4 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many moles of <span class=\"formula\">CO<sub>2</sub></span> can form from <span class=\"measure\">7.74 g C<sub>3</sub>H<sub>8</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span></td><td>44.097</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span> + 5 <span class=\"formula\">O<sub>2</sub></span> &rarr; 3 <span class=\"formula\">CO<sub>2</sub></span> + 4 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many  moles of <span class=\"formula\">CO<sub>2</sub></span> can form from <span class=\"measure\">7.74 g C<sub>3</sub>H<sub>8</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span></td><td>44.097</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
   "answer": 0.527,
   "unit": "mol CO2",
   "tolerance": 0.005,
@@ -8886,7 +8886,7 @@
   }
  },
  {
-  "id": "stoichiometry-5c93c89a",
+  "id": "stoichiometry-86b1462f",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8897,7 +8897,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">HCl</span> + <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">NaCl</span> + <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many grams of <span class=\"formula\">H<sub>2</sub>O</span> can form from <span class=\"measure\">0.653 mol NaOH</span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">HCl</span></td><td>36.46</td></tr><tr><td><span class=\"formula\">NaOH</span></td><td>40.00</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">HCl</span> + <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">NaCl</span> + <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many  grams of <span class=\"formula\">H<sub>2</sub>O</span> can form from <span class=\"measure\">0.653 mol NaOH</span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">HCl</span></td><td>36.46</td></tr><tr><td><span class=\"formula\">NaOH</span></td><td>40.00</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
   "answer": 11.8,
   "unit": "g H2O",
   "tolerance": 0.005,
@@ -8912,7 +8912,7 @@
   }
  },
  {
-  "id": "stoichiometry-44396960",
+  "id": "stoichiometry-1b526102",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8923,7 +8923,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">N<sub>2</sub></span> + 3 <span class=\"formula\">H<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NH<sub>3</sub></span></div><div>How many grams of <span class=\"formula\">NH<sub>3</sub></span> can form from <span class=\"measure\">2.87 × 10²² molecules of <span class=\"formula\">N<sub>2</sub></span></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">N<sub>2</sub></span></td><td>28.014</td></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">NH<sub>3</sub></span></td><td>17.031</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">N<sub>2</sub></span> + 3 <span class=\"formula\">H<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NH<sub>3</sub></span></div><div>How many  grams of <span class=\"formula\">NH<sub>3</sub></span> can form from <span class=\"measure\">2.87 × 10²² particles N<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">N<sub>2</sub></span></td><td>28.014</td></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">NH<sub>3</sub></span></td><td>17.031</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
   "answer": 1.62,
   "unit": "g NH3",
   "tolerance": 0.005,
@@ -8938,7 +8938,7 @@
   }
  },
  {
-  "id": "stoichiometry-fd68adce",
+  "id": "stoichiometry-05a193b2",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8949,7 +8949,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\">4 <span class=\"formula\">Fe</span> + 3 <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">Fe<sub>2</sub>O<sub>3</sub></span></div><div>How many grams of <span class=\"formula\">Fe<sub>2</sub>O<sub>3</sub></span> can form from <span class=\"measure\">4.60 × 10²² molecules of <span class=\"formula\">O<sub>2</sub></span></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Fe</span></td><td>55.85</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">Fe<sub>2</sub>O<sub>3</sub></span></td><td>159.70</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
+  "prompt": "<div class=\"eq\">4 <span class=\"formula\">Fe</span> + 3 <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">Fe<sub>2</sub>O<sub>3</sub></span></div><div>How many  grams of <span class=\"formula\">Fe<sub>2</sub>O<sub>3</sub></span> can form from <span class=\"measure\">4.60 × 10²² particles O<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Fe</span></td><td>55.85</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">Fe<sub>2</sub>O<sub>3</sub></span></td><td>159.70</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
   "answer": 8.13,
   "unit": "g Fe2O3",
   "tolerance": 0.005,
@@ -8964,7 +8964,7 @@
   }
  },
  {
-  "id": "stoichiometry-501fef29",
+  "id": "stoichiometry-8800fff1",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -8975,7 +8975,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div>How many formula units of <span class=\"formula\">NaCl</span> can form from <span class=\"measure\">34.4 g CaCl<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCl<sub>2</sub></span></td><td>110.98</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span></td><td>105.99</td></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div>How many particles of <span class=\"formula\">NaCl</span> can form from <span class=\"measure\">34.4 g CaCl<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCl<sub>2</sub></span></td><td>110.98</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span></td><td>105.99</td></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
   "answer": 3.73e+23,
   "unit": "particles NaCl",
   "tolerance": 0.005,
@@ -8990,7 +8990,7 @@
   }
  },
  {
-  "id": "stoichiometry-0ca829c6",
+  "id": "stoichiometry-27f4c04b",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -9001,7 +9001,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCO<sub>3</sub></span> &rarr; <span class=\"formula\">CaO</span> + <span class=\"formula\">CO<sub>2</sub></span></div><div>How many moles of <span class=\"formula\">CO<sub>2</sub></span> can form from <span class=\"measure\">48.2 g CaCO<sub>3</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">CaO</span></td><td>56.08</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr></table>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCO<sub>3</sub></span> &rarr; <span class=\"formula\">CaO</span> + <span class=\"formula\">CO<sub>2</sub></span></div><div>How many  moles of <span class=\"formula\">CO<sub>2</sub></span> can form from <span class=\"measure\">48.2 g CaCO<sub>3</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">CaO</span></td><td>56.08</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr></table>",
   "answer": 0.482,
   "unit": "mol CO2",
   "tolerance": 0.005,
@@ -9016,7 +9016,7 @@
   }
  },
  {
-  "id": "stoichiometry-016f6203",
+  "id": "stoichiometry-ab18f619",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -9027,7 +9027,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Al</span> + 3 <span class=\"formula\">Cl<sub>2</sub></span> &rarr; 2 <span class=\"formula\">AlCl<sub>3</sub></span></div><div>How many grams of <span class=\"formula\">AlCl<sub>3</sub></span> can form from <span class=\"measure\">2.81 × 10²² molecules of <span class=\"formula\">Cl<sub>2</sub></span></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Al</span></td><td>26.98</td></tr><tr><td><span class=\"formula\">Cl<sub>2</sub></span></td><td>70.90</td></tr><tr><td><span class=\"formula\">AlCl<sub>3</sub></span></td><td>133.33</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Al</span> + 3 <span class=\"formula\">Cl<sub>2</sub></span> &rarr; 2 <span class=\"formula\">AlCl<sub>3</sub></span></div><div>How many  grams of <span class=\"formula\">AlCl<sub>3</sub></span> can form from <span class=\"measure\">2.81 × 10²² particles Cl<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Al</span></td><td>26.98</td></tr><tr><td><span class=\"formula\">Cl<sub>2</sub></span></td><td>70.90</td></tr><tr><td><span class=\"formula\">AlCl<sub>3</sub></span></td><td>133.33</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
   "answer": 4.15,
   "unit": "g AlCl3",
   "tolerance": 0.005,
@@ -9042,7 +9042,7 @@
   }
  },
  {
-  "id": "stoichiometry-c07f204f",
+  "id": "stoichiometry-7baed01e",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -9053,7 +9053,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Al</span> + 3 <span class=\"formula\">Cl<sub>2</sub></span> &rarr; 2 <span class=\"formula\">AlCl<sub>3</sub></span></div><div>How many grams of <span class=\"formula\">AlCl<sub>3</sub></span> can form from <span class=\"measure\">22.4 g Al</span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Al</span></td><td>26.98</td></tr><tr><td><span class=\"formula\">Cl<sub>2</sub></span></td><td>70.90</td></tr><tr><td><span class=\"formula\">AlCl<sub>3</sub></span></td><td>133.33</td></tr></table>",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Al</span> + 3 <span class=\"formula\">Cl<sub>2</sub></span> &rarr; 2 <span class=\"formula\">AlCl<sub>3</sub></span></div><div>How many  grams of <span class=\"formula\">AlCl<sub>3</sub></span> can form from <span class=\"measure\">22.4 g Al</span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Al</span></td><td>26.98</td></tr><tr><td><span class=\"formula\">Cl<sub>2</sub></span></td><td>70.90</td></tr><tr><td><span class=\"formula\">AlCl<sub>3</sub></span></td><td>133.33</td></tr></table>",
   "answer": 111,
   "unit": "g AlCl3",
   "tolerance": 0.005,
@@ -9068,7 +9068,7 @@
   }
  },
  {
-  "id": "stoichiometry-115574a8",
+  "id": "stoichiometry-6d4456a1",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -9079,7 +9079,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">AgNO<sub>3</sub></span> + <span class=\"formula\">NaCl</span> &rarr; <span class=\"formula\">AgCl</span> + <span class=\"formula\">NaNO<sub>3</sub></span></div><div>How many moles of <span class=\"formula\">NaNO<sub>3</sub></span> can form from <span class=\"measure\">7.62 g NaCl</span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">AgNO<sub>3</sub></span></td><td>169.87</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr><tr><td><span class=\"formula\">AgCl</span></td><td>143.32</td></tr><tr><td><span class=\"formula\">NaNO<sub>3</sub></span></td><td>84.99</td></tr></table>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">AgNO<sub>3</sub></span> + <span class=\"formula\">NaCl</span> &rarr; <span class=\"formula\">AgCl</span> + <span class=\"formula\">NaNO<sub>3</sub></span></div><div>How many  moles of <span class=\"formula\">NaNO<sub>3</sub></span> can form from <span class=\"measure\">7.62 g NaCl</span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">AgNO<sub>3</sub></span></td><td>169.87</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr><tr><td><span class=\"formula\">AgCl</span></td><td>143.32</td></tr><tr><td><span class=\"formula\">NaNO<sub>3</sub></span></td><td>84.99</td></tr></table>",
   "answer": 0.13,
   "unit": "mol NaNO3",
   "tolerance": 0.005,
@@ -9094,7 +9094,7 @@
   }
  },
  {
-  "id": "stoichiometry-1c96d882",
+  "id": "stoichiometry-ce802d86",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -9105,7 +9105,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">KClO<sub>3</sub></span> &rarr; 2 <span class=\"formula\">KCl</span> + 3 <span class=\"formula\">O<sub>2</sub></span></div><div>How many moles of <span class=\"formula\">O<sub>2</sub></span> can form from <span class=\"measure\">29.5 g KClO<sub>3</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">KClO<sub>3</sub></span></td><td>122.55</td></tr><tr><td><span class=\"formula\">KCl</span></td><td>74.55</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr></table>",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">KClO<sub>3</sub></span> &rarr; 2 <span class=\"formula\">KCl</span> + 3 <span class=\"formula\">O<sub>2</sub></span></div><div>How many  moles of <span class=\"formula\">O<sub>2</sub></span> can form from <span class=\"measure\">29.5 g KClO<sub>3</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">KClO<sub>3</sub></span></td><td>122.55</td></tr><tr><td><span class=\"formula\">KCl</span></td><td>74.55</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr></table>",
   "answer": 0.361,
   "unit": "mol O2",
   "tolerance": 0.005,
@@ -9120,7 +9120,7 @@
   }
  },
  {
-  "id": "stoichiometry-e905b30d",
+  "id": "stoichiometry-01f22bf1",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -9131,7 +9131,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Mg</span> + <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">MgO</span></div><div>How many grams of <span class=\"formula\">MgO</span> can form from <span class=\"measure\">2.87 × 10²² molecules of <span class=\"formula\">O<sub>2</sub></span></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Mg</span></td><td>24.31</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">MgO</span></td><td>40.31</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Mg</span> + <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">MgO</span></div><div>How many  grams of <span class=\"formula\">MgO</span> can form from <span class=\"measure\">2.87 × 10²² particles O<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Mg</span></td><td>24.31</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">MgO</span></td><td>40.31</td></tr></table><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
   "answer": 3.84,
   "unit": "g MgO",
   "tolerance": 0.005,
@@ -9146,7 +9146,7 @@
   }
  },
  {
-  "id": "stoichiometry-8c30a6e3",
+  "id": "stoichiometry-9b4d597c",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -9157,7 +9157,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">H<sub>2</sub></span> + <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many grams of <span class=\"formula\">H<sub>2</sub>O</span> can form from <span class=\"measure\">1.23 mol O<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">H<sub>2</sub></span> + <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many  grams of <span class=\"formula\">H<sub>2</sub>O</span> can form from <span class=\"measure\">1.23 mol O<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
   "answer": 44.3,
   "unit": "g H2O",
   "tolerance": 0.005,
@@ -9172,7 +9172,7 @@
   }
  },
  {
-  "id": "stoichiometry-76b4dfd0",
+  "id": "stoichiometry-fc32258d",
   "skill": "stoichiometry.mass",
   "courses": [
    "3A",
@@ -9183,7 +9183,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div>How many grams of <span class=\"formula\">NaCl</span> can form from <span class=\"measure\">4.50 g Na<sub>2</sub>CO<sub>3</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCl<sub>2</sub></span></td><td>110.98</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span></td><td>105.99</td></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div>How many  grams of <span class=\"formula\">NaCl</span> can form from <span class=\"measure\">4.50 g Na<sub>2</sub>CO<sub>3</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCl<sub>2</sub></span></td><td>110.98</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span></td><td>105.99</td></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table>",
   "answer": 4.96,
   "unit": "g NaCl",
   "tolerance": 0.005,
@@ -10948,7 +10948,7 @@
   }
  },
  {
-  "id": "stoichiometry-20e7bbfb",
+  "id": "stoichiometry-197e9e34",
   "skill": "stoichiometry.gas",
   "courses": [
    "3A",
@@ -10960,7 +10960,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span> + 5 <span class=\"formula\">O<sub>2</sub></span> &rarr; 3 <span class=\"formula\">CO<sub>2</sub></span> + 4 <span class=\"formula\">H<sub>2</sub>O</span></div><div>At <span class=\"measure\">1.03 atm</span> and <span class=\"measure\">380. K</span>, what volume of gaseous <span class=\"formula\">CO<sub>2</sub></span> is produced from <span class=\"measure\">5.14 g</span> <span class=\"formula\">O<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span></td><td>44.097</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table><div class=\"consts\">R = 0.082058 L atm mol⁻¹ K⁻¹</div>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span> + 5 <span class=\"formula\">O<sub>2</sub></span> &rarr; 3 <span class=\"formula\">CO<sub>2</sub></span> + 4 <span class=\"formula\">H<sub>2</sub>O</span></div><div>At <span class=\"measure\">1.03 atm</span> and <span class=\"measure\">3.80 × 10² K</span>, what volume of gaseous <span class=\"formula\">CO<sub>2</sub></span> is produced from <span class=\"measure\">5.14 g</span> <span class=\"formula\">O<sub>2</sub></span>? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span></td><td>44.097</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table><div class=\"consts\">R = 0.082058 L atm mol⁻¹ K⁻¹</div>",
   "answer": 2.92,
   "unit": "L CO2",
   "tolerance": 0.005,
@@ -11247,7 +11247,7 @@
   }
  },
  {
-  "id": "stoichiometry-9e911a71",
+  "id": "stoichiometry-ce7ab15c",
   "skill": "stoichiometry.gas",
   "courses": [
    "3A",
@@ -11259,14 +11259,14 @@
    "1A-4"
   ],
   "type": "text",
-  "prompt": "<div>A <span class=\"measure\">8.765 g</span> unknown sample occupies <span class=\"measure\">2.12 L</span> at <span class=\"measure\">1.38 atm</span> and <span class=\"measure\">650. K</span>. It is a noble gas or one of the seven diatomic elements. Identify its formula. (Br₂ and I₂ samples are heated for this question.)</div><table class=\"mm-chart\"><tr><th>Candidate gas</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">He</span></td><td>4.003</td></tr><tr><td><span class=\"formula\">Ne</span></td><td>20.180</td></tr><tr><td><span class=\"formula\">Ar</span></td><td>39.95</td></tr><tr><td><span class=\"formula\">Kr</span></td><td>83.80</td></tr><tr><td><span class=\"formula\">Xe</span></td><td>131.29</td></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">N<sub>2</sub></span></td><td>28.014</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">F<sub>2</sub></span></td><td>37.996</td></tr><tr><td><span class=\"formula\">Cl<sub>2</sub></span></td><td>70.90</td></tr><tr><td><span class=\"formula\">Br<sub>2</sub></span></td><td>159.80</td></tr><tr><td><span class=\"formula\">I<sub>2</sub></span></td><td>253.80</td></tr></table><div class=\"consts\">R = 0.082058 L atm mol⁻¹ K⁻¹</div>",
+  "prompt": "<div>A <span class=\"measure\">8.765 g</span> unknown sample occupies <span class=\"measure\">2.12 L</span> at <span class=\"measure\">1.38 atm</span> and <span class=\"measure\">6.50 × 10² K</span>. It is a noble gas or one of the seven diatomic elements. Identify its formula. (Br₂ and I₂ samples are heated for this question.)</div><table class=\"mm-chart\"><tr><th>Candidate gas</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">He</span></td><td>4.003</td></tr><tr><td><span class=\"formula\">Ne</span></td><td>20.180</td></tr><tr><td><span class=\"formula\">Ar</span></td><td>39.95</td></tr><tr><td><span class=\"formula\">Kr</span></td><td>83.80</td></tr><tr><td><span class=\"formula\">Xe</span></td><td>131.29</td></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">N<sub>2</sub></span></td><td>28.014</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">F<sub>2</sub></span></td><td>37.996</td></tr><tr><td><span class=\"formula\">Cl<sub>2</sub></span></td><td>70.90</td></tr><tr><td><span class=\"formula\">Br<sub>2</sub></span></td><td>159.80</td></tr><tr><td><span class=\"formula\">I<sub>2</sub></span></td><td>253.80</td></tr></table><div class=\"consts\">R = 0.082058 L atm mol⁻¹ K⁻¹</div>",
   "answer": "Br2",
   "accept": [
    "Br₂",
    "br2"
   ],
   "hint": "Find n with PV = nRT. Calculate molar mass = sample mass / n. Compare that value with noble gases and diatomic elements on the periodic table.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Moles of gas:</b> n = (1.38 × 2.12) ÷ (0.082058 × 650.) = <b>0.05485 mol</b></li><li><b>Molar mass:</b> 8.765 g ÷ 0.05485 mol = <b>159.8 g/mol</b></li></ol><div>n = PV/(RT) = 1.38 × 2.12 / (0.082058 × 650.) = 0.05485 mol. M = 8.765 g / n ≈ 159.8 g/mol, corresponding to <span class=\"formula\">Br<sub>2</sub></span>.</div><div>Answer: <b><span class=\"formula\">Br<sub>2</sub></span></b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Moles of gas:</b> n = (1.38 × 2.12) ÷ (0.082058 × 6.50 × 10²) = <b>0.05485 mol</b></li><li><b>Molar mass:</b> 8.765 g ÷ 0.05485 mol = <b>159.8 g/mol</b></li></ol><div>n = PV/(RT) = 1.38 × 2.12 / (0.082058 × 6.50 × 10²) = 0.05485 mol. M = 8.765 g / n ≈ 159.8 g/mol, corresponding to <span class=\"formula\">Br<sub>2</sub></span>.</div><div>Answer: <b><span class=\"formula\">Br<sub>2</sub></span></b></div>",
   "origin": "original",
   "caseSensitive": true,
   "from": {
@@ -11552,7 +11552,7 @@
   }
  },
  {
-  "id": "stoichiometry-5c18159a",
+  "id": "stoichiometry-c44ebe93",
   "skill": "stoichiometry.gas",
   "courses": [
    "3A",
@@ -11564,7 +11564,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">KClO<sub>3</sub></span> &rarr; 2 <span class=\"formula\">KCl</span> + 3 <span class=\"formula\">O<sub>2</sub></span></div><div>A <span class=\"measure\">5.04 L</span> sample of <span class=\"formula\">O<sub>2</sub></span> is collected at <span class=\"measure\">1.42 atm</span> and <span class=\"measure\">330. K</span>. What mass of <span class=\"formula\">KClO<sub>3</sub></span> reacted? Assume complete reaction.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">KClO<sub>3</sub></span></td><td>122.55</td></tr><tr><td><span class=\"formula\">KCl</span></td><td>74.55</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr></table><div class=\"consts\">R = 0.082058 L atm mol⁻¹ K⁻¹</div>",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">KClO<sub>3</sub></span> &rarr; 2 <span class=\"formula\">KCl</span> + 3 <span class=\"formula\">O<sub>2</sub></span></div><div>A <span class=\"measure\">5.04 L</span> sample of <span class=\"formula\">O<sub>2</sub></span> is collected at <span class=\"measure\">1.42 atm</span> and <span class=\"measure\">3.30 × 10² K</span>. What mass of <span class=\"formula\">KClO<sub>3</sub></span> reacted? Assume complete reaction.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">KClO<sub>3</sub></span></td><td>122.55</td></tr><tr><td><span class=\"formula\">KCl</span></td><td>74.55</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr></table><div class=\"consts\">R = 0.082058 L atm mol⁻¹ K⁻¹</div>",
   "answer": 21.6,
   "unit": "g KClO3",
   "tolerance": 0.005,
@@ -12084,7 +12084,7 @@
   }
  },
  {
-  "id": "stoichiometry-bd26071f",
+  "id": "stoichiometry-062e95c6",
   "skill": "stoichiometry.gas-1a",
   "courses": [
    "1A"
@@ -12094,7 +12094,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CH<sub>4</sub></span> + 2 <span class=\"formula\">O<sub>2</sub></span> &rarr; <span class=\"formula\">CO<sub>2</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div><span class=\"measure\">14.6 L</span> <span class=\"formula\">O<sub>2</sub></span> at <span class=\"measure\">1.15 atm, 374 K</span> reacts. What volume of <span class=\"formula\">CO<sub>2</sub></span> forms at <span class=\"measure\">1.48 atm, 360. K</span>? Other reactants are in excess.</div><div class=\"consts\">R = 0.082058 L atm mol⁻¹ K⁻¹</div>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">CH<sub>4</sub></span> + 2 <span class=\"formula\">O<sub>2</sub></span> &rarr; <span class=\"formula\">CO<sub>2</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div><span class=\"measure\">14.6 L</span> <span class=\"formula\">O<sub>2</sub></span> at <span class=\"measure\">1.15 atm, 374 K</span> reacts. What volume of <span class=\"formula\">CO<sub>2</sub></span> forms at <span class=\"measure\">1.48 atm, 3.60 × 10² K</span>? Other reactants are in excess.</div><div class=\"consts\">R = 0.082058 L atm mol⁻¹ K⁻¹</div>",
   "answer": 5.46,
   "unit": "L CO2",
   "tolerance": 0.005,
@@ -12134,7 +12134,7 @@
   }
  },
  {
-  "id": "stoichiometry-0a083d0d",
+  "id": "stoichiometry-261c6562",
   "skill": "stoichiometry.gas-1a",
   "courses": [
    "1A"
@@ -12144,7 +12144,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span> + 5 <span class=\"formula\">O<sub>2</sub></span> &rarr; 3 <span class=\"formula\">CO<sub>2</sub></span> + 4 <span class=\"formula\">H<sub>2</sub>O</span></div><div>At <span class=\"measure\">1.01 atm</span> and <span class=\"measure\">370. K</span>, mix <span class=\"measure\">8.76 L</span> <span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span> and <span class=\"measure\">67.9 L</span> <span class=\"formula\">O<sub>2</sub></span>. What volume of excess <span class=\"formula\">O<sub>2</sub></span> remains at the same pressure and temperature?</div><div class=\"consts\">R = 0.082058 L atm mol⁻¹ K⁻¹</div>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span> + 5 <span class=\"formula\">O<sub>2</sub></span> &rarr; 3 <span class=\"formula\">CO<sub>2</sub></span> + 4 <span class=\"formula\">H<sub>2</sub>O</span></div><div>At <span class=\"measure\">1.01 atm</span> and <span class=\"measure\">3.70 × 10² K</span>, mix <span class=\"measure\">8.76 L</span> <span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span> and <span class=\"measure\">67.9 L</span> <span class=\"formula\">O<sub>2</sub></span>. What volume of excess <span class=\"formula\">O<sub>2</sub></span> remains at the same pressure and temperature?</div><div class=\"consts\">R = 0.082058 L atm mol⁻¹ K⁻¹</div>",
   "answer": 24.1,
   "unit": "L O2",
   "tolerance": 0.005,
@@ -12159,7 +12159,7 @@
   }
  },
  {
-  "id": "stoichiometry-1bd67cb0",
+  "id": "stoichiometry-3c0f53a0",
   "skill": "stoichiometry.gas-1a",
   "courses": [
    "1A"
@@ -12169,7 +12169,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CH<sub>4</sub></span> + 2 <span class=\"formula\">O<sub>2</sub></span> &rarr; <span class=\"formula\">CO<sub>2</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div><span class=\"measure\">11.7 L</span> <span class=\"formula\">O<sub>2</sub></span> at <span class=\"measure\">1.33 atm, 306 K</span> reacts. What volume of <span class=\"formula\">CO<sub>2</sub></span> forms at <span class=\"measure\">1.45 atm, 300. K</span>? Other reactants are in excess.</div><div class=\"consts\">R = 0.082058 L atm mol⁻¹ K⁻¹</div>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">CH<sub>4</sub></span> + 2 <span class=\"formula\">O<sub>2</sub></span> &rarr; <span class=\"formula\">CO<sub>2</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div><span class=\"measure\">11.7 L</span> <span class=\"formula\">O<sub>2</sub></span> at <span class=\"measure\">1.33 atm, 306 K</span> reacts. What volume of <span class=\"formula\">CO<sub>2</sub></span> forms at <span class=\"measure\">1.45 atm, 3.00 × 10² K</span>? Other reactants are in excess.</div><div class=\"consts\">R = 0.082058 L atm mol⁻¹ K⁻¹</div>",
   "answer": 5.26,
   "unit": "L CO2",
   "tolerance": 0.005,
@@ -12259,7 +12259,7 @@
   }
  },
  {
-  "id": "stoichiometry-4049337c",
+  "id": "stoichiometry-ba67ecaa",
   "skill": "stoichiometry.gas-1a",
   "courses": [
    "1A"
@@ -12269,7 +12269,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">N<sub>2</sub></span> + 3 <span class=\"formula\">H<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NH<sub>3</sub></span></div><div>At <span class=\"measure\">1.22 atm</span> and <span class=\"measure\">320. K</span>, <span class=\"measure\">7.82 L</span> <span class=\"formula\">N<sub>2</sub></span> reacts with <span class=\"measure\">36.4 L</span> <span class=\"formula\">H<sub>2</sub></span>. If <span class=\"measure\">12.3 L</span> of <span class=\"formula\">NH<sub>3</sub></span> is collected at the same conditions, what is the percent yield?</div><div class=\"consts\">R = 0.082058 L atm mol⁻¹ K⁻¹</div>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">N<sub>2</sub></span> + 3 <span class=\"formula\">H<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NH<sub>3</sub></span></div><div>At <span class=\"measure\">1.22 atm</span> and <span class=\"measure\">3.20 × 10² K</span>, <span class=\"measure\">7.82 L</span> <span class=\"formula\">N<sub>2</sub></span> reacts with <span class=\"measure\">36.4 L</span> <span class=\"formula\">H<sub>2</sub></span>. If <span class=\"measure\">12.3 L</span> of <span class=\"formula\">NH<sub>3</sub></span> is collected at the same conditions, what is the percent yield?</div><div class=\"consts\">R = 0.082058 L atm mol⁻¹ K⁻¹</div>",
   "answer": 78.6,
   "unit": "%",
   "tolerance": 0.005,
@@ -12309,7 +12309,7 @@
   }
  },
  {
-  "id": "stoichiometry-d394815f",
+  "id": "stoichiometry-c1e88cd8",
   "skill": "stoichiometry.gas-1a",
   "courses": [
    "1A"
@@ -12319,7 +12319,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CH<sub>4</sub></span> + 2 <span class=\"formula\">O<sub>2</sub></span> &rarr; <span class=\"formula\">CO<sub>2</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>At <span class=\"measure\">0.925 atm</span> and <span class=\"measure\">350. K</span>, mix <span class=\"measure\">5.97 L</span> <span class=\"formula\">CH<sub>4</sub></span> and <span class=\"measure\">18.5 L</span> <span class=\"formula\">O<sub>2</sub></span>. What volume of excess <span class=\"formula\">O<sub>2</sub></span> remains at the same pressure and temperature?</div><div class=\"consts\">R = 0.082058 L atm mol⁻¹ K⁻¹</div>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">CH<sub>4</sub></span> + 2 <span class=\"formula\">O<sub>2</sub></span> &rarr; <span class=\"formula\">CO<sub>2</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>At <span class=\"measure\">0.925 atm</span> and <span class=\"measure\">3.50 × 10² K</span>, mix <span class=\"measure\">5.97 L</span> <span class=\"formula\">CH<sub>4</sub></span> and <span class=\"measure\">18.5 L</span> <span class=\"formula\">O<sub>2</sub></span>. What volume of excess <span class=\"formula\">O<sub>2</sub></span> remains at the same pressure and temperature?</div><div class=\"consts\">R = 0.082058 L atm mol⁻¹ K⁻¹</div>",
   "answer": 6.56,
   "unit": "L O2",
   "tolerance": 0.005,
@@ -12634,7 +12634,7 @@
   }
  },
  {
-  "id": "stoichiometry-de46b6aa",
+  "id": "stoichiometry-d28150a3",
   "skill": "stoichiometry.gas-1a",
   "courses": [
    "1A"
@@ -12644,7 +12644,7 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">N<sub>2</sub></span> + 3 <span class=\"formula\">H<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NH<sub>3</sub></span></div><div>At <span class=\"measure\">1.26 atm</span> and <span class=\"measure\">310. K</span>, mix <span class=\"measure\">7.19 L</span> <span class=\"formula\">N<sub>2</sub></span> and <span class=\"measure\">13.8 L</span> <span class=\"formula\">H<sub>2</sub></span>. What volume of excess <span class=\"formula\">N<sub>2</sub></span> remains at the same pressure and temperature?</div><div class=\"consts\">R = 0.082058 L atm mol⁻¹ K⁻¹</div>",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">N<sub>2</sub></span> + 3 <span class=\"formula\">H<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NH<sub>3</sub></span></div><div>At <span class=\"measure\">1.26 atm</span> and <span class=\"measure\">3.10 × 10² K</span>, mix <span class=\"measure\">7.19 L</span> <span class=\"formula\">N<sub>2</sub></span> and <span class=\"measure\">13.8 L</span> <span class=\"formula\">H<sub>2</sub></span>. What volume of excess <span class=\"formula\">N<sub>2</sub></span> remains at the same pressure and temperature?</div><div class=\"consts\">R = 0.082058 L atm mol⁻¹ K⁻¹</div>",
   "answer": 2.59,
   "unit": "L N2",
   "tolerance": 0.005,
@@ -15020,7 +15020,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Convert the starting mass to moles, or use solution liters × molarity. Use the balanced equation coefficients to connect the two substances. Divide required moles by the target molarity; convert liters to mL.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 29.1 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.02910 L solution NaOH</b></li><li><b>Into moles:</b> 0.02910 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.751 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.02185 mol NaOH</b></li><li><b>Mole ratio:</b> 0.02185 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> = <b>0.02185 mol HCl</b></li><li><b>Out of moles:</b> 0.02185 mol HCl × <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">0.182 mol HCl</span></span> = <b>0.1201 L solution HCl</b></li><li><b>Out of moles:</b> 0.1201 L solution HCl × <span class=\"fraction\"><span class=\"num\">1000 mL solution HCl</span><span class=\"den\">1 L solution HCl</span></span> = <b>120.1 mL solution HCl</b></li></ol><div class=\"solution-chain\">29.1 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.751 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">0.182 mol HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution HCl</span><span class=\"den\">1 L solution HCl</span></span> <b>=</b> 120. mL solution HCl</div><div>Round to 3 significant figures: <b>120. mL solution HCl</b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 29.1 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.02910 L solution NaOH</b></li><li><b>Into moles:</b> 0.02910 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.751 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.02185 mol NaOH</b></li><li><b>Mole ratio:</b> 0.02185 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> = <b>0.02185 mol HCl</b></li><li><b>Out of moles:</b> 0.02185 mol HCl × <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">0.182 mol HCl</span></span> = <b>0.1201 L solution HCl</b></li><li><b>Out of moles:</b> 0.1201 L solution HCl × <span class=\"fraction\"><span class=\"num\">1000 mL solution HCl</span><span class=\"den\">1 L solution HCl</span></span> = <b>120.1 mL solution HCl</b></li></ol><div class=\"solution-chain\">29.1 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.751 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">0.182 mol HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution HCl</span><span class=\"den\">1 L solution HCl</span></span> <b>=</b> 1.20 × 10² mL solution HCl</div><div>Round to 3 significant figures: <b>1.20 × 10² mL solution HCl</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -15245,7 +15245,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Convert the starting mass to moles, or use solution liters × molarity. Use the balanced equation coefficients to connect the two substances. Divide required moles by the target molarity; convert liters to mL.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 27.6 g AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol AgNO<sub>3</sub></span><span class=\"den\">169.87 g AgNO<sub>3</sub></span></span> = <b>0.1625 mol AgNO<sub>3</sub></b></li><li><b>Mole ratio:</b> 0.1625 mol AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> = <b>0.1625 mol NaCl</b></li><li><b>Out of moles:</b> 0.1625 mol NaCl × <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">0.378 mol NaCl</span></span> = <b>0.4298 L solution NaCl</b></li><li><b>Out of moles:</b> 0.4298 L solution NaCl × <span class=\"fraction\"><span class=\"num\">1000 mL solution NaCl</span><span class=\"den\">1 L solution NaCl</span></span> = <b>429.8 mL solution NaCl</b></li></ol><div class=\"solution-chain\">27.6 g AgNO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol AgNO<sub>3</sub></span><span class=\"den\">169.87 g AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">0.378 mol NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution NaCl</span><span class=\"den\">1 L solution NaCl</span></span> <b>=</b> 430. mL solution NaCl</div><div>Round to 3 significant figures: <b>430. mL solution NaCl</b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 27.6 g AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol AgNO<sub>3</sub></span><span class=\"den\">169.87 g AgNO<sub>3</sub></span></span> = <b>0.1625 mol AgNO<sub>3</sub></b></li><li><b>Mole ratio:</b> 0.1625 mol AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> = <b>0.1625 mol NaCl</b></li><li><b>Out of moles:</b> 0.1625 mol NaCl × <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">0.378 mol NaCl</span></span> = <b>0.4298 L solution NaCl</b></li><li><b>Out of moles:</b> 0.4298 L solution NaCl × <span class=\"fraction\"><span class=\"num\">1000 mL solution NaCl</span><span class=\"den\">1 L solution NaCl</span></span> = <b>429.8 mL solution NaCl</b></li></ol><div class=\"solution-chain\">27.6 g AgNO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol AgNO<sub>3</sub></span><span class=\"den\">169.87 g AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">0.378 mol NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution NaCl</span><span class=\"den\">1 L solution NaCl</span></span> <b>=</b> 4.30 × 10² mL solution NaCl</div><div>Round to 3 significant figures: <b>4.30 × 10² mL solution NaCl</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
