@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "banks": {
   "sig-figs": 52,
   "redox": 208,
@@ -8,10 +8,10 @@
   "chem-1b-readiness": 42,
   "quantum": 972,
   "reactions": 222,
-  "final-exam-3a": 322,
+  "final-exam-3a": 252,
   "final-exam-3b": 784,
-  "final-exam-1a": 464,
-  "final-exam-1b": 358,
+  "final-exam-1a": 386,
+  "final-exam-1b": 307,
   "elements-practice": 78,
   "gaslaws-practice": 578,
   "ionicformula-practice": 168,
@@ -24,7 +24,7 @@
  "chapters": {
   "3A-1": {
    "sig-figs": 52,
-   "final-exam-3a": 48,
+   "final-exam-3a": 40,
    "gaslaws-practice": 20,
    "metric-practice": 66
   },
@@ -43,14 +43,14 @@
    "redox": 208,
    "chem-1b-readiness": 10,
    "reactions": 222,
-   "final-exam-1a": 62,
+   "final-exam-1a": 36,
    "gaslaws-practice": 20,
    "stoichiometry-practice": 630,
    "thermochemistry-practice": 75
   },
   "1B-17": {
    "redox": 56,
-   "final-exam-1b": 57
+   "final-exam-1b": 39
   },
   "3A-8": {
    "gas-laws": 11,
@@ -60,13 +60,13 @@
   "1A-9": {
    "gas-laws": 21,
    "chem-1b-readiness": 10,
-   "final-exam-1a": 41,
+   "final-exam-1a": 33,
    "gaslaws-practice": 380,
    "stoichiometry-practice": 70
   },
   "3A-7": {
    "thermochemistry": 29,
-   "final-exam-3a": 44,
+   "final-exam-3a": 24,
    "thermochemistry-practice": 175
   },
   "1A-10": {
@@ -93,20 +93,20 @@
   },
   "1A-5": {
    "chem-1b-readiness": 10,
-   "final-exam-1a": 38,
+   "final-exam-1a": 32,
    "thermochemistry-practice": 265
   },
   "1B-14": {
    "chem-1b-readiness": 10,
-   "final-exam-1b": 46
+   "final-exam-1b": 44
   },
   "1B-12": {
    "chem-1b-readiness": 10,
-   "final-exam-1b": 49
+   "final-exam-1b": 47
   },
   "1B-13": {
    "chem-1b-readiness": 10,
-   "final-exam-1b": 46
+   "final-exam-1b": 44
   },
   "3A-3": {
    "quantum": 373,
@@ -114,22 +114,22 @@
   },
   "1A-6": {
    "quantum": 972,
-   "final-exam-1a": 85
+   "final-exam-1a": 47
   },
   "3A-review": {
-   "final-exam-3a": 322
+   "final-exam-3a": 252
   },
   "3A-2": {
-   "final-exam-3a": 22,
+   "final-exam-3a": 10,
    "elements-practice": 78
   },
   "3A-4": {
-   "final-exam-3a": 24,
+   "final-exam-3a": 14,
    "ionicformula-practice": 168,
    "polyatomic-practice": 60
   },
   "3A-5": {
-   "final-exam-3a": 23,
+   "final-exam-3a": 13,
    "moles-practice": 205
   },
   "3A-6": {
@@ -147,10 +147,10 @@
    "final-exam-3a": 18
   },
   "3A-13": {
-   "final-exam-3a": 19
+   "final-exam-3a": 10
   },
   "3A-14": {
-   "final-exam-3a": 19
+   "final-exam-3a": 10
   },
   "3B-1": {
    "final-exam-3b": 118
@@ -219,10 +219,10 @@
    "final-exam-1b": 40
   },
   "1B-19": {
-   "final-exam-1b": 28
+   "final-exam-1b": 13
   },
   "1B-21": {
-   "final-exam-1b": 24
+   "final-exam-1b": 12
   }
  },
  "skills": {
@@ -258,20 +258,20 @@
   "reactions.neutralization": 22,
   "reactions.gas-evolution": 38,
   "finalexam.3a.measure": 27,
-  "finalexam.3a.atoms": 22,
+  "finalexam.3a.atoms": 10,
   "finalexam.3a.electrons": 16,
-  "finalexam.3a.matter": 21,
-  "finalexam.3a.naming": 24,
-  "finalexam.3a.moles": 23,
+  "finalexam.3a.matter": 13,
+  "finalexam.3a.naming": 14,
+  "finalexam.3a.moles": 13,
   "finalexam.3a.bonding": 29,
-  "finalexam.3a.energy": 23,
+  "finalexam.3a.energy": 11,
   "finalexam.3a.gases": 18,
   "finalexam.3a.solutions": 21,
   "finalexam.3a.reactions": 21,
   "finalexam.3a.stoich": 21,
   "finalexam.3a.acids": 18,
-  "finalexam.3a.equilibrium": 19,
-  "finalexam.3a.nuclear": 19,
+  "finalexam.3a.equilibrium": 10,
+  "finalexam.3a.nuclear": 10,
   "finalexam.3b.structure": 59,
   "finalexam.3b.hydrocarbons": 59,
   "finalexam.3b.aromatic": 25,
@@ -291,24 +291,24 @@
   "finalexam.1a.measure": 31,
   "finalexam.1a.atoms": 22,
   "finalexam.1a.composition": 28,
-  "finalexam.1a.reactions": 62,
-  "finalexam.1a.thermo": 38,
-  "finalexam.1a.quantum": 51,
-  "finalexam.1a.periodic": 34,
+  "finalexam.1a.reactions": 36,
+  "finalexam.1a.thermo": 32,
+  "finalexam.1a.quantum": 26,
+  "finalexam.1a.periodic": 21,
   "finalexam.1a.bonding": 68,
   "finalexam.1a.advanced": 45,
-  "finalexam.1a.gases": 41,
+  "finalexam.1a.gases": 33,
   "finalexam.1a.liquids": 25,
   "finalexam.1a.solutions": 19,
-  "finalexam.1b.kinetics": 49,
-  "finalexam.1b.equilibrium": 46,
-  "finalexam.1b.acidbase": 46,
+  "finalexam.1b.kinetics": 47,
+  "finalexam.1b.equilibrium": 44,
+  "finalexam.1b.acidbase": 44,
   "finalexam.1b.buffers": 36,
   "finalexam.1b.solubility": 32,
   "finalexam.1b.thermo": 40,
-  "finalexam.1b.electro": 57,
-  "finalexam.1b.coordination": 28,
-  "finalexam.1b.nuclear": 24,
+  "finalexam.1b.electro": 39,
+  "finalexam.1b.coordination": 13,
+  "finalexam.1b.nuclear": 12,
   "elements.nametosymbol": 39,
   "elements.symboltoname": 39,
   "gaslaws.units": 40,
