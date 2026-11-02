@@ -146531,5 +146531,7573 @@
    "list": "BANK.3B",
    "index": 873
   }
+ },
+ {
+  "id": "finalexam-010e67aa",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "The cartoons show an enzyme interacting with a substrate (yellow) and an inhibitor (red). Which panel shows competitive inhibition?",
+  "choices": [
+   "III",
+   "IV",
+   "II",
+   "I"
+  ],
+  "answer": "III",
+  "hint": "A competitive inhibitor competes with the substrate for the same spot on the enzyme. Find the panel where the red molecule occupies that spot.",
+  "explain": "In panel III the red inhibitor sits in the active site and the yellow substrate is locked out, so inhibitor and substrate are competing for the same site: competitive inhibition. Panel IV is the tempting wrong pick: there the inhibitor is bound on the side of the enzyme and the active site is distorted (noncompetitive).",
+  "html": {
+   "prompt": "The cartoons show an enzyme interacting with a substrate (yellow) and an inhibitor (red). Which panel shows <b>competitive</b> inhibition?",
+   "choices": [
+    "III",
+    "IV",
+    "II",
+    "I"
+   ],
+   "hint": "A competitive inhibitor competes with the substrate for the same spot on the enzyme. Find the panel where the red molecule occupies that spot.",
+   "explain": "In panel <b>III</b> the red inhibitor sits <i>in the active site</i> and the yellow substrate is locked out, so inhibitor and substrate are competing for the same site: <b>competitive inhibition</b>. Panel IV is the tempting wrong pick: there the inhibitor is bound on the <i>side</i> of the enzyme and the active site is distorted (noncompetitive)."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "enzyme",
+     "panels": [
+      {
+       "kind": "free",
+       "cap": "I"
+      },
+      {
+       "kind": "fit",
+       "cap": "II"
+      },
+      {
+       "kind": "competitive",
+       "cap": "III"
+      },
+      {
+       "kind": "noncompetitive",
+       "cap": "IV"
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 874
+  }
+ },
+ {
+  "id": "finalexam-31246d32",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "In each panel a red inhibitor molecule or a yellow substrate molecule approaches the same enzyme. Which panel shows noncompetitive inhibition?",
+  "choices": [
+   "II",
+   "I",
+   "III",
+   "IV"
+  ],
+  "answer": "II",
+  "hint": "A noncompetitive inhibitor never enters the active site. Look for an inhibitor bound elsewhere that has changed the shape of the site.",
+  "explain": "In panel II the red inhibitor is attached away from the active site, and the site has become warped so the substrate can no longer fit: noncompetitive inhibition. In panel I the inhibitor is inside the active site itself, which is competitive inhibition. Panels III and IV contain no inhibitor at all.",
+  "html": {
+   "prompt": "In each panel a red inhibitor molecule or a yellow substrate molecule approaches the same enzyme. Which panel shows <b>noncompetitive</b> inhibition?",
+   "choices": [
+    "II",
+    "I",
+    "III",
+    "IV"
+   ],
+   "hint": "A noncompetitive inhibitor never enters the active site. Look for an inhibitor bound elsewhere that has changed the shape of the site.",
+   "explain": "In panel <b>II</b> the red inhibitor is attached away from the active site, and the site has become warped so the substrate can no longer fit: <b>noncompetitive inhibition</b>. In panel I the inhibitor is inside the active site itself, which is competitive inhibition. Panels III and IV contain no inhibitor at all."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "enzyme",
+     "panels": [
+      {
+       "kind": "competitive",
+       "cap": "I"
+      },
+      {
+       "kind": "noncompetitive",
+       "cap": "II"
+      },
+      {
+       "kind": "fit",
+       "cap": "III"
+      },
+      {
+       "kind": "nofit",
+       "cap": "IV"
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 875
+  }
+ },
+ {
+  "id": "finalexam-95f19463",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Each panel is a snapshot of the same enzyme with a yellow molecule nearby. Which panel best illustrates the induced-fit model of enzyme action?",
+  "choices": [
+   "IV",
+   "II",
+   "I",
+   "III"
+  ],
+  "answer": "IV",
+  "hint": "In induced fit the active site is flexible: binding the substrate makes the site change shape and close around it.",
+  "explain": "In panel IV the walls of the active site have tilted inward to hug the substrate: the site changed shape when the substrate bound, which is induced fit. Panel II is the common wrong choice: the substrate fits a rigid, unchanged site, which is the lock-and-key picture. Panel III shows a substrate that cannot bind at all.",
+  "html": {
+   "prompt": "Each panel is a snapshot of the same enzyme with a yellow molecule nearby. Which panel best illustrates the <b>induced-fit</b> model of enzyme action?",
+   "choices": [
+    "IV",
+    "II",
+    "I",
+    "III"
+   ],
+   "hint": "In induced fit the active site is flexible: binding the substrate makes the site change shape and close around it.",
+   "explain": "In panel <b>IV</b> the walls of the active site have tilted inward to hug the substrate: the site <i>changed shape when the substrate bound</i>, which is <b>induced fit</b>. Panel II is the common wrong choice: the substrate fits a rigid, unchanged site, which is the lock-and-key picture. Panel III shows a substrate that cannot bind at all."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "enzyme",
+     "panels": [
+      {
+       "kind": "free",
+       "cap": "I"
+      },
+      {
+       "kind": "fit",
+       "cap": "II"
+      },
+      {
+       "kind": "nofit",
+       "cap": "III"
+      },
+      {
+       "kind": "induced",
+       "cap": "IV"
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 876
+  }
+ },
+ {
+  "id": "finalexam-fa8fe224",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "The yellow shape is the substrate and the red shape is an inhibitor. Which panel shows an enzyme–substrate complex?",
+  "choices": [
+   "III",
+   "II",
+   "I",
+   "IV"
+  ],
+  "answer": "III",
+  "hint": "An enzyme–substrate complex forms when the substrate itself is bound in the active site, before any product is made.",
+  "explain": "Panel III shows the yellow substrate bound in the active site: the enzyme–substrate (ES) complex. Panel II looks similar but the red molecule in the site is an inhibitor, so it is an enzyme–inhibitor complex. Panel IV shows the products leaving after the reaction, and panel I is the free enzyme.",
+  "html": {
+   "prompt": "The yellow shape is the substrate and the red shape is an inhibitor. Which panel shows an <b>enzyme–substrate complex</b>?",
+   "choices": [
+    "III",
+    "II",
+    "I",
+    "IV"
+   ],
+   "hint": "An enzyme–substrate complex forms when the substrate itself is bound in the active site, before any product is made.",
+   "explain": "Panel <b>III</b> shows the yellow substrate bound in the active site: the <b>enzyme–substrate (ES) complex</b>. Panel II looks similar but the red molecule in the site is an inhibitor, so it is an enzyme–inhibitor complex. Panel IV shows the products leaving after the reaction, and panel I is the free enzyme."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "enzyme",
+     "panels": [
+      {
+       "kind": "free",
+       "cap": "I"
+      },
+      {
+       "kind": "competitive",
+       "cap": "II"
+      },
+      {
+       "kind": "fit",
+       "cap": "III"
+      },
+      {
+       "kind": "product",
+       "cap": "IV"
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 877
+  }
+ },
+ {
+  "id": "finalexam-ad64e850",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Lettered labels mark parts of the drawings. Which label marks the active site of the enzyme?",
+  "choices": [
+   "a, the pocket in the top of the enzyme",
+   "b, the yellow molecule outside the enzyme",
+   "c, the red molecule sitting in the pocket",
+   "the entire blue body of the enzyme"
+  ],
+  "answer": "a, the pocket in the top of the enzyme",
+  "hint": "The active site is a small region of the enzyme, not a separate molecule and not the whole protein.",
+  "explain": "The active site is the pocket (a) on the enzyme where the substrate binds. The yellow molecule (b) is the substrate and the red molecule (c) is an inhibitor, both separate molecules. A common misconception is that the whole enzyme is the active site; the site is only a small part of the large protein.",
+  "html": {
+   "prompt": "Lettered labels mark parts of the drawings. Which label marks the <b>active site</b> of the enzyme?",
+   "choices": [
+    "a, the pocket in the top of the enzyme",
+    "b, the yellow molecule outside the enzyme",
+    "c, the red molecule sitting in the pocket",
+    "the entire blue body of the enzyme"
+   ],
+   "hint": "The active site is a small region of the enzyme, not a separate molecule and not the whole protein.",
+   "explain": "The active site is the <b>pocket (a)</b> on the enzyme where the substrate binds. The yellow molecule (b) is the <i>substrate</i> and the red molecule (c) is an <i>inhibitor</i>, both separate molecules. A common misconception is that the whole enzyme is the active site; the site is only a small part of the large protein."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "enzyme",
+     "panels": [
+      {
+       "kind": "free",
+       "cap": "I"
+      },
+      {
+       "kind": "competitive",
+       "cap": "II"
+      }
+     ],
+     "tags": {
+      "site": "a",
+      "sub": "b",
+      "inh": "c"
+     }
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 878
+  }
+ },
+ {
+  "id": "finalexam-bce22a7c",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "In panel III, the red molecule is an inhibitor. It competes with…",
+  "choices": [
+   "the substrate, for the active site",
+   "the substrate, for a site away from the active site",
+   "the enzyme, for the substrate molecule",
+   "the product, for release from the enzyme"
+  ],
+  "answer": "the substrate, for the active site",
+  "hint": "Look at where the red molecule is sitting and what the yellow molecule is waiting to do.",
+  "explain": "In panel III the inhibitor occupies the active site, the spot where the substrate (yellow) must bind, so inhibitor and substrate compete for the active site. Choosing \"a site away from the active site\" describes panel IV (noncompetitive). An inhibitor does not compete with the enzyme or with the product.",
+  "html": {
+   "prompt": "In panel III, the red molecule is an inhibitor. It competes with…",
+   "choices": [
+    "the substrate, for the active site",
+    "the substrate, for a site away from the active site",
+    "the enzyme, for the substrate molecule",
+    "the product, for release from the enzyme"
+   ],
+   "hint": "Look at where the red molecule is sitting and what the yellow molecule is waiting to do.",
+   "explain": "In panel III the inhibitor occupies the <b>active site</b>, the spot where the substrate (yellow) must bind, so inhibitor and substrate <b>compete for the active site</b>. Choosing \"a site away from the active site\" describes panel IV (noncompetitive). An inhibitor does not compete with the enzyme or with the product."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "enzyme",
+     "panels": [
+      {
+       "kind": "fit",
+       "cap": "I"
+      },
+      {
+       "kind": "free",
+       "cap": "II"
+      },
+      {
+       "kind": "competitive",
+       "cap": "III"
+      },
+      {
+       "kind": "noncompetitive",
+       "cap": "IV"
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 879
+  }
+ },
+ {
+  "id": "finalexam-be789fe3",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Two inhibited enzymes are drawn in panels II and III. Adding a large excess of substrate would restore the reaction rate in which panel, and why?",
+  "choices": [
+   "II, because substrate and inhibitor compete for the same site, so extra substrate wins the site more often",
+   "III, because the extra substrate crowds the inhibitor off its separate side site and frees the enzyme",
+   "II, because the extra substrate changes the shape of the inhibitor so it no longer fits the active site",
+   "III, because the extra substrate forces the distorted active site back into its original shape"
+  ],
+  "answer": "II, because substrate and inhibitor compete for the same site, so extra substrate wins the site more often",
+  "hint": "Which inhibitor can be outcompeted? Substrate can only displace an inhibitor that is bound where the substrate itself binds.",
+  "explain": "In panel II the inhibitor is in the active site, competing with substrate; flooding the enzyme with substrate means the site is occupied by substrate most of the time, so the rate recovers (competitive inhibition is reversed by excess substrate). In panel III the inhibitor sits on a separate site and warps the active site; substrate cannot bind to the warped site at any concentration, so excess substrate does not help.",
+  "html": {
+   "prompt": "Two inhibited enzymes are drawn in panels II and III. Adding a large excess of substrate would restore the reaction rate in which panel, and why?",
+   "choices": [
+    "II, because substrate and inhibitor compete for the same site, so extra substrate wins the site more often",
+    "III, because the extra substrate crowds the inhibitor off its separate side site and frees the enzyme",
+    "II, because the extra substrate changes the shape of the inhibitor so it no longer fits the active site",
+    "III, because the extra substrate forces the distorted active site back into its original shape"
+   ],
+   "hint": "Which inhibitor can be outcompeted? Substrate can only displace an inhibitor that is bound where the substrate itself binds.",
+   "explain": "In panel <b>II</b> the inhibitor is in the active site, competing with substrate; flooding the enzyme with substrate means the site is occupied by substrate most of the time, so the rate recovers (<b>competitive inhibition is reversed by excess substrate</b>). In panel III the inhibitor sits on a separate site and warps the active site; substrate cannot bind to the warped site at any concentration, so excess substrate does not help."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "enzyme",
+     "panels": [
+      {
+       "kind": "fit",
+       "cap": "I"
+      },
+      {
+       "kind": "competitive",
+       "cap": "II"
+      },
+      {
+       "kind": "noncompetitive",
+       "cap": "III"
+      },
+      {
+       "kind": "free",
+       "cap": "IV"
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 880
+  }
+ },
+ {
+  "id": "finalexam-a81bf4ff",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Each enzyme catalyzes only one reaction or one type of reaction. Which panel illustrates the reason for this specificity?",
+  "choices": [
+   "I",
+   "II",
+   "III",
+   "IV"
+  ],
+  "answer": "I",
+  "hint": "Specificity means molecules of the wrong shape are rejected. Which panel shows a molecule that cannot enter the active site?",
+  "explain": "In panel I a triangular molecule is near the active site but its shape does not match the pocket, so it cannot bind and cannot react: the shape of the active site determines which substrate the enzyme accepts. Panels II and IV show the correct substrate binding and reacting, and panel III shows an empty enzyme. Picking II confuses binding of the right substrate with rejection of the wrong one.",
+  "html": {
+   "prompt": "Each enzyme catalyzes only one reaction or one type of reaction. Which panel illustrates the reason for this <b>specificity</b>?",
+   "choices": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "hint": "Specificity means molecules of the wrong shape are rejected. Which panel shows a molecule that cannot enter the active site?",
+   "explain": "In panel <b>I</b> a triangular molecule is near the active site but its shape does not match the pocket, so it cannot bind and cannot react: the <b>shape of the active site</b> determines which substrate the enzyme accepts. Panels II and IV show the correct substrate binding and reacting, and panel III shows an empty enzyme. Picking II confuses binding of the right substrate with rejection of the wrong one."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "enzyme",
+     "panels": [
+      {
+       "kind": "nofit",
+       "cap": "I"
+      },
+      {
+       "kind": "fit",
+       "cap": "II"
+      },
+      {
+       "kind": "free",
+       "cap": "III"
+      },
+      {
+       "kind": "product",
+       "cap": "IV"
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 881
+  }
+ },
+ {
+  "id": "finalexam-971ca0e0",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Panel I shows an enzyme at 37 °C with its substrate (yellow) bound. Panel II shows the same enzyme after it was heated to 80 °C for 10 minutes and then cooled. What happened to the enzyme in panel II?",
+  "choices": [
+   "Denaturation: heat broke the weak interactions holding the protein's folded shape",
+   "Noncompetitive inhibition: heat produced an inhibitor that bound to a side site",
+   "Saturation: the heat made the enzyme bind substrate too tightly to release it",
+   "Hydrolysis: heat broke the peptide bonds of the primary structure"
+  ],
+  "answer": "Denaturation: heat broke the weak interactions holding the protein's folded shape",
+  "hint": "Compare the shape of the protein in the two panels. Heat disrupts the weak interactions that hold the folded shape, not the covalent peptide backbone.",
+  "explain": "In panel II the protein chain has unfolded: there is no longer a pocket with the right shape, so the substrate cannot bind at all. Heat broke the hydrogen bonds, salt bridges and hydrophobic interactions that hold the tertiary structure, which is denaturation; for most enzymes it is not reversed by cooling. The peptide (covalent) bonds survive, so the primary structure is intact and this is not hydrolysis. No inhibitor molecule is present, so it is not inhibition.",
+  "html": {
+   "prompt": "Panel I shows an enzyme at 37 °C with its substrate (yellow) bound. Panel II shows the same enzyme after it was heated to 80 °C for 10 minutes and then cooled. What happened to the enzyme in panel II?",
+   "choices": [
+    "Denaturation: heat broke the weak interactions holding the protein's folded shape",
+    "Noncompetitive inhibition: heat produced an inhibitor that bound to a side site",
+    "Saturation: the heat made the enzyme bind substrate too tightly to release it",
+    "Hydrolysis: heat broke the peptide bonds of the primary structure"
+   ],
+   "hint": "Compare the shape of the protein in the two panels. Heat disrupts the weak interactions that hold the folded shape, not the covalent peptide backbone.",
+   "explain": "In panel II the protein chain has <b>unfolded</b>: there is no longer a pocket with the right shape, so the substrate cannot bind at all. Heat broke the hydrogen bonds, salt bridges and hydrophobic interactions that hold the tertiary structure, which is <b>denaturation</b>; for most enzymes it is not reversed by cooling. The peptide (covalent) bonds survive, so the primary structure is intact and this is not hydrolysis. No inhibitor molecule is present, so it is not inhibition."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "enzyme",
+     "panels": [
+      {
+       "kind": "fit",
+       "cap": "I"
+      },
+      {
+       "kind": "denatured",
+       "cap": "II"
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 882
+  }
+ },
+ {
+  "id": "finalexam-104a8e61",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Of the four enzyme cartoons, which statement describes what is happening in panel IV?",
+  "choices": [
+   "The inhibitor occupies the active site, so the substrate cannot bind there",
+   "The inhibitor has bound outside the active site and changed the site's shape",
+   "The substrate is bound in the active site and is being converted to product",
+   "The enzyme has been permanently denatured by the inhibitor"
+  ],
+  "answer": "The inhibitor occupies the active site, so the substrate cannot bind there",
+  "hint": "Notice which molecule is inside the active site in panel IV and which one is waiting outside.",
+  "explain": "In panel IV the red inhibitor fills the active site and the yellow substrate is left outside, which is competitive inhibition. The statement about binding outside the site and reshaping it describes panel III (noncompetitive). Nothing in the drawing shows the enzyme unfolded, and a competitive inhibitor is usually reversible, so the enzyme is not permanently denatured.",
+  "html": {
+   "prompt": "Of the four enzyme cartoons, which statement describes what is happening in panel IV?",
+   "choices": [
+    "The inhibitor occupies the active site, so the substrate cannot bind there",
+    "The inhibitor has bound outside the active site and changed the site's shape",
+    "The substrate is bound in the active site and is being converted to product",
+    "The enzyme has been permanently denatured by the inhibitor"
+   ],
+   "hint": "Notice which molecule is inside the active site in panel IV and which one is waiting outside.",
+   "explain": "In panel IV the red inhibitor fills the <b>active site</b> and the yellow substrate is left outside, which is competitive inhibition. The statement about binding outside the site and reshaping it describes panel III (noncompetitive). Nothing in the drawing shows the enzyme unfolded, and a competitive inhibitor is usually reversible, so the enzyme is not permanently denatured."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "enzyme",
+     "panels": [
+      {
+       "kind": "free",
+       "cap": "I"
+      },
+      {
+       "kind": "fit",
+       "cap": "II"
+      },
+      {
+       "kind": "noncompetitive",
+       "cap": "III"
+      },
+      {
+       "kind": "competitive",
+       "cap": "IV"
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 883
+  }
+ },
+ {
+  "id": "finalexam-bfb94309",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "A regulator molecule binds to an enzyme at a site that is not the active site. Binding changes the enzyme's shape so that the substrate no longer fits, slowing the reaction. Which panel shows this kind of regulation?",
+  "choices": [
+   "III",
+   "I",
+   "II",
+   "IV"
+  ],
+  "answer": "III",
+  "hint": "Find the panel where the regulating molecule is attached somewhere other than the active site, and the site itself has been distorted.",
+  "explain": "Panel III shows a molecule bound at a separate (allosteric) site, with the active site warped so the substrate cannot bind: this is allosteric (noncompetitive) regulation, the way many pathway end products shut off their own first enzyme. Panel I is the usual wrong choice, but there the molecule is inside the active site, which is competitive inhibition, not binding at a separate site.",
+  "html": {
+   "prompt": "A regulator molecule binds to an enzyme at a site that is <i>not</i> the active site. Binding changes the enzyme's shape so that the substrate no longer fits, slowing the reaction. Which panel shows this kind of regulation?",
+   "choices": [
+    "III",
+    "I",
+    "II",
+    "IV"
+   ],
+   "hint": "Find the panel where the regulating molecule is attached somewhere other than the active site, and the site itself has been distorted.",
+   "explain": "Panel <b>III</b> shows a molecule bound at a separate (allosteric) site, with the active site warped so the substrate cannot bind: this is <b>allosteric (noncompetitive) regulation</b>, the way many pathway end products shut off their own first enzyme. Panel I is the usual wrong choice, but there the molecule is <i>inside</i> the active site, which is competitive inhibition, not binding at a separate site."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "enzyme",
+     "panels": [
+      {
+       "kind": "competitive",
+       "cap": "I"
+      },
+      {
+       "kind": "fit",
+       "cap": "II"
+      },
+      {
+       "kind": "noncompetitive",
+       "cap": "III"
+      },
+      {
+       "kind": "nofit",
+       "cap": "IV"
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 884
+  }
+ },
+ {
+  "id": "finalexam-7a9b997e",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "The panels show stages of enzyme action in scrambled order. Starting from the free enzyme, which order of panels shows one complete catalytic cycle?",
+  "choices": [
+   "IV → I → III",
+   "IV → II → III",
+   "IV → III → I",
+   "I → IV → III"
+  ],
+  "answer": "IV → I → III",
+  "hint": "An enzyme binds its substrate, converts it to product, releases the product, and is free to start again. An inhibitor is not part of this cycle.",
+  "explain": "The cycle is free enzyme (IV) → enzyme–substrate complex (I) → products released (III), after which the enzyme is free again. Panel II shows an inhibitor blocking the active site, which is not a step in catalysis, so any order including II is wrong. IV → III → I puts the products before the substrate has even bound.",
+  "html": {
+   "prompt": "The panels show stages of enzyme action in scrambled order. Starting from the free enzyme, which order of panels shows one complete catalytic cycle?",
+   "choices": [
+    "IV → I → III",
+    "IV → II → III",
+    "IV → III → I",
+    "I → IV → III"
+   ],
+   "hint": "An enzyme binds its substrate, converts it to product, releases the product, and is free to start again. An inhibitor is not part of this cycle.",
+   "explain": "The cycle is <b>free enzyme (IV) → enzyme–substrate complex (I) → products released (III)</b>, after which the enzyme is free again. Panel II shows an inhibitor blocking the active site, which is not a step in catalysis, so any order including II is wrong. IV → III → I puts the products before the substrate has even bound."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "enzyme",
+     "panels": [
+      {
+       "kind": "fit",
+       "cap": "I"
+      },
+      {
+       "kind": "competitive",
+       "cap": "II"
+      },
+      {
+       "kind": "product",
+       "cap": "III"
+      },
+      {
+       "kind": "free",
+       "cap": "IV"
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 885
+  }
+ },
+ {
+  "id": "finalexam-565a86d8",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "A lab measures the rate of an enzyme reaction while the amount of enzyme is increased and the substrate is kept in large excess. Which curve shows the expected result?",
+  "choices": [
+   "I",
+   "II",
+   "III",
+   "IV"
+  ],
+  "answer": "I",
+  "hint": "With substrate in excess every enzyme molecule is kept busy. Twice the enzyme means twice as many active sites working.",
+  "explain": "With excess substrate each added enzyme molecule immediately finds substrate, so the rate is directly proportional to the enzyme amount: a straight line through the origin, curve I. Curve II is the tempting mix-up: it is the shape of rate versus substrate concentration, where the enzyme (not the substrate) becomes the limit. Curve IV is the shape of a temperature or pH profile.",
+  "html": {
+   "prompt": "A lab measures the rate of an enzyme reaction while the <b>amount of enzyme</b> is increased and the substrate is kept in large excess. Which curve shows the expected result?",
+   "choices": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "hint": "With substrate in excess every enzyme molecule is kept busy. Twice the enzyme means twice as many active sites working.",
+   "explain": "With excess substrate each added enzyme molecule immediately finds substrate, so the rate is <b>directly proportional to the enzyme amount</b>: a straight line through the origin, curve <b>I</b>. Curve II is the tempting mix-up: it is the shape of rate versus <i>substrate</i> concentration, where the enzyme (not the substrate) becomes the limit. Curve IV is the shape of a temperature or pH profile."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "plot",
+     "mono": true,
+     "x": {
+      "label": "Amount of enzyme",
+      "min": 0,
+      "max": 10,
+      "ticks": []
+     },
+     "y": {
+      "label": "Reaction rate",
+      "min": 0,
+      "max": 110,
+      "noTicks": true
+     },
+     "series": [
+      {
+       "label": "I",
+       "pts": [
+        [
+         0,
+         0
+        ],
+        [
+         0.25,
+         2.5
+        ],
+        [
+         0.5,
+         5
+        ],
+        [
+         0.75,
+         7.5
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         1.25,
+         12.5
+        ],
+        [
+         1.5,
+         15
+        ],
+        [
+         1.75,
+         17.5
+        ],
+        [
+         2,
+         20
+        ],
+        [
+         2.25,
+         22.5
+        ],
+        [
+         2.5,
+         25
+        ],
+        [
+         2.75,
+         27.5
+        ],
+        [
+         3,
+         30
+        ],
+        [
+         3.25,
+         32.5
+        ],
+        [
+         3.5,
+         35
+        ],
+        [
+         3.75,
+         37.5
+        ],
+        [
+         4,
+         40
+        ],
+        [
+         4.25,
+         42.5
+        ],
+        [
+         4.5,
+         45
+        ],
+        [
+         4.75,
+         47.5
+        ],
+        [
+         5,
+         50
+        ],
+        [
+         5.25,
+         52.5
+        ],
+        [
+         5.5,
+         55
+        ],
+        [
+         5.75,
+         57.5
+        ],
+        [
+         6,
+         60
+        ],
+        [
+         6.25,
+         62.5
+        ],
+        [
+         6.5,
+         65
+        ],
+        [
+         6.75,
+         67.5
+        ],
+        [
+         7,
+         70
+        ],
+        [
+         7.25,
+         72.5
+        ],
+        [
+         7.5,
+         75
+        ],
+        [
+         7.75,
+         77.5
+        ],
+        [
+         8,
+         80
+        ],
+        [
+         8.25,
+         82.5
+        ],
+        [
+         8.5,
+         85
+        ],
+        [
+         8.75,
+         87.5
+        ],
+        [
+         9,
+         90
+        ],
+        [
+         9.25,
+         92.5
+        ],
+        [
+         9.5,
+         95
+        ],
+        [
+         9.75,
+         97.5
+        ],
+        [
+         10,
+         100
+        ]
+       ],
+       "labelAt": 34,
+       "dx": -20,
+       "dy": -10
+      },
+      {
+       "label": "II",
+       "pts": [
+        [
+         0,
+         0
+        ],
+        [
+         0.25,
+         16
+        ],
+        [
+         0.5,
+         26.67
+        ],
+        [
+         0.75,
+         34.29
+        ],
+        [
+         1,
+         40
+        ],
+        [
+         1.25,
+         44.44
+        ],
+        [
+         1.5,
+         48
+        ],
+        [
+         1.75,
+         50.91
+        ],
+        [
+         2,
+         53.33
+        ],
+        [
+         2.25,
+         55.38
+        ],
+        [
+         2.5,
+         57.14
+        ],
+        [
+         2.75,
+         58.67
+        ],
+        [
+         3,
+         60
+        ],
+        [
+         3.25,
+         61.18
+        ],
+        [
+         3.5,
+         62.22
+        ],
+        [
+         3.75,
+         63.16
+        ],
+        [
+         4,
+         64
+        ],
+        [
+         4.25,
+         64.76
+        ],
+        [
+         4.5,
+         65.45
+        ],
+        [
+         4.75,
+         66.09
+        ],
+        [
+         5,
+         66.67
+        ],
+        [
+         5.25,
+         67.2
+        ],
+        [
+         5.5,
+         67.69
+        ],
+        [
+         5.75,
+         68.15
+        ],
+        [
+         6,
+         68.57
+        ],
+        [
+         6.25,
+         68.97
+        ],
+        [
+         6.5,
+         69.33
+        ],
+        [
+         6.75,
+         69.68
+        ],
+        [
+         7,
+         70
+        ],
+        [
+         7.25,
+         70.3
+        ],
+        [
+         7.5,
+         70.59
+        ],
+        [
+         7.75,
+         70.86
+        ],
+        [
+         8,
+         71.11
+        ],
+        [
+         8.25,
+         71.35
+        ],
+        [
+         8.5,
+         71.58
+        ],
+        [
+         8.75,
+         71.79
+        ],
+        [
+         9,
+         72
+        ],
+        [
+         9.25,
+         72.2
+        ],
+        [
+         9.5,
+         72.38
+        ],
+        [
+         9.75,
+         72.56
+        ],
+        [
+         10,
+         72.73
+        ]
+       ],
+       "labelAt": 40,
+       "dx": -26,
+       "dy": 16
+      },
+      {
+       "label": "III",
+       "pts": [
+        [
+         0,
+         35
+        ],
+        [
+         0.25,
+         35
+        ],
+        [
+         0.5,
+         35
+        ],
+        [
+         0.75,
+         35
+        ],
+        [
+         1,
+         35
+        ],
+        [
+         1.25,
+         35
+        ],
+        [
+         1.5,
+         35
+        ],
+        [
+         1.75,
+         35
+        ],
+        [
+         2,
+         35
+        ],
+        [
+         2.25,
+         35
+        ],
+        [
+         2.5,
+         35
+        ],
+        [
+         2.75,
+         35
+        ],
+        [
+         3,
+         35
+        ],
+        [
+         3.25,
+         35
+        ],
+        [
+         3.5,
+         35
+        ],
+        [
+         3.75,
+         35
+        ],
+        [
+         4,
+         35
+        ],
+        [
+         4.25,
+         35
+        ],
+        [
+         4.5,
+         35
+        ],
+        [
+         4.75,
+         35
+        ],
+        [
+         5,
+         35
+        ],
+        [
+         5.25,
+         35
+        ],
+        [
+         5.5,
+         35
+        ],
+        [
+         5.75,
+         35
+        ],
+        [
+         6,
+         35
+        ],
+        [
+         6.25,
+         35
+        ],
+        [
+         6.5,
+         35
+        ],
+        [
+         6.75,
+         35
+        ],
+        [
+         7,
+         35
+        ],
+        [
+         7.25,
+         35
+        ],
+        [
+         7.5,
+         35
+        ],
+        [
+         7.75,
+         35
+        ],
+        [
+         8,
+         35
+        ],
+        [
+         8.25,
+         35
+        ],
+        [
+         8.5,
+         35
+        ],
+        [
+         8.75,
+         35
+        ],
+        [
+         9,
+         35
+        ],
+        [
+         9.25,
+         35
+        ],
+        [
+         9.5,
+         35
+        ],
+        [
+         9.75,
+         35
+        ],
+        [
+         10,
+         35
+        ]
+       ],
+       "labelAt": 36,
+       "dx": -10,
+       "dy": 18
+      },
+      {
+       "label": "IV",
+       "pts": [
+        [
+         0,
+         0.01
+        ],
+        [
+         0.25,
+         0.02
+        ],
+        [
+         0.5,
+         0.04
+        ],
+        [
+         0.75,
+         0.09
+        ],
+        [
+         1,
+         0.18
+        ],
+        [
+         1.25,
+         0.36
+        ],
+        [
+         1.5,
+         0.68
+        ],
+        [
+         1.75,
+         1.24
+        ],
+        [
+         2,
+         2.17
+        ],
+        [
+         2.25,
+         3.65
+        ],
+        [
+         2.5,
+         5.91
+        ],
+        [
+         2.75,
+         9.21
+        ],
+        [
+         3,
+         13.8
+        ],
+        [
+         3.25,
+         19.91
+        ],
+        [
+         3.5,
+         27.64
+        ],
+        [
+         3.75,
+         36.92
+        ],
+        [
+         4,
+         47.44
+        ],
+        [
+         4.25,
+         58.65
+        ],
+        [
+         4.5,
+         69.77
+        ],
+        [
+         4.75,
+         79.86
+        ],
+        [
+         5,
+         87.95
+        ],
+        [
+         5.25,
+         93.19
+        ],
+        [
+         5.5,
+         95
+        ],
+        [
+         5.75,
+         93.19
+        ],
+        [
+         6,
+         87.95
+        ],
+        [
+         6.25,
+         79.86
+        ],
+        [
+         6.5,
+         69.77
+        ],
+        [
+         6.75,
+         58.65
+        ],
+        [
+         7,
+         47.44
+        ],
+        [
+         7.25,
+         36.92
+        ],
+        [
+         7.5,
+         27.64
+        ],
+        [
+         7.75,
+         19.91
+        ],
+        [
+         8,
+         13.8
+        ],
+        [
+         8.25,
+         9.21
+        ],
+        [
+         8.5,
+         5.91
+        ],
+        [
+         8.75,
+         3.65
+        ],
+        [
+         9,
+         2.17
+        ],
+        [
+         9.25,
+         1.24
+        ],
+        [
+         9.5,
+         0.68
+        ],
+        [
+         9.75,
+         0.36
+        ],
+        [
+         10,
+         0.18
+        ]
+       ],
+       "labelAt": 22,
+       "dx": 22,
+       "dy": -4
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 886
+  }
+ },
+ {
+  "id": "finalexam-4bb4f666",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "The graph shows the rate of an enzyme reaction versus substrate concentration; the dashed line is the maximum rate the enzyme can reach. K_m is defined as the substrate concentration at which the rate is half the maximum rate. What is K_m for this enzyme?",
+  "choices": [
+   "4 mM",
+   "8 mM",
+   "40 mM",
+   "2 mM"
+  ],
+  "answer": "4 mM",
+  "hint": "Half of the maximum rate is 40 μmol min⁻¹. Follow that rate across to the curve and read down to the substrate axis.",
+  "explain": "The maximum rate is 80 μmol min⁻¹, so half-maximum is 40 μmol min⁻¹. The curve reaches 40 at a substrate concentration of 4 mM, so K_m = 4 mM. Answering 40 mM reads the rate axis instead of the substrate axis; 8 mM is where the rate is about two-thirds of the maximum, not half.",
+  "html": {
+   "prompt": "The graph shows the rate of an enzyme reaction versus substrate concentration; the dashed line is the maximum rate the enzyme can reach. K<sub>m</sub> is defined as the substrate concentration at which the rate is <b>half</b> the maximum rate. What is K<sub>m</sub> for this enzyme?",
+   "choices": [
+    "4 mM",
+    "8 mM",
+    "40 mM",
+    "2 mM"
+   ],
+   "hint": "Half of the maximum rate is 40 μmol min<sup>−1</sup>. Follow that rate across to the curve and read down to the substrate axis.",
+   "explain": "The maximum rate is 80 μmol min<sup>−1</sup>, so half-maximum is 40 μmol min<sup>−1</sup>. The curve reaches 40 at a substrate concentration of <b>4 mM</b>, so K<sub>m</sub> = 4 mM. Answering 40 mM reads the rate axis instead of the substrate axis; 8 mM is where the rate is about two-thirds of the maximum, not half."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "plot",
+     "mono": true,
+     "grid": true,
+     "x": {
+      "label": "[Substrate] (mM)",
+      "min": 0,
+      "max": 20,
+      "ticks": [
+       0,
+       4,
+       8,
+       12,
+       16,
+       20
+      ]
+     },
+     "y": {
+      "label": "Rate (μmol min⁻¹)",
+      "min": 0,
+      "max": 100,
+      "ticks": [
+       0,
+       20,
+       40,
+       60,
+       80,
+       100
+      ]
+     },
+     "series": [
+      {
+       "pts": [
+        [
+         0,
+         0
+        ],
+        [
+         0.25,
+         4.71
+        ],
+        [
+         0.5,
+         8.89
+        ],
+        [
+         0.75,
+         12.63
+        ],
+        [
+         1,
+         16
+        ],
+        [
+         1.25,
+         19.05
+        ],
+        [
+         1.5,
+         21.82
+        ],
+        [
+         1.75,
+         24.35
+        ],
+        [
+         2,
+         26.67
+        ],
+        [
+         2.25,
+         28.8
+        ],
+        [
+         2.5,
+         30.77
+        ],
+        [
+         2.75,
+         32.59
+        ],
+        [
+         3,
+         34.29
+        ],
+        [
+         3.25,
+         35.86
+        ],
+        [
+         3.5,
+         37.33
+        ],
+        [
+         3.75,
+         38.71
+        ],
+        [
+         4,
+         40
+        ],
+        [
+         4.25,
+         41.21
+        ],
+        [
+         4.5,
+         42.35
+        ],
+        [
+         4.75,
+         43.43
+        ],
+        [
+         5,
+         44.44
+        ],
+        [
+         5.25,
+         45.41
+        ],
+        [
+         5.5,
+         46.32
+        ],
+        [
+         5.75,
+         47.18
+        ],
+        [
+         6,
+         48
+        ],
+        [
+         6.25,
+         48.78
+        ],
+        [
+         6.5,
+         49.52
+        ],
+        [
+         6.75,
+         50.23
+        ],
+        [
+         7,
+         50.91
+        ],
+        [
+         7.25,
+         51.56
+        ],
+        [
+         7.5,
+         52.17
+        ],
+        [
+         7.75,
+         52.77
+        ],
+        [
+         8,
+         53.33
+        ],
+        [
+         8.25,
+         53.88
+        ],
+        [
+         8.5,
+         54.4
+        ],
+        [
+         8.75,
+         54.9
+        ],
+        [
+         9,
+         55.38
+        ],
+        [
+         9.25,
+         55.85
+        ],
+        [
+         9.5,
+         56.3
+        ],
+        [
+         9.75,
+         56.73
+        ],
+        [
+         10,
+         57.14
+        ],
+        [
+         10.25,
+         57.54
+        ],
+        [
+         10.5,
+         57.93
+        ],
+        [
+         10.75,
+         58.31
+        ],
+        [
+         11,
+         58.67
+        ],
+        [
+         11.25,
+         59.02
+        ],
+        [
+         11.5,
+         59.35
+        ],
+        [
+         11.75,
+         59.68
+        ],
+        [
+         12,
+         60
+        ],
+        [
+         12.25,
+         60.31
+        ],
+        [
+         12.5,
+         60.61
+        ],
+        [
+         12.75,
+         60.9
+        ],
+        [
+         13,
+         61.18
+        ],
+        [
+         13.25,
+         61.45
+        ],
+        [
+         13.5,
+         61.71
+        ],
+        [
+         13.75,
+         61.97
+        ],
+        [
+         14,
+         62.22
+        ],
+        [
+         14.25,
+         62.47
+        ],
+        [
+         14.5,
+         62.7
+        ],
+        [
+         14.75,
+         62.93
+        ],
+        [
+         15,
+         63.16
+        ],
+        [
+         15.25,
+         63.38
+        ],
+        [
+         15.5,
+         63.59
+        ],
+        [
+         15.75,
+         63.8
+        ],
+        [
+         16,
+         64
+        ],
+        [
+         16.25,
+         64.2
+        ],
+        [
+         16.5,
+         64.39
+        ],
+        [
+         16.75,
+         64.58
+        ],
+        [
+         17,
+         64.76
+        ],
+        [
+         17.25,
+         64.94
+        ],
+        [
+         17.5,
+         65.12
+        ],
+        [
+         17.75,
+         65.29
+        ],
+        [
+         18,
+         65.45
+        ],
+        [
+         18.25,
+         65.62
+        ],
+        [
+         18.5,
+         65.78
+        ],
+        [
+         18.75,
+         65.93
+        ],
+        [
+         19,
+         66.09
+        ],
+        [
+         19.25,
+         66.24
+        ],
+        [
+         19.5,
+         66.38
+        ],
+        [
+         19.75,
+         66.53
+        ],
+        [
+         20,
+         66.67
+        ]
+       ]
+      }
+     ],
+     "hlines": [
+      {
+       "y": 80,
+       "label": "maximum rate"
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 887
+  }
+ },
+ {
+  "id": "finalexam-d2bb3f3d",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Curve 1 is an enzyme with no inhibitor. Curve 2 was run with an inhibitor, and curve 3 with twice as much of the same inhibitor. Which conclusion do the curves support?",
+  "choices": [
+   "Competitive: more inhibitor means more substrate is needed to reach a given rate, but the same maximum is still approached",
+   "Noncompetitive: more inhibitor lowers the maximum rate the enzyme can reach, in proportion to the amount added",
+   "Irreversible: at the higher level used for curve 3 the enzyme molecules have been permanently destroyed",
+   "Competitive: the inhibitor lowers the maximum rate the enzyme can reach, and more inhibitor lowers it further"
+  ],
+  "answer": "Competitive: more inhibitor means more substrate is needed to reach a given rate, but the same maximum is still approached",
+  "hint": "Compare where the three curves are heading at high substrate concentration, and how far each is shifted to the right at low concentration.",
+  "explain": "All three curves climb toward the same dashed maximum rate at high substrate concentration; the inhibitor only shifts the curve to the right, and doubling the inhibitor (curve 3) shifts it further than curve 2. Because a large excess of substrate overcomes the inhibitor, it is competitive. A noncompetitive inhibitor would give lower plateaus, and an irreversible inhibitor would not be overcome by added substrate.",
+  "html": {
+   "prompt": "Curve 1 is an enzyme with no inhibitor. Curve 2 was run with an inhibitor, and curve 3 with <b>twice as much</b> of the same inhibitor. Which conclusion do the curves support?",
+   "choices": [
+    "Competitive: more inhibitor means more substrate is needed to reach a given rate, but the same maximum is still approached",
+    "Noncompetitive: more inhibitor lowers the maximum rate the enzyme can reach, in proportion to the amount added",
+    "Irreversible: at the higher level used for curve 3 the enzyme molecules have been permanently destroyed",
+    "Competitive: the inhibitor lowers the maximum rate the enzyme can reach, and more inhibitor lowers it further"
+   ],
+   "hint": "Compare where the three curves are heading at high substrate concentration, and how far each is shifted to the right at low concentration.",
+   "explain": "All three curves climb toward the <b>same dashed maximum rate</b> at high substrate concentration; the inhibitor only shifts the curve to the right, and doubling the inhibitor (curve 3) shifts it further than curve 2. Because a large excess of substrate overcomes the inhibitor, it is <b>competitive</b>. A noncompetitive inhibitor would give lower plateaus, and an irreversible inhibitor would not be overcome by added substrate."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "plot",
+     "mono": true,
+     "x": {
+      "label": "[Substrate]",
+      "min": 0,
+      "max": 60,
+      "ticks": []
+     },
+     "y": {
+      "label": "Reaction rate",
+      "min": 0,
+      "max": 115,
+      "noTicks": true
+     },
+     "series": [
+      {
+       "label": "1",
+       "pts": [
+        [
+         0,
+         0
+        ],
+        [
+         0.5,
+         25
+        ],
+        [
+         1,
+         40
+        ],
+        [
+         1.5,
+         50
+        ],
+        [
+         2,
+         57.14
+        ],
+        [
+         2.5,
+         62.5
+        ],
+        [
+         3,
+         66.67
+        ],
+        [
+         3.5,
+         70
+        ],
+        [
+         4,
+         72.73
+        ],
+        [
+         4.5,
+         75
+        ],
+        [
+         5,
+         76.92
+        ],
+        [
+         5.5,
+         78.57
+        ],
+        [
+         6,
+         80
+        ],
+        [
+         6.5,
+         81.25
+        ],
+        [
+         7,
+         82.35
+        ],
+        [
+         7.5,
+         83.33
+        ],
+        [
+         8,
+         84.21
+        ],
+        [
+         8.5,
+         85
+        ],
+        [
+         9,
+         85.71
+        ],
+        [
+         9.5,
+         86.36
+        ],
+        [
+         10,
+         86.96
+        ],
+        [
+         10.5,
+         87.5
+        ],
+        [
+         11,
+         88
+        ],
+        [
+         11.5,
+         88.46
+        ],
+        [
+         12,
+         88.89
+        ],
+        [
+         12.5,
+         89.29
+        ],
+        [
+         13,
+         89.66
+        ],
+        [
+         13.5,
+         90
+        ],
+        [
+         14,
+         90.32
+        ],
+        [
+         14.5,
+         90.62
+        ],
+        [
+         15,
+         90.91
+        ],
+        [
+         15.5,
+         91.18
+        ],
+        [
+         16,
+         91.43
+        ],
+        [
+         16.5,
+         91.67
+        ],
+        [
+         17,
+         91.89
+        ],
+        [
+         17.5,
+         92.11
+        ],
+        [
+         18,
+         92.31
+        ],
+        [
+         18.5,
+         92.5
+        ],
+        [
+         19,
+         92.68
+        ],
+        [
+         19.5,
+         92.86
+        ],
+        [
+         20,
+         93.02
+        ],
+        [
+         20.5,
+         93.18
+        ],
+        [
+         21,
+         93.33
+        ],
+        [
+         21.5,
+         93.48
+        ],
+        [
+         22,
+         93.62
+        ],
+        [
+         22.5,
+         93.75
+        ],
+        [
+         23,
+         93.88
+        ],
+        [
+         23.5,
+         94
+        ],
+        [
+         24,
+         94.12
+        ],
+        [
+         24.5,
+         94.23
+        ],
+        [
+         25,
+         94.34
+        ],
+        [
+         25.5,
+         94.44
+        ],
+        [
+         26,
+         94.55
+        ],
+        [
+         26.5,
+         94.64
+        ],
+        [
+         27,
+         94.74
+        ],
+        [
+         27.5,
+         94.83
+        ],
+        [
+         28,
+         94.92
+        ],
+        [
+         28.5,
+         95
+        ],
+        [
+         29,
+         95.08
+        ],
+        [
+         29.5,
+         95.16
+        ],
+        [
+         30,
+         95.24
+        ],
+        [
+         30.5,
+         95.31
+        ],
+        [
+         31,
+         95.38
+        ],
+        [
+         31.5,
+         95.45
+        ],
+        [
+         32,
+         95.52
+        ],
+        [
+         32.5,
+         95.59
+        ],
+        [
+         33,
+         95.65
+        ],
+        [
+         33.5,
+         95.71
+        ],
+        [
+         34,
+         95.77
+        ],
+        [
+         34.5,
+         95.83
+        ],
+        [
+         35,
+         95.89
+        ],
+        [
+         35.5,
+         95.95
+        ],
+        [
+         36,
+         96
+        ],
+        [
+         36.5,
+         96.05
+        ],
+        [
+         37,
+         96.1
+        ],
+        [
+         37.5,
+         96.15
+        ],
+        [
+         38,
+         96.2
+        ],
+        [
+         38.5,
+         96.25
+        ],
+        [
+         39,
+         96.3
+        ],
+        [
+         39.5,
+         96.34
+        ],
+        [
+         40,
+         96.39
+        ],
+        [
+         40.5,
+         96.43
+        ],
+        [
+         41,
+         96.47
+        ],
+        [
+         41.5,
+         96.51
+        ],
+        [
+         42,
+         96.55
+        ],
+        [
+         42.5,
+         96.59
+        ],
+        [
+         43,
+         96.63
+        ],
+        [
+         43.5,
+         96.67
+        ],
+        [
+         44,
+         96.7
+        ],
+        [
+         44.5,
+         96.74
+        ],
+        [
+         45,
+         96.77
+        ],
+        [
+         45.5,
+         96.81
+        ],
+        [
+         46,
+         96.84
+        ],
+        [
+         46.5,
+         96.88
+        ],
+        [
+         47,
+         96.91
+        ],
+        [
+         47.5,
+         96.94
+        ],
+        [
+         48,
+         96.97
+        ],
+        [
+         48.5,
+         97
+        ],
+        [
+         49,
+         97.03
+        ],
+        [
+         49.5,
+         97.06
+        ],
+        [
+         50,
+         97.09
+        ],
+        [
+         50.5,
+         97.12
+        ],
+        [
+         51,
+         97.14
+        ],
+        [
+         51.5,
+         97.17
+        ],
+        [
+         52,
+         97.2
+        ],
+        [
+         52.5,
+         97.22
+        ],
+        [
+         53,
+         97.25
+        ],
+        [
+         53.5,
+         97.27
+        ],
+        [
+         54,
+         97.3
+        ],
+        [
+         54.5,
+         97.32
+        ],
+        [
+         55,
+         97.35
+        ],
+        [
+         55.5,
+         97.37
+        ],
+        [
+         56,
+         97.39
+        ],
+        [
+         56.5,
+         97.41
+        ],
+        [
+         57,
+         97.44
+        ],
+        [
+         57.5,
+         97.46
+        ],
+        [
+         58,
+         97.48
+        ],
+        [
+         58.5,
+         97.5
+        ],
+        [
+         59,
+         97.52
+        ],
+        [
+         59.5,
+         97.54
+        ],
+        [
+         60,
+         97.56
+        ]
+       ],
+       "labelAt": 20,
+       "dx": -14,
+       "dy": -14
+      },
+      {
+       "label": "2",
+       "pts": [
+        [
+         0,
+         0
+        ],
+        [
+         0.5,
+         10
+        ],
+        [
+         1,
+         18.18
+        ],
+        [
+         1.5,
+         25
+        ],
+        [
+         2,
+         30.77
+        ],
+        [
+         2.5,
+         35.71
+        ],
+        [
+         3,
+         40
+        ],
+        [
+         3.5,
+         43.75
+        ],
+        [
+         4,
+         47.06
+        ],
+        [
+         4.5,
+         50
+        ],
+        [
+         5,
+         52.63
+        ],
+        [
+         5.5,
+         55
+        ],
+        [
+         6,
+         57.14
+        ],
+        [
+         6.5,
+         59.09
+        ],
+        [
+         7,
+         60.87
+        ],
+        [
+         7.5,
+         62.5
+        ],
+        [
+         8,
+         64
+        ],
+        [
+         8.5,
+         65.38
+        ],
+        [
+         9,
+         66.67
+        ],
+        [
+         9.5,
+         67.86
+        ],
+        [
+         10,
+         68.97
+        ],
+        [
+         10.5,
+         70
+        ],
+        [
+         11,
+         70.97
+        ],
+        [
+         11.5,
+         71.88
+        ],
+        [
+         12,
+         72.73
+        ],
+        [
+         12.5,
+         73.53
+        ],
+        [
+         13,
+         74.29
+        ],
+        [
+         13.5,
+         75
+        ],
+        [
+         14,
+         75.68
+        ],
+        [
+         14.5,
+         76.32
+        ],
+        [
+         15,
+         76.92
+        ],
+        [
+         15.5,
+         77.5
+        ],
+        [
+         16,
+         78.05
+        ],
+        [
+         16.5,
+         78.57
+        ],
+        [
+         17,
+         79.07
+        ],
+        [
+         17.5,
+         79.55
+        ],
+        [
+         18,
+         80
+        ],
+        [
+         18.5,
+         80.43
+        ],
+        [
+         19,
+         80.85
+        ],
+        [
+         19.5,
+         81.25
+        ],
+        [
+         20,
+         81.63
+        ],
+        [
+         20.5,
+         82
+        ],
+        [
+         21,
+         82.35
+        ],
+        [
+         21.5,
+         82.69
+        ],
+        [
+         22,
+         83.02
+        ],
+        [
+         22.5,
+         83.33
+        ],
+        [
+         23,
+         83.64
+        ],
+        [
+         23.5,
+         83.93
+        ],
+        [
+         24,
+         84.21
+        ],
+        [
+         24.5,
+         84.48
+        ],
+        [
+         25,
+         84.75
+        ],
+        [
+         25.5,
+         85
+        ],
+        [
+         26,
+         85.25
+        ],
+        [
+         26.5,
+         85.48
+        ],
+        [
+         27,
+         85.71
+        ],
+        [
+         27.5,
+         85.94
+        ],
+        [
+         28,
+         86.15
+        ],
+        [
+         28.5,
+         86.36
+        ],
+        [
+         29,
+         86.57
+        ],
+        [
+         29.5,
+         86.76
+        ],
+        [
+         30,
+         86.96
+        ],
+        [
+         30.5,
+         87.14
+        ],
+        [
+         31,
+         87.32
+        ],
+        [
+         31.5,
+         87.5
+        ],
+        [
+         32,
+         87.67
+        ],
+        [
+         32.5,
+         87.84
+        ],
+        [
+         33,
+         88
+        ],
+        [
+         33.5,
+         88.16
+        ],
+        [
+         34,
+         88.31
+        ],
+        [
+         34.5,
+         88.46
+        ],
+        [
+         35,
+         88.61
+        ],
+        [
+         35.5,
+         88.75
+        ],
+        [
+         36,
+         88.89
+        ],
+        [
+         36.5,
+         89.02
+        ],
+        [
+         37,
+         89.16
+        ],
+        [
+         37.5,
+         89.29
+        ],
+        [
+         38,
+         89.41
+        ],
+        [
+         38.5,
+         89.53
+        ],
+        [
+         39,
+         89.66
+        ],
+        [
+         39.5,
+         89.77
+        ],
+        [
+         40,
+         89.89
+        ],
+        [
+         40.5,
+         90
+        ],
+        [
+         41,
+         90.11
+        ],
+        [
+         41.5,
+         90.22
+        ],
+        [
+         42,
+         90.32
+        ],
+        [
+         42.5,
+         90.43
+        ],
+        [
+         43,
+         90.53
+        ],
+        [
+         43.5,
+         90.62
+        ],
+        [
+         44,
+         90.72
+        ],
+        [
+         44.5,
+         90.82
+        ],
+        [
+         45,
+         90.91
+        ],
+        [
+         45.5,
+         91
+        ],
+        [
+         46,
+         91.09
+        ],
+        [
+         46.5,
+         91.18
+        ],
+        [
+         47,
+         91.26
+        ],
+        [
+         47.5,
+         91.35
+        ],
+        [
+         48,
+         91.43
+        ],
+        [
+         48.5,
+         91.51
+        ],
+        [
+         49,
+         91.59
+        ],
+        [
+         49.5,
+         91.67
+        ],
+        [
+         50,
+         91.74
+        ],
+        [
+         50.5,
+         91.82
+        ],
+        [
+         51,
+         91.89
+        ],
+        [
+         51.5,
+         91.96
+        ],
+        [
+         52,
+         92.04
+        ],
+        [
+         52.5,
+         92.11
+        ],
+        [
+         53,
+         92.17
+        ],
+        [
+         53.5,
+         92.24
+        ],
+        [
+         54,
+         92.31
+        ],
+        [
+         54.5,
+         92.37
+        ],
+        [
+         55,
+         92.44
+        ],
+        [
+         55.5,
+         92.5
+        ],
+        [
+         56,
+         92.56
+        ],
+        [
+         56.5,
+         92.62
+        ],
+        [
+         57,
+         92.68
+        ],
+        [
+         57.5,
+         92.74
+        ],
+        [
+         58,
+         92.8
+        ],
+        [
+         58.5,
+         92.86
+        ],
+        [
+         59,
+         92.91
+        ],
+        [
+         59.5,
+         92.97
+        ],
+        [
+         60,
+         93.02
+        ]
+       ],
+       "labelAt": 36,
+       "dx": -18,
+       "dy": 14
+      },
+      {
+       "label": "3",
+       "pts": [
+        [
+         0,
+         0
+        ],
+        [
+         0.5,
+         6.25
+        ],
+        [
+         1,
+         11.76
+        ],
+        [
+         1.5,
+         16.67
+        ],
+        [
+         2,
+         21.05
+        ],
+        [
+         2.5,
+         25
+        ],
+        [
+         3,
+         28.57
+        ],
+        [
+         3.5,
+         31.82
+        ],
+        [
+         4,
+         34.78
+        ],
+        [
+         4.5,
+         37.5
+        ],
+        [
+         5,
+         40
+        ],
+        [
+         5.5,
+         42.31
+        ],
+        [
+         6,
+         44.44
+        ],
+        [
+         6.5,
+         46.43
+        ],
+        [
+         7,
+         48.28
+        ],
+        [
+         7.5,
+         50
+        ],
+        [
+         8,
+         51.61
+        ],
+        [
+         8.5,
+         53.12
+        ],
+        [
+         9,
+         54.55
+        ],
+        [
+         9.5,
+         55.88
+        ],
+        [
+         10,
+         57.14
+        ],
+        [
+         10.5,
+         58.33
+        ],
+        [
+         11,
+         59.46
+        ],
+        [
+         11.5,
+         60.53
+        ],
+        [
+         12,
+         61.54
+        ],
+        [
+         12.5,
+         62.5
+        ],
+        [
+         13,
+         63.41
+        ],
+        [
+         13.5,
+         64.29
+        ],
+        [
+         14,
+         65.12
+        ],
+        [
+         14.5,
+         65.91
+        ],
+        [
+         15,
+         66.67
+        ],
+        [
+         15.5,
+         67.39
+        ],
+        [
+         16,
+         68.09
+        ],
+        [
+         16.5,
+         68.75
+        ],
+        [
+         17,
+         69.39
+        ],
+        [
+         17.5,
+         70
+        ],
+        [
+         18,
+         70.59
+        ],
+        [
+         18.5,
+         71.15
+        ],
+        [
+         19,
+         71.7
+        ],
+        [
+         19.5,
+         72.22
+        ],
+        [
+         20,
+         72.73
+        ],
+        [
+         20.5,
+         73.21
+        ],
+        [
+         21,
+         73.68
+        ],
+        [
+         21.5,
+         74.14
+        ],
+        [
+         22,
+         74.58
+        ],
+        [
+         22.5,
+         75
+        ],
+        [
+         23,
+         75.41
+        ],
+        [
+         23.5,
+         75.81
+        ],
+        [
+         24,
+         76.19
+        ],
+        [
+         24.5,
+         76.56
+        ],
+        [
+         25,
+         76.92
+        ],
+        [
+         25.5,
+         77.27
+        ],
+        [
+         26,
+         77.61
+        ],
+        [
+         26.5,
+         77.94
+        ],
+        [
+         27,
+         78.26
+        ],
+        [
+         27.5,
+         78.57
+        ],
+        [
+         28,
+         78.87
+        ],
+        [
+         28.5,
+         79.17
+        ],
+        [
+         29,
+         79.45
+        ],
+        [
+         29.5,
+         79.73
+        ],
+        [
+         30,
+         80
+        ],
+        [
+         30.5,
+         80.26
+        ],
+        [
+         31,
+         80.52
+        ],
+        [
+         31.5,
+         80.77
+        ],
+        [
+         32,
+         81.01
+        ],
+        [
+         32.5,
+         81.25
+        ],
+        [
+         33,
+         81.48
+        ],
+        [
+         33.5,
+         81.71
+        ],
+        [
+         34,
+         81.93
+        ],
+        [
+         34.5,
+         82.14
+        ],
+        [
+         35,
+         82.35
+        ],
+        [
+         35.5,
+         82.56
+        ],
+        [
+         36,
+         82.76
+        ],
+        [
+         36.5,
+         82.95
+        ],
+        [
+         37,
+         83.15
+        ],
+        [
+         37.5,
+         83.33
+        ],
+        [
+         38,
+         83.52
+        ],
+        [
+         38.5,
+         83.7
+        ],
+        [
+         39,
+         83.87
+        ],
+        [
+         39.5,
+         84.04
+        ],
+        [
+         40,
+         84.21
+        ],
+        [
+         40.5,
+         84.38
+        ],
+        [
+         41,
+         84.54
+        ],
+        [
+         41.5,
+         84.69
+        ],
+        [
+         42,
+         84.85
+        ],
+        [
+         42.5,
+         85
+        ],
+        [
+         43,
+         85.15
+        ],
+        [
+         43.5,
+         85.29
+        ],
+        [
+         44,
+         85.44
+        ],
+        [
+         44.5,
+         85.58
+        ],
+        [
+         45,
+         85.71
+        ],
+        [
+         45.5,
+         85.85
+        ],
+        [
+         46,
+         85.98
+        ],
+        [
+         46.5,
+         86.11
+        ],
+        [
+         47,
+         86.24
+        ],
+        [
+         47.5,
+         86.36
+        ],
+        [
+         48,
+         86.49
+        ],
+        [
+         48.5,
+         86.61
+        ],
+        [
+         49,
+         86.73
+        ],
+        [
+         49.5,
+         86.84
+        ],
+        [
+         50,
+         86.96
+        ],
+        [
+         50.5,
+         87.07
+        ],
+        [
+         51,
+         87.18
+        ],
+        [
+         51.5,
+         87.29
+        ],
+        [
+         52,
+         87.39
+        ],
+        [
+         52.5,
+         87.5
+        ],
+        [
+         53,
+         87.6
+        ],
+        [
+         53.5,
+         87.7
+        ],
+        [
+         54,
+         87.8
+        ],
+        [
+         54.5,
+         87.9
+        ],
+        [
+         55,
+         88
+        ],
+        [
+         55.5,
+         88.1
+        ],
+        [
+         56,
+         88.19
+        ],
+        [
+         56.5,
+         88.28
+        ],
+        [
+         57,
+         88.37
+        ],
+        [
+         57.5,
+         88.46
+        ],
+        [
+         58,
+         88.55
+        ],
+        [
+         58.5,
+         88.64
+        ],
+        [
+         59,
+         88.72
+        ],
+        [
+         59.5,
+         88.81
+        ],
+        [
+         60,
+         88.89
+        ]
+       ],
+       "labelAt": 72,
+       "dx": 10,
+       "dy": 18
+      }
+     ],
+     "hlines": [
+      {
+       "y": 100,
+       "label": "maximum rate, no inhibitor"
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 888
+  }
+ },
+ {
+  "id": "finalexam-b7f34d55",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Lysosomes are acidic compartments inside cells (pH about 5) that break down worn-out cell parts. The graph shows pH profiles of four enzymes. Which curve most likely belongs to a lysosomal enzyme?",
+  "choices": [
+   "2",
+   "1",
+   "3",
+   "4"
+  ],
+  "answer": "2",
+  "hint": "Each enzyme works fastest at the pH of the place where it normally acts. Find the curve whose peak sits at about pH 5.",
+  "explain": "A lysosomal enzyme is most active at the lysosome's pH, so its peak should be near pH 5: curve 2. Curve 1 (peak near pH 2) fits a stomach enzyme such as pepsin; curve 3 (near 7.4) fits an enzyme of blood or cytoplasm; curve 4 (near 9.5) fits an enzyme of the small intestine. Students who assume \"acidic\" means the most acidic curve pick 1, but pH 2 is far more acidic than a lysosome.",
+  "html": {
+   "prompt": "Lysosomes are acidic compartments inside cells (pH about 5) that break down worn-out cell parts. The graph shows pH profiles of four enzymes. Which curve most likely belongs to a lysosomal enzyme?",
+   "choices": [
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "hint": "Each enzyme works fastest at the pH of the place where it normally acts. Find the curve whose peak sits at about pH 5.",
+   "explain": "A lysosomal enzyme is most active at the lysosome's pH, so its peak should be near pH 5: curve <b>2</b>. Curve 1 (peak near pH 2) fits a stomach enzyme such as pepsin; curve 3 (near 7.4) fits an enzyme of blood or cytoplasm; curve 4 (near 9.5) fits an enzyme of the small intestine. Students who assume \"acidic\" means the most acidic curve pick 1, but pH 2 is far more acidic than a lysosome."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "plot",
+     "mono": true,
+     "x": {
+      "label": "pH",
+      "min": 0,
+      "max": 12,
+      "ticks": [
+       0,
+       2,
+       4,
+       6,
+       8,
+       10,
+       12
+      ]
+     },
+     "y": {
+      "label": "Relative activity",
+      "min": 0,
+      "max": 120,
+      "noTicks": true
+     },
+     "series": [
+      {
+       "label": "1",
+       "pts": [
+        [
+         0,
+         3.67
+        ],
+        [
+         0.125,
+         5.47
+        ],
+        [
+         0.25,
+         7.96
+        ],
+        [
+         0.375,
+         11.28
+        ],
+        [
+         0.5,
+         15.57
+        ],
+        [
+         0.625,
+         20.96
+        ],
+        [
+         0.75,
+         27.49
+        ],
+        [
+         0.875,
+         35.14
+        ],
+        [
+         1,
+         43.76
+        ],
+        [
+         1.125,
+         53.11
+        ],
+        [
+         1.25,
+         62.82
+        ],
+        [
+         1.375,
+         72.41
+        ],
+        [
+         1.5,
+         81.33
+        ],
+        [
+         1.625,
+         89.03
+        ],
+        [
+         1.75,
+         94.97
+        ],
+        [
+         1.875,
+         98.72
+        ],
+        [
+         2,
+         100
+        ],
+        [
+         2.125,
+         98.72
+        ],
+        [
+         2.25,
+         94.97
+        ],
+        [
+         2.375,
+         89.03
+        ],
+        [
+         2.5,
+         81.33
+        ],
+        [
+         2.625,
+         72.41
+        ],
+        [
+         2.75,
+         62.82
+        ],
+        [
+         2.875,
+         53.11
+        ],
+        [
+         3,
+         43.76
+        ],
+        [
+         3.125,
+         35.14
+        ],
+        [
+         3.25,
+         27.49
+        ],
+        [
+         3.375,
+         20.96
+        ],
+        [
+         3.5,
+         15.57
+        ],
+        [
+         3.625,
+         11.28
+        ],
+        [
+         3.75,
+         7.96
+        ],
+        [
+         3.875,
+         5.47
+        ],
+        [
+         4,
+         3.67
+        ],
+        [
+         4.125,
+         2.39
+        ],
+        [
+         4.25,
+         1.52
+        ],
+        [
+         4.375,
+         0.95
+        ],
+        [
+         4.5,
+         0.57
+        ],
+        [
+         4.625,
+         0.34
+        ],
+        [
+         4.75,
+         0.19
+        ],
+        [
+         4.875,
+         0.11
+        ],
+        [
+         5,
+         0.06
+        ],
+        [
+         5.125,
+         0.03
+        ],
+        [
+         5.25,
+         0.02
+        ],
+        [
+         5.375,
+         0.01
+        ],
+        [
+         5.5,
+         0
+        ],
+        [
+         5.625,
+         0
+        ],
+        [
+         5.75,
+         0
+        ],
+        [
+         5.875,
+         0
+        ],
+        [
+         6,
+         0
+        ],
+        [
+         6.125,
+         0
+        ],
+        [
+         6.25,
+         0
+        ],
+        [
+         6.375,
+         0
+        ],
+        [
+         6.5,
+         0
+        ],
+        [
+         6.625,
+         0
+        ],
+        [
+         6.75,
+         0
+        ],
+        [
+         6.875,
+         0
+        ],
+        [
+         7,
+         0
+        ],
+        [
+         7.125,
+         0
+        ],
+        [
+         7.25,
+         0
+        ],
+        [
+         7.375,
+         0
+        ],
+        [
+         7.5,
+         0
+        ],
+        [
+         7.625,
+         0
+        ],
+        [
+         7.75,
+         0
+        ],
+        [
+         7.875,
+         0
+        ],
+        [
+         8,
+         0
+        ],
+        [
+         8.125,
+         0
+        ],
+        [
+         8.25,
+         0
+        ],
+        [
+         8.375,
+         0
+        ],
+        [
+         8.5,
+         0
+        ],
+        [
+         8.625,
+         0
+        ],
+        [
+         8.75,
+         0
+        ],
+        [
+         8.875,
+         0
+        ],
+        [
+         9,
+         0
+        ],
+        [
+         9.125,
+         0
+        ],
+        [
+         9.25,
+         0
+        ],
+        [
+         9.375,
+         0
+        ],
+        [
+         9.5,
+         0
+        ],
+        [
+         9.625,
+         0
+        ],
+        [
+         9.75,
+         0
+        ],
+        [
+         9.875,
+         0
+        ],
+        [
+         10,
+         0
+        ],
+        [
+         10.125,
+         0
+        ],
+        [
+         10.25,
+         0
+        ],
+        [
+         10.375,
+         0
+        ],
+        [
+         10.5,
+         0
+        ],
+        [
+         10.625,
+         0
+        ],
+        [
+         10.75,
+         0
+        ],
+        [
+         10.875,
+         0
+        ],
+        [
+         11,
+         0
+        ],
+        [
+         11.125,
+         0
+        ],
+        [
+         11.25,
+         0
+        ],
+        [
+         11.375,
+         0
+        ],
+        [
+         11.5,
+         0
+        ],
+        [
+         11.625,
+         0
+        ],
+        [
+         11.75,
+         0
+        ],
+        [
+         11.875,
+         0
+        ],
+        [
+         12,
+         0
+        ]
+       ],
+       "labelAt": 16,
+       "dx": 0,
+       "dy": -14
+      },
+      {
+       "label": "2",
+       "pts": [
+        [
+         0,
+         0
+        ],
+        [
+         0.125,
+         0
+        ],
+        [
+         0.25,
+         0
+        ],
+        [
+         0.375,
+         0
+        ],
+        [
+         0.5,
+         0
+        ],
+        [
+         0.625,
+         0
+        ],
+        [
+         0.75,
+         0
+        ],
+        [
+         0.875,
+         0
+        ],
+        [
+         1,
+         0
+        ],
+        [
+         1.125,
+         0
+        ],
+        [
+         1.25,
+         0
+        ],
+        [
+         1.375,
+         0
+        ],
+        [
+         1.5,
+         0
+        ],
+        [
+         1.625,
+         0
+        ],
+        [
+         1.75,
+         0
+        ],
+        [
+         1.875,
+         0.01
+        ],
+        [
+         2,
+         0.01
+        ],
+        [
+         2.125,
+         0.03
+        ],
+        [
+         2.25,
+         0.05
+        ],
+        [
+         2.375,
+         0.1
+        ],
+        [
+         2.5,
+         0.19
+        ],
+        [
+         2.625,
+         0.36
+        ],
+        [
+         2.75,
+         0.63
+        ],
+        [
+         2.875,
+         1.09
+        ],
+        [
+         3,
+         1.83
+        ],
+        [
+         3.125,
+         2.97
+        ],
+        [
+         3.25,
+         4.68
+        ],
+        [
+         3.375,
+         7.13
+        ],
+        [
+         3.5,
+         10.54
+        ],
+        [
+         3.625,
+         15.1
+        ],
+        [
+         3.75,
+         20.96
+        ],
+        [
+         3.875,
+         28.21
+        ],
+        [
+         4,
+         36.79
+        ],
+        [
+         4.125,
+         46.5
+        ],
+        [
+         4.25,
+         56.98
+        ],
+        [
+         4.375,
+         67.66
+        ],
+        [
+         4.5,
+         77.88
+        ],
+        [
+         4.625,
+         86.88
+        ],
+        [
+         4.75,
+         93.94
+        ],
+        [
+         4.875,
+         98.45
+        ],
+        [
+         5,
+         100
+        ],
+        [
+         5.125,
+         98.45
+        ],
+        [
+         5.25,
+         93.94
+        ],
+        [
+         5.375,
+         86.88
+        ],
+        [
+         5.5,
+         77.88
+        ],
+        [
+         5.625,
+         67.66
+        ],
+        [
+         5.75,
+         56.98
+        ],
+        [
+         5.875,
+         46.5
+        ],
+        [
+         6,
+         36.79
+        ],
+        [
+         6.125,
+         28.21
+        ],
+        [
+         6.25,
+         20.96
+        ],
+        [
+         6.375,
+         15.1
+        ],
+        [
+         6.5,
+         10.54
+        ],
+        [
+         6.625,
+         7.13
+        ],
+        [
+         6.75,
+         4.68
+        ],
+        [
+         6.875,
+         2.97
+        ],
+        [
+         7,
+         1.83
+        ],
+        [
+         7.125,
+         1.09
+        ],
+        [
+         7.25,
+         0.63
+        ],
+        [
+         7.375,
+         0.36
+        ],
+        [
+         7.5,
+         0.19
+        ],
+        [
+         7.625,
+         0.1
+        ],
+        [
+         7.75,
+         0.05
+        ],
+        [
+         7.875,
+         0.03
+        ],
+        [
+         8,
+         0.01
+        ],
+        [
+         8.125,
+         0.01
+        ],
+        [
+         8.25,
+         0
+        ],
+        [
+         8.375,
+         0
+        ],
+        [
+         8.5,
+         0
+        ],
+        [
+         8.625,
+         0
+        ],
+        [
+         8.75,
+         0
+        ],
+        [
+         8.875,
+         0
+        ],
+        [
+         9,
+         0
+        ],
+        [
+         9.125,
+         0
+        ],
+        [
+         9.25,
+         0
+        ],
+        [
+         9.375,
+         0
+        ],
+        [
+         9.5,
+         0
+        ],
+        [
+         9.625,
+         0
+        ],
+        [
+         9.75,
+         0
+        ],
+        [
+         9.875,
+         0
+        ],
+        [
+         10,
+         0
+        ],
+        [
+         10.125,
+         0
+        ],
+        [
+         10.25,
+         0
+        ],
+        [
+         10.375,
+         0
+        ],
+        [
+         10.5,
+         0
+        ],
+        [
+         10.625,
+         0
+        ],
+        [
+         10.75,
+         0
+        ],
+        [
+         10.875,
+         0
+        ],
+        [
+         11,
+         0
+        ],
+        [
+         11.125,
+         0
+        ],
+        [
+         11.25,
+         0
+        ],
+        [
+         11.375,
+         0
+        ],
+        [
+         11.5,
+         0
+        ],
+        [
+         11.625,
+         0
+        ],
+        [
+         11.75,
+         0
+        ],
+        [
+         11.875,
+         0
+        ],
+        [
+         12,
+         0
+        ]
+       ],
+       "labelAt": 40,
+       "dx": 0,
+       "dy": -14
+      },
+      {
+       "label": "3",
+       "pts": [
+        [
+         0,
+         0
+        ],
+        [
+         0.125,
+         0
+        ],
+        [
+         0.25,
+         0
+        ],
+        [
+         0.375,
+         0
+        ],
+        [
+         0.5,
+         0
+        ],
+        [
+         0.625,
+         0
+        ],
+        [
+         0.75,
+         0
+        ],
+        [
+         0.875,
+         0
+        ],
+        [
+         1,
+         0
+        ],
+        [
+         1.125,
+         0
+        ],
+        [
+         1.25,
+         0
+        ],
+        [
+         1.375,
+         0
+        ],
+        [
+         1.5,
+         0
+        ],
+        [
+         1.625,
+         0
+        ],
+        [
+         1.75,
+         0
+        ],
+        [
+         1.875,
+         0
+        ],
+        [
+         2,
+         0
+        ],
+        [
+         2.125,
+         0
+        ],
+        [
+         2.25,
+         0
+        ],
+        [
+         2.375,
+         0
+        ],
+        [
+         2.5,
+         0
+        ],
+        [
+         2.625,
+         0
+        ],
+        [
+         2.75,
+         0
+        ],
+        [
+         2.875,
+         0
+        ],
+        [
+         3,
+         0
+        ],
+        [
+         3.125,
+         0
+        ],
+        [
+         3.25,
+         0
+        ],
+        [
+         3.375,
+         0
+        ],
+        [
+         3.5,
+         0
+        ],
+        [
+         3.625,
+         0
+        ],
+        [
+         3.75,
+         0
+        ],
+        [
+         3.875,
+         0
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         4.125,
+         0
+        ],
+        [
+         4.25,
+         0
+        ],
+        [
+         4.375,
+         0
+        ],
+        [
+         4.5,
+         0
+        ],
+        [
+         4.625,
+         0.01
+        ],
+        [
+         4.75,
+         0.02
+        ],
+        [
+         4.875,
+         0.04
+        ],
+        [
+         5,
+         0.08
+        ],
+        [
+         5.125,
+         0.17
+        ],
+        [
+         5.25,
+         0.33
+        ],
+        [
+         5.375,
+         0.63
+        ],
+        [
+         5.5,
+         1.16
+        ],
+        [
+         5.625,
+         2.05
+        ],
+        [
+         5.75,
+         3.47
+        ],
+        [
+         5.875,
+         5.66
+        ],
+        [
+         6,
+         8.89
+        ],
+        [
+         6.125,
+         13.44
+        ],
+        [
+         6.25,
+         19.54
+        ],
+        [
+         6.375,
+         27.33
+        ],
+        [
+         6.5,
+         36.79
+        ],
+        [
+         6.625,
+         47.64
+        ],
+        [
+         6.75,
+         59.36
+        ],
+        [
+         6.875,
+         71.16
+        ],
+        [
+         7,
+         82.08
+        ],
+        [
+         7.125,
+         91.09
+        ],
+        [
+         7.25,
+         97.26
+        ],
+        [
+         7.375,
+         99.92
+        ],
+        [
+         7.5,
+         98.77
+        ],
+        [
+         7.625,
+         93.94
+        ],
+        [
+         7.75,
+         85.96
+        ],
+        [
+         7.875,
+         75.69
+        ],
+        [
+         8,
+         64.12
+        ],
+        [
+         8.125,
+         52.26
+        ],
+        [
+         8.25,
+         40.98
+        ],
+        [
+         8.375,
+         30.92
+        ],
+        [
+         8.5,
+         22.45
+        ],
+        [
+         8.625,
+         15.68
+        ],
+        [
+         8.75,
+         10.54
+        ],
+        [
+         8.875,
+         6.82
+        ],
+        [
+         9,
+         4.24
+        ],
+        [
+         9.125,
+         2.54
+        ],
+        [
+         9.25,
+         1.46
+        ],
+        [
+         9.375,
+         0.81
+        ],
+        [
+         9.5,
+         0.43
+        ],
+        [
+         9.625,
+         0.22
+        ],
+        [
+         9.75,
+         0.11
+        ],
+        [
+         9.875,
+         0.05
+        ],
+        [
+         10,
+         0.02
+        ],
+        [
+         10.125,
+         0.01
+        ],
+        [
+         10.25,
+         0
+        ],
+        [
+         10.375,
+         0
+        ],
+        [
+         10.5,
+         0
+        ],
+        [
+         10.625,
+         0
+        ],
+        [
+         10.75,
+         0
+        ],
+        [
+         10.875,
+         0
+        ],
+        [
+         11,
+         0
+        ],
+        [
+         11.125,
+         0
+        ],
+        [
+         11.25,
+         0
+        ],
+        [
+         11.375,
+         0
+        ],
+        [
+         11.5,
+         0
+        ],
+        [
+         11.625,
+         0
+        ],
+        [
+         11.75,
+         0
+        ],
+        [
+         11.875,
+         0
+        ],
+        [
+         12,
+         0
+        ]
+       ],
+       "labelAt": 59,
+       "dx": 0,
+       "dy": -14
+      },
+      {
+       "label": "4",
+       "pts": [
+        [
+         0,
+         0
+        ],
+        [
+         0.125,
+         0
+        ],
+        [
+         0.25,
+         0
+        ],
+        [
+         0.375,
+         0
+        ],
+        [
+         0.5,
+         0
+        ],
+        [
+         0.625,
+         0
+        ],
+        [
+         0.75,
+         0
+        ],
+        [
+         0.875,
+         0
+        ],
+        [
+         1,
+         0
+        ],
+        [
+         1.125,
+         0
+        ],
+        [
+         1.25,
+         0
+        ],
+        [
+         1.375,
+         0
+        ],
+        [
+         1.5,
+         0
+        ],
+        [
+         1.625,
+         0
+        ],
+        [
+         1.75,
+         0
+        ],
+        [
+         1.875,
+         0
+        ],
+        [
+         2,
+         0
+        ],
+        [
+         2.125,
+         0
+        ],
+        [
+         2.25,
+         0
+        ],
+        [
+         2.375,
+         0
+        ],
+        [
+         2.5,
+         0
+        ],
+        [
+         2.625,
+         0
+        ],
+        [
+         2.75,
+         0
+        ],
+        [
+         2.875,
+         0
+        ],
+        [
+         3,
+         0
+        ],
+        [
+         3.125,
+         0
+        ],
+        [
+         3.25,
+         0
+        ],
+        [
+         3.375,
+         0
+        ],
+        [
+         3.5,
+         0
+        ],
+        [
+         3.625,
+         0
+        ],
+        [
+         3.75,
+         0
+        ],
+        [
+         3.875,
+         0
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         4.125,
+         0
+        ],
+        [
+         4.25,
+         0
+        ],
+        [
+         4.375,
+         0
+        ],
+        [
+         4.5,
+         0
+        ],
+        [
+         4.625,
+         0
+        ],
+        [
+         4.75,
+         0
+        ],
+        [
+         4.875,
+         0
+        ],
+        [
+         5,
+         0
+        ],
+        [
+         5.125,
+         0
+        ],
+        [
+         5.25,
+         0
+        ],
+        [
+         5.375,
+         0
+        ],
+        [
+         5.5,
+         0
+        ],
+        [
+         5.625,
+         0
+        ],
+        [
+         5.75,
+         0
+        ],
+        [
+         5.875,
+         0
+        ],
+        [
+         6,
+         0
+        ],
+        [
+         6.125,
+         0.01
+        ],
+        [
+         6.25,
+         0.02
+        ],
+        [
+         6.375,
+         0.03
+        ],
+        [
+         6.5,
+         0.06
+        ],
+        [
+         6.625,
+         0.11
+        ],
+        [
+         6.75,
+         0.19
+        ],
+        [
+         6.875,
+         0.34
+        ],
+        [
+         7,
+         0.57
+        ],
+        [
+         7.125,
+         0.95
+        ],
+        [
+         7.25,
+         1.52
+        ],
+        [
+         7.375,
+         2.39
+        ],
+        [
+         7.5,
+         3.67
+        ],
+        [
+         7.625,
+         5.47
+        ],
+        [
+         7.75,
+         7.96
+        ],
+        [
+         7.875,
+         11.28
+        ],
+        [
+         8,
+         15.57
+        ],
+        [
+         8.125,
+         20.96
+        ],
+        [
+         8.25,
+         27.49
+        ],
+        [
+         8.375,
+         35.14
+        ],
+        [
+         8.5,
+         43.76
+        ],
+        [
+         8.625,
+         53.11
+        ],
+        [
+         8.75,
+         62.82
+        ],
+        [
+         8.875,
+         72.41
+        ],
+        [
+         9,
+         81.33
+        ],
+        [
+         9.125,
+         89.03
+        ],
+        [
+         9.25,
+         94.97
+        ],
+        [
+         9.375,
+         98.72
+        ],
+        [
+         9.5,
+         100
+        ],
+        [
+         9.625,
+         98.72
+        ],
+        [
+         9.75,
+         94.97
+        ],
+        [
+         9.875,
+         89.03
+        ],
+        [
+         10,
+         81.33
+        ],
+        [
+         10.125,
+         72.41
+        ],
+        [
+         10.25,
+         62.82
+        ],
+        [
+         10.375,
+         53.11
+        ],
+        [
+         10.5,
+         43.76
+        ],
+        [
+         10.625,
+         35.14
+        ],
+        [
+         10.75,
+         27.49
+        ],
+        [
+         10.875,
+         20.96
+        ],
+        [
+         11,
+         15.57
+        ],
+        [
+         11.125,
+         11.28
+        ],
+        [
+         11.25,
+         7.96
+        ],
+        [
+         11.375,
+         5.47
+        ],
+        [
+         11.5,
+         3.67
+        ],
+        [
+         11.625,
+         2.39
+        ],
+        [
+         11.75,
+         1.52
+        ],
+        [
+         11.875,
+         0.95
+        ],
+        [
+         12,
+         0.57
+        ]
+       ],
+       "labelAt": 76,
+       "dx": 0,
+       "dy": -14
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 889
+  }
+ },
+ {
+  "id": "finalexam-1cdad5df",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Curve 1 is a human enzyme and curve 2 is the matching enzyme from a cold-water fish. At which temperature are both enzymes working at more than half of their maximum rate?",
+  "choices": [
+   "25 °C",
+   "15 °C",
+   "35 °C",
+   "45 °C"
+  ],
+  "answer": "25 °C",
+  "hint": "Follow the 50 % line across the graph and note where each curve lies above it. Only one of the listed temperatures is inside both ranges.",
+  "explain": "At 25 °C curve 1 (human) is at about 75 % and curve 2 (fish) at about 70 %, so both are above half-maximum. At 15 °C the fish enzyme is near its peak but the human enzyme is below 40 %; at 35 °C the human enzyme is near its maximum but the fish enzyme has already denatured and is close to zero; at 45 °C the human enzyme is collapsing and the fish enzyme is completely inactive.",
+  "html": {
+   "prompt": "Curve 1 is a human enzyme and curve 2 is the matching enzyme from a cold-water fish. At which temperature are <b>both</b> enzymes working at more than half of their maximum rate?",
+   "choices": [
+    "25 °C",
+    "15 °C",
+    "35 °C",
+    "45 °C"
+   ],
+   "hint": "Follow the 50 % line across the graph and note where each curve lies above it. Only one of the listed temperatures is inside both ranges.",
+   "explain": "At 25 °C curve 1 (human) is at about 75 % and curve 2 (fish) at about 70 %, so <b>both are above half-maximum</b>. At 15 °C the fish enzyme is near its peak but the human enzyme is below 40 %; at 35 °C the human enzyme is near its maximum but the fish enzyme has already denatured and is close to zero; at 45 °C the human enzyme is collapsing and the fish enzyme is completely inactive."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "plot",
+     "mono": true,
+     "grid": true,
+     "x": {
+      "label": "Temperature (°C)",
+      "min": 0,
+      "max": 60,
+      "ticks": [
+       0,
+       10,
+       20,
+       30,
+       40,
+       50,
+       60
+      ]
+     },
+     "y": {
+      "label": "Rate (% of maximum)",
+      "min": 0,
+      "max": 110,
+      "ticks": [
+       0,
+       25,
+       50,
+       75,
+       100
+      ]
+     },
+     "series": [
+      {
+       "label": "1",
+       "pts": [
+        [
+         0,
+         5.91
+        ],
+        [
+         1,
+         6.87
+        ],
+        [
+         2,
+         7.96
+        ],
+        [
+         3,
+         9.18
+        ],
+        [
+         4,
+         10.54
+        ],
+        [
+         5,
+         12.05
+        ],
+        [
+         6,
+         13.73
+        ],
+        [
+         7,
+         15.57
+        ],
+        [
+         8,
+         17.59
+        ],
+        [
+         9,
+         19.79
+        ],
+        [
+         10,
+         22.18
+        ],
+        [
+         11,
+         24.74
+        ],
+        [
+         12,
+         27.49
+        ],
+        [
+         13,
+         30.42
+        ],
+        [
+         14,
+         33.52
+        ],
+        [
+         15,
+         36.79
+        ],
+        [
+         16,
+         40.21
+        ],
+        [
+         17,
+         43.76
+        ],
+        [
+         18,
+         47.43
+        ],
+        [
+         19,
+         51.2
+        ],
+        [
+         20,
+         55.04
+        ],
+        [
+         21,
+         58.92
+        ],
+        [
+         22,
+         62.82
+        ],
+        [
+         23,
+         66.7
+        ],
+        [
+         24,
+         70.53
+        ],
+        [
+         25,
+         74.27
+        ],
+        [
+         26,
+         77.88
+        ],
+        [
+         27,
+         81.33
+        ],
+        [
+         28,
+         84.59
+        ],
+        [
+         29,
+         87.61
+        ],
+        [
+         30,
+         90.37
+        ],
+        [
+         31,
+         92.83
+        ],
+        [
+         32,
+         94.97
+        ],
+        [
+         33,
+         96.75
+        ],
+        [
+         34,
+         98.16
+        ],
+        [
+         35,
+         99.18
+        ],
+        [
+         36,
+         99.79
+        ],
+        [
+         37,
+         100
+        ],
+        [
+         38,
+         97.26
+        ],
+        [
+         39,
+         89.48
+        ],
+        [
+         40,
+         77.88
+        ],
+        [
+         41,
+         64.12
+        ],
+        [
+         42,
+         49.94
+        ],
+        [
+         43,
+         36.79
+        ],
+        [
+         44,
+         25.64
+        ],
+        [
+         45,
+         16.9
+        ],
+        [
+         46,
+         10.54
+        ],
+        [
+         47,
+         6.22
+        ],
+        [
+         48,
+         3.47
+        ],
+        [
+         49,
+         1.83
+        ],
+        [
+         50,
+         0.91
+        ],
+        [
+         51,
+         0.43
+        ],
+        [
+         52,
+         0.19
+        ],
+        [
+         53,
+         0.08
+        ],
+        [
+         54,
+         0.03
+        ],
+        [
+         55,
+         0.01
+        ],
+        [
+         56,
+         0
+        ],
+        [
+         57,
+         0
+        ],
+        [
+         58,
+         0
+        ],
+        [
+         59,
+         0
+        ],
+        [
+         60,
+         0
+        ]
+       ],
+       "labelAt": 37,
+       "dx": 14,
+       "dy": -6
+      },
+      {
+       "label": "2",
+       "pts": [
+        [
+         0,
+         36.79
+        ],
+        [
+         1,
+         40.56
+        ],
+        [
+         2,
+         44.49
+        ],
+        [
+         3,
+         48.55
+        ],
+        [
+         4,
+         52.73
+        ],
+        [
+         5,
+         56.98
+        ],
+        [
+         6,
+         61.26
+        ],
+        [
+         7,
+         65.54
+        ],
+        [
+         8,
+         69.77
+        ],
+        [
+         9,
+         73.9
+        ],
+        [
+         10,
+         77.88
+        ],
+        [
+         11,
+         81.67
+        ],
+        [
+         12,
+         85.21
+        ],
+        [
+         13,
+         88.47
+        ],
+        [
+         14,
+         91.39
+        ],
+        [
+         15,
+         93.94
+        ],
+        [
+         16,
+         96.08
+        ],
+        [
+         17,
+         97.78
+        ],
+        [
+         18,
+         99
+        ],
+        [
+         19,
+         99.75
+        ],
+        [
+         20,
+         100
+        ],
+        [
+         21,
+         98.45
+        ],
+        [
+         22,
+         93.94
+        ],
+        [
+         23,
+         86.88
+        ],
+        [
+         24,
+         77.88
+        ],
+        [
+         25,
+         67.66
+        ],
+        [
+         26,
+         56.98
+        ],
+        [
+         27,
+         46.5
+        ],
+        [
+         28,
+         36.79
+        ],
+        [
+         29,
+         28.21
+        ],
+        [
+         30,
+         20.96
+        ],
+        [
+         31,
+         15.1
+        ],
+        [
+         32,
+         10.54
+        ],
+        [
+         33,
+         7.13
+        ],
+        [
+         34,
+         4.68
+        ],
+        [
+         35,
+         2.97
+        ],
+        [
+         36,
+         1.83
+        ],
+        [
+         37,
+         1.09
+        ],
+        [
+         38,
+         0.63
+        ],
+        [
+         39,
+         0.36
+        ],
+        [
+         40,
+         0.19
+        ],
+        [
+         41,
+         0.1
+        ],
+        [
+         42,
+         0.05
+        ],
+        [
+         43,
+         0.03
+        ],
+        [
+         44,
+         0.01
+        ],
+        [
+         45,
+         0.01
+        ],
+        [
+         46,
+         0
+        ],
+        [
+         47,
+         0
+        ],
+        [
+         48,
+         0
+        ],
+        [
+         49,
+         0
+        ],
+        [
+         50,
+         0
+        ],
+        [
+         51,
+         0
+        ],
+        [
+         52,
+         0
+        ],
+        [
+         53,
+         0
+        ],
+        [
+         54,
+         0
+        ],
+        [
+         55,
+         0
+        ],
+        [
+         56,
+         0
+        ],
+        [
+         57,
+         0
+        ],
+        [
+         58,
+         0
+        ],
+        [
+         59,
+         0
+        ],
+        [
+         60,
+         0
+        ]
+       ],
+       "labelAt": 20,
+       "dx": -16,
+       "dy": -6
+      }
+     ],
+     "hlines": [
+      {
+       "y": 50,
+       "label": "half of maximum"
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 890
+  }
+ },
+ {
+  "id": "finalexam-c6644607",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "A sample of a human enzyme is held at 60 °C for 15 minutes, cooled back to 37 °C, and then its rate is measured. Using the temperature profile shown, what rate is expected, and why?",
+  "choices": [
+   "Far below the value shown at 37 °C, because heat unfolded the protein and cooling does not refold it",
+   "The value shown at 37 °C, because the drop at 60 °C was only molecules moving too fast to bind and cooling reverses it",
+   "Above the value shown at 37 °C, because the enzyme stored extra heat energy that speeds up catalysis",
+   "The value shown at 60 °C, because an enzyme's rate is fixed by the highest temperature it has ever reached"
+  ],
+  "answer": "Far below the value shown at 37 °C, because heat unfolded the protein and cooling does not refold it",
+  "hint": "The sharp collapse above the optimum is denaturation, a change in the protein's shape. Ask whether that change undoes itself on cooling.",
+  "explain": "The steep fall above about 45 °C is denaturation: the heat breaks the weak bonds that hold the active site's shape, and for most enzymes this unfolding is not reversed by cooling, so the sample stays nearly inactive at 37 °C. The tempting wrong answer treats the drop like the slow rates at low temperature, which are reversible because the enzyme is still folded. Enzymes do not store heat energy.",
+  "html": {
+   "prompt": "A sample of a human enzyme is held at 60 °C for 15 minutes, cooled back to 37 °C, and then its rate is measured. Using the temperature profile shown, what rate is expected, and why?",
+   "choices": [
+    "Far below the value shown at 37 °C, because heat unfolded the protein and cooling does not refold it",
+    "The value shown at 37 °C, because the drop at 60 °C was only molecules moving too fast to bind and cooling reverses it",
+    "Above the value shown at 37 °C, because the enzyme stored extra heat energy that speeds up catalysis",
+    "The value shown at 60 °C, because an enzyme's rate is fixed by the highest temperature it has ever reached"
+   ],
+   "hint": "The sharp collapse above the optimum is denaturation, a change in the protein's shape. Ask whether that change undoes itself on cooling.",
+   "explain": "The steep fall above about 45 °C is <b>denaturation</b>: the heat breaks the weak bonds that hold the active site's shape, and for most enzymes this unfolding is not reversed by cooling, so the sample stays nearly inactive at 37 °C. The tempting wrong answer treats the drop like the slow rates at <i>low</i> temperature, which are reversible because the enzyme is still folded. Enzymes do not store heat energy."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "plot",
+     "mono": true,
+     "x": {
+      "label": "Temperature (°C)",
+      "min": 0,
+      "max": 80,
+      "ticks": [
+       0,
+       20,
+       40,
+       60,
+       80
+      ]
+     },
+     "y": {
+      "label": "Reaction rate",
+      "min": 0,
+      "max": 115,
+      "noTicks": true
+     },
+     "series": [
+      {
+       "pts": [
+        [
+         0,
+         9.29
+        ],
+        [
+         1,
+         10.54
+        ],
+        [
+         2,
+         11.92
+        ],
+        [
+         3,
+         13.44
+        ],
+        [
+         4,
+         15.1
+        ],
+        [
+         5,
+         16.9
+        ],
+        [
+         6,
+         18.85
+        ],
+        [
+         7,
+         20.96
+        ],
+        [
+         8,
+         23.22
+        ],
+        [
+         9,
+         25.64
+        ],
+        [
+         10,
+         28.21
+        ],
+        [
+         11,
+         30.92
+        ],
+        [
+         12,
+         33.79
+        ],
+        [
+         13,
+         36.79
+        ],
+        [
+         14,
+         39.92
+        ],
+        [
+         15,
+         43.16
+        ],
+        [
+         16,
+         46.5
+        ],
+        [
+         17,
+         49.94
+        ],
+        [
+         18,
+         53.43
+        ],
+        [
+         19,
+         56.98
+        ],
+        [
+         20,
+         60.55
+        ],
+        [
+         21,
+         64.12
+        ],
+        [
+         22,
+         67.66
+        ],
+        [
+         23,
+         71.16
+        ],
+        [
+         24,
+         74.57
+        ],
+        [
+         25,
+         77.88
+        ],
+        [
+         26,
+         81.05
+        ],
+        [
+         27,
+         84.06
+        ],
+        [
+         28,
+         86.88
+        ],
+        [
+         29,
+         89.48
+        ],
+        [
+         30,
+         91.84
+        ],
+        [
+         31,
+         93.94
+        ],
+        [
+         32,
+         95.75
+        ],
+        [
+         33,
+         97.26
+        ],
+        [
+         34,
+         98.45
+        ],
+        [
+         35,
+         99.31
+        ],
+        [
+         36,
+         99.83
+        ],
+        [
+         37,
+         100
+        ],
+        [
+         38,
+         97.26
+        ],
+        [
+         39,
+         89.48
+        ],
+        [
+         40,
+         77.88
+        ],
+        [
+         41,
+         64.12
+        ],
+        [
+         42,
+         49.94
+        ],
+        [
+         43,
+         36.79
+        ],
+        [
+         44,
+         25.64
+        ],
+        [
+         45,
+         16.9
+        ],
+        [
+         46,
+         10.54
+        ],
+        [
+         47,
+         6.22
+        ],
+        [
+         48,
+         3.47
+        ],
+        [
+         49,
+         1.83
+        ],
+        [
+         50,
+         0.91
+        ],
+        [
+         51,
+         0.43
+        ],
+        [
+         52,
+         0.19
+        ],
+        [
+         53,
+         0.08
+        ],
+        [
+         54,
+         0.03
+        ],
+        [
+         55,
+         0.01
+        ],
+        [
+         56,
+         0
+        ],
+        [
+         57,
+         0
+        ],
+        [
+         58,
+         0
+        ],
+        [
+         59,
+         0
+        ],
+        [
+         60,
+         0
+        ],
+        [
+         61,
+         0
+        ],
+        [
+         62,
+         0
+        ],
+        [
+         63,
+         0
+        ],
+        [
+         64,
+         0
+        ],
+        [
+         65,
+         0
+        ],
+        [
+         66,
+         0
+        ],
+        [
+         67,
+         0
+        ],
+        [
+         68,
+         0
+        ],
+        [
+         69,
+         0
+        ],
+        [
+         70,
+         0
+        ],
+        [
+         71,
+         0
+        ],
+        [
+         72,
+         0
+        ],
+        [
+         73,
+         0
+        ],
+        [
+         74,
+         0
+        ],
+        [
+         75,
+         0
+        ],
+        [
+         76,
+         0
+        ],
+        [
+         77,
+         0
+        ],
+        [
+         78,
+         0
+        ],
+        [
+         79,
+         0
+        ],
+        [
+         80,
+         0
+        ]
+       ]
+      }
+     ],
+     "vlines": [
+      {
+       "x": 37,
+       "label": "37 °C"
+      },
+      {
+       "x": 60,
+       "label": "60 °C"
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 891
+  }
+ },
+ {
+  "id": "finalexam-2102bd3b",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "The graph shows the amount of product formed over time in an enzyme-catalyzed reaction that started with 40 μmol of substrate. What is the initial rate of the reaction?",
+  "choices": [
+   "5 μmol min⁻¹",
+   "2 μmol min⁻¹",
+   "20 μmol min⁻¹",
+   "40 μmol min⁻¹"
+  ],
+  "answer": "5 μmol min⁻¹",
+  "hint": "Rate = slope of the product-versus-time line. Use the straight early part of the curve, before the substrate runs low.",
+  "explain": "During the first few minutes the line is straight: about 20 μmol of product form in the first 4 min, so the initial rate is 20 μmol / 4 min = 5 μmol min⁻¹. The curve is straight at first because the enzyme is saturated with substrate; it flattens later because the substrate is used up. Dividing the final 40 μmol by 20 min (2 μmol min⁻¹) averages over the time when the reaction had already slowed; 20 μmol min⁻¹ reads the product at 4 min as if it were a rate.",
+  "html": {
+   "prompt": "The graph shows the amount of product formed over time in an enzyme-catalyzed reaction that started with 40 μmol of substrate. What is the <b>initial rate</b> of the reaction?",
+   "choices": [
+    "5 μmol min<sup>−1</sup>",
+    "2 μmol min<sup>−1</sup>",
+    "20 μmol min<sup>−1</sup>",
+    "40 μmol min<sup>−1</sup>"
+   ],
+   "hint": "Rate = slope of the product-versus-time line. Use the straight early part of the curve, before the substrate runs low.",
+   "explain": "During the first few minutes the line is straight: about 20 μmol of product form in the first 4 min, so the initial rate is 20 μmol / 4 min = <b>5 μmol min<sup>−1</sup></b>. The curve is straight at first because the enzyme is saturated with substrate; it flattens later because the substrate is used up. Dividing the final 40 μmol by 20 min (2 μmol min<sup>−1</sup>) averages over the time when the reaction had already slowed; 20 μmol min<sup>−1</sup> reads the product at 4 min as if it were a rate."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "plot",
+     "mono": true,
+     "grid": true,
+     "x": {
+      "label": "Time (min)",
+      "min": 0,
+      "max": 20,
+      "ticks": [
+       0,
+       4,
+       8,
+       12,
+       16,
+       20
+      ]
+     },
+     "y": {
+      "label": "Product formed (μmol)",
+      "min": 0,
+      "max": 50,
+      "ticks": [
+       0,
+       10,
+       20,
+       30,
+       40,
+       50
+      ]
+     },
+     "series": [
+      {
+       "pts": [
+        [
+         0,
+         0
+        ],
+        [
+         0.25,
+         1.3
+        ],
+        [
+         0.5,
+         2.59
+        ],
+        [
+         0.75,
+         3.88
+        ],
+        [
+         1,
+         5.17
+        ],
+        [
+         1.25,
+         6.45
+        ],
+        [
+         1.5,
+         7.72
+        ],
+        [
+         1.75,
+         8.99
+        ],
+        [
+         2,
+         10.26
+        ],
+        [
+         2.25,
+         11.51
+        ],
+        [
+         2.5,
+         12.76
+        ],
+        [
+         2.75,
+         14.01
+        ],
+        [
+         3,
+         15.24
+        ],
+        [
+         3.25,
+         16.47
+        ],
+        [
+         3.5,
+         17.69
+        ],
+        [
+         3.75,
+         18.89
+        ],
+        [
+         4,
+         20.09
+        ],
+        [
+         4.25,
+         21.28
+        ],
+        [
+         4.5,
+         22.45
+        ],
+        [
+         4.75,
+         23.61
+        ],
+        [
+         5,
+         24.75
+        ],
+        [
+         5.25,
+         25.87
+        ],
+        [
+         5.5,
+         26.98
+        ],
+        [
+         5.75,
+         28.06
+        ],
+        [
+         6,
+         29.12
+        ],
+        [
+         6.25,
+         30.15
+        ],
+        [
+         6.5,
+         31.15
+        ],
+        [
+         6.75,
+         32.12
+        ],
+        [
+         7,
+         33.05
+        ],
+        [
+         7.25,
+         33.94
+        ],
+        [
+         7.5,
+         34.77
+        ],
+        [
+         7.75,
+         35.56
+        ],
+        [
+         8,
+         36.28
+        ],
+        [
+         8.25,
+         36.94
+        ],
+        [
+         8.5,
+         37.52
+        ],
+        [
+         8.75,
+         38.03
+        ],
+        [
+         9,
+         38.47
+        ],
+        [
+         9.25,
+         38.83
+        ],
+        [
+         9.5,
+         39.12
+        ],
+        [
+         9.75,
+         39.35
+        ],
+        [
+         10,
+         39.53
+        ],
+        [
+         10.25,
+         39.66
+        ],
+        [
+         10.5,
+         39.76
+        ],
+        [
+         10.75,
+         39.83
+        ],
+        [
+         11,
+         39.88
+        ],
+        [
+         11.25,
+         39.91
+        ],
+        [
+         11.5,
+         39.94
+        ],
+        [
+         11.75,
+         39.96
+        ],
+        [
+         12,
+         39.97
+        ],
+        [
+         12.25,
+         39.98
+        ],
+        [
+         12.5,
+         39.99
+        ],
+        [
+         12.75,
+         39.99
+        ],
+        [
+         13,
+         39.99
+        ],
+        [
+         13.25,
+         40
+        ],
+        [
+         13.5,
+         40
+        ],
+        [
+         13.75,
+         40
+        ],
+        [
+         14,
+         40
+        ],
+        [
+         14.25,
+         40
+        ],
+        [
+         14.5,
+         40
+        ],
+        [
+         14.75,
+         40
+        ],
+        [
+         15,
+         40
+        ],
+        [
+         15.25,
+         40
+        ],
+        [
+         15.5,
+         40
+        ],
+        [
+         15.75,
+         40
+        ],
+        [
+         16,
+         40
+        ],
+        [
+         16.25,
+         40
+        ],
+        [
+         16.5,
+         40
+        ],
+        [
+         16.75,
+         40
+        ],
+        [
+         17,
+         40
+        ],
+        [
+         17.25,
+         40
+        ],
+        [
+         17.5,
+         40
+        ],
+        [
+         17.75,
+         40
+        ],
+        [
+         18,
+         40
+        ],
+        [
+         18.25,
+         40
+        ],
+        [
+         18.5,
+         40
+        ],
+        [
+         18.75,
+         40
+        ],
+        [
+         19,
+         40
+        ],
+        [
+         19.25,
+         40
+        ],
+        [
+         19.5,
+         40
+        ],
+        [
+         19.75,
+         40
+        ],
+        [
+         20,
+         40
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 892
+  }
+ },
+ {
+  "id": "finalexam-e587f5a7",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Reaction 1 and reaction 2 convert the same substrate to the same product. What does the shape of curve 2 indicate about reaction 2?",
+  "choices": [
+   "It is not catalyzed by an enzyme; with no active sites to fill, the rate just rises with the number of substrate collisions",
+   "It is catalyzed by an enzyme with a larger maximum rate than the enzyme in reaction 1",
+   "It is catalyzed by an enzyme that reaches half of its maximum rate at a lower substrate concentration than the enzyme in reaction 1",
+   "It is catalyzed by the same enzyme as reaction 1 but with a competitive inhibitor present"
+  ],
+  "answer": "It is not catalyzed by an enzyme; with no active sites to fill, the rate just rises with the number of substrate collisions",
+  "hint": "Every enzyme has a limited number of active sites, so an enzyme-catalyzed rate must eventually level off. What kind of reaction never saturates?",
+  "explain": "An enzyme has a fixed number of active sites, so at high substrate concentration they are all occupied and the rate levels off (curve 1). Curve 2 is a straight line that never levels off, so there is no saturable catalyst: reaction 2 is an uncatalyzed reaction whose rate simply grows with the collision frequency. A faster enzyme or one that is half-saturated at lower substrate would still give a curve that bends toward a plateau, and a competitive inhibitor would make curve 2 lie below curve 1 at low substrate but still level off.",
+  "html": {
+   "prompt": "Reaction 1 and reaction 2 convert the same substrate to the same product. What does the shape of curve 2 indicate about reaction 2?",
+   "choices": [
+    "It is not catalyzed by an enzyme; with no active sites to fill, the rate just rises with the number of substrate collisions",
+    "It is catalyzed by an enzyme with a larger maximum rate than the enzyme in reaction 1",
+    "It is catalyzed by an enzyme that reaches half of its maximum rate at a lower substrate concentration than the enzyme in reaction 1",
+    "It is catalyzed by the same enzyme as reaction 1 but with a competitive inhibitor present"
+   ],
+   "hint": "Every enzyme has a limited number of active sites, so an enzyme-catalyzed rate must eventually level off. What kind of reaction never saturates?",
+   "explain": "An enzyme has a fixed number of active sites, so at high substrate concentration they are all occupied and the rate levels off (curve 1). Curve 2 is a straight line that never levels off, so there is no saturable catalyst: reaction 2 is an <b>uncatalyzed reaction</b> whose rate simply grows with the collision frequency. A faster enzyme or one that is half-saturated at lower substrate would still give a curve that bends toward a plateau, and a competitive inhibitor would make curve 2 lie <i>below</i> curve 1 at low substrate but still level off."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "plot",
+     "mono": true,
+     "x": {
+      "label": "[Substrate]",
+      "min": 0,
+      "max": 20,
+      "ticks": []
+     },
+     "y": {
+      "label": "Reaction rate",
+      "min": 0,
+      "max": 100,
+      "noTicks": true
+     },
+     "series": [
+      {
+       "label": "1",
+       "pts": [
+        [
+         0,
+         0
+        ],
+        [
+         0.5,
+         12.86
+        ],
+        [
+         1,
+         22.5
+        ],
+        [
+         1.5,
+         30
+        ],
+        [
+         2,
+         36
+        ],
+        [
+         2.5,
+         40.91
+        ],
+        [
+         3,
+         45
+        ],
+        [
+         3.5,
+         48.46
+        ],
+        [
+         4,
+         51.43
+        ],
+        [
+         4.5,
+         54
+        ],
+        [
+         5,
+         56.25
+        ],
+        [
+         5.5,
+         58.24
+        ],
+        [
+         6,
+         60
+        ],
+        [
+         6.5,
+         61.58
+        ],
+        [
+         7,
+         63
+        ],
+        [
+         7.5,
+         64.29
+        ],
+        [
+         8,
+         65.45
+        ],
+        [
+         8.5,
+         66.52
+        ],
+        [
+         9,
+         67.5
+        ],
+        [
+         9.5,
+         68.4
+        ],
+        [
+         10,
+         69.23
+        ],
+        [
+         10.5,
+         70
+        ],
+        [
+         11,
+         70.71
+        ],
+        [
+         11.5,
+         71.38
+        ],
+        [
+         12,
+         72
+        ],
+        [
+         12.5,
+         72.58
+        ],
+        [
+         13,
+         73.12
+        ],
+        [
+         13.5,
+         73.64
+        ],
+        [
+         14,
+         74.12
+        ],
+        [
+         14.5,
+         74.57
+        ],
+        [
+         15,
+         75
+        ],
+        [
+         15.5,
+         75.41
+        ],
+        [
+         16,
+         75.79
+        ],
+        [
+         16.5,
+         76.15
+        ],
+        [
+         17,
+         76.5
+        ],
+        [
+         17.5,
+         76.83
+        ],
+        [
+         18,
+         77.14
+        ],
+        [
+         18.5,
+         77.44
+        ],
+        [
+         19,
+         77.73
+        ],
+        [
+         19.5,
+         78
+        ],
+        [
+         20,
+         78.26
+        ]
+       ],
+       "labelAt": 24,
+       "dx": -8,
+       "dy": -16
+      },
+      {
+       "label": "2",
+       "pts": [
+        [
+         0,
+         0
+        ],
+        [
+         0.5,
+         2.3
+        ],
+        [
+         1,
+         4.6
+        ],
+        [
+         1.5,
+         6.9
+        ],
+        [
+         2,
+         9.2
+        ],
+        [
+         2.5,
+         11.5
+        ],
+        [
+         3,
+         13.8
+        ],
+        [
+         3.5,
+         16.1
+        ],
+        [
+         4,
+         18.4
+        ],
+        [
+         4.5,
+         20.7
+        ],
+        [
+         5,
+         23
+        ],
+        [
+         5.5,
+         25.3
+        ],
+        [
+         6,
+         27.6
+        ],
+        [
+         6.5,
+         29.9
+        ],
+        [
+         7,
+         32.2
+        ],
+        [
+         7.5,
+         34.5
+        ],
+        [
+         8,
+         36.8
+        ],
+        [
+         8.5,
+         39.1
+        ],
+        [
+         9,
+         41.4
+        ],
+        [
+         9.5,
+         43.7
+        ],
+        [
+         10,
+         46
+        ],
+        [
+         10.5,
+         48.3
+        ],
+        [
+         11,
+         50.6
+        ],
+        [
+         11.5,
+         52.9
+        ],
+        [
+         12,
+         55.2
+        ],
+        [
+         12.5,
+         57.5
+        ],
+        [
+         13,
+         59.8
+        ],
+        [
+         13.5,
+         62.1
+        ],
+        [
+         14,
+         64.4
+        ],
+        [
+         14.5,
+         66.7
+        ],
+        [
+         15,
+         69
+        ],
+        [
+         15.5,
+         71.3
+        ],
+        [
+         16,
+         73.6
+        ],
+        [
+         16.5,
+         75.9
+        ],
+        [
+         17,
+         78.2
+        ],
+        [
+         17.5,
+         80.5
+        ],
+        [
+         18,
+         82.8
+        ],
+        [
+         18.5,
+         85.1
+        ],
+        [
+         19,
+         87.4
+        ],
+        [
+         19.5,
+         89.7
+        ],
+        [
+         20,
+         92
+        ]
+       ],
+       "labelAt": 24,
+       "dx": 16,
+       "dy": 12
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 893
+  }
+ },
+ {
+  "id": "finalexam-49ab8974",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "A purified enzyme was treated to remove any bound metal ions, then its activity was measured alone and after adding different ions. What do the results show?",
+  "choices": [
+   "Mg²⁺ is a required cofactor of the enzyme, and the other ions cannot take its place",
+   "Zn²⁺ and Ca²⁺ are inhibitors that shut the enzyme down",
+   "Mg²⁺ is a coenzyme that the enzyme uses as a source of energy",
+   "Mg²⁺ is the substrate of the enzyme, so adding it raises the rate"
+  ],
+  "answer": "Mg²⁺ is a required cofactor of the enzyme, and the other ions cannot take its place",
+  "hint": "Compare the metal-free bar with each added-ion bar. Only one ion changes the activity. Is a metal ion a cofactor or a coenzyme?",
+  "explain": "Without any ion the enzyme is almost inactive; adding Mg²⁺ restores full activity while Zn²⁺ and Ca²⁺ leave it as low as the metal-free control, so Mg²⁺ is a required cofactor and the other ions cannot substitute for it. They are not inhibitors because they did not lower activity below the control. A metal ion is a cofactor, not a coenzyme; coenzymes are organic molecules made from vitamins.",
+  "html": {
+   "prompt": "A purified enzyme was treated to remove any bound metal ions, then its activity was measured alone and after adding different ions. What do the results show?",
+   "choices": [
+    "Mg<sup>2+</sup> is a required cofactor of the enzyme, and the other ions cannot take its place",
+    "Zn<sup>2+</sup> and Ca<sup>2+</sup> are inhibitors that shut the enzyme down",
+    "Mg<sup>2+</sup> is a coenzyme that the enzyme uses as a source of energy",
+    "Mg<sup>2+</sup> is the substrate of the enzyme, so adding it raises the rate"
+   ],
+   "hint": "Compare the metal-free bar with each added-ion bar. Only one ion changes the activity. Is a metal ion a cofactor or a coenzyme?",
+   "explain": "Without any ion the enzyme is almost inactive; adding <b>Mg<sup>2+</sup></b> restores full activity while Zn<sup>2+</sup> and Ca<sup>2+</sup> leave it as low as the metal-free control, so Mg<sup>2+</sup> is a <b>required cofactor</b> and the other ions cannot substitute for it. They are not inhibitors because they did not lower activity below the control. A metal ion is a cofactor, not a coenzyme; coenzymes are organic molecules made from vitamins."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "plot",
+     "mono": false,
+     "x": {
+      "label": "Addition to the metal-free enzyme",
+      "min": 0.3,
+      "max": 4.7,
+      "ticks": []
+     },
+     "y": {
+      "label": "Activity (% of maximum)",
+      "min": 0,
+      "max": 120,
+      "ticks": [
+       0,
+       20,
+       40,
+       60,
+       80,
+       100
+      ]
+     },
+     "series": [
+      {
+       "bars": true,
+       "barW": 0.55,
+       "color": "#7fb8e0",
+       "pts": [
+        [
+         1,
+         4
+        ],
+        [
+         2,
+         100
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         4,
+         5
+        ]
+       ],
+       "barLabels": [
+        "none",
+        "Mg²⁺",
+        "Zn²⁺",
+        "Ca²⁺"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 894
+  }
+ },
+ {
+  "id": "finalexam-1d1c649b",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "figs",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "The graph follows the activity of an enzyme solution over time. Hg²⁺ ions were added at 2 min, and at 6 min the solution was dialyzed, which removed all free Hg²⁺. What type of inhibition does the graph show?",
+  "choices": [
+   "Irreversible inhibition: Hg²⁺ bonds to –SH groups of cysteine side chains and permanently disrupts the active site",
+   "Competitive inhibition: Hg²⁺ resembles the substrate and occupies the active site until it is removed",
+   "Noncompetitive inhibition: Hg²⁺ binds loosely to a side site and leaves when its concentration drops",
+   "Feedback inhibition: Hg²⁺ is the end product of the pathway and signals the enzyme to stop"
+  ],
+  "answer": "Irreversible inhibition: Hg²⁺ bonds to –SH groups of cysteine side chains and permanently disrupts the active site",
+  "hint": "A reversible inhibitor leaves the enzyme once it is removed from the solution. Check whether the activity came back after dialysis.",
+  "explain": "Activity drops when Hg²⁺ is added and stays near zero after dialysis removes the free Hg²⁺, so the inhibitor remains bonded to the enzyme: it is held by strong covalent bonds, typically to the –SH groups of cysteine, which is irreversible inhibition. Competitive and noncompetitive inhibitors bind reversibly and would release the enzyme, so the activity would climb back after dialysis. Heavy-metal ions are not pathway products, so this is not feedback inhibition.",
+  "html": {
+   "prompt": "The graph follows the activity of an enzyme solution over time. Hg<sup>2+</sup> ions were added at 2 min, and at 6 min the solution was dialyzed, which removed all free Hg<sup>2+</sup>. What type of inhibition does the graph show?",
+   "choices": [
+    "Irreversible inhibition: Hg<sup>2+</sup> bonds to –SH groups of cysteine side chains and permanently disrupts the active site",
+    "Competitive inhibition: Hg<sup>2+</sup> resembles the substrate and occupies the active site until it is removed",
+    "Noncompetitive inhibition: Hg<sup>2+</sup> binds loosely to a side site and leaves when its concentration drops",
+    "Feedback inhibition: Hg<sup>2+</sup> is the end product of the pathway and signals the enzyme to stop"
+   ],
+   "hint": "A reversible inhibitor leaves the enzyme once it is removed from the solution. Check whether the activity came back after dialysis.",
+   "explain": "Activity drops when Hg<sup>2+</sup> is added and <b>stays near zero after dialysis removes the free Hg<sup>2+</sup></b>, so the inhibitor remains bonded to the enzyme: it is held by strong covalent bonds, typically to the <b>–SH groups of cysteine</b>, which is <b>irreversible inhibition</b>. Competitive and noncompetitive inhibitors bind reversibly and would release the enzyme, so the activity would climb back after dialysis. Heavy-metal ions are not pathway products, so this is not feedback inhibition."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "plot",
+     "mono": true,
+     "grid": true,
+     "x": {
+      "label": "Time (min)",
+      "min": 0,
+      "max": 10,
+      "ticks": [
+       0,
+       2,
+       4,
+       6,
+       8,
+       10
+      ]
+     },
+     "y": {
+      "label": "Activity (% of original)",
+      "min": 0,
+      "max": 110,
+      "ticks": [
+       0,
+       25,
+       50,
+       75,
+       100
+      ]
+     },
+     "series": [
+      {
+       "pts": [
+        [
+         0,
+         100
+        ],
+        [
+         0.1,
+         100
+        ],
+        [
+         0.2,
+         100
+        ],
+        [
+         0.3,
+         100
+        ],
+        [
+         0.4,
+         100
+        ],
+        [
+         0.5,
+         100
+        ],
+        [
+         0.6,
+         100
+        ],
+        [
+         0.7,
+         100
+        ],
+        [
+         0.8,
+         100
+        ],
+        [
+         0.9,
+         100
+        ],
+        [
+         1,
+         100
+        ],
+        [
+         1.1,
+         100
+        ],
+        [
+         1.2,
+         100
+        ],
+        [
+         1.3,
+         100
+        ],
+        [
+         1.4,
+         100
+        ],
+        [
+         1.5,
+         100
+        ],
+        [
+         1.6,
+         100
+        ],
+        [
+         1.7,
+         100
+        ],
+        [
+         1.8,
+         100
+        ],
+        [
+         1.9,
+         100
+        ],
+        [
+         2,
+         100
+        ],
+        [
+         2.1,
+         85.21
+        ],
+        [
+         2.2,
+         72.61
+        ],
+        [
+         2.3,
+         61.88
+        ],
+        [
+         2.4,
+         52.73
+        ],
+        [
+         2.5,
+         44.93
+        ],
+        [
+         2.6,
+         38.29
+        ],
+        [
+         2.7,
+         32.63
+        ],
+        [
+         2.8,
+         27.8
+        ],
+        [
+         2.9,
+         23.69
+        ],
+        [
+         3,
+         20.19
+        ],
+        [
+         3.1,
+         17.2
+        ],
+        [
+         3.2,
+         14.66
+        ],
+        [
+         3.3,
+         12.49
+        ],
+        [
+         3.4,
+         10.65
+        ],
+        [
+         3.5,
+         9.07
+        ],
+        [
+         3.6,
+         7.73
+        ],
+        [
+         3.7,
+         6.59
+        ],
+        [
+         3.8,
+         5.61
+        ],
+        [
+         3.9,
+         4.78
+        ],
+        [
+         4,
+         4.08
+        ],
+        [
+         4.1,
+         3.47
+        ],
+        [
+         4.2,
+         2.96
+        ],
+        [
+         4.3,
+         2.52
+        ],
+        [
+         4.4,
+         2.15
+        ],
+        [
+         4.5,
+         1.83
+        ],
+        [
+         4.6,
+         1.56
+        ],
+        [
+         4.7,
+         1.33
+        ],
+        [
+         4.8,
+         1.13
+        ],
+        [
+         4.9,
+         0.97
+        ],
+        [
+         5,
+         0.82
+        ],
+        [
+         5.1,
+         0.7
+        ],
+        [
+         5.2,
+         0.6
+        ],
+        [
+         5.3,
+         0.51
+        ],
+        [
+         5.4,
+         0.43
+        ],
+        [
+         5.5,
+         0.37
+        ],
+        [
+         5.6,
+         0.32
+        ],
+        [
+         5.7,
+         0.27
+        ],
+        [
+         5.8,
+         0.23
+        ],
+        [
+         5.9,
+         0.19
+        ],
+        [
+         6,
+         0.17
+        ],
+        [
+         6.1,
+         0.17
+        ],
+        [
+         6.2,
+         0.17
+        ],
+        [
+         6.3,
+         0.17
+        ],
+        [
+         6.4,
+         0.17
+        ],
+        [
+         6.5,
+         0.17
+        ],
+        [
+         6.6,
+         0.17
+        ],
+        [
+         6.7,
+         0.17
+        ],
+        [
+         6.8,
+         0.17
+        ],
+        [
+         6.9,
+         0.17
+        ],
+        [
+         7,
+         0.17
+        ],
+        [
+         7.1,
+         0.17
+        ],
+        [
+         7.2,
+         0.17
+        ],
+        [
+         7.3,
+         0.17
+        ],
+        [
+         7.4,
+         0.17
+        ],
+        [
+         7.5,
+         0.17
+        ],
+        [
+         7.6,
+         0.17
+        ],
+        [
+         7.7,
+         0.17
+        ],
+        [
+         7.8,
+         0.17
+        ],
+        [
+         7.9,
+         0.17
+        ],
+        [
+         8,
+         0.17
+        ],
+        [
+         8.1,
+         0.17
+        ],
+        [
+         8.2,
+         0.17
+        ],
+        [
+         8.3,
+         0.17
+        ],
+        [
+         8.4,
+         0.17
+        ],
+        [
+         8.5,
+         0.17
+        ],
+        [
+         8.6,
+         0.17
+        ],
+        [
+         8.7,
+         0.17
+        ],
+        [
+         8.8,
+         0.17
+        ],
+        [
+         8.9,
+         0.17
+        ],
+        [
+         9,
+         0.17
+        ],
+        [
+         9.1,
+         0.17
+        ],
+        [
+         9.2,
+         0.17
+        ],
+        [
+         9.3,
+         0.17
+        ],
+        [
+         9.4,
+         0.17
+        ],
+        [
+         9.5,
+         0.17
+        ],
+        [
+         9.6,
+         0.17
+        ],
+        [
+         9.7,
+         0.17
+        ],
+        [
+         9.8,
+         0.17
+        ],
+        [
+         9.9,
+         0.17
+        ],
+        [
+         10,
+         0.17
+        ]
+       ]
+      }
+     ],
+     "vlines": [
+      {
+       "x": 2,
+       "label": "Hg²⁺ added"
+      },
+      {
+       "x": 6,
+       "label": "dialysis"
+      }
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 895
+  }
  }
 ]
