@@ -1,6 +1,6 @@
 [
  {
-  "id": "redox-f63160ba",
+  "id": "redox-7f1879bf",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -10,7 +10,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Fe electrode in Fe²⁺(aq) and a Ag electrode in Ag⁺(aq). Here n = 2 and E°cell = 1.24 V.</p><div class=\"equation-box\">Fe(s) + 2 Ag⁺(aq) → Fe²⁺(aq) + 2 Ag(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Fe in Fe²⁺(aq) and an electrode of Ag in Ag⁺(aq). Here n = 2 and E°cell = 1.24 V.</p><div class=\"equation-box\">Fe(s) + 2 Ag⁺(aq) → Fe²⁺(aq) + 2 Ag(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
   "answer": 41.9,
   "tolerance": 0.012,
   "hint": "At 25 °C: log K = nE°cell / 0.0592. Keep n as the total electrons transferred in the balanced equation.",
@@ -23,7 +23,7 @@
   }
  },
  {
-  "id": "redox-dcdb3dd0",
+  "id": "redox-22ecc7bc",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -33,7 +33,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A galvanic cell has a Fe anode in 1 M Fe²⁺ and a Cu cathode in 2 M Cu²⁺. Standard E°cell = 0.78 V and n = 2.</p><p>Net: Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Fe²⁺] / [Cu²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is the reaction quotient Q?</b></p>",
+  "prompt": "<p class=\"prompt\">A galvanic cell has an anode of Fe in 1 M Fe²⁺ and a cathode of Cu in 2 M Cu²⁺. Standard E°cell = 0.78 V and n = 2.</p><p>Net: Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Fe²⁺] / [Cu²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is the reaction quotient Q?</b></p>",
   "answer": 0.5,
   "tolerance": 0.012,
   "hint": "Q = [product ion]/[reactant ion] = [anode ion]/[cathode ion]. Then E = E° − (0.0592/n)·log Q. If Q < 1, E is larger than E°.",
@@ -46,7 +46,7 @@
   }
  },
  {
-  "id": "redox-5871084d",
+  "id": "redox-29031e8d",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -56,7 +56,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A galvanic cell has a Fe anode in 1 M Fe²⁺ and a Cu cathode in 2 M Cu²⁺. Standard E°cell = 0.78 V and n = 2.</p><p>Net: Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Fe²⁺] / [Cu²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is Ecell, in volts?</b></p>",
+  "prompt": "<p class=\"prompt\">A galvanic cell has an anode of Fe in 1 M Fe²⁺ and a cathode of Cu in 2 M Cu²⁺. Standard E°cell = 0.78 V and n = 2.</p><p>Net: Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Fe²⁺] / [Cu²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is Ecell, in volts?</b></p>",
   "answer": 0.789,
   "unit": "V",
   "tolerance": 0.0051,
@@ -70,7 +70,7 @@
   }
  },
  {
-  "id": "redox-4b8c6041",
+  "id": "redox-d66b2d53",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -80,7 +80,7 @@
    "1B-17"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Ag electrode in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p><b>Which electrode is the anode (where oxidation happens)?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Al in Al³⁺(aq) and an electrode of Ag in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p><b>Which electrode is the anode (where oxidation happens)?</b></p>",
   "choices": [
    "Ag",
    "Al"
@@ -96,7 +96,7 @@
   }
  },
  {
-  "id": "redox-0d8832a9",
+  "id": "redox-49194db4",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -106,7 +106,7 @@
    "1B-17"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Ag electrode in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p><b>Which electrode is the cathode (where reduction happens)?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Al in Al³⁺(aq) and an electrode of Ag in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p><b>Which electrode is the cathode (where reduction happens)?</b></p>",
   "choices": [
    "Ag",
    "Al"
@@ -122,7 +122,7 @@
   }
  },
  {
-  "id": "redox-49700be7",
+  "id": "redox-1e0d23be",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -132,7 +132,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Ag electrode in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p><b>What is E°cell, in volts?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Al in Al³⁺(aq) and an electrode of Ag in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p><b>What is E°cell, in volts?</b></p>",
   "answer": 2.46,
   "unit": "V",
   "tolerance": 0.0024,
@@ -146,7 +146,7 @@
   }
  },
  {
-  "id": "redox-172128c1",
+  "id": "redox-547701c7",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -156,7 +156,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Sn electrode in Sn²⁺(aq) and a Ag electrode in Ag⁺(aq). For the balanced reaction below, n = 2 electrons transfer and E°cell = 0.94 V.</p><div class=\"equation-box\">Sn(s) + 2 Ag⁺(aq) → Sn²⁺(aq) + 2 Ag(s)</div><p>Use ΔG° = −nFE° with F = 96,485 C/mol e⁻. Report ΔG° in kJ (1 J = 1 V·C).</p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Sn in Sn²⁺(aq) and an electrode of Ag in Ag⁺(aq). For the balanced reaction below, n = 2 electrons transfer and E°cell = 0.94 V.</p><div class=\"equation-box\">Sn(s) + 2 Ag⁺(aq) → Sn²⁺(aq) + 2 Ag(s)</div><p>Use ΔG° = −nFE° with F = 96,485 C/mol e⁻. Report ΔG° in kJ (1 J = 1 V·C).</p>",
   "answer": -181,
   "unit": "kJ",
   "tolerance": 0.012,
@@ -170,7 +170,7 @@
   }
  },
  {
-  "id": "redox-6dbd1da1",
+  "id": "redox-88e8b843",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -180,7 +180,7 @@
    "1B-17"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Sn electrode in Sn²⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Sn²⁺(aq) + 2 e⁻ → Sn(s)</td><td>-0.14</td></tr></tbody></table><p class=\"footer-note\">Convention: anode (oxidation) on the left, cathode (reduction) on the right; || is the salt bridge; solid | solution inside each half-cell.</p><p><b>Which cell notation is written correctly?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Al in Al³⁺(aq) and an electrode of Sn in Sn²⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Sn²⁺(aq) + 2 e⁻ → Sn(s)</td><td>-0.14</td></tr></tbody></table><p class=\"footer-note\">Convention: anode (oxidation) on the left, cathode (reduction) on the right; || is the salt bridge; solid | solution inside each half-cell.</p><p><b>Which cell notation is written correctly?</b></p>",
   "choices": [
    "Al(s) | Sn²⁺(aq) || Al³⁺(aq) | Sn(s)",
    "Sn(s) | Sn²⁺(aq) || Al³⁺(aq) | Al(s)",
@@ -198,7 +198,7 @@
   }
  },
  {
-  "id": "redox-fb0af3ce",
+  "id": "redox-a86525c9",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -208,7 +208,7 @@
    "1B-17"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Pb electrode in Pb²⁺(aq). The two half-cells are joined by a wire and a salt bridge.</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Pb²⁺(aq) + 2 e⁻ → Pb(s)</td><td>-0.13</td></tr></tbody></table><p><b>Which way do electrons flow through the wire?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Al in Al³⁺(aq) and an electrode of Pb in Pb²⁺(aq). The two half-cells are joined by a wire and a salt bridge.</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Pb²⁺(aq) + 2 e⁻ → Pb(s)</td><td>-0.13</td></tr></tbody></table><p><b>Which way do electrons flow through the wire?</b></p>",
   "choices": [
    "from the Pb electrode to the Al electrode",
    "from the Al electrode to the Pb electrode"
@@ -224,7 +224,7 @@
   }
  },
  {
-  "id": "redox-02d99839",
+  "id": "redox-6a861f48",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -234,7 +234,7 @@
    "1B-17"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Pb electrode in Pb²⁺(aq). The two half-cells are joined by a wire and a salt bridge.</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Pb²⁺(aq) + 2 e⁻ → Pb(s)</td><td>-0.13</td></tr></tbody></table><p><b>Toward which half-cell do anions in the salt bridge move?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Al in Al³⁺(aq) and an electrode of Pb in Pb²⁺(aq). The two half-cells are joined by a wire and a salt bridge.</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Pb²⁺(aq) + 2 e⁻ → Pb(s)</td><td>-0.13</td></tr></tbody></table><p><b>Toward which half-cell do anions in the salt bridge move?</b></p>",
   "choices": [
    "the Pb half-cell (cathode)",
    "the Al half-cell (anode)"
@@ -250,7 +250,7 @@
   }
  },
  {
-  "id": "redox-75619b93",
+  "id": "redox-40427d81",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -260,7 +260,7 @@
    "1B-17"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Pb electrode in Pb²⁺(aq). The two half-cells are joined by a wire and a salt bridge.</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Pb²⁺(aq) + 2 e⁻ → Pb(s)</td><td>-0.13</td></tr></tbody></table><p><b>Which electrode gains mass?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Al in Al³⁺(aq) and an electrode of Pb in Pb²⁺(aq). The two half-cells are joined by a wire and a salt bridge.</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Pb²⁺(aq) + 2 e⁻ → Pb(s)</td><td>-0.13</td></tr></tbody></table><p><b>Which electrode gains mass?</b></p>",
   "choices": [
    "Pb",
    "Al"
@@ -276,7 +276,7 @@
   }
  },
  {
-  "id": "redox-c764c0da",
+  "id": "redox-b8754d7b",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -286,7 +286,7 @@
    "1B-17"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Mg electrode in Mg²⁺(aq) and a Ag electrode in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Mg²⁺(aq) + 2 e⁻ → Mg(s)</td><td>-2.37</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p><b>Which electrode is the anode (where oxidation happens)?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Mg in Mg²⁺(aq) and an electrode of Ag in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Mg²⁺(aq) + 2 e⁻ → Mg(s)</td><td>-2.37</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p><b>Which electrode is the anode (where oxidation happens)?</b></p>",
   "choices": [
    "Ag",
    "Mg"
@@ -302,7 +302,7 @@
   }
  },
  {
-  "id": "redox-a4973e39",
+  "id": "redox-3b866ded",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -312,7 +312,7 @@
    "1B-17"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Mg electrode in Mg²⁺(aq) and a Ag electrode in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Mg²⁺(aq) + 2 e⁻ → Mg(s)</td><td>-2.37</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p><b>Which electrode is the cathode (where reduction happens)?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Mg in Mg²⁺(aq) and an electrode of Ag in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Mg²⁺(aq) + 2 e⁻ → Mg(s)</td><td>-2.37</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p><b>Which electrode is the cathode (where reduction happens)?</b></p>",
   "choices": [
    "Ag",
    "Mg"
@@ -328,7 +328,7 @@
   }
  },
  {
-  "id": "redox-d1dcb195",
+  "id": "redox-2559d837",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -338,7 +338,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Mg electrode in Mg²⁺(aq) and a Ag electrode in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Mg²⁺(aq) + 2 e⁻ → Mg(s)</td><td>-2.37</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p><b>What is E°cell, in volts?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Mg in Mg²⁺(aq) and an electrode of Ag in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Mg²⁺(aq) + 2 e⁻ → Mg(s)</td><td>-2.37</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p><b>What is E°cell, in volts?</b></p>",
   "answer": 3.17,
   "unit": "V",
   "tolerance": 0.0019,
@@ -352,7 +352,7 @@
   }
  },
  {
-  "id": "redox-01b4930f",
+  "id": "redox-f39deeff",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -362,7 +362,7 @@
    "1B-17"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Zn electrode in Zn²⁺(aq) and a Ag electrode in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Zn²⁺(aq) + 2 e⁻ → Zn(s)</td><td>-0.76</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p class=\"footer-note\">Convention: anode (oxidation) on the left, cathode (reduction) on the right; || is the salt bridge; solid | solution inside each half-cell.</p><p><b>Which cell notation is written correctly?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Zn in Zn²⁺(aq) and an electrode of Ag in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Zn²⁺(aq) + 2 e⁻ → Zn(s)</td><td>-0.76</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p class=\"footer-note\">Convention: anode (oxidation) on the left, cathode (reduction) on the right; || is the salt bridge; solid | solution inside each half-cell.</p><p><b>Which cell notation is written correctly?</b></p>",
   "choices": [
    "Zn(s) | Zn²⁺(aq) || Ag⁺(aq) | Ag(s)",
    "Ag(s) | Ag⁺(aq) || Zn²⁺(aq) | Zn(s)",
@@ -380,7 +380,7 @@
   }
  },
  {
-  "id": "redox-bc4d54fe",
+  "id": "redox-a458285d",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -390,7 +390,7 @@
    "1B-17"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Cu electrode in Cu²⁺(aq). The two half-cells are joined by a wire and a salt bridge.</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Cu²⁺(aq) + 2 e⁻ → Cu(s)</td><td>0.34</td></tr></tbody></table><p><b>Which way do electrons flow through the wire?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Al in Al³⁺(aq) and an electrode of Cu in Cu²⁺(aq). The two half-cells are joined by a wire and a salt bridge.</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Cu²⁺(aq) + 2 e⁻ → Cu(s)</td><td>0.34</td></tr></tbody></table><p><b>Which way do electrons flow through the wire?</b></p>",
   "choices": [
    "from the Al electrode to the Cu electrode",
    "from the Cu electrode to the Al electrode"
@@ -406,7 +406,7 @@
   }
  },
  {
-  "id": "redox-8ce8ef7f",
+  "id": "redox-c7040a85",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -416,7 +416,7 @@
    "1B-17"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Cu electrode in Cu²⁺(aq). The two half-cells are joined by a wire and a salt bridge.</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Cu²⁺(aq) + 2 e⁻ → Cu(s)</td><td>0.34</td></tr></tbody></table><p><b>Toward which half-cell do anions in the salt bridge move?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Al in Al³⁺(aq) and an electrode of Cu in Cu²⁺(aq). The two half-cells are joined by a wire and a salt bridge.</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Cu²⁺(aq) + 2 e⁻ → Cu(s)</td><td>0.34</td></tr></tbody></table><p><b>Toward which half-cell do anions in the salt bridge move?</b></p>",
   "choices": [
    "the Cu half-cell (cathode)",
    "the Al half-cell (anode)"
@@ -432,7 +432,7 @@
   }
  },
  {
-  "id": "redox-f2f77750",
+  "id": "redox-df1fb6e7",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -442,7 +442,7 @@
    "1B-17"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Cu electrode in Cu²⁺(aq). The two half-cells are joined by a wire and a salt bridge.</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Cu²⁺(aq) + 2 e⁻ → Cu(s)</td><td>0.34</td></tr></tbody></table><p><b>Which electrode gains mass?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Al in Al³⁺(aq) and an electrode of Cu in Cu²⁺(aq). The two half-cells are joined by a wire and a salt bridge.</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Cu²⁺(aq) + 2 e⁻ → Cu(s)</td><td>0.34</td></tr></tbody></table><p><b>Which electrode gains mass?</b></p>",
   "choices": [
    "Al",
    "Cu"
@@ -458,7 +458,7 @@
   }
  },
  {
-  "id": "redox-776e0ad0",
+  "id": "redox-f64d4f6c",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -468,7 +468,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Pb electrode in Pb²⁺(aq) and a Au electrode in Au³⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Pb²⁺(aq) + 2 e⁻ → Pb(s)</td><td>-0.13</td></tr><tr><td>Au³⁺(aq) + 3 e⁻ → Au(s)</td><td>1.50</td></tr></tbody></table><p><b>What is E°cell, in volts?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Pb in Pb²⁺(aq) and an electrode of Au in Au³⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Pb²⁺(aq) + 2 e⁻ → Pb(s)</td><td>-0.13</td></tr><tr><td>Au³⁺(aq) + 3 e⁻ → Au(s)</td><td>1.50</td></tr></tbody></table><p><b>What is E°cell, in volts?</b></p>",
   "answer": 1.63,
   "unit": "V",
   "tolerance": 0.0037,
@@ -482,7 +482,7 @@
   }
  },
  {
-  "id": "redox-0b1e1828",
+  "id": "redox-52bbf00c",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -492,7 +492,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Cr electrode in Cr³⁺(aq). Here n = 3 and E°cell = 0.92 V.</p><div class=\"equation-box\">Al(s) + Cr³⁺(aq) → Al³⁺(aq) + Cr(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Al in Al³⁺(aq) and an electrode of Cr in Cr³⁺(aq). Here n = 3 and E°cell = 0.92 V.</p><div class=\"equation-box\">Al(s) + Cr³⁺(aq) → Al³⁺(aq) + Cr(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
   "answer": 46.6,
   "tolerance": 0.012,
   "hint": "At 25 °C: log K = nE°cell / 0.0592. Keep n as the total electrons transferred in the balanced equation.",
@@ -505,7 +505,7 @@
   }
  },
  {
-  "id": "redox-d82b2908",
+  "id": "redox-f4772e4b",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -515,7 +515,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Zn electrode in Zn²⁺(aq) and a Ni electrode in Ni²⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Zn²⁺(aq) + 2 e⁻ → Zn(s)</td><td>-0.76</td></tr><tr><td>Ni²⁺(aq) + 2 e⁻ → Ni(s)</td><td>-0.26</td></tr></tbody></table><p><b>What is E°cell, in volts?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Zn in Zn²⁺(aq) and an electrode of Ni in Ni²⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Zn²⁺(aq) + 2 e⁻ → Zn(s)</td><td>-0.76</td></tr><tr><td>Ni²⁺(aq) + 2 e⁻ → Ni(s)</td><td>-0.26</td></tr></tbody></table><p><b>What is E°cell, in volts?</b></p>",
   "answer": 0.5,
   "unit": "V",
   "tolerance": 0.012,
@@ -529,7 +529,7 @@
   }
  },
  {
-  "id": "redox-b5e4545f",
+  "id": "redox-10d64b53",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -539,7 +539,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A galvanic cell has a Zn anode in 1 M Zn²⁺ and a Sn cathode in 0.01 M Sn²⁺. Standard E°cell = 0.62 V and n = 2.</p><p>Net: Zn(s) + Sn²⁺(aq) → Zn²⁺(aq) + Sn(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Zn²⁺] / [Sn²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is the reaction quotient Q?</b></p>",
+  "prompt": "<p class=\"prompt\">A galvanic cell has an anode of Zn in 1 M Zn²⁺ and a cathode of Sn in 0.01 M Sn²⁺. Standard E°cell = 0.62 V and n = 2.</p><p>Net: Zn(s) + Sn²⁺(aq) → Zn²⁺(aq) + Sn(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Zn²⁺] / [Sn²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is the reaction quotient Q?</b></p>",
   "answer": 100,
   "tolerance": 0.012,
   "hint": "Q = [product ion]/[reactant ion] = [anode ion]/[cathode ion]. Then E = E° − (0.0592/n)·log Q. If Q < 1, E is larger than E°.",
@@ -552,7 +552,7 @@
   }
  },
  {
-  "id": "redox-224743f0",
+  "id": "redox-16d2a30a",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -562,7 +562,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A galvanic cell has a Zn anode in 1 M Zn²⁺ and a Sn cathode in 0.01 M Sn²⁺. Standard E°cell = 0.62 V and n = 2.</p><p>Net: Zn(s) + Sn²⁺(aq) → Zn²⁺(aq) + Sn(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Zn²⁺] / [Sn²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is Ecell, in volts?</b></p>",
+  "prompt": "<p class=\"prompt\">A galvanic cell has an anode of Zn in 1 M Zn²⁺ and a cathode of Sn in 0.01 M Sn²⁺. Standard E°cell = 0.62 V and n = 2.</p><p>Net: Zn(s) + Sn²⁺(aq) → Zn²⁺(aq) + Sn(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Zn²⁺] / [Sn²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is Ecell, in volts?</b></p>",
   "answer": 0.561,
   "unit": "V",
   "tolerance": 0.0071,
@@ -576,7 +576,7 @@
   }
  },
  {
-  "id": "redox-646849b6",
+  "id": "redox-a908aa65",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -586,7 +586,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Cr electrode in Cr³⁺(aq) and a Cu electrode in Cu²⁺(aq). For the balanced reaction below, n = 6 electrons transfer and E°cell = 1.08 V.</p><div class=\"equation-box\">2 Cr(s) + 3 Cu²⁺(aq) → 2 Cr³⁺(aq) + 3 Cu(s)</div><p>Use ΔG° = −nFE° with F = 96,485 C/mol e⁻. Report ΔG° in kJ (1 J = 1 V·C).</p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Cr in Cr³⁺(aq) and an electrode of Cu in Cu²⁺(aq). For the balanced reaction below, n = 6 electrons transfer and E°cell = 1.08 V.</p><div class=\"equation-box\">2 Cr(s) + 3 Cu²⁺(aq) → 2 Cr³⁺(aq) + 3 Cu(s)</div><p>Use ΔG° = −nFE° with F = 96,485 C/mol e⁻. Report ΔG° in kJ (1 J = 1 V·C).</p>",
   "answer": -625,
   "unit": "kJ",
   "tolerance": 0.012,
@@ -600,7 +600,7 @@
   }
  },
  {
-  "id": "redox-7e132a82",
+  "id": "redox-09c08440",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -610,7 +610,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Pb electrode in Pb²⁺(aq) and a Au electrode in Au³⁺(aq). For the balanced reaction below, n = 6 electrons transfer and E°cell = 1.63 V.</p><div class=\"equation-box\">3 Pb(s) + 2 Au³⁺(aq) → 3 Pb²⁺(aq) + 2 Au(s)</div><p>Use ΔG° = −nFE° with F = 96,485 C/mol e⁻. Report ΔG° in kJ (1 J = 1 V·C).</p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Pb in Pb²⁺(aq) and an electrode of Au in Au³⁺(aq). For the balanced reaction below, n = 6 electrons transfer and E°cell = 1.63 V.</p><div class=\"equation-box\">3 Pb(s) + 2 Au³⁺(aq) → 3 Pb²⁺(aq) + 2 Au(s)</div><p>Use ΔG° = −nFE° with F = 96,485 C/mol e⁻. Report ΔG° in kJ (1 J = 1 V·C).</p>",
   "answer": -944,
   "unit": "kJ",
   "tolerance": 0.012,
@@ -624,7 +624,7 @@
   }
  },
  {
-  "id": "redox-9ce723e0",
+  "id": "redox-8be9b1ec",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -634,7 +634,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Fe electrode in Fe²⁺(aq) and a Cu electrode in Cu²⁺(aq). Here n = 2 and E°cell = 0.78 V.</p><div class=\"equation-box\">Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Fe in Fe²⁺(aq) and an electrode of Cu in Cu²⁺(aq). Here n = 2 and E°cell = 0.78 V.</p><div class=\"equation-box\">Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
   "answer": 26.4,
   "tolerance": 0.012,
   "hint": "At 25 °C: log K = nE°cell / 0.0592. Keep n as the total electrons transferred in the balanced equation.",
@@ -647,7 +647,7 @@
   }
  },
  {
-  "id": "redox-10ad71da",
+  "id": "redox-2e130555",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -657,7 +657,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A galvanic cell has a Sn anode in 1 M Sn²⁺ and a Cu cathode in 2 M Cu²⁺. Standard E°cell = 0.48 V and n = 2.</p><p>Net: Sn(s) + Cu²⁺(aq) → Sn²⁺(aq) + Cu(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Sn²⁺] / [Cu²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is the reaction quotient Q?</b></p>",
+  "prompt": "<p class=\"prompt\">A galvanic cell has an anode of Sn in 1 M Sn²⁺ and a cathode of Cu in 2 M Cu²⁺. Standard E°cell = 0.48 V and n = 2.</p><p>Net: Sn(s) + Cu²⁺(aq) → Sn²⁺(aq) + Cu(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Sn²⁺] / [Cu²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is the reaction quotient Q?</b></p>",
   "answer": 0.5,
   "tolerance": 0.012,
   "hint": "Q = [product ion]/[reactant ion] = [anode ion]/[cathode ion]. Then E = E° − (0.0592/n)·log Q. If Q < 1, E is larger than E°.",
@@ -670,7 +670,7 @@
   }
  },
  {
-  "id": "redox-0565d111",
+  "id": "redox-40d78cf2",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -680,7 +680,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A galvanic cell has a Sn anode in 1 M Sn²⁺ and a Cu cathode in 2 M Cu²⁺. Standard E°cell = 0.48 V and n = 2.</p><p>Net: Sn(s) + Cu²⁺(aq) → Sn²⁺(aq) + Cu(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Sn²⁺] / [Cu²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is Ecell, in volts?</b></p>",
+  "prompt": "<p class=\"prompt\">A galvanic cell has an anode of Sn in 1 M Sn²⁺ and a cathode of Cu in 2 M Cu²⁺. Standard E°cell = 0.48 V and n = 2.</p><p>Net: Sn(s) + Cu²⁺(aq) → Sn²⁺(aq) + Cu(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Sn²⁺] / [Cu²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is Ecell, in volts?</b></p>",
   "answer": 0.489,
   "unit": "V",
   "tolerance": 0.0082,
@@ -694,7 +694,7 @@
   }
  },
  {
-  "id": "redox-27077626",
+  "id": "redox-519b9634",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -704,7 +704,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Mg electrode in Mg²⁺(aq) and a Fe electrode in Fe²⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Mg²⁺(aq) + 2 e⁻ → Mg(s)</td><td>-2.37</td></tr><tr><td>Fe²⁺(aq) + 2 e⁻ → Fe(s)</td><td>-0.44</td></tr></tbody></table><p><b>What is E°cell, in volts?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Mg in Mg²⁺(aq) and an electrode of Fe in Fe²⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Mg²⁺(aq) + 2 e⁻ → Mg(s)</td><td>-2.37</td></tr><tr><td>Fe²⁺(aq) + 2 e⁻ → Fe(s)</td><td>-0.44</td></tr></tbody></table><p><b>What is E°cell, in volts?</b></p>",
   "answer": 1.93,
   "unit": "V",
   "tolerance": 0.0031,
@@ -718,7 +718,7 @@
   }
  },
  {
-  "id": "redox-ac28d161",
+  "id": "redox-784ec822",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -728,7 +728,7 @@
    "1B-17"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Cr electrode in Cr³⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Cr³⁺(aq) + 3 e⁻ → Cr(s)</td><td>-0.74</td></tr></tbody></table><p class=\"footer-note\">Convention: anode (oxidation) on the left, cathode (reduction) on the right; || is the salt bridge; solid | solution inside each half-cell.</p><p><b>Which cell notation is written correctly?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Al in Al³⁺(aq) and an electrode of Cr in Cr³⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Cr³⁺(aq) + 3 e⁻ → Cr(s)</td><td>-0.74</td></tr></tbody></table><p class=\"footer-note\">Convention: anode (oxidation) on the left, cathode (reduction) on the right; || is the salt bridge; solid | solution inside each half-cell.</p><p><b>Which cell notation is written correctly?</b></p>",
   "choices": [
    "Cr(s) | Cr³⁺(aq) || Al³⁺(aq) | Al(s)",
    "Al³⁺(aq) | Al(s) || Cr(s) | Cr³⁺(aq)",
@@ -746,7 +746,7 @@
   }
  },
  {
-  "id": "redox-33b92464",
+  "id": "redox-f9a1a027",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -756,7 +756,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Cr electrode in Cr³⁺(aq) and a Cu electrode in Cu²⁺(aq). Here n = 6 and E°cell = 1.08 V.</p><div class=\"equation-box\">2 Cr(s) + 3 Cu²⁺(aq) → 2 Cr³⁺(aq) + 3 Cu(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Cr in Cr³⁺(aq) and an electrode of Cu in Cu²⁺(aq). Here n = 6 and E°cell = 1.08 V.</p><div class=\"equation-box\">2 Cr(s) + 3 Cu²⁺(aq) → 2 Cr³⁺(aq) + 3 Cu(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
   "answer": 109,
   "tolerance": 0.012,
   "hint": "At 25 °C: log K = nE°cell / 0.0592. Keep n as the total electrons transferred in the balanced equation.",
@@ -769,7 +769,7 @@
   }
  },
  {
-  "id": "redox-a2d0ed18",
+  "id": "redox-d77a1d30",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -779,7 +779,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A galvanic cell has a Zn anode in 1 M Zn²⁺ and a Ni cathode in 0.1 M Ni²⁺. Standard E°cell = 0.50 V and n = 2.</p><p>Net: Zn(s) + Ni²⁺(aq) → Zn²⁺(aq) + Ni(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Zn²⁺] / [Ni²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is Ecell, in volts?</b></p>",
+  "prompt": "<p class=\"prompt\">A galvanic cell has an anode of Zn in 1 M Zn²⁺ and a cathode of Ni in 0.1 M Ni²⁺. Standard E°cell = 0.50 V and n = 2.</p><p>Net: Zn(s) + Ni²⁺(aq) → Zn²⁺(aq) + Ni(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Zn²⁺] / [Ni²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is Ecell, in volts?</b></p>",
   "answer": 0.47,
   "unit": "V",
   "tolerance": 0.0085,
@@ -793,7 +793,7 @@
   }
  },
  {
-  "id": "redox-060ebe83",
+  "id": "redox-abdcd545",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -803,7 +803,7 @@
    "1B-17"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Sn electrode in Sn²⁺(aq) and a Ag electrode in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Sn²⁺(aq) + 2 e⁻ → Sn(s)</td><td>-0.14</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p class=\"footer-note\">Convention: anode (oxidation) on the left, cathode (reduction) on the right; || is the salt bridge; solid | solution inside each half-cell.</p><p><b>Which cell notation is written correctly?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Sn in Sn²⁺(aq) and an electrode of Ag in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Sn²⁺(aq) + 2 e⁻ → Sn(s)</td><td>-0.14</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p class=\"footer-note\">Convention: anode (oxidation) on the left, cathode (reduction) on the right; || is the salt bridge; solid | solution inside each half-cell.</p><p><b>Which cell notation is written correctly?</b></p>",
   "choices": [
    "Sn²⁺(aq) | Sn(s) || Ag(s) | Ag⁺(aq)",
    "Sn(s) | Ag⁺(aq) || Sn²⁺(aq) | Ag(s)",
@@ -821,7 +821,7 @@
   }
  },
  {
-  "id": "redox-18c17504",
+  "id": "redox-59272509",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -831,7 +831,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Cr electrode in Cr³⁺(aq) and a Ag electrode in Ag⁺(aq). For the balanced reaction below, n = 3 electrons transfer and E°cell = 1.54 V.</p><div class=\"equation-box\">Cr(s) + 3 Ag⁺(aq) → Cr³⁺(aq) + 3 Ag(s)</div><p>Use ΔG° = −nFE° with F = 96,485 C/mol e⁻. Report ΔG° in kJ (1 J = 1 V·C).</p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Cr in Cr³⁺(aq) and an electrode of Ag in Ag⁺(aq). For the balanced reaction below, n = 3 electrons transfer and E°cell = 1.54 V.</p><div class=\"equation-box\">Cr(s) + 3 Ag⁺(aq) → Cr³⁺(aq) + 3 Ag(s)</div><p>Use ΔG° = −nFE° with F = 96,485 C/mol e⁻. Report ΔG° in kJ (1 J = 1 V·C).</p>",
   "answer": -446,
   "unit": "kJ",
   "tolerance": 0.012,
@@ -845,7 +845,7 @@
   }
  },
  {
-  "id": "redox-6e116c4e",
+  "id": "redox-f38bacd2",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -855,7 +855,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A galvanic cell has a Mg anode in 0.1 M Mg²⁺ and a Ni cathode in 0.5 M Ni²⁺. Standard E°cell = 2.11 V and n = 2.</p><p>Net: Mg(s) + Ni²⁺(aq) → Mg²⁺(aq) + Ni(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Mg²⁺] / [Ni²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is Ecell, in volts?</b></p>",
+  "prompt": "<p class=\"prompt\">A galvanic cell has an anode of Mg in 0.1 M Mg²⁺ and a cathode of Ni in 0.5 M Ni²⁺. Standard E°cell = 2.11 V and n = 2.</p><p>Net: Mg(s) + Ni²⁺(aq) → Mg²⁺(aq) + Ni(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Mg²⁺] / [Ni²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is Ecell, in volts?</b></p>",
   "answer": 2.131,
   "unit": "V",
   "tolerance": 0.0019,
@@ -869,7 +869,7 @@
   }
  },
  {
-  "id": "redox-91367db4",
+  "id": "redox-cbc0d9ae",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -879,7 +879,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Zn electrode in Zn²⁺(aq) and a Au electrode in Au³⁺(aq). Here n = 6 and E°cell = 2.26 V.</p><div class=\"equation-box\">3 Zn(s) + 2 Au³⁺(aq) → 3 Zn²⁺(aq) + 2 Au(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Zn in Zn²⁺(aq) and an electrode of Au in Au³⁺(aq). Here n = 6 and E°cell = 2.26 V.</p><div class=\"equation-box\">3 Zn(s) + 2 Au³⁺(aq) → 3 Zn²⁺(aq) + 2 Au(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
   "answer": 229,
   "tolerance": 0.012,
   "hint": "At 25 °C: log K = nE°cell / 0.0592. Keep n as the total electrons transferred in the balanced equation.",
@@ -892,7 +892,7 @@
   }
  },
  {
-  "id": "redox-cae27a94",
+  "id": "redox-4b149897",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -902,7 +902,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Pb electrode in Pb²⁺(aq) and a Cu electrode in Cu²⁺(aq). For the balanced reaction below, n = 2 electrons transfer and E°cell = 0.47 V.</p><div class=\"equation-box\">Pb(s) + Cu²⁺(aq) → Pb²⁺(aq) + Cu(s)</div><p>Use ΔG° = −nFE° with F = 96,485 C/mol e⁻. Report ΔG° in kJ (1 J = 1 V·C).</p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Pb in Pb²⁺(aq) and an electrode of Cu in Cu²⁺(aq). For the balanced reaction below, n = 2 electrons transfer and E°cell = 0.47 V.</p><div class=\"equation-box\">Pb(s) + Cu²⁺(aq) → Pb²⁺(aq) + Cu(s)</div><p>Use ΔG° = −nFE° with F = 96,485 C/mol e⁻. Report ΔG° in kJ (1 J = 1 V·C).</p>",
   "answer": -90.7,
   "unit": "kJ",
   "tolerance": 0.012,
@@ -916,7 +916,7 @@
   }
  },
  {
-  "id": "redox-d9981bf8",
+  "id": "redox-8d2c9ed6",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -926,7 +926,7 @@
    "1B-17"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Ni electrode in Ni²⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Ni²⁺(aq) + 2 e⁻ → Ni(s)</td><td>-0.26</td></tr></tbody></table><p class=\"footer-note\">Convention: anode (oxidation) on the left, cathode (reduction) on the right; || is the salt bridge; solid | solution inside each half-cell.</p><p><b>Which cell notation is written correctly?</b></p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Al in Al³⁺(aq) and an electrode of Ni in Ni²⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Ni²⁺(aq) + 2 e⁻ → Ni(s)</td><td>-0.26</td></tr></tbody></table><p class=\"footer-note\">Convention: anode (oxidation) on the left, cathode (reduction) on the right; || is the salt bridge; solid | solution inside each half-cell.</p><p><b>Which cell notation is written correctly?</b></p>",
   "choices": [
    "Al(s) | Al³⁺(aq) || Ni²⁺(aq) | Ni(s)",
    "Al(s) | Ni²⁺(aq) || Al³⁺(aq) | Ni(s)",
@@ -944,7 +944,7 @@
   }
  },
  {
-  "id": "redox-e52a0714",
+  "id": "redox-0ce747a9",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -954,7 +954,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Zn electrode in Zn²⁺(aq) and a Ag electrode in Ag⁺(aq). Here n = 2 and E°cell = 1.56 V.</p><div class=\"equation-box\">Zn(s) + 2 Ag⁺(aq) → Zn²⁺(aq) + 2 Ag(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Zn in Zn²⁺(aq) and an electrode of Ag in Ag⁺(aq). Here n = 2 and E°cell = 1.56 V.</p><div class=\"equation-box\">Zn(s) + 2 Ag⁺(aq) → Zn²⁺(aq) + 2 Ag(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
   "answer": 52.7,
   "tolerance": 0.012,
   "hint": "At 25 °C: log K = nE°cell / 0.0592. Keep n as the total electrons transferred in the balanced equation.",
@@ -967,7 +967,7 @@
   }
  },
  {
-  "id": "redox-1cd5f433",
+  "id": "redox-6080ddf2",
   "skill": "redox.galvanic-cells",
   "courses": [
    "1A",
@@ -977,7 +977,7 @@
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Sn electrode in Sn²⁺(aq) and a Au electrode in Au³⁺(aq). For the balanced reaction below, n = 6 electrons transfer and E°cell = 1.64 V.</p><div class=\"equation-box\">3 Sn(s) + 2 Au³⁺(aq) → 3 Sn²⁺(aq) + 2 Au(s)</div><p>Use ΔG° = −nFE° with F = 96,485 C/mol e⁻. Report ΔG° in kJ (1 J = 1 V·C).</p>",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Sn in Sn²⁺(aq) and an electrode of Au in Au³⁺(aq). For the balanced reaction below, n = 6 electrons transfer and E°cell = 1.64 V.</p><div class=\"equation-box\">3 Sn(s) + 2 Au³⁺(aq) → 3 Sn²⁺(aq) + 2 Au(s)</div><p>Use ΔG° = −nFE° with F = 96,485 C/mol e⁻. Report ΔG° in kJ (1 J = 1 V·C).</p>",
   "answer": -949,
   "unit": "kJ",
   "tolerance": 0.012,

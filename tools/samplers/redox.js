@@ -104,7 +104,7 @@ function verify(r) {
   if (r.fid === 'cellDG') { const [n, E] = num(/n = (\d+) electrons transfer and E°cell = (-?[\d.]+) V/); expect = -n * 96.485 * E; }
   if (r.fid === 'cellLogK') { const [n, E] = num(/Here n = (\d+) and E°cell = (-?[\d.]+) V/); expect = n * E / 0.0592; }
   if (r.fid === 'cellQ' || r.fid === 'cellEn') {
-    const [an] = num(/anode in ([\d.]+) M/), [ca] = num(/cathode in ([\d.]+) M/), [E, n] = num(/E°cell = (-?[\d.]+) V and n = (\d+)/);
+    const [an] = num(/anode (?:of \w+ )?in ([\d.]+) M/), [ca] = num(/cathode (?:of \w+ )?in ([\d.]+) M/), [E, n] = num(/E°cell = (-?[\d.]+) V and n = (\d+)/);
     expect = r.fid === 'cellQ' ? an / ca : E - 0.0592 / n * Math.log10(an / ca);
   }
   if (r.fid === 'cnM1' || r.fid === 'cnM2') {
