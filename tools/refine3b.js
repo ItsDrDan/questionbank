@@ -14,7 +14,7 @@ const GROUP = [
   [/carboxylic acid|\bacid\b/, '7'], [/\bester\b|carboxylate/, '7'],
   [/\bamide\b/, '8'], [/\bamine\b/, '8'],
   [/aldehyde|ketone|hemiacetal|\bacetal\b/, '5'],
-  [/\balcohol\b|\bphenol\b|\bether\b|\bthiol\b/, '4'],
+  [/\balcohol\b|\bphenol\b|\bether\b|\bthiol\b|sulfide|thioether/, '4'],
   [/aromatic|benzene|phenyl/, '3'],
   [/alkane|alkene|alkyne|alkyl halide|haloalkane|hydrocarbon/, '2'],
 ];
@@ -96,6 +96,7 @@ function refine(item) {
   let units = null;
   if (game === 'functionalgroups') units = refineFunctionalGroups(item);
   else if (game === 'organicreactions') units = refineOrganicReactions(item);
+  else if (game === 'organic') { const u = groupUnit(strip(item.answer)); units = ['1', ...(u ? [u] : [])]; }  // flashcards: Unit 1 + the group's own unit
   if (!units || !units.length) return item.chapters;
   const keep = item.chapters.filter(c => !/^3B-/.test(c));           // other courses' tags stay
   return [...new Set(units)].map(u => '3B-' + u).concat(keep);

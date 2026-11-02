@@ -2132,60 +2132,6 @@
    "url": "https://itsdrdan.github.io/moles/"
   },
   {
-   "id": "organic.picture-name",
-   "game": "organic",
-   "mode": "picture-name",
-   "title": "Picture → Name",
-   "courses": [
-    "3B"
-   ],
-   "chapters": [
-    "3B-1"
-   ],
-   "kind": "static",
-   "answerTypes": [
-    "multiple-choice (16 name buttons)"
-   ],
-   "pictures": true,
-   "url": "https://itsdrdan.github.io/organic/"
-  },
-  {
-   "id": "organic.name-picture",
-   "game": "organic",
-   "mode": "name-picture",
-   "title": "Name → Picture",
-   "courses": [
-    "3B"
-   ],
-   "chapters": [
-    "3B-1"
-   ],
-   "kind": "static",
-   "answerTypes": [
-    "multiple-choice (16 picture buttons)"
-   ],
-   "pictures": true,
-   "url": "https://itsdrdan.github.io/organic/"
-  },
-  {
-   "id": "organic.mixed",
-   "game": "organic",
-   "mode": "mixed",
-   "title": "Mixed Practice",
-   "courses": [
-    "3B"
-   ],
-   "chapters": [
-    "3B-1"
-   ],
-   "kind": "static",
-   "answerTypes": [
-    "multiple-choice"
-   ],
-   "pictures": true,
-   "url": "https://itsdrdan.github.io/organic/"
-  },
-  {
    "id": "organicreactions.identify",
    "game": "organicreactions",
    "mode": "identify",
@@ -4242,6 +4188,42 @@
     "bridge.math-gym",
     "chem1bready.math-gym"
    ]
+  },
+  {
+   "id": "organic.picture-to-name",
+   "mode": "p2n",
+   "title": "Picture → Name",
+   "game": "organic",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-1"
+   ],
+   "kind": "fixed",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "url": "https://itsdrdan.github.io/organic/",
+   "pictures": true
+  },
+  {
+   "id": "organic.real-molecules",
+   "mode": "real",
+   "title": "Real Molecules",
+   "game": "organic",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-1"
+   ],
+   "kind": "fixed",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "url": "https://itsdrdan.github.io/organic/",
+   "pictures": false
   }
  ]
 }

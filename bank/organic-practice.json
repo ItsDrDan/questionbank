@@ -1,0 +1,1487 @@
+[
+ {
+  "skill": "organic.picture-to-name",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-2"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"52\" y1=\"113.6\" x2=\"124\" y2=\"70.4\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"124\" y1=\"70.4\" x2=\"196\" y2=\"113.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"196\" y1=\"113.6\" x2=\"268\" y2=\"70.4\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"160\" y=\"168\" text-anchor=\"middle\" style=\"font-size:15px;font-weight:800\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"800\">every corner is a carbon</text></svg>",
+  "choices": [
+   "Alkene",
+   "Alkane",
+   "Aromatic (arene)",
+   "Alkyne"
+  ],
+  "answer": "Alkane",
+  "hint": "No double bonds, no O, N, S or halogen anywhere.",
+  "explain": "Alkane: Only C–C and C–H single bonds. Where you’ll meet it: Propane, butane, and the long chains in petroleum jelly.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:picture-to-name",
+   "index": 0
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-2"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></div>",
+  "choices": [
+   "Alkane",
+   "Aromatic (arene)",
+   "Alkyne",
+   "Alkene"
+  ],
+  "answer": "Alkane",
+  "hint": "This compound is butane. No double bonds, no O, N, S or halogen anywhere.",
+  "explain": "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> is butane (lighter fuel): Only C–C and C–H single bonds.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 0
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-2"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>4</sub></div>",
+  "choices": [
+   "Aromatic (arene)",
+   "Alkene",
+   "Alkane",
+   "Alkyne"
+  ],
+  "answer": "Alkane",
+  "hint": "This compound is methane. No double bonds, no O, N, S or halogen anywhere.",
+  "explain": "CH<sub>4</sub> is methane (natural gas): Only C–C and C–H single bonds.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 1
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-2"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>3</sub></div>",
+  "choices": [
+   "Aromatic (arene)",
+   "Alkyne",
+   "Alkane",
+   "Alkene"
+  ],
+  "answer": "Alkane",
+  "hint": "This compound is propane. No double bonds, no O, N, S or halogen anywhere.",
+  "explain": "CH<sub>3</sub>CH<sub>2</sub>CH<sub>3</sub> is propane (camp stoves): Only C–C and C–H single bonds.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 2
+  }
+ },
+ {
+  "skill": "organic.picture-to-name",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-2"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"52\" y1=\"113.6\" x2=\"124\" y2=\"70.4\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"126.57247877713763\" y1=\"66.11253537143729\" x2=\"198.57247877713763\" y2=\"109.31253537143728\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"121.42752122286237\" y1=\"74.68746462856272\" x2=\"193.42752122286237\" y2=\"117.88746462856271\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"196\" y1=\"113.6\" x2=\"268\" y2=\"70.4\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"160\" y=\"168\" text-anchor=\"middle\" style=\"font-size:15px;font-weight:800\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"800\">every corner is a carbon</text></svg>",
+  "choices": [
+   "Alkene",
+   "Alkyne",
+   "Alkane",
+   "Aromatic (arene)"
+  ],
+  "answer": "Alkene",
+  "hint": "Look for two lines between two carbons (no O, N or S).",
+  "explain": "Alkene: A C=C double bond. Where you’ll meet it: Ethene ripens bananas; vegetable oils are “unsaturated” because of C=C.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:picture-to-name",
+   "index": 1
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-2"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>2</sub>=CH<sub>2</sub></div>",
+  "choices": [
+   "Alkyne",
+   "Alkene",
+   "Alkane",
+   "Aromatic (arene)"
+  ],
+  "answer": "Alkene",
+  "hint": "This compound is ethene (ethylene). Look for two lines between two carbons (no O, N or S).",
+  "explain": "CH<sub>2</sub>=CH<sub>2</sub> is ethene (ethylene) (ripens fruit): A C=C double bond.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 3
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-2"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH=CH<sub>2</sub></div>",
+  "choices": [
+   "Alkyne",
+   "Aromatic (arene)",
+   "Alkene",
+   "Alkane"
+  ],
+  "answer": "Alkene",
+  "hint": "This compound is propene. Look for two lines between two carbons (no O, N or S).",
+  "explain": "CH<sub>3</sub>CH=CH<sub>2</sub> is propene (makes polypropylene): A C=C double bond.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 4
+  }
+ },
+ {
+  "skill": "organic.picture-to-name",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-2"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"67\" y1=\"92\" x2=\"109\" y2=\"92\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"139\" y1=\"84\" x2=\"181\" y2=\"84\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"139\" y1=\"92\" x2=\"181\" y2=\"92\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"139\" y1=\"100\" x2=\"181\" y2=\"100\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"211\" y1=\"92\" x2=\"249\" y2=\"92\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"52\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"124\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"196\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"268\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R′</tspan></text></svg>",
+  "choices": [
+   "Alkene",
+   "Alkyne",
+   "Aromatic (arene)",
+   "Alkane"
+  ],
+  "answer": "Alkyne",
+  "hint": "Three lines between two carbons; that part is straight (180°).",
+  "explain": "Alkyne: A C≡C triple bond. Where you’ll meet it: Acetylene torches burn hot enough to cut steel.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:picture-to-name",
+   "index": 2
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-2"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">HC≡CH</div>",
+  "choices": [
+   "Alkene",
+   "Aromatic (arene)",
+   "Alkane",
+   "Alkyne"
+  ],
+  "answer": "Alkyne",
+  "hint": "This compound is ethyne (acetylene). Three lines between two carbons; that part is straight (180°).",
+  "explain": "HC≡CH is ethyne (acetylene) (welding torches): A C≡C triple bond.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 5
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-2"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>C≡CH</div>",
+  "choices": [
+   "Alkane",
+   "Alkyne",
+   "Aromatic (arene)",
+   "Alkene"
+  ],
+  "answer": "Alkyne",
+  "hint": "This compound is propyne. Three lines between two carbons; that part is straight (180°).",
+  "explain": "CH<sub>3</sub>C≡CH is propyne: A C≡C triple bond.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 6
+  }
+ },
+ {
+  "skill": "organic.picture-to-name",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-3"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"160,36 208.49742261192858,64 208.49742261192858,120 160,148 111.50257738807143,120 111.50257738807144,63.99999999999999\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></polygon><line x1=\"161.93989690447714\" y1=\"52.800000000000004\" x2=\"192.97824737611145\" y2=\"70.72\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"192.97824737611145\" y1=\"113.28\" x2=\"161.93989690447714\" y2=\"131.2\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"125.08185571941144\" y1=\"109.92\" x2=\"125.08185571941144\" y2=\"74.08\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></svg>",
+  "choices": [
+   "Alkyne",
+   "Aromatic (arene)",
+   "Alkane",
+   "Alkene"
+  ],
+  "answer": "Aromatic (arene)",
+  "hint": "A hexagon with three double bonds (or a circle inside).",
+  "explain": "Aromatic (arene): A benzene ring: six carbons with alternating double bonds. Where you’ll meet it: Benzene rings sit inside aspirin, Tylenol, lidocaine and many drugs.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:picture-to-name",
+   "index": 3
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-3"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">C<sub>6</sub>H<sub>6</sub></div>",
+  "choices": [
+   "Alkene",
+   "Alkyne",
+   "Alkane",
+   "Aromatic (arene)"
+  ],
+  "answer": "Aromatic (arene)",
+  "hint": "This compound is benzene. A hexagon with three double bonds (or a circle inside).",
+  "explain": "C<sub>6</sub>H<sub>6</sub> is benzene (industrial solvent): A benzene ring: six carbons with alternating double bonds.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 7
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-3"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">C<sub>6</sub>H<sub>5</sub>CH<sub>3</sub></div>",
+  "choices": [
+   "Aromatic (arene)",
+   "Alkyne",
+   "Alkene",
+   "Alkane"
+  ],
+  "answer": "Aromatic (arene)",
+  "hint": "This compound is toluene. A hexagon with three double bonds (or a circle inside).",
+  "explain": "C<sub>6</sub>H<sub>5</sub>CH<sub>3</sub> is toluene (paint thinner): A benzene ring: six carbons with alternating double bonds.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 8
+  }
+ },
+ {
+  "skill": "organic.picture-to-name",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-2"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"139\" y1=\"92\" x2=\"181\" y2=\"92\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"124\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"196\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3a9d4a\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>X</tspan></text><text x=\"160\" y=\"168\" text-anchor=\"middle\" style=\"font-size:15px;font-weight:800\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"800\">X = F, Cl, Br or I</text></svg>",
+  "choices": [
+   "Haloalkane (alkyl halide)",
+   "Aromatic (arene)",
+   "Amide",
+   "Carboxylic acid"
+  ],
+  "answer": "Haloalkane (alkyl halide)",
+  "hint": "Find F, Cl, Br or I bonded to carbon.",
+  "explain": "Haloalkane (alkyl halide): A halogen (F, Cl, Br, I) on a carbon. Where you’ll meet it: Halothane and other inhaled anesthetics; CFCs in old refrigerants.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:picture-to-name",
+   "index": 4
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-2"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CHCl<sub>3</sub></div>",
+  "choices": [
+   "Alkyne",
+   "Aldehyde",
+   "Haloalkane (alkyl halide)",
+   "Amide"
+  ],
+  "answer": "Haloalkane (alkyl halide)",
+  "hint": "This compound is chloroform. Find F, Cl, Br or I bonded to carbon.",
+  "explain": "CHCl<sub>3</sub> is chloroform (early anesthetic): A halogen (F, Cl, Br, I) on a carbon.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 9
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-2"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>Cl</div>",
+  "choices": [
+   "Aromatic (arene)",
+   "Alkane",
+   "Haloalkane (alkyl halide)",
+   "Amide"
+  ],
+  "answer": "Haloalkane (alkyl halide)",
+  "hint": "This compound is chloromethane. Find F, Cl, Br or I bonded to carbon.",
+  "explain": "CH<sub>3</sub>Cl is chloromethane: A halogen (F, Cl, Br, I) on a carbon.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 10
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-2"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CF<sub>3</sub>CHClBr</div>",
+  "choices": [
+   "Aromatic (arene)",
+   "Thiol",
+   "Disulfide",
+   "Haloalkane (alkyl halide)"
+  ],
+  "answer": "Haloalkane (alkyl halide)",
+  "hint": "This compound is halothane. Find F, Cl, Br or I bonded to carbon.",
+  "explain": "CF<sub>3</sub>CHClBr is halothane (inhaled anesthetic): A halogen (F, Cl, Br, I) on a carbon.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 11
+  }
+ },
+ {
+  "skill": "organic.picture-to-name",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"101.41640786499873\" y1=\"103.29179606750063\" x2=\"146.58359213500125\" y2=\"80.70820393249937\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"173.41640786499875\" y1=\"80.70820393249937\" x2=\"218.58359213500125\" y2=\"103.29179606750063\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"74\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"232\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>H</tspan></text></svg>",
+  "choices": [
+   "Alcohol",
+   "Amide",
+   "Alkane",
+   "Ether"
+  ],
+  "answer": "Alcohol",
+  "hint": "O–H attached to a carbon that is NOT a C=O.",
+  "explain": "Alcohol: An –OH on a carbon with only single bonds. Where you’ll meet it: Ethanol in sanitizer and drinks; isopropyl alcohol wipes before an injection.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:picture-to-name",
+   "index": 5
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH<sub>2</sub>OH</div>",
+  "choices": [
+   "Ether",
+   "Ester",
+   "Haloalkane (alkyl halide)",
+   "Alcohol"
+  ],
+  "answer": "Alcohol",
+  "hint": "This compound is ethanol. O–H attached to a carbon that is NOT a C=O.",
+  "explain": "CH<sub>3</sub>CH<sub>2</sub>OH is ethanol (drinking alcohol, hand sanitizer): An –OH on a carbon with only single bonds.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 12
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH(OH)CH<sub>3</sub></div>",
+  "choices": [
+   "Ether",
+   "Alcohol",
+   "Haloalkane (alkyl halide)",
+   "Carboxylic acid"
+  ],
+  "answer": "Alcohol",
+  "hint": "This compound is 2-propanol (isopropyl alcohol). O–H attached to a carbon that is NOT a C=O.",
+  "explain": "CH<sub>3</sub>CH(OH)CH<sub>3</sub> is 2-propanol (isopropyl alcohol) (rubbing alcohol): An –OH on a carbon with only single bonds.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 13
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>OH</div>",
+  "choices": [
+   "Alcohol",
+   "Alkyne",
+   "Alkene",
+   "Ether"
+  ],
+  "answer": "Alcohol",
+  "hint": "This compound is methanol. O–H attached to a carbon that is NOT a C=O.",
+  "explain": "CH<sub>3</sub>OH is methanol (toxic: causes blindness): An –OH on a carbon with only single bonds.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 14
+  }
+ },
+ {
+  "skill": "organic.picture-to-name",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"101.41640786499873\" y1=\"103.29179606750063\" x2=\"146.58359213500125\" y2=\"80.70820393249937\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"173.41640786499875\" y1=\"80.70820393249937\" x2=\"215.0058833710016\" y2=\"101.5029416855008\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"74\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"232\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R′</tspan></text></svg>",
+  "choices": [
+   "Sulfide (thioether)",
+   "Ether",
+   "Alcohol",
+   "Aromatic (arene)"
+  ],
+  "answer": "Ether",
+  "hint": "O with a carbon group on each side and no C=O.",
+  "explain": "Ether: An oxygen between two carbons: C–O–C. Where you’ll meet it: Diethyl ether started modern anesthesia; MTBE was a gasoline additive.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:picture-to-name",
+   "index": 6
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH<sub>2</sub>OCH<sub>2</sub>CH<sub>3</sub></div>",
+  "choices": [
+   "Aldehyde",
+   "Ether",
+   "Amine",
+   "Alcohol"
+  ],
+  "answer": "Ether",
+  "hint": "This compound is diethyl ether. O with a carbon group on each side and no C=O.",
+  "explain": "CH<sub>3</sub>CH<sub>2</sub>OCH<sub>2</sub>CH<sub>3</sub> is diethyl ether (the first surgical anesthetic (1846)): An oxygen between two carbons: C–O–C.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 15
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>OCH<sub>3</sub></div>",
+  "choices": [
+   "Amide",
+   "Alcohol",
+   "Amine",
+   "Ether"
+  ],
+  "answer": "Ether",
+  "hint": "This compound is dimethyl ether. O with a carbon group on each side and no C=O.",
+  "explain": "CH<sub>3</sub>OCH<sub>3</sub> is dimethyl ether (aerosol propellant): An oxygen between two carbons: C–O–C.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 16
+  }
+ },
+ {
+  "skill": "organic.picture-to-name",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"101.41640786499873\" y1=\"103.29179606750063\" x2=\"146.58359213500125\" y2=\"80.70820393249937\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"173.41640786499875\" y1=\"80.70820393249937\" x2=\"218.58359213500125\" y2=\"103.29179606750063\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"74\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#c98a00\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>S</tspan></text><text x=\"232\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>H</tspan></text></svg>",
+  "choices": [
+   "Sulfide (thioether)",
+   "Disulfide",
+   "Alcohol",
+   "Thiol"
+  ],
+  "answer": "Thiol",
+  "hint": "S–H attached to carbon.",
+  "explain": "Thiol: An –SH on a carbon (the sulfur cousin of an alcohol). Where you’ll meet it: The “rotten egg” warning smell in natural gas; the amino acid cysteine.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:picture-to-name",
+   "index": 7
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH<sub>2</sub>SH</div>",
+  "choices": [
+   "Thiol",
+   "Sulfide (thioether)",
+   "Disulfide",
+   "Ketone"
+  ],
+  "answer": "Thiol",
+  "hint": "This compound is ethanethiol. S–H attached to carbon.",
+  "explain": "CH<sub>3</sub>CH<sub>2</sub>SH is ethanethiol (added to natural gas so leaks smell): An –SH on a carbon (the sulfur cousin of an alcohol).",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 17
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>SH</div>",
+  "choices": [
+   "Disulfide",
+   "Amide",
+   "Sulfide (thioether)",
+   "Thiol"
+  ],
+  "answer": "Thiol",
+  "hint": "This compound is methanethiol. S–H attached to carbon.",
+  "explain": "CH<sub>3</sub>SH is methanethiol (bad breath, flatulence): An –SH on a carbon (the sulfur cousin of an alcohol).",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 18
+  }
+ },
+ {
+  "skill": "organic.picture-to-name",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"101.41640786499873\" y1=\"103.29179606750063\" x2=\"146.58359213500125\" y2=\"80.70820393249937\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"173.41640786499875\" y1=\"80.70820393249937\" x2=\"215.0058833710016\" y2=\"101.5029416855008\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"74\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#c98a00\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>S</tspan></text><text x=\"232\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R′</tspan></text></svg>",
+  "choices": [
+   "Alcohol",
+   "Sulfide (thioether)",
+   "Disulfide",
+   "Thiol"
+  ],
+  "answer": "Sulfide (thioether)",
+  "hint": "S with a carbon group on each side.",
+  "explain": "Sulfide (thioether): A sulfur between two carbons: C–S–C. Where you’ll meet it: Dimethyl sulfide gives the ocean its smell; the amino acid methionine is a sulfide.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:picture-to-name",
+   "index": 8
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>SCH<sub>3</sub></div>",
+  "choices": [
+   "Disulfide",
+   "Thiol",
+   "Sulfide (thioether)",
+   "Alcohol"
+  ],
+  "answer": "Sulfide (thioether)",
+  "hint": "This compound is dimethyl sulfide. S with a carbon group on each side.",
+  "explain": "CH<sub>3</sub>SCH<sub>3</sub> is dimethyl sulfide (the smell of the sea): A sulfur between two carbons: C–S–C.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 19
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>SCH<sub>2</sub>CH<sub>3</sub></div>",
+  "choices": [
+   "Sulfide (thioether)",
+   "Alkane",
+   "Disulfide",
+   "Thiol"
+  ],
+  "answer": "Sulfide (thioether)",
+  "hint": "This compound is ethyl methyl sulfide. S with a carbon group on each side.",
+  "explain": "CH<sub>3</sub>SCH<sub>2</sub>CH<sub>3</sub> is ethyl methyl sulfide: A sulfur between two carbons: C–S–C.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 20
+  }
+ },
+ {
+  "skill": "organic.picture-to-name",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"65.41640786499873\" y1=\"103.29179606750063\" x2=\"110.58359213500127\" y2=\"80.70820393249937\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"137.41640786499875\" y1=\"80.70820393249937\" x2=\"182.58359213500125\" y2=\"103.29179606750063\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"209.41640786499875\" y1=\"103.29179606750063\" x2=\"251.0058833710016\" y2=\"82.4970583144992\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"52\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"124\" y=\"74\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#c98a00\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>S</tspan></text><text x=\"196\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#c98a00\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>S</tspan></text><text x=\"268\" y=\"74\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R′</tspan></text></svg>",
+  "choices": [
+   "Sulfide (thioether)",
+   "Thiol",
+   "Alkyne",
+   "Disulfide"
+  ],
+  "answer": "Disulfide",
+  "hint": "S–S in the middle.",
+  "explain": "Disulfide: Two sulfurs bonded to each other: C–S–S–C. Where you’ll meet it: Disulfide bridges hold hair proteins in shape; a perm breaks and re-forms them.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:picture-to-name",
+   "index": 9
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>SSCH<sub>3</sub></div>",
+  "choices": [
+   "Sulfide (thioether)",
+   "Alcohol",
+   "Disulfide",
+   "Thiol"
+  ],
+  "answer": "Disulfide",
+  "hint": "This compound is dimethyl disulfide. S–S in the middle.",
+  "explain": "CH<sub>3</sub>SSCH<sub>3</sub> is dimethyl disulfide (garlic and onion aroma): Two sulfurs bonded to each other: C–S–S–C.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 21
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH<sub>2</sub>SSCH<sub>2</sub>CH<sub>3</sub></div>",
+  "choices": [
+   "Disulfide",
+   "Thiol",
+   "Sulfide (thioether)",
+   "Aromatic (arene)"
+  ],
+  "answer": "Disulfide",
+  "hint": "This compound is diethyl disulfide. S–S in the middle.",
+  "explain": "CH<sub>3</sub>CH<sub>2</sub>SSCH<sub>2</sub>CH<sub>3</sub> is diethyl disulfide: Two sulfurs bonded to each other: C–S–S–C.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 22
+  }
+ },
+ {
+  "skill": "organic.picture-to-name",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-5"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"101.1432386301497\" y1=\"135.17121875341766\" x2=\"146.8567613698503\" y2=\"110.02878124658234\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"155\" y1=\"87.8\" x2=\"155\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"165\" y1=\"87.8\" x2=\"165\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"173.1432386301497\" y1=\"110.02878124658234\" x2=\"218.8567613698503\" y2=\"135.17121875341766\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"142.4\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"102.8\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"160\" y=\"41.6\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"232\" y=\"142.4\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>H</tspan></text></svg>",
+  "choices": [
+   "Ketone",
+   "Aldehyde",
+   "Ester",
+   "Carboxylic acid"
+  ],
+  "answer": "Aldehyde",
+  "hint": "C=O with an H attached (–CHO).",
+  "explain": "Aldehyde: A C=O at the END of a chain, with an H on it. Where you’ll meet it: Formaldehyde preserves lab specimens; acetaldehyde is what makes hangovers hurt.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:picture-to-name",
+   "index": 10
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-5"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">HCHO</div>",
+  "choices": [
+   "Ester",
+   "Amide",
+   "Aldehyde",
+   "Ketone"
+  ],
+  "answer": "Aldehyde",
+  "hint": "This compound is methanal (formaldehyde). C=O with an H attached (–CHO).",
+  "explain": "HCHO is methanal (formaldehyde) (preserves specimens): A C=O at the END of a chain, with an H on it.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 23
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-5"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CHO</div>",
+  "choices": [
+   "Carboxylic acid",
+   "Ester",
+   "Aldehyde",
+   "Amide"
+  ],
+  "answer": "Aldehyde",
+  "hint": "This compound is ethanal (acetaldehyde). C=O with an H attached (–CHO).",
+  "explain": "CH<sub>3</sub>CHO is ethanal (acetaldehyde) (hangover culprit): A C=O at the END of a chain, with an H on it.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 24
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-5"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">C<sub>6</sub>H<sub>5</sub>CHO</div>",
+  "choices": [
+   "Amide",
+   "Carboxylic acid",
+   "Aldehyde",
+   "Ketone"
+  ],
+  "answer": "Aldehyde",
+  "hint": "This compound is benzaldehyde. C=O with an H attached (–CHO).",
+  "explain": "C<sub>6</sub>H<sub>5</sub>CHO is benzaldehyde (almond flavor): A C=O at the END of a chain, with an H on it.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 25
+  }
+ },
+ {
+  "skill": "organic.picture-to-name",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-5"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"101.1432386301497\" y1=\"135.17121875341766\" x2=\"146.8567613698503\" y2=\"110.02878124658234\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"155\" y1=\"87.8\" x2=\"155\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"165\" y1=\"87.8\" x2=\"165\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"173.1432386301497\" y1=\"110.02878124658234\" x2=\"215.35189773514372\" y2=\"133.24354375432904\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"142.4\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"102.8\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"160\" y=\"41.6\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"232\" y=\"142.4\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R′</tspan></text></svg>",
+  "choices": [
+   "Ketone",
+   "Carboxylic acid",
+   "Aldehyde",
+   "Amide"
+  ],
+  "answer": "Ketone",
+  "hint": "C=O with carbons on both sides and no O, N or H on that carbon.",
+  "explain": "Ketone: A C=O in the MIDDLE of a chain (carbon on both sides). Where you’ll meet it: Acetone on a diabetic patient’s breath (ketoacidosis); nail polish remover.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:picture-to-name",
+   "index": 11
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-5"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>COCH<sub>3</sub></div>",
+  "choices": [
+   "Aldehyde",
+   "Ester",
+   "Ketone",
+   "Amide"
+  ],
+  "answer": "Ketone",
+  "hint": "This compound is propanone (acetone). C=O with carbons on both sides and no O, N or H on that carbon.",
+  "explain": "CH<sub>3</sub>COCH<sub>3</sub> is propanone (acetone) (nail polish remover, “ketone bodies”): A C=O in the MIDDLE of a chain (carbon on both sides).",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 26
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-5"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub></div>",
+  "choices": [
+   "Amide",
+   "Ketone",
+   "Carboxylic acid",
+   "Ester"
+  ],
+  "answer": "Ketone",
+  "hint": "This compound is butanone (MEK). C=O with carbons on both sides and no O, N or H on that carbon.",
+  "explain": "CH<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub> is butanone (MEK) (industrial solvent): A C=O in the MIDDLE of a chain (carbon on both sides).",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 27
+  }
+ },
+ {
+  "skill": "organic.picture-to-name",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-7"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"65.1432386301497\" y1=\"135.17121875341766\" x2=\"110.8567613698503\" y2=\"110.02878124658234\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"119\" y1=\"87.8\" x2=\"119\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"129\" y1=\"87.8\" x2=\"129\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"137.1432386301497\" y1=\"110.02878124658234\" x2=\"182.8567613698503\" y2=\"135.17121875341766\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"209.1432386301497\" y1=\"135.17121875341766\" x2=\"254.8567613698503\" y2=\"110.02878124658234\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"52\" y=\"142.4\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"124\" y=\"102.8\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"124\" y=\"41.6\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"196\" y=\"142.4\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"268\" y=\"102.8\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>H</tspan></text></svg>",
+  "choices": [
+   "Amide",
+   "Aldehyde",
+   "Carboxylic acid",
+   "Ester"
+  ],
+  "answer": "Carboxylic acid",
+  "hint": "Look for C=O with O–H right next to it.",
+  "explain": "Carboxylic acid: A C=O and an –OH on the SAME carbon: –COOH. Where you’ll meet it: Vinegar, the sour bite of ant stings, and the acid end of every amino acid.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:picture-to-name",
+   "index": 12
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-7"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>COOH</div>",
+  "choices": [
+   "Carboxylic acid",
+   "Ester",
+   "Ketone",
+   "Amide"
+  ],
+  "answer": "Carboxylic acid",
+  "hint": "This compound is ethanoic acid (acetic acid). Look for C=O with O–H right next to it.",
+  "explain": "CH<sub>3</sub>COOH is ethanoic acid (acetic acid) (vinegar): A C=O and an –OH on the SAME carbon: –COOH.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 28
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-7"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">HCOOH</div>",
+  "choices": [
+   "Aldehyde",
+   "Amide",
+   "Ketone",
+   "Carboxylic acid"
+  ],
+  "answer": "Carboxylic acid",
+  "hint": "This compound is methanoic acid (formic acid). Look for C=O with O–H right next to it.",
+  "explain": "HCOOH is methanoic acid (formic acid) (ant stings): A C=O and an –OH on the SAME carbon: –COOH.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 29
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-7"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH<sub>2</sub>COOH</div>",
+  "choices": [
+   "Carboxylic acid",
+   "Aldehyde",
+   "Ester",
+   "Ketone"
+  ],
+  "answer": "Carboxylic acid",
+  "hint": "This compound is propanoic acid. Look for C=O with O–H right next to it.",
+  "explain": "CH<sub>3</sub>CH<sub>2</sub>COOH is propanoic acid (Swiss cheese flavor): A C=O and an –OH on the SAME carbon: –COOH.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 30
+  }
+ },
+ {
+  "skill": "organic.picture-to-name",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-7"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"65.1432386301497\" y1=\"135.17121875341766\" x2=\"110.8567613698503\" y2=\"110.02878124658234\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"119\" y1=\"87.8\" x2=\"119\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"129\" y1=\"87.8\" x2=\"129\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"137.1432386301497\" y1=\"110.02878124658234\" x2=\"182.8567613698503\" y2=\"135.17121875341766\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"209.1432386301497\" y1=\"135.17121875341766\" x2=\"251.35189773514372\" y2=\"111.95645624567096\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"52\" y=\"142.4\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"124\" y=\"102.8\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"124\" y=\"41.6\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"196\" y=\"142.4\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"268\" y=\"102.8\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R′</tspan></text></svg>",
+  "choices": [
+   "Ketone",
+   "Aldehyde",
+   "Amide",
+   "Ester"
+  ],
+  "answer": "Ester",
+  "hint": "C=O then O then another carbon group (no H on that O).",
+  "explain": "Ester: A C=O next to an O that leads to another carbon: –COO–C. Where you’ll meet it: Fruit flavors and perfumes; fats and oils are triesters; aspirin is an ester.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:picture-to-name",
+   "index": 13
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-7"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub></div>",
+  "choices": [
+   "Carboxylic acid",
+   "Aldehyde",
+   "Ester",
+   "Amide"
+  ],
+  "answer": "Ester",
+  "hint": "This compound is ethyl acetate. C=O then O then another carbon group (no H on that O).",
+  "explain": "CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub> is ethyl acetate (nail polish, pear smell): A C=O next to an O that leads to another carbon: –COO–C.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 31
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-7"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)<sub>2</sub></div>",
+  "choices": [
+   "Aldehyde",
+   "Amide",
+   "Ester",
+   "Ketone"
+  ],
+  "answer": "Ester",
+  "hint": "This compound is isoamyl acetate. C=O then O then another carbon group (no H on that O).",
+  "explain": "CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)<sub>2</sub> is isoamyl acetate (banana flavor): A C=O next to an O that leads to another carbon: –COO–C.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 32
+  }
+ },
+ {
+  "skill": "organic.picture-to-name",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-8"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"137.41640786499875\" y1=\"103.29179606750063\" x2=\"169.16718427000254\" y2=\"87.41640786499873\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"124\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"196\" y=\"74\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3b6fd6\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>NH</tspan><tspan dy=\"7\" font-size=\"16\">2</tspan></text><text x=\"160\" y=\"168\" text-anchor=\"middle\" style=\"font-size:15px;font-weight:800\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"800\">also R–NH–R′ and R–N(R′)–R″</text></svg>",
+  "choices": [
+   "Haloalkane (alkyl halide)",
+   "Amine",
+   "Amide",
+   "Carboxylic acid"
+  ],
+  "answer": "Amine",
+  "hint": "N attached to carbon, but NOT next to a C=O.",
+  "explain": "Amine: A nitrogen with only single bonds to carbon (and H). Where you’ll meet it: Amphetamine, dopamine, epinephrine and most drug names ending in “-ine”.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:picture-to-name",
+   "index": 14
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-8"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>NH<sub>2</sub></div>",
+  "choices": [
+   "Carboxylic acid",
+   "Haloalkane (alkyl halide)",
+   "Amine",
+   "Thiol"
+  ],
+  "answer": "Amine",
+  "hint": "This compound is methylamine. N attached to carbon, but NOT next to a C=O.",
+  "explain": "CH<sub>3</sub>NH<sub>2</sub> is methylamine (fishy smell): A nitrogen with only single bonds to carbon (and H).",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 33
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-8"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">(CH<sub>3</sub>)<sub>3</sub>N</div>",
+  "choices": [
+   "Alkyne",
+   "Ketone",
+   "Haloalkane (alkyl halide)",
+   "Amine"
+  ],
+  "answer": "Amine",
+  "hint": "This compound is trimethylamine. N attached to carbon, but NOT next to a C=O.",
+  "explain": "(CH<sub>3</sub>)<sub>3</sub>N is trimethylamine (the smell of old fish): A nitrogen with only single bonds to carbon (and H).",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 34
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-8"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH<sub>2</sub>NH<sub>2</sub></div>",
+  "choices": [
+   "Amine",
+   "Haloalkane (alkyl halide)",
+   "Aromatic (arene)",
+   "Ester"
+  ],
+  "answer": "Amine",
+  "hint": "This compound is ethylamine. N attached to carbon, but NOT next to a C=O.",
+  "explain": "CH<sub>3</sub>CH<sub>2</sub>NH<sub>2</sub> is ethylamine: A nitrogen with only single bonds to carbon (and H).",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 35
+  }
+ },
+ {
+  "skill": "organic.picture-to-name",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-8"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"101.1432386301497\" y1=\"135.17121875341766\" x2=\"146.8567613698503\" y2=\"110.02878124658234\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"155\" y1=\"87.8\" x2=\"155\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"165\" y1=\"87.8\" x2=\"165\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"173.1432386301497\" y1=\"110.02878124658234\" x2=\"205.7135227397006\" y2=\"127.94243750683533\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"142.4\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"102.8\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"160\" y=\"41.6\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"232\" y=\"142.4\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3b6fd6\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>NH</tspan><tspan dy=\"7\" font-size=\"16\">2</tspan></text></svg>",
+  "choices": [
+   "Aldehyde",
+   "Carboxylic acid",
+   "Amide",
+   "Ester"
+  ],
+  "answer": "Amide",
+  "hint": "C=O with N right next to it.",
+  "explain": "Amide: A C=O bonded directly to a nitrogen: –CON. Where you’ll meet it: The peptide bond that links every amino acid in a protein; Tylenol and lidocaine are amides.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:picture-to-name",
+   "index": 15
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-8"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CONH<sub>2</sub></div>",
+  "choices": [
+   "Carboxylic acid",
+   "Amide",
+   "Aldehyde",
+   "Ester"
+  ],
+  "answer": "Amide",
+  "hint": "This compound is ethanamide (acetamide). C=O with N right next to it.",
+  "explain": "CH<sub>3</sub>CONH<sub>2</sub> is ethanamide (acetamide): A C=O bonded directly to a nitrogen: –CON.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 36
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-8"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">HCONH<sub>2</sub></div>",
+  "choices": [
+   "Ketone",
+   "Amide",
+   "Aldehyde",
+   "Ester"
+  ],
+  "answer": "Amide",
+  "hint": "This compound is methanamide (formamide). C=O with N right next to it.",
+  "explain": "HCONH<sub>2</sub> is methanamide (formamide): A C=O bonded directly to a nitrogen: –CON.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 37
+  }
+ },
+ {
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-8"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CONHCH<sub>3</sub></div>",
+  "choices": [
+   "Aldehyde",
+   "Amide",
+   "Ester",
+   "Carboxylic acid"
+  ],
+  "answer": "Amide",
+  "hint": "This compound is N-methylethanamide. C=O with N right next to it.",
+  "explain": "CH<sub>3</sub>CONHCH<sub>3</sub> is N-methylethanamide: A C=O bonded directly to a nitrogen: –CON.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 38
+  }
+ }
+]
