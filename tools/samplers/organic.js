@@ -18,6 +18,7 @@ module.exports = async (page, ctx) => {
       svg.setAttribute('style', 'width:min(260px,80vw);height:auto;display:block;margin:6px auto');
       svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
       for (const el of svg.querySelectorAll('line,polyline,polygon,path')) { el.setAttribute('stroke', CSS.C); el.setAttribute('stroke-width', '3.2'); el.setAttribute('stroke-linecap', 'round'); el.setAttribute('stroke-linejoin', 'round'); el.setAttribute('fill', 'none'); }
+      for (const c of svg.querySelectorAll('circle')) { const cls = (c.getAttribute('class') || '').split(/\s+/); const col = ['O', 'N', 'S', 'X'].find(k => cls.includes(k)); c.setAttribute('fill', col ? CSS[col] : CSS.C); c.setAttribute('stroke', 'none'); c.removeAttribute('class'); }   // lone-pair dots
       for (const t of svg.querySelectorAll('text')) {
         const cls = (t.getAttribute('class') || '').split(/\s+/);
         const col = ['O', 'N', 'S', 'X', 'R'].find(k => cls.includes(k));
