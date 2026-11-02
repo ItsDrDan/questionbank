@@ -182,7 +182,7 @@
   }
  },
  {
-  "id": "algebratrainer-e35ced45",
+  "id": "algebratrainer-9096babe",
   "skill": "algebratrainer.md",
   "courses": [
    "3A",
@@ -193,13 +193,13 @@
    "1A-3"
   ],
   "type": "number",
-  "prompt": "<p>Molarity: <b>M = n / V</b></p><p>Rearrange the equation for <b>n</b>, then plug in the numbers. Check the units: convert any value that needs it first.</p><p>M = 3.40 M; V = 400 mL</p><p>n = ? mol</p>",
+  "prompt": "<p>Molarity: <b>M = n / V</b></p><p>Rearrange the equation for <b>n</b>, then plug in the numbers. Check the units: convert any value that needs it first.</p><p>M = 3.40 M; V = 400. mL</p><p>n = ? mol</p>",
   "answer": 1.36,
   "tolerance": 0.01,
   "unit": "mol",
   "sigfigs": 3,
   "hint": "Get n alone first: undo what is attached to it, in reverse order. Then substitute. One given is in a different unit than the equation needs.",
-  "explain": "<p>Rearranged: <b>n = M · V</b></p><p>Convert first: 400 mL → 0.400 L</p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><span class=\"n\">3.40</span> <kbd>×</kbd> <span class=\"n\">0.400</span> <kbd>enter</kbd></div><p>n = <b>1.36 mol</b> (3 sig figs)</p>",
+  "explain": "<p>Rearranged: <b>n = M · V</b></p><p>Convert first: 400. mL → 0.400 L</p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><span class=\"n\">3.40</span> <kbd>×</kbd> <span class=\"n\">0.400</span> <kbd>enter</kbd></div><p>n = <b>1.36 mol</b> (3 sig figs)</p>",
   "origin": "original",
   "from": {
    "game": "algebratrainer",
@@ -693,7 +693,7 @@
   "unit": "K",
   "sigfigs": 3,
   "hint": "Get T<sub>2</sub> alone first: undo what is attached to it, in reverse order. Then substitute. One given is in a different unit than the equation needs.",
-  "explain": "<p>Rearranged: <b>T<sub>2</sub> = (P<sub>2</sub> · V<sub>2</sub> · T<sub>1</sub>) / (P<sub>1</sub> · V<sub>1</sub>)</b></p><p>Convert first: 23.9 °C + 273.15 = 297.0 K</p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><span class=\"n\">3.56</span> <kbd>×</kbd> <span class=\"n\">0.940</span> <kbd>×</kbd> <span class=\"n\">297.0</span> <kbd>÷</kbd> <kbd>(</kbd> <span class=\"n\">1.02</span> <kbd>×</kbd> <span class=\"n\">1.68</span> <kbd>)</kbd> <kbd>enter</kbd></div><div class=\"note-small\" style=\"margin-top:4px\">Or use the fraction template:</div><div class=\"keys\"><kbd><svg class=\"fkey\" viewBox=\"0 0 12 20\" width=\"14\" height=\"23\" aria-hidden=\"true\"><rect x=\"1.5\" y=\"1\" width=\"9\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><line x1=\"0.5\" y1=\"10\" x2=\"11.5\" y2=\"10\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"1.5\" y=\"12\" width=\"9\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/></svg><span class=\"sr-only\">fraction key</span></kbd> <span class=\"n\">3.56</span> <kbd>×</kbd> <span class=\"n\">0.940</span> <kbd>×</kbd> <span class=\"n\">297.0</span> <kbd>▼</kbd> <span class=\"n\">1.02</span> <kbd>×</kbd> <span class=\"n\">1.68</span> <kbd>▶</kbd> <kbd>enter</kbd></div><div class=\"ti-tip\">Put the whole bottom in <kbd>(</kbd> <kbd>)</kbd>. Typing a ÷ b × c multiplies by c (PEMDAS).</div><p>T<sub>2</sub> = <b>580 K</b> (3 sig figs)</p>",
+  "explain": "<p>Rearranged: <b>T<sub>2</sub> = (P<sub>2</sub> · V<sub>2</sub> · T<sub>1</sub>) / (P<sub>1</sub> · V<sub>1</sub>)</b></p><p>Convert first: 23.9 °C + 273.15 = 297.0 K</p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><span class=\"n\">3.56</span> <kbd>×</kbd> <span class=\"n\">0.940</span> <kbd>×</kbd> <span class=\"n\">297.0</span> <kbd>÷</kbd> <kbd>(</kbd> <span class=\"n\">1.02</span> <kbd>×</kbd> <span class=\"n\">1.68</span> <kbd>)</kbd> <kbd>enter</kbd></div><div class=\"note-small\" style=\"margin-top:4px\">Or use the fraction template:</div><div class=\"keys\"><kbd><svg class=\"fkey\" viewBox=\"0 0 12 20\" width=\"14\" height=\"23\" aria-hidden=\"true\"><rect x=\"1.5\" y=\"1\" width=\"9\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><line x1=\"0.5\" y1=\"10\" x2=\"11.5\" y2=\"10\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"1.5\" y=\"12\" width=\"9\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/></svg><span class=\"sr-only\">fraction key</span></kbd> <span class=\"n\">3.56</span> <kbd>×</kbd> <span class=\"n\">0.940</span> <kbd>×</kbd> <span class=\"n\">297.0</span> <kbd>▼</kbd> <span class=\"n\">1.02</span> <kbd>×</kbd> <span class=\"n\">1.68</span> <kbd>▶</kbd> <kbd>enter</kbd></div><div class=\"ti-tip\">Put the whole bottom in <kbd>(</kbd> <kbd>)</kbd>. Typing a ÷ b × c multiplies by c (PEMDAS).</div><p>T<sub>2</sub> = <b>580. K</b> (3 sig figs)</p>",
   "origin": "original",
   "from": {
    "game": "algebratrainer",
@@ -771,7 +771,7 @@
   "unit": "K",
   "sigfigs": 3,
   "hint": "Get T alone first: undo what is attached to it, in reverse order. Then substitute.",
-  "explain": "<p>Rearranged: <b>T = (P · V) / (n · R)</b></p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><span class=\"n\">6.19</span> <kbd>×</kbd> <span class=\"n\">0.367</span> <kbd>÷</kbd> <kbd>(</kbd> <span class=\"n\">0.0522</span> <kbd>×</kbd> <span class=\"n\">0.08206</span> <kbd>)</kbd> <kbd>enter</kbd></div><div class=\"note-small\" style=\"margin-top:4px\">Or use the fraction template:</div><div class=\"keys\"><kbd><svg class=\"fkey\" viewBox=\"0 0 12 20\" width=\"14\" height=\"23\" aria-hidden=\"true\"><rect x=\"1.5\" y=\"1\" width=\"9\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><line x1=\"0.5\" y1=\"10\" x2=\"11.5\" y2=\"10\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"1.5\" y=\"12\" width=\"9\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/></svg><span class=\"sr-only\">fraction key</span></kbd> <span class=\"n\">6.19</span> <kbd>×</kbd> <span class=\"n\">0.367</span> <kbd>▼</kbd> <span class=\"n\">0.0522</span> <kbd>×</kbd> <span class=\"n\">0.08206</span> <kbd>▶</kbd> <kbd>enter</kbd></div><div class=\"ti-tip\">Put the whole bottom in <kbd>(</kbd> <kbd>)</kbd>. Typing a ÷ b × c multiplies by c (PEMDAS).</div><p>T = <b>530 K</b> (3 sig figs)</p>",
+  "explain": "<p>Rearranged: <b>T = (P · V) / (n · R)</b></p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><span class=\"n\">6.19</span> <kbd>×</kbd> <span class=\"n\">0.367</span> <kbd>÷</kbd> <kbd>(</kbd> <span class=\"n\">0.0522</span> <kbd>×</kbd> <span class=\"n\">0.08206</span> <kbd>)</kbd> <kbd>enter</kbd></div><div class=\"note-small\" style=\"margin-top:4px\">Or use the fraction template:</div><div class=\"keys\"><kbd><svg class=\"fkey\" viewBox=\"0 0 12 20\" width=\"14\" height=\"23\" aria-hidden=\"true\"><rect x=\"1.5\" y=\"1\" width=\"9\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><line x1=\"0.5\" y1=\"10\" x2=\"11.5\" y2=\"10\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"1.5\" y=\"12\" width=\"9\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/></svg><span class=\"sr-only\">fraction key</span></kbd> <span class=\"n\">6.19</span> <kbd>×</kbd> <span class=\"n\">0.367</span> <kbd>▼</kbd> <span class=\"n\">0.0522</span> <kbd>×</kbd> <span class=\"n\">0.08206</span> <kbd>▶</kbd> <kbd>enter</kbd></div><div class=\"ti-tip\">Put the whole bottom in <kbd>(</kbd> <kbd>)</kbd>. Typing a ÷ b × c multiplies by c (PEMDAS).</div><p>T = <b>530. K</b> (3 sig figs)</p>",
   "origin": "original",
   "from": {
    "game": "algebratrainer",
@@ -922,7 +922,7 @@
   }
  },
  {
-  "id": "algebratrainer-d25aa7f8",
+  "id": "algebratrainer-7c1435d8",
   "skill": "algebratrainer.md",
   "courses": [
    "3A",
@@ -933,13 +933,13 @@
    "1A-5"
   ],
   "type": "number",
-  "prompt": "<p>Heat (specific heat): <b>q = m · c · ΔT</b></p><p>Rearrange the equation for <b>ΔT</b>, then plug in the numbers. Check the units: convert any value that needs it first.</p><p>q = 240 J; m = 5.28 g; c = 0.657 J/(g·°C)</p><p>ΔT = ? °C</p>",
+  "prompt": "<p>Heat (specific heat): <b>q = m · c · ΔT</b></p><p>Rearrange the equation for <b>ΔT</b>, then plug in the numbers. Check the units: convert any value that needs it first.</p><p>q = 240. J; m = 5.28 g; c = 0.657 J/(g·°C)</p><p>ΔT = ? °C</p>",
   "answer": 69.185,
   "tolerance": 0.01,
   "unit": "°C",
   "sigfigs": 3,
   "hint": "Get ΔT alone first: undo what is attached to it, in reverse order. Then substitute.",
-  "explain": "<p>Rearranged: <b>ΔT = q / (m · c)</b></p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><span class=\"n\">240</span> <kbd>÷</kbd> <kbd>(</kbd> <span class=\"n\">5.28</span> <kbd>×</kbd> <span class=\"n\">0.657</span> <kbd>)</kbd> <kbd>enter</kbd></div><div class=\"note-small\" style=\"margin-top:4px\">Or use the fraction template:</div><div class=\"keys\"><kbd><svg class=\"fkey\" viewBox=\"0 0 12 20\" width=\"14\" height=\"23\" aria-hidden=\"true\"><rect x=\"1.5\" y=\"1\" width=\"9\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><line x1=\"0.5\" y1=\"10\" x2=\"11.5\" y2=\"10\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"1.5\" y=\"12\" width=\"9\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/></svg><span class=\"sr-only\">fraction key</span></kbd> <span class=\"n\">240</span> <kbd>▼</kbd> <span class=\"n\">5.28</span> <kbd>×</kbd> <span class=\"n\">0.657</span> <kbd>▶</kbd> <kbd>enter</kbd></div><div class=\"ti-tip\">Put the whole bottom in <kbd>(</kbd> <kbd>)</kbd>. Typing a ÷ b × c multiplies by c (PEMDAS).</div><p>ΔT = <b>69.2 °C</b> (3 sig figs)</p>",
+  "explain": "<p>Rearranged: <b>ΔT = q / (m · c)</b></p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><span class=\"n\">240.</span> <kbd>÷</kbd> <kbd>(</kbd> <span class=\"n\">5.28</span> <kbd>×</kbd> <span class=\"n\">0.657</span> <kbd>)</kbd> <kbd>enter</kbd></div><div class=\"note-small\" style=\"margin-top:4px\">Or use the fraction template:</div><div class=\"keys\"><kbd><svg class=\"fkey\" viewBox=\"0 0 12 20\" width=\"14\" height=\"23\" aria-hidden=\"true\"><rect x=\"1.5\" y=\"1\" width=\"9\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><line x1=\"0.5\" y1=\"10\" x2=\"11.5\" y2=\"10\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"1.5\" y=\"12\" width=\"9\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/></svg><span class=\"sr-only\">fraction key</span></kbd> <span class=\"n\">240.</span> <kbd>▼</kbd> <span class=\"n\">5.28</span> <kbd>×</kbd> <span class=\"n\">0.657</span> <kbd>▶</kbd> <kbd>enter</kbd></div><div class=\"ti-tip\">Put the whole bottom in <kbd>(</kbd> <kbd>)</kbd>. Typing a ÷ b × c multiplies by c (PEMDAS).</div><p>ΔT = <b>69.2 °C</b> (3 sig figs)</p>",
   "origin": "original",
   "from": {
    "game": "algebratrainer",
@@ -1722,7 +1722,7 @@
   }
  },
  {
-  "id": "algebratrainer-96b69f73",
+  "id": "algebratrainer-22ee6040",
   "skill": "algebratrainer.md",
   "courses": [
    "1B"
@@ -1731,13 +1731,13 @@
    "1B-16"
   ],
   "type": "number",
-  "prompt": "<p>Entropy of the surroundings: <b>ΔS<sub>surr</sub> = −ΔH / T</b></p><p>Rearrange the equation for <b>ΔH</b>, then plug in the numbers. Check the units: convert any value that needs it first.</p><p>ΔS<sub>surr</sub> = 310 J/(mol·K); T = 18.9 °C</p><p>ΔH = ? J/mol</p>",
+  "prompt": "<p>Entropy of the surroundings: <b>ΔS<sub>surr</sub> = −ΔH / T</b></p><p>Rearrange the equation for <b>ΔH</b>, then plug in the numbers. Check the units: convert any value that needs it first.</p><p>ΔS<sub>surr</sub> = 310. J/(mol·K); T = 18.9 °C</p><p>ΔH = ? J/mol</p>",
   "answer": -90520,
   "tolerance": 0.01,
   "unit": "J/mol",
   "sigfigs": 3,
   "hint": "Get ΔH alone first: undo what is attached to it, in reverse order. Then substitute. One given is in a different unit than the equation needs.",
-  "explain": "<p>Rearranged: <b>ΔH = −ΔS<sub>surr</sub> · T</b></p><p>Convert first: 18.9 °C + 273.15 = 292.0 K</p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><kbd>(−)</kbd> <span class=\"n\">310</span> <kbd>×</kbd> <span class=\"n\">292.0</span> <kbd>enter</kbd></div><p>ΔH = <b>−9.05 × 10⁴ J/mol</b> (3 sig figs)</p>",
+  "explain": "<p>Rearranged: <b>ΔH = −ΔS<sub>surr</sub> · T</b></p><p>Convert first: 18.9 °C + 273.15 = 292.0 K</p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><kbd>(−)</kbd> <span class=\"n\">310.</span> <kbd>×</kbd> <span class=\"n\">292.0</span> <kbd>enter</kbd></div><p>ΔH = <b>−9.05 × 10⁴ J/mol</b> (3 sig figs)</p>",
   "origin": "original",
   "from": {
    "game": "algebratrainer",
@@ -2676,7 +2676,7 @@
   "tolerance": 0.01,
   "unit": "K",
   "hint": "Get T alone first: undo what is attached to it, in reverse order. Then substitute.",
-  "explain": "<p>Rearranged: <b>T = (ΔH − ΔG) / ΔS</b></p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><kbd>(</kbd> <span class=\"n\">264</span> <kbd>−</kbd> <span class=\"n\">426</span> <kbd>)</kbd> <kbd>÷</kbd> <kbd>(−)</kbd> <span class=\"n\">0.225</span> <kbd>enter</kbd></div><div class=\"ti-tip\">Keep the <kbd>(</kbd> <kbd>)</kbd> around the + or − part so it is done first.</div><div class=\"ti-tip\">For a negative number use <kbd>(−)</kbd>, not the minus key.</div><p>T = <b>720 K</b></p>",
+  "explain": "<p>Rearranged: <b>T = (ΔH − ΔG) / ΔS</b></p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><kbd>(</kbd> <span class=\"n\">264</span> <kbd>−</kbd> <span class=\"n\">426</span> <kbd>)</kbd> <kbd>÷</kbd> <kbd>(−)</kbd> <span class=\"n\">0.225</span> <kbd>enter</kbd></div><div class=\"ti-tip\">Keep the <kbd>(</kbd> <kbd>)</kbd> around the + or − part so it is done first.</div><div class=\"ti-tip\">For a negative number use <kbd>(−)</kbd>, not the minus key.</div><p>T = <b>720. K</b></p>",
   "origin": "original",
   "from": {
    "game": "algebratrainer",
@@ -2910,7 +2910,7 @@
   }
  },
  {
-  "id": "algebratrainer-1cbc99da",
+  "id": "algebratrainer-8c729221",
   "skill": "algebratrainer.mx",
   "courses": [
    "1A"
@@ -2919,12 +2919,12 @@
    "1A-5"
   ],
   "type": "number",
-  "prompt": "<p>Heat of reaction (calorimetry): <b>q<sub>rxn</sub> = −m · c · ΔT</b></p><p>Rearrange the equation for <b>c</b>, then plug in the numbers. Check the units: convert any value that needs it first.</p><p>q<sub>rxn</sub> = −5.98 × 10³ J; m = 100 g; ΔT = 14.3 °C</p><p>c = ? J/(g·°C)</p>",
+  "prompt": "<p>Heat of reaction (calorimetry): <b>q<sub>rxn</sub> = −m · c · ΔT</b></p><p>Rearrange the equation for <b>c</b>, then plug in the numbers. Check the units: convert any value that needs it first.</p><p>q<sub>rxn</sub> = −5.98 × 10³ J; m = 100. g; ΔT = 14.3 °C</p><p>c = ? J/(g·°C)</p>",
   "answer": 4,
   "tolerance": 0.06,
   "unit": "J/(g·°C)",
   "hint": "Get c alone first: undo what is attached to it, in reverse order. Then substitute.",
-  "explain": "<p>Rearranged: <b>c = −q<sub>rxn</sub> / (m · ΔT)</b></p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><kbd>(−)</kbd> <kbd>(−)</kbd> <span class=\"n\">5.98</span> <kbd>EE</kbd> <span class=\"n\">3</span> <kbd>÷</kbd> <kbd>(</kbd> <span class=\"n\">100</span> <kbd>×</kbd> <span class=\"n\">14.3</span> <kbd>)</kbd> <kbd>enter</kbd></div><div class=\"note-small\" style=\"margin-top:4px\">Or use the fraction template:</div><div class=\"keys\"><kbd><svg class=\"fkey\" viewBox=\"0 0 12 20\" width=\"14\" height=\"23\" aria-hidden=\"true\"><rect x=\"1.5\" y=\"1\" width=\"9\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><line x1=\"0.5\" y1=\"10\" x2=\"11.5\" y2=\"10\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"1.5\" y=\"12\" width=\"9\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/></svg><span class=\"sr-only\">fraction key</span></kbd> <kbd>(−)</kbd> <span class=\"n\">5.98</span> <kbd>EE</kbd> <span class=\"n\">3</span> <kbd>▼</kbd> <span class=\"n\">100</span> <kbd>×</kbd> <span class=\"n\">14.3</span> <kbd>▶</kbd> <kbd>enter</kbd></div><div class=\"ti-tip\"><kbd>EE</kbd> means “× 10 to the”. Type 6.626 <kbd>EE</kbd> <kbd>(−)</kbd> 34, never × 10 <kbd>EE</kbd>.</div><div class=\"ti-tip\">Put the whole bottom in <kbd>(</kbd> <kbd>)</kbd>. Typing a ÷ b × c multiplies by c (PEMDAS).</div><div class=\"ti-tip\">For a negative number use <kbd>(−)</kbd>, not the minus key.</div><p>c = <b>4 J/(g·°C)</b></p>",
+  "explain": "<p>Rearranged: <b>c = −q<sub>rxn</sub> / (m · ΔT)</b></p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><kbd>(−)</kbd> <kbd>(−)</kbd> <span class=\"n\">5.98</span> <kbd>EE</kbd> <span class=\"n\">3</span> <kbd>÷</kbd> <kbd>(</kbd> <span class=\"n\">100.</span> <kbd>×</kbd> <span class=\"n\">14.3</span> <kbd>)</kbd> <kbd>enter</kbd></div><div class=\"note-small\" style=\"margin-top:4px\">Or use the fraction template:</div><div class=\"keys\"><kbd><svg class=\"fkey\" viewBox=\"0 0 12 20\" width=\"14\" height=\"23\" aria-hidden=\"true\"><rect x=\"1.5\" y=\"1\" width=\"9\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><line x1=\"0.5\" y1=\"10\" x2=\"11.5\" y2=\"10\" stroke=\"currentColor\" stroke-width=\"1.6\"/><rect x=\"1.5\" y=\"12\" width=\"9\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/></svg><span class=\"sr-only\">fraction key</span></kbd> <kbd>(−)</kbd> <span class=\"n\">5.98</span> <kbd>EE</kbd> <span class=\"n\">3</span> <kbd>▼</kbd> <span class=\"n\">100.</span> <kbd>×</kbd> <span class=\"n\">14.3</span> <kbd>▶</kbd> <kbd>enter</kbd></div><div class=\"ti-tip\"><kbd>EE</kbd> means “× 10 to the”. Type 6.626 <kbd>EE</kbd> <kbd>(−)</kbd> 34, never × 10 <kbd>EE</kbd>.</div><div class=\"ti-tip\">Put the whole bottom in <kbd>(</kbd> <kbd>)</kbd>. Typing a ÷ b × c multiplies by c (PEMDAS).</div><div class=\"ti-tip\">For a negative number use <kbd>(−)</kbd>, not the minus key.</div><p>c = <b>4 J/(g·°C)</b></p>",
   "origin": "original",
   "from": {
    "game": "algebratrainer",
@@ -2981,7 +2981,7 @@
   }
  },
  {
-  "id": "algebratrainer-15f205f1",
+  "id": "algebratrainer-87efacc0",
   "skill": "algebratrainer.mx",
   "courses": [
    "1B"
@@ -2990,12 +2990,12 @@
    "1B-12"
   ],
   "type": "number",
-  "prompt": "<p>Zero-order integrated rate law: <b>[A] = −k · t + [A]<sub>0</sub></b></p><p>Rearrange the equation for <b>[A]<sub>0</sub></b>, then plug in the numbers. Check the units: convert any value that needs it first.</p><p>[A] = 0.746 M; k = 0.00315 M/s; t = 160 s</p><p>[A]<sub>0</sub> = ? M</p>",
+  "prompt": "<p>Zero-order integrated rate law: <b>[A] = −k · t + [A]<sub>0</sub></b></p><p>Rearrange the equation for <b>[A]<sub>0</sub></b>, then plug in the numbers. Check the units: convert any value that needs it first.</p><p>[A] = 0.746 M; k = 0.00315 M/s; t = 160. s</p><p>[A]<sub>0</sub> = ? M</p>",
   "answer": 1.25,
   "tolerance": 0.01,
   "unit": "M",
   "hint": "Get [A]<sub>0</sub> alone first: undo what is attached to it, in reverse order. Then substitute.",
-  "explain": "<p>Rearranged: <b>[A]<sub>0</sub> = [A] + k · t</b></p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><span class=\"n\">0.746</span> <kbd>+</kbd> <span class=\"n\">0.00315</span> <kbd>×</kbd> <span class=\"n\">160</span> <kbd>enter</kbd></div><p>[A]<sub>0</sub> = <b>1.25 M</b></p>",
+  "explain": "<p>Rearranged: <b>[A]<sub>0</sub> = [A] + k · t</b></p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><span class=\"n\">0.746</span> <kbd>+</kbd> <span class=\"n\">0.00315</span> <kbd>×</kbd> <span class=\"n\">160.</span> <kbd>enter</kbd></div><p>[A]<sub>0</sub> = <b>1.25 M</b></p>",
   "origin": "original",
   "from": {
    "game": "algebratrainer",
@@ -3327,7 +3327,7 @@
   }
  },
  {
-  "id": "algebratrainer-b6f9e809",
+  "id": "algebratrainer-cbe358a2",
   "skill": "algebratrainer.mx",
   "courses": [
    "1A"
@@ -3336,12 +3336,12 @@
    "1A-5"
   ],
   "type": "number",
-  "prompt": "<p>Hot metal in water (q metal = −q water): <b>−m<sub>metal</sub> · c<sub>metal</sub> · (T<sub>f</sub> − T<sub>metal</sub>) = m<sub>water</sub> · c<sub>water</sub> · (T<sub>f</sub> − T<sub>water</sub>)</b></p><p>Rearrange the equation for <b>T<sub>f</sub></b>, then plug in the numbers. Check the units: convert any value that needs it first.</p><p>m<sub>metal</sub> = 160 g; c<sub>metal</sub> = 0.787 J/(g·°C); T<sub>metal</sub> = 90.6 °C; m<sub>water</sub> = 131 g; T<sub>water</sub> = 21.7 °C; c<sub>water</sub> = 4.184 J/(g·°C)</p><p>T<sub>f</sub> = ? °C</p>",
+  "prompt": "<p>Hot metal in water (q metal = −q water): <b>−m<sub>metal</sub> · c<sub>metal</sub> · (T<sub>f</sub> − T<sub>metal</sub>) = m<sub>water</sub> · c<sub>water</sub> · (T<sub>f</sub> − T<sub>water</sub>)</b></p><p>Rearrange the equation for <b>T<sub>f</sub></b>, then plug in the numbers. Check the units: convert any value that needs it first.</p><p>m<sub>metal</sub> = 160. g; c<sub>metal</sub> = 0.787 J/(g·°C); T<sub>metal</sub> = 90.6 °C; m<sub>water</sub> = 131 g; T<sub>water</sub> = 21.7 °C; c<sub>water</sub> = 4.184 J/(g·°C)</p><p>T<sub>f</sub> = ? °C</p>",
   "answer": 34.5718,
   "tolerance": 0.01,
   "unit": "°C",
   "hint": "Get T<sub>f</sub> alone first: undo what is attached to it, in reverse order. Then substitute.",
-  "explain": "<p>Rearranged: <b>T<sub>f</sub> = (m<sub>metal</sub> · c<sub>metal</sub> · T<sub>metal</sub> + m<sub>water</sub> · c<sub>water</sub> · T<sub>water</sub>) / (m<sub>water</sub> · c<sub>water</sub> + m<sub>metal</sub> · c<sub>metal</sub>)</b></p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><kbd>(</kbd> <span class=\"n\">160</span> <kbd>×</kbd> <span class=\"n\">0.787</span> <kbd>×</kbd> <span class=\"n\">90.6</span> <kbd>+</kbd> <span class=\"n\">131</span> <kbd>×</kbd> <span class=\"n\">4.184</span> <kbd>×</kbd> <span class=\"n\">21.7</span> <kbd>)</kbd> <kbd>÷</kbd> <kbd>(</kbd> <span class=\"n\">131</span> <kbd>×</kbd> <span class=\"n\">4.184</span> <kbd>+</kbd> <span class=\"n\">160</span> <kbd>×</kbd> <span class=\"n\">0.787</span> <kbd>)</kbd> <kbd>enter</kbd></div><div class=\"ti-tip\">Keep the <kbd>(</kbd> <kbd>)</kbd> around the + or − part so it is done first.</div><p>T<sub>f</sub> = <b>34.6 °C</b></p>",
+  "explain": "<p>Rearranged: <b>T<sub>f</sub> = (m<sub>metal</sub> · c<sub>metal</sub> · T<sub>metal</sub> + m<sub>water</sub> · c<sub>water</sub> · T<sub>water</sub>) / (m<sub>water</sub> · c<sub>water</sub> + m<sub>metal</sub> · c<sub>metal</sub>)</b></p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><kbd>(</kbd> <span class=\"n\">160.</span> <kbd>×</kbd> <span class=\"n\">0.787</span> <kbd>×</kbd> <span class=\"n\">90.6</span> <kbd>+</kbd> <span class=\"n\">131</span> <kbd>×</kbd> <span class=\"n\">4.184</span> <kbd>×</kbd> <span class=\"n\">21.7</span> <kbd>)</kbd> <kbd>÷</kbd> <kbd>(</kbd> <span class=\"n\">131</span> <kbd>×</kbd> <span class=\"n\">4.184</span> <kbd>+</kbd> <span class=\"n\">160.</span> <kbd>×</kbd> <span class=\"n\">0.787</span> <kbd>)</kbd> <kbd>enter</kbd></div><div class=\"ti-tip\">Keep the <kbd>(</kbd> <kbd>)</kbd> around the + or − part so it is done first.</div><p>T<sub>f</sub> = <b>34.6 °C</b></p>",
   "origin": "original",
   "from": {
    "game": "algebratrainer",
@@ -3373,7 +3373,7 @@
   }
  },
  {
-  "id": "algebratrainer-4f153049",
+  "id": "algebratrainer-2d412f02",
   "skill": "algebratrainer.mx",
   "courses": [
    "1A"
@@ -3382,12 +3382,12 @@
    "1A-5"
   ],
   "type": "number",
-  "prompt": "<p>Hot metal in water (q metal = −q water): <b>−m<sub>metal</sub> · c<sub>metal</sub> · (T<sub>f</sub> − T<sub>metal</sub>) = m<sub>water</sub> · c<sub>water</sub> · (T<sub>f</sub> − T<sub>water</sub>)</b></p><p>Rearrange the equation for <b>T<sub>metal</sub></b>, then plug in the numbers. Check the units: convert any value that needs it first.</p><p>m<sub>metal</sub> = 92.3 g; c<sub>metal</sub> = 0.625 J/(g·°C); m<sub>water</sub> = 110 g; T<sub>water</sub> = 15.2 °C; T<sub>f</sub> = 23.5 °C; c<sub>water</sub> = 4.184 J/(g·°C)</p><p>T<sub>metal</sub> = ? °C</p>",
+  "prompt": "<p>Hot metal in water (q metal = −q water): <b>−m<sub>metal</sub> · c<sub>metal</sub> · (T<sub>f</sub> − T<sub>metal</sub>) = m<sub>water</sub> · c<sub>water</sub> · (T<sub>f</sub> − T<sub>water</sub>)</b></p><p>Rearrange the equation for <b>T<sub>metal</sub></b>, then plug in the numbers. Check the units: convert any value that needs it first.</p><p>m<sub>metal</sub> = 92.3 g; c<sub>metal</sub> = 0.625 J/(g·°C); m<sub>water</sub> = 110. g; T<sub>water</sub> = 15.2 °C; T<sub>f</sub> = 23.5 °C; c<sub>water</sub> = 4.184 J/(g·°C)</p><p>T<sub>metal</sub> = ? °C</p>",
   "answer": 89.7187,
   "tolerance": 0.01,
   "unit": "°C",
   "hint": "Get T<sub>metal</sub> alone first: undo what is attached to it, in reverse order. Then substitute.",
-  "explain": "<p>Rearranged: <b>T<sub>metal</sub> = (m<sub>water</sub> · c<sub>water</sub> · (T<sub>f</sub> − T<sub>water</sub>)) / (m<sub>metal</sub> · c<sub>metal</sub>) + T<sub>f</sub></b></p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><span class=\"n\">110</span> <kbd>×</kbd> <span class=\"n\">4.184</span> <kbd>×</kbd> <kbd>(</kbd> <span class=\"n\">23.5</span> <kbd>−</kbd> <span class=\"n\">15.2</span> <kbd>)</kbd> <kbd>÷</kbd> <kbd>(</kbd> <span class=\"n\">92.3</span> <kbd>×</kbd> <span class=\"n\">0.625</span> <kbd>)</kbd> <kbd>+</kbd> <span class=\"n\">23.5</span> <kbd>enter</kbd></div><div class=\"ti-tip\">Keep the <kbd>(</kbd> <kbd>)</kbd> around the + or − part so it is done first.</div><p>T<sub>metal</sub> = <b>89.7 °C</b></p>",
+  "explain": "<p>Rearranged: <b>T<sub>metal</sub> = (m<sub>water</sub> · c<sub>water</sub> · (T<sub>f</sub> − T<sub>water</sub>)) / (m<sub>metal</sub> · c<sub>metal</sub>) + T<sub>f</sub></b></p><p>TI-36X Pro keystrokes:</p><div class=\"keys\"><span class=\"n\">110.</span> <kbd>×</kbd> <span class=\"n\">4.184</span> <kbd>×</kbd> <kbd>(</kbd> <span class=\"n\">23.5</span> <kbd>−</kbd> <span class=\"n\">15.2</span> <kbd>)</kbd> <kbd>÷</kbd> <kbd>(</kbd> <span class=\"n\">92.3</span> <kbd>×</kbd> <span class=\"n\">0.625</span> <kbd>)</kbd> <kbd>+</kbd> <span class=\"n\">23.5</span> <kbd>enter</kbd></div><div class=\"ti-tip\">Keep the <kbd>(</kbd> <kbd>)</kbd> around the + or − part so it is done first.</div><p>T<sub>metal</sub> = <b>89.7 °C</b></p>",
   "origin": "original",
   "from": {
    "game": "algebratrainer",
