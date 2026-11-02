@@ -7,6 +7,7 @@ const fs = require('fs'), path = require('path'), crypto = require('crypto');
 const { chromium } = require('playwright');
 const { grab } = require('./grab');
 const { openGame, validate } = require('./sample');
+const { refine } = require('./refine3b');
 
 const REPOS = path.resolve(process.argv[2] || '../');
 const OUT = path.resolve(__dirname, '..');
@@ -236,6 +237,7 @@ function mcFromArray(a, hasTitle) {
   const index = { updated: new Date().toISOString().slice(0, 10), banks: {}, chapters: {}, skills: {} };
   for (const [file, items] of Object.entries(banks)) {
     const clean = JSON.parse(JSON.stringify(items));            // drops undefined fields
+    for (const it of clean) it.chapters = refine(it);           // per-question 3B unit tags (tools/refine3b.js)
     const ids = new Set(); for (const it of clean) { if (ids.has(it.id)) it.id += '-' + it.from.index; ids.add(it.id); }
     fs.writeFileSync(path.join(OUT, 'bank', file + '.json'), JSON.stringify(clean, null, 1));
     index.banks[file] = clean.length;
