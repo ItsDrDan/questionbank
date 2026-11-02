@@ -364,21 +364,21 @@
    "37.0 °C",
    "120. °C",
    "54.8 °C",
-   "22.8 °C"
+   "66.6 °C"
   ],
   "answer": "37.0 °C",
   "hint": "Use °C = (°F − 32) / 1.8. Subtract first, then divide.",
-  "explain": "°C = (98.6 − 32) / 1.8 = 66.6 / 1.8 = 37.0 °C. Multiplying by 1.8 instead of dividing gives 120. °C, hotter than boiling water.",
+  "explain": "°C = (98.6 − 32) / 1.8 = 66.6 / 1.8 = 37.0 °C. Multiplying by 1.8 instead of dividing gives 120. °C, hotter than boiling water, and stopping at 66.6 °C forgets to divide by 1.8.",
   "html": {
    "prompt": "Normal body temperature is 98.6 °F. What is this temperature in °C?",
    "choices": [
     "37.0 °C",
     "120. °C",
     "54.8 °C",
-    "22.8 °C"
+    "66.6 °C"
    ],
    "hint": "Use °C = (°F − 32) / 1.8. Subtract first, then divide.",
-   "explain": "°C = (98.6 − 32) / 1.8 = 66.6 / 1.8 = <b>37.0 °C</b>. Multiplying by 1.8 instead of dividing gives 120. °C, hotter than boiling water."
+   "explain": "°C = (98.6 − 32) / 1.8 = 66.6 / 1.8 = <b>37.0 °C</b>. Multiplying by 1.8 instead of dividing gives 120. °C, hotter than boiling water, and stopping at 66.6 °C forgets to divide by 1.8."
   },
   "from": {
    "game": "finalexam",
@@ -1246,22 +1246,22 @@
   "choices": [
    "2",
    "4",
-   "0",
+   "8",
    "6"
   ],
   "answer": "2",
   "hint": "Oxygen's 2p sublevel holds 4 electrons. Using Hund's rule, place one electron in each of the three 2p orbitals before pairing.",
-  "explain": "2p⁴: the first three electrons go in separate orbitals, the fourth pairs up with one of them, leaving 2 unpaired. 4 is the number of 2p electrons, not unpaired ones.",
+  "explain": "2p⁴: the first three electrons go in separate orbitals, the fourth pairs up with one of them, leaving 2 unpaired. 4 is the number of 2p electrons, not unpaired ones, and 8 counts every electron in the atom.",
   "html": {
    "prompt": "How many unpaired electrons are in the orbital diagram of a ground-state oxygen atom?",
    "choices": [
     "2",
     "4",
-    "0",
+    "8",
     "6"
    ],
    "hint": "Oxygen's 2p sublevel holds 4 electrons. Using Hund's rule, place one electron in each of the three 2p orbitals before pairing.",
-   "explain": "2p<sup>4</sup>: the first three electrons go in separate orbitals, the fourth pairs up with one of them, leaving <b>2</b> unpaired. 4 is the number of 2p electrons, not unpaired ones."
+   "explain": "2p<sup>4</sup>: the first three electrons go in separate orbitals, the fourth pairs up with one of them, leaving <b>2</b> unpaired. 4 is the number of 2p electrons, not unpaired ones, and 8 counts every electron in the atom."
   },
   "from": {
    "game": "finalexam",
@@ -1572,7 +1572,7 @@
   }
  },
  {
-  "id": "finalexam-8c537f6a",
+  "id": "finalexam-12de46b2",
   "skill": "finalexam.3a.matter",
   "courses": [
    "3A"
@@ -1590,19 +1590,19 @@
   "calc": false,
   "prompt": "Which substance is a compound?",
   "choices": [
-   "carbon dioxide, CO₂",
-   "oxygen gas, O₂",
+   "CO₂",
+   "O₂",
    "air",
    "brass"
   ],
-  "answer": "carbon dioxide, CO₂",
+  "answer": "CO₂",
   "hint": "A compound is two or more different elements chemically combined in a fixed ratio.",
   "explain": "CO₂ combines C and O in a fixed 1:2 ratio. O₂ is an element (one kind of atom); air and brass are mixtures.",
   "html": {
    "prompt": "Which substance is a compound?",
    "choices": [
-    "carbon dioxide, CO<sub>2</sub>",
-    "oxygen gas, O<sub>2</sub>",
+    "CO<sub>2</sub>",
+    "O<sub>2</sub>",
     "air",
     "brass"
    ],
@@ -2284,23 +2284,23 @@
   "prompt": "Milk of magnesia contains magnesium hydroxide. What is its formula?",
   "choices": [
    "Mg(OH)₂",
-   "MgOH",
+   "Mg(OH)",
    "MgOH₂",
    "Mg₂OH"
   ],
   "answer": "Mg(OH)₂",
   "hint": "Magnesium forms Mg²⁺; hydroxide is OH⁻. Use parentheses for more than one polyatomic ion.",
-  "explain": "One Mg²⁺ needs two OH⁻: Mg(OH)₂. MgOH₂ without parentheses would mean one O and two H, not two hydroxide ions.",
+  "explain": "One Mg²⁺ needs two OH⁻: Mg(OH)₂. Mg(OH) has only one hydroxide, and MgOH₂ without parentheses would mean one O and two H, not two hydroxide ions.",
   "html": {
    "prompt": "Milk of magnesia contains magnesium hydroxide. What is its formula?",
    "choices": [
     "Mg(OH)<sub>2</sub>",
-    "MgOH",
+    "Mg(OH)",
     "MgOH<sub>2</sub>",
     "Mg<sub>2</sub>OH"
    ],
    "hint": "Magnesium forms Mg<sup>2+</sup>; hydroxide is OH<sup>−</sup>. Use parentheses for more than one polyatomic ion.",
-   "explain": "One Mg<sup>2+</sup> needs two OH<sup>−</sup>: <b>Mg(OH)<sub>2</sub></b>. MgOH<sub>2</sub> without parentheses would mean one O and two H, not two hydroxide ions."
+   "explain": "One Mg<sup>2+</sup> needs two OH<sup>−</sup>: <b>Mg(OH)<sub>2</sub></b>. Mg(OH) has only one hydroxide, and MgOH<sub>2</sub> without parentheses would mean one O and two H, not two hydroxide ions."
   },
   "from": {
    "game": "finalexam",
@@ -2415,21 +2415,21 @@
    "0.139 mol",
    "4.50×10³ mol",
    "7.21 mol",
-   "0.0347 mol"
+   "8.36×10²² mol"
   ],
   "answer": "0.139 mol",
   "hint": "Use molar mass as a conversion factor: grams ÷ (g mol⁻¹) = mol.",
-  "explain": "25.0 g × (1 mol / 180.16 g) = 0.139 mol. Multiplying by the molar mass gives 4.50×10³, with units of g²/mol.",
+  "explain": "25.0 g × (1 mol / 180.16 g) = 0.139 mol. Multiplying by the molar mass gives 4.50×10³, with units of g²/mol; 8.36×10²² multiplies by Avogadro's number, which gives molecules, not moles.",
   "html": {
    "prompt": "How many moles of glucose, C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> (molar mass 180.16 g mol⁻¹), are in 25.0 g of glucose?",
    "choices": [
     "0.139 mol",
     "4.50×10<sup>3</sup> mol",
     "7.21 mol",
-    "0.0347 mol"
+    "8.36×10<sup>22</sup> mol"
    ],
    "hint": "Use molar mass as a conversion factor: grams ÷ (g mol⁻¹) = mol.",
-   "explain": "25.0 g × (1 mol / 180.16 g) = <b>0.139 mol</b>. Multiplying by the molar mass gives 4.50×10<sup>3</sup>, with units of g<sup>2</sup>/mol."
+   "explain": "25.0 g × (1 mol / 180.16 g) = <b>0.139 mol</b>. Multiplying by the molar mass gives 4.50×10<sup>3</sup>, with units of g<sup>2</sup>/mol; 8.36×10<sup>22</sup> multiplies by Avogadro's number, which gives molecules, not moles."
   },
   "from": {
    "game": "finalexam",
@@ -2801,22 +2801,22 @@
   "choices": [
    "22.0 g",
    "44.0 g",
-   "0.0114 g",
+   "1.32×10²⁵ g",
    "88.0 g"
   ],
   "answer": "22.0 g",
   "hint": "Molecules → moles (divide by Avogadro's number), then moles → grams (multiply by molar mass).",
-  "explain": "3.01×10²³ ÷ 6.022×10²³ = 0.500 mol; × 44.01 g mol⁻¹ = 22.0 g. 44.0 g would be a full mole.",
+  "explain": "3.01×10²³ ÷ 6.022×10²³ = 0.500 mol; × 44.01 g mol⁻¹ = 22.0 g. 44.0 g would be a full mole; 1.32×10²⁵ g multiplies the number of molecules by the molar mass without ever dividing by Avogadro's number.",
   "html": {
    "prompt": "What is the mass of 3.01×10<sup>23</sup> molecules of carbon dioxide?",
    "choices": [
     "22.0 g",
     "44.0 g",
-    "0.0114 g",
+    "1.32×10<sup>25</sup> g",
     "88.0 g"
    ],
    "hint": "Molecules → moles (divide by Avogadro's number), then moles → grams (multiply by molar mass).",
-   "explain": "3.01×10<sup>23</sup> ÷ 6.022×10<sup>23</sup> = 0.500 mol; × 44.01 g mol⁻¹ = <b>22.0 g</b>. 44.0 g would be a full mole."
+   "explain": "3.01×10<sup>23</sup> ÷ 6.022×10<sup>23</sup> = 0.500 mol; × 44.01 g mol⁻¹ = <b>22.0 g</b>. 44.0 g would be a full mole; 1.32×10<sup>25</sup> g multiplies the number of molecules by the molar mass without ever dividing by Avogadro's number."
   },
   "from": {
    "game": "finalexam",
@@ -2844,22 +2844,22 @@
   "choices": [
    "10.6 g",
    "5.30 g",
-   "12.3 g",
+   "6.14 g",
    "0.757 g"
   ],
   "answer": "10.6 g",
   "hint": "Find the molar mass and the mass fraction of N (count both N atoms), then multiply by the sample mass.",
-  "explain": "M = 132.14 g mol⁻¹, with 2 × 14.01 = 28.02 g N per mole. 50.0 g × (28.02/132.14) = 10.6 g N. 5.30 g counts only one N; 0.757 g is moles of N, not grams.",
+  "explain": "M = 132.14 g mol⁻¹, with 2 × 14.01 = 28.02 g N per mole. 50.0 g × (28.02/132.14) = 10.6 g N. 5.30 g counts only one N; 6.14 g drops the subscript 2 outside the parentheses (uses NH₄SO₄, 114.12 g mol⁻¹); 0.757 g is moles of N, not grams.",
   "html": {
    "prompt": "How many grams of nitrogen are in 50.0 g of the fertilizer ammonium sulfate, (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>?",
    "choices": [
     "10.6 g",
     "5.30 g",
-    "12.3 g",
+    "6.14 g",
     "0.757 g"
    ],
    "hint": "Find the molar mass and the mass fraction of N (count both N atoms), then multiply by the sample mass.",
-   "explain": "M = 132.14 g mol⁻¹, with 2 × 14.01 = 28.02 g N per mole. 50.0 g × (28.02/132.14) = <b>10.6 g N</b>. 5.30 g counts only one N; 0.757 g is moles of N, not grams."
+   "explain": "M = 132.14 g mol⁻¹, with 2 × 14.01 = 28.02 g N per mole. 50.0 g × (28.02/132.14) = <b>10.6 g N</b>. 5.30 g counts only one N; 6.14 g drops the subscript 2 outside the parentheses (uses NH<sub>4</sub>SO<sub>4</sub>, 114.12 g mol⁻¹); 0.757 g is moles of N, not grams."
   },
   "from": {
    "game": "finalexam",
@@ -2888,21 +2888,21 @@
    "32",
    "30",
    "24",
-   "34"
+   "28"
   ],
   "answer": "32",
   "hint": "Add the valence electrons of every atom, then add one electron for each unit of negative charge.",
-  "explain": "S: 6, O: 4 × 6 = 24, total 30; the 2− charge adds 2 electrons: 32. 30 forgets the charge; 34 adds 4 electrons for the charge instead of 2.",
+  "explain": "S: 6, O: 4 × 6 = 24, total 30; the 2− charge adds 2 electrons: 32. 30 forgets the charge; 28 subtracts 2 for the negative charge instead of adding.",
   "html": {
    "prompt": "How many valence electrons are shown in the Lewis structure of the sulfate ion, <span class=\"nw\">SO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>?</span>",
    "choices": [
     "32",
     "30",
     "24",
-    "34"
+    "28"
    ],
    "hint": "Add the valence electrons of every atom, then add one electron for each unit of negative charge.",
-   "explain": "S: 6, O: 4 × 6 = 24, total 30; the 2− charge adds 2 electrons: <b>32</b>. 30 forgets the charge; 34 adds 4 electrons for the charge instead of 2."
+   "explain": "S: 6, O: 4 × 6 = 24, total 30; the 2− charge adds 2 electrons: <b>32</b>. 30 forgets the charge; 28 subtracts 2 for the negative charge instead of adding."
   },
   "from": {
    "game": "finalexam",
@@ -3016,22 +3016,22 @@
   "choices": [
    "120°",
    "109.5°",
-   "180°",
+   "107°",
    "90°"
   ],
   "answer": "120°",
   "hint": "Count electron groups around carbon; a double bond counts as one group.",
-  "explain": "C has 3 electron groups (two C–H and one C=O) and no lone pairs → trigonal planar, 120°. 109.5° would require 4 groups.",
+  "explain": "C has 3 electron groups (two C–H and one C=O) and no lone pairs → trigonal planar, 120°. 109.5° and 107° would require 4 groups; carbon has no lone pair here.",
   "html": {
    "prompt": "Formaldehyde, H<sub>2</sub>C=O, is used to preserve tissue samples. What is the approximate H–C–H bond angle?",
    "choices": [
     "120°",
     "109.5°",
-    "180°",
+    "107°",
     "90°"
    ],
    "hint": "Count electron groups around carbon; a double bond counts as one group.",
-   "explain": "C has 3 electron groups (two C–H and one C=O) and no lone pairs → trigonal planar, <b>120°</b>. 109.5° would require 4 groups."
+   "explain": "C has 3 electron groups (two C–H and one C=O) and no lone pairs → trigonal planar, <b>120°</b>. 109.5° and 107° would require 4 groups; carbon has no lone pair here."
   },
   "from": {
    "game": "finalexam",
@@ -3446,22 +3446,22 @@
   "choices": [
    "10.5 kJ",
    "0.598 kJ",
-   "1.05×10⁴ kJ",
+   "0.0105 kJ",
    "2.50 kJ"
   ],
   "answer": "10.5 kJ",
   "hint": "1 kcal = 4.184 kJ. A kilojoule is smaller than a kilocalorie, so the number gets larger.",
-  "explain": "2.50 kcal × 4.184 kJ/kcal = 10.5 kJ. Dividing by 4.184 (0.598 kJ) uses the factor upside down.",
+  "explain": "2.50 kcal × 4.184 kJ/kcal = 10.5 kJ. Dividing by 4.184 (0.598 kJ) uses the factor upside down; 0.0105 kJ treats the kilocalories as calories (giving 10.5 J) and then divides by 1000.",
   "html": {
    "prompt": "A chemical hot pack releases 2.50 kcal of heat. How many kilojoules is this? (1 cal = 4.184 J)",
    "choices": [
     "10.5 kJ",
     "0.598 kJ",
-    "1.05×10<sup>4</sup> kJ",
+    "0.0105 kJ",
     "2.50 kJ"
    ],
    "hint": "1 kcal = 4.184 kJ. A kilojoule is smaller than a kilocalorie, so the number gets larger.",
-   "explain": "2.50 kcal × 4.184 kJ/kcal = <b>10.5 kJ</b>. Dividing by 4.184 (0.598 kJ) uses the factor upside down."
+   "explain": "2.50 kcal × 4.184 kJ/kcal = <b>10.5 kJ</b>. Dividing by 4.184 (0.598 kJ) uses the factor upside down; 0.0105 kJ treats the kilocalories as calories (giving 10.5 J) and then divides by 1000."
   },
   "from": {
    "game": "finalexam",
@@ -3490,21 +3490,21 @@
    "0.443 J g⁻¹ °C⁻¹",
    "0.197 J g⁻¹ °C⁻¹",
    "0.355 J g⁻¹ °C⁻¹",
-   "2.26 J g⁻¹ °C⁻¹"
+   "0.0302 J g⁻¹ °C⁻¹"
   ],
   "answer": "0.443 J g⁻¹ °C⁻¹",
   "hint": "Rearrange q = m·c·ΔT to c = q / (m·ΔT). Use the temperature change, not a single temperature.",
-  "explain": "ΔT = 20.0 °C. c = 133 J / (15.0 g × 20.0 °C) = 0.443 J g⁻¹ °C⁻¹ (close to iron). Using 45.0 °C instead of ΔT gives 0.197.",
+  "explain": "ΔT = 20.0 °C. c = 133 J / (15.0 g × 20.0 °C) = 0.443 J g⁻¹ °C⁻¹ (close to iron). Using 45.0 °C instead of ΔT gives 0.197; adding 273 to ΔT (a temperature change is the same size in °C and K) gives 0.0302.",
   "html": {
    "prompt": "A 15.0 g piece of metal absorbs 133 J of heat, and its temperature rises from 25.0 °C to 45.0 °C. What is the specific heat of the metal?",
    "choices": [
     "0.443 J g⁻¹ °C⁻¹",
     "0.197 J g⁻¹ °C⁻¹",
     "0.355 J g⁻¹ °C⁻¹",
-    "2.26 J g⁻¹ °C⁻¹"
+    "0.0302 J g⁻¹ °C⁻¹"
    ],
    "hint": "Rearrange q = m·c·ΔT to c = q / (m·ΔT). Use the temperature change, not a single temperature.",
-   "explain": "ΔT = 20.0 °C. c = 133 J / (15.0 g × 20.0 °C) = <b>0.443 J g⁻¹ °C⁻¹</b> (close to iron). Using 45.0 °C instead of ΔT gives 0.197."
+   "explain": "ΔT = 20.0 °C. c = 133 J / (15.0 g × 20.0 °C) = <b>0.443 J g⁻¹ °C⁻¹</b> (close to iron). Using 45.0 °C instead of ΔT gives 0.197; adding 273 to ΔT (a temperature change is the same size in °C and K) gives 0.0302."
   },
   "from": {
    "game": "finalexam",
@@ -4049,21 +4049,21 @@
    "5.33 L",
    "1.33 L",
    "3.00 L",
-   "18.8 L"
+   "4.00 L"
   ],
   "answer": "5.33 L",
   "hint": "Use the combined gas law, P₁V₁/T₁ = P₂V₂/T₂, with temperatures in kelvins.",
-  "explain": "V₂ = 2.00 L × (1.00/0.500) × (400.15 K/300.15 K) = 5.33 L. Both the lower pressure and the higher temperature make the volume larger.",
+  "explain": "V₂ = 2.00 L × (1.00/0.500) × (400.15 K/300.15 K) = 5.33 L. Both the lower pressure and the higher temperature make the volume larger; 4.00 L applies only the pressure change and ignores the temperature rise.",
   "html": {
    "prompt": "A gas occupies 2.00 L at 1.00 atm and 27 °C. What volume does it occupy at 0.500 atm and 127 °C?",
    "choices": [
     "5.33 L",
     "1.33 L",
     "3.00 L",
-    "18.8 L"
+    "4.00 L"
    ],
    "hint": "Use the combined gas law, P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub>, with temperatures in kelvins.",
-   "explain": "V<sub>2</sub> = 2.00 L × (1.00/0.500) × (400.15 K/300.15 K) = <b>5.33 L</b>. Both the lower pressure and the higher temperature make the volume larger."
+   "explain": "V<sub>2</sub> = 2.00 L × (1.00/0.500) × (400.15 K/300.15 K) = <b>5.33 L</b>. Both the lower pressure and the higher temperature make the volume larger; 4.00 L applies only the pressure change and ignores the temperature rise."
   },
   "from": {
    "game": "finalexam",
@@ -4134,22 +4134,22 @@
   "choices": [
    "4.92 atm",
    "19.7 atm",
-   "0.443 atm",
+   "49.3 atm",
    "499 atm"
   ],
   "answer": "4.92 atm",
   "hint": "Convert grams of He to moles first, then use PV = nRT with T in kelvins.",
-  "explain": "n = 8.00 g / 4.003 g mol⁻¹ = 2.00 mol. P = nRT/V = (2.00)(0.08206)(300.15)/10.0 = 4.92 atm. Using 8.00 as the moles gives 19.7 atm.",
+  "explain": "n = 8.00 g / 4.003 g mol⁻¹ = 2.00 mol. P = nRT/V = (2.00)(0.08206)(300.15)/10.0 = 4.92 atm. Using 8.00 as the moles gives 19.7 atm; 49.3 atm forgets to divide by the 10.0 L volume.",
   "html": {
    "prompt": "What pressure is exerted by 8.00 g of helium gas in a 10.0 L balloon at 27 °C?",
    "choices": [
     "4.92 atm",
     "19.7 atm",
-    "0.443 atm",
+    "49.3 atm",
     "499 atm"
    ],
    "hint": "Convert grams of He to moles first, then use PV = nRT with T in kelvins.",
-   "explain": "n = 8.00 g / 4.003 g mol⁻¹ = 2.00 mol. P = nRT/V = (2.00)(0.08206)(300.15)/10.0 = <b>4.92 atm</b>. Using 8.00 as the moles gives 19.7 atm."
+   "explain": "n = 8.00 g / 4.003 g mol⁻¹ = 2.00 mol. P = nRT/V = (2.00)(0.08206)(300.15)/10.0 = <b>4.92 atm</b>. Using 8.00 as the moles gives 19.7 atm; 49.3 atm forgets to divide by the 10.0 L volume."
   },
   "from": {
    "game": "finalexam",
@@ -4177,22 +4177,22 @@
   "choices": [
    "0.30 atm",
    "0.90 atm",
-   "0.25 atm",
+   "0.60 atm",
    "0.36 atm"
   ],
   "answer": "0.30 atm",
   "hint": "Partial pressure = (mole fraction of the gas) × (total pressure).",
-  "explain": "Mole fraction of O₂ = 0.30/(0.30 + 0.90) = 0.25. P_O2 = 0.25 × 1.20 atm = 0.30 atm. 0.25 is the mole fraction, not the pressure.",
+  "explain": "Mole fraction of O₂ = 0.30/(0.30 + 0.90) = 0.25. P_O2 = 0.25 × 1.20 atm = 0.30 atm. 0.60 atm splits the pressure equally between the two gases, ignoring that there is three times as much N₂; 0.90 atm is the N₂ partial pressure.",
   "html": {
    "prompt": "A gas mixture contains 0.30 mol O<sub>2</sub> and 0.90 mol N<sub>2</sub> at a total pressure of 1.20 atm. What is the partial pressure of O<sub>2</sub>?",
    "choices": [
     "0.30 atm",
     "0.90 atm",
-    "0.25 atm",
+    "0.60 atm",
     "0.36 atm"
    ],
    "hint": "Partial pressure = (mole fraction of the gas) × (total pressure).",
-   "explain": "Mole fraction of O<sub>2</sub> = 0.30/(0.30 + 0.90) = 0.25. P<sub>O2</sub> = 0.25 × 1.20 atm = <b>0.30 atm</b>. 0.25 is the mole fraction, not the pressure."
+   "explain": "Mole fraction of O<sub>2</sub> = 0.30/(0.30 + 0.90) = 0.25. P<sub>O2</sub> = 0.25 × 1.20 atm = <b>0.30 atm</b>. 0.60 atm splits the pressure equally between the two gases, ignoring that there is three times as much N<sub>2</sub>; 0.90 atm is the N<sub>2</sub> partial pressure."
   },
   "from": {
    "game": "finalexam",
@@ -4221,21 +4221,21 @@
    "731 mmHg",
    "779 mmHg",
    "755 mmHg",
-   "24 mmHg"
+   "736 mmHg"
   ],
   "answer": "731 mmHg",
   "hint": "Dalton's law: the total pressure is the sum of the partial pressures of all gases present.",
-  "explain": "P_total = P_H2 + P_H2O, so P_H2 = 755 − 24 = 731 mmHg. Adding the water vapor pressure (779) gets the relationship backward.",
+  "explain": "P_total = P_H2 + P_H2O, so P_H2 = 755 − 24 = 731 mmHg. Adding the water vapor pressure (779) gets the relationship backward; 736 mmHg subtracts from standard pressure (760) instead of the measured total of 755.",
   "html": {
    "prompt": "Hydrogen gas is collected over water at 25 °C. The total pressure is 755 mmHg, and the vapor pressure of water at 25 °C is 24 mmHg. What is the partial pressure of H<sub>2</sub>?",
    "choices": [
     "731 mmHg",
     "779 mmHg",
     "755 mmHg",
-    "24 mmHg"
+    "736 mmHg"
    ],
    "hint": "Dalton's law: the total pressure is the sum of the partial pressures of all gases present.",
-   "explain": "P<sub>total</sub> = P<sub>H2</sub> + P<sub>H2O</sub>, so P<sub>H2</sub> = 755 − 24 = <b>731 mmHg</b>. Adding the water vapor pressure (779) gets the relationship backward."
+   "explain": "P<sub>total</sub> = P<sub>H2</sub> + P<sub>H2O</sub>, so P<sub>H2</sub> = 755 − 24 = <b>731 mmHg</b>. Adding the water vapor pressure (779) gets the relationship backward; 736 mmHg subtracts from standard pressure (760) instead of the measured total of 755."
   },
   "from": {
    "game": "finalexam",
@@ -4263,22 +4263,22 @@
   "choices": [
    "18.0 L",
    "6.0 L",
-   "24.0 L",
+   "9.0 L",
    "8.0 L"
   ],
   "answer": "18.0 L",
   "hint": "Avogadro's law: V₁/n₁ = V₂/n₂. Find the new total number of moles first.",
-  "explain": "n₂ = 0.50 + 0.25 = 0.75 mol. V₂ = 12.0 L × (0.75/0.50) = 18.0 L. Using 0.25 mol as n₂ gives 6.0 L, which ignores the helium already present.",
+  "explain": "n₂ = 0.50 + 0.25 = 0.75 mol. V₂ = 12.0 L × (0.75/0.50) = 18.0 L. Using 0.25 mol as n₂ gives 6.0 L, which ignores the helium already present; 9.0 L multiplies 12.0 L by the new 0.75 mol without dividing by the original 0.50 mol.",
   "html": {
    "prompt": "A balloon containing 0.50 mol of helium has a volume of 12.0 L. If 0.25 mol of helium is added at constant temperature and pressure, what is the new volume?",
    "choices": [
     "18.0 L",
     "6.0 L",
-    "24.0 L",
+    "9.0 L",
     "8.0 L"
    ],
    "hint": "Avogadro's law: V<sub>1</sub>/n<sub>1</sub> = V<sub>2</sub>/n<sub>2</sub>. Find the new total number of moles first.",
-   "explain": "n<sub>2</sub> = 0.50 + 0.25 = 0.75 mol. V<sub>2</sub> = 12.0 L × (0.75/0.50) = <b>18.0 L</b>. Using 0.25 mol as n<sub>2</sub> gives 6.0 L, which ignores the helium already present."
+   "explain": "n<sub>2</sub> = 0.50 + 0.25 = 0.75 mol. V<sub>2</sub> = 12.0 L × (0.75/0.50) = <b>18.0 L</b>. Using 0.25 mol as n<sub>2</sub> gives 6.0 L, which ignores the helium already present; 9.0 L multiplies 12.0 L by the new 0.75 mol without dividing by the original 0.50 mol."
   },
   "from": {
    "game": "finalexam",
@@ -4563,23 +4563,23 @@
   "prompt": "How many grams of glucose are in 500. mL of a 5.0% (m/v) glucose IV solution?",
   "choices": [
    "25 g",
-   "2.5 g",
+   "2.5×10³ g",
    "1.0×10² g",
    "2.5×10² g"
   ],
   "answer": "25 g",
   "hint": "5.0% (m/v) means 5.0 g of solute per 100 mL of solution.",
-  "explain": "500. mL × (5.0 g / 100 mL) = 25 g. 1.0×10² g comes from dividing 500 by 5.0.",
+  "explain": "500. mL × (5.0 g / 100 mL) = 25 g. 1.0×10² g comes from dividing 500 by 5.0, and 2.5×10³ g multiplies 500 by 5.0 without the \"per 100 mL\".",
   "html": {
    "prompt": "How many grams of glucose are in 500. mL of a 5.0% (m/v) glucose IV solution?",
    "choices": [
     "25 g",
-    "2.5 g",
+    "2.5×10<sup>3</sup> g",
     "1.0×10<sup>2</sup> g",
     "2.5×10<sup>2</sup> g"
    ],
    "hint": "5.0% (m/v) means 5.0 g of solute per 100 mL of solution.",
-   "explain": "500. mL × (5.0 g / 100 mL) = <b>25 g</b>. 1.0×10<sup>2</sup> g comes from dividing 500 by 5.0."
+   "explain": "500. mL × (5.0 g / 100 mL) = <b>25 g</b>. 1.0×10<sup>2</sup> g comes from dividing 500 by 5.0, and 2.5×10<sup>3</sup> g multiplies 500 by 5.0 without the \"per 100 mL\"."
   },
   "from": {
    "game": "finalexam",
@@ -4736,22 +4736,22 @@
   "choices": [
    "12.5 mL",
    "2.00×10⁴ mL",
-   "7.20 mL",
+   "150. mL",
    "488 mL"
   ],
   "answer": "12.5 mL",
   "hint": "Use M₁V₁ = M₂V₂ and solve for the volume of the concentrated stock.",
-  "explain": "V₁ = (0.300 M)(500. mL)/(12.0 M) = 12.5 mL. The concentrated acid is diluted with water to a total of 500. mL.",
+  "explain": "V₁ = (0.300 M)(500. mL)/(12.0 M) = 12.5 mL. 150. mL stops at M₂V₂ = 150 and never divides by 12.0 M. The concentrated acid is diluted with water to a total of 500. mL.",
   "html": {
    "prompt": "What volume of 12.0 M HCl is needed to prepare 500. mL of 0.300 M HCl?",
    "choices": [
     "12.5 mL",
     "2.00×10<sup>4</sup> mL",
-    "7.20 mL",
+    "150. mL",
     "488 mL"
    ],
    "hint": "Use M<sub>1</sub>V<sub>1</sub> = M<sub>2</sub>V<sub>2</sub> and solve for the volume of the concentrated stock.",
-   "explain": "V<sub>1</sub> = (0.300 M)(500. mL)/(12.0 M) = <b>12.5 mL</b>. The concentrated acid is diluted with water to a total of 500. mL."
+   "explain": "V<sub>1</sub> = (0.300 M)(500. mL)/(12.0 M) = <b>12.5 mL</b>. 150. mL stops at M<sub>2</sub>V<sub>2</sub> = 150 and never divides by 12.0 M. The concentrated acid is diluted with water to a total of 500. mL."
   },
   "from": {
    "game": "finalexam",
@@ -5147,22 +5147,22 @@
   "choices": [
    "(NH₄)₂CO₃",
    "CaCO₃",
-   "AgCl",
+   "Ca₃(PO₄)₂",
    "BaSO₄"
   ],
   "answer": "(NH₄)₂CO₃",
   "hint": "Compounds containing NH⁺₄, alkali metal ions, nitrate or acetate are always soluble.",
-  "explain": "Ammonium compounds are always soluble, so (NH₄)₂CO₃ dissolves. Most carbonates (CaCO₃) are insoluble, AgCl is an exception to the chloride rule, and BaSO₄ is an exception to the sulfate rule.",
+  "explain": "Ammonium compounds are always soluble, so (NH₄)₂CO₃ dissolves. Most carbonates (CaCO₃) and phosphates (Ca₃(PO₄)₂) are insoluble, and BaSO₄ is an exception to the sulfate rule.",
   "html": {
    "prompt": "Which compound is soluble in water?",
    "choices": [
     "(NH<sub>4</sub>)<sub>2</sub>CO<sub>3</sub>",
     "CaCO<sub>3</sub>",
-    "AgCl",
+    "Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>",
     "BaSO<sub>4</sub>"
    ],
    "hint": "Compounds containing <span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>4</sub></span>,</span> alkali metal ions, nitrate or acetate are always soluble.",
-   "explain": "Ammonium compounds are always soluble, so <b>(NH<sub>4</sub>)<sub>2</sub>CO<sub>3</sub></b> dissolves. Most carbonates (CaCO<sub>3</sub>) are insoluble, AgCl is an exception to the chloride rule, and BaSO<sub>4</sub> is an exception to the sulfate rule."
+   "explain": "Ammonium compounds are always soluble, so <b>(NH<sub>4</sub>)<sub>2</sub>CO<sub>3</sub></b> dissolves. Most carbonates (CaCO<sub>3</sub>) and phosphates (Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>) are insoluble, and BaSO<sub>4</sub> is an exception to the sulfate rule."
   },
   "from": {
    "game": "finalexam",
@@ -5394,7 +5394,7 @@
   }
  },
  {
-  "id": "finalexam-b6914d40",
+  "id": "finalexam-5cebc50b",
   "skill": "finalexam.3a.reactions",
   "courses": [
    "3A"
@@ -5411,24 +5411,24 @@
   "calc": false,
   "prompt": "In the reaction shown, which substance is the oxidizing agent?",
   "choices": [
-   "Fe₂O₃",
-   "CO",
-   "Fe",
-   "CO₂"
+   "iron(III) oxide",
+   "carbon monoxide",
+   "iron",
+   "carbon dioxide"
   ],
-  "answer": "Fe₂O₃",
+  "answer": "iron(III) oxide",
   "hint": "The oxidizing agent is the reactant that gets reduced. Find whose oxidation number decreases.",
-  "explain": "Fe goes from +3 to 0 (reduced) and C goes from +2 to +4 (oxidized). The species that is reduced, Fe₂O₃, is the oxidizing agent; CO is the reducing agent.",
+  "explain": "Fe goes from +3 to 0 (reduced) and C goes from +2 to +4 (oxidized). The species that is reduced, Fe₂O₃ (iron(III) oxide), is the oxidizing agent; CO is the reducing agent.",
   "html": {
    "prompt": "In the reaction shown, which substance is the oxidizing agent?",
    "choices": [
-    "Fe<sub>2</sub>O<sub>3</sub>",
-    "CO",
-    "Fe",
-    "CO<sub>2</sub>"
+    "iron(III) oxide",
+    "carbon monoxide",
+    "iron",
+    "carbon dioxide"
    ],
    "hint": "The oxidizing agent is the reactant that gets reduced. Find whose oxidation number decreases.",
-   "explain": "Fe goes from +3 to 0 (reduced) and C goes from +2 to +4 (oxidized). The species that is reduced, <b>Fe<sub>2</sub>O<sub>3</sub></b>, is the oxidizing agent; CO is the reducing agent."
+   "explain": "Fe goes from +3 to 0 (reduced) and C goes from +2 to +4 (oxidized). The species that is reduced, <b>Fe<sub>2</sub>O<sub>3</sub> (iron(III) oxide)</b>, is the oxidizing agent; CO is the reducing agent."
   },
   "data": {
    "f": [
@@ -5660,22 +5660,22 @@
   "choices": [
    "3.20 g",
    "6.40 g",
-   "1.60 g",
+   "12.8 g",
    "3.40 g"
   ],
   "answer": "3.20 g",
   "hint": "Convert grams of H₂O₂ to moles, use the 1 O₂ : 2 H₂O₂ ratio, then convert to grams of O₂.",
-  "explain": "6.80 g ÷ 34.02 g mol⁻¹ = 0.200 mol H₂O₂; ÷ 2 = 0.100 mol O₂; × 32.00 g mol⁻¹ = 3.20 g. 6.40 g skips the 2:1 ratio; 1.60 g uses 16.00 g mol⁻¹ for O₂.",
+  "explain": "6.80 g ÷ 34.02 g mol⁻¹ = 0.200 mol H₂O₂; ÷ 2 = 0.100 mol O₂; × 32.00 g mol⁻¹ = 3.20 g. 6.40 g skips the 2:1 ratio; 12.8 g uses the ratio upside down (multiplies by 2 instead of dividing).",
   "html": {
    "prompt": "Hydrogen peroxide decomposes according to the equation shown. How many grams of O<sub>2</sub> form from 6.80 g of H<sub>2</sub>O<sub>2</sub>?",
    "choices": [
     "3.20 g",
     "6.40 g",
-    "1.60 g",
+    "12.8 g",
     "3.40 g"
    ],
    "hint": "Convert grams of H<sub>2</sub>O<sub>2</sub> to moles, use the 1 O<sub>2</sub> : 2 H<sub>2</sub>O<sub>2</sub> ratio, then convert to grams of O<sub>2</sub>.",
-   "explain": "6.80 g ÷ 34.02 g mol⁻¹ = 0.200 mol H<sub>2</sub>O<sub>2</sub>; ÷ 2 = 0.100 mol O<sub>2</sub>; × 32.00 g mol⁻¹ = <b>3.20 g</b>. 6.40 g skips the 2:1 ratio; 1.60 g uses 16.00 g mol⁻¹ for O<sub>2</sub>."
+   "explain": "6.80 g ÷ 34.02 g mol⁻¹ = 0.200 mol H<sub>2</sub>O<sub>2</sub>; ÷ 2 = 0.100 mol O<sub>2</sub>; × 32.00 g mol⁻¹ = <b>3.20 g</b>. 6.40 g skips the 2:1 ratio; 12.8 g uses the ratio upside down (multiplies by 2 instead of dividing)."
   },
   "data": {
    "f": [
@@ -5971,22 +5971,22 @@
   "choices": [
    "20.0 mL",
    "10.0 mL",
-   "40.0 mL",
+   "0.0200 mL",
    "5.00 mL"
   ],
   "answer": "20.0 mL",
   "hint": "Moles of H₂SO₄ = M × V. Each H₂SO₄ needs 2 NaOH.",
-  "explain": "mol H₂SO₄ = 0.100 × 0.0200 L = 2.00×10⁻³; mol NaOH = 4.00×10⁻³. V = 4.00×10⁻³/0.200 M = 0.0200 L = 20.0 mL. 10.0 mL forgets the 2:1 ratio.",
+  "explain": "mol H₂SO₄ = 0.100 × 0.0200 L = 2.00×10⁻³; mol NaOH = 4.00×10⁻³. V = 4.00×10⁻³/0.200 M = 0.0200 L = 20.0 mL. 10.0 mL forgets the 2:1 ratio; 0.0200 mL is the answer in liters mislabeled as milliliters.",
   "html": {
    "prompt": "Consider the reaction below. What volume of 0.200 M NaOH is needed to neutralize 20.0 mL of 0.100 M H<sub>2</sub>SO<sub>4</sub>?",
    "choices": [
     "20.0 mL",
     "10.0 mL",
-    "40.0 mL",
+    "0.0200 mL",
     "5.00 mL"
    ],
    "hint": "Moles of H<sub>2</sub>SO<sub>4</sub> = M × V. Each H<sub>2</sub>SO<sub>4</sub> needs 2 NaOH.",
-   "explain": "mol H<sub>2</sub>SO<sub>4</sub> = 0.100 × 0.0200 L = 2.00×10<sup>−3</sup>; mol NaOH = 4.00×10<sup>−3</sup>. V = 4.00×10<sup>−3</sup>/0.200 M = 0.0200 L = <b>20.0 mL</b>. 10.0 mL forgets the 2:1 ratio."
+   "explain": "mol H<sub>2</sub>SO<sub>4</sub> = 0.100 × 0.0200 L = 2.00×10<sup>−3</sup>; mol NaOH = 4.00×10<sup>−3</sup>. V = 4.00×10<sup>−3</sup>/0.200 M = 0.0200 L = <b>20.0 mL</b>. 10.0 mL forgets the 2:1 ratio; 0.0200 mL is the answer in liters mislabeled as milliliters."
   },
   "data": {
    "f": [
@@ -6313,21 +6313,21 @@
    "100 times",
    "2 times",
    "20 times",
-   "1000 times"
+   "10 times"
   ],
   "answer": "100 times",
   "hint": "Each pH unit represents a factor of 10 in [H₃O⁺].",
-  "explain": "pH 3: 10⁻³ M; pH 5: 10⁻⁵ M. 10⁻³/10⁻⁵ = 100 times. The pH scale is logarithmic, so a difference of 2 is not \"2 times\".",
+  "explain": "pH 3: 10⁻³ M; pH 5: 10⁻⁵ M. 10⁻³/10⁻⁵ = 100 times. The pH scale is logarithmic, so a difference of 2 is not \"2 times\"; 10 times would be a difference of only 1 pH unit.",
   "html": {
    "prompt": "A solution of pH 3 is how many times more acidic (in [H<sub>3</sub>O<sup>+</sup>]) than a solution of pH 5?",
    "choices": [
     "100 times",
     "2 times",
     "20 times",
-    "1000 times"
+    "10 times"
    ],
    "hint": "Each pH unit represents a factor of 10 in [H<sub>3</sub>O<sup>+</sup>].",
-   "explain": "pH 3: 10<sup>−3</sup> M; pH 5: 10<sup>−5</sup> M. 10<sup>−3</sup>/10<sup>−5</sup> = <b>100 times</b>. The pH scale is logarithmic, so a difference of 2 is not \"2 times\"."
+   "explain": "pH 3: 10<sup>−3</sup> M; pH 5: 10<sup>−5</sup> M. 10<sup>−3</sup>/10<sup>−5</sup> = <b>100 times</b>. The pH scale is logarithmic, so a difference of 2 is not \"2 times\"; 10 times would be a difference of only 1 pH unit."
   },
   "from": {
    "game": "finalexam",
@@ -6441,22 +6441,22 @@
   "choices": [
    "2.00",
    "0.010",
-   "12.00",
+   "−2.00",
    "1.00"
   ],
   "answer": "2.00",
   "hint": "HCl is a strong acid, so [H₃O⁺] equals the acid concentration.",
-  "explain": "[H₃O⁺] = 0.010 M = 1.0×10⁻² M, so pH = 2.00. 12.00 is the pOH.",
+  "explain": "[H₃O⁺] = 0.010 M = 1.0×10⁻² M, so pH = 2.00. −2.00 is log[H₃O⁺] with the negative sign in pH = −log[H₃O⁺] left off.",
   "html": {
    "prompt": "What is the pH of 0.010 M HCl?",
    "choices": [
     "2.00",
     "0.010",
-    "12.00",
+    "−2.00",
     "1.00"
    ],
    "hint": "HCl is a strong acid, so [H<sub>3</sub>O<sup>+</sup>] equals the acid concentration.",
-   "explain": "[H<sub>3</sub>O<sup>+</sup>] = 0.010 M = 1.0×10<sup>−2</sup> M, so pH = <b>2.00</b>. 12.00 is the pOH."
+   "explain": "[H<sub>3</sub>O<sup>+</sup>] = 0.010 M = 1.0×10<sup>−2</sup> M, so pH = <b>2.00</b>. −2.00 is log[H<sub>3</sub>O<sup>+</sup>] with the negative sign in pH = −log[H<sub>3</sub>O<sup>+</sup>] left off."
   },
   "from": {
    "game": "finalexam",
@@ -6485,21 +6485,21 @@
    "11.00",
    "3.00",
    "10.00",
-   "14.00"
+   "−3.00"
   ],
   "answer": "11.00",
   "hint": "NaOH is a strong base: [OH⁻] = 0.0010 M. Find pOH, then use pH + pOH = 14.00.",
-  "explain": "[OH⁻] = 1.0×10⁻³ M → pOH = 3.00 → pH = 14.00 − 3.00 = 11.00. 3.00 is the pOH, not the pH.",
+  "explain": "[OH⁻] = 1.0×10⁻³ M → pOH = 3.00 → pH = 14.00 − 3.00 = 11.00. 3.00 is the pOH, not the pH, and −3.00 is log[OH⁻] with the sign dropped.",
   "html": {
    "prompt": "What is the pH of a 0.0010 M NaOH solution at 25 °C?",
    "choices": [
     "11.00",
     "3.00",
     "10.00",
-    "14.00"
+    "−3.00"
    ],
    "hint": "NaOH is a strong base: [OH<sup>−</sup>] = 0.0010 M. Find pOH, then use pH + pOH = 14.00.",
-   "explain": "[OH<sup>−</sup>] = 1.0×10<sup>−3</sup> M → pOH = 3.00 → pH = 14.00 − 3.00 = <b>11.00</b>. 3.00 is the pOH, not the pH."
+   "explain": "[OH<sup>−</sup>] = 1.0×10<sup>−3</sup> M → pOH = 3.00 → pH = 14.00 − 3.00 = <b>11.00</b>. 3.00 is the pOH, not the pH, and −3.00 is log[OH<sup>−</sup>] with the sign dropped."
   },
   "from": {
    "game": "finalexam",
@@ -7213,21 +7213,21 @@
    "5.00 mg",
    "20.0 mg",
    "10.0 mg",
-   "0.00 mg"
+   "40.0 mg"
   ],
   "answer": "5.00 mg",
   "hint": "Find the number of half-lives that have passed, then halve the amount that many times.",
-  "explain": "24 h / 6.0 h = 4 half-lives: 80.0 → 40.0 → 20.0 → 10.0 → 5.00 mg. 20.0 mg divides 80.0 by 4 instead of halving four times.",
+  "explain": "24 h / 6.0 h = 4 half-lives: 80.0 → 40.0 → 20.0 → 10.0 → 5.00 mg. 20.0 mg divides 80.0 by 4 instead of halving four times; 40.0 mg halves only once.",
   "html": {
    "prompt": "Technetium-99m has a half-life of 6.0 hours. If a patient receives 80.0 mg, how much remains after 24 hours?",
    "choices": [
     "5.00 mg",
     "20.0 mg",
     "10.0 mg",
-    "0.00 mg"
+    "40.0 mg"
    ],
    "hint": "Find the number of half-lives that have passed, then halve the amount that many times.",
-   "explain": "24 h / 6.0 h = 4 half-lives: 80.0 → 40.0 → 20.0 → 10.0 → <b>5.00 mg</b>. 20.0 mg divides 80.0 by 4 instead of halving four times."
+   "explain": "24 h / 6.0 h = 4 half-lives: 80.0 → 40.0 → 20.0 → 10.0 → <b>5.00 mg</b>. 20.0 mg divides 80.0 by 4 instead of halving four times; 40.0 mg halves only once."
   },
   "from": {
    "game": "finalexam",
@@ -8442,21 +8442,21 @@
    "1.6 mol",
    "3.6 mol",
    "2.4 mol",
-   "0.80 mol"
+   "4.8 mol"
   ],
   "answer": "1.6 mol",
   "hint": "Use the coefficients as a mole ratio: what you want over what you are given.",
-  "explain": "2.4 mol O₂ × (2 mol Al₂O₃ / 3 mol O₂) = 1.6 mol. Putting the ratio upside down (3/2) gives 3.6 mol, and assuming 1 : 1 gives 2.4 mol.",
+  "explain": "2.4 mol O₂ × (2 mol Al₂O₃ / 3 mol O₂) = 1.6 mol. Putting the ratio upside down (3/2) gives 3.6 mol, assuming 1 : 1 gives 2.4 mol, and 4.8 mol multiplies by the 2 but forgets to divide by the 3.",
   "html": {
    "prompt": "According to the reaction shown, how many moles of Al<sub>2</sub>O<sub>3</sub> form from 2.4 mol of O<sub>2</sub>?",
    "choices": [
     "1.6 mol",
     "3.6 mol",
     "2.4 mol",
-    "0.80 mol"
+    "4.8 mol"
    ],
    "hint": "Use the coefficients as a mole ratio: what you want over what you are given.",
-   "explain": "2.4 mol O<sub>2</sub> × (2 mol Al<sub>2</sub>O<sub>3</sub> / 3 mol O<sub>2</sub>) = <b>1.6 mol</b>. Putting the ratio upside down (3/2) gives 3.6 mol, and assuming 1 : 1 gives 2.4 mol."
+   "explain": "2.4 mol O<sub>2</sub> × (2 mol Al<sub>2</sub>O<sub>3</sub> / 3 mol O<sub>2</sub>) = <b>1.6 mol</b>. Putting the ratio upside down (3/2) gives 3.6 mol, assuming 1 : 1 gives 2.4 mol, and 4.8 mol multiplies by the 2 but forgets to divide by the 3."
   },
   "data": {
    "f": [
@@ -8704,7 +8704,7 @@
   }
  },
  {
-  "id": "finalexam-eb640d0b",
+  "id": "finalexam-550acd39",
   "skill": "finalexam.3a.equilibrium",
   "courses": [
    "3A"
@@ -8721,24 +8721,24 @@
   "calc": false,
   "prompt": "For the reaction shown, which change would cause the equilibrium to shift to the left?",
   "choices": [
-   "raising the temperature",
-   "adding more O₂",
-   "removing SO₃",
+   "heating the mixture",
+   "adding more O₂ gas",
+   "removing some SO₃",
    "adding a catalyst"
   ],
-  "answer": "raising the temperature",
+  "answer": "heating the mixture",
   "hint": "A negative ΔH means heat is a product. Ask how the system would undo each change.",
-  "explain": "Go by elimination: adding O₂ (a reactant) shifts right, removing SO₃ (a product) shifts right, and a catalyst speeds up both directions equally, so no shift. Since the reaction is exothermic, heat acts like a product, so raising the temperature pushes the equilibrium to the left.",
+  "explain": "Go by elimination: adding O₂ (a reactant) shifts right, removing SO₃ (a product) shifts right, and a catalyst speeds up both directions equally, so no shift. Since the reaction is exothermic, heat acts like a product, so heating the mixture pushes the equilibrium to the left.",
   "html": {
    "prompt": "For the reaction shown, which change would cause the equilibrium to shift to the left?",
    "choices": [
-    "raising the temperature",
-    "adding more O<sub>2</sub>",
-    "removing SO<sub>3</sub>",
+    "heating the mixture",
+    "adding more O<sub>2</sub> gas",
+    "removing some SO<sub>3</sub>",
     "adding a catalyst"
    ],
    "hint": "A negative ΔH means heat is a product. Ask how the system would undo each change.",
-   "explain": "Go by elimination: adding O<sub>2</sub> (a reactant) shifts right, removing SO<sub>3</sub> (a product) shifts right, and a catalyst speeds up both directions equally, so no shift. Since the reaction is exothermic, heat acts like a product, so <b>raising the temperature</b> pushes the equilibrium to the left."
+   "explain": "Go by elimination: adding O<sub>2</sub> (a reactant) shifts right, removing SO<sub>3</sub> (a product) shifts right, and a catalyst speeds up both directions equally, so no shift. Since the reaction is exothermic, heat acts like a product, so <b>heating the mixture</b> pushes the equilibrium to the left."
   },
   "data": {
    "f": [
@@ -8774,22 +8774,22 @@
   "choices": [
    "4.38 kJ",
    "40.8 kJ",
-   "0.842 kJ",
+   "5.22 kJ",
    "4.38 × 10³ kJ"
   ],
   "answer": "4.38 kJ",
   "hint": "q = mcΔT, with ΔT = final − initial. Watch whether the answer choices are in J or kJ.",
-  "explain": "ΔT = 25.0 − 155.0 = −130.0 °C. q = (75.0 g)(0.449 J g⁻¹ °C⁻¹)(130.0 °C) = 4378 J = 4.38 kJ released. 40.8 kJ uses water's specific heat instead of iron's, and 4.38 × 10³ kJ forgets to convert J to kJ.",
+  "explain": "ΔT = 25.0 − 155.0 = −130.0 °C. q = (75.0 g)(0.449 J g⁻¹ °C⁻¹)(130.0 °C) = 4378 J = 4.38 kJ released. 40.8 kJ uses water's specific heat instead of iron's, 5.22 kJ uses the starting temperature 155.0 °C as ΔT, and 4.38 × 10³ kJ forgets to convert J to kJ.",
   "html": {
    "prompt": "How much heat is released when a 75.0 g iron pan cools from 155.0 °C to 25.0 °C? (specific heat of iron = 0.449 J g⁻¹ °C⁻¹)",
    "choices": [
     "4.38 kJ",
     "40.8 kJ",
-    "0.842 kJ",
+    "5.22 kJ",
     "4.38 × 10<sup>3</sup> kJ"
    ],
    "hint": "q = mcΔT, with ΔT = final − initial. Watch whether the answer choices are in J or kJ.",
-   "explain": "ΔT = 25.0 − 155.0 = −130.0 °C. q = (75.0 g)(0.449 J g⁻¹ °C⁻¹)(130.0 °C) = 4378 J = <b>4.38 kJ</b> released. 40.8 kJ uses water's specific heat instead of iron's, and 4.38 × 10<sup>3</sup> kJ forgets to convert J to kJ."
+   "explain": "ΔT = 25.0 − 155.0 = −130.0 °C. q = (75.0 g)(0.449 J g⁻¹ °C⁻¹)(130.0 °C) = 4378 J = <b>4.38 kJ</b> released. 40.8 kJ uses water's specific heat instead of iron's, 5.22 kJ uses the starting temperature 155.0 °C as ΔT, and 4.38 × 10<sup>3</sup> kJ forgets to convert J to kJ."
   },
   "from": {
    "game": "finalexam",
@@ -9118,22 +9118,22 @@
   "choices": [
    "13 h",
    "4.9 h",
-   "20. h",
+   "9.8 h",
    "3.0 h"
   ],
   "answer": "13 h",
   "hint": "Count how many times you halve 64 mg to reach 8.0 mg, then divide the total time by that number.",
-  "explain": "64 → 32 → 16 → 8.0 mg is 3 half-lives. 39 h ÷ 3 = 13 h. 3.0 h is the number of half-lives, not the half-life, and 4.9 h divides 39 by 8 (the fraction 1/8) instead of by 3.",
+  "explain": "64 → 32 → 16 → 8.0 mg is 3 half-lives. 39 h ÷ 3 = 13 h. 3.0 h is the number of half-lives, not the half-life, 4.9 h divides 39 by 8 (the fraction 1/8) instead of by 3, and 9.8 h counts four half-lives by treating the starting 64 mg as one of them.",
   "html": {
    "prompt": "A radioisotope used in a medical scan decays from 64 mg to 8.0 mg in 39 hours. What is its half-life?",
    "choices": [
     "13 h",
     "4.9 h",
-    "20. h",
+    "9.8 h",
     "3.0 h"
    ],
    "hint": "Count how many times you halve 64 mg to reach 8.0 mg, then divide the total time by that number.",
-   "explain": "64 → 32 → 16 → 8.0 mg is 3 half-lives. 39 h ÷ 3 = <b>13 h</b>. 3.0 h is the number of half-lives, not the half-life, and 4.9 h divides 39 by 8 (the fraction 1/8) instead of by 3."
+   "explain": "64 → 32 → 16 → 8.0 mg is 3 half-lives. 39 h ÷ 3 = <b>13 h</b>. 3.0 h is the number of half-lives, not the half-life, 4.9 h divides 39 by 8 (the fraction 1/8) instead of by 3, and 9.8 h counts four half-lives by treating the starting 64 mg as one of them."
   },
   "from": {
    "game": "finalexam",
@@ -13780,7 +13780,7 @@
   }
  },
  {
-  "id": "finalexam-51df016e",
+  "id": "finalexam-d4a3ce98",
   "skill": "finalexam.3a.bonding",
   "courses": [
    "3A"
@@ -13797,18 +13797,18 @@
   "calc": false,
   "prompt": "A student draws the Lewis structure of water as shown, with the atoms in a straight line. What is the actual H–O–H bond angle?",
   "choices": [
-   "About 104.5°",
+   "104.5°",
    "180°",
    "90°",
    "109.5°"
   ],
-  "answer": "About 104.5°",
+  "answer": "104.5°",
   "hint": "A Lewis structure shows connections, not shape. Count the electron groups around O, including lone pairs.",
   "explain": "O has 4 electron groups (2 bonds + 2 lone pairs), arranged tetrahedrally. The lone pairs push the bonds closer, so H₂O is bent with an angle of about 104.5°. The 180° in the drawing is just how it was written on a flat page; 109.5° ignores the lone-pair squeeze.",
   "html": {
    "prompt": "A student draws the Lewis structure of water as shown, with the atoms in a straight line. What is the actual H–O–H bond angle?",
    "choices": [
-    "About 104.5°",
+    "104.5°",
     "180°",
     "90°",
     "109.5°"
@@ -13867,7 +13867,7 @@
   }
  },
  {
-  "id": "finalexam-da9ddfbf",
+  "id": "finalexam-64535889",
   "skill": "finalexam.3a.bonding",
   "courses": [
    "3A"
@@ -13884,20 +13884,20 @@
   "calc": false,
   "prompt": "The Lewis structure of ammonia is drawn flat on the page, as shown. What are the actual molecular shape and approximate H–N–H bond angle?",
   "choices": [
-   "Trigonal pyramidal, about 107°",
+   "Trigonal pyramidal, 107°",
    "Trigonal planar, 120°",
-   "Bent, about 105°",
+   "Bent (V-shaped), 105°",
    "Tetrahedral, 109.5°"
   ],
-  "answer": "Trigonal pyramidal, about 107°",
+  "answer": "Trigonal pyramidal, 107°",
   "hint": "Count electron groups on N (bonds plus lone pairs). Name the shape from the atoms only.",
   "explain": "N has 3 bonding groups + 1 lone pair = 4 groups (tetrahedral arrangement). With one position taken by a lone pair, the atoms form a trigonal pyramid with angles of about 107°. \"Tetrahedral, 109.5°\" describes the electron groups, not the molecular shape; \"bent\" needs two lone pairs, as in water.",
   "html": {
    "prompt": "The Lewis structure of ammonia is drawn flat on the page, as shown. What are the actual molecular shape and approximate H–N–H bond angle?",
    "choices": [
-    "Trigonal pyramidal, about 107°",
+    "Trigonal pyramidal, 107°",
     "Trigonal planar, 120°",
-    "Bent, about 105°",
+    "Bent (V-shaped), 105°",
     "Tetrahedral, 109.5°"
    ],
    "hint": "Count electron groups on N (bonds plus lone pairs). Name the shape from the atoms only.",
@@ -17192,7 +17192,7 @@
   }
  },
  {
-  "id": "finalexam-40148ae3",
+  "id": "finalexam-64823b28",
   "skill": "finalexam.3a.matter",
   "courses": [
    "3A"
@@ -17210,21 +17210,21 @@
   "calc": false,
   "prompt": "The four boxes use one color per element. Which box holds a mixture in which one substance is an element and the other is a compound?",
   "choices": [
-   "III",
-   "I",
-   "II",
-   "IV"
+   "Box III",
+   "Box I",
+   "Box II",
+   "Box IV"
   ],
-  "answer": "III",
+  "answer": "Box III",
   "hint": "First count the kinds of particles (mixture or pure). Then check whether each kind has one type of atom (element) or two (compound).",
   "explain": "Box III has two kinds of particles: red–red molecules (an element) and blue–red–red molecules (a compound). Box I is a pure element, Box II is a pure compound, and Box IV is a mixture of two elements.",
   "html": {
    "prompt": "The four boxes use one color per element. Which box holds a mixture in which one substance is an element and the other is a compound?",
    "choices": [
-    "III",
-    "I",
-    "II",
-    "IV"
+    "Box III",
+    "Box I",
+    "Box II",
+    "Box IV"
    ],
    "hint": "First count the kinds of particles (mixture or pure). Then check whether each kind has one type of atom (element) or two (compound).",
    "explain": "<b>Box III</b> has two kinds of particles: red–red molecules (an element) and blue–red–red molecules (a compound). Box I is a pure element, Box II is a pure compound, and Box IV is a mixture of two elements."
@@ -20124,23 +20124,23 @@
   "prompt": "Fluorine-18, used in PET scans, has a half-life of 110 minutes. How long does it take for the activity of an F-18 dose to drop to 1/8 of its starting value?",
   "choices": [
    "330 min",
-   "880 min",
+   "13.8 min",
    "220 min",
    "110 min"
   ],
   "answer": "330 min",
   "hint": "Each half-life cuts the activity in half. How many halvings turn 1 into 1/8?",
-  "explain": "1 → 1/2 → 1/4 → 1/8 is three half-lives: 3 × 110 min = 330 min (5.5 h). 880 min multiplies by 8 instead of counting halvings; 220 min (two half-lives) leaves 1/4.",
+  "explain": "1 → 1/2 → 1/4 → 1/8 is three half-lives: 3 × 110 min = 330 min (5.5 h). 13.8 min divides the half-life by 8 instead of counting halvings; 220 min (two half-lives) leaves 1/4.",
   "html": {
    "prompt": "Fluorine-18, used in PET scans, has a half-life of 110 minutes. How long does it take for the activity of an F-18 dose to drop to 1/8 of its starting value?",
    "choices": [
     "330 min",
-    "880 min",
+    "13.8 min",
     "220 min",
     "110 min"
    ],
    "hint": "Each half-life cuts the activity in half. How many halvings turn 1 into 1/8?",
-   "explain": "1 → 1/2 → 1/4 → 1/8 is three half-lives: 3 × 110 min = <b>330 min</b> (5.5 h). 880 min multiplies by 8 instead of counting halvings; 220 min (two half-lives) leaves 1/4."
+   "explain": "1 → 1/2 → 1/4 → 1/8 is three half-lives: 3 × 110 min = <b>330 min</b> (5.5 h). 13.8 min divides the half-life by 8 instead of counting halvings; 220 min (two half-lives) leaves 1/4."
   },
   "from": {
    "game": "finalexam",

@@ -607,21 +607,21 @@
    "5",
    "4",
    "3",
-   "6"
+   "2"
   ],
   "answer": "5",
   "hint": "A primary carbon is bonded to exactly one other carbon. That means every CH₃ group here.",
-  "explain": "There are three CH₃ groups on the quaternary carbon and two on the CH carbon: 5 primary carbons. The molecule also has one 2° (CH₂), one 3° (CH) and one 4° carbon.",
+  "explain": "There are three CH₃ groups on the quaternary carbon and two on the CH carbon: 5 primary carbons. Answering 2 counts only the two end carbons of the pentane chain and forgets that every branch CH₃ is also a 1° carbon. The molecule also has one 2° (CH₂), one 3° (CH) and one 4° carbon.",
   "html": {
    "prompt": "How many primary (1°) carbons are in 2,2,4-trimethylpentane, (CH<sub>3</sub>)<sub>3</sub>CCH<sub>2</sub>CH(CH<sub>3</sub>)<sub>2</sub>?",
    "choices": [
     "5",
     "4",
     "3",
-    "6"
+    "2"
    ],
    "hint": "A primary carbon is bonded to exactly one other carbon. That means every CH<sub>3</sub> group here.",
-   "explain": "There are three CH<sub>3</sub> groups on the quaternary carbon and two on the CH carbon: <b>5</b> primary carbons. The molecule also has one 2° (CH<sub>2</sub>), one 3° (CH) and one 4° carbon."
+   "explain": "There are three CH<sub>3</sub> groups on the quaternary carbon and two on the CH carbon: <b>5</b> primary carbons. Answering 2 counts only the two end carbons of the pentane chain and forgets that every branch CH<sub>3</sub> is also a 1° carbon. The molecule also has one 2° (CH<sub>2</sub>), one 3° (CH) and one 4° carbon."
   },
   "from": {
    "game": "finalexam",
@@ -817,21 +817,21 @@
    "5",
    "3",
    "4",
-   "7"
+   "2"
   ],
   "answer": "5",
   "hint": "Balance C first, then H, then count the oxygen atoms on the product side.",
-  "explain": "C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O. Products have 3(2) + 4(1) = 10 O atoms, so 5 O₂. Choosing 4 copies the water coefficient.",
+  "explain": "C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O. Products have 3(2) + 4(1) = 10 O atoms, so 5 O₂. Choosing 4 copies the water coefficient, 3 copies the CO₂ coefficient, and 2 counts only the four O atoms in the water and forgets the six in CO₂.",
   "html": {
    "prompt": "Propane burns completely in a gas grill. When the equation below is balanced, what is the coefficient of O<sub>2</sub>?",
    "choices": [
     "5",
     "3",
     "4",
-    "7"
+    "2"
    ],
    "hint": "Balance C first, then H, then count the oxygen atoms on the product side.",
-   "explain": "C<sub>3</sub>H<sub>8</sub> + 5 O<sub>2</sub> → 3 CO<sub>2</sub> + 4 H<sub>2</sub>O. Products have 3(2) + 4(1) = 10 O atoms, so <b>5 O<sub>2</sub></b>. Choosing 4 copies the water coefficient."
+   "explain": "C<sub>3</sub>H<sub>8</sub> + 5 O<sub>2</sub> → 3 CO<sub>2</sub> + 4 H<sub>2</sub>O. Products have 3(2) + 4(1) = 10 O atoms, so <b>5 O<sub>2</sub></b>. Choosing 4 copies the water coefficient, 3 copies the CO<sub>2</sub> coefficient, and 2 counts only the four O atoms in the water and forgets the six in CO<sub>2</sub>."
   },
   "data": {
    "f": [
@@ -1915,9 +1915,9 @@
   "prompt": "Rubbing alcohol, 2-propanol, is oxidized with K₂Cr₂O₇. What is the product?",
   "choices": [
    "propanone (acetone)",
-   "propanal",
-   "propanoic acid",
-   "propene"
+   "propanal (propionaldehyde)",
+   "propanoic acid (propionic acid)",
+   "propene (propylene)"
   ],
   "answer": "propanone (acetone)",
   "hint": "A secondary alcohol is oxidized once. What carbonyl compound does that give?",
@@ -1926,9 +1926,9 @@
    "prompt": "Rubbing alcohol, 2-propanol, is oxidized with K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>. What is the product?",
    "choices": [
     "propanone (acetone)",
-    "propanal",
-    "propanoic acid",
-    "propene"
+    "propanal (propionaldehyde)",
+    "propanoic acid (propionic acid)",
+    "propene (propylene)"
    ],
    "hint": "A secondary alcohol is oxidized once. What carbonyl compound does that give?",
    "explain": "Oxidizing a 2° alcohol removes 2 H and gives a ketone: CH<sub>3</sub>COCH<sub>3</sub>, <b>propanone (acetone)</b>. Aldehydes and carboxylic acids come from 1° alcohols."
@@ -1957,23 +1957,23 @@
   "prompt": "Which alcohol is NOT oxidized by an oxidizing agent such as K₂Cr₂O₇?",
   "choices": [
    "2-methyl-2-propanol",
+   "2-methyl-1-propanol",
    "2-propanol",
-   "1-butanol",
-   "ethanol"
+   "1-butanol"
   ],
   "answer": "2-methyl-2-propanol",
   "hint": "Oxidation needs an H atom on the carbon that holds the –OH.",
-  "explain": "In tert-butyl alcohol, 2-methyl-2-propanol, the –OH carbon is bonded to three carbons and has no H, so it is not oxidized. 1° and 2° alcohols are oxidized.",
+  "explain": "In tert-butyl alcohol, 2-methyl-2-propanol, the –OH carbon is bonded to three carbons and has no H, so it is not oxidized. 1° and 2° alcohols are oxidized; 2-methyl-1-propanol is 1° despite its similar name.",
   "html": {
    "prompt": "Which alcohol is NOT oxidized by an oxidizing agent such as K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>?",
    "choices": [
     "2-methyl-2-propanol",
+    "2-methyl-1-propanol",
     "2-propanol",
-    "1-butanol",
-    "ethanol"
+    "1-butanol"
    ],
    "hint": "Oxidation needs an H atom on the carbon that holds the –OH.",
-   "explain": "In tert-butyl alcohol, <b>2-methyl-2-propanol</b>, the –OH carbon is bonded to three carbons and has no H, so it is not oxidized. 1° and 2° alcohols are oxidized."
+   "explain": "In tert-butyl alcohol, <b>2-methyl-2-propanol</b>, the –OH carbon is bonded to three carbons and has no H, so it is not oxidized. 1° and 2° alcohols are oxidized; 2-methyl-1-propanol is 1° despite its similar name."
   },
   "from": {
    "game": "finalexam",
@@ -2421,21 +2421,21 @@
    "hemiacetal",
    "acetal",
    "ester",
-   "ether"
+   "hemiketal"
   ],
   "answer": "hemiacetal",
   "hint": "“Hemi” means half: only one alcohol has added.",
-  "explain": "One alcohol adding to the C=O gives a carbon with –OH and –OR: a hemiacetal. An acetal has two –OR groups and no –OH; an ester has a C=O.",
+  "explain": "One alcohol adding to the C=O gives a carbon with –OH and –OR: a hemiacetal. An acetal has two –OR groups and no –OH; an ester has a C=O; a hemiketal forms from a ketone, not an aldehyde.",
   "html": {
    "prompt": "A carbon atom bonded to one –OH group and one –OR group (formed when an aldehyde adds one alcohol molecule) is part of a(n)",
    "choices": [
     "hemiacetal",
     "acetal",
     "ester",
-    "ether"
+    "hemiketal"
    ],
    "hint": "“Hemi” means half: only one alcohol has added.",
-   "explain": "One alcohol adding to the C=O gives a carbon with –OH and –OR: a <b>hemiacetal</b>. An acetal has two –OR groups and no –OH; an ester has a C=O."
+   "explain": "One alcohol adding to the C=O gives a carbon with –OH and –OR: a <b>hemiacetal</b>. An acetal has two –OR groups and no –OH; an ester has a C=O; a hemiketal forms from a ketone, not an aldehyde."
   },
   "from": {
    "game": "finalexam",
@@ -2503,9 +2503,9 @@
   "prompt": "Formalin, used to preserve tissue specimens, is an aqueous solution of",
   "choices": [
    "methanal (formaldehyde)",
-   "methanol",
-   "methanoic acid",
-   "propanone"
+   "methanol (methyl alcohol)",
+   "methanoic acid (formic acid)",
+   "propanone (acetone)"
   ],
   "answer": "methanal (formaldehyde)",
   "hint": "The “form-” prefix means one carbon. Formalin is an aldehyde solution.",
@@ -2514,9 +2514,9 @@
    "prompt": "Formalin, used to preserve tissue specimens, is an aqueous solution of",
    "choices": [
     "methanal (formaldehyde)",
-    "methanol",
-    "methanoic acid",
-    "propanone"
+    "methanol (methyl alcohol)",
+    "methanoic acid (formic acid)",
+    "propanone (acetone)"
    ],
    "hint": "The “form-” prefix means one carbon. Formalin is an aldehyde solution.",
    "explain": "Formalin is about 37% <b>methanal, HCHO</b>, in water. Methanol is the alcohol; methanoic acid is formic acid."
@@ -2629,9 +2629,9 @@
   "prompt": "Which statement about a pair of enantiomers is true?",
   "choices": [
    "They rotate plane-polarized light in opposite directions.",
-   "They have different melting points.",
-   "They are superimposable mirror images.",
-   "They have different molecular formulas."
+   "They have different melting and boiling points.",
+   "They are superimposable mirror images of each other.",
+   "They have different molecular formulas and masses."
   ],
   "answer": "They rotate plane-polarized light in opposite directions.",
   "hint": "Enantiomers are mirror images; most physical properties are identical. What is the one optical difference?",
@@ -2640,9 +2640,9 @@
    "prompt": "Which statement about a pair of enantiomers is true?",
    "choices": [
     "They rotate plane-polarized light in opposite directions.",
-    "They have different melting points.",
-    "They are superimposable mirror images.",
-    "They have different molecular formulas."
+    "They have different melting and boiling points.",
+    "They are superimposable mirror images of each other.",
+    "They have different molecular formulas and masses."
    ],
    "hint": "Enantiomers are mirror images; most physical properties are identical. What is the one optical difference?",
    "explain": "Enantiomers have the same melting point, boiling point and formula, but <b>rotate polarized light equally in opposite directions</b>. They are NON-superimposable mirror images."
@@ -3074,7 +3074,7 @@
   }
  },
  {
-  "id": "finalexam-9a9d9a49",
+  "id": "finalexam-0469cf1b",
   "skill": "finalexam.3b.acids_esters",
   "courses": [
    "3B"
@@ -3090,21 +3090,21 @@
   "calc": false,
   "prompt": "Sodium benzoate is used as a food preservative instead of benzoic acid mainly because sodium benzoate",
   "choices": [
-   "is ionic and much more soluble in water",
-   "is a stronger acid",
-   "has a higher molar mass",
-   "is nonpolar"
+   "is ionic and more soluble in water",
+   "is a stronger acid than benzoic acid",
+   "has a higher molar mass than benzoic acid",
+   "is nonpolar and dissolves in fats"
   ],
-  "answer": "is ionic and much more soluble in water",
+  "answer": "is ionic and more soluble in water",
   "hint": "Compare a neutral carboxylic acid with its carboxylate salt.",
   "explain": "Carboxylate salts are ionic, so they dissolve far better in water than the acids, which have a large nonpolar ring. The same idea is used to make many drugs water-soluble.",
   "html": {
    "prompt": "Sodium benzoate is used as a food preservative instead of benzoic acid mainly because sodium benzoate",
    "choices": [
-    "is ionic and much more soluble in water",
-    "is a stronger acid",
-    "has a higher molar mass",
-    "is nonpolar"
+    "is ionic and more soluble in water",
+    "is a stronger acid than benzoic acid",
+    "has a higher molar mass than benzoic acid",
+    "is nonpolar and dissolves in fats"
    ],
    "hint": "Compare a neutral carboxylic acid with its carboxylate salt.",
    "explain": "Carboxylate salts are ionic, so <b>they dissolve far better in water</b> than the acids, which have a large nonpolar ring. The same idea is used to make many drugs water-soluble."
@@ -4101,7 +4101,7 @@
    "α,β(1→2)",
    "α(1→4)",
    "β(1→4)",
-   "α(1→6)"
+   "α,β(1→4)"
   ],
   "answer": "α,β(1→2)",
   "hint": "The bond connects the anomeric carbon of glucose with the anomeric carbon of fructose.",
@@ -4112,7 +4112,7 @@
     "α,β(1→2)",
     "α(1→4)",
     "β(1→4)",
-    "α(1→6)"
+    "α,β(1→4)"
    ],
    "hint": "The bond connects the anomeric carbon of glucose with the anomeric carbon of fructose.",
    "explain": "C1 of α-glucose bonds to C2 of β-fructose: an <b>α,β(1→2)</b> linkage. Because both anomeric carbons are used, sucrose is not a reducing sugar."
@@ -4269,21 +4269,21 @@
    "hemiacetal",
    "acetal",
    "ester",
-   "ether"
+   "hemiketal"
   ],
   "answer": "hemiacetal",
   "hint": "An alcohol adding once to an aldehyde gives which group?",
-  "explain": "One alcohol (the C5 –OH) adding to an aldehyde (C1) forms a hemiacetal. A glycosidic bond to a second sugar turns it into an acetal.",
+  "explain": "One alcohol (the C5 –OH) adding to an aldehyde (C1) forms a hemiacetal. A glycosidic bond to a second sugar turns it into an acetal. A hemiketal would form from a ketone sugar such as fructose.",
   "html": {
    "prompt": "When glucose forms its six-membered ring, the –OH on carbon 5 adds to the carbonyl group on carbon 1. The ring is a cyclic",
    "choices": [
     "hemiacetal",
     "acetal",
     "ester",
-    "ether"
+    "hemiketal"
    ],
    "hint": "An alcohol adding once to an aldehyde gives which group?",
-   "explain": "One alcohol (the C5 –OH) adding to an aldehyde (C1) forms a <b>hemiacetal</b>. A glycosidic bond to a second sugar turns it into an acetal."
+   "explain": "One alcohol (the C5 –OH) adding to an aldehyde (C1) forms a <b>hemiacetal</b>. A glycosidic bond to a second sugar turns it into an acetal. A hemiketal would form from a ketone sugar such as fructose."
   },
   "from": {
    "game": "finalexam",
@@ -4603,9 +4603,9 @@
   "prompt": "Lecithin, a glycerophospholipid, contains glycerol, two fatty acids, a phosphate group and",
   "choices": [
    "choline, an amino alcohol",
-   "a third fatty acid",
-   "sphingosine",
-   "cholesterol"
+   "a third fatty acid chain",
+   "sphingosine, a long-chain base",
+   "cholesterol, a steroid"
   ],
   "answer": "choline, an amino alcohol",
   "hint": "Glycerophospholipids have a polar head made of phosphate plus a small nitrogen-containing alcohol.",
@@ -4614,9 +4614,9 @@
    "prompt": "Lecithin, a glycerophospholipid, contains glycerol, two fatty acids, a phosphate group and",
    "choices": [
     "choline, an amino alcohol",
-    "a third fatty acid",
-    "sphingosine",
-    "cholesterol"
+    "a third fatty acid chain",
+    "sphingosine, a long-chain base",
+    "cholesterol, a steroid"
    ],
    "hint": "Glycerophospholipids have a polar head made of phosphate plus a small nitrogen-containing alcohol.",
    "explain": "Lecithin = phosphatidylcholine: glycerol + 2 fatty acids + phosphate + <b>choline</b>. A third fatty acid would make a triacylglycerol."
@@ -4628,7 +4628,7 @@
   }
  },
  {
-  "id": "finalexam-64f6f7ec",
+  "id": "finalexam-6bed4e2e",
   "skill": "finalexam.3b.lipids",
   "courses": [
    "3B"
@@ -4644,20 +4644,20 @@
   "calc": false,
   "prompt": "Sphingomyelin, abundant in the myelin sheath around nerve cells, differs from glycerophospholipids because its backbone is",
   "choices": [
-   "sphingosine, a long-chain amino alcohol",
-   "glycerol",
-   "cholesterol",
+   "sphingosine, an amino alcohol",
+   "glycerol, a three-carbon triol",
+   "cholesterol, a steroid alcohol",
    "a long-chain fatty acid"
   ],
-  "answer": "sphingosine, a long-chain amino alcohol",
+  "answer": "sphingosine, an amino alcohol",
   "hint": "The name of the lipid class tells you its backbone.",
   "explain": "Sphingolipids are built on sphingosine; its amino group forms an amide with one fatty acid. Glycerophospholipids are built on glycerol.",
   "html": {
    "prompt": "Sphingomyelin, abundant in the myelin sheath around nerve cells, differs from glycerophospholipids because its backbone is",
    "choices": [
-    "sphingosine, a long-chain amino alcohol",
-    "glycerol",
-    "cholesterol",
+    "sphingosine, an amino alcohol",
+    "glycerol, a three-carbon triol",
+    "cholesterol, a steroid alcohol",
     "a long-chain fatty acid"
    ],
    "hint": "The name of the lipid class tells you its backbone.",
@@ -4796,7 +4796,7 @@
   }
  },
  {
-  "id": "finalexam-cad96293",
+  "id": "finalexam-f3076239",
   "skill": "finalexam.3b.lipids",
   "courses": [
    "3B"
@@ -4812,21 +4812,21 @@
   "calc": false,
   "prompt": "Partial hydrogenation of vegetable oils is a health concern mainly because it",
   "choices": [
-   "converts some cis double bonds to trans double bonds",
-   "adds cholesterol to the oil",
-   "breaks the ester bonds",
-   "makes the fat more unsaturated"
+   "converts some cis double bonds to trans",
+   "adds cholesterol to the vegetable oil",
+   "breaks the ester bonds to glycerol",
+   "makes the fatty acids more unsaturated"
   ],
-  "answer": "converts some cis double bonds to trans double bonds",
+  "answer": "converts some cis double bonds to trans",
   "hint": "During partial hydrogenation, some double bonds remain but change shape.",
   "explain": "Some remaining double bonds isomerize to the trans form; trans fats raise LDL cholesterol and the risk of heart disease. Hydrogenation makes fats less, not more, unsaturated, and plant oils contain no cholesterol.",
   "html": {
    "prompt": "Partial hydrogenation of vegetable oils is a health concern mainly because it",
    "choices": [
-    "converts some cis double bonds to trans double bonds",
-    "adds cholesterol to the oil",
-    "breaks the ester bonds",
-    "makes the fat more unsaturated"
+    "converts some cis double bonds to trans",
+    "adds cholesterol to the vegetable oil",
+    "breaks the ester bonds to glycerol",
+    "makes the fatty acids more unsaturated"
    ],
    "hint": "During partial hydrogenation, some double bonds remain but change shape.",
    "explain": "Some remaining double bonds isomerize to the <b>trans</b> form; trans fats raise LDL cholesterol and the risk of heart disease. Hydrogenation makes fats less, not more, unsaturated, and plant oils contain no cholesterol."
@@ -5947,23 +5947,23 @@
   "prompt": "A sample of DNA is 20% adenine. What percentage is guanine?",
   "choices": [
    "30%",
-   "20%",
+   "80%",
    "40%",
    "60%"
   ],
   "answer": "30%",
   "hint": "A pairs with T and G pairs with C, so A = T and G = C. All four must add to 100%.",
-  "explain": "A = T = 20%, which leaves 100 − 40 = 60% for G + C, so G = 30%. Answering 20% assumes all bases are equal.",
+  "explain": "A = T = 20%, which leaves 100 − 40 = 60% for G + C, so G = 30%. Answering 60% stops before splitting G + C in half; answering 80% subtracts only the adenine (100 − 20) and forgets that thymine also takes 20%.",
   "html": {
    "prompt": "A sample of DNA is 20% adenine. What percentage is guanine?",
    "choices": [
     "30%",
-    "20%",
+    "80%",
     "40%",
     "60%"
    ],
    "hint": "A pairs with T and G pairs with C, so A = T and G = C. All four must add to 100%.",
-   "explain": "A = T = 20%, which leaves 100 − 40 = 60% for G + C, so G = <b>30%</b>. Answering 20% assumes all bases are equal."
+   "explain": "A = T = 20%, which leaves 100 − 40 = 60% for G + C, so G = <b>30%</b>. Answering 60% stops before splitting G + C in half; answering 80% subtracts only the adenine (100 − 20) and forgets that thymine also takes 20%."
   },
   "from": {
    "game": "finalexam",
@@ -6201,21 +6201,21 @@
    "150",
    "50",
    "100",
-   "200"
+   "17"
   ],
   "answer": "150",
   "hint": "Each codon is a triplet of nucleotides that specifies one amino acid.",
-  "explain": "50 amino acids × 3 nucleotides per codon = 150 nucleotides. Answering 50 assumes one nucleotide per amino acid.",
+  "explain": "50 amino acids × 3 nucleotides per codon = 150 nucleotides. Answering 50 assumes one nucleotide per amino acid; 100 uses two per codon; 17 divides 50 by 3 instead of multiplying.",
   "html": {
    "prompt": "Not counting the stop codon, how many mRNA nucleotides are needed to code for a polypeptide of 50 amino acids?",
    "choices": [
     "150",
     "50",
     "100",
-    "200"
+    "17"
    ],
    "hint": "Each codon is a triplet of nucleotides that specifies one amino acid.",
-   "explain": "50 amino acids × 3 nucleotides per codon = <b>150</b> nucleotides. Answering 50 assumes one nucleotide per amino acid."
+   "explain": "50 amino acids × 3 nucleotides per codon = <b>150</b> nucleotides. Answering 50 assumes one nucleotide per amino acid; 100 uses two per codon; 17 divides 50 by 3 instead of multiplying."
   },
   "from": {
    "game": "finalexam",
@@ -6327,7 +6327,7 @@
    "reverse transcriptase",
    "RNA polymerase",
    "DNA ligase",
-   "helicase"
+   "a restriction enzyme"
   ],
   "answer": "reverse transcriptase",
   "hint": "This enzyme runs the usual DNA → RNA direction backward.",
@@ -6338,7 +6338,7 @@
     "reverse transcriptase",
     "RNA polymerase",
     "DNA ligase",
-    "helicase"
+    "a restriction enzyme"
    ],
    "hint": "This enzyme runs the usual DNA → RNA direction backward.",
    "explain": "<b>Reverse transcriptase</b> builds DNA using viral RNA as the template. Nucleoside analogs such as AZT block this enzyme. RNA polymerase makes RNA from DNA."
@@ -6640,23 +6640,23 @@
   "prompt": "One turn of the citric acid cycle produces the reduced coenzymes and GTP listed in the table. Using the ATP values given, how many ATP are produced from one acetyl CoA?",
   "choices": [
    "10",
-   "12",
+   "7.5",
    "9",
    "8.5"
   ],
   "answer": "10",
   "hint": "Multiply each coenzyme by its ATP yield, then add the GTP.",
-  "explain": "3(2.5) + 1(1.5) + 1 = 7.5 + 1.5 + 1 = 10 ATP. Forgetting the GTP gives 9; using older yields of 3 and 2 gives 12.",
+  "explain": "3(2.5) + 1(1.5) + 1 = 7.5 + 1.5 + 1 = 10 ATP. Forgetting the GTP gives 9; forgetting the FADH₂ gives 8.5; counting only the NADH gives 7.5.",
   "html": {
    "prompt": "One turn of the citric acid cycle produces the reduced coenzymes and GTP listed in the table. Using the ATP values given, how many ATP are produced from one acetyl CoA?",
    "choices": [
     "10",
-    "12",
+    "7.5",
     "9",
     "8.5"
    ],
    "hint": "Multiply each coenzyme by its ATP yield, then add the GTP.",
-   "explain": "3(2.5) + 1(1.5) + 1 = 7.5 + 1.5 + 1 = <b>10 ATP</b>. Forgetting the GTP gives 9; using older yields of 3 and 2 gives 12."
+   "explain": "3(2.5) + 1(1.5) + 1 = 7.5 + 1.5 + 1 = <b>10 ATP</b>. Forgetting the GTP gives 9; forgetting the FADH<sub>2</sub> gives 8.5; counting only the NADH gives 7.5."
   },
   "data": {
    "f": [
@@ -7479,23 +7479,23 @@
   "prompt": "Using the ATP values in the table, how many ATP form when one pyruvate is completely oxidized to CO₂ (conversion to acetyl CoA plus one turn of the citric acid cycle)?",
   "choices": [
    "12.5",
-   "10",
+   "15",
    "13.5",
    "25"
   ],
   "answer": "12.5",
   "hint": "Count the NADH from pyruvate → acetyl CoA, then the NADH, FADH₂ and GTP from one turn of the cycle.",
-  "explain": "Pyruvate → acetyl CoA: 1 NADH = 2.5 ATP. One turn: 3 NADH × 2.5 = 7.5, 1 FADH₂ × 1.5 = 1.5, 1 GTP = 1, total 10. Sum = 2.5 + 10 = 12.5 ATP. 10 forgets the NADH from the pyruvate step; 25 is for two pyruvates (one glucose).",
+  "explain": "Pyruvate → acetyl CoA: 1 NADH = 2.5 ATP. One turn: 3 NADH × 2.5 = 7.5, 1 FADH₂ × 1.5 = 1.5, 1 GTP = 1, total 10. Sum = 2.5 + 10 = 12.5 ATP. 13.5 counts the FADH₂ as 2.5; 15 uses the older values of 3 ATP per NADH and 2 per FADH₂; 25 is for two pyruvates (one glucose).",
   "html": {
    "prompt": "Using the ATP values in the table, how many ATP form when one pyruvate is completely oxidized to CO<sub>2</sub> (conversion to acetyl CoA plus one turn of the citric acid cycle)?",
    "choices": [
     "12.5",
-    "10",
+    "15",
     "13.5",
     "25"
    ],
    "hint": "Count the NADH from pyruvate → acetyl CoA, then the NADH, FADH<sub>2</sub> and GTP from one turn of the cycle.",
-   "explain": "Pyruvate → acetyl CoA: 1 NADH = 2.5 ATP. One turn: 3 NADH × 2.5 = 7.5, 1 FADH<sub>2</sub> × 1.5 = 1.5, 1 GTP = 1, total 10. Sum = 2.5 + 10 = <b>12.5 ATP</b>. 10 forgets the NADH from the pyruvate step; 25 is for two pyruvates (one glucose)."
+   "explain": "Pyruvate → acetyl CoA: 1 NADH = 2.5 ATP. One turn: 3 NADH × 2.5 = 7.5, 1 FADH<sub>2</sub> × 1.5 = 1.5, 1 GTP = 1, total 10. Sum = 2.5 + 10 = <b>12.5 ATP</b>. 13.5 counts the FADH<sub>2</sub> as 2.5; 15 uses the older values of 3 ATP per NADH and 2 per FADH<sub>2</sub>; 25 is for two pyruvates (one glucose)."
   },
   "data": {
    "f": [
@@ -7596,21 +7596,21 @@
    "106",
    "108",
    "110",
-   "96"
+   "129"
   ],
   "answer": "106",
   "hint": "A 16-carbon acid gives 8 acetyl CoA. The number of β-oxidation cycles is one less than that; each cycle gives 1 NADH and 1 FADH₂.",
-  "explain": "16 C → 8 acetyl CoA from 7 cycles. 8 × 10 = 80; 7 NADH × 2.5 = 17.5; 7 FADH₂ × 1.5 = 10.5; activation −2. Net = 80 + 17.5 + 10.5 − 2 = 106 ATP. 108 forgets the activation cost; 110 uses 8 cycles instead of 7.",
+  "explain": "16 C → 8 acetyl CoA from 7 cycles. 8 × 10 = 80; 7 NADH × 2.5 = 17.5; 7 FADH₂ × 1.5 = 10.5; activation −2. Net = 80 + 17.5 + 10.5 − 2 = 106 ATP. 108 forgets the activation cost; 110 uses 8 cycles instead of 7; 129 uses the older values of 3 ATP per NADH and 2 per FADH₂.",
   "html": {
    "prompt": "Palmitic acid, CH<sub>3</sub>(CH<sub>2</sub>)<sub>14</sub>COOH, is completely oxidized. Using the ATP values in the table, what is the net ATP yield?",
    "choices": [
     "106",
     "108",
     "110",
-    "96"
+    "129"
    ],
    "hint": "A 16-carbon acid gives 8 acetyl CoA. The number of β-oxidation cycles is one less than that; each cycle gives 1 NADH and 1 FADH<sub>2</sub>.",
-   "explain": "16 C → 8 acetyl CoA from 7 cycles. 8 × 10 = 80; 7 NADH × 2.5 = 17.5; 7 FADH<sub>2</sub> × 1.5 = 10.5; activation −2. Net = 80 + 17.5 + 10.5 − 2 = <b>106 ATP</b>. 108 forgets the activation cost; 110 uses 8 cycles instead of 7."
+   "explain": "16 C → 8 acetyl CoA from 7 cycles. 8 × 10 = 80; 7 NADH × 2.5 = 17.5; 7 FADH<sub>2</sub> × 1.5 = 10.5; activation −2. Net = 80 + 17.5 + 10.5 − 2 = <b>106 ATP</b>. 108 forgets the activation cost; 110 uses 8 cycles instead of 7; 129 uses the older values of 3 ATP per NADH and 2 per FADH<sub>2</sub>."
   },
   "data": {
    "f": [
@@ -9137,23 +9137,23 @@
   "prompt": "Not counting cis–trans isomers, how many open-chain alkenes have the formula C₅H₁₀?",
   "choices": [
    "5",
-   "6",
+   "2",
    "4",
    "3"
   ],
   "answer": "5",
   "hint": "Place the double bond in every distinct position on pentane, then on 2-methylbutane. 2,2-dimethylpropane has no room for C=C.",
-  "explain": "Pentane skeleton: 1-pentene, 2-pentene. 2-Methylbutane skeleton: 2-methyl-1-butene, 3-methyl-1-butene, 2-methyl-2-butene. Total 5. 6 is the count if cis- and trans-2-pentene are counted separately.",
+  "explain": "Pentane skeleton: 1-pentene, 2-pentene. 2-Methylbutane skeleton: 2-methyl-1-butene, 3-methyl-1-butene, 2-methyl-2-butene. Total 5. Answering 2 counts only the straight-chain skeleton and forgets the branched alkenes; 4 misses one of the branched ones.",
   "html": {
    "prompt": "Not counting cis–trans isomers, how many open-chain alkenes have the formula C<sub>5</sub>H<sub>10</sub>?",
    "choices": [
     "5",
-    "6",
+    "2",
     "4",
     "3"
    ],
    "hint": "Place the double bond in every distinct position on pentane, then on 2-methylbutane. 2,2-dimethylpropane has no room for C=C.",
-   "explain": "Pentane skeleton: 1-pentene, 2-pentene. 2-Methylbutane skeleton: 2-methyl-1-butene, 3-methyl-1-butene, 2-methyl-2-butene. Total <b>5</b>. 6 is the count if cis- and trans-2-pentene are counted separately."
+   "explain": "Pentane skeleton: 1-pentene, 2-pentene. 2-Methylbutane skeleton: 2-methyl-1-butene, 3-methyl-1-butene, 2-methyl-2-butene. Total <b>5</b>. Answering 2 counts only the straight-chain skeleton and forgets the branched alkenes; 4 misses one of the branched ones."
   },
   "from": {
    "game": "finalexam",
@@ -10080,21 +10080,21 @@
    "151.16 g mol⁻¹",
    "135.16 g mol⁻¹",
    "43.03 g mol⁻¹",
-   "167.16 g mol⁻¹"
+   "137.15 g mol⁻¹"
   ],
   "answer": "151.16 g mol⁻¹",
   "hint": "Multiply each atomic mass by its subscript and add: C 12.01, H 1.008, N 14.01, O 16.00.",
-  "explain": "8(12.01) + 9(1.008) + 1(14.01) + 2(16.00) = 96.08 + 9.072 + 14.01 + 32.00 = 151.16 g mol⁻¹. 43.03 comes from adding one of each atom without the subscripts; 135.16 uses only one O and 167.16 uses three.",
+  "explain": "8(12.01) + 9(1.008) + 1(14.01) + 2(16.00) = 96.08 + 9.072 + 14.01 + 32.00 = 151.16 g mol⁻¹. 43.03 comes from adding one of each atom without the subscripts; 135.16 uses only one O; 137.15 leaves out the nitrogen.",
   "html": {
    "prompt": "Acetaminophen, the pain reliever in Tylenol, has the formula C<sub>8</sub>H<sub>9</sub>NO<sub>2</sub>. What is its molar mass?",
    "choices": [
     "151.16 g mol⁻¹",
     "135.16 g mol⁻¹",
     "43.03 g mol⁻¹",
-    "167.16 g mol⁻¹"
+    "137.15 g mol⁻¹"
    ],
    "hint": "Multiply each atomic mass by its subscript and add: C 12.01, H 1.008, N 14.01, O 16.00.",
-   "explain": "8(12.01) + 9(1.008) + 1(14.01) + 2(16.00) = 96.08 + 9.072 + 14.01 + 32.00 = <b>151.16 g mol⁻¹</b>. 43.03 comes from adding one of each atom without the subscripts; 135.16 uses only one O and 167.16 uses three."
+   "explain": "8(12.01) + 9(1.008) + 1(14.01) + 2(16.00) = 96.08 + 9.072 + 14.01 + 32.00 = <b>151.16 g mol⁻¹</b>. 43.03 comes from adding one of each atom without the subscripts; 135.16 uses only one O; 137.15 leaves out the nitrogen."
   },
   "from": {
    "game": "finalexam",
@@ -10850,9 +10850,9 @@
   "prompt": "Choline, (CH₃)₃N⁺CH₂CH₂OH, is needed to make the neurotransmitter acetylcholine. How is its nitrogen classified?",
   "choices": [
    "quaternary ammonium ion",
-   "tertiary amine",
-   "secondary amine",
-   "primary amine"
+   "tertiary (3°) amine",
+   "secondary (2°) amine",
+   "primary (1°) amine"
   ],
   "answer": "quaternary ammonium ion",
   "hint": "Count the carbon atoms bonded directly to nitrogen.",
@@ -10861,9 +10861,9 @@
    "prompt": "Choline, (CH<sub>3</sub>)<sub>3</sub>N<sup>+</sup>CH<sub>2</sub>CH<sub>2</sub>OH, is needed to make the neurotransmitter acetylcholine. How is its nitrogen classified?",
    "choices": [
     "quaternary ammonium ion",
-    "tertiary amine",
-    "secondary amine",
-    "primary amine"
+    "tertiary (3°) amine",
+    "secondary (2°) amine",
+    "primary (1°) amine"
    ],
    "hint": "Count the carbon atoms bonded directly to nitrogen.",
    "explain": "Nitrogen is bonded to four carbons (three CH<sub>3</sub> and one CH<sub>2</sub>) and carries a + charge: <b>quaternary ammonium ion</b>. A tertiary amine has only three carbons on a neutral N."
@@ -12860,21 +12860,21 @@
    "HS–CoA",
    "NAD⁺",
    "FAD",
-   "ATP"
+   "acetyl CoA"
   ],
   "answer": "HS–CoA",
   "hint": "The shortened fatty acid must stay “activated” as a thioester (acyl-CoA) to enter the next cycle.",
-  "explain": "Thiolysis uses HS–CoA to cleave the bond, releasing acetyl CoA and a fatty acyl CoA two carbons shorter. NAD⁺ and FAD are the oxidizing agents in earlier steps of the cycle; ATP is used only once, to activate the fatty acid.",
+  "explain": "Thiolysis uses HS–CoA to cleave the bond, releasing acetyl CoA and a fatty acyl CoA two carbons shorter. Acetyl CoA is the product that leaves, not the coenzyme that attaches; NAD⁺ and FAD are the oxidizing agents in earlier steps of the cycle.",
   "html": {
    "prompt": "In the final step of each β-oxidation cycle, a 2-carbon acetyl unit is split off from the fatty acyl chain, and the shortened chain is attached to a new coenzyme. Which coenzyme is it?",
    "choices": [
     "HS–CoA",
     "NAD<sup>+</sup>",
     "FAD",
-    "ATP"
+    "acetyl CoA"
    ],
    "hint": "The shortened fatty acid must stay “activated” as a thioester (acyl-CoA) to enter the next cycle.",
-   "explain": "Thiolysis uses <b>HS–CoA</b> to cleave the bond, releasing acetyl CoA and a fatty acyl CoA two carbons shorter. NAD<sup>+</sup> and FAD are the oxidizing agents in earlier steps of the cycle; ATP is used only once, to activate the fatty acid."
+   "explain": "Thiolysis uses <b>HS–CoA</b> to cleave the bond, releasing acetyl CoA and a fatty acyl CoA two carbons shorter. Acetyl CoA is the product that leaves, not the coenzyme that attaches; NAD<sup>+</sup> and FAD are the oxidizing agents in earlier steps of the cycle."
   },
   "from": {
    "game": "finalexam",
@@ -12904,22 +12904,22 @@
   "choices": [
    "201 kcal",
    "156 kcal",
-   "351 kcal",
+   "177 kcal",
    "186 kcal"
   ],
   "answer": "201 kcal",
   "hint": "Multiply each mass by its energy value (4, 9, 4 kcal g⁻¹) and add.",
-  "explain": "(24.0 g × 4 kcal g⁻¹) + (9.0 g × 9 kcal g⁻¹) + (6.0 g × 4 kcal g⁻¹) = 96 + 81 + 24 = 201 kcal. Using 4 kcal g⁻¹ for everything gives 156 kcal; switching the fat and protein values gives 186 kcal.",
+  "explain": "(24.0 g × 4 kcal g⁻¹) + (9.0 g × 9 kcal g⁻¹) + (6.0 g × 4 kcal g⁻¹) = 96 + 81 + 24 = 201 kcal. Using 4 kcal g⁻¹ for everything gives 156 kcal; switching the fat and protein values gives 186 kcal; leaving out the protein gives 177 kcal.",
   "html": {
    "prompt": "A granola bar contains the nutrients listed in the table. Using the energy values given, what is its energy content?",
    "choices": [
     "201 kcal",
     "156 kcal",
-    "351 kcal",
+    "177 kcal",
     "186 kcal"
    ],
    "hint": "Multiply each mass by its energy value (4, 9, 4 kcal g⁻¹) and add.",
-   "explain": "(24.0 g × 4 kcal g⁻¹) + (9.0 g × 9 kcal g⁻¹) + (6.0 g × 4 kcal g⁻¹) = 96 + 81 + 24 = <b>201 kcal</b>. Using 4 kcal g⁻¹ for everything gives 156 kcal; switching the fat and protein values gives 186 kcal."
+   "explain": "(24.0 g × 4 kcal g⁻¹) + (9.0 g × 9 kcal g⁻¹) + (6.0 g × 4 kcal g⁻¹) = 96 + 81 + 24 = <b>201 kcal</b>. Using 4 kcal g⁻¹ for everything gives 156 kcal; switching the fat and protein values gives 186 kcal; leaving out the protein gives 177 kcal."
   },
   "data": {
    "f": [
@@ -12977,23 +12977,23 @@
   "prompt": "A serving of a snack food contains the nutrients listed in the table. Using the energy values given, what percent of its Calories come from fat?",
   "choices": [
    "42%",
-   "24%",
+   "47%",
    "71%",
    "58%"
   ],
   "answer": "42%",
   "hint": "Find the kcal from each nutrient first, then divide fat kcal by the total kcal.",
-  "explain": "Fat: 12.0 × 9 = 108 kcal; carbohydrate: 30.0 × 4 = 120 kcal; protein: 8.0 × 4 = 32 kcal; total = 260 kcal. 108/260 × 100 = 42%. 24% is the percent of the mass that is fat, which ignores fat's higher energy per gram.",
+  "explain": "Fat: 12.0 × 9 = 108 kcal; carbohydrate: 30.0 × 4 = 120 kcal; protein: 8.0 × 4 = 32 kcal; total = 260 kcal. 108/260 × 100 = 42%. 47% leaves the protein out of the total (108/228); 58% is the percent that does not come from fat; 71% divides by the fat and protein kcal only.",
   "html": {
    "prompt": "A serving of a snack food contains the nutrients listed in the table. Using the energy values given, what percent of its Calories come from fat?",
    "choices": [
     "42%",
-    "24%",
+    "47%",
     "71%",
     "58%"
    ],
    "hint": "Find the kcal from each nutrient first, then divide fat kcal by the total kcal.",
-   "explain": "Fat: 12.0 × 9 = 108 kcal; carbohydrate: 30.0 × 4 = 120 kcal; protein: 8.0 × 4 = 32 kcal; total = 260 kcal. 108/260 × 100 = <b>42%</b>. 24% is the percent of the <i>mass</i> that is fat, which ignores fat's higher energy per gram."
+   "explain": "Fat: 12.0 × 9 = 108 kcal; carbohydrate: 30.0 × 4 = 120 kcal; protein: 8.0 × 4 = 32 kcal; total = 260 kcal. 108/260 × 100 = <b>42%</b>. 47% leaves the protein out of the total (108/228); 58% is the percent that does <i>not</i> come from fat; 71% divides by the fat and protein kcal only."
   },
   "data": {
    "f": [
@@ -13170,23 +13170,23 @@
   "prompt": "In the electron transport chain, a mitochondrion oxidizes the reduced coenzymes listed in the table. How many ATP are produced?",
   "choices": [
    "13 ATP",
-   "11 ATP",
+   "18 ATP",
    "15 ATP",
    "16 ATP"
   ],
   "answer": "13 ATP",
   "hint": "Multiply each coenzyme by its own ATP value. NADH gives more ATP than FADH₂.",
-  "explain": "4 NADH × 2.5 = 10 ATP and 2 FADH₂ × 1.5 = 3 ATP; total = 13 ATP. Swapping the two values gives 11, and using 2.5 for both gives 15.",
+  "explain": "4 NADH × 2.5 = 10 ATP and 2 FADH₂ × 1.5 = 3 ATP; total = 13 ATP. Using 2.5 for both coenzymes gives 15; the older values of 3 and 2 give 16; using 3 for all six coenzymes gives 18.",
   "html": {
    "prompt": "In the electron transport chain, a mitochondrion oxidizes the reduced coenzymes listed in the table. How many ATP are produced?",
    "choices": [
     "13 ATP",
-    "11 ATP",
+    "18 ATP",
     "15 ATP",
     "16 ATP"
    ],
    "hint": "Multiply each coenzyme by its own ATP value. NADH gives more ATP than FADH<sub>2</sub>.",
-   "explain": "4 NADH × 2.5 = 10 ATP and 2 FADH<sub>2</sub> × 1.5 = 3 ATP; total = <b>13 ATP</b>. Swapping the two values gives 11, and using 2.5 for both gives 15."
+   "explain": "4 NADH × 2.5 = 10 ATP and 2 FADH<sub>2</sub> × 1.5 = 3 ATP; total = <b>13 ATP</b>. Using 2.5 for both coenzymes gives 15; the older values of 3 and 2 give 16; using 3 for all six coenzymes gives 18."
   },
   "data": {
    "f": [
@@ -13363,22 +13363,22 @@
   "choices": [
    "Hydrohalogenation",
    "Halogenation",
-   "Hydration",
+   "Dehydrohalogenation",
    "Hydrogenation"
   ],
   "answer": "Hydrohalogenation",
   "hint": "Look at what added across the double bond: H₂, X₂, H₂O or H–X?",
-  "explain": "An H and an I (from H–I) added across the C=C, so this is hydrohalogenation, an addition reaction. Halogenation would add two halogen atoms (X₂).",
+  "explain": "An H and an I (from H–I) added across the C=C, so this is hydrohalogenation, an addition reaction. Halogenation would add two halogen atoms (X₂); dehydrohalogenation is the reverse, removing H–X to make an alkene.",
   "html": {
    "prompt": "1-Butene, CH<sub>3</sub>CH<sub>2</sub>CH=CH<sub>2</sub>, reacts with HI to give 2-iodobutane, CH<sub>3</sub>CH<sub>2</sub>CHICH<sub>3</sub>. Which type of reaction is this?",
    "choices": [
     "Hydrohalogenation",
     "Halogenation",
-    "Hydration",
+    "Dehydrohalogenation",
     "Hydrogenation"
    ],
    "hint": "Look at what added across the double bond: H<sub>2</sub>, X<sub>2</sub>, H<sub>2</sub>O or H–X?",
-   "explain": "An H and an I (from H–I) added across the C=C, so this is <b>hydrohalogenation</b>, an addition reaction. Halogenation would add two halogen atoms (X<sub>2</sub>)."
+   "explain": "An H and an I (from H–I) added across the C=C, so this is <b>hydrohalogenation</b>, an addition reaction. Halogenation would add two halogen atoms (X<sub>2</sub>); dehydrohalogenation is the reverse, removing H–X to make an alkene."
   },
   "from": {
    "game": "finalexam",
@@ -13530,23 +13530,23 @@
   "prompt": "Octane is a major component of gasoline. When the equation below for its complete combustion is balanced with the smallest whole numbers, what is the coefficient of O₂?",
   "choices": [
    "25",
-   "50",
+   "12.5",
    "17",
    "16"
   ],
   "answer": "25",
   "hint": "Balance C, then H, then O. If O₂ needs a half, double every coefficient.",
-  "explain": "C₈H₁₈ → 8 CO₂ + 9 H₂O needs 8(2) + 9 = 25 O atoms = 12.5 O₂. Doubling everything gives 2 C₈H₁₈ + 25 O₂ → 16 CO₂ + 18 H₂O. Answering 50 counts O atoms instead of O₂ molecules.",
+  "explain": "C₈H₁₈ → 8 CO₂ + 9 H₂O needs 8(2) + 9 = 25 O atoms = 12.5 O₂. Doubling everything gives 2 C₈H₁₈ + 25 O₂ → 16 CO₂ + 18 H₂O. Answering 12.5 stops before doubling, which is not a whole number; 16 copies the CO₂ coefficient; 17 adds 8 + 9.",
   "html": {
    "prompt": "Octane is a major component of gasoline. When the equation below for its complete combustion is balanced with the smallest whole numbers, what is the coefficient of O<sub>2</sub>?",
    "choices": [
     "25",
-    "50",
+    "12.5",
     "17",
     "16"
    ],
    "hint": "Balance C, then H, then O. If O<sub>2</sub> needs a half, double every coefficient.",
-   "explain": "C<sub>8</sub>H<sub>18</sub> → 8 CO<sub>2</sub> + 9 H<sub>2</sub>O needs 8(2) + 9 = 25 O atoms = 12.5 O<sub>2</sub>. Doubling everything gives 2 C<sub>8</sub>H<sub>18</sub> + <b>25 O<sub>2</sub></b> → 16 CO<sub>2</sub> + 18 H<sub>2</sub>O. Answering 50 counts O atoms instead of O<sub>2</sub> molecules."
+   "explain": "C<sub>8</sub>H<sub>18</sub> → 8 CO<sub>2</sub> + 9 H<sub>2</sub>O needs 8(2) + 9 = 25 O atoms = 12.5 O<sub>2</sub>. Doubling everything gives 2 C<sub>8</sub>H<sub>18</sub> + <b>25 O<sub>2</sub></b> → 16 CO<sub>2</sub> + 18 H<sub>2</sub>O. Answering 12.5 stops before doubling, which is not a whole number; 16 copies the CO<sub>2</sub> coefficient; 17 adds 8 + 9."
   },
   "data": {
    "f": [
@@ -15610,21 +15610,21 @@
    "8",
    "6",
    "3",
-   "9"
+   "4"
   ],
   "answer": "8",
   "hint": "Each chiral carbon has two possible arrangements. Multiply the possibilities.",
-  "explain": "Maximum stereoisomers = 2ⁿ = 2³ = 8 (four pairs of enantiomers). 6 comes from 2 × 3 and 9 from 3², both misusing the rule.",
+  "explain": "Maximum stereoisomers = 2ⁿ = 2³ = 8. Those 8 are four pairs of enantiomers, so 4 counts the pairs instead of the compounds; 6 comes from 2 × 3 and 3 from counting the chiral carbons themselves.",
   "html": {
    "prompt": "Ribose, the sugar in RNA, has 3 chiral carbons in its open-chain form. What is the maximum number of stereoisomers possible?",
    "choices": [
     "8",
     "6",
     "3",
-    "9"
+    "4"
    ],
    "hint": "Each chiral carbon has two possible arrangements. Multiply the possibilities.",
-   "explain": "Maximum stereoisomers = 2<sup>n</sup> = 2<sup>3</sup> = <b>8</b> (four pairs of enantiomers). 6 comes from 2 × 3 and 9 from 3<sup>2</sup>, both misusing the rule."
+   "explain": "Maximum stereoisomers = 2<sup>n</sup> = 2<sup>3</sup> = <b>8</b>. Those 8 are four pairs of enantiomers, so 4 counts the pairs instead of the compounds; 6 comes from 2 × 3 and 3 from counting the chiral carbons themselves."
   },
   "from": {
    "game": "finalexam",
@@ -17634,21 +17634,21 @@
    "189.17 g mol⁻¹",
    "225.21 g mol⁻¹",
    "207.19 g mol⁻¹",
-   "171.15 g mol⁻¹"
+   "243.23 g mol⁻¹"
   ],
   "answer": "189.17 g mol⁻¹",
   "hint": "Each peptide bond forms by condensation, releasing one H₂O. How many peptide bonds are in a tripeptide?",
-  "explain": "A tripeptide has 2 peptide bonds, so 2 H₂O are lost: 3(75.07) − 2(18.02) = 225.21 − 36.04 = 189.17 g mol⁻¹. Subtracting three waters (171.15) counts one peptide bond too many.",
+  "explain": "A tripeptide has 2 peptide bonds, so 2 H₂O are lost: 3(75.07) − 2(18.02) = 225.21 − 36.04 = 189.17 g mol⁻¹. 225.21 forgets the water lost; 207.19 removes only one water; 243.23 adds a water instead of removing them.",
   "html": {
    "prompt": "Using the molar masses in the table, what is the molar mass of the tripeptide Gly–Gly–Gly?",
    "choices": [
     "189.17 g mol⁻¹",
     "225.21 g mol⁻¹",
     "207.19 g mol⁻¹",
-    "171.15 g mol⁻¹"
+    "243.23 g mol⁻¹"
    ],
    "hint": "Each peptide bond forms by condensation, releasing one H<sub>2</sub>O. How many peptide bonds are in a tripeptide?",
-   "explain": "A tripeptide has 2 peptide bonds, so 2 H<sub>2</sub>O are lost: 3(75.07) − 2(18.02) = 225.21 − 36.04 = <b>189.17 g mol⁻¹</b>. Subtracting three waters (171.15) counts one peptide bond too many."
+   "explain": "A tripeptide has 2 peptide bonds, so 2 H<sub>2</sub>O are lost: 3(75.07) − 2(18.02) = 225.21 − 36.04 = <b>189.17 g mol⁻¹</b>. 225.21 forgets the water lost; 207.19 removes only one water; 243.23 adds a water instead of removing them."
   },
   "data": {
    "f": [
@@ -18199,23 +18199,23 @@
   "prompt": "A 10-base-pair segment of double-stranded DNA contains 4 G–C pairs and 6 A–T pairs. How many hydrogen bonds hold the two strands of this segment together?",
   "choices": [
    "24",
-   "20",
+   "48",
    "26",
    "30"
   ],
   "answer": "24",
   "hint": "G–C pairs are held by 3 hydrogen bonds and A–T pairs by 2.",
-  "explain": "4 G–C × 3 = 12 and 6 A–T × 2 = 12, total 24 hydrogen bonds. Swapping the numbers (G–C = 2, A–T = 3) gives 26.",
+  "explain": "4 G–C × 3 = 12 and 6 A–T × 2 = 12, total 24 hydrogen bonds. Swapping the numbers (G–C = 2, A–T = 3) gives 26; using 3 for every pair gives 30; 48 counts each hydrogen bond twice, once from each strand.",
   "html": {
    "prompt": "A 10-base-pair segment of double-stranded DNA contains 4 G–C pairs and 6 A–T pairs. How many hydrogen bonds hold the two strands of this segment together?",
    "choices": [
     "24",
-    "20",
+    "48",
     "26",
     "30"
    ],
    "hint": "G–C pairs are held by 3 hydrogen bonds and A–T pairs by 2.",
-   "explain": "4 G–C × 3 = 12 and 6 A–T × 2 = 12, total <b>24</b> hydrogen bonds. Swapping the numbers (G–C = 2, A–T = 3) gives 26."
+   "explain": "4 G–C × 3 = 12 and 6 A–T × 2 = 12, total <b>24</b> hydrogen bonds. Swapping the numbers (G–C = 2, A–T = 3) gives 26; using 3 for every pair gives 30; 48 counts each hydrogen bond twice, once from each strand."
   },
   "from": {
    "game": "finalexam",
@@ -18414,21 +18414,21 @@
    "64",
    "66",
    "68",
-   "50"
+   "114"
   ],
   "answer": "64",
   "hint": "Find acetyl CoA (carbons ÷ 2) and β-oxidation cycles (acetyl CoA − 1). Each cycle gives 1 NADH and 1 FADH₂.",
-  "explain": "5 acetyl CoA × 10 = 50; 4 cycles give 4 NADH × 2.5 = 10 and 4 FADH₂ × 1.5 = 6. 50 + 10 + 6 − 2 = 64 ATP. 66 forgets the activation cost; 68 uses 5 cycles instead of 4.",
+  "explain": "5 acetyl CoA × 10 = 50; 4 cycles give 4 NADH × 2.5 = 10 and 4 FADH₂ × 1.5 = 6. 50 + 10 + 6 − 2 = 64 ATP. 66 forgets the activation cost; 68 uses 5 cycles instead of 4; 114 uses 10 acetyl CoA (one per carbon instead of one per two carbons).",
   "html": {
    "prompt": "Capric acid, a saturated 10-carbon fatty acid found in goat's milk, is completely oxidized. Using the ATP values in the table (subtract the activation cost), how many ATP are produced?",
    "choices": [
     "64",
     "66",
     "68",
-    "50"
+    "114"
    ],
    "hint": "Find acetyl CoA (carbons ÷ 2) and β-oxidation cycles (acetyl CoA − 1). Each cycle gives 1 NADH and 1 FADH<sub>2</sub>.",
-   "explain": "5 acetyl CoA × 10 = 50; 4 cycles give 4 NADH × 2.5 = 10 and 4 FADH<sub>2</sub> × 1.5 = 6. 50 + 10 + 6 − 2 = <b>64 ATP</b>. 66 forgets the activation cost; 68 uses 5 cycles instead of 4."
+   "explain": "5 acetyl CoA × 10 = 50; 4 cycles give 4 NADH × 2.5 = 10 and 4 FADH<sub>2</sub> × 1.5 = 6. 50 + 10 + 6 − 2 = <b>64 ATP</b>. 66 forgets the activation cost; 68 uses 5 cycles instead of 4; 114 uses 10 acetyl CoA (one per carbon instead of one per two carbons)."
   },
   "data": {
    "f": [
@@ -18531,23 +18531,23 @@
   "prompt": "One glucose is completely oxidized to CO₂ and H₂O by glycolysis, pyruvate oxidation, the citric acid cycle and electron transport. Using the ATP values in the table (count the NADH from glycolysis at the same value), what is the total ATP yield?",
   "choices": [
    "32",
-   "30",
+   "34",
    "36",
    "38"
   ],
   "answer": "32",
   "hint": "Tally per glucose: glycolysis (2 ATP, 2 NADH), 2 pyruvate → acetyl CoA (2 NADH), and two turns of the citric acid cycle (6 NADH, 2 FADH₂, 2 GTP).",
-  "explain": "NADH: 2 + 2 + 6 = 10 × 2.5 = 25; FADH₂: 2 × 1.5 = 3; ATP + GTP made directly: 2 + 2 = 4. Total = 32 ATP. 36 and 38 come from the older 3 ATP/NADH and 2 ATP/FADH₂ values.",
+  "explain": "NADH: 2 + 2 + 6 = 10 × 2.5 = 25; FADH₂: 2 × 1.5 = 3; ATP + GTP made directly: 2 + 2 = 4. Total = 32 ATP. 34 counts the 4 ATP made in glycolysis without subtracting the 2 invested; 36 and 38 come from the older 3 ATP/NADH and 2 ATP/FADH₂ values.",
   "html": {
    "prompt": "One glucose is completely oxidized to CO<sub>2</sub> and H<sub>2</sub>O by glycolysis, pyruvate oxidation, the citric acid cycle and electron transport. Using the ATP values in the table (count the NADH from glycolysis at the same value), what is the total ATP yield?",
    "choices": [
     "32",
-    "30",
+    "34",
     "36",
     "38"
    ],
    "hint": "Tally per glucose: glycolysis (2 ATP, 2 NADH), 2 pyruvate → acetyl CoA (2 NADH), and two turns of the citric acid cycle (6 NADH, 2 FADH<sub>2</sub>, 2 GTP).",
-   "explain": "NADH: 2 + 2 + 6 = 10 × 2.5 = 25; FADH<sub>2</sub>: 2 × 1.5 = 3; ATP + GTP made directly: 2 + 2 = 4. Total = <b>32 ATP</b>. 36 and 38 come from the older 3 ATP/NADH and 2 ATP/FADH<sub>2</sub> values."
+   "explain": "NADH: 2 + 2 + 6 = 10 × 2.5 = 25; FADH<sub>2</sub>: 2 × 1.5 = 3; ATP + GTP made directly: 2 + 2 = 4. Total = <b>32 ATP</b>. 34 counts the 4 ATP made in glycolysis without subtracting the 2 invested; 36 and 38 come from the older 3 ATP/NADH and 2 ATP/FADH<sub>2</sub> values."
   },
   "data": {
    "f": [
@@ -19020,21 +19020,21 @@
    "isocitrate → α-ketoglutarate",
    "succinate → fumarate",
    "citrate → isocitrate",
-   "fumarate → malate"
+   "succinyl CoA → succinate"
   ],
   "answer": "isocitrate → α-ketoglutarate",
   "hint": "An oxidative decarboxylation does two things at once: a coenzyme is reduced and a carbon leaves as CO₂.",
-  "explain": "Isocitrate → α-ketoglutarate releases both NADH and CO₂: the substrate is oxidized (NAD⁺ → NADH) and loses a carbon as CO₂. Succinate → fumarate is an oxidation (FAD) with no CO₂; citrate → isocitrate is an isomerization; fumarate → malate is a hydration.",
+  "explain": "Isocitrate → α-ketoglutarate releases both NADH and CO₂: the substrate is oxidized (NAD⁺ → NADH) and loses a carbon as CO₂. Succinate → fumarate is an oxidation (FAD) with no CO₂; citrate → isocitrate is an isomerization; succinyl CoA → succinate makes GTP but neither oxidizes nor decarboxylates.",
   "html": {
    "prompt": "In the citric acid cycle shown, which conversion is an <b>oxidative decarboxylation</b>?",
    "choices": [
     "isocitrate → α-ketoglutarate",
     "succinate → fumarate",
     "citrate → isocitrate",
-    "fumarate → malate"
+    "succinyl CoA → succinate"
    ],
    "hint": "An oxidative decarboxylation does two things at once: a coenzyme is reduced and a carbon leaves as CO<sub>2</sub>.",
-   "explain": "Isocitrate → α-ketoglutarate releases <b>both NADH and CO<sub>2</sub></b>: the substrate is oxidized (NAD<sup>+</sup> → NADH) and loses a carbon as CO<sub>2</sub>. Succinate → fumarate is an oxidation (FAD) with no CO<sub>2</sub>; citrate → isocitrate is an isomerization; fumarate → malate is a hydration."
+   "explain": "Isocitrate → α-ketoglutarate releases <b>both NADH and CO<sub>2</sub></b>: the substrate is oxidized (NAD<sup>+</sup> → NADH) and loses a carbon as CO<sub>2</sub>. Succinate → fumarate is an oxidation (FAD) with no CO<sub>2</sub>; citrate → isocitrate is an isomerization; succinyl CoA → succinate makes GTP but neither oxidizes nor decarboxylates."
   },
   "data": {
    "f": [
@@ -19121,22 +19121,22 @@
   "choices": [
    "oxaloacetate",
    "succinate",
-   "malate",
+   "succinyl CoA",
    "fumarate"
   ],
   "answer": "oxaloacetate",
   "hint": "Find the compound that comes right before citrate in the wheel; it is regenerated at the end of every turn.",
-  "explain": "Citrate (6 C) = acetyl group (2 C) + oxaloacetate (4 C). Oxaloacetate is the last compound of the wheel, so it is regenerated each turn, which is why the pathway is a cycle. Succinate, fumarate and malate are also 4-carbon compounds, but they come earlier in the cycle and do not react with acetyl CoA.",
+  "explain": "Citrate (6 C) = acetyl group (2 C) + oxaloacetate (4 C). Oxaloacetate is the last compound of the wheel, so it is regenerated each turn, which is why the pathway is a cycle. Succinyl CoA, succinate and fumarate are also 4-carbon compounds, but they come earlier in the cycle and do not react with acetyl CoA.",
   "html": {
    "prompt": "Acetyl CoA enters the cycle shown as indicated by the blue arrow. Which 4-carbon compound does the 2-carbon acetyl group combine with to form citrate (6 C)?",
    "choices": [
     "oxaloacetate",
     "succinate",
-    "malate",
+    "succinyl CoA",
     "fumarate"
    ],
    "hint": "Find the compound that comes right before citrate in the wheel; it is regenerated at the end of every turn.",
-   "explain": "Citrate (6 C) = acetyl group (2 C) + <b>oxaloacetate</b> (4 C). Oxaloacetate is the last compound of the wheel, so it is regenerated each turn, which is why the pathway is a cycle. Succinate, fumarate and malate are also 4-carbon compounds, but they come earlier in the cycle and do not react with acetyl CoA."
+   "explain": "Citrate (6 C) = acetyl group (2 C) + <b>oxaloacetate</b> (4 C). Oxaloacetate is the last compound of the wheel, so it is regenerated each turn, which is why the pathway is a cycle. Succinyl CoA, succinate and fumarate are also 4-carbon compounds, but they come earlier in the cycle and do not react with acetyl CoA."
   },
   "data": {
    "f": [
@@ -19901,21 +19901,21 @@
    "12 ATP",
    "7 ATP",
    "10 ATP",
-   "14 ATP"
+   "2 ATP"
   ],
   "answer": "12 ATP",
   "hint": "Add the NADH from both steps, multiply by its ATP value, then add the ATP made directly in glycolysis.",
-  "explain": "NADH: 2 (glycolysis) + 2 (pyruvate oxidation) = 4; 4 × 2.5 = 10 ATP. Add the 2 net ATP from glycolysis: 12 ATP. 7 counts only the glycolysis NADH (5 + 2); 10 forgets the 2 ATP made directly.",
+  "explain": "NADH: 2 (glycolysis) + 2 (pyruvate oxidation) = 4; 4 × 2.5 = 10 ATP. Add the 2 net ATP from glycolysis: 12 ATP. 7 counts only the glycolysis NADH (5 + 2); 10 forgets the 2 ATP made directly; 2 counts only the ATP made directly and ignores the NADH.",
   "html": {
    "prompt": "Using the pathway and the ATP value in the table, how many ATP in total come from converting one glucose into two acetyl CoA (count the ATP made directly plus the ATP made when all the NADH shown is oxidized)?",
    "choices": [
     "12 ATP",
     "7 ATP",
     "10 ATP",
-    "14 ATP"
+    "2 ATP"
    ],
    "hint": "Add the NADH from both steps, multiply by its ATP value, then add the ATP made directly in glycolysis.",
-   "explain": "NADH: 2 (glycolysis) + 2 (pyruvate oxidation) = 4; 4 × 2.5 = 10 ATP. Add the 2 net ATP from glycolysis: <b>12 ATP</b>. 7 counts only the glycolysis NADH (5 + 2); 10 forgets the 2 ATP made directly."
+   "explain": "NADH: 2 (glycolysis) + 2 (pyruvate oxidation) = 4; 4 × 2.5 = 10 ATP. Add the 2 net ATP from glycolysis: <b>12 ATP</b>. 7 counts only the glycolysis NADH (5 + 2); 10 forgets the 2 ATP made directly; 2 counts only the ATP made directly and ignores the NADH."
   },
   "data": {
    "f": [
@@ -20167,21 +20167,21 @@
    "78 ATP",
    "80 ATP",
    "82 ATP",
-   "60 ATP"
+   "95 ATP"
   ],
   "answer": "78 ATP",
   "hint": "Find the acetyl CoA (C ÷ 2) and the turns (one fewer). Each turn gives 1 NADH and 1 FADH₂; subtract the activation cost.",
-  "explain": "6 acetyl CoA × 10 = 60; 5 turns → 5 NADH × 2.5 = 12.5 and 5 FADH₂ × 1.5 = 7.5. Total 60 + 12.5 + 7.5 − 2 = 78 ATP. 80 forgets the 2-ATP activation cost; 82 uses 6 turns instead of 5.",
+  "explain": "6 acetyl CoA × 10 = 60; 5 turns → 5 NADH × 2.5 = 12.5 and 5 FADH₂ × 1.5 = 7.5. Total 60 + 12.5 + 7.5 − 2 = 78 ATP. 80 forgets the 2-ATP activation cost; 82 uses 6 turns instead of 5; 95 uses the older values of 3 ATP per NADH and 2 per FADH₂.",
   "html": {
    "prompt": "Lauric acid (12 C), the main fatty acid in coconut oil, is oxidized by the spiral shown and the citric acid cycle. Using the ATP values in the table, what is the net ATP yield?",
    "choices": [
     "78 ATP",
     "80 ATP",
     "82 ATP",
-    "60 ATP"
+    "95 ATP"
    ],
    "hint": "Find the acetyl CoA (C ÷ 2) and the turns (one fewer). Each turn gives 1 NADH and 1 FADH<sub>2</sub>; subtract the activation cost.",
-   "explain": "6 acetyl CoA × 10 = 60; 5 turns → 5 NADH × 2.5 = 12.5 and 5 FADH<sub>2</sub> × 1.5 = 7.5. Total 60 + 12.5 + 7.5 − 2 = <b>78 ATP</b>. 80 forgets the 2-ATP activation cost; 82 uses 6 turns instead of 5."
+   "explain": "6 acetyl CoA × 10 = 60; 5 turns → 5 NADH × 2.5 = 12.5 and 5 FADH<sub>2</sub> × 1.5 = 7.5. Total 60 + 12.5 + 7.5 − 2 = <b>78 ATP</b>. 80 forgets the 2-ATP activation cost; 82 uses 6 turns instead of 5; 95 uses the older values of 3 ATP per NADH and 2 per FADH<sub>2</sub>."
   },
   "data": {
    "f": [
@@ -20278,21 +20278,21 @@
    "39 NADH",
    "9 NADH",
    "30 NADH",
-   "40 NADH"
+   "36 NADH"
   ],
   "answer": "39 NADH",
   "hint": "Add two sources: the NADH from the turns of the spiral and the NADH from the acetyl CoA in the citric acid cycle.",
-  "explain": "20 C → 10 acetyl CoA in 9 turns. β-Oxidation: 9 NADH. Citric acid cycle: 10 × 3 = 30 NADH. Total = 39 NADH. 40 uses 10 turns instead of 9; 9 and 30 each count only one of the two sources.",
+  "explain": "20 C → 10 acetyl CoA in 9 turns. β-Oxidation: 9 NADH. Citric acid cycle: 10 × 3 = 30 NADH. Total = 39 NADH. 36 sends only 9 acetyl CoA through the cycle (confusing turns with acetyl CoA); 9 and 30 each count only one of the two sources.",
   "html": {
    "prompt": "Arachidic acid, a saturated 20-carbon fatty acid in peanut oil, is oxidized by the spiral shown and every acetyl CoA then goes through the citric acid cycle (3 NADH per acetyl CoA). How many NADH form in total?",
    "choices": [
     "39 NADH",
     "9 NADH",
     "30 NADH",
-    "40 NADH"
+    "36 NADH"
    ],
    "hint": "Add two sources: the NADH from the turns of the spiral and the NADH from the acetyl CoA in the citric acid cycle.",
-   "explain": "20 C → 10 acetyl CoA in 9 turns. β-Oxidation: 9 NADH. Citric acid cycle: 10 × 3 = 30 NADH. Total = <b>39 NADH</b>. 40 uses 10 turns instead of 9; 9 and 30 each count only one of the two sources."
+   "explain": "20 C → 10 acetyl CoA in 9 turns. β-Oxidation: 9 NADH. Citric acid cycle: 10 × 3 = 30 NADH. Total = <b>39 NADH</b>. 36 sends only 9 acetyl CoA through the cycle (confusing turns with acetyl CoA); 9 and 30 each count only one of the two sources."
   },
   "data": {
    "f": [
@@ -70221,21 +70221,21 @@
    "3",
    "4",
    "5",
-   "2"
+   "6"
   ],
   "answer": "3",
   "hint": "End carbons (CH₂OH) have two identical H atoms, and the C=O carbon has a double bond. Check the rest.",
-  "explain": "Fructose has six carbons. The two CH₂OH carbons have two H atoms each, and the ketone carbon (C=O) has only three groups, so they are not chiral. The 3 CH(OH) carbons in between each have four different groups. Answering 4 is the count for glucose, which is an aldose with four CH(OH) carbons.",
+  "explain": "Fructose has six carbons. The two CH₂OH carbons have two H atoms each, and the ketone carbon (C=O) has only three groups, so they are not chiral. The 3 CH(OH) carbons in between each have four different groups. Answering 4 is the count for glucose, an aldose with four CH(OH) carbons; 6 counts every carbon.",
   "html": {
    "prompt": "The open-chain form of fructose (fruit sugar) is shown. How many chiral carbons does it have?",
    "choices": [
     "3",
     "4",
     "5",
-    "2"
+    "6"
    ],
    "hint": "End carbons (CH<sub>2</sub>OH) have two identical H atoms, and the C=O carbon has a double bond. Check the rest.",
-   "explain": "Fructose has six carbons. The two CH<sub>2</sub>OH carbons have two H atoms each, and the ketone carbon (C=O) has only three groups, so they are not chiral. The <b>3</b> CH(OH) carbons in between each have four different groups. Answering 4 is the count for glucose, which is an aldose with four CH(OH) carbons."
+   "explain": "Fructose has six carbons. The two CH<sub>2</sub>OH carbons have two H atoms each, and the ketone carbon (C=O) has only three groups, so they are not chiral. The <b>3</b> CH(OH) carbons in between each have four different groups. Answering 4 is the count for glucose, an aldose with four CH(OH) carbons; 6 counts every carbon."
   },
   "data": {
    "s": [
@@ -108459,7 +108459,7 @@
    "α,β(1→2)",
    "α(1→4)",
    "β(1→4)",
-   "β(1→6)"
+   "α,β(1→4)"
   ],
   "answer": "α,β(1→2)",
   "hint": "Look at which carbon of each ring the O bridges. The fructose anomeric carbon is C2.",
@@ -108470,7 +108470,7 @@
     "α,β(1→2)",
     "α(1→4)",
     "β(1→4)",
-    "β(1→6)"
+    "α,β(1→4)"
    ],
    "hint": "Look at which carbon of each ring the O bridges. The fructose anomeric carbon is C2.",
    "explain": "The O joins C1 of α-glucose (bond down) to C2 of β-fructose. Both anomeric carbons are used, so the link is <b>α,β(1→2)</b> (also written α(1→2)β)."
@@ -108888,8 +108888,8 @@
   "choices": [
    "Polar neutral",
    "Nonpolar",
-   "Acidic",
-   "Basic"
+   "Polar acidic",
+   "Polar basic"
   ],
   "answer": "Polar neutral",
   "hint": "Ignore the H₃N⁺–CH–COO⁻ backbone. Look only at the side chain: charged –COO⁻, charged –NH⁺₃, –OH/–SH/amide, or only C and H?",
@@ -108899,8 +108899,8 @@
    "choices": [
     "Polar neutral",
     "Nonpolar",
-    "Acidic",
-    "Basic"
+    "Polar acidic",
+    "Polar basic"
    ],
    "hint": "Ignore the H<sub>3</sub>N<sup>+</sup>–CH–COO<sup>−</sup> backbone. Look only at the side chain: charged –COO<sup>−</sup>, charged –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span>,</span> –OH/–SH/amide, or only C and H?",
    "explain": "The side chain is –CH<sub>2</sub>OH. The –OH can hydrogen bond with water but carries no charge, so serine is <b>polar neutral</b>."
@@ -109002,7 +109002,7 @@
   }
  },
  {
-  "id": "finalexam-432a2bda",
+  "id": "finalexam-e3d53967",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -109018,21 +109018,21 @@
   "calc": false,
   "prompt": "How is the side chain of the amino acid shown (as it exists at pH 7.4) classified?",
   "choices": [
-   "Acidic",
+   "Polar acidic",
    "Nonpolar",
    "Polar neutral",
-   "Basic"
+   "Polar basic"
   ],
-  "answer": "Acidic",
+  "answer": "Polar acidic",
   "hint": "Ignore the H₃N⁺–CH–COO⁻ backbone. Look only at the side chain: charged –COO⁻, charged –NH⁺₃, –OH/–SH/amide, or only C and H?",
   "explain": "The side chain ends in a carboxylate (–COO⁻), which is negatively charged at pH 7.4, so aspartate is acidic. The backbone COO⁻ does not count; every amino acid has one.",
   "html": {
    "prompt": "How is the side chain of the amino acid shown (as it exists at pH 7.4) classified?",
    "choices": [
-    "Acidic",
+    "Polar acidic",
     "Nonpolar",
     "Polar neutral",
-    "Basic"
+    "Polar basic"
    ],
    "hint": "Ignore the H<sub>3</sub>N<sup>+</sup>–CH–COO<sup>−</sup> backbone. Look only at the side chain: charged –COO<sup>−</sup>, charged –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span>,</span> –OH/–SH/amide, or only C and H?",
    "explain": "The side chain ends in a carboxylate (–COO<sup>−</sup>), which is negatively charged at pH 7.4, so aspartate is <b>acidic</b>. The backbone COO<sup>−</sup> does not count; every amino acid has one."
@@ -109158,7 +109158,7 @@
   }
  },
  {
-  "id": "finalexam-8541d93f",
+  "id": "finalexam-16c5915d",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -109174,21 +109174,21 @@
   "calc": false,
   "prompt": "How is the side chain of the amino acid shown (as it exists at pH 7.4) classified?",
   "choices": [
-   "Basic",
+   "Polar basic",
    "Nonpolar",
    "Polar neutral",
-   "Acidic"
+   "Polar acidic"
   ],
-  "answer": "Basic",
+  "answer": "Polar basic",
   "hint": "Ignore the H₃N⁺–CH–COO⁻ backbone. Look only at the side chain: charged –COO⁻, charged –NH⁺₃, –OH/–SH/amide, or only C and H?",
   "explain": "The side chain ends in an –NH⁺₃ group, positively charged at pH 7.4, so lysine is basic. The backbone H₃N⁺ is on every amino acid.",
   "html": {
    "prompt": "How is the side chain of the amino acid shown (as it exists at pH 7.4) classified?",
    "choices": [
-    "Basic",
+    "Polar basic",
     "Nonpolar",
     "Polar neutral",
-    "Acidic"
+    "Polar acidic"
    ],
    "hint": "Ignore the H<sub>3</sub>N<sup>+</sup>–CH–COO<sup>−</sup> backbone. Look only at the side chain: charged –COO<sup>−</sup>, charged –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span>,</span> –OH/–SH/amide, or only C and H?",
    "explain": "The side chain ends in an –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span></span> group, positively charged at pH 7.4, so lysine is <b>basic</b>. The backbone H<sub>3</sub>N<sup>+</sup> is on every amino acid."
@@ -109344,8 +109344,8 @@
   "choices": [
    "Nonpolar",
    "Polar neutral",
-   "Acidic",
-   "Basic"
+   "Polar acidic",
+   "Polar basic"
   ],
   "answer": "Nonpolar",
   "hint": "Ignore the H₃N⁺–CH–COO⁻ backbone. Look only at the side chain: charged –COO⁻, charged –NH⁺₃, –OH/–SH/amide, or only C and H?",
@@ -109355,8 +109355,8 @@
    "choices": [
     "Nonpolar",
     "Polar neutral",
-    "Acidic",
-    "Basic"
+    "Polar acidic",
+    "Polar basic"
    ],
    "hint": "Ignore the H<sub>3</sub>N<sup>+</sup>–CH–COO<sup>−</sup> backbone. Look only at the side chain: charged –COO<sup>−</sup>, charged –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span>,</span> –OH/–SH/amide, or only C and H?",
    "explain": "The side chain is a benzyl group (–CH<sub>2</sub>–C<sub>6</sub>H<sub>5</sub>) of only C and H, so phenylalanine is <b>nonpolar</b> and tends to be buried inside folded proteins."
@@ -109541,8 +109541,8 @@
   "choices": [
    "Polar neutral",
    "Nonpolar",
-   "Acidic",
-   "Basic"
+   "Polar acidic",
+   "Polar basic"
   ],
   "answer": "Polar neutral",
   "hint": "Ignore the H₃N⁺–CH–COO⁻ backbone. Look only at the side chain: charged –COO⁻, charged –NH⁺₃, –OH/–SH/amide, or only C and H?",
@@ -109552,8 +109552,8 @@
    "choices": [
     "Polar neutral",
     "Nonpolar",
-    "Acidic",
-    "Basic"
+    "Polar acidic",
+    "Polar basic"
    ],
    "hint": "Ignore the H<sub>3</sub>N<sup>+</sup>–CH–COO<sup>−</sup> backbone. Look only at the side chain: charged –COO<sup>−</sup>, charged –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span>,</span> –OH/–SH/amide, or only C and H?",
    "explain": "The side chain ends in an amide (–CONH<sub>2</sub>). Amides are polar but neither acidic nor basic at pH 7.4, so glutamine is <b>polar neutral</b>. Students often confuse it with glutamate, whose –COO<sup>−</sup> side chain is acidic."
@@ -117503,7 +117503,7 @@
   "choices": [
    "enantiomers",
    "diastereomers",
-   "identical (the same compound)",
+   "identical (same compound)",
    "constitutional isomers"
   ],
   "answer": "enantiomers",
@@ -117514,7 +117514,7 @@
    "choices": [
     "enantiomers",
     "diastereomers",
-    "identical (the same compound)",
+    "identical (same compound)",
     "constitutional isomers"
    ],
    "hint": "Compare each chiral carbon. Are both wedges/dashes switched, or only one? Then ask whether the molecule has an internal mirror plane.",
@@ -117681,7 +117681,7 @@
   }
  },
  {
-  "id": "finalexam-358c6ca8",
+  "id": "finalexam-c40a3741",
   "skill": "finalexam.3b.chirality",
   "courses": [
    "3B"
@@ -117697,24 +117697,24 @@
   "calc": false,
   "prompt": "What is the relationship between molecules I and II?",
   "choices": [
-   "identical (the same compound)",
+   "identical (same compound)",
    "enantiomers",
    "diastereomers",
    "constitutional isomers"
   ],
-  "answer": "identical (the same compound)",
+  "answer": "identical (same compound)",
   "hint": "Switching every wedge and dash draws the mirror image. But is this molecule chiral? Compare the three groups on each chiral carbon.",
-  "explain": "Switching both wedge/dash bonds draws the mirror image. But this is meso-2,3-butanediol: the two halves (CH₃, H, OH on each chiral carbon) mirror each other, so the molecule is achiral and its mirror image is the same molecule. I and II are identical (the same compound), not enantiomers.",
+  "explain": "Switching both wedge/dash bonds draws the mirror image. But this is meso-2,3-butanediol: the two halves (CH₃, H, OH on each chiral carbon) mirror each other, so the molecule is achiral and its mirror image is the same molecule. I and II are identical (same compound), not enantiomers.",
   "html": {
    "prompt": "What is the relationship between molecules I and II?",
    "choices": [
-    "identical (the same compound)",
+    "identical (same compound)",
     "enantiomers",
     "diastereomers",
     "constitutional isomers"
    ],
    "hint": "Switching every wedge and dash draws the mirror image. But is this molecule chiral? Compare the three groups on each chiral carbon.",
-   "explain": "Switching both wedge/dash bonds draws the mirror image. But this is <b>meso</b>-2,3-butanediol: the two halves (CH<sub>3</sub>, H, OH on each chiral carbon) mirror each other, so the molecule is achiral and its mirror image is the same molecule. I and II are <b>identical (the same compound)</b>, not enantiomers."
+   "explain": "Switching both wedge/dash bonds draws the mirror image. But this is <b>meso</b>-2,3-butanediol: the two halves (CH<sub>3</sub>, H, OH on each chiral carbon) mirror each other, so the molecule is achiral and its mirror image is the same molecule. I and II are <b>identical (same compound)</b>, not enantiomers."
   },
   "data": {
    "s": [
@@ -117895,7 +117895,7 @@
   "choices": [
    "diastereomers",
    "enantiomers",
-   "identical (the same compound)",
+   "identical (same compound)",
    "constitutional isomers"
   ],
   "answer": "diastereomers",
@@ -117906,7 +117906,7 @@
    "choices": [
     "diastereomers",
     "enantiomers",
-    "identical (the same compound)",
+    "identical (same compound)",
     "constitutional isomers"
    ],
    "hint": "Look at each chiral carbon in turn. How many of the two have a different wedge/dash in II than in I?",
@@ -118073,7 +118073,7 @@
   }
  },
  {
-  "id": "finalexam-ccf6103a",
+  "id": "finalexam-77f2d0ec",
   "skill": "finalexam.3b.chirality",
   "courses": [
    "3B"
@@ -118089,24 +118089,24 @@
   "calc": false,
   "prompt": "How are structures I and II related?",
   "choices": [
-   "identical (the same compound)",
+   "identical (same compound)",
    "enantiomers",
    "diastereomers",
    "constitutional isomers"
   ],
-  "answer": "identical (the same compound)",
+  "answer": "identical (same compound)",
   "hint": "Picture turning drawing I like a steering wheel, keeping it flat on the page. Do wedges stay wedges?",
-  "explain": "II is just I turned 180° in the plane of the page. Turning a drawing on the page never changes a wedge into a dash, so every group keeps its front/back position: identical (the same compound). Students who see the groups on \"opposite sides\" often call these enantiomers.",
+  "explain": "II is just I turned 180° in the plane of the page. Turning a drawing on the page never changes a wedge into a dash, so every group keeps its front/back position: identical (same compound). Students who see the groups on \"opposite sides\" often call these enantiomers.",
   "html": {
    "prompt": "How are structures I and II related?",
    "choices": [
-    "identical (the same compound)",
+    "identical (same compound)",
     "enantiomers",
     "diastereomers",
     "constitutional isomers"
    ],
    "hint": "Picture turning drawing I like a steering wheel, keeping it flat on the page. Do wedges stay wedges?",
-   "explain": "II is just I turned 180° in the plane of the page. Turning a drawing on the page never changes a wedge into a dash, so every group keeps its front/back position: <b>identical (the same compound)</b>. Students who see the groups on \"opposite sides\" often call these enantiomers."
+   "explain": "II is just I turned 180° in the plane of the page. Turning a drawing on the page never changes a wedge into a dash, so every group keeps its front/back position: <b>identical (same compound)</b>. Students who see the groups on \"opposite sides\" often call these enantiomers."
   },
   "data": {
    "s": [
@@ -118287,7 +118287,7 @@
   "choices": [
    "enantiomers",
    "diastereomers",
-   "identical (the same compound)",
+   "identical (same compound)",
    "constitutional isomers"
   ],
   "answer": "enantiomers",
@@ -118298,7 +118298,7 @@
    "choices": [
     "enantiomers",
     "diastereomers",
-    "identical (the same compound)",
+    "identical (same compound)",
     "constitutional isomers"
    ],
    "hint": "Imagine a mirror standing between I and II. Is II exactly the reflection of I? Then ask: is I superimposable on its reflection?",
@@ -118483,7 +118483,7 @@
   "choices": [
    "enantiomers",
    "diastereomers",
-   "identical (the same compound)",
+   "identical (same compound)",
    "constitutional isomers"
   ],
   "answer": "enantiomers",
@@ -118494,7 +118494,7 @@
    "choices": [
     "enantiomers",
     "diastereomers",
-    "identical (the same compound)",
+    "identical (same compound)",
     "constitutional isomers"
    ],
    "hint": "Count how many chiral carbons are switched. Could this molecule be meso when one carbon has Br and the other has Cl?",
@@ -118679,7 +118679,7 @@
   "choices": [
    "diastereomers",
    "enantiomers",
-   "identical (the same compound)",
+   "identical (same compound)",
    "constitutional isomers"
   ],
   "answer": "diastereomers",
@@ -118690,7 +118690,7 @@
    "choices": [
     "diastereomers",
     "enantiomers",
-    "identical (the same compound)",
+    "identical (same compound)",
     "constitutional isomers"
    ],
    "hint": "Check the carbon with Br, then the carbon with Cl. Which ones changed between wedge and dash?",
@@ -118857,7 +118857,7 @@
   }
  },
  {
-  "id": "finalexam-358c6ca8-784",
+  "id": "finalexam-c40a3741-784",
   "skill": "finalexam.3b.chirality",
   "courses": [
    "3B"
@@ -118873,24 +118873,24 @@
   "calc": false,
   "prompt": "What is the relationship between molecules I and II?",
   "choices": [
-   "identical (the same compound)",
+   "identical (same compound)",
    "enantiomers",
    "diastereomers",
    "constitutional isomers"
   ],
-  "answer": "identical (the same compound)",
+  "answer": "identical (same compound)",
   "hint": "Flipping a molecule over like a pancake reverses left–right AND turns every wedge into a dash. Does II match I after a flip?",
-  "explain": "II looks like a mirror image because left and right are reversed, but every wedge has also become a dash. That is exactly what you see after turning the molecule over (a 180° turn out of the page), so I and II are identical (the same compound). A true mirror image would reverse the layout but keep the wedges.",
+  "explain": "II looks like a mirror image because left and right are reversed, but every wedge has also become a dash. That is exactly what you see after turning the molecule over (a 180° turn out of the page), so I and II are identical (same compound). A true mirror image would reverse the layout but keep the wedges.",
   "html": {
    "prompt": "What is the relationship between molecules I and II?",
    "choices": [
-    "identical (the same compound)",
+    "identical (same compound)",
     "enantiomers",
     "diastereomers",
     "constitutional isomers"
    ],
    "hint": "Flipping a molecule over like a pancake reverses left–right AND turns every wedge into a dash. Does II match I after a flip?",
-   "explain": "II looks like a mirror image because left and right are reversed, but every wedge has also become a dash. That is exactly what you see after turning the molecule over (a 180° turn out of the page), so I and II are <b>identical (the same compound)</b>. A true mirror image would reverse the layout but keep the wedges."
+   "explain": "II looks like a mirror image because left and right are reversed, but every wedge has also become a dash. That is exactly what you see after turning the molecule over (a 180° turn out of the page), so I and II are <b>identical (same compound)</b>. A true mirror image would reverse the layout but keep the wedges."
   },
   "data": {
    "s": [
@@ -119071,7 +119071,7 @@
   "choices": [
    "diastereomers",
    "enantiomers",
-   "identical (the same compound)",
+   "identical (same compound)",
    "constitutional isomers"
   ],
   "answer": "diastereomers",
@@ -119082,7 +119082,7 @@
    "choices": [
     "diastereomers",
     "enantiomers",
-    "identical (the same compound)",
+    "identical (same compound)",
     "constitutional isomers"
    ],
    "hint": "First turn II by 180° in the page so the OH carbon is on the same side as in I. Then compare each chiral carbon.",
@@ -119267,7 +119267,7 @@
   "choices": [
    "enantiomers",
    "diastereomers",
-   "identical (the same compound)",
+   "identical (same compound)",
    "constitutional isomers"
   ],
   "answer": "enantiomers",
@@ -119278,7 +119278,7 @@
    "choices": [
     "enantiomers",
     "diastereomers",
-    "identical (the same compound)",
+    "identical (same compound)",
     "constitutional isomers"
    ],
    "hint": "Both methyls change between wedge and dash. Is this ring compound cis or trans, and does it have an internal mirror plane?",
@@ -119503,7 +119503,7 @@
   }
  },
  {
-  "id": "finalexam-358c6ca8-787",
+  "id": "finalexam-c40a3741-787",
   "skill": "finalexam.3b.chirality",
   "courses": [
    "3B"
@@ -119519,24 +119519,24 @@
   "calc": false,
   "prompt": "What is the relationship between molecules I and II?",
   "choices": [
-   "identical (the same compound)",
+   "identical (same compound)",
    "enantiomers",
    "diastereomers",
    "constitutional isomers"
   ],
-  "answer": "identical (the same compound)",
+  "answer": "identical (same compound)",
   "hint": "Both methyls are on the same side of the ring in each drawing. Does the cis compound have an internal mirror plane?",
-  "explain": "Both drawings are cis-1,2-dimethylcyclohexane: methyls both toward you in I and both away in II. Flip I over and you get II. The cis compound is meso (a mirror plane cuts between the two chiral carbons), so I and II are identical (the same compound).",
+  "explain": "Both drawings are cis-1,2-dimethylcyclohexane: methyls both toward you in I and both away in II. Flip I over and you get II. The cis compound is meso (a mirror plane cuts between the two chiral carbons), so I and II are identical (same compound).",
   "html": {
    "prompt": "What is the relationship between molecules I and II?",
    "choices": [
-    "identical (the same compound)",
+    "identical (same compound)",
     "enantiomers",
     "diastereomers",
     "constitutional isomers"
    ],
    "hint": "Both methyls are on the same side of the ring in each drawing. Does the cis compound have an internal mirror plane?",
-   "explain": "Both drawings are cis-1,2-dimethylcyclohexane: methyls both toward you in I and both away in II. Flip I over and you get II. The cis compound is <b>meso</b> (a mirror plane cuts between the two chiral carbons), so I and II are <b>identical (the same compound)</b>."
+   "explain": "Both drawings are cis-1,2-dimethylcyclohexane: methyls both toward you in I and both away in II. Flip I over and you get II. The cis compound is <b>meso</b> (a mirror plane cuts between the two chiral carbons), so I and II are <b>identical (same compound)</b>."
   },
   "data": {
    "s": [
@@ -119775,7 +119775,7 @@
   "choices": [
    "diastereomers",
    "enantiomers",
-   "identical (the same compound)",
+   "identical (same compound)",
    "constitutional isomers"
   ],
   "answer": "diastereomers",
@@ -119786,7 +119786,7 @@
    "choices": [
     "diastereomers",
     "enantiomers",
-    "identical (the same compound)",
+    "identical (same compound)",
     "constitutional isomers"
    ],
    "hint": "Decide whether each drawing has the methyls on the same side of the ring or on opposite sides. Then count how many chiral carbons differ.",
@@ -120031,7 +120031,7 @@
    "constitutional isomers",
    "enantiomers",
    "diastereomers",
-   "identical (the same compound)"
+   "identical (same compound)"
   ],
   "answer": "constitutional isomers",
   "hint": "Before looking at wedges, check where the methyl groups are attached. Are they on neighboring ring carbons in both?",
@@ -120042,7 +120042,7 @@
     "constitutional isomers",
     "enantiomers",
     "diastereomers",
-    "identical (the same compound)"
+    "identical (same compound)"
    ],
    "hint": "Before looking at wedges, check where the methyl groups are attached. Are they on neighboring ring carbons in both?",
    "explain": "Both are C<sub>8</sub>H<sub>16</sub>, but in I the methyls are on neighboring ring carbons (1,2) and in II they are separated by one CH<sub>2</sub> (1,3). Different connections make them <b>constitutional isomers</b>; the matching wedges do not matter."
@@ -120266,7 +120266,7 @@
   }
  },
  {
-  "id": "finalexam-358c6ca8-790",
+  "id": "finalexam-c40a3741-790",
   "skill": "finalexam.3b.chirality",
   "courses": [
    "3B"
@@ -120282,24 +120282,24 @@
   "calc": false,
   "prompt": "What is the relationship between molecules I and II?",
   "choices": [
-   "identical (the same compound)",
+   "identical (same compound)",
    "enantiomers",
    "diastereomers",
    "constitutional isomers"
   ],
-  "answer": "identical (the same compound)",
+  "answer": "identical (same compound)",
   "hint": "Both OH groups are on the same side of the ring in each drawing. Is cis-1,3-cyclopentanediol chiral, or does it have an internal mirror plane?",
-  "explain": "Both drawings show the two OH groups on the same side of the ring (cis): toward you in I, away in II, and II is also turned on the page. cis-1,3-Cyclopentanediol has a mirror plane through C2 and the middle of the opposite C–C bond, so it is meso and I and II are identical (the same compound).",
+  "explain": "Both drawings show the two OH groups on the same side of the ring (cis): toward you in I, away in II, and II is also turned on the page. cis-1,3-Cyclopentanediol has a mirror plane through C2 and the middle of the opposite C–C bond, so it is meso and I and II are identical (same compound).",
   "html": {
    "prompt": "What is the relationship between molecules I and II?",
    "choices": [
-    "identical (the same compound)",
+    "identical (same compound)",
     "enantiomers",
     "diastereomers",
     "constitutional isomers"
    ],
    "hint": "Both OH groups are on the same side of the ring in each drawing. Is cis-1,3-cyclopentanediol chiral, or does it have an internal mirror plane?",
-   "explain": "Both drawings show the two OH groups on the same side of the ring (cis): toward you in I, away in II, and II is also turned on the page. cis-1,3-Cyclopentanediol has a mirror plane through C2 and the middle of the opposite C–C bond, so it is <b>meso</b> and I and II are <b>identical (the same compound)</b>."
+   "explain": "Both drawings show the two OH groups on the same side of the ring (cis): toward you in I, away in II, and II is also turned on the page. cis-1,3-Cyclopentanediol has a mirror plane through C2 and the middle of the opposite C–C bond, so it is <b>meso</b> and I and II are <b>identical (same compound)</b>."
   },
   "data": {
    "s": [
@@ -120514,7 +120514,7 @@
   "choices": [
    "enantiomers",
    "diastereomers",
-   "identical (the same compound)",
+   "identical (same compound)",
    "constitutional isomers"
   ],
   "answer": "enantiomers",
@@ -120525,7 +120525,7 @@
    "choices": [
     "enantiomers",
     "diastereomers",
-    "identical (the same compound)",
+    "identical (same compound)",
     "constitutional isomers"
    ],
    "hint": "Turn II in the plane so its OH groups line up with I. Then compare wedges: is each one switched, or only one?",
@@ -120746,7 +120746,7 @@
    "constitutional isomers",
    "enantiomers",
    "diastereomers",
-   "identical (the same compound)"
+   "identical (same compound)"
   ],
   "answer": "constitutional isomers",
   "hint": "Find which ring carbons carry the OH groups in each drawing before thinking about wedges and dashes.",
@@ -120757,7 +120757,7 @@
     "constitutional isomers",
     "enantiomers",
     "diastereomers",
-    "identical (the same compound)"
+    "identical (same compound)"
    ],
    "hint": "Find which ring carbons carry the OH groups in each drawing before thinking about wedges and dashes.",
    "explain": "Both are C<sub>5</sub>H<sub>10</sub>O<sub>2</sub>. In I the OH groups are on neighboring ring carbons (1,2); in II a CH<sub>2</sub> separates them (1,3). Different connections means <b>constitutional isomers</b>; stereo terms only apply when the connections match."
@@ -120975,7 +120975,7 @@
   "choices": [
    "diastereomers",
    "enantiomers",
-   "identical (the same compound)",
+   "identical (same compound)",
    "constitutional isomers"
   ],
   "answer": "diastereomers",
@@ -120986,7 +120986,7 @@
    "choices": [
     "diastereomers",
     "enantiomers",
-    "identical (the same compound)",
+    "identical (same compound)",
     "constitutional isomers"
    ],
    "hint": "Compare the carbon bearing NH<sub>2</sub> and the carbon bearing OH separately. How many changed?",
@@ -121219,7 +121219,7 @@
   "choices": [
    "enantiomers",
    "diastereomers",
-   "identical (the same compound)",
+   "identical (same compound)",
    "constitutional isomers"
   ],
   "answer": "enantiomers",
@@ -121230,7 +121230,7 @@
    "choices": [
     "enantiomers",
     "diastereomers",
-    "identical (the same compound)",
+    "identical (same compound)",
     "constitutional isomers"
    ],
    "hint": "Turn II 180° on the page so COOH points the same way as in I. Then compare both chiral carbons.",
@@ -121463,7 +121463,7 @@
   "choices": [
    "diastereomers",
    "enantiomers",
-   "identical (the same compound)",
+   "identical (same compound)",
    "constitutional isomers"
   ],
   "answer": "diastereomers",
@@ -121474,7 +121474,7 @@
    "choices": [
     "diastereomers",
     "enantiomers",
-    "identical (the same compound)",
+    "identical (same compound)",
     "constitutional isomers"
    ],
    "hint": "Both drugs have two chiral carbons. Compare the carbon with OH and the carbon with the N group one at a time.",
@@ -121813,7 +121813,7 @@
   "choices": [
    "diastereomers",
    "enantiomers",
-   "identical (the same compound)",
+   "identical (same compound)",
    "constitutional isomers"
   ],
   "answer": "diastereomers",
@@ -121824,7 +121824,7 @@
    "choices": [
     "diastereomers",
     "enantiomers",
-    "identical (the same compound)",
+    "identical (same compound)",
     "constitutional isomers"
    ],
    "hint": "These four-carbon sugars have two chiral carbons. Compare the OH next to the CHO, then the other OH.",

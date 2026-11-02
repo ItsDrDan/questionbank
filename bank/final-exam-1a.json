@@ -17,23 +17,23 @@
   "prompt": "How many significant figures are in the measurement 0.0040600 g?",
   "choices": [
    "5",
-   "7",
+   "2",
    "3",
    "4"
   ],
   "answer": "5",
   "hint": "Leading zeros never count; zeros between nonzero digits and trailing zeros after a decimal point do count.",
-  "explain": "Ignore the leading 0.00; count 4, 0, 6, 0, 0 → 5 significant figures. The trailing zeros count because a decimal point is present.",
+  "explain": "Ignore the leading 0.00; count 4, 0, 6, 0, 0 → 5 significant figures. The trailing zeros count because a decimal point is present. Answering 2 counts only the nonzero digits; 3 and 4 drop one or both trailing zeros.",
   "html": {
    "prompt": "How many significant figures are in the measurement 0.0040600 g?",
    "choices": [
     "5",
-    "7",
+    "2",
     "3",
     "4"
    ],
    "hint": "Leading zeros never count; zeros between nonzero digits and trailing zeros after a decimal point do count.",
-   "explain": "Ignore the leading 0.00; count 4, 0, 6, 0, 0 → <b>5</b> significant figures. The trailing zeros count because a decimal point is present."
+   "explain": "Ignore the leading 0.00; count 4, 0, 6, 0, 0 → <b>5</b> significant figures. The trailing zeros count because a decimal point is present. Answering 2 counts only the nonzero digits; 3 and 4 drop one or both trailing zeros."
   },
   "from": {
    "game": "finalexam",
@@ -227,23 +227,23 @@
   "prompt": "Liquid nitrogen boils at 77 K. What is this temperature in °F?",
   "choices": [
    "−321 °F",
-   "−353 °F",
+   "171 °F",
    "−196 °F",
    "−77 °F"
   ],
   "answer": "−321 °F",
   "hint": "Go K → °C first, then °C → °F using °F = 1.8(°C) + 32.",
-  "explain": "77 − 273.15 = −196 °C; °F = 1.8(−196) + 32 = −321 °F. Forgetting the +32 gives −353 °F.",
+  "explain": "77 − 273.15 = −196 °C; °F = 1.8(−196) + 32 = −321 °F. 171 °F plugs 77 K straight into the °F formula without first converting to °C; −196 °F just relabels the Celsius value.",
   "html": {
    "prompt": "Liquid nitrogen boils at 77 K. What is this temperature in °F?",
    "choices": [
     "−321 °F",
-    "−353 °F",
+    "171 °F",
     "−196 °F",
     "−77 °F"
    ],
    "hint": "Go K → °C first, then °C → °F using °F = 1.8(°C) + 32.",
-   "explain": "77 − 273.15 = −196 °C; °F = 1.8(−196) + 32 = <b>−321 °F</b>. Forgetting the +32 gives −353 °F."
+   "explain": "77 − 273.15 = −196 °C; °F = 1.8(−196) + 32 = <b>−321 °F</b>. 171 °F plugs 77 K straight into the °F formula without first converting to °C; −196 °F just relabels the Celsius value."
   },
   "from": {
    "game": "finalexam",
@@ -420,22 +420,22 @@
   "choices": [
    "0.085 μm",
    "85,000 μm",
-   "8.5×10⁻⁵ μm",
+   "85 μm",
    "0.85 μm"
   ],
   "answer": "0.085 μm",
   "hint": "1 μm = 1000 nm. A micrometer is bigger than a nanometer, so the number should get smaller.",
-  "explain": "85 nm × (1 μm / 1000 nm) = 0.085 μm. 8.5×10⁻⁵ would be the value in millimeters.",
+  "explain": "85 nm × (1 μm / 1000 nm) = 0.085 μm. 85 μm changes only the unit label without converting; 0.85 μm divides by 100 instead of 1000.",
   "html": {
    "prompt": "A virus particle has a diameter of 85 nm. What is this diameter in micrometers (μm)?",
    "choices": [
     "0.085 μm",
     "85,000 μm",
-    "8.5×10<sup>−5</sup> μm",
+    "85 μm",
     "0.85 μm"
    ],
    "hint": "1 μm = 1000 nm. A micrometer is bigger than a nanometer, so the number should get smaller.",
-   "explain": "85 nm × (1 μm / 1000 nm) = <b>0.085 μm</b>. 8.5×10⁻⁵ would be the value in millimeters."
+   "explain": "85 nm × (1 μm / 1000 nm) = <b>0.085 μm</b>. 85 μm changes only the unit label without converting; 0.85 μm divides by 100 instead of 1000."
   },
   "from": {
    "game": "finalexam",
@@ -655,21 +655,21 @@
    "80.0%",
    "20.0%",
    "50.0%",
-   "91.0%"
+   "7.2%"
   ],
   "answer": "80.0%",
   "hint": "Let x = fraction of B-11; then 10.81 = 11.0093x + 10.0129(1 − x). Solve for x.",
-  "explain": "x = (10.81 − 10.0129)/(11.0093 − 10.0129) = 0.800 → 80.0% B-11. Since 10.81 is closer to 11, B-11 must be the major isotope; 20.0% is the B-10 abundance.",
+  "explain": "x = (10.81 − 10.0129)/(11.0093 − 10.0129) = 0.800 → 80.0% B-11. Since 10.81 is closer to 11, B-11 must be the major isotope; 20.0% is the B-10 abundance. 7.2% divides by the B-11 mass (11.0093) instead of by the difference between the two isotope masses.",
   "html": {
    "prompt": "Boron (average atomic mass 10.81 u) consists of the two isotopes in the table. What is the percent abundance of B-11?",
    "choices": [
     "80.0%",
     "20.0%",
     "50.0%",
-    "91.0%"
+    "7.2%"
    ],
    "hint": "Let x = fraction of B-11; then 10.81 = 11.0093x + 10.0129(1 − x). Solve for x.",
-   "explain": "x = (10.81 − 10.0129)/(11.0093 − 10.0129) = 0.800 → <b>80.0%</b> B-11. Since 10.81 is closer to 11, B-11 must be the major isotope; 20.0% is the B-10 abundance."
+   "explain": "x = (10.81 − 10.0129)/(11.0093 − 10.0129) = 0.800 → <b>80.0%</b> B-11. Since 10.81 is closer to 11, B-11 must be the major isotope; 20.0% is the B-10 abundance. 7.2% divides by the B-11 mass (11.0093) instead of by the difference between the two isotope masses."
   },
   "data": {
    "f": [
@@ -1052,23 +1052,23 @@
   "prompt": "How many ions are released when one formula unit of Ca₃(PO₄)₂ dissociates completely?",
   "choices": [
    "5",
-   "13",
+   "4",
    "2",
    "3"
   ],
   "answer": "5",
   "hint": "Polyatomic ions stay together; count cations plus anions.",
-  "explain": "3 Ca²⁺ + 2 PO³⁻₄ = 5 ions. 13 counts every atom as if the phosphate ions broke apart.",
+  "explain": "3 Ca²⁺ + 2 PO³⁻₄ = 5 ions. 4 ignores the subscript 2 outside the parentheses and counts only one phosphate; 2 counts the kinds of ions, not how many.",
   "html": {
    "prompt": "How many ions are released when one formula unit of Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> dissociates completely?",
    "choices": [
     "5",
-    "13",
+    "4",
     "2",
     "3"
    ],
    "hint": "Polyatomic ions stay together; count cations plus anions.",
-   "explain": "3 Ca<sup>2+</sup> + 2 <span class=\"nw\">PO<span class=\"ss\"><sup>3−</sup><sub>4</sub></span></span> = <b>5 ions</b>. 13 counts every atom as if the phosphate ions broke apart."
+   "explain": "3 Ca<sup>2+</sup> + 2 <span class=\"nw\">PO<span class=\"ss\"><sup>3−</sup><sub>4</sub></span></span> = <b>5 ions</b>. 4 ignores the subscript 2 outside the parentheses and counts only one phosphate; 2 counts the kinds of ions, not how many."
   },
   "from": {
    "game": "finalexam",
@@ -1348,21 +1348,21 @@
    "0.574 M",
    "0.287 M",
    "0.143 M",
-   "1.15 M"
+   "5.74×10⁻⁴ M"
   ],
   "answer": "0.574 M",
   "hint": "Find the molarity of K₂SO₄ first, then use the number of K⁺ ions per formula unit.",
-  "explain": "25.0 g ÷ 174.26 g mol⁻¹ = 0.1435 mol ÷ 0.5000 L = 0.287 M K₂SO₄. Each unit gives 2 K⁺ → 0.574 M K⁺. 0.287 M is the salt concentration, not the ion concentration.",
+  "explain": "25.0 g ÷ 174.26 g mol⁻¹ = 0.1435 mol ÷ 0.5000 L = 0.287 M K₂SO₄. Each unit gives 2 K⁺ → 0.574 M K⁺. 0.287 M is the salt concentration, not the ion concentration. 5.74×10⁻⁴ M divides by 500 instead of 0.500 L (mL never converted to L).",
   "html": {
    "prompt": "25.0 g of K<sub>2</sub>SO<sub>4</sub> is dissolved in enough water to make 500.0 mL of solution. What is the concentration of K<sup>+</sup> ions?",
    "choices": [
     "0.574 M",
     "0.287 M",
     "0.143 M",
-    "1.15 M"
+    "5.74×10<sup>−4</sup> M"
    ],
    "hint": "Find the molarity of K₂SO₄ first, then use the number of K⁺ ions per formula unit.",
-   "explain": "25.0 g ÷ 174.26 g mol⁻¹ = 0.1435 mol ÷ 0.5000 L = 0.287 M K₂SO₄. Each unit gives 2 K⁺ → <b>0.574 M K<sup>+</sup></b>. 0.287 M is the salt concentration, not the ion concentration."
+   "explain": "25.0 g ÷ 174.26 g mol⁻¹ = 0.1435 mol ÷ 0.5000 L = 0.287 M K₂SO₄. Each unit gives 2 K⁺ → <b>0.574 M K<sup>+</sup></b>. 0.287 M is the salt concentration, not the ion concentration. 5.74×10<sup>−4</sup> M divides by 500 instead of 0.500 L (mL never converted to L)."
   },
   "from": {
    "game": "finalexam",
@@ -1390,21 +1390,21 @@
    "31.3 mL",
    "2.00×10³ mL",
    "219 mL",
-   "3.13 mL"
+   "375 mL"
   ],
   "answer": "31.3 mL",
   "hint": "Moles of solute don't change on dilution: M₁V₁ = M₂V₂.",
-  "explain": "V₁ = (1.50 M)(250. mL)/12.0 M = 31.3 mL, then dilute to 250. mL. 219 mL is how much water to add (approximately), not how much acid to measure.",
+  "explain": "V₁ = (1.50 M)(250. mL)/12.0 M = 31.3 mL, then dilute to 250. mL. 219 mL is how much water to add (approximately), not how much acid to measure. 375 mL multiplies 1.50 M by 250. mL but never divides by 12.0 M.",
   "html": {
    "prompt": "What volume of 12.0 M HCl is needed to prepare 250. mL of 1.50 M HCl?",
    "choices": [
     "31.3 mL",
     "2.00×10<sup>3</sup> mL",
     "219 mL",
-    "3.13 mL"
+    "375 mL"
    ],
    "hint": "Moles of solute don't change on dilution: M₁V₁ = M₂V₂.",
-   "explain": "V₁ = (1.50 M)(250. mL)/12.0 M = <b>31.3 mL</b>, then dilute to 250. mL. 219 mL is how much water to add (approximately), not how much acid to measure."
+   "explain": "V₁ = (1.50 M)(250. mL)/12.0 M = <b>31.3 mL</b>, then dilute to 250. mL. 219 mL is how much water to add (approximately), not how much acid to measure. 375 mL multiplies 1.50 M by 250. mL but never divides by 12.0 M."
   },
   "from": {
    "game": "finalexam",
@@ -1599,22 +1599,22 @@
   "choices": [
    "13.5 g",
    "27.0 g",
-   "0.0750 g",
+   "2.40×10³ g",
    "13500 g"
   ],
   "answer": "13.5 g",
   "hint": "Moles = M × V (in liters); grams = moles × molar mass.",
-  "explain": "0.150 mol L⁻¹ × 0.5000 L = 0.0750 mol × 180.16 g mol⁻¹ = 13.5 g. 0.0750 g forgets to convert moles to grams.",
+  "explain": "0.150 mol L⁻¹ × 0.5000 L = 0.0750 mol × 180.16 g mol⁻¹ = 13.5 g. 2.40×10³ g divides the molar mass by the moles instead of multiplying; 13500 g forgets to convert mL to L.",
   "html": {
    "prompt": "What mass of glucose (180.16 g mol⁻¹) is needed to prepare 500.0 mL of a 0.150 M solution?",
    "choices": [
     "13.5 g",
     "27.0 g",
-    "0.0750 g",
+    "2.40×10<sup>3</sup> g",
     "13500 g"
    ],
    "hint": "Moles = M × V (in liters); grams = moles × molar mass.",
-   "explain": "0.150 mol L⁻¹ × 0.5000 L = 0.0750 mol × 180.16 g mol⁻¹ = <b>13.5 g</b>. 0.0750 g forgets to convert moles to grams."
+   "explain": "0.150 mol L⁻¹ × 0.5000 L = 0.0750 mol × 180.16 g mol⁻¹ = <b>13.5 g</b>. 2.40×10<sup>3</sup> g divides the molar mass by the moles instead of multiplying; 13500 g forgets to convert mL to L."
   },
   "from": {
    "game": "finalexam",
@@ -2286,21 +2286,21 @@
    "0.06480 M",
    "0.1296 M",
    "0.07716 M",
-   "0.03240 M"
+   "0.2592 M"
   ],
   "answer": "0.06480 M",
   "hint": "H₂SO₄ is diprotic: H₂SO₄ + 2 NaOH → Na₂SO₄ + 2 H₂O.",
-  "explain": "mol NaOH = 0.03240 L × 0.1000 M = 0.003240; mol H₂SO₄ = ½ × that = 0.001620; ÷ 0.02500 L = 0.06480 M. Ignoring the 2 : 1 ratio gives 0.1296 M.",
+  "explain": "mol NaOH = 0.03240 L × 0.1000 M = 0.003240; mol H₂SO₄ = ½ × that = 0.001620; ÷ 0.02500 L = 0.06480 M. Ignoring the 2 : 1 ratio gives 0.1296 M. 0.2592 M multiplies by 2 instead of dividing; 0.07716 M inverts the volume ratio.",
   "html": {
    "prompt": "A 25.00 mL sample of H<sub>2</sub>SO<sub>4</sub> requires 32.40 mL of 0.1000 M NaOH to reach the equivalence point. What is the molarity of the H<sub>2</sub>SO<sub>4</sub>?",
    "choices": [
     "0.06480 M",
     "0.1296 M",
     "0.07716 M",
-    "0.03240 M"
+    "0.2592 M"
    ],
    "hint": "H₂SO₄ is diprotic: H₂SO₄ + 2 NaOH → Na₂SO₄ + 2 H₂O.",
-   "explain": "mol NaOH = 0.03240 L × 0.1000 M = 0.003240; mol H₂SO₄ = ½ × that = 0.001620; ÷ 0.02500 L = <b>0.06480 M</b>. Ignoring the 2 : 1 ratio gives 0.1296 M."
+   "explain": "mol NaOH = 0.03240 L × 0.1000 M = 0.003240; mol H₂SO₄ = ½ × that = 0.001620; ÷ 0.02500 L = <b>0.06480 M</b>. Ignoring the 2 : 1 ratio gives 0.1296 M. 0.2592 M multiplies by 2 instead of dividing; 0.07716 M inverts the volume ratio."
   },
   "from": {
    "game": "finalexam",
@@ -2327,22 +2327,22 @@
   "choices": [
    "1.07 g",
    "1.27 g",
-   "0.438 g",
+   "1.07×10³ g",
    "2.15 g"
   ],
   "answer": "1.07 g",
   "hint": "Ag⁺ + Cl⁻ → AgCl (1 : 1). Moles of Ag⁺ = M × V (in L).",
-  "explain": "0.0500 L × 0.150 M = 0.00750 mol Ag⁺ → 0.00750 mol AgCl × 143.32 g mol⁻¹ = 1.07 g. 1.27 g is the mass of AgNO₃ used, not AgCl formed.",
+  "explain": "0.0500 L × 0.150 M = 0.00750 mol Ag⁺ → 0.00750 mol AgCl × 143.32 g mol⁻¹ = 1.07 g. 1.27 g is the mass of AgNO₃ used, not AgCl formed. 1.07×10³ g forgets to convert 50.0 mL to liters.",
   "html": {
    "prompt": "Excess NaCl(aq) is added to 50.0 mL of 0.150 M AgNO<sub>3</sub>(aq). What mass of AgCl precipitates?",
    "choices": [
     "1.07 g",
     "1.27 g",
-    "0.438 g",
+    "1.07×10<sup>3</sup> g",
     "2.15 g"
    ],
    "hint": "Ag⁺ + Cl⁻ → AgCl (1 : 1). Moles of Ag⁺ = M × V (in L).",
-   "explain": "0.0500 L × 0.150 M = 0.00750 mol Ag⁺ → 0.00750 mol AgCl × 143.32 g mol⁻¹ = <b>1.07 g</b>. 1.27 g is the mass of AgNO₃ used, not AgCl formed."
+   "explain": "0.0500 L × 0.150 M = 0.00750 mol Ag⁺ → 0.00750 mol AgCl × 143.32 g mol⁻¹ = <b>1.07 g</b>. 1.27 g is the mass of AgNO₃ used, not AgCl formed. 1.07×10<sup>3</sup> g forgets to convert 50.0 mL to liters."
   },
   "from": {
    "game": "finalexam",
@@ -2536,23 +2536,23 @@
   "prompt": "How much heat is needed to warm 250.0 g of water from 22.0 °C to 85.0 °C?",
   "choices": [
    "65.9 kJ",
-   "88.9 kJ",
+   "0.264 kJ",
    "23.0 kJ",
    "15.7 kJ"
   ],
   "answer": "65.9 kJ",
   "hint": "Use q = mcΔT with c = 4.184 J g⁻¹ °C⁻¹ and ΔT = final − initial.",
-  "explain": "q = (250.0 g)(4.184 J g⁻¹ °C⁻¹)(63.0 °C) = 65898 J = 65.9 kJ. Using 85.0 °C instead of ΔT gives 88.9 kJ.",
+  "explain": "q = (250.0 g)(4.184 J g⁻¹ °C⁻¹)(63.0 °C) = 65898 J = 65.9 kJ. 0.264 kJ leaves out the mass; 23.0 kJ uses 22.0 °C instead of ΔT.",
   "html": {
    "prompt": "How much heat is needed to warm 250.0 g of water from 22.0 °C to 85.0 °C?",
    "choices": [
     "65.9 kJ",
-    "88.9 kJ",
+    "0.264 kJ",
     "23.0 kJ",
     "15.7 kJ"
    ],
    "hint": "Use q = mcΔT with c = 4.184 J g⁻¹ °C⁻¹ and ΔT = final − initial.",
-   "explain": "q = (250.0 g)(4.184 J g⁻¹ °C⁻¹)(63.0 °C) = 65898 J = <b>65.9 kJ</b>. Using 85.0 °C instead of ΔT gives 88.9 kJ."
+   "explain": "q = (250.0 g)(4.184 J g⁻¹ °C⁻¹)(63.0 °C) = 65898 J = <b>65.9 kJ</b>. 0.264 kJ leaves out the mass; 23.0 kJ uses 22.0 °C instead of ΔT."
   },
   "from": {
    "game": "finalexam",
@@ -3582,21 +3582,21 @@
    "0.29 nm",
    "2.9 nm",
    "291 nm",
-   "0.029 nm"
+   "7.3×10⁵ nm"
   ],
   "answer": "0.29 nm",
   "hint": "λ = h/(mv). With h in J·s = kg·m²/s, the answer comes out in meters.",
-  "explain": "λ = 6.626×10⁻³⁴ ÷ (9.109×10⁻³¹ kg × 2.5×10⁶ m s⁻¹) = 2.9×10⁻¹⁰ m = 0.29 nm, about the size of an atom—why electrons diffract from crystals.",
+  "explain": "λ = 6.626×10⁻³⁴ ÷ (9.109×10⁻³¹ kg × 2.5×10⁶ m s⁻¹) = 2.9×10⁻¹⁰ m = 0.29 nm, about the size of an atom—why electrons diffract from crystals. 7.3×10⁵ nm leaves the speed out (h ÷ m); 291 nm is a m ↔ nm slip.",
   "html": {
    "prompt": "What is the de Broglie wavelength of an electron (mass 9.109×10<sup>−31</sup> kg) moving at 2.5×10<sup>6</sup> m s⁻¹?",
    "choices": [
     "0.29 nm",
     "2.9 nm",
     "291 nm",
-    "0.029 nm"
+    "7.3×10<sup>5</sup> nm"
    ],
    "hint": "λ = h/(mv). With h in J·s = kg·m²/s, the answer comes out in meters.",
-   "explain": "λ = 6.626×10⁻³⁴ ÷ (9.109×10⁻³¹ kg × 2.5×10⁶ m s⁻¹) = 2.9×10<sup>−10</sup> m = <b>0.29 nm</b>, about the size of an atom—why electrons diffract from crystals."
+   "explain": "λ = 6.626×10⁻³⁴ ÷ (9.109×10⁻³¹ kg × 2.5×10⁶ m s⁻¹) = 2.9×10<sup>−10</sup> m = <b>0.29 nm</b>, about the size of an atom—why electrons diffract from crystals. 7.3×10<sup>5</sup> nm leaves the speed out (h ÷ m); 291 nm is a m ↔ nm slip."
   },
   "from": {
    "game": "finalexam",
@@ -4025,7 +4025,7 @@
   }
  },
  {
-  "id": "finalexam-cd1b33c1",
+  "id": "finalexam-d2262ffc",
   "skill": "finalexam.1a.periodic",
   "courses": [
    "1A"
@@ -4041,21 +4041,21 @@
   "calc": false,
   "prompt": "Which ion in the isoelectronic series O²⁻, F⁻, Na⁺, Mg²⁺ has the smallest radius?",
   "choices": [
-   "Mg²⁺",
-   "O²⁻",
-   "F⁻",
-   "Na⁺"
+   "the Mg²⁺ ion",
+   "the O²⁻ ion",
+   "the F⁻ ion",
+   "the Na⁺ ion"
   ],
-  "answer": "Mg²⁺",
+  "answer": "the Mg²⁺ ion",
   "hint": "All have 10 electrons. More protons pulling on the same number of electrons means a smaller ion.",
   "explain": "Mg²⁺ has 12 protons for 10 electrons, the strongest pull, so it's smallest. O²⁻ (8 protons) is largest.",
   "html": {
    "prompt": "Which ion in the isoelectronic series O<sup>2−</sup>, F<sup>−</sup>, Na<sup>+</sup>, Mg<sup>2+</sup> has the smallest radius?",
    "choices": [
-    "Mg<sup>2+</sup>",
-    "O<sup>2−</sup>",
-    "F<sup>−</sup>",
-    "Na<sup>+</sup>"
+    "the Mg<sup>2+</sup> ion",
+    "the O<sup>2−</sup> ion",
+    "the F<sup>−</sup> ion",
+    "the Na<sup>+</sup> ion"
    ],
    "hint": "All have 10 electrons. More protons pulling on the same number of electrons means a smaller ion.",
    "explain": "<b>Mg²⁺</b> has 12 protons for 10 electrons, the strongest pull, so it's smallest. O²⁻ (8 protons) is largest."
@@ -5123,21 +5123,21 @@
    "32",
    "30",
    "24",
-   "34"
+   "28"
   ],
   "answer": "32",
   "hint": "Add the valence electrons of each atom, then add one electron for each negative charge.",
-  "explain": "S: 6 + O: 4 × 6 = 24 → 30, plus 2 for the 2− charge = 32. 30 forgets the charge.",
+  "explain": "S: 6 + O: 4 × 6 = 24 → 30, plus 2 for the 2− charge = 32. 30 forgets the charge; 28 subtracts the 2 instead of adding it.",
   "html": {
    "prompt": "How many valence electrons are in the Lewis structure of the sulfate ion, <span class=\"nw\">SO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>?</span>",
    "choices": [
     "32",
     "30",
     "24",
-    "34"
+    "28"
    ],
    "hint": "Add the valence electrons of each atom, then add one electron for each negative charge.",
-   "explain": "S: 6 + O: 4 × 6 = 24 → 30, plus 2 for the 2− charge = <b>32</b>. 30 forgets the charge."
+   "explain": "S: 6 + O: 4 × 6 = 24 → 30, plus 2 for the 2− charge = <b>32</b>. 30 forgets the charge; 28 subtracts the 2 instead of adding it."
   },
   "from": {
    "game": "finalexam",
@@ -5398,7 +5398,7 @@
   }
  },
  {
-  "id": "finalexam-4cc74107",
+  "id": "finalexam-91e02885",
   "skill": "finalexam.1a.advanced",
   "courses": [
    "1A"
@@ -5414,21 +5414,21 @@
   "calc": false,
   "prompt": "Which oxygen species has the longest O–O bond?",
   "choices": [
-   "O²⁻₂",
-   "O⁻₂",
-   "O₂",
-   "O⁺₂"
+   "O²⁻₂ (peroxide)",
+   "O⁻₂ (superoxide)",
+   "O₂ (dioxygen)",
+   "O⁺₂ (dioxygenyl)"
   ],
-  "answer": "O²⁻₂",
+  "answer": "O²⁻₂ (peroxide)",
   "hint": "Lower bond order means a longer bond. Each added electron goes into a π* (antibonding) orbital.",
   "explain": "Bond orders: O₂⁺ 2.5, O₂ 2, O₂⁻ 1.5, O₂²⁻ 1. Peroxide, O₂²⁻, has the lowest bond order and the longest bond.",
   "html": {
    "prompt": "Which oxygen species has the longest O–O bond?",
    "choices": [
-    "<span class=\"nw\">O<span class=\"ss\"><sup>2−</sup><sub>2</sub></span></span>",
-    "<span class=\"nw\">O<span class=\"ss\"><sup>−</sup><sub>2</sub></span></span>",
-    "O<sub>2</sub>",
-    "<span class=\"nw\">O<span class=\"ss\"><sup>+</sup><sub>2</sub></span></span>"
+    "<span class=\"nw\">O<span class=\"ss\"><sup>2−</sup><sub>2</sub></span></span> (peroxide)",
+    "<span class=\"nw\">O<span class=\"ss\"><sup>−</sup><sub>2</sub></span></span> (superoxide)",
+    "O<sub>2</sub> (dioxygen)",
+    "<span class=\"nw\">O<span class=\"ss\"><sup>+</sup><sub>2</sub></span></span> (dioxygenyl)"
    ],
    "hint": "Lower bond order means a longer bond. Each added electron goes into a π* (antibonding) orbital.",
    "explain": "Bond orders: O₂⁺ 2.5, O₂ 2, O₂⁻ 1.5, O₂²⁻ 1. <b>Peroxide, O₂²⁻</b>, has the lowest bond order and the longest bond."
@@ -5752,22 +5752,22 @@
   "choices": [
    "1.88 L",
    "1.71 L",
-   "3.77 L",
+   "0.158 L",
    "0.00248 L"
   ],
   "answer": "1.88 L",
   "hint": "g Zn → mol Zn → mol H₂ (1 : 1) → V = nRT/P, with P in atm.",
-  "explain": "5.00 g ÷ 65.38 = 0.0765 mol H₂. V = (0.0765)(0.08206)(298.15) ÷ (755/760 atm) = 1.88 L. 1.71 L uses the STP molar volume, but the gas is not at STP.",
+  "explain": "5.00 g ÷ 65.38 = 0.0765 mol H₂. V = (0.0765)(0.08206)(298.15) ÷ (755/760 atm) = 1.88 L. 1.71 L uses the STP molar volume, but the gas is not at STP. 0.158 L uses 25.0 instead of 298.15 K; 0.00248 L uses 755 torr as if it were atm.",
   "html": {
    "prompt": "What volume of H<sub>2</sub>, measured at 25.0 °C and 755 torr, is produced when 5.00 g of zinc reacts with excess HCl by the reaction below?",
    "choices": [
     "1.88 L",
     "1.71 L",
-    "3.77 L",
+    "0.158 L",
     "0.00248 L"
    ],
    "hint": "g Zn → mol Zn → mol H₂ (1 : 1) → V = nRT/P, with P in atm.",
-   "explain": "5.00 g ÷ 65.38 = 0.0765 mol H₂. V = (0.0765)(0.08206)(298.15) ÷ (755/760 atm) = <b>1.88 L</b>. 1.71 L uses the STP molar volume, but the gas is not at STP."
+   "explain": "5.00 g ÷ 65.38 = 0.0765 mol H₂. V = (0.0765)(0.08206)(298.15) ÷ (755/760 atm) = <b>1.88 L</b>. 1.71 L uses the STP molar volume, but the gas is not at STP. 0.158 L uses 25.0 instead of 298.15 K; 0.00248 L uses 755 torr as if it were atm."
   },
   "data": {
    "f": [
@@ -6097,21 +6097,21 @@
    "515 m s⁻¹",
    "16.3 m s⁻¹",
    "149 m s⁻¹",
-   "2.65×10⁵ m s⁻¹"
+   "297 m s⁻¹"
   ],
   "answer": "515 m s⁻¹",
   "hint": "Use R = 8.314 J mol⁻¹ K⁻¹, T in kelvin, and M in kg mol⁻¹ so the units become m s⁻¹.",
-  "explain": "u = √[3(8.314)(298.15) ÷ 0.02802 kg mol⁻¹] = 515 m s⁻¹. Using M = 28.02 g mol⁻¹ gives 16.3 m s⁻¹ because J = kg·m²/s² needs kg.",
+  "explain": "u = √[3(8.314)(298.15) ÷ 0.02802 kg mol⁻¹] = 515 m s⁻¹. Using M = 28.02 g mol⁻¹ gives 16.3 m s⁻¹ because J = kg·m²/s² needs kg. 297 m s⁻¹ leaves the 3 out of 3RT/M; 149 m s⁻¹ uses 25 instead of 298 K.",
   "html": {
    "prompt": "What is the root-mean-square speed of N<sub>2</sub> molecules at 25 °C? (u<sub>rms</sub> = √(3RT/M), R = 8.314 J mol⁻¹·K)",
    "choices": [
     "515 m s⁻¹",
     "16.3 m s⁻¹",
     "149 m s⁻¹",
-    "2.65×10<sup>5</sup> m s⁻¹"
+    "297 m s⁻¹"
    ],
    "hint": "Use R = 8.314 J mol⁻¹ K⁻¹, T in kelvin, and M in kg mol⁻¹ so the units become m s⁻¹.",
-   "explain": "u = √[3(8.314)(298.15) ÷ 0.02802 kg mol⁻¹] = <b>515 m s⁻¹</b>. Using M = 28.02 g mol⁻¹ gives 16.3 m s⁻¹ because J = kg·m²/s² needs kg."
+   "explain": "u = √[3(8.314)(298.15) ÷ 0.02802 kg mol⁻¹] = <b>515 m s⁻¹</b>. Using M = 28.02 g mol⁻¹ gives 16.3 m s⁻¹ because J = kg·m²/s² needs kg. 297 m s⁻¹ leaves the 3 out of 3RT/M; 149 m s⁻¹ uses 25 instead of 298 K."
   },
   "from": {
    "game": "finalexam",
@@ -6357,21 +6357,21 @@
    "11.0 kJ",
    "2.62 kJ",
    "8.34 kJ",
-   "153 kJ"
+   "8.63 kJ"
   ],
   "answer": "11.0 kJ",
   "hint": "Two steps: melt the ice (n × ΔH_fus), then warm the liquid (mcΔT). Add them in the same units.",
-  "explain": "Melting: (25.0/18.02 mol)(6.01 kJ mol⁻¹) = 8.34 kJ. Warming: (25.0)(4.184)(25.0) = 2615 J = 2.62 kJ. Total = 11.0 kJ. Most of the energy goes into melting.",
+  "explain": "Melting: (25.0/18.02 mol)(6.01 kJ mol⁻¹) = 8.34 kJ. Warming: (25.0)(4.184)(25.0) = 2615 J = 2.62 kJ. Total = 11.0 kJ. Most of the energy goes into melting. 8.63 kJ adds 6.01 kJ for the whole sample, forgetting to convert 25.0 g to moles first.",
   "html": {
    "prompt": "How much heat is needed to convert 25.0 g of ice at 0.0 °C into liquid water at 25.0 °C? (ΔH<sub>fus</sub> = 6.01 kJ mol⁻¹; c<sub>water</sub> = 4.184 J g⁻¹ °C⁻¹)",
    "choices": [
     "11.0 kJ",
     "2.62 kJ",
     "8.34 kJ",
-    "153 kJ"
+    "8.63 kJ"
    ],
    "hint": "Two steps: melt the ice (n × ΔH_fus), then warm the liquid (mcΔT). Add them in the same units.",
-   "explain": "Melting: (25.0/18.02 mol)(6.01 kJ mol⁻¹) = 8.34 kJ. Warming: (25.0)(4.184)(25.0) = 2615 J = 2.62 kJ. Total = <b>11.0 kJ</b>. Most of the energy goes into melting."
+   "explain": "Melting: (25.0/18.02 mol)(6.01 kJ mol⁻¹) = 8.34 kJ. Warming: (25.0)(4.184)(25.0) = 2615 J = 2.62 kJ. Total = <b>11.0 kJ</b>. Most of the energy goes into melting. 8.63 kJ adds 6.01 kJ for the whole sample, forgetting to convert 25.0 g to moles first."
   },
   "from": {
    "game": "finalexam",
@@ -6523,9 +6523,9 @@
   "prompt": "A solid has a very high melting point, is very hard, does not conduct electricity as a solid OR as a liquid, and is insoluble in water. What type of solid is it most likely?",
   "choices": [
    "covalent network solid",
-   "ionic solid",
-   "metallic solid",
-   "molecular solid"
+   "ionic crystalline solid",
+   "metallic crystalline solid",
+   "molecular crystalline solid"
   ],
   "answer": "covalent network solid",
   "hint": "Ionic solids conduct when molten; metals conduct as solids; molecular solids melt at low temperatures.",
@@ -6534,9 +6534,9 @@
    "prompt": "A solid has a very high melting point, is very hard, does not conduct electricity as a solid OR as a liquid, and is insoluble in water. What type of solid is it most likely?",
    "choices": [
     "covalent network solid",
-    "ionic solid",
-    "metallic solid",
-    "molecular solid"
+    "ionic crystalline solid",
+    "metallic crystalline solid",
+    "molecular crystalline solid"
    ],
    "hint": "Ionic solids conduct when molten; metals conduct as solids; molecular solids melt at low temperatures.",
    "explain": "Only a <b>covalent network solid</b> (like SiO₂ or diamond) combines a very high melting point with no conductivity in either state."
@@ -6777,21 +6777,21 @@
    "0.684 m",
    "0.171 m",
    "6.84×10⁻⁴ m",
-   "1.37 m"
+   "0.658 m"
   ],
   "answer": "0.684 m",
   "hint": "Molality = moles of solute ÷ kilograms of SOLVENT.",
-  "explain": "10.0 g ÷ 58.44 g mol⁻¹ = 0.1711 mol; ÷ 0.250 kg = 0.684 m. Dividing by 250 instead of 0.250 kg forgets the gram → kilogram conversion.",
+  "explain": "10.0 g ÷ 58.44 g mol⁻¹ = 0.1711 mol; ÷ 0.250 kg = 0.684 m. Dividing by 250 instead of 0.250 kg forgets the gram → kilogram conversion. 0.658 m divides by the solution mass (260. g) instead of the 250. g of solvent.",
   "html": {
    "prompt": "What is the molality of a solution made by dissolving 10.0 g of NaCl in 250. g of water?",
    "choices": [
     "0.684 m",
     "0.171 m",
     "6.84×10<sup>−4</sup> m",
-    "1.37 m"
+    "0.658 m"
    ],
    "hint": "Molality = moles of solute ÷ kilograms of SOLVENT.",
-   "explain": "10.0 g ÷ 58.44 g mol⁻¹ = 0.1711 mol; ÷ 0.250 kg = <b>0.684 m</b>. Dividing by 250 instead of 0.250 kg forgets the gram → kilogram conversion."
+   "explain": "10.0 g ÷ 58.44 g mol⁻¹ = 0.1711 mol; ÷ 0.250 kg = <b>0.684 m</b>. Dividing by 250 instead of 0.250 kg forgets the gram → kilogram conversion. 0.658 m divides by the solution mass (260. g) instead of the 250. g of solvent."
   },
   "from": {
    "game": "finalexam",
@@ -7069,23 +7069,23 @@
   "prompt": "A solution of 1.00 g of a protein in enough water to make 100.0 mL has an osmotic pressure of 2.45 torr at 25 °C. What is the molar mass of the protein?",
   "choices": [
    "7.59×10⁴ g mol⁻¹",
-   "7.59×10⁵ g mol⁻¹",
+   "6.36×10³ g mol⁻¹",
    "99.9 g mol⁻¹",
    "7.59×10³ g mol⁻¹"
   ],
   "answer": "7.59×10⁴ g mol⁻¹",
   "hint": "π = MRT. Convert torr to atm, find molarity, then moles in 0.1000 L, then grams ÷ moles.",
-  "explain": "π = 2.45/760 = 3.224×10⁻³ atm; M = π/RT = 1.318×10⁻⁴ mol L⁻¹; × 0.1000 L = 1.318×10⁻⁵ mol; 1.00 g ÷ that = 7.59×10⁴ g mol⁻¹. Osmotic pressure is sensitive enough to measure huge molar masses like this.",
+  "explain": "π = 2.45/760 = 3.224×10⁻³ atm; M = π/RT = 1.318×10⁻⁴ mol L⁻¹; × 0.1000 L = 1.318×10⁻⁵ mol; 1.00 g ÷ that = 7.59×10⁴ g mol⁻¹. Osmotic pressure is sensitive enough to measure huge molar masses like this. 6.36×10³ uses 25 °C instead of 298 K; 7.59×10³ forgets to multiply by the 0.1000 L; 99.9 leaves π in torr.",
   "html": {
    "prompt": "A solution of 1.00 g of a protein in enough water to make 100.0 mL has an osmotic pressure of 2.45 torr at 25 °C. What is the molar mass of the protein?",
    "choices": [
     "7.59×10<sup>4</sup> g mol⁻¹",
-    "7.59×10<sup>5</sup> g mol⁻¹",
+    "6.36×10<sup>3</sup> g mol⁻¹",
     "99.9 g mol⁻¹",
     "7.59×10<sup>3</sup> g mol⁻¹"
    ],
    "hint": "π = MRT. Convert torr to atm, find molarity, then moles in 0.1000 L, then grams ÷ moles.",
-   "explain": "π = 2.45/760 = 3.224×10⁻³ atm; M = π/RT = 1.318×10⁻⁴ mol L⁻¹; × 0.1000 L = 1.318×10⁻⁵ mol; 1.00 g ÷ that = <b>7.59×10<sup>4</sup> g mol⁻¹</b>. Osmotic pressure is sensitive enough to measure huge molar masses like this."
+   "explain": "π = 2.45/760 = 3.224×10⁻³ atm; M = π/RT = 1.318×10⁻⁴ mol L⁻¹; × 0.1000 L = 1.318×10⁻⁵ mol; 1.00 g ÷ that = <b>7.59×10<sup>4</sup> g mol⁻¹</b>. Osmotic pressure is sensitive enough to measure huge molar masses like this. 6.36×10<sup>3</sup> uses 25 °C instead of 298 K; 7.59×10<sup>3</sup> forgets to multiply by the 0.1000 L; 99.9 leaves π in torr."
   },
   "from": {
    "game": "finalexam",
@@ -7238,22 +7238,22 @@
   "choices": [
    "8.0 g mL⁻¹",
    "7.964 g mL⁻¹",
-   "11.8 g mL⁻¹",
+   "0.13 g mL⁻¹",
    "1.40 g mL⁻¹"
   ],
   "answer": "8.0 g mL⁻¹",
   "hint": "Find the pellet mass and pellet volume by difference. Subtraction keeps decimal places; division keeps the fewest sig figs.",
-  "explain": "Mass = 37.902 − 12.418 = 25.484 g; volume = 18.2 − 15.0 = 3.2 mL (2 sig figs). d = 25.484 g / 3.2 mL = 7.96 → 8.0 g mL⁻¹. 7.964 g mL⁻¹ has too many sig figs; 11.8 g mL⁻¹ uses the vial + pellet mass.",
+  "explain": "Mass = 37.902 − 12.418 = 25.484 g; volume = 18.2 − 15.0 = 3.2 mL (2 sig figs). d = 25.484 g / 3.2 mL = 7.96 → 8.0 g mL⁻¹. 7.964 g mL⁻¹ has too many sig figs; 0.13 g mL⁻¹ inverts the ratio (volume ÷ mass); 1.40 g mL⁻¹ uses the final volume instead of the volume difference.",
   "html": {
    "prompt": "A student records the data in the table for a sample of metal pellets. What is the density of the pellets, reported with correct significant figures?",
    "choices": [
     "8.0 g mL⁻¹",
     "7.964 g mL⁻¹",
-    "11.8 g mL⁻¹",
+    "0.13 g mL⁻¹",
     "1.40 g mL⁻¹"
    ],
    "hint": "Find the pellet mass and pellet volume by difference. Subtraction keeps decimal places; division keeps the fewest sig figs.",
-   "explain": "Mass = 37.902 − 12.418 = 25.484 g; volume = 18.2 − 15.0 = 3.2 mL (2 sig figs). d = 25.484 g / 3.2 mL = 7.96 → <b>8.0 g mL⁻¹</b>. 7.964 g mL⁻¹ has too many sig figs; 11.8 g mL⁻¹ uses the vial + pellet mass."
+   "explain": "Mass = 37.902 − 12.418 = 25.484 g; volume = 18.2 − 15.0 = 3.2 mL (2 sig figs). d = 25.484 g / 3.2 mL = 7.96 → <b>8.0 g mL⁻¹</b>. 7.964 g mL⁻¹ has too many sig figs; 0.13 g mL⁻¹ inverts the ratio (volume ÷ mass); 1.40 g mL⁻¹ uses the final volume instead of the volume difference."
   },
   "data": {
    "f": [
@@ -7391,21 +7391,21 @@
    "69.72 u",
    "69.93 u",
    "70.13 u",
-   "69.66 u"
+   "116.0 u"
   ],
   "answer": "69.72 u",
   "hint": "Turn the peak heights into fractional abundances (height ÷ total height), then take a weighted average.",
-  "explain": "Fractions: 100.0/166.4 = 0.601 and 66.4/166.4 = 0.399. Average = 0.601(68.93) + 0.399(70.92) = 69.72 u (gallium). 69.93 u is the simple average that ignores abundance; 70.13 u swaps the two abundances.",
+  "explain": "Fractions: 100.0/166.4 = 0.601 and 66.4/166.4 = 0.399. Average = 0.601(68.93) + 0.399(70.92) = 69.72 u (gallium). 69.93 u is the simple average that ignores abundance; 70.13 u swaps the two abundances. 116.0 u uses the peak heights (1.000 and 0.664) as fractions without dividing by their sum.",
   "html": {
    "prompt": "The mass spectrum of an element shows only the two peaks listed in the table. What is the average atomic mass of the element?",
    "choices": [
     "69.72 u",
     "69.93 u",
     "70.13 u",
-    "69.66 u"
+    "116.0 u"
    ],
    "hint": "Turn the peak heights into fractional abundances (height ÷ total height), then take a weighted average.",
-   "explain": "Fractions: 100.0/166.4 = 0.601 and 66.4/166.4 = 0.399. Average = 0.601(68.93) + 0.399(70.92) = <b>69.72 u</b> (gallium). 69.93 u is the simple average that ignores abundance; 70.13 u swaps the two abundances."
+   "explain": "Fractions: 100.0/166.4 = 0.601 and 66.4/166.4 = 0.399. Average = 0.601(68.93) + 0.399(70.92) = <b>69.72 u</b> (gallium). 69.93 u is the simple average that ignores abundance; 70.13 u swaps the two abundances. 116.0 u uses the peak heights (1.000 and 0.664) as fractions without dividing by their sum."
   },
   "data": {
    "f": [
@@ -8157,22 +8157,22 @@
   "choices": [
    "1.34×10¹⁶",
    "1.34×10¹⁹",
-   "3.73×10⁻¹⁹",
+   "4.73×10²⁸",
    "1.34×10²⁵"
   ],
   "answer": "1.34×10¹⁶",
   "hint": "First find the energy of one photon, E = hc/λ (λ in meters). Then divide the energy per second by the energy per photon.",
-  "explain": "E = (6.626×10⁻³⁴)(2.998×10⁸) / 532×10⁻⁹ m = 3.73×10⁻¹⁹ J per photon. 5.00×10⁻³ J/s ÷ 3.73×10⁻¹⁹ J = 1.34×10¹⁶ photons/s. 1.34×10¹⁹ forgets to convert mW to W; 1.34×10²⁵ leaves λ in nm.",
+  "explain": "E = (6.626×10⁻³⁴)(2.998×10⁸) / 532×10⁻⁹ m = 3.73×10⁻¹⁹ J per photon. 5.00×10⁻³ J/s ÷ 3.73×10⁻¹⁹ J = 1.34×10¹⁶ photons/s. 1.34×10¹⁹ forgets to convert mW to W; 1.34×10²⁵ leaves λ in nm. 4.73×10²⁸ multiplies by λ instead of dividing.",
   "html": {
    "prompt": "A green laser pointer emits 5.00 mW (5.00×10<sup>−3</sup> J/s) of light at 532 nm. How many photons does it emit each second?",
    "choices": [
     "1.34×10<sup>16</sup>",
     "1.34×10<sup>19</sup>",
-    "3.73×10<sup>−19</sup>",
+    "4.73×10<sup>28</sup>",
     "1.34×10<sup>25</sup>"
    ],
    "hint": "First find the energy of one photon, E = hc/λ (λ in meters). Then divide the energy per second by the energy per photon.",
-   "explain": "E = (6.626×10<sup>−34</sup>)(2.998×10<sup>8</sup>) / 532×10<sup>−9</sup> m = 3.73×10<sup>−19</sup> J per photon. 5.00×10<sup>−3</sup> J/s ÷ 3.73×10<sup>−19</sup> J = <b>1.34×10<sup>16</sup> photons/s</b>. 1.34×10<sup>19</sup> forgets to convert mW to W; 1.34×10<sup>25</sup> leaves λ in nm."
+   "explain": "E = (6.626×10<sup>−34</sup>)(2.998×10<sup>8</sup>) / 532×10<sup>−9</sup> m = 3.73×10<sup>−19</sup> J per photon. 5.00×10<sup>−3</sup> J/s ÷ 3.73×10<sup>−19</sup> J = <b>1.34×10<sup>16</sup> photons/s</b>. 1.34×10<sup>19</sup> forgets to convert mW to W; 1.34×10<sup>25</sup> leaves λ in nm. 4.73×10<sup>28</sup> multiplies by λ instead of dividing."
   },
   "from": {
    "game": "finalexam",
@@ -8657,7 +8657,7 @@
   }
  },
  {
-  "id": "finalexam-4e79d358",
+  "id": "finalexam-86a5f7bc",
   "skill": "finalexam.1a.advanced",
   "courses": [
    "1A"
@@ -8673,21 +8673,21 @@
   "calc": false,
   "prompt": "Using MO theory, which oxygen species has the LONGEST oxygen–oxygen bond?",
   "choices": [
-   "O²⁻₂",
-   "O⁻₂",
-   "O₂",
-   "O⁺₂"
+   "O²⁻₂ (peroxide)",
+   "O⁻₂ (superoxide)",
+   "O₂ (dioxygen)",
+   "O⁺₂ (dioxygenyl)"
   ],
-  "answer": "O²⁻₂",
+  "answer": "O²⁻₂ (peroxide)",
   "hint": "Find each bond order: added electrons go into π* orbitals. Lower bond order means a longer, weaker bond.",
   "explain": "Bond orders: O⁺₂ 2.5, O₂ 2, O⁻₂ 1.5, O²⁻₂ 1. Extra electrons fill antibonding π* orbitals, so O²⁻₂ (peroxide) has the lowest bond order and the longest bond. O⁺₂ lost an antibonding electron, so its bond is the shortest.",
   "html": {
    "prompt": "Using MO theory, which oxygen species has the LONGEST oxygen–oxygen bond?",
    "choices": [
-    "<span class=\"nw\">O<span class=\"ss\"><sup>2−</sup><sub>2</sub></span></span>",
-    "<span class=\"nw\">O<span class=\"ss\"><sup>−</sup><sub>2</sub></span></span>",
-    "O<sub>2</sub>",
-    "<span class=\"nw\">O<span class=\"ss\"><sup>+</sup><sub>2</sub></span></span>"
+    "<span class=\"nw\">O<span class=\"ss\"><sup>2−</sup><sub>2</sub></span></span> (peroxide)",
+    "<span class=\"nw\">O<span class=\"ss\"><sup>−</sup><sub>2</sub></span></span> (superoxide)",
+    "O<sub>2</sub> (dioxygen)",
+    "<span class=\"nw\">O<span class=\"ss\"><sup>+</sup><sub>2</sub></span></span> (dioxygenyl)"
    ],
    "hint": "Find each bond order: added electrons go into π* orbitals. Lower bond order means a longer, weaker bond.",
    "explain": "Bond orders: <span class=\"nw\">O<span class=\"ss\"><sup>+</sup><sub>2</sub></span></span> 2.5, O<sub>2</sub> 2, <span class=\"nw\">O<span class=\"ss\"><sup>−</sup><sub>2</sub></span></span> 1.5, <span class=\"nw\">O<span class=\"ss\"><sup>2−</sup><sub>2</sub></span></span> 1. Extra electrons fill antibonding π* orbitals, so <b><span class=\"nw\">O<span class=\"ss\"><sup>2−</sup><sub>2</sub></span></span></b> (peroxide) has the lowest bond order and the longest bond. <span class=\"nw\">O<span class=\"ss\"><sup>+</sup><sub>2</sub></span></span> lost an antibonding electron, so its bond is the shortest."
@@ -8886,21 +8886,21 @@
    "123 L",
    "61.3 L",
    "9.14 L",
-   "184 L"
+   "112 L"
   ],
   "answer": "123 L",
   "hint": "Grams ethane → moles → moles CO₂ (4 : 2 ratio) → V = nRT/P with T in kelvin.",
-  "explain": "75.0 g / 30.07 g mol⁻¹ = 2.494 mol C₂H₆ → ×(4/2) = 4.989 mol CO₂. V = (4.989)(0.08206)(295.15 K)/0.985 atm = 123 L. 61.3 L skips the 2 : 1 ratio; 9.14 L uses 22.0 instead of 295.15 K; 184 L uses the H₂O coefficient.",
+  "explain": "75.0 g / 30.07 g mol⁻¹ = 2.494 mol C₂H₆ → ×(4/2) = 4.989 mol CO₂. V = (4.989)(0.08206)(295.15 K)/0.985 atm = 123 L. 61.3 L skips the 2 : 1 ratio; 9.14 L uses 22.0 instead of 295.15 K; 112 L uses 22.4 L mol⁻¹, which applies only at STP.",
   "html": {
    "prompt": "A gas flare burns 75.0 g of ethane by the reaction below. What volume of CO<sub>2</sub> is produced at 22.0 °C and 0.985 atm?",
    "choices": [
     "123 L",
     "61.3 L",
     "9.14 L",
-    "184 L"
+    "112 L"
    ],
    "hint": "Grams ethane → moles → moles CO<sub>2</sub> (4 : 2 ratio) → V = nRT/P with T in kelvin.",
-   "explain": "75.0 g / 30.07 g mol⁻¹ = 2.494 mol C<sub>2</sub>H<sub>6</sub> → ×(4/2) = 4.989 mol CO<sub>2</sub>. V = (4.989)(0.08206)(295.15 K)/0.985 atm = <b>123 L</b>. 61.3 L skips the 2 : 1 ratio; 9.14 L uses 22.0 instead of 295.15 K; 184 L uses the H<sub>2</sub>O coefficient."
+   "explain": "75.0 g / 30.07 g mol⁻¹ = 2.494 mol C<sub>2</sub>H<sub>6</sub> → ×(4/2) = 4.989 mol CO<sub>2</sub>. V = (4.989)(0.08206)(295.15 K)/0.985 atm = <b>123 L</b>. 61.3 L skips the 2 : 1 ratio; 9.14 L uses 22.0 instead of 295.15 K; 112 L uses 22.4 L mol⁻¹, which applies only at STP."
   },
   "data": {
    "f": [
@@ -9356,21 +9356,21 @@
    "2.03 mL",
    "308 mL",
    "2.21 mL",
-   "0.0812 mL"
+   "259 mL"
   ],
   "answer": "2.03 mL",
   "hint": "Use the oil's density to get its mass, then the lead's density to turn that mass into a volume.",
-  "explain": "Mass = 25.0 mL × 0.918 g mL⁻¹ = 22.95 g; V = 22.95 g ÷ 11.3 g mL⁻¹ = 2.03 mL. Lead is far denser, so a much smaller volume has the same mass; 308 mL inverts the densities and 2.21 mL treats the oil as if it were water (1.00 g mL⁻¹).",
+  "explain": "Mass = 25.0 mL × 0.918 g mL⁻¹ = 22.95 g; V = 22.95 g ÷ 11.3 g mL⁻¹ = 2.03 mL. Lead is far denser, so a much smaller volume has the same mass; 308 mL inverts the densities and 2.21 mL treats the oil as if it were water (1.00 g mL⁻¹). 259 mL multiplies by lead's density instead of dividing.",
   "html": {
    "prompt": "A bottle holds 25.0 mL of olive oil (density 0.918 g mL⁻¹). What volume of lead (density 11.3 g mL⁻¹) has the same mass as the oil?",
    "choices": [
     "2.03 mL",
     "308 mL",
     "2.21 mL",
-    "0.0812 mL"
+    "259 mL"
    ],
    "hint": "Use the oil's density to get its mass, then the lead's density to turn that mass into a volume.",
-   "explain": "Mass = 25.0 mL × 0.918 g mL⁻¹ = 22.95 g; V = 22.95 g ÷ 11.3 g mL⁻¹ = <b>2.03 mL</b>. Lead is far denser, so a much smaller volume has the same mass; 308 mL inverts the densities and 2.21 mL treats the oil as if it were water (1.00 g mL⁻¹)."
+   "explain": "Mass = 25.0 mL × 0.918 g mL⁻¹ = 22.95 g; V = 22.95 g ÷ 11.3 g mL⁻¹ = <b>2.03 mL</b>. Lead is far denser, so a much smaller volume has the same mass; 308 mL inverts the densities and 2.21 mL treats the oil as if it were water (1.00 g mL⁻¹). 259 mL multiplies by lead's density instead of dividing."
   },
   "from": {
    "game": "finalexam",
@@ -9397,22 +9397,22 @@
   "choices": [
    "11 mg",
    "0.18 mg",
-   "1.1×10⁴ mg",
+   "0.15 mg",
    "0.011 mg"
   ],
   "answer": "11 mg",
   "hint": "Multiply the rate by body mass and by minutes, then convert μg to mg (1 mg = 1000 μg).",
-  "explain": "2.5 μg/(kg·min) × 72.0 kg × 60 min = 1.08×10⁴ μg = 11 mg (2 sig figs from 2.5 and 1.0). 0.18 mg leaves out the 60 min; 1.1×10⁴ mg forgets the μg → mg step.",
+  "explain": "2.5 μg/(kg·min) × 72.0 kg × 60 min = 1.08×10⁴ μg = 11 mg (2 sig figs from 2.5 and 1.0). 0.18 mg leaves out the 60 min; 0.15 mg leaves out the 72.0 kg body mass; 0.011 mg divides by 1000 one time too many.",
   "html": {
    "prompt": "A drug is ordered at 2.5 μg per kg of body mass per minute for a 72.0 kg patient. How many milligrams does the patient receive in 1.0 hour?",
    "choices": [
     "11 mg",
     "0.18 mg",
-    "1.1×10<sup>4</sup> mg",
+    "0.15 mg",
     "0.011 mg"
    ],
    "hint": "Multiply the rate by body mass and by minutes, then convert μg to mg (1 mg = 1000 μg).",
-   "explain": "2.5 μg/(kg·min) × 72.0 kg × 60 min = 1.08×10⁴ μg = <b>11 mg</b> (2 sig figs from 2.5 and 1.0). 0.18 mg leaves out the 60 min; 1.1×10⁴ mg forgets the μg → mg step."
+   "explain": "2.5 μg/(kg·min) × 72.0 kg × 60 min = 1.08×10⁴ μg = <b>11 mg</b> (2 sig figs from 2.5 and 1.0). 0.18 mg leaves out the 60 min; 0.15 mg leaves out the 72.0 kg body mass; 0.011 mg divides by 1000 one time too many."
   },
   "from": {
    "game": "finalexam",
@@ -9721,21 +9721,21 @@
    "1.00×10²² atoms",
    "1.20×10²³ atoms",
    "1.45×10²⁴ atoms",
-   "1.00×10¹⁹ atoms"
+   "5.01×10²² atoms"
   ],
   "answer": "1.00×10²² atoms",
   "hint": "Grams → moles with the molar mass of C, then moles → atoms with Avogadro's number.",
-  "explain": "0.200 g ÷ 12.01 g mol⁻¹ = 0.01665 mol; × 6.022×10²³ = 1.00×10²² atoms. 1.20×10²³ skips the molar mass; 1.45×10²⁴ multiplies by 12.01 instead of dividing.",
+  "explain": "0.200 g ÷ 12.01 g mol⁻¹ = 0.01665 mol; × 6.022×10²³ = 1.00×10²² atoms. 1.20×10²³ skips the molar mass; 1.45×10²⁴ multiplies by 12.01 instead of dividing. 5.01×10²² treats 1.00 carat as 1.00 g.",
   "html": {
    "prompt": "A 1.00-carat diamond has a mass of 0.200 g and is essentially pure carbon. About how many carbon atoms does it contain?",
    "choices": [
     "1.00×10<sup>22</sup> atoms",
     "1.20×10<sup>23</sup> atoms",
     "1.45×10<sup>24</sup> atoms",
-    "1.00×10<sup>19</sup> atoms"
+    "5.01×10<sup>22</sup> atoms"
    ],
    "hint": "Grams → moles with the molar mass of C, then moles → atoms with Avogadro's number.",
-   "explain": "0.200 g ÷ 12.01 g mol⁻¹ = 0.01665 mol; × 6.022×10²³ = <b>1.00×10²² atoms</b>. 1.20×10²³ skips the molar mass; 1.45×10²⁴ multiplies by 12.01 instead of dividing."
+   "explain": "0.200 g ÷ 12.01 g mol⁻¹ = 0.01665 mol; × 6.022×10²³ = <b>1.00×10²² atoms</b>. 1.20×10²³ skips the molar mass; 1.45×10²⁴ multiplies by 12.01 instead of dividing. 5.01×10<sup>22</sup> treats 1.00 carat as 1.00 g."
   },
   "from": {
    "game": "finalexam",
@@ -9762,22 +9762,22 @@
   "choices": [
    "206.27 g mol⁻¹",
    "190.27 g mol⁻¹",
-   "222.27 g mol⁻¹",
+   "188.13 g mol⁻¹",
    "174.27 g mol⁻¹"
   ],
   "answer": "206.27 g mol⁻¹",
   "hint": "Multiply each atomic mass by its subscript, then add.",
-  "explain": "13(12.01) + 18(1.008) + 2(16.00) = 156.13 + 18.14 + 32.00 = 206.27 g mol⁻¹. 190.27 counts only one O; 174.27 leaves the oxygen out.",
+  "explain": "13(12.01) + 18(1.008) + 2(16.00) = 156.13 + 18.14 + 32.00 = 206.27 g mol⁻¹. 190.27 counts only one O; 174.27 leaves the oxygen out. 188.13 leaves the hydrogens out entirely.",
   "html": {
    "prompt": "The pain reliever ibuprofen is C<sub>13</sub>H<sub>18</sub>O<sub>2</sub>. How many grams does one mole of it weigh?",
    "choices": [
     "206.27 g mol⁻¹",
     "190.27 g mol⁻¹",
-    "222.27 g mol⁻¹",
+    "188.13 g mol⁻¹",
     "174.27 g mol⁻¹"
    ],
    "hint": "Multiply each atomic mass by its subscript, then add.",
-   "explain": "13(12.01) + 18(1.008) + 2(16.00) = 156.13 + 18.14 + 32.00 = <b>206.27 g mol⁻¹</b>. 190.27 counts only one O; 174.27 leaves the oxygen out."
+   "explain": "13(12.01) + 18(1.008) + 2(16.00) = 156.13 + 18.14 + 32.00 = <b>206.27 g mol⁻¹</b>. 190.27 counts only one O; 174.27 leaves the oxygen out. 188.13 leaves the hydrogens out entirely."
   },
   "from": {
    "game": "finalexam",
@@ -10099,21 +10099,21 @@
    "1.05 g",
    "1.17 g",
    "2.22 g",
-   "0.525 g"
+   "1.05×10³ g"
   ],
   "answer": "1.05 g",
   "hint": "Find moles of Ba²⁺ and SO₄²⁻; they react 1:1, so the smaller amount limits the product.",
-  "explain": "Ba²⁺: 0.0250 × 0.200 = 5.00×10⁻³ mol; SO₄²⁻: 0.0300 × 0.150 = 4.50×10⁻³ mol (limiting). 4.50×10⁻³ mol × 233.39 g mol⁻¹ = 1.05 g. 1.17 g uses Ba²⁺, the reactant in excess.",
+  "explain": "Ba²⁺: 0.0250 × 0.200 = 5.00×10⁻³ mol; SO₄²⁻: 0.0300 × 0.150 = 4.50×10⁻³ mol (limiting). 4.50×10⁻³ mol × 233.39 g mol⁻¹ = 1.05 g. 1.17 g uses Ba²⁺, the reactant in excess. 1.05×10³ g forgets to convert mL to L; 2.22 g adds both reactants together.",
   "html": {
    "prompt": "25.0 mL of 0.200 M BaCl<sub>2</sub> is mixed with 30.0 mL of 0.150 M Na<sub>2</sub>SO<sub>4</sub>, and BaSO<sub>4</sub> (233.39 g mol⁻¹) precipitates. What mass of BaSO<sub>4</sub> forms?",
    "choices": [
     "1.05 g",
     "1.17 g",
     "2.22 g",
-    "0.525 g"
+    "1.05×10<sup>3</sup> g"
    ],
    "hint": "Find moles of Ba²⁺ and SO₄²⁻; they react 1:1, so the smaller amount limits the product.",
-   "explain": "Ba²⁺: 0.0250 × 0.200 = 5.00×10⁻³ mol; SO₄²⁻: 0.0300 × 0.150 = 4.50×10⁻³ mol (limiting). 4.50×10⁻³ mol × 233.39 g mol⁻¹ = <b>1.05 g</b>. 1.17 g uses Ba²⁺, the reactant in excess."
+   "explain": "Ba²⁺: 0.0250 × 0.200 = 5.00×10⁻³ mol; SO₄²⁻: 0.0300 × 0.150 = 4.50×10⁻³ mol (limiting). 4.50×10⁻³ mol × 233.39 g mol⁻¹ = <b>1.05 g</b>. 1.17 g uses Ba²⁺, the reactant in excess. 1.05×10<sup>3</sup> g forgets to convert mL to L; 2.22 g adds both reactants together."
   },
   "from": {
    "game": "finalexam",
@@ -10312,22 +10312,22 @@
   "choices": [
    "0.456 J g⁻¹ °C⁻¹",
    "2.19 J g⁻¹ °C⁻¹",
-   "0.301 J g⁻¹ °C⁻¹",
+   "19.4 J g⁻¹ °C⁻¹",
    "0.882 J g⁻¹ °C⁻¹"
   ],
   "answer": "0.456 J g⁻¹ °C⁻¹",
   "hint": "Rearrange q = mcΔT for c. ΔT is final − initial.",
-  "explain": "c = q/(mΔT) = 485 J ÷ (25.0 g × 42.5 °C) = 0.456 J g⁻¹ °C⁻¹. 0.301 uses the final temperature instead of ΔT; 2.19 inverts the expression.",
+  "explain": "c = q/(mΔT) = 485 J ÷ (25.0 g × 42.5 °C) = 0.456 J g⁻¹ °C⁻¹. 19.4 leaves ΔT out (q ÷ m); 0.882 uses 22.0 °C instead of ΔT; 2.19 inverts the expression.",
   "html": {
    "prompt": "An unknown metal sample (25.0 g) warms from 22.0 °C to 64.5 °C after taking in 485 J. What is its specific heat?",
    "choices": [
     "0.456 J g⁻¹ °C⁻¹",
     "2.19 J g⁻¹ °C⁻¹",
-    "0.301 J g⁻¹ °C⁻¹",
+    "19.4 J g⁻¹ °C⁻¹",
     "0.882 J g⁻¹ °C⁻¹"
    ],
    "hint": "Rearrange q = mcΔT for c. ΔT is final − initial.",
-   "explain": "c = q/(mΔT) = 485 J ÷ (25.0 g × 42.5 °C) = <b>0.456 J g⁻¹ °C⁻¹</b>. 0.301 uses the final temperature instead of ΔT; 2.19 inverts the expression."
+   "explain": "c = q/(mΔT) = 485 J ÷ (25.0 g × 42.5 °C) = <b>0.456 J g⁻¹ °C⁻¹</b>. 19.4 leaves ΔT out (q ÷ m); 0.882 uses 22.0 °C instead of ΔT; 2.19 inverts the expression."
   },
   "from": {
    "game": "finalexam",
@@ -10354,22 +10354,22 @@
   "choices": [
    "9.97 g",
    "13.3 g",
-   "4.99 g",
+   "9.97×10³ g",
    "195 g"
   ],
   "answer": "9.97 g",
   "hint": "Heat for the water from q = mcΔT, then kJ → mol propane (2220 kJ per mol) → grams.",
-  "explain": "q = 2000 g × 4.184 × 60.0 °C = 502 kJ; 502 ÷ 2220 = 0.2262 mol × 44.09 g mol⁻¹ = 9.97 g. 13.3 g uses 80 °C as ΔT; 195 g inverts the kJ mol⁻¹ ratio.",
+  "explain": "q = 2000 g × 4.184 × 60.0 °C = 502 kJ; 502 ÷ 2220 = 0.2262 mol × 44.09 g mol⁻¹ = 9.97 g. 13.3 g uses 80 °C as ΔT; 195 g inverts the kJ mol⁻¹ ratio. 9.97×10³ g mixes J with kJ (502,000 ÷ 2220).",
   "html": {
    "prompt": "What mass of propane must burn by the reaction shown to heat 2.00 kg of water from 20.0 °C to 80.0 °C? Assume all of the heat goes into the water.",
    "choices": [
     "9.97 g",
     "13.3 g",
-    "4.99 g",
+    "9.97×10<sup>3</sup> g",
     "195 g"
    ],
    "hint": "Heat for the water from q = mcΔT, then kJ → mol propane (2220 kJ per mol) → grams.",
-   "explain": "q = 2000 g × 4.184 × 60.0 °C = 502 kJ; 502 ÷ 2220 = 0.2262 mol × 44.09 g mol⁻¹ = <b>9.97 g</b>. 13.3 g uses 80 °C as ΔT; 195 g inverts the kJ mol⁻¹ ratio."
+   "explain": "q = 2000 g × 4.184 × 60.0 °C = 502 kJ; 502 ÷ 2220 = 0.2262 mol × 44.09 g mol⁻¹ = <b>9.97 g</b>. 13.3 g uses 80 °C as ΔT; 195 g inverts the kJ mol⁻¹ ratio. 9.97×10<sup>3</sup> g mixes J with kJ (502,000 ÷ 2220)."
   },
   "data": {
    "f": [
@@ -10568,21 +10568,21 @@
    "879 kJ",
    "50.2 kJ",
    "0.879 kJ",
-   "8.79×10⁵ kJ"
+   "210 kJ"
   ],
   "answer": "879 kJ",
   "hint": "A food Calorie is 1 kcal; 1 kcal = 4.184 kJ.",
-  "explain": "210 kcal × 4.184 kJ/kcal = 879 kJ. 0.879 kJ treats Calories as small calories; 50.2 kJ divides by 4.184 instead of multiplying.",
+  "explain": "210 kcal × 4.184 kJ/kcal = 879 kJ. 0.879 kJ treats Calories as small calories; 50.2 kJ divides by 4.184 instead of multiplying. 210 kJ treats a Calorie as if it were a kilojoule.",
   "html": {
    "prompt": "A snack bar label lists 210 Calories (nutritional Calories, kcal). What is this energy in kilojoules? (1 cal = 4.184 J)",
    "choices": [
     "879 kJ",
     "50.2 kJ",
     "0.879 kJ",
-    "8.79×10<sup>5</sup> kJ"
+    "210 kJ"
    ],
    "hint": "A food Calorie is 1 kcal; 1 kcal = 4.184 kJ.",
-   "explain": "210 kcal × 4.184 kJ/kcal = <b>879 kJ</b>. 0.879 kJ treats Calories as small calories; 50.2 kJ divides by 4.184 instead of multiplying."
+   "explain": "210 kcal × 4.184 kJ/kcal = <b>879 kJ</b>. 0.879 kJ treats Calories as small calories; 50.2 kJ divides by 4.184 instead of multiplying. 210 kJ treats a Calorie as if it were a kilojoule."
   },
   "from": {
    "game": "finalexam",
@@ -11793,22 +11793,22 @@
   "choices": [
    "0.245 g",
    "0.252 g",
-   "0.123 g",
+   "3.29 g",
    "0.490 g"
   ],
   "answer": "0.245 g",
   "hint": "Subtract water's vapor pressure to get P(H₂), use PV = nRT in atm and K, then the 1 : 1 Mg : H₂ ratio.",
-  "explain": "P(H₂) = 748 − 19.8 = 728.2 torr = 0.9582 atm; n = (0.9582)(0.255) ÷ (0.08206 × 295.15) = 0.01009 mol H₂ = mol Mg × 24.31 g mol⁻¹ = 0.245 g. 0.252 g forgets to subtract the water vapor.",
+  "explain": "P(H₂) = 748 − 19.8 = 728.2 torr = 0.9582 atm; n = (0.9582)(0.255) ÷ (0.08206 × 295.15) = 0.01009 mol H₂ = mol Mg × 24.31 g mol⁻¹ = 0.245 g. 0.252 g forgets to subtract the water vapor. 3.29 g uses 22 °C instead of 295 K; 0.490 g doubles the moles using the coefficient of HCl.",
   "html": {
    "prompt": "Hydrogen from the reaction below fills 0.255 L of an inverted, water-filled tube at 22 °C. The barometer reads 748 torr, and water's vapor pressure at 22 °C is 19.8 torr. How many grams of magnesium reacted?",
    "choices": [
     "0.245 g",
     "0.252 g",
-    "0.123 g",
+    "3.29 g",
     "0.490 g"
    ],
    "hint": "Subtract water's vapor pressure to get P(H₂), use PV = nRT in atm and K, then the 1 : 1 Mg : H₂ ratio.",
-   "explain": "P(H₂) = 748 − 19.8 = 728.2 torr = 0.9582 atm; n = (0.9582)(0.255) ÷ (0.08206 × 295.15) = 0.01009 mol H₂ = mol Mg × 24.31 g mol⁻¹ = <b>0.245 g</b>. 0.252 g forgets to subtract the water vapor."
+   "explain": "P(H₂) = 748 − 19.8 = 728.2 torr = 0.9582 atm; n = (0.9582)(0.255) ÷ (0.08206 × 295.15) = 0.01009 mol H₂ = mol Mg × 24.31 g mol⁻¹ = <b>0.245 g</b>. 0.252 g forgets to subtract the water vapor. 3.29 g uses 22 °C instead of 295 K; 0.490 g doubles the moles using the coefficient of HCl."
   },
   "data": {
    "f": [
@@ -15123,7 +15123,7 @@
   }
  },
  {
-  "id": "finalexam-fc818ec7",
+  "id": "finalexam-70c44138",
   "skill": "finalexam.1a.bonding",
   "courses": [
    "1A"
@@ -15139,21 +15139,21 @@
   "calc": false,
   "prompt": "Nitrosyl chloride, NOCl, forms when aqua regia is mixed. Which structure (I–IV) is its best Lewis structure?",
   "choices": [
-   "III",
-   "I",
-   "II",
-   "IV"
+   "structure III",
+   "structure I",
+   "structure II",
+   "structure IV"
   ],
-  "answer": "III",
+  "answer": "structure III",
   "hint": "Total the valence electrons (7 + 5 + 6 = 18). The least electronegative non-halogen atom usually goes in the center. Then compare formal charges.",
   "explain": "III (Cl–N=O) has 18 electrons, N in the center and every formal charge 0. I puts a +1 charge on Cl, II puts O in the center (+1 on O, −1 on N), and IV shows 20 electrons.",
   "html": {
    "prompt": "Nitrosyl chloride, NOCl, forms when aqua regia is mixed. Which structure (I–IV) is its best Lewis structure?",
    "choices": [
-    "III",
-    "I",
-    "II",
-    "IV"
+    "structure III",
+    "structure I",
+    "structure II",
+    "structure IV"
    ],
    "hint": "Total the valence electrons (7 + 5 + 6 = 18). The least electronegative non-halogen atom usually goes in the center. Then compare formal charges.",
    "explain": "<b>III</b> (Cl–N=O) has 18 electrons, N in the center and every formal charge 0. I puts a +1 charge on Cl, II puts O in the center (+1 on O, −1 on N), and IV shows 20 electrons."
@@ -18933,7 +18933,7 @@
   }
  },
  {
-  "id": "finalexam-ed13f360",
+  "id": "finalexam-9e6ab4bd",
   "skill": "finalexam.1a.liquids",
   "courses": [
    "1A"
@@ -18949,21 +18949,21 @@
   "calc": false,
   "prompt": "Look at where the hydrogen atoms are attached in structures I–IV. Molecules of which one can act as both the donor and the acceptor of a hydrogen bond to each other?",
   "choices": [
-   "III",
-   "I",
-   "II",
-   "IV"
+   "structure III",
+   "structure I",
+   "structure II",
+   "structure IV"
   ],
-  "answer": "III",
+  "answer": "structure III",
   "hint": "A hydrogen bond needs an H atom that is covalently bonded to N, O or F in one molecule.",
   "explain": "Only III (CH₃NH₂) has H atoms bonded directly to N. In I, II and IV the F or O atoms can accept a hydrogen bond, but every H is on carbon, so these molecules cannot hydrogen-bond to each other.",
   "html": {
    "prompt": "Look at where the hydrogen atoms are attached in structures I–IV. Molecules of which one can act as both the donor and the acceptor of a hydrogen bond to each other?",
    "choices": [
-    "III",
-    "I",
-    "II",
-    "IV"
+    "structure III",
+    "structure I",
+    "structure II",
+    "structure IV"
    ],
    "hint": "A hydrogen bond needs an H atom that is covalently bonded to N, O or F in one molecule.",
    "explain": "Only <b>III</b> (CH<sub>3</sub>NH<sub>2</sub>) has H atoms bonded directly to N. In I, II and IV the F or O atoms can accept a hydrogen bond, but every H is on carbon, so these molecules cannot hydrogen-bond to each other."
@@ -26758,7 +26758,7 @@
   }
  },
  {
-  "id": "finalexam-986fcbe7",
+  "id": "finalexam-5458658e",
   "skill": "finalexam.1a.reactions",
   "courses": [
    "1A"
@@ -26774,21 +26774,21 @@
   "calc": false,
   "prompt": "Carbon monoxide burns according to the equation shown. The box labeled Before shows the mixture before reaction. Which box (I–IV) shows the contents after the reaction goes to completion?",
   "choices": [
-   "III",
-   "I",
-   "II",
-   "IV"
+   "box III",
+   "box I",
+   "box II",
+   "box IV"
   ],
-  "answer": "III",
+  "answer": "box III",
   "hint": "Find the limiting reactant from the mole ratio, then remember that leftover excess reactant stays in the box. Atoms must be conserved.",
   "explain": "4 CO need only 2 O₂, so CO is limiting: 4 CO₂ form and 3 − 2 = 1 O₂ is left: box III. Box I loses the leftover O₂ (oxygen atoms disappear); box II adds an extra O₂; box IV stops before the limiting CO is used up even though O₂ remains.",
   "html": {
    "prompt": "Carbon monoxide burns according to the equation shown. The box labeled Before shows the mixture before reaction. Which box (I–IV) shows the contents after the reaction goes to completion?",
    "choices": [
-    "III",
-    "I",
-    "II",
-    "IV"
+    "box III",
+    "box I",
+    "box II",
+    "box IV"
    ],
    "hint": "Find the limiting reactant from the mole ratio, then remember that leftover excess reactant stays in the box. Atoms must be conserved.",
    "explain": "4 CO need only 2 O<sub>2</sub>, so CO is limiting: 4 CO<sub>2</sub> form and 3 − 2 = 1 O<sub>2</sub> is left: box <b>III</b>. Box I loses the leftover O<sub>2</sub> (oxygen atoms disappear); box II adds an extra O<sub>2</sub>; box IV stops before the limiting CO is used up even though O<sub>2</sub> remains."
@@ -27753,7 +27753,7 @@
   }
  },
  {
-  "id": "finalexam-b450df55",
+  "id": "finalexam-d65ba7dc",
   "skill": "finalexam.1a.reactions",
   "courses": [
    "1A"
@@ -27769,21 +27769,21 @@
   "calc": false,
   "prompt": "The two solutions shown are mixed, and BaSO₄(s) precipitates. Which box (I–IV) shows the ions still dissolved after the reaction is complete? (The solid is not shown.)",
   "choices": [
-   "III",
-   "I",
-   "II",
-   "IV"
+   "box III",
+   "box I",
+   "box II",
+   "box IV"
   ],
-  "answer": "III",
+  "answer": "box III",
   "hint": "Net ionic: Ba²⁺ + SO²⁻₄ → BaSO₄(s). Which of those two ions runs out first? Spectator ions all stay.",
   "explain": "3 Ba²⁺ and 2 SO²⁻₄ are present, so SO²⁻₄ is limiting: 2 BaSO₄(s) form and 1 Ba²⁺ remains with the spectators 6 Cl⁻ and 4 Na⁺: box III (charges balance: +2 − 6 + 4 = 0). Box I forgets the excess Ba²⁺; box II treats NaCl as the precipitate.",
   "html": {
    "prompt": "The two solutions shown are mixed, and BaSO<sub>4</sub>(s) precipitates. Which box (I–IV) shows the ions still dissolved after the reaction is complete? (The solid is not shown.)",
    "choices": [
-    "III",
-    "I",
-    "II",
-    "IV"
+    "box III",
+    "box I",
+    "box II",
+    "box IV"
    ],
    "hint": "Net ionic: Ba<sup>2+</sup> + <span class=\"nw\">SO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span> → BaSO<sub>4</sub>(s). Which of those two ions runs out first? Spectator ions all stay.",
    "explain": "3 Ba<sup>2+</sup> and 2 <span class=\"nw\">SO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span> are present, so <span class=\"nw\">SO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span> is limiting: 2 BaSO<sub>4</sub>(s) form and 1 Ba<sup>2+</sup> remains with the spectators 6 Cl<sup>−</sup> and 4 Na<sup>+</sup>: box <b>III</b> (charges balance: +2 − 6 + 4 = 0). Box I forgets the excess Ba<sup>2+</sup>; box II treats NaCl as the precipitate."
@@ -29038,7 +29038,7 @@
   }
  },
  {
-  "id": "finalexam-b466ae73",
+  "id": "finalexam-6d5d6f51",
   "skill": "finalexam.1a.measure",
   "courses": [
    "1A"
@@ -29054,21 +29054,21 @@
   "calc": false,
   "prompt": "Each target shows five measurements of the same quantity; the center is the true value. Which target shows results that are accurate but NOT precise?",
   "choices": [
-   "III",
-   "I",
-   "II",
-   "IV"
+   "target III",
+   "target I",
+   "target II",
+   "target IV"
   ],
-  "answer": "III",
+  "answer": "target III",
   "hint": "Accuracy = closeness of the average to the true value. Precision = closeness of the measurements to one another.",
   "explain": "In III the hits are spread widely, but they are scattered evenly around the center, so their average is close to the true value: accurate, not precise. II is a tight cluster away from the center (precise, not accurate); I is a tight cluster on the center; IV is scattered and off-center.",
   "html": {
    "prompt": "Each target shows five measurements of the same quantity; the center is the true value. Which target shows results that are accurate but NOT precise?",
    "choices": [
-    "III",
-    "I",
-    "II",
-    "IV"
+    "target III",
+    "target I",
+    "target II",
+    "target IV"
    ],
    "hint": "Accuracy = closeness of the average to the true value. Precision = closeness of the measurements to one another.",
    "explain": "In <b>III</b> the hits are spread widely, but they are scattered evenly around the center, so their average is close to the true value: accurate, not precise. II is a tight cluster away from the center (precise, not accurate); I is a tight cluster on the center; IV is scattered and off-center."
@@ -29367,9 +29367,9 @@
   "prompt": "Ammonia is drawn below with 90° angles. What is the ACTUAL H–N–H bond angle in an NH₃ molecule?",
   "choices": [
    "about 107°",
-   "90°",
-   "120°",
-   "180°"
+   "about 90°",
+   "about 120°",
+   "about 180°"
   ],
   "answer": "about 107°",
   "hint": "A Lewis drawing on paper is flat. Count electron domains around N (bonds + lone pairs) and remember lone pairs squeeze bond angles.",
@@ -29378,9 +29378,9 @@
    "prompt": "Ammonia is drawn below with 90° angles. What is the ACTUAL H–N–H bond angle in an NH<sub>3</sub> molecule?",
    "choices": [
     "about 107°",
-    "90°",
-    "120°",
-    "180°"
+    "about 90°",
+    "about 120°",
+    "about 180°"
    ],
    "hint": "A Lewis drawing on paper is flat. Count electron domains around N (bonds + lone pairs) and remember lone pairs squeeze bond angles.",
    "explain": "The drawing is flat and does not show the real geometry. N has 3 bonds + 1 lone pair = 4 domains → tetrahedral electron geometry, trigonal pyramidal shape. The lone pair pushes the bonds closer than 109.5°, giving <b>about 107°</b>. 90° just reads the paper drawing; 120° would need a flat (trigonal planar) molecule with no lone pair."
@@ -33206,23 +33206,23 @@
   "prompt": "Breaking the Cl–Cl bond requires 242 kJ mol⁻¹. What is the LONGEST wavelength of light whose photons each have enough energy to break one Cl–Cl bond?",
   "choices": [
    "494 nm",
-   "4.94×10⁵ nm",
+   "4.94×10⁻⁷ nm",
    "8.21×10⁻²² nm",
    "247 nm"
   ],
   "answer": "494 nm",
   "hint": "Convert kJ mol⁻¹ to J per bond (÷ N_A, × 1000), then λ = hc/E. Longer wavelength means less energy.",
-  "explain": "E per bond = 242,000 J mol⁻¹ ÷ 6.022×10²³ mol⁻¹ = 4.02×10⁻¹⁹ J; λ = hc/E = 494 nm. Any longer wavelength carries too little energy. Skipping N_A gives the absurd 8.21×10⁻²² nm.",
+  "explain": "E per bond = 242,000 J mol⁻¹ ÷ 6.022×10²³ mol⁻¹ = 4.02×10⁻¹⁹ J; λ = hc/E = 494 nm. Any longer wavelength carries too little energy. Skipping N_A gives the absurd 8.21×10⁻²² nm. 4.94×10⁻⁷ is the wavelength in meters, never converted to nm.",
   "html": {
    "prompt": "Breaking the Cl–Cl bond requires 242 kJ mol⁻¹. What is the LONGEST wavelength of light whose photons each have enough energy to break one Cl–Cl bond?",
    "choices": [
     "494 nm",
-    "4.94×10<sup>5</sup> nm",
+    "4.94×10<sup>−7</sup> nm",
     "8.21×10<sup>−22</sup> nm",
     "247 nm"
    ],
    "hint": "Convert kJ mol⁻¹ to J per bond (÷ N<sub>A</sub>, × 1000), then λ = hc/E. Longer wavelength means less energy.",
-   "explain": "E per bond = 242,000 J mol⁻¹ ÷ 6.022×10<sup>23</sup> mol<sup>−1</sup> = 4.02×10<sup>−19</sup> J; λ = hc/E = <b>494 nm</b>. Any longer wavelength carries too little energy. Skipping N<sub>A</sub> gives the absurd 8.21×10<sup>−22</sup> nm."
+   "explain": "E per bond = 242,000 J mol⁻¹ ÷ 6.022×10<sup>23</sup> mol<sup>−1</sup> = 4.02×10<sup>−19</sup> J; λ = hc/E = <b>494 nm</b>. Any longer wavelength carries too little energy. Skipping N<sub>A</sub> gives the absurd 8.21×10<sup>−22</sup> nm. 4.94×10<sup>−7</sup> is the wavelength in meters, never converted to nm."
   },
   "from": {
    "game": "finalexam",
@@ -34467,22 +34467,22 @@
   "choices": [
    "X₂O₃",
    "XO",
-   "X₂O",
+   "X₃O₂",
    "XO₂"
   ],
   "answer": "X₂O₃",
   "hint": "Find the huge jump: electrons before it are valence electrons. That count gives the ion charge.",
-  "explain": "IE₄ is about 4 times IE₃, so X has 3 valence electrons (it is Al) and forms X³⁺. With O²⁻, charges balance as X₂O₃. XO would fit a jump after IE₂.",
+  "explain": "IE₄ is about 4 times IE₃, so X has 3 valence electrons (it is Al) and forms X³⁺. With O²⁻, charges balance as X₂O₃. XO would fit a jump after IE₂; X₃O₂ swaps the subscripts.",
   "html": {
    "prompt": "The table gives the first five ionization energies of a period-3 element X. What is the most likely formula of the oxide of X?",
    "choices": [
     "X<sub>2</sub>O<sub>3</sub>",
     "XO",
-    "X<sub>2</sub>O",
+    "X<sub>3</sub>O<sub>2</sub>",
     "XO<sub>2</sub>"
    ],
    "hint": "Find the huge jump: electrons before it are valence electrons. That count gives the ion charge.",
-   "explain": "IE<sub>4</sub> is about 4 times IE<sub>3</sub>, so X has 3 valence electrons (it is Al) and forms X<sup>3+</sup>. With O<sup>2−</sup>, charges balance as <b>X<sub>2</sub>O<sub>3</sub></b>. XO would fit a jump after IE<sub>2</sub>."
+   "explain": "IE<sub>4</sub> is about 4 times IE<sub>3</sub>, so X has 3 valence electrons (it is Al) and forms X<sup>3+</sup>. With O<sup>2−</sup>, charges balance as <b>X<sub>2</sub>O<sub>3</sub></b>. XO would fit a jump after IE<sub>2</sub>; X<sub>3</sub>O<sub>2</sub> swaps the subscripts."
   },
   "data": {
    "f": [
@@ -35348,7 +35348,7 @@
   }
  },
  {
-  "id": "finalexam-701486b0",
+  "id": "finalexam-fc0045f3",
   "skill": "finalexam.1a.reactions",
   "courses": [
    "1A"
@@ -35364,21 +35364,21 @@
   "calc": false,
   "prompt": "Baking soda (NaHCO₃) is added to vinegar (acetic acid) and the mixture fizzes. Which gas is produced?",
   "choices": [
-   "CO₂",
-   "H₂",
-   "O₂",
-   "CO"
+   "CO₂(g)",
+   "H₂(g)",
+   "O₂(g)",
+   "CO(g)"
   ],
-  "answer": "CO₂",
+  "answer": "CO₂(g)",
   "hint": "Carbonates and hydrogen carbonates react with acids to form H₂CO₃, which falls apart.",
   "explain": "HCO⁻₃ + H⁺ → H₂CO₃ → H₂O + CO₂(g). H₂ forms when an ACTIVE METAL reacts with acid, not a carbonate.",
   "html": {
    "prompt": "Baking soda (NaHCO<sub>3</sub>) is added to vinegar (acetic acid) and the mixture fizzes. Which gas is produced?",
    "choices": [
-    "CO<sub>2</sub>",
-    "H<sub>2</sub>",
-    "O<sub>2</sub>",
-    "CO"
+    "CO<sub>2</sub>(g)",
+    "H<sub>2</sub>(g)",
+    "O<sub>2</sub>(g)",
+    "CO(g)"
    ],
    "hint": "Carbonates and hydrogen carbonates react with acids to form H₂CO₃, which falls apart.",
    "explain": "<span class=\"nw\">HCO<span class=\"ss\"><sup>−</sup><sub>3</sub></span></span> + H<sup>+</sup> → H<sub>2</sub>CO<sub>3</sub> → H<sub>2</sub>O + <b>CO<sub>2</sub>(g)</b>. H<sub>2</sub> forms when an ACTIVE METAL reacts with acid, not a carbonate."
@@ -35685,21 +35685,21 @@
    "9",
    "10",
    "18",
-   "6"
+   "20"
   ],
   "answer": "9",
   "hint": "Balance C, then H, then O last. Don't forget the oxygen atom already in the alcohol.",
-  "explain": "2 C₃H₇OH + 9 O₂ → 6 CO₂ + 8 H₂O. Right side has 12 + 8 = 20 O; the alcohol supplies 2, so O₂ supplies 18 atoms = 9 molecules. Ignoring the alcohol's O gives 10.",
+  "explain": "2 C₃H₇OH + 9 O₂ → 6 CO₂ + 8 H₂O. Right side has 12 + 8 = 20 O; the alcohol supplies 2, so O₂ supplies 18 atoms = 9 molecules. Ignoring the alcohol's O gives 10. 20 counts every O atom on the right without subtracting the alcohol's O or dividing by 2.",
   "html": {
    "prompt": "Isopropanol (rubbing alcohol) burns completely, as in the skeleton equation. What coefficient does O<sub>2</sub> get with the smallest whole numbers?",
    "choices": [
     "9",
     "10",
     "18",
-    "6"
+    "20"
    ],
    "hint": "Balance C, then H, then O last. Don't forget the oxygen atom already in the alcohol.",
-   "explain": "2 C<sub>3</sub>H<sub>7</sub>OH + <b>9</b> O<sub>2</sub> → 6 CO<sub>2</sub> + 8 H<sub>2</sub>O. Right side has 12 + 8 = 20 O; the alcohol supplies 2, so O<sub>2</sub> supplies 18 atoms = 9 molecules. Ignoring the alcohol's O gives 10."
+   "explain": "2 C<sub>3</sub>H<sub>7</sub>OH + <b>9</b> O<sub>2</sub> → 6 CO<sub>2</sub> + 8 H<sub>2</sub>O. Right side has 12 + 8 = 20 O; the alcohol supplies 2, so O<sub>2</sub> supplies 18 atoms = 9 molecules. Ignoring the alcohol's O gives 10. 20 counts every O atom on the right without subtracting the alcohol's O or dividing by 2."
   },
   "data": {
    "f": [

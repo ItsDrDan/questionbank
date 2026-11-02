@@ -19,21 +19,21 @@
    "0.020 M s⁻¹",
    "0.080 M s⁻¹",
    "0.040 M s⁻¹",
-   "0.010 M s⁻¹"
+   "0.160 M s⁻¹"
   ],
   "answer": "0.020 M s⁻¹",
   "hint": "Relate rates through the coefficients: divide each species' rate of change by its coefficient.",
-  "explain": "Rate = −(1/2)Δ[N₂O₅]/Δt = (1/4)Δ[NO₂]/Δt, so −Δ[N₂O₅]/Δt = (2/4)(0.040 M s⁻¹) = 0.020 M s⁻¹. 0.080 M s⁻¹ comes from flipping the 2:4 ratio.",
+  "explain": "Rate = −(1/2)Δ[N₂O₅]/Δt = (1/4)Δ[NO₂]/Δt, so −Δ[N₂O₅]/Δt = (2/4)(0.040 M s⁻¹) = 0.020 M s⁻¹. 0.080 M s⁻¹ comes from flipping the 2:4 ratio; 0.160 M s⁻¹ multiplies by the coefficient 4 instead of using the 2:4 ratio.",
   "html": {
    "prompt": "For the reaction shown, NO<sub>2</sub> is forming at 0.040 M s⁻¹ at a certain instant. At what rate is N<sub>2</sub>O<sub>5</sub> being consumed at that instant?",
    "choices": [
     "0.020 M s⁻¹",
     "0.080 M s⁻¹",
     "0.040 M s⁻¹",
-    "0.010 M s⁻¹"
+    "0.160 M s⁻¹"
    ],
    "hint": "Relate rates through the coefficients: divide each species' rate of change by its coefficient.",
-   "explain": "Rate = −(1/2)Δ[N<sub>2</sub>O<sub>5</sub>]/Δt = (1/4)Δ[NO<sub>2</sub>]/Δt, so −Δ[N<sub>2</sub>O<sub>5</sub>]/Δt = (2/4)(0.040 M s⁻¹) = <b>0.020 M s⁻¹</b>. 0.080 M s⁻¹ comes from flipping the 2:4 ratio."
+   "explain": "Rate = −(1/2)Δ[N<sub>2</sub>O<sub>5</sub>]/Δt = (1/4)Δ[NO<sub>2</sub>]/Δt, so −Δ[N<sub>2</sub>O<sub>5</sub>]/Δt = (2/4)(0.040 M s⁻¹) = <b>0.020 M s⁻¹</b>. 0.080 M s⁻¹ comes from flipping the 2:4 ratio; 0.160 M s⁻¹ multiplies by the coefficient 4 instead of using the 2:4 ratio."
   },
   "data": {
    "f": [
@@ -69,21 +69,21 @@
    "0.0720 M s⁻¹",
    "0.0320 M s⁻¹",
    "0.0480 M s⁻¹",
-   "0.288 M s⁻¹"
+   "0.0120 M s⁻¹"
   ],
   "answer": "0.0720 M s⁻¹",
   "hint": "Use the mole ratio of H₂ to PH₃ from the balanced equation.",
-  "explain": "Δ[H₂]/Δt = (6/4)(0.0480 M s⁻¹) = 0.0720 M s⁻¹. Using 4/6 instead inverts the ratio.",
+  "explain": "Δ[H₂]/Δt = (6/4)(0.0480 M s⁻¹) = 0.0720 M s⁻¹. Using 4/6 instead inverts the ratio; 0.0120 M s⁻¹ divides by the coefficient of PH₃ but forgets to multiply by the 6 for H₂.",
   "html": {
    "prompt": "Phosphine decomposes according to the reaction below. If PH<sub>3</sub> disappears at 0.0480 M s⁻¹, what is the rate of formation of H<sub>2</sub>?",
    "choices": [
     "0.0720 M s⁻¹",
     "0.0320 M s⁻¹",
     "0.0480 M s⁻¹",
-    "0.288 M s⁻¹"
+    "0.0120 M s⁻¹"
    ],
    "hint": "Use the mole ratio of H<sub>2</sub> to PH<sub>3</sub> from the balanced equation.",
-   "explain": "Δ[H<sub>2</sub>]/Δt = (6/4)(0.0480 M s⁻¹) = <b>0.0720 M s⁻¹</b>. Using 4/6 instead inverts the ratio."
+   "explain": "Δ[H<sub>2</sub>]/Δt = (6/4)(0.0480 M s⁻¹) = <b>0.0720 M s⁻¹</b>. Using 4/6 instead inverts the ratio; 0.0120 M s⁻¹ divides by the coefficient of PH<sub>3</sub> but forgets to multiply by the 6 for H<sub>2</sub>."
   },
   "data": {
    "f": [
@@ -318,22 +318,22 @@
   "choices": [
    "75.0 min",
    "50.0 min",
-   "100. min",
+   "3.13 min",
    "37.5 min"
   ],
   "answer": "75.0 min",
   "hint": "12.5% is a simple fraction: how many halvings get you from 100% there?",
-  "explain": "100% → 50% → 25% → 12.5% is 3 half-lives: 3 × 25.0 min = 75.0 min. Half-life of a first-order reaction does not change as the concentration drops.",
+  "explain": "100% → 50% → 25% → 12.5% is 3 half-lives: 3 × 25.0 min = 75.0 min. Half-life of a first-order reaction does not change as the concentration drops. 3.13 min just multiplies the half-life by 0.125; 50.0 min stops at 25%.",
   "html": {
    "prompt": "A first-order decomposition has a half-life of 25.0 min. How long does it take for the reactant concentration to fall to 12.5% of its initial value?",
    "choices": [
     "75.0 min",
     "50.0 min",
-    "100. min",
+    "3.13 min",
     "37.5 min"
    ],
    "hint": "12.5% is a simple fraction: how many halvings get you from 100% there?",
-   "explain": "100% → 50% → 25% → 12.5% is 3 half-lives: 3 × 25.0 min = <b>75.0 min</b>. Half-life of a first-order reaction does not change as the concentration drops."
+   "explain": "100% → 50% → 25% → 12.5% is 3 half-lives: 3 × 25.0 min = <b>75.0 min</b>. Half-life of a first-order reaction does not change as the concentration drops. 3.13 min just multiplies the half-life by 0.125; 50.0 min stops at 25%."
   },
   "from": {
    "game": "finalexam",
@@ -361,21 +361,21 @@
    "0.207 M",
    "0.593 M",
    "0.385 M",
-   "0.0357 M"
+   "3.09 M"
   ],
   "answer": "0.207 M",
   "hint": "Use the integrated first-order law ln[A] = ln[A]₀ − kt (natural log, not log base 10).",
-  "explain": "[A] = (0.800 M) e^−(0.0450)(30.0) = 0.800 × e^−1.35 = 0.207 M. 0.593 M is the amount that reacted, not the amount left.",
+  "explain": "[A] = (0.800 M) e^−(0.0450)(30.0) = 0.800 × e^−1.35 = 0.207 M. 0.593 M is the amount that reacted, not the amount left; 3.09 M drops the minus sign in the exponent (e^+1.35), which is impossible because [A] cannot grow.",
   "html": {
    "prompt": "A first-order reaction has k = 0.0450 min<sup>−1</sup>. If [A]<sub>0</sub> = 0.800 M, what is [A] after 30.0 min?",
    "choices": [
     "0.207 M",
     "0.593 M",
     "0.385 M",
-    "0.0357 M"
+    "3.09 M"
    ],
    "hint": "Use the integrated first-order law ln[A] = ln[A]<sub>0</sub> − kt (natural log, not log base 10).",
-   "explain": "[A] = (0.800 M) e<sup>−(0.0450)(30.0)</sup> = 0.800 × e<sup>−1.35</sup> = <b>0.207 M</b>. 0.593 M is the amount that reacted, not the amount left."
+   "explain": "[A] = (0.800 M) e<sup>−(0.0450)(30.0)</sup> = 0.800 × e<sup>−1.35</sup> = <b>0.207 M</b>. 0.593 M is the amount that reacted, not the amount left; 3.09 M drops the minus sign in the exponent (e<sup>+1.35</sup>), which is impossible because [A] cannot grow."
   },
   "from": {
    "game": "finalexam",
@@ -1039,21 +1039,21 @@
    "19.4 min",
    "140 min",
    "22.5 min",
-   "9.0 min"
+   "31.2 min"
   ],
   "answer": "19.4 min",
   "hint": "First find k from ln([A]₀/[A]) = kt, using the fraction that REMAINS, then t_1/2 = 0.693/k.",
-  "explain": "k = ln(100/20.0)/45.0 min = 0.0358 min⁻¹; t_1/2 = 0.693/k = 19.4 min. Using 80% (the fraction reacted) as what remains gives 140 min.",
+  "explain": "k = ln(100/20.0)/45.0 min = 0.0358 min⁻¹; t_1/2 = 0.693/k = 19.4 min. Using 80% (the fraction reacted) as what remains gives 140 min; 31.2 min is 0.693 × 45.0 min, which forgets to divide by ln(100/20.0).",
   "html": {
    "prompt": "In a first-order reaction, only 20.0% of the reactant remains after 45.0 min. What is the half-life?",
    "choices": [
     "19.4 min",
     "140 min",
     "22.5 min",
-    "9.0 min"
+    "31.2 min"
    ],
    "hint": "First find k from ln([A]<sub>0</sub>/[A]) = kt, using the fraction that REMAINS, then t<sub>1/2</sub> = 0.693/k.",
-   "explain": "k = ln(100/20.0)/45.0 min = 0.0358 min<sup>−1</sup>; t<sub>1/2</sub> = 0.693/k = <b>19.4 min</b>. Using 80% (the fraction reacted) as what remains gives 140 min."
+   "explain": "k = ln(100/20.0)/45.0 min = 0.0358 min<sup>−1</sup>; t<sub>1/2</sub> = 0.693/k = <b>19.4 min</b>. Using 80% (the fraction reacted) as what remains gives 140 min; 31.2 min is 0.693 × 45.0 min, which forgets to divide by ln(100/20.0)."
   },
   "from": {
    "game": "finalexam",
@@ -1231,21 +1231,21 @@
    "2.5×10⁻⁴",
    "−4.0×10³",
    "4.0×10³",
-   "63"
+   "8.0×10³"
   ],
   "answer": "2.5×10⁻⁴",
   "hint": "Reversing a reaction inverts its equilibrium constant.",
-  "explain": "K_reverse = 1/K = 1/(4.0×10³) = 2.5×10⁻⁴. K can never be negative.",
+  "explain": "K_reverse = 1/K = 1/(4.0×10³) = 2.5×10⁻⁴. Reversing a reaction inverts K; 8.0×10³ doubles K for the coefficient 2, which does not apply to simply reversing the equation, and −4.0×10³ is impossible because K can never be negative.",
   "html": {
    "prompt": "For the reaction shown, K = 4.0×10<sup>3</sup>. What is K for 2 B(g) ⇌ A(g) at the same temperature?",
    "choices": [
     "2.5×10<sup>−4</sup>",
     "−4.0×10<sup>3</sup>",
     "4.0×10<sup>3</sup>",
-    "63"
+    "8.0×10<sup>3</sup>"
    ],
    "hint": "Reversing a reaction inverts its equilibrium constant.",
-   "explain": "K<sub>reverse</sub> = 1/K = 1/(4.0×10<sup>3</sup>) = <b>2.5×10<sup>−4</sup></b>. K can never be negative."
+   "explain": "<i>K</i><sub>reverse</sub> = 1/<i>K</i> = 1/(4.0×10<sup>3</sup>) = 2.5×10<sup>−4</sup>. Reversing a reaction inverts <i>K</i>; 8.0×10<sup>3</sup> doubles <i>K</i> for the coefficient 2, which does not apply to simply reversing the equation, and −4.0×10<sup>3</sup> is impossible because <i>K</i> can never be negative."
   },
   "data": {
    "f": [
@@ -1280,22 +1280,22 @@
   "choices": [
    "4.0×10⁻³",
    "8.0×10⁻⁶",
-   "2.5×10²",
+   "3.2×10⁻⁵",
    "2.6×10⁻¹⁰"
   ],
   "answer": "4.0×10⁻³",
   "hint": "Multiplying an equation by a factor n raises K to the power n.",
-  "explain": "The equation is multiplied by ½, so K' = K^1/2 = (1.6×10⁻⁵)^1/2 = 4.0×10⁻³. Dividing K by 2 is the common mistake.",
+  "explain": "The equation is multiplied by ½, so K' = K^1/2 = (1.6×10⁻⁵)^1/2 = 4.0×10⁻³. Dividing K by 2 (8.0×10⁻⁶) is the common mistake; 3.2×10⁻⁵ multiplies K by 2 instead.",
   "html": {
    "prompt": "At a certain temperature, K = 1.6×10<sup>−5</sup> for the reaction shown. What is K for NOCl(g) ⇌ NO(g) + ½ Cl<sub>2</sub>(g)?",
    "choices": [
     "4.0×10<sup>−3</sup>",
     "8.0×10<sup>−6</sup>",
-    "2.5×10<sup>2</sup>",
+    "3.2×10<sup>−5</sup>",
     "2.6×10<sup>−10</sup>"
    ],
    "hint": "Multiplying an equation by a factor n raises K to the power n.",
-   "explain": "The equation is multiplied by ½, so K' = K<sup>1/2</sup> = (1.6×10<sup>−5</sup>)<sup>1/2</sup> = <b>4.0×10<sup>−3</sup></b>. Dividing K by 2 is the common mistake."
+   "explain": "The equation is multiplied by ½, so K' = K<sup>1/2</sup> = (1.6×10<sup>−5</sup>)<sup>1/2</sup> = <b>4.0×10<sup>−3</sup></b>. Dividing K by 2 (8.0×10<sup>−6</sup>) is the common mistake; 3.2×10<sup>−5</sup> multiplies K by 2 instead."
   },
   "data": {
    "f": [
@@ -1919,22 +1919,22 @@
   "choices": [
    "0.267",
    "0.160",
-   "0.400",
+   "0.050",
    "0.114"
   ],
   "answer": "0.267",
   "hint": "Let x = pressure of PCl₅ that decomposes. Write the total pressure in terms of x.",
-  "explain": "P_total = (1.00 − x) + x + x = 1.00 + x = 1.40, so x = 0.40 atm. K_p = (0.40)(0.40)/(0.60) = 0.267. Forgetting to subtract x from PCl₅ gives 0.160.",
+  "explain": "P_total = (1.00 − x) + x + x = 1.00 + x = 1.40, so x = 0.40 atm. K_p = (0.40)(0.40)/(0.60) = 0.267. Forgetting to subtract x from PCl₅ gives 0.160; writing P_total = 1.00 + 2x (x = 0.20) gives 0.050.",
   "html": {
    "prompt": "Pure PCl<sub>5</sub>(g) at an initial pressure of 1.00 atm decomposes in a rigid flask according to the reaction below. At equilibrium the total pressure is 1.40 atm. What is K<sub>p</sub>?",
    "choices": [
     "0.267",
     "0.160",
-    "0.400",
+    "0.050",
     "0.114"
    ],
    "hint": "Let x = pressure of PCl<sub>5</sub> that decomposes. Write the total pressure in terms of x.",
-   "explain": "P<sub>total</sub> = (1.00 − x) + x + x = 1.00 + x = 1.40, so x = 0.40 atm. K<sub>p</sub> = (0.40)(0.40)/(0.60) = <b>0.267</b>. Forgetting to subtract x from PCl<sub>5</sub> gives 0.160."
+   "explain": "P<sub>total</sub> = (1.00 − x) + x + x = 1.00 + x = 1.40, so x = 0.40 atm. K<sub>p</sub> = (0.40)(0.40)/(0.60) = <b>0.267</b>. Forgetting to subtract x from PCl<sub>5</sub> gives 0.160; writing P<sub>total</sub> = 1.00 + 2x (x = 0.20) gives 0.050."
   },
   "data": {
    "f": [
@@ -2337,22 +2337,22 @@
   "choices": [
    "2.60",
    "11.40",
-   "2.30",
+   "5.99",
    "3.60"
   ],
   "answer": "2.60",
   "hint": "HNO₃ is a strong acid, so [H₃O⁺] equals the acid concentration.",
-  "explain": "pH = −log(0.0025) = 2.60. 11.40 is what you get by treating it as a base.",
+  "explain": "pH = −log(0.0025) = 2.60. 11.40 is what you get by treating it as a base; 5.99 uses the natural log (−ln 0.0025) instead of log₁₀.",
   "html": {
    "prompt": "What is the pH of 0.0025 M HNO<sub>3</sub>?",
    "choices": [
     "2.60",
     "11.40",
-    "2.30",
+    "5.99",
     "3.60"
    ],
    "hint": "HNO<sub>3</sub> is a strong acid, so [H<sub>3</sub>O<sup>+</sup>] equals the acid concentration.",
-   "explain": "pH = −log(0.0025) = <b>2.60</b>. 11.40 is what you get by treating it as a base."
+   "explain": "pH = −log(0.0025) = <b>2.60</b>. 11.40 is what you get by treating it as a base; 5.99 uses the natural log (−ln 0.0025) instead of log<sub>10</sub>."
   },
   "from": {
    "game": "finalexam",
@@ -2420,23 +2420,23 @@
   "prompt": "What is the pH of 0.10 M acetic acid (K_a = 1.8×10⁻⁵)?",
   "choices": [
    "2.87",
-   "1.00",
+   "11.13",
    "4.74",
    "5.74"
   ],
   "answer": "2.87",
   "hint": "Weak acid: [H₃O⁺] ≈ √(K_a·C) when ionization is small.",
-  "explain": "x = √[(1.8×10⁻⁵)(0.10)] = 1.3×10⁻³ M; pH = 2.87. pH 1.00 treats acetic acid as a strong acid; 5.74 forgets the square root.",
+  "explain": "x = √[(1.8×10⁻⁵)(0.10)] = 1.3×10⁻³ M; pH = 2.87. 11.13 is the pOH, not the pH; 5.74 forgets the square root; 4.74 is just pK_a.",
   "html": {
    "prompt": "What is the pH of 0.10 M acetic acid (K<sub>a</sub> = 1.8×10<sup>−5</sup>)?",
    "choices": [
     "2.87",
-    "1.00",
+    "11.13",
     "4.74",
     "5.74"
    ],
    "hint": "Weak acid: [H<sub>3</sub>O<sup>+</sup>] ≈ √(K<sub>a</sub>·C) when ionization is small.",
-   "explain": "x = √[(1.8×10<sup>−5</sup>)(0.10)] = 1.3×10<sup>−3</sup> M; pH = <b>2.87</b>. pH 1.00 treats acetic acid as a strong acid; 5.74 forgets the square root."
+   "explain": "x = √[(1.8×10<sup>−5</sup>)(0.10)] = 1.3×10<sup>−3</sup> M; pH = <b>2.87</b>. 11.13 is the pOH, not the pH; 5.74 forgets the square root; 4.74 is just pK<sub>a</sub>."
   },
   "from": {
    "game": "finalexam",
@@ -2463,22 +2463,22 @@
   "choices": [
    "11.28",
    "2.72",
-   "13.30",
+   "4.74",
    "8.56"
   ],
   "answer": "11.28",
   "hint": "Solve for [OH⁻] with K_b, then convert pOH to pH.",
-  "explain": "[OH⁻] = √[(1.8×10⁻⁵)(0.20)] = 1.9×10⁻³ M; pOH = 2.72; pH = 11.28. 2.72 is the pOH, not the pH.",
+  "explain": "[OH⁻] = √[(1.8×10⁻⁵)(0.20)] = 1.9×10⁻³ M; pOH = 2.72; pH = 11.28. 2.72 is the pOH, not the pH; 4.74 is just pK_b.",
   "html": {
    "prompt": "What is the pH of 0.20 M NH<sub>3</sub> (K<sub>b</sub> = 1.8×10<sup>−5</sup>)?",
    "choices": [
     "11.28",
     "2.72",
-    "13.30",
+    "4.74",
     "8.56"
    ],
    "hint": "Solve for [OH<sup>−</sup>] with K<sub>b</sub>, then convert pOH to pH.",
-   "explain": "[OH<sup>−</sup>] = √[(1.8×10<sup>−5</sup>)(0.20)] = 1.9×10<sup>−3</sup> M; pOH = 2.72; pH = <b>11.28</b>. 2.72 is the pOH, not the pH."
+   "explain": "[OH<sup>−</sup>] = √[(1.8×10<sup>−5</sup>)(0.20)] = 1.9×10<sup>−3</sup> M; pOH = 2.72; pH = <b>11.28</b>. 2.72 is the pOH, not the pH; 4.74 is just pK<sub>b</sub>."
   },
   "from": {
    "game": "finalexam",
@@ -2673,22 +2673,22 @@
   "choices": [
    "4.93",
    "9.07",
-   "2.67",
+   "9.26",
    "7.00"
   ],
   "answer": "4.93",
   "hint": "NO⁻₃ is a spectator; NH⁺₄ is a weak acid with K_a = K_w/K_b.",
-  "explain": "K_a(NH⁺₄) = 5.6×10⁻¹⁰; [H₃O⁺] = √(K_a·0.25) = 1.2×10⁻⁵ M; pH = 4.93. Using K_b directly as if it were K_a gives 2.67.",
+  "explain": "K_a(NH⁺₄) = 5.6×10⁻¹⁰; [H₃O⁺] = √(K_a·0.25) = 1.2×10⁻⁵ M; pH = 4.93. 9.07 is the pOH; 9.26 is just pK_a of NH⁺₄, and 7.00 ignores the acidic cation.",
   "html": {
    "prompt": "Ammonium nitrate, NH<sub>4</sub>NO<sub>3</sub>, is used in instant cold packs. What is the pH of 0.25 M NH<sub>4</sub>NO<sub>3</sub>? (K<sub>b</sub> of NH<sub>3</sub> = 1.8×10<sup>−5</sup>)",
    "choices": [
     "4.93",
     "9.07",
-    "2.67",
+    "9.26",
     "7.00"
    ],
    "hint": "<span class=\"nw\">NO<span class=\"ss\"><sup>−</sup><sub>3</sub></span></span> is a spectator; <span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>4</sub></span></span> is a weak acid with K<sub>a</sub> = K<sub>w</sub>/K<sub>b</sub>.",
-   "explain": "<span class=\"nw\">K<sub>a</sub>(NH<span class=\"ss\"><sup>+</sup><sub>4</sub></span>)</span> = 5.6×10<sup>−10</sup>; [H<sub>3</sub>O<sup>+</sup>] = √(K<sub>a</sub>·0.25) = 1.2×10<sup>−5</sup> M; pH = <b>4.93</b>. Using K<sub>b</sub> directly as if it were K<sub>a</sub> gives 2.67."
+   "explain": "<span class=\"nw\">K<sub>a</sub>(NH<span class=\"ss\"><sup>+</sup><sub>4</sub></span>)</span> = 5.6×10<sup>−10</sup>; [H<sub>3</sub>O<sup>+</sup>] = √(K<sub>a</sub>·0.25) = 1.2×10<sup>−5</sup> M; pH = <b>4.93</b>. 9.07 is the pOH; 9.26 is just pK<sub>a</sub> of <span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>4</sub></span>,</span> and 7.00 ignores the acidic cation."
   },
   "from": {
    "game": "finalexam",
@@ -3123,21 +3123,21 @@
    "1.0×10⁻⁵",
    "1.0×10⁻³",
    "1.0×10⁻²",
-   "1.0×10⁻⁶"
+   "1.0×10⁻⁴"
   ],
   "answer": "1.0×10⁻⁵",
   "hint": "Convert pH to [H₃O⁺] = [A⁻], then use K_a = [H₃O⁺][A⁻]/[HA].",
-  "explain": "[H₃O⁺] = [A⁻] = 1.0×10⁻³ M; K_a = (1.0×10⁻³)²/(0.10 − 0.0010) = 1.0×10⁻⁵. 1.0×10⁻³ is just [H₃O⁺], not K_a.",
+  "explain": "[H₃O⁺] = [A⁻] = 1.0×10⁻³ M; K_a = (1.0×10⁻³)²/(0.10 − 0.0010) = 1.0×10⁻⁵. 1.0×10⁻³ is just [H₃O⁺], not K_a; 1.0×10⁻⁴ multiplies [H₃O⁺] by 0.10 instead of dividing.",
   "html": {
    "prompt": "A 0.10 M solution of a monoprotic acid HA has pH = 3.00. What is K<sub>a</sub>?",
    "choices": [
     "1.0×10<sup>−5</sup>",
     "1.0×10<sup>−3</sup>",
     "1.0×10<sup>−2</sup>",
-    "1.0×10<sup>−6</sup>"
+    "1.0×10<sup>−4</sup>"
    ],
    "hint": "Convert pH to [H<sub>3</sub>O<sup>+</sup>] = [A<sup>−</sup>], then use K<sub>a</sub> = [H<sub>3</sub>O<sup>+</sup>][A<sup>−</sup>]/[HA].",
-   "explain": "[H<sub>3</sub>O<sup>+</sup>] = [A<sup>−</sup>] = 1.0×10<sup>−3</sup> M; K<sub>a</sub> = (1.0×10<sup>−3</sup>)<sup>2</sup>/(0.10 − 0.0010) = <b>1.0×10<sup>−5</sup></b>. 1.0×10<sup>−3</sup> is just [H<sub>3</sub>O<sup>+</sup>], not K<sub>a</sub>."
+   "explain": "[H<sub>3</sub>O<sup>+</sup>] = [A<sup>−</sup>] = 1.0×10<sup>−3</sup> M; K<sub>a</sub> = (1.0×10<sup>−3</sup>)<sup>2</sup>/(0.10 − 0.0010) = <b>1.0×10<sup>−5</sup></b>. 1.0×10<sup>−3</sup> is just [H<sub>3</sub>O<sup>+</sup>], not K<sub>a</sub>; 1.0×10<sup>−4</sup> multiplies [H<sub>3</sub>O<sup>+</sup>] by 0.10 instead of dividing."
   },
   "from": {
    "game": "finalexam",
@@ -3249,21 +3249,21 @@
    "4.92",
    "4.57",
    "4.74",
-   "9.08"
+   "2.72"
   ],
   "answer": "4.92",
   "hint": "Henderson–Hasselbalch: pH = pK_a + log([A⁻]/[HA]).",
-  "explain": "pK_a = 4.74; pH = 4.74 + log(0.30/0.20) = 4.92. More base than acid → pH above pK_a; flipping the ratio gives 4.57.",
+  "explain": "pK_a = 4.74; pH = 4.74 + log(0.30/0.20) = 4.92. More base than acid → pH above pK_a; flipping the ratio gives 4.57, and 2.72 is the pH of 0.20 M acetic acid alone, ignoring the acetate.",
   "html": {
    "prompt": "What is the pH of a buffer that is 0.20 M CH<sub>3</sub>COOH and 0.30 M NaCH<sub>3</sub>COO? (K<sub>a</sub> = 1.8×10<sup>−5</sup>)",
    "choices": [
     "4.92",
     "4.57",
     "4.74",
-    "9.08"
+    "2.72"
    ],
    "hint": "Henderson–Hasselbalch: pH = pK<sub>a</sub> + log([A<sup>−</sup>]/[HA]).",
-   "explain": "pK<sub>a</sub> = 4.74; pH = 4.74 + log(0.30/0.20) = <b>4.92</b>. More base than acid → pH above pK<sub>a</sub>; flipping the ratio gives 4.57."
+   "explain": "pK<sub>a</sub> = 4.74; pH = 4.74 + log(0.30/0.20) = <b>4.92</b>. More base than acid → pH above pK<sub>a</sub>; flipping the ratio gives 4.57, and 2.72 is the pH of 0.20 M acetic acid alone, ignoring the acetate."
   },
   "from": {
    "game": "finalexam",
@@ -3333,21 +3333,21 @@
    "2.99",
    "3.34",
    "3.17",
-   "1.70"
+   "3.09"
   ],
   "answer": "2.99",
   "hint": "Do the stoichiometry first: added H⁺ converts F⁻ into HF. Then use Henderson–Hasselbalch.",
-  "explain": "F⁻: 0.100 − 0.020 = 0.080 mol; HF: 0.100 + 0.020 = 0.120 mol. pH = 3.17 + log(0.080/0.120) = 2.99. Adding acid must lower the pH, so 3.34 (wrong direction) cannot be right.",
+  "explain": "F⁻: 0.100 − 0.020 = 0.080 mol; HF: 0.100 + 0.020 = 0.120 mol. pH = 3.17 + log(0.080/0.120) = 2.99. Adding acid must lower the pH, so 3.34 (wrong direction) cannot be right; 3.09 adds the HCl to HF but forgets that it also consumes F⁻.",
   "html": {
    "prompt": "A 1.00 L buffer contains 0.100 mol HF and 0.100 mol NaF (K<sub>a</sub> of HF = 6.8×10<sup>−4</sup>). What is the pH after 0.020 mol HCl is added? (Assume no volume change.)",
    "choices": [
     "2.99",
     "3.34",
     "3.17",
-    "1.70"
+    "3.09"
    ],
    "hint": "Do the stoichiometry first: added H<sup>+</sup> converts F<sup>−</sup> into HF. Then use Henderson–Hasselbalch.",
-   "explain": "F<sup>−</sup>: 0.100 − 0.020 = 0.080 mol; HF: 0.100 + 0.020 = 0.120 mol. pH = 3.17 + log(0.080/0.120) = <b>2.99</b>. Adding acid must lower the pH, so 3.34 (wrong direction) cannot be right."
+   "explain": "F<sup>−</sup>: 0.100 − 0.020 = 0.080 mol; HF: 0.100 + 0.020 = 0.120 mol. pH = 3.17 + log(0.080/0.120) = <b>2.99</b>. Adding acid must lower the pH, so 3.34 (wrong direction) cannot be right; 3.09 adds the HCl to HF but forgets that it also consumes F<sup>−</sup>."
   },
   "from": {
    "game": "finalexam",
@@ -3710,22 +3710,22 @@
   "choices": [
    "30.0 mL",
    "15.0 mL",
-   "60.0 mL",
+   "7.50 mL",
    "26.7 mL"
   ],
   "answer": "30.0 mL",
   "hint": "H₂SO₄ is diprotic: each mole needs 2 mol OH⁻.",
-  "explain": "mol H₂SO₄ = 0.0200 L × 0.150 M = 3.00×10⁻³; mol NaOH = 6.00×10⁻³; V = 6.00×10⁻³/0.200 = 30.0 mL. 15.0 mL ignores the second proton.",
+  "explain": "mol H₂SO₄ = 0.0200 L × 0.150 M = 3.00×10⁻³; mol NaOH = 6.00×10⁻³; V = 6.00×10⁻³/0.200 = 30.0 mL. 15.0 mL ignores the second proton; 7.50 mL divides by 2 instead of multiplying.",
   "html": {
    "prompt": "What volume of 0.200 M NaOH is needed to completely neutralize 20.0 mL of 0.150 M H<sub>2</sub>SO<sub>4</sub>?",
    "choices": [
     "30.0 mL",
     "15.0 mL",
-    "60.0 mL",
+    "7.50 mL",
     "26.7 mL"
    ],
    "hint": "H<sub>2</sub>SO<sub>4</sub> is diprotic: each mole needs 2 mol OH<sup>−</sup>.",
-   "explain": "mol H<sub>2</sub>SO<sub>4</sub> = 0.0200 L × 0.150 M = 3.00×10<sup>−3</sup>; mol NaOH = 6.00×10<sup>−3</sup>; V = 6.00×10<sup>−3</sup>/0.200 = <b>30.0 mL</b>. 15.0 mL ignores the second proton."
+   "explain": "mol H<sub>2</sub>SO<sub>4</sub> = 0.0200 L × 0.150 M = 3.00×10<sup>−3</sup>; mol NaOH = 6.00×10<sup>−3</sup>; V = 6.00×10<sup>−3</sup>/0.200 = <b>30.0 mL</b>. 15.0 mL ignores the second proton; 7.50 mL divides by 2 instead of multiplying."
   },
   "from": {
    "game": "finalexam",
@@ -3837,21 +3837,21 @@
    "3.57",
    "3.92",
    "3.74",
-   "2.37"
+   "10.43"
   ],
   "answer": "3.57",
   "hint": "Before equivalence: react OH⁻ with HCOOH (in mmol), then apply Henderson–Hasselbalch to the buffer that forms.",
-  "explain": "HCOOH: 5.00 − 2.00 = 3.00 mmol; HCOO⁻: 2.00 mmol. pH = 3.74 + log(2.00/3.00) = 3.57. 3.74 would be correct only at 25.0 mL (half-equivalence).",
+  "explain": "HCOOH: 5.00 − 2.00 = 3.00 mmol; HCOO⁻: 2.00 mmol. pH = 3.74 + log(2.00/3.00) = 3.57. 3.74 would be correct only at 25.0 mL (half-equivalence); 10.43 is the pOH.",
   "html": {
    "prompt": "50.0 mL of 0.100 M formic acid (K<sub>a</sub> = 1.8×10<sup>−4</sup>) is titrated with 0.100 M NaOH. What is the pH after 20.0 mL of NaOH has been added?",
    "choices": [
     "3.57",
     "3.92",
     "3.74",
-    "2.37"
+    "10.43"
    ],
    "hint": "Before equivalence: react OH<sup>−</sup> with HCOOH (in mmol), then apply Henderson–Hasselbalch to the buffer that forms.",
-   "explain": "HCOOH: 5.00 − 2.00 = 3.00 mmol; HCOO<sup>−</sup>: 2.00 mmol. pH = 3.74 + log(2.00/3.00) = <b>3.57</b>. 3.74 would be correct only at 25.0 mL (half-equivalence)."
+   "explain": "HCOOH: 5.00 − 2.00 = 3.00 mmol; HCOO<sup>−</sup>: 2.00 mmol. pH = 3.74 + log(2.00/3.00) = <b>3.57</b>. 3.74 would be correct only at 25.0 mL (half-equivalence); 10.43 is the pOH."
   },
   "from": {
    "game": "finalexam",
@@ -4130,22 +4130,22 @@
   "choices": [
    "1.8×10⁻⁹ M",
    "1.3×10⁻⁵ M",
-   "1.8×10⁻¹¹ M",
+   "1.8×10⁻⁸ M",
    "4.2×10⁻⁵ M"
   ],
   "answer": "1.8×10⁻⁹ M",
   "hint": "Common-ion effect: [Cl⁻] ≈ 0.10 M from NaCl, so only [Ag⁺] = s is unknown.",
-  "explain": "K_sp = (s)(0.10) → s = 1.8×10⁻¹⁰/0.10 = 1.8×10⁻⁹ M, far less than in pure water (1.3×10⁻⁵ M).",
+  "explain": "K_sp = (s)(0.10) → s = 1.8×10⁻¹⁰/0.10 = 1.8×10⁻⁹ M, far less than in pure water (1.3×10⁻⁵ M). 1.8×10⁻⁸ M squares [Cl⁻] as if AgCl were a 1:2 salt.",
   "html": {
    "prompt": "What is the molar solubility of AgCl in 0.10 M NaCl? (K<sub>sp</sub> of AgCl = 1.8×10<sup>−10</sup>)",
    "choices": [
     "1.8×10<sup>−9</sup> M",
     "1.3×10<sup>−5</sup> M",
-    "1.8×10<sup>−11</sup> M",
+    "1.8×10<sup>−8</sup> M",
     "4.2×10<sup>−5</sup> M"
    ],
    "hint": "Common-ion effect: [Cl<sup>−</sup>] ≈ 0.10 M from NaCl, so only [Ag<sup>+</sup>] = s is unknown.",
-   "explain": "K<sub>sp</sub> = (s)(0.10) → s = 1.8×10<sup>−10</sup>/0.10 = <b>1.8×10<sup>−9</sup> M</b>, far less than in pure water (1.3×10<sup>−5</sup> M)."
+   "explain": "K<sub>sp</sub> = (s)(0.10) → s = 1.8×10<sup>−10</sup>/0.10 = <b>1.8×10<sup>−9</sup> M</b>, far less than in pure water (1.3×10<sup>−5</sup> M). 1.8×10<sup>−8</sup> M squares [Cl<sup>−</sup>] as if AgCl were a 1:2 salt."
   },
   "from": {
    "game": "finalexam",
@@ -4360,23 +4360,23 @@
   "prompt": "Sulfate is added to a solution that is 0.010 M in both Ba²⁺ and Ca²⁺. K_sp values are given in the table. What is [Ba²⁺] remaining at the moment CaSO₄ begins to precipitate?",
   "choices": [
    "2.2×10⁻⁸ M",
-   "1.1×10⁻⁸ M",
+   "2.2×10⁻⁶ M",
    "4.9×10⁻³ M",
    "1.0×10⁻⁵ M"
   ],
   "answer": "2.2×10⁻⁸ M",
   "hint": "First find [SO²⁻₄] when CaSO₄ starts to form, then plug it into K_sp of BaSO₄.",
-  "explain": "[SO²⁻₄] = 4.9×10⁻⁵/0.010 = 4.9×10⁻³ M; [Ba²⁺] = 1.1×10⁻¹⁰/4.9×10⁻³ = 2.2×10⁻⁸ M. Ba²⁺ is essentially completely removed, so the separation works.",
+  "explain": "[SO²⁻₄] = 4.9×10⁻⁵/0.010 = 4.9×10⁻³ M; [Ba²⁺] = 1.1×10⁻¹⁰/4.9×10⁻³ = 2.2×10⁻⁸ M. Ba²⁺ is essentially completely removed, so the separation works. 2.2×10⁻⁶ M divides the two K_sp values directly without finding [SO²⁻₄].",
   "html": {
    "prompt": "Sulfate is added to a solution that is 0.010 M in both Ba<sup>2+</sup> and Ca<sup>2+</sup>. K<sub>sp</sub> values are given in the table. What is [Ba<sup>2+</sup>] remaining at the moment CaSO<sub>4</sub> begins to precipitate?",
    "choices": [
     "2.2×10<sup>−8</sup> M",
-    "1.1×10<sup>−8</sup> M",
+    "2.2×10<sup>−6</sup> M",
     "4.9×10<sup>−3</sup> M",
     "1.0×10<sup>−5</sup> M"
    ],
    "hint": "First find <span class=\"nw\">[SO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>]</span> when CaSO<sub>4</sub> starts to form, then plug it into K<sub>sp</sub> of BaSO<sub>4</sub>.",
-   "explain": "<span class=\"nw\">[SO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>]</span> = 4.9×10<sup>−5</sup>/0.010 = 4.9×10<sup>−3</sup> M; [Ba<sup>2+</sup>] = 1.1×10<sup>−10</sup>/4.9×10<sup>−3</sup> = <b>2.2×10<sup>−8</sup> M</b>. Ba<sup>2+</sup> is essentially completely removed, so the separation works."
+   "explain": "<span class=\"nw\">[SO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>]</span> = 4.9×10<sup>−5</sup>/0.010 = 4.9×10<sup>−3</sup> M; [Ba<sup>2+</sup>] = 1.1×10<sup>−10</sup>/4.9×10<sup>−3</sup> = <b>2.2×10<sup>−8</sup> M</b>. Ba<sup>2+</sup> is essentially completely removed, so the separation works. 2.2×10<sup>−6</sup> M divides the two K<sub>sp</sub> values directly without finding <span class=\"nw\">[SO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>].</span>"
   },
   "data": {
    "f": [
@@ -4507,23 +4507,23 @@
   "prompt": "What is K for the reaction shown? Use the constants in the table.",
   "choices": [
    "3.1×10⁻³",
-   "1.1×10⁻¹⁷",
+   "5.2×10⁴",
    "9.4×10¹⁶",
    "1.7×10⁷"
   ],
   "answer": "3.1×10⁻³",
   "hint": "Write the overall reaction as the sum of the dissolution and the complex-formation reactions.",
-  "explain": "AgCl ⇌ Ag⁺ + Cl⁻ (K_sp) plus Ag⁺ + 2 NH₃ ⇌ [Ag(NH₃)₂]⁺ (K_f). Adding reactions multiplies K: K = K_spK_f = 3.1×10⁻³.",
+  "explain": "AgCl ⇌ Ag⁺ + Cl⁻ (K_sp) plus Ag⁺ + 2 NH₃ ⇌ [Ag(NH₃)₂]⁺ (K_f). Adding reactions multiplies K: K = K_spK_f = 3.1×10⁻³. 5.2×10⁴ squares K_f because of the 2 NH₃, but the coefficient is already built into K_f; 9.4×10¹⁶ divides instead of multiplying.",
   "html": {
    "prompt": "What is K for the reaction shown? Use the constants in the table.",
    "choices": [
     "3.1×10<sup>−3</sup>",
-    "1.1×10<sup>−17</sup>",
+    "5.2×10<sup>4</sup>",
     "9.4×10<sup>16</sup>",
     "1.7×10<sup>7</sup>"
    ],
    "hint": "Write the overall reaction as the sum of the dissolution and the complex-formation reactions.",
-   "explain": "AgCl ⇌ Ag<sup>+</sup> + Cl<sup>−</sup> (K<sub>sp</sub>) plus Ag<sup>+</sup> + 2 NH<sub>3</sub> ⇌ [Ag(NH<sub>3</sub>)<sub>2</sub>]<sup>+</sup> (K<sub>f</sub>). Adding reactions multiplies K: K = K<sub>sp</sub>K<sub>f</sub> = <b>3.1×10<sup>−3</sup></b>."
+   "explain": "AgCl ⇌ Ag<sup>+</sup> + Cl<sup>−</sup> (K<sub>sp</sub>) plus Ag<sup>+</sup> + 2 NH<sub>3</sub> ⇌ [Ag(NH<sub>3</sub>)<sub>2</sub>]<sup>+</sup> (K<sub>f</sub>). Adding reactions multiplies K: K = K<sub>sp</sub>K<sub>f</sub> = <b>3.1×10<sup>−3</sup></b>. 5.2×10<sup>4</sup> squares K<sub>f</sub> because of the 2 NH<sub>3</sub>, but the coefficient is already built into K<sub>f</sub>; 9.4×10<sup>16</sup> divides instead of multiplying."
   },
   "data": {
    "f": [
@@ -4898,22 +4898,22 @@
   "choices": [
    "1.11×10³ K",
    "1.11 K",
-   "1.38×10³ K",
+   "8.33×10² K",
    "0.904 K"
   ],
   "answer": "1.11×10³ K",
   "hint": "Set ΔG = 0 and solve T = ΔH/ΔS. Make the energy units match.",
-  "explain": "T = ΔH/ΔS = 178,000 J ÷ 161 J K⁻¹ = 1.11×10³ K. Leaving ΔH in kJ gives an impossibly low 1.11 K.",
+  "explain": "T = ΔH/ΔS = 178,000 J ÷ 161 J K⁻¹ = 1.11×10³ K. Leaving ΔH in kJ gives an impossibly low 1.11 K; 8.33×10² K subtracts 273 from a value that is already in kelvin.",
   "html": {
    "prompt": "For the reaction shown, ΔH° = +178 kJ and ΔS° = +161 J K⁻¹. Above what temperature does the reaction become spontaneous? (Assume ΔH° and ΔS° are constant.)",
    "choices": [
     "1.11×10<sup>3</sup> K",
     "1.11 K",
-    "1.38×10<sup>3</sup> K",
+    "8.33×10<sup>2</sup> K",
     "0.904 K"
    ],
    "hint": "Set ΔG = 0 and solve T = ΔH/ΔS. Make the energy units match.",
-   "explain": "T = ΔH/ΔS = 178,000 J ÷ 161 J K⁻¹ = <b>1.11×10<sup>3</sup> K</b>. Leaving ΔH in kJ gives an impossibly low 1.11 K."
+   "explain": "T = ΔH/ΔS = 178,000 J ÷ 161 J K⁻¹ = <b>1.11×10<sup>3</sup> K</b>. Leaving ΔH in kJ gives an impossibly low 1.11 K; 8.33×10<sup>2</sup> K subtracts 273 from a value that is already in kelvin."
   },
   "data": {
    "f": [
@@ -5643,22 +5643,22 @@
   "choices": [
    "0.18",
    "5.6",
-   "0.019",
+   "1.00",
    "6.1×10⁵"
   ],
   "answer": "0.18",
   "hint": "First find ΔG° at 500 K from ΔH° − TΔS°, then use ΔG° = −RT ln K at the same T.",
-  "explain": "ΔG° = −92,200 − (500)(−198.7) = +7150 J; ln K = −7150/(8.314 × 500) = −1.720; K = 0.18. K < 1 at 500 K, unlike at 298 K, because the reaction is exothermic.",
+  "explain": "ΔG° = −92,200 − (500)(−198.7) = +7150 J; ln K = −7150/(8.314 × 500) = −1.720; K = 0.18. K < 1 at 500 K, unlike at 298 K, because the reaction is exothermic. 5.6 drops the sign; 1.00 leaves ΔG° in kJ with R in J.",
   "html": {
    "prompt": "For the reaction shown, ΔH° = −92.2 kJ and ΔS° = −198.7 J K⁻¹. Assuming these are independent of temperature, what is K at 500. K? (R = 8.314 J mol⁻¹·K)",
    "choices": [
     "0.18",
     "5.6",
-    "0.019",
+    "1.00",
     "6.1×10<sup>5</sup>"
    ],
    "hint": "First find ΔG° at 500 K from ΔH° − TΔS°, then use ΔG° = −RT ln K at the same T.",
-   "explain": "ΔG° = −92,200 − (500)(−198.7) = +7150 J; ln K = −7150/(8.314 × 500) = −1.720; K = <b>0.18</b>. K &lt; 1 at 500 K, unlike at 298 K, because the reaction is exothermic."
+   "explain": "ΔG° = −92,200 − (500)(−198.7) = +7150 J; ln K = −7150/(8.314 × 500) = −1.720; K = <b>0.18</b>. K &lt; 1 at 500 K, unlike at 298 K, because the reaction is exothermic. 5.6 drops the sign; 1.00 leaves ΔG° in kJ with R in J."
   },
   "data": {
    "f": [
@@ -6775,7 +6775,7 @@
   }
  },
  {
-  "id": "finalexam-dd79fdd0",
+  "id": "finalexam-583fa5a7",
   "skill": "finalexam.1b.electro",
   "courses": [
    "1B"
@@ -6791,24 +6791,24 @@
   "calc": true,
   "prompt": "For the reaction shown, E°_cell = +2.00 V. What is ΔG°? (F = 96,485 C mol⁻¹)",
   "choices": [
-   "−1.16×10³ kJ",
+   "−1160 kJ",
    "−386 kJ",
    "−579 kJ",
    "−193 kJ"
   ],
-  "answer": "−1.16×10³ kJ",
+  "answer": "−1160 kJ",
   "hint": "n is the total number of electrons transferred in the balanced equation, not per atom.",
-  "explain": "2 Al lose 6 e⁻ and 3 Cu²⁺ gain 6 e⁻, so n = 6. ΔG° = −(6)(96,485)(2.00) J = −1.16×10³ kJ. Using n = 2 or 3 underestimates it.",
+  "explain": "2 Al lose 6 e⁻ and 3 Cu²⁺ gain 6 e⁻, so n = 6. ΔG° = −(6)(96,485)(2.00) J = −1.158×10⁶ J = −1160 kJ. Using n = 2 or 3 underestimates it.",
   "html": {
    "prompt": "For the reaction shown, E°<sub>cell</sub> = +2.00 V. What is ΔG°? (F = 96,485 C mol⁻¹)",
    "choices": [
-    "−1.16×10<sup>3</sup> kJ",
+    "−1160 kJ",
     "−386 kJ",
     "−579 kJ",
     "−193 kJ"
    ],
    "hint": "n is the total number of electrons transferred in the balanced equation, not per atom.",
-   "explain": "2 Al lose 6 e<sup>−</sup> and 3 Cu<sup>2+</sup> gain 6 e<sup>−</sup>, so n = 6. ΔG° = −(6)(96,485)(2.00) J = <b>−1.16×10<sup>3</sup> kJ</b>. Using n = 2 or 3 underestimates it."
+   "explain": "2 Al lose 6 e<sup>−</sup> and 3 Cu<sup>2+</sup> gain 6 e<sup>−</sup>, so n = 6. ΔG° = −(6)(96,485)(2.00) J = −1.158×10<sup>6</sup> J = <b>−1160 kJ</b>. Using n = 2 or 3 underestimates it."
   },
   "data": {
    "f": [
@@ -6951,7 +6951,7 @@
   }
  },
  {
-  "id": "finalexam-3b0fa9a4",
+  "id": "finalexam-64fbf5c6",
   "skill": "finalexam.1b.coordination",
   "courses": [
    "1B"
@@ -6967,21 +6967,21 @@
   "calc": false,
   "prompt": "Which ligand is bidentate and can form a chelate?",
   "choices": [
-   "Ethylenediamine, H₂NCH₂CH₂NH₂",
+   "Ethylenediamine (en)",
    "Ethylamine, CH₃CH₂NH₂",
    "Ammonia, NH₃",
-   "Chloride, Cl⁻"
+   "Chloride ion, Cl⁻"
   ],
-  "answer": "Ethylenediamine, H₂NCH₂CH₂NH₂",
+  "answer": "Ethylenediamine (en)",
   "hint": "A bidentate ligand has two donor atoms far enough apart to bind the same metal ion.",
   "explain": "Ethylenediamine (en) has two N atoms with lone pairs separated by a two-carbon chain, so it binds through both, forming a five-membered chelate ring. Ethylamine has only one N donor, and NH₃ and Cl⁻ also bind through a single atom.",
   "html": {
    "prompt": "Which ligand is bidentate and can form a chelate?",
    "choices": [
-    "Ethylenediamine, H<sub>2</sub>NCH<sub>2</sub>CH<sub>2</sub>NH<sub>2</sub>",
+    "Ethylenediamine (en)",
     "Ethylamine, CH<sub>3</sub>CH<sub>2</sub>NH<sub>2</sub>",
     "Ammonia, NH<sub>3</sub>",
-    "Chloride, Cl<sup>−</sup>"
+    "Chloride ion, Cl<sup>−</sup>"
    ],
    "hint": "A bidentate ligand has two donor atoms far enough apart to bind the same metal ion.",
    "explain": "<b>Ethylenediamine (en)</b> has two N atoms with lone pairs separated by a two-carbon chain, so it binds through both, forming a five-membered chelate ring. Ethylamine has only one N donor, and NH<sub>3</sub> and Cl<sup>−</sup> also bind through a single atom."
@@ -7314,21 +7314,21 @@
    "2.50 mg",
    "5.00 mg",
    "10.0 mg",
-   "1.25 mg"
+   "20.0 mg"
   ],
   "answer": "2.50 mg",
   "hint": "Find how many half-lives have passed, then halve the amount that many times.",
-  "explain": "32.1/8.02 = 4.00 half-lives: 40.0 → 20.0 → 10.0 → 5.00 → 2.50 mg. 5.00 mg stops one half-life short.",
+  "explain": "32.1/8.02 = 4.00 half-lives: 40.0 → 20.0 → 10.0 → 5.00 → 2.50 mg. 5.00 mg stops one half-life short; 20.0 mg is only one half-life.",
   "html": {
    "prompt": "Iodine-131, used to treat thyroid disease, has a half-life of 8.02 days. If a patient receives 40.0 mg, how much remains after 32.1 days?",
    "choices": [
     "2.50 mg",
     "5.00 mg",
     "10.0 mg",
-    "1.25 mg"
+    "20.0 mg"
    ],
    "hint": "Find how many half-lives have passed, then halve the amount that many times.",
-   "explain": "32.1/8.02 = 4.00 half-lives: 40.0 → 20.0 → 10.0 → 5.00 → <b>2.50 mg</b>. 5.00 mg stops one half-life short."
+   "explain": "32.1/8.02 = 4.00 half-lives: 40.0 → 20.0 → 10.0 → 5.00 → <b>2.50 mg</b>. 5.00 mg stops one half-life short; 20.0 mg is only one half-life."
   },
   "from": {
    "game": "finalexam",
@@ -7877,23 +7877,23 @@
   "prompt": "A 1.00 L flask holds A₂(g) ⇌ 2 A(g) at equilibrium. A particle-level picture of the flask shows 4 A₂ molecules and 6 A atoms, and each particle in the picture represents 0.10 mol. What is K_c?",
   "choices": [
    "0.90",
-   "1.5",
-   "1.1",
-   "9.0"
+   "1.50",
+   "1.11",
+   "9.00"
   ],
   "answer": "0.90",
   "hint": "Convert particle counts to molarity first, then square the concentration of A because its coefficient is 2.",
-  "explain": "[A₂] = 0.40 M and [A] = 0.60 M, so K_c = [A]²/[A₂] = (0.60)²/0.40 = 0.90. 1.5 forgets to square [A]; 9.0 uses raw particle counts (6²/4) without converting to mol L⁻¹.",
+  "explain": "[A₂] = 0.40 M and [A] = 0.60 M, so K_c = [A]²/[A₂] = (0.60)²/0.40 = 0.90. 1.50 forgets to square [A]; 1.11 inverts the expression; 9.00 uses raw particle counts (6²/4) without converting to mol L⁻¹.",
   "html": {
    "prompt": "A 1.00 L flask holds A<sub>2</sub>(g) ⇌ 2 A(g) at equilibrium. A particle-level picture of the flask shows 4 A<sub>2</sub> molecules and 6 A atoms, and each particle in the picture represents 0.10 mol. What is K<sub>c</sub>?",
    "choices": [
     "0.90",
-    "1.5",
-    "1.1",
-    "9.0"
+    "1.50",
+    "1.11",
+    "9.00"
    ],
    "hint": "Convert particle counts to molarity first, then square the concentration of A because its coefficient is 2.",
-   "explain": "[A<sub>2</sub>] = 0.40 M and [A] = 0.60 M, so K<sub>c</sub> = [A]<sup>2</sup>/[A<sub>2</sub>] = (0.60)<sup>2</sup>/0.40 = <b>0.90</b>. 1.5 forgets to square [A]; 9.0 uses raw particle counts (6<sup>2</sup>/4) without converting to mol L⁻¹."
+   "explain": "[A<sub>2</sub>] = 0.40 M and [A] = 0.60 M, so K<sub>c</sub> = [A]<sup>2</sup>/[A<sub>2</sub>] = (0.60)<sup>2</sup>/0.40 = <b>0.90</b>. 1.50 forgets to square [A]; 1.11 inverts the expression; 9.00 uses raw particle counts (6<sup>2</sup>/4) without converting to mol L⁻¹."
   },
   "from": {
    "game": "finalexam",
@@ -8012,22 +8012,22 @@
   "choices": [
    "4.3×10⁻³ M",
    "2.2×10⁻³ M",
-   "6.8×10⁻³ M",
+   "1.1×10⁻³ M",
    "2.0×10⁻⁴ M"
   ],
   "answer": "4.3×10⁻³ M",
   "hint": "Use an ICE table with changes −2x, +2x, +x. K is tiny, so 0.20 − 2x ≈ 0.20.",
-  "explain": "K_c = (2x)²(x)/(0.20)² = 4x³/0.040 = 1.0×10⁻⁶ → x³ = 1.0×10⁻⁸, x = 2.15×10⁻³. [H₂] = 2x = 4.3×10⁻³ M. 2.2×10⁻³ M is x itself, which is [S₂].",
+  "explain": "K_c = (2x)²(x)/(0.20)² = 4x³/0.040 = 1.0×10⁻⁶ → x³ = 1.0×10⁻⁸, x = 2.15×10⁻³. [H₂] = 2x = 4.3×10⁻³ M. 2.2×10⁻³ M is x itself, which is [S₂]; 1.1×10⁻³ M divides x by 2 instead of doubling it.",
   "html": {
    "prompt": "At a high temperature, the reaction shown has K<sub>c</sub> = 1.0×10<sup>−6</sup>. If 0.20 M H<sub>2</sub>S is placed in an empty container, what is [H<sub>2</sub>] at equilibrium?",
    "choices": [
     "4.3×10<sup>−3</sup> M",
     "2.2×10<sup>−3</sup> M",
-    "6.8×10<sup>−3</sup> M",
+    "1.1×10<sup>−3</sup> M",
     "2.0×10<sup>−4</sup> M"
    ],
    "hint": "Use an ICE table with changes −2x, +2x, +x. K is tiny, so 0.20 − 2x ≈ 0.20.",
-   "explain": "K<sub>c</sub> = (2x)<sup>2</sup>(x)/(0.20)<sup>2</sup> = 4x<sup>3</sup>/0.040 = 1.0×10<sup>−6</sup> → x<sup>3</sup> = 1.0×10<sup>−8</sup>, x = 2.15×10<sup>−3</sup>. [H<sub>2</sub>] = 2x = <b>4.3×10<sup>−3</sup> M</b>. 2.2×10<sup>−3</sup> M is x itself, which is [S<sub>2</sub>]."
+   "explain": "K<sub>c</sub> = (2x)<sup>2</sup>(x)/(0.20)<sup>2</sup> = 4x<sup>3</sup>/0.040 = 1.0×10<sup>−6</sup> → x<sup>3</sup> = 1.0×10<sup>−8</sup>, x = 2.15×10<sup>−3</sup>. [H<sub>2</sub>] = 2x = <b>4.3×10<sup>−3</sup> M</b>. 2.2×10<sup>−3</sup> M is x itself, which is [S<sub>2</sub>]; 1.1×10<sup>−3</sup> M divides x by 2 instead of doubling it."
   },
   "data": {
    "f": [
@@ -8524,21 +8524,21 @@
    "0.067 mol",
    "0.033 mol",
    "0.050 mol",
-   "0.10 mol"
+   "0.023 mol"
   ],
   "answer": "0.067 mol",
   "hint": "Find the needed [HPO²⁻₄]/[H₂PO⁻₄] ratio from Henderson–Hasselbalch; each mol OH⁻ converts one mol of acid to base.",
-  "explain": "log(base/acid) = 7.51 − 7.21 = 0.30 → ratio = 2.0. With 0.100 mol H₂PO⁻₄: x/(0.100 − x) = 2.0 → x = 0.067 mol. 0.033 mol gives the inverted ratio (pH 6.91); 0.050 mol would give pH = pK_a.",
+  "explain": "log(base/acid) = 7.51 − 7.21 = 0.30 → ratio = 2.0. With 0.100 mol H₂PO⁻₄: x/(0.100 − x) = 2.0 → x = 0.067 mol. 0.033 mol gives the inverted ratio (pH 6.91); 0.050 mol would give pH = pK_a; 0.023 mol uses 0.30 itself as the ratio instead of taking the antilog.",
   "html": {
    "prompt": "How many moles of NaOH must be added to 0.500 L of 0.20 M NaH<sub>2</sub>PO<sub>4</sub> to make a buffer with pH 7.51? (pK<sub>a</sub> of <span class=\"nw\">H<sub>2</sub>PO<span class=\"ss\"><sup>−</sup><sub>4</sub></span></span> = 7.21; assume no volume change)",
    "choices": [
     "0.067 mol",
     "0.033 mol",
     "0.050 mol",
-    "0.10 mol"
+    "0.023 mol"
    ],
    "hint": "Find the needed <span class=\"nw\">[HPO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>]</span>/<span class=\"nw\">[H<sub>2</sub>PO<span class=\"ss\"><sup>−</sup><sub>4</sub></span>]</span> ratio from Henderson–Hasselbalch; each mol OH<sup>−</sup> converts one mol of acid to base.",
-   "explain": "log(base/acid) = 7.51 − 7.21 = 0.30 → ratio = 2.0. With 0.100 mol <span class=\"nw\">H<sub>2</sub>PO<span class=\"ss\"><sup>−</sup><sub>4</sub></span>:</span> x/(0.100 − x) = 2.0 → x = <b>0.067 mol</b>. 0.033 mol gives the inverted ratio (pH 6.91); 0.050 mol would give pH = pK<sub>a</sub>."
+   "explain": "log(base/acid) = 7.51 − 7.21 = 0.30 → ratio = 2.0. With 0.100 mol <span class=\"nw\">H<sub>2</sub>PO<span class=\"ss\"><sup>−</sup><sub>4</sub></span>:</span> x/(0.100 − x) = 2.0 → x = <b>0.067 mol</b>. 0.033 mol gives the inverted ratio (pH 6.91); 0.050 mol would give pH = pK<sub>a</sub>; 0.023 mol uses 0.30 itself as the ratio instead of taking the antilog."
   },
   "from": {
    "game": "finalexam",
@@ -8754,22 +8754,22 @@
   "choices": [
    "2.6×10⁻¹⁰",
    "3.2×10⁻⁷",
-   "6.4×10⁻¹¹",
+   "5.1×10⁻¹⁰",
    "1.0×10⁻⁹"
   ],
   "answer": "2.6×10⁻¹⁰",
   "hint": "Convert counts to concentrations first, then use K_sp = [M²⁺][X⁻]².",
-  "explain": "[M²⁺] = 2 × 2.0×10⁻⁴ = 4.0×10⁻⁴ M and [X⁻] = 8.0×10⁻⁴ M. K_sp = (4.0×10⁻⁴)(8.0×10⁻⁴)² = 2.6×10⁻¹⁰. 1.0×10⁻⁹ doubles [X⁻] a second time even though the picture already shows twice as many X⁻.",
+  "explain": "[M²⁺] = 2 × 2.0×10⁻⁴ = 4.0×10⁻⁴ M and [X⁻] = 8.0×10⁻⁴ M. K_sp = (4.0×10⁻⁴)(8.0×10⁻⁴)² = 2.6×10⁻¹⁰. 1.0×10⁻⁹ doubles [X⁻] a second time even though the picture already shows twice as many X⁻; 5.1×10⁻¹⁰ uses 8.0×10⁻⁴ M for M²⁺ as well.",
   "html": {
    "prompt": "A particle picture of a saturated solution of the salt MX<sub>2</sub> (with undissolved solid at the bottom) shows 2 M<sup>2+</sup> ions and 4 X<sup>−</sup> ions in solution. Each dissolved ion shown represents 2.0×10<sup>−4</sup> M. What is K<sub>sp</sub> of MX<sub>2</sub>?",
    "choices": [
     "2.6×10<sup>−10</sup>",
     "3.2×10<sup>−7</sup>",
-    "6.4×10<sup>−11</sup>",
+    "5.1×10<sup>−10</sup>",
     "1.0×10<sup>−9</sup>"
    ],
    "hint": "Convert counts to concentrations first, then use K<sub>sp</sub> = [M<sup>2+</sup>][X<sup>−</sup>]<sup>2</sup>.",
-   "explain": "[M<sup>2+</sup>] = 2 × 2.0×10<sup>−4</sup> = 4.0×10<sup>−4</sup> M and [X<sup>−</sup>] = 8.0×10<sup>−4</sup> M. K<sub>sp</sub> = (4.0×10<sup>−4</sup>)(8.0×10<sup>−4</sup>)<sup>2</sup> = <b>2.6×10<sup>−10</sup></b>. 1.0×10<sup>−9</sup> doubles [X<sup>−</sup>] a second time even though the picture already shows twice as many X<sup>−</sup>."
+   "explain": "[M<sup>2+</sup>] = 2 × 2.0×10<sup>−4</sup> = 4.0×10<sup>−4</sup> M and [X<sup>−</sup>] = 8.0×10<sup>−4</sup> M. K<sub>sp</sub> = (4.0×10<sup>−4</sup>)(8.0×10<sup>−4</sup>)<sup>2</sup> = <b>2.6×10<sup>−10</sup></b>. 1.0×10<sup>−9</sup> doubles [X<sup>−</sup>] a second time even though the picture already shows twice as many X<sup>−</sup>; 5.1×10<sup>−10</sup> uses 8.0×10<sup>−4</sup> M for M<sup>2+</sup> as well."
   },
   "from": {
    "game": "finalexam",
@@ -9753,21 +9753,21 @@
    "37.0 s",
    "1.28 s",
    "18.5 s",
-   "74.1 s"
+   "0.0270 s"
   ],
   "answer": "37.0 s",
   "hint": "For second order, t_1/2 = 1/(k[A]₀).",
-  "explain": "t_1/2 = 1/(0.540 M⁻¹s⁻¹ × 0.0500 M) = 37.0 s. 1.28 s uses the first-order formula 0.693/k, which does not apply here.",
+  "explain": "t_1/2 = 1/(0.540 M⁻¹s⁻¹ × 0.0500 M) = 37.0 s. 1.28 s uses the first-order formula 0.693/k, which does not apply here; 0.0270 s multiplies k by [A]₀ instead of taking the reciprocal.",
   "html": {
    "prompt": "Reactant A dimerizes with second-order kinetics (k = 0.540 M<sup>−1</sup> s<sup>−1</sup>). Starting from 0.0500 M A, how long does it take for half of A to be consumed?",
    "choices": [
     "37.0 s",
     "1.28 s",
     "18.5 s",
-    "74.1 s"
+    "0.0270 s"
    ],
    "hint": "For second order, t<sub>1/2</sub> = 1/(k[A]<sub>0</sub>).",
-   "explain": "t<sub>1/2</sub> = 1/(0.540 M<sup>−1</sup>s<sup>−1</sup> × 0.0500 M) = <b>37.0 s</b>. 1.28 s uses the first-order formula 0.693/k, which does not apply here."
+   "explain": "t<sub>1/2</sub> = 1/(0.540 M<sup>−1</sup>s<sup>−1</sup> × 0.0500 M) = <b>37.0 s</b>. 1.28 s uses the first-order formula 0.693/k, which does not apply here; 0.0270 s multiplies k by [A]<sub>0</sub> instead of taking the reciprocal."
   },
   "from": {
    "game": "finalexam",
@@ -10183,22 +10183,22 @@
   "choices": [
    "2.1×10⁻³ M",
    "1.0×10⁻³ M",
-   "3.3×10⁻³ M",
+   "5.2×10⁻⁴ M",
    "4.4×10⁻⁶ M"
   ],
   "answer": "2.1×10⁻³ M",
   "hint": "K is tiny, so [Br₂] stays ≈ 0.40 M. Is x small?",
-  "explain": "[Br]² = K_c[Br₂] = (1.1×10⁻⁵)(0.40) = 4.4×10⁻⁶, so [Br] = 2.1×10⁻³ M (≪ 5% of 0.40 M, so the approximation holds). 1.0×10⁻³ M is x, which is only half of [Br].",
+  "explain": "[Br]² = K_c[Br₂] = (1.1×10⁻⁵)(0.40) = 4.4×10⁻⁶, so [Br] = 2.1×10⁻³ M (≪ 5% of 0.40 M, so the approximation holds). 1.0×10⁻³ M is x, which is only half of [Br]; 5.2×10⁻⁴ M divides x by 2 instead of doubling it.",
   "html": {
    "prompt": "Bromine vapor dissociates slightly inside a hot furnace, as shown, with K<sub>c</sub> = 1.1×10<sup>−5</sup>. Starting from pure Br<sub>2</sub> at 0.40 M, find the equilibrium concentration of Br atoms.",
    "choices": [
     "2.1×10<sup>−3</sup> M",
     "1.0×10<sup>−3</sup> M",
-    "3.3×10<sup>−3</sup> M",
+    "5.2×10<sup>−4</sup> M",
     "4.4×10<sup>−6</sup> M"
    ],
    "hint": "K is tiny, so [Br<sub>2</sub>] stays ≈ 0.40 M. Is x small?",
-   "explain": "[Br]<sup>2</sup> = K<sub>c</sub>[Br<sub>2</sub>] = (1.1×10<sup>−5</sup>)(0.40) = 4.4×10<sup>−6</sup>, so [Br] = <b>2.1×10<sup>−3</sup> M</b> (≪ 5% of 0.40 M, so the approximation holds). 1.0×10<sup>−3</sup> M is x, which is only half of [Br]."
+   "explain": "[Br]<sup>2</sup> = K<sub>c</sub>[Br<sub>2</sub>] = (1.1×10<sup>−5</sup>)(0.40) = 4.4×10<sup>−6</sup>, so [Br] = <b>2.1×10<sup>−3</sup> M</b> (≪ 5% of 0.40 M, so the approximation holds). 1.0×10<sup>−3</sup> M is x, which is only half of [Br]; 5.2×10<sup>−4</sup> M divides x by 2 instead of doubling it."
   },
   "data": {
    "f": [
@@ -11418,22 +11418,22 @@
   "choices": [
    "27s⁴",
    "3s⁴",
-   "s⁴",
+   "81s⁴",
    "4s³"
   ],
   "answer": "27s⁴",
   "hint": "Write the dissolution equation; each ion's concentration is its coefficient × s.",
-  "explain": "Ag₃PO₄ ⇌ 3 Ag⁺ + PO³⁻₄: K_sp = (3s)³(s) = 27s⁴. 3s⁴ forgets to cube the 3 as well.",
+  "explain": "Ag₃PO₄ ⇌ 3 Ag⁺ + PO³⁻₄: K_sp = (3s)³(s) = 27s⁴. 3s⁴ forgets to cube the 3 as well; 81s⁴ raises 3s to the 4th power, as if phosphate were also 3s.",
   "html": {
    "prompt": "Silver phosphate, Ag<sub>3</sub>PO<sub>4</sub>, has molar solubility s in pure water. Which expression gives K<sub>sp</sub>?",
    "choices": [
     "27s<sup>4</sup>",
     "3s<sup>4</sup>",
-    "s<sup>4</sup>",
+    "81s<sup>4</sup>",
     "4s<sup>3</sup>"
    ],
    "hint": "Write the dissolution equation; each ion's concentration is its coefficient × s.",
-   "explain": "Ag<sub>3</sub>PO<sub>4</sub> ⇌ 3 Ag<sup>+</sup> + <span class=\"nw\">PO<span class=\"ss\"><sup>3−</sup><sub>4</sub></span>:</span> K<sub>sp</sub> = (3s)<sup>3</sup>(s) = <b>27s<sup>4</sup></b>. 3s<sup>4</sup> forgets to cube the 3 as well."
+   "explain": "Ag<sub>3</sub>PO<sub>4</sub> ⇌ 3 Ag<sup>+</sup> + <span class=\"nw\">PO<span class=\"ss\"><sup>3−</sup><sub>4</sub></span>:</span> K<sub>sp</sub> = (3s)<sup>3</sup>(s) = <b>27s<sup>4</sup></b>. 3s<sup>4</sup> forgets to cube the 3 as well; 81s<sup>4</sup> raises 3s to the 4th power, as if phosphate were also 3s."
   },
   "from": {
    "game": "finalexam",
@@ -12449,21 +12449,21 @@
    "−446 kJ",
    "−149 kJ",
    "−297 kJ",
-   "−892 kJ"
+   "+446 kJ"
   ],
   "answer": "−446 kJ",
   "hint": "Get E°_cell = E°_cathode − E°_anode, then ΔG° = −nFE° with n = total electrons transferred.",
-  "explain": "E° = 0.80 − (−0.74) = 1.54 V; n = 3 (Cr → Cr³⁺). ΔG° = −(3)(96,485)(1.54) = −4.46×10⁵ J = −446 kJ. −149 kJ uses n = 1 (one Ag⁺); −892 kJ doubles n.",
+  "explain": "E° = 0.80 − (−0.74) = 1.54 V; n = 3 (Cr → Cr³⁺). ΔG° = −(3)(96,485)(1.54) = −4.46×10⁵ J = −446 kJ. −149 kJ uses n = 1 (one Ag⁺); +446 kJ drops the minus sign in ΔG° = −nFE°, but a galvanic cell must have ΔG° < 0.",
   "html": {
    "prompt": "A chromium–silver galvanic cell runs on the reaction shown. Using the standard reduction potentials in the table, find ΔG° for the reaction as written. (F = 96,485 C mol⁻¹)",
    "choices": [
     "−446 kJ",
     "−149 kJ",
     "−297 kJ",
-    "−892 kJ"
+    "+446 kJ"
    ],
    "hint": "Get E°<sub>cell</sub> = E°<sub>cathode</sub> − E°<sub>anode</sub>, then ΔG° = −nFE° with n = total electrons transferred.",
-   "explain": "E° = 0.80 − (−0.74) = 1.54 V; n = 3 (Cr → Cr<sup>3+</sup>). ΔG° = −(3)(96,485)(1.54) = −4.46×10<sup>5</sup> J = <b>−446 kJ</b>. −149 kJ uses n = 1 (one Ag<sup>+</sup>); −892 kJ doubles n."
+   "explain": "E° = 0.80 − (−0.74) = 1.54 V; n = 3 (Cr → Cr<sup>3+</sup>). ΔG° = −(3)(96,485)(1.54) = −4.46×10<sup>5</sup> J = <b>−446 kJ</b>. −149 kJ uses n = 1 (one Ag<sup>+</sup>); +446 kJ drops the minus sign in ΔG° = −nFE°, but a galvanic cell must have ΔG° &lt; 0."
   },
   "data": {
    "f": [
@@ -24297,7 +24297,7 @@
   }
  },
  {
-  "id": "finalexam-ed11d00c",
+  "id": "finalexam-114bf062",
   "skill": "finalexam.1b.electro",
   "courses": [
    "1B"
@@ -24313,21 +24313,21 @@
   "calc": false,
   "prompt": "Using the standard reduction potentials, which species (under standard conditions in acid) can oxidize Br⁻ to Br₂ but CANNOT oxidize Cl⁻ to Cl₂?",
   "choices": [
-   "Cr₂O²⁻₇",
-   "MnO⁻₄",
-   "Fe³⁺",
-   "I₂"
+   "Dichromate, Cr₂O²⁻₇",
+   "Permanganate, MnO⁻₄",
+   "Iron(III), Fe³⁺",
+   "Iodine, I₂"
   ],
-  "answer": "Cr₂O²⁻₇",
+  "answer": "Dichromate, Cr₂O²⁻₇",
   "hint": "An oxidizing agent works on a species if its reduction E° is higher than that species' couple (E°_cell > 0).",
   "explain": "To oxidize Br⁻, the oxidant needs E° > +1.07 V; to fail on Cl⁻, it needs E° Cr₂O²⁻₇ (+1.33 V) fits. MnO⁻₄ (+1.51 V) oxidizes both; Fe³⁺ and I₂ are too weak to oxidize Br⁻.",
   "html": {
    "prompt": "Using the standard reduction potentials, which species (under standard conditions in acid) can oxidize Br<sup>−</sup> to Br<sub>2</sub> but CANNOT oxidize Cl<sup>−</sup> to Cl<sub>2</sub>?",
    "choices": [
-    "<span class=\"nw\">Cr<sub>2</sub>O<span class=\"ss\"><sup>2−</sup><sub>7</sub></span></span>",
-    "<span class=\"nw\">MnO<span class=\"ss\"><sup>−</sup><sub>4</sub></span></span>",
-    "Fe<sup>3+</sup>",
-    "I<sub>2</sub>"
+    "Dichromate, <span class=\"nw\">Cr<sub>2</sub>O<span class=\"ss\"><sup>2−</sup><sub>7</sub></span></span>",
+    "Permanganate, <span class=\"nw\">MnO<span class=\"ss\"><sup>−</sup><sub>4</sub></span></span>",
+    "Iron(III), Fe<sup>3+</sup>",
+    "Iodine, I<sub>2</sub>"
    ],
    "hint": "An oxidizing agent works on a species if its reduction E° is higher than that species' couple (E°<sub>cell</sub> &gt; 0).",
    "explain": "To oxidize Br<sup>−</sup>, the oxidant needs E° &gt; +1.07 V; to fail on Cl<sup>−</sup>, it needs E° &lt; +1.36 V. Only <b><span class=\"nw\">Cr<sub>2</sub>O<span class=\"ss\"><sup>2−</sup><sub>7</sub></span></span></b> (+1.33 V) fits. <span class=\"nw\">MnO<span class=\"ss\"><sup>−</sup><sub>4</sub></span></span> (+1.51 V) oxidizes both; Fe<sup>3+</sup> and I<sub>2</sub> are too weak to oxidize Br<sup>−</sup>."
@@ -26602,22 +26602,22 @@
   "choices": [
    "1.15×10⁴ yr",
    "5.00×10³ yr",
-   "2.31×10⁴ yr",
+   "1.42×10³ yr",
    "7.98×10³ yr"
   ],
   "answer": "1.15×10⁴ yr",
   "hint": "Radioactive decay is first order: ln(A₀/A) = kt with k = 0.693/t½. Use natural log.",
-  "explain": "k = 0.693/5730 yr = 1.21×10⁻⁴ yr⁻¹; t = ln(15.3/3.8)/k = 1.393/1.21×10⁻⁴ = 1.15×10⁴ yr (about 2 half-lives, since 15.3/4 ≈ 3.8). 5.00×10³ yr uses log instead of ln; 2.31×10⁴ yr treats the ratio 4.03 as the number of half-lives; 7.98×10³ yr multiplies ln(ratio) by t½ without dividing by 0.693.",
+  "explain": "k = 0.693/5730 yr = 1.21×10⁻⁴ yr⁻¹; t = ln(15.3/3.8)/k = 1.393/1.21×10⁻⁴ = 1.15×10⁴ yr (about 2 half-lives, since 15.3/4 ≈ 3.8). 5.00×10³ yr uses log instead of ln; 1.42×10³ yr multiplies t½ by the fraction remaining (3.8/15.3); 7.98×10³ yr multiplies ln(ratio) by t½ without dividing by 0.693.",
   "html": {
    "prompt": "Charcoal from an ancient fire pit has a carbon-14 activity of 3.8 disintegrations per minute per gram of carbon; carbon in living plants gives 15.3. How old is the charcoal? (t½ of <sup>14</sup>C = 5730 yr)",
    "choices": [
     "1.15×10<sup>4</sup> yr",
     "5.00×10<sup>3</sup> yr",
-    "2.31×10<sup>4</sup> yr",
+    "1.42×10<sup>3</sup> yr",
     "7.98×10<sup>3</sup> yr"
    ],
    "hint": "Radioactive decay is first order: ln(A<sub>0</sub>/A) = kt with k = 0.693/t½. Use natural log.",
-   "explain": "k = 0.693/5730 yr = 1.21×10<sup>−4</sup> yr<sup>−1</sup>; t = ln(15.3/3.8)/k = 1.393/1.21×10<sup>−4</sup> = <b>1.15×10<sup>4</sup> yr</b> (about 2 half-lives, since 15.3/4 ≈ 3.8). 5.00×10<sup>3</sup> yr uses log instead of ln; 2.31×10<sup>4</sup> yr treats the ratio 4.03 as the number of half-lives; 7.98×10<sup>3</sup> yr multiplies ln(ratio) by t½ without dividing by 0.693."
+   "explain": "k = 0.693/5730 yr = 1.21×10<sup>−4</sup> yr<sup>−1</sup>; t = ln(15.3/3.8)/k = 1.393/1.21×10<sup>−4</sup> = <b>1.15×10<sup>4</sup> yr</b> (about 2 half-lives, since 15.3/4 ≈ 3.8). 5.00×10<sup>3</sup> yr uses log instead of ln; 1.42×10<sup>3</sup> yr multiplies t½ by the fraction remaining (3.8/15.3); 7.98×10<sup>3</sup> yr multiplies ln(ratio) by t½ without dividing by 0.693."
   },
   "from": {
    "game": "finalexam",
@@ -27667,21 +27667,21 @@
    "1.92",
    "1.00",
    "0.520",
-   "7.1×10²⁹"
+   "0.655"
   ],
   "answer": "1.92",
   "hint": "Use ln(k₂/k₁) = (E_a/R)(1/T₁ − 1/T₂). Put E_a in J mol⁻¹ and T in kelvins.",
-  "explain": "ln(k₂/k₁) = (50,000/8.314)(1/298.15 − 1/308.15) = 0.655, so k₂/k₁ = 1.92: the faster, more energetic collisions roughly double the rate. 1.00 leaves E_a in kJ; 7.1×10²⁹ uses Celsius temperatures; 0.520 is the inverted ratio.",
+  "explain": "ln(k₂/k₁) = (50,000/8.314)(1/298.15 − 1/308.15) = 0.655, so k₂/k₁ = 1.92: the faster, more energetic collisions roughly double the rate. 1.00 leaves E_a in kJ; 0.655 is ln(k₂/k₁), not the ratio itself; 0.520 is the inverted ratio.",
   "html": {
    "prompt": "Milk spoils through reactions with an activation energy of about 50.0 kJ mol⁻¹. By what factor does the rate constant increase when the temperature rises from 25 °C to 35 °C? (R = 8.314 J mol⁻¹ K⁻¹)",
    "choices": [
     "1.92",
     "1.00",
     "0.520",
-    "7.1×10<sup>29</sup>"
+    "0.655"
    ],
    "hint": "Use ln(k<sub>2</sub>/k<sub>1</sub>) = (E<sub>a</sub>/R)(1/T<sub>1</sub> − 1/T<sub>2</sub>). Put E<sub>a</sub> in J mol⁻¹ and T in kelvins.",
-   "explain": "ln(k<sub>2</sub>/k<sub>1</sub>) = (50,000/8.314)(1/298.15 − 1/308.15) = 0.655, so k<sub>2</sub>/k<sub>1</sub> = <b>1.92</b>: the faster, more energetic collisions roughly double the rate. 1.00 leaves E<sub>a</sub> in kJ; 7.1×10<sup>29</sup> uses Celsius temperatures; 0.520 is the inverted ratio."
+   "explain": "ln(k<sub>2</sub>/k<sub>1</sub>) = (50,000/8.314)(1/298.15 − 1/308.15) = 0.655, so k<sub>2</sub>/k<sub>1</sub> = <b>1.92</b>: the faster, more energetic collisions roughly double the rate. 1.00 leaves E<sub>a</sub> in kJ; 0.655 is ln(k<sub>2</sub>/k<sub>1</sub>), not the ratio itself; 0.520 is the inverted ratio."
   },
   "from": {
    "game": "finalexam",
