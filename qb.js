@@ -64,6 +64,7 @@
       var x = parseFloat(r.replace(/[×x]\s*10\^?/i, 'e').replace(/\s/g, '')), a = parseFloat(q.answer);
       if (!isFinite(x) || !isFinite(a)) return false;
       var close = a === 0 ? Math.abs(x) < 1e-9 : Math.abs(x - a) / Math.abs(a) <= (q.tolerance || 0.01);
+      if (!close && q.sigfigs) close = Number(x.toPrecision(q.sigfigs)) === Number(a.toPrecision(q.sigfigs)); // 2.9e-3 for 0.00294 at 2 sig figs
       if (!close || !q.sigfigs) return close;
       return sigFigs(r) === q.sigfigs; // e.g. 740 to 3 sig figs must be typed 7.40e2, 7.40 × 10^2 or 740.
     }

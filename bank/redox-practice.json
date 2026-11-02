@@ -1,0 +1,1817 @@
+[
+ {
+  "id": "redox-f63160ba",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Fe electrode in Fe²⁺(aq) and a Ag electrode in Ag⁺(aq). Here n = 2 and E°cell = 1.24 V.</p><div class=\"equation-box\">Fe(s) + 2 Ag⁺(aq) → Fe²⁺(aq) + 2 Ag(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
+  "answer": 41.9,
+  "tolerance": 0.012,
+  "hint": "At 25 °C: log K = nE°cell / 0.0592. Keep n as the total electrons transferred in the balanced equation.",
+  "explain": "log K = (2)(1.24)/0.0592 = 41.9, so K ≈ 10^42. A large K means products are strongly favored.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 0
+  }
+ },
+ {
+  "id": "redox-dcdb3dd0",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A galvanic cell has a Fe anode in 1 M Fe²⁺ and a Cu cathode in 2 M Cu²⁺. Standard E°cell = 0.78 V and n = 2.</p><p>Net: Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Fe²⁺] / [Cu²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is the reaction quotient Q?</b></p>",
+  "answer": 0.5,
+  "tolerance": 0.012,
+  "hint": "Q = [product ion]/[reactant ion] = [anode ion]/[cathode ion]. Then E = E° − (0.0592/n)·log Q. If Q < 1, E is larger than E°.",
+  "explain": "Q = 0.5. E = 0.78 − (0.0592/2)·log(0.5) = 0.789 V.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 1
+  }
+ },
+ {
+  "id": "redox-5871084d",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A galvanic cell has a Fe anode in 1 M Fe²⁺ and a Cu cathode in 2 M Cu²⁺. Standard E°cell = 0.78 V and n = 2.</p><p>Net: Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Fe²⁺] / [Cu²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is Ecell, in volts?</b></p>",
+  "answer": 0.789,
+  "unit": "V",
+  "tolerance": 0.0051,
+  "hint": "Q = [product ion]/[reactant ion] = [anode ion]/[cathode ion]. Then E = E° − (0.0592/n)·log Q. If Q < 1, E is larger than E°.",
+  "explain": "Q = 0.5. E = 0.78 − (0.0592/2)·log(0.5) = 0.789 V.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 2
+  }
+ },
+ {
+  "id": "redox-4b8c6041",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Ag electrode in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p><b>Which electrode is the anode (where oxidation happens)?</b></p>",
+  "choices": [
+   "Ag",
+   "Al"
+  ],
+  "answer": "Al",
+  "hint": "Reduction happens at the electrode with the larger (more positive) E°. Then E°cell = E°cathode − E°anode. Do not multiply E° by coefficients.",
+  "explain": "The cathode is the larger (more positive) E°: Ag at 0.80 V. E°cell = E°cathode − E°anode = 0.80 − (-1.66) = 2.46 V. Net: Al(s) + 3 Ag⁺(aq) → Al³⁺(aq) + 3 Ag(s)",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 3
+  }
+ },
+ {
+  "id": "redox-0d8832a9",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Ag electrode in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p><b>Which electrode is the cathode (where reduction happens)?</b></p>",
+  "choices": [
+   "Ag",
+   "Al"
+  ],
+  "answer": "Ag",
+  "hint": "Reduction happens at the electrode with the larger (more positive) E°. Then E°cell = E°cathode − E°anode. Do not multiply E° by coefficients.",
+  "explain": "The cathode is the larger (more positive) E°: Ag at 0.80 V. E°cell = E°cathode − E°anode = 0.80 − (-1.66) = 2.46 V. Net: Al(s) + 3 Ag⁺(aq) → Al³⁺(aq) + 3 Ag(s)",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 4
+  }
+ },
+ {
+  "id": "redox-49700be7",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Ag electrode in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p><b>What is E°cell, in volts?</b></p>",
+  "answer": 2.46,
+  "unit": "V",
+  "tolerance": 0.0024,
+  "hint": "Reduction happens at the electrode with the larger (more positive) E°. Then E°cell = E°cathode − E°anode. Do not multiply E° by coefficients.",
+  "explain": "The cathode is the larger (more positive) E°: Ag at 0.80 V. E°cell = E°cathode − E°anode = 0.80 − (-1.66) = 2.46 V. Net: Al(s) + 3 Ag⁺(aq) → Al³⁺(aq) + 3 Ag(s)",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 5
+  }
+ },
+ {
+  "id": "redox-172128c1",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Sn electrode in Sn²⁺(aq) and a Ag electrode in Ag⁺(aq). For the balanced reaction below, n = 2 electrons transfer and E°cell = 0.94 V.</p><div class=\"equation-box\">Sn(s) + 2 Ag⁺(aq) → Sn²⁺(aq) + 2 Ag(s)</div><p>Use ΔG° = −nFE° with F = 96,485 C/mol e⁻. Report ΔG° in kJ (1 J = 1 V·C).</p>",
+  "answer": -181,
+  "unit": "kJ",
+  "tolerance": 0.012,
+  "hint": "ΔG° = −nFE°. Multiply n × 96,485 C/mol × E° to get joules, then divide by 1000. A positive E° gives a negative ΔG°.",
+  "explain": "ΔG° = −(2)(96,485)(0.94) = -181 kJ. Negative, so the cell reaction is spontaneous.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 6
+  }
+ },
+ {
+  "id": "redox-6dbd1da1",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Sn electrode in Sn²⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Sn²⁺(aq) + 2 e⁻ → Sn(s)</td><td>-0.14</td></tr></tbody></table><p class=\"footer-note\">Convention: anode (oxidation) on the left, cathode (reduction) on the right; || is the salt bridge; solid | solution inside each half-cell.</p><p><b>Which cell notation is written correctly?</b></p>",
+  "choices": [
+   "Al(s) | Sn²⁺(aq) || Al³⁺(aq) | Sn(s)",
+   "Sn(s) | Sn²⁺(aq) || Al³⁺(aq) | Al(s)",
+   "Al³⁺(aq) | Al(s) || Sn(s) | Sn²⁺(aq)",
+   "Al(s) | Al³⁺(aq) || Sn²⁺(aq) | Sn(s)"
+  ],
+  "answer": "Al(s) | Al³⁺(aq) || Sn²⁺(aq) | Sn(s)",
+  "hint": "Oxidation (anode) goes on the left, reduction (cathode) on the right. Inside each half-cell write the solid first, then its ion.",
+  "explain": "Al is oxidized (lower E°), so it is the anode on the left: Al(s) | Al³⁺(aq) || Sn²⁺(aq) | Sn(s).",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 7
+  }
+ },
+ {
+  "id": "redox-fb0af3ce",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Pb electrode in Pb²⁺(aq). The two half-cells are joined by a wire and a salt bridge.</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Pb²⁺(aq) + 2 e⁻ → Pb(s)</td><td>-0.13</td></tr></tbody></table><p><b>Which way do electrons flow through the wire?</b></p>",
+  "choices": [
+   "from the Pb electrode to the Al electrode",
+   "from the Al electrode to the Pb electrode"
+  ],
+  "answer": "from the Al electrode to the Pb electrode",
+  "hint": "Electrons leave the anode (oxidation) and travel to the cathode (reduction). Anions move toward the anode to balance the new positive charge; metal plates out on the cathode.",
+  "explain": "Al is the anode, so electrons flow from Al to Pb. Anions migrate toward the anode, and Pb plates out at the cathode, so Pb gains mass.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 8
+  }
+ },
+ {
+  "id": "redox-02d99839",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Pb electrode in Pb²⁺(aq). The two half-cells are joined by a wire and a salt bridge.</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Pb²⁺(aq) + 2 e⁻ → Pb(s)</td><td>-0.13</td></tr></tbody></table><p><b>Toward which half-cell do anions in the salt bridge move?</b></p>",
+  "choices": [
+   "the Pb half-cell (cathode)",
+   "the Al half-cell (anode)"
+  ],
+  "answer": "the Al half-cell (anode)",
+  "hint": "Electrons leave the anode (oxidation) and travel to the cathode (reduction). Anions move toward the anode to balance the new positive charge; metal plates out on the cathode.",
+  "explain": "Al is the anode, so electrons flow from Al to Pb. Anions migrate toward the anode, and Pb plates out at the cathode, so Pb gains mass.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 9
+  }
+ },
+ {
+  "id": "redox-75619b93",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Pb electrode in Pb²⁺(aq). The two half-cells are joined by a wire and a salt bridge.</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Pb²⁺(aq) + 2 e⁻ → Pb(s)</td><td>-0.13</td></tr></tbody></table><p><b>Which electrode gains mass?</b></p>",
+  "choices": [
+   "Pb",
+   "Al"
+  ],
+  "answer": "Pb",
+  "hint": "Electrons leave the anode (oxidation) and travel to the cathode (reduction). Anions move toward the anode to balance the new positive charge; metal plates out on the cathode.",
+  "explain": "Al is the anode, so electrons flow from Al to Pb. Anions migrate toward the anode, and Pb plates out at the cathode, so Pb gains mass.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 10
+  }
+ },
+ {
+  "id": "redox-c764c0da",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Mg electrode in Mg²⁺(aq) and a Ag electrode in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Mg²⁺(aq) + 2 e⁻ → Mg(s)</td><td>-2.37</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p><b>Which electrode is the anode (where oxidation happens)?</b></p>",
+  "choices": [
+   "Ag",
+   "Mg"
+  ],
+  "answer": "Mg",
+  "hint": "Reduction happens at the electrode with the larger (more positive) E°. Then E°cell = E°cathode − E°anode. Do not multiply E° by coefficients.",
+  "explain": "The cathode is the larger (more positive) E°: Ag at 0.80 V. E°cell = E°cathode − E°anode = 0.80 − (-2.37) = 3.17 V. Net: Mg(s) + 2 Ag⁺(aq) → Mg²⁺(aq) + 2 Ag(s)",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 11
+  }
+ },
+ {
+  "id": "redox-a4973e39",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Mg electrode in Mg²⁺(aq) and a Ag electrode in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Mg²⁺(aq) + 2 e⁻ → Mg(s)</td><td>-2.37</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p><b>Which electrode is the cathode (where reduction happens)?</b></p>",
+  "choices": [
+   "Ag",
+   "Mg"
+  ],
+  "answer": "Ag",
+  "hint": "Reduction happens at the electrode with the larger (more positive) E°. Then E°cell = E°cathode − E°anode. Do not multiply E° by coefficients.",
+  "explain": "The cathode is the larger (more positive) E°: Ag at 0.80 V. E°cell = E°cathode − E°anode = 0.80 − (-2.37) = 3.17 V. Net: Mg(s) + 2 Ag⁺(aq) → Mg²⁺(aq) + 2 Ag(s)",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 12
+  }
+ },
+ {
+  "id": "redox-d1dcb195",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Mg electrode in Mg²⁺(aq) and a Ag electrode in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Mg²⁺(aq) + 2 e⁻ → Mg(s)</td><td>-2.37</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p><b>What is E°cell, in volts?</b></p>",
+  "answer": 3.17,
+  "unit": "V",
+  "tolerance": 0.0019,
+  "hint": "Reduction happens at the electrode with the larger (more positive) E°. Then E°cell = E°cathode − E°anode. Do not multiply E° by coefficients.",
+  "explain": "The cathode is the larger (more positive) E°: Ag at 0.80 V. E°cell = E°cathode − E°anode = 0.80 − (-2.37) = 3.17 V. Net: Mg(s) + 2 Ag⁺(aq) → Mg²⁺(aq) + 2 Ag(s)",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 13
+  }
+ },
+ {
+  "id": "redox-01b4930f",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Zn electrode in Zn²⁺(aq) and a Ag electrode in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Zn²⁺(aq) + 2 e⁻ → Zn(s)</td><td>-0.76</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p class=\"footer-note\">Convention: anode (oxidation) on the left, cathode (reduction) on the right; || is the salt bridge; solid | solution inside each half-cell.</p><p><b>Which cell notation is written correctly?</b></p>",
+  "choices": [
+   "Zn(s) | Zn²⁺(aq) || Ag⁺(aq) | Ag(s)",
+   "Ag(s) | Ag⁺(aq) || Zn²⁺(aq) | Zn(s)",
+   "Zn²⁺(aq) | Zn(s) || Ag(s) | Ag⁺(aq)",
+   "Zn(s) | Ag⁺(aq) || Zn²⁺(aq) | Ag(s)"
+  ],
+  "answer": "Zn(s) | Zn²⁺(aq) || Ag⁺(aq) | Ag(s)",
+  "hint": "Oxidation (anode) goes on the left, reduction (cathode) on the right. Inside each half-cell write the solid first, then its ion.",
+  "explain": "Zn is oxidized (lower E°), so it is the anode on the left: Zn(s) | Zn²⁺(aq) || Ag⁺(aq) | Ag(s).",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 14
+  }
+ },
+ {
+  "id": "redox-bc4d54fe",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Cu electrode in Cu²⁺(aq). The two half-cells are joined by a wire and a salt bridge.</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Cu²⁺(aq) + 2 e⁻ → Cu(s)</td><td>0.34</td></tr></tbody></table><p><b>Which way do electrons flow through the wire?</b></p>",
+  "choices": [
+   "from the Al electrode to the Cu electrode",
+   "from the Cu electrode to the Al electrode"
+  ],
+  "answer": "from the Al electrode to the Cu electrode",
+  "hint": "Electrons leave the anode (oxidation) and travel to the cathode (reduction). Anions move toward the anode to balance the new positive charge; metal plates out on the cathode.",
+  "explain": "Al is the anode, so electrons flow from Al to Cu. Anions migrate toward the anode, and Cu plates out at the cathode, so Cu gains mass.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 15
+  }
+ },
+ {
+  "id": "redox-8ce8ef7f",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Cu electrode in Cu²⁺(aq). The two half-cells are joined by a wire and a salt bridge.</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Cu²⁺(aq) + 2 e⁻ → Cu(s)</td><td>0.34</td></tr></tbody></table><p><b>Toward which half-cell do anions in the salt bridge move?</b></p>",
+  "choices": [
+   "the Cu half-cell (cathode)",
+   "the Al half-cell (anode)"
+  ],
+  "answer": "the Al half-cell (anode)",
+  "hint": "Electrons leave the anode (oxidation) and travel to the cathode (reduction). Anions move toward the anode to balance the new positive charge; metal plates out on the cathode.",
+  "explain": "Al is the anode, so electrons flow from Al to Cu. Anions migrate toward the anode, and Cu plates out at the cathode, so Cu gains mass.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 16
+  }
+ },
+ {
+  "id": "redox-f2f77750",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Cu electrode in Cu²⁺(aq). The two half-cells are joined by a wire and a salt bridge.</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Cu²⁺(aq) + 2 e⁻ → Cu(s)</td><td>0.34</td></tr></tbody></table><p><b>Which electrode gains mass?</b></p>",
+  "choices": [
+   "Al",
+   "Cu"
+  ],
+  "answer": "Cu",
+  "hint": "Electrons leave the anode (oxidation) and travel to the cathode (reduction). Anions move toward the anode to balance the new positive charge; metal plates out on the cathode.",
+  "explain": "Al is the anode, so electrons flow from Al to Cu. Anions migrate toward the anode, and Cu plates out at the cathode, so Cu gains mass.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 17
+  }
+ },
+ {
+  "id": "redox-776e0ad0",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Pb electrode in Pb²⁺(aq) and a Au electrode in Au³⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Pb²⁺(aq) + 2 e⁻ → Pb(s)</td><td>-0.13</td></tr><tr><td>Au³⁺(aq) + 3 e⁻ → Au(s)</td><td>1.50</td></tr></tbody></table><p><b>What is E°cell, in volts?</b></p>",
+  "answer": 1.63,
+  "unit": "V",
+  "tolerance": 0.0037,
+  "hint": "Reduction happens at the electrode with the larger (more positive) E°. Then E°cell = E°cathode − E°anode. Do not multiply E° by coefficients.",
+  "explain": "The cathode is the larger (more positive) E°: Au at 1.50 V. E°cell = E°cathode − E°anode = 1.50 − (-0.13) = 1.63 V. Net: 3 Pb(s) + 2 Au³⁺(aq) → 3 Pb²⁺(aq) + 2 Au(s)",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 18
+  }
+ },
+ {
+  "id": "redox-0b1e1828",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Cr electrode in Cr³⁺(aq). Here n = 3 and E°cell = 0.92 V.</p><div class=\"equation-box\">Al(s) + Cr³⁺(aq) → Al³⁺(aq) + Cr(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
+  "answer": 46.6,
+  "tolerance": 0.012,
+  "hint": "At 25 °C: log K = nE°cell / 0.0592. Keep n as the total electrons transferred in the balanced equation.",
+  "explain": "log K = (3)(0.92)/0.0592 = 46.6, so K ≈ 10^47. A large K means products are strongly favored.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 19
+  }
+ },
+ {
+  "id": "redox-d82b2908",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Zn electrode in Zn²⁺(aq) and a Ni electrode in Ni²⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Zn²⁺(aq) + 2 e⁻ → Zn(s)</td><td>-0.76</td></tr><tr><td>Ni²⁺(aq) + 2 e⁻ → Ni(s)</td><td>-0.26</td></tr></tbody></table><p><b>What is E°cell, in volts?</b></p>",
+  "answer": 0.5,
+  "unit": "V",
+  "tolerance": 0.012,
+  "hint": "Reduction happens at the electrode with the larger (more positive) E°. Then E°cell = E°cathode − E°anode. Do not multiply E° by coefficients.",
+  "explain": "The cathode is the larger (more positive) E°: Ni at -0.26 V. E°cell = E°cathode − E°anode = -0.26 − (-0.76) = 0.50 V. Net: Zn(s) + Ni²⁺(aq) → Zn²⁺(aq) + Ni(s)",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 20
+  }
+ },
+ {
+  "id": "redox-b5e4545f",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A galvanic cell has a Zn anode in 1 M Zn²⁺ and a Sn cathode in 0.01 M Sn²⁺. Standard E°cell = 0.62 V and n = 2.</p><p>Net: Zn(s) + Sn²⁺(aq) → Zn²⁺(aq) + Sn(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Zn²⁺] / [Sn²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is the reaction quotient Q?</b></p>",
+  "answer": 100,
+  "tolerance": 0.012,
+  "hint": "Q = [product ion]/[reactant ion] = [anode ion]/[cathode ion]. Then E = E° − (0.0592/n)·log Q. If Q < 1, E is larger than E°.",
+  "explain": "Q = 100. E = 0.62 − (0.0592/2)·log(100) = 0.561 V.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 21
+  }
+ },
+ {
+  "id": "redox-224743f0",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A galvanic cell has a Zn anode in 1 M Zn²⁺ and a Sn cathode in 0.01 M Sn²⁺. Standard E°cell = 0.62 V and n = 2.</p><p>Net: Zn(s) + Sn²⁺(aq) → Zn²⁺(aq) + Sn(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Zn²⁺] / [Sn²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is Ecell, in volts?</b></p>",
+  "answer": 0.561,
+  "unit": "V",
+  "tolerance": 0.0071,
+  "hint": "Q = [product ion]/[reactant ion] = [anode ion]/[cathode ion]. Then E = E° − (0.0592/n)·log Q. If Q < 1, E is larger than E°.",
+  "explain": "Q = 100. E = 0.62 − (0.0592/2)·log(100) = 0.561 V.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 22
+  }
+ },
+ {
+  "id": "redox-646849b6",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Cr electrode in Cr³⁺(aq) and a Cu electrode in Cu²⁺(aq). For the balanced reaction below, n = 6 electrons transfer and E°cell = 1.08 V.</p><div class=\"equation-box\">2 Cr(s) + 3 Cu²⁺(aq) → 2 Cr³⁺(aq) + 3 Cu(s)</div><p>Use ΔG° = −nFE° with F = 96,485 C/mol e⁻. Report ΔG° in kJ (1 J = 1 V·C).</p>",
+  "answer": -625,
+  "unit": "kJ",
+  "tolerance": 0.012,
+  "hint": "ΔG° = −nFE°. Multiply n × 96,485 C/mol × E° to get joules, then divide by 1000. A positive E° gives a negative ΔG°.",
+  "explain": "ΔG° = −(6)(96,485)(1.08) = -625 kJ. Negative, so the cell reaction is spontaneous.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 23
+  }
+ },
+ {
+  "id": "redox-7e132a82",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Pb electrode in Pb²⁺(aq) and a Au electrode in Au³⁺(aq). For the balanced reaction below, n = 6 electrons transfer and E°cell = 1.63 V.</p><div class=\"equation-box\">3 Pb(s) + 2 Au³⁺(aq) → 3 Pb²⁺(aq) + 2 Au(s)</div><p>Use ΔG° = −nFE° with F = 96,485 C/mol e⁻. Report ΔG° in kJ (1 J = 1 V·C).</p>",
+  "answer": -944,
+  "unit": "kJ",
+  "tolerance": 0.012,
+  "hint": "ΔG° = −nFE°. Multiply n × 96,485 C/mol × E° to get joules, then divide by 1000. A positive E° gives a negative ΔG°.",
+  "explain": "ΔG° = −(6)(96,485)(1.63) = -944 kJ. Negative, so the cell reaction is spontaneous.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 24
+  }
+ },
+ {
+  "id": "redox-9ce723e0",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Fe electrode in Fe²⁺(aq) and a Cu electrode in Cu²⁺(aq). Here n = 2 and E°cell = 0.78 V.</p><div class=\"equation-box\">Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
+  "answer": 26.4,
+  "tolerance": 0.012,
+  "hint": "At 25 °C: log K = nE°cell / 0.0592. Keep n as the total electrons transferred in the balanced equation.",
+  "explain": "log K = (2)(0.78)/0.0592 = 26.4, so K ≈ 10^26. A large K means products are strongly favored.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 25
+  }
+ },
+ {
+  "id": "redox-10ad71da",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A galvanic cell has a Sn anode in 1 M Sn²⁺ and a Cu cathode in 2 M Cu²⁺. Standard E°cell = 0.48 V and n = 2.</p><p>Net: Sn(s) + Cu²⁺(aq) → Sn²⁺(aq) + Cu(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Sn²⁺] / [Cu²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is the reaction quotient Q?</b></p>",
+  "answer": 0.5,
+  "tolerance": 0.012,
+  "hint": "Q = [product ion]/[reactant ion] = [anode ion]/[cathode ion]. Then E = E° − (0.0592/n)·log Q. If Q < 1, E is larger than E°.",
+  "explain": "Q = 0.5. E = 0.48 − (0.0592/2)·log(0.5) = 0.489 V.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 26
+  }
+ },
+ {
+  "id": "redox-0565d111",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A galvanic cell has a Sn anode in 1 M Sn²⁺ and a Cu cathode in 2 M Cu²⁺. Standard E°cell = 0.48 V and n = 2.</p><p>Net: Sn(s) + Cu²⁺(aq) → Sn²⁺(aq) + Cu(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Sn²⁺] / [Cu²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is Ecell, in volts?</b></p>",
+  "answer": 0.489,
+  "unit": "V",
+  "tolerance": 0.0082,
+  "hint": "Q = [product ion]/[reactant ion] = [anode ion]/[cathode ion]. Then E = E° − (0.0592/n)·log Q. If Q < 1, E is larger than E°.",
+  "explain": "Q = 0.5. E = 0.48 − (0.0592/2)·log(0.5) = 0.489 V.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 27
+  }
+ },
+ {
+  "id": "redox-27077626",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Mg electrode in Mg²⁺(aq) and a Fe electrode in Fe²⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Mg²⁺(aq) + 2 e⁻ → Mg(s)</td><td>-2.37</td></tr><tr><td>Fe²⁺(aq) + 2 e⁻ → Fe(s)</td><td>-0.44</td></tr></tbody></table><p><b>What is E°cell, in volts?</b></p>",
+  "answer": 1.93,
+  "unit": "V",
+  "tolerance": 0.0031,
+  "hint": "Reduction happens at the electrode with the larger (more positive) E°. Then E°cell = E°cathode − E°anode. Do not multiply E° by coefficients.",
+  "explain": "The cathode is the larger (more positive) E°: Fe at -0.44 V. E°cell = E°cathode − E°anode = -0.44 − (-2.37) = 1.93 V. Net: Mg(s) + Fe²⁺(aq) → Mg²⁺(aq) + Fe(s)",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 28
+  }
+ },
+ {
+  "id": "redox-ac28d161",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Cr electrode in Cr³⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Cr³⁺(aq) + 3 e⁻ → Cr(s)</td><td>-0.74</td></tr></tbody></table><p class=\"footer-note\">Convention: anode (oxidation) on the left, cathode (reduction) on the right; || is the salt bridge; solid | solution inside each half-cell.</p><p><b>Which cell notation is written correctly?</b></p>",
+  "choices": [
+   "Cr(s) | Cr³⁺(aq) || Al³⁺(aq) | Al(s)",
+   "Al³⁺(aq) | Al(s) || Cr(s) | Cr³⁺(aq)",
+   "Al(s) | Cr³⁺(aq) || Al³⁺(aq) | Cr(s)",
+   "Al(s) | Al³⁺(aq) || Cr³⁺(aq) | Cr(s)"
+  ],
+  "answer": "Al(s) | Al³⁺(aq) || Cr³⁺(aq) | Cr(s)",
+  "hint": "Oxidation (anode) goes on the left, reduction (cathode) on the right. Inside each half-cell write the solid first, then its ion.",
+  "explain": "Al is oxidized (lower E°), so it is the anode on the left: Al(s) | Al³⁺(aq) || Cr³⁺(aq) | Cr(s).",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 29
+  }
+ },
+ {
+  "id": "redox-33b92464",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Cr electrode in Cr³⁺(aq) and a Cu electrode in Cu²⁺(aq). Here n = 6 and E°cell = 1.08 V.</p><div class=\"equation-box\">2 Cr(s) + 3 Cu²⁺(aq) → 2 Cr³⁺(aq) + 3 Cu(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
+  "answer": 109,
+  "tolerance": 0.012,
+  "hint": "At 25 °C: log K = nE°cell / 0.0592. Keep n as the total electrons transferred in the balanced equation.",
+  "explain": "log K = (6)(1.08)/0.0592 = 109, so K ≈ 10^109. A large K means products are strongly favored.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 30
+  }
+ },
+ {
+  "id": "redox-a2d0ed18",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A galvanic cell has a Zn anode in 1 M Zn²⁺ and a Ni cathode in 0.1 M Ni²⁺. Standard E°cell = 0.50 V and n = 2.</p><p>Net: Zn(s) + Ni²⁺(aq) → Zn²⁺(aq) + Ni(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Zn²⁺] / [Ni²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is Ecell, in volts?</b></p>",
+  "answer": 0.47,
+  "unit": "V",
+  "tolerance": 0.0085,
+  "hint": "Q = [product ion]/[reactant ion] = [anode ion]/[cathode ion]. Then E = E° − (0.0592/n)·log Q. If Q < 1, E is larger than E°.",
+  "explain": "Q = 10. E = 0.50 − (0.0592/2)·log(10) = 0.470 V.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 31
+  }
+ },
+ {
+  "id": "redox-060ebe83",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Sn electrode in Sn²⁺(aq) and a Ag electrode in Ag⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Sn²⁺(aq) + 2 e⁻ → Sn(s)</td><td>-0.14</td></tr><tr><td>Ag⁺(aq) + 1 e⁻ → Ag(s)</td><td>0.80</td></tr></tbody></table><p class=\"footer-note\">Convention: anode (oxidation) on the left, cathode (reduction) on the right; || is the salt bridge; solid | solution inside each half-cell.</p><p><b>Which cell notation is written correctly?</b></p>",
+  "choices": [
+   "Sn²⁺(aq) | Sn(s) || Ag(s) | Ag⁺(aq)",
+   "Sn(s) | Ag⁺(aq) || Sn²⁺(aq) | Ag(s)",
+   "Ag(s) | Ag⁺(aq) || Sn²⁺(aq) | Sn(s)",
+   "Sn(s) | Sn²⁺(aq) || Ag⁺(aq) | Ag(s)"
+  ],
+  "answer": "Sn(s) | Sn²⁺(aq) || Ag⁺(aq) | Ag(s)",
+  "hint": "Oxidation (anode) goes on the left, reduction (cathode) on the right. Inside each half-cell write the solid first, then its ion.",
+  "explain": "Sn is oxidized (lower E°), so it is the anode on the left: Sn(s) | Sn²⁺(aq) || Ag⁺(aq) | Ag(s).",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 32
+  }
+ },
+ {
+  "id": "redox-18c17504",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Cr electrode in Cr³⁺(aq) and a Ag electrode in Ag⁺(aq). For the balanced reaction below, n = 3 electrons transfer and E°cell = 1.54 V.</p><div class=\"equation-box\">Cr(s) + 3 Ag⁺(aq) → Cr³⁺(aq) + 3 Ag(s)</div><p>Use ΔG° = −nFE° with F = 96,485 C/mol e⁻. Report ΔG° in kJ (1 J = 1 V·C).</p>",
+  "answer": -446,
+  "unit": "kJ",
+  "tolerance": 0.012,
+  "hint": "ΔG° = −nFE°. Multiply n × 96,485 C/mol × E° to get joules, then divide by 1000. A positive E° gives a negative ΔG°.",
+  "explain": "ΔG° = −(3)(96,485)(1.54) = -446 kJ. Negative, so the cell reaction is spontaneous.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 33
+  }
+ },
+ {
+  "id": "redox-6e116c4e",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A galvanic cell has a Mg anode in 0.1 M Mg²⁺ and a Ni cathode in 0.5 M Ni²⁺. Standard E°cell = 2.11 V and n = 2.</p><p>Net: Mg(s) + Ni²⁺(aq) → Mg²⁺(aq) + Ni(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Mg²⁺] / [Ni²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is Ecell, in volts?</b></p>",
+  "answer": 2.131,
+  "unit": "V",
+  "tolerance": 0.0019,
+  "hint": "Q = [product ion]/[reactant ion] = [anode ion]/[cathode ion]. Then E = E° − (0.0592/n)·log Q. If Q < 1, E is larger than E°.",
+  "explain": "Q = 0.2. E = 2.11 − (0.0592/2)·log(0.2) = 2.131 V.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 34
+  }
+ },
+ {
+  "id": "redox-91367db4",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Zn electrode in Zn²⁺(aq) and a Au electrode in Au³⁺(aq). Here n = 6 and E°cell = 2.26 V.</p><div class=\"equation-box\">3 Zn(s) + 2 Au³⁺(aq) → 3 Zn²⁺(aq) + 2 Au(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
+  "answer": 229,
+  "tolerance": 0.012,
+  "hint": "At 25 °C: log K = nE°cell / 0.0592. Keep n as the total electrons transferred in the balanced equation.",
+  "explain": "log K = (6)(2.26)/0.0592 = 229, so K ≈ 10^229. A large K means products are strongly favored.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 35
+  }
+ },
+ {
+  "id": "redox-cae27a94",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Pb electrode in Pb²⁺(aq) and a Cu electrode in Cu²⁺(aq). For the balanced reaction below, n = 2 electrons transfer and E°cell = 0.47 V.</p><div class=\"equation-box\">Pb(s) + Cu²⁺(aq) → Pb²⁺(aq) + Cu(s)</div><p>Use ΔG° = −nFE° with F = 96,485 C/mol e⁻. Report ΔG° in kJ (1 J = 1 V·C).</p>",
+  "answer": -90.7,
+  "unit": "kJ",
+  "tolerance": 0.012,
+  "hint": "ΔG° = −nFE°. Multiply n × 96,485 C/mol × E° to get joules, then divide by 1000. A positive E° gives a negative ΔG°.",
+  "explain": "ΔG° = −(2)(96,485)(0.47) = -90.7 kJ. Negative, so the cell reaction is spontaneous.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 36
+  }
+ },
+ {
+  "id": "redox-d9981bf8",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Al electrode in Al³⁺(aq) and a Ni electrode in Ni²⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Al³⁺(aq) + 3 e⁻ → Al(s)</td><td>-1.66</td></tr><tr><td>Ni²⁺(aq) + 2 e⁻ → Ni(s)</td><td>-0.26</td></tr></tbody></table><p class=\"footer-note\">Convention: anode (oxidation) on the left, cathode (reduction) on the right; || is the salt bridge; solid | solution inside each half-cell.</p><p><b>Which cell notation is written correctly?</b></p>",
+  "choices": [
+   "Al(s) | Al³⁺(aq) || Ni²⁺(aq) | Ni(s)",
+   "Al(s) | Ni²⁺(aq) || Al³⁺(aq) | Ni(s)",
+   "Al³⁺(aq) | Al(s) || Ni(s) | Ni²⁺(aq)",
+   "Ni(s) | Ni²⁺(aq) || Al³⁺(aq) | Al(s)"
+  ],
+  "answer": "Al(s) | Al³⁺(aq) || Ni²⁺(aq) | Ni(s)",
+  "hint": "Oxidation (anode) goes on the left, reduction (cathode) on the right. Inside each half-cell write the solid first, then its ion.",
+  "explain": "Al is oxidized (lower E°), so it is the anode on the left: Al(s) | Al³⁺(aq) || Ni²⁺(aq) | Ni(s).",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 37
+  }
+ },
+ {
+  "id": "redox-e52a0714",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Zn electrode in Zn²⁺(aq) and a Ag electrode in Ag⁺(aq). Here n = 2 and E°cell = 1.56 V.</p><div class=\"equation-box\">Zn(s) + 2 Ag⁺(aq) → Zn²⁺(aq) + 2 Ag(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
+  "answer": 52.7,
+  "tolerance": 0.012,
+  "hint": "At 25 °C: log K = nE°cell / 0.0592. Keep n as the total electrons transferred in the balanced equation.",
+  "explain": "log K = (2)(1.56)/0.0592 = 52.7, so K ≈ 10^53. A large K means products are strongly favored.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 38
+  }
+ },
+ {
+  "id": "redox-1cd5f433",
+  "skill": "redox.galvanic-cells",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses a Sn electrode in Sn²⁺(aq) and a Au electrode in Au³⁺(aq). For the balanced reaction below, n = 6 electrons transfer and E°cell = 1.64 V.</p><div class=\"equation-box\">3 Sn(s) + 2 Au³⁺(aq) → 3 Sn²⁺(aq) + 2 Au(s)</div><p>Use ΔG° = −nFE° with F = 96,485 C/mol e⁻. Report ΔG° in kJ (1 J = 1 V·C).</p>",
+  "answer": -949,
+  "unit": "kJ",
+  "tolerance": 0.012,
+  "hint": "ΔG° = −nFE°. Multiply n × 96,485 C/mol × E° to get joules, then divide by 1000. A positive E° gives a negative ΔG°.",
+  "explain": "ΔG° = −(6)(96,485)(1.64) = -949 kJ. Negative, so the cell reaction is spontaneous.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:cells",
+   "index": 39
+  }
+ },
+ {
+  "id": "redox-052359f5",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species contains N with the LOWEST oxidation number?</p>",
+  "choices": [
+   "NO",
+   "N₂O",
+   "N₂",
+   "NH₃"
+  ],
+  "answer": "NH₃",
+  "hint": "Assign oxidation numbers: O is usually −2, H is +1, and the total must equal the charge on the species.",
+  "explain": "Oxidation numbers of N: N₂ = 0; NH₃ = −3; NO = +2; N₂O = +1. Lowest is NH₃.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 0
+  }
+ },
+ {
+  "id": "redox-ebe7096d",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">Before the two half-reactions can be added, the electrons must cancel. What whole-number multipliers are needed?</p><div class=\"equation-box\">Ag(s) → Ag⁺(aq) + 1 e⁻</div><div class=\"equation-box\">Au³⁺(aq) + 3 e⁻ → Au(s)</div><p><b>By what whole number must the oxidation half-reaction (first) be multiplied?</b></p>",
+  "answer": 3,
+  "tolerance": 0.001,
+  "hint": "Find the least common multiple of the two electron counts. Each half-reaction is multiplied by that multiple divided by its own electron count.",
+  "explain": "LCM of 1 and 3 is 3 electrons. Multiply the first by 3 and the second by 1.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 1
+  }
+ },
+ {
+  "id": "redox-47cbf046",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">Before the two half-reactions can be added, the electrons must cancel. What whole-number multipliers are needed?</p><div class=\"equation-box\">Ag(s) → Ag⁺(aq) + 1 e⁻</div><div class=\"equation-box\">Au³⁺(aq) + 3 e⁻ → Au(s)</div><p><b>By what whole number must the reduction half-reaction (second) be multiplied?</b></p>",
+  "answer": 1,
+  "tolerance": 0.001,
+  "hint": "Find the least common multiple of the two electron counts. Each half-reaction is multiplied by that multiple divided by its own electron count.",
+  "explain": "LCM of 1 and 3 is 3 electrons. Multiply the first by 3 and the second by 1.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 2
+  }
+ },
+ {
+  "id": "redox-150d8825",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species is the reducing agent?</p><div class=\"equation-box\">Cu(s) + 2 Ag⁺(aq) → Cu²⁺(aq) + 2 Ag(s)</div>",
+  "choices": [
+   "Ag(s)",
+   "Ag⁺(aq)",
+   "Cu²⁺(aq)",
+   "Cu(s)"
+  ],
+  "answer": "Cu(s)",
+  "hint": "Find which reactant loses electrons (oxidation) and which gains (reduction). The reducing agent is oxidized; the oxidizing agent is reduced.",
+  "explain": "Cu(s) the reducing agent is the substance that is oxidized. Cu goes 0 → +2; Ag goes +1 → 0.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 3
+  }
+ },
+ {
+  "id": "redox-0b044f12",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species is reduced?</p><div class=\"equation-box\">Mg(s) + Zn²⁺(aq) → Mg²⁺(aq) + Zn(s)</div>",
+  "choices": [
+   "Zn²⁺(aq)",
+   "Mg(s)",
+   "Zn(s)",
+   "Mg²⁺(aq)"
+  ],
+  "answer": "Zn²⁺(aq)",
+  "hint": "Find which reactant loses electrons (oxidation) and which gains (reduction). The reducing agent is oxidized; the oxidizing agent is reduced.",
+  "explain": "Zn²⁺(aq) gains electrons: its charge falls toward 0. Mg goes 0 → +2; Zn goes +2 → 0.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 4
+  }
+ },
+ {
+  "id": "redox-3e627bff",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">Before the two half-reactions can be added, the electrons must cancel. What whole-number multipliers are needed?</p><div class=\"equation-box\">Zn(s) → Zn²⁺(aq) + 2 e⁻</div><div class=\"equation-box\">Au³⁺(aq) + 3 e⁻ → Au(s)</div><p><b>By what whole number must the oxidation half-reaction (first) be multiplied?</b></p>",
+  "answer": 3,
+  "tolerance": 0.001,
+  "hint": "Find the least common multiple of the two electron counts. Each half-reaction is multiplied by that multiple divided by its own electron count.",
+  "explain": "LCM of 2 and 3 is 6 electrons. Multiply the first by 3 and the second by 2.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 5
+  }
+ },
+ {
+  "id": "redox-87489206",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">Before the two half-reactions can be added, the electrons must cancel. What whole-number multipliers are needed?</p><div class=\"equation-box\">Zn(s) → Zn²⁺(aq) + 2 e⁻</div><div class=\"equation-box\">Au³⁺(aq) + 3 e⁻ → Au(s)</div><p><b>By what whole number must the reduction half-reaction (second) be multiplied?</b></p>",
+  "answer": 2,
+  "tolerance": 0.001,
+  "hint": "Find the least common multiple of the two electron counts. Each half-reaction is multiplied by that multiple divided by its own electron count.",
+  "explain": "LCM of 2 and 3 is 6 electrons. Multiply the first by 3 and the second by 2.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 6
+  }
+ },
+ {
+  "id": "redox-27fc4185",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species is oxidized?</p><div class=\"equation-box\">Mg(s) + Zn²⁺(aq) → Mg²⁺(aq) + Zn(s)</div>",
+  "choices": [
+   "Zn²⁺(aq)",
+   "Mg²⁺(aq)",
+   "Zn(s)",
+   "Mg(s)"
+  ],
+  "answer": "Mg(s)",
+  "hint": "Find which reactant loses electrons (oxidation) and which gains (reduction). The reducing agent is oxidized; the oxidizing agent is reduced.",
+  "explain": "Mg(s) loses electrons: its oxidation number rises from 0. Mg goes 0 → +2; Zn goes +2 → 0.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 7
+  }
+ },
+ {
+  "id": "redox-d80f7ea8",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species contains C with the LOWEST oxidation number?</p>",
+  "choices": [
+   "CO",
+   "CH₃OH",
+   "CH₄",
+   "C"
+  ],
+  "answer": "CH₄",
+  "hint": "Assign oxidation numbers: O is usually −2, H is +1, and the total must equal the charge on the species.",
+  "explain": "Oxidation numbers of C: CH₄ = −4; CH₃OH = −2; C = 0; CO = +2. Lowest is CH₄.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 8
+  }
+ },
+ {
+  "id": "redox-d66773f9",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species is the oxidizing agent?</p><div class=\"equation-box\">Al(s) + Au³⁺(aq) → Al³⁺(aq) + Au(s)</div>",
+  "choices": [
+   "Al(s)",
+   "Au(s)",
+   "Al³⁺(aq)",
+   "Au³⁺(aq)"
+  ],
+  "answer": "Au³⁺(aq)",
+  "hint": "Find which reactant loses electrons (oxidation) and which gains (reduction). The reducing agent is oxidized; the oxidizing agent is reduced.",
+  "explain": "Au³⁺(aq) the oxidizing agent is the substance that is reduced. Al goes 0 → +3; Au goes +3 → 0.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 9
+  }
+ },
+ {
+  "id": "redox-a5300508",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species contains C with the HIGHEST oxidation number?</p>",
+  "choices": [
+   "CO",
+   "CH₄",
+   "CO₂",
+   "CH₃OH"
+  ],
+  "answer": "CO₂",
+  "hint": "Assign oxidation numbers: O is usually −2, H is +1, and the total must equal the charge on the species.",
+  "explain": "Oxidation numbers of C: CO = +2; CH₄ = −4; CH₃OH = −2; CO₂ = +4. Highest is CO₂.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 10
+  }
+ },
+ {
+  "id": "redox-23c9a6b8",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species is the reducing agent?</p><div class=\"equation-box\">Fe(s) + 2 Ag⁺(aq) → Fe²⁺(aq) + 2 Ag(s)</div>",
+  "choices": [
+   "Fe(s)",
+   "Ag(s)",
+   "Fe²⁺(aq)",
+   "Ag⁺(aq)"
+  ],
+  "answer": "Fe(s)",
+  "hint": "Find which reactant loses electrons (oxidation) and which gains (reduction). The reducing agent is oxidized; the oxidizing agent is reduced.",
+  "explain": "Fe(s) the reducing agent is the substance that is oxidized. Fe goes 0 → +2; Ag goes +1 → 0.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 11
+  }
+ },
+ {
+  "id": "redox-e7013964",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species is the reducing agent?</p><div class=\"equation-box\">Zn(s) + Ni²⁺(aq) → Zn²⁺(aq) + Ni(s)</div>",
+  "choices": [
+   "Zn(s)",
+   "Ni²⁺(aq)",
+   "Ni(s)",
+   "Zn²⁺(aq)"
+  ],
+  "answer": "Zn(s)",
+  "hint": "Find which reactant loses electrons (oxidation) and which gains (reduction). The reducing agent is oxidized; the oxidizing agent is reduced.",
+  "explain": "Zn(s) the reducing agent is the substance that is oxidized. Zn goes 0 → +2; Ni goes +2 → 0.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 12
+  }
+ },
+ {
+  "id": "redox-fc7f6544",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">Before the two half-reactions can be added, the electrons must cancel. What whole-number multipliers are needed?</p><div class=\"equation-box\">Cu(s) → Cu²⁺(aq) + 2 e⁻</div><div class=\"equation-box\">Au³⁺(aq) + 3 e⁻ → Au(s)</div><p><b>By what whole number must the oxidation half-reaction (first) be multiplied?</b></p>",
+  "answer": 3,
+  "tolerance": 0.001,
+  "hint": "Find the least common multiple of the two electron counts. Each half-reaction is multiplied by that multiple divided by its own electron count.",
+  "explain": "LCM of 2 and 3 is 6 electrons. Multiply the first by 3 and the second by 2.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 13
+  }
+ },
+ {
+  "id": "redox-b8002aa9",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">Before the two half-reactions can be added, the electrons must cancel. What whole-number multipliers are needed?</p><div class=\"equation-box\">Cu(s) → Cu²⁺(aq) + 2 e⁻</div><div class=\"equation-box\">Au³⁺(aq) + 3 e⁻ → Au(s)</div><p><b>By what whole number must the reduction half-reaction (second) be multiplied?</b></p>",
+  "answer": 2,
+  "tolerance": 0.001,
+  "hint": "Find the least common multiple of the two electron counts. Each half-reaction is multiplied by that multiple divided by its own electron count.",
+  "explain": "LCM of 2 and 3 is 6 electrons. Multiply the first by 3 and the second by 2.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 14
+  }
+ },
+ {
+  "id": "redox-b80d6966",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">Before the two half-reactions can be added, the electrons must cancel. What whole-number multipliers are needed?</p><div class=\"equation-box\">Zn(s) → Zn²⁺(aq) + 2 e⁻</div><div class=\"equation-box\">Ag⁺(aq) + 1 e⁻ → Ag(s)</div><p><b>By what whole number must the oxidation half-reaction (first) be multiplied?</b></p>",
+  "answer": 1,
+  "tolerance": 0.001,
+  "hint": "Find the least common multiple of the two electron counts. Each half-reaction is multiplied by that multiple divided by its own electron count.",
+  "explain": "LCM of 2 and 1 is 2 electrons. Multiply the first by 1 and the second by 2.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 15
+  }
+ },
+ {
+  "id": "redox-4ea745ea",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "number",
+  "prompt": "<p class=\"prompt\">Before the two half-reactions can be added, the electrons must cancel. What whole-number multipliers are needed?</p><div class=\"equation-box\">Zn(s) → Zn²⁺(aq) + 2 e⁻</div><div class=\"equation-box\">Ag⁺(aq) + 1 e⁻ → Ag(s)</div><p><b>By what whole number must the reduction half-reaction (second) be multiplied?</b></p>",
+  "answer": 2,
+  "tolerance": 0.001,
+  "hint": "Find the least common multiple of the two electron counts. Each half-reaction is multiplied by that multiple divided by its own electron count.",
+  "explain": "LCM of 2 and 1 is 2 electrons. Multiply the first by 1 and the second by 2.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 16
+  }
+ },
+ {
+  "id": "redox-624ff8d4",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species is the oxidizing agent?</p><div class=\"equation-box\">Sn(s) + Cu²⁺(aq) → Sn²⁺(aq) + Cu(s)</div>",
+  "choices": [
+   "Sn(s)",
+   "Cu²⁺(aq)",
+   "Sn²⁺(aq)",
+   "Cu(s)"
+  ],
+  "answer": "Cu²⁺(aq)",
+  "hint": "Find which reactant loses electrons (oxidation) and which gains (reduction). The reducing agent is oxidized; the oxidizing agent is reduced.",
+  "explain": "Cu²⁺(aq) the oxidizing agent is the substance that is reduced. Sn goes 0 → +2; Cu goes +2 → 0.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 17
+  }
+ },
+ {
+  "id": "redox-3ee37c07",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species is the oxidizing agent?</p><div class=\"equation-box\">3 Ag(s) + Au³⁺(aq) → 3 Ag⁺(aq) + Au(s)</div>",
+  "choices": [
+   "Au³⁺(aq)",
+   "Ag⁺(aq)",
+   "Au(s)",
+   "Ag(s)"
+  ],
+  "answer": "Au³⁺(aq)",
+  "hint": "Find which reactant loses electrons (oxidation) and which gains (reduction). The reducing agent is oxidized; the oxidizing agent is reduced.",
+  "explain": "Au³⁺(aq) the oxidizing agent is the substance that is reduced. Ag goes 0 → +1; Au goes +3 → 0.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 18
+  }
+ },
+ {
+  "id": "redox-58770155",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species contains Cl with the LOWEST oxidation number?</p>",
+  "choices": [
+   "ClO₂⁻",
+   "ClO₄⁻",
+   "ClO⁻",
+   "Cl₂"
+  ],
+  "answer": "Cl₂",
+  "hint": "Assign oxidation numbers: O is usually −2, H is +1, and the total must equal the charge on the species.",
+  "explain": "Oxidation numbers of Cl: ClO₂⁻ = +3; ClO⁻ = +1; Cl₂ = 0; ClO₄⁻ = +7. Lowest is Cl₂.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 19
+  }
+ },
+ {
+  "id": "redox-8f285c0a",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species is reduced?</p><div class=\"equation-box\">3 Ni(s) + 2 Au³⁺(aq) → 3 Ni²⁺(aq) + 2 Au(s)</div>",
+  "choices": [
+   "Au³⁺(aq)",
+   "Ni²⁺(aq)",
+   "Au(s)",
+   "Ni(s)"
+  ],
+  "answer": "Au³⁺(aq)",
+  "hint": "Find which reactant loses electrons (oxidation) and which gains (reduction). The reducing agent is oxidized; the oxidizing agent is reduced.",
+  "explain": "Au³⁺(aq) gains electrons: its charge falls toward 0. Ni goes 0 → +2; Au goes +3 → 0.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 20
+  }
+ },
+ {
+  "id": "redox-78485361",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species contains C with the LOWEST oxidation number?</p>",
+  "choices": [
+   "C",
+   "CO₂",
+   "CH₃OH",
+   "CaC₂"
+  ],
+  "answer": "CH₃OH",
+  "hint": "Assign oxidation numbers: O is usually −2, H is +1, and the total must equal the charge on the species.",
+  "explain": "Oxidation numbers of C: CH₃OH = −2; CO₂ = +4; C = 0; CaC₂ = −1. Lowest is CH₃OH.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 21
+  }
+ },
+ {
+  "id": "redox-3f8eb78e",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species contains Mn with the LOWEST oxidation number?</p>",
+  "choices": [
+   "Mn",
+   "MnO₄²⁻",
+   "MnO₂",
+   "Mn₂O₃"
+  ],
+  "answer": "Mn",
+  "hint": "Assign oxidation numbers: O is usually −2, H is +1, and the total must equal the charge on the species.",
+  "explain": "Oxidation numbers of Mn: Mn₂O₃ = +3; MnO₄²⁻ = +6; MnO₂ = +4; Mn = 0. Lowest is Mn.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 22
+  }
+ },
+ {
+  "id": "redox-f2311e51",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species contains N with the LOWEST oxidation number?</p>",
+  "choices": [
+   "N₂",
+   "N₂O",
+   "NO",
+   "NO₃⁻"
+  ],
+  "answer": "N₂",
+  "hint": "Assign oxidation numbers: O is usually −2, H is +1, and the total must equal the charge on the species.",
+  "explain": "Oxidation numbers of N: N₂ = 0; N₂O = +1; NO = +2; NO₃⁻ = +5. Lowest is N₂.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 23
+  }
+ },
+ {
+  "id": "redox-01da55ce",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species is reduced?</p><div class=\"equation-box\">Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s)</div>",
+  "choices": [
+   "Fe²⁺(aq)",
+   "Cu(s)",
+   "Fe(s)",
+   "Cu²⁺(aq)"
+  ],
+  "answer": "Cu²⁺(aq)",
+  "hint": "Find which reactant loses electrons (oxidation) and which gains (reduction). The reducing agent is oxidized; the oxidizing agent is reduced.",
+  "explain": "Cu²⁺(aq) gains electrons: its charge falls toward 0. Fe goes 0 → +2; Cu goes +2 → 0.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 24
+  }
+ },
+ {
+  "id": "redox-579ec294",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species contains Cr with the HIGHEST oxidation number?</p>",
+  "choices": [
+   "CrCl₂",
+   "Cr",
+   "CrO₄²⁻",
+   "CrO₂"
+  ],
+  "answer": "CrO₄²⁻",
+  "hint": "Assign oxidation numbers: O is usually −2, H is +1, and the total must equal the charge on the species.",
+  "explain": "Oxidation numbers of Cr: CrO₂ = +4; CrCl₂ = +2; CrO₄²⁻ = +6; Cr = 0. Highest is CrO₄²⁻.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 25
+  }
+ },
+ {
+  "id": "redox-fb7610b3",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species contains N with the LOWEST oxidation number?</p>",
+  "choices": [
+   "NO₃⁻",
+   "NO₂",
+   "NO",
+   "N₂O"
+  ],
+  "answer": "N₂O",
+  "hint": "Assign oxidation numbers: O is usually −2, H is +1, and the total must equal the charge on the species.",
+  "explain": "Oxidation numbers of N: NO₃⁻ = +5; NO₂ = +4; NO = +2; N₂O = +1. Lowest is N₂O.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 26
+  }
+ },
+ {
+  "id": "redox-76a23027",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species is oxidized?</p><div class=\"equation-box\">3 Ag(s) + Au³⁺(aq) → 3 Ag⁺(aq) + Au(s)</div>",
+  "choices": [
+   "Ag(s)",
+   "Au(s)",
+   "Au³⁺(aq)",
+   "Ag⁺(aq)"
+  ],
+  "answer": "Ag(s)",
+  "hint": "Find which reactant loses electrons (oxidation) and which gains (reduction). The reducing agent is oxidized; the oxidizing agent is reduced.",
+  "explain": "Ag(s) loses electrons: its oxidation number rises from 0. Ag goes 0 → +1; Au goes +3 → 0.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 27
+  }
+ },
+ {
+  "id": "redox-19369720",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species contains N with the HIGHEST oxidation number?</p>",
+  "choices": [
+   "N₂",
+   "NO₃⁻",
+   "N₂O",
+   "NH₃"
+  ],
+  "answer": "NO₃⁻",
+  "hint": "Assign oxidation numbers: O is usually −2, H is +1, and the total must equal the charge on the species.",
+  "explain": "Oxidation numbers of N: N₂O = +1; N₂ = 0; NH₃ = −3; NO₃⁻ = +5. Highest is NO₃⁻.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 28
+  }
+ },
+ {
+  "id": "redox-25657c5d",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species is oxidized?</p><div class=\"equation-box\">2 Cr(s) + 3 Fe²⁺(aq) → 2 Cr³⁺(aq) + 3 Fe(s)</div>",
+  "choices": [
+   "Fe(s)",
+   "Cr³⁺(aq)",
+   "Fe²⁺(aq)",
+   "Cr(s)"
+  ],
+  "answer": "Cr(s)",
+  "hint": "Find which reactant loses electrons (oxidation) and which gains (reduction). The reducing agent is oxidized; the oxidizing agent is reduced.",
+  "explain": "Cr(s) loses electrons: its oxidation number rises from 0. Cr goes 0 → +3; Fe goes +2 → 0.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 29
+  }
+ },
+ {
+  "id": "redox-af9f85b6",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species contains Cr with the LOWEST oxidation number?</p>",
+  "choices": [
+   "Cr",
+   "CrCl₂",
+   "CrO₂",
+   "CrO₄²⁻"
+  ],
+  "answer": "Cr",
+  "hint": "Assign oxidation numbers: O is usually −2, H is +1, and the total must equal the charge on the species.",
+  "explain": "Oxidation numbers of Cr: Cr = 0; CrO₄²⁻ = +6; CrCl₂ = +2; CrO₂ = +4. Lowest is Cr.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 30
+  }
+ },
+ {
+  "id": "redox-3978ba21",
+  "skill": "redox.concepts",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-10"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">Which species contains Mn with the HIGHEST oxidation number?</p>",
+  "choices": [
+   "Mn",
+   "MnO₄²⁻",
+   "Mn₂O₃",
+   "KMnO₄"
+  ],
+  "answer": "KMnO₄",
+  "hint": "Assign oxidation numbers: O is usually −2, H is +1, and the total must equal the charge on the species.",
+  "explain": "Oxidation numbers of Mn: Mn = 0; Mn₂O₃ = +3; MnO₄²⁻ = +6; KMnO₄ = +7. Highest is KMnO₄.",
+  "origin": "original",
+  "from": {
+   "game": "redox",
+   "list": "sample:concepts",
+   "index": 31
+  }
+ }
+]

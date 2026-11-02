@@ -24449,5 +24449,3328 @@
    "list": "BANK.1B",
    "index": 306
   }
+ },
+ {
+  "id": "finalexam-e761a8c9",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "A roadside breath tester relies on dichromate oxidizing ethanol in acid (unbalanced, shown). How many hydrogen ions appear in the balanced equation written with lowest whole-number coefficients?",
+  "choices": [
+   "16",
+   "14",
+   "28",
+   "12"
+  ],
+  "answer": "16",
+  "hint": "Write each half-reaction (Cr: +6 → +3; ethanol → acetic acid loses 4 e⁻), match electrons, then cancel H⁺ and H₂O that appear on both sides.",
+  "explain": "Reduction: Cr₂O²⁻₇ + 14 H⁺ + 6 e⁻ → 2 Cr³⁺ + 7 H₂O (×2). Oxidation: C₂H₅OH + H₂O → CH₃COOH + 4 H⁺ + 4 e⁻ (×3). Adding and cancelling: 2 Cr₂O²⁻₇ + 3 C₂H₅OH + 16 H⁺ → 4 Cr³⁺ + 3 CH₃COOH + 11 H₂O. 28 forgets to cancel the 12 H⁺ made by the oxidation half; 14 is the dichromate half-reaction alone.",
+  "html": {
+   "prompt": "A roadside breath tester relies on dichromate oxidizing ethanol in acid (unbalanced, shown). How many hydrogen ions appear in the balanced equation written with lowest whole-number coefficients?",
+   "choices": [
+    "16",
+    "14",
+    "28",
+    "12"
+   ],
+   "hint": "Write each half-reaction (Cr: +6 → +3; ethanol → acetic acid loses 4 e<sup>−</sup>), match electrons, then cancel H<sup>+</sup> and H<sub>2</sub>O that appear on both sides.",
+   "explain": "Reduction: <span class=\"nw\">Cr<sub>2</sub>O<span class=\"ss\"><sup>2−</sup><sub>7</sub></span></span> + 14 H<sup>+</sup> + 6 e<sup>−</sup> → 2 Cr<sup>3+</sup> + 7 H<sub>2</sub>O (×2). Oxidation: C<sub>2</sub>H<sub>5</sub>OH + H<sub>2</sub>O → CH<sub>3</sub>COOH + 4 H<sup>+</sup> + 4 e<sup>−</sup> (×3). Adding and cancelling: 2 <span class=\"nw\">Cr<sub>2</sub>O<span class=\"ss\"><sup>2−</sup><sub>7</sub></span></span> + 3 C<sub>2</sub>H<sub>5</sub>OH + <b>16</b> H<sup>+</sup> → 4 Cr<sup>3+</sup> + 3 CH<sub>3</sub>COOH + 11 H<sub>2</sub>O. 28 forgets to cancel the 12 H<sup>+</sup> made by the oxidation half; 14 is the dichromate half-reaction alone."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "<span class=\"nw\">Cr<sub>2</sub>O<span class=\"ss\"><sup>2−</sup><sub>7</sub></span>(aq)</span> + C<sub>2</sub>H<sub>5</sub>OH(aq) → Cr<sup>3+</sup>(aq) + CH<sub>3</sub>COOH(aq)"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 307
+  }
+ },
+ {
+  "id": "finalexam-6c4bc60c",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "A KMnO₄ solution is standardized by titrating sodium oxalate in acidic solution (unbalanced reaction shown). In the balanced equation with the smallest whole-number coefficients, how many electrons are transferred?",
+  "choices": [
+   "10",
+   "5",
+   "2",
+   "16"
+  ],
+  "answer": "10",
+  "hint": "Find electrons lost per oxalate and gained per permanganate, then multiply each half-reaction so the electrons match.",
+  "explain": "Mn goes from +7 to +2 (5 e⁻ gained); each C₂O²⁻₄ → 2 CO₂ loses 2 e⁻ (C +3 → +4). The LCM is 10: 2 MnO⁻₄ + 5 C₂O²⁻₄ + 16 H⁺ → 2 Mn²⁺ + 10 CO₂ + 8 H₂O, so 10 e⁻ are transferred. 5 is the count for one Mn only; 16 is the H⁺ coefficient.",
+  "html": {
+   "prompt": "A KMnO<sub>4</sub> solution is standardized by titrating sodium oxalate in acidic solution (unbalanced reaction shown). In the balanced equation with the smallest whole-number coefficients, how many electrons are transferred?",
+   "choices": [
+    "10",
+    "5",
+    "2",
+    "16"
+   ],
+   "hint": "Find electrons lost per oxalate and gained per permanganate, then multiply each half-reaction so the electrons match.",
+   "explain": "Mn goes from +7 to +2 (5 e<sup>−</sup> gained); each <span class=\"nw\">C<sub>2</sub>O<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span> → 2 CO<sub>2</sub> loses 2 e<sup>−</sup> (C +3 → +4). The LCM is 10: 2 <span class=\"nw\">MnO<span class=\"ss\"><sup>−</sup><sub>4</sub></span></span> + 5 <span class=\"nw\">C<sub>2</sub>O<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span> + 16 H<sup>+</sup> → 2 Mn<sup>2+</sup> + 10 CO<sub>2</sub> + 8 H<sub>2</sub>O, so <b>10 e<sup>−</sup></b> are transferred. 5 is the count for one Mn only; 16 is the H<sup>+</sup> coefficient."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "<span class=\"nw\">MnO<span class=\"ss\"><sup>−</sup><sub>4</sub></span>(aq)</span> + <span class=\"nw\">C<sub>2</sub>O<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>(aq)</span> → Mn<sup>2+</sup>(aq) + CO<sub>2</sub>(g)"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 308
+  }
+ },
+ {
+  "id": "finalexam-d2f16681",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Chlorate ion oxidizes solid chromium(III) hydroxide to chromate ion in a basic solution (unbalanced, shown). Once the equation is balanced with lowest whole numbers, how many hydroxide ions appear, and where?",
+  "choices": [
+   "4, on the reactant side",
+   "4, on the product side",
+   "10, on the reactant side",
+   "6, on the product side"
+  ],
+  "answer": "4, on the reactant side",
+  "hint": "Balance as if in acid first. Then add the same number of OH⁻ to both sides to neutralize every H⁺.",
+  "explain": "Acid form: 2 Cr(OH)₃ + ClO⁻₃ → 2 CrO²⁻₄ + Cl⁻ + 4 H⁺ + H₂O. Adding 4 OH⁻ to each side turns the 4 H⁺ into water: 2 Cr(OH)₃ + ClO⁻₃ + 4 OH⁻ → 2 CrO²⁻₄ + Cl⁻ + 5 H₂O. OH⁻ ends up where it cancels H⁺, the reactant side; 10 is the H⁺ count of the Cr half-reaction before combining.",
+  "html": {
+   "prompt": "Chlorate ion oxidizes solid chromium(III) hydroxide to chromate ion in a basic solution (unbalanced, shown). Once the equation is balanced with lowest whole numbers, how many hydroxide ions appear, and where?",
+   "choices": [
+    "4, on the reactant side",
+    "4, on the product side",
+    "10, on the reactant side",
+    "6, on the product side"
+   ],
+   "hint": "Balance as if in acid first. Then add the same number of OH<sup>−</sup> to both sides to neutralize every H<sup>+</sup>.",
+   "explain": "Acid form: 2 Cr(OH)<sub>3</sub> + <span class=\"nw\">ClO<span class=\"ss\"><sup>−</sup><sub>3</sub></span></span> → 2 <span class=\"nw\">CrO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span> + Cl<sup>−</sup> + 4 H<sup>+</sup> + H<sub>2</sub>O. Adding 4 OH<sup>−</sup> to each side turns the 4 H<sup>+</sup> into water: 2 Cr(OH)<sub>3</sub> + <span class=\"nw\">ClO<span class=\"ss\"><sup>−</sup><sub>3</sub></span></span> + <b>4 OH<sup>−</sup></b> → 2 <span class=\"nw\">CrO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span> + Cl<sup>−</sup> + 5 H<sub>2</sub>O. OH<sup>−</sup> ends up where it cancels H<sup>+</sup>, the reactant side; 10 is the H<sup>+</sup> count of the Cr half-reaction before combining."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "Cr(OH)<sub>3</sub>(s) + <span class=\"nw\">ClO<span class=\"ss\"><sup>−</sup><sub>3</sub></span>(aq)</span> → <span class=\"nw\">CrO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>(aq)</span> + Cl<sup>−</sup>(aq)"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 309
+  }
+ },
+ {
+  "id": "finalexam-9676b0e0",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Permanganate oxidizes iodide to iodate in basic solution, forming MnO₂ (unbalanced, shown). After balancing with lowest whole numbers, how many water molecules appear, and where?",
+  "choices": [
+   "1 H₂O on the reactant side",
+   "1 H₂O on the product side",
+   "4 H₂O on the product side",
+   "3 H₂O on the reactant side"
+  ],
+  "answer": "1 H₂O on the reactant side",
+  "hint": "Balance in acid (Mn +7 → +4 gains 3 e⁻; I −1 → +5 loses 6 e⁻), then add OH⁻ to neutralize H⁺ and cancel waters.",
+  "explain": "Acid form: 2 MnO⁻₄ + I⁻ + 2 H⁺ → 2 MnO₂ + IO⁻₃ + H₂O. Adding 2 OH⁻ to both sides makes 2 H₂O on the left; cancelling one gives 2 MnO⁻₄ + I⁻ + H₂O → 2 MnO₂ + IO⁻₃ + 2 OH⁻. Stopping at the acid form leaves water on the product side.",
+  "html": {
+   "prompt": "Permanganate oxidizes iodide to iodate in basic solution, forming MnO<sub>2</sub> (unbalanced, shown). After balancing with lowest whole numbers, how many water molecules appear, and where?",
+   "choices": [
+    "1 H<sub>2</sub>O on the reactant side",
+    "1 H<sub>2</sub>O on the product side",
+    "4 H<sub>2</sub>O on the product side",
+    "3 H<sub>2</sub>O on the reactant side"
+   ],
+   "hint": "Balance in acid (Mn +7 → +4 gains 3 e<sup>−</sup>; I −1 → +5 loses 6 e<sup>−</sup>), then add OH<sup>−</sup> to neutralize H<sup>+</sup> and cancel waters.",
+   "explain": "Acid form: 2 <span class=\"nw\">MnO<span class=\"ss\"><sup>−</sup><sub>4</sub></span></span> + I<sup>−</sup> + 2 H<sup>+</sup> → 2 MnO<sub>2</sub> + <span class=\"nw\">IO<span class=\"ss\"><sup>−</sup><sub>3</sub></span></span> + H<sub>2</sub>O. Adding 2 OH<sup>−</sup> to both sides makes 2 H<sub>2</sub>O on the left; cancelling one gives 2 <span class=\"nw\">MnO<span class=\"ss\"><sup>−</sup><sub>4</sub></span></span> + I<sup>−</sup> + <b>H<sub>2</sub>O</b> → 2 MnO<sub>2</sub> + <span class=\"nw\">IO<span class=\"ss\"><sup>−</sup><sub>3</sub></span></span> + 2 OH<sup>−</sup>. Stopping at the acid form leaves water on the product side."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "<span class=\"nw\">MnO<span class=\"ss\"><sup>−</sup><sub>4</sub></span>(aq)</span> + I<sup>−</sup>(aq) → MnO<sub>2</sub>(s) + <span class=\"nw\">IO<span class=\"ss\"><sup>−</sup><sub>3</sub></span>(aq)</span>"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 310
+  }
+ },
+ {
+  "id": "finalexam-3500c283",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Copper dissolves in nitric acid, releasing NO gas. Which is the correctly balanced half-reaction for nitrate in this acidic solution?",
+  "choices": [
+   "NO⁻₃ + 4 H⁺ + 3 e⁻ → NO + 2 H₂O",
+   "NO⁻₃ + 4 H⁺ → NO + 2 H₂O + 3 e⁻",
+   "NO⁻₃ + 4 H⁺ + 2 e⁻ → NO + 2 H₂O",
+   "NO⁻₃ + 4 H⁺ + 5 e⁻ → NO + 2 H₂O"
+  ],
+  "answer": "NO⁻₃ + 4 H⁺ + 3 e⁻ → NO + 2 H₂O",
+  "hint": "Balance O with H₂O, H with H⁺, then add electrons to the side that makes the total charges equal.",
+  "explain": "N goes from +5 to +2, a reduction, so electrons are reactants. Charge check: left −1 + 4 − 3 = 0 and right 0, so NO⁻₃ + 4 H⁺ + 3 e⁻ → NO + 2 H₂O. Putting the electrons on the right would make it an oxidation; 2 or 5 e⁻ leave the charges unequal.",
+  "html": {
+   "prompt": "Copper dissolves in nitric acid, releasing NO gas. Which is the correctly balanced half-reaction for nitrate in this acidic solution?",
+   "choices": [
+    "<span class=\"nw\">NO<span class=\"ss\"><sup>−</sup><sub>3</sub></span></span> + 4 H<sup>+</sup> + 3 e<sup>−</sup> → NO + 2 H<sub>2</sub>O",
+    "<span class=\"nw\">NO<span class=\"ss\"><sup>−</sup><sub>3</sub></span></span> + 4 H<sup>+</sup> → NO + 2 H<sub>2</sub>O + 3 e<sup>−</sup>",
+    "<span class=\"nw\">NO<span class=\"ss\"><sup>−</sup><sub>3</sub></span></span> + 4 H<sup>+</sup> + 2 e<sup>−</sup> → NO + 2 H<sub>2</sub>O",
+    "<span class=\"nw\">NO<span class=\"ss\"><sup>−</sup><sub>3</sub></span></span> + 4 H<sup>+</sup> + 5 e<sup>−</sup> → NO + 2 H<sub>2</sub>O"
+   ],
+   "hint": "Balance O with H<sub>2</sub>O, H with H<sup>+</sup>, then add electrons to the side that makes the total charges equal.",
+   "explain": "N goes from +5 to +2, a reduction, so electrons are reactants. Charge check: left −1 + 4 − 3 = 0 and right 0, so <b><span class=\"nw\">NO<span class=\"ss\"><sup>−</sup><sub>3</sub></span></span> + 4 H<sup>+</sup> + 3 e<sup>−</sup> → NO + 2 H<sub>2</sub>O</b>. Putting the electrons on the right would make it an oxidation; 2 or 5 e<sup>−</sup> leave the charges unequal."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 311
+  }
+ },
+ {
+  "id": "finalexam-0c7bb48c",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "In acid, hydrogen peroxide turns iron(II) into iron(III) (equation shown). Identify the oxidizing agent.",
+  "choices": [
+   "H₂O₂",
+   "Fe²⁺",
+   "H⁺",
+   "Fe³⁺"
+  ],
+  "answer": "H₂O₂",
+  "hint": "The oxidizing agent is the reactant that gets reduced. Check the oxidation number of O in a peroxide.",
+  "explain": "O goes from −1 in H₂O₂ to −2 in H₂O, so H₂O₂ is reduced and is the oxidizing agent. Fe²⁺ is oxidized (it is the reducing agent); H⁺ does not change oxidation number, and Fe³⁺ is a product.",
+  "html": {
+   "prompt": "In acid, hydrogen peroxide turns iron(II) into iron(III) (equation shown). Identify the oxidizing agent.",
+   "choices": [
+    "H<sub>2</sub>O<sub>2</sub>",
+    "Fe<sup>2+</sup>",
+    "H<sup>+</sup>",
+    "Fe<sup>3+</sup>"
+   ],
+   "hint": "The oxidizing agent is the reactant that gets reduced. Check the oxidation number of O in a peroxide.",
+   "explain": "O goes from −1 in H<sub>2</sub>O<sub>2</sub> to −2 in H<sub>2</sub>O, so H<sub>2</sub>O<sub>2</sub> is reduced and is the <b>oxidizing agent</b>. Fe<sup>2+</sup> is oxidized (it is the reducing agent); H<sup>+</sup> does not change oxidation number, and Fe<sup>3+</sup> is a product."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "2 Fe<sup>2+</sup>(aq) + H<sub>2</sub>O<sub>2</sub>(aq) + 2 H<sup>+</sup>(aq) → 2 Fe<sup>3+</sup>(aq) + 2 H<sub>2</sub>O(l)"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 312
+  }
+ },
+ {
+  "id": "finalexam-b7f890d6",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Household bleach is made by bubbling chlorine into sodium hydroxide solution (reaction shown). Which statement about this reaction is correct?",
+  "choices": [
+   "Cl₂ is both oxidized (to ClO⁻) and reduced (to Cl⁻).",
+   "Cl₂ is only reduced, and OH⁻ is oxidized.",
+   "Cl₂ is only oxidized, and OH⁻ is reduced.",
+   "It is not a redox reaction, because no oxidation numbers change."
+  ],
+  "answer": "Cl₂ is both oxidized (to ClO⁻) and reduced (to Cl⁻).",
+  "hint": "Assign the oxidation number of Cl in Cl₂, Cl⁻ and ClO⁻. Do O and H change?",
+  "explain": "Cl is 0 in Cl₂, −1 in Cl⁻ and +1 in ClO⁻, so one Cl atom is reduced and the other is oxidized (a disproportionation). O stays −2 and H stays +1, so OH⁻ is neither oxidized nor reduced.",
+  "html": {
+   "prompt": "Household bleach is made by bubbling chlorine into sodium hydroxide solution (reaction shown). Which statement about this reaction is correct?",
+   "choices": [
+    "Cl<sub>2</sub> is both oxidized (to ClO<sup>−</sup>) and reduced (to Cl<sup>−</sup>).",
+    "Cl<sub>2</sub> is only reduced, and OH<sup>−</sup> is oxidized.",
+    "Cl<sub>2</sub> is only oxidized, and OH<sup>−</sup> is reduced.",
+    "It is not a redox reaction, because no oxidation numbers change."
+   ],
+   "hint": "Assign the oxidation number of Cl in Cl<sub>2</sub>, Cl<sup>−</sup> and ClO<sup>−</sup>. Do O and H change?",
+   "explain": "Cl is 0 in Cl<sub>2</sub>, −1 in Cl<sup>−</sup> and +1 in ClO<sup>−</sup>, so one Cl atom is reduced and the other is <b>oxidized</b> (a disproportionation). O stays −2 and H stays +1, so OH<sup>−</sup> is neither oxidized nor reduced."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "Cl<sub>2</sub>(g) + 2 OH<sup>−</sup>(aq) → Cl<sup>−</sup>(aq) + ClO<sup>−</sup>(aq) + H<sub>2</sub>O(l)"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 313
+  }
+ },
+ {
+  "id": "finalexam-f3ed8d94",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Based on the activity series shown, which single-replacement reaction is spontaneous?",
+  "choices": [
+   "Ni(s) + Pb²⁺(aq) → Ni²⁺(aq) + Pb(s)",
+   "Cu(s) + Fe²⁺(aq) → Cu²⁺(aq) + Fe(s)",
+   "2 Ag(s) + 2 H⁺(aq) → 2 Ag⁺(aq) + H₂(g)",
+   "Sn(s) + Zn²⁺(aq) → Sn²⁺(aq) + Zn(s)"
+  ],
+  "answer": "Ni(s) + Pb²⁺(aq) → Ni²⁺(aq) + Pb(s)",
+  "hint": "A free metal can replace the ion of any metal (or H₂) listed BELOW it in the series.",
+  "explain": "Ni is above Pb, so Ni is oxidized more easily and displaces Pb²⁺. Cu is below Fe, Ag is below H₂, and Sn is below Zn, so those three reactions do not occur (their reverse reactions would).",
+  "html": {
+   "prompt": "Based on the activity series shown, which single-replacement reaction is spontaneous?",
+   "choices": [
+    "Ni(s) + Pb<sup>2+</sup>(aq) → Ni<sup>2+</sup>(aq) + Pb(s)",
+    "Cu(s) + Fe<sup>2+</sup>(aq) → Cu<sup>2+</sup>(aq) + Fe(s)",
+    "2 Ag(s) + 2 H<sup>+</sup>(aq) → 2 Ag<sup>+</sup>(aq) + H<sub>2</sub>(g)",
+    "Sn(s) + Zn<sup>2+</sup>(aq) → Sn<sup>2+</sup>(aq) + Zn(s)"
+   ],
+   "hint": "A free metal can replace the ion of any metal (or H<sub>2</sub>) listed BELOW it in the series.",
+   "explain": "Ni is above Pb, so Ni is oxidized more easily and <b>displaces Pb<sup>2+</sup></b>. Cu is below Fe, Ag is below H<sub>2</sub>, and Sn is below Zn, so those three reactions do not occur (their reverse reactions would)."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Activity series (most active at top)"
+     ],
+     "rows": [
+      [
+       "Mg"
+      ],
+      [
+       "Al"
+      ],
+      [
+       "Zn"
+      ],
+      [
+       "Fe"
+      ],
+      [
+       "Ni"
+      ],
+      [
+       "Sn"
+      ],
+      [
+       "Pb"
+      ],
+      [
+       "H<sub>2</sub>"
+      ],
+      [
+       "Cu"
+      ],
+      [
+       "Ag"
+      ],
+      [
+       "Au"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 314
+  }
+ },
+ {
+  "id": "finalexam-3d42b3ae",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Metal X dissolves in dilute HCl and displaces nickel from NiSO₄ solution, but it does not react with ZnCl₂ solution. Using the activity series in the table, which metal could X be?",
+  "choices": [
+   "Fe",
+   "Mg",
+   "Sn",
+   "Cu"
+  ],
+  "answer": "Fe",
+  "hint": "Each observation places X above or below a line in the series: above H₂, above Ni, below Zn.",
+  "explain": "X must lie above H₂ (reacts with acid) and above Ni (displaces it) but below Zn (no reaction with Zn²⁺): only Fe fits. Mg would also displace Zn; Sn is below Ni; Cu does not react with HCl.",
+  "html": {
+   "prompt": "Metal X dissolves in dilute HCl and displaces nickel from NiSO<sub>4</sub> solution, but it does not react with ZnCl<sub>2</sub> solution. Using the activity series in the table, which metal could X be?",
+   "choices": [
+    "Fe",
+    "Mg",
+    "Sn",
+    "Cu"
+   ],
+   "hint": "Each observation places X above or below a line in the series: above H<sub>2</sub>, above Ni, below Zn.",
+   "explain": "X must lie above H<sub>2</sub> (reacts with acid) and above Ni (displaces it) but below Zn (no reaction with Zn<sup>2+</sup>): only <b>Fe</b> fits. Mg would also displace Zn; Sn is below Ni; Cu does not react with HCl."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Activity series (most active at top)"
+     ],
+     "rows": [
+      [
+       "Mg"
+      ],
+      [
+       "Al"
+      ],
+      [
+       "Zn"
+      ],
+      [
+       "Fe"
+      ],
+      [
+       "Ni"
+      ],
+      [
+       "Sn"
+      ],
+      [
+       "Pb"
+      ],
+      [
+       "H<sub>2</sub>"
+      ],
+      [
+       "Cu"
+      ],
+      [
+       "Ag"
+      ],
+      [
+       "Au"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 315
+  }
+ },
+ {
+  "id": "finalexam-8cbc6250",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "A galvanic cell is built from an Al | Al³⁺ half-cell and a Ni | Ni²⁺ half-cell. Using the standard reduction potentials in the table, which statement about the operating cell is correct?",
+  "choices": [
+   "Al is the anode, and electrons flow through the wire from Al to Ni.",
+   "Ni is the anode, because its reduction potential is less negative.",
+   "Electrons flow through the salt bridge from the Al side to the Ni side.",
+   "The nickel electrode loses mass as the cell operates."
+  ],
+  "answer": "Al is the anode, and electrons flow through the wire from Al to Ni.",
+  "hint": "The half-cell with the more negative E° is oxidized (anode). Electrons travel only through the external wire.",
+  "explain": "Al (−1.66 V) is more easily oxidized than Ni (−0.26 V), so Al is the anode and electrons leave it through the wire toward the Ni cathode, where Ni²⁺ plates out (the Ni electrode GAINS mass). The salt bridge carries ions, never electrons.",
+  "html": {
+   "prompt": "A galvanic cell is built from an Al | Al<sup>3+</sup> half-cell and a Ni | Ni<sup>2+</sup> half-cell. Using the standard reduction potentials in the table, which statement about the operating cell is correct?",
+   "choices": [
+    "Al is the anode, and electrons flow through the wire from Al to Ni.",
+    "Ni is the anode, because its reduction potential is less negative.",
+    "Electrons flow through the salt bridge from the Al side to the Ni side.",
+    "The nickel electrode loses mass as the cell operates."
+   ],
+   "hint": "The half-cell with the more negative E° is oxidized (anode). Electrons travel only through the external wire.",
+   "explain": "Al (−1.66 V) is more easily oxidized than Ni (−0.26 V), so <b>Al is the anode</b> and electrons leave it through the wire toward the Ni cathode, where Ni<sup>2+</sup> plates out (the Ni electrode GAINS mass). The salt bridge carries ions, never electrons."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Half-reaction",
+      "<i>E</i>° (V)"
+     ],
+     "rows": [
+      [
+       "Ni<sup>2+</sup> + 2 e<sup>−</sup> → Ni",
+       "−0.26"
+      ],
+      [
+       "Al<sup>3+</sup> + 3 e<sup>−</sup> → Al",
+       "−1.66"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 316
+  }
+ },
+ {
+  "id": "finalexam-6db03d82",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": true,
+  "prompt": "Lead plates out when aluminum metal is placed in a Pb²⁺ solution (reaction shown). With the reduction potentials listed, calculate E°_cell.",
+  "choices": [
+   "+1.53 V",
+   "+1.79 V",
+   "−1.53 V",
+   "+2.93 V"
+  ],
+  "answer": "+1.53 V",
+  "hint": "E°_cell = E°_cathode − E°_anode. Reduction potentials are never multiplied by coefficients.",
+  "explain": "Pb²⁺ is reduced (cathode) and Al is oxidized (anode): E° = −0.13 − (−1.66) = +1.53 V. +1.79 V adds the two magnitudes; +2.93 V multiplies each E° by its coefficient; −1.53 V subtracts in the wrong order.",
+  "html": {
+   "prompt": "Lead plates out when aluminum metal is placed in a Pb<sup>2+</sup> solution (reaction shown). With the reduction potentials listed, calculate E°<sub>cell</sub>.",
+   "choices": [
+    "+1.53 V",
+    "+1.79 V",
+    "−1.53 V",
+    "+2.93 V"
+   ],
+   "hint": "E°<sub>cell</sub> = E°<sub>cathode</sub> − E°<sub>anode</sub>. Reduction potentials are never multiplied by coefficients.",
+   "explain": "Pb<sup>2+</sup> is reduced (cathode) and Al is oxidized (anode): E° = −0.13 − (−1.66) = <b>+1.53 V</b>. +1.79 V adds the two magnitudes; +2.93 V multiplies each E° by its coefficient; −1.53 V subtracts in the wrong order."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "2 Al(s) + 3 Pb<sup>2+</sup>(aq) → 2 Al<sup>3+</sup>(aq) + 3 Pb(s)"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Half-reaction",
+      "<i>E</i>° (V)"
+     ],
+     "rows": [
+      [
+       "Pb<sup>2+</sup> + 2 e<sup>−</sup> → Pb",
+       "−0.13"
+      ],
+      [
+       "Al<sup>3+</sup> + 3 e<sup>−</sup> → Al",
+       "−1.66"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 317
+  }
+ },
+ {
+  "id": "finalexam-d8610cb1",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Can iodine convert bromide ions into bromine under standard conditions (reaction shown)? Using the table, choose the correct signs of E°, ΔG° and K.",
+  "choices": [
+   "E° 0, K < 1",
+   "E° > 0, ΔG° 1",
+   "E° 1",
+   "E° > 0, ΔG° > 0, K < 1"
+  ],
+  "answer": "E° 0, K < 1",
+  "hint": "Decide which species is reduced in the reaction AS WRITTEN, compute E°, then use ΔG° = −nFE° and the sign of ln K.",
+  "explain": "As written, I₂ is reduced (cathode) and Br⁻ is oxidized (anode): E° = 0.54 − 1.07 = −0.53 V. A negative E° gives ΔG° > 0 and K not spontaneous. E°, ΔG° and K always move together, so the mixed-sign choices are impossible.",
+  "html": {
+   "prompt": "Can iodine convert bromide ions into bromine under standard conditions (reaction shown)? Using the table, choose the correct signs of E°, ΔG° and K.",
+   "choices": [
+    "E° &lt; 0, ΔG° &gt; 0, K &lt; 1",
+    "E° &gt; 0, ΔG° &lt; 0, K &gt; 1",
+    "E° &lt; 0, ΔG° &lt; 0, K &gt; 1",
+    "E° &gt; 0, ΔG° &gt; 0, K &lt; 1"
+   ],
+   "hint": "Decide which species is reduced in the reaction AS WRITTEN, compute E°, then use ΔG° = −nFE° and the sign of ln K.",
+   "explain": "As written, I<sub>2</sub> is reduced (cathode) and Br<sup>−</sup> is oxidized (anode): E° = 0.54 − 1.07 = −0.53 V. A negative E° gives ΔG° &gt; 0 and K &lt; 1: <b>not spontaneous</b>. E°, ΔG° and K always move together, so the mixed-sign choices are impossible."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "I<sub>2</sub>(s) + 2 Br<sup>−</sup>(aq) → 2 I<sup>−</sup>(aq) + Br<sub>2</sub>(l)"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Half-reaction",
+      "<i>E</i>° (V)"
+     ],
+     "rows": [
+      [
+       "Br<sub>2</sub> + 2 e<sup>−</sup> → 2 Br<sup>−</sup>",
+       "+1.07"
+      ],
+      [
+       "I<sub>2</sub> + 2 e<sup>−</sup> → 2 I<sup>−</sup>",
+       "+0.54"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 318
+  }
+ },
+ {
+  "id": "finalexam-6165c281",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "A hydrogen–oxygen fuel cell runs on the reaction shown, with E°_cell = +1.23 V. What is ΔG° for the reaction as written?",
+  "choices": [
+   "−475 kJ",
+   "−237 kJ",
+   "−119 kJ",
+   "+475 kJ"
+  ],
+  "answer": "−475 kJ",
+  "hint": "ΔG° = −nFE°. Count the electrons for the whole equation as written (2 O atoms go from 0 to −2).",
+  "explain": "Two O atoms each gain 2 e⁻, so n = 4. ΔG° = −(4)(96,485 C mol⁻¹)(1.23 V) = −4.75×10⁵ J = −475 kJ. −237 kJ uses n = 2 (per H₂O formed); a positive E° can never give a positive ΔG°.",
+  "html": {
+   "prompt": "A hydrogen–oxygen fuel cell runs on the reaction shown, with E°<sub>cell</sub> = +1.23 V. What is ΔG° for the reaction as written?",
+   "choices": [
+    "−475 kJ",
+    "−237 kJ",
+    "−119 kJ",
+    "+475 kJ"
+   ],
+   "hint": "ΔG° = −nFE°. Count the electrons for the whole equation as written (2 O atoms go from 0 to −2).",
+   "explain": "Two O atoms each gain 2 e<sup>−</sup>, so n = 4. ΔG° = −(4)(96,485 C mol⁻¹)(1.23 V) = −4.75×10<sup>5</sup> J = <b>−475 kJ</b>. −237 kJ uses n = 2 (per H<sub>2</sub>O formed); a positive E° can never give a positive ΔG°."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "2 H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2 H<sub>2</sub>O(l)"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 319
+  }
+ },
+ {
+  "id": "finalexam-d68794df",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "The cell M(s) | M²⁺(aq) || Cu²⁺(aq) | Cu(s) has E°_cell = +0.62 V. If E° for Cu²⁺/Cu is +0.34 V, what is the standard reduction potential of M²⁺/M?",
+  "choices": [
+   "−0.28 V",
+   "+0.28 V",
+   "+0.96 V",
+   "−0.96 V"
+  ],
+  "answer": "−0.28 V",
+  "hint": "In cell notation the anode is on the left. Use E°_cell = E°_cathode − E°_anode and solve for the anode.",
+  "explain": "Cu is the cathode, M the anode: 0.62 = 0.34 − E°_M, so E°_M = −0.28 V (cobalt has this value). +0.96 V comes from adding 0.62 + 0.34; +0.28 V has the sign flipped.",
+  "html": {
+   "prompt": "The cell M(s) | M<sup>2+</sup>(aq) || Cu<sup>2+</sup>(aq) | Cu(s) has E°<sub>cell</sub> = +0.62 V. If E° for Cu<sup>2+</sup>/Cu is +0.34 V, what is the standard reduction potential of M<sup>2+</sup>/M?",
+   "choices": [
+    "−0.28 V",
+    "+0.28 V",
+    "+0.96 V",
+    "−0.96 V"
+   ],
+   "hint": "In cell notation the anode is on the left. Use E°<sub>cell</sub> = E°<sub>cathode</sub> − E°<sub>anode</sub> and solve for the anode.",
+   "explain": "Cu is the cathode, M the anode: 0.62 = 0.34 − E°<sub>M</sub>, so E°<sub>M</sub> = <b>−0.28 V</b> (cobalt has this value). +0.96 V comes from adding 0.62 + 0.34; +0.28 V has the sign flipped."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 320
+  }
+ },
+ {
+  "id": "finalexam-4604df3a",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "A jeweler silver-plates a ring from AgNO₃ solution. What constant current is needed to deposit 0.500 g of silver (107.87 g mol⁻¹) in 15.0 min?",
+  "choices": [
+   "0.497 A",
+   "0.994 A",
+   "29.8 A",
+   "5.15×10⁻⁶ A"
+  ],
+  "answer": "0.497 A",
+  "hint": "grams → mol Ag → mol e⁻ (Ag⁺ + e⁻) → coulombs with Faraday's constant; then I = q/t with t in seconds.",
+  "explain": "0.500 g ÷ 107.87 g mol⁻¹ = 4.635×10⁻³ mol Ag = mol e⁻; q = (4.635×10⁻³)(96,485 C mol⁻¹) = 447 C; I = 447 C ÷ 900 s = 0.497 A. 29.8 A divides by minutes instead of seconds; 0.994 A uses 2 e⁻ per Ag.",
+  "html": {
+   "prompt": "A jeweler silver-plates a ring from AgNO<sub>3</sub> solution. What constant current is needed to deposit 0.500 g of silver (107.87 g mol⁻¹) in 15.0 min?",
+   "choices": [
+    "0.497 A",
+    "0.994 A",
+    "29.8 A",
+    "5.15×10<sup>−6</sup> A"
+   ],
+   "hint": "grams → mol Ag → mol e<sup>−</sup> (Ag<sup>+</sup> + e<sup>−</sup>) → coulombs with Faraday's constant; then I = q/t with t in seconds.",
+   "explain": "0.500 g ÷ 107.87 g mol⁻¹ = 4.635×10<sup>−3</sup> mol Ag = mol e<sup>−</sup>; q = (4.635×10<sup>−3</sup>)(96,485 C mol⁻¹) = 447 C; I = 447 C ÷ 900 s = <b>0.497 A</b>. 29.8 A divides by minutes instead of seconds; 0.994 A uses 2 e<sup>−</sup> per Ag."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 321
+  }
+ },
+ {
+  "id": "finalexam-2c1a2ccb",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "Water is electrolyzed with a current of 3.00 A for 1.00 h. What volume of O₂, measured at STP (22.4 L mol⁻¹), forms at the anode?",
+  "choices": [
+   "0.627 L",
+   "1.25 L",
+   "2.51 L",
+   "1.74×10⁻⁴ L"
+  ],
+  "answer": "0.627 L",
+  "hint": "Anode: 2 H₂O → O₂ + 4 H⁺ + 4 e⁻. Convert time to seconds, charge to mol e⁻, then to mol O₂.",
+  "explain": "q = (3.00 A)(3600 s) = 1.08×10⁴ C ÷ 96,485 C mol⁻¹ = 0.1119 mol e⁻; ÷ 4 = 0.02798 mol O₂ × 22.4 L mol⁻¹ = 0.627 L. 1.25 L uses 2 e⁻ per O₂ (that is the H₂ volume at the cathode); 1.74×10⁻⁴ L leaves the time in hours.",
+  "html": {
+   "prompt": "Water is electrolyzed with a current of 3.00 A for 1.00 h. What volume of O<sub>2</sub>, measured at STP (22.4 L mol⁻¹), forms at the anode?",
+   "choices": [
+    "0.627 L",
+    "1.25 L",
+    "2.51 L",
+    "1.74×10<sup>−4</sup> L"
+   ],
+   "hint": "Anode: 2 H<sub>2</sub>O → O<sub>2</sub> + 4 H<sup>+</sup> + 4 e<sup>−</sup>. Convert time to seconds, charge to mol e<sup>−</sup>, then to mol O<sub>2</sub>.",
+   "explain": "q = (3.00 A)(3600 s) = 1.08×10<sup>4</sup> C ÷ 96,485 C mol⁻¹ = 0.1119 mol e<sup>−</sup>; ÷ 4 = 0.02798 mol O<sub>2</sub> × 22.4 L mol⁻¹ = <b>0.627 L</b>. 1.25 L uses 2 e<sup>−</sup> per O<sub>2</sub> (that is the H<sub>2</sub> volume at the cathode); 1.74×10<sup>−4</sup> L leaves the time in hours."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 322
+  }
+ },
+ {
+  "id": "finalexam-e4c4808c",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which statement correctly compares the CATHODE product when molten NaCl and concentrated aqueous NaCl are each electrolyzed with inert electrodes?",
+  "choices": [
+   "Molten NaCl gives Na(l); aqueous NaCl gives H₂(g) and OH⁻(aq).",
+   "Both give sodium metal, because Na⁺ is the only cation present.",
+   "Molten NaCl gives Cl₂(g); aqueous NaCl gives O₂(g).",
+   "Both give H₂(g), because Na⁺ cannot be reduced."
+  ],
+  "answer": "Molten NaCl gives Na(l); aqueous NaCl gives H₂(g) and OH⁻(aq).",
+  "hint": "Reduction happens at the cathode. In water, compare how easily Na⁺ (E° = −2.71 V) and H₂O (−0.83 V) are reduced.",
+  "explain": "In the melt, Na⁺ is the only species that can be reduced, so Na(l) forms. In water, H₂O is reduced far more easily than Na⁺ (2 H₂O + 2 e⁻ → H₂ + 2 OH⁻). Cl₂ and O₂ are oxidation products, made at the anode.",
+  "html": {
+   "prompt": "Which statement correctly compares the CATHODE product when molten NaCl and concentrated aqueous NaCl are each electrolyzed with inert electrodes?",
+   "choices": [
+    "Molten NaCl gives Na(l); aqueous NaCl gives H<sub>2</sub>(g) and OH<sup>−</sup>(aq).",
+    "Both give sodium metal, because Na<sup>+</sup> is the only cation present.",
+    "Molten NaCl gives Cl<sub>2</sub>(g); aqueous NaCl gives O<sub>2</sub>(g).",
+    "Both give H<sub>2</sub>(g), because Na<sup>+</sup> cannot be reduced."
+   ],
+   "hint": "Reduction happens at the cathode. In water, compare how easily Na<sup>+</sup> (E° = −2.71 V) and H<sub>2</sub>O (−0.83 V) are reduced.",
+   "explain": "In the melt, Na<sup>+</sup> is the only species that can be reduced, so <b>Na(l)</b> forms. In water, H<sub>2</sub>O is reduced far more easily than Na<sup>+</sup> (2 H<sub>2</sub>O + 2 e<sup>−</sup> → H<sub>2</sub> + 2 OH<sup>−</sup>). Cl<sub>2</sub> and O<sub>2</sub> are oxidation products, made at the anode."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 323
+  }
+ },
+ {
+  "id": "finalexam-a6dc5f87",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Galvanized steel nails are coated with zinc. Even where the coating is scratched and the iron is exposed, the iron does not rust while zinc remains nearby. Why?",
+  "choices": [
+   "Zn has a more negative E° than Fe, so Zn is oxidized in place of the iron.",
+   "Zn has a more positive E° than Fe, so Zn is oxidized in place of the iron.",
+   "Zn is reduced instead of iron, so the iron is never oxidized.",
+   "The zinc coating keeps out air, and a scratch cannot let any in."
+  ],
+  "answer": "Zn has a more negative E° than Fe, so Zn is oxidized in place of the iron.",
+  "hint": "Rusting is the oxidation of Fe. A protecting metal must be the easier one to oxidize: compare reduction potentials.",
+  "explain": "Zn (E° = −0.76 V) is a stronger reducing agent than Fe (−0.44 V), so it acts as a sacrificial anode and is oxidized instead of iron while the iron acts as the cathode. A barrier alone fails once scratched; a metal with a more positive E° would make iron corrode faster.",
+  "html": {
+   "prompt": "Galvanized steel nails are coated with zinc. Even where the coating is scratched and the iron is exposed, the iron does not rust while zinc remains nearby. Why?",
+   "choices": [
+    "Zn has a more negative E° than Fe, so Zn is oxidized in place of the iron.",
+    "Zn has a more positive E° than Fe, so Zn is oxidized in place of the iron.",
+    "Zn is reduced instead of iron, so the iron is never oxidized.",
+    "The zinc coating keeps out air, and a scratch cannot let any in."
+   ],
+   "hint": "Rusting is the oxidation of Fe. A protecting metal must be the easier one to oxidize: compare reduction potentials.",
+   "explain": "Zn (E° = −0.76 V) is a stronger reducing agent than Fe (−0.44 V), so it acts as a <b>sacrificial anode</b> and is oxidized instead of iron while the iron acts as the cathode. A barrier alone fails once scratched; a metal with a more positive E° would make iron corrode faster."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 324
+  }
+ },
+ {
+  "id": "finalexam-c668d1ca",
+  "skill": "finalexam.1b.coordination",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-19"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "In the salt [Fe(en)₂(H₂O)Cl]SO₄, iron is bound to two ethylenediamine ligands (en: neutral, bidentate), one water and one chloride. Give iron's coordination number and oxidation state.",
+  "choices": [
+   "6 and +3",
+   "4 and +3",
+   "6 and +2",
+   "6 and +1"
+  ],
+  "answer": "6 and +3",
+  "hint": "Coordination number counts donor ATOMS (each en donates two). For the oxidation state, start from the charge the sulfate ion requires on the complex.",
+  "explain": "Donor atoms: 2 en × 2 + H₂O + Cl⁻ = 6. The complex must be 2+ to balance SO²⁻₄: Fe + 0 + 0 + (−1) = +2, so Fe = +3. The answer is 6 and +3. Counting each en once gives 4; forgetting the Cl⁻ charge gives +2.",
+  "html": {
+   "prompt": "In the salt [Fe(en)<sub>2</sub>(H<sub>2</sub>O)Cl]SO<sub>4</sub>, iron is bound to two ethylenediamine ligands (en: neutral, bidentate), one water and one chloride. Give iron's coordination number and oxidation state.",
+   "choices": [
+    "6 and +3",
+    "4 and +3",
+    "6 and +2",
+    "6 and +1"
+   ],
+   "hint": "Coordination number counts donor ATOMS (each en donates two). For the oxidation state, start from the charge the sulfate ion requires on the complex.",
+   "explain": "Donor atoms: 2 en × 2 + H<sub>2</sub>O + Cl<sup>−</sup> = 6. The complex must be 2+ to balance <span class=\"nw\">SO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>:</span> Fe + 0 + 0 + (−1) = +2, so Fe = +3. The answer is <b>6 and +3</b>. Counting each en once gives 4; forgetting the Cl<sup>−</sup> charge gives +2."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 325
+  }
+ },
+ {
+  "id": "finalexam-52366508",
+  "skill": "finalexam.1b.coordination",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-19"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Nickel tetracarbonyl, Ni(CO)₄, is a toxic gas used to purify nickel. What is the oxidation state of nickel in this compound?",
+  "choices": [
+   "0",
+   "+4",
+   "+2",
+   "−4"
+  ],
+  "answer": "0",
+  "hint": "CO is a neutral ligand. Add up the charges of all ligands and compare with the overall charge.",
+  "explain": "Each CO is neutral and the compound is neutral, so Ni = 0. +4 treats each CO as −1; +2 assumes nickel is always Ni²⁺, as in its salts.",
+  "html": {
+   "prompt": "Nickel tetracarbonyl, Ni(CO)<sub>4</sub>, is a toxic gas used to purify nickel. What is the oxidation state of nickel in this compound?",
+   "choices": [
+    "0",
+    "+4",
+    "+2",
+    "−4"
+   ],
+   "hint": "CO is a neutral ligand. Add up the charges of all ligands and compare with the overall charge.",
+   "explain": "Each CO is neutral and the compound is neutral, so Ni = <b>0</b>. +4 treats each CO as −1; +2 assumes nickel is always Ni<sup>2+</sup>, as in its salts."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 326
+  }
+ },
+ {
+  "id": "finalexam-f4154979",
+  "skill": "finalexam.1b.coordination",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-19"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Potassium ferricyanide, K₃[Fe(CN)₆], is a common lab reagent. What is its systematic name?",
+  "choices": [
+   "potassium hexacyanoferrate(III)",
+   "potassium hexacyanoiron(III)",
+   "potassium hexacyanoferrate(II)",
+   "potassium hexacyanideferrate(III)"
+  ],
+  "answer": "potassium hexacyanoferrate(III)",
+  "hint": "In an ANIONIC complex the metal name ends in −ate (iron → ferrate). Find the oxidation state from the 3 K⁺ and 6 CN⁻.",
+  "explain": "The complex ion is 3− (three K⁺), so Fe + 6(−1) = −3 → Fe = +3. Anionic complexes use the −ate name: potassium hexacyanoferrate(III). The ligand CN⁻ is named \"cyano\", not \"cyanide\", and \"iron\" is used only in cationic or neutral complexes.",
+  "html": {
+   "prompt": "Potassium ferricyanide, K<sub>3</sub>[Fe(CN)<sub>6</sub>], is a common lab reagent. What is its systematic name?",
+   "choices": [
+    "potassium hexacyanoferrate(III)",
+    "potassium hexacyanoiron(III)",
+    "potassium hexacyanoferrate(II)",
+    "potassium hexacyanideferrate(III)"
+   ],
+   "hint": "In an ANIONIC complex the metal name ends in −ate (iron → ferrate). Find the oxidation state from the 3 K<sup>+</sup> and 6 CN<sup>−</sup>.",
+   "explain": "The complex ion is 3− (three K<sup>+</sup>), so Fe + 6(−1) = −3 → Fe = +3. Anionic complexes use the −ate name: <b>potassium hexacyanoferrate(III)</b>. The ligand CN<sup>−</sup> is named \"cyano\", not \"cyanide\", and \"iron\" is used only in cationic or neutral complexes."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 327
+  }
+ },
+ {
+  "id": "finalexam-946b892d",
+  "skill": "finalexam.1b.coordination",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-19"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which formula corresponds to pentaamminechlorocobalt(III) chloride?",
+  "choices": [
+   "[Co(NH₃)₅Cl]Cl₂",
+   "[Co(NH₃)₅Cl]Cl",
+   "[Co(NH₃)₅Cl₂]Cl",
+   "[Co(NH₃)₅]Cl₃"
+  ],
+  "answer": "[Co(NH₃)₅Cl]Cl₂",
+  "hint": "Ligands named in the name go inside the brackets. Then add enough Cl⁻ counter-ions to balance the complex ion's charge.",
+  "explain": "Inside the brackets: 5 NH₃ and 1 Cl⁻; complex charge = +3 − 1 = +2, so two chloride counter-ions: [Co(NH₃)₅Cl]Cl₂. [Co(NH₃)₅Cl₂]Cl would be \"dichloro\".",
+  "html": {
+   "prompt": "Which formula corresponds to pentaamminechlorocobalt(III) chloride?",
+   "choices": [
+    "[Co(NH<sub>3</sub>)<sub>5</sub>Cl]Cl<sub>2</sub>",
+    "[Co(NH<sub>3</sub>)<sub>5</sub>Cl]Cl",
+    "[Co(NH<sub>3</sub>)<sub>5</sub>Cl<sub>2</sub>]Cl",
+    "[Co(NH<sub>3</sub>)<sub>5</sub>]Cl<sub>3</sub>"
+   ],
+   "hint": "Ligands named in the name go inside the brackets. Then add enough Cl<sup>−</sup> counter-ions to balance the complex ion's charge.",
+   "explain": "Inside the brackets: 5 NH<sub>3</sub> and 1 Cl<sup>−</sup>; complex charge = +3 − 1 = +2, so two chloride counter-ions: <b>[Co(NH<sub>3</sub>)<sub>5</sub>Cl]Cl<sub>2</sub></b>. [Co(NH<sub>3</sub>)<sub>5</sub>Cl<sub>2</sub>]Cl would be \"dichloro\"."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 328
+  }
+ },
+ {
+  "id": "finalexam-6c26884f",
+  "skill": "finalexam.1b.coordination",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-19"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Structures I and II show two square planar complexes with the formula [Pt(NH₃)₂Cl₂]. Which statement is correct?",
+  "choices": [
+   "I is cis and II is trans; they are geometric isomers.",
+   "I is trans and II is cis; they are geometric isomers.",
+   "They are the same compound drawn in two orientations.",
+   "They are linkage isomers, because the ligands bond differently."
+  ],
+  "answer": "I is cis and II is trans; they are geometric isomers.",
+  "hint": "Look at the angle between the two Cl ligands: next to each other (90°) or across from each other (180°).",
+  "explain": "In I the two Cl atoms are adjacent (90°), so I is cis (the anticancer drug cisplatin); in II they are opposite (180°), so II is trans. No rotation turns one into the other, so they are geometric isomers. Linkage isomers would need a ligand bonded through a different atom.",
+  "html": {
+   "prompt": "Structures I and II show two square planar complexes with the formula [Pt(NH<sub>3</sub>)<sub>2</sub>Cl<sub>2</sub>]. Which statement is correct?",
+   "choices": [
+    "I is cis and II is trans; they are geometric isomers.",
+    "I is trans and II is cis; they are geometric isomers.",
+    "They are the same compound drawn in two orientations.",
+    "They are linkage isomers, because the ligands bond differently."
+   ],
+   "hint": "Look at the angle between the two Cl ligands: next to each other (90°) or across from each other (180°).",
+   "explain": "In I the two Cl atoms are adjacent (90°), so I is <b>cis</b> (the anticancer drug cisplatin); in II they are opposite (180°), so II is trans. No rotation turns one into the other, so they are geometric isomers. Linkage isomers would need a ligand bonded through a different atom."
+  },
+  "data": {
+   "s": [
+    {
+     "skel": true,
+     "a": [
+      [
+       "Pt",
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       "Cl",
+       0,
+       -1.5,
+       0,
+       0
+      ],
+      [
+       "Cl",
+       -1.6,
+       0,
+       0,
+       0
+      ],
+      [
+       "NH3",
+       1.6,
+       0,
+       0,
+       0
+      ],
+      [
+       "NH3",
+       0,
+       1.5,
+       0,
+       0
+      ]
+     ],
+     "b": [
+      [
+       0,
+       1,
+       1
+      ],
+      [
+       0,
+       2,
+       1
+      ],
+      [
+       0,
+       3,
+       1
+      ],
+      [
+       0,
+       4,
+       1
+      ]
+     ],
+     "cap": "I"
+    },
+    {
+     "skel": true,
+     "a": [
+      [
+       "Pt",
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       "NH3",
+       0,
+       -1.5,
+       0,
+       0
+      ],
+      [
+       "Cl",
+       -1.6,
+       0,
+       0,
+       0
+      ],
+      [
+       "Cl",
+       1.6,
+       0,
+       0,
+       0
+      ],
+      [
+       "NH3",
+       0,
+       1.5,
+       0,
+       0
+      ]
+     ],
+     "b": [
+      [
+       0,
+       1,
+       1
+      ],
+      [
+       0,
+       2,
+       1
+      ],
+      [
+       0,
+       3,
+       1
+      ],
+      [
+       0,
+       4,
+       1
+      ]
+     ],
+     "cap": "II"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 329
+  }
+ },
+ {
+  "id": "finalexam-befb0b0c",
+  "skill": "finalexam.1b.coordination",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-19"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Counting both geometric and optical isomers, how many distinct stereoisomers are possible for the octahedral cation [Co(en)₂Cl₂]⁺?",
+  "choices": [
+   "3",
+   "2",
+   "4",
+   "1"
+  ],
+  "answer": "3",
+  "hint": "First find the cis and trans forms. Then ask whether either one is non-superimposable on its mirror image.",
+  "explain": "Trans (Cl's opposite) has mirror planes and is achiral; cis has two en rings twisted like a propeller and exists as a pair of enantiomers. Total = 1 + 2 = 3. Answering 2 counts only the geometric isomers.",
+  "html": {
+   "prompt": "Counting both geometric and optical isomers, how many distinct stereoisomers are possible for the octahedral cation [Co(en)<sub>2</sub>Cl<sub>2</sub>]<sup>+</sup>?",
+   "choices": [
+    "3",
+    "2",
+    "4",
+    "1"
+   ],
+   "hint": "First find the cis and trans forms. Then ask whether either one is non-superimposable on its mirror image.",
+   "explain": "Trans (Cl's opposite) has mirror planes and is achiral; cis has two en rings twisted like a propeller and exists as a pair of enantiomers. Total = 1 + 2 = <b>3</b>. Answering 2 counts only the geometric isomers."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 330
+  }
+ },
+ {
+  "id": "finalexam-c4b90192",
+  "skill": "finalexam.1b.coordination",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-19"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "In the octahedral ion trans-[Co(NH₃)₄Cl₂]⁺, what is the Cl–Co–Cl bond angle?",
+  "choices": [
+   "180°",
+   "90°",
+   "109.5°",
+   "120°"
+  ],
+  "answer": "180°",
+  "hint": "In an octahedron, any two positions are either adjacent or directly opposite each other.",
+  "explain": "Trans means the two Cl ligands are directly across the metal: 180°. 90° is the cis angle; 109.5° and 120° belong to tetrahedral and trigonal planar shapes, not octahedral.",
+  "html": {
+   "prompt": "In the octahedral ion <i>trans</i>-[Co(NH<sub>3</sub>)<sub>4</sub>Cl<sub>2</sub>]<sup>+</sup>, what is the Cl–Co–Cl bond angle?",
+   "choices": [
+    "180°",
+    "90°",
+    "109.5°",
+    "120°"
+   ],
+   "hint": "In an octahedron, any two positions are either adjacent or directly opposite each other.",
+   "explain": "<i>Trans</i> means the two Cl ligands are directly across the metal: <b>180°</b>. 90° is the cis angle; 109.5° and 120° belong to tetrahedral and trigonal planar shapes, not octahedral."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 331
+  }
+ },
+ {
+  "id": "finalexam-a4b34541",
+  "skill": "finalexam.1b.coordination",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-19"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which pair of compounds are linkage isomers?",
+  "choices": [
+   "[Co(NH₃)₅(NO₂)]Cl₂ and [Co(NH₃)₅(ONO)]Cl₂",
+   "[Co(NH₃)₅Br]SO₄ and [Co(NH₃)₅(SO₄)]Br",
+   "cis- and trans-[Co(NH₃)₄Cl₂]Cl",
+   "[Cr(NH₃)₆][Co(CN)₆] and [Co(NH₃)₆][Cr(CN)₆]"
+  ],
+  "answer": "[Co(NH₃)₅(NO₂)]Cl₂ and [Co(NH₃)₅(ONO)]Cl₂",
+  "hint": "Linkage isomers have the same ligands, but one ligand is attached to the metal through a different donor atom.",
+  "explain": "Nitrite can bind through N (nitro, –NO₂) or through O (nitrito, –ONO), so the first pair are linkage isomers. The Br/SO₄ pair are ionization isomers, cis/trans are geometric isomers, and swapping metals between the cation and anion gives coordination isomers.",
+  "html": {
+   "prompt": "Which pair of compounds are linkage isomers?",
+   "choices": [
+    "[Co(NH<sub>3</sub>)<sub>5</sub>(NO<sub>2</sub>)]Cl<sub>2</sub> and [Co(NH<sub>3</sub>)<sub>5</sub>(ONO)]Cl<sub>2</sub>",
+    "[Co(NH<sub>3</sub>)<sub>5</sub>Br]SO<sub>4</sub> and [Co(NH<sub>3</sub>)<sub>5</sub>(SO<sub>4</sub>)]Br",
+    "<i>cis</i>- and <i>trans</i>-[Co(NH<sub>3</sub>)<sub>4</sub>Cl<sub>2</sub>]Cl",
+    "[Cr(NH<sub>3</sub>)<sub>6</sub>][Co(CN)<sub>6</sub>] and [Co(NH<sub>3</sub>)<sub>6</sub>][Cr(CN)<sub>6</sub>]"
+   ],
+   "hint": "Linkage isomers have the same ligands, but one ligand is attached to the metal through a different donor atom.",
+   "explain": "Nitrite can bind through N (nitro, –NO<sub>2</sub>) or through O (nitrito, –ONO), so the first pair are <b>linkage isomers</b>. The Br/SO<sub>4</sub> pair are ionization isomers, cis/trans are geometric isomers, and swapping metals between the cation and anion gives coordination isomers."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 332
+  }
+ },
+ {
+  "id": "finalexam-83a57692",
+  "skill": "finalexam.1b.coordination",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-19"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "How many d electrons does the metal ion have in [Ni(en)₃]²⁺?",
+  "choices": [
+   "8",
+   "10",
+   "6",
+   "5"
+  ],
+  "answer": "8",
+  "hint": "en is neutral, so the oxidation state equals the complex charge. Transition metals lose their 4s electrons before 3d.",
+  "explain": "Ni²⁺: Ni is [Ar]4s²3d⁸; removing the two 4s electrons leaves 3d⁸, so 8. 6 removes 3d electrons first; 10 counts all valence electrons of the neutral atom.",
+  "html": {
+   "prompt": "How many d electrons does the metal ion have in [Ni(en)<sub>3</sub>]<sup>2+</sup>?",
+   "choices": [
+    "8",
+    "10",
+    "6",
+    "5"
+   ],
+   "hint": "en is neutral, so the oxidation state equals the complex charge. Transition metals lose their 4s electrons before 3d.",
+   "explain": "Ni<sup>2+</sup>: Ni is [Ar]4s<sup>2</sup>3d<sup>8</sup>; removing the two 4s electrons leaves 3d<sup>8</sup>, so <b>8</b>. 6 removes 3d electrons first; 10 counts all valence electrons of the neutral atom."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 333
+  }
+ },
+ {
+  "id": "finalexam-55834ef7",
+  "skill": "finalexam.1b.coordination",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-19"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "The table gives the crystal-field splitting energy Δ_o and the electron pairing energy P for two octahedral manganese(II) complexes. How many unpaired electrons does [Mn(CN)₆]⁴⁻ have?",
+  "choices": [
+   "1",
+   "5",
+   "3",
+   "0"
+  ],
+  "answer": "1",
+  "hint": "Mn²⁺ is d⁵. If Δ_o > P, electrons pair in the lower t_2g set before entering e_g.",
+  "explain": "For [Mn(CN)₆]⁴⁻, Δ_o (390) > P (305), so it is low spin: all five d electrons go into t_2g (↑↓ ↑↓ ↑), leaving 1 unpaired. 5 unpaired is the high-spin answer, which fits [Mn(H₂O)₆]²⁺ (Δ_o < P).",
+  "html": {
+   "prompt": "The table gives the crystal-field splitting energy Δ<sub>o</sub> and the electron pairing energy P for two octahedral manganese(II) complexes. How many unpaired electrons does [Mn(CN)<sub>6</sub>]<sup>4−</sup> have?",
+   "choices": [
+    "1",
+    "5",
+    "3",
+    "0"
+   ],
+   "hint": "Mn<sup>2+</sup> is d<sup>5</sup>. If Δ<sub>o</sub> &gt; P, electrons pair in the lower t<sub>2g</sub> set before entering e<sub>g</sub>.",
+   "explain": "For [Mn(CN)<sub>6</sub>]<sup>4−</sup>, Δ<sub>o</sub> (390) &gt; P (305), so it is low spin: all five d electrons go into t<sub>2g</sub> (↑↓ ↑↓ ↑), leaving <b>1</b> unpaired. 5 unpaired is the high-spin answer, which fits [Mn(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup> (Δ<sub>o</sub> &lt; P)."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Complex",
+      "Splitting, Δ<sub>o</sub> (kJ mol<sup>−1</sup>)",
+      "Pairing energy, P (kJ mol<sup>−1</sup>)"
+     ],
+     "rows": [
+      [
+       "[Mn(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup>",
+       "100",
+       "305"
+      ],
+      [
+       "[Mn(CN)<sub>6</sub>]<sup>4−</sup>",
+       "390",
+       "305"
+      ]
+     ],
+     "cap": "Approximate values for octahedral Mn<sup>2+</sup> (d<sup>5</sup>) complexes"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 334
+  }
+ },
+ {
+  "id": "finalexam-15c0ca7b",
+  "skill": "finalexam.1b.coordination",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-19"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "The table shows the d-electron arrangement of the metal ion in an octahedral complex (each [ ] is one d orbital). Which complex does it represent?",
+  "choices": [
+   "[Co(NH₃)₆]³⁺, a diamagnetic low-spin d⁶ ion",
+   "[CoF₆]³⁻, a paramagnetic high-spin d⁶ ion",
+   "[Fe(H₂O)₆]³⁺, a high-spin d⁵ ion",
+   "[Ni(NH₃)₆]²⁺, a d⁸ ion"
+  ],
+  "answer": "[Co(NH₃)₆]³⁺, a diamagnetic low-spin d⁶ ion",
+  "hint": "Count the electrons in the table and note whether any occupy e_g. Then match the d count and the ligand field strength.",
+  "explain": "Six electrons, all paired in t_2g: a low-spin d⁶ ion with 0 unpaired electrons, which fits Co³⁺ with the fairly strong-field ligand NH₃. Weak-field F⁻ gives high-spin d⁶ (4 unpaired); Fe³⁺ is d⁵ and Ni²⁺ is d⁸, which must put electrons in e_g.",
+  "html": {
+   "prompt": "The table shows the d-electron arrangement of the metal ion in an octahedral complex (each [ ] is one d orbital). Which complex does it represent?",
+   "choices": [
+    "[Co(NH<sub>3</sub>)<sub>6</sub>]<sup>3+</sup>, a diamagnetic low-spin d<sup>6</sup> ion",
+    "[CoF<sub>6</sub>]<sup>3−</sup>, a paramagnetic high-spin d<sup>6</sup> ion",
+    "[Fe(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup>, a high-spin d<sup>5</sup> ion",
+    "[Ni(NH<sub>3</sub>)<sub>6</sub>]<sup>2+</sup>, a d<sup>8</sup> ion"
+   ],
+   "hint": "Count the electrons in the table and note whether any occupy e<sub>g</sub>. Then match the d count and the ligand field strength.",
+   "explain": "Six electrons, all paired in t<sub>2g</sub>: a <b>low-spin d<sup>6</sup></b> ion with 0 unpaired electrons, which fits Co<sup>3+</sup> with the fairly strong-field ligand NH<sub>3</sub>. Weak-field F<sup>−</sup> gives high-spin d<sup>6</sup> (4 unpaired); Fe<sup>3+</sup> is d<sup>5</sup> and Ni<sup>2+</sup> is d<sup>8</sup>, which must put electrons in e<sub>g</sub>."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Orbital set",
+      "Electrons"
+     ],
+     "rows": [
+      [
+       "e<sub>g</sub> (higher energy)",
+       "[  &nbsp;] [  &nbsp;]"
+      ],
+      [
+       "t<sub>2g</sub> (lower energy)",
+       "[↑↓] [↑↓] [↑↓]"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 335
+  }
+ },
+ {
+  "id": "finalexam-8cc69ccc",
+  "skill": "finalexam.1b.coordination",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-19"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which list ranks the ligands in order of INCREASING crystal-field splitting (Δ_o) they produce for the same metal ion?",
+  "choices": [
+   "I⁻ < Cl⁻ < H₂O < NH₃ < CN⁻",
+   "CN⁻ < NH₃ < H₂O < Cl⁻ < I⁻",
+   "Cl⁻ < I⁻ < NH₃ < H₂O < CN⁻",
+   "I⁻ < Cl⁻ < NH₃ < CN⁻ < H₂O"
+  ],
+  "answer": "I⁻ < Cl⁻ < H₂O < NH₃ < CN⁻",
+  "hint": "Recall the spectrochemical series: halides are weak-field, water and ammonia are in the middle, and cyanide is strong-field.",
+  "explain": "The spectrochemical series runs I⁻ . Charge alone does not decide it: anionic halides are the WEAKEST field ligands, while CN⁻ is the strongest here.",
+  "html": {
+   "prompt": "Which list ranks the ligands in order of INCREASING crystal-field splitting (Δ<sub>o</sub>) they produce for the same metal ion?",
+   "choices": [
+    "I<sup>−</sup> &lt; Cl<sup>−</sup> &lt; H<sub>2</sub>O &lt; NH<sub>3</sub> &lt; CN<sup>−</sup>",
+    "CN<sup>−</sup> &lt; NH<sub>3</sub> &lt; H<sub>2</sub>O &lt; Cl<sup>−</sup> &lt; I<sup>−</sup>",
+    "Cl<sup>−</sup> &lt; I<sup>−</sup> &lt; NH<sub>3</sub> &lt; H<sub>2</sub>O &lt; CN<sup>−</sup>",
+    "I<sup>−</sup> &lt; Cl<sup>−</sup> &lt; NH<sub>3</sub> &lt; CN<sup>−</sup> &lt; H<sub>2</sub>O"
+   ],
+   "hint": "Recall the spectrochemical series: halides are weak-field, water and ammonia are in the middle, and cyanide is strong-field.",
+   "explain": "The spectrochemical series runs <b>I<sup>−</sup> &lt; Cl<sup>−</sup> &lt; H<sub>2</sub>O &lt; NH<sub>3</sub> &lt; CN<sup>−</sup></b>. Charge alone does not decide it: anionic halides are the WEAKEST field ligands, while CN<sup>−</sup> is the strongest here."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 336
+  }
+ },
+ {
+  "id": "finalexam-b09e031e",
+  "skill": "finalexam.1b.coordination",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-19"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "[Cr(H₂O)₆]³⁺ absorbs most strongly near 575 nm and looks violet. NH₃ is a stronger-field ligand than H₂O. Using the table, what color is [Cr(NH₃)₆]³⁺ most likely to be?",
+  "choices": [
+   "Yellow-orange, because it absorbs shorter-wavelength blue light",
+   "Green, because it absorbs longer-wavelength red light",
+   "Violet, because changing the ligand does not change Δ_o",
+   "Blue, because it absorbs shorter-wavelength blue light"
+  ],
+  "answer": "Yellow-orange, because it absorbs shorter-wavelength blue light",
+  "hint": "Stronger-field ligand → larger Δ_o → higher-energy (shorter-wavelength) light absorbed. The color you SEE is the complement of the absorbed color.",
+  "explain": "A larger Δ_o shifts the absorption from about 575 nm to a shorter wavelength, in the blue range (430–490 nm). The solution transmits the complementary color, yellow-orange ([Cr(NH₃)₆]³⁺ salts are indeed yellow). Red absorption would require a SMALLER Δ_o; \"blue\" confuses the absorbed color with the observed one.",
+  "html": {
+   "prompt": "[Cr(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup> absorbs most strongly near 575 nm and looks violet. NH<sub>3</sub> is a stronger-field ligand than H<sub>2</sub>O. Using the table, what color is [Cr(NH<sub>3</sub>)<sub>6</sub>]<sup>3+</sup> most likely to be?",
+   "choices": [
+    "Yellow-orange, because it absorbs shorter-wavelength blue light",
+    "Green, because it absorbs longer-wavelength red light",
+    "Violet, because changing the ligand does not change Δ<sub>o</sub>",
+    "Blue, because it absorbs shorter-wavelength blue light"
+   ],
+   "hint": "Stronger-field ligand → larger Δ<sub>o</sub> → higher-energy (shorter-wavelength) light absorbed. The color you SEE is the complement of the absorbed color.",
+   "explain": "A larger Δ<sub>o</sub> shifts the absorption from about 575 nm to a shorter wavelength, in the blue range (430–490 nm). The solution transmits the complementary color, <b>yellow-orange</b> ([Cr(NH<sub>3</sub>)<sub>6</sub>]<sup>3+</sup> salts are indeed yellow). Red absorption would require a SMALLER Δ<sub>o</sub>; \"blue\" confuses the absorbed color with the observed one."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Absorbed (nm)",
+      "Color absorbed",
+      "Color observed"
+     ],
+     "rows": [
+      [
+       "400–430",
+       "violet",
+       "yellow-green"
+      ],
+      [
+       "430–490",
+       "blue",
+       "yellow-orange"
+      ],
+      [
+       "490–560",
+       "green",
+       "red-violet"
+      ],
+      [
+       "560–590",
+       "yellow",
+       "violet"
+      ],
+      [
+       "590–630",
+       "orange",
+       "blue"
+      ],
+      [
+       "630–700",
+       "red",
+       "green"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 337
+  }
+ },
+ {
+  "id": "finalexam-e01fc73c",
+  "skill": "finalexam.1b.coordination",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-19"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "The octahedral ion [Ti(H₂O)₆]³⁺ absorbs light most strongly at 498 nm, which promotes its single d electron from t_2g to e_g. What is Δ_o in kJ mol⁻¹?",
+  "choices": [
+   "240 kJ mol⁻¹",
+   "2.40×10⁵ kJ mol⁻¹",
+   "3.99×10⁻¹⁹ kJ mol⁻¹",
+   "2.40×10⁻⁷ kJ mol⁻¹"
+  ],
+  "answer": "240 kJ mol⁻¹",
+  "hint": "E = hc/λ gives the energy per ion (λ in meters). Multiply by Avogadro's number and convert J to kJ.",
+  "explain": "E = (6.626×10⁻³⁴ J·s)(2.998×10⁸ m s⁻¹) ÷ (498×10⁻⁹ m) = 3.99×10⁻¹⁹ J per ion; × 6.022×10²³ mol⁻¹ = 2.40×10⁵ J mol⁻¹ = 240 kJ mol⁻¹. 2.40×10⁵ is the value in J, not kJ; 3.99×10⁻¹⁹ skips Avogadro's number; 2.40×10⁻⁷ leaves λ in nm.",
+  "html": {
+   "prompt": "The octahedral ion [Ti(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup> absorbs light most strongly at 498 nm, which promotes its single d electron from t<sub>2g</sub> to e<sub>g</sub>. What is Δ<sub>o</sub> in kJ mol⁻¹?",
+   "choices": [
+    "240 kJ mol⁻¹",
+    "2.40×10<sup>5</sup> kJ mol⁻¹",
+    "3.99×10<sup>−19</sup> kJ mol⁻¹",
+    "2.40×10<sup>−7</sup> kJ mol⁻¹"
+   ],
+   "hint": "E = hc/λ gives the energy per ion (λ in meters). Multiply by Avogadro's number and convert J to kJ.",
+   "explain": "E = (6.626×10<sup>−34</sup> J·s)(2.998×10<sup>8</sup> m s⁻¹) ÷ (498×10<sup>−9</sup> m) = 3.99×10<sup>−19</sup> J per ion; × 6.022×10<sup>23</sup> mol<sup>−1</sup> = 2.40×10<sup>5</sup> J mol⁻¹ = <b>240 kJ mol⁻¹</b>. 2.40×10<sup>5</sup> is the value in J, not kJ; 3.99×10<sup>−19</sup> skips Avogadro's number; 2.40×10<sup>−7</sup> leaves λ in nm."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 338
+  }
+ },
+ {
+  "id": "finalexam-244fc0cf",
+  "skill": "finalexam.1b.coordination",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-19"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "EDTA⁴⁻ is given intravenously to treat lead poisoning. Which statement best explains why it works?",
+  "choices": [
+   "It binds Pb²⁺ through six donor atoms, forming a very stable, soluble chelate that is excreted.",
+   "It is a monodentate ligand that precipitates Pb²⁺ as an insoluble solid in the blood.",
+   "It reduces Pb²⁺ to lead metal, which the body can then store safely in the bones.",
+   "It is a bidentate ligand, so two EDTA ions must bind each Pb²⁺ to remove it."
+  ],
+  "answer": "It binds Pb²⁺ through six donor atoms, forming a very stable, soluble chelate that is excreted.",
+  "hint": "Count EDTA's donor atoms (2 N and 4 carboxylate O). What does a multidentate ligand do to complex stability?",
+  "explain": "EDTA⁴⁻ has six donor atoms, so ONE ion occupies all six positions around Pb²⁺. The chelate effect makes [Pb(EDTA)]²⁻ very stable and soluble, so the lead is carried out in the urine: hexadentate chelate. It does not precipitate or reduce the lead.",
+  "html": {
+   "prompt": "EDTA<sup>4−</sup> is given intravenously to treat lead poisoning. Which statement best explains why it works?",
+   "choices": [
+    "It binds Pb<sup>2+</sup> through six donor atoms, forming a very stable, soluble chelate that is excreted.",
+    "It is a monodentate ligand that precipitates Pb<sup>2+</sup> as an insoluble solid in the blood.",
+    "It reduces Pb<sup>2+</sup> to lead metal, which the body can then store safely in the bones.",
+    "It is a bidentate ligand, so two EDTA ions must bind each Pb<sup>2+</sup> to remove it."
+   ],
+   "hint": "Count EDTA's donor atoms (2 N and 4 carboxylate O). What does a multidentate ligand do to complex stability?",
+   "explain": "EDTA<sup>4−</sup> has six donor atoms, so ONE ion occupies all six positions around Pb<sup>2+</sup>. The chelate effect makes [Pb(EDTA)]<sup>2−</sup> very stable and soluble, so the lead is carried out in the urine: <b>hexadentate chelate</b>. It does not precipitate or reduce the lead."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 339
+  }
+ },
+ {
+  "id": "finalexam-aef6d642",
+  "skill": "finalexam.1b.nuclear",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-21"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "What nucleus remains after radium-226 (formerly used on luminous watch dials) emits an alpha particle?",
+  "choices": [
+   "²²²₈₆Rn",
+   "²²²₈₈Ra",
+   "²²⁶₈₉Ac",
+   "²²⁴₈₆Rn"
+  ],
+  "answer": "²²²₈₆Rn",
+  "hint": "An alpha particle is ⁴₂He. Both the mass numbers and the atomic numbers must add up on each side.",
+  "explain": "²²⁶₈₈Ra → ⁴₂He + X: A = 226 − 4 = 222 and Z = 88 − 2 = 86 (radon), so X = ²²²₈₆Rn. Keeping Z = 88 forgets the 2 protons in the alpha particle; ²²⁶Ac would be a beta-decay product.",
+  "html": {
+   "prompt": "What nucleus remains after radium-226 (formerly used on luminous watch dials) emits an alpha particle?",
+   "choices": [
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>222</sup><sub>86</sub></span>Rn</span>",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>222</sup><sub>88</sub></span>Ra</span>",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>226</sup><sub>89</sub></span>Ac</span>",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>224</sup><sub>86</sub></span>Rn</span>"
+   ],
+   "hint": "An alpha particle is <span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He.</span> Both the mass numbers and the atomic numbers must add up on each side.",
+   "explain": "<span class=\"nw\"><span class=\"ss pre\"><sup>226</sup><sub>88</sub></span>Ra</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span> + X: A = 226 − 4 = 222 and Z = 88 − 2 = 86 (radon), so X = <b><span class=\"nw\"><span class=\"ss pre\"><sup>222</sup><sub>86</sub></span>Rn</span></b>. Keeping Z = 88 forgets the 2 protons in the alpha particle; <sup>226</sup>Ac would be a beta-decay product."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 340
+  }
+ },
+ {
+  "id": "finalexam-11a10517",
+  "skill": "finalexam.1b.nuclear",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-21"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Strontium-90, a hazardous fallout isotope that collects in bone, decays as shown. What is the missing product?",
+  "choices": [
+   "⁹⁰₃₉Y",
+   "⁹⁰₃₇Rb",
+   "⁸⁹₃₈Sr",
+   "⁸⁶₃₆Kr"
+  ],
+  "answer": "⁹⁰₃₉Y",
+  "hint": "A beta particle has mass number 0 and charge −1. Balance mass numbers and atomic numbers separately.",
+  "explain": "Mass: 90 = 0 + A → A = 90. Charge: 38 = −1 + Z → Z = 39 (yttrium): ⁹⁰₃₉Y. In β⁻ decay a neutron becomes a proton, so Z goes UP by 1; Z = 37 treats the beta particle as +1.",
+  "html": {
+   "prompt": "Strontium-90, a hazardous fallout isotope that collects in bone, decays as shown. What is the missing product?",
+   "choices": [
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>90</sup><sub>39</sub></span>Y</span>",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>90</sup><sub>37</sub></span>Rb</span>",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>89</sup><sub>38</sub></span>Sr</span>",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>86</sup><sub>36</sub></span>Kr</span>"
+   ],
+   "hint": "A beta particle has mass number 0 and charge −1. Balance mass numbers and atomic numbers separately.",
+   "explain": "Mass: 90 = 0 + A → A = 90. Charge: 38 = −1 + Z → Z = 39 (yttrium): <b><span class=\"nw\"><span class=\"ss pre\"><sup>90</sup><sub>39</sub></span>Y</span></b>. In β<sup>−</sup> decay a neutron becomes a proton, so Z goes UP by 1; Z = 37 treats the beta particle as +1."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "<span class=\"nw\"><span class=\"ss pre\"><sup>90</sup><sub>38</sub></span>Sr</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>−1</sub></span>e</span> + ?"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 341
+  }
+ },
+ {
+  "id": "finalexam-aca878ff",
+  "skill": "finalexam.1b.nuclear",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-21"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "In the nuclear equation shown, iron-55 becomes manganese-55. What is X, and what type of decay is this?",
+  "choices": [
+   "⁰_−1e; electron capture",
+   "⁰_+1e; positron emission",
+   "⁰_−1e; beta emission",
+   "⁴₂He; alpha emission"
+  ],
+  "answer": "⁰_−1e; electron capture",
+  "hint": "X is on the REACTANT side. Balance A and Z, then name the process that adds that particle to the nucleus.",
+  "explain": "A: 55 + A = 55 → 0; Z: 26 + Z = 25 → −1, so X = ⁰_−1e, absorbed by the nucleus: electron capture (an inner-shell electron combines with a proton to make a neutron). Beta emission would put the electron on the product side and raise Z; a positron would also be a product.",
+  "html": {
+   "prompt": "In the nuclear equation shown, iron-55 becomes manganese-55. What is X, and what type of decay is this?",
+   "choices": [
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>−1</sub></span>e;</span> electron capture",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>+1</sub></span>e;</span> positron emission",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>−1</sub></span>e;</span> beta emission",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He;</span> alpha emission"
+   ],
+   "hint": "X is on the REACTANT side. Balance A and Z, then name the process that adds that particle to the nucleus.",
+   "explain": "A: 55 + A = 55 → 0; Z: 26 + Z = 25 → −1, so X = <b><span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>−1</sub></span>e,</span> absorbed by the nucleus: electron capture</b> (an inner-shell electron combines with a proton to make a neutron). Beta emission would put the electron on the product side and raise Z; a positron would also be a product."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "<span class=\"nw\"><span class=\"ss pre\"><sup>55</sup><sub>26</sub></span>Fe</span> + X → <span class=\"nw\"><span class=\"ss pre\"><sup>55</sup><sub>25</sub></span>Mn</span>"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 342
+  }
+ },
+ {
+  "id": "finalexam-1ad1d27d",
+  "skill": "finalexam.1b.nuclear",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-21"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "Thorium-232 (Z = 90) decays to stable lead-208 (Z = 82) through a series of alpha and beta (β⁻) emissions. How many of each are emitted?",
+  "choices": [
+   "6 α and 4 β⁻",
+   "4 α and 6 β⁻",
+   "6 α and 8 β⁻",
+   "8 α and 4 β⁻"
+  ],
+  "answer": "6 α and 4 β⁻",
+  "hint": "Only alpha decay changes the mass number (by 4). Find the alphas first, then use beta decays to fix the atomic number.",
+  "explain": "Mass drop 232 − 208 = 24 → 24/4 = 6 α, which lowers Z by 12 to 78. Each β⁻ raises Z by 1, and Z must reach 82: 4 β⁻. Answer: 6 α and 4 β⁻. 6 α and 8 β⁻ assumes Z = 90 − 82 = 8 must come from betas alone.",
+  "html": {
+   "prompt": "Thorium-232 (Z = 90) decays to stable lead-208 (Z = 82) through a series of alpha and beta (β<sup>−</sup>) emissions. How many of each are emitted?",
+   "choices": [
+    "6 α and 4 β<sup>−</sup>",
+    "4 α and 6 β<sup>−</sup>",
+    "6 α and 8 β<sup>−</sup>",
+    "8 α and 4 β<sup>−</sup>"
+   ],
+   "hint": "Only alpha decay changes the mass number (by 4). Find the alphas first, then use beta decays to fix the atomic number.",
+   "explain": "Mass drop 232 − 208 = 24 → 24/4 = 6 α, which lowers Z by 12 to 78. Each β<sup>−</sup> raises Z by 1, and Z must reach 82: 4 β<sup>−</sup>. Answer: <b>6 α and 4 β<sup>−</sup></b>. 6 α and 8 β<sup>−</sup> assumes Z = 90 − 82 = 8 must come from betas alone."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 343
+  }
+ },
+ {
+  "id": "finalexam-b9e13fcc",
+  "skill": "finalexam.1b.nuclear",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-21"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "The only stable isotope of phosphorus is phosphorus-31. Phosphorus-32 is used to treat some blood disorders. Based on its neutron-to-proton ratio, how does P-32 most likely decay?",
+  "choices": [
+   "β⁻ emission, forming ³²₁₆S",
+   "Positron emission, forming ³²₁₄Si",
+   "Alpha emission, forming ²⁸₁₃Al",
+   "Electron capture, forming ³²₁₄Si"
+  ],
+  "answer": "β⁻ emission, forming ³²₁₆S",
+  "hint": "Compare P-32's neutron count with stable P-31. Which decay turns a neutron into a proton?",
+  "explain": "P-32 has 17 neutrons and 15 protons (n/p = 1.13), one neutron more than stable P-31 (n/p = 1.07), so it lies ABOVE the band of stability. β⁻ emission converts n → p, lowering n/p: ³²₁₅P → ³²₁₆S + β⁻. Positron emission and electron capture fix nuclei with too FEW neutrons; alpha decay is for heavy nuclei (Z > 83).",
+  "html": {
+   "prompt": "The only stable isotope of phosphorus is phosphorus-31. Phosphorus-32 is used to treat some blood disorders. Based on its neutron-to-proton ratio, how does P-32 most likely decay?",
+   "choices": [
+    "β<sup>−</sup> emission, forming <span class=\"nw\"><span class=\"ss pre\"><sup>32</sup><sub>16</sub></span>S</span>",
+    "Positron emission, forming <span class=\"nw\"><span class=\"ss pre\"><sup>32</sup><sub>14</sub></span>Si</span>",
+    "Alpha emission, forming <span class=\"nw\"><span class=\"ss pre\"><sup>28</sup><sub>13</sub></span>Al</span>",
+    "Electron capture, forming <span class=\"nw\"><span class=\"ss pre\"><sup>32</sup><sub>14</sub></span>Si</span>"
+   ],
+   "hint": "Compare P-32's neutron count with stable P-31. Which decay turns a neutron into a proton?",
+   "explain": "P-32 has 17 neutrons and 15 protons (n/p = 1.13), one neutron more than stable P-31 (n/p = 1.07), so it lies ABOVE the band of stability. β<sup>−</sup> emission converts n → p, lowering n/p: <b><span class=\"nw\"><span class=\"ss pre\"><sup>32</sup><sub>15</sub></span>P</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>32</sup><sub>16</sub></span>S</span> + β<sup>−</sup></b>. Positron emission and electron capture fix nuclei with too FEW neutrons; alpha decay is for heavy nuclei (Z &gt; 83)."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 344
+  }
+ },
+ {
+  "id": "finalexam-7144c359",
+  "skill": "finalexam.1b.nuclear",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-21"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which nuclide is most likely to decay by alpha emission?",
+  "choices": [
+   "²³⁹₉₄Pu",
+   "¹³¹₅₃I",
+   "¹⁵₈O",
+   "⁶⁰₂₇Co"
+  ],
+  "answer": "²³⁹₉₄Pu",
+  "hint": "Alpha decay is typical of very heavy nuclei, those beyond bismuth (Z = 83).",
+  "explain": "Nuclei with Z > 83 are too large to be stable and usually shed mass as alpha particles: plutonium-239. I-131 and Co-60 are neutron-rich (β⁻ emitters); O-15 is neutron-poor (positron emitter).",
+  "html": {
+   "prompt": "Which nuclide is most likely to decay by alpha emission?",
+   "choices": [
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>239</sup><sub>94</sub></span>Pu</span>",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>131</sup><sub>53</sub></span>I</span>",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>15</sup><sub>8</sub></span>O</span>",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>60</sup><sub>27</sub></span>Co</span>"
+   ],
+   "hint": "Alpha decay is typical of very heavy nuclei, those beyond bismuth (Z = 83).",
+   "explain": "Nuclei with Z &gt; 83 are too large to be stable and usually shed mass as alpha particles: <b>plutonium-239</b>. I-131 and Co-60 are neutron-rich (β<sup>−</sup> emitters); O-15 is neutron-poor (positron emitter)."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 345
+  }
+ },
+ {
+  "id": "finalexam-c48cf4e4",
+  "skill": "finalexam.1b.nuclear",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-21"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "A cobalt-60 radiation therapy source has a half-life of 5.27 years. What percentage of its original activity remains after 12.0 years?",
+  "choices": [
+   "20.6%",
+   "73.8%",
+   "25.0%",
+   "79.4%"
+  ],
+  "answer": "20.6%",
+  "hint": "First-order decay: fraction left = (1/2)^t/t½, or use k = 0.693/t½ in ln(N/N₀) = −kt.",
+  "explain": "t/t½ = 12.0/5.27 = 2.277 half-lives; (1/2)^2.277 = 0.206 → 20.6%. 25.0% rounds down to exactly 2 half-lives; 79.4% is the fraction that has DECAYED; 73.8% inverts the exponent (t½/t).",
+  "html": {
+   "prompt": "A cobalt-60 radiation therapy source has a half-life of 5.27 years. What percentage of its original activity remains after 12.0 years?",
+   "choices": [
+    "20.6%",
+    "73.8%",
+    "25.0%",
+    "79.4%"
+   ],
+   "hint": "First-order decay: fraction left = (1/2)<sup>t/t½</sup>, or use k = 0.693/t½ in ln(N/N<sub>0</sub>) = −kt.",
+   "explain": "t/t½ = 12.0/5.27 = 2.277 half-lives; (1/2)<sup>2.277</sup> = 0.206 → <b>20.6%</b>. 25.0% rounds down to exactly 2 half-lives; 79.4% is the fraction that has DECAYED; 73.8% inverts the exponent (t½/t)."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 346
+  }
+ },
+ {
+  "id": "finalexam-9bfebad1",
+  "skill": "finalexam.1b.nuclear",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-21"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "Charcoal from an ancient fire pit has a carbon-14 activity of 3.8 disintegrations per minute per gram of carbon; carbon in living plants gives 15.3. How old is the charcoal? (t½ of ¹⁴C = 5730 yr)",
+  "choices": [
+   "1.15×10⁴ yr",
+   "5.00×10³ yr",
+   "2.31×10⁴ yr",
+   "7.98×10³ yr"
+  ],
+  "answer": "1.15×10⁴ yr",
+  "hint": "Radioactive decay is first order: ln(A₀/A) = kt with k = 0.693/t½. Use natural log.",
+  "explain": "k = 0.693/5730 yr = 1.21×10⁻⁴ yr⁻¹; t = ln(15.3/3.8)/k = 1.393/1.21×10⁻⁴ = 1.15×10⁴ yr (about 2 half-lives, since 15.3/4 ≈ 3.8). 5.00×10³ yr uses log instead of ln; 2.31×10⁴ yr treats the ratio 4.03 as the number of half-lives; 7.98×10³ yr multiplies ln(ratio) by t½ without dividing by 0.693.",
+  "html": {
+   "prompt": "Charcoal from an ancient fire pit has a carbon-14 activity of 3.8 disintegrations per minute per gram of carbon; carbon in living plants gives 15.3. How old is the charcoal? (t½ of <sup>14</sup>C = 5730 yr)",
+   "choices": [
+    "1.15×10<sup>4</sup> yr",
+    "5.00×10<sup>3</sup> yr",
+    "2.31×10<sup>4</sup> yr",
+    "7.98×10<sup>3</sup> yr"
+   ],
+   "hint": "Radioactive decay is first order: ln(A<sub>0</sub>/A) = kt with k = 0.693/t½. Use natural log.",
+   "explain": "k = 0.693/5730 yr = 1.21×10<sup>−4</sup> yr<sup>−1</sup>; t = ln(15.3/3.8)/k = 1.393/1.21×10<sup>−4</sup> = <b>1.15×10<sup>4</sup> yr</b> (about 2 half-lives, since 15.3/4 ≈ 3.8). 5.00×10<sup>3</sup> yr uses log instead of ln; 2.31×10<sup>4</sup> yr treats the ratio 4.03 as the number of half-lives; 7.98×10<sup>3</sup> yr multiplies ln(ratio) by t½ without dividing by 0.693."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 347
+  }
+ },
+ {
+  "id": "finalexam-eaec26ba",
+  "skill": "finalexam.1b.nuclear",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-21"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "The graph shows the activity of a radioisotope sample used in a diagnostic scan. What will the activity be 40 hours after the start?",
+  "choices": [
+   "25 counts/min",
+   "50 counts/min",
+   "100 counts/min",
+   "0 counts/min"
+  ],
+  "answer": "25 counts/min",
+  "hint": "Read the half-life from the graph: how long does it take the activity to fall from 800 to 400? Then count half-lives in 40 h.",
+  "explain": "The activity halves every 8 h (800 → 400 at 8 h, → 200 at 16 h). 40 h = 5 half-lives: 800 × (1/2)⁵ = 25 counts/min. 50 counts/min stops after 4 half-lives (32 h, the end of the graph); first-order decay never reaches exactly zero.",
+  "html": {
+   "prompt": "The graph shows the activity of a radioisotope sample used in a diagnostic scan. What will the activity be 40 hours after the start?",
+   "choices": [
+    "25 counts/min",
+    "50 counts/min",
+    "100 counts/min",
+    "0 counts/min"
+   ],
+   "hint": "Read the half-life from the graph: how long does it take the activity to fall from 800 to 400? Then count half-lives in 40 h.",
+   "explain": "The activity halves every 8 h (800 → 400 at 8 h, → 200 at 16 h). 40 h = 5 half-lives: 800 × (1/2)<sup>5</sup> = <b>25 counts/min</b>. 50 counts/min stops after 4 half-lives (32 h, the end of the graph); first-order decay never reaches exactly zero."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "plot",
+     "x": {
+      "label": "Time (h)",
+      "min": 0,
+      "max": 32,
+      "ticks": [
+       0,
+       4,
+       8,
+       12,
+       16,
+       20,
+       24,
+       28,
+       32
+      ]
+     },
+     "y": {
+      "label": "Activity (counts/min)",
+      "min": 0,
+      "max": 800,
+      "ticks": [
+       0,
+       100,
+       200,
+       300,
+       400,
+       500,
+       600,
+       700,
+       800
+      ]
+     },
+     "series": [
+      {
+       "pts": [
+        [
+         0,
+         800
+        ],
+        [
+         0.5,
+         766.1
+        ],
+        [
+         1,
+         733.6
+        ],
+        [
+         1.5,
+         702.5
+        ],
+        [
+         2,
+         672.7
+        ],
+        [
+         2.5,
+         644.2
+        ],
+        [
+         3,
+         616.9
+        ],
+        [
+         3.5,
+         590.7
+        ],
+        [
+         4,
+         565.7
+        ],
+        [
+         4.5,
+         541.7
+        ],
+        [
+         5,
+         518.7
+        ],
+        [
+         5.5,
+         496.7
+        ],
+        [
+         6,
+         475.7
+        ],
+        [
+         6.5,
+         455.5
+        ],
+        [
+         7,
+         436.2
+        ],
+        [
+         7.5,
+         417.7
+        ],
+        [
+         8,
+         400
+        ],
+        [
+         8.5,
+         383
+        ],
+        [
+         9,
+         366.8
+        ],
+        [
+         9.5,
+         351.3
+        ],
+        [
+         10,
+         336.4
+        ],
+        [
+         10.5,
+         322.1
+        ],
+        [
+         11,
+         308.4
+        ],
+        [
+         11.5,
+         295.4
+        ],
+        [
+         12,
+         282.8
+        ],
+        [
+         12.5,
+         270.9
+        ],
+        [
+         13,
+         259.4
+        ],
+        [
+         13.5,
+         248.4
+        ],
+        [
+         14,
+         237.8
+        ],
+        [
+         14.5,
+         227.8
+        ],
+        [
+         15,
+         218.1
+        ],
+        [
+         15.5,
+         208.9
+        ],
+        [
+         16,
+         200
+        ],
+        [
+         16.5,
+         191.5
+        ],
+        [
+         17,
+         183.4
+        ],
+        [
+         17.5,
+         175.6
+        ],
+        [
+         18,
+         168.2
+        ],
+        [
+         18.5,
+         161
+        ],
+        [
+         19,
+         154.2
+        ],
+        [
+         19.5,
+         147.7
+        ],
+        [
+         20,
+         141.4
+        ],
+        [
+         20.5,
+         135.4
+        ],
+        [
+         21,
+         129.7
+        ],
+        [
+         21.5,
+         124.2
+        ],
+        [
+         22,
+         118.9
+        ],
+        [
+         22.5,
+         113.9
+        ],
+        [
+         23,
+         109.1
+        ],
+        [
+         23.5,
+         104.4
+        ],
+        [
+         24,
+         100
+        ],
+        [
+         24.5,
+         95.8
+        ],
+        [
+         25,
+         91.7
+        ],
+        [
+         25.5,
+         87.8
+        ],
+        [
+         26,
+         84.1
+        ],
+        [
+         26.5,
+         80.5
+        ],
+        [
+         27,
+         77.1
+        ],
+        [
+         27.5,
+         73.8
+        ],
+        [
+         28,
+         70.7
+        ],
+        [
+         28.5,
+         67.7
+        ],
+        [
+         29,
+         64.8
+        ],
+        [
+         29.5,
+         62.1
+        ],
+        [
+         30,
+         59.5
+        ],
+        [
+         30.5,
+         56.9
+        ],
+        [
+         31,
+         54.5
+        ],
+        [
+         31.5,
+         52.2
+        ],
+        [
+         32,
+         50
+        ]
+       ]
+      }
+     ],
+     "mono": true,
+     "grid": true
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 348
+  }
+ },
+ {
+  "id": "finalexam-5fb05b79",
+  "skill": "finalexam.1b.nuclear",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-21"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "Using the masses in the table, what is the nuclear binding energy per nucleon of iron-56 (26 protons, 30 neutrons)?",
+  "choices": [
+   "1.41×10⁻¹² J",
+   "7.89×10⁻¹¹ J",
+   "1.41×10⁻⁹ J",
+   "4.70×10⁻²¹ J"
+  ],
+  "answer": "1.41×10⁻¹² J",
+  "hint": "Mass defect = (mass of separate protons + neutrons) − (mass of nucleus). Convert u to kg, use E = Δmc², then divide by the nucleons.",
+  "explain": "Δm = 26(1.007276) + 30(1.008665) − 55.92068 = 0.52845 u × 1.66054×10⁻²⁷ kg/u = 8.775×10⁻²⁸ kg. E = (8.775×10⁻²⁸ kg)(2.998×10⁸ m s⁻¹)² = 7.89×10⁻¹¹ J; ÷ 56 = 1.41×10⁻¹² J per nucleon. 7.89×10⁻¹¹ J is the total for the nucleus; 1.41×10⁻⁹ J uses the mass in grams instead of kg; 4.70×10⁻²¹ J forgets to square c.",
+  "html": {
+   "prompt": "Using the masses in the table, what is the nuclear binding energy per nucleon of iron-56 (26 protons, 30 neutrons)?",
+   "choices": [
+    "1.41×10<sup>−12</sup> J",
+    "7.89×10<sup>−11</sup> J",
+    "1.41×10<sup>−9</sup> J",
+    "4.70×10<sup>−21</sup> J"
+   ],
+   "hint": "Mass defect = (mass of separate protons + neutrons) − (mass of nucleus). Convert u to kg, use E = Δmc<sup>2</sup>, then divide by the nucleons.",
+   "explain": "Δm = 26(1.007276) + 30(1.008665) − 55.92068 = 0.52845 u × 1.66054×10<sup>−27</sup> kg/u = 8.775×10<sup>−28</sup> kg. E = (8.775×10<sup>−28</sup> kg)(2.998×10<sup>8</sup> m s⁻¹)<sup>2</sup> = 7.89×10<sup>−11</sup> J; ÷ 56 = <b>1.41×10<sup>−12</sup> J</b> per nucleon. 7.89×10<sup>−11</sup> J is the total for the nucleus; 1.41×10<sup>−9</sup> J uses the mass in grams instead of kg; 4.70×10<sup>−21</sup> J forgets to square c."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Particle",
+      "Mass (u)"
+     ],
+     "rows": [
+      [
+       "proton",
+       "1.007276"
+      ],
+      [
+       "neutron",
+       "1.008665"
+      ],
+      [
+       "<sup>56</sup>Fe nucleus",
+       "55.92068"
+      ]
+     ],
+     "cap": "1 u = 1.66054×10<sup>−27</sup> kg"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 349
+  }
+ },
+ {
+  "id": "finalexam-54a8a1e5",
+  "skill": "finalexam.1b.nuclear",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-21"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which statement correctly compares nuclear fission and nuclear fusion?",
+  "choices": [
+   "Fission splits heavy nuclei; fusion joins light nuclei and needs extremely high temperatures.",
+   "Fission powers the Sun; fusion is the process used in today's nuclear power plants.",
+   "Fusion splits uranium-235 nuclei and needs a critical mass to sustain a chain reaction.",
+   "Only fission converts mass into energy; fusion releases energy from chemical bonds."
+  ],
+  "answer": "Fission splits heavy nuclei; fusion joins light nuclei and needs extremely high temperatures.",
+  "hint": "Think about which nuclei each process uses (heavy or light) and what conditions start it.",
+  "explain": "Fission splits heavy nuclei such as U-235 (neutron-induced, chain reaction, critical mass) and runs today's reactors; fusion combines light nuclei like hydrogen isotopes and needs millions of kelvins to overcome proton repulsion, as in the Sun. Both release energy because the products have less mass (E = mc²).",
+  "html": {
+   "prompt": "Which statement correctly compares nuclear fission and nuclear fusion?",
+   "choices": [
+    "Fission splits heavy nuclei; fusion joins light nuclei and needs extremely high temperatures.",
+    "Fission powers the Sun; fusion is the process used in today's nuclear power plants.",
+    "Fusion splits uranium-235 nuclei and needs a critical mass to sustain a chain reaction.",
+    "Only fission converts mass into energy; fusion releases energy from chemical bonds."
+   ],
+   "hint": "Think about which nuclei each process uses (heavy or light) and what conditions start it.",
+   "explain": "<b>Fission</b> splits heavy nuclei such as U-235 (neutron-induced, chain reaction, critical mass) and runs today's reactors; <b>fusion</b> combines light nuclei like hydrogen isotopes and needs millions of kelvins to overcome proton repulsion, as in the Sun. Both release energy because the products have less mass (E = mc<sup>2</sup>)."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 350
+  }
+ },
+ {
+  "id": "finalexam-d03b4f67",
+  "skill": "finalexam.1b.nuclear",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-21"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Technetium-99m (half-life about 6 h) is the most widely used isotope for medical imaging. Which pair of properties makes it suitable?",
+  "choices": [
+   "It emits gamma rays that exit the body, and its short half-life limits the dose.",
+   "It emits alpha particles that pass easily through tissue to the camera.",
+   "Its half-life of thousands of years keeps the image bright for many scans.",
+   "It emits no radiation at all; it is located with a magnet."
+  ],
+  "answer": "It emits gamma rays that exit the body, and its short half-life limits the dose.",
+  "hint": "The radiation has to escape the body to reach the detector, and the patient should not stay radioactive for long.",
+  "explain": "Imaging needs penetrating radiation that reaches an external camera: Tc-99m emits gamma rays, and with t½ ≈ 6 h most of it decays within a day, keeping the dose low. Alpha particles are stopped within the body (and are very damaging there); a long half-life would prolong exposure.",
+  "html": {
+   "prompt": "Technetium-99m (half-life about 6 h) is the most widely used isotope for medical imaging. Which pair of properties makes it suitable?",
+   "choices": [
+    "It emits gamma rays that exit the body, and its short half-life limits the dose.",
+    "It emits alpha particles that pass easily through tissue to the camera.",
+    "Its half-life of thousands of years keeps the image bright for many scans.",
+    "It emits no radiation at all; it is located with a magnet."
+   ],
+   "hint": "The radiation has to escape the body to reach the detector, and the patient should not stay radioactive for long.",
+   "explain": "Imaging needs penetrating radiation that reaches an external camera: Tc-99m emits <b>gamma rays</b>, and with t½ ≈ 6 h most of it decays within a day, keeping the dose low. Alpha particles are stopped within the body (and are very damaging there); a long half-life would prolong exposure."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 351
+  }
+ },
+ {
+  "id": "finalexam-9b25f049",
+  "skill": "finalexam.1b.equilibrium",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-13"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Silver is recovered from photographic waste by adding copper scrap (reaction shown). Which expression gives K_c?",
+  "choices": [
+   "K_c = [Cu²⁺] / [Ag⁺]²",
+   "K_c = [Cu²⁺][Ag]² / [Cu][Ag⁺]²",
+   "K_c = [Ag⁺]² / [Cu²⁺]",
+   "K_c = [Cu²⁺] / 2[Ag⁺]"
+  ],
+  "answer": "K_c = [Cu²⁺] / [Ag⁺]²",
+  "hint": "Pure solids are left out of equilibrium expressions. Coefficients become exponents; products go on top.",
+  "explain": "Cu(s) and Ag(s) are pure solids (activity 1), so only the dissolved ions appear: K_c = [Cu²⁺]/[Ag⁺]². Including the solids is the most common error; the inverted form is K for the reverse reaction, and a coefficient is an exponent, not a multiplier.",
+  "html": {
+   "prompt": "Silver is recovered from photographic waste by adding copper scrap (reaction shown). Which expression gives K<sub>c</sub>?",
+   "choices": [
+    "K<sub>c</sub> = [Cu<sup>2+</sup>] / [Ag<sup>+</sup>]<sup>2</sup>",
+    "K<sub>c</sub> = [Cu<sup>2+</sup>][Ag]<sup>2</sup> / [Cu][Ag<sup>+</sup>]<sup>2</sup>",
+    "K<sub>c</sub> = [Ag<sup>+</sup>]<sup>2</sup> / [Cu<sup>2+</sup>]",
+    "K<sub>c</sub> = [Cu<sup>2+</sup>] / 2[Ag<sup>+</sup>]"
+   ],
+   "hint": "Pure solids are left out of equilibrium expressions. Coefficients become exponents; products go on top.",
+   "explain": "Cu(s) and Ag(s) are pure solids (activity 1), so only the dissolved ions appear: <b>K<sub>c</sub> = [Cu<sup>2+</sup>]/[Ag<sup>+</sup>]<sup>2</sup></b>. Including the solids is the most common error; the inverted form is K for the reverse reaction, and a coefficient is an exponent, not a multiplier."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "Cu(s) + 2 Ag<sup>+</sup>(aq) ⇌ Cu<sup>2+</sup>(aq) + 2 Ag(s)"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 352
+  }
+ },
+ {
+  "id": "finalexam-73ac5e7a",
+  "skill": "finalexam.1b.equilibrium",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-13"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "For the exothermic reaction shown, the temperature of an equilibrium mixture is raised at constant volume. Which statement is correct?",
+  "choices": [
+   "K decreases and the equilibrium shifts toward NO and O₂.",
+   "K increases and the equilibrium shifts toward NO₂.",
+   "K stays the same, but the equilibrium shifts toward NO and O₂.",
+   "K stays the same, because only concentration changes affect equilibrium."
+  ],
+  "answer": "K decreases and the equilibrium shifts toward NO and O₂.",
+  "hint": "Treat heat as a product of an exothermic reaction. Temperature is the only stress that changes the value of K.",
+  "explain": "With ΔH K decreases. Concentration and pressure changes shift the position but leave K unchanged; temperature does not.",
+  "html": {
+   "prompt": "For the exothermic reaction shown, the temperature of an equilibrium mixture is raised at constant volume. Which statement is correct?",
+   "choices": [
+    "K decreases and the equilibrium shifts toward NO and O<sub>2</sub>.",
+    "K increases and the equilibrium shifts toward NO<sub>2</sub>.",
+    "K stays the same, but the equilibrium shifts toward NO and O<sub>2</sub>.",
+    "K stays the same, because only concentration changes affect equilibrium."
+   ],
+   "hint": "Treat heat as a product of an exothermic reaction. Temperature is the only stress that changes the value of K.",
+   "explain": "With ΔH &lt; 0, heat is a product; adding heat shifts the equilibrium LEFT, toward NO and O<sub>2</sub>, and because a temperature change alters K itself, <b>K decreases</b>. Concentration and pressure changes shift the position but leave K unchanged; temperature does not."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "2 NO(g) + O<sub>2</sub>(g) ⇌ 2 NO<sub>2</sub>(g)    ΔH° = −114 kJ"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 353
+  }
+ },
+ {
+  "id": "finalexam-464b283c",
+  "skill": "finalexam.1b.kinetics",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-12"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "The diagram shows energy profiles for the same reaction with and without a catalyst. Which quantity is the SAME for both pathways?",
+  "choices": [
+   "The enthalpy change, ΔH",
+   "The activation energy of the forward reaction",
+   "The activation energy of the reverse reaction",
+   "The rate constant at a given temperature"
+  ],
+  "answer": "The enthalpy change, ΔH",
+  "hint": "A catalyst changes the path (the height of the hump) but not where the path starts and ends.",
+  "explain": "Both curves start at the same reactant energy and end at the same product energy, so ΔH is unchanged. The catalyst lowers the activation energy of BOTH the forward and reverse reactions, which increases the rate constant.",
+  "html": {
+   "prompt": "The diagram shows energy profiles for the same reaction with and without a catalyst. Which quantity is the SAME for both pathways?",
+   "choices": [
+    "The enthalpy change, ΔH",
+    "The activation energy of the forward reaction",
+    "The activation energy of the reverse reaction",
+    "The rate constant at a given temperature"
+   ],
+   "hint": "A catalyst changes the path (the height of the hump) but not where the path starts and ends.",
+   "explain": "Both curves start at the same reactant energy and end at the same product energy, so <b>ΔH</b> is unchanged. The catalyst lowers the activation energy of BOTH the forward and reverse reactions, which increases the rate constant."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "plot",
+     "x": {
+      "label": "Reaction progress",
+      "min": 0,
+      "max": 10,
+      "ticks": []
+     },
+     "y": {
+      "label": "Energy",
+      "min": 0,
+      "max": 9,
+      "noTicks": true
+     },
+     "series": [
+      {
+       "pts": [
+        [
+         0,
+         3
+        ],
+        [
+         0.25,
+         3
+        ],
+        [
+         0.5,
+         3
+        ],
+        [
+         0.75,
+         3
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         1.25,
+         3
+        ],
+        [
+         1.5,
+         3.002
+        ],
+        [
+         1.75,
+         3.006
+        ],
+        [
+         2,
+         3.016
+        ],
+        [
+         2.25,
+         3.041
+        ],
+        [
+         2.5,
+         3.094
+        ],
+        [
+         2.75,
+         3.2
+        ],
+        [
+         3,
+         3.391
+        ],
+        [
+         3.25,
+         3.704
+        ],
+        [
+         3.5,
+         4.168
+        ],
+        [
+         3.75,
+         4.787
+        ],
+        [
+         4,
+         5.517
+        ],
+        [
+         4.25,
+         6.26
+        ],
+        [
+         4.5,
+         6.877
+        ],
+        [
+         4.75,
+         7.223
+        ],
+        [
+         5,
+         7.2
+        ],
+        [
+         5.25,
+         6.794
+        ],
+        [
+         5.5,
+         6.076
+        ],
+        [
+         5.75,
+         5.176
+        ],
+        [
+         6,
+         4.236
+        ],
+        [
+         6.25,
+         3.379
+        ],
+        [
+         6.5,
+         2.682
+        ],
+        [
+         6.75,
+         2.171
+        ],
+        [
+         7,
+         1.83
+        ],
+        [
+         7.25,
+         1.623
+        ],
+        [
+         7.5,
+         1.507
+        ],
+        [
+         7.75,
+         1.448
+        ],
+        [
+         8,
+         1.42
+        ],
+        [
+         8.25,
+         1.408
+        ],
+        [
+         8.5,
+         1.403
+        ],
+        [
+         8.75,
+         1.401
+        ],
+        [
+         9,
+         1.4
+        ],
+        [
+         9.25,
+         1.4
+        ],
+        [
+         9.5,
+         1.4
+        ],
+        [
+         9.75,
+         1.4
+        ],
+        [
+         10,
+         1.4
+        ]
+       ],
+       "label": "uncatalyzed",
+       "labelAt": 20,
+       "dx": 26,
+       "dy": -6
+      },
+      {
+       "pts": [
+        [
+         0,
+         3
+        ],
+        [
+         0.25,
+         3
+        ],
+        [
+         0.5,
+         3
+        ],
+        [
+         0.75,
+         3
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         1.25,
+         3
+        ],
+        [
+         1.5,
+         3
+        ],
+        [
+         1.75,
+         3.002
+        ],
+        [
+         2,
+         3.006
+        ],
+        [
+         2.25,
+         3.016
+        ],
+        [
+         2.5,
+         3.038
+        ],
+        [
+         2.75,
+         3.082
+        ],
+        [
+         3,
+         3.161
+        ],
+        [
+         3.25,
+         3.291
+        ],
+        [
+         3.5,
+         3.482
+        ],
+        [
+         3.75,
+         3.732
+        ],
+        [
+         4,
+         4.018
+        ],
+        [
+         4.25,
+         4.29
+        ],
+        [
+         4.5,
+         4.482
+        ],
+        [
+         4.75,
+         4.53
+        ],
+        [
+         5,
+         4.4
+        ],
+        [
+         5.25,
+         4.101
+        ],
+        [
+         5.5,
+         3.681
+        ],
+        [
+         5.75,
+         3.206
+        ],
+        [
+         6,
+         2.737
+        ],
+        [
+         6.25,
+         2.325
+        ],
+        [
+         6.5,
+         1.996
+        ],
+        [
+         6.75,
+         1.758
+        ],
+        [
+         7,
+         1.6
+        ],
+        [
+         7.25,
+         1.504
+        ],
+        [
+         7.5,
+         1.451
+        ],
+        [
+         7.75,
+         1.423
+        ],
+        [
+         8,
+         1.41
+        ],
+        [
+         8.25,
+         1.404
+        ],
+        [
+         8.5,
+         1.402
+        ],
+        [
+         8.75,
+         1.401
+        ],
+        [
+         9,
+         1.4
+        ],
+        [
+         9.25,
+         1.4
+        ],
+        [
+         9.5,
+         1.4
+        ],
+        [
+         9.75,
+         1.4
+        ],
+        [
+         10,
+         1.4
+        ]
+       ],
+       "label": "catalyzed",
+       "labelAt": 20,
+       "dx": -66,
+       "dy": 44
+      }
+     ],
+     "marks": [
+      [
+       1.4,
+       3.35,
+       "reactants"
+      ],
+      [
+       8.8,
+       1.75,
+       "products"
+      ]
+     ],
+     "mono": true,
+     "grid": false
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 354
+  }
+ },
+ {
+  "id": "finalexam-dcc9cefb",
+  "skill": "finalexam.1b.kinetics",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-12"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "Milk spoils through reactions with an activation energy of about 50.0 kJ mol⁻¹. By what factor does the rate constant increase when the temperature rises from 25 °C to 35 °C? (R = 8.314 J mol⁻¹ K⁻¹)",
+  "choices": [
+   "1.92",
+   "1.00",
+   "0.520",
+   "7.1×10²⁹"
+  ],
+  "answer": "1.92",
+  "hint": "Use ln(k₂/k₁) = (E_a/R)(1/T₁ − 1/T₂). Put E_a in J mol⁻¹ and T in kelvins.",
+  "explain": "ln(k₂/k₁) = (50,000/8.314)(1/298.15 − 1/308.15) = 0.655, so k₂/k₁ = 1.92: the faster, more energetic collisions roughly double the rate. 1.00 leaves E_a in kJ; 7.1×10²⁹ uses Celsius temperatures; 0.520 is the inverted ratio.",
+  "html": {
+   "prompt": "Milk spoils through reactions with an activation energy of about 50.0 kJ mol⁻¹. By what factor does the rate constant increase when the temperature rises from 25 °C to 35 °C? (R = 8.314 J mol⁻¹ K⁻¹)",
+   "choices": [
+    "1.92",
+    "1.00",
+    "0.520",
+    "7.1×10<sup>29</sup>"
+   ],
+   "hint": "Use ln(k<sub>2</sub>/k<sub>1</sub>) = (E<sub>a</sub>/R)(1/T<sub>1</sub> − 1/T<sub>2</sub>). Put E<sub>a</sub> in J mol⁻¹ and T in kelvins.",
+   "explain": "ln(k<sub>2</sub>/k<sub>1</sub>) = (50,000/8.314)(1/298.15 − 1/308.15) = 0.655, so k<sub>2</sub>/k<sub>1</sub> = <b>1.92</b>: the faster, more energetic collisions roughly double the rate. 1.00 leaves E<sub>a</sub> in kJ; 7.1×10<sup>29</sup> uses Celsius temperatures; 0.520 is the inverted ratio."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 355
+  }
+ },
+ {
+  "id": "finalexam-abafb1a2",
+  "skill": "finalexam.1b.acidbase",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-14"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which is the net ionic equation for the reaction of aqueous hydrofluoric acid with aqueous potassium hydroxide?",
+  "choices": [
+   "HF(aq) + OH⁻(aq) → F⁻(aq) + H₂O(l)",
+   "H⁺(aq) + OH⁻(aq) → H₂O(l)",
+   "HF(aq) + K⁺(aq) + OH⁻(aq) → KF(s) + H₂O(l)",
+   "F⁻(aq) + H₂O(l) → HF(aq) + OH⁻(aq)"
+  ],
+  "answer": "HF(aq) + OH⁻(aq) → F⁻(aq) + H₂O(l)",
+  "hint": "Is HF a strong or a weak acid? Weak acids are written as molecules; spectator ions are dropped.",
+  "explain": "HF is a WEAK acid, so it stays mostly un-ionized and is written as HF; K⁺ is a spectator and KF is soluble: HF + OH⁻ → F⁻ + H₂O. H⁺ + OH⁻ → H₂O is correct only for strong acids; the last choice is the hydrolysis of fluoride.",
+  "html": {
+   "prompt": "Which is the net ionic equation for the reaction of aqueous hydrofluoric acid with aqueous potassium hydroxide?",
+   "choices": [
+    "HF(aq) + OH<sup>−</sup>(aq) → F<sup>−</sup>(aq) + H<sub>2</sub>O(l)",
+    "H<sup>+</sup>(aq) + OH<sup>−</sup>(aq) → H<sub>2</sub>O(l)",
+    "HF(aq) + K<sup>+</sup>(aq) + OH<sup>−</sup>(aq) → KF(s) + H<sub>2</sub>O(l)",
+    "F<sup>−</sup>(aq) + H<sub>2</sub>O(l) → HF(aq) + OH<sup>−</sup>(aq)"
+   ],
+   "hint": "Is HF a strong or a weak acid? Weak acids are written as molecules; spectator ions are dropped.",
+   "explain": "HF is a WEAK acid, so it stays mostly un-ionized and is written as HF; K<sup>+</sup> is a spectator and KF is soluble: <b>HF + OH<sup>−</sup> → F<sup>−</sup> + H<sub>2</sub>O</b>. H<sup>+</sup> + OH<sup>−</sup> → H<sub>2</sub>O is correct only for strong acids; the last choice is the hydrolysis of fluoride."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 356
+  }
+ },
+ {
+  "id": "finalexam-cd6ecf61",
+  "skill": "finalexam.1b.acidbase",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-14"
+  ],
+  "origin": "original",
+  "made": "games",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "Laundry bleach contains sodium hypochlorite. Find the pH of a 0.10 M NaOCl solution at 25 °C, given that K_a for HOCl is 3.0×10⁻⁸.",
+  "choices": [
+   "10.26",
+   "3.74",
+   "7.00",
+   "4.26"
+  ],
+  "answer": "10.26",
+  "hint": "OCl⁻ is the conjugate base of a weak acid. Find K_b = K_w/K_a, then [OH⁻] ≈ √(K_bC).",
+  "explain": "K_b = 1.0×10⁻¹⁴/3.0×10⁻⁸ = 3.3×10⁻⁷; [OH⁻] = √(0.10 × 3.3×10⁻⁷) = 1.8×10⁻⁴ M; pOH = 3.74, pH = 14.00 − 3.74 = 10.26. 3.74 is the pOH; 4.26 treats OCl⁻ as if it were the acid; Na⁺ salts of weak acids are basic, not neutral.",
+  "html": {
+   "prompt": "Laundry bleach contains sodium hypochlorite. Find the pH of a 0.10 M NaOCl solution at 25 °C, given that K<sub>a</sub> for HOCl is 3.0×10<sup>−8</sup>.",
+   "choices": [
+    "10.26",
+    "3.74",
+    "7.00",
+    "4.26"
+   ],
+   "hint": "OCl<sup>−</sup> is the conjugate base of a weak acid. Find K<sub>b</sub> = K<sub>w</sub>/K<sub>a</sub>, then [OH<sup>−</sup>] ≈ √(K<sub>b</sub>C).",
+   "explain": "K<sub>b</sub> = 1.0×10<sup>−14</sup>/3.0×10<sup>−8</sup> = 3.3×10<sup>−7</sup>; [OH<sup>−</sup>] = √(0.10 × 3.3×10<sup>−7</sup>) = 1.8×10<sup>−4</sup> M; pOH = 3.74, pH = 14.00 − 3.74 = <b>10.26</b>. 3.74 is the pOH; 4.26 treats OCl<sup>−</sup> as if it were the acid; Na<sup>+</sup> salts of weak acids are basic, not neutral."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 357
+  }
  }
 ]
