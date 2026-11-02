@@ -154,7 +154,7 @@ function mcFromArray(a, hasTitle) {
       '3A': { measure: ['1'], atoms: ['2'], electrons: ['3'], matter: ['1', '7'], naming: ['4'], moles: ['5'], bonding: ['6'], energy: ['7'], gases: ['8'], solutions: ['9'], reactions: ['10'], stoich: ['11'], acids: ['12'], equilibrium: ['13'], nuclear: ['14'] },
       '3B': { structure: ['1'], properties: ['1'], hydrocarbons: ['2'], isomers: ['2', '6'], aromatic: ['3'], alcohols: ['4'], carbonyls: ['5'], chirality: ['6'], acids_esters: ['7'], amines: ['8'], carbs: ['9'], lipids: ['10'], proteins: ['11'], enzymes: ['12'], nucleic: ['13'], metabolism: ['14', '15', '16', '17'] },
       '1A': { measure: ['1'], atoms: ['2'], composition: ['3'], reactions: ['4'], thermo: ['5'], quantum: ['6'], periodic: ['6'], bonding: ['7'], advanced: ['8'], gases: ['9'], liquids: ['10'], solutions: ['11'] },
-      '1B': { kinetics: ['12'], equilibrium: ['13'], acidbase: ['14'], buffers: ['15'], solubility: ['15'], thermo: ['16'], electro: ['17'], coordination: ['19'], nuclear: ['21'] } };
+      '1B': { kinetics: ['12'], equilibrium: ['13'], acidbase: ['14'], buffers: ['15'], solubility: ['15'], thermo: ['16'], electro: ['17'], coordination: ['19'], nuclear: ['21'], imf: ['ready'] } };
     const MID = ['structure', 'properties', 'hydrocarbons', 'isomers', 'aromatic', 'alcohols', 'carbonyls', 'chirality', 'acids_esters', 'amines'];
     let skipped = 0;
     for (const course of ['3A', '3B', '1A', '1B']) {

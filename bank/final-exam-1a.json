@@ -48553,5 +48553,3595 @@
    "list": "BANK.1A",
    "index": 523
   }
+ },
+ {
+  "id": "finalexam-dae859fd",
+  "skill": "finalexam.1a.measure",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-1"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "The thermal conductivity of a plastic is 0.60 W m⁻¹ K⁻¹. What is this value in mW cm⁻¹ K⁻¹?",
+  "choices": [
+   "6.0 mW cm⁻¹ K⁻¹",
+   "0.060 mW cm⁻¹ K⁻¹",
+   "6.0×10⁴ mW cm⁻¹ K⁻¹",
+   "60 mW cm⁻¹ K⁻¹"
+  ],
+  "answer": "6.0 mW cm⁻¹ K⁻¹",
+  "hint": "Convert the numerator prefix (W → mW, ×1000) and the denominator unit (per m → per cm, 1 m = 100 cm) separately.",
+  "explain": "0.60 W m⁻¹ × (1000 mW / 1 W) × (1 m / 100 cm) = 6.0 mW cm⁻¹ K⁻¹. 0.060 inverts both factors (÷1000, ×100); 6.0×10⁴ multiplies by 100 instead of dividing because the meter is in the denominator; 60 forgets the W → mW step.",
+  "html": {
+   "prompt": "The thermal conductivity of a plastic is 0.60 W m<sup>−1</sup> K<sup>−1</sup>. What is this value in mW cm<sup>−1</sup> K<sup>−1</sup>?",
+   "choices": [
+    "6.0 mW cm<sup>−1</sup> K<sup>−1</sup>",
+    "0.060 mW cm<sup>−1</sup> K<sup>−1</sup>",
+    "6.0×10<sup>4</sup> mW cm<sup>−1</sup> K<sup>−1</sup>",
+    "60 mW cm<sup>−1</sup> K<sup>−1</sup>"
+   ],
+   "hint": "Convert the numerator prefix (W → mW, ×1000) and the denominator unit (per m → per cm, 1 m = 100 cm) separately.",
+   "explain": "0.60 W m<sup>−1</sup> × (1000 mW / 1 W) × (1 m / 100 cm) = <b>6.0 mW cm<sup>−1</sup> K<sup>−1</sup></b>. 0.060 inverts both factors (÷1000, ×100); 6.0×10<sup>4</sup> multiplies by 100 instead of dividing because the meter is in the denominator; 60 forgets the W → mW step."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 524
+  }
+ },
+ {
+  "id": "finalexam-cef4c6fa",
+  "skill": "finalexam.1a.measure",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-1"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": true,
+  "prompt": "A student records the two masses in the table. What mass of liquid should be reported?",
+  "choices": [
+   "12.51 g",
+   "12.513 g",
+   "12.5 g",
+   "13 g"
+  ],
+  "answer": "12.51 g",
+  "hint": "In subtraction the answer keeps the fewest DECIMAL PLACES of the data, not the fewest significant figures.",
+  "explain": "48.113 g − 35.60 g = 12.513 g, but 35.60 g is known only to the hundredths place, so the result is rounded to 12.51 g. 12.513 g keeps a digit that is not justified; 12.5 g and 13 g wrongly apply a significant-figure count (3 or 2) to a subtraction.",
+  "html": {
+   "prompt": "A student records the two masses in the table. What mass of liquid should be reported?",
+   "choices": [
+    "12.51 g",
+    "12.513 g",
+    "12.5 g",
+    "13 g"
+   ],
+   "hint": "In subtraction the answer keeps the fewest DECIMAL PLACES of the data, not the fewest significant figures.",
+   "explain": "48.113 g − 35.60 g = 12.513 g, but 35.60 g is known only to the hundredths place, so the result is rounded to <b>12.51 g</b>. 12.513 g keeps a digit that is not justified; 12.5 g and 13 g wrongly apply a significant-figure count (3 or 2) to a subtraction."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Measurement",
+      "Mass (g)"
+     ],
+     "rows": [
+      [
+       "Beaker + liquid",
+       "48.113"
+      ],
+      [
+       "Empty beaker",
+       "35.60"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 525
+  }
+ },
+ {
+  "id": "finalexam-8ddd696f",
+  "skill": "finalexam.1a.atoms",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-2"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Chlorous acid is a weak acid used in some disinfectant formulations. What is its formula?",
+  "choices": [
+   "HClO₂",
+   "HClO",
+   "HClO₃",
+   "HClO₄"
+  ],
+  "answer": "HClO₂",
+  "hint": "An -ous acid comes from the -ite anion; an -ic acid from the -ate anion. Chlorite is ClO⁻₂.",
+  "explain": "-ous ↔ -ite: chlorous acid contains the chlorite ion, ClO⁻₂, so the acid is HClO₂. HClO is hypochlorous acid, HClO₃ is chloric acid (from chlorate) and HClO₄ is perchloric acid.",
+  "html": {
+   "prompt": "Chlorous acid is a weak acid used in some disinfectant formulations. What is its formula?",
+   "choices": [
+    "HClO<sub>2</sub>",
+    "HClO",
+    "HClO<sub>3</sub>",
+    "HClO<sub>4</sub>"
+   ],
+   "hint": "An -ous acid comes from the -ite anion; an -ic acid from the -ate anion. Chlorite is <span class=\"nw\">ClO<span class=\"ss\"><sup>−</sup><sub>2</sub></span>.</span>",
+   "explain": "-ous ↔ -ite: chlorous acid contains the chlorite ion, <span class=\"nw\">ClO<span class=\"ss\"><sup>−</sup><sub>2</sub></span>,</span> so the acid is <b>HClO<sub>2</sub></b>. HClO is hypochlorous acid, HClO<sub>3</sub> is chloric acid (from chlorate) and HClO<sub>4</sub> is perchloric acid."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 526
+  }
+ },
+ {
+  "id": "finalexam-1b32cd6b",
+  "skill": "finalexam.1a.atoms",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-2"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Sodium thiosulfate has the formula Na₂S₂O₃. What is the formula of calcium thiosulfate?",
+  "choices": [
+   "CaS₂O₃",
+   "Ca₂S₂O₃",
+   "Ca(S₂O₃)₂",
+   "CaS₂O₆"
+  ],
+  "answer": "CaS₂O₃",
+  "hint": "Two Na⁺ balance one thiosulfate ion, so find its charge first, then balance it with Ca²⁺.",
+  "explain": "Two Na⁺ (+2 total) balance one S₂O²⁻₃ ion. One Ca²⁺ balances one S₂O²⁻₃, giving CaS₂O₃. Ca₂S₂O₃ copies the sodium subscript; Ca(S₂O₃)₂ treats thiosulfate as a 1− ion.",
+  "html": {
+   "prompt": "Sodium thiosulfate has the formula Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub>. What is the formula of calcium thiosulfate?",
+   "choices": [
+    "CaS<sub>2</sub>O<sub>3</sub>",
+    "Ca<sub>2</sub>S<sub>2</sub>O<sub>3</sub>",
+    "Ca(S<sub>2</sub>O<sub>3</sub>)<sub>2</sub>",
+    "CaS<sub>2</sub>O<sub>6</sub>"
+   ],
+   "hint": "Two Na<sup>+</sup> balance one thiosulfate ion, so find its charge first, then balance it with Ca<sup>2+</sup>.",
+   "explain": "Two Na<sup>+</sup> (+2 total) balance one <span class=\"nw\">S<sub>2</sub>O<span class=\"ss\"><sup>2−</sup><sub>3</sub></span></span> ion. One Ca<sup>2+</sup> balances one <span class=\"nw\">S<sub>2</sub>O<span class=\"ss\"><sup>2−</sup><sub>3</sub></span>,</span> giving <b>CaS<sub>2</sub>O<sub>3</sub></b>. Ca<sub>2</sub>S<sub>2</sub>O<sub>3</sub> copies the sodium subscript; Ca(S<sub>2</sub>O<sub>3</sub>)<sub>2</sub> treats thiosulfate as a 1− ion."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 527
+  }
+ },
+ {
+  "id": "finalexam-b8627f7b",
+  "skill": "finalexam.1a.atoms",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-2"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "In the name sulfur hexafluoride, what does the prefix hexa- tell you?",
+  "choices": [
+   "Six fluorine atoms are covalently bonded to one sulfur atom.",
+   "Sulfur has lost six electrons to form S⁶⁺ ions.",
+   "The molecule has a six-sided (hexagonal) planar shape.",
+   "The compound contains six sulfur atoms per fluorine atom."
+  ],
+  "answer": "Six fluorine atoms are covalently bonded to one sulfur atom.",
+  "hint": "Greek prefixes in molecular (covalent) names count atoms of the element they are attached to.",
+  "explain": "Prefixes in covalent names count atoms: hexa- means six F atoms bonded to one S atom, SF₆. The name says nothing about ions (a molecular compound has none), and prefixes never describe geometry.",
+  "html": {
+   "prompt": "In the name sulfur hexafluoride, what does the prefix hexa- tell you?",
+   "choices": [
+    "Six fluorine atoms are covalently bonded to one sulfur atom.",
+    "Sulfur has lost six electrons to form S<sup>6+</sup> ions.",
+    "The molecule has a six-sided (hexagonal) planar shape.",
+    "The compound contains six sulfur atoms per fluorine atom."
+   ],
+   "hint": "Greek prefixes in molecular (covalent) names count atoms of the element they are attached to.",
+   "explain": "Prefixes in covalent names count atoms: hexa- means <b>six F atoms bonded to one S atom</b>, SF<sub>6</sub>. The name says nothing about ions (a molecular compound has none), and prefixes never describe geometry."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 528
+  }
+ },
+ {
+  "id": "finalexam-1d62c646",
+  "skill": "finalexam.1a.measure",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-1"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Boxes I–IV are particle-level views of four gas samples (two kinds of atoms: gray and white). Which box contains a pure compound?",
+  "choices": [
+   "III",
+   "I",
+   "II",
+   "IV"
+  ],
+  "answer": "III",
+  "hint": "A compound is a pure substance whose particles are all identical AND contain more than one kind of atom.",
+  "explain": "Box III holds only one kind of particle, each made of two different atoms: a compound. Box I is an element (identical diatomic molecules of one atom type). Box II mixes two elements, and box IV mixes a compound with an element, so both are mixtures.",
+  "html": {
+   "prompt": "Boxes I–IV are particle-level views of four gas samples (two kinds of atoms: gray and white). Which box contains a pure compound?",
+   "choices": [
+    "III",
+    "I",
+    "II",
+    "IV"
+   ],
+   "hint": "A compound is a pure substance whose particles are all identical AND contain more than one kind of atom.",
+   "explain": "Box <b>III</b> holds only one kind of particle, each made of two different atoms: a compound. Box I is an element (identical diatomic molecules of one atom type). Box II mixes two elements, and box IV mixes a compound with an element, so both are mixtures."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "particles",
+     "key": {
+      "A": {
+       "c": "#4a4f55",
+       "n": ""
+      },
+      "B": {
+       "c": "#f4f4f4",
+       "n": ""
+      }
+     },
+     "boxes": [
+      {
+       "cap": "I",
+       "mols": [
+        [
+         "A",
+         "A"
+        ],
+        [
+         "A",
+         "A"
+        ],
+        [
+         "A",
+         "A"
+        ],
+        [
+         "A",
+         "A"
+        ],
+        [
+         "A",
+         "A"
+        ],
+        [
+         "A",
+         "A"
+        ]
+       ]
+      },
+      {
+       "cap": "II",
+       "mols": [
+        [
+         "A",
+         "A"
+        ],
+        [
+         "A",
+         "A"
+        ],
+        [
+         "A",
+         "A"
+        ],
+        [
+         "A",
+         "A"
+        ],
+        [
+         "B"
+        ],
+        [
+         "B"
+        ],
+        [
+         "B"
+        ],
+        [
+         "B"
+        ]
+       ]
+      },
+      {
+       "cap": "III",
+       "mols": [
+        [
+         "A",
+         "B",
+         "B"
+        ],
+        [
+         "A",
+         "B",
+         "B"
+        ],
+        [
+         "A",
+         "B",
+         "B"
+        ],
+        [
+         "A",
+         "B",
+         "B"
+        ],
+        [
+         "A",
+         "B",
+         "B"
+        ],
+        [
+         "A",
+         "B",
+         "B"
+        ]
+       ]
+      },
+      {
+       "cap": "IV",
+       "mols": [
+        [
+         "A",
+         "B"
+        ],
+        [
+         "A",
+         "B"
+        ],
+        [
+         "A",
+         "B"
+        ],
+        [
+         "A",
+         "B"
+        ],
+        [
+         "B",
+         "B"
+        ],
+        [
+         "B",
+         "B"
+        ],
+        [
+         "B",
+         "B"
+        ]
+       ]
+      }
+     ],
+     "seed": 41
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 529
+  }
+ },
+ {
+  "id": "finalexam-ad1eac77",
+  "skill": "finalexam.1a.atoms",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-2"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "An ion has a charge of 2− and contains 18 electrons. What is the atomic number of the element?",
+  "choices": [
+   "16",
+   "18",
+   "20",
+   "17"
+  ],
+  "answer": "16",
+  "hint": "A negative ion has MORE electrons than protons. Atomic number = number of protons.",
+  "explain": "A 2− charge means two extra electrons, so protons = 18 − 2 = 16 (sulfur, S²⁻). Answering 18 ignores the charge; 20 adds the two electrons instead of subtracting (that would be a 2+ ion).",
+  "html": {
+   "prompt": "An ion has a charge of 2− and contains 18 electrons. What is the atomic number of the element?",
+   "choices": [
+    "16",
+    "18",
+    "20",
+    "17"
+   ],
+   "hint": "A negative ion has MORE electrons than protons. Atomic number = number of protons.",
+   "explain": "A 2− charge means two extra electrons, so protons = 18 − 2 = <b>16</b> (sulfur, S<sup>2−</sup>). Answering 18 ignores the charge; 20 adds the two electrons instead of subtracting (that would be a 2+ ion)."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 530
+  }
+ },
+ {
+  "id": "finalexam-9ab239af",
+  "skill": "finalexam.1a.atoms",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-2"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Four atoms are identified below by name and mass number. Which one has the largest number of neutrons in its nucleus?",
+  "choices": [
+   "argon-40",
+   "calcium-40",
+   "potassium-39",
+   "chlorine-37"
+  ],
+  "answer": "argon-40",
+  "hint": "Neutrons = mass number − atomic number. The largest mass number does not guarantee the most neutrons.",
+  "explain": "Argon-40: 40 − 18 = 22 neutrons. Calcium-40 has 40 − 20 = 20, potassium-39 has 39 − 19 = 20 and chlorine-37 has 37 − 17 = 20. Ca-40 is tempting because it has the same mass number and more protons, but more protons means fewer neutrons for the same mass number.",
+  "html": {
+   "prompt": "Four atoms are identified below by name and mass number. Which one has the largest number of neutrons in its nucleus?",
+   "choices": [
+    "argon-40",
+    "calcium-40",
+    "potassium-39",
+    "chlorine-37"
+   ],
+   "hint": "Neutrons = mass number − atomic number. The largest mass number does not guarantee the most neutrons.",
+   "explain": "Argon-40: 40 − 18 = <b>22 neutrons</b>. Calcium-40 has 40 − 20 = 20, potassium-39 has 39 − 19 = 20 and chlorine-37 has 37 − 17 = 20. Ca-40 is tempting because it has the same mass number and more protons, but more protons means fewer neutrons for the same mass number."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 531
+  }
+ },
+ {
+  "id": "finalexam-796f50ee",
+  "skill": "finalexam.1a.atoms",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-2"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which statement about atomic structure is correct?",
+  "choices": [
+   "The mass number of an atom is the total number of protons and neutrons in its nucleus.",
+   "The atomic number of an element equals the number of neutrons in one of its atoms.",
+   "The nucleus of an atom contains both protons and electrons.",
+   "In a neutral atom the number of neutrons equals the number of electrons."
+  ],
+  "answer": "The mass number of an atom is the total number of protons and neutrons in its nucleus.",
+  "hint": "Z counts protons; A counts protons + neutrons; electrons sit outside the nucleus and equal protons in a neutral atom.",
+  "explain": "Mass number A = protons + neutrons. Atomic number Z counts protons (not neutrons); electrons are outside the nucleus; neutrality links electrons to protons, and the neutron count is unrelated.",
+  "html": {
+   "prompt": "Which statement about atomic structure is correct?",
+   "choices": [
+    "The mass number of an atom is the total number of protons and neutrons in its nucleus.",
+    "The atomic number of an element equals the number of neutrons in one of its atoms.",
+    "The nucleus of an atom contains both protons and electrons.",
+    "In a neutral atom the number of neutrons equals the number of electrons."
+   ],
+   "hint": "Z counts protons; A counts protons + neutrons; electrons sit outside the nucleus and equal protons in a neutral atom.",
+   "explain": "<b>Mass number A = protons + neutrons</b>. Atomic number Z counts protons (not neutrons); electrons are outside the nucleus; neutrality links electrons to protons, and the neutron count is unrelated."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 532
+  }
+ },
+ {
+  "id": "finalexam-d7d3896e",
+  "skill": "finalexam.1a.atoms",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-2"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Silver has two stable isotopes, ¹⁰⁷Ag and ¹⁰⁹Ag, and its average atomic mass is 107.87 u. Which statement is correct?",
+  "choices": [
+   "¹⁰⁷Ag is more abundant than ¹⁰⁹Ag.",
+   "¹⁰⁹Ag is more abundant than ¹⁰⁷Ag.",
+   "The two isotopes are equally abundant.",
+   "Nearly all natural silver is ¹⁰⁹Ag."
+  ],
+  "answer": "¹⁰⁷Ag is more abundant than ¹⁰⁹Ag.",
+  "hint": "The weighted average sits closer to the mass of the more abundant isotope.",
+  "explain": "107.87 is closer to 107 than to 109, so ¹⁰⁷Ag is the more abundant isotope (about 52%). Equal abundances would give an average of about 108.0; an average near 109 would require mostly ¹⁰⁹Ag.",
+  "html": {
+   "prompt": "Silver has two stable isotopes, <sup>107</sup>Ag and <sup>109</sup>Ag, and its average atomic mass is 107.87 u. Which statement is correct?",
+   "choices": [
+    "<sup>107</sup>Ag is more abundant than <sup>109</sup>Ag.",
+    "<sup>109</sup>Ag is more abundant than <sup>107</sup>Ag.",
+    "The two isotopes are equally abundant.",
+    "Nearly all natural silver is <sup>109</sup>Ag."
+   ],
+   "hint": "The weighted average sits closer to the mass of the more abundant isotope.",
+   "explain": "107.87 is closer to 107 than to 109, so <b><sup>107</sup>Ag is the more abundant isotope</b> (about 52%). Equal abundances would give an average of about 108.0; an average near 109 would require mostly <sup>109</sup>Ag."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 533
+  }
+ },
+ {
+  "id": "finalexam-7a8fd09e",
+  "skill": "finalexam.1a.atoms",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-2"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "Gallium has two natural isotopes. The more abundant one, ⁶⁹Ga (mass 68.9256 u), makes up 60.11% of gallium atoms, and the average atomic mass of gallium is 69.72 u. What is the other isotope?",
+  "choices": [
+   "⁷¹Ga",
+   "⁷⁰Ga",
+   "⁷²Ga",
+   "⁶⁸Ga"
+  ],
+  "answer": "⁷¹Ga",
+  "hint": "average = (fraction₁)(mass₁) + (fraction₂)(mass₂); the second fraction is 1 − 0.6011. Solve for mass₂.",
+  "explain": "69.72 = 0.6011(68.9256) + 0.3989(m), so m = (69.72 − 41.43)/0.3989 = 70.9 u → ⁷¹Ga. ⁷⁰Ga would put the average at about 69.3 u; choosing a mass below 68.9 cannot raise the average above the ⁶⁹Ga mass.",
+  "html": {
+   "prompt": "Gallium has two natural isotopes. The more abundant one, <sup>69</sup>Ga (mass 68.9256 u), makes up 60.11% of gallium atoms, and the average atomic mass of gallium is 69.72 u. What is the other isotope?",
+   "choices": [
+    "<sup>71</sup>Ga",
+    "<sup>70</sup>Ga",
+    "<sup>72</sup>Ga",
+    "<sup>68</sup>Ga"
+   ],
+   "hint": "average = (fraction<sub>1</sub>)(mass<sub>1</sub>) + (fraction<sub>2</sub>)(mass<sub>2</sub>); the second fraction is 1 − 0.6011. Solve for mass<sub>2</sub>.",
+   "explain": "69.72 = 0.6011(68.9256) + 0.3989(m), so m = (69.72 − 41.43)/0.3989 = <b>70.9 u → <sup>71</sup>Ga</b>. <sup>70</sup>Ga would put the average at about 69.3 u; choosing a mass below 68.9 cannot raise the average above the <sup>69</sup>Ga mass."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 534
+  }
+ },
+ {
+  "id": "finalexam-a0cd8487",
+  "skill": "finalexam.1a.atoms",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-2"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Natural boron is 19.9% ¹⁰B and 80.1% ¹¹B. Each box holds ten boron atoms. Which box best represents a natural sample of boron?",
+  "choices": [
+   "I",
+   "II",
+   "III",
+   "IV"
+  ],
+  "answer": "I",
+  "hint": "Convert the percentages to atoms out of ten: about 2 of one isotope and 8 of the other. Then check which isotope is which.",
+  "explain": "19.9% of 10 atoms ≈ 2 atoms of ¹⁰B and 80.1% ≈ 8 atoms of ¹¹B: box I. Box II reverses the isotopes, box III shows a 50 : 50 sample, and box IV shows only ¹¹B.",
+  "html": {
+   "prompt": "Natural boron is 19.9% <sup>10</sup>B and 80.1% <sup>11</sup>B. Each box holds ten boron atoms. Which box best represents a natural sample of boron?",
+   "choices": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "hint": "Convert the percentages to atoms out of ten: about 2 of one isotope and 8 of the other. Then check which isotope is which.",
+   "explain": "19.9% of 10 atoms ≈ 2 atoms of <sup>10</sup>B and 80.1% ≈ 8 atoms of <sup>11</sup>B: box <b>I</b>. Box II reverses the isotopes, box III shows a 50 : 50 sample, and box IV shows only <sup>11</sup>B."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "particles",
+     "key": {
+      "T": {
+       "c": "#f2c14e",
+       "n": "B-10"
+      },
+      "E": {
+       "c": "#3b82b4",
+       "n": "B-11"
+      }
+     },
+     "boxes": [
+      {
+       "cap": "I",
+       "mols": [
+        [
+         "T"
+        ],
+        [
+         "T"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ]
+       ]
+      },
+      {
+       "cap": "II",
+       "mols": [
+        [
+         "T"
+        ],
+        [
+         "T"
+        ],
+        [
+         "T"
+        ],
+        [
+         "T"
+        ],
+        [
+         "T"
+        ],
+        [
+         "T"
+        ],
+        [
+         "T"
+        ],
+        [
+         "T"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ]
+       ]
+      },
+      {
+       "cap": "III",
+       "mols": [
+        [
+         "T"
+        ],
+        [
+         "T"
+        ],
+        [
+         "T"
+        ],
+        [
+         "T"
+        ],
+        [
+         "T"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ]
+       ]
+      },
+      {
+       "cap": "IV",
+       "mols": [
+        [
+         "E"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ],
+        [
+         "E"
+        ]
+       ]
+      }
+     ],
+     "seed": 87
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 535
+  }
+ },
+ {
+  "id": "finalexam-6d4df9c1",
+  "skill": "finalexam.1a.atoms",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-2"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which element exists as diatomic molecules under ordinary conditions?",
+  "choices": [
+   "nitrogen",
+   "neon",
+   "sulfur",
+   "phosphorus"
+  ],
+  "answer": "nitrogen",
+  "hint": "Seven elements are diatomic: H₂, N₂, O₂, F₂, Cl₂, Br₂, I₂.",
+  "explain": "Nitrogen exists as N₂. Neon, like all noble gases, is monatomic. Sulfur and phosphorus are molecular nonmetals but form S₈ rings and P₄ tetrahedra, not diatomic molecules.",
+  "html": {
+   "prompt": "Which element exists as diatomic molecules under ordinary conditions?",
+   "choices": [
+    "nitrogen",
+    "neon",
+    "sulfur",
+    "phosphorus"
+   ],
+   "hint": "Seven elements are diatomic: H<sub>2</sub>, N<sub>2</sub>, O<sub>2</sub>, F<sub>2</sub>, Cl<sub>2</sub>, Br<sub>2</sub>, I<sub>2</sub>.",
+   "explain": "<b>Nitrogen</b> exists as N<sub>2</sub>. Neon, like all noble gases, is monatomic. Sulfur and phosphorus are molecular nonmetals but form S<sub>8</sub> rings and P<sub>4</sub> tetrahedra, not diatomic molecules."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 536
+  }
+ },
+ {
+  "id": "finalexam-7c44ef00",
+  "skill": "finalexam.1a.atoms",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-2"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Moving down one column of the periodic table, the elements change from nonmetal to metalloid to metal. Which group shows this pattern?",
+  "choices": [
+   "Group 14",
+   "Group 1",
+   "Group 2",
+   "Group 17"
+  ],
+  "answer": "Group 14",
+  "hint": "The metal–nonmetal staircase cuts through the p block; groups it crosses contain all three element types.",
+  "explain": "Group 14: carbon is a nonmetal, silicon and germanium are metalloids, and tin and lead are metals. Groups 1 and 2 are entirely metals (hydrogen aside); group 17 is entirely nonmetals.",
+  "html": {
+   "prompt": "Moving down one column of the periodic table, the elements change from nonmetal to metalloid to metal. Which group shows this pattern?",
+   "choices": [
+    "Group 14",
+    "Group 1",
+    "Group 2",
+    "Group 17"
+   ],
+   "hint": "The metal–nonmetal staircase cuts through the p block; groups it crosses contain all three element types.",
+   "explain": "<b>Group 14</b>: carbon is a nonmetal, silicon and germanium are metalloids, and tin and lead are metals. Groups 1 and 2 are entirely metals (hydrogen aside); group 17 is entirely nonmetals."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 537
+  }
+ },
+ {
+  "id": "finalexam-64bbafc4",
+  "skill": "finalexam.1a.atoms",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-2"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "A reagent label says \"contains a transition metal.\" For which of these compounds would that label be accurate?",
+  "choices": [
+   "MnO₂",
+   "Al₂O₃",
+   "SnCl₂",
+   "SrO"
+  ],
+  "answer": "MnO₂",
+  "hint": "Transition metals are the d-block elements in groups 3–12.",
+  "explain": "Manganese (group 7) is a d-block transition metal. Aluminum (group 13) and tin (group 14) are main-group metals, and strontium (group 2) is an alkaline earth metal.",
+  "html": {
+   "prompt": "A reagent label says \"contains a transition metal.\" For which of these compounds would that label be accurate?",
+   "choices": [
+    "MnO<sub>2</sub>",
+    "Al<sub>2</sub>O<sub>3</sub>",
+    "SnCl<sub>2</sub>",
+    "SrO"
+   ],
+   "hint": "Transition metals are the d-block elements in groups 3–12.",
+   "explain": "<b>Manganese</b> (group 7) is a d-block transition metal. Aluminum (group 13) and tin (group 14) are main-group metals, and strontium (group 2) is an alkaline earth metal."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 538
+  }
+ },
+ {
+  "id": "finalexam-3f9f10d9",
+  "skill": "finalexam.1a.atoms",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-2"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "An element M forms an ionic oxide with the formula MO. What is the formula of the phosphate of M?",
+  "choices": [
+   "M₃(PO₄)₂",
+   "MPO₄",
+   "M₂(PO₄)₃",
+   "M(PO₄)₂"
+  ],
+  "answer": "M₃(PO₄)₂",
+  "hint": "Use the oxide (O²⁻) to find the charge on M, then balance that charge against PO³⁻₄.",
+  "explain": "In MO one O²⁻ is balanced by one M, so M is M²⁺. Three M²⁺ (+6) balance two PO³⁻₄ (−6): M₃(PO₄)₂. MPO₄ would need M³⁺; M₂(PO₄)₃ also needs M³⁺ and copies the 2 : 3 pattern of an oxide.",
+  "html": {
+   "prompt": "An element M forms an ionic oxide with the formula MO. What is the formula of the phosphate of M?",
+   "choices": [
+    "M<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>",
+    "MPO<sub>4</sub>",
+    "M<sub>2</sub>(PO<sub>4</sub>)<sub>3</sub>",
+    "M(PO<sub>4</sub>)<sub>2</sub>"
+   ],
+   "hint": "Use the oxide (O<sup>2−</sup>) to find the charge on M, then balance that charge against <span class=\"nw\">PO<span class=\"ss\"><sup>3−</sup><sub>4</sub></span>.</span>",
+   "explain": "In MO one O<sup>2−</sup> is balanced by one M, so M is M<sup>2+</sup>. Three M<sup>2+</sup> (+6) balance two <span class=\"nw\">PO<span class=\"ss\"><sup>3−</sup><sub>4</sub></span></span> (−6): <b>M<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub></b>. MPO<sub>4</sub> would need M<sup>3+</sup>; M<sub>2</sub>(PO<sub>4</sub>)<sub>3</sub> also needs M<sup>3+</sup> and copies the 2 : 3 pattern of an oxide."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 539
+  }
+ },
+ {
+  "id": "finalexam-56ff7b25",
+  "skill": "finalexam.1a.quantum",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "In the Bohr model the electron of a hydrogen atom travels in a fixed circular orbit. In the modern quantum-mechanical model, what replaces this orbit?",
+  "choices": [
+   "An orbital: a region of space where there is a high probability of finding the electron",
+   "An elliptical orbit whose shape depends on the energy level",
+   "A continuous ring of negative charge spread evenly around the nucleus",
+   "A set of orbits of any radius, because the energy is no longer quantized"
+  ],
+  "answer": "An orbital: a region of space where there is a high probability of finding the electron",
+  "hint": "Modern theory gives up exact electron paths (uncertainty principle) but keeps quantized energies.",
+  "explain": "Quantum mechanics describes the electron by a wave function; its square gives the probability of finding the electron, an orbital, not a path. Energies remain quantized, so the orbits do not become arbitrary, and the electron is not a smeared ring of charge.",
+  "html": {
+   "prompt": "In the Bohr model the electron of a hydrogen atom travels in a fixed circular orbit. In the modern quantum-mechanical model, what replaces this orbit?",
+   "choices": [
+    "An orbital: a region of space where there is a high probability of finding the electron",
+    "An elliptical orbit whose shape depends on the energy level",
+    "A continuous ring of negative charge spread evenly around the nucleus",
+    "A set of orbits of any radius, because the energy is no longer quantized"
+   ],
+   "hint": "Modern theory gives up exact electron paths (uncertainty principle) but keeps quantized energies.",
+   "explain": "Quantum mechanics describes the electron by a wave function; its square gives the <b>probability of finding the electron, an orbital</b>, not a path. Energies remain quantized, so the orbits do not become arbitrary, and the electron is not a smeared ring of charge."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 540
+  }
+ },
+ {
+  "id": "finalexam-3f9d3d1a",
+  "skill": "finalexam.1a.quantum",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "An element is in period 4, group 15 of the periodic table. What is the electron configuration of its valence electrons?",
+  "choices": [
+   "4s²4p³",
+   "4s²3d¹⁰4p³",
+   "3s²3p³",
+   "4s²4p⁵"
+  ],
+  "answer": "4s²4p³",
+  "hint": "Period number = n of the valence shell; group 15 is the third column of the p block.",
+  "explain": "Period 4 puts the valence electrons in n = 4; group 15 means five valence electrons, 4s² plus three in 4p: 4s²4p³ (arsenic). The filled 3d¹⁰ is part of the core, not the valence shell; 3s²3p³ is phosphorus in period 3.",
+  "html": {
+   "prompt": "An element is in period 4, group 15 of the periodic table. What is the electron configuration of its valence electrons?",
+   "choices": [
+    "4s<sup>2</sup>4p<sup>3</sup>",
+    "4s<sup>2</sup>3d<sup>10</sup>4p<sup>3</sup>",
+    "3s<sup>2</sup>3p<sup>3</sup>",
+    "4s<sup>2</sup>4p<sup>5</sup>"
+   ],
+   "hint": "Period number = n of the valence shell; group 15 is the third column of the p block.",
+   "explain": "Period 4 puts the valence electrons in n = 4; group 15 means five valence electrons, 4s<sup>2</sup> plus three in 4p: <b>4s<sup>2</sup>4p<sup>3</sup></b> (arsenic). The filled 3d<sup>10</sup> is part of the core, not the valence shell; 3s<sup>2</sup>3p<sup>3</sup> is phosphorus in period 3."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 541
+  }
+ },
+ {
+  "id": "finalexam-16c4be65",
+  "skill": "finalexam.1a.quantum",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "The 4f subshell is made up of seven orbitals. At most, how many electrons can ONE of those orbitals hold?",
+  "choices": [
+   "2",
+   "14",
+   "7",
+   "4"
+  ],
+  "answer": "2",
+  "hint": "An ORBITAL (not a subshell) holds at most two electrons with opposite spins.",
+  "explain": "Any one orbital, whatever its shape, holds at most 2 electrons (Pauli exclusion principle). 14 is the capacity of the whole 4f SUBSHELL (7 orbitals × 2); 7 is the number of f orbitals.",
+  "html": {
+   "prompt": "The 4f subshell is made up of seven orbitals. At most, how many electrons can ONE of those orbitals hold?",
+   "choices": [
+    "2",
+    "14",
+    "7",
+    "4"
+   ],
+   "hint": "An ORBITAL (not a subshell) holds at most two electrons with opposite spins.",
+   "explain": "Any one orbital, whatever its shape, holds at most <b>2</b> electrons (Pauli exclusion principle). 14 is the capacity of the whole 4f SUBSHELL (7 orbitals × 2); 7 is the number of f orbitals."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 542
+  }
+ },
+ {
+  "id": "finalexam-e234fbe6",
+  "skill": "finalexam.1a.periodic",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "The species O²⁻, F⁻, Ne and Na⁺ all contain 10 electrons. From which one does it take the MOST energy to remove an electron?",
+  "choices": [
+   "Na⁺",
+   "O²⁻",
+   "F⁻",
+   "Ne"
+  ],
+  "answer": "Na⁺",
+  "hint": "Same electron count, different nuclear charge: more protons pull the same 10 electrons more tightly.",
+  "explain": "All four have the same electrons, so the one with the most protons, Na⁺ (Z = 11), holds them most tightly and has the highest ionization energy. O²⁻ (Z = 8) loses an electron most easily; its extra electrons are only weakly held. Ne is neutral but has fewer protons than Na⁺.",
+  "html": {
+   "prompt": "The species O<sup>2−</sup>, F<sup>−</sup>, Ne and Na<sup>+</sup> all contain 10 electrons. From which one does it take the MOST energy to remove an electron?",
+   "choices": [
+    "Na<sup>+</sup>",
+    "O<sup>2−</sup>",
+    "F<sup>−</sup>",
+    "Ne"
+   ],
+   "hint": "Same electron count, different nuclear charge: more protons pull the same 10 electrons more tightly.",
+   "explain": "All four have the same electrons, so the one with the most protons, <b>Na<sup>+</sup></b> (Z = 11), holds them most tightly and has the highest ionization energy. O<sup>2−</sup> (Z = 8) loses an electron most easily; its extra electrons are only weakly held. Ne is neutral but has fewer protons than Na<sup>+</sup>."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 543
+  }
+ },
+ {
+  "id": "finalexam-8e46d907",
+  "skill": "finalexam.1a.composition",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-3"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Exactly 6.022×10²³ molecules of oxygen gas, O₂, are sealed in a flask. Which statement about this sample is correct?",
+  "choices": [
+   "It contains 1.00 mol of O₂ molecules and 2.00 mol of oxygen atoms.",
+   "It contains 1.00 mol of O₂ molecules and 1.00 mol of oxygen atoms.",
+   "It contains 0.500 mol of O₂ molecules and 1.00 mol of oxygen atoms.",
+   "It contains 1.00 mol of O₂ molecules and has a mass of 16.00 g."
+  ],
+  "answer": "It contains 1.00 mol of O₂ molecules and 2.00 mol of oxygen atoms.",
+  "hint": "Avogadro's number counts whatever particle you name. Each O₂ molecule contains two atoms.",
+  "explain": "6.022×10²³ molecules is exactly 1.00 mol of O₂; each molecule has two atoms, so there are 2.00 mol of O atoms. Counting 1.00 mol of atoms (or 0.500 mol of molecules) treats the number as atoms; the mass is 1.00 mol × 32.00 g mol⁻¹ = 32.00 g, not 16.00 g.",
+  "html": {
+   "prompt": "Exactly 6.022×10<sup>23</sup> molecules of oxygen gas, O<sub>2</sub>, are sealed in a flask. Which statement about this sample is correct?",
+   "choices": [
+    "It contains 1.00 mol of O<sub>2</sub> molecules and 2.00 mol of oxygen atoms.",
+    "It contains 1.00 mol of O<sub>2</sub> molecules and 1.00 mol of oxygen atoms.",
+    "It contains 0.500 mol of O<sub>2</sub> molecules and 1.00 mol of oxygen atoms.",
+    "It contains 1.00 mol of O<sub>2</sub> molecules and has a mass of 16.00 g."
+   ],
+   "hint": "Avogadro's number counts whatever particle you name. Each O<sub>2</sub> molecule contains two atoms.",
+   "explain": "6.022×10<sup>23</sup> molecules is exactly 1.00 mol of O<sub>2</sub>; each molecule has two atoms, so there are <b>2.00 mol of O atoms</b>. Counting 1.00 mol of atoms (or 0.500 mol of molecules) treats the number as atoms; the mass is 1.00 mol × 32.00 g mol⁻¹ = 32.00 g, not 16.00 g."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 544
+  }
+ },
+ {
+  "id": "finalexam-6acb1c24",
+  "skill": "finalexam.1a.composition",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-3"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Each of these samples contains Avogadro's number of particles. Which one weighs the most?",
+  "choices": [
+   "1 mol of CO₂",
+   "1 mol of Ar",
+   "1 mol of H₂O",
+   "1 mol of He"
+  ],
+  "answer": "1 mol of CO₂",
+  "hint": "Equal numbers of particles: compare molar masses. A molecule's mass is the sum of its atoms' masses.",
+  "explain": "Molar masses: CO₂ 44.01, Ar 39.95, H₂O 18.02, He 4.003 g mol⁻¹. One mole of CO₂ weighs the most. Argon is tempting because a single Ar atom is heavier than any atom in CO₂, but each CO₂ molecule totals 44 u.",
+  "html": {
+   "prompt": "Each of these samples contains Avogadro's number of particles. Which one weighs the most?",
+   "choices": [
+    "1 mol of CO<sub>2</sub>",
+    "1 mol of Ar",
+    "1 mol of H<sub>2</sub>O",
+    "1 mol of He"
+   ],
+   "hint": "Equal numbers of particles: compare molar masses. A molecule's mass is the sum of its atoms' masses.",
+   "explain": "Molar masses: CO<sub>2</sub> 44.01, Ar 39.95, H<sub>2</sub>O 18.02, He 4.003 g mol⁻¹. One mole of <b>CO<sub>2</sub></b> weighs the most. Argon is tempting because a single Ar atom is heavier than any atom in CO<sub>2</sub>, but each CO<sub>2</sub> molecule totals 44 u."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 545
+  }
+ },
+ {
+  "id": "finalexam-2b9e0408",
+  "skill": "finalexam.1a.composition",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-3"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "A tablet contains 2.50×10²² molecules of aspirin, C₉H₈O₄. What mass of carbon does the tablet contain?",
+  "choices": [
+   "4.49 g",
+   "0.499 g",
+   "0.374 g",
+   "7.48 g"
+  ],
+  "answer": "4.49 g",
+  "hint": "molecules → moles of aspirin (÷ N_A) → moles of C (×9) → grams of C (×12.01).",
+  "explain": "2.50×10²² ÷ 6.022×10²³ = 0.0415 mol aspirin; × 9 = 0.374 mol C; × 12.01 g mol⁻¹ = 4.49 g. 0.499 g forgets the 9 carbons per molecule; 0.374 is the number of moles of C, not grams; 7.48 g is the mass of the whole aspirin sample.",
+  "html": {
+   "prompt": "A tablet contains 2.50×10<sup>22</sup> molecules of aspirin, C<sub>9</sub>H<sub>8</sub>O<sub>4</sub>. What mass of carbon does the tablet contain?",
+   "choices": [
+    "4.49 g",
+    "0.499 g",
+    "0.374 g",
+    "7.48 g"
+   ],
+   "hint": "molecules → moles of aspirin (÷ N<sub>A</sub>) → moles of C (×9) → grams of C (×12.01).",
+   "explain": "2.50×10<sup>22</sup> ÷ 6.022×10<sup>23</sup> = 0.0415 mol aspirin; × 9 = 0.374 mol C; × 12.01 g mol⁻¹ = <b>4.49 g</b>. 0.499 g forgets the 9 carbons per molecule; 0.374 is the number of moles of C, not grams; 7.48 g is the mass of the whole aspirin sample."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 546
+  }
+ },
+ {
+  "id": "finalexam-f02da7f4",
+  "skill": "finalexam.1a.composition",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-3"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "A bottle holds 2.0 mol of aluminum sulfate, Al₂(SO₄)₃. How many moles of oxygen ATOMS does the bottle contain?",
+  "choices": [
+   "24 mol",
+   "12 mol",
+   "8.0 mol",
+   "6.0 mol"
+  ],
+  "answer": "24 mol",
+  "hint": "Multiply the subscripts inside and outside the parentheses to count O atoms per formula unit.",
+  "explain": "Each Al₂(SO₄)₃ has 3 × 4 = 12 O atoms, so 2.0 mol × 12 = 24 mol O. 12 mol is the count for one mole; 8.0 mol multiplies only the outer subscript (4 × 2); 6.0 mol uses the inner 3 only.",
+  "html": {
+   "prompt": "A bottle holds 2.0 mol of aluminum sulfate, Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>. How many moles of oxygen ATOMS does the bottle contain?",
+   "choices": [
+    "24 mol",
+    "12 mol",
+    "8.0 mol",
+    "6.0 mol"
+   ],
+   "hint": "Multiply the subscripts inside and outside the parentheses to count O atoms per formula unit.",
+   "explain": "Each Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> has 3 × 4 = 12 O atoms, so 2.0 mol × 12 = <b>24 mol O</b>. 12 mol is the count for one mole; 8.0 mol multiplies only the outer subscript (4 × 2); 6.0 mol uses the inner 3 only."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 547
+  }
+ },
+ {
+  "id": "finalexam-c4147e0b",
+  "skill": "finalexam.1a.composition",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-3"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "Mass spectrometry shows that a single molecule of an unknown gas weighs 7.31×10⁻²³ g. What molar mass does this correspond to?",
+  "choices": [
+   "44.0 g mol⁻¹",
+   "22.0 g mol⁻¹",
+   "88.0 g mol⁻¹",
+   "1.21×10⁻⁴⁶ g mol⁻¹"
+  ],
+  "answer": "44.0 g mol⁻¹",
+  "hint": "A mole is 6.022×10²³ molecules, so multiply the mass of one molecule by Avogadro's number.",
+  "explain": "7.31×10⁻²³ g/molecule × 6.022×10²³ molecules/mol = 44.0 g mol⁻¹ (CO₂ or N₂O, for example). Dividing by N_A gives 1.21×10⁻⁴⁶; 22.0 and 88.0 halve or double the correct value.",
+  "html": {
+   "prompt": "Mass spectrometry shows that a single molecule of an unknown gas weighs 7.31×10<sup>−23</sup> g. What molar mass does this correspond to?",
+   "choices": [
+    "44.0 g mol<sup>−1</sup>",
+    "22.0 g mol<sup>−1</sup>",
+    "88.0 g mol<sup>−1</sup>",
+    "1.21×10<sup>−46</sup> g mol<sup>−1</sup>"
+   ],
+   "hint": "A mole is 6.022×10<sup>23</sup> molecules, so multiply the mass of one molecule by Avogadro's number.",
+   "explain": "7.31×10<sup>−23</sup> g/molecule × 6.022×10<sup>23</sup> molecules/mol = <b>44.0 g mol<sup>−1</sup></b> (CO<sub>2</sub> or N<sub>2</sub>O, for example). Dividing by N<sub>A</sub> gives 1.21×10<sup>−46</sup>; 22.0 and 88.0 halve or double the correct value."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 548
+  }
+ },
+ {
+  "id": "finalexam-08401240",
+  "skill": "finalexam.1a.composition",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-3"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "A compound of sulfur and fluorine has the formula SFn. A sample containing 3.01×10²¹ molecules has a mass of 0.730 g. What is n?",
+  "choices": [
+   "6",
+   "4",
+   "8",
+   "2"
+  ],
+  "answer": "6",
+  "hint": "Convert molecules to moles, divide mass by moles to get the molar mass, then subtract the mass of S and divide by 19.00.",
+  "explain": "3.01×10²¹ ÷ 6.022×10²³ = 5.00×10⁻³ mol; 0.730 g ÷ 5.00×10⁻³ mol = 146 g mol⁻¹. (146 − 32.06)/19.00 = 6.0, so n = 6 (SF₆). SF₄ would have a molar mass of 108 g mol⁻¹, giving only 0.540 g for this many molecules.",
+  "html": {
+   "prompt": "A compound of sulfur and fluorine has the formula SF<sub><i>n</i></sub>. A sample containing 3.01×10<sup>21</sup> molecules has a mass of 0.730 g. What is <i>n</i>?",
+   "choices": [
+    "6",
+    "4",
+    "8",
+    "2"
+   ],
+   "hint": "Convert molecules to moles, divide mass by moles to get the molar mass, then subtract the mass of S and divide by 19.00.",
+   "explain": "3.01×10<sup>21</sup> ÷ 6.022×10<sup>23</sup> = 5.00×10<sup>−3</sup> mol; 0.730 g ÷ 5.00×10<sup>−3</sup> mol = 146 g mol⁻¹. (146 − 32.06)/19.00 = 6.0, so <b><i>n</i> = 6</b> (SF<sub>6</sub>). SF<sub>4</sub> would have a molar mass of 108 g mol⁻¹, giving only 0.540 g for this many molecules."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 549
+  }
+ },
+ {
+  "id": "finalexam-5469dc37",
+  "skill": "finalexam.1a.composition",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-3"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Oxygen makes up a different fraction of the mass of each of these compounds. In which one is that fraction the largest?",
+  "choices": [
+   "H₂O",
+   "CO₂",
+   "NO₂",
+   "SO₂"
+  ],
+  "answer": "H₂O",
+  "hint": "Percent by mass depends on what the oxygen is combined with, not just on how many O atoms there are.",
+  "explain": "H₂O: 16.00/18.02 = 88.8% O. CO₂ is 72.7%, NO₂ 69.6% and SO₂ 50.0%. The dioxides have more O atoms, but each is paired with a heavier atom than hydrogen, so oxygen is a smaller fraction of the mass.",
+  "html": {
+   "prompt": "Oxygen makes up a different fraction of the mass of each of these compounds. In which one is that fraction the largest?",
+   "choices": [
+    "H<sub>2</sub>O",
+    "CO<sub>2</sub>",
+    "NO<sub>2</sub>",
+    "SO<sub>2</sub>"
+   ],
+   "hint": "Percent by mass depends on what the oxygen is combined with, not just on how many O atoms there are.",
+   "explain": "H<sub>2</sub>O: 16.00/18.02 = <b>88.8%</b> O. CO<sub>2</sub> is 72.7%, NO<sub>2</sub> 69.6% and SO<sub>2</sub> 50.0%. The dioxides have more O atoms, but each is paired with a heavier atom than hydrogen, so oxygen is a smaller fraction of the mass."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 550
+  }
+ },
+ {
+  "id": "finalexam-19f428ba",
+  "skill": "finalexam.1a.composition",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-3"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "A 5.00 g sample of glucose, C₆H₁₂O₆, is 40.0% carbon by mass. What is the mass percent of carbon in a 25.0 g sample of glucose?",
+  "choices": [
+   "40.0%",
+   "8.00%",
+   "200.%",
+   "60.0%"
+  ],
+  "answer": "40.0%",
+  "hint": "Mass percent is a ratio set by the formula (law of definite composition); it does not depend on sample size.",
+  "explain": "Every sample of a pure compound has the same composition, so the 25.0 g sample is also 40.0% C (it simply contains 10.0 g of C instead of 2.00 g). 8.00% divides the percent by 5 and 200% multiplies it by 5, as if percent scaled with mass.",
+  "html": {
+   "prompt": "A 5.00 g sample of glucose, C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>, is 40.0% carbon by mass. What is the mass percent of carbon in a 25.0 g sample of glucose?",
+   "choices": [
+    "40.0%",
+    "8.00%",
+    "200.%",
+    "60.0%"
+   ],
+   "hint": "Mass percent is a ratio set by the formula (law of definite composition); it does not depend on sample size.",
+   "explain": "Every sample of a pure compound has the same composition, so the 25.0 g sample is also <b>40.0% C</b> (it simply contains 10.0 g of C instead of 2.00 g). 8.00% divides the percent by 5 and 200% multiplies it by 5, as if percent scaled with mass."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 551
+  }
+ },
+ {
+  "id": "finalexam-b36d1b77",
+  "skill": "finalexam.1a.composition",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-3"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "An oxide of phosphorus is 56.4% P and 43.6% O by mass, and each molecule contains four phosphorus atoms. What is the molar mass of the compound?",
+  "choices": [
+   "220 g mol⁻¹",
+   "110 g mol⁻¹",
+   "284 g mol⁻¹",
+   "142 g mol⁻¹"
+  ],
+  "answer": "220 g mol⁻¹",
+  "hint": "Find the empirical formula from the percentages, then scale it so the molecule has four P atoms.",
+  "explain": "Per 100 g: 1.821 mol P and 2.725 mol O, ratio O/P = 1.50, so the empirical formula is P₂O₃. Four P atoms per molecule means P₄O₆: 4(30.97) + 6(16.00) = 220 g mol⁻¹. 110 is the empirical-formula mass; 284 is P₄O₁₀, which is only 43.6% P.",
+  "html": {
+   "prompt": "An oxide of phosphorus is 56.4% P and 43.6% O by mass, and each molecule contains four phosphorus atoms. What is the molar mass of the compound?",
+   "choices": [
+    "220 g mol<sup>−1</sup>",
+    "110 g mol<sup>−1</sup>",
+    "284 g mol<sup>−1</sup>",
+    "142 g mol<sup>−1</sup>"
+   ],
+   "hint": "Find the empirical formula from the percentages, then scale it so the molecule has four P atoms.",
+   "explain": "Per 100 g: 1.821 mol P and 2.725 mol O, ratio O/P = 1.50, so the empirical formula is P<sub>2</sub>O<sub>3</sub>. Four P atoms per molecule means P<sub>4</sub>O<sub>6</sub>: 4(30.97) + 6(16.00) = <b>220 g mol<sup>−1</sup></b>. 110 is the empirical-formula mass; 284 is P<sub>4</sub>O<sub>10</sub>, which is only 43.6% P."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 552
+  }
+ },
+ {
+  "id": "finalexam-f6fd316e",
+  "skill": "finalexam.1a.composition",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-3"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "Analysis shows that a cylinder of propane, C₃H₈, holds 4.032 g of hydrogen. How many moles of carbon atoms are in the cylinder?",
+  "choices": [
+   "1.500 mol",
+   "4.000 mol",
+   "0.5000 mol",
+   "10.67 mol"
+  ],
+  "answer": "1.500 mol",
+  "hint": "Convert the hydrogen mass to moles of H atoms, then use the 3 C : 8 H ratio in the formula.",
+  "explain": "4.032 g H ÷ 1.008 g mol⁻¹ = 4.000 mol H; × (3 mol C / 8 mol H) = 1.500 mol C. 4.000 mol is the moles of H itself; 0.5000 mol divides by 8 but forgets to multiply by 3; 10.67 mol inverts the ratio.",
+  "html": {
+   "prompt": "Analysis shows that a cylinder of propane, C<sub>3</sub>H<sub>8</sub>, holds 4.032 g of hydrogen. How many moles of carbon atoms are in the cylinder?",
+   "choices": [
+    "1.500 mol",
+    "4.000 mol",
+    "0.5000 mol",
+    "10.67 mol"
+   ],
+   "hint": "Convert the hydrogen mass to moles of H atoms, then use the 3 C : 8 H ratio in the formula.",
+   "explain": "4.032 g H ÷ 1.008 g mol⁻¹ = 4.000 mol H; × (3 mol C / 8 mol H) = <b>1.500 mol C</b>. 4.000 mol is the moles of H itself; 0.5000 mol divides by 8 but forgets to multiply by 3; 10.67 mol inverts the ratio."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 553
+  }
+ },
+ {
+  "id": "finalexam-44dfab8a",
+  "skill": "finalexam.1a.reactions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-4"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "In a reaction mixture containing two reactants, the limiting reactant is the one that",
+  "choices": [
+   "is completely consumed, so it fixes how much product can form.",
+   "is present in the smaller number of moles at the start of the reaction.",
+   "has the smaller coefficient in the balanced chemical equation.",
+   "is present in the smaller mass at the start of the reaction."
+  ],
+  "answer": "is completely consumed, so it fixes how much product can form.",
+  "hint": "Limiting means it runs out first. Compare amounts AFTER dividing by the coefficients, not raw moles or masses.",
+  "explain": "The limiting reactant is consumed completely, so the amount of product is fixed by it. The reactant with fewer moles (or less mass) is not necessarily limiting if its coefficient is also smaller; the coefficient alone says nothing without the amounts.",
+  "html": {
+   "prompt": "In a reaction mixture containing two reactants, the limiting reactant is the one that",
+   "choices": [
+    "is completely consumed, so it fixes how much product can form.",
+    "is present in the smaller number of moles at the start of the reaction.",
+    "has the smaller coefficient in the balanced chemical equation.",
+    "is present in the smaller mass at the start of the reaction."
+   ],
+   "hint": "Limiting means it runs out first. Compare amounts AFTER dividing by the coefficients, not raw moles or masses.",
+   "explain": "The <b>limiting reactant is consumed completely</b>, so the amount of product is fixed by it. The reactant with fewer moles (or less mass) is not necessarily limiting if its coefficient is also smaller; the coefficient alone says nothing without the amounts."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 554
+  }
+ },
+ {
+  "id": "finalexam-8edde3db",
+  "skill": "finalexam.1a.reactions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-4"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": true,
+  "prompt": "How many moles of O₂ are needed to burn 0.600 mol of propane completely by the reaction shown?",
+  "choices": [
+   "3.00 mol",
+   "0.120 mol",
+   "1.80 mol",
+   "2.40 mol"
+  ],
+  "answer": "3.00 mol",
+  "hint": "Use the coefficients as a mole ratio: 5 mol O₂ per 1 mol C₃H₈.",
+  "explain": "0.600 mol C₃H₈ × (5 mol O₂ / 1 mol C₃H₈) = 3.00 mol O₂. 0.120 mol inverts the ratio; 1.80 and 2.40 mol use the CO₂ (3) or H₂O (4) coefficient instead of the O₂ coefficient.",
+  "html": {
+   "prompt": "How many moles of O<sub>2</sub> are needed to burn 0.600 mol of propane completely by the reaction shown?",
+   "choices": [
+    "3.00 mol",
+    "0.120 mol",
+    "1.80 mol",
+    "2.40 mol"
+   ],
+   "hint": "Use the coefficients as a mole ratio: 5 mol O<sub>2</sub> per 1 mol C<sub>3</sub>H<sub>8</sub>.",
+   "explain": "0.600 mol C<sub>3</sub>H<sub>8</sub> × (5 mol O<sub>2</sub> / 1 mol C<sub>3</sub>H<sub>8</sub>) = <b>3.00 mol O<sub>2</sub></b>. 0.120 mol inverts the ratio; 1.80 and 2.40 mol use the CO<sub>2</sub> (3) or H<sub>2</sub>O (4) coefficient instead of the O<sub>2</sub> coefficient."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "C<sub>3</sub>H<sub>8</sub>(g) + 5 O<sub>2</sub>(g) → 3 CO<sub>2</sub>(g) + 4 H<sub>2</sub>O(g)"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 555
+  }
+ },
+ {
+  "id": "finalexam-cc137375",
+  "skill": "finalexam.1a.reactions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-4"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "In a blast furnace, 0.450 mol of Fe₂O₃ is reduced by excess carbon monoxide as shown. How many grams of iron result?",
+  "choices": [
+   "50.3 g",
+   "25.1 g",
+   "75.4 g",
+   "71.9 g"
+  ],
+  "answer": "50.3 g",
+  "hint": "Moles Fe₂O₃ → moles Fe with the 1 : 2 ratio, then multiply by the molar mass of Fe (not Fe₂O₃).",
+  "explain": "0.450 mol Fe₂O₃ × (2 mol Fe / 1 mol Fe₂O₃) × 55.85 g mol⁻¹ = 50.3 g Fe. 25.1 g uses a 1 : 1 ratio; 75.4 g uses the CO coefficient; 71.9 g multiplies by the molar mass of Fe₂O₃.",
+  "html": {
+   "prompt": "In a blast furnace, 0.450 mol of Fe<sub>2</sub>O<sub>3</sub> is reduced by excess carbon monoxide as shown. How many grams of iron result?",
+   "choices": [
+    "50.3 g",
+    "25.1 g",
+    "75.4 g",
+    "71.9 g"
+   ],
+   "hint": "Moles Fe<sub>2</sub>O<sub>3</sub> → moles Fe with the 1 : 2 ratio, then multiply by the molar mass of Fe (not Fe<sub>2</sub>O<sub>3</sub>).",
+   "explain": "0.450 mol Fe<sub>2</sub>O<sub>3</sub> × (2 mol Fe / 1 mol Fe<sub>2</sub>O<sub>3</sub>) × 55.85 g mol⁻¹ = <b>50.3 g Fe</b>. 25.1 g uses a 1 : 1 ratio; 75.4 g uses the CO coefficient; 71.9 g multiplies by the molar mass of Fe<sub>2</sub>O<sub>3</sub>."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "Fe<sub>2</sub>O<sub>3</sub>(s) + 3 CO(g) → 2 Fe(s) + 3 CO<sub>2</sub>(g)"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Substance",
+      "Molar mass (g mol<sup>−1</sup>)"
+     ],
+     "rows": [
+      [
+       "Fe",
+       "55.85"
+      ],
+      [
+       "Fe<sub>2</sub>O<sub>3</sub>",
+       "159.70"
+      ],
+      [
+       "CO",
+       "28.01"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 556
+  }
+ },
+ {
+  "id": "finalexam-4f32c114",
+  "skill": "finalexam.1a.reactions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-4"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "Automobile airbags inflate when sodium azide decomposes as shown. How many molecules of N₂ are produced from 1.30 g of NaN₃?",
+  "choices": [
+   "1.81×10²² molecules",
+   "1.20×10²² molecules",
+   "8.03×10²¹ molecules",
+   "3.61×10²² molecules"
+  ],
+  "answer": "1.81×10²² molecules",
+  "hint": "grams → moles NaN₃ → moles N₂ (3 : 2) → molecules (× N_A).",
+  "explain": "1.30 g ÷ 65.01 g mol⁻¹ = 0.0200 mol NaN₃; × 3/2 = 0.0300 mol N₂; × 6.022×10²³ = 1.81×10²² molecules. 1.20×10²² uses a 1 : 1 ratio; 8.03×10²¹ inverts the ratio; 3.61×10²² counts N atoms rather than N₂ molecules.",
+  "html": {
+   "prompt": "Automobile airbags inflate when sodium azide decomposes as shown. How many molecules of N<sub>2</sub> are produced from 1.30 g of NaN<sub>3</sub>?",
+   "choices": [
+    "1.81×10<sup>22</sup> molecules",
+    "1.20×10<sup>22</sup> molecules",
+    "8.03×10<sup>21</sup> molecules",
+    "3.61×10<sup>22</sup> molecules"
+   ],
+   "hint": "grams → moles NaN<sub>3</sub> → moles N<sub>2</sub> (3 : 2) → molecules (× N<sub>A</sub>).",
+   "explain": "1.30 g ÷ 65.01 g mol⁻¹ = 0.0200 mol NaN<sub>3</sub>; × 3/2 = 0.0300 mol N<sub>2</sub>; × 6.022×10<sup>23</sup> = <b>1.81×10<sup>22</sup> molecules</b>. 1.20×10<sup>22</sup> uses a 1 : 1 ratio; 8.03×10<sup>21</sup> inverts the ratio; 3.61×10<sup>22</sup> counts N atoms rather than N<sub>2</sub> molecules."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "2 NaN<sub>3</sub>(s) → 2 Na(s) + 3 N<sub>2</sub>(g)"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Substance",
+      "Molar mass (g mol<sup>−1</sup>)"
+     ],
+     "rows": [
+      [
+       "NaN<sub>3</sub>",
+       "65.01"
+      ],
+      [
+       "N<sub>2</sub>",
+       "28.02"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 557
+  }
+ },
+ {
+  "id": "finalexam-8360a12f",
+  "skill": "finalexam.1a.reactions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-4"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "0.40 mol of aluminum is mixed with 0.90 mol of chlorine gas and the reaction shown goes to completion. What amount of the excess reactant remains?",
+  "choices": [
+   "0.30 mol Cl₂",
+   "0.50 mol Cl₂",
+   "0.60 mol Cl₂",
+   "0.20 mol Al"
+  ],
+  "answer": "0.30 mol Cl₂",
+  "hint": "Find how much Cl₂ the 0.40 mol Al actually needs (2 : 3), then subtract from 0.90 mol.",
+  "explain": "0.40 mol Al needs 0.40 × 3/2 = 0.60 mol Cl₂; only 0.60 of the 0.90 mol reacts, leaving 0.30 mol Cl₂. 0.50 mol subtracts the moles of Al directly (ignores the ratio); 0.60 mol is the amount of Cl₂ consumed, not left over; Al is limiting, so none remains.",
+  "html": {
+   "prompt": "0.40 mol of aluminum is mixed with 0.90 mol of chlorine gas and the reaction shown goes to completion. What amount of the excess reactant remains?",
+   "choices": [
+    "0.30 mol Cl<sub>2</sub>",
+    "0.50 mol Cl<sub>2</sub>",
+    "0.60 mol Cl<sub>2</sub>",
+    "0.20 mol Al"
+   ],
+   "hint": "Find how much Cl<sub>2</sub> the 0.40 mol Al actually needs (2 : 3), then subtract from 0.90 mol.",
+   "explain": "0.40 mol Al needs 0.40 × 3/2 = 0.60 mol Cl<sub>2</sub>; only 0.60 of the 0.90 mol reacts, leaving <b>0.30 mol Cl<sub>2</sub></b>. 0.50 mol subtracts the moles of Al directly (ignores the ratio); 0.60 mol is the amount of Cl<sub>2</sub> consumed, not left over; Al is limiting, so none remains."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "2 Al(s) + 3 Cl<sub>2</sub>(g) → 2 AlCl<sub>3</sub>(s)"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 558
+  }
+ },
+ {
+  "id": "finalexam-07b32294",
+  "skill": "finalexam.1a.reactions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-4"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Equal numbers of moles of CH₄, O₂ and He are sealed in a chamber and the combustion shown goes to completion. The amount of which substance determines how much CO₂ forms?",
+  "choices": [
+   "O₂",
+   "CH₄",
+   "He",
+   "CH₄ and O₂ equally"
+  ],
+  "answer": "O₂",
+  "hint": "Divide each reactant's moles by its coefficient; the smallest quotient marks the limiting reactant. Helium does not react.",
+  "explain": "Each mole of CH₄ needs 2 mol O₂, so with equal moles the O₂ runs out first and limits the CO₂. CH₄ is left over; helium is an inert bystander and affects nothing.",
+  "html": {
+   "prompt": "Equal numbers of moles of CH<sub>4</sub>, O<sub>2</sub> and He are sealed in a chamber and the combustion shown goes to completion. The amount of which substance determines how much CO<sub>2</sub> forms?",
+   "choices": [
+    "O<sub>2</sub>",
+    "CH<sub>4</sub>",
+    "He",
+    "CH<sub>4</sub> and O<sub>2</sub> equally"
+   ],
+   "hint": "Divide each reactant's moles by its coefficient; the smallest quotient marks the limiting reactant. Helium does not react.",
+   "explain": "Each mole of CH<sub>4</sub> needs 2 mol O<sub>2</sub>, so with equal moles the <b>O<sub>2</sub></b> runs out first and limits the CO<sub>2</sub>. CH<sub>4</sub> is left over; helium is an inert bystander and affects nothing."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "CH<sub>4</sub>(g) + 2 O<sub>2</sub>(g) → CO<sub>2</sub>(g) + 2 H<sub>2</sub>O(g)"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 559
+  }
+ },
+ {
+  "id": "finalexam-ecc7afb7",
+  "skill": "finalexam.1a.reactions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-4"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "4,000 molecules of NH₃ and 5,000 molecules of O₂ react completely according to the equation shown. How many molecules in total are present afterward?",
+  "choices": [
+   "10,000",
+   "9,000",
+   "4,000",
+   "6,000"
+  ],
+  "answer": "10,000",
+  "hint": "Check whether the amounts are in the exact 4 : 5 ratio, then count the product molecules formed. Molecules are not conserved, atoms are.",
+  "explain": "4,000 : 5,000 is exactly 4 : 5, so both reactants are used up: 4,000 NO + 6,000 H₂O = 10,000 molecules. 9,000 assumes the number of molecules is conserved (only atoms are); 4,000 and 6,000 count a single product.",
+  "html": {
+   "prompt": "4,000 molecules of NH<sub>3</sub> and 5,000 molecules of O<sub>2</sub> react completely according to the equation shown. How many molecules in total are present afterward?",
+   "choices": [
+    "10,000",
+    "9,000",
+    "4,000",
+    "6,000"
+   ],
+   "hint": "Check whether the amounts are in the exact 4 : 5 ratio, then count the product molecules formed. Molecules are not conserved, atoms are.",
+   "explain": "4,000 : 5,000 is exactly 4 : 5, so both reactants are used up: 4,000 NO + 6,000 H<sub>2</sub>O = <b>10,000 molecules</b>. 9,000 assumes the number of molecules is conserved (only atoms are); 4,000 and 6,000 count a single product."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "4 NH<sub>3</sub>(g) + 5 O<sub>2</sub>(g) → 4 NO(g) + 6 H<sub>2</sub>O(g)"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 560
+  }
+ },
+ {
+  "id": "finalexam-19c953b2",
+  "skill": "finalexam.1a.solutions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-11"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "An open beaker of 1.0 M KCl solution is left on the bench for a week and some of the water evaporates. Which statement describes the solution afterward?",
+  "choices": [
+   "The moles of KCl are unchanged and the molarity has increased.",
+   "The moles of KCl have decreased and the molarity has decreased.",
+   "The moles of KCl are unchanged and the molarity is still 1.0 M.",
+   "The moles of KCl have increased and the molarity has increased."
+  ],
+  "answer": "The moles of KCl are unchanged and the molarity has increased.",
+  "hint": "Only water (solvent) leaves. Molarity = moles of solute ÷ liters of solution.",
+  "explain": "Evaporation removes solvent only, so the moles of KCl stay the same while the volume shrinks, raising the molarity. Solute cannot leave or appear; the molarity changes because the denominator changes.",
+  "html": {
+   "prompt": "An open beaker of 1.0 M KCl solution is left on the bench for a week and some of the water evaporates. Which statement describes the solution afterward?",
+   "choices": [
+    "The moles of KCl are unchanged and the molarity has increased.",
+    "The moles of KCl have decreased and the molarity has decreased.",
+    "The moles of KCl are unchanged and the molarity is still 1.0 M.",
+    "The moles of KCl have increased and the molarity has increased."
+   ],
+   "hint": "Only water (solvent) leaves. Molarity = moles of solute ÷ liters of solution.",
+   "explain": "Evaporation removes solvent only, so the <b>moles of KCl stay the same while the volume shrinks, raising the molarity</b>. Solute cannot leave or appear; the molarity changes because the denominator changes."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 561
+  }
+ },
+ {
+  "id": "finalexam-a272db07",
+  "skill": "finalexam.1a.solutions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-11"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "Which procedure correctly prepares 250.0 mL of 0.100 M NaCl (58.44 g mol⁻¹)?",
+  "choices": [
+   "Weigh 1.46 g NaCl, dissolve it in water, and add water until the total volume is 250.0 mL.",
+   "Weigh 1.46 g NaCl and add 250.0 mL of water.",
+   "Weigh 5.84 g NaCl, dissolve it in water, and add water until the total volume is 250.0 mL.",
+   "Weigh 5.84 g NaCl and add 250.0 mL of water."
+  ],
+  "answer": "Weigh 1.46 g NaCl, dissolve it in water, and add water until the total volume is 250.0 mL.",
+  "hint": "Moles = M × V(L); molarity is per liter of SOLUTION, so dilute to the final volume rather than adding a fixed volume of water.",
+  "explain": "0.100 mol L⁻¹ × 0.2500 L = 0.0250 mol × 58.44 g mol⁻¹ = 1.46 g, dissolved and diluted to a final volume of 250.0 mL. Adding 250.0 mL of water gives a slightly larger total volume and a lower concentration; 5.84 g uses 1.000 L instead of 0.2500 L.",
+  "html": {
+   "prompt": "Which procedure correctly prepares 250.0 mL of 0.100 M NaCl (58.44 g mol<sup>−1</sup>)?",
+   "choices": [
+    "Weigh 1.46 g NaCl, dissolve it in water, and add water until the total volume is 250.0 mL.",
+    "Weigh 1.46 g NaCl and add 250.0 mL of water.",
+    "Weigh 5.84 g NaCl, dissolve it in water, and add water until the total volume is 250.0 mL.",
+    "Weigh 5.84 g NaCl and add 250.0 mL of water."
+   ],
+   "hint": "Moles = M × V(L); molarity is per liter of SOLUTION, so dilute to the final volume rather than adding a fixed volume of water.",
+   "explain": "0.100 mol L⁻¹ × 0.2500 L = 0.0250 mol × 58.44 g mol⁻¹ = 1.46 g, dissolved and <b>diluted to a final volume of 250.0 mL</b>. Adding 250.0 mL of water gives a slightly larger total volume and a lower concentration; 5.84 g uses 1.000 L instead of 0.2500 L."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 562
+  }
+ },
+ {
+  "id": "finalexam-5c1798fb",
+  "skill": "finalexam.1a.solutions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-11"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "What volume of solution is needed to make a 0.250 M solution of KNO₃ (101.10 g mol⁻¹) from 15.0 g of the solid?",
+  "choices": [
+   "0.593 L",
+   "0.0371 L",
+   "1.68 L",
+   "60.0 L"
+  ],
+  "answer": "0.593 L",
+  "hint": "Convert grams to moles, then V = moles ÷ molarity.",
+  "explain": "15.0 g ÷ 101.10 g mol⁻¹ = 0.1484 mol; V = 0.1484 mol ÷ 0.250 mol L⁻¹ = 0.593 L. 0.0371 L multiplies moles by molarity instead of dividing; 60.0 L skips the molar-mass conversion.",
+  "html": {
+   "prompt": "What volume of solution is needed to make a 0.250 M solution of KNO<sub>3</sub> (101.10 g mol<sup>−1</sup>) from 15.0 g of the solid?",
+   "choices": [
+    "0.593 L",
+    "0.0371 L",
+    "1.68 L",
+    "60.0 L"
+   ],
+   "hint": "Convert grams to moles, then V = moles ÷ molarity.",
+   "explain": "15.0 g ÷ 101.10 g mol⁻¹ = 0.1484 mol; V = 0.1484 mol ÷ 0.250 mol L⁻¹ = <b>0.593 L</b>. 0.0371 L multiplies moles by molarity instead of dividing; 60.0 L skips the molar-mass conversion."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 563
+  }
+ },
+ {
+  "id": "finalexam-dadf4914",
+  "skill": "finalexam.1a.reactions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-4"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "A 40.0 mL portion of 0.200 M AgNO₃ is treated with 0.150 M Na₂CrO₄ until all of the silver has precipitated (equation shown). How many milliliters of the chromate solution are used?",
+  "choices": [
+   "26.7 mL",
+   "53.3 mL",
+   "107 mL",
+   "13.3 mL"
+  ],
+  "answer": "26.7 mL",
+  "hint": "Moles AgNO₃ = M × V; convert to moles Na₂CrO₄ with the 2 : 1 ratio; then V = n ÷ M.",
+  "explain": "0.0400 L × 0.200 M = 0.00800 mol AgNO₃ × (1 mol Na₂CrO₄ / 2 mol AgNO₃) = 0.00400 mol; ÷ 0.150 M = 26.7 mL. 53.3 mL assumes a 1 : 1 ratio; 107 mL inverts the ratio.",
+  "html": {
+   "prompt": "A 40.0 mL portion of 0.200 M AgNO<sub>3</sub> is treated with 0.150 M Na<sub>2</sub>CrO<sub>4</sub> until all of the silver has precipitated (equation shown). How many milliliters of the chromate solution are used?",
+   "choices": [
+    "26.7 mL",
+    "53.3 mL",
+    "107 mL",
+    "13.3 mL"
+   ],
+   "hint": "Moles AgNO<sub>3</sub> = M × V; convert to moles Na<sub>2</sub>CrO<sub>4</sub> with the 2 : 1 ratio; then V = n ÷ M.",
+   "explain": "0.0400 L × 0.200 M = 0.00800 mol AgNO<sub>3</sub> × (1 mol Na<sub>2</sub>CrO<sub>4</sub> / 2 mol AgNO<sub>3</sub>) = 0.00400 mol; ÷ 0.150 M = <b>26.7 mL</b>. 53.3 mL assumes a 1 : 1 ratio; 107 mL inverts the ratio."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "2 AgNO<sub>3</sub>(aq) + Na<sub>2</sub>CrO<sub>4</sub>(aq) → Ag<sub>2</sub>CrO<sub>4</sub>(s) + 2 NaNO<sub>3</sub>(aq)"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 564
+  }
+ },
+ {
+  "id": "finalexam-7dfc45a8",
+  "skill": "finalexam.1a.reactions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-4"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "A student combines three 1.0 M solutions in one beaker: NaBr, K₂SO₄ and Ba(NO₃)₂. A white solid appears. What is it?",
+  "choices": [
+   "BaSO₄",
+   "BaBr₂",
+   "Na₂SO₄",
+   "KNO₃"
+  ],
+  "answer": "BaSO₄",
+  "hint": "List every cation–anion pairing possible in the mixture and apply the solubility rules.",
+  "explain": "The ions present are Na⁺, K⁺, Ba²⁺, Br⁻, SO²⁻₄ and NO⁻₃. Group 1 salts and nitrates are soluble, and bromides are soluble except with Ag⁺, Pb²⁺ and Hg²⁺₂; sulfate with Ba²⁺ is insoluble, so BaSO₄ precipitates.",
+  "html": {
+   "prompt": "A student combines three 1.0 M solutions in one beaker: NaBr, K<sub>2</sub>SO<sub>4</sub> and Ba(NO<sub>3</sub>)<sub>2</sub>. A white solid appears. What is it?",
+   "choices": [
+    "BaSO<sub>4</sub>",
+    "BaBr<sub>2</sub>",
+    "Na<sub>2</sub>SO<sub>4</sub>",
+    "KNO<sub>3</sub>"
+   ],
+   "hint": "List every cation–anion pairing possible in the mixture and apply the solubility rules.",
+   "explain": "The ions present are Na<sup>+</sup>, K<sup>+</sup>, Ba<sup>2+</sup>, Br<sup>−</sup>, <span class=\"nw\">SO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span> and <span class=\"nw\">NO<span class=\"ss\"><sup>−</sup><sub>3</sub></span>.</span> Group 1 salts and nitrates are soluble, and bromides are soluble except with Ag<sup>+</sup>, Pb<sup>2+</sup> and <span class=\"nw\">Hg<span class=\"ss\"><sup>2+</sup><sub>2</sub></span>;</span> sulfate with Ba<sup>2+</sup> is insoluble, so <b>BaSO<sub>4</sub></b> precipitates."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 565
+  }
+ },
+ {
+  "id": "finalexam-72df116c",
+  "skill": "finalexam.1a.reactions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-4"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Ba²⁺, Ag⁺ and Cu²⁺ are all dissolved in one solution, and three reagents are available: HCl, Na₂SO₄ and NaOH. Using the table, choose the sequence of additions that removes the cations one at a time, each as its own precipitate.",
+  "choices": [
+   "HCl, then Na₂SO₄, then NaOH",
+   "Na₂SO₄, then HCl, then NaOH",
+   "NaOH, then HCl, then Na₂SO₄",
+   "NaOH, then Na₂SO₄, then HCl"
+  ],
+  "answer": "HCl, then Na₂SO₄, then NaOH",
+  "hint": "Each reagent added must precipitate exactly ONE of the cations still in solution. Check every reagent against all remaining ions.",
+  "explain": "Cl⁻ precipitates only Ag⁺ (AgCl), leaving Ba²⁺ and Cu²⁺; sulfate then removes only Ba²⁺ (BaSO₄; CuSO₄ is soluble); finally OH⁻ precipitates Cu(OH)₂: HCl, Na₂SO₄, NaOH. Adding NaOH or Na₂SO₄ first would precipitate two cations at once (Ag⁺ forms insoluble hydroxide and slightly soluble sulfate).",
+  "html": {
+   "prompt": "Ba<sup>2+</sup>, Ag<sup>+</sup> and Cu<sup>2+</sup> are all dissolved in one solution, and three reagents are available: HCl, Na<sub>2</sub>SO<sub>4</sub> and NaOH. Using the table, choose the sequence of additions that removes the cations one at a time, each as its own precipitate.",
+   "choices": [
+    "HCl, then Na<sub>2</sub>SO<sub>4</sub>, then NaOH",
+    "Na<sub>2</sub>SO<sub>4</sub>, then HCl, then NaOH",
+    "NaOH, then HCl, then Na<sub>2</sub>SO<sub>4</sub>",
+    "NaOH, then Na<sub>2</sub>SO<sub>4</sub>, then HCl"
+   ],
+   "hint": "Each reagent added must precipitate exactly ONE of the cations still in solution. Check every reagent against all remaining ions.",
+   "explain": "Cl<sup>−</sup> precipitates only Ag<sup>+</sup> (AgCl), leaving Ba<sup>2+</sup> and Cu<sup>2+</sup>; sulfate then removes only Ba<sup>2+</sup> (BaSO<sub>4</sub>; CuSO<sub>4</sub> is soluble); finally OH<sup>−</sup> precipitates Cu(OH)<sub>2</sub>: <b>HCl, Na<sub>2</sub>SO<sub>4</sub>, NaOH</b>. Adding NaOH or Na<sub>2</sub>SO<sub>4</sub> first would precipitate two cations at once (Ag<sup>+</sup> forms insoluble hydroxide and slightly soluble sulfate)."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Anion",
+      "Insoluble with"
+     ],
+     "rows": [
+      [
+       "Cl<sup>−</sup>",
+       "Ag<sup>+</sup>, Pb<sup>2+</sup>, <span class=\"nw\">Hg<span class=\"ss\"><sup>2+</sup><sub>2</sub></span></span>"
+      ],
+      [
+       "<span class=\"nw\">SO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span>",
+       "Ba<sup>2+</sup>, Pb<sup>2+</sup>, Ca<sup>2+</sup>; Ag<sup>+</sup> slightly"
+      ],
+      [
+       "OH<sup>−</sup>",
+       "all except group 1, Ba<sup>2+</sup> and Ca<sup>2+</sup>"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 566
+  }
+ },
+ {
+  "id": "finalexam-1fcaa845",
+  "skill": "finalexam.1a.reactions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-4"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Four acid–base reactions are listed. When each is rewritten as a net ionic equation, which one simplifies to H⁺(aq) + OH⁻(aq) → H₂O(l)?",
+  "choices": [
+   "HNO₃(aq) + KOH(aq) → KNO₃(aq) + H₂O(l)",
+   "HF(aq) + NaOH(aq) → NaF(aq) + H₂O(l)",
+   "2 HCl(aq) + Mg(OH)₂(s) → MgCl₂(aq) + 2 H₂O(l)",
+   "HCl(aq) + NH₃(aq) → NH₄Cl(aq)"
+  ],
+  "answer": "HNO₃(aq) + KOH(aq) → KNO₃(aq) + H₂O(l)",
+  "hint": "Only strong acids, strong soluble bases and soluble salts are written as separate ions.",
+  "explain": "HNO₃ + KOH: both are strong and fully dissociated, and KNO₃ is soluble, so K⁺ and NO⁻₃ cancel, leaving H⁺ + OH⁻ → H₂O. HF is a weak acid (written as HF), Mg(OH)₂ is an insoluble solid, and NH₃ is a weak base with no OH⁻ in its equation.",
+  "html": {
+   "prompt": "Four acid–base reactions are listed. When each is rewritten as a net ionic equation, which one simplifies to H<sup>+</sup>(aq) + OH<sup>−</sup>(aq) → H<sub>2</sub>O(l)?",
+   "choices": [
+    "HNO<sub>3</sub>(aq) + KOH(aq) → KNO<sub>3</sub>(aq) + H<sub>2</sub>O(l)",
+    "HF(aq) + NaOH(aq) → NaF(aq) + H<sub>2</sub>O(l)",
+    "2 HCl(aq) + Mg(OH)<sub>2</sub>(s) → MgCl<sub>2</sub>(aq) + 2 H<sub>2</sub>O(l)",
+    "HCl(aq) + NH<sub>3</sub>(aq) → NH<sub>4</sub>Cl(aq)"
+   ],
+   "hint": "Only strong acids, strong soluble bases and soluble salts are written as separate ions.",
+   "explain": "<b>HNO<sub>3</sub> + KOH</b>: both are strong and fully dissociated, and KNO<sub>3</sub> is soluble, so K<sup>+</sup> and <span class=\"nw\">NO<span class=\"ss\"><sup>−</sup><sub>3</sub></span></span> cancel, leaving H<sup>+</sup> + OH<sup>−</sup> → H<sub>2</sub>O. HF is a weak acid (written as HF), Mg(OH)<sub>2</sub> is an insoluble solid, and NH<sub>3</sub> is a weak base with no OH<sup>−</sup> in its equation."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 567
+  }
+ },
+ {
+  "id": "finalexam-7a57407e",
+  "skill": "finalexam.1a.reactions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-4"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Methylamine, CH₃NH₂, is a weak base. Which best describes the particles in an aqueous solution of methylamine?",
+  "choices": [
+   "Mostly CH₃NH₂ molecules and water, with a small number of CH₃NH⁺₃ and OH⁻ ions",
+   "Only CH₃NH₂ molecules and water molecules",
+   "CH₃NH⁺₃ and OH⁻ ions and water, with essentially no CH₃NH₂ molecules",
+   "CH₃NH⁻ and H₃O⁺ ions and water"
+  ],
+  "answer": "Mostly CH₃NH₂ molecules and water, with a small number of CH₃NH⁺₃ and OH⁻ ions",
+  "hint": "A weak base accepts a proton from water to a small extent: a few ions form, but most molecules stay intact.",
+  "explain": "A weak base ionizes only partially: CH₃NH₂ + H₂O ⇌ CH₃NH⁺₃ + OH⁻ lies far to the left, so mostly molecules with a few ions. No ions at all would be a nonelectrolyte; complete ionization describes a strong base; a base accepts H⁺, so CH₃NH⁻ and H₃O⁺ do not form.",
+  "html": {
+   "prompt": "Methylamine, CH<sub>3</sub>NH<sub>2</sub>, is a weak base. Which best describes the particles in an aqueous solution of methylamine?",
+   "choices": [
+    "Mostly CH<sub>3</sub>NH<sub>2</sub> molecules and water, with a small number of <span class=\"nw\">CH<sub>3</sub>NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span></span> and OH<sup>−</sup> ions",
+    "Only CH<sub>3</sub>NH<sub>2</sub> molecules and water molecules",
+    "<span class=\"nw\">CH<sub>3</sub>NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span></span> and OH<sup>−</sup> ions and water, with essentially no CH<sub>3</sub>NH<sub>2</sub> molecules",
+    "CH<sub>3</sub>NH<sup>−</sup> and H<sub>3</sub>O<sup>+</sup> ions and water"
+   ],
+   "hint": "A weak base accepts a proton from water to a small extent: a few ions form, but most molecules stay intact.",
+   "explain": "A weak base ionizes only partially: CH<sub>3</sub>NH<sub>2</sub> + H<sub>2</sub>O ⇌ <span class=\"nw\">CH<sub>3</sub>NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span></span> + OH<sup>−</sup> lies far to the left, so <b>mostly molecules with a few ions</b>. No ions at all would be a nonelectrolyte; complete ionization describes a strong base; a base accepts H<sup>+</sup>, so CH<sub>3</sub>NH<sup>−</sup> and H<sub>3</sub>O<sup>+</sup> do not form."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 568
+  }
+ },
+ {
+  "id": "finalexam-cdec9b0c",
+  "skill": "finalexam.1a.reactions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-4"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Nitrogen appears in each reaction below. In which one does nitrogen GAIN electrons, that is, undergo reduction?",
+  "choices": [
+   "N₂(g) + 3 H₂(g) → 2 NH₃(g)",
+   "N₂(g) + O₂(g) → 2 NO(g)",
+   "NH₃(g) + HCl(g) → NH₄Cl(s)",
+   "4 NH₃(g) + 5 O₂(g) → 4 NO(g) + 6 H₂O(g)"
+  ],
+  "answer": "N₂(g) + 3 H₂(g) → 2 NH₃(g)",
+  "hint": "Assign oxidation numbers to N before and after. Reduction = decrease in oxidation number (gain of electrons).",
+  "explain": "In N₂ + 3 H₂ → 2 NH₃, nitrogen goes from 0 to −3: reduced. N₂ → NO is 0 → +2 (oxidized); NH₃ → NO is −3 → +2 (oxidized); NH₃ + HCl → NH₄Cl leaves N at −3, an acid–base reaction with no electron transfer.",
+  "html": {
+   "prompt": "Nitrogen appears in each reaction below. In which one does nitrogen GAIN electrons, that is, undergo reduction?",
+   "choices": [
+    "N<sub>2</sub>(g) + 3 H<sub>2</sub>(g) → 2 NH<sub>3</sub>(g)",
+    "N<sub>2</sub>(g) + O<sub>2</sub>(g) → 2 NO(g)",
+    "NH<sub>3</sub>(g) + HCl(g) → NH<sub>4</sub>Cl(s)",
+    "4 NH<sub>3</sub>(g) + 5 O<sub>2</sub>(g) → 4 NO(g) + 6 H<sub>2</sub>O(g)"
+   ],
+   "hint": "Assign oxidation numbers to N before and after. Reduction = decrease in oxidation number (gain of electrons).",
+   "explain": "In N<sub>2</sub> + 3 H<sub>2</sub> → 2 NH<sub>3</sub>, nitrogen goes from 0 to −3: <b>reduced</b>. N<sub>2</sub> → NO is 0 → +2 (oxidized); NH<sub>3</sub> → NO is −3 → +2 (oxidized); NH<sub>3</sub> + HCl → NH<sub>4</sub>Cl leaves N at −3, an acid–base reaction with no electron transfer."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 569
+  }
+ },
+ {
+  "id": "finalexam-874c072e",
+  "skill": "finalexam.1a.thermo",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-5"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "One-gram samples of lead and aluminum, both at 20 °C, are dropped into a large bath of boiling water and left until nothing changes. Which statement is correct?",
+  "choices": [
+   "Aluminum absorbs more energy than lead, and the two reach the same final temperature.",
+   "Lead absorbs more energy than aluminum, and the two reach the same final temperature.",
+   "The two absorb the same energy, but lead reaches a higher final temperature.",
+   "The two absorb the same energy, but aluminum reaches a higher final temperature."
+  ],
+  "answer": "Aluminum absorbs more energy than lead, and the two reach the same final temperature.",
+  "hint": "At thermal equilibrium every object is at the bath temperature. q = mcΔT with equal m and equal ΔT.",
+  "explain": "Both end at 100 °C, so ΔT is the same and the sample with the larger specific heat, aluminum (0.897 vs 0.128 J g⁻¹ °C⁻¹), absorbs about 7 times more energy. Equal-energy answers confuse 'same final temperature' with 'same heat'.",
+  "html": {
+   "prompt": "One-gram samples of lead and aluminum, both at 20 °C, are dropped into a large bath of boiling water and left until nothing changes. Which statement is correct?",
+   "choices": [
+    "Aluminum absorbs more energy than lead, and the two reach the same final temperature.",
+    "Lead absorbs more energy than aluminum, and the two reach the same final temperature.",
+    "The two absorb the same energy, but lead reaches a higher final temperature.",
+    "The two absorb the same energy, but aluminum reaches a higher final temperature."
+   ],
+   "hint": "At thermal equilibrium every object is at the bath temperature. q = mcΔT with equal m and equal ΔT.",
+   "explain": "Both end at 100 °C, so ΔT is the same and the sample with the larger specific heat, <b>aluminum (0.897 vs 0.128 J g<sup>−1</sup> °C<sup>−1</sup>), absorbs about 7 times more energy</b>. Equal-energy answers confuse 'same final temperature' with 'same heat'."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Metal",
+      "Specific heat (J g<sup>−1</sup> °C<sup>−1</sup>)"
+     ],
+     "rows": [
+      [
+       "lead",
+       "0.128"
+      ],
+      [
+       "aluminum",
+       "0.897"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 570
+  }
+ },
+ {
+  "id": "finalexam-66ed0467",
+  "skill": "finalexam.1a.thermo",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-5"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "To identify a metal, a student heats a 28.0 g piece to 98.0 °C and transfers it into an insulated cup holding 50.0 g of water at 22.0 °C. The water and metal settle at 25.5 °C. What specific heat does this give for the metal?",
+  "choices": [
+   "0.361 J g⁻¹ °C⁻¹",
+   "0.0862 J g⁻¹ °C⁻¹",
+   "2.77 J g⁻¹ °C⁻¹",
+   "7.47 J g⁻¹ °C⁻¹"
+  ],
+  "answer": "0.361 J g⁻¹ °C⁻¹",
+  "hint": "Heat lost by the metal = heat gained by the water. Use each object's OWN ΔT; the metal's ΔT is 98.0 − 25.5.",
+  "explain": "q_water = (50.0 g)(4.184 J g⁻¹ °C⁻¹)(3.5 °C) = 732 J. c_metal = 732 J ÷ [(28.0 g)(72.5 °C)] = 0.361 J g⁻¹ °C⁻¹. 0.0862 omits the specific heat of water; 2.77 inverts the ratio; 7.47 uses the metal's 72.5 °C drop as the water's temperature change too.",
+  "html": {
+   "prompt": "To identify a metal, a student heats a 28.0 g piece to 98.0 °C and transfers it into an insulated cup holding 50.0 g of water at 22.0 °C. The water and metal settle at 25.5 °C. What specific heat does this give for the metal?",
+   "choices": [
+    "0.361 J g<sup>−1</sup> °C<sup>−1</sup>",
+    "0.0862 J g<sup>−1</sup> °C<sup>−1</sup>",
+    "2.77 J g<sup>−1</sup> °C<sup>−1</sup>",
+    "7.47 J g<sup>−1</sup> °C<sup>−1</sup>"
+   ],
+   "hint": "Heat lost by the metal = heat gained by the water. Use each object's OWN ΔT; the metal's ΔT is 98.0 − 25.5.",
+   "explain": "q<sub>water</sub> = (50.0 g)(4.184 J g<sup>−1</sup> °C<sup>−1</sup>)(3.5 °C) = 732 J. c<sub>metal</sub> = 732 J ÷ [(28.0 g)(72.5 °C)] = <b>0.361 J g<sup>−1</sup> °C<sup>−1</sup></b>. 0.0862 omits the specific heat of water; 2.77 inverts the ratio; 7.47 uses the metal's 72.5 °C drop as the water's temperature change too."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Substance",
+      "Specific heat (J g<sup>−1</sup> °C<sup>−1</sup>)"
+     ],
+     "rows": [
+      [
+       "water",
+       "4.184"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 571
+  }
+ },
+ {
+  "id": "finalexam-a3a7d562",
+  "skill": "finalexam.1a.thermo",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-5"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "A hot iron horseshoe is plunged into a bucket of cool water inside an insulated container, and the two reach the same temperature. Assuming no heat is lost to the surroundings, which statement is correct?",
+  "choices": [
+   "The energy lost by the iron equals the energy gained by the water.",
+   "The iron loses more energy than the water gains because the iron was much hotter.",
+   "The water gains more energy than the iron loses because water has a higher specific heat.",
+   "The iron and the water each lose energy until they reach equilibrium."
+  ],
+  "answer": "The energy lost by the iron equals the energy gained by the water.",
+  "hint": "Energy is conserved: q_iron + q_water = 0. Specific heat and temperature difference affect the ΔT values, not the energy balance.",
+  "explain": "With no losses, every joule the iron gives up goes into the water: q_lost = q_gained. The higher specific heat of water means its temperature changes less, not that it gains more energy; the water gains energy, it does not lose it.",
+  "html": {
+   "prompt": "A hot iron horseshoe is plunged into a bucket of cool water inside an insulated container, and the two reach the same temperature. Assuming no heat is lost to the surroundings, which statement is correct?",
+   "choices": [
+    "The energy lost by the iron equals the energy gained by the water.",
+    "The iron loses more energy than the water gains because the iron was much hotter.",
+    "The water gains more energy than the iron loses because water has a higher specific heat.",
+    "The iron and the water each lose energy until they reach equilibrium."
+   ],
+   "hint": "Energy is conserved: q<sub>iron</sub> + q<sub>water</sub> = 0. Specific heat and temperature difference affect the ΔT values, not the energy balance.",
+   "explain": "With no losses, every joule the iron gives up goes into the water: <b>q<sub>lost</sub> = q<sub>gained</sub></b>. The higher specific heat of water means its temperature changes less, not that it gains more energy; the water gains energy, it does not lose it."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 572
+  }
+ },
+ {
+  "id": "finalexam-0b877081",
+  "skill": "finalexam.1a.thermo",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-5"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "A student mixes 50.0 mL of 1.0 M HCl with 50.0 mL of 1.0 M NaOH in a foam cup and records a temperature rise ΔT₁. She repeats the experiment with 25.0 mL of each solution and records ΔT₂. If no heat is lost, how are the two related?",
+  "choices": [
+   "ΔT₂ = ΔT₁",
+   "ΔT₂ = ½ ΔT₁",
+   "ΔT₂ = 2 ΔT₁",
+   "ΔT₂ = ¼ ΔT₁"
+  ],
+  "answer": "ΔT₂ = ΔT₁",
+  "hint": "Halving the volumes halves the heat released AND halves the mass that absorbs it. ΔT = q/(mc).",
+  "explain": "Half as many moles react, so half as much heat is released, but it warms half as much solution: ΔT = q/(mc) is unchanged, so ΔT₂ = ΔT₁. Choosing ½ ΔT₁ considers only the smaller q and forgets the smaller mass.",
+  "html": {
+   "prompt": "A student mixes 50.0 mL of 1.0 M HCl with 50.0 mL of 1.0 M NaOH in a foam cup and records a temperature rise ΔT<sub>1</sub>. She repeats the experiment with 25.0 mL of each solution and records ΔT<sub>2</sub>. If no heat is lost, how are the two related?",
+   "choices": [
+    "ΔT<sub>2</sub> = ΔT<sub>1</sub>",
+    "ΔT<sub>2</sub> = ½ ΔT<sub>1</sub>",
+    "ΔT<sub>2</sub> = 2 ΔT<sub>1</sub>",
+    "ΔT<sub>2</sub> = ¼ ΔT<sub>1</sub>"
+   ],
+   "hint": "Halving the volumes halves the heat released AND halves the mass that absorbs it. ΔT = q/(mc).",
+   "explain": "Half as many moles react, so half as much heat is released, but it warms half as much solution: ΔT = q/(mc) is unchanged, so <b>ΔT<sub>2</sub> = ΔT<sub>1</sub></b>. Choosing ½ ΔT<sub>1</sub> considers only the smaller q and forgets the smaller mass."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 573
+  }
+ },
+ {
+  "id": "finalexam-5f85c885",
+  "skill": "finalexam.1a.thermo",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-5"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "A welding torch burns 0.400 mol of acetylene by the reaction shown and releases 519.6 kJ of heat. What is ΔH for the equation as written, which consumes 2 mol of C₂H₂?",
+  "choices": [
+   "−2598 kJ",
+   "−1299 kJ",
+   "+2598 kJ",
+   "−208 kJ"
+  ],
+  "answer": "−2598 kJ",
+  "hint": "Find kJ per mole of C₂H₂, then multiply by the 2 in the equation. Heat released means ΔH is negative.",
+  "explain": "519.6 kJ ÷ 0.400 mol = 1299 kJ per mol C₂H₂; the equation consumes 2 mol, so ΔH = −2 × 1299 = −2598 kJ. −1299 kJ forgets the coefficient 2; a positive sign would mean heat absorbed; −208 kJ multiplies instead of dividing by the moles.",
+  "html": {
+   "prompt": "A welding torch burns 0.400 mol of acetylene by the reaction shown and releases 519.6 kJ of heat. What is ΔH for the equation as written, which consumes 2 mol of C<sub>2</sub>H<sub>2</sub>?",
+   "choices": [
+    "−2598 kJ",
+    "−1299 kJ",
+    "+2598 kJ",
+    "−208 kJ"
+   ],
+   "hint": "Find kJ per mole of C<sub>2</sub>H<sub>2</sub>, then multiply by the 2 in the equation. Heat released means ΔH is negative.",
+   "explain": "519.6 kJ ÷ 0.400 mol = 1299 kJ per mol C<sub>2</sub>H<sub>2</sub>; the equation consumes 2 mol, so ΔH = −2 × 1299 = <b>−2598 kJ</b>. −1299 kJ forgets the coefficient 2; a positive sign would mean heat absorbed; −208 kJ multiplies instead of dividing by the moles."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "2 C<sub>2</sub>H<sub>2</sub>(g) + 5 O<sub>2</sub>(g) → 4 CO<sub>2</sub>(g) + 2 H<sub>2</sub>O(g)"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 574
+  }
+ },
+ {
+  "id": "finalexam-f9ed6c86",
+  "skill": "finalexam.1a.thermo",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-5"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "A 0.500 g pellet of benzoic acid is burned in a bomb calorimeter and the temperature rises by 2.65 °C. Using the data in the table, what is the heat capacity of the calorimeter?",
+  "choices": [
+   "4.99 kJ °C⁻¹",
+   "609 kJ °C⁻¹",
+   "1218 kJ °C⁻¹",
+   "0.201 kJ °C⁻¹"
+  ],
+  "answer": "4.99 kJ °C⁻¹",
+  "hint": "q_released = (moles burned)(|ΔH_comb|). The calorimeter absorbs it all: C = q/ΔT.",
+  "explain": "0.500 g ÷ 122.12 g mol⁻¹ = 0.00409 mol × 3227 kJ mol⁻¹ = 13.21 kJ; C = 13.21 kJ ÷ 2.65 °C = 4.99 kJ °C⁻¹. 609 treats 3227 kJ as per gram; 1218 forgets the sample size entirely; 0.201 inverts C.",
+  "html": {
+   "prompt": "A 0.500 g pellet of benzoic acid is burned in a bomb calorimeter and the temperature rises by 2.65 °C. Using the data in the table, what is the heat capacity of the calorimeter?",
+   "choices": [
+    "4.99 kJ °C<sup>−1</sup>",
+    "609 kJ °C<sup>−1</sup>",
+    "1218 kJ °C<sup>−1</sup>",
+    "0.201 kJ °C<sup>−1</sup>"
+   ],
+   "hint": "q<sub>released</sub> = (moles burned)(|ΔH<sub>comb</sub>|). The calorimeter absorbs it all: C = q/ΔT.",
+   "explain": "0.500 g ÷ 122.12 g mol⁻¹ = 0.00409 mol × 3227 kJ mol⁻¹ = 13.21 kJ; C = 13.21 kJ ÷ 2.65 °C = <b>4.99 kJ °C<sup>−1</sup></b>. 609 treats 3227 kJ as per gram; 1218 forgets the sample size entirely; 0.201 inverts C."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Quantity",
+      "Value"
+     ],
+     "rows": [
+      [
+       "Molar mass of benzoic acid",
+       "122.12 g mol<sup>−1</sup>"
+      ],
+      [
+       "ΔH<sub>combustion</sub> of benzoic acid",
+       "−3227 kJ mol<sup>−1</sup>"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 575
+  }
+ },
+ {
+  "id": "finalexam-8c2b7e6f",
+  "skill": "finalexam.1a.thermo",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-5"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which equation represents the reaction whose enthalpy change is the standard enthalpy of formation, ΔH°_f, of liquid methanol, CH₃OH(l)?",
+  "choices": [
+   "C(s, graphite) + 2 H₂(g) + ½ O₂(g) → CH₃OH(l)",
+   "CO(g) + 2 H₂(g) → CH₃OH(l)",
+   "C(g) + 4 H(g) + O(g) → CH₃OH(l)",
+   "2 C(s, graphite) + 4 H₂(g) + O₂(g) → 2 CH₃OH(l)"
+  ],
+  "answer": "C(s, graphite) + 2 H₂(g) + ½ O₂(g) → CH₃OH(l)",
+  "hint": "Formation: exactly 1 mol of product from its ELEMENTS in their standard states (H₂, O₂, graphite).",
+  "explain": "C(graphite) + 2 H₂ + ½ O₂ → CH₃OH(l) makes one mole from the elements as they exist at 25 °C. CO is a compound, not an element; isolated gaseous atoms are not the standard states of the elements; the last equation forms 2 mol, so its ΔH is 2ΔH°_f.",
+  "html": {
+   "prompt": "Which equation represents the reaction whose enthalpy change is the standard enthalpy of formation, ΔH°<sub>f</sub>, of liquid methanol, CH<sub>3</sub>OH(l)?",
+   "choices": [
+    "C(s, graphite) + 2 H<sub>2</sub>(g) + ½ O<sub>2</sub>(g) → CH<sub>3</sub>OH(l)",
+    "CO(g) + 2 H<sub>2</sub>(g) → CH<sub>3</sub>OH(l)",
+    "C(g) + 4 H(g) + O(g) → CH<sub>3</sub>OH(l)",
+    "2 C(s, graphite) + 4 H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2 CH<sub>3</sub>OH(l)"
+   ],
+   "hint": "Formation: exactly 1 mol of product from its ELEMENTS in their standard states (H<sub>2</sub>, O<sub>2</sub>, graphite).",
+   "explain": "<b>C(graphite) + 2 H<sub>2</sub> + ½ O<sub>2</sub> → CH<sub>3</sub>OH(l)</b> makes one mole from the elements as they exist at 25 °C. CO is a compound, not an element; isolated gaseous atoms are not the standard states of the elements; the last equation forms 2 mol, so its ΔH is 2ΔH°<sub>f</sub>."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 576
+  }
+ },
+ {
+  "id": "finalexam-1c2d0c2f",
+  "skill": "finalexam.1a.thermo",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-5"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Let x stand for ΔH°_f of ammonia gas. In terms of x, what is ΔH° for decomposing two moles of ammonia into its elements, 2 NH₃(g) → N₂(g) + 3 H₂(g)?",
+  "choices": [
+   "−2x",
+   "2x",
+   "−x",
+   "−½x"
+  ],
+  "answer": "−2x",
+  "hint": "Write the formation reaction of NH₃, then see how the target reaction is related: reversed and doubled.",
+  "explain": "Formation: ½ N₂ + 3/2 H₂ → NH₃, ΔH = x. The target is that reaction reversed (sign flips) and multiplied by 2: −2x. 2x forgets to flip the sign on reversal; −x forgets the factor of 2.",
+  "html": {
+   "prompt": "Let <i>x</i> stand for ΔH°<sub>f</sub> of ammonia gas. In terms of <i>x</i>, what is ΔH° for decomposing two moles of ammonia into its elements, 2 NH<sub>3</sub>(g) → N<sub>2</sub>(g) + 3 H<sub>2</sub>(g)?",
+   "choices": [
+    "−2<i>x</i>",
+    "2<i>x</i>",
+    "−<i>x</i>",
+    "−½<i>x</i>"
+   ],
+   "hint": "Write the formation reaction of NH<sub>3</sub>, then see how the target reaction is related: reversed and doubled.",
+   "explain": "Formation: ½ N<sub>2</sub> + 3/2 H<sub>2</sub> → NH<sub>3</sub>, ΔH = <i>x</i>. The target is that reaction reversed (sign flips) and multiplied by 2: <b>−2<i>x</i></b>. 2<i>x</i> forgets to flip the sign on reversal; −<i>x</i> forgets the factor of 2."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 577
+  }
+ },
+ {
+  "id": "finalexam-cc12b14f",
+  "skill": "finalexam.1a.thermo",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-5"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Using the two equations shown, which expression gives the standard enthalpy of formation of hydrogen peroxide, H₂O₂(l)?",
+  "choices": [
+   "½ ΔH₁ − ΔH₂",
+   "½ ΔH₁ + ΔH₂",
+   "ΔH₁ − ΔH₂",
+   "ΔH₂ − ½ ΔH₁"
+  ],
+  "answer": "½ ΔH₁ − ΔH₂",
+  "hint": "Target: H₂(g) + O₂(g) → H₂O₂(l). Halve equation 1 and reverse equation 2 so the H₂O cancels.",
+  "explain": "½ × (1): H₂ + ½ O₂ → H₂O, ½ΔH₁. Reverse (2): H₂O + ½ O₂ → H₂O₂, −ΔH₂. Adding gives H₂ + O₂ → H₂O₂, so ΔH°_f = ½ ΔH₁ − ΔH₂. Adding +ΔH₂ forgets the sign change on reversing; ΔH₁ − ΔH₂ forgets to halve equation 1.",
+  "html": {
+   "prompt": "Using the two equations shown, which expression gives the standard enthalpy of formation of hydrogen peroxide, H<sub>2</sub>O<sub>2</sub>(l)?",
+   "choices": [
+    "½ ΔH<sub>1</sub> − ΔH<sub>2</sub>",
+    "½ ΔH<sub>1</sub> + ΔH<sub>2</sub>",
+    "ΔH<sub>1</sub> − ΔH<sub>2</sub>",
+    "ΔH<sub>2</sub> − ½ ΔH<sub>1</sub>"
+   ],
+   "hint": "Target: H<sub>2</sub>(g) + O<sub>2</sub>(g) → H<sub>2</sub>O<sub>2</sub>(l). Halve equation 1 and reverse equation 2 so the H<sub>2</sub>O cancels.",
+   "explain": "½ × (1): H<sub>2</sub> + ½ O<sub>2</sub> → H<sub>2</sub>O, ½ΔH<sub>1</sub>. Reverse (2): H<sub>2</sub>O + ½ O<sub>2</sub> → H<sub>2</sub>O<sub>2</sub>, −ΔH<sub>2</sub>. Adding gives H<sub>2</sub> + O<sub>2</sub> → H<sub>2</sub>O<sub>2</sub>, so ΔH°<sub>f</sub> = <b>½ ΔH<sub>1</sub> − ΔH<sub>2</sub></b>. Adding +ΔH<sub>2</sub> forgets the sign change on reversing; ΔH<sub>1</sub> − ΔH<sub>2</sub> forgets to halve equation 1."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "(1)  2 H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2 H<sub>2</sub>O(l)   ΔH<sub>1</sub>"
+    },
+    {
+     "type": "eq",
+     "text": "(2)  H<sub>2</sub>O<sub>2</sub>(l) → H<sub>2</sub>O(l) + ½ O<sub>2</sub>(g)   ΔH<sub>2</sub>"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 578
+  }
+ },
+ {
+  "id": "finalexam-4b3450f9",
+  "skill": "finalexam.1a.thermo",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-5"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "Sulfur trioxide can be made from sulfur in two stages (table). Combine the two equations to obtain ΔH° for the overall reaction shown.",
+  "choices": [
+   "−791.4 kJ",
+   "−395.7 kJ",
+   "−99.0 kJ",
+   "−593.6 kJ"
+  ],
+  "answer": "−791.4 kJ",
+  "hint": "Double equation 1 and reverse equation 2 (change its sign) so that 2 SO₂ cancels.",
+  "explain": "2 × (−296.8) = −593.6 kJ for 2 S + 2 O₂ → 2 SO₂; reversing equation 2 gives 2 SO₂ + O₂ → 2 SO₃, −197.8 kJ. Sum: −791.4 kJ. −395.7 forgets to double equation 1; −99.0 neither doubles nor reverses; −593.6 ignores equation 2.",
+  "html": {
+   "prompt": "Sulfur trioxide can be made from sulfur in two stages (table). Combine the two equations to obtain ΔH° for the overall reaction shown.",
+   "choices": [
+    "−791.4 kJ",
+    "−395.7 kJ",
+    "−99.0 kJ",
+    "−593.6 kJ"
+   ],
+   "hint": "Double equation 1 and reverse equation 2 (change its sign) so that 2 SO<sub>2</sub> cancels.",
+   "explain": "2 × (−296.8) = −593.6 kJ for 2 S + 2 O<sub>2</sub> → 2 SO<sub>2</sub>; reversing equation 2 gives 2 SO<sub>2</sub> + O<sub>2</sub> → 2 SO<sub>3</sub>, −197.8 kJ. Sum: <b>−791.4 kJ</b>. −395.7 forgets to double equation 1; −99.0 neither doubles nor reverses; −593.6 ignores equation 2."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "2 S(s) + 3 O<sub>2</sub>(g) → 2 SO<sub>3</sub>(g)"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Equation",
+      "ΔH° (kJ)"
+     ],
+     "rows": [
+      [
+       "(1)  S(s) + O<sub>2</sub>(g) → SO<sub>2</sub>(g)",
+       "−296.8"
+      ],
+      [
+       "(2)  2 SO<sub>3</sub>(g) → 2 SO<sub>2</sub>(g) + O<sub>2</sub>(g)",
+       "+197.8"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 579
+  }
+ },
+ {
+  "id": "finalexam-ac201522",
+  "skill": "finalexam.1a.thermo",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-5"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "Ethanol burns according to the equation shown, with ΔH° = −1367 kJ. Using the enthalpies of formation in the table, what is ΔH°_f of ethanol, C₂H₅OH(l)?",
+  "choices": [
+   "−277.4 kJ mol⁻¹",
+   "−3011.4 kJ mol⁻¹",
+   "+277.4 kJ mol⁻¹",
+   "−1644.4 kJ mol⁻¹"
+  ],
+  "answer": "−277.4 kJ mol⁻¹",
+  "hint": "ΔH°_rxn = Σ ΔH°_f(products) − Σ ΔH°_f(reactants); O₂ contributes zero. Solve for the one unknown.",
+  "explain": "−1367 = [2(−393.5) + 3(−285.8)] − [ΔH°_f(ethanol) + 0]; the products sum to −1644.4 kJ, so ΔH°_f(ethanol) = −1644.4 + 1367 = −277.4 kJ mol⁻¹. −3011.4 adds ΔH°_rxn instead of subtracting; −1644.4 is just the product sum.",
+  "html": {
+   "prompt": "Ethanol burns according to the equation shown, with ΔH° = −1367 kJ. Using the enthalpies of formation in the table, what is ΔH°<sub>f</sub> of ethanol, C<sub>2</sub>H<sub>5</sub>OH(l)?",
+   "choices": [
+    "−277.4 kJ mol<sup>−1</sup>",
+    "−3011.4 kJ mol<sup>−1</sup>",
+    "+277.4 kJ mol<sup>−1</sup>",
+    "−1644.4 kJ mol<sup>−1</sup>"
+   ],
+   "hint": "ΔH°<sub>rxn</sub> = Σ ΔH°<sub>f</sub>(products) − Σ ΔH°<sub>f</sub>(reactants); O<sub>2</sub> contributes zero. Solve for the one unknown.",
+   "explain": "−1367 = [2(−393.5) + 3(−285.8)] − [ΔH°<sub>f</sub>(ethanol) + 0]; the products sum to −1644.4 kJ, so ΔH°<sub>f</sub>(ethanol) = −1644.4 + 1367 = <b>−277.4 kJ mol<sup>−1</sup></b>. −3011.4 adds ΔH°<sub>rxn</sub> instead of subtracting; −1644.4 is just the product sum."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "C<sub>2</sub>H<sub>5</sub>OH(l) + 3 O<sub>2</sub>(g) → 2 CO<sub>2</sub>(g) + 3 H<sub>2</sub>O(l)"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Substance",
+      "ΔH°<sub>f</sub> (kJ mol<sup>−1</sup>)"
+     ],
+     "rows": [
+      [
+       "CO<sub>2</sub>(g)",
+       "−393.5"
+      ],
+      [
+       "H<sub>2</sub>O(l)",
+       "−285.8"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 580
+  }
+ },
+ {
+  "id": "finalexam-4d779656",
+  "skill": "finalexam.1a.thermo",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-5"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Compare the two enthalpies of formation in the table. Making NaF from sodium and fluorine is ____ making NaCl from sodium and chlorine.",
+  "choices": [
+   "more exothermic than",
+   "less exothermic than",
+   "more endothermic than",
+   "less endothermic than"
+  ],
+  "answer": "more exothermic than",
+  "hint": "Both values are negative (exothermic). Compare how far below zero each one lies.",
+  "explain": "Both reactions release heat (negative ΔH°_f); −576.6 kJ releases more than −411.2 kJ, so NaF formation is more exothermic. 'Less exothermic' reads −576.6 as the smaller number; neither process is endothermic.",
+  "html": {
+   "prompt": "Compare the two enthalpies of formation in the table. Making NaF from sodium and fluorine is ____ making NaCl from sodium and chlorine.",
+   "choices": [
+    "more exothermic than",
+    "less exothermic than",
+    "more endothermic than",
+    "less endothermic than"
+   ],
+   "hint": "Both values are negative (exothermic). Compare how far below zero each one lies.",
+   "explain": "Both reactions release heat (negative ΔH°<sub>f</sub>); −576.6 kJ releases more than −411.2 kJ, so NaF formation is <b>more exothermic</b>. 'Less exothermic' reads −576.6 as the smaller number; neither process is endothermic."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Compound",
+      "ΔH°<sub>f</sub> (kJ mol<sup>−1</sup>)"
+     ],
+     "rows": [
+      [
+       "NaF(s)",
+       "−576.6"
+      ],
+      [
+       "NaCl(s)",
+       "−411.2"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 581
+  }
+ },
+ {
+  "id": "finalexam-0d817046",
+  "skill": "finalexam.1a.bonding",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-7"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which list places the ionic solids KBr, MgO, KCl and CaO in order from the weakest to the strongest lattice energy?",
+  "choices": [
+   "KBr < KCl < CaO < MgO",
+   "KCl < KBr < CaO < MgO",
+   "KBr < KCl < MgO < CaO",
+   "MgO < CaO < KCl < KBr"
+  ],
+  "answer": "KBr < KCl < CaO < MgO",
+  "hint": "Lattice energy ∝ (q_+q_−)/r. Sort by ion charges first, then by ion size within the same charges.",
+  "explain": "The 2+/2− oxides far exceed the 1+/1− salts. Among the 1+/1− pair, the smaller Cl⁻ gives KCl a larger lattice energy than KBr; among the oxides, the smaller Mg²⁺ puts MgO above CaO: KBr . Ordering by molar mass or putting MgO below CaO reverses the size effect.",
+  "html": {
+   "prompt": "Which list places the ionic solids KBr, MgO, KCl and CaO in order from the weakest to the strongest lattice energy?",
+   "choices": [
+    "KBr &lt; KCl &lt; CaO &lt; MgO",
+    "KCl &lt; KBr &lt; CaO &lt; MgO",
+    "KBr &lt; KCl &lt; MgO &lt; CaO",
+    "MgO &lt; CaO &lt; KCl &lt; KBr"
+   ],
+   "hint": "Lattice energy ∝ (q<sub>+</sub>q<sub>−</sub>)/r. Sort by ion charges first, then by ion size within the same charges.",
+   "explain": "The 2+/2− oxides far exceed the 1+/1− salts. Among the 1+/1− pair, the smaller Cl<sup>−</sup> gives KCl a larger lattice energy than KBr; among the oxides, the smaller Mg<sup>2+</sup> puts MgO above CaO: <b>KBr &lt; KCl &lt; CaO &lt; MgO</b>. Ordering by molar mass or putting MgO below CaO reverses the size effect."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 582
+  }
+ },
+ {
+  "id": "finalexam-b3d4bbb3",
+  "skill": "finalexam.1a.bonding",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-7"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Using the electronegativities in the table, how is the bond between nitrogen and hydrogen in NH₃ best described?",
+  "choices": [
+   "polar covalent",
+   "nonpolar covalent",
+   "ionic",
+   "metallic"
+  ],
+  "answer": "polar covalent",
+  "hint": "ΔEN below about 0.4 is nonpolar covalent, roughly 0.4–1.7 polar covalent, above about 1.7 ionic.",
+  "explain": "ΔEN = 3.0 − 2.1 = 0.9: electrons are shared unequally, a polar covalent bond with N partially negative. The difference is too small for ionic character and too large to call nonpolar; metallic bonding occurs between metal atoms only.",
+  "html": {
+   "prompt": "Using the electronegativities in the table, how is the bond between nitrogen and hydrogen in NH<sub>3</sub> best described?",
+   "choices": [
+    "polar covalent",
+    "nonpolar covalent",
+    "ionic",
+    "metallic"
+   ],
+   "hint": "ΔEN below about 0.4 is nonpolar covalent, roughly 0.4–1.7 polar covalent, above about 1.7 ionic.",
+   "explain": "ΔEN = 3.0 − 2.1 = 0.9: electrons are shared unequally, a <b>polar covalent</b> bond with N partially negative. The difference is too small for ionic character and too large to call nonpolar; metallic bonding occurs between metal atoms only."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Element",
+      "Electronegativity"
+     ],
+     "rows": [
+      [
+       "H",
+       "2.1"
+      ],
+      [
+       "N",
+       "3.0"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 583
+  }
+ },
+ {
+  "id": "finalexam-0772323f",
+  "skill": "finalexam.1a.bonding",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-7"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which description of the bonding in sodium hydroxide, NaOH, is correct?",
+  "choices": [
+   "An ionic bond between Na⁺ and OH⁻, and a covalent bond between O and H",
+   "Covalent bonds between Na and O and between O and H",
+   "Ionic bonds between Na and O and between O and H",
+   "A covalent bond between Na and O and an ionic bond between O and H"
+  ],
+  "answer": "An ionic bond between Na⁺ and OH⁻, and a covalent bond between O and H",
+  "hint": "A metal with a polyatomic ion is ionic; the atoms INSIDE the polyatomic ion are held together covalently.",
+  "explain": "NaOH is an ionic compound of Na⁺ and the hydroxide ion; within OH⁻ the O–H bond is covalent (two nonmetals sharing electrons). Na–O is not covalent (metal + nonmetal, large ΔEN), and O–H is not ionic.",
+  "html": {
+   "prompt": "Which description of the bonding in sodium hydroxide, NaOH, is correct?",
+   "choices": [
+    "An ionic bond between Na<sup>+</sup> and OH<sup>−</sup>, and a covalent bond between O and H",
+    "Covalent bonds between Na and O and between O and H",
+    "Ionic bonds between Na and O and between O and H",
+    "A covalent bond between Na and O and an ionic bond between O and H"
+   ],
+   "hint": "A metal with a polyatomic ion is ionic; the atoms INSIDE the polyatomic ion are held together covalently.",
+   "explain": "NaOH is an ionic compound of Na<sup>+</sup> and the hydroxide ion; <b>within OH<sup>−</sup> the O–H bond is covalent</b> (two nonmetals sharing electrons). Na–O is not covalent (metal + nonmetal, large ΔEN), and O–H is not ionic."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 584
+  }
+ },
+ {
+  "id": "finalexam-7eca97b3",
+  "skill": "finalexam.1a.bonding",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-7"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "What holds a crystal of potassium bromide, KBr, together?",
+  "choices": [
+   "Electrostatic attraction between K⁺ ions and Br⁻ ions",
+   "Shared pairs of electrons between K and Br atoms",
+   "A sea of mobile electrons surrounding K and Br atoms",
+   "Dipole–dipole attractions between neighboring KBr molecules"
+  ],
+  "answer": "Electrostatic attraction between K⁺ ions and Br⁻ ions",
+  "hint": "Metal + nonmetal: electrons are transferred, and the resulting ions attract each other in a lattice.",
+  "explain": "Ionic bonding is the attraction between oppositely charged ions, K⁺ and Br⁻, extending throughout the crystal. Shared pairs describe covalent bonds; an electron sea describes metals; there are no KBr 'molecules' in the solid.",
+  "html": {
+   "prompt": "What holds a crystal of potassium bromide, KBr, together?",
+   "choices": [
+    "Electrostatic attraction between K<sup>+</sup> ions and Br<sup>−</sup> ions",
+    "Shared pairs of electrons between K and Br atoms",
+    "A sea of mobile electrons surrounding K and Br atoms",
+    "Dipole–dipole attractions between neighboring KBr molecules"
+   ],
+   "hint": "Metal + nonmetal: electrons are transferred, and the resulting ions attract each other in a lattice.",
+   "explain": "Ionic bonding is the <b>attraction between oppositely charged ions</b>, K<sup>+</sup> and Br<sup>−</sup>, extending throughout the crystal. Shared pairs describe covalent bonds; an electron sea describes metals; there are no KBr 'molecules' in the solid."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 585
+  }
+ },
+ {
+  "id": "finalexam-f456ae06",
+  "skill": "finalexam.1a.bonding",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-7"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "The carbonate ion, CO²⁻₃, has three equivalent resonance structures. Using the bond enthalpies in the table, what is the best estimate of the energy of one carbon–oxygen bond in carbonate?",
+  "choices": [
+   "505 kJ mol⁻¹",
+   "358 kJ mol⁻¹",
+   "799 kJ mol⁻¹",
+   "1515 kJ mol⁻¹"
+  ],
+  "answer": "505 kJ mol⁻¹",
+  "hint": "Resonance averages the bonds: each C–O is one-third double and two-thirds single (bond order 1⅓).",
+  "explain": "Across the three structures each C–O position is single in two and double in one, so its energy ≈ (358 + 358 + 799)/3 = 505 kJ mol⁻¹, between a single and a double bond. 358 and 799 treat the bond as purely single or double; 1515 is the total for all three bonds.",
+  "html": {
+   "prompt": "The carbonate ion, <span class=\"nw\">CO<span class=\"ss\"><sup>2−</sup><sub>3</sub></span>,</span> has three equivalent resonance structures. Using the bond enthalpies in the table, what is the best estimate of the energy of one carbon–oxygen bond in carbonate?",
+   "choices": [
+    "505 kJ mol<sup>−1</sup>",
+    "358 kJ mol<sup>−1</sup>",
+    "799 kJ mol<sup>−1</sup>",
+    "1515 kJ mol<sup>−1</sup>"
+   ],
+   "hint": "Resonance averages the bonds: each C–O is one-third double and two-thirds single (bond order 1⅓).",
+   "explain": "Across the three structures each C–O position is single in two and double in one, so its energy ≈ (358 + 358 + 799)/3 = <b>505 kJ mol<sup>−1</sup></b>, between a single and a double bond. 358 and 799 treat the bond as purely single or double; 1515 is the total for all three bonds."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Bond",
+      "Bond enthalpy (kJ mol<sup>−1</sup>)"
+     ],
+     "rows": [
+      [
+       "C–O",
+       "358"
+      ],
+      [
+       "C=O",
+       "799"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 586
+  }
+ },
+ {
+  "id": "finalexam-34973e92",
+  "skill": "finalexam.1a.gases",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-9"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Four balloons at 1.00 atm and 300 K are each filled with a different gas. Which balloon holds the densest gas?",
+  "choices": [
+   "Cl₂",
+   "CO₂",
+   "Ar",
+   "N₂"
+  ],
+  "answer": "Cl₂",
+  "hint": "At the same P and T, equal volumes hold equal moles, so density tracks molar mass.",
+  "explain": "d = PM/RT: at fixed P and T the densest gas has the largest molar mass. Cl₂ (70.90 g mol⁻¹) beats CO₂ (44.01), Ar (39.95) and N₂ (28.02). Argon is tempting because its atoms are heavy, but each Cl₂ molecule is heavier still.",
+  "html": {
+   "prompt": "Four balloons at 1.00 atm and 300 K are each filled with a different gas. Which balloon holds the densest gas?",
+   "choices": [
+    "Cl<sub>2</sub>",
+    "CO<sub>2</sub>",
+    "Ar",
+    "N<sub>2</sub>"
+   ],
+   "hint": "At the same P and T, equal volumes hold equal moles, so density tracks molar mass.",
+   "explain": "d = PM/RT: at fixed P and T the densest gas has the largest molar mass. <b>Cl<sub>2</sub> (70.90 g mol⁻¹)</b> beats CO<sub>2</sub> (44.01), Ar (39.95) and N<sub>2</sub> (28.02). Argon is tempting because its atoms are heavy, but each Cl<sub>2</sub> molecule is heavier still."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 587
+  }
+ },
+ {
+  "id": "finalexam-eed80dc8",
+  "skill": "finalexam.1a.gases",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-9"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "A fixed amount of ideal gas has its pressure doubled while its absolute temperature is halved. What happens to its volume?",
+  "choices": [
+   "It becomes one-quarter of the original volume.",
+   "It becomes half of the original volume.",
+   "It stays the same.",
+   "It becomes four times the original volume."
+  ],
+  "answer": "It becomes one-quarter of the original volume.",
+  "hint": "V ∝ T/P for a fixed amount of gas. Apply both changes.",
+  "explain": "V = nRT/P. Doubling P halves V, and halving T halves it again: V becomes ¼ of the original. 'Half' applies only one of the two changes; 'the same' would require P and T to change in the same direction by the same factor.",
+  "html": {
+   "prompt": "A fixed amount of ideal gas has its pressure doubled while its absolute temperature is halved. What happens to its volume?",
+   "choices": [
+    "It becomes one-quarter of the original volume.",
+    "It becomes half of the original volume.",
+    "It stays the same.",
+    "It becomes four times the original volume."
+   ],
+   "hint": "V ∝ T/P for a fixed amount of gas. Apply both changes.",
+   "explain": "V = nRT/P. Doubling P halves V, and halving T halves it again: <b>V becomes ¼ of the original</b>. 'Half' applies only one of the two changes; 'the same' would require P and T to change in the same direction by the same factor."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 588
+  }
+ },
+ {
+  "id": "finalexam-8c9342ab",
+  "skill": "finalexam.1a.gases",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-9"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "A 5.00 g sample of CaCO₃ (100.09 g mol⁻¹) is heated and decomposes as shown. The CO₂ collected occupies 0.952 L at 25 °C and 1.00 atm. What is the percent yield?",
+  "choices": [
+   "77.9%",
+   "85.1%",
+   "128%",
+   "43.6%"
+  ],
+  "answer": "77.9%",
+  "hint": "Theoretical moles of CO₂ from the mass of CaCO₃; actual moles from PV = nRT (T in kelvin). Yield = actual/theoretical.",
+  "explain": "Theoretical: 5.00 ÷ 100.09 = 0.0500 mol CO₂. Actual: n = PV/RT = (1.00)(0.952)/[(0.08206)(298 K)] = 0.0389 mol. Yield = 0.0389/0.0500 = 77.9%. 85.1% uses 22.4 L mol⁻¹, which applies only at 0 °C; 128% inverts the ratio; 43.6% divides the 5.00 g by the molar mass of CaO instead of CaCO₃.",
+  "html": {
+   "prompt": "A 5.00 g sample of CaCO<sub>3</sub> (100.09 g mol<sup>−1</sup>) is heated and decomposes as shown. The CO<sub>2</sub> collected occupies 0.952 L at 25 °C and 1.00 atm. What is the percent yield?",
+   "choices": [
+    "77.9%",
+    "85.1%",
+    "128%",
+    "43.6%"
+   ],
+   "hint": "Theoretical moles of CO<sub>2</sub> from the mass of CaCO<sub>3</sub>; actual moles from PV = nRT (T in kelvin). Yield = actual/theoretical.",
+   "explain": "Theoretical: 5.00 ÷ 100.09 = 0.0500 mol CO<sub>2</sub>. Actual: n = PV/RT = (1.00)(0.952)/[(0.08206)(298 K)] = 0.0389 mol. Yield = 0.0389/0.0500 = <b>77.9%</b>. 85.1% uses 22.4 L mol⁻¹, which applies only at 0 °C; 128% inverts the ratio; 43.6% divides the 5.00 g by the molar mass of CaO instead of CaCO<sub>3</sub>."
+  },
+  "data": {
+   "f": [
+    {
+     "type": "eq",
+     "text": "CaCO<sub>3</sub>(s) → CaO(s) + CO<sub>2</sub>(g)"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 589
+  }
+ },
+ {
+  "id": "finalexam-4862a37d",
+  "skill": "finalexam.1a.gases",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-9"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "A rigid container of gas is heated. According to kinetic molecular theory, why does the pressure increase?",
+  "choices": [
+   "The molecules move faster, so they strike the walls more often and each collision exerts more force.",
+   "The molecules expand and take up a larger share of the container's volume.",
+   "Attractions between the molecules weaken, releasing more molecules to hit the walls.",
+   "Heating creates additional gas molecules, so there are more collisions."
+  ],
+  "answer": "The molecules move faster, so they strike the walls more often and each collision exerts more force.",
+  "hint": "Pressure comes from wall collisions. Think about how the speed of the molecules affects both the rate and the force of those collisions.",
+  "explain": "Higher temperature means higher average kinetic energy and speed: more frequent and more forceful collisions with the walls, so P rises. Ideal-gas molecules have negligible volume and no attractions, and heating does not create molecules.",
+  "html": {
+   "prompt": "A rigid container of gas is heated. According to kinetic molecular theory, why does the pressure increase?",
+   "choices": [
+    "The molecules move faster, so they strike the walls more often and each collision exerts more force.",
+    "The molecules expand and take up a larger share of the container's volume.",
+    "Attractions between the molecules weaken, releasing more molecules to hit the walls.",
+    "Heating creates additional gas molecules, so there are more collisions."
+   ],
+   "hint": "Pressure comes from wall collisions. Think about how the speed of the molecules affects both the rate and the force of those collisions.",
+   "explain": "Higher temperature means higher average kinetic energy and speed: <b>more frequent and more forceful collisions</b> with the walls, so P rises. Ideal-gas molecules have negligible volume and no attractions, and heating does not create molecules."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 590
+  }
+ },
+ {
+  "id": "finalexam-df0c5f4e",
+  "skill": "finalexam.1a.liquids",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-10"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "At room temperature chlorine, Cl₂, is a gas but iodine, I₂, is a solid. What is the best explanation?",
+  "choices": [
+   "I₂ has more electrons and is more polarizable, so its dispersion forces are stronger.",
+   "The I–I covalent bond is stronger than the Cl–Cl bond, so I₂ is harder to pull apart.",
+   "I₂ molecules are polar and attract one another by dipole–dipole forces.",
+   "I₂ molecules form hydrogen bonds with one another."
+  ],
+  "answer": "I₂ has more electrons and is more polarizable, so its dispersion forces are stronger.",
+  "hint": "Both are nonpolar diatomics with only dispersion forces; compare their size and electron count. Melting breaks intermolecular forces, not bonds.",
+  "explain": "Both molecules are nonpolar, so only London dispersion forces act; the larger, more polarizable I₂ has much stronger dispersion forces and is a solid. The I–I bond is actually weaker than Cl–Cl, and bond strength is irrelevant to the phase anyway; neither molecule is polar or hydrogen-bonds.",
+  "html": {
+   "prompt": "At room temperature chlorine, Cl<sub>2</sub>, is a gas but iodine, I<sub>2</sub>, is a solid. What is the best explanation?",
+   "choices": [
+    "I<sub>2</sub> has more electrons and is more polarizable, so its dispersion forces are stronger.",
+    "The I–I covalent bond is stronger than the Cl–Cl bond, so I<sub>2</sub> is harder to pull apart.",
+    "I<sub>2</sub> molecules are polar and attract one another by dipole–dipole forces.",
+    "I<sub>2</sub> molecules form hydrogen bonds with one another."
+   ],
+   "hint": "Both are nonpolar diatomics with only dispersion forces; compare their size and electron count. Melting breaks intermolecular forces, not bonds.",
+   "explain": "Both molecules are nonpolar, so only London dispersion forces act; the larger, <b>more polarizable I<sub>2</sub> has much stronger dispersion forces</b> and is a solid. The I–I bond is actually weaker than Cl–Cl, and bond strength is irrelevant to the phase anyway; neither molecule is polar or hydrogen-bonds."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 591
+  }
+ },
+ {
+  "id": "finalexam-e8c7cf73",
+  "skill": "finalexam.1a.liquids",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-10"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Liquid X has stronger intermolecular forces than liquid Y. At the same temperature, compared with Y, liquid X has",
+  "choices": [
+   "a higher enthalpy of vaporization and a lower vapor pressure.",
+   "a higher enthalpy of vaporization and a higher vapor pressure.",
+   "a lower enthalpy of vaporization and a lower vapor pressure.",
+   "a lower enthalpy of vaporization and a higher vapor pressure."
+  ],
+  "answer": "a higher enthalpy of vaporization and a lower vapor pressure.",
+  "hint": "Stronger attractions make escaping into the vapor harder: more energy per mole and fewer molecules in the gas phase.",
+  "explain": "Stronger intermolecular forces require more energy to vaporize (higher ΔH_vap) and let fewer molecules escape, giving a lower vapor pressure. Pairing a high ΔH_vap with a high vapor pressure confuses 'hard to vaporize' with 'lots of vapor'.",
+  "html": {
+   "prompt": "Liquid X has stronger intermolecular forces than liquid Y. At the same temperature, compared with Y, liquid X has",
+   "choices": [
+    "a higher enthalpy of vaporization and a lower vapor pressure.",
+    "a higher enthalpy of vaporization and a higher vapor pressure.",
+    "a lower enthalpy of vaporization and a lower vapor pressure.",
+    "a lower enthalpy of vaporization and a higher vapor pressure."
+   ],
+   "hint": "Stronger attractions make escaping into the vapor harder: more energy per mole and fewer molecules in the gas phase.",
+   "explain": "Stronger intermolecular forces require <b>more energy to vaporize (higher ΔH<sub>vap</sub>) and let fewer molecules escape, giving a lower vapor pressure</b>. Pairing a high ΔH<sub>vap</sub> with a high vapor pressure confuses 'hard to vaporize' with 'lots of vapor'."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 592
+  }
+ },
+ {
+  "id": "finalexam-2ba88a0d",
+  "skill": "finalexam.1a.liquids",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-10"
+  ],
+  "origin": "original",
+  "made": "gap",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "A chemist describes an unknown as soft and waxy, melting at 53 °C, a nonconductor whether solid or molten, insoluble in water yet soluble in hexane. What type of solid is it?",
+  "choices": [
+   "molecular solid",
+   "ionic solid",
+   "metallic solid",
+   "covalent network solid"
+  ],
+  "answer": "molecular solid",
+  "hint": "Low melting point plus no conductivity even when melted points to discrete neutral molecules held by weak forces.",
+  "explain": "A low melting point, no mobile ions or electrons in any state, and solubility in a nonpolar solvent all fit a molecular solid held together by intermolecular forces. An ionic solid conducts when molten and melts high; a metal conducts; a network solid melts extremely high and is insoluble in everything.",
+  "html": {
+   "prompt": "A chemist describes an unknown as soft and waxy, melting at 53 °C, a nonconductor whether solid or molten, insoluble in water yet soluble in hexane. What type of solid is it?",
+   "choices": [
+    "molecular solid",
+    "ionic solid",
+    "metallic solid",
+    "covalent network solid"
+   ],
+   "hint": "Low melting point plus no conductivity even when melted points to discrete neutral molecules held by weak forces.",
+   "explain": "A low melting point, no mobile ions or electrons in any state, and solubility in a nonpolar solvent all fit a <b>molecular solid</b> held together by intermolecular forces. An ionic solid conducts when molten and melts high; a metal conducts; a network solid melts extremely high and is insoluble in everything."
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 593
+  }
  }
 ]
