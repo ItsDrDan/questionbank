@@ -209,6 +209,7 @@ function mcFromArray(a, hasTitle) {
     fs.writeFileSync(path.join(OUT, 'data/sugars.json'), JSON.stringify({ from: 'carbohydrates', sugars: Array.isArray(s.SUG) ? Object.fromEntries(s.SUG) : s.SUG }, null, 1));
   }
 
+  const failed = [];
   // ---------- Sampled questions: each game's own question makers, run with a fixed seed ----------
   // One sampler per game in tools/samplers/<game>.js. Output goes to bank/<game>-practice.json.
   for (const f of fs.readdirSync(path.join(__dirname, 'samplers')).filter(f => f.endsWith('.js')).sort()) {
@@ -219,9 +220,14 @@ function mcFromArray(a, hasTitle) {
       const items = await require(path.join(__dirname, 'samplers', f))(gp, { game, seed: n => gp.evaluate(n => window.__seed(n), n) });
       await gp.close();
       const problems = validate(items);
-      if (problems.length) { console.log('sampler', game, 'has problems, skipped:', problems.slice(0, 5)); continue; }
+      if (problems.length) throw new Error('validation: ' + problems.slice(0, 3).join('; '));
       add(game + '-practice', items.map((q, i) => { const { from, ...rest } = q; return item(game, (from && from.list) || 'sample', (from && from.index) ?? i, rest); }));
-    } catch (e) { console.log('sampler', game, 'failed:', e.message.split('\n')[0]); }
+    } catch (e) {
+      // Keep yesterday's questions for this game instead of dropping them, and flag the run as failed (GitHub emails the owner).
+      const prev = path.join(OUT, 'bank', game + '-practice.json');
+      if (fs.existsSync(prev)) add(game + '-practice', JSON.parse(fs.readFileSync(prev, 'utf8')));
+      failed.push(game + ': ' + e.message.split('\n')[0].slice(0, 200));
+    }
   }
   await browser.close();
 
@@ -240,4 +246,5 @@ function mcFromArray(a, hasTitle) {
   }
   fs.writeFileSync(path.join(OUT, 'index.json'), JSON.stringify(index, null, 1));
   console.log(JSON.stringify(index.banks), 'total', Object.values(index.banks).reduce((a, b) => a + b, 0));
+  if (failed.length) { console.log('SAMPLERS THAT NEED A LOOK (previous questions kept):\n' + failed.join('\n')); process.exitCode = 1; }
 })();

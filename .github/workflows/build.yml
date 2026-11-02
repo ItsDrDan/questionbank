@@ -25,10 +25,15 @@ jobs:
         run: |
           cd questionbank
           npm init -y >/dev/null && npm install playwright@1 >/dev/null && npx playwright install --with-deps chromium >/dev/null
-          node tools/build.js ../games
+          node tools/build.js ../games || echo 'SAMPLER_FAILED=1' >> $GITHUB_ENV
       - name: Save changes
         run: |
           cd questionbank
           git config user.name "question-bank-bot"; git config user.email "actions@github.com"
           git add bank data index.json
           git diff --cached --quiet || (git commit -m "Rebuild question bank from games" && git push)
+      - name: Flag sampler problems
+        if: env.SAMPLER_FAILED == '1'
+        run: |
+          echo 'A game changed and its sampler needs updating. Its previous questions were kept. See the Build step log.'
+          exit 1
