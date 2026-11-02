@@ -101,9 +101,9 @@ function mcFromArray(a, hasTitle) {
 
   // ---------- Bridge to 1B concept sets (Tro-aligned BRIDGE_CONCEPTS left out) ----------
   {
-    const g = 'chem1bready', d = await pull(page, g, ['CORE', 'PHYSICAL', 'WATER_CONCEPTS', 'KE_CONCEPTS']);
-    const sets = { CORE: ['bridge.core-toolkit', ['1A-1', '1A-2', '1A-3', '1B-ready']], PHYSICAL: ['bridge.matter-energy', ['1A-5', '1A-9', '1A-10', '1B-ready']], WATER_CONCEPTS: ['bridge.reactions-in-water', ['1A-4', '1B-ready', '1B-14']], KE_CONCEPTS: ['bridge.kinetics-equilibrium', ['1B-12', '1B-13', '1B-ready']] };
-    for (const [list, [skill, chapters]] of Object.entries(sets))
+    const g = 'chem1bready', d = await pull(page, g, ['CORE', 'PHYSICAL', 'WATER_CONCEPTS', 'KE_CONCEPTS', 'MG_CONCEPTS']);
+    const sets = { CORE: ['bridge.core-toolkit', ['1A-1', '1A-2', '1A-3', '1B-ready']], PHYSICAL: ['bridge.matter-energy', ['1A-5', '1A-9', '1A-10', '1B-ready']], WATER_CONCEPTS: ['bridge.reactions-in-water', ['1A-4', '1B-ready', '1B-14']], KE_CONCEPTS: ['bridge.kinetics-equilibrium', ['1B-12', '1B-13', '1B-ready']], MG_CONCEPTS: ['bridge.math-gym', ['1B-12', '1B-13', '1B-14', '1B-16', '1B-ready']] };
+    for (const [list, [skill, chapters]] of Object.entries(sets)) if (d[list])
       add('chem-1b-readiness', d[list].map((a, i) => item(g, list, i, { skill, courses: ['1A', '1B'], chapters, origin: 'original', type: 'mc', ...mcFromArray(a, true) })));
   }
 

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "note": "One entry per game mode. kind: generated = made by code each time; static = fixed list; mixed = both. bankSkills = matching questions in bank/.",
  "skills": [
   {
@@ -4214,6 +4214,34 @@
     "finalexam.3b.*"
    ],
    "note": "Final Boss! 3B items embedded in the game (same renderer)."
+  },
+  {
+   "id": "chem1bready.mathgym",
+   "game": "chem1bready",
+   "mode": "mathgym",
+   "title": "1B Math Gym",
+   "courses": [
+    "1A",
+    "1B"
+   ],
+   "chapters": [
+    "1B-12",
+    "1B-13",
+    "1B-14",
+    "1B-16",
+    "1B-ready"
+   ],
+   "kind": "mixed",
+   "answerTypes": [
+    "numeric",
+    "multiple-choice"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/chem1bready/",
+   "bankSkills": [
+    "bridge.math-gym",
+    "chem1bready.math-gym"
+   ]
   }
  ]
 }

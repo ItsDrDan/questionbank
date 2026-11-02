@@ -1280,5 +1280,325 @@
    "list": "KE_CONCEPTS",
    "index": 9
   }
+ },
+ {
+  "id": "chem1bready-0d5fbd2c",
+  "skill": "bridge.math-gym",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-14",
+   "1B-16",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Which log?",
+  "prompt": "pH = −log[H⁺]. Which calculator key?",
+  "answer": "log (base 10)",
+  "choices": [
+   "log (base 10)",
+   "ln (natural log)",
+   "eˣ",
+   "x²"
+  ],
+  "explain": "pH and pOH use base 10. Rate laws, Arrhenius and ΔG = −RT ln K use ln.",
+  "from": {
+   "game": "chem1bready",
+   "list": "MG_CONCEPTS",
+   "index": 0
+  }
+ },
+ {
+  "id": "chem1bready-eff50ed7",
+  "skill": "bridge.math-gym",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-14",
+   "1B-16",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Undoing ln",
+  "prompt": "You know ln K = 3.2. Which key gives K?",
+  "answer": "eˣ (2nd + ln)",
+  "choices": [
+   "eˣ (2nd + ln)",
+   "10ˣ (2nd + log)",
+   "x²",
+   "1/x"
+  ],
+  "explain": "ln is undone by e to the power: K = e³·².",
+  "from": {
+   "game": "chem1bready",
+   "list": "MG_CONCEPTS",
+   "index": 1
+  }
+ },
+ {
+  "id": "chem1bready-d8a62515",
+  "skill": "bridge.math-gym",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-14",
+   "1B-16",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Negative logs",
+  "prompt": "The log of a concentration like 2 × 10⁻⁵ M is…",
+  "answer": "Negative (about −4.7)",
+  "choices": [
+   "Negative (about −4.7)",
+   "Positive (about 4.7)",
+   "Zero",
+   "Undefined"
+  ],
+  "explain": "Numbers between 0 and 1 have negative logs. −log makes pH positive.",
+  "from": {
+   "game": "chem1bready",
+   "list": "MG_CONCEPTS",
+   "index": 2
+  }
+ },
+ {
+  "id": "chem1bready-8c6dbe35",
+  "skill": "bridge.math-gym",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-14",
+   "1B-16",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Straight-line test",
+  "prompt": "You want k from a first-order reaction. Which plot is a straight line with slope −k?",
+  "answer": "ln[A] versus time",
+  "choices": [
+   "ln[A] versus time",
+   "[A] versus time",
+   "1/[A] versus time",
+   "[A]² versus time"
+  ],
+  "explain": "ln[A] = −kt + ln[A]₀ has the form y = mx + b. (Zero order: [A] vs t; second order: 1/[A] vs t.)",
+  "from": {
+   "game": "chem1bready",
+   "list": "MG_CONCEPTS",
+   "index": 3
+  }
+ },
+ {
+  "id": "chem1bready-07fbb3ec",
+  "skill": "bridge.math-gym",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-14",
+   "1B-16",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Slope units",
+  "prompt": "On a plot of [A] (M) against time (s), the slope has units of…",
+  "answer": "M/s",
+  "choices": [
+   "M/s",
+   "s/M",
+   "M",
+   "No units"
+  ],
+  "explain": "Slope = Δy ÷ Δx, so y-units over x-units.",
+  "from": {
+   "game": "chem1bready",
+   "list": "MG_CONCEPTS",
+   "index": 4
+  }
+ },
+ {
+  "id": "chem1bready-e1cf4229",
+  "skill": "bridge.math-gym",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-14",
+   "1B-16",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Which root?",
+  "prompt": "A quadratic from an ICE table gives x = 0.031 and x = −0.52. Which is right?",
+  "answer": "x = 0.031 (a concentration change can’t be negative)",
+  "choices": [
+   "x = 0.031 (a concentration change can’t be negative)",
+   "x = −0.52",
+   "Both are valid",
+   "Neither"
+  ],
+  "explain": "Pick the root that keeps every concentration positive.",
+  "from": {
+   "game": "chem1bready",
+   "list": "MG_CONCEPTS",
+   "index": 5
+  }
+ },
+ {
+  "id": "chem1bready-abb73d58",
+  "skill": "bridge.math-gym",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-14",
+   "1B-16",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Exponent rule",
+  "prompt": "(3.0 × 10⁻⁴)² equals…",
+  "answer": "9.0 × 10⁻⁸",
+  "choices": [
+   "9.0 × 10⁻⁸",
+   "9.0 × 10⁻¹⁶",
+   "6.0 × 10⁻⁸",
+   "3.0 × 10⁻⁸"
+  ],
+  "explain": "Square the number and double the exponent: 3.0² = 9.0 and (10⁻⁴)² = 10⁻⁸.",
+  "from": {
+   "game": "chem1bready",
+   "list": "MG_CONCEPTS",
+   "index": 6
+  }
+ },
+ {
+  "id": "chem1bready-ee5440b0",
+  "skill": "bridge.math-gym",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-14",
+   "1B-16",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "Doubling test",
+  "prompt": "Rate = k[A]². If [A] is doubled, the rate…",
+  "answer": "Quadruples (2² = 4)",
+  "choices": [
+   "Quadruples (2² = 4)",
+   "Doubles",
+   "Stays the same",
+   "Halves"
+  ],
+  "explain": "Second order in A: rate scales with the square of the change.",
+  "from": {
+   "game": "chem1bready",
+   "list": "MG_CONCEPTS",
+   "index": 7
+  }
+ },
+ {
+  "id": "chem1bready-8808145d",
+  "skill": "bridge.math-gym",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-14",
+   "1B-16",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "kJ with ln",
+  "prompt": "ΔG° = −RT ln K with R = 8.314 J/(mol·K). ΔG° is given in kJ/mol. What first?",
+  "answer": "Convert ΔG° to J/mol (× 1000)",
+  "choices": [
+   "Convert ΔG° to J/mol (× 1000)",
+   "Convert R to kJ by dividing by 10",
+   "Nothing; the units cancel",
+   "Convert T to °C"
+  ],
+  "explain": "R is in joules, so ΔG° must be in joules too. (Converting R to kJ by ÷1000 also works.)",
+  "from": {
+   "game": "chem1bready",
+   "list": "MG_CONCEPTS",
+   "index": 8
+  }
+ },
+ {
+  "id": "chem1bready-4b64f5d3",
+  "skill": "bridge.math-gym",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1B-12",
+   "1B-13",
+   "1B-14",
+   "1B-16",
+   "1B-ready"
+  ],
+  "origin": "original",
+  "type": "mc",
+  "title": "5% rule",
+  "prompt": "You used x ≈ √(Kc) and found x is 2% of c. Is the shortcut OK?",
+  "answer": "Yes, under 5%",
+  "choices": [
+   "Yes, under 5%",
+   "No, it must be under 1%",
+   "No, it must be exactly 0",
+   "Only if K > 1"
+  ],
+  "explain": "Under 5% means c − x ≈ c was a fine approximation.",
+  "from": {
+   "game": "chem1bready",
+   "list": "MG_CONCEPTS",
+   "index": 9
+  }
  }
 ]

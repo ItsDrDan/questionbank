@@ -20,6 +20,7 @@ const TOPICS = [
   { key: 'foundations', slug: 'core-toolkit', ch: ['1A-1', '1A-2', '1A-3', '1A-6', '1B-ready'] },
   { key: 'physical', slug: 'matter-energy', ch: ['1A-5', '1A-9', '1A-10', '1A-11', '1B-ready'] },
   { key: 'kineq', slug: 'kinetics-equilibrium-prep', ch: ['1B-12', '1B-13', '1B-ready'] },
+  { key: 'mathgym', slug: 'math-gym', perTitle: 10, ch: ['1B-12', '1B-13', '1B-14', '1B-16', '1B-ready'] },
 ];
 // problem title -> field labels to ask (default: last field of the last step that has fields)
 const PICK = {
@@ -31,6 +32,21 @@ const PICK = {
   'Is x small?': ['Can x be ignored next to the start?'],
   'Heat and temperature in equilibrium': ['Heat acts like a…'],
   'Two dissolved salts share an ion': [/^Final \[Cl/],
+  // 1B Math Gym (v43+): ask for the quantity that carries the skill, not the follow-up choice
+  'Two kinds of log': ['−log(x)', 'ln(x)'],
+  'Undo a log': ['[H⁺]', 'y'],
+  'Solve for t inside a log': ['Time t'],
+  'The unknown is in the exponent': ['x'],
+  'kJ, J and a log: the classic trap': ['ln K', 'K'],
+  'Slope with units from a plot': ['Slope', 'Rate of disappearance of A'],
+  'Find the exponent from two trials': ['Exponent n'],
+  'Fill the ln column, then take a slope': ['k = −slope'],
+  'A quadratic from an ICE table': ['Positive root x'],
+  'The small-x shortcut, and checking it': ['x', 'x as a percent of c'],
+  'Powers of a tiny number': ['Result'],
+  'Solve for the unknown in a denominator': ['c'],
+  'Solve a rate law for k': ['k'],
+  'Solve for one concentration inside K': ['[B]'],
 };
 const SKIP_TITLES = ['Molarity, molality, and particle concentration', 'Mass percent, molarity, and molality']; // concentrationBridge (both versions)
 const PER_TITLE = 8, PER_TOPIC = 40;
@@ -43,7 +59,7 @@ module.exports = async (page, ctx) => {
     const raw = await page.evaluate(({ topic, PICK, SKIP_TITLES, PER_TITLE, PER_TOPIC }) => {
       // the game's pick/shuffle use crypto.getRandomValues; route it through the seeded Math.random
       crypto.getRandomValues = a => { for (let i = 0; i < a.length; i++) a[i] = Math.floor(Math.random() * 4294967296); return a; };
-      const conceptStories = new Set([CORE, PHYSICAL, WATER_CONCEPTS, KE_CONCEPTS, ...Object.values(BRIDGE_CONCEPTS)].flat().map(c => c[1]));
+      const conceptStories = new Set([CORE, PHYSICAL, WATER_CONCEPTS, KE_CONCEPTS, (typeof MG_CONCEPTS !== 'undefined' ? MG_CONCEPTS : []), ...Object.values(BRIDGE_CONCEPTS)].flat().map(c => c[1]));
       const picks = Object.fromEntries(Object.entries(PICK).map(([k, v]) => [k, v.map(x => typeof x === 'string' ? x : new RegExp(x.source || x))]));
       const strip = s => String(s).replace(/<[^>]+>/g, '');
       const dropQuestions = s => s.split(/(?<=[.?!])\s+/).filter(x => !/\?\s*$/.test(strip(x))).join(' ');
