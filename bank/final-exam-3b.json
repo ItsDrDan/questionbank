@@ -3952,7 +3952,7 @@
   }
  },
  {
-  "id": "finalexam-4b4329de",
+  "id": "finalexam-f8926103",
   "skill": "finalexam.3b.acids_esters",
   "courses": [
    "3B"
@@ -3966,7 +3966,7 @@
   "type": "finalboss-mc",
   "difficulty": 3,
   "calc": false,
-  "prompt": "Lactic acid has a pK_a of about 3.9. In blood at pH 7.4, lactic acid exists mainly as",
+  "prompt": "Lactic acid, CH₃CH(OH)COOH, is a carboxylic acid (a weak acid). In blood at pH 7.4, lactic acid exists mainly as",
   "choices": [
    "the lactate ion, CH₃CH(OH)COO⁻",
    "neutral CH₃CH(OH)COOH molecules",
@@ -3974,18 +3974,18 @@
    "lactate esters"
   ],
   "answer": "the lactate ion, CH₃CH(OH)COO⁻",
-  "hint": "When the pH is well above the pK_a, does the acid keep or lose its proton?",
-  "explain": "At pH 7.4, far above 3.9, almost all of the acid has lost its H⁺, so it is present as the carboxylate ion, lactate. That is why we say “lactate” in physiology.",
+  "hint": "At body pH, does a carboxylic acid keep its H⁺ or lose it?",
+  "explain": "Carboxylic acids are weak acids that give up their H⁺ at body pH (7.4), so lactic acid is present as the carboxylate ion, lactate. That is why we say “lactate” in physiology.",
   "html": {
-   "prompt": "Lactic acid has a pK<sub>a</sub> of about 3.9. In blood at pH 7.4, lactic acid exists mainly as",
+   "prompt": "Lactic acid, CH<sub>3</sub>CH(OH)COOH, is a carboxylic acid (a weak acid). In blood at pH 7.4, lactic acid exists mainly as",
    "choices": [
     "the lactate ion, CH<sub>3</sub>CH(OH)COO<sup>−</sup>",
     "neutral CH<sub>3</sub>CH(OH)COOH molecules",
     "<span class=\"nw\">CH<sub>3</sub>CH(OH)COOH<span class=\"ss\"><sup>+</sup><sub>2</sub></span></span> ions",
     "lactate esters"
    ],
-   "hint": "When the pH is well above the pK<sub>a</sub>, does the acid keep or lose its proton?",
-   "explain": "At pH 7.4, far above 3.9, almost all of the acid has lost its H<sup>+</sup>, so it is present as the <b>carboxylate ion, lactate</b>. That is why we say “lactate” in physiology."
+   "hint": "At body pH, does a carboxylic acid keep its H<sup>+</sup> or lose it?",
+   "explain": "Carboxylic acids are weak acids that give up their H<sup>+</sup> at body pH (7.4), so lactic acid is present as the <b>carboxylate ion, lactate</b>. That is why we say “lactate” in physiology."
   },
   "data": {
    "s": [
@@ -5542,7 +5542,7 @@
   }
  },
  {
-  "id": "finalexam-a5909b44",
+  "id": "finalexam-f86b983d",
   "skill": "finalexam.3b.lipids",
   "courses": [
    "3B"
@@ -5556,26 +5556,26 @@
   "type": "mc",
   "difficulty": 2,
   "calc": false,
-  "prompt": "Aspirin and ibuprofen reduce pain, fever and inflammation because they block the synthesis of",
+  "prompt": "Aspirin and ibuprofen reduce pain and inflammation by blocking the COX enzyme, which converts arachidonic acid (a 20-carbon fatty acid) into a family of eicosanoids. Which lipids do these drugs keep the body from making?",
   "choices": [
-   "prostaglandins from arachidonic acid",
-   "cholesterol from acetyl CoA",
-   "triacylglycerols from glycerol",
-   "lecithin from choline"
+   "prostaglandins, which contain a five-membered ring",
+   "steroids, which contain four fused rings",
+   "triacylglycerols, which contain three ester bonds",
+   "sphingolipids, which contain a sphingosine backbone"
   ],
-  "answer": "prostaglandins from arachidonic acid",
-  "hint": "These drugs inhibit the COX enzymes that make a family of 20-carbon eicosanoids.",
-  "explain": "NSAIDs inhibit cyclooxygenase, which converts arachidonic acid into prostaglandins, the eicosanoids that cause pain and inflammation. Statins, not aspirin, act on cholesterol synthesis.",
+  "answer": "prostaglandins, which contain a five-membered ring",
+  "hint": "“Eicosa-” means 20. Which choice is an eicosanoid made from a 20-carbon fatty acid?",
+  "explain": "COX converts arachidonic acid into prostaglandins, the eicosanoids that cause pain, fever and inflammation; blocking COX is how NSAIDs work. Steroids are made from cholesterol, and triacylglycerols and sphingolipids are not eicosanoids.",
   "html": {
-   "prompt": "Aspirin and ibuprofen reduce pain, fever and inflammation because they block the synthesis of",
+   "prompt": "Aspirin and ibuprofen reduce pain and inflammation by blocking the COX enzyme, which converts arachidonic acid (a 20-carbon fatty acid) into a family of eicosanoids. Which lipids do these drugs keep the body from making?",
    "choices": [
-    "prostaglandins from arachidonic acid",
-    "cholesterol from acetyl CoA",
-    "triacylglycerols from glycerol",
-    "lecithin from choline"
+    "prostaglandins, which contain a five-membered ring",
+    "steroids, which contain four fused rings",
+    "triacylglycerols, which contain three ester bonds",
+    "sphingolipids, which contain a sphingosine backbone"
    ],
-   "hint": "These drugs inhibit the COX enzymes that make a family of 20-carbon eicosanoids.",
-   "explain": "NSAIDs inhibit cyclooxygenase, which converts arachidonic acid into <b>prostaglandins</b>, the eicosanoids that cause pain and inflammation. Statins, not aspirin, act on cholesterol synthesis."
+   "hint": "“Eicosa-” means 20. Which choice is an eicosanoid made from a 20-carbon fatty acid?",
+   "explain": "COX converts arachidonic acid into <b>prostaglandins</b>, the eicosanoids that cause pain, fever and inflammation; blocking COX is how NSAIDs work. Steroids are made from cholesterol, and triacylglycerols and sphingolipids are not eicosanoids."
   },
   "from": {
    "game": "finalexam",
@@ -5710,7 +5710,7 @@
   }
  },
  {
-  "id": "finalexam-e57d8751",
+  "id": "finalexam-9a40bad5",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -5724,7 +5724,7 @@
   "type": "mc",
   "difficulty": 3,
   "calc": false,
-  "prompt": "Glycine (pI ≈ 6.0) is placed in a solution at pH 1. Which form is present mainly?",
+  "prompt": "Glycine (pI ≈ 6.0) is placed in a strongly acidic solution, at a pH far below its pI. Which form is present mainly?",
   "choices": [
    "H₃N⁺CH₂COOH",
    "H₃N⁺CH₂COO⁻",
@@ -5733,9 +5733,9 @@
   ],
   "answer": "H₃N⁺CH₂COOH",
   "hint": "At a pH far below the pI, extra H⁺ is available. Which group picks it up?",
-  "explain": "At low pH the –COO⁻ is protonated, giving H₃N⁺CH₂COOH with a net +1 charge. The zwitterion is the form at pH 6; H₂NCH₂COO⁻ is the high-pH form.",
+  "explain": "Far below the pI the –COO⁻ is protonated, giving H₃N⁺CH₂COOH with a net +1 charge. The zwitterion is the main form at the pI; H₂NCH₂COO⁻ is the form far above the pI.",
   "html": {
-   "prompt": "Glycine (pI ≈ 6.0) is placed in a solution at pH 1. Which form is present mainly?",
+   "prompt": "Glycine (pI ≈ 6.0) is placed in a strongly acidic solution, at a pH far below its pI. Which form is present mainly?",
    "choices": [
     "H<sub>3</sub>N<sup>+</sup>CH<sub>2</sub>COOH",
     "H<sub>3</sub>N<sup>+</sup>CH<sub>2</sub>COO<sup>−</sup>",
@@ -5743,7 +5743,7 @@
     "H<sub>2</sub>NCH<sub>2</sub>COOH"
    ],
    "hint": "At a pH far below the pI, extra H<sup>+</sup> is available. Which group picks it up?",
-   "explain": "At low pH the –COO<sup>−</sup> is protonated, giving <b>H<sub>3</sub>N<sup>+</sup>CH<sub>2</sub>COOH</b> with a net +1 charge. The zwitterion is the form at pH 6; H<sub>2</sub>NCH<sub>2</sub>COO<sup>−</sup> is the high-pH form."
+   "explain": "Far below the pI the –COO<sup>−</sup> is protonated, giving <b>H<sub>3</sub>N<sup>+</sup>CH<sub>2</sub>COOH</b> with a net +1 charge. The zwitterion is the main form at the pI; H<sub>2</sub>NCH<sub>2</sub>COO<sup>−</sup> is the form far above the pI."
   },
   "from": {
    "game": "finalexam",
@@ -7318,7 +7318,7 @@
   }
  },
  {
-  "id": "finalexam-307ff54c",
+  "id": "finalexam-cc1fc2e6",
   "skill": "finalexam.3b.metabolism",
   "courses": [
    "3B"
@@ -7335,7 +7335,7 @@
   "type": "mc",
   "difficulty": 3,
   "calc": false,
-  "prompt": "Alanine undergoes transamination with α-ketoglutarate. What are the products?",
+  "prompt": "In transamination, the amino group of an amino acid trades places with the C=O of an α-keto acid. Alanine, CH₃–CH(NH₂)–COOH, reacts with α-ketoglutarate, HOOC–CH₂CH₂–CO–COOH. What are the products?",
   "choices": [
    "pyruvate and glutamate",
    "lactate and glutamine",
@@ -7343,17 +7343,17 @@
    "oxaloacetate and aspartate"
   ],
   "answer": "pyruvate and glutamate",
-  "hint": "Transamination swaps the amino group of an amino acid with the keto group of an α-keto acid.",
+  "hint": "Alanine loses its –NH₂ and gets a C=O in its place; α-ketoglutarate gains the –NH₂. Which 3-carbon keto acid has the formula CH₃–CO–COOH?",
   "explain": "Alanine's –NH₂ goes to α-ketoglutarate, which becomes glutamate; alanine becomes the α-keto acid pyruvate. Free NH⁺₄ is released later, when glutamate is oxidatively deaminated, and is converted to urea in the urea cycle.",
   "html": {
-   "prompt": "Alanine undergoes transamination with α-ketoglutarate. What are the products?",
+   "prompt": "In transamination, the amino group of an amino acid trades places with the C=O of an α-keto acid. Alanine, CH<sub>3</sub>–CH(NH<sub>2</sub>)–COOH, reacts with α-ketoglutarate, HOOC–CH<sub>2</sub>CH<sub>2</sub>–CO–COOH. What are the products?",
    "choices": [
     "pyruvate and glutamate",
     "lactate and glutamine",
     "pyruvate and ammonium ion",
     "oxaloacetate and aspartate"
    ],
-   "hint": "Transamination swaps the amino group of an amino acid with the keto group of an α-keto acid.",
+   "hint": "Alanine loses its –NH<sub>2</sub> and gets a C=O in its place; α-ketoglutarate gains the –NH<sub>2</sub>. Which 3-carbon keto acid has the formula CH<sub>3</sub>–CO–COOH?",
    "explain": "Alanine's –NH<sub>2</sub> goes to α-ketoglutarate, which becomes <b>glutamate</b>; alanine becomes the α-keto acid <b>pyruvate</b>. Free <span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>4</sub></span></span> is released later, when glutamate is oxidatively deaminated, and is converted to urea in the urea cycle."
   },
   "from": {
@@ -7363,7 +7363,7 @@
   }
  },
  {
-  "id": "finalexam-ba4562dc",
+  "id": "finalexam-0ca35877",
   "skill": "finalexam.3b.metabolism",
   "courses": [
    "3B"
@@ -7380,7 +7380,7 @@
   "type": "mc",
   "difficulty": 2,
   "calc": false,
-  "prompt": "Cyanide is deadly because it binds to cytochrome c oxidase in the electron transport chain. What does this block directly?",
+  "prompt": "Cyanide is deadly because it blocks cytochrome c oxidase, the last enzyme complex of the electron transport chain. What does this block directly?",
   "choices": [
    "the transfer of electrons to O₂, stopping ATP synthesis",
    "the breakdown of glucose to pyruvate in glycolysis",
@@ -7391,7 +7391,7 @@
   "hint": "Cytochrome c oxidase is the final complex. What is the final electron acceptor?",
   "explain": "Cytochrome c oxidase passes electrons to O₂, forming water. With it blocked, electron flow and proton pumping stop, so oxidative phosphorylation stops making ATP. Glycolysis can still run.",
   "html": {
-   "prompt": "Cyanide is deadly because it binds to cytochrome c oxidase in the electron transport chain. What does this block directly?",
+   "prompt": "Cyanide is deadly because it blocks cytochrome c oxidase, the last enzyme complex of the electron transport chain. What does this block directly?",
    "choices": [
     "the transfer of electrons to O<sub>2</sub>, stopping ATP synthesis",
     "the breakdown of glucose to pyruvate in glycolysis",
@@ -7617,7 +7617,7 @@
   }
  },
  {
-  "id": "finalexam-b2280272",
+  "id": "finalexam-5716dc83",
   "skill": "finalexam.3b.metabolism",
   "courses": [
    "3B"
@@ -7634,26 +7634,26 @@
   "type": "mc",
   "difficulty": 3,
   "calc": false,
-  "prompt": "Both liver and muscle store glycogen, but only the liver can release free glucose into the blood. Why?",
+  "prompt": "Glycogen breakdown releases glucose-6-phosphate, which cannot leave the cell until the enzyme glucose-6-phosphatase removes its phosphate. Liver and muscle both store glycogen, but only the liver releases free glucose into the blood. What is the best explanation?",
   "choices": [
-   "Only liver has glucose-6-phosphatase to remove the phosphate",
+   "Liver has glucose-6-phosphatase to remove the phosphate; muscle does not",
    "Only liver has glycogen phosphorylase to split the glycogen",
    "Muscle glycogen is a polymer of fructose instead of glucose",
    "Muscle cells lack hexokinase, so glucose cannot be trapped"
   ],
-  "answer": "Only liver has glucose-6-phosphatase to remove the phosphate",
+  "answer": "Liver has glucose-6-phosphatase to remove the phosphate; muscle does not",
   "hint": "Glucose-6-phosphate cannot cross the cell membrane. Which enzyme turns it into free glucose?",
-  "explain": "Glycogenolysis gives glucose-6-phosphate, which is trapped inside the cell. Only the liver (and kidney) has glucose-6-phosphatase to remove the phosphate, so muscle keeps its glucose-6-phosphate for its own glycolysis. Muscle does have glycogen phosphorylase.",
+  "explain": "Glycogenolysis gives glucose-6-phosphate, which is trapped inside the cell. The liver has glucose-6-phosphatase and muscle does not to remove the phosphate, so muscle keeps its glucose-6-phosphate for its own glycolysis. Muscle does have glycogen phosphorylase.",
   "html": {
-   "prompt": "Both liver and muscle store glycogen, but only the liver can release free glucose into the blood. Why?",
+   "prompt": "Glycogen breakdown releases glucose-6-phosphate, which cannot leave the cell until the enzyme glucose-6-phosphatase removes its phosphate. Liver and muscle both store glycogen, but only the liver releases free glucose into the blood. What is the best explanation?",
    "choices": [
-    "Only liver has glucose-6-phosphatase to remove the phosphate",
+    "Liver has glucose-6-phosphatase to remove the phosphate; muscle does not",
     "Only liver has glycogen phosphorylase to split the glycogen",
     "Muscle glycogen is a polymer of fructose instead of glucose",
     "Muscle cells lack hexokinase, so glucose cannot be trapped"
    ],
    "hint": "Glucose-6-phosphate cannot cross the cell membrane. Which enzyme turns it into free glucose?",
-   "explain": "Glycogenolysis gives glucose-6-phosphate, which is trapped inside the cell. <b>Only the liver (and kidney) has glucose-6-phosphatase</b> to remove the phosphate, so muscle keeps its glucose-6-phosphate for its own glycolysis. Muscle does have glycogen phosphorylase."
+   "explain": "Glycogenolysis gives glucose-6-phosphate, which is trapped inside the cell. <b>The liver has glucose-6-phosphatase and muscle does not</b> to remove the phosphate, so muscle keeps its glucose-6-phosphate for its own glycolysis. Muscle does have glycogen phosphorylase."
   },
   "from": {
    "game": "finalexam",
@@ -7662,7 +7662,7 @@
   }
  },
  {
-  "id": "finalexam-8b6bc176",
+  "id": "finalexam-a861ebb2",
   "skill": "finalexam.3b.metabolism",
   "courses": [
    "3B"
@@ -7679,7 +7679,7 @@
   "type": "mc",
   "difficulty": 3,
   "calc": false,
-  "prompt": "Which compound CANNOT be used by the human liver to make a net amount of new glucose by gluconeogenesis?",
+  "prompt": "Gluconeogenesis builds glucose from pyruvate or from glycolysis intermediates, but the step pyruvate → acetyl CoA cannot be reversed. Which compound CANNOT be used by the liver to make a net amount of new glucose?",
   "choices": [
    "acetyl CoA from fatty acids",
    "lactate from exercising muscle",
@@ -7690,7 +7690,7 @@
   "hint": "Gluconeogenesis starts from pyruvate or a glycolysis intermediate. Which molecule is formed only after pyruvate has irreversibly lost a CO₂?",
   "explain": "Lactate and alanine (→ pyruvate) and glycerol (→ dihydroxyacetone phosphate) can all become glucose. Pyruvate → acetyl CoA is irreversible, and the 2 carbons of acetyl CoA leave as 2 CO₂ in the citric acid cycle, so acetyl CoA from fatty acids gives no net glucose.",
   "html": {
-   "prompt": "Which compound CANNOT be used by the human liver to make a net amount of new glucose by gluconeogenesis?",
+   "prompt": "Gluconeogenesis builds glucose from pyruvate or from glycolysis intermediates, but the step pyruvate → acetyl CoA cannot be reversed. Which compound CANNOT be used by the liver to make a net amount of new glucose?",
    "choices": [
     "acetyl CoA from fatty acids",
     "lactate from exercising muscle",
@@ -8042,23 +8042,23 @@
   "prompt": "When a cell already has plenty of ATP and NADH, what happens to the rate of the citric acid cycle?",
   "choices": [
    "It slows, because ATP and NADH inhibit key enzymes of the cycle",
-   "It speeds up, because ATP activates isocitrate dehydrogenase",
+   "It speeds up, because ATP activates the enzymes of the cycle",
    "It speeds up, so the extra energy can be stored as GTP",
    "It is unchanged, because the citric acid cycle is not regulated"
   ],
   "answer": "It slows, because ATP and NADH inhibit key enzymes of the cycle",
   "hint": "Feedback control: if the cell already has lots of energy, should an energy-producing pathway speed up or slow down?",
-  "explain": "High ATP and NADH signal plenty of energy, so they inhibit enzymes such as isocitrate dehydrogenase and α-ketoglutarate dehydrogenase, slowing the cycle. High ADP and NAD⁺ (low energy) speed it up.",
+  "explain": "High ATP and NADH signal plenty of energy, so they inhibit key enzymes of the cycle, slowing it (feedback control). High ADP and NAD⁺ (low energy) speed it up.",
   "html": {
    "prompt": "When a cell already has plenty of ATP and NADH, what happens to the rate of the citric acid cycle?",
    "choices": [
     "It slows, because ATP and NADH inhibit key enzymes of the cycle",
-    "It speeds up, because ATP activates isocitrate dehydrogenase",
+    "It speeds up, because ATP activates the enzymes of the cycle",
     "It speeds up, so the extra energy can be stored as GTP",
     "It is unchanged, because the citric acid cycle is not regulated"
    ],
    "hint": "Feedback control: if the cell already has lots of energy, should an energy-producing pathway speed up or slow down?",
-   "explain": "High ATP and NADH signal plenty of energy, so they <b>inhibit enzymes such as isocitrate dehydrogenase and α-ketoglutarate dehydrogenase, slowing the cycle</b>. High ADP and NAD<sup>+</sup> (low energy) speed it up."
+   "explain": "High ATP and NADH signal plenty of energy, so they <b>inhibit key enzymes of the cycle, slowing it</b> (feedback control). High ADP and NAD<sup>+</sup> (low energy) speed it up."
   },
   "from": {
    "game": "finalexam",
@@ -8616,7 +8616,7 @@
   }
  },
  {
-  "id": "finalexam-53034aec",
+  "id": "finalexam-597dfab0",
   "skill": "finalexam.3b.carbs",
   "courses": [
    "3B"
@@ -8630,7 +8630,7 @@
   "type": "mc",
   "difficulty": 1,
   "calc": false,
-  "prompt": "The ABO blood types differ from one another in the",
+  "prompt": "Type B red blood cells carry an extra galactose unit on their surface markers that type O cells lack; type A cells carry an extra amino sugar (N-acetylgalactosamine) instead. The ABO blood types therefore differ in the",
   "choices": [
    "carbohydrate chains attached to the surface of red blood cells",
    "number of hemoglobin molecules inside each red blood cell",
@@ -8641,7 +8641,7 @@
   "hint": "Antibodies recognize “identity tags” on the outer surface of the red cell membrane. Which class of biomolecule forms these surface markers?",
   "explain": "All red cells carry a basic oligosaccharide (type O). Type A adds N-acetylgalactosamine, type B adds galactose, and type AB has both. So the blood types differ in the carbohydrate chains on the red blood cell surface, which is why mismatched transfusions trigger antibodies.",
   "html": {
-   "prompt": "The ABO blood types differ from one another in the",
+   "prompt": "Type B red blood cells carry an extra galactose unit on their surface markers that type O cells lack; type A cells carry an extra amino sugar (N-acetylgalactosamine) instead. The ABO blood types therefore differ in the",
    "choices": [
     "carbohydrate chains attached to the surface of red blood cells",
     "number of hemoglobin molecules inside each red blood cell",
@@ -8784,7 +8784,7 @@
   }
  },
  {
-  "id": "finalexam-40d44420",
+  "id": "finalexam-ce31db8d",
   "skill": "finalexam.3b.lipids",
   "courses": [
    "3B"
@@ -8798,7 +8798,7 @@
   "type": "mc",
   "difficulty": 2,
   "calc": false,
-  "prompt": "HDL is often called “good cholesterol” because it",
+  "prompt": "LDL carries cholesterol from the liver out to the tissues, where excess can deposit in artery walls. HDL is often called “good cholesterol” because it",
   "choices": [
    "carries cholesterol from the tissues back to the liver",
    "carries cholesterol from the liver out to the tissues",
@@ -8809,7 +8809,7 @@
   "hint": "Think about the direction of transport. Which direction lowers the cholesterol that can deposit in artery walls?",
   "explain": "HDL picks up excess cholesterol from tissues and returns it to the liver, where it can be made into bile salts and removed. LDL delivers cholesterol to tissues, and high LDL leads to plaque (atherosclerosis). Chylomicrons carry the most triacylglycerol.",
   "html": {
-   "prompt": "HDL is often called “good cholesterol” because it",
+   "prompt": "LDL carries cholesterol from the liver out to the tissues, where excess can deposit in artery walls. HDL is often called “good cholesterol” because it",
    "choices": [
     "carries cholesterol from the tissues back to the liver",
     "carries cholesterol from the liver out to the tissues",
@@ -9078,7 +9078,7 @@
   }
  },
  {
-  "id": "finalexam-f8bdcd9d",
+  "id": "finalexam-657dccf4",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -9092,26 +9092,26 @@
   "type": "mc",
   "difficulty": 2,
   "calc": false,
-  "prompt": "Collagen is a triple helix. In scurvy, a lack of vitamin C weakens collagen because vitamin C is needed to",
+  "prompt": "Collagen’s three strands are held together partly by hydrogen bonds from hydroxyproline, a proline with an extra –OH group. Vitamin C is needed by the enzyme that adds that –OH. In scurvy (vitamin C deficiency), collagen is weak because",
   "choices": [
-   "hydroxylate proline and lysine so the strands can hydrogen bond",
-   "form the peptide bonds between glycine and proline in each chain",
-   "make disulfide bonds that hold the three strands together",
-   "attach glucose units that make the collagen water soluble"
+   "fewer –OH groups are added, so the strands form fewer hydrogen bonds",
+   "the peptide bonds between glycine and proline cannot form",
+   "the disulfide bonds holding the three strands together break",
+   "glucose units can no longer be attached to the strands"
   ],
-  "answer": "hydroxylate proline and lysine so the strands can hydrogen bond",
-  "hint": "Hydroxyproline and hydroxylysine carry extra –OH groups. What attraction can –OH groups form between strands?",
-  "explain": "Vitamin C is required by the enzymes that convert proline and lysine into hydroxyproline and hydroxylysine, whose –OH groups hydrogen bond and hold the triple helix together. Without it, collagen is weak, causing bleeding gums and poor wound healing.",
+  "answer": "fewer –OH groups are added, so the strands form fewer hydrogen bonds",
+  "hint": "What attraction do –OH groups on neighboring strands form? What happens if fewer –OH groups are added?",
+  "explain": "Without vitamin C, proline is not converted to hydroxyproline, so there are fewer –OH groups and fewer hydrogen bonds holding the triple helix together. Collagen is weak, causing bleeding gums and poor wound healing. Peptide bonds still form normally.",
   "html": {
-   "prompt": "Collagen is a triple helix. In scurvy, a lack of vitamin C weakens collagen because vitamin C is needed to",
+   "prompt": "Collagen’s three strands are held together partly by hydrogen bonds from hydroxyproline, a proline with an extra –OH group. Vitamin C is needed by the enzyme that adds that –OH. In scurvy (vitamin C deficiency), collagen is weak because",
    "choices": [
-    "hydroxylate proline and lysine so the strands can hydrogen bond",
-    "form the peptide bonds between glycine and proline in each chain",
-    "make disulfide bonds that hold the three strands together",
-    "attach glucose units that make the collagen water soluble"
+    "fewer –OH groups are added, so the strands form fewer hydrogen bonds",
+    "the peptide bonds between glycine and proline cannot form",
+    "the disulfide bonds holding the three strands together break",
+    "glucose units can no longer be attached to the strands"
    ],
-   "hint": "Hydroxyproline and hydroxylysine carry extra –OH groups. What attraction can –OH groups form between strands?",
-   "explain": "Vitamin C is required by the enzymes that <b>convert proline and lysine into hydroxyproline and hydroxylysine</b>, whose –OH groups hydrogen bond and hold the triple helix together. Without it, collagen is weak, causing bleeding gums and poor wound healing."
+   "hint": "What attraction do –OH groups on neighboring strands form? What happens if fewer –OH groups are added?",
+   "explain": "Without vitamin C, proline is not converted to hydroxyproline, so <b>there are fewer –OH groups and fewer hydrogen bonds</b> holding the triple helix together. Collagen is weak, causing bleeding gums and poor wound healing. Peptide bonds still form normally."
   },
   "from": {
    "game": "finalexam",
@@ -9162,7 +9162,7 @@
   }
  },
  {
-  "id": "finalexam-9b6aa612",
+  "id": "finalexam-85f47eab",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -9176,7 +9176,7 @@
   "type": "finalboss-mc",
   "difficulty": 3,
   "calc": false,
-  "prompt": "A mixture of the three amino acids in the table undergoes electrophoresis at pH 6.0. Which result is expected?",
+  "prompt": "A mixture of the three amino acids in the table undergoes electrophoresis in a buffer at pH 6.0. Compare the buffer pH with each pI. Which result is expected?",
   "choices": [
    "Lys moves to the − electrode, Asp to the + electrode, Gly stays",
    "Lys moves to the + electrode, Asp to the − electrode, Gly stays",
@@ -9187,7 +9187,7 @@
   "hint": "If pH pI it is net negative; at pH = pI the net charge is zero.",
   "explain": "At pH 6.0, lysine (pH below its pI) is net positive and moves to the negative electrode; aspartic acid (pH above its pI) is net negative and moves to the positive electrode; glycine is at its pI (zwitterion) and does not move.",
   "html": {
-   "prompt": "A mixture of the three amino acids in the table undergoes electrophoresis at pH 6.0. Which result is expected?",
+   "prompt": "A mixture of the three amino acids in the table undergoes electrophoresis in a buffer at pH 6.0. Compare the buffer pH with each pI. Which result is expected?",
    "choices": [
     "Lys moves to the − electrode, Asp to the + electrode, Gly stays",
     "Lys moves to the + electrode, Asp to the − electrode, Gly stays",
@@ -9271,7 +9271,7 @@
   }
  },
  {
-  "id": "finalexam-c53c4dcd",
+  "id": "finalexam-71ea8050",
   "skill": "finalexam.3b.enzymes",
   "courses": [
    "3B"
@@ -9285,26 +9285,26 @@
   "type": "mc",
   "difficulty": 1,
   "calc": false,
-  "prompt": "Statin drugs such as atorvastatin (Lipitor) lower blood cholesterol by",
+  "prompt": "Statins such as atorvastatin (Lipitor) block HMG-CoA reductase, the liver enzyme that controls the pathway making cholesterol from acetyl CoA. A statin resembles the enzyme’s normal substrate and binds reversibly in its active site. A statin is therefore a(n)",
   "choices": [
-   "inhibiting HMG-CoA reductase, an enzyme in cholesterol synthesis",
-   "hydrolyzing the ester bonds of cholesteryl esters in the blood",
-   "activating pancreatic lipase so cholesterol is digested faster",
-   "oxidizing cholesterol to CO₂ and H₂O in the mitochondria"
+   "competitive inhibitor",
+   "noncompetitive inhibitor",
+   "irreversible inhibitor",
+   "allosteric activator"
   ],
-  "answer": "inhibiting HMG-CoA reductase, an enzyme in cholesterol synthesis",
-  "hint": "Statins are enzyme inhibitors. Which pathway would you block to make the liver produce less cholesterol?",
-  "explain": "Statins resemble the substrate and act as competitive inhibitors of HMG-CoA reductase, the rate-limiting step in the liver's synthesis of cholesterol from acetyl CoA. With less cholesterol made, the liver removes more LDL from the blood. The steroid ring is not oxidized to CO₂ in the body.",
+  "answer": "competitive inhibitor",
+  "hint": "It looks like the substrate and binds where the substrate binds.",
+  "explain": "An inhibitor that resembles the substrate and competes for the active site is a competitive inhibitor. With less cholesterol made, the liver removes more LDL from the blood. A noncompetitive inhibitor binds elsewhere on the enzyme; an irreversible inhibitor forms a covalent bond.",
   "html": {
-   "prompt": "Statin drugs such as atorvastatin (Lipitor) lower blood cholesterol by",
+   "prompt": "Statins such as atorvastatin (Lipitor) block HMG-CoA reductase, the liver enzyme that controls the pathway making cholesterol from acetyl CoA. A statin resembles the enzyme’s normal substrate and binds reversibly in its active site. A statin is therefore a(n)",
    "choices": [
-    "inhibiting HMG-CoA reductase, an enzyme in cholesterol synthesis",
-    "hydrolyzing the ester bonds of cholesteryl esters in the blood",
-    "activating pancreatic lipase so cholesterol is digested faster",
-    "oxidizing cholesterol to CO<sub>2</sub> and H<sub>2</sub>O in the mitochondria"
+    "competitive inhibitor",
+    "noncompetitive inhibitor",
+    "irreversible inhibitor",
+    "allosteric activator"
    ],
-   "hint": "Statins are enzyme inhibitors. Which pathway would you block to make the liver produce less cholesterol?",
-   "explain": "Statins resemble the substrate and act as <b>competitive inhibitors of HMG-CoA reductase</b>, the rate-limiting step in the liver's synthesis of cholesterol from acetyl CoA. With less cholesterol made, the liver removes more LDL from the blood. The steroid ring is not oxidized to CO<sub>2</sub> in the body."
+   "hint": "It looks like the substrate and binds where the substrate binds.",
+   "explain": "An inhibitor that resembles the substrate and competes for the active site is a <b>competitive inhibitor</b>. With less cholesterol made, the liver removes more LDL from the blood. A noncompetitive inhibitor binds elsewhere on the enzyme; an irreversible inhibitor forms a covalent bond."
   },
   "from": {
    "game": "finalexam",
@@ -9355,7 +9355,7 @@
   }
  },
  {
-  "id": "finalexam-e8d4bc0e",
+  "id": "finalexam-1d76b52a",
   "skill": "finalexam.3b.enzymes",
   "courses": [
    "3B"
@@ -9369,26 +9369,26 @@
   "type": "mc",
   "difficulty": 2,
   "calc": false,
-  "prompt": "After a heart attack, damaged heart muscle cells leak enzymes into the blood. An elevated blood level of which enzyme helps confirm the heart attack?",
+  "prompt": "Damaged cells leak their enzymes into the blood. CK-MB (a form of creatine kinase) is concentrated in heart muscle, lipase in the pancreas, ALT in the liver, and amylase in the pancreas and salivary glands. A few hours after chest pain, a patient’s blood CK-MB rises sharply. Which tissue is most likely damaged?",
   "choices": [
-   "creatine kinase (CK)",
-   "pancreatic lipase",
-   "intestinal lactase",
-   "salivary amylase"
+   "heart muscle",
+   "pancreas",
+   "liver",
+   "salivary glands"
   ],
-  "answer": "creatine kinase (CK)",
-  "hint": "Diagnostic enzymes leak from damaged cells. Which enzyme is concentrated in heart and skeletal muscle?",
-  "explain": "Heart muscle is rich in creatine kinase, especially the CK-MB form, which rises within hours of a heart attack (troponin and LDH are also measured). An elevated lipase points to pancreatitis instead.",
+  "answer": "heart muscle",
+  "hint": "Match the enzyme that rose to the tissue where it is concentrated.",
+  "explain": "CK-MB is concentrated in heart muscle, so a rise after chest pain points to a heart attack. High lipase would point to the pancreas and high ALT to the liver. This is why blood enzyme levels are used as diagnostic tests.",
   "html": {
-   "prompt": "After a heart attack, damaged heart muscle cells leak enzymes into the blood. An elevated blood level of which enzyme helps confirm the heart attack?",
+   "prompt": "Damaged cells leak their enzymes into the blood. CK-MB (a form of creatine kinase) is concentrated in heart muscle, lipase in the pancreas, ALT in the liver, and amylase in the pancreas and salivary glands. A few hours after chest pain, a patient’s blood CK-MB rises sharply. Which tissue is most likely damaged?",
    "choices": [
-    "creatine kinase (CK)",
-    "pancreatic lipase",
-    "intestinal lactase",
-    "salivary amylase"
+    "heart muscle",
+    "pancreas",
+    "liver",
+    "salivary glands"
    ],
-   "hint": "Diagnostic enzymes leak from damaged cells. Which enzyme is concentrated in heart and skeletal muscle?",
-   "explain": "Heart muscle is rich in <b>creatine kinase, especially the CK-MB form</b>, which rises within hours of a heart attack (troponin and LDH are also measured). An elevated lipase points to pancreatitis instead."
+   "hint": "Match the enzyme that rose to the tissue where it is concentrated.",
+   "explain": "CK-MB is concentrated in <b>heart muscle</b>, so a rise after chest pain points to a heart attack. High lipase would point to the pancreas and high ALT to the liver. This is why blood enzyme levels are used as diagnostic tests."
   },
   "from": {
    "game": "finalexam",
@@ -9607,7 +9607,7 @@
   }
  },
  {
-  "id": "finalexam-864595da",
+  "id": "finalexam-1e8327c7",
   "skill": "finalexam.3b.nucleic",
   "courses": [
    "3B"
@@ -9621,26 +9621,26 @@
   "type": "mc",
   "difficulty": 2,
   "calc": false,
-  "prompt": "Antibiotics such as tetracycline and streptomycin treat bacterial infections by",
+  "prompt": "Tetracycline and streptomycin bind to bacterial ribosomes, which differ in structure from human ribosomes. Which process do these antibiotics block?",
   "choices": [
-   "blocking protein synthesis at bacterial ribosomes",
-   "blocking DNA replication inside human cells",
-   "inhibiting reverse transcriptase in bacteria",
-   "destroying the mRNA inside human ribosomes"
+   "protein synthesis (translation) in bacteria",
+   "DNA replication in bacteria",
+   "transcription of DNA in human cells",
+   "reverse transcription in viruses"
   ],
-  "answer": "blocking protein synthesis at bacterial ribosomes",
-  "hint": "Which step of gene expression (replication, transcription or translation) can a drug block in bacteria alone because bacterial machinery differs from ours?",
-  "explain": "Bacterial ribosomes differ from human ribosomes, so these antibiotics bind bacterial ribosomes and block translation (tetracycline blocks tRNA binding; streptomycin causes misreading of mRNA). Reverse transcriptase inhibitors are antiviral (HIV) drugs.",
+  "answer": "protein synthesis (translation) in bacteria",
+  "hint": "What process takes place on a ribosome?",
+  "explain": "Ribosomes are where mRNA is translated into protein, so these drugs block translation in bacteria (tetracycline blocks tRNA binding; streptomycin causes misreading of mRNA). Because human ribosomes differ, our protein synthesis is much less affected. Replication and transcription do not happen on ribosomes.",
   "html": {
-   "prompt": "Antibiotics such as tetracycline and streptomycin treat bacterial infections by",
+   "prompt": "Tetracycline and streptomycin bind to bacterial ribosomes, which differ in structure from human ribosomes. Which process do these antibiotics block?",
    "choices": [
-    "blocking protein synthesis at bacterial ribosomes",
-    "blocking DNA replication inside human cells",
-    "inhibiting reverse transcriptase in bacteria",
-    "destroying the mRNA inside human ribosomes"
+    "protein synthesis (translation) in bacteria",
+    "DNA replication in bacteria",
+    "transcription of DNA in human cells",
+    "reverse transcription in viruses"
    ],
-   "hint": "Which step of gene expression (replication, transcription or translation) can a drug block in bacteria alone because bacterial machinery differs from ours?",
-   "explain": "Bacterial ribosomes differ from human ribosomes, so these antibiotics <b>bind bacterial ribosomes and block translation</b> (tetracycline blocks tRNA binding; streptomycin causes misreading of mRNA). Reverse transcriptase inhibitors are antiviral (HIV) drugs."
+   "hint": "What process takes place on a ribosome?",
+   "explain": "Ribosomes are where mRNA is translated into protein, so these drugs <b>block translation in bacteria</b> (tetracycline blocks tRNA binding; streptomycin causes misreading of mRNA). Because human ribosomes differ, our protein synthesis is much less affected. Replication and transcription do not happen on ribosomes."
   },
   "from": {
    "game": "finalexam",
@@ -12951,7 +12951,7 @@
   }
  },
  {
-  "id": "finalexam-dde36e33",
+  "id": "finalexam-5546e235",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -12965,7 +12965,7 @@
   "type": "mc",
   "difficulty": 2,
   "calc": false,
-  "prompt": "Alanine, H₂N–CH(CH₃)–COOH, has a pI of 6.0. Which form is present mainly in a solution at pH 11?",
+  "prompt": "Alanine, H₂N–CH(CH₃)–COOH, has a pI of 6.0. Which form is present mainly in a strongly basic solution, at a pH far above its pI?",
   "choices": [
    "H₂N–CH(CH₃)–COO⁻",
    "H₃N⁺–CH(CH₃)–COO⁻",
@@ -12974,9 +12974,9 @@
   ],
   "answer": "H₂N–CH(CH₃)–COO⁻",
   "hint": "At a pH well above the pI, OH⁻ removes H⁺. Which groups lose a proton?",
-  "explain": "In basic solution both acidic groups are deprotonated: –COOH → –COO⁻ and –NH⁺₃ → –NH₂, giving H₂N–CH(CH₃)–COO⁻ (net −1). The zwitterion is the main form near the pI, not at pH 11.",
+  "explain": "Far above the pI both acidic groups are deprotonated: –COOH → –COO⁻ and –NH⁺₃ → –NH₂, giving H₂N–CH(CH₃)–COO⁻ (net −1). The zwitterion is the main form at the pI, not far above it.",
   "html": {
-   "prompt": "Alanine, H<sub>2</sub>N–CH(CH<sub>3</sub>)–COOH, has a pI of 6.0. Which form is present mainly in a solution at pH 11?",
+   "prompt": "Alanine, H<sub>2</sub>N–CH(CH<sub>3</sub>)–COOH, has a pI of 6.0. Which form is present mainly in a strongly basic solution, at a pH far above its pI?",
    "choices": [
     "H<sub>2</sub>N–CH(CH<sub>3</sub>)–COO<sup>−</sup>",
     "H<sub>3</sub>N<sup>+</sup>–CH(CH<sub>3</sub>)–COO<sup>−</sup>",
@@ -12984,7 +12984,7 @@
     "H<sub>2</sub>N–CH(CH<sub>3</sub>)–COOH"
    ],
    "hint": "At a pH well above the pI, OH<sup>−</sup> removes H<sup>+</sup>. Which groups lose a proton?",
-   "explain": "In basic solution both acidic groups are deprotonated: –COOH → –COO<sup>−</sup> and –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span></span> → –NH<sub>2</sub>, giving <b>H<sub>2</sub>N–CH(CH<sub>3</sub>)–COO<sup>−</sup></b> (net −1). The zwitterion is the main form near the pI, not at pH 11."
+   "explain": "Far above the pI both acidic groups are deprotonated: –COOH → –COO<sup>−</sup> and –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span></span> → –NH<sub>2</sub>, giving <b>H<sub>2</sub>N–CH(CH<sub>3</sub>)–COO<sup>−</sup></b> (net −1). The zwitterion is the main form at the pI, not far above it."
   },
   "from": {
    "game": "finalexam",
@@ -13119,7 +13119,7 @@
   }
  },
  {
-  "id": "finalexam-76e05792",
+  "id": "finalexam-538c5026",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -13133,7 +13133,7 @@
   "type": "mc",
   "difficulty": 1,
   "calc": false,
-  "prompt": "Carbon monoxide poisoning is dangerous mainly because CO",
+  "prompt": "Hemoglobin carries O₂ by binding it to the Fe²⁺ ion in each heme group. Carbon monoxide poisoning is dangerous mainly because CO",
   "choices": [
    "binds the iron in hemoglobin more tightly than O₂ does",
    "hydrolyzes the peptide bonds in hemoglobin's four chains",
@@ -13141,17 +13141,17 @@
    "denatures plasma albumin so blood can no longer carry CO₂"
   ],
   "answer": "binds the iron in hemoglobin more tightly than O₂ does",
-  "hint": "Hemoglobin carries O₂ by binding it to the Fe²⁺ in each heme group. What happens if another molecule takes that spot?",
+  "hint": "What happens if another molecule takes the O₂ spot on the iron and holds it tightly?",
   "explain": "Hemoglobin in red blood cells transports O₂ from the lungs to the tissues using Fe²⁺ in its heme groups. CO binds that iron far more tightly than O₂, so less O₂ is delivered. CO does not break peptide bonds.",
   "html": {
-   "prompt": "Carbon monoxide poisoning is dangerous mainly because CO",
+   "prompt": "Hemoglobin carries O<sub>2</sub> by binding it to the Fe<sup>2+</sup> ion in each heme group. Carbon monoxide poisoning is dangerous mainly because CO",
    "choices": [
     "binds the iron in hemoglobin more tightly than O<sub>2</sub> does",
     "hydrolyzes the peptide bonds in hemoglobin's four chains",
     "oxidizes the heme iron and converts hemoglobin into myoglobin",
     "denatures plasma albumin so blood can no longer carry CO<sub>2</sub>"
    ],
-   "hint": "Hemoglobin carries O<sub>2</sub> by binding it to the Fe<sup>2+</sup> in each heme group. What happens if another molecule takes that spot?",
+   "hint": "What happens if another molecule takes the O<sub>2</sub> spot on the iron and holds it tightly?",
    "explain": "Hemoglobin in red blood cells transports O<sub>2</sub> from the lungs to the tissues using Fe<sup>2+</sup> in its heme groups. CO <b>binds that iron far more tightly than O<sub>2</sub></b>, so less O<sub>2</sub> is delivered. CO does not break peptide bonds."
   },
   "from": {
@@ -109214,7 +109214,7 @@
   }
  },
  {
-  "id": "finalexam-56b9d2f2",
+  "id": "finalexam-a73397dc",
   "skill": "finalexam.3b.carbs",
   "courses": [
    "3B"
@@ -109228,7 +109228,7 @@
   "type": "finalboss-mc",
   "difficulty": 2,
   "calc": false,
-  "prompt": "Lactose intolerance tests often measure galactose. Which Fischer projection shows D-galactose?",
+  "prompt": "Galactose is one of the two sugars released when lactase digests milk sugar (lactose). Which Fischer projection shows D-galactose?",
   "choices": [
    "II",
    "III",
@@ -109239,7 +109239,7 @@
   "hint": "D-galactose is the C4 epimer of D-glucose (right, left, right, right).",
   "explain": "D-galactose differs from D-glucose only at C4: right, left, left, right, structure II. One structure is D-glucose, one is L-galactose (every –OH reversed), and one is D-talose (C2 also changed).",
   "html": {
-   "prompt": "Lactose intolerance tests often measure galactose. Which Fischer projection shows <b>D-galactose</b>?",
+   "prompt": "Galactose is one of the two sugars released when lactase digests milk sugar (lactose). Which Fischer projection shows <b>D-galactose</b>?",
    "choices": [
     "II",
     "III",
@@ -109491,7 +109491,7 @@
   }
  },
  {
-  "id": "finalexam-1cc1357a",
+  "id": "finalexam-9fdb4a31",
   "skill": "finalexam.3b.carbs",
   "courses": [
    "3B"
@@ -109505,7 +109505,7 @@
   "type": "finalboss-mc",
   "difficulty": 2,
   "calc": false,
-  "prompt": "Name the sugar shown. (D-glucose has its –OH groups right, left, right, right on C2–C5.)",
+  "prompt": "Name the sugar shown. (D-glucose has its –OH groups right, left, right, right on C2–C5; D-mannose differs from D-glucose only at C2, and D-galactose only at C4.)",
   "choices": [
    "D-mannose",
    "D-galactose",
@@ -109516,7 +109516,7 @@
   "hint": "Compare carbon by carbon with D-glucose. Which carbon is different? Then check the bottom chiral carbon for D/L.",
   "explain": "Compared with D-glucose, only the C2 –OH is moved (to the left), so this is the C2 epimer, D-mannose. The bottom –OH still points right, so it is D, not L. D-galactose would differ at C4.",
   "html": {
-   "prompt": "Name the sugar shown. (D-glucose has its –OH groups right, left, right, right on C2–C5.)",
+   "prompt": "Name the sugar shown. (D-glucose has its –OH groups right, left, right, right on C2–C5; D-mannose differs from D-glucose only at C2, and D-galactose only at C4.)",
    "choices": [
     "D-mannose",
     "D-galactose",
@@ -113189,7 +113189,7 @@
   }
  },
  {
-  "id": "finalexam-212e014c",
+  "id": "finalexam-ff09f347",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -113203,7 +113203,7 @@
   "type": "finalboss-mc",
   "difficulty": 2,
   "calc": false,
-  "prompt": "Glycine is dissolved in stomach acid at pH 1. Which structure is the main form present?",
+  "prompt": "Glycine is dissolved in stomach acid, at a pH far below its pI. Which structure is the main form present?",
   "choices": [
    "§A",
    "§B",
@@ -113211,18 +113211,18 @@
    "§D"
   ],
   "answer": "§A",
-  "hint": "At very low pH, there is a lot of H⁺: every basic group is protonated and every acidic group keeps its H.",
-  "explain": "In strong acid both groups carry H: –NH⁺₃ and –COOH, net charge +1. The zwitterion (net 0) dominates near pH 6, and –NH₂/–COO⁻ (net −1) at high pH.",
+  "hint": "Far below the pI there is a lot of H⁺: every basic group is protonated and every acidic group keeps its H.",
+  "explain": "Far below the pI both groups carry H: –NH⁺₃ and –COOH, net charge +1. The zwitterion (net 0) dominates at the pI (about 6), and –NH₂/–COO⁻ (net −1) far above the pI.",
   "html": {
-   "prompt": "Glycine is dissolved in stomach acid at pH 1. Which structure is the main form present?",
+   "prompt": "Glycine is dissolved in stomach acid, at a pH far below its pI. Which structure is the main form present?",
    "choices": [
     "§A",
     "§B",
     "§C",
     "§D"
    ],
-   "hint": "At very low pH, there is a lot of H<sup>+</sup>: every basic group is protonated and every acidic group keeps its H.",
-   "explain": "In strong acid both groups carry H: –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span></span> and –COOH, net charge <b>+1</b>. The zwitterion (net 0) dominates near pH 6, and –NH<sub>2</sub>/–COO<sup>−</sup> (net −1) at high pH."
+   "hint": "Far below the pI there is a lot of H<sup>+</sup>: every basic group is protonated and every acidic group keeps its H.",
+   "explain": "Far below the pI both groups carry H: –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span></span> and –COOH, net charge <b>+1</b>. The zwitterion (net 0) dominates at the pI (about 6), and –NH<sub>2</sub>/–COO<sup>−</sup> (net −1) far above the pI."
   },
   "data": {
    "cs": [
@@ -113483,7 +113483,7 @@
   }
  },
  {
-  "id": "finalexam-d23fb469",
+  "id": "finalexam-2cf7e6d2",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -113497,7 +113497,7 @@
   "type": "finalboss-mc",
   "difficulty": 2,
   "calc": false,
-  "prompt": "Lysine is shown in its uncharged form. What is its net charge at pH 1?",
+  "prompt": "Lysine is shown in its uncharged form. What is its net charge in a strongly acidic solution, at a pH far below its pI?",
   "choices": [
    "+2",
    "+1",
@@ -113505,18 +113505,18 @@
    "−1"
   ],
   "answer": "+2",
-  "hint": "At pH 1, protonate every amino group and leave the carboxyl group as –COOH.",
-  "explain": "At pH 1 both –NH₂ groups (backbone and side chain) gain H⁺ to become –NH⁺₃, and the –COOH stays neutral: net charge +2. Answering +1 forgets the side-chain amino group.",
+  "hint": "Far below the pI, protonate every amino group and leave the carboxyl group as –COOH.",
+  "explain": "Far below the pI both –NH₂ groups (backbone and side chain) gain H⁺ to become –NH⁺₃, and the –COOH stays neutral: net charge +2. Answering +1 forgets the side-chain amino group.",
   "html": {
-   "prompt": "Lysine is shown in its uncharged form. What is its net charge at pH 1?",
+   "prompt": "Lysine is shown in its uncharged form. What is its net charge in a strongly acidic solution, at a pH far below its pI?",
    "choices": [
     "+2",
     "+1",
     "0",
     "−1"
    ],
-   "hint": "At pH 1, protonate every amino group and leave the carboxyl group as –COOH.",
-   "explain": "At pH 1 both –NH<sub>2</sub> groups (backbone and side chain) gain H<sup>+</sup> to become –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span>,</span> and the –COOH stays neutral: net charge <b>+2</b>. Answering +1 forgets the side-chain amino group."
+   "hint": "Far below the pI, protonate every amino group and leave the carboxyl group as –COOH.",
+   "explain": "Far below the pI both –NH<sub>2</sub> groups (backbone and side chain) gain H<sup>+</sup> to become –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span>,</span> and the –COOH stays neutral: net charge <b>+2</b>. Answering +1 forgets the side-chain amino group."
   },
   "data": {
    "s": [
@@ -113651,7 +113651,7 @@
   }
  },
  {
-  "id": "finalexam-cb259e84",
+  "id": "finalexam-7e8dbae0",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -113665,7 +113665,7 @@
   "type": "finalboss-mc",
   "difficulty": 3,
   "calc": false,
-  "prompt": "Aspartic acid is shown in its uncharged form. What is its net charge at pH 12?",
+  "prompt": "Aspartic acid is shown in its uncharged form. What is its net charge in a strongly basic solution, at a pH far above its pI?",
   "choices": [
    "−2",
    "−1",
@@ -113673,18 +113673,18 @@
    "+1"
   ],
   "answer": "−2",
-  "hint": "At high pH every –COOH loses H⁺ and every –NH⁺₃ loses H⁺ (becomes neutral –NH₂).",
-  "explain": "At pH 12 both carboxyl groups become –COO⁻ and the amino group is neutral –NH₂: net charge −2. Answering −1 forgets the side-chain carboxyl.",
+  "hint": "Far above the pI every –COOH loses H⁺ and every –NH⁺₃ loses H⁺ (becomes neutral –NH₂).",
+  "explain": "Far above the pI both carboxyl groups become –COO⁻ and the amino group is neutral –NH₂: net charge −2. Answering −1 forgets the side-chain carboxyl.",
   "html": {
-   "prompt": "Aspartic acid is shown in its uncharged form. What is its net charge at pH 12?",
+   "prompt": "Aspartic acid is shown in its uncharged form. What is its net charge in a strongly basic solution, at a pH far above its pI?",
    "choices": [
     "−2",
     "−1",
     "0",
     "+1"
    ],
-   "hint": "At high pH every –COOH loses H<sup>+</sup> and every –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span></span> loses H<sup>+</sup> (becomes neutral –NH<sub>2</sub>).",
-   "explain": "At pH 12 both carboxyl groups become –COO<sup>−</sup> and the amino group is neutral –NH<sub>2</sub>: net charge <b>−2</b>. Answering −1 forgets the side-chain carboxyl."
+   "hint": "Far above the pI every –COOH loses H<sup>+</sup> and every –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span></span> loses H<sup>+</sup> (becomes neutral –NH<sub>2</sub>).",
+   "explain": "Far above the pI both carboxyl groups become –COO<sup>−</sup> and the amino group is neutral –NH<sub>2</sub>: net charge <b>−2</b>. Answering −1 forgets the side-chain carboxyl."
   },
   "data": {
    "s": [
@@ -145170,7 +145170,7 @@
   }
  },
  {
-  "id": "finalexam-ced6fdca",
+  "id": "finalexam-92c49f52",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -145181,10 +145181,10 @@
   "origin": "original",
   "made": "figs",
   "exam": "final",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
-  "prompt": "The pK_a values of the ionizable groups of glutamic acid are listed. What is its net charge at pH 7.0?",
+  "prompt": "Glutamic acid has an acidic side chain, –CH₂CH₂COOH, in addition to its α-carboxyl and α-amino groups. What is its net charge at physiological pH (7.4)?",
   "choices": [
    "−1",
    "0",
@@ -145192,43 +145192,18 @@
    "+1"
   ],
   "answer": "−1",
-  "hint": "A group is deprotonated when the pH is above its pK_a. Decide the charge on each group at pH 7, then add them up.",
-  "explain": "At pH 7.0 both carboxyl groups (pK_a 2.2 and 4.3) are deprotonated to –COO⁻ (−1 each) and the amino group (pK_a 9.7) is still –NH⁺₃ (+1): −1 − 1 + 1 = −1. \"0\" treats glutamate like a neutral amino acid and forgets the acidic side chain; −2 forgets the positive amino group.",
+  "hint": "At pH 7.4 every –COOH loses H⁺ (−1 each) and the –NH₂ gains H⁺ (+1). Count both carboxyl groups.",
+  "explain": "At pH 7.4 both carboxyl groups are deprotonated to –COO⁻ (−1 each) and the amino group is –NH⁺₃ (+1): −1 − 1 + 1 = −1. “0” treats glutamic acid like a neutral amino acid and forgets the acidic side chain; −2 forgets the positive amino group.",
   "html": {
-   "prompt": "The pK<sub>a</sub> values of the ionizable groups of glutamic acid are listed. What is its net charge at pH 7.0?",
+   "prompt": "Glutamic acid has an acidic side chain, –CH<sub>2</sub>CH<sub>2</sub>COOH, in addition to its α-carboxyl and α-amino groups. What is its net charge at physiological pH (7.4)?",
    "choices": [
     "−1",
     "0",
     "−2",
     "+1"
    ],
-   "hint": "A group is deprotonated when the pH is above its pK<sub>a</sub>. Decide the charge on each group at pH 7, then add them up.",
-   "explain": "At pH 7.0 both carboxyl groups (pK<sub>a</sub> 2.2 and 4.3) are deprotonated to –COO<sup>−</sup> (−1 each) and the amino group (pK<sub>a</sub> 9.7) is still –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span></span> (+1): −1 − 1 + 1 = <b>−1</b>. \"0\" treats glutamate like a neutral amino acid and forgets the acidic side chain; −2 forgets the positive amino group."
-  },
-  "data": {
-   "f": [
-    {
-     "type": "table",
-     "head": [
-      "Ionizable group",
-      "pK<sub>a</sub>"
-     ],
-     "rows": [
-      [
-       "α-carboxyl (–COOH)",
-       "2.2"
-      ],
-      [
-       "side-chain carboxyl (–COOH)",
-       "4.3"
-      ],
-      [
-       "α-amino (–<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span>)</span>",
-       "9.7"
-      ]
-     ]
-    }
-   ]
+   "hint": "At pH 7.4 every –COOH loses H<sup>+</sup> (−1 each) and the –NH<sub>2</sub> gains H<sup>+</sup> (+1). Count both carboxyl groups.",
+   "explain": "At pH 7.4 both carboxyl groups are deprotonated to –COO<sup>−</sup> (−1 each) and the amino group is –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span></span> (+1): −1 − 1 + 1 = <b>−1</b>. “0” treats glutamic acid like a neutral amino acid and forgets the acidic side chain; −2 forgets the positive amino group."
   },
   "from": {
    "game": "finalexam",
@@ -145237,7 +145212,7 @@
   }
  },
  {
-  "id": "finalexam-365e7a88",
+  "id": "finalexam-88512357",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -145248,54 +145223,29 @@
   "origin": "original",
   "made": "figs",
   "exam": "final",
-  "type": "finalboss-mc",
-  "difficulty": 3,
+  "type": "mc",
+  "difficulty": 2,
   "calc": true,
-  "prompt": "Use the pK_a table for glutamic acid. At approximately what pH is its net charge zero (its isoelectric point, pI)?",
+  "prompt": "Glutamic acid (side chain –CH₂CH₂COOH) has a pI of 3.2. One sample is placed in an electrophoresis buffer at a pH equal to its pI, and another in a buffer at physiological pH (7.4). How does it move in each?",
   "choices": [
-   "About 3.3",
-   "About 6.0",
-   "About 7.0",
-   "About 4.3"
+   "At the pI it does not move; at pH 7.4 it moves toward the + electrode",
+   "At the pI it moves toward the − electrode; at pH 7.4 it does not move",
+   "It moves toward the + electrode in both of the two buffers",
+   "At the pI it does not move; at pH 7.4 it moves toward the − electrode"
   ],
-  "answer": "About 3.3",
-  "hint": "The zwitterion (net 0) exists between the two pK_a values that bracket it. Which two? Average them.",
-  "explain": "Going up in pH, the charge goes +1 → 0 → −1 → −2 at pK_a 2.2, 4.3 and 9.7. The net-zero form lies between pK_a 2.2 and 4.3, so pI ≈ (2.2 + 4.3)/2 = 3.3. Averaging 2.2 and 9.7 (6.0) is the formula for an amino acid with a neutral side chain, which does not apply here.",
+  "answer": "At the pI it does not move; at pH 7.4 it moves toward the + electrode",
+  "hint": "At pH = pI the net charge is zero. When the pH is above the pI, is the net charge positive or negative?",
+  "explain": "At its pI the amino acid has zero net charge, so it does not move. pH 7.4 is above the pI, so glutamate is net negative (two –COO⁻ and one –NH⁺₃, net −1) and moves toward the positive electrode.",
   "html": {
-   "prompt": "Use the pK<sub>a</sub> table for glutamic acid. At approximately what pH is its net charge zero (its isoelectric point, pI)?",
+   "prompt": "Glutamic acid (side chain –CH<sub>2</sub>CH<sub>2</sub>COOH) has a pI of 3.2. One sample is placed in an electrophoresis buffer at a pH equal to its pI, and another in a buffer at physiological pH (7.4). How does it move in each?",
    "choices": [
-    "About 3.3",
-    "About 6.0",
-    "About 7.0",
-    "About 4.3"
+    "At the pI it does not move; at pH 7.4 it moves toward the + electrode",
+    "At the pI it moves toward the − electrode; at pH 7.4 it does not move",
+    "It moves toward the + electrode in both of the two buffers",
+    "At the pI it does not move; at pH 7.4 it moves toward the − electrode"
    ],
-   "hint": "The zwitterion (net 0) exists between the two pK<sub>a</sub> values that bracket it. Which two? Average them.",
-   "explain": "Going up in pH, the charge goes +1 → 0 → −1 → −2 at pK<sub>a</sub> 2.2, 4.3 and 9.7. The net-zero form lies between pK<sub>a</sub> 2.2 and 4.3, so pI ≈ (2.2 + 4.3)/2 = <b>3.3</b>. Averaging 2.2 and 9.7 (6.0) is the formula for an amino acid with a neutral side chain, which does not apply here."
-  },
-  "data": {
-   "f": [
-    {
-     "type": "table",
-     "head": [
-      "Ionizable group",
-      "pK<sub>a</sub>"
-     ],
-     "rows": [
-      [
-       "α-carboxyl (–COOH)",
-       "2.2"
-      ],
-      [
-       "side-chain carboxyl (–COOH)",
-       "4.3"
-      ],
-      [
-       "α-amino (–<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span>)</span>",
-       "9.7"
-      ]
-     ]
-    }
-   ]
+   "hint": "At pH = pI the net charge is zero. When the pH is above the pI, is the net charge positive or negative?",
+   "explain": "At its pI the amino acid has <b>zero net charge</b>, so it does not move. pH 7.4 is above the pI, so glutamate is net negative (two –COO<sup>−</sup> and one –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span></span>, net −1) and moves <b>toward the positive electrode</b>."
   },
   "from": {
    "game": "finalexam",
@@ -146176,7 +146126,7 @@
   }
  },
  {
-  "id": "finalexam-b6e6f609",
+  "id": "finalexam-e337c467",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -146187,692 +146137,29 @@
   "origin": "original",
   "made": "figs",
   "exam": "final",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
-  "prompt": "The curve shows the titration of fully protonated glycine (H₃N⁺–CH₂–COOH) with NaOH. At which labeled point does the zwitterion, with a net charge of zero, predominate?",
+  "prompt": "Lysine has a basic side chain, so its pI is high (about 9.7). At physiological pH (7.4), which is below its pI, what is lysine’s net charge?",
   "choices": [
-   "b",
-   "a",
-   "c",
-   "d"
+   "+1",
+   "0",
+   "−1",
+   "+2"
   ],
-  "answer": "b",
-  "hint": "The first equivalent of OH⁻ removes the –COOH proton; the second removes the –NH⁺₃ proton. Where is exactly one proton gone?",
-  "explain": "After exactly one equivalent of base (point b, pH ≈ 6) the carboxyl group has lost its proton (–COO⁻) but the amino group is still –NH⁺₃: the zwitterion, net charge 0. At a (pH = pK_a1 = 2.3) half the molecules are still the +1 cation; at c (pH = pK_a2 = 9.6) half have become the −1 anion; at d the anion dominates.",
+  "answer": "+1",
+  "hint": "Below the pI an amino acid carries extra H⁺. Which groups are charged at pH 7.4?",
+  "explain": "At pH 7.4 the α-carboxyl is –COO⁻ (−1), the α-amino group is –NH⁺₃ (+1), and the side-chain amino group is also protonated (+1): −1 + 1 + 1 = +1. Below its pI an amino acid is positive overall. “0” is the charge only at the pI; +2 forgets the negative carboxylate.",
   "html": {
-   "prompt": "The curve shows the titration of fully protonated glycine (H<sub>3</sub>N<sup>+</sup>–CH<sub>2</sub>–COOH) with NaOH. At which labeled point does the zwitterion, with a net charge of zero, predominate?",
+   "prompt": "Lysine has a basic side chain, so its pI is high (about 9.7). At physiological pH (7.4), which is below its pI, what is lysine’s net charge?",
    "choices": [
-    "b",
-    "a",
-    "c",
-    "d"
+    "+1",
+    "0",
+    "−1",
+    "+2"
    ],
-   "hint": "The first equivalent of OH<sup>−</sup> removes the –COOH proton; the second removes the –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span></span> proton. Where is exactly one proton gone?",
-   "explain": "After exactly one equivalent of base (point <b>b</b>, pH ≈ 6) the carboxyl group has lost its proton (–COO<sup>−</sup>) but the amino group is still –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span>:</span> the <b>zwitterion</b>, net charge 0. At a (pH = pK<sub>a1</sub> = 2.3) half the molecules are still the +1 cation; at c (pH = pK<sub>a2</sub> = 9.6) half have become the −1 anion; at d the anion dominates."
-  },
-  "data": {
-   "f": [
-    {
-     "type": "plot",
-     "x": {
-      "label": "Equivalents of OH⁻ added",
-      "min": 0,
-      "max": 2,
-      "ticks": [
-       0,
-       0.5,
-       1,
-       1.5,
-       2
-      ]
-     },
-     "y": {
-      "label": "pH",
-      "min": 0,
-      "max": 13,
-      "ticks": [
-       0,
-       2,
-       4,
-       6,
-       8,
-       10,
-       12
-      ]
-     },
-     "series": [
-      {
-       "pts": [
-        [
-         0.013,
-         1.714
-        ],
-        [
-         0.0363,
-         1.743
-        ],
-        [
-         0.0592,
-         1.771
-        ],
-        [
-         0.0818,
-         1.8
-        ],
-        [
-         0.1041,
-         1.829
-        ],
-        [
-         0.1261,
-         1.857
-        ],
-        [
-         0.148,
-         1.886
-        ],
-        [
-         0.1697,
-         1.914
-        ],
-        [
-         0.1912,
-         1.943
-        ],
-        [
-         0.2126,
-         1.971
-        ],
-        [
-         0.2339,
-         2
-        ],
-        [
-         0.255,
-         2.029
-        ],
-        [
-         0.2761,
-         2.057
-        ],
-        [
-         0.297,
-         2.086
-        ],
-        [
-         0.3178,
-         2.114
-        ],
-        [
-         0.3385,
-         2.143
-        ],
-        [
-         0.3591,
-         2.171
-        ],
-        [
-         0.3796,
-         2.2
-        ],
-        [
-         0.3999,
-         2.229
-        ],
-        [
-         0.42,
-         2.257
-        ],
-        [
-         0.44,
-         2.286
-        ],
-        [
-         0.4597,
-         2.314
-        ],
-        [
-         0.4792,
-         2.343
-        ],
-        [
-         0.4985,
-         2.371
-        ],
-        [
-         0.5175,
-         2.4
-        ],
-        [
-         0.5362,
-         2.429
-        ],
-        [
-         0.5546,
-         2.457
-        ],
-        [
-         0.5726,
-         2.486
-        ],
-        [
-         0.5903,
-         2.514
-        ],
-        [
-         0.6076,
-         2.543
-        ],
-        [
-         0.6245,
-         2.571
-        ],
-        [
-         0.641,
-         2.6
-        ],
-        [
-         0.6571,
-         2.629
-        ],
-        [
-         0.6727,
-         2.657
-        ],
-        [
-         0.6879,
-         2.686
-        ],
-        [
-         0.7026,
-         2.714
-        ],
-        [
-         0.7168,
-         2.743
-        ],
-        [
-         0.7306,
-         2.771
-        ],
-        [
-         0.7439,
-         2.8
-        ],
-        [
-         0.7567,
-         2.829
-        ],
-        [
-         0.769,
-         2.857
-        ],
-        [
-         0.7809,
-         2.886
-        ],
-        [
-         0.7923,
-         2.914
-        ],
-        [
-         0.8032,
-         2.943
-        ],
-        [
-         0.8137,
-         2.971
-        ],
-        [
-         0.8237,
-         3
-        ],
-        [
-         0.8332,
-         3.029
-        ],
-        [
-         0.8423,
-         3.057
-        ],
-        [
-         0.8511,
-         3.086
-        ],
-        [
-         0.8593,
-         3.114
-        ],
-        [
-         0.8672,
-         3.143
-        ],
-        [
-         0.8747,
-         3.171
-        ],
-        [
-         0.8819,
-         3.2
-        ],
-        [
-         0.8886,
-         3.229
-        ],
-        [
-         0.8951,
-         3.257
-        ],
-        [
-         0.9012,
-         3.286
-        ],
-        [
-         0.9069,
-         3.314
-        ],
-        [
-         0.9124,
-         3.343
-        ],
-        [
-         0.9175,
-         3.371
-        ],
-        [
-         0.9224,
-         3.4
-        ],
-        [
-         0.927,
-         3.429
-        ],
-        [
-         0.9314,
-         3.457
-        ],
-        [
-         0.9355,
-         3.486
-        ],
-        [
-         1.0672,
-         8.457
-        ],
-        [
-         1.0714,
-         8.486
-        ],
-        [
-         1.0759,
-         8.514
-        ],
-        [
-         1.0806,
-         8.543
-        ],
-        [
-         1.0857,
-         8.571
-        ],
-        [
-         1.0909,
-         8.6
-        ],
-        [
-         1.0965,
-         8.629
-        ],
-        [
-         1.1024,
-         8.657
-        ],
-        [
-         1.1086,
-         8.686
-        ],
-        [
-         1.1152,
-         8.714
-        ],
-        [
-         1.1221,
-         8.743
-        ],
-        [
-         1.1293,
-         8.771
-        ],
-        [
-         1.1369,
-         8.8
-        ],
-        [
-         1.1448,
-         8.829
-        ],
-        [
-         1.1532,
-         8.857
-        ],
-        [
-         1.1619,
-         8.886
-        ],
-        [
-         1.171,
-         8.914
-        ],
-        [
-         1.1806,
-         8.943
-        ],
-        [
-         1.1905,
-         8.971
-        ],
-        [
-         1.2009,
-         9
-        ],
-        [
-         1.2116,
-         9.029
-        ],
-        [
-         1.2228,
-         9.057
-        ],
-        [
-         1.2344,
-         9.086
-        ],
-        [
-         1.2464,
-         9.114
-        ],
-        [
-         1.2589,
-         9.143
-        ],
-        [
-         1.2717,
-         9.171
-        ],
-        [
-         1.2849,
-         9.2
-        ],
-        [
-         1.2985,
-         9.229
-        ],
-        [
-         1.3125,
-         9.257
-        ],
-        [
-         1.3268,
-         9.286
-        ],
-        [
-         1.3414,
-         9.314
-        ],
-        [
-         1.3564,
-         9.343
-        ],
-        [
-         1.3716,
-         9.371
-        ],
-        [
-         1.3871,
-         9.4
-        ],
-        [
-         1.4028,
-         9.429
-        ],
-        [
-         1.4188,
-         9.457
-        ],
-        [
-         1.4349,
-         9.486
-        ],
-        [
-         1.4511,
-         9.514
-        ],
-        [
-         1.4675,
-         9.543
-        ],
-        [
-         1.4839,
-         9.571
-        ],
-        [
-         1.5004,
-         9.6
-        ],
-        [
-         1.5169,
-         9.629
-        ],
-        [
-         1.5333,
-         9.657
-        ],
-        [
-         1.5497,
-         9.686
-        ],
-        [
-         1.5659,
-         9.714
-        ],
-        [
-         1.5821,
-         9.743
-        ],
-        [
-         1.598,
-         9.771
-        ],
-        [
-         1.6138,
-         9.8
-        ],
-        [
-         1.6293,
-         9.829
-        ],
-        [
-         1.6446,
-         9.857
-        ],
-        [
-         1.6596,
-         9.886
-        ],
-        [
-         1.6742,
-         9.914
-        ],
-        [
-         1.6886,
-         9.943
-        ],
-        [
-         1.7026,
-         9.971
-        ],
-        [
-         1.7163,
-         10
-        ],
-        [
-         1.7295,
-         10.029
-        ],
-        [
-         1.7424,
-         10.057
-        ],
-        [
-         1.7549,
-         10.086
-        ],
-        [
-         1.767,
-         10.114
-        ],
-        [
-         1.7787,
-         10.143
-        ],
-        [
-         1.79,
-         10.171
-        ],
-        [
-         1.8008,
-         10.2
-        ],
-        [
-         1.8113,
-         10.229
-        ],
-        [
-         1.8213,
-         10.257
-        ],
-        [
-         1.831,
-         10.286
-        ],
-        [
-         1.8402,
-         10.314
-        ],
-        [
-         1.8491,
-         10.343
-        ],
-        [
-         1.8576,
-         10.371
-        ],
-        [
-         1.8657,
-         10.4
-        ],
-        [
-         1.8735,
-         10.429
-        ],
-        [
-         1.8809,
-         10.457
-        ],
-        [
-         1.8879,
-         10.486
-        ],
-        [
-         1.8947,
-         10.514
-        ],
-        [
-         1.9011,
-         10.543
-        ],
-        [
-         1.9072,
-         10.571
-        ],
-        [
-         1.9131,
-         10.6
-        ],
-        [
-         1.9186,
-         10.629
-        ],
-        [
-         1.9239,
-         10.657
-        ],
-        [
-         1.929,
-         10.686
-        ],
-        [
-         1.9338,
-         10.714
-        ],
-        [
-         1.9384,
-         10.743
-        ],
-        [
-         1.9428,
-         10.771
-        ],
-        [
-         1.947,
-         10.8
-        ],
-        [
-         1.951,
-         10.829
-        ],
-        [
-         1.9991,
-         11.286
-        ]
-       ]
-      }
-     ],
-     "mono": true,
-     "grid": true,
-     "points": [
-      [
-       0.5,
-       2.3,
-       "a",
-       8,
-       10
-      ],
-      [
-       1,
-       5.95,
-       "b",
-       8,
-       10
-      ],
-      [
-       1.5,
-       9.6,
-       "c",
-       8,
-       12
-      ],
-      [
-       1.85,
-       10.4,
-       "d",
-       6,
-       20
-      ]
-     ]
-    }
-   ]
+   "hint": "Below the pI an amino acid carries extra H<sup>+</sup>. Which groups are charged at pH 7.4?",
+   "explain": "At pH 7.4 the α-carboxyl is –COO<sup>−</sup> (−1), the α-amino group is –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span></span> (+1), and the side-chain amino group is also protonated (+1): −1 + 1 + 1 = <b>+1</b>. Below its pI an amino acid is positive overall. “0” is the charge only at the pI; +2 forgets the negative carboxylate."
   },
   "from": {
    "game": "finalexam",
@@ -146881,7 +146168,7 @@
   }
  },
  {
-  "id": "finalexam-de16d484",
+  "id": "finalexam-4a0dd7c8",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -146892,692 +146179,29 @@
   "origin": "original",
   "made": "figs",
   "exam": "final",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": true,
-  "prompt": "The titration curve of fully protonated glycine with NaOH is shown. What is the isoelectric point (pI) of glycine?",
+  "prompt": "Aspartic acid has a pI of about 2.8, glycine about 6.0, and lysine about 9.7. Which statement best explains the difference?",
   "choices": [
-   "About 6.0",
-   "About 2.3",
-   "About 9.6",
-   "About 7.0"
+   "An extra acidic side chain lowers the pI; an extra basic side chain raises it",
+   "A larger side chain always gives a higher pI",
+   "Polar side chains lower the pI; nonpolar side chains raise it",
+   "The pI depends only on the number of carbon atoms in the side chain"
   ],
-  "answer": "About 6.0",
-  "hint": "The pI is the pH where the net charge is zero: midway between the two pK_a values, which are the pH values at the two half-equivalence points (a and c).",
-  "explain": "The flat regions give pK_a1 ≈ 2.3 (point a) and pK_a2 ≈ 9.6 (point c). The zwitterion dominates between them, at the steep rise after one equivalent (point b): pI = (2.3 + 9.6)/2 ≈ 6.0. 2.3 and 9.6 are the individual pK_a values, not the pI; 7.0 is neutral water, which has nothing to do with the amino acid.",
+  "answer": "An extra acidic side chain lowers the pI; an extra basic side chain raises it",
+  "hint": "Aspartic acid has an extra –COOH in its side chain; lysine has an extra –NH₂. What does each do to the charge?",
+  "explain": "Aspartic acid’s side chain is acidic (–COOH), so it takes a lower pH to keep it neutral overall: a low pI. Lysine’s side chain is basic (–NH₂), so it stays positive until the pH is high: a high pI. Glycine (R = H) sits in between. Size, polarity and carbon count don’t set the pI.",
   "html": {
-   "prompt": "The titration curve of fully protonated glycine with NaOH is shown. What is the isoelectric point (pI) of glycine?",
+   "prompt": "Aspartic acid has a pI of about 2.8, glycine about 6.0, and lysine about 9.7. Which statement best explains the difference?",
    "choices": [
-    "About 6.0",
-    "About 2.3",
-    "About 9.6",
-    "About 7.0"
+    "An extra acidic side chain lowers the pI; an extra basic side chain raises it",
+    "A larger side chain always gives a higher pI",
+    "Polar side chains lower the pI; nonpolar side chains raise it",
+    "The pI depends only on the number of carbon atoms in the side chain"
    ],
-   "hint": "The pI is the pH where the net charge is zero: midway between the two pK<sub>a</sub> values, which are the pH values at the two half-equivalence points (a and c).",
-   "explain": "The flat regions give pK<sub>a1</sub> ≈ 2.3 (point a) and pK<sub>a2</sub> ≈ 9.6 (point c). The zwitterion dominates between them, at the steep rise after one equivalent (point b): pI = (2.3 + 9.6)/2 ≈ <b>6.0</b>. 2.3 and 9.6 are the individual pK<sub>a</sub> values, not the pI; 7.0 is neutral water, which has nothing to do with the amino acid."
-  },
-  "data": {
-   "f": [
-    {
-     "type": "plot",
-     "x": {
-      "label": "Equivalents of OH⁻ added",
-      "min": 0,
-      "max": 2,
-      "ticks": [
-       0,
-       0.5,
-       1,
-       1.5,
-       2
-      ]
-     },
-     "y": {
-      "label": "pH",
-      "min": 0,
-      "max": 13,
-      "ticks": [
-       0,
-       2,
-       4,
-       6,
-       8,
-       10,
-       12
-      ]
-     },
-     "series": [
-      {
-       "pts": [
-        [
-         0.013,
-         1.714
-        ],
-        [
-         0.0363,
-         1.743
-        ],
-        [
-         0.0592,
-         1.771
-        ],
-        [
-         0.0818,
-         1.8
-        ],
-        [
-         0.1041,
-         1.829
-        ],
-        [
-         0.1261,
-         1.857
-        ],
-        [
-         0.148,
-         1.886
-        ],
-        [
-         0.1697,
-         1.914
-        ],
-        [
-         0.1912,
-         1.943
-        ],
-        [
-         0.2126,
-         1.971
-        ],
-        [
-         0.2339,
-         2
-        ],
-        [
-         0.255,
-         2.029
-        ],
-        [
-         0.2761,
-         2.057
-        ],
-        [
-         0.297,
-         2.086
-        ],
-        [
-         0.3178,
-         2.114
-        ],
-        [
-         0.3385,
-         2.143
-        ],
-        [
-         0.3591,
-         2.171
-        ],
-        [
-         0.3796,
-         2.2
-        ],
-        [
-         0.3999,
-         2.229
-        ],
-        [
-         0.42,
-         2.257
-        ],
-        [
-         0.44,
-         2.286
-        ],
-        [
-         0.4597,
-         2.314
-        ],
-        [
-         0.4792,
-         2.343
-        ],
-        [
-         0.4985,
-         2.371
-        ],
-        [
-         0.5175,
-         2.4
-        ],
-        [
-         0.5362,
-         2.429
-        ],
-        [
-         0.5546,
-         2.457
-        ],
-        [
-         0.5726,
-         2.486
-        ],
-        [
-         0.5903,
-         2.514
-        ],
-        [
-         0.6076,
-         2.543
-        ],
-        [
-         0.6245,
-         2.571
-        ],
-        [
-         0.641,
-         2.6
-        ],
-        [
-         0.6571,
-         2.629
-        ],
-        [
-         0.6727,
-         2.657
-        ],
-        [
-         0.6879,
-         2.686
-        ],
-        [
-         0.7026,
-         2.714
-        ],
-        [
-         0.7168,
-         2.743
-        ],
-        [
-         0.7306,
-         2.771
-        ],
-        [
-         0.7439,
-         2.8
-        ],
-        [
-         0.7567,
-         2.829
-        ],
-        [
-         0.769,
-         2.857
-        ],
-        [
-         0.7809,
-         2.886
-        ],
-        [
-         0.7923,
-         2.914
-        ],
-        [
-         0.8032,
-         2.943
-        ],
-        [
-         0.8137,
-         2.971
-        ],
-        [
-         0.8237,
-         3
-        ],
-        [
-         0.8332,
-         3.029
-        ],
-        [
-         0.8423,
-         3.057
-        ],
-        [
-         0.8511,
-         3.086
-        ],
-        [
-         0.8593,
-         3.114
-        ],
-        [
-         0.8672,
-         3.143
-        ],
-        [
-         0.8747,
-         3.171
-        ],
-        [
-         0.8819,
-         3.2
-        ],
-        [
-         0.8886,
-         3.229
-        ],
-        [
-         0.8951,
-         3.257
-        ],
-        [
-         0.9012,
-         3.286
-        ],
-        [
-         0.9069,
-         3.314
-        ],
-        [
-         0.9124,
-         3.343
-        ],
-        [
-         0.9175,
-         3.371
-        ],
-        [
-         0.9224,
-         3.4
-        ],
-        [
-         0.927,
-         3.429
-        ],
-        [
-         0.9314,
-         3.457
-        ],
-        [
-         0.9355,
-         3.486
-        ],
-        [
-         1.0672,
-         8.457
-        ],
-        [
-         1.0714,
-         8.486
-        ],
-        [
-         1.0759,
-         8.514
-        ],
-        [
-         1.0806,
-         8.543
-        ],
-        [
-         1.0857,
-         8.571
-        ],
-        [
-         1.0909,
-         8.6
-        ],
-        [
-         1.0965,
-         8.629
-        ],
-        [
-         1.1024,
-         8.657
-        ],
-        [
-         1.1086,
-         8.686
-        ],
-        [
-         1.1152,
-         8.714
-        ],
-        [
-         1.1221,
-         8.743
-        ],
-        [
-         1.1293,
-         8.771
-        ],
-        [
-         1.1369,
-         8.8
-        ],
-        [
-         1.1448,
-         8.829
-        ],
-        [
-         1.1532,
-         8.857
-        ],
-        [
-         1.1619,
-         8.886
-        ],
-        [
-         1.171,
-         8.914
-        ],
-        [
-         1.1806,
-         8.943
-        ],
-        [
-         1.1905,
-         8.971
-        ],
-        [
-         1.2009,
-         9
-        ],
-        [
-         1.2116,
-         9.029
-        ],
-        [
-         1.2228,
-         9.057
-        ],
-        [
-         1.2344,
-         9.086
-        ],
-        [
-         1.2464,
-         9.114
-        ],
-        [
-         1.2589,
-         9.143
-        ],
-        [
-         1.2717,
-         9.171
-        ],
-        [
-         1.2849,
-         9.2
-        ],
-        [
-         1.2985,
-         9.229
-        ],
-        [
-         1.3125,
-         9.257
-        ],
-        [
-         1.3268,
-         9.286
-        ],
-        [
-         1.3414,
-         9.314
-        ],
-        [
-         1.3564,
-         9.343
-        ],
-        [
-         1.3716,
-         9.371
-        ],
-        [
-         1.3871,
-         9.4
-        ],
-        [
-         1.4028,
-         9.429
-        ],
-        [
-         1.4188,
-         9.457
-        ],
-        [
-         1.4349,
-         9.486
-        ],
-        [
-         1.4511,
-         9.514
-        ],
-        [
-         1.4675,
-         9.543
-        ],
-        [
-         1.4839,
-         9.571
-        ],
-        [
-         1.5004,
-         9.6
-        ],
-        [
-         1.5169,
-         9.629
-        ],
-        [
-         1.5333,
-         9.657
-        ],
-        [
-         1.5497,
-         9.686
-        ],
-        [
-         1.5659,
-         9.714
-        ],
-        [
-         1.5821,
-         9.743
-        ],
-        [
-         1.598,
-         9.771
-        ],
-        [
-         1.6138,
-         9.8
-        ],
-        [
-         1.6293,
-         9.829
-        ],
-        [
-         1.6446,
-         9.857
-        ],
-        [
-         1.6596,
-         9.886
-        ],
-        [
-         1.6742,
-         9.914
-        ],
-        [
-         1.6886,
-         9.943
-        ],
-        [
-         1.7026,
-         9.971
-        ],
-        [
-         1.7163,
-         10
-        ],
-        [
-         1.7295,
-         10.029
-        ],
-        [
-         1.7424,
-         10.057
-        ],
-        [
-         1.7549,
-         10.086
-        ],
-        [
-         1.767,
-         10.114
-        ],
-        [
-         1.7787,
-         10.143
-        ],
-        [
-         1.79,
-         10.171
-        ],
-        [
-         1.8008,
-         10.2
-        ],
-        [
-         1.8113,
-         10.229
-        ],
-        [
-         1.8213,
-         10.257
-        ],
-        [
-         1.831,
-         10.286
-        ],
-        [
-         1.8402,
-         10.314
-        ],
-        [
-         1.8491,
-         10.343
-        ],
-        [
-         1.8576,
-         10.371
-        ],
-        [
-         1.8657,
-         10.4
-        ],
-        [
-         1.8735,
-         10.429
-        ],
-        [
-         1.8809,
-         10.457
-        ],
-        [
-         1.8879,
-         10.486
-        ],
-        [
-         1.8947,
-         10.514
-        ],
-        [
-         1.9011,
-         10.543
-        ],
-        [
-         1.9072,
-         10.571
-        ],
-        [
-         1.9131,
-         10.6
-        ],
-        [
-         1.9186,
-         10.629
-        ],
-        [
-         1.9239,
-         10.657
-        ],
-        [
-         1.929,
-         10.686
-        ],
-        [
-         1.9338,
-         10.714
-        ],
-        [
-         1.9384,
-         10.743
-        ],
-        [
-         1.9428,
-         10.771
-        ],
-        [
-         1.947,
-         10.8
-        ],
-        [
-         1.951,
-         10.829
-        ],
-        [
-         1.9991,
-         11.286
-        ]
-       ]
-      }
-     ],
-     "mono": true,
-     "grid": true,
-     "points": [
-      [
-       0.5,
-       2.3,
-       "a",
-       8,
-       10
-      ],
-      [
-       1,
-       5.95,
-       "b",
-       8,
-       10
-      ],
-      [
-       1.5,
-       9.6,
-       "c",
-       8,
-       12
-      ],
-      [
-       1.85,
-       10.4,
-       "d",
-       6,
-       20
-      ]
-     ]
-    }
-   ]
+   "hint": "Aspartic acid has an extra –COOH in its side chain; lysine has an extra –NH<sub>2</sub>. What does each do to the charge?",
+   "explain": "Aspartic acid’s side chain is acidic (–COOH), so it takes a lower pH to keep it neutral overall: a <b>low pI</b>. Lysine’s side chain is basic (–NH<sub>2</sub>), so it stays positive until the pH is high: a <b>high pI</b>. Glycine (R = H) sits in between. Size, polarity and carbon count don’t set the pI."
   },
   "from": {
    "game": "finalexam",
@@ -147586,7 +146210,7 @@
   }
  },
  {
-  "id": "finalexam-5811ba3f",
+  "id": "finalexam-bd2ca99c",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -147600,26 +146224,26 @@
   "type": "finalboss-mc",
   "difficulty": 3,
   "calc": false,
-  "prompt": "Curve 1 is the normal oxygen-binding curve of hemoglobin in blood at pH 7.4. Curve 2 was measured in a blood sample from an actively exercising muscle. Which condition explains the shift?",
+  "prompt": "Curve 1 is the normal oxygen-binding curve of hemoglobin in blood at pH 7.4. Curve 2 was measured in blood from an actively exercising muscle, which contains more CO₂ and H⁺ (a lower pH). What does the shift from curve 1 to curve 2 show?",
   "choices": [
-   "Higher CO₂ and lower pH, which make hemoglobin release O₂ more easily",
-   "Lower CO₂ and higher pH, which make hemoglobin bind O₂ more tightly",
-   "Carbon monoxide in the sample, which blocks the O₂-binding sites",
-   "A higher O₂ pressure in the lungs, which saturates hemoglobin"
+   "At the lower pH, hemoglobin holds O₂ less tightly and releases more to the muscle",
+   "At the lower pH, hemoglobin holds O₂ more tightly and keeps it in the blood",
+   "At the lower pH, hemoglobin is fully denatured and can bind no O₂ at all",
+   "At the lower pH, hemoglobin binds O₂ exactly the same as at pH 7.4"
   ],
-  "answer": "Higher CO₂ and lower pH, which make hemoglobin release O₂ more easily",
-  "hint": "Curve 2 needs a higher O₂ pressure to reach the same % saturation: lower affinity. What does working muscle add to the blood?",
-  "explain": "Curve 2 lies to the right: at any O₂ pressure hemoglobin is less saturated, meaning it holds O₂ less tightly and unloads it more readily. Working muscle produces CO₂ and H⁺ (lower pH), which bind hemoglobin and reduce its O₂ affinity (the Bohr effect): more O₂ is delivered where it is needed. Higher pH would shift the curve left.",
+  "answer": "At the lower pH, hemoglobin holds O₂ less tightly and releases more to the muscle",
+  "hint": "At the same O₂ pressure, which curve shows less of the hemoglobin carrying O₂?",
+  "explain": "Curve 2 lies to the right: at any O₂ pressure hemoglobin is less saturated, so it holds O₂ less tightly and unloads it more readily where CO₂ and H⁺ are high (the Bohr effect), delivering O₂ where it is needed. Curve 2 still reaches high saturation at high O₂ pressure, so hemoglobin is not denatured.",
   "html": {
-   "prompt": "Curve 1 is the normal oxygen-binding curve of hemoglobin in blood at pH 7.4. Curve 2 was measured in a blood sample from an actively exercising muscle. Which condition explains the shift?",
+   "prompt": "Curve 1 is the normal oxygen-binding curve of hemoglobin in blood at pH 7.4. Curve 2 was measured in blood from an actively exercising muscle, which contains more CO<sub>2</sub> and H<sup>+</sup> (a lower pH). What does the shift from curve 1 to curve 2 show?",
    "choices": [
-    "Higher CO<sub>2</sub> and lower pH, which make hemoglobin release O<sub>2</sub> more easily",
-    "Lower CO<sub>2</sub> and higher pH, which make hemoglobin bind O<sub>2</sub> more tightly",
-    "Carbon monoxide in the sample, which blocks the O<sub>2</sub>-binding sites",
-    "A higher O<sub>2</sub> pressure in the lungs, which saturates hemoglobin"
+    "At the lower pH, hemoglobin holds O<sub>2</sub> less tightly and releases more to the muscle",
+    "At the lower pH, hemoglobin holds O<sub>2</sub> more tightly and keeps it in the blood",
+    "At the lower pH, hemoglobin is fully denatured and can bind no O<sub>2</sub> at all",
+    "At the lower pH, hemoglobin binds O<sub>2</sub> exactly the same as at pH 7.4"
    ],
-   "hint": "Curve 2 needs a higher O<sub>2</sub> pressure to reach the same % saturation: lower affinity. What does working muscle add to the blood?",
-   "explain": "Curve 2 lies to the right: at any O<sub>2</sub> pressure hemoglobin is <b>less saturated</b>, meaning it holds O<sub>2</sub> less tightly and unloads it more readily. Working muscle produces CO<sub>2</sub> and H<sup>+</sup> (lower pH), which bind hemoglobin and reduce its O<sub>2</sub> affinity (the Bohr effect): more O<sub>2</sub> is delivered where it is needed. Higher pH would shift the curve left."
+   "hint": "At the same O<sub>2</sub> pressure, which curve shows less of the hemoglobin carrying O<sub>2</sub>?",
+   "explain": "Curve 2 lies to the right: at any O<sub>2</sub> pressure hemoglobin is <b>less saturated</b>, so it holds O<sub>2</sub> less tightly and unloads it more readily where CO<sub>2</sub> and H<sup>+</sup> are high (the Bohr effect), delivering O<sub>2</sub> where it is needed. Curve 2 still reaches high saturation at high O<sub>2</sub> pressure, so hemoglobin is not denatured."
   },
   "data": {
    "f": [
@@ -149927,7 +148551,7 @@
   }
  },
  {
-  "id": "finalexam-4bb4f666",
+  "id": "finalexam-15d64cb4",
   "skill": "finalexam.3b.enzymes",
   "courses": [
    "3B"
@@ -149941,26 +148565,26 @@
   "type": "finalboss-mc",
   "difficulty": 2,
   "calc": false,
-  "prompt": "The graph shows the rate of an enzyme reaction versus substrate concentration; the dashed line is the maximum rate the enzyme can reach. K_m is defined as the substrate concentration at which the rate is half the maximum rate. What is K_m for this enzyme?",
+  "prompt": "The graph shows the rate of an enzyme reaction versus substrate concentration for a fixed amount of enzyme; the dashed line is the maximum rate. Why does the rate rise much less between 16 and 20 mM substrate than between 0 and 4 mM?",
   "choices": [
-   "4 mM",
-   "8 mM",
-   "40 mM",
-   "2 mM"
+   "At high substrate most active sites are already filled, so extra substrate adds little",
+   "At high substrate the extra substrate begins to denature the enzyme molecules",
+   "At high substrate the substrate starts to act as a competitive inhibitor",
+   "At high substrate the enzyme is used up as it is converted into product"
   ],
-  "answer": "4 mM",
-  "hint": "Half of the maximum rate is 40 μmol min⁻¹. Follow that rate across to the curve and read down to the substrate axis.",
-  "explain": "The maximum rate is 80 μmol min⁻¹, so half-maximum is 40 μmol min⁻¹. The curve reaches 40 at a substrate concentration of 4 mM, so K_m = 4 mM. Answering 40 mM reads the rate axis instead of the substrate axis; 8 mM is where the rate is about two-thirds of the maximum, not half.",
+  "answer": "At high substrate most active sites are already filled, so extra substrate adds little",
+  "hint": "With a fixed amount of enzyme there is a fixed number of active sites. What happens when nearly all of them are busy?",
+  "explain": "From 0 to 4 mM the rate jumps from 0 to about 40 μmol min⁻¹, but from 16 to 20 mM it only creeps from about 64 to 67 as it approaches the dashed maximum. At high substrate most active sites are already occupied, so the enzyme is nearly saturated and extra substrate adds little. Only more enzyme would raise the maximum. Enzymes are not used up or denatured by their substrate.",
   "html": {
-   "prompt": "The graph shows the rate of an enzyme reaction versus substrate concentration; the dashed line is the maximum rate the enzyme can reach. K<sub>m</sub> is defined as the substrate concentration at which the rate is <b>half</b> the maximum rate. What is K<sub>m</sub> for this enzyme?",
+   "prompt": "The graph shows the rate of an enzyme reaction versus substrate concentration for a fixed amount of enzyme; the dashed line is the maximum rate. Why does the rate rise much less between 16 and 20 mM substrate than between 0 and 4 mM?",
    "choices": [
-    "4 mM",
-    "8 mM",
-    "40 mM",
-    "2 mM"
+    "At high substrate most active sites are already filled, so extra substrate adds little",
+    "At high substrate the extra substrate begins to denature the enzyme molecules",
+    "At high substrate the substrate starts to act as a competitive inhibitor",
+    "At high substrate the enzyme is used up as it is converted into product"
    ],
-   "hint": "Half of the maximum rate is 40 μmol min<sup>−1</sup>. Follow that rate across to the curve and read down to the substrate axis.",
-   "explain": "The maximum rate is 80 μmol min<sup>−1</sup>, so half-maximum is 40 μmol min<sup>−1</sup>. The curve reaches 40 at a substrate concentration of <b>4 mM</b>, so K<sub>m</sub> = 4 mM. Answering 40 mM reads the rate axis instead of the substrate axis; 8 mM is where the rate is about two-thirds of the maximum, not half."
+   "hint": "With a fixed amount of enzyme there is a fixed number of active sites. What happens when nearly all of them are busy?",
+   "explain": "From 0 to 4 mM the rate jumps from 0 to about 40 μmol min<sup>−1</sup>, but from 16 to 20 mM it only creeps from about 64 to 67 as it approaches the dashed maximum. At high substrate <b>most active sites are already occupied</b>, so the enzyme is nearly saturated and extra substrate adds little. Only more enzyme would raise the maximum. Enzymes are not used up or denatured by their substrate."
   },
   "data": {
    "f": [
@@ -167618,7 +166242,7 @@
   }
  },
  {
-  "id": "finalexam-d444a278",
+  "id": "finalexam-c535342f",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -167632,7 +166256,7 @@
   "type": "finalboss-mc",
   "difficulty": 2,
   "calc": false,
-  "prompt": "A chemist adjusts an alanine solution to pH 12 with NaOH. Which of the structures drawn is the predominant form of alanine at this pH?",
+  "prompt": "A chemist makes an alanine solution strongly basic with NaOH, to a pH far above its pI. Which of the structures drawn is the predominant form of alanine?",
   "choices": [
    "§A",
    "§B",
@@ -167641,9 +166265,9 @@
   ],
   "answer": "§A",
   "hint": "At high pH, OH⁻ removes every acidic proton: the –COOH loses H⁺, and so does the –NH⁺₃.",
-  "explain": "At pH 12 the carboxyl group is deprotonated (–COO⁻) and the base has also pulled the proton off the –NH⁺₃, leaving a neutral –NH₂: the anion H₂N–CH(CH₃)–COO⁻, net charge −1. The zwitterion is the pH 7 form, the cation the pH 1 form; the fully uncharged –NH₂/–COOH molecule is not the major form at any pH.",
+  "explain": "Far above the pI the carboxyl group is deprotonated (–COO⁻) and the base has also pulled the proton off the –NH⁺₃, leaving a neutral –NH₂: the anion H₂N–CH(CH₃)–COO⁻, net charge −1. The zwitterion is the main form at the pI and the cation far below it; the fully uncharged –NH₂/–COOH molecule is not the major form at any pH.",
   "html": {
-   "prompt": "A chemist adjusts an alanine solution to pH 12 with NaOH. Which of the structures drawn is the predominant form of alanine at this pH?",
+   "prompt": "A chemist makes an alanine solution strongly basic with NaOH, to a pH far above its pI. Which of the structures drawn is the predominant form of alanine?",
    "choices": [
     "§A",
     "§B",
@@ -167651,7 +166275,7 @@
     "§D"
    ],
    "hint": "At high pH, OH<sup>−</sup> removes every acidic proton: the –COOH loses H<sup>+</sup>, and so does the –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span>.</span>",
-   "explain": "At pH 12 the carboxyl group is deprotonated (–COO<sup>−</sup>) and the base has also pulled the proton off the –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span>,</span> leaving a neutral –NH<sub>2</sub>: the anion <b>H<sub>2</sub>N–CH(CH<sub>3</sub>)–COO<sup>−</sup></b>, net charge −1. The zwitterion is the pH 7 form, the cation the pH 1 form; the fully uncharged –NH<sub>2</sub>/–COOH molecule is not the major form at any pH."
+   "explain": "Far above the pI the carboxyl group is deprotonated (–COO<sup>−</sup>) and the base has also pulled the proton off the –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span>,</span> leaving a neutral –NH<sub>2</sub>: the anion <b>H<sub>2</sub>N–CH(CH<sub>3</sub>)–COO<sup>−</sup></b>, net charge −1. The zwitterion is the main form at the pI and the cation far below it; the fully uncharged –NH<sub>2</sub>/–COOH molecule is not the major form at any pH."
   },
   "data": {
    "cs": [
@@ -168770,7 +167394,7 @@
   }
  },
  {
-  "id": "finalexam-505ce593",
+  "id": "finalexam-ae9b56f6",
   "skill": "finalexam.3b.enzymes",
   "courses": [
    "3B"
@@ -168784,7 +167408,7 @@
   "type": "mc",
   "difficulty": 1,
   "calc": false,
-  "prompt": "A child with bowed legs is diagnosed with rickets, a bone disease. Deficiency of which vitamin is the cause, and what is the vitamin's role?",
+  "prompt": "Rickets is a childhood disease in which bones stay soft and bend because too little calcium is deposited in them. A deficiency of which vitamin causes rickets, and what is that vitamin’s role?",
   "choices": [
    "Vitamin D; it is needed to absorb calcium and phosphate for bone",
    "Vitamin A; it is needed to make the visual pigment in the retina",
@@ -168795,7 +167419,7 @@
   "hint": "Which fat-soluble vitamin is made in skin exposed to sunlight and controls blood calcium?",
   "explain": "Rickets (soft, bending bones) is caused by a lack of vitamin D, which the body needs to absorb Ca²⁺ and phosphate from the intestine and deposit them in bone. Vitamin A deficiency causes night blindness, vitamin K deficiency causes bleeding, and B vitamins are water-soluble coenzyme precursors.",
   "html": {
-   "prompt": "A child with bowed legs is diagnosed with rickets, a bone disease. Deficiency of which vitamin is the cause, and what is the vitamin's role?",
+   "prompt": "Rickets is a childhood disease in which bones stay soft and bend because too little calcium is deposited in them. A deficiency of which vitamin causes rickets, and what is that vitamin’s role?",
    "choices": [
     "Vitamin D; it is needed to absorb calcium and phosphate for bone",
     "Vitamin A; it is needed to make the visual pigment in the retina",

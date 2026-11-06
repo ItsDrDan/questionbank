@@ -50,17 +50,22 @@ function mcFromArray(a, hasTitle) {
   const page = await browser.newPage();
   await page.route(/^https?:/, r => r.abort());
   page.on('pageerror', () => {});
-  const banks = {};   // file -> items
+  const banks = {}, earlyFailed = [];   // file -> items
   const add = (file, items) => (banks[file] = (banks[file] || []).concat(items));
 
   // ---------- Significant figures (sigfig) ----------
-  {
+  // (a game rebuilt with different list names shouldn't stop the whole bank: keep its previous questions and flag it)
+  try {
     const g = 'sigfig', d = await pull(page, g, ['countBank', 'countedBank', 'sigRoundBank', 'decimalBank']);
     const base = { skill: 'sigfig.count', courses: ['3A', '1A'], chapters: ['3A-1', '1A-1'], origin: 'original' };
     add('sig-figs', d.countBank.map((q, i) => item(g, 'countBank', i, { ...base, type: 'number', prompt: `How many significant figures are in ${q.display}?`, answer: q.answer, hint: q.hint, explain: q.reason })));
     add('sig-figs', d.countedBank.map((q, i) => item(g, 'countedBank', i, { ...base, type: 'text', prompt: `How many significant figures are in ${q.display}?`, answer: q.answer, accept: ['oo', 'infinite', '∞'], hint: q.hint, explain: q.reason })));
     add('sig-figs', d.sigRoundBank.map((q, i) => item(g, 'sigRoundBank', i, { ...base, skill: 'sigfig.round-sigfigs', type: 'text', prompt: `Round ${q.shown} to ${q.places} significant figure${q.places > 1 ? 's' : ''}.`, answer: q.answer, hint: q.hint, explain: q.reason })));
     add('sig-figs', d.decimalBank.map((q, i) => item(g, 'decimalBank', i, { ...base, skill: 'sigfig.round-decimals', type: 'text', prompt: `Round ${q.shown} to ${q.places} decimal place${q.places > 1 ? 's' : ''}.`, answer: q.answer, hint: q.hint, explain: q.reason })));
+  } catch (e) {
+    const prev = path.join(OUT, 'bank', 'sig-figs.json');
+    if (fs.existsSync(prev)) add('sig-figs', JSON.parse(fs.readFileSync(prev, 'utf8')));
+    earlyFailed.push('sigfig: ' + e.message.split('\n')[0].slice(0, 200));
   }
 
   // ---------- REDOX (master copy; Bridge to 1B holds an older subset) ----------
@@ -210,7 +215,7 @@ function mcFromArray(a, hasTitle) {
     fs.writeFileSync(path.join(OUT, 'data/sugars.json'), JSON.stringify({ from: 'carbohydrates', sugars: Array.isArray(s.SUG) ? Object.fromEntries(s.SUG) : s.SUG }, null, 1));
   }
 
-  const failed = [];
+  const failed = earlyFailed;
   // ---------- Sampled questions: each game's own question makers, run with a fixed seed ----------
   // One sampler per game in tools/samplers/<game>.js. Output goes to bank/<game>-practice.json.
   for (const f of fs.readdirSync(path.join(__dirname, 'samplers')).filter(f => f.endsWith('.js')).sort()) {
