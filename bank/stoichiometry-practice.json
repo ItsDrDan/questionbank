@@ -15879,7 +15879,7 @@
   }
  },
  {
-  "id": "stoichiometry-a90e8bcf",
+  "id": "stoichiometry-0a1f35e2",
   "skill": "stoichiometry.challenge",
   "courses": [
    "1A"
@@ -15889,13 +15889,38 @@
    "1B-ready"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div><b>Sulfuric acid is neutralized by sodium hydroxide solution.</b> Mix <span class=\"measure\">39.3 mL of 0.178 M</span> <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> with <span class=\"measure\">31.6 mL of 0.288 M</span> <span class=\"formula\">NaOH</span>. Find the limiting reactant and the remaining concentration of excess reactant, expressed as unreacted solute formula equivalents. Assume solution volumes add.<br><br><strong>Find leftover concentration:</strong> What is the concentration of unreacted <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span>, expressed as solute formula equivalents, in the combined solution?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span></td><td>98.07</td></tr><tr><td><span class=\"formula\">NaOH</span></td><td>40.00</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span></td><td>142.04</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
-  "answer": 0.0345,
-  "unit": "M H2SO4",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div><b>Sulfuric acid is neutralized by sodium hydroxide solution.</b> 15.5 g <span class=\"formula\">NaOH</span> reacts with a stoichiometric amount of the other reactant. After reaction, the solution is diluted to 387 mL. What is the theoretical concentration of dissolved <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span>, expressed as salt formula equivalents? Then use an actual measured product amount of <span class=\"measure\">0.347 M Na<sub>2</sub>SO<sub>4</sub></span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">0.347 M Na<sub>2</sub>SO<sub>4</sub></span>. What is the percent yield?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span></td><td>98.07</td></tr><tr><td><span class=\"formula\">NaOH</span></td><td>40.00</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span></td><td>142.04</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
+  "answer": 69.3,
+  "unit": "%",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "Percent yield = actual product amount ÷ theoretical product amount × 100%. For equivalent reactant quantities, the common stoichiometric conversion cancels in the ratio.",
+  "explain": "<div>(0.347 ÷ 0.5006) × 100% = <b>69.3%</b>.</div><div>Round to 3 significant figures: <b>69.3 %</b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:challenge",
+   "index": 16
+  }
+ },
+ {
+  "id": "stoichiometry-5a8c7b82",
+  "skill": "stoichiometry.challenge",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-4",
+   "1B-ready"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div><b>Calcium chloride solution is mixed with sodium carbonate solution; a precipitate forms.</b> Mix <span class=\"measure\">47.7 mL of 0.254 M</span> <span class=\"formula\">CaCl<sub>2</sub></span> with <span class=\"measure\">31.0 mL of 0.587 M</span> <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span>. Find the limiting reactant and the remaining concentration of excess reactant, expressed as unreacted solute formula equivalents. Assume solution volumes add.<br><br><strong>Find leftover concentration:</strong> What is the concentration of unreacted <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span>, expressed as solute formula equivalents, in the combined solution?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCl<sub>2</sub></span></td><td>110.98</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span></td><td>105.99</td></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table>",
+  "answer": 0.0773,
+  "unit": "M Na2CO3",
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Subtract consumed moles from initial moles of the excess reactant. Divide leftover moles by the combined volume in liters.",
-  "explain": "<div>Reaction extent = 4.550 × 10⁻³ mol. Leftover = initial moles − 1 × extent = 2.445 × 10⁻³ mol. Divide by 0.07090 L: <b>0.0345 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0345 M H<sub>2</sub>SO<sub>4</sub></b></div>",
+  "explain": "<div>Reaction extent = 0.01212 mol. Leftover = initial moles − 1 × extent = 6.081 × 10⁻³ mol. Divide by 0.07870 L: <b>0.0773 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0773 M Na<sub>2</sub>CO<sub>3</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -15904,7 +15929,7 @@
   }
  },
  {
-  "id": "stoichiometry-d61b4de1",
+  "id": "stoichiometry-e78b6f01",
   "skill": "stoichiometry.challenge",
   "courses": [
    "1A"
@@ -15914,13 +15939,13 @@
    "1B-ready"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div><b>Calcium chloride solution is mixed with sodium carbonate solution; a precipitate forms.</b> Mix <span class=\"measure\">67.5 mL of 0.282 M</span> <span class=\"formula\">CaCl<sub>2</sub></span> with <span class=\"measure\">41.5 mL of 0.298 M</span> <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span>. Find the limiting reactant and the remaining concentration of excess reactant, expressed as unreacted solute formula equivalents. Assume solution volumes add.<br><br><strong>Find leftover concentration:</strong> What is the concentration of unreacted <span class=\"formula\">CaCl<sub>2</sub></span>, expressed as solute formula equivalents, in the combined solution?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCl<sub>2</sub></span></td><td>110.98</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span></td><td>105.99</td></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table>",
-  "answer": 0.0612,
-  "unit": "M CaCl2",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">CH<sub>4</sub></span> + 2 <span class=\"formula\">O<sub>2</sub></span> &rarr; <span class=\"formula\">CO<sub>2</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div><b>Methane burns in oxygen.</b> What mass of <span class=\"formula\">CO<sub>2</sub></span> forms from <span class=\"measure\">41.9 g</span> <span class=\"formula\">O<sub>2</sub></span>? Assume any other reactant is in excess. Then use an actual measured product amount of <span class=\"measure\">18.8 g CO<sub>2</sub></span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">18.8 g CO<sub>2</sub></span>. What is the percent yield?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CH<sub>4</sub></span></td><td>16.043</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
+  "answer": 65.2,
+  "unit": "%",
   "tolerance": 0.005,
   "sigfigs": 3,
-  "hint": "Subtract consumed moles from initial moles of the excess reactant. Divide leftover moles by the combined volume in liters.",
-  "explain": "<div>Reaction extent = 0.01237 mol. Leftover = initial moles − 1 × extent = 6.668 × 10⁻³ mol. Divide by 0.1090 L: <b>0.0612 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0612 M CaCl<sub>2</sub></b></div>",
+  "hint": "Percent yield = actual product amount ÷ theoretical product amount × 100%. For equivalent reactant quantities, the common stoichiometric conversion cancels in the ratio.",
+  "explain": "<div>(18.8 ÷ 28.81) × 100% = <b>65.2%</b>.</div><div>Round to 3 significant figures: <b>65.2 %</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -15929,7 +15954,7 @@
   }
  },
  {
-  "id": "stoichiometry-404c6a63",
+  "id": "stoichiometry-d5e5e9c5",
   "skill": "stoichiometry.challenge",
   "courses": [
    "1A"
@@ -15939,13 +15964,13 @@
    "1B-ready"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">HCl</span> + <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">NaCl</span> + <span class=\"formula\">H<sub>2</sub>O</span></div><div><b>Aqueous hydrochloric acid reacts with sodium hydroxide solution.</b> Mix <span class=\"measure\">29.4 g</span> <span class=\"formula\">HCl</span> with <span class=\"measure\">54.4 g</span> <span class=\"formula\">NaOH</span>. Determine the limiting reactant and the mass of excess reactant remaining.<br><br><strong>Find the leftover reactant:</strong> What mass of excess <span class=\"formula\">NaOH</span> remains after the reaction?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">HCl</span></td><td>36.46</td></tr><tr><td><span class=\"formula\">NaOH</span></td><td>40.00</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
-  "answer": 22.1,
-  "unit": "g NaOH",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">H<sub>2</sub></span> + <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div><b>Hydrogen gas reacts with oxygen gas in a synthesis reaction.</b> Mix <span class=\"measure\">1.36 g</span> <span class=\"formula\">H<sub>2</sub></span> with <span class=\"measure\">6.54 g</span> <span class=\"formula\">O<sub>2</sub></span>. Determine the limiting reactant and the mass of excess reactant remaining.<br><br><strong>Find the leftover reactant:</strong> What mass of excess <span class=\"formula\">H<sub>2</sub></span> remains after the reaction?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
+  "answer": 0.536,
+  "unit": "g H2",
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Start with the initial mass of the excess reactant. Convert the limiting reactant into the mass of excess reactant it consumes, then subtract.",
-  "explain": "<div>Initial <span class=\"formula\">NaOH</span>: 54.4 g. Consumed: 32.25 g. Leftover: 54.4 − 32.25 = <b>22.1 g <span class=\"formula\">NaOH</span></b>.</div><div>Round to 3 significant figures: <b>22.1 g NaOH</b></div>",
+  "explain": "<div>Initial <span class=\"formula\">H<sub>2</sub></span>: 1.36 g. Consumed: 0.8241 g. Leftover: 1.36 − 0.8241 = <b>0.536 g <span class=\"formula\">H<sub>2</sub></span></b>.</div><div>Round to 3 significant figures: <b>0.536 g H<sub>2</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -15954,7 +15979,7 @@
   }
  },
  {
-  "id": "stoichiometry-c8307e64",
+  "id": "stoichiometry-94e53f4c",
   "skill": "stoichiometry.challenge",
   "courses": [
    "1A"
@@ -15964,13 +15989,13 @@
    "1B-ready"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div><b>Calcium chloride solution is mixed with sodium carbonate solution; a precipitate forms.</b> Mix <span class=\"measure\">71.7 mL of 0.310 M</span> <span class=\"formula\">CaCl<sub>2</sub></span> with <span class=\"measure\">29.4 mL of 0.492 M</span> <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span>. Find the limiting reactant and the remaining concentration of excess reactant, expressed as unreacted solute formula equivalents. Assume solution volumes add.<br><br><strong>Find leftover concentration:</strong> What is the concentration of unreacted <span class=\"formula\">CaCl<sub>2</sub></span>, expressed as solute formula equivalents, in the combined solution?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCl<sub>2</sub></span></td><td>110.98</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span></td><td>105.99</td></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table>",
-  "answer": 0.0768,
-  "unit": "M CaCl2",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">AgNO<sub>3</sub></span> + <span class=\"formula\">NaCl</span> &rarr; <span class=\"formula\">AgCl</span> + <span class=\"formula\">NaNO<sub>3</sub></span></div><div><b>Silver nitrate solution is mixed with sodium chloride solution; a precipitate forms.</b> 15.5 g <span class=\"formula\">AgNO<sub>3</sub></span> reacts with a stoichiometric amount of the other reactant. What volume of 0.537 M <span class=\"formula\">NaNO<sub>3</sub></span> solution could be prepared from the dissolved salt product? Express concentration as salt formula equivalents. Then use an actual measured product amount of <span class=\"measure\">147 mL solution NaNO<sub>3</sub></span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">147 mL solution NaNO<sub>3</sub></span>. What is the percent yield?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">AgNO<sub>3</sub></span></td><td>169.87</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr><tr><td><span class=\"formula\">AgCl</span></td><td>143.32</td></tr><tr><td><span class=\"formula\">NaNO<sub>3</sub></span></td><td>84.99</td></tr></table>",
+  "answer": 86.5,
+  "unit": "%",
   "tolerance": 0.005,
   "sigfigs": 3,
-  "hint": "Subtract consumed moles from initial moles of the excess reactant. Divide leftover moles by the combined volume in liters.",
-  "explain": "<div>Reaction extent = 0.01446 mol. Leftover = initial moles − 1 × extent = 7.762 × 10⁻³ mol. Divide by 0.1011 L: <b>0.0768 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0768 M CaCl<sub>2</sub></b></div>",
+  "hint": "Percent yield = actual product amount ÷ theoretical product amount × 100%. For equivalent reactant quantities, the common stoichiometric conversion cancels in the ratio.",
+  "explain": "<div>(147 ÷ 169.9) × 100% = <b>86.5%</b>.</div><div>Round to 3 significant figures: <b>86.5 %</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -15979,7 +16004,7 @@
   }
  },
  {
-  "id": "stoichiometry-fa54c796",
+  "id": "stoichiometry-8c34efc8",
   "skill": "stoichiometry.challenge",
   "courses": [
    "1A"
@@ -15989,13 +16014,13 @@
    "1B-ready"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">HCl</span> + <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">NaCl</span> + <span class=\"formula\">H<sub>2</sub>O</span></div><div><b>Aqueous hydrochloric acid reacts with sodium hydroxide solution.</b> Mix <span class=\"measure\">30.6 mL of 0.354 M</span> <span class=\"formula\">HCl</span> with <span class=\"measure\">46.7 mL of 0.348 M</span> <span class=\"formula\">NaOH</span>. Find the limiting reactant and the remaining concentration of excess reactant, expressed as unreacted solute formula equivalents. Assume solution volumes add.<br><br><strong>Find leftover concentration:</strong> What is the concentration of unreacted <span class=\"formula\">NaOH</span>, expressed as solute formula equivalents, in the combined solution?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">HCl</span></td><td>36.46</td></tr><tr><td><span class=\"formula\">NaOH</span></td><td>40.00</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
-  "answer": 0.0701,
-  "unit": "M NaOH",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div><b>Calcium chloride solution is mixed with sodium carbonate solution; a precipitate forms.</b> 18.3 g <span class=\"formula\">CaCl<sub>2</sub></span> reacts with a stoichiometric amount of the other reactant. After reaction, the solution is diluted to 385 mL. What is the theoretical concentration of dissolved <span class=\"formula\">NaCl</span>, expressed as salt formula equivalents? Then use an actual measured product amount of <span class=\"measure\">0.686 M NaCl</span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">0.686 M NaCl</span>. What is the percent yield?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCl<sub>2</sub></span></td><td>110.98</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span></td><td>105.99</td></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table>",
+  "answer": 80.1,
+  "unit": "%",
   "tolerance": 0.005,
   "sigfigs": 3,
-  "hint": "Subtract consumed moles from initial moles of the excess reactant. Divide leftover moles by the combined volume in liters.",
-  "explain": "<div>Reaction extent = 0.01083 mol. Leftover = initial moles − 1 × extent = 5.419 × 10⁻³ mol. Divide by 0.07730 L: <b>0.0701 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0701 M NaOH</b></div>",
+  "hint": "Percent yield = actual product amount ÷ theoretical product amount × 100%. For equivalent reactant quantities, the common stoichiometric conversion cancels in the ratio.",
+  "explain": "<div>(0.686 ÷ 0.8566) × 100% = <b>80.1%</b>.</div><div>Round to 3 significant figures: <b>80.1 %</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -16004,7 +16029,7 @@
   }
  },
  {
-  "id": "stoichiometry-5cb19a30",
+  "id": "stoichiometry-722811f7",
   "skill": "stoichiometry.challenge",
   "courses": [
    "1A"
@@ -16014,13 +16039,13 @@
    "1B-ready"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div><b>Calcium chloride solution is mixed with sodium carbonate solution; a precipitate forms.</b> 24.2 mL of 0.440 M <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> reacts with a stoichiometric amount of the other reactant. What volume of 0.649 M <span class=\"formula\">NaCl</span> solution could be prepared from the dissolved salt product? Express concentration as salt formula equivalents. Then use an actual measured product amount of <span class=\"measure\">28.2 mL solution NaCl</span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">28.2 mL solution NaCl</span>. What is the percent yield?</div>",
-  "answer": 85.9,
-  "unit": "%",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">AgNO<sub>3</sub></span> + <span class=\"formula\">NaCl</span> &rarr; <span class=\"formula\">AgCl</span> + <span class=\"formula\">NaNO<sub>3</sub></span></div><div><b>Silver nitrate solution is mixed with sodium chloride solution; a precipitate forms.</b> Mix <span class=\"measure\">225 g</span> <span class=\"formula\">AgNO<sub>3</sub></span> with <span class=\"measure\">108 g</span> <span class=\"formula\">NaCl</span>. Determine the limiting reactant and the mass of excess reactant remaining.<br><br><strong>Find the leftover reactant:</strong> What mass of excess <span class=\"formula\">NaCl</span> remains after the reaction?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">AgNO<sub>3</sub></span></td><td>169.87</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr><tr><td><span class=\"formula\">AgCl</span></td><td>143.32</td></tr><tr><td><span class=\"formula\">NaNO<sub>3</sub></span></td><td>84.99</td></tr></table>",
+  "answer": 30.6,
+  "unit": "g NaCl",
   "tolerance": 0.005,
   "sigfigs": 3,
-  "hint": "Percent yield = actual product amount ÷ theoretical product amount × 100%. For equivalent reactant quantities, the common stoichiometric conversion cancels in the ratio.",
-  "explain": "<div>(28.2 ÷ 32.81) × 100% = <b>85.9%</b>.</div><div>Round to 3 significant figures: <b>85.9 %</b></div>",
+  "hint": "Start with the initial mass of the excess reactant. Convert the limiting reactant into the mass of excess reactant it consumes, then subtract.",
+  "explain": "<div>Initial <span class=\"formula\">NaCl</span>: 108 g. Consumed: 77.41 g. Leftover: 108 − 77.41 = <b>30.6 g <span class=\"formula\">NaCl</span></b>.</div><div>Round to 3 significant figures: <b>30.6 g NaCl</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -16029,7 +16054,7 @@
   }
  },
  {
-  "id": "stoichiometry-e4de03ae",
+  "id": "stoichiometry-a9f751ff",
   "skill": "stoichiometry.challenge",
   "courses": [
    "1A"
@@ -16039,13 +16064,13 @@
    "1B-ready"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Na</span> + <span class=\"formula\">Cl<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NaCl</span></div><div><b>Sodium metal reacts with chlorine gas to make table salt.</b> What mass of <span class=\"formula\">NaCl</span> forms from <span class=\"measure\">47.3 g</span> <span class=\"formula\">Cl<sub>2</sub></span>? Assume any other reactant is in excess. Then use an actual measured product amount of <span class=\"measure\">61.4 g NaCl</span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">61.4 g NaCl</span>. What is the percent yield?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Na</span></td><td>22.99</td></tr><tr><td><span class=\"formula\">Cl<sub>2</sub></span></td><td>70.90</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table>",
-  "answer": 78.7,
-  "unit": "%",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div><b>Sulfuric acid is neutralized by sodium hydroxide solution.</b> Mix <span class=\"measure\">48.8 mL of 0.540 M</span> <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> with <span class=\"measure\">117 mL of 0.292 M</span> <span class=\"formula\">NaOH</span>. Find the limiting reactant and the remaining concentration of excess reactant, expressed as unreacted solute formula equivalents. Assume solution volumes add.<br><br><strong>Find leftover concentration:</strong> What is the concentration of unreacted <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span>, expressed as solute formula equivalents, in the combined solution?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span></td><td>98.07</td></tr><tr><td><span class=\"formula\">NaOH</span></td><td>40.00</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span></td><td>142.04</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
+  "answer": 0.0559,
+  "unit": "M H2SO4",
   "tolerance": 0.005,
   "sigfigs": 3,
-  "hint": "Percent yield = actual product amount ÷ theoretical product amount × 100%. For equivalent reactant quantities, the common stoichiometric conversion cancels in the ratio.",
-  "explain": "<div>(61.4 ÷ 77.97) × 100% = <b>78.7%</b>.</div><div>Round to 3 significant figures: <b>78.7 %</b></div>",
+  "hint": "Subtract consumed moles from initial moles of the excess reactant. Divide leftover moles by the combined volume in liters.",
+  "explain": "<div>Reaction extent = 0.01708 mol. Leftover = initial moles − 1 × extent = 9.270 × 10⁻³ mol. Divide by 0.1658 L: <b>0.0559 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0559 M H<sub>2</sub>SO<sub>4</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -16054,7 +16079,7 @@
   }
  },
  {
-  "id": "stoichiometry-1581c228",
+  "id": "stoichiometry-07472aad",
   "skill": "stoichiometry.challenge",
   "courses": [
    "1A"
@@ -16064,13 +16089,13 @@
    "1B-ready"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Al</span> + 3 <span class=\"formula\">Cl<sub>2</sub></span> &rarr; 2 <span class=\"formula\">AlCl<sub>3</sub></span></div><div><b>Aluminum metal reacts with chlorine gas to form aluminum chloride.</b> What mass of <span class=\"formula\">AlCl<sub>3</sub></span> forms from <span class=\"measure\">39.9 g</span> <span class=\"formula\">Cl<sub>2</sub></span>? Assume any other reactant is in excess. Then use an actual measured product amount of <span class=\"measure\">33.9 g AlCl<sub>3</sub></span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">33.9 g AlCl<sub>3</sub></span>. What is the percent yield?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Al</span></td><td>26.98</td></tr><tr><td><span class=\"formula\">Cl<sub>2</sub></span></td><td>70.90</td></tr><tr><td><span class=\"formula\">AlCl<sub>3</sub></span></td><td>133.33</td></tr></table>",
-  "answer": 67.8,
-  "unit": "%",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">AgNO<sub>3</sub></span> + <span class=\"formula\">NaCl</span> &rarr; <span class=\"formula\">AgCl</span> + <span class=\"formula\">NaNO<sub>3</sub></span></div><div><b>Silver nitrate solution is mixed with sodium chloride solution; a precipitate forms.</b> Mix <span class=\"measure\">49.0 mL of 0.184 M</span> <span class=\"formula\">AgNO<sub>3</sub></span> with <span class=\"measure\">8.34 mL of 0.703 M</span> <span class=\"formula\">NaCl</span>. Find the limiting reactant and the remaining concentration of excess reactant, expressed as unreacted solute formula equivalents. Assume solution volumes add.<br><br><strong>Find leftover concentration:</strong> What is the concentration of unreacted <span class=\"formula\">AgNO<sub>3</sub></span>, expressed as solute formula equivalents, in the combined solution?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">AgNO<sub>3</sub></span></td><td>169.87</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr><tr><td><span class=\"formula\">AgCl</span></td><td>143.32</td></tr><tr><td><span class=\"formula\">NaNO<sub>3</sub></span></td><td>84.99</td></tr></table>",
+  "answer": 0.055,
+  "unit": "M AgNO3",
   "tolerance": 0.005,
   "sigfigs": 3,
-  "hint": "Percent yield = actual product amount ÷ theoretical product amount × 100%. For equivalent reactant quantities, the common stoichiometric conversion cancels in the ratio.",
-  "explain": "<div>(33.9 ÷ 50.02) × 100% = <b>67.8%</b>.</div><div>Round to 3 significant figures: <b>67.8 %</b></div>",
+  "hint": "Subtract consumed moles from initial moles of the excess reactant. Divide leftover moles by the combined volume in liters.",
+  "explain": "<div>Reaction extent = 5.863 × 10⁻³ mol. Leftover = initial moles − 1 × extent = 3.153 × 10⁻³ mol. Divide by 0.05734 L: <b>0.0550 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0550 M AgNO<sub>3</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -16079,7 +16104,7 @@
   }
  },
  {
-  "id": "stoichiometry-2d66400d",
+  "id": "stoichiometry-69ab0137",
   "skill": "stoichiometry.challenge",
   "courses": [
    "1A"
@@ -16089,13 +16114,13 @@
    "1B-ready"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div><b>Sulfuric acid is neutralized by sodium hydroxide solution.</b> 14.4 g <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> reacts with a stoichiometric amount of the other reactant. After reaction, the solution is diluted to 422 mL. What is the theoretical concentration of dissolved <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span>, expressed as salt formula equivalents? Then use an actual measured product amount of <span class=\"measure\">0.259 M Na<sub>2</sub>SO<sub>4</sub></span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">0.259 M Na<sub>2</sub>SO<sub>4</sub></span>. What is the percent yield?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span></td><td>98.07</td></tr><tr><td><span class=\"formula\">NaOH</span></td><td>40.00</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span></td><td>142.04</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
-  "answer": 74.4,
-  "unit": "%",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">AgNO<sub>3</sub></span> + <span class=\"formula\">NaCl</span> &rarr; <span class=\"formula\">AgCl</span> + <span class=\"formula\">NaNO<sub>3</sub></span></div><div><b>Silver nitrate solution is mixed with sodium chloride solution; a precipitate forms.</b> Mix <span class=\"measure\">60.2 mL of 0.306 M</span> <span class=\"formula\">AgNO<sub>3</sub></span> with <span class=\"measure\">18.7 mL of 0.639 M</span> <span class=\"formula\">NaCl</span>. Find the limiting reactant and the remaining concentration of excess reactant, expressed as unreacted solute formula equivalents. Assume solution volumes add.<br><br><strong>Find leftover concentration:</strong> What is the concentration of unreacted <span class=\"formula\">AgNO<sub>3</sub></span>, expressed as solute formula equivalents, in the combined solution?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">AgNO<sub>3</sub></span></td><td>169.87</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr><tr><td><span class=\"formula\">AgCl</span></td><td>143.32</td></tr><tr><td><span class=\"formula\">NaNO<sub>3</sub></span></td><td>84.99</td></tr></table>",
+  "answer": 0.082,
+  "unit": "M AgNO3",
   "tolerance": 0.005,
   "sigfigs": 3,
-  "hint": "Percent yield = actual product amount ÷ theoretical product amount × 100%. For equivalent reactant quantities, the common stoichiometric conversion cancels in the ratio.",
-  "explain": "<div>(0.259 ÷ 0.3479) × 100% = <b>74.4%</b>.</div><div>Round to 3 significant figures: <b>74.4 %</b></div>",
+  "hint": "Subtract consumed moles from initial moles of the excess reactant. Divide leftover moles by the combined volume in liters.",
+  "explain": "<div>Reaction extent = 0.01195 mol. Leftover = initial moles − 1 × extent = 6.472 × 10⁻³ mol. Divide by 0.07890 L: <b>0.0820 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0820 M AgNO<sub>3</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -16104,7 +16129,7 @@
   }
  },
  {
-  "id": "stoichiometry-5fd0e303",
+  "id": "stoichiometry-260046ab",
   "skill": "stoichiometry.challenge",
   "courses": [
    "1A"
@@ -16114,13 +16139,13 @@
    "1B-ready"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div><b>Sulfuric acid is neutralized by sodium hydroxide solution.</b> What mass of <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> forms from <span class=\"measure\">36.9 g</span> <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span>? Assume any other reactant is in excess. Then use an actual measured product amount of <span class=\"measure\">37.3 g Na<sub>2</sub>SO<sub>4</sub></span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">37.3 g Na<sub>2</sub>SO<sub>4</sub></span>. What is the percent yield?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span></td><td>98.07</td></tr><tr><td><span class=\"formula\">NaOH</span></td><td>40.00</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span></td><td>142.04</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
-  "answer": 69.8,
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Na</span> + <span class=\"formula\">Cl<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NaCl</span></div><div><b>Sodium metal reacts with chlorine gas to make table salt.</b> What mass of <span class=\"formula\">NaCl</span> forms from <span class=\"measure\">37.2 g</span> <span class=\"formula\">Cl<sub>2</sub></span>? Assume any other reactant is in excess. Then use an actual measured product amount of <span class=\"measure\">44.3 g NaCl</span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">44.3 g NaCl</span>. What is the percent yield?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Na</span></td><td>22.99</td></tr><tr><td><span class=\"formula\">Cl<sub>2</sub></span></td><td>70.90</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table>",
+  "answer": 72.2,
   "unit": "%",
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Percent yield = actual product amount ÷ theoretical product amount × 100%. For equivalent reactant quantities, the common stoichiometric conversion cancels in the ratio.",
-  "explain": "<div>(37.3 ÷ 53.44) × 100% = <b>69.8%</b>.</div><div>Round to 3 significant figures: <b>69.8 %</b></div>",
+  "explain": "<div>(44.3 ÷ 61.32) × 100% = <b>72.2%</b>.</div><div>Round to 3 significant figures: <b>72.2 %</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -16129,7 +16154,7 @@
   }
  },
  {
-  "id": "stoichiometry-dec54df8",
+  "id": "stoichiometry-fff9b61c",
   "skill": "stoichiometry.challenge",
   "courses": [
    "1A"
@@ -16139,13 +16164,13 @@
    "1B-ready"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">N<sub>2</sub></span> + 3 <span class=\"formula\">H<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NH<sub>3</sub></span></div><div><b>Nitrogen gas reacts with hydrogen gas to make ammonia.</b> Mix <span class=\"measure\">18.5 g</span> <span class=\"formula\">N<sub>2</sub></span> with <span class=\"measure\">6.82 g</span> <span class=\"formula\">H<sub>2</sub></span>. Determine the limiting reactant and the mass of excess reactant remaining.<br><br><strong>Find the leftover reactant:</strong> What mass of excess <span class=\"formula\">H<sub>2</sub></span> remains after the reaction?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">N<sub>2</sub></span></td><td>28.014</td></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">NH<sub>3</sub></span></td><td>17.031</td></tr></table>",
-  "answer": 2.83,
-  "unit": "g H2",
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">Mg</span> + <span class=\"formula\">O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">MgO</span></div><div><b>A strip of magnesium burns in oxygen.</b> What mass of <span class=\"formula\">MgO</span> forms from <span class=\"measure\">29.4 g</span> <span class=\"formula\">Mg</span>? Assume any other reactant is in excess. Then use an actual measured product amount of <span class=\"measure\">31.2 g MgO</span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">31.2 g MgO</span>. What is the percent yield?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">Mg</span></td><td>24.31</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">MgO</span></td><td>40.31</td></tr></table>",
+  "answer": 64,
+  "unit": "%",
   "tolerance": 0.005,
   "sigfigs": 3,
-  "hint": "Start with the initial mass of the excess reactant. Convert the limiting reactant into the mass of excess reactant it consumes, then subtract.",
-  "explain": "<div>Initial <span class=\"formula\">H<sub>2</sub></span>: 6.82 g. Consumed: 3.994 g. Leftover: 6.82 − 3.994 = <b>2.83 g <span class=\"formula\">H<sub>2</sub></span></b>.</div><div>Round to 3 significant figures: <b>2.83 g H<sub>2</sub></b></div>",
+  "hint": "Percent yield = actual product amount ÷ theoretical product amount × 100%. For equivalent reactant quantities, the common stoichiometric conversion cancels in the ratio.",
+  "explain": "<div>(31.2 ÷ 48.75) × 100% = <b>64.0%</b>.</div><div>Round to 3 significant figures: <b>64.0 %</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -16154,7 +16179,7 @@
   }
  },
  {
-  "id": "stoichiometry-d55a0cab",
+  "id": "stoichiometry-14d568ec",
   "skill": "stoichiometry.challenge",
   "courses": [
    "1A"
@@ -16164,13 +16189,13 @@
    "1B-ready"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">AgNO<sub>3</sub></span> + <span class=\"formula\">NaCl</span> &rarr; <span class=\"formula\">AgCl</span> + <span class=\"formula\">NaNO<sub>3</sub></span></div><div><b>Silver nitrate solution is mixed with sodium chloride solution; a precipitate forms.</b> 10.4 g <span class=\"formula\">AgNO<sub>3</sub></span> reacts with a stoichiometric amount of the other reactant. What volume of 0.612 M <span class=\"formula\">NaNO<sub>3</sub></span> solution could be prepared from the dissolved salt product? Express concentration as salt formula equivalents. Then use an actual measured product amount of <span class=\"measure\">71.5 mL solution NaNO<sub>3</sub></span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">71.5 mL solution NaNO<sub>3</sub></span>. What is the percent yield?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">AgNO<sub>3</sub></span></td><td>169.87</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr><tr><td><span class=\"formula\">AgCl</span></td><td>143.32</td></tr><tr><td><span class=\"formula\">NaNO<sub>3</sub></span></td><td>84.99</td></tr></table>",
-  "answer": 71.5,
+  "prompt": "<div class=\"eq\">2 <span class=\"formula\">H<sub>2</sub>O<sub>2</sub></span> &rarr; 2 <span class=\"formula\">H<sub>2</sub>O</span> + <span class=\"formula\">O<sub>2</sub></span></div><div><b>Hydrogen peroxide decomposes, releasing oxygen gas.</b> What mass of <span class=\"formula\">H<sub>2</sub>O</span> forms from <span class=\"measure\">11.3 g</span> <span class=\"formula\">H<sub>2</sub>O<sub>2</sub></span>? Assume any other reactant is in excess. Then use an actual measured product amount of <span class=\"measure\">4.01 g H<sub>2</sub>O</span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">4.01 g H<sub>2</sub>O</span>. What is the percent yield?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub>O<sub>2</sub></span></td><td>34.014</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr></table>",
+  "answer": 67,
   "unit": "%",
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Percent yield = actual product amount ÷ theoretical product amount × 100%. For equivalent reactant quantities, the common stoichiometric conversion cancels in the ratio.",
-  "explain": "<div>(71.5 ÷ 100.0) × 100% = <b>71.5%</b>.</div><div>Round to 3 significant figures: <b>71.5 %</b></div>",
+  "explain": "<div>(4.01 ÷ 5.985) × 100% = <b>67.0%</b>.</div><div>Round to 3 significant figures: <b>67.0 %</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -16179,7 +16204,7 @@
   }
  },
  {
-  "id": "stoichiometry-e7a3c662",
+  "id": "stoichiometry-1efa8b4c",
   "skill": "stoichiometry.challenge",
   "courses": [
    "1A"
@@ -16189,13 +16214,13 @@
    "1B-ready"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div><b>Calcium chloride solution is mixed with sodium carbonate solution; a precipitate forms.</b> What mass of <span class=\"formula\">NaCl</span> forms from <span class=\"measure\">28.5 g</span> <span class=\"formula\">CaCl<sub>2</sub></span>? Assume any other reactant is in excess. Then use an actual measured product amount of <span class=\"measure\">25.9 g NaCl</span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">25.9 g NaCl</span>. What is the percent yield?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">CaCl<sub>2</sub></span></td><td>110.98</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span></td><td>105.99</td></tr><tr><td><span class=\"formula\">CaCO<sub>3</sub></span></td><td>100.09</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr></table>",
-  "answer": 86.3,
+  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div><b>Sulfuric acid is neutralized by sodium hydroxide solution.</b> 23.8 mL of 0.524 M <span class=\"formula\">NaOH</span> reacts with a stoichiometric amount of the other reactant. After reaction, the solution is diluted to 129 mL. What is the theoretical concentration of dissolved <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span>, expressed as salt formula equivalents? Then use an actual measured product amount of <span class=\"measure\">0.0364 M Na<sub>2</sub>SO<sub>4</sub></span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">0.0364 M Na<sub>2</sub>SO<sub>4</sub></span>. What is the percent yield?</div>",
+  "answer": 75.3,
   "unit": "%",
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Percent yield = actual product amount ÷ theoretical product amount × 100%. For equivalent reactant quantities, the common stoichiometric conversion cancels in the ratio.",
-  "explain": "<div>(25.9 ÷ 30.02) × 100% = <b>86.3%</b>.</div><div>Round to 3 significant figures: <b>86.3 %</b></div>",
+  "explain": "<div>(0.0364 ÷ 0.04834) × 100% = <b>75.3%</b>.</div><div>Round to 3 significant figures: <b>75.3 %</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -16204,7 +16229,7 @@
   }
  },
  {
-  "id": "stoichiometry-327ea90b",
+  "id": "stoichiometry-5997972e",
   "skill": "stoichiometry.challenge",
   "courses": [
    "1A"
@@ -16214,13 +16239,13 @@
    "1B-ready"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div><b>Sulfuric acid is neutralized by sodium hydroxide solution.</b> What mass of <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> forms when <span class=\"measure\">37.9 mL of 0.651 M</span> <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> reacts completely? Assume the other reactant is in excess. Then use an actual measured product amount of <span class=\"measure\">2.27 g Na<sub>2</sub>SO<sub>4</sub></span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">2.27 g Na<sub>2</sub>SO<sub>4</sub></span>. What is the percent yield?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span></td><td>98.07</td></tr><tr><td><span class=\"formula\">NaOH</span></td><td>40.00</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span></td><td>142.04</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
-  "answer": 64.8,
+  "prompt": "<div class=\"eq\"><span class=\"formula\">AgNO<sub>3</sub></span> + <span class=\"formula\">NaCl</span> &rarr; <span class=\"formula\">AgCl</span> + <span class=\"formula\">NaNO<sub>3</sub></span></div><div><b>Silver nitrate solution is mixed with sodium chloride solution; a precipitate forms.</b> 6.34 g <span class=\"formula\">AgNO<sub>3</sub></span> reacts with a stoichiometric amount of the other reactant. What volume of 0.114 M <span class=\"formula\">NaNO<sub>3</sub></span> solution could be prepared from the dissolved salt product? Express concentration as salt formula equivalents. Then use an actual measured product amount of <span class=\"measure\">246 mL solution NaNO<sub>3</sub></span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">246 mL solution NaNO<sub>3</sub></span>. What is the percent yield?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">AgNO<sub>3</sub></span></td><td>169.87</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr><tr><td><span class=\"formula\">AgCl</span></td><td>143.32</td></tr><tr><td><span class=\"formula\">NaNO<sub>3</sub></span></td><td>84.99</td></tr></table>",
+  "answer": 75.1,
   "unit": "%",
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Percent yield = actual product amount ÷ theoretical product amount × 100%. For equivalent reactant quantities, the common stoichiometric conversion cancels in the ratio.",
-  "explain": "<div>(2.27 ÷ 3.505) × 100% = <b>64.8%</b>.</div><div>Round to 3 significant figures: <b>64.8 %</b></div>",
+  "explain": "<div>(246 ÷ 327.4) × 100% = <b>75.1%</b>.</div><div>Round to 3 significant figures: <b>75.1 %</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -16229,7 +16254,7 @@
   }
  },
  {
-  "id": "stoichiometry-c155a3d2",
+  "id": "stoichiometry-882b0e7c",
   "skill": "stoichiometry.challenge",
   "courses": [
    "1A"
@@ -16239,13 +16264,13 @@
    "1B-ready"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div><b>Sulfuric acid is neutralized by sodium hydroxide solution.</b> Mix <span class=\"measure\">71.7 mL of 0.335 M</span> <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> with <span class=\"measure\">54.5 mL of 0.573 M</span> <span class=\"formula\">NaOH</span>. Find the limiting reactant and the remaining concentration of excess reactant, expressed as unreacted solute formula equivalents. Assume solution volumes add.<br><br><strong>Find leftover concentration:</strong> What is the concentration of unreacted <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span>, expressed as solute formula equivalents, in the combined solution?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span></td><td>98.07</td></tr><tr><td><span class=\"formula\">NaOH</span></td><td>40.00</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span></td><td>142.04</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
-  "answer": 0.0666,
-  "unit": "M H2SO4",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">N<sub>2</sub></span> + 3 <span class=\"formula\">H<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NH<sub>3</sub></span></div><div><b>Nitrogen gas reacts with hydrogen gas to make ammonia.</b> Mix <span class=\"measure\">21.2 g</span> <span class=\"formula\">N<sub>2</sub></span> with <span class=\"measure\">2.80 g</span> <span class=\"formula\">H<sub>2</sub></span>. Determine the limiting reactant and the mass of excess reactant remaining.<br><br><strong>Find the leftover reactant:</strong> What mass of excess <span class=\"formula\">N<sub>2</sub></span> remains after the reaction?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">N<sub>2</sub></span></td><td>28.014</td></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">NH<sub>3</sub></span></td><td>17.031</td></tr></table>",
+  "answer": 8.23,
+  "unit": "g N2",
   "tolerance": 0.005,
   "sigfigs": 3,
-  "hint": "Subtract consumed moles from initial moles of the excess reactant. Divide leftover moles by the combined volume in liters.",
-  "explain": "<div>Reaction extent = 0.01561 mol. Leftover = initial moles − 1 × extent = 8.405 × 10⁻³ mol. Divide by 0.1262 L: <b>0.0666 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0666 M H<sub>2</sub>SO<sub>4</sub></b></div>",
+  "hint": "Start with the initial mass of the excess reactant. Convert the limiting reactant into the mass of excess reactant it consumes, then subtract.",
+  "explain": "<div>Initial <span class=\"formula\">N<sub>2</sub></span>: 21.2 g. Consumed: 12.97 g. Leftover: 21.2 − 12.97 = <b>8.23 g <span class=\"formula\">N<sub>2</sub></span></b>.</div><div>Round to 3 significant figures: <b>8.23 g N<sub>2</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -16254,7 +16279,7 @@
   }
  },
  {
-  "id": "stoichiometry-2022f2e5",
+  "id": "stoichiometry-b6eab4a3",
   "skill": "stoichiometry.challenge",
   "courses": [
    "1A"
@@ -16264,13 +16289,13 @@
    "1B-ready"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">AgNO<sub>3</sub></span> + <span class=\"formula\">NaCl</span> &rarr; <span class=\"formula\">AgCl</span> + <span class=\"formula\">NaNO<sub>3</sub></span></div><div><b>Silver nitrate solution is mixed with sodium chloride solution; a precipitate forms.</b> What mass of <span class=\"formula\">AgCl</span> forms when <span class=\"measure\">25.1 mL of 0.392 M</span> <span class=\"formula\">NaCl</span> reacts completely? Assume the other reactant is in excess. Then use an actual measured product amount of <span class=\"measure\">1.00 g AgCl</span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">1.00 g AgCl</span>. What is the percent yield?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">AgNO<sub>3</sub></span></td><td>169.87</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr><tr><td><span class=\"formula\">AgCl</span></td><td>143.32</td></tr><tr><td><span class=\"formula\">NaNO<sub>3</sub></span></td><td>84.99</td></tr></table>",
-  "answer": 70.9,
-  "unit": "%",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div><b>Sulfuric acid is neutralized by sodium hydroxide solution.</b> Mix <span class=\"measure\">29.9 mL of 0.206 M</span> <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> with <span class=\"measure\">33.6 mL of 0.238 M</span> <span class=\"formula\">NaOH</span>. Find the limiting reactant and the remaining concentration of excess reactant, expressed as unreacted solute formula equivalents. Assume solution volumes add.<br><br><strong>Find leftover concentration:</strong> What is the concentration of unreacted <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span>, expressed as solute formula equivalents, in the combined solution?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span></td><td>98.07</td></tr><tr><td><span class=\"formula\">NaOH</span></td><td>40.00</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span></td><td>142.04</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
+  "answer": 0.034,
+  "unit": "M H2SO4",
   "tolerance": 0.005,
   "sigfigs": 3,
-  "hint": "Percent yield = actual product amount ÷ theoretical product amount × 100%. For equivalent reactant quantities, the common stoichiometric conversion cancels in the ratio.",
-  "explain": "<div>(1.00 ÷ 1.410) × 100% = <b>70.9%</b>.</div><div>Round to 3 significant figures: <b>70.9 %</b></div>",
+  "hint": "Subtract consumed moles from initial moles of the excess reactant. Divide leftover moles by the combined volume in liters.",
+  "explain": "<div>Reaction extent = 3.998 × 10⁻³ mol. Leftover = initial moles − 1 × extent = 2.161 × 10⁻³ mol. Divide by 0.06350 L: <b>0.0340 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0340 M H<sub>2</sub>SO<sub>4</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -16279,7 +16304,7 @@
   }
  },
  {
-  "id": "stoichiometry-67aa2f36",
+  "id": "stoichiometry-c67d3eb1",
   "skill": "stoichiometry.challenge",
   "courses": [
    "1A"
@@ -16289,13 +16314,13 @@
    "1B-ready"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">HCl</span> + <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">NaCl</span> + <span class=\"formula\">H<sub>2</sub>O</span></div><div><b>Aqueous hydrochloric acid reacts with sodium hydroxide solution.</b> Mix <span class=\"measure\">26.5 mL of 0.620 M</span> <span class=\"formula\">HCl</span> with <span class=\"measure\">16.2 mL of 0.660 M</span> <span class=\"formula\">NaOH</span>. Find the limiting reactant and the remaining concentration of excess reactant, expressed as unreacted solute formula equivalents. Assume solution volumes add.<br><br><strong>Find leftover concentration:</strong> What is the concentration of unreacted <span class=\"formula\">HCl</span>, expressed as solute formula equivalents, in the combined solution?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">HCl</span></td><td>36.46</td></tr><tr><td><span class=\"formula\">NaOH</span></td><td>40.00</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
-  "answer": 0.134,
-  "unit": "M HCl",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div><b>Sulfuric acid is neutralized by sodium hydroxide solution.</b> Mix <span class=\"measure\">26.2 mL of 0.448 M</span> <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> with <span class=\"measure\">140. mL of 0.252 M</span> <span class=\"formula\">NaOH</span>. Find the limiting reactant and the remaining concentration of excess reactant, expressed as unreacted solute formula equivalents. Assume solution volumes add.<br><br><strong>Find leftover concentration:</strong> What is the concentration of unreacted <span class=\"formula\">NaOH</span>, expressed as solute formula equivalents, in the combined solution?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span></td><td>98.07</td></tr><tr><td><span class=\"formula\">NaOH</span></td><td>40.00</td></tr><tr><td><span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span></td><td>142.04</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
+  "answer": 0.071,
+  "unit": "M NaOH",
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Subtract consumed moles from initial moles of the excess reactant. Divide leftover moles by the combined volume in liters.",
-  "explain": "<div>Reaction extent = 0.01069 mol. Leftover = initial moles − 1 × extent = 5.738 × 10⁻³ mol. Divide by 0.04270 L: <b>0.134 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.134 M HCl</b></div>",
+  "explain": "<div>Reaction extent = 0.01174 mol. Leftover = initial moles − 2 × extent = 0.01180 mol. Divide by 0.1662 L: <b>0.0710 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0710 M NaOH</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -16304,7 +16329,7 @@
   }
  },
  {
-  "id": "stoichiometry-b817141b",
+  "id": "stoichiometry-5de3252e",
   "skill": "stoichiometry.challenge",
   "courses": [
    "1A"
@@ -16314,13 +16339,13 @@
    "1B-ready"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">N<sub>2</sub></span> + 3 <span class=\"formula\">H<sub>2</sub></span> &rarr; 2 <span class=\"formula\">NH<sub>3</sub></span></div><div><b>Nitrogen gas reacts with hydrogen gas to make ammonia.</b> Mix <span class=\"measure\">18.7 g</span> <span class=\"formula\">N<sub>2</sub></span> with <span class=\"measure\">2.53 g</span> <span class=\"formula\">H<sub>2</sub></span>. Determine the limiting reactant and the mass of excess reactant remaining.<br><br><strong>Find the leftover reactant:</strong> What mass of excess <span class=\"formula\">N<sub>2</sub></span> remains after the reaction?</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">N<sub>2</sub></span></td><td>28.014</td></tr><tr><td><span class=\"formula\">H<sub>2</sub></span></td><td>2.016</td></tr><tr><td><span class=\"formula\">NH<sub>3</sub></span></td><td>17.031</td></tr></table>",
-  "answer": 6.98,
-  "unit": "g N2",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">AgNO<sub>3</sub></span> + <span class=\"formula\">NaCl</span> &rarr; <span class=\"formula\">AgCl</span> + <span class=\"formula\">NaNO<sub>3</sub></span></div><div><b>Silver nitrate solution is mixed with sodium chloride solution; a precipitate forms.</b> 47.2 mL of 0.354 M <span class=\"formula\">AgNO<sub>3</sub></span> reacts with a stoichiometric amount of the other reactant. After reaction, the solution is diluted to 411 mL. What is the theoretical concentration of dissolved <span class=\"formula\">NaNO<sub>3</sub></span>, expressed as salt formula equivalents? Then use an actual measured product amount of <span class=\"measure\">0.0294 M NaNO<sub>3</sub></span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">0.0294 M NaNO<sub>3</sub></span>. What is the percent yield?</div>",
+  "answer": 72.3,
+  "unit": "%",
   "tolerance": 0.005,
   "sigfigs": 3,
-  "hint": "Start with the initial mass of the excess reactant. Convert the limiting reactant into the mass of excess reactant it consumes, then subtract.",
-  "explain": "<div>Initial <span class=\"formula\">N<sub>2</sub></span>: 18.7 g. Consumed: 11.72 g. Leftover: 18.7 − 11.72 = <b>6.98 g <span class=\"formula\">N<sub>2</sub></span></b>.</div><div>Round to 3 significant figures: <b>6.98 g N<sub>2</sub></b></div>",
+  "hint": "Percent yield = actual product amount ÷ theoretical product amount × 100%. For equivalent reactant quantities, the common stoichiometric conversion cancels in the ratio.",
+  "explain": "<div>(0.0294 ÷ 0.04065) × 100% = <b>72.3%</b>.</div><div>Round to 3 significant figures: <b>72.3 %</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",

@@ -8692,7 +8692,7 @@
   }
  },
  {
-  "id": "gaslaws-d6877975",
+  "id": "gaslaws-f24c25bc",
   "skill": "gaslaws.partial-pressure",
   "courses": [
    "3A",
@@ -8703,13 +8703,13 @@
    "1A-9"
   ],
   "type": "number",
-  "prompt": "Air is 0.93% argon by moles. What is the partial pressure of <span class=\"formula\">Ar</span> in a scuba tank at a depth where the pressure is <span class=\"measure\">3.50 atm</span>?",
-  "answer": 0.03255,
+  "prompt": "Air is 0.934% argon by moles. What is the partial pressure of <span class=\"formula\">Ar</span> in a scuba tank at a depth where the pressure is <span class=\"measure\">3.50 atm</span>?",
+  "answer": 0.03269,
   "unit": "atm",
   "tolerance": 0.01,
   "sigfigs": 3,
   "hint": "The mole percent ÷ 100 is the mole fraction. Multiply the mole fraction by the total pressure.",
-  "explain": "<ol><li><b>Mole fraction:</b> χ = 0.93/100 = <b>0.009300000000000001</b></li><li><b>Partial pressure:</b> 0.009300000000000001 × 3.50 atm = <b>0.03255 atm</b></li></ol><p>Answer: <b>0.0326 atm</b></p>",
+  "explain": "<ol><li><b>Mole fraction:</b> χ = 0.934/100 = <b>0.009340000000000001</b></li><li><b>Partial pressure:</b> 0.009340000000000001 × 3.50 atm = <b>0.03269 atm</b></li></ol><p>Answer: <b>0.0327 atm</b></p>",
   "origin": "original",
   "from": {
    "game": "gaslaws",
@@ -8886,7 +8886,7 @@
   }
  },
  {
-  "id": "gaslaws-f414a08d",
+  "id": "gaslaws-83ca08d0",
   "skill": "gaslaws.partial-pressure",
   "courses": [
    "3A"
@@ -8895,13 +8895,13 @@
    "3A-8"
   ],
   "type": "number",
-  "prompt": "Air is 0.93% argon by moles. What is the partial pressure of <span class=\"formula\">Ar</span> at sea level <span class=\"measure\">1.00 atm</span>?",
-  "answer": 0.0093,
+  "prompt": "Air is 0.934% argon by moles. What is the partial pressure of <span class=\"formula\">Ar</span> at sea level <span class=\"measure\">1.00 atm</span>?",
+  "answer": 0.00934,
   "unit": "atm",
   "tolerance": 0.01,
   "sigfigs": 3,
   "hint": "The mole percent ÷ 100 is the mole fraction. Multiply the mole fraction by the total pressure.",
-  "explain": "<ol><li><b>Mole fraction:</b> χ = 0.93/100 = <b>0.009300000000000001</b></li><li><b>Partial pressure:</b> 0.009300000000000001 × 1.00 atm = <b>0.009300 atm</b></li></ol><p>Answer: <b>0.00930 atm</b></p>",
+  "explain": "<ol><li><b>Mole fraction:</b> χ = 0.934/100 = <b>0.009340000000000001</b></li><li><b>Partial pressure:</b> 0.009340000000000001 × 1.00 atm = <b>0.009340 atm</b></li></ol><p>Answer: <b>0.00934 atm</b></p>",
   "origin": "original",
   "from": {
    "game": "gaslaws",
@@ -9008,7 +9008,7 @@
   }
  },
  {
-  "id": "gaslaws-83f0ccf5",
+  "id": "gaslaws-2ea3dfa9",
   "skill": "gaslaws.partial-pressure",
   "courses": [
    "3A"
@@ -9017,13 +9017,13 @@
    "3A-8"
   ],
   "type": "number",
-  "prompt": "Air is 0.93% argon by moles. What is the partial pressure of <span class=\"formula\">Ar</span> in Denver where the air pressure is <span class=\"measure\">630. mmHg</span>?",
-  "answer": 5.859,
+  "prompt": "Air is 0.934% argon by moles. What is the partial pressure of <span class=\"formula\">Ar</span> in Denver where the air pressure is <span class=\"measure\">630. mmHg</span>?",
+  "answer": 5.8842,
   "unit": "mmHg",
   "tolerance": 0.01,
   "sigfigs": 3,
   "hint": "The mole percent ÷ 100 is the mole fraction. Multiply the mole fraction by the total pressure.",
-  "explain": "<ol><li><b>Mole fraction:</b> χ = 0.93/100 = <b>0.009300000000000001</b></li><li><b>Partial pressure:</b> 0.009300000000000001 × 630. mmHg = <b>5.859 mmHg</b></li></ol><p>Answer: <b>5.86 mmHg</b></p>",
+  "explain": "<ol><li><b>Mole fraction:</b> χ = 0.934/100 = <b>0.009340000000000001</b></li><li><b>Partial pressure:</b> 0.009340000000000001 × 630. mmHg = <b>5.884 mmHg</b></li></ol><p>Answer: <b>5.88 mmHg</b></p>",
   "origin": "original",
   "from": {
    "game": "gaslaws",

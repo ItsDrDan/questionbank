@@ -6434,7 +6434,7 @@
   }
  },
  {
-  "id": "quantumchemistry-54d7a14d",
+  "id": "quantumchemistry-3e7718b9",
   "skill": "quantum.bohr",
   "courses": [
    "1A"
@@ -6444,7 +6444,7 @@
   ],
   "origin": "original",
   "type": "number",
-  "prompt": "A electron has mass 9.109 × 10<sup>-31</sup> kg and uncertainty in its x-direction velocity of 6.000 × 10<sup>4</sup> m/s. What is the minimum position uncertainty Δx consistent with ΔxΔpₓ ≥ h/(4π)?",
+  "prompt": "An electron has mass 9.109 × 10<sup>-31</sup> kg and uncertainty in its x-direction velocity of 6.000 × 10<sup>4</sup> m/s. What is the minimum position uncertainty Δx consistent with ΔxΔpₓ ≥ h/(4π)?",
   "hint": "Use Δpₓ = mΔvₓ and evaluate the lower bound Δx = h/(4πmΔvₓ).",
   "explain": "The minimum allowed uncertainty is h/(4πmΔvₓ) = 9.648 × 10<sup>-10</sup> m.",
   "answer": 9.64760724674222e-10,
@@ -6456,7 +6456,7 @@
   }
  },
  {
-  "id": "quantumchemistry-4f777382",
+  "id": "quantumchemistry-64328672",
   "skill": "quantum.bohr",
   "courses": [
    "1A"
@@ -6466,7 +6466,7 @@
   ],
   "origin": "original",
   "type": "number",
-  "prompt": "A electron has mass 9.109 × 10<sup>-31</sup> kg and uncertainty in its x-direction velocity of 2.000 × 10<sup>5</sup> m/s. What is the minimum position uncertainty Δx consistent with ΔxΔpₓ ≥ h/(4π)?",
+  "prompt": "An electron has mass 9.109 × 10<sup>-31</sup> kg and uncertainty in its x-direction velocity of 2.000 × 10<sup>5</sup> m/s. What is the minimum position uncertainty Δx consistent with ΔxΔpₓ ≥ h/(4π)?",
   "hint": "Use Δpₓ = mΔvₓ and evaluate the lower bound Δx = h/(4πmΔvₓ).",
   "explain": "The minimum allowed uncertainty is h/(4πmΔvₓ) = 2.894 × 10<sup>-10</sup> m.",
   "answer": 2.894282174022666e-10,
@@ -6478,7 +6478,7 @@
   }
  },
  {
-  "id": "quantumchemistry-882e9136",
+  "id": "quantumchemistry-ff4ab3e7",
   "skill": "quantum.bohr",
   "courses": [
    "1A"
@@ -6488,7 +6488,7 @@
   ],
   "origin": "original",
   "type": "number",
-  "prompt": "A electron has mass 9.109 × 10<sup>-31</sup> kg and uncertainty in its x-direction velocity of 8.000 × 10<sup>4</sup> m/s. What is the minimum position uncertainty Δx consistent with ΔxΔpₓ ≥ h/(4π)?",
+  "prompt": "An electron has mass 9.109 × 10<sup>-31</sup> kg and uncertainty in its x-direction velocity of 8.000 × 10<sup>4</sup> m/s. What is the minimum position uncertainty Δx consistent with ΔxΔpₓ ≥ h/(4π)?",
   "hint": "Use Δpₓ = mΔvₓ and evaluate the lower bound Δx = h/(4πmΔvₓ).",
   "explain": "The minimum allowed uncertainty is h/(4πmΔvₓ) = 7.236 × 10<sup>-10</sup> m.",
   "answer": 7.235705435056664e-10,
@@ -14717,7 +14717,7 @@
   "type": "mc",
   "prompt": "A period-3 element has successive ionization energies 496, 4560, 6910, 9540, 13400 kJ/mol (rounded). Identify the element from the large jump.",
   "hint": "Locate the largest jump. Count electrons removed before reaching the inner core.",
-  "explain": "The jump occurs after 1 valence electron have been removed. The period-3 element is Na.",
+  "explain": "The jump occurs after 1 valence electron has been removed. The period-3 element is Na.",
   "answer": "Na",
   "choices": [
    "Na",
