@@ -2575,26 +2575,26 @@
   "type": "mc",
   "difficulty": 3,
   "calc": true,
-  "prompt": "A 50.0 g block of aluminum (c = 0.903 J g⁻¹ °C⁻¹) at 100.0 °C is dropped into 100.0 g of water at 20.0 °C in an insulated cup. What is the final temperature?",
+  "prompt": "A 50.0 g block of aluminum (c = 0.897 J g⁻¹ °C⁻¹) at 100.0 °C is dropped into 100.0 g of water at 20.0 °C in an insulated cup. What is the final temperature?",
   "choices": [
-   "27.8 °C",
+   "27.7 °C",
    "60.0 °C",
    "46.7 °C",
-   "75.9 °C"
+   "76.0 °C"
   ],
-  "answer": "27.8 °C",
+  "answer": "27.7 °C",
   "hint": "Heat lost by the metal = heat gained by the water: m_Al c_Al(100.0 − T) = m_w c_w(T − 20.0).",
-  "explain": "(50.0)(0.903)(100.0 − T) = (100.0)(4.184)(T − 20.0) → 45.15(100.0 − T) = 418.4(T − 20.0) → T = 27.8 °C. Water's much larger specific heat keeps T close to 20 °C; 60.0 °C is a simple average.",
+  "explain": "(50.0)(0.897)(100.0 − T) = (100.0)(4.184)(T − 20.0) → 44.85(100.0 − T) = 418.4(T − 20.0) → T = 27.7 °C. Water's much larger specific heat keeps T close to 20 °C; 60.0 °C is a simple average; 46.7 °C weights by mass only and ignores the specific heats; 76.0 °C swaps the two specific heats.",
   "html": {
-   "prompt": "A 50.0 g block of aluminum (c = 0.903 J g⁻¹ °C⁻¹) at 100.0 °C is dropped into 100.0 g of water at 20.0 °C in an insulated cup. What is the final temperature?",
+   "prompt": "A 50.0 g block of aluminum (c = 0.897 J g⁻¹ °C⁻¹) at 100.0 °C is dropped into 100.0 g of water at 20.0 °C in an insulated cup. What is the final temperature?",
    "choices": [
-    "27.8 °C",
+    "27.7 °C",
     "60.0 °C",
     "46.7 °C",
-    "75.9 °C"
+    "76.0 °C"
    ],
    "hint": "Heat lost by the metal = heat gained by the water: m_Al c_Al(100.0 − T) = m_w c_w(T − 20.0).",
-   "explain": "(50.0)(0.903)(100.0 − T) = (100.0)(4.184)(T − 20.0) → 45.15(100.0 − T) = 418.4(T − 20.0) → T = <b>27.8 °C</b>. Water's much larger specific heat keeps T close to 20 °C; 60.0 °C is a simple average."
+   "explain": "(50.0)(0.897)(100.0 − T) = (100.0)(4.184)(T − 20.0) → 44.85(100.0 − T) = 418.4(T − 20.0) → T = <b>27.7 °C</b>. Water's much larger specific heat keeps T close to 20 °C; 60.0 °C is a simple average; 46.7 °C weights by mass only and ignores the specific heats; 76.0 °C swaps the two specific heats."
   },
   "from": {
    "game": "finalexam",
@@ -2622,7 +2622,7 @@
    "gold (c = 0.129 J g⁻¹ °C⁻¹)",
    "copper (c = 0.385 J g⁻¹ °C⁻¹)",
    "iron (c = 0.449 J g⁻¹ °C⁻¹)",
-   "aluminum (c = 0.903 J g⁻¹ °C⁻¹)"
+   "aluminum (c = 0.897 J g⁻¹ °C⁻¹)"
   ],
   "answer": "gold (c = 0.129 J g⁻¹ °C⁻¹)",
   "hint": "Rearrange q = mcΔT: for the same q and m, ΔT is inversely proportional to c.",
@@ -2633,7 +2633,7 @@
     "gold (c = 0.129 J g⁻¹ °C⁻¹)",
     "copper (c = 0.385 J g⁻¹ °C⁻¹)",
     "iron (c = 0.449 J g⁻¹ °C⁻¹)",
-    "aluminum (c = 0.903 J g⁻¹ °C⁻¹)"
+    "aluminum (c = 0.897 J g⁻¹ °C⁻¹)"
    ],
    "hint": "Rearrange q = mcΔT: for the same q and m, ΔT is inversely proportional to c.",
    "explain": "ΔT = q/(mc), so the <b>smallest specific heat (gold)</b> gives the largest temperature rise. Aluminum, with the largest c, warms the least."

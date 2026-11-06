@@ -4894,26 +4894,26 @@
   "type": "finalboss-mc",
   "difficulty": 2,
   "calc": true,
-  "prompt": "For the reaction shown, ΔH° = +178 kJ and ΔS° = +161 J K⁻¹. Above what temperature does the reaction become spontaneous? (Assume ΔH° and ΔS° are constant.)",
+  "prompt": "For the reaction shown, ΔH° = +191.6 kJ and ΔS° = +141.9 J K⁻¹. Above what temperature does the reaction become spontaneous? (Assume ΔH° and ΔS° are constant.)",
   "choices": [
-   "1.11×10³ K",
-   "1.11 K",
-   "8.33×10² K",
-   "0.904 K"
+   "1.35×10³ K",
+   "1.35 K",
+   "1.08×10³ K",
+   "0.741 K"
   ],
-  "answer": "1.11×10³ K",
+  "answer": "1.35×10³ K",
   "hint": "Set ΔG = 0 and solve T = ΔH/ΔS. Make the energy units match.",
-  "explain": "T = ΔH/ΔS = 178,000 J ÷ 161 J K⁻¹ = 1.11×10³ K. Leaving ΔH in kJ gives an impossibly low 1.11 K; 8.33×10² K subtracts 273 from a value that is already in kelvin.",
+  "explain": "T = ΔH/ΔS = 191,600 J ÷ 141.9 J K⁻¹ = 1.35×10³ K. Leaving ΔH in kJ gives an impossibly low 1.35 K; 1.08×10³ K subtracts 273 from a value that is already in kelvin; 0.741 K divides ΔS by ΔH (upside down) and leaves ΔH in kJ.",
   "html": {
-   "prompt": "For the reaction shown, ΔH° = +178 kJ and ΔS° = +161 J K⁻¹. Above what temperature does the reaction become spontaneous? (Assume ΔH° and ΔS° are constant.)",
+   "prompt": "For the reaction shown, ΔH° = +191.6 kJ and ΔS° = +141.9 J K⁻¹. Above what temperature does the reaction become spontaneous? (Assume ΔH° and ΔS° are constant.)",
    "choices": [
-    "1.11×10<sup>3</sup> K",
-    "1.11 K",
-    "8.33×10<sup>2</sup> K",
-    "0.904 K"
+    "1.35×10<sup>3</sup> K",
+    "1.35 K",
+    "1.08×10<sup>3</sup> K",
+    "0.741 K"
    ],
    "hint": "Set ΔG = 0 and solve T = ΔH/ΔS. Make the energy units match.",
-   "explain": "T = ΔH/ΔS = 178,000 J ÷ 161 J K⁻¹ = <b>1.11×10<sup>3</sup> K</b>. Leaving ΔH in kJ gives an impossibly low 1.11 K; 8.33×10<sup>2</sup> K subtracts 273 from a value that is already in kelvin."
+   "explain": "T = ΔH/ΔS = 191,600 J ÷ 141.9 J K⁻¹ = <b>1.35×10<sup>3</sup> K</b>. Leaving ΔH in kJ gives an impossibly low 1.35 K; 1.08×10<sup>3</sup> K subtracts 273 from a value that is already in kelvin; 0.741 K divides ΔS by ΔH (upside down) and leaves ΔH in kJ."
   },
   "data": {
    "f": [
@@ -4946,24 +4946,24 @@
   "calc": true,
   "prompt": "Calculate ΔS° for the reaction shown, using the standard molar entropies in the table.",
   "choices": [
-   "−198.7 J K⁻¹",
-   "+198.7 J K⁻¹",
-   "−129.8 J K⁻¹",
-   "+968.7 J K⁻¹"
+   "−198.1 J K⁻¹",
+   "+198.1 J K⁻¹",
+   "−129.5 J K⁻¹",
+   "+969.3 J K⁻¹"
   ],
-  "answer": "−198.7 J K⁻¹",
+  "answer": "−198.1 J K⁻¹",
   "hint": "ΔS° = ΣnS°(products) − ΣnS°(reactants). Elements do NOT have S° = 0.",
-  "explain": "ΔS° = 2(192.5) − [191.6 + 3(130.7)] = 385.0 − 583.7 = −198.7 J K⁻¹. A negative value makes sense: 4 mol gas → 2 mol gas. Ignoring coefficients gives −129.8 J K⁻¹.",
+  "explain": "ΔS° = 2(192.8) − [191.6 + 3(130.7)] = 385.6 − 583.7 = −198.1 J K⁻¹. A negative value makes sense: 4 mol gas → 2 mol gas. Ignoring coefficients gives −129.5 J K⁻¹; adding the reactant entropies instead of subtracting gives +969.3 J K⁻¹.",
   "html": {
    "prompt": "Calculate ΔS° for the reaction shown, using the standard molar entropies in the table.",
    "choices": [
-    "−198.7 J K⁻¹",
-    "+198.7 J K⁻¹",
-    "−129.8 J K⁻¹",
-    "+968.7 J K⁻¹"
+    "−198.1 J K⁻¹",
+    "+198.1 J K⁻¹",
+    "−129.5 J K⁻¹",
+    "+969.3 J K⁻¹"
    ],
    "hint": "ΔS° = ΣnS°(products) − ΣnS°(reactants). Elements do NOT have S° = 0.",
-   "explain": "ΔS° = 2(192.5) − [191.6 + 3(130.7)] = 385.0 − 583.7 = <b>−198.7 J K⁻¹</b>. A negative value makes sense: 4 mol gas → 2 mol gas. Ignoring coefficients gives −129.8 J K⁻¹."
+   "explain": "ΔS° = 2(192.8) − [191.6 + 3(130.7)] = 385.6 − 583.7 = <b>−198.1 J K⁻¹</b>. A negative value makes sense: 4 mol gas → 2 mol gas. Ignoring coefficients gives −129.5 J K⁻¹; adding the reactant entropies instead of subtracting gives +969.3 J K⁻¹."
   },
   "data": {
    "f": [
@@ -4988,7 +4988,7 @@
       ],
       [
        "NH<sub>3</sub>",
-       "192.5"
+       "192.8"
       ]
      ]
     }
@@ -5015,26 +5015,26 @@
   "type": "finalboss-mc",
   "difficulty": 2,
   "calc": true,
-  "prompt": "For the reaction shown, ΔH° = −92.2 kJ. What is ΔS_surr at 298 K?",
+  "prompt": "For the reaction shown, ΔH° = −91.8 kJ. What is ΔS_surr at 298 K?",
   "choices": [
-   "+309 J K⁻¹",
-   "−309 J K⁻¹",
-   "+0.309 J K⁻¹",
-   "−0.309 J K⁻¹"
+   "+308 J K⁻¹",
+   "−308 J K⁻¹",
+   "+0.308 J K⁻¹",
+   "−0.308 J K⁻¹"
   ],
-  "answer": "+309 J K⁻¹",
+  "answer": "+308 J K⁻¹",
   "hint": "Heat released by the system is absorbed by the surroundings: ΔS_surr = −ΔH_sys/T.",
-  "explain": "ΔS_surr = −(−92,200 J)/298 K = +309 J K⁻¹. An exothermic reaction warms the surroundings, increasing their entropy.",
+  "explain": "ΔS_surr = −(−91,800 J)/298 K = +308 J K⁻¹. An exothermic reaction warms the surroundings, increasing their entropy.",
   "html": {
-   "prompt": "For the reaction shown, ΔH° = −92.2 kJ. What is ΔS<sub>surr</sub> at 298 K?",
+   "prompt": "For the reaction shown, ΔH° = −91.8 kJ. What is ΔS<sub>surr</sub> at 298 K?",
    "choices": [
-    "+309 J K⁻¹",
-    "−309 J K⁻¹",
-    "+0.309 J K⁻¹",
-    "−0.309 J K⁻¹"
+    "+308 J K⁻¹",
+    "−308 J K⁻¹",
+    "+0.308 J K⁻¹",
+    "−0.308 J K⁻¹"
    ],
    "hint": "Heat released by the system is absorbed by the surroundings: ΔS<sub>surr</sub> = −ΔH<sub>sys</sub>/T.",
-   "explain": "ΔS<sub>surr</sub> = −(−92,200 J)/298 K = <b>+309 J K⁻¹</b>. An exothermic reaction warms the surroundings, increasing their entropy."
+   "explain": "ΔS<sub>surr</sub> = −(−91,800 J)/298 K = <b>+308 J K⁻¹</b>. An exothermic reaction warms the surroundings, increasing their entropy."
   },
   "data": {
    "f": [
@@ -5065,26 +5065,26 @@
   "type": "mc",
   "difficulty": 2,
   "calc": true,
-  "prompt": "For the Haber process, ΔH° = −92.2 kJ and ΔS° = −198.7 J K⁻¹. What is ΔG° at 298 K?",
+  "prompt": "For the Haber process, ΔH° = −91.8 kJ and ΔS° = −198.1 J K⁻¹. What is ΔG° at 298 K?",
   "choices": [
-   "−33.0 kJ",
-   "−151.4 kJ",
-   "+33.0 kJ",
-   "5.91×10⁴ kJ"
+   "−32.8 kJ",
+   "−150.8 kJ",
+   "+32.8 kJ",
+   "5.89×10⁴ kJ"
   ],
-  "answer": "−33.0 kJ",
+  "answer": "−32.8 kJ",
   "hint": "ΔG° = ΔH° − TΔS°. Convert ΔS° to kJ K⁻¹ first and watch the double negative.",
-  "explain": "ΔG° = −92.2 kJ − (298 K)(−0.1987 kJ K⁻¹) = −92.2 + 59.2 = −33.0 kJ. Not converting J to kJ gives a huge positive number.",
+  "explain": "ΔG° = −91.8 kJ − (298 K)(−0.1981 kJ K⁻¹) = −91.8 + 59.0 = −32.8 kJ. Not converting J to kJ gives a huge positive number; −150.8 kJ misses the double negative.",
   "html": {
-   "prompt": "For the Haber process, ΔH° = −92.2 kJ and ΔS° = −198.7 J K⁻¹. What is ΔG° at 298 K?",
+   "prompt": "For the Haber process, ΔH° = −91.8 kJ and ΔS° = −198.1 J K⁻¹. What is ΔG° at 298 K?",
    "choices": [
-    "−33.0 kJ",
-    "−151.4 kJ",
-    "+33.0 kJ",
-    "5.91×10<sup>4</sup> kJ"
+    "−32.8 kJ",
+    "−150.8 kJ",
+    "+32.8 kJ",
+    "5.89×10<sup>4</sup> kJ"
    ],
    "hint": "ΔG° = ΔH° − TΔS°. Convert ΔS° to kJ K⁻¹ first and watch the double negative.",
-   "explain": "ΔG° = −92.2 kJ − (298 K)(−0.1987 kJ K⁻¹) = −92.2 + 59.2 = <b>−33.0 kJ</b>. Not converting J to kJ gives a huge positive number."
+   "explain": "ΔG° = −91.8 kJ − (298 K)(−0.1981 kJ K⁻¹) = −91.8 + 59.0 = <b>−32.8 kJ</b>. Not converting J to kJ gives a huge positive number; −150.8 kJ misses the double negative."
   },
   "from": {
    "game": "finalexam",
@@ -5174,26 +5174,26 @@
   "type": "mc",
   "difficulty": 3,
   "calc": true,
-  "prompt": "ΔG° = −33.0 kJ at 298 K for a reaction. What is the equilibrium constant K? (R = 8.314 J mol⁻¹·K⁻¹)",
+  "prompt": "ΔG° = −32.8 kJ at 298 K for a reaction. What is the equilibrium constant K? (R = 8.314 J mol⁻¹·K⁻¹)",
   "choices": [
-   "6.1×10⁵",
+   "5.6×10⁵",
    "1.01",
-   "2.1×10¹³",
-   "1.6×10⁻⁶"
+   "1.7×10¹³",
+   "1.8×10⁻⁶"
   ],
-  "answer": "6.1×10⁵",
+  "answer": "5.6×10⁵",
   "hint": "Use ΔG° = −RT ln K, with ΔG° in joules.",
-  "explain": "ln K = −ΔG°/RT = 33,000/(8.314 × 298) = 13.32; K = e^13.32 = 6.1×10⁵. Negative ΔG° must give K > 1; using kJ with R in J gives K ≈ 1.",
+  "explain": "ln K = −ΔG°/RT = 32,800/(8.314 × 298) = 13.24; K = e^13.24 = 5.6×10⁵. Negative ΔG° must give K > 1; using kJ with R in J gives K ≈ 1; 10^13.24 uses 10^x instead of e^x; 1.8×10⁻⁶ drops the minus sign.",
   "html": {
-   "prompt": "ΔG° = −33.0 kJ at 298 K for a reaction. What is the equilibrium constant K? (R = 8.314 J mol⁻¹·K⁻¹)",
+   "prompt": "ΔG° = −32.8 kJ at 298 K for a reaction. What is the equilibrium constant K? (R = 8.314 J mol⁻¹·K⁻¹)",
    "choices": [
-    "6.1×10<sup>5</sup>",
+    "5.6×10<sup>5</sup>",
     "1.01",
-    "2.1×10<sup>13</sup>",
-    "1.6×10<sup>−6</sup>"
+    "1.7×10<sup>13</sup>",
+    "1.8×10<sup>−6</sup>"
    ],
    "hint": "Use ΔG° = −RT ln K, with ΔG° in joules.",
-   "explain": "ln K = −ΔG°/RT = 33,000/(8.314 × 298) = 13.32; K = e<sup>13.32</sup> = <b>6.1×10<sup>5</sup></b>. Negative ΔG° must give K > 1; using kJ with R in J gives K ≈ 1."
+   "explain": "ln K = −ΔG°/RT = 32,800/(8.314 × 298) = 13.24; K = e<sup>13.24</sup> = <b>5.6×10<sup>5</sup></b>. Negative ΔG° must give K > 1; using kJ with R in J gives K ≈ 1; 10<sup>13.24</sup> uses 10<sup>x</sup> instead of e<sup>x</sup>; 1.8×10<sup>−6</sup> drops the minus sign."
   },
   "from": {
    "game": "finalexam",
@@ -5258,26 +5258,26 @@
   "type": "finalboss-mc",
   "difficulty": 3,
   "calc": true,
-  "prompt": "For the reaction shown, ΔG° = −33.0 kJ at 298 K. What is ΔG when the partial pressures are those in the table?",
+  "prompt": "For the reaction shown, ΔG° = −32.8 kJ at 298 K. What is ΔG when the partial pressures are those in the table?",
   "choices": [
-   "−4.5 kJ",
-   "−61.5 kJ",
-   "−21.6 kJ",
+   "−4.3 kJ",
+   "−61.3 kJ",
+   "−21.4 kJ",
    "+28.5 kJ"
   ],
-  "answer": "−4.5 kJ",
+  "answer": "−4.3 kJ",
   "hint": "ΔG = ΔG° + RT ln Q. Build Q with the coefficients as exponents, and use R in kJ (0.008314 kJ mol⁻¹·K⁻¹).",
-  "explain": "Q = (10.0)²/[(1.0)(0.10)³] = 1.0×10⁵; RT ln Q = (0.008314)(298)(11.51) = 28.5 kJ; ΔG = −33.0 + 28.5 = −4.5 kJ. Ignoring the exponents in Q gives −21.6 kJ.",
+  "explain": "Q = (10.0)²/[(1.0)(0.10)³] = 1.0×10⁵; RT ln Q = (0.008314)(298)(11.51) = 28.5 kJ; ΔG = −32.8 + 28.5 = −4.3 kJ. Ignoring the exponents in Q gives −21.4 kJ; subtracting RT ln Q gives −61.3 kJ; +28.5 kJ leaves out ΔG°.",
   "html": {
-   "prompt": "For the reaction shown, ΔG° = −33.0 kJ at 298 K. What is ΔG when the partial pressures are those in the table?",
+   "prompt": "For the reaction shown, ΔG° = −32.8 kJ at 298 K. What is ΔG when the partial pressures are those in the table?",
    "choices": [
-    "−4.5 kJ",
-    "−61.5 kJ",
-    "−21.6 kJ",
+    "−4.3 kJ",
+    "−61.3 kJ",
+    "−21.4 kJ",
     "+28.5 kJ"
    ],
    "hint": "ΔG = ΔG° + RT ln Q. Build Q with the coefficients as exponents, and use R in kJ (0.008314 kJ mol⁻¹·K⁻¹).",
-   "explain": "Q = (10.0)<sup>2</sup>/[(1.0)(0.10)<sup>3</sup>] = 1.0×10<sup>5</sup>; RT ln Q = (0.008314)(298)(11.51) = 28.5 kJ; ΔG = −33.0 + 28.5 = <b>−4.5 kJ</b>. Ignoring the exponents in Q gives −21.6 kJ."
+   "explain": "Q = (10.0)<sup>2</sup>/[(1.0)(0.10)<sup>3</sup>] = 1.0×10<sup>5</sup>; RT ln Q = (0.008314)(298)(11.51) = 28.5 kJ; ΔG = −32.8 + 28.5 = <b>−4.3 kJ</b>. Ignoring the exponents in Q gives −21.4 kJ; subtracting RT ln Q gives −61.3 kJ; +28.5 kJ leaves out ΔG°."
   },
   "data": {
    "f": [
@@ -5639,26 +5639,26 @@
   "type": "finalboss-mc",
   "difficulty": 3,
   "calc": true,
-  "prompt": "For the reaction shown, ΔH° = −92.2 kJ and ΔS° = −198.7 J K⁻¹. Assuming these are independent of temperature, what is K at 500. K? (R = 8.314 J mol⁻¹·K⁻¹)",
+  "prompt": "For the reaction shown, ΔH° = −91.8 kJ and ΔS° = −198.1 J K⁻¹. Assuming these are independent of temperature, what is K at 500. K? (R = 8.314 J mol⁻¹·K⁻¹)",
   "choices": [
-   "0.18",
-   "5.6",
+   "0.17",
+   "5.7",
    "1.00",
-   "6.1×10⁵"
+   "5.6×10⁵"
   ],
-  "answer": "0.18",
+  "answer": "0.17",
   "hint": "First find ΔG° at 500 K from ΔH° − TΔS°, then use ΔG° = −RT ln K at the same T.",
-  "explain": "ΔG° = −92,200 − (500)(−198.7) = +7150 J; ln K = −7150/(8.314 × 500) = −1.720; K = 0.18. K < 1 at 500 K, unlike at 298 K, because the reaction is exothermic. 5.6 drops the sign; 1.00 leaves ΔG° in kJ with R in J.",
+  "explain": "ΔG° = −91,800 − (500)(−198.1) = +7250 J; ln K = −7250/(8.314 × 500) = −1.744; K = 0.17. K < 1 at 500 K, unlike at 298 K, because the reaction is exothermic. 5.7 drops the sign; 1.00 leaves ΔG° in kJ with R in J; 5.6×10⁵ is K at 298 K.",
   "html": {
-   "prompt": "For the reaction shown, ΔH° = −92.2 kJ and ΔS° = −198.7 J K⁻¹. Assuming these are independent of temperature, what is K at 500. K? (R = 8.314 J mol⁻¹·K⁻¹)",
+   "prompt": "For the reaction shown, ΔH° = −91.8 kJ and ΔS° = −198.1 J K⁻¹. Assuming these are independent of temperature, what is K at 500. K? (R = 8.314 J mol⁻¹·K⁻¹)",
    "choices": [
-    "0.18",
-    "5.6",
+    "0.17",
+    "5.7",
     "1.00",
-    "6.1×10<sup>5</sup>"
+    "5.6×10<sup>5</sup>"
    ],
    "hint": "First find ΔG° at 500 K from ΔH° − TΔS°, then use ΔG° = −RT ln K at the same T.",
-   "explain": "ΔG° = −92,200 − (500)(−198.7) = +7150 J; ln K = −7150/(8.314 × 500) = −1.720; K = <b>0.18</b>. K &lt; 1 at 500 K, unlike at 298 K, because the reaction is exothermic. 5.6 drops the sign; 1.00 leaves ΔG° in kJ with R in J."
+   "explain": "ΔG° = −91,800 − (500)(−198.1) = +7250 J; ln K = −7250/(8.314 × 500) = −1.744; K = <b>0.17</b>. K &lt; 1 at 500 K, unlike at 298 K, because the reaction is exothermic. 5.7 drops the sign; 1.00 leaves ΔG° in kJ with R in J; 5.6×10<sup>5</sup> is K at 298 K."
   },
   "data": {
    "f": [
@@ -8976,7 +8976,7 @@
   "choices": [
    "2 H₂O₂(l) → 2 H₂O(l) + O₂(g), ΔH° = −196 kJ",
    "N₂(g) + 3 H₂(g) → 2 NH₃(g), ΔH° = −92 kJ",
-   "CaCO₃(s) → CaO(s) + CO₂(g), ΔH° = +178 kJ",
+   "CaCO₃(s) → CaO(s) + CO₂(g), ΔH° = +192 kJ",
    "3 O₂(g) → 2 O₃(g), ΔH° = +285 kJ"
   ],
   "answer": "2 H₂O₂(l) → 2 H₂O(l) + O₂(g), ΔH° = −196 kJ",
@@ -8987,7 +8987,7 @@
    "choices": [
     "2 H<sub>2</sub>O<sub>2</sub>(l) → 2 H<sub>2</sub>O(l) + O<sub>2</sub>(g), ΔH° = −196 kJ",
     "N<sub>2</sub>(g) + 3 H<sub>2</sub>(g) → 2 NH<sub>3</sub>(g), ΔH° = −92 kJ",
-    "CaCO<sub>3</sub>(s) → CaO(s) + CO<sub>2</sub>(g), ΔH° = +178 kJ",
+    "CaCO<sub>3</sub>(s) → CaO(s) + CO<sub>2</sub>(g), ΔH° = +192 kJ",
     "3 O<sub>2</sub>(g) → 2 O<sub>3</sub>(g), ΔH° = +285 kJ"
    ],
    "hint": "ΔG° = ΔH° − TΔS° is negative at every T only if ΔH° &lt; 0 and ΔS° &gt; 0. Count moles of gas.",
@@ -11844,24 +11844,24 @@
   "calc": true,
   "prompt": "Calculate ΔS° for the reaction in a hydrogen fuel cell, shown below, using the standard molar entropies in the table.",
   "choices": [
-   "−326.8 J K⁻¹",
-   "+326.8 J K⁻¹",
-   "−266.0 J K⁻¹",
-   "−163.4 J K⁻¹"
+   "−326.6 J K⁻¹",
+   "+326.6 J K⁻¹",
+   "−265.9 J K⁻¹",
+   "−163.3 J K⁻¹"
   ],
-  "answer": "−326.8 J K⁻¹",
+  "answer": "−326.6 J K⁻¹",
   "hint": "ΣnS°(products) − ΣnS°(reactants). Elements do NOT have S° = 0.",
-  "explain": "2(69.9) − [2(130.7) + 205.2] = 139.8 − 466.6 = −326.8 J K⁻¹. Negative makes sense: 3 mol gas become liquid. −266.0 J K⁻¹ ignores the coefficients.",
+  "explain": "2(70.0) − [2(130.7) + 205.2] = 140.0 − 466.6 = −326.6 J K⁻¹. Negative makes sense: 3 mol gas become liquid. −265.9 J K⁻¹ ignores the coefficients; −163.3 J K⁻¹ is half the answer (per mole of H₂O).",
   "html": {
    "prompt": "Calculate ΔS° for the reaction in a hydrogen fuel cell, shown below, using the standard molar entropies in the table.",
    "choices": [
-    "−326.8 J K⁻¹",
-    "+326.8 J K⁻¹",
-    "−266.0 J K⁻¹",
-    "−163.4 J K⁻¹"
+    "−326.6 J K⁻¹",
+    "+326.6 J K⁻¹",
+    "−265.9 J K⁻¹",
+    "−163.3 J K⁻¹"
    ],
    "hint": "ΣnS°(products) − ΣnS°(reactants). Elements do NOT have S° = 0.",
-   "explain": "2(69.9) − [2(130.7) + 205.2] = 139.8 − 466.6 = <b>−326.8 J K⁻¹</b>. Negative makes sense: 3 mol gas become liquid. −266.0 J K⁻¹ ignores the coefficients."
+   "explain": "2(70.0) − [2(130.7) + 205.2] = 140.0 − 466.6 = <b>−326.6 J K⁻¹</b>. Negative makes sense: 3 mol gas become liquid. −265.9 J K⁻¹ ignores the coefficients; −163.3 J K⁻¹ is half the answer (per mole of H<sub>2</sub>O)."
   },
   "data": {
    "f": [
@@ -11886,7 +11886,7 @@
       ],
       [
        "H<sub>2</sub>O(l)",
-       "69.9"
+       "70.0"
       ]
      ]
     }
@@ -24248,39 +24248,39 @@
        "pts": [
         [
          0,
-         -92.2
+         -91.8
         ],
         [
          100,
-         -72.33
+         -71.99
         ],
         [
          200,
-         -52.46
+         -52.18
         ],
         [
          300,
-         -32.59
+         -32.37
         ],
         [
          400,
-         -12.72
+         -12.56
         ],
         [
          500,
-         7.15
+         7.25
         ],
         [
          600,
-         27.02
+         27.06
         ],
         [
          700,
-         46.89
+         46.87
         ],
         [
          800,
-         66.76
+         66.68
         ]
        ]
       }
@@ -40986,24 +40986,24 @@
   "calc": true,
   "prompt": "Using the data in the table, what is ΔG° at 298 K for the decomposition of limestone shown, and is the reaction spontaneous under standard conditions at this temperature?",
   "choices": [
-   "+130.4 kJ; not spontaneous",
-   "−47,710 kJ; spontaneous",
-   "+226.2 kJ; not spontaneous",
-   "+178.3 kJ; not spontaneous"
+   "+149.3 kJ; not spontaneous",
+   "−42,090 kJ; spontaneous",
+   "+233.9 kJ; not spontaneous",
+   "+191.6 kJ; not spontaneous"
   ],
-  "answer": "+130.4 kJ; not spontaneous",
+  "answer": "+149.3 kJ; not spontaneous",
   "hint": "ΔH° and ΔS° both come from products minus reactants. Convert ΔS° to kJ K⁻¹ before using ΔG° = ΔH° − TΔS°.",
-  "explain": "ΔH° = [(−635.1) + (−393.5)] − (−1206.9) = +178.3 kJ; ΔS° = (39.8 + 213.8) − 92.9 = +160.7 J K⁻¹ = 0.1607 kJ K⁻¹. ΔG° = 178.3 − (298)(0.1607) = +130.4 kJ, so the reaction is not spontaneous at 298 K (it needs about 1100 K). −47,710 kJ forgets to convert J to kJ; +226.2 kJ adds TΔS° instead of subtracting.",
+  "explain": "ΔH° = [(−634.9) + (−393.51)] − (−1220.0) = +191.6 kJ; ΔS° = (38.1 + 213.8) − 110.0 = +141.9 J K⁻¹ = 0.1419 kJ K⁻¹. ΔG° = 191.6 − (298)(0.1419) = +149.3 kJ, so the reaction is not spontaneous at 298 K (it needs about 1350 K). −42,090 kJ forgets to convert J to kJ; +233.9 kJ adds TΔS° instead of subtracting; +191.6 kJ is ΔH° alone, leaving out the TΔS° term.",
   "html": {
    "prompt": "Using the data in the table, what is ΔG° at 298 K for the decomposition of limestone shown, and is the reaction spontaneous under standard conditions at this temperature?",
    "choices": [
-    "+130.4 kJ; not spontaneous",
-    "−47,710 kJ; spontaneous",
-    "+226.2 kJ; not spontaneous",
-    "+178.3 kJ; not spontaneous"
+    "+149.3 kJ; not spontaneous",
+    "−42,090 kJ; spontaneous",
+    "+233.9 kJ; not spontaneous",
+    "+191.6 kJ; not spontaneous"
    ],
    "hint": "ΔH° and ΔS° both come from products minus reactants. Convert ΔS° to kJ K<sup>−1</sup> before using ΔG° = ΔH° − TΔS°.",
-   "explain": "ΔH° = [(−635.1) + (−393.5)] − (−1206.9) = +178.3 kJ; ΔS° = (39.8 + 213.8) − 92.9 = +160.7 J K<sup>−1</sup> = 0.1607 kJ K<sup>−1</sup>. ΔG° = 178.3 − (298)(0.1607) = <b>+130.4 kJ</b>, so the reaction is <b>not spontaneous</b> at 298 K (it needs about 1100 K). −47,710 kJ forgets to convert J to kJ; +226.2 kJ adds TΔS° instead of subtracting."
+   "explain": "ΔH° = [(−634.9) + (−393.51)] − (−1220.0) = +191.6 kJ; ΔS° = (38.1 + 213.8) − 110.0 = +141.9 J K<sup>−1</sup> = 0.1419 kJ K<sup>−1</sup>. ΔG° = 191.6 − (298)(0.1419) = <b>+149.3 kJ</b>, so the reaction is <b>not spontaneous</b> at 298 K (it needs about 1350 K). −42,090 kJ forgets to convert J to kJ; +233.9 kJ adds TΔS° instead of subtracting; +191.6 kJ is ΔH° alone, leaving out the TΔS° term."
   },
   "data": {
    "f": [
@@ -41021,17 +41021,17 @@
      "rows": [
       [
        "CaCO<sub>3</sub>(s)",
-       "−1206.9",
-       "92.9"
+       "−1220.0",
+       "110.0"
       ],
       [
        "CaO(s)",
-       "−635.1",
-       "39.8"
+       "−634.9",
+       "38.1"
       ],
       [
        "CO<sub>2</sub>(g)",
-       "−393.5",
+       "−393.51",
        "213.8"
       ]
      ]
