@@ -3005,24 +3005,24 @@
   "calc": true,
   "prompt": "Calculate ΔH° for the reaction shown, using the standard enthalpies of formation in the table.",
   "choices": [
-   "−890.3 kJ",
-   "−604.5 kJ",
-   "−1039.9 kJ",
-   "+890.3 kJ"
+   "−890.5 kJ",
+   "−604.7 kJ",
+   "−1039.7 kJ",
+   "+890.5 kJ"
   ],
-  "answer": "−890.3 kJ",
+  "answer": "−890.5 kJ",
   "hint": "ΔH° = Σ n ΔH°f(products) − Σ n ΔH°f(reactants). O₂ is an element in its standard state.",
-  "explain": "[−393.5 + 2(−285.8)] − [−74.8 + 0] = −965.1 + 74.8 = −890.3 kJ. Forgetting the 2 on water gives −604.5 kJ.",
+  "explain": "[−393.5 + 2(−285.8)] − [−74.6 + 0] = −965.1 + 74.6 = −890.5 kJ. Forgetting the 2 on water gives −604.7 kJ.",
   "html": {
    "prompt": "Calculate ΔH° for the reaction shown, using the standard enthalpies of formation in the table.",
    "choices": [
-    "−890.3 kJ",
-    "−604.5 kJ",
-    "−1039.9 kJ",
-    "+890.3 kJ"
+    "−890.5 kJ",
+    "−604.7 kJ",
+    "−1039.7 kJ",
+    "+890.5 kJ"
    ],
    "hint": "ΔH° = Σ n ΔH°f(products) − Σ n ΔH°f(reactants). O₂ is an element in its standard state.",
-   "explain": "[−393.5 + 2(−285.8)] − [−74.8 + 0] = −965.1 + 74.8 = <b>−890.3 kJ</b>. Forgetting the 2 on water gives −604.5 kJ."
+   "explain": "[−393.5 + 2(−285.8)] − [−74.6 + 0] = −965.1 + 74.6 = <b>−890.5 kJ</b>. Forgetting the 2 on water gives −604.7 kJ."
   },
   "data": {
    "f": [
@@ -3039,7 +3039,7 @@
      "rows": [
       [
        "CH<sub>4</sub>(g)",
-       "−74.8"
+       "−74.6"
       ],
       [
        "CO<sub>2</sub>(g)",
@@ -6092,7 +6092,7 @@
   "type": "mc",
   "difficulty": 3,
   "calc": true,
-  "prompt": "What is the root-mean-square speed of N₂ molecules at 25 °C? (u_rms = √(3RT/M), R = 8.314 J mol⁻¹·K)",
+  "prompt": "What is the root-mean-square speed of N₂ molecules at 25 °C? (u_rms = √(3RT/M), R = 8.314 J mol⁻¹·K⁻¹)",
   "choices": [
    "515 m s⁻¹",
    "16.3 m s⁻¹",
@@ -6103,7 +6103,7 @@
   "hint": "Use R = 8.314 J mol⁻¹ K⁻¹, T in kelvin, and M in kg mol⁻¹ so the units become m s⁻¹.",
   "explain": "u = √[3(8.314)(298.15) ÷ 0.02802 kg mol⁻¹] = 515 m s⁻¹. Using M = 28.02 g mol⁻¹ gives 16.3 m s⁻¹ because J = kg·m²/s² needs kg. 297 m s⁻¹ leaves the 3 out of 3RT/M; 149 m s⁻¹ uses 25 instead of 298 K.",
   "html": {
-   "prompt": "What is the root-mean-square speed of N<sub>2</sub> molecules at 25 °C? (u<sub>rms</sub> = √(3RT/M), R = 8.314 J mol⁻¹·K)",
+   "prompt": "What is the root-mean-square speed of N<sub>2</sub> molecules at 25 °C? (u<sub>rms</sub> = √(3RT/M), R = 8.314 J mol⁻¹·K⁻¹)",
    "choices": [
     "515 m s⁻¹",
     "16.3 m s⁻¹",
@@ -7621,22 +7621,22 @@
   "choices": [
    "18.50%",
    "6.168%",
-   "42.27%",
+   "42.26%",
    "14.29%"
   ],
   "answer": "18.50%",
   "hint": "Mass % = (mass of that element in one mole ÷ molar mass) × 100. Count every N atom in the formula.",
-  "explain": "Mass of N per mole = 3 × 14.01 = 42.03 g; 42.03 / 227.14 × 100 = 18.50%. 6.168% counts only one N atom; 14.29% is the fraction of ATOMS that are N (3 of 21), not the fraction of mass; 42.27% is the oxygen percentage.",
+  "explain": "Mass of N per mole = 3 × 14.01 = 42.03 g; 42.03 / 227.14 × 100 = 18.50%. 6.168% counts only one N atom; 14.29% is the fraction of ATOMS that are N (3 of 21), not the fraction of mass; 42.26% is the oxygen percentage.",
   "html": {
    "prompt": "An explosives lab reports the nitrogen content of TNT, C<sub>7</sub>H<sub>5</sub>N<sub>3</sub>O<sub>6</sub> (227.14 g mol⁻¹). What percent of TNT's mass is nitrogen?",
    "choices": [
     "18.50%",
     "6.168%",
-    "42.27%",
+    "42.26%",
     "14.29%"
    ],
    "hint": "Mass % = (mass of that element in one mole ÷ molar mass) × 100. Count every N atom in the formula.",
-   "explain": "Mass of N per mole = 3 × 14.01 = 42.03 g; 42.03 / 227.14 × 100 = <b>18.50%</b>. 6.168% counts only one N atom; 14.29% is the fraction of ATOMS that are N (3 of 21), not the fraction of mass; 42.27% is the oxygen percentage."
+   "explain": "Mass of N per mole = 3 × 14.01 = 42.03 g; 42.03 / 227.14 × 100 = <b>18.50%</b>. 6.168% counts only one N atom; 14.29% is the fraction of ATOMS that are N (3 of 21), not the fraction of mass; 42.26% is the oxygen percentage."
   },
   "from": {
    "game": "finalexam",

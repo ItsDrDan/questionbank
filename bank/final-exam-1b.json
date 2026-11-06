@@ -574,7 +574,7 @@
   "type": "mc",
   "difficulty": 2,
   "calc": true,
-  "prompt": "The rate constant of a reaction doubles when the temperature is raised from 25 °C to 35 °C. What is the activation energy? (R = 8.314 J mol⁻¹·K)",
+  "prompt": "The rate constant of a reaction doubles when the temperature is raised from 25 °C to 35 °C. What is the activation energy? (R = 8.314 J mol⁻¹·K⁻¹)",
   "choices": [
    "52.9 kJ mol⁻¹",
    "0.504 kJ mol⁻¹",
@@ -585,7 +585,7 @@
   "hint": "Use the two-point Arrhenius equation, ln(k₂/k₁) = (E_a/R)(1/T₁ − 1/T₂), with temperatures in kelvin.",
   "explain": "ln 2 = (E_a/8.314)(1/298.15 − 1/308.15) → E_a = 52946 J mol⁻¹ = 52.9 kJ mol⁻¹. Using °C instead of K gives the tiny 0.504 kJ mol⁻¹; using log instead of ln gives 23.0 kJ mol⁻¹.",
   "html": {
-   "prompt": "The rate constant of a reaction doubles when the temperature is raised from 25 °C to 35 °C. What is the activation energy? (R = 8.314 J mol⁻¹·K)",
+   "prompt": "The rate constant of a reaction doubles when the temperature is raised from 25 °C to 35 °C. What is the activation energy? (R = 8.314 J mol⁻¹·K⁻¹)",
    "choices": [
     "52.9 kJ mol⁻¹",
     "0.504 kJ mol⁻¹",
@@ -616,7 +616,7 @@
   "type": "mc",
   "difficulty": 3,
   "calc": true,
-  "prompt": "A reaction has E_a = 75.0 kJ mol⁻¹ and k = 2.4×10⁻⁴ s⁻¹ at 300. K. What is k at 330. K? (R = 8.314 J mol⁻¹·K)",
+  "prompt": "A reaction has E_a = 75.0 kJ mol⁻¹ and k = 2.4×10⁻⁴ s⁻¹ at 300. K. What is k at 330. K? (R = 8.314 J mol⁻¹·K⁻¹)",
   "choices": [
    "3.7×10⁻³ s⁻¹",
    "1.6×10⁻⁵ s⁻¹",
@@ -627,7 +627,7 @@
   "hint": "Two-point Arrhenius: ln(k₂/k₁) = (E_a/R)(1/T₁ − 1/T₂). A higher T must give a larger k.",
   "explain": "ln(k₂/k₁) = (75,000/8.314)(1/300 − 1/330) = 2.734, so k₂/k₁ = 15.4 and k₂ = 3.7×10⁻³ s⁻¹. A smaller k at higher T signals a sign error.",
   "html": {
-   "prompt": "A reaction has E<sub>a</sub> = 75.0 kJ mol⁻¹ and k = 2.4×10<sup>−4</sup> s<sup>−1</sup> at 300. K. What is k at 330. K? (R = 8.314 J mol⁻¹·K)",
+   "prompt": "A reaction has E<sub>a</sub> = 75.0 kJ mol⁻¹ and k = 2.4×10<sup>−4</sup> s<sup>−1</sup> at 300. K. What is k at 330. K? (R = 8.314 J mol⁻¹·K⁻¹)",
    "choices": [
     "3.7×10<sup>−3</sup> s<sup>−1</sup>",
     "1.6×10<sup>−5</sup> s<sup>−1</sup>",
@@ -866,7 +866,7 @@
   "type": "mc",
   "difficulty": 2,
   "calc": true,
-  "prompt": "A plot of ln k versus 1/T for a reaction is a straight line with slope −6.0×10³ K. What is the activation energy? (R = 8.314 J mol⁻¹·K)",
+  "prompt": "A plot of ln k versus 1/T for a reaction is a straight line with slope −6.0×10³ K. What is the activation energy? (R = 8.314 J mol⁻¹·K⁻¹)",
   "choices": [
    "50 kJ mol⁻¹",
    "0.72 kJ mol⁻¹",
@@ -875,9 +875,9 @@
   ],
   "answer": "50 kJ mol⁻¹",
   "hint": "Write ln k = −(E_a/R)(1/T) + ln A and match it to y = mx + b.",
-  "explain": "Slope = −E_a/R, so E_a = (6.0×10³ K)(8.314 J mol⁻¹·K) = 49884 J mol⁻¹ = 50 kJ mol⁻¹. Dividing by R instead of multiplying gives 0.72 kJ mol⁻¹.",
+  "explain": "Slope = −E_a/R, so E_a = (6.0×10³ K)(8.314 J mol⁻¹·K⁻¹) = 49884 J mol⁻¹ = 50 kJ mol⁻¹. Dividing by R instead of multiplying gives 0.72 kJ mol⁻¹.",
   "html": {
-   "prompt": "A plot of ln <i>k</i> versus 1/<i>T</i> for a reaction is a straight line with slope −6.0×10<sup>3</sup> K. What is the activation energy? (R = 8.314 J mol⁻¹·K)",
+   "prompt": "A plot of ln <i>k</i> versus 1/<i>T</i> for a reaction is a straight line with slope −6.0×10<sup>3</sup> K. What is the activation energy? (R = 8.314 J mol⁻¹·K⁻¹)",
    "choices": [
     "50 kJ mol⁻¹",
     "0.72 kJ mol⁻¹",
@@ -885,7 +885,7 @@
     "0.49 kJ mol⁻¹"
    ],
    "hint": "Write ln k = −(E<sub>a</sub>/R)(1/T) + ln A and match it to y = mx + b.",
-   "explain": "Slope = −E<sub>a</sub>/R, so E<sub>a</sub> = (6.0×10<sup>3</sup> K)(8.314 J mol⁻¹·K) = 49884 J mol⁻¹ = <b>50 kJ mol⁻¹</b>. Dividing by R instead of multiplying gives 0.72 kJ mol⁻¹."
+   "explain": "Slope = −E<sub>a</sub>/R, so E<sub>a</sub> = (6.0×10<sup>3</sup> K)(8.314 J mol⁻¹·K⁻¹) = 49884 J mol⁻¹ = <b>50 kJ mol⁻¹</b>. Dividing by R instead of multiplying gives 0.72 kJ mol⁻¹."
   },
   "from": {
    "game": "finalexam",
@@ -5174,7 +5174,7 @@
   "type": "mc",
   "difficulty": 3,
   "calc": true,
-  "prompt": "ΔG° = −33.0 kJ at 298 K for a reaction. What is the equilibrium constant K? (R = 8.314 J mol⁻¹·K)",
+  "prompt": "ΔG° = −33.0 kJ at 298 K for a reaction. What is the equilibrium constant K? (R = 8.314 J mol⁻¹·K⁻¹)",
   "choices": [
    "6.1×10⁵",
    "1.01",
@@ -5185,7 +5185,7 @@
   "hint": "Use ΔG° = −RT ln K, with ΔG° in joules.",
   "explain": "ln K = −ΔG°/RT = 33,000/(8.314 × 298) = 13.32; K = e^13.32 = 6.1×10⁵. Negative ΔG° must give K > 1; using kJ with R in J gives K ≈ 1.",
   "html": {
-   "prompt": "ΔG° = −33.0 kJ at 298 K for a reaction. What is the equilibrium constant K? (R = 8.314 J mol⁻¹·K)",
+   "prompt": "ΔG° = −33.0 kJ at 298 K for a reaction. What is the equilibrium constant K? (R = 8.314 J mol⁻¹·K⁻¹)",
    "choices": [
     "6.1×10<sup>5</sup>",
     "1.01",
@@ -5216,7 +5216,7 @@
   "type": "mc",
   "difficulty": 2,
   "calc": true,
-  "prompt": "K_a for acetic acid is 1.8×10⁻⁵ at 25 °C. What is ΔG° for its ionization at 298 K? (R = 8.314 J mol⁻¹·K)",
+  "prompt": "K_a for acetic acid is 1.8×10⁻⁵ at 25 °C. What is ΔG° for its ionization at 298 K? (R = 8.314 J mol⁻¹·K⁻¹)",
   "choices": [
    "+27.1 kJ",
    "−27.1 kJ",
@@ -5227,7 +5227,7 @@
   "hint": "ΔG° = −RT ln K. A K smaller than 1 should give what sign?",
   "explain": "ΔG° = −(8.314)(298)ln(1.8×10⁻⁵) = +27068 J = +27.1 kJ. Using log instead of ln gives +11.8 kJ.",
   "html": {
-   "prompt": "K<sub>a</sub> for acetic acid is 1.8×10<sup>−5</sup> at 25 °C. What is ΔG° for its ionization at 298 K? (R = 8.314 J mol⁻¹·K)",
+   "prompt": "K<sub>a</sub> for acetic acid is 1.8×10<sup>−5</sup> at 25 °C. What is ΔG° for its ionization at 298 K? (R = 8.314 J mol⁻¹·K⁻¹)",
    "choices": [
     "+27.1 kJ",
     "−27.1 kJ",
@@ -5266,7 +5266,7 @@
    "+28.5 kJ"
   ],
   "answer": "−4.5 kJ",
-  "hint": "ΔG = ΔG° + RT ln Q. Build Q with the coefficients as exponents, and use R in kJ (0.008314 kJ mol⁻¹·K).",
+  "hint": "ΔG = ΔG° + RT ln Q. Build Q with the coefficients as exponents, and use R in kJ (0.008314 kJ mol⁻¹·K⁻¹).",
   "explain": "Q = (10.0)²/[(1.0)(0.10)³] = 1.0×10⁵; RT ln Q = (0.008314)(298)(11.51) = 28.5 kJ; ΔG = −33.0 + 28.5 = −4.5 kJ. Ignoring the exponents in Q gives −21.6 kJ.",
   "html": {
    "prompt": "For the reaction shown, ΔG° = −33.0 kJ at 298 K. What is ΔG when the partial pressures are those in the table?",
@@ -5276,7 +5276,7 @@
     "−21.6 kJ",
     "+28.5 kJ"
    ],
-   "hint": "ΔG = ΔG° + RT ln Q. Build Q with the coefficients as exponents, and use R in kJ (0.008314 kJ mol⁻¹·K).",
+   "hint": "ΔG = ΔG° + RT ln Q. Build Q with the coefficients as exponents, and use R in kJ (0.008314 kJ mol⁻¹·K⁻¹).",
    "explain": "Q = (10.0)<sup>2</sup>/[(1.0)(0.10)<sup>3</sup>] = 1.0×10<sup>5</sup>; RT ln Q = (0.008314)(298)(11.51) = 28.5 kJ; ΔG = −33.0 + 28.5 = <b>−4.5 kJ</b>. Ignoring the exponents in Q gives −21.6 kJ."
   },
   "data": {
@@ -5639,7 +5639,7 @@
   "type": "finalboss-mc",
   "difficulty": 3,
   "calc": true,
-  "prompt": "For the reaction shown, ΔH° = −92.2 kJ and ΔS° = −198.7 J K⁻¹. Assuming these are independent of temperature, what is K at 500. K? (R = 8.314 J mol⁻¹·K)",
+  "prompt": "For the reaction shown, ΔH° = −92.2 kJ and ΔS° = −198.7 J K⁻¹. Assuming these are independent of temperature, what is K at 500. K? (R = 8.314 J mol⁻¹·K⁻¹)",
   "choices": [
    "0.18",
    "5.6",
@@ -5650,7 +5650,7 @@
   "hint": "First find ΔG° at 500 K from ΔH° − TΔS°, then use ΔG° = −RT ln K at the same T.",
   "explain": "ΔG° = −92,200 − (500)(−198.7) = +7150 J; ln K = −7150/(8.314 × 500) = −1.720; K = 0.18. K < 1 at 500 K, unlike at 298 K, because the reaction is exothermic. 5.6 drops the sign; 1.00 leaves ΔG° in kJ with R in J.",
   "html": {
-   "prompt": "For the reaction shown, ΔH° = −92.2 kJ and ΔS° = −198.7 J K⁻¹. Assuming these are independent of temperature, what is K at 500. K? (R = 8.314 J mol⁻¹·K)",
+   "prompt": "For the reaction shown, ΔH° = −92.2 kJ and ΔS° = −198.7 J K⁻¹. Assuming these are independent of temperature, what is K at 500. K? (R = 8.314 J mol⁻¹·K⁻¹)",
    "choices": [
     "0.18",
     "5.6",
@@ -8801,7 +8801,7 @@
   ],
   "answer": "Hg(l) < CH₃OH(l) < CH₄(g) < C₂H₆(g)",
   "hint": "Phase matters most (gas ≫ liquid). Within a phase, more atoms per molecule means more ways to move.",
-  "explain": "Liquids are lower than gases. Among the liquids, a single Hg atom has fewer motions than six-atom CH₃OH; among the gases, C₂H₆ has more atoms than CH₄. So Hg(l) (about 76, 127, 186, 230 J mol⁻¹·K).",
+  "explain": "Liquids are lower than gases. Among the liquids, a single Hg atom has fewer motions than six-atom CH₃OH; among the gases, C₂H₆ has more atoms than CH₄. So Hg(l) (about 76, 127, 186, 230 J mol⁻¹·K⁻¹).",
   "html": {
    "prompt": "Arrange these substances in order of INCREASING standard molar entropy at 25 °C: CH<sub>4</sub>(g), Hg(l), C<sub>2</sub>H<sub>6</sub>(g), CH<sub>3</sub>OH(l).",
    "choices": [
@@ -8811,7 +8811,7 @@
     "Hg(l) &lt; CH<sub>4</sub>(g) &lt; CH<sub>3</sub>OH(l) &lt; C<sub>2</sub>H<sub>6</sub>(g)"
    ],
    "hint": "Phase matters most (gas ≫ liquid). Within a phase, more atoms per molecule means more ways to move.",
-   "explain": "Liquids are lower than gases. Among the liquids, a single Hg atom has fewer motions than six-atom CH<sub>3</sub>OH; among the gases, C<sub>2</sub>H<sub>6</sub> has more atoms than CH<sub>4</sub>. So <b>Hg(l) &lt; CH<sub>3</sub>OH(l) &lt; CH<sub>4</sub>(g) &lt; C<sub>2</sub>H<sub>6</sub>(g)</b> (about 76, 127, 186, 230 J mol⁻¹·K)."
+   "explain": "Liquids are lower than gases. Among the liquids, a single Hg atom has fewer motions than six-atom CH<sub>3</sub>OH; among the gases, C<sub>2</sub>H<sub>6</sub> has more atoms than CH<sub>4</sub>. So <b>Hg(l) &lt; CH<sub>3</sub>OH(l) &lt; CH<sub>4</sub>(g) &lt; C<sub>2</sub>H<sub>6</sub>(g)</b> (about 76, 127, 186, 230 J mol⁻¹·K⁻¹)."
   },
   "from": {
    "game": "finalexam",
@@ -11773,24 +11773,24 @@
   "calc": true,
   "prompt": "The first step in making nitric acid is the reaction shown. Using the ΔH°_f values in the table, what is ΔH°_rxn?",
   "choices": [
-   "−905.2 kJ",
-   "−105.4 kJ",
-   "−1274.0 kJ",
-   "+905.2 kJ"
+   "−906.0 kJ",
+   "−105.6 kJ",
+   "−1273.2 kJ",
+   "+906.0 kJ"
   ],
-  "answer": "−905.2 kJ",
+  "answer": "−906.0 kJ",
   "hint": "ΔH°_rxn = ΣnΔH°_f(products) − ΣnΔH°_f(reactants); O₂(g) is 0.",
-  "explain": "Products: 4(90.3) + 6(−241.8) = −1089.6 kJ. Reactants: 4(−46.1) = −184.4 kJ. ΔH° = −1089.6 − (−184.4) = −905.2 kJ. −105.4 kJ forgets the coefficients; −1274.0 kJ adds the reactant term instead of subtracting it.",
+  "explain": "Products: 4(90.3) + 6(−241.8) = −1089.6 kJ. Reactants: 4(−45.9) = −183.6 kJ. ΔH° = −1089.6 − (−183.6) = −906.0 kJ. −105.6 kJ forgets the coefficients; −1273.2 kJ adds the reactant term instead of subtracting it.",
   "html": {
    "prompt": "The first step in making nitric acid is the reaction shown. Using the ΔH°<sub>f</sub> values in the table, what is ΔH°<sub>rxn</sub>?",
    "choices": [
-    "−905.2 kJ",
-    "−105.4 kJ",
-    "−1274.0 kJ",
-    "+905.2 kJ"
+    "−906.0 kJ",
+    "−105.6 kJ",
+    "−1273.2 kJ",
+    "+906.0 kJ"
    ],
    "hint": "ΔH°<sub>rxn</sub> = ΣnΔH°<sub>f</sub>(products) − ΣnΔH°<sub>f</sub>(reactants); O<sub>2</sub>(g) is 0.",
-   "explain": "Products: 4(90.3) + 6(−241.8) = −1089.6 kJ. Reactants: 4(−46.1) = −184.4 kJ. ΔH° = −1089.6 − (−184.4) = <b>−905.2 kJ</b>. −105.4 kJ forgets the coefficients; −1274.0 kJ adds the reactant term instead of subtracting it."
+   "explain": "Products: 4(90.3) + 6(−241.8) = −1089.6 kJ. Reactants: 4(−45.9) = −183.6 kJ. ΔH° = −1089.6 − (−183.6) = <b>−906.0 kJ</b>. −105.6 kJ forgets the coefficients; −1273.2 kJ adds the reactant term instead of subtracting it."
   },
   "data": {
    "f": [
@@ -11807,7 +11807,7 @@
      "rows": [
       [
        "NH<sub>3</sub>(g)",
-       "−46.1"
+       "−45.9"
       ],
       [
        "NO(g)",
@@ -11922,7 +11922,7 @@
   ],
   "answer": "332 K",
   "hint": "At the normal boiling point, ΔG° = 0, so T = ΔH°/ΔS° with matching energy units.",
-  "explain": "T = (30,900 J mol⁻¹)/(93.0 J mol⁻¹·K) = 332 K (59 °C). 0.332 K comes from leaving ΔH in kJ while ΔS is in J. 59 is the Celsius value, not kelvins.",
+  "explain": "T = (30,900 J mol⁻¹)/(93.0 J mol⁻¹·K⁻¹) = 332 K (59 °C). 0.332 K comes from leaving ΔH in kJ while ΔS is in J. 59 is the Celsius value, not kelvins.",
   "html": {
    "prompt": "For the process shown, ΔH° = +30.9 kJ mol⁻¹ and ΔS° = +93.0 J mol⁻¹ K⁻¹. Assuming these do not change with temperature, at what temperature is liquid bromine in equilibrium with its vapor at 1 atm?",
    "choices": [
@@ -11932,7 +11932,7 @@
     "3.01 K"
    ],
    "hint": "At the normal boiling point, ΔG° = 0, so T = ΔH°/ΔS° with matching energy units.",
-   "explain": "T = (30,900 J mol⁻¹)/(93.0 J mol⁻¹·K) = <b>332 K</b> (59 °C). 0.332 K comes from leaving ΔH in kJ while ΔS is in J. 59 is the Celsius value, not kelvins."
+   "explain": "T = (30,900 J mol⁻¹)/(93.0 J mol⁻¹·K⁻¹) = <b>332 K</b> (59 °C). 0.332 K comes from leaving ΔH in kJ while ΔS is in J. 59 is the Celsius value, not kelvins."
   },
   "data": {
    "f": [
@@ -12005,7 +12005,7 @@
   "type": "mc",
   "difficulty": 2,
   "calc": true,
-  "prompt": "At 500. K the standard free-energy change for a gas-phase reaction is +12.0 kJ. Calculate K at that temperature. (R = 8.314 J mol⁻¹·K)",
+  "prompt": "At 500. K the standard free-energy change for a gas-phase reaction is +12.0 kJ. Calculate K at that temperature. (R = 8.314 J mol⁻¹·K⁻¹)",
   "choices": [
    "0.056",
    "17.9",
@@ -12016,7 +12016,7 @@
   "hint": "ΔG° = −RT ln K, so K = e^−ΔG°/RT. Convert kJ to J and use the given temperature.",
   "explain": "ln K = −12,000/(8.314 × 500.) = −2.887; K = 0.056. Positive ΔG° means K < 1, so 17.9 (sign dropped) is impossible; 0.0079 uses 298 K; 0.997 leaves ΔG° in kJ.",
   "html": {
-   "prompt": "At 500. K the standard free-energy change for a gas-phase reaction is +12.0 kJ. Calculate K at that temperature. (R = 8.314 J mol⁻¹·K)",
+   "prompt": "At 500. K the standard free-energy change for a gas-phase reaction is +12.0 kJ. Calculate K at that temperature. (R = 8.314 J mol⁻¹·K⁻¹)",
    "choices": [
     "0.056",
     "17.9",

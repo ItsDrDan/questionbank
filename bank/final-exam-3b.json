@@ -14177,7 +14177,7 @@
   ],
   "answer": "42%",
   "hint": "Find the kcal from each nutrient first, then divide fat kcal by the total kcal.",
-  "explain": "Fat: 12.0 × 9 = 108 kcal; carbohydrate: 30.0 × 4 = 120 kcal; protein: 8.0 × 4 = 32 kcal; total = 260 kcal. 108/260 × 100 = 42%. 47% leaves the protein out of the total (108/228); 58% is the percent that does not come from fat; 71% divides by the fat and protein kcal only.",
+  "explain": "Fat: 12.0 × 9 = 108 kcal; carbohydrate: 30.0 × 4 = 120 kcal; protein: 8.0 × 4 = 32 kcal; total = 260 kcal. 108/260 × 100 = 42%. 47% leaves the protein out of the total (108/228); 58% is the percent that does not come from fat; 71% divides the fat kcal by the carbohydrate and protein kcal only (108/152).",
   "html": {
    "prompt": "A serving of a snack food contains the nutrients listed in the table. Using the energy values given, what percent of its Calories come from fat?",
    "choices": [
@@ -14187,7 +14187,7 @@
     "58%"
    ],
    "hint": "Find the kcal from each nutrient first, then divide fat kcal by the total kcal.",
-   "explain": "Fat: 12.0 × 9 = 108 kcal; carbohydrate: 30.0 × 4 = 120 kcal; protein: 8.0 × 4 = 32 kcal; total = 260 kcal. 108/260 × 100 = <b>42%</b>. 47% leaves the protein out of the total (108/228); 58% is the percent that does <i>not</i> come from fat; 71% divides by the fat and protein kcal only."
+   "explain": "Fat: 12.0 × 9 = 108 kcal; carbohydrate: 30.0 × 4 = 120 kcal; protein: 8.0 × 4 = 32 kcal; total = 260 kcal. 108/260 × 100 = <b>42%</b>. 47% leaves the protein out of the total (108/228); 58% is the percent that does <i>not</i> come from fat; 71% divides the fat kcal by the carbohydrate and protein kcal only (108/152)."
   },
   "data": {
    "f": [
@@ -169507,7 +169507,7 @@
   ],
   "answer": "28 ATP",
   "hint": "Find the number of turns first (one fewer than the number of acetyl CoA), then multiply by the ATP from one turn's NADH + FADH₂.",
-  "explain": "16 C gives 8 acetyl CoA in 16/2 − 1 = 7 turns. Each turn yields 1 NADH (2.5) + 1 FADH₂ (1.5) = 4 ATP, so 7 × 4 = 28 ATP. \"32\" uses 8 turns, \"20\" uses 7 NADH × 2.5 only (ignoring FADH₂), and \"106\" is the total yield including the 8 acetyl CoA minus activation.",
+  "explain": "16 C gives 8 acetyl CoA in 16/2 − 1 = 7 turns. Each turn yields 1 NADH (2.5) + 1 FADH₂ (1.5) = 4 ATP, so 7 × 4 = 28 ATP. \"32\" uses 8 turns, \"20\" counts only the NADH and uses 8 turns (8 × 2.5), and \"106\" is the total yield including the 8 acetyl CoA minus activation.",
   "html": {
    "prompt": "Palmitoyl CoA (16 carbons) goes completely through the β-oxidation spiral shown. Using 2.5 ATP per NADH and 1.5 ATP per FADH<sub>2</sub>, how many ATP are produced from the NADH and FADH<sub>2</sub> of the <b>spiral itself</b> (not counting the acetyl CoA or the activation cost)?",
    "choices": [
@@ -169517,7 +169517,7 @@
     "106 ATP"
    ],
    "hint": "Find the number of turns first (one fewer than the number of acetyl CoA), then multiply by the ATP from one turn's NADH + FADH<sub>2</sub>.",
-   "explain": "16 C gives 8 acetyl CoA in 16/2 − 1 = <b>7 turns</b>. Each turn yields 1 NADH (2.5) + 1 FADH<sub>2</sub> (1.5) = 4 ATP, so 7 × 4 = <b>28 ATP</b>. \"32\" uses 8 turns, \"20\" uses 7 NADH × 2.5 only (ignoring FADH<sub>2</sub>), and \"106\" is the total yield including the 8 acetyl CoA minus activation."
+   "explain": "16 C gives 8 acetyl CoA in 16/2 − 1 = <b>7 turns</b>. Each turn yields 1 NADH (2.5) + 1 FADH<sub>2</sub> (1.5) = 4 ATP, so 7 × 4 = <b>28 ATP</b>. \"32\" uses 8 turns, \"20\" counts only the NADH and uses 8 turns (8 × 2.5), and \"106\" is the total yield including the 8 acetyl CoA minus activation."
   },
   "data": {
    "f": [
