@@ -15879,31 +15879,6 @@
   }
  },
  {
-  "id": "stoichiometry-fb0734f5",
-  "skill": "stoichiometry.challenge",
-  "courses": [
-   "1A"
-  ],
-  "chapters": [
-   "1A-4",
-   "1B-ready"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">HCl</span> + <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">NaCl</span> + <span class=\"formula\">H<sub>2</sub>O</span></div><div><b>Aqueous hydrochloric acid reacts with sodium hydroxide solution.</b> <span class=\"measure\">37.6 mL of 0.642 M</span> <span class=\"formula\">NaOH</span> reacts completely with a stoichiometric amount of <span class=\"formula\">HCl</span>. How many <strong><span class=\"formula\">Cl</span><sup>−</sup> ions</strong> are present in the resulting solution? Assume the soluble salt dissociates completely; ignore water autoionization. Count only this named ion, including spectator ions. Then use an actual measured product amount of <span class=\"measure\">1.21 × 10²² ions <span class=\"formula\">Cl</span><sup>−</sup></span> to calculate percent yield.<br><br><strong>Calculate percent yield:</strong> The actual product measurement is <span class=\"measure\">1.21 × 10²² ions <span class=\"formula\">Cl</span><sup>−</sup></span>. What is the percent yield?</div><div class=\"consts\">N<sub>A</sub> = 6.0221 × 10²³ mol⁻¹</div>",
-  "answer": 83.2,
-  "unit": "%",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "Percent yield = actual product amount ÷ theoretical product amount × 100%. For equivalent reactant quantities, the common stoichiometric conversion cancels in the ratio.",
-  "explain": "<div>(1.21 × 10²² ÷ 1.454 × 10²²) × 100% = <b>83.2%</b>.</div><div>Round to 3 significant figures: <b>83.2 %</b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:challenge",
-   "index": 16
-  }
- },
- {
   "id": "stoichiometry-a90e8bcf",
   "skill": "stoichiometry.challenge",
   "courses": [

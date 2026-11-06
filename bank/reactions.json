@@ -1856,7 +1856,7 @@
   }
  },
  {
-  "id": "reactions-d50981ac",
+  "id": "reactions-5cb79bcb",
   "skill": "reactions.gas-evolution",
   "courses": [
    "3A",
@@ -1868,34 +1868,31 @@
   ],
   "origin": "original",
   "type": "reaction",
-  "prompt": "Predict the products and balance: K2SO3 + HNO3 →",
-  "answer": "K2SO3(aq) + 2 HNO3(aq) → 2 KNO3(aq) + SO2(g) + H2O(l)",
-  "hint": "Sulfite + acid produces sulfur dioxide.",
+  "prompt": "Predict the products and balance: K2S + HI →",
+  "answer": "K2S(aq) + 2 HI(aq) → 2 KI(aq) + H2S(g)",
+  "hint": "Sulfide + acid produces hydrogen sulfide gas.",
   "data": {
    "cat": "Gas evolution",
    "r": [
-    "K2SO3",
-    "HNO3"
+    "K2S",
+    "HI"
    ],
    "p": [
-    "KNO3",
-    "SO2",
-    "H2O"
+    "KI",
+    "H2S"
    ],
    "coef": [
     1,
     2,
     2,
-    1,
     1
    ],
-   "hint": "Sulfite + acid produces sulfur dioxide.",
+   "hint": "Sulfide + acid produces hydrogen sulfide gas.",
    "states": {
-    "K2SO3": "aq",
-    "HNO3": "aq",
-    "KNO3": "aq",
-    "SO2": "g",
-    "H2O": "l"
+    "K2S": "aq",
+    "HI": "aq",
+    "KI": "aq",
+    "H2S": "g"
    }
   },
   "from": {
@@ -4985,7 +4982,7 @@
   }
  },
  {
-  "id": "reactions-3477c89c",
+  "id": "reactions-f0215995",
   "skill": "reactions.gas-evolution",
   "courses": [
    "3A",
@@ -4997,17 +4994,17 @@
   ],
   "origin": "original",
   "type": "reaction",
-  "prompt": "Predict the products and balance: Na2SO3 + HNO3 →",
-  "answer": "Na2SO3(aq) + 2 HNO3(aq) → 2 NaNO3(aq) + SO2(g) + H2O(l)",
+  "prompt": "Predict the products and balance: Na2SO3 + HI →",
+  "answer": "Na2SO3(aq) + 2 HI(aq) → 2 NaI(aq) + SO2(g) + H2O(l)",
   "hint": "Sulfite and acid produce SO₂.",
   "data": {
    "cat": "Gas evolution",
    "r": [
     "Na2SO3",
-    "HNO3"
+    "HI"
    ],
    "p": [
-    "NaNO3",
+    "NaI",
     "SO2",
     "H2O"
    ],
@@ -5021,8 +5018,8 @@
    "hint": "Sulfite and acid produce SO₂.",
    "states": {
     "Na2SO3": "aq",
-    "HNO3": "aq",
-    "NaNO3": "aq",
+    "HI": "aq",
+    "NaI": "aq",
     "SO2": "g",
     "H2O": "l"
    }
@@ -5080,7 +5077,7 @@
   }
  },
  {
-  "id": "reactions-d822756e",
+  "id": "reactions-69b6fe8c",
   "skill": "reactions.gas-evolution",
   "courses": [
    "3A",
@@ -5092,17 +5089,17 @@
   ],
   "origin": "original",
   "type": "reaction",
-  "prompt": "Predict the products and balance: Na2S + HNO3 →",
-  "answer": "Na2S(aq) + 2 HNO3(aq) → 2 NaNO3(aq) + H2S(g)",
+  "prompt": "Predict the products and balance: Na2S + HI →",
+  "answer": "Na2S(aq) + 2 HI(aq) → 2 NaI(aq) + H2S(g)",
   "hint": "Sulfide and acid produce H₂S.",
   "data": {
    "cat": "Gas evolution",
    "r": [
     "Na2S",
-    "HNO3"
+    "HI"
    ],
    "p": [
-    "NaNO3",
+    "NaI",
     "H2S"
    ],
    "coef": [
@@ -5114,8 +5111,8 @@
    "hint": "Sulfide and acid produce H₂S.",
    "states": {
     "Na2S": "aq",
-    "HNO3": "aq",
-    "NaNO3": "aq",
+    "HI": "aq",
+    "NaI": "aq",
     "H2S": "g"
    }
   },
@@ -10030,7 +10027,7 @@
   }
  },
  {
-  "id": "reactions-c2bab1e7",
+  "id": "reactions-86ba12f7",
   "skill": "reactions.gas-evolution",
   "courses": [
    "3A",
@@ -10042,32 +10039,32 @@
   ],
   "origin": "original",
   "type": "reaction",
-  "prompt": "Predict the products and balance: MgSO3 + HI →",
-  "answer": "MgSO3(aq) + 2 HI(aq) → MgI2(aq) + SO2(g) + H2O(l)",
+  "prompt": "Predict the products and balance: K2SO3 + HI →",
+  "answer": "K2SO3(aq) + 2 HI(aq) → 2 KI(aq) + SO2(g) + H2O(l)",
   "hint": "Sulfite + acid → H₂SO₃ → SO₂ + H₂O.",
   "data": {
    "cat": "Gas evolution",
    "r": [
-    "MgSO3",
+    "K2SO3",
     "HI"
    ],
    "p": [
-    "MgI2",
+    "KI",
     "SO2",
     "H2O"
    ],
    "coef": [
     1,
     2,
-    1,
+    2,
     1,
     1
    ],
    "hint": "Sulfite + acid → H₂SO₃ → SO₂ + H₂O.",
    "states": {
-    "MgSO3": "aq",
+    "K2SO3": "aq",
     "HI": "aq",
-    "MgI2": "aq",
+    "KI": "aq",
     "SO2": "g",
     "H2O": "l"
    }
@@ -10079,7 +10076,7 @@
   }
  },
  {
-  "id": "reactions-268e21fd",
+  "id": "reactions-8f1359f0",
   "skill": "reactions.gas-evolution",
   "courses": [
    "3A",
@@ -10091,17 +10088,17 @@
   ],
   "origin": "original",
   "type": "reaction",
-  "prompt": "Predict the products and balance: NaHSO3 + HNO3 →",
-  "answer": "NaHSO3(aq) + HNO3(aq) → NaNO3(aq) + SO2(g) + H2O(l)",
+  "prompt": "Predict the products and balance: NaHSO3 + HCl →",
+  "answer": "NaHSO3(aq) + HCl(aq) → NaCl(aq) + SO2(g) + H2O(l)",
   "hint": "Hydrogen sulfite + acid → H₂SO₃ → SO₂ + H₂O.",
   "data": {
    "cat": "Gas evolution",
    "r": [
     "NaHSO3",
-    "HNO3"
+    "HCl"
    ],
    "p": [
-    "NaNO3",
+    "NaCl",
     "SO2",
     "H2O"
    ],
@@ -10115,8 +10112,8 @@
    "hint": "Hydrogen sulfite + acid → H₂SO₃ → SO₂ + H₂O.",
    "states": {
     "NaHSO3": "aq",
-    "HNO3": "aq",
-    "NaNO3": "aq",
+    "HCl": "aq",
+    "NaCl": "aq",
     "SO2": "g",
     "H2O": "l"
    }
