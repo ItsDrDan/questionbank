@@ -1931,11 +1931,9 @@
  {
   "id": "redox-d8bbc092",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -1964,11 +1962,9 @@
  {
   "id": "redox-d9cb628a",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -1997,11 +1993,9 @@
  {
   "id": "redox-ed762e67",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2030,11 +2024,9 @@
  {
   "id": "redox-a48493e0",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2063,11 +2055,9 @@
  {
   "id": "redox-a7d1b5f5",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2096,11 +2086,9 @@
  {
   "id": "redox-34c3646d",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2129,11 +2117,9 @@
  {
   "id": "redox-b5ebd788",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2162,11 +2148,9 @@
  {
   "id": "redox-43705e03",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2195,11 +2179,9 @@
  {
   "id": "redox-2f9fea76",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2228,11 +2210,9 @@
  {
   "id": "redox-8617a7d4",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2261,11 +2241,9 @@
  {
   "id": "redox-00b827d8",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2294,11 +2272,9 @@
  {
   "id": "redox-8f8d1e82",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2327,11 +2303,9 @@
  {
   "id": "redox-f62dbcdd",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2360,11 +2334,9 @@
  {
   "id": "redox-c79488d8",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2393,11 +2365,9 @@
  {
   "id": "redox-f6f357cf",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2426,11 +2396,9 @@
  {
   "id": "redox-e9fad102",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2459,11 +2427,9 @@
  {
   "id": "redox-4019ac10",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2492,11 +2458,9 @@
  {
   "id": "redox-651094da",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2523,19 +2487,17 @@
   }
  },
  {
-  "id": "redox-a7dde521",
+  "id": "redox-fb607eca",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
   "skill": "redox.activity-series",
   "type": "mc",
-  "prompt": "Will this reaction occur? Mg(s) + Cr³⁺(aq) → ?",
+  "prompt": "Will this reaction occur? 3 Mg(s) + 2 Cr³⁺(aq) → ?",
   "choices": [
    "Yes",
    "No"
@@ -2544,7 +2506,7 @@
   "products": "3 Mg²⁺(aq) + 2 Cr(s)",
   "explain": "Mg is above Cr, so Mg can reduce the Cr ions in the activity-series model.",
   "data": {
-   "rxn": "Mg(s) + Cr³⁺(aq) → ?",
+   "rxn": "3 Mg(s) + 2 Cr³⁺(aq) → ?",
    "yes": true,
    "prod": "3 Mg²⁺(aq) + 2 Cr(s)",
    "why": "Mg is above Cr, so Mg can reduce the Cr ions in the activity-series model."
@@ -2556,19 +2518,17 @@
   }
  },
  {
-  "id": "redox-c488f09d",
+  "id": "redox-03af458a",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
   "skill": "redox.activity-series",
   "type": "mc",
-  "prompt": "Will this reaction occur? Cr(s) + Mg²⁺(aq) → ?",
+  "prompt": "Will this reaction occur? 2 Cr(s) + 3 Mg²⁺(aq) → ?",
   "choices": [
    "Yes",
    "No"
@@ -2577,7 +2537,7 @@
   "products": "No reaction",
   "explain": "Cr is below Mg, so it cannot displace Mg in the activity-series model.",
   "data": {
-   "rxn": "Cr(s) + Mg²⁺(aq) → ?",
+   "rxn": "2 Cr(s) + 3 Mg²⁺(aq) → ?",
    "yes": false,
    "prod": "No reaction",
    "why": "Cr is below Mg, so it cannot displace Mg in the activity-series model."
@@ -2589,19 +2549,17 @@
   }
  },
  {
-  "id": "redox-6da0808c",
+  "id": "redox-c08979b6",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
   "skill": "redox.activity-series",
   "type": "mc",
-  "prompt": "Will this reaction occur? Al(s) + Fe²⁺(aq) → ?",
+  "prompt": "Will this reaction occur? 2 Al(s) + 3 Fe²⁺(aq) → ?",
   "choices": [
    "Yes",
    "No"
@@ -2610,7 +2568,7 @@
   "products": "2 Al³⁺(aq) + 3 Fe(s)",
   "explain": "Al is above Fe, so Al can reduce the Fe ions in the activity-series model.",
   "data": {
-   "rxn": "Al(s) + Fe²⁺(aq) → ?",
+   "rxn": "2 Al(s) + 3 Fe²⁺(aq) → ?",
    "yes": true,
    "prod": "2 Al³⁺(aq) + 3 Fe(s)",
    "why": "Al is above Fe, so Al can reduce the Fe ions in the activity-series model."
@@ -2622,19 +2580,17 @@
   }
  },
  {
-  "id": "redox-2d5df056",
+  "id": "redox-83049eac",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
   "skill": "redox.activity-series",
   "type": "mc",
-  "prompt": "Will this reaction occur? Fe(s) + Al³⁺(aq) → ?",
+  "prompt": "Will this reaction occur? 3 Fe(s) + 2 Al³⁺(aq) → ?",
   "choices": [
    "Yes",
    "No"
@@ -2643,7 +2599,7 @@
   "products": "No reaction",
   "explain": "Fe is below Al, so it cannot displace Al in the activity-series model.",
   "data": {
-   "rxn": "Fe(s) + Al³⁺(aq) → ?",
+   "rxn": "3 Fe(s) + 2 Al³⁺(aq) → ?",
    "yes": false,
    "prod": "No reaction",
    "why": "Fe is below Al, so it cannot displace Al in the activity-series model."
@@ -2655,19 +2611,17 @@
   }
  },
  {
-  "id": "redox-8b1097e0",
+  "id": "redox-8a57803d",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
   "skill": "redox.activity-series",
   "type": "mc",
-  "prompt": "Will this reaction occur? Zn(s) + Ag¹⁺(aq) → ?",
+  "prompt": "Will this reaction occur? Zn(s) + 2 Ag⁺(aq) → ?",
   "choices": [
    "Yes",
    "No"
@@ -2676,7 +2630,7 @@
   "products": "Zn²⁺(aq) + 2 Ag(s)",
   "explain": "Zn is above Ag, so Zn can reduce the Ag ions in the activity-series model.",
   "data": {
-   "rxn": "Zn(s) + Ag¹⁺(aq) → ?",
+   "rxn": "Zn(s) + 2 Ag⁺(aq) → ?",
    "yes": true,
    "prod": "Zn²⁺(aq) + 2 Ag(s)",
    "why": "Zn is above Ag, so Zn can reduce the Ag ions in the activity-series model."
@@ -2688,19 +2642,17 @@
   }
  },
  {
-  "id": "redox-612eade1",
+  "id": "redox-7c4479e7",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
   "skill": "redox.activity-series",
   "type": "mc",
-  "prompt": "Will this reaction occur? Ag(s) + Zn²⁺(aq) → ?",
+  "prompt": "Will this reaction occur? 2 Ag(s) + Zn²⁺(aq) → ?",
   "choices": [
    "Yes",
    "No"
@@ -2709,7 +2661,7 @@
   "products": "No reaction",
   "explain": "Ag is below Zn, so it cannot displace Zn in the activity-series model.",
   "data": {
-   "rxn": "Ag(s) + Zn²⁺(aq) → ?",
+   "rxn": "2 Ag(s) + Zn²⁺(aq) → ?",
    "yes": false,
    "prod": "No reaction",
    "why": "Ag is below Zn, so it cannot displace Zn in the activity-series model."
@@ -2723,11 +2675,9 @@
  {
   "id": "redox-955c6182",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2756,11 +2706,9 @@
  {
   "id": "redox-61c6786b",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2789,11 +2737,9 @@
  {
   "id": "redox-35b5e1f2",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2822,11 +2768,9 @@
  {
   "id": "redox-929c8c26",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2855,11 +2799,9 @@
  {
   "id": "redox-6b78033b",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2888,11 +2830,9 @@
  {
   "id": "redox-c30cc0b1",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2921,11 +2861,9 @@
  {
   "id": "redox-7d0e3c03",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2954,11 +2892,9 @@
  {
   "id": "redox-448cb70e",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -2985,19 +2921,17 @@
   }
  },
  {
-  "id": "redox-50b425ca",
+  "id": "redox-80f313a2",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
   "skill": "redox.activity-series",
   "type": "mc",
-  "prompt": "Will this reaction occur? Co(s) + Ag¹⁺(aq) → ?",
+  "prompt": "Will this reaction occur? Co(s) + 2 Ag⁺(aq) → ?",
   "choices": [
    "Yes",
    "No"
@@ -3006,7 +2940,7 @@
   "products": "Co²⁺(aq) + 2 Ag(s)",
   "explain": "Co is above Ag, so Co can reduce the Ag ions in the activity-series model.",
   "data": {
-   "rxn": "Co(s) + Ag¹⁺(aq) → ?",
+   "rxn": "Co(s) + 2 Ag⁺(aq) → ?",
    "yes": true,
    "prod": "Co²⁺(aq) + 2 Ag(s)",
    "why": "Co is above Ag, so Co can reduce the Ag ions in the activity-series model."
@@ -3018,19 +2952,17 @@
   }
  },
  {
-  "id": "redox-89a3e6b6",
+  "id": "redox-ba3915a2",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
   "skill": "redox.activity-series",
   "type": "mc",
-  "prompt": "Will this reaction occur? Ag(s) + Co²⁺(aq) → ?",
+  "prompt": "Will this reaction occur? 2 Ag(s) + Co²⁺(aq) → ?",
   "choices": [
    "Yes",
    "No"
@@ -3039,7 +2971,7 @@
   "products": "No reaction",
   "explain": "Ag is below Co, so it cannot displace Co in the activity-series model.",
   "data": {
-   "rxn": "Ag(s) + Co²⁺(aq) → ?",
+   "rxn": "2 Ag(s) + Co²⁺(aq) → ?",
    "yes": false,
    "prod": "No reaction",
    "why": "Ag is below Co, so it cannot displace Co in the activity-series model."
@@ -3053,11 +2985,9 @@
  {
   "id": "redox-cec7ed81",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -3086,11 +3016,9 @@
  {
   "id": "redox-82976b58",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -3119,11 +3047,9 @@
  {
   "id": "redox-b0dde4c1",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -3152,11 +3078,9 @@
  {
   "id": "redox-813b5af7",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -3185,11 +3109,9 @@
  {
   "id": "redox-0c152724",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
@@ -3216,19 +3138,17 @@
   }
  },
  {
-  "id": "redox-8c1593c3",
+  "id": "redox-3f3472d0",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
   "skill": "redox.activity-series",
   "type": "mc",
-  "prompt": "Will this reaction occur? Al(s) + Zn²⁺(aq) → ?",
+  "prompt": "Will this reaction occur? 2 Al(s) + 3 Zn²⁺(aq) → ?",
   "choices": [
    "Yes",
    "No"
@@ -3237,7 +3157,7 @@
   "products": "2 Al³⁺(aq) + 3 Zn(s)",
   "explain": "Al is above Zn, so Al can reduce the Zn ions in the activity-series model.",
   "data": {
-   "rxn": "Al(s) + Zn²⁺(aq) → ?",
+   "rxn": "2 Al(s) + 3 Zn²⁺(aq) → ?",
    "yes": true,
    "prod": "2 Al³⁺(aq) + 3 Zn(s)",
    "why": "Al is above Zn, so Al can reduce the Zn ions in the activity-series model."
@@ -3249,19 +3169,17 @@
   }
  },
  {
-  "id": "redox-efa4fb47",
+  "id": "redox-423fd569",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
   "skill": "redox.activity-series",
   "type": "mc",
-  "prompt": "Will this reaction occur? Zn(s) + Al³⁺(aq) → ?",
+  "prompt": "Will this reaction occur? 3 Zn(s) + 2 Al³⁺(aq) → ?",
   "choices": [
    "Yes",
    "No"
@@ -3270,7 +3188,7 @@
   "products": "No reaction",
   "explain": "Zn is below Al, so it cannot displace Al in the activity-series model.",
   "data": {
-   "rxn": "Zn(s) + Al³⁺(aq) → ?",
+   "rxn": "3 Zn(s) + 2 Al³⁺(aq) → ?",
    "yes": false,
    "prod": "No reaction",
    "why": "Zn is below Al, so it cannot displace Al in the activity-series model."
@@ -3282,30 +3200,28 @@
   }
  },
  {
-  "id": "redox-bdb77212",
+  "id": "redox-880b8e0d",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-10",
    "1A-4"
   ],
   "origin": "original",
   "skill": "redox.activity-series",
   "type": "mc",
-  "prompt": "Will this reaction occur? Na(s) + Mg²⁺(aq) → ?",
+  "prompt": "Will this reaction occur? 2 Na(s) + Mg²⁺(aq) → ?",
   "choices": [
    "Yes",
    "No"
   ],
   "answer": "Yes",
-  "products": "2 Na¹⁺(aq) + Mg(s)",
+  "products": "2 Na⁺(aq) + Mg(s)",
   "explain": "Na is above Mg, so Na can reduce the Mg ions in the activity-series model.",
   "data": {
-   "rxn": "Na(s) + Mg²⁺(aq) → ?",
+   "rxn": "2 Na(s) + Mg²⁺(aq) → ?",
    "yes": true,
-   "prod": "2 Na¹⁺(aq) + Mg(s)",
+   "prod": "2 Na⁺(aq) + Mg(s)",
    "why": "Na is above Mg, so Na can reduce the Mg ions in the activity-series model."
   },
   "from": {

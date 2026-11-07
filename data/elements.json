@@ -194,11 +194,23 @@
    "en_pauling": 1
   },
   {
+   "z": 21,
+   "symbol": "Sc",
+   "name": "Scandium",
+   "core20": false
+  },
+  {
    "z": 22,
    "symbol": "Ti",
    "name": "Titanium",
    "core20": false,
    "mass": 47.88
+  },
+  {
+   "z": 23,
+   "symbol": "V",
+   "name": "Vanadium",
+   "core20": false
   },
   {
    "z": 24,
@@ -250,20 +262,22 @@
    "mass": 65.39
   },
   {
+   "z": 31,
    "symbol": "Ga",
+   "name": "Gallium",
+   "core20": false,
    "ie1_kJmol": 579,
    "ea_kJmol": -29,
-   "en_pauling": 1.81,
-   "z": 31,
-   "name": "Gallium"
+   "en_pauling": 1.81
   },
   {
+   "z": 32,
    "symbol": "Ge",
+   "name": "Germanium",
+   "core20": false,
    "ie1_kJmol": 762,
    "ea_kJmol": -119,
-   "en_pauling": 2.01,
-   "z": 32,
-   "name": "Germanium"
+   "en_pauling": 2.01
   },
   {
    "z": 33,
@@ -294,27 +308,42 @@
    "en_pauling": 2.96
   },
   {
-   "symbol": "Kr",
-   "mass": 83.8,
-   "ie1_kJmol": 1351,
    "z": 36,
-   "name": "Krypton"
+   "symbol": "Kr",
+   "name": "Krypton",
+   "core20": false,
+   "mass": 83.8,
+   "ie1_kJmol": 1351
   },
   {
+   "z": 37,
    "symbol": "Rb",
+   "name": "Rubidium",
+   "core20": false,
    "ie1_kJmol": 403,
    "ea_kJmol": -47,
-   "en_pauling": 0.82,
-   "z": 37,
-   "name": "Rubidium"
+   "en_pauling": 0.82
   },
   {
+   "z": 38,
    "symbol": "Sr",
+   "name": "Strontium",
+   "core20": false,
    "ie1_kJmol": 550,
    "ea_kJmol": -5,
-   "en_pauling": 0.95,
-   "z": 38,
-   "name": "Strontium"
+   "en_pauling": 0.95
+  },
+  {
+   "z": 42,
+   "symbol": "Mo",
+   "name": "Molybdenum",
+   "core20": false
+  },
+  {
+   "z": 46,
+   "symbol": "Pd",
+   "name": "Palladium",
+   "core20": false
   },
   {
    "z": 47,
@@ -330,36 +359,40 @@
    "core20": false
   },
   {
+   "z": 49,
    "symbol": "In",
+   "name": "Indium",
+   "core20": false,
    "ie1_kJmol": 558,
    "ea_kJmol": -29,
-   "en_pauling": 1.78,
-   "z": 49,
-   "name": "Indium"
+   "en_pauling": 1.78
   },
   {
+   "z": 50,
    "symbol": "Sn",
+   "name": "Tin",
+   "core20": false,
    "ie1_kJmol": 709,
    "ea_kJmol": -107,
-   "en_pauling": 1.96,
-   "z": 50,
-   "name": "Tin"
+   "en_pauling": 1.96
   },
   {
+   "z": 51,
    "symbol": "Sb",
+   "name": "Antimony",
+   "core20": false,
    "ie1_kJmol": 834,
    "ea_kJmol": -103,
-   "en_pauling": 2.05,
-   "z": 51,
-   "name": "Antimony"
+   "en_pauling": 2.05
   },
   {
+   "z": 52,
    "symbol": "Te",
+   "name": "Tellurium",
+   "core20": false,
    "ie1_kJmol": 869,
    "ea_kJmol": -190,
-   "en_pauling": 2.1,
-   "z": 52,
-   "name": "Tellurium"
+   "en_pauling": 2.1
   },
   {
    "z": 53,
@@ -372,19 +405,21 @@
    "en_pauling": 2.66
   },
   {
-   "symbol": "Xe",
-   "mass": 131.29,
-   "ie1_kJmol": 1170,
    "z": 54,
-   "name": "Xenon"
+   "symbol": "Xe",
+   "name": "Xenon",
+   "core20": false,
+   "mass": 131.29,
+   "ie1_kJmol": 1170
   },
   {
+   "z": 55,
    "symbol": "Cs",
+   "name": "Cesium",
+   "core20": false,
    "ie1_kJmol": 376,
    "ea_kJmol": -46,
-   "en_pauling": 0.79,
-   "z": 55,
-   "name": "Cesium"
+   "en_pauling": 0.79
   },
   {
    "z": 56,
@@ -395,6 +430,12 @@
    "ie1_kJmol": 503,
    "ea_kJmol": -14,
    "en_pauling": 0.89
+  },
+  {
+   "z": 74,
+   "symbol": "W",
+   "name": "Tungsten",
+   "core20": false
   },
   {
    "z": 78,
@@ -417,10 +458,11 @@
    "mass": 200.59
   },
   {
-   "symbol": "Tl",
-   "ie1_kJmol": 589,
    "z": 81,
-   "name": "Thallium"
+   "symbol": "Tl",
+   "name": "Thallium",
+   "core20": false,
+   "ie1_kJmol": 589
   },
   {
    "z": 82,
@@ -431,16 +473,42 @@
    "ie1_kJmol": 716
   },
   {
-   "symbol": "Bi",
-   "ie1_kJmol": 703,
    "z": 83,
-   "name": "Bismuth"
+   "symbol": "Bi",
+   "name": "Bismuth",
+   "core20": false,
+   "ie1_kJmol": 703
   },
   {
-   "symbol": "Rn",
-   "ie1_kJmol": 1037,
+   "z": 84,
+   "symbol": "Po",
+   "name": "Polonium",
+   "core20": false
+  },
+  {
+   "z": 85,
+   "symbol": "At",
+   "name": "Astatine",
+   "core20": false
+  },
+  {
    "z": 86,
-   "name": "Radon"
+   "symbol": "Rn",
+   "name": "Radon",
+   "core20": false,
+   "ie1_kJmol": 1037
+  },
+  {
+   "z": 87,
+   "symbol": "Fr",
+   "name": "Francium",
+   "core20": false
+  },
+  {
+   "z": 88,
+   "symbol": "Ra",
+   "name": "Radium",
+   "core20": false
   }
  ]
 }

@@ -1,7 +1,7 @@
 // Sampler for the redox game: only the GENERATED content (the static lists are already in bank/redox.json).
-//  - Galvanic Cells: genCell() kinds pair/dg/k/nernst/notation/flow over CELL_COUPLES  -> redox.galvanic-cells (1A/1B, 1B-17)
+//  - Galvanic Cells: genCell() kinds pair/dg/k/nernst/notation/flow over CELL_COUPLES  -> redox.galvanic-cells (1B only, 1B-17)
 //  - REDOX Concepts: genConcept() kinds agents/multiply/oxnum (kind 'fact' = CONCEPT_FACTS, already banked, skipped)
-//                                                                                     -> redox.concepts (3A, 3A-10)
+//                                                                                     -> redox.concepts (3A + 1A)
 // Multi-field game questions are split into one item per field, with a question line naming that field.
 // Every kept answer is graded by the game's own checkFields() (the same check() uses for these modes),
 // and numeric answers are recomputed independently from CELL_COUPLES in Node.
@@ -35,8 +35,8 @@ const strip = s => String(s).replace(/<[^>]+>/g, '');
 module.exports = async (page, ctx) => {
   const items = [];
   const plan = [
-    { mode: 'cells', gen: 'genCell', skill: 'redox.galvanic-cells', courses: ['1A', '1B'], chapters: ['1B-17'], seed: 7101 },
-    { mode: 'concepts', gen: 'genConcept', skill: 'redox.concepts', courses: ['3A'], chapters: ['3A-10'], seed: 7202 },
+    { mode: 'cells', gen: 'genCell', skill: 'redox.galvanic-cells', courses: ['1B'], chapters: ['1B-17'], seed: 7101 },
+    { mode: 'concepts', gen: 'genConcept', skill: 'redox.concepts', courses: ['3A', '1A'], chapters: ['3A-10', '1A-4'], seed: 7202 },
   ];
   for (const m of plan) {
     await ctx.seed(m.seed);

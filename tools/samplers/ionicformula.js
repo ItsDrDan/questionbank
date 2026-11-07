@@ -1,29 +1,27 @@
-// Sampler for "Naming & Formulas" (ionicformula). The game's code is wrapped in an IIFE, so it is driven through its
-// own UI: click a practice button (its makeQuestion() draws the question), read the question from the page,
-// press Show Answer to read the game's answer, then type the bank answer + every accept string into the game's
-// answer box and press Check Answer: each one must be graded correct by checkQuizAnswer().
-// Modes sampled: binaryionic, polyatomicionic, acids, covalent.
-// Skipped: mixed, name, build (random mixtures of those same four pools); free builder (not scored);
-//          every "Name -> Build" draw (drag-and-drop ion cards; the same name->formula items come from typed draws).
-// Real ions only: the game derives rule-practice ions/acids that do not exist (borite, carbonite, silicite,
-// carbonous acid ...). Kept only when every ion is in questionbank/data/ions.json (Green Sheet polyatomics,
-// common monatomics, listed cations); acids only when their parent anion is. Also dropped:
-//   - telluric acid "H2TeO4" (tellurate is on the Green Sheet but the real acid is Te(OH)6 / H6TeO6),
-//   - hydronium with hydroxide/oxide/peroxide/nitride/sulfide and ammonium with oxide/peroxide/nitride
-//     (acid + strong base: these "compounds" do not exist; hydronium hydroxide is just water).
-// Covalent: the game pairs any two of its 12 nonmetals in either order (e.g. "fluorine dioxide" FO2). Only pairs
-// written in the conventional order (B Si C P N Se S I Br Cl O F: less electronegative element first) are kept.
-// Names: answer uses "iron(III)" / "hydrogen phosphate"; the game's "iron (III)" and fused "hydrogenphosphate"
-// are in accept (the game accepts all of them).
+// Sampler for "Naming & Formulas" (ionicformula, "Name That Compound!"). The game's data and generators are top-level
+// globals, so the sampler calls the game's own generate(topic) and grades every bank answer with the question's own
+// check(), the same function the game uses when a student presses Check.
+// Skills (same ids as before the rebuild):
+//   ionicformula.binaryionic      <- f2n-t1, f2n-t2, n2f-t1, n2f-t2   (Type I / Type II binary ionic, both directions)
+//   ionicformula.polyatomicionic  <- f2n-poly, n2f-poly
+//   ionicformula.acids            <- acid-bin, acid-oxy
+//   ionicformula.covalent         <- f2n-cov, n2f-cov
+// Skipped: "Build it" (ion pieces), "Ionic or Covalent?" sorter and acid-pair (multiple choice made for the game UI),
+//          hydrates (CHEM 1A only; no bank skill for them yet).
+// Real ions only: the game builds rule-practice ions from the Green Sheet patterns (hydrogen selenite, phosphite ...).
+// Polyatomic items are kept only when the anion is in questionbank/data/ions.json (Green Sheet polyatomics and the
+// common monatomics); acids only when their parent anion is. Cations come from the game's own CATIONS list
+// (hydronium is never used: the game leaves it out of questions).
+// Covalent: only pairs written in the conventional order (B Si C P N Se S I Br Cl O F) that are in REAL_COVALENT below.
+// Names: answer uses "iron(III)" / "hydrogen phosphate"; "iron (III)" and fused "hydrogenphosphate" are in accept
+// (the game accepts all of them).
 const path = require('path');
 const IONS = require(path.join(__dirname, '..', '..', 'data', 'ions.json'));
 
 module.exports = async (page, ctx) => {
   const norm = s => s.toLowerCase().replace(/\s+/g, ' ').trim().replace(/\s+\(/g, '(');
-  const okCation = new Set(IONS.cations.map(c => norm(c.name)));
   const fOf = a => a.formula || (a.formulas && a.formulas[0]) || '';
   const okAnion = new Set([...IONS.anions, ...IONS.polyatomic].filter(a => /-$/.test(fOf(a))).map(a => norm(a.name)));
-  // parent anion formula -> acid formula
   const anionFormulas = [...IONS.anions, ...IONS.polyatomic].map(fOf).filter(f => /-$/.test(f));
   const okAcid = new Set();
   for (const f of anionFormulas) {
@@ -32,68 +30,39 @@ module.exports = async (page, ctx) => {
     okAcid.add((n === 1 ? 'H' : 'H' + n) + m[1]);
   }
   okAcid.delete('H2TeO4');
-  // real ions, but the "compound" would just react (acid + strong base) or is not a real substance
-  const NONSENSE = {
-    hydronium: ['hydroxide', 'oxide', 'peroxide', 'nitride', 'sulfide'],
-    ammonium: ['oxide', 'peroxide', 'nitride'],
-  };
+  const NONSENSE = { ammonium: ['hydroxide', 'oxide', 'peroxide', 'nitride'] };
   const ORDER = ['B', 'Si', 'C', 'P', 'N', 'Se', 'S', 'I', 'Br', 'Cl', 'O', 'F'];
-  // Covalent: keep only compounds that really exist (the game pairs any two nonmetals with any prefixes).
   const REAL_COVALENT = new Set(('CO CO2 N2O NO NO2 N2O3 N2O4 N2O5 SO2 SO3 SF4 SF6 SCl2 S2Cl2 PCl3 PCl5 PBr3 PBr5 PF3 PF5 PI3 P2O5 P4O10 P4O6 P4S3 ' +
     'BF3 BCl3 BBr3 BI3 B2O3 CCl4 CBr4 CF4 CI4 CS2 SiCl4 SiF4 SiBr4 SiI4 SiO2 Si3N4 NCl3 NF3 NBr3 NI3 N2F4 ' +
     'IF5 IF7 ICl ICl3 IBr I2O5 BrF BrF3 BrF5 BrCl ClF ClF3 ClF5 Cl2O Cl2O7 ClO2 OF2 SeO2 SeO3 SeF4 SeF6 SeCl4 SeS2').split(' '));
-  NONSENSE.hydronium = ['*'];   // hydronium salts are not stable compounds students should write
 
-  const PLAN = [ // [practice key, seed, draws, cap]
-    ['binaryionic', 41, 400, 40],
-    ['polyatomicionic', 42, 1500, 40],
-    ['acids', 43, 800, 60],
-    ['covalent', 44, 6000, 40],
+  const PLAN = [ // [skill, topics, seed, draws, cap]
+    ['binaryionic', ['f2n-t1', 'f2n-t2', 'n2f-t1', 'n2f-t2'], 41, 600, 40],
+    ['polyatomicionic', ['f2n-poly', 'n2f-poly'], 42, 1500, 40],
+    ['acids', ['acid-bin', 'acid-oxy'], 43, 800, 60],
+    ['covalent', ['f2n-cov', 'n2f-cov'], 44, 600, 40],
   ];
   const items = [];
-  for (const [mode, seed, draws, cap] of PLAN) {
+  for (const [skill, topics, seed, draws, cap] of PLAN) {
     await ctx.seed(seed);
-    const raw = await page.evaluate(({ mode, draws }) => {
-      const $ = id => document.getElementById(id);
-      const shown = id => $(id).style.display !== 'none';
-      document.querySelector(`.practice-btn[data-practice="${mode}"]`).click();
+    const raw = await page.evaluate(({ topics, draws }) => {
       const out = [];
+      const okCations = CATIONS.filter(c => c.id !== 'H3O').map(c => cationName(c));
       for (let t = 0; t < draws; t++) {
-        if (t) $('quizNextBtn').click();
-        if (shown('quizBuildArea')) continue;
-        const q = {
-          kicker: $('questionKicker').textContent, prompt: $('questionPrompt').textContent,
-          targetHTML: $('questionTarget').innerHTML, targetText: $('questionTarget').textContent,
-          hint: $('quizHint').textContent, dir: shown('quizNameArea') ? 'name' : 'formula',
-        };
-        $('quizRevealBtn').click();
-        const fb = $('quizFeedback');
-        q.name = fb.querySelector('strong').textContent;
-        const mono = fb.querySelector('.mono');
-        q.formula = mono ? mono.textContent : q.targetText;
-        q.formulaHTML = mono ? mono.innerHTML : q.targetHTML;
-        // candidate responses
-        let answer, accept = [];
-        if (q.dir === 'name') {
-          answer = q.name.replace(/\s+\(/g, '(');
-          if (/(^| )(di)?hydrogen\S/.test(answer)) { accept.push(answer); answer = answer.replace(/(^| )((di)?hydrogen)(\S)/, '$1$2 $4'); }
-          if (q.name !== answer) accept.push(q.name);
+        const q = generate(topics[t % topics.length], { course: '1A' });
+        const dir = q.kind;                        // 'name' (formula -> name) or 'formula' (name -> formula)
+        let answer = q.plain, accept = [...(q.accept || [])];
+        if (dir === 'name') {
+          if (/(^| )(di)?hydrogen /.test(answer)) accept.push(answer.replace(/(^| )((di)?hydrogen) /, '$1$2'));
           if (/\(/.test(answer)) accept.push(answer.replace(/\(/g, ' ('));
-        } else {
-          answer = q.formula;
-          if (/C2H3O2/.test(answer)) accept.push(answer.replace('C2H3O2', 'CH3COO'));
         }
         accept = [...new Set(accept)].filter(a => a !== answer);
-        q.answer = answer; q.accept = accept; q.fails = [];
-        for (const r of [answer, ...accept]) {
-          if (q.dir === 'name') $('quizNameInput').value = r; else $('quizFormulaInput').textContent = r;
-          $('quizCheckBtn').click();
-          if (!/\bok\b/.test(fb.className)) q.fails.push(r);
-        }
-        out.push(q);
+        const fails = [answer, ...accept].filter(r => !q.check(r).ok);
+        out.push({ dir, topic: q.topic, prompt: q.prompt, eqHTML: q.eq, name: q.name, formula: q.formula, answer, accept, hint: q.hint.replace(/<[^>]+>/g, ''),
+          cation: q.c ? cationName(q.c) : '', anion: q.a ? q.a.name : '', okCation: q.c ? okCations.includes(cationName(q.c)) : true, fails });
       }
       return out;
-    }, { mode, draws });
+    }, { topics, draws });
 
     const seen = new Set();
     let idx = 0;
@@ -102,30 +71,25 @@ module.exports = async (page, ctx) => {
       if (seen.has(key)) continue;
       seen.add(key);
       if (q.fails.length) throw new Error(`game rejected ${q.fails.join(', ')} for ${q.name}`);
-      // realness / convention filters
-      if (mode === 'acids') {
+      if (skill === 'acids') {
         if (!okAcid.has(q.formula)) continue;
-      } else if (mode === 'covalent') {
+      } else if (skill === 'covalent') {
         const els = q.formula.match(/[A-Z][a-z]?/g);
         if (els.length !== 2 || ORDER.indexOf(els[0]) > ORDER.indexOf(els[1]) || !REAL_COVALENT.has(q.formula)) continue;
       } else {
-        const words = norm(q.name).split(' ');
-        const an = words.pop(), cat = words.join(' ');
-        if (!okCation.has(cat) || !okAnion.has(an)) continue;
-        if (NONSENSE[cat] && (NONSENSE[cat].includes(an) || NONSENSE[cat].includes('*'))) continue;
+        if (!q.okCation || !okAnion.has(norm(q.anion))) continue;
+        if (NONSENSE[q.cation] && NONSENSE[q.cation].includes(q.anion)) continue;
       }
-      if (items.filter(i => i.skill === 'ionicformula.' + mode).length >= cap) break;
-      const it = { skill: 'ionicformula.' + mode, courses: ['3A', '1A'], chapters: ['3A-4', '1A-2'], type: 'text' };
-      if (q.dir === 'name') {
-        it.prompt = `${q.prompt}<br><strong>${q.targetHTML}</strong>`;
-      } else {
-        it.prompt = `${q.prompt}<br><strong>${q.targetText.replace(/\s+\(/g, '(')}</strong><br>Type the formula with plain numbers for subscripts, e.g. ${mode === 'acids' ? 'H2SO4' : mode === 'covalent' ? 'N2O4' : 'Ca(NO3)2'}.`;
-      }
+      if (items.filter(i => i.skill === 'ionicformula.' + skill).length >= cap) break;
+      const it = { skill: 'ionicformula.' + skill, courses: ['3A', '1A'], chapters: ['3A-4', '1A-2'], type: 'text' };
+      const fHTML = f => f.replace(/([A-Za-z)])(\d+)/g, '$1<sub>$2</sub>');
+      if (q.dir === 'name') it.prompt = `${q.prompt}<br><strong>${q.eqHTML}</strong>`;
+      else it.prompt = `${q.prompt}<br><strong>${q.name}</strong><br>Type the formula with plain numbers for subscripts, e.g. ${skill === 'acids' ? 'H2SO4' : skill === 'covalent' ? 'N2O4' : 'Ca(NO3)2'}.`;
       it.answer = q.answer;
       if (q.accept.length) it.accept = q.accept;
       it.hint = q.hint;
-      it.explain = `<strong>${q.name.replace(/\s+\(/g, '(')}</strong> = ${q.formulaHTML}`;
-      Object.assign(it, { origin: 'original', from: { game: 'ionicformula', list: 'sample:' + mode, index: idx++ } });
+      it.explain = `<strong>${q.name}</strong> = ${fHTML(q.formula)}`;
+      Object.assign(it, { origin: 'original', from: { game: 'ionicformula', list: 'sample:' + skill, index: idx++ } });
       items.push(it);
     }
   }

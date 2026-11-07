@@ -1,7 +1,6 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "banks": {
-  "sig-figs": 52,
   "redox": 208,
   "gas-laws": 21,
   "thermochemistry": 29,
@@ -13,40 +12,33 @@
   "final-exam-1a": 594,
   "final-exam-1b": 490,
   "algebratrainer-practice": 183,
+  "aminoacids-practice": 216,
   "carbohydrates-practice": 198,
   "chem1bready-practice": 385,
-  "elements-practice": 78,
+  "elements-practice": 330,
+  "enzymes-practice": 356,
   "functionalgroups-practice": 208,
   "gaslaws-practice": 578,
-  "ionicformula-practice": 168,
+  "ionicformula-practice": 174,
   "lewisstructures-practice": 683,
-  "metric-practice": 78,
+  "lipids-practice": 367,
+  "metabolism-practice": 443,
+  "metric-practice": 454,
   "moles-practice": 343,
+  "nucleicacids-practice": 479,
   "organic-practice": 55,
   "organicreactions-practice": 80,
-  "polyatomic-practice": 60,
+  "pHcharge-practice": 203,
+  "polyatomic-practice": 130,
   "redox-practice": 72,
+  "sigfig-practice": 380,
+  "stereochemistry-practice": 352,
   "stoichiometry-practice": 630,
   "thermochemistry-practice": 440
  },
  "chapters": {
-  "3A-1": {
-   "sig-figs": 52,
-   "final-exam-3a": 48,
-   "algebratrainer-practice": 12,
-   "gaslaws-practice": 20,
-   "metric-practice": 66
-  },
-  "1A-1": {
-   "sig-figs": 52,
-   "chem-1b-readiness": 12,
-   "final-exam-1a": 34,
-   "algebratrainer-practice": 12,
-   "chem1bready-practice": 40,
-   "metric-practice": 78
-  },
   "3A-10": {
-   "redox": 152,
+   "redox": 110,
    "reactions": 222,
    "final-exam-3a": 21,
    "redox-practice": 32
@@ -59,6 +51,7 @@
    "algebratrainer-practice": 3,
    "chem1bready-practice": 145,
    "gaslaws-practice": 20,
+   "redox-practice": 32,
    "stoichiometry-practice": 630,
    "thermochemistry-practice": 75
   },
@@ -96,14 +89,22 @@
    "chem1bready-practice": 40,
    "thermochemistry-practice": 35
   },
+  "1A-1": {
+   "chem-1b-readiness": 12,
+   "final-exam-1a": 34,
+   "algebratrainer-practice": 12,
+   "chem1bready-practice": 40,
+   "metric-practice": 438,
+   "sigfig-practice": 188
+  },
   "1A-2": {
    "chem-1b-readiness": 12,
    "final-exam-1a": 41,
    "algebratrainer-practice": 6,
    "chem1bready-practice": 40,
-   "elements-practice": 78,
-   "ionicformula-practice": 168,
-   "polyatomic-practice": 60
+   "elements-practice": 330,
+   "ionicformula-practice": 174,
+   "polyatomic-practice": 130
   },
   "1A-3": {
    "chem-1b-readiness": 12,
@@ -160,18 +161,26 @@
    "algebratrainer-practice": 12,
    "chem1bready-practice": 40
   },
+  "3A-1": {
+   "final-exam-3a": 48,
+   "algebratrainer-practice": 12,
+   "gaslaws-practice": 20,
+   "metric-practice": 268,
+   "sigfig-practice": 192
+  },
   "3A-review": {
    "final-exam-3a": 382
   },
   "3A-2": {
    "final-exam-3a": 28,
    "algebratrainer-practice": 3,
-   "elements-practice": 78
+   "elements-practice": 210
   },
   "3A-4": {
    "final-exam-3a": 33,
-   "ionicformula-practice": 168,
-   "polyatomic-practice": 60
+   "elements-practice": 19,
+   "ionicformula-practice": 174,
+   "polyatomic-practice": 130
   },
   "3A-5": {
    "final-exam-3a": 28,
@@ -212,7 +221,8 @@
    "final-exam-3b": 107,
    "functionalgroups-practice": 42,
    "organic-practice": 14,
-   "organicreactions-practice": 27
+   "organicreactions-practice": 27,
+   "stereochemistry-practice": 96
   },
   "3B-3": {
    "final-exam-3b": 27,
@@ -234,47 +244,65 @@
   },
   "3B-6": {
    "final-exam-3b": 114,
-   "carbohydrates-practice": 72
+   "aminoacids-practice": 4,
+   "carbohydrates-practice": 72,
+   "stereochemistry-practice": 352
   },
   "3B-7": {
    "final-exam-3b": 44,
    "functionalgroups-practice": 28,
    "organic-practice": 7,
-   "organicreactions-practice": 20
+   "organicreactions-practice": 20,
+   "pHcharge-practice": 60
   },
   "3B-8": {
    "final-exam-3b": 47,
    "functionalgroups-practice": 63,
    "organic-practice": 8,
-   "organicreactions-practice": 18
+   "organicreactions-practice": 18,
+   "pHcharge-practice": 51
   },
   "3B-9": {
    "final-exam-3b": 69,
-   "carbohydrates-practice": 198
+   "carbohydrates-practice": 198,
+   "stereochemistry-practice": 67
   },
   "3B-10": {
-   "final-exam-3b": 66
+   "final-exam-3b": 66,
+   "lipids-practice": 367
   },
   "3B-11": {
-   "final-exam-3b": 66
+   "final-exam-3b": 66,
+   "aminoacids-practice": 180,
+   "pHcharge-practice": 99,
+   "stereochemistry-practice": 16
   },
   "3B-12": {
-   "final-exam-3b": 76
+   "final-exam-3b": 76,
+   "enzymes-practice": 356,
+   "lipids-practice": 6,
+   "metabolism-practice": 15
   },
   "3B-13": {
-   "final-exam-3b": 54
+   "final-exam-3b": 54,
+   "aminoacids-practice": 36,
+   "nucleicacids-practice": 479
   },
   "3B-14": {
-   "final-exam-3b": 91
+   "final-exam-3b": 91,
+   "metabolism-practice": 185
   },
   "3B-15": {
-   "final-exam-3b": 91
+   "final-exam-3b": 91,
+   "metabolism-practice": 228
   },
   "3B-16": {
-   "final-exam-3b": 91
+   "final-exam-3b": 91,
+   "metabolism-practice": 129
   },
   "3B-17": {
-   "final-exam-3b": 91
+   "final-exam-3b": 91,
+   "metabolism-practice": 63
   },
   "1A-7": {
    "final-exam-1a": 73,
@@ -304,9 +332,6 @@
   }
  },
  "skills": {
-  "sigfig.count": 32,
-  "sigfig.round-sigfigs": 10,
-  "sigfig.round-decimals": 10,
   "redox.oxidation-numbers": 62,
   "redox.activity-series": 42,
   "redox.identify": 32,
@@ -394,6 +419,12 @@
   "algebratrainer.mx": 39,
   "algebratrainer.pw": 18,
   "algebratrainer.lg": 27,
+  "aminoacids.amino-acids": 36,
+  "aminoacids.condense-hydrolyze": 36,
+  "aminoacids.codons": 36,
+  "aminoacids.name-peptides": 36,
+  "aminoacids.protein-structure": 36,
+  "aminoacids.r-group-interactions": 36,
   "carbohydrates.classify": 36,
   "carbohydrates.fischer": 36,
   "carbohydrates.haworth": 18,
@@ -410,8 +441,30 @@
   "chem1bready.matter-energy": 40,
   "chem1bready.kinetics-equilibrium-prep": 40,
   "chem1bready.math-gym": 40,
-  "elements.nametosymbol": 39,
-  "elements.symboltoname": 39,
+  "elements.nametosymbol": 62,
+  "elements.symboltoname": 62,
+  "elements.tricky": 11,
+  "elements.where": 173,
+  "elements.ions": 22,
+  "enzymes.terms": 31,
+  "enzymes.models": 9,
+  "enzymes.energy": 3,
+  "enzymes.specific": 8,
+  "enzymes.six": 36,
+  "enzymes.names": 36,
+  "enzymes.structs": 24,
+  "enzymes.plot": 16,
+  "enzymes.predict": 36,
+  "enzymes.inhibit": 16,
+  "enzymes.regulate": 8,
+  "enzymes.dental": 17,
+  "enzymes.nursing": 19,
+  "enzymes.labs": 9,
+  "enzymes.disorders": 12,
+  "enzymes.cofactor": 11,
+  "enzymes.bvit": 24,
+  "enzymes.deficiency": 21,
+  "enzymes.soluble": 20,
   "functionalgroups.spot-group": 36,
   "functionalgroups.classify-degree": 30,
   "functionalgroups.name": 36,
@@ -434,7 +487,7 @@
   "gaslaws.van-der-waals": 38,
   "ionicformula.binaryionic": 40,
   "ionicformula.polyatomicionic": 40,
-  "ionicformula.acids": 48,
+  "ionicformula.acids": 54,
   "ionicformula.covalent": 40,
   "lewisstructures.valence-electrons": 80,
   "lewisstructures.vsepr-molecular-shape": 72,
@@ -450,12 +503,57 @@
   "lewisstructures.organic-polarity": 40,
   "lewisstructures.octet-exception": 30,
   "lewisstructures.organic-bonding-trends": 8,
+  "lipids.satur": 33,
+  "lipids.cistrans": 6,
+  "lipids.omega": 21,
+  "lipids.melt": 36,
+  "lipids.names": 24,
+  "lipids.build": 18,
+  "lipids.hydro": 36,
+  "lipids.sapon": 36,
+  "lipids.hydrog": 36,
+  "lipids.rancid": 6,
+  "lipids.classify": 36,
+  "lipids.hydrolyzable": 26,
+  "lipids.steroid": 10,
+  "lipids.eico": 7,
+  "lipids.vitamin": 6,
+  "lipids.bilayer": 8,
+  "lipids.transport": 12,
+  "lipids.clinic": 10,
+  "metabolism.big": 29,
+  "metabolism.glucose": 12,
+  "metabolism.where": 21,
+  "metabolism.diagram": 36,
+  "metabolism.count": 33,
+  "metabolism.fatty": 38,
+  "metabolism.carbon": 21,
+  "metabolism.energy": 13,
+  "metabolism.rxn": 36,
+  "metabolism.structq": 36,
+  "metabolism.coenz": 16,
+  "metabolism.predict": 14,
+  "metabolism.enzclass": 36,
+  "metabolism.vit": 15,
+  "metabolism.fates": 12,
+  "metabolism.reg": 11,
+  "metabolism.nitrogen": 14,
+  "metabolism.clinic": 22,
+  "metabolism.exam": 28,
   "metric.prefixtonumber": 13,
   "metric.symboltonumber": 13,
   "metric.prefixtosymbol": 13,
   "metric.symboltoprefix": 13,
   "metric.scientifictoprefix": 13,
   "metric.standardtoprefix": 13,
+  "metric.tobase": 60,
+  "metric.frombase": 60,
+  "metric.iv": 8,
+  "metric.twoprefix": 60,
+  "metric.dose": 8,
+  "metric.area": 60,
+  "metric.volume": 60,
+  "metric.cm3ml": 60,
   "moles.road": 70,
   "moles.molar": 35,
   "moles.percent": 56,
@@ -463,13 +561,62 @@
   "moles.sense": 35,
   "moles.health": 39,
   "moles.solution": 35,
+  "nucleicacids.bases": 20,
+  "nucleicacids.sugars": 3,
+  "nucleicacids.nucleo": 20,
+  "nucleicacids.naming": 36,
+  "nucleicacids.backbone": 36,
+  "nucleicacids.pairing": 36,
+  "nucleicacids.hbonds": 36,
+  "nucleicacids.chargaff": 36,
+  "nucleicacids.helix": 10,
+  "nucleicacids.replication": 36,
+  "nucleicacids.transcribe": 36,
+  "nucleicacids.splicing": 36,
+  "nucleicacids.transfacts": 7,
+  "nucleicacids.codons": 36,
+  "nucleicacids.anticodon": 36,
+  "nucleicacids.translation": 17,
+  "nucleicacids.mutations": 36,
+  "nucleicacids.viruses": 6,
   "organic.picture-to-name": 16,
   "organic.real-molecules": 39,
   "organicreactions.reaction-type": 40,
   "organicreactions.name-product": 40,
+  "pHcharge.acid-base-or-neither": 19,
+  "pHcharge.acid-strength": 12,
+  "pHcharge.form-at-body-ph": 34,
+  "pHcharge.net-charge": 18,
+  "pHcharge.amino-acid-charge": 36,
+  "pHcharge.above-below-pi": 24,
+  "pHcharge.peptide-charge": 36,
+  "pHcharge.neutralization": 10,
+  "pHcharge.salts-solubility": 3,
+  "pHcharge.drugs-blood-ph": 11,
   "polyatomic.nametoformula": 30,
   "polyatomic.formulatoname": 30,
+  "polyatomic.charge": 30,
+  "polyatomic.ate-ite-family": 40,
   "redox.galvanic-cells": 40,
+  "sigfig.count": 56,
+  "sigfig.round-sigfigs": 60,
+  "sigfig.round-decimals": 60,
+  "sigfig.scientific-notation": 59,
+  "sigfig.multiply-divide": 36,
+  "sigfig.add-subtract": 60,
+  "sigfig.multi-step": 49,
+  "stereochemistry.key-terms": 28,
+  "stereochemistry.spot-chiral-carbon": 32,
+  "stereochemistry.count-chiral-carbons": 36,
+  "stereochemistry.number-of-stereoisomers": 31,
+  "stereochemistry.enantiomers-diastereomers": 36,
+  "stereochemistry.constitutional-isomers": 24,
+  "stereochemistry.cis-trans-alkenes": 36,
+  "stereochemistry.cis-trans-rings": 36,
+  "stereochemistry.d-l-sugars": 30,
+  "stereochemistry.d-l-amino-acids": 13,
+  "stereochemistry.compare-fischer": 36,
+  "stereochemistry.chiral-drugs": 14,
   "stoichiometry.learn-recipe": 35,
   "stoichiometry.learn-ratio": 35,
   "stoichiometry.learn-molmol": 35,

@@ -628,6 +628,69 @@
    "url": "https://itsdrdan.github.io/elements/"
   },
   {
+   "id": "elements.tricky",
+   "game": "elements",
+   "mode": "tricky",
+   "title": "Tricky Symbols (Latin names)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-2",
+    "1A-2"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "text",
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/elements/"
+  },
+  {
+   "id": "elements.where",
+   "game": "elements",
+   "mode": "where",
+   "title": "Where is it? (groups, periods, families, metals)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-2",
+    "1A-2"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "multiple-choice",
+    "click (periodic table picker)"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/elements/"
+  },
+  {
+   "id": "elements.ions",
+   "game": "elements",
+   "mode": "ions",
+   "title": "Common ions",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-2",
+    "3A-4",
+    "1A-2"
+   ],
+   "kind": "static",
+   "answerTypes": [
+    "multiple-choice"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/elements/"
+  },
+  {
    "id": "functionalgroups.spot",
    "game": "functionalgroups",
    "mode": "spot",
@@ -1696,6 +1759,162 @@
    "kind": "generated",
    "answerTypes": [
     "text"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/metric/"
+  },
+  {
+   "id": "metric.tobase",
+   "game": "metric",
+   "mode": "toBase",
+   "title": "Prefix → base unit (mg → g)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-1",
+    "1A-1"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/metric/"
+  },
+  {
+   "id": "metric.frombase",
+   "game": "metric",
+   "mode": "fromBase",
+   "title": "Base unit → prefix (g → mg)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-1",
+    "1A-1"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/metric/"
+  },
+  {
+   "id": "metric.iv",
+   "game": "metric",
+   "mode": "iv",
+   "title": "IV volumes: mL ↔ L",
+   "courses": [
+    "3A"
+   ],
+   "chapters": [
+    "3A-1"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/metric/"
+  },
+  {
+   "id": "metric.twoprefix",
+   "game": "metric",
+   "mode": "twoPrefix",
+   "title": "Prefix → prefix (mg → µg)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-1",
+    "1A-1"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/metric/"
+  },
+  {
+   "id": "metric.dose",
+   "game": "metric",
+   "mode": "dose",
+   "title": "Doses: mg ↔ mcg (µg)",
+   "courses": [
+    "3A"
+   ],
+   "chapters": [
+    "3A-1"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/metric/"
+  },
+  {
+   "id": "metric.area",
+   "game": "metric",
+   "mode": "area",
+   "title": "Squared units (cm² → m²)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-1",
+    "1A-1"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/metric/"
+  },
+  {
+   "id": "metric.volume",
+   "game": "metric",
+   "mode": "volume",
+   "title": "Cubed units (cm³ → m³)",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-1",
+    "1A-1"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
+   ],
+   "pictures": false,
+   "url": "https://itsdrdan.github.io/metric/"
+  },
+  {
+   "id": "metric.cm3ml",
+   "game": "metric",
+   "mode": "cm3ml",
+   "title": "cm³ = mL",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-1",
+    "1A-1"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "numeric"
    ],
    "pictures": false,
    "url": "https://itsdrdan.github.io/metric/"

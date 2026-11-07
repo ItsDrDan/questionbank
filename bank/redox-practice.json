@@ -1,20 +1,19 @@
 [
  {
-  "id": "redox-7f1879bf",
+  "id": "redox-964f333b",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Fe in Fe²⁺(aq) and an electrode of Ag in Ag⁺(aq). Here n = 2 and E°cell = 1.24 V.</p><div class=\"equation-box\">Fe(s) + 2 Ag⁺(aq) → Fe²⁺(aq) + 2 Ag(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
-  "answer": 41.9,
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Fe in Fe²⁺(aq) and an electrode of Ag in Ag⁺(aq). Here n = 2 and E°cell = 1.25 V.</p><div class=\"equation-box\">Fe(s) + 2 Ag⁺(aq) → Fe²⁺(aq) + 2 Ag(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
+  "answer": 42.2,
   "tolerance": 0.012,
   "hint": "At 25 °C: log K = nE°cell / 0.0592. Keep n as the total electrons transferred in the balanced equation.",
-  "explain": "log K = (2)(1.24)/0.0592 = 41.9, so K ≈ 10^42. A large K means products are strongly favored.",
+  "explain": "log K = (2)(1.25)/0.0592 = 42.2, so K ≈ 10^42. A large K means products are strongly favored.",
   "origin": "original",
   "from": {
    "game": "redox",
@@ -23,21 +22,20 @@
   }
  },
  {
-  "id": "redox-22ecc7bc",
+  "id": "redox-ec34cb60",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A galvanic cell has an anode of Fe in 1 M Fe²⁺ and a cathode of Cu in 2 M Cu²⁺. Standard E°cell = 0.78 V and n = 2.</p><p>Net: Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Fe²⁺] / [Cu²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is the reaction quotient Q?</b></p>",
+  "prompt": "<p class=\"prompt\">A galvanic cell has an anode of Fe in 1 M Fe²⁺ and a cathode of Cu in 2 M Cu²⁺. Standard E°cell = 0.79 V and n = 2.</p><p>Net: Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Fe²⁺] / [Cu²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is the reaction quotient Q?</b></p>",
   "answer": 0.5,
   "tolerance": 0.012,
   "hint": "Q = [product ion]/[reactant ion] = [anode ion]/[cathode ion]. Then E = E° − (0.0592/n)·log Q. If Q < 1, E is larger than E°.",
-  "explain": "Q = 0.5. E = 0.78 − (0.0592/2)·log(0.5) = 0.789 V.",
+  "explain": "Q = 0.5. E = 0.79 − (0.0592/2)·log(0.5) = 0.799 V.",
   "origin": "original",
   "from": {
    "game": "redox",
@@ -46,22 +44,21 @@
   }
  },
  {
-  "id": "redox-29031e8d",
+  "id": "redox-07aa6873",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A galvanic cell has an anode of Fe in 1 M Fe²⁺ and a cathode of Cu in 2 M Cu²⁺. Standard E°cell = 0.78 V and n = 2.</p><p>Net: Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Fe²⁺] / [Cu²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is Ecell, in volts?</b></p>",
-  "answer": 0.789,
+  "prompt": "<p class=\"prompt\">A galvanic cell has an anode of Fe in 1 M Fe²⁺ and a cathode of Cu in 2 M Cu²⁺. Standard E°cell = 0.79 V and n = 2.</p><p>Net: Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s)</p><p>Nernst at 25 °C: E = E° − (0.0592/n) log Q, where Q = [Fe²⁺] / [Cu²⁺] (both charges are the same, so the exponents are 1).</p><p><b>What is Ecell, in volts?</b></p>",
+  "answer": 0.799,
   "unit": "V",
-  "tolerance": 0.0051,
+  "tolerance": 0.005,
   "hint": "Q = [product ion]/[reactant ion] = [anode ion]/[cathode ion]. Then E = E° − (0.0592/n)·log Q. If Q < 1, E is larger than E°.",
-  "explain": "Q = 0.5. E = 0.78 − (0.0592/2)·log(0.5) = 0.789 V.",
+  "explain": "Q = 0.5. E = 0.79 − (0.0592/2)·log(0.5) = 0.799 V.",
   "origin": "original",
   "from": {
    "game": "redox",
@@ -73,7 +70,6 @@
   "id": "redox-d66b2d53",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -99,7 +95,6 @@
   "id": "redox-49194db4",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -125,7 +120,6 @@
   "id": "redox-1e0d23be",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -149,7 +143,6 @@
   "id": "redox-547701c7",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -173,7 +166,6 @@
   "id": "redox-88e8b843",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -201,7 +193,6 @@
   "id": "redox-a86525c9",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -227,7 +218,6 @@
   "id": "redox-6a861f48",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -253,7 +243,6 @@
   "id": "redox-40427d81",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -279,7 +268,6 @@
   "id": "redox-b8754d7b",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -305,7 +293,6 @@
   "id": "redox-3b866ded",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -331,7 +318,6 @@
   "id": "redox-2559d837",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -355,7 +341,6 @@
   "id": "redox-f39deeff",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -383,7 +368,6 @@
   "id": "redox-a458285d",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -409,7 +393,6 @@
   "id": "redox-c7040a85",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -435,7 +418,6 @@
   "id": "redox-df1fb6e7",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -461,7 +443,6 @@
   "id": "redox-f64d4f6c",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -485,7 +466,6 @@
   "id": "redox-52bbf00c",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -508,7 +488,6 @@
   "id": "redox-f4772e4b",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -532,7 +511,6 @@
   "id": "redox-10d64b53",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -555,7 +533,6 @@
   "id": "redox-16d2a30a",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -579,7 +556,6 @@
   "id": "redox-a908aa65",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -603,7 +579,6 @@
   "id": "redox-09c08440",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -624,21 +599,20 @@
   }
  },
  {
-  "id": "redox-8be9b1ec",
+  "id": "redox-511a788a",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Fe in Fe²⁺(aq) and an electrode of Cu in Cu²⁺(aq). Here n = 2 and E°cell = 0.78 V.</p><div class=\"equation-box\">Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
-  "answer": 26.4,
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Fe in Fe²⁺(aq) and an electrode of Cu in Cu²⁺(aq). Here n = 2 and E°cell = 0.79 V.</p><div class=\"equation-box\">Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s)</div><p>At 25 °C, log K = nE°/0.0592. Find log K (the exponent of K).</p>",
+  "answer": 26.7,
   "tolerance": 0.012,
   "hint": "At 25 °C: log K = nE°cell / 0.0592. Keep n as the total electrons transferred in the balanced equation.",
-  "explain": "log K = (2)(0.78)/0.0592 = 26.4, so K ≈ 10^26. A large K means products are strongly favored.",
+  "explain": "log K = (2)(0.79)/0.0592 = 26.7, so K ≈ 10^27. A large K means products are strongly favored.",
   "origin": "original",
   "from": {
    "game": "redox",
@@ -650,7 +624,6 @@
   "id": "redox-2e130555",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -673,7 +646,6 @@
   "id": "redox-40d78cf2",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -694,22 +666,21 @@
   }
  },
  {
-  "id": "redox-519b9634",
+  "id": "redox-4060a243",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
    "1B-17"
   ],
   "type": "number",
-  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Mg in Mg²⁺(aq) and an electrode of Fe in Fe²⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Mg²⁺(aq) + 2 e⁻ → Mg(s)</td><td>-2.37</td></tr><tr><td>Fe²⁺(aq) + 2 e⁻ → Fe(s)</td><td>-0.44</td></tr></tbody></table><p><b>What is E°cell, in volts?</b></p>",
-  "answer": 1.93,
+  "prompt": "<p class=\"prompt\">A standard galvanic cell (25 °C, all solutions 1.00 M) uses an electrode of Mg in Mg²⁺(aq) and an electrode of Fe in Fe²⁺(aq).</p><table class=\"cell-table\"><thead><tr><th>Half-reaction (reduction)</th><th>E° (V)</th></tr></thead><tbody><tr><td>Mg²⁺(aq) + 2 e⁻ → Mg(s)</td><td>-2.37</td></tr><tr><td>Fe²⁺(aq) + 2 e⁻ → Fe(s)</td><td>-0.45</td></tr></tbody></table><p><b>What is E°cell, in volts?</b></p>",
+  "answer": 1.92,
   "unit": "V",
   "tolerance": 0.0031,
   "hint": "Reduction happens at the electrode with the larger (more positive) E°. Then E°cell = E°cathode − E°anode. Do not multiply E° by coefficients.",
-  "explain": "The cathode is the larger (more positive) E°: Fe at -0.44 V. E°cell = E°cathode − E°anode = -0.44 − (-2.37) = 1.93 V. Net: Mg(s) + Fe²⁺(aq) → Mg²⁺(aq) + Fe(s)",
+  "explain": "The cathode is the larger (more positive) E°: Fe at -0.45 V. E°cell = E°cathode − E°anode = -0.45 − (-2.37) = 1.92 V. Net: Mg(s) + Fe²⁺(aq) → Mg²⁺(aq) + Fe(s)",
   "origin": "original",
   "from": {
    "game": "redox",
@@ -721,7 +692,6 @@
   "id": "redox-784ec822",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -749,7 +719,6 @@
   "id": "redox-f9a1a027",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -772,7 +741,6 @@
   "id": "redox-d77a1d30",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -796,7 +764,6 @@
   "id": "redox-abdcd545",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -824,7 +791,6 @@
   "id": "redox-59272509",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -848,7 +814,6 @@
   "id": "redox-f38bacd2",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -872,7 +837,6 @@
   "id": "redox-cbc0d9ae",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -895,7 +859,6 @@
   "id": "redox-4b149897",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -919,7 +882,6 @@
   "id": "redox-8d2c9ed6",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -947,7 +909,6 @@
   "id": "redox-0ce747a9",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -970,7 +931,6 @@
   "id": "redox-6080ddf2",
   "skill": "redox.galvanic-cells",
   "courses": [
-   "1A",
    "1B"
   ],
   "chapters": [
@@ -994,10 +954,12 @@
   "id": "redox-052359f5",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species contains N with the LOWEST oxidation number?</p>",
@@ -1021,10 +983,12 @@
   "id": "redox-ebe7096d",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "number",
   "prompt": "<p class=\"prompt\">Before the two half-reactions can be added, the electrons must cancel. What whole-number multipliers are needed?</p><div class=\"equation-box\">Ag(s) → Ag⁺(aq) + 1 e⁻</div><div class=\"equation-box\">Au³⁺(aq) + 3 e⁻ → Au(s)</div><p><b>By what whole number must the oxidation half-reaction (first) be multiplied?</b></p>",
@@ -1043,10 +1007,12 @@
   "id": "redox-47cbf046",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "number",
   "prompt": "<p class=\"prompt\">Before the two half-reactions can be added, the electrons must cancel. What whole-number multipliers are needed?</p><div class=\"equation-box\">Ag(s) → Ag⁺(aq) + 1 e⁻</div><div class=\"equation-box\">Au³⁺(aq) + 3 e⁻ → Au(s)</div><p><b>By what whole number must the reduction half-reaction (second) be multiplied?</b></p>",
@@ -1065,10 +1031,12 @@
   "id": "redox-150d8825",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species is the reducing agent?</p><div class=\"equation-box\">Cu(s) + 2 Ag⁺(aq) → Cu²⁺(aq) + 2 Ag(s)</div>",
@@ -1092,10 +1060,12 @@
   "id": "redox-0b044f12",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species is reduced?</p><div class=\"equation-box\">Mg(s) + Zn²⁺(aq) → Mg²⁺(aq) + Zn(s)</div>",
@@ -1107,7 +1077,7 @@
   ],
   "answer": "Zn²⁺(aq)",
   "hint": "Find which reactant loses electrons (oxidation) and which gains (reduction). The reducing agent is oxidized; the oxidizing agent is reduced.",
-  "explain": "Zn²⁺(aq) gains electrons: its charge falls toward 0. Mg goes 0 → +2; Zn goes +2 → 0.",
+  "explain": "Zn²⁺(aq) gains electrons: its charge falls to 0. Mg goes 0 → +2; Zn goes +2 → 0.",
   "origin": "original",
   "from": {
    "game": "redox",
@@ -1119,10 +1089,12 @@
   "id": "redox-3e627bff",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "number",
   "prompt": "<p class=\"prompt\">Before the two half-reactions can be added, the electrons must cancel. What whole-number multipliers are needed?</p><div class=\"equation-box\">Zn(s) → Zn²⁺(aq) + 2 e⁻</div><div class=\"equation-box\">Au³⁺(aq) + 3 e⁻ → Au(s)</div><p><b>By what whole number must the oxidation half-reaction (first) be multiplied?</b></p>",
@@ -1141,10 +1113,12 @@
   "id": "redox-87489206",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "number",
   "prompt": "<p class=\"prompt\">Before the two half-reactions can be added, the electrons must cancel. What whole-number multipliers are needed?</p><div class=\"equation-box\">Zn(s) → Zn²⁺(aq) + 2 e⁻</div><div class=\"equation-box\">Au³⁺(aq) + 3 e⁻ → Au(s)</div><p><b>By what whole number must the reduction half-reaction (second) be multiplied?</b></p>",
@@ -1163,10 +1137,12 @@
   "id": "redox-27fc4185",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species is oxidized?</p><div class=\"equation-box\">Mg(s) + Zn²⁺(aq) → Mg²⁺(aq) + Zn(s)</div>",
@@ -1190,10 +1166,12 @@
   "id": "redox-d80f7ea8",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species contains C with the LOWEST oxidation number?</p>",
@@ -1217,10 +1195,12 @@
   "id": "redox-d66773f9",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species is the oxidizing agent?</p><div class=\"equation-box\">Al(s) + Au³⁺(aq) → Al³⁺(aq) + Au(s)</div>",
@@ -1244,10 +1224,12 @@
   "id": "redox-a5300508",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species contains C with the HIGHEST oxidation number?</p>",
@@ -1271,10 +1253,12 @@
   "id": "redox-23c9a6b8",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species is the reducing agent?</p><div class=\"equation-box\">Fe(s) + 2 Ag⁺(aq) → Fe²⁺(aq) + 2 Ag(s)</div>",
@@ -1298,10 +1282,12 @@
   "id": "redox-e7013964",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species is the reducing agent?</p><div class=\"equation-box\">Zn(s) + Ni²⁺(aq) → Zn²⁺(aq) + Ni(s)</div>",
@@ -1325,10 +1311,12 @@
   "id": "redox-fc7f6544",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "number",
   "prompt": "<p class=\"prompt\">Before the two half-reactions can be added, the electrons must cancel. What whole-number multipliers are needed?</p><div class=\"equation-box\">Cu(s) → Cu²⁺(aq) + 2 e⁻</div><div class=\"equation-box\">Au³⁺(aq) + 3 e⁻ → Au(s)</div><p><b>By what whole number must the oxidation half-reaction (first) be multiplied?</b></p>",
@@ -1347,10 +1335,12 @@
   "id": "redox-b8002aa9",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "number",
   "prompt": "<p class=\"prompt\">Before the two half-reactions can be added, the electrons must cancel. What whole-number multipliers are needed?</p><div class=\"equation-box\">Cu(s) → Cu²⁺(aq) + 2 e⁻</div><div class=\"equation-box\">Au³⁺(aq) + 3 e⁻ → Au(s)</div><p><b>By what whole number must the reduction half-reaction (second) be multiplied?</b></p>",
@@ -1369,10 +1359,12 @@
   "id": "redox-b80d6966",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "number",
   "prompt": "<p class=\"prompt\">Before the two half-reactions can be added, the electrons must cancel. What whole-number multipliers are needed?</p><div class=\"equation-box\">Zn(s) → Zn²⁺(aq) + 2 e⁻</div><div class=\"equation-box\">Ag⁺(aq) + 1 e⁻ → Ag(s)</div><p><b>By what whole number must the oxidation half-reaction (first) be multiplied?</b></p>",
@@ -1391,10 +1383,12 @@
   "id": "redox-4ea745ea",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "number",
   "prompt": "<p class=\"prompt\">Before the two half-reactions can be added, the electrons must cancel. What whole-number multipliers are needed?</p><div class=\"equation-box\">Zn(s) → Zn²⁺(aq) + 2 e⁻</div><div class=\"equation-box\">Ag⁺(aq) + 1 e⁻ → Ag(s)</div><p><b>By what whole number must the reduction half-reaction (second) be multiplied?</b></p>",
@@ -1413,10 +1407,12 @@
   "id": "redox-624ff8d4",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species is the oxidizing agent?</p><div class=\"equation-box\">Sn(s) + Cu²⁺(aq) → Sn²⁺(aq) + Cu(s)</div>",
@@ -1440,10 +1436,12 @@
   "id": "redox-3ee37c07",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species is the oxidizing agent?</p><div class=\"equation-box\">3 Ag(s) + Au³⁺(aq) → 3 Ag⁺(aq) + Au(s)</div>",
@@ -1467,10 +1465,12 @@
   "id": "redox-58770155",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species contains Cl with the LOWEST oxidation number?</p>",
@@ -1494,10 +1494,12 @@
   "id": "redox-8f285c0a",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species is reduced?</p><div class=\"equation-box\">3 Ni(s) + 2 Au³⁺(aq) → 3 Ni²⁺(aq) + 2 Au(s)</div>",
@@ -1509,7 +1511,7 @@
   ],
   "answer": "Au³⁺(aq)",
   "hint": "Find which reactant loses electrons (oxidation) and which gains (reduction). The reducing agent is oxidized; the oxidizing agent is reduced.",
-  "explain": "Au³⁺(aq) gains electrons: its charge falls toward 0. Ni goes 0 → +2; Au goes +3 → 0.",
+  "explain": "Au³⁺(aq) gains electrons: its charge falls to 0. Ni goes 0 → +2; Au goes +3 → 0.",
   "origin": "original",
   "from": {
    "game": "redox",
@@ -1521,10 +1523,12 @@
   "id": "redox-78485361",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species contains C with the LOWEST oxidation number?</p>",
@@ -1548,10 +1552,12 @@
   "id": "redox-3f8eb78e",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species contains Mn with the LOWEST oxidation number?</p>",
@@ -1575,10 +1581,12 @@
   "id": "redox-f2311e51",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species contains N with the LOWEST oxidation number?</p>",
@@ -1602,10 +1610,12 @@
   "id": "redox-01da55ce",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species is reduced?</p><div class=\"equation-box\">Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s)</div>",
@@ -1617,7 +1627,7 @@
   ],
   "answer": "Cu²⁺(aq)",
   "hint": "Find which reactant loses electrons (oxidation) and which gains (reduction). The reducing agent is oxidized; the oxidizing agent is reduced.",
-  "explain": "Cu²⁺(aq) gains electrons: its charge falls toward 0. Fe goes 0 → +2; Cu goes +2 → 0.",
+  "explain": "Cu²⁺(aq) gains electrons: its charge falls to 0. Fe goes 0 → +2; Cu goes +2 → 0.",
   "origin": "original",
   "from": {
    "game": "redox",
@@ -1629,10 +1639,12 @@
   "id": "redox-579ec294",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species contains Cr with the HIGHEST oxidation number?</p>",
@@ -1656,10 +1668,12 @@
   "id": "redox-fb7610b3",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species contains N with the LOWEST oxidation number?</p>",
@@ -1683,10 +1697,12 @@
   "id": "redox-76a23027",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species is oxidized?</p><div class=\"equation-box\">3 Ag(s) + Au³⁺(aq) → 3 Ag⁺(aq) + Au(s)</div>",
@@ -1710,10 +1726,12 @@
   "id": "redox-19369720",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species contains N with the HIGHEST oxidation number?</p>",
@@ -1734,25 +1752,27 @@
   }
  },
  {
-  "id": "redox-25657c5d",
+  "id": "redox-c547b6d3",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">Which species is oxidized?</p><div class=\"equation-box\">2 Cr(s) + 3 Fe²⁺(aq) → 2 Cr³⁺(aq) + 3 Fe(s)</div>",
+  "prompt": "<p class=\"prompt\">Which species is oxidized?</p><div class=\"equation-box\">Cr(s) + Au³⁺(aq) → Cr³⁺(aq) + Au(s)</div>",
   "choices": [
-   "Fe(s)",
    "Cr³⁺(aq)",
-   "Fe²⁺(aq)",
+   "Au(s)",
+   "Au³⁺(aq)",
    "Cr(s)"
   ],
   "answer": "Cr(s)",
   "hint": "Find which reactant loses electrons (oxidation) and which gains (reduction). The reducing agent is oxidized; the oxidizing agent is reduced.",
-  "explain": "Cr(s) loses electrons: its oxidation number rises from 0. Cr goes 0 → +3; Fe goes +2 → 0.",
+  "explain": "Cr(s) loses electrons: its oxidation number rises from 0. Cr goes 0 → +3; Au goes +3 → 0.",
   "origin": "original",
   "from": {
    "game": "redox",
@@ -1761,25 +1781,27 @@
   }
  },
  {
-  "id": "redox-af9f85b6",
+  "id": "redox-530fb1f1",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">Which species contains Cr with the LOWEST oxidation number?</p>",
+  "prompt": "<p class=\"prompt\">Which species contains Cl with the HIGHEST oxidation number?</p>",
   "choices": [
-   "Cr",
-   "CrCl₂",
-   "CrO₂",
-   "CrO₄²⁻"
+   "Cl₂",
+   "ClO₂⁻",
+   "ClO⁻",
+   "Cl⁻"
   ],
-  "answer": "Cr",
+  "answer": "ClO₂⁻",
   "hint": "Assign oxidation numbers: O is usually −2, H is +1, and the total must equal the charge on the species.",
-  "explain": "Oxidation numbers of Cr: Cr = 0; CrO₄²⁻ = +6; CrCl₂ = +2; CrO₂ = +4. Lowest is Cr.",
+  "explain": "Oxidation numbers of Cl: Cl⁻ = −1; Cl₂ = 0; ClO₂⁻ = +3; ClO⁻ = +1. Highest is ClO₂⁻.",
   "origin": "original",
   "from": {
    "game": "redox",
@@ -1791,22 +1813,24 @@
   "id": "redox-3978ba21",
   "skill": "redox.concepts",
   "courses": [
-   "3A"
+   "3A",
+   "1A"
   ],
   "chapters": [
-   "3A-10"
+   "3A-10",
+   "1A-4"
   ],
   "type": "mc",
   "prompt": "<p class=\"prompt\">Which species contains Mn with the HIGHEST oxidation number?</p>",
   "choices": [
-   "Mn",
+   "MnSO₄",
+   "MnO₂",
    "MnO₄²⁻",
-   "Mn₂O₃",
    "KMnO₄"
   ],
   "answer": "KMnO₄",
   "hint": "Assign oxidation numbers: O is usually −2, H is +1, and the total must equal the charge on the species.",
-  "explain": "Oxidation numbers of Mn: Mn = 0; Mn₂O₃ = +3; MnO₄²⁻ = +6; KMnO₄ = +7. Highest is KMnO₄.",
+  "explain": "Oxidation numbers of Mn: MnO₄²⁻ = +6; KMnO₄ = +7; MnO₂ = +4; MnSO₄ = +2. Highest is KMnO₄.",
   "origin": "original",
   "from": {
    "game": "redox",
