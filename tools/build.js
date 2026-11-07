@@ -142,7 +142,7 @@ function mcFromArray(a, hasTitle) {
     const plain = h => strip(String(h ?? '')
       .replace(/<sub>([^<]*)<\/sub>/g, (m, t) => /^[0-9]+$/.test(t) ? [...t].map(c => SUB[c]).join('') : '_' + t)
       .replace(/<sup>([^<]*)<\/sup>/g, (m, t) => [...t].every(c => SUP[c]) ? [...t].map(c => SUP[c]).join('') : '^' + t)
-      .replace(/<br\s*\/?>/g, ' ').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&'));
+      .replace(/<br\s*\/?>/g, ' ')).replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');  // decode after strip, so "A &lt; B" is not read as a tag
     const CH = {
       '3A': { measure: ['1'], atoms: ['2'], electrons: ['3'], matter: ['1', '7'], naming: ['4'], moles: ['5'], bonding: ['6'], energy: ['7'], gases: ['8'], solutions: ['9'], reactions: ['10'], stoich: ['11'], acids: ['12'], equilibrium: ['13'], nuclear: ['14'] },
       '3B': { structure: ['1'], properties: ['1'], hydrocarbons: ['2'], isomers: ['2', '6'], aromatic: ['3'], alcohols: ['4'], carbonyls: ['5'], chirality: ['6'], acids_esters: ['7'], amines: ['8'], carbs: ['9'], lipids: ['10'], proteins: ['11'], enzymes: ['12'], nucleic: ['13'], metabolism: ['14', '15', '16', '17'] },

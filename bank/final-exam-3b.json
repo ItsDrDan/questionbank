@@ -9184,7 +9184,7 @@
    "Gly moves to the + electrode, while Lys and Asp stay in place"
   ],
   "answer": "Lys moves to the − electrode, Asp to the + electrode, Gly stays",
-  "hint": "If pH pI it is net negative; at pH = pI the net charge is zero.",
+  "hint": "If pH < pI the amino acid is net positive; if pH > pI it is net negative; at pH = pI the net charge is zero.",
   "explain": "At pH 6.0, lysine (pH below its pI) is net positive and moves to the negative electrode; aspartic acid (pH above its pI) is net negative and moves to the positive electrode; glycine is at its pI (zwitterion) and does not move.",
   "html": {
    "prompt": "A mixture of the three amino acids in the table undergoes electrophoresis in a buffer at pH 6.0. Compare the buffer pH with each pI. Which result is expected?",
@@ -10653,7 +10653,7 @@
   ],
   "answer": "CH₃CH₂CH₃ < CH₃OCH₃ < CH₃CH₂OH",
   "hint": "With similar size, rank by the strongest IMF: dispersion only < dipole–dipole < hydrogen bonding.",
-  "explain": "Propane is nonpolar (dispersion only), dimethyl ether is polar (dipole–dipole), and ethanol has O–H (hydrogen bonding): propane (−42 °C, −24 °C, 78 °C).",
+  "explain": "Propane is nonpolar (dispersion only), dimethyl ether is polar (dipole–dipole), and ethanol has O–H (hydrogen bonding): propane < dimethyl ether < ethanol (−42 °C, −24 °C, 78 °C).",
   "html": {
    "prompt": "Propane, dimethyl ether and ethanol have similar molar masses. Which ranking of boiling points is correct?",
    "choices": [

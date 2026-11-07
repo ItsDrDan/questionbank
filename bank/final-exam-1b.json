@@ -1427,7 +1427,7 @@
   ],
   "answer": "Q = 12.5; the reaction shifts to the right.",
   "hint": "Compute Q with the same form as K (square [HI]) and compare with K.",
-  "explain": "Q = (0.50)²/[(0.10)(0.20)] = 12.5 to the right to make more HI. Forgetting to square [HI] gives 25.",
+  "explain": "Q = (0.50)²/[(0.10)(0.20)] = 12.5 < 50.5, so the net reaction goes to the right to make more HI. Forgetting to square [HI] gives 25.",
   "html": {
    "prompt": "For the reaction shown, K<sub>c</sub> = 50.5 at 448 °C. A mixture has the concentrations in the table. Which is correct?",
    "choices": [
@@ -1598,7 +1598,7 @@
   ],
   "answer": "The equilibrium shifts right and the red color deepens.",
   "hint": "Le Châtelier: adding a reactant pushes the system to use some of it up.",
-  "explain": "Extra SCN⁻ makes Q shifts right, forming more red FeSCN²⁺. K stays the same; only the position shifts.",
+  "explain": "Extra SCN⁻ makes Q < K, so the system shifts right, forming more red FeSCN²⁺. K stays the same; only the position shifts.",
   "html": {
    "prompt": "For the equilibrium shown (FeSCN<sup>2+</sup> is blood-red), a few drops of concentrated KSCN are added. What happens?",
    "choices": [
@@ -2762,7 +2762,7 @@
   ],
   "answer": "HCl < NH₄Cl < NaCl < NaCN",
   "hint": "Classify each: strong acid, weak acid (cation), neutral salt, weak base (anion).",
-  "explain": "HCl is a strong acid (lowest pH); NH⁺₄ is a weak acid; NaCl is neutral; CN⁻ is a weak base (highest pH): HCl .",
+  "explain": "HCl is a strong acid (lowest pH); NH⁺₄ is a weak acid; NaCl is neutral; CN⁻ is a weak base (highest pH): HCl < NH₄Cl < NaCl < NaCN.",
   "html": {
    "prompt": "Rank these 0.10 M solutions in order of increasing pH: NaCN, HCl, NaCl, NH<sub>4</sub>Cl.",
    "choices": [
@@ -2804,7 +2804,7 @@
   ],
   "answer": "HOI < HOBr < HOCl",
   "hint": "For oxyacids with the same structure, a more electronegative central atom pulls electron density from the O–H bond.",
-  "explain": "Cl is the most electronegative, which weakens the O–H bond and stabilizes OCl⁻: HOI . The reverse order is the trend for binary acids (HCl < HBr < HI), a common mix-up.",
+  "explain": "Cl is the most electronegative, which weakens the O–H bond and stabilizes OCl⁻: HOI < HOBr < HOCl. The reverse order is the trend for binary acids (HCl < HBr < HI), a common mix-up.",
   "html": {
    "prompt": "Rank the hypohalous acids in order of increasing acid strength.",
    "choices": [
@@ -4261,7 +4261,7 @@
   ],
   "answer": "Q = 2.5×10⁻⁵; no precipitate forms.",
   "hint": "Mixing equal volumes dilutes each ion. Compute concentrations after mixing, then compare Q with K_sp.",
-  "explain": "After mixing, [Ca²⁺] = [SO²⁻₄] = 0.0050 M; Q = (0.0050)² = 2.5×10⁻⁵ no precipitate. Forgetting the dilution gives Q = 1.0×10⁻⁴ and the wrong conclusion.",
+  "explain": "After mixing, [Ca²⁺] = [SO²⁻₄] = 0.0050 M; Q = (0.0050)² = 2.5×10⁻⁵ < 4.9×10⁻⁵, so no precipitate. Forgetting the dilution gives Q = 1.0×10⁻⁴ and the wrong conclusion.",
   "html": {
    "prompt": "50.0 mL of 0.010 M CaCl<sub>2</sub> is mixed with 50.0 mL of 0.010 M Na<sub>2</sub>SO<sub>4</sub>. K<sub>sp</sub> of CaSO<sub>4</sub> = 4.9×10<sup>−5</sup>. Which is correct?",
    "choices": [
@@ -4861,7 +4861,7 @@
   ],
   "answer": "Only at high temperatures",
   "hint": "Look at the signs in ΔG = ΔH − TΔS. Which term must win for ΔG to be negative?",
-  "explain": "ΔH (+) opposes spontaneity; −TΔS (−) favors it and grows with T. ΔG ΔH: only at high T.",
+  "explain": "ΔH (+) opposes spontaneity; −TΔS (−) favors it and grows with T. ΔG < 0 when TΔS > ΔH: only at high T.",
   "html": {
    "prompt": "A reaction has ΔH > 0 and ΔS > 0. Under what conditions is it spontaneous?",
    "choices": [
@@ -5333,12 +5333,12 @@
   "choices": [
    "K < 1 and E°_cell < 0",
    "K > 1 and E°_cell > 0",
-   "K 0",
+   "K < 1 and E°_cell > 0",
    "K > 1 and E°_cell < 0"
   ],
   "answer": "K < 1 and E°_cell < 0",
   "hint": "Connect the three: ΔG° = −RT ln K = −nFE°.",
-  "explain": "ΔG° > 0 means ln K K , and −nFE° > 0, so E° : the reaction is reactant-favored and nonspontaneous as written under standard conditions.",
+  "explain": "ΔG° > 0 means ln K < 0, so K < 1, and −nFE° > 0, so E° < 0: the reaction is reactant-favored and nonspontaneous as written under standard conditions.",
   "html": {
    "prompt": "For a redox reaction under standard conditions, ΔG° is positive. Which must also be true?",
    "choices": [
@@ -5693,8 +5693,8 @@
   "choices": [
    "ΔH > 0, ΔS > 0, ΔG = 0",
    "ΔH > 0, ΔS > 0, ΔG < 0",
-   "ΔH 0, ΔG = 0",
-   "ΔH > 0, ΔS 0"
+   "ΔH < 0, ΔS > 0, ΔG = 0",
+   "ΔH > 0, ΔS < 0, ΔG > 0"
   ],
   "answer": "ΔH > 0, ΔS > 0, ΔG = 0",
   "hint": "At the normal melting point, solid and liquid coexist in equilibrium.",
@@ -6472,7 +6472,7 @@
   ],
   "answer": "An external power source drives a nonspontaneous reaction (ΔG > 0).",
   "hint": "Compare with a galvanic cell: which way does the energy flow?",
-  "explain": "An electrolytic cell uses electrical energy to force a nonspontaneous reaction (E_cell 0). Oxidation still occurs at the anode in every type of cell.",
+  "explain": "An electrolytic cell uses electrical energy to force a nonspontaneous reaction (E_cell < 0, ΔG > 0). Oxidation still occurs at the anode in every type of cell.",
   "html": {
    "prompt": "Which statement about an electrolytic cell is true?",
    "choices": [
@@ -7925,7 +7925,7 @@
   ],
   "answer": "k_forward < k_reverse, and the forward and reverse rates are equal",
   "hint": "For an elementary step K = k_f/k_r. What is true about the two RATES at any equilibrium?",
-  "explain": "K = k_f/k_r = 5.0×10⁻³ k_f . The rate constants differ, but the concentrations adjust so the rates match; the rates are not zero (equilibrium is dynamic).",
+  "explain": "K = k_f/k_r = 5.0×10⁻³ < 1, so k_f < k_r, yet at equilibrium the forward and reverse rates are equal. The rate constants differ, but the concentrations adjust so the rates match; the rates are not zero (equilibrium is dynamic).",
   "html": {
    "prompt": "For an elementary reaction A + B ⇌ C at equilibrium, K = 5.0×10<sup>−3</sup>. Which statement is true?",
    "choices": [
@@ -7967,7 +7967,7 @@
   ],
   "answer": "Q = 3.8; more N₂O₄ forms and the brown color fades",
   "hint": "Write Q like K (products over reactants, coefficients as exponents), then compare Q with K.",
-  "explain": "Q = PN₂O₄/(PNO₂)² = 0.60/(0.40)² = 3.8. Q more N₂O₄ forms and the brown color fades. Q = 1.5 forgets to square PNO₂.",
+  "explain": "Q = PN₂O₄/(PNO₂)² = 0.60/(0.40)² = 3.8. Q < K (6.7), so the reaction runs forward: more N₂O₄ forms and the brown color fades. Q = 1.5 forgets to square PNO₂.",
   "html": {
    "prompt": "For the reaction shown, K<sub>p</sub> = 6.7 at 298 K. A flask at 298 K contains P<sub>NO<sub>2</sub></sub> = 0.40 atm and P<sub>N<sub>2</sub>O<sub>4</sub></sub> = 0.60 atm. What is Q<sub>p</sub>, and what happens as the system approaches equilibrium?",
    "choices": [
@@ -8159,7 +8159,7 @@
   ],
   "answer": "HZ < HX < HY",
   "hint": "The stronger the acid, the larger the fraction of its molecules that donated H⁺ to water.",
-  "explain": "HZ ionized 10%, HX 20%, and HY 100% (a strong acid, no HY left). Increasing strength: HZ . Reading the number of intact acid molecules as strength reverses the order.",
+  "explain": "HZ ionized 10%, HX 20%, and HY 100% (a strong acid, no HY left). Increasing strength: HZ < HX < HY. Reading the number of intact acid molecules as strength reverses the order.",
   "html": {
    "prompt": "Three 1-L solutions are each made with 10 molecules' worth of a different monoprotic acid. Particle counts from pictures of each solution (water not shown) are given in the table. Which lists the acids in order of increasing strength?",
    "choices": [
@@ -8801,7 +8801,7 @@
   ],
   "answer": "Hg(l) < CH₃OH(l) < CH₄(g) < C₂H₆(g)",
   "hint": "Phase matters most (gas ≫ liquid). Within a phase, more atoms per molecule means more ways to move.",
-  "explain": "Liquids are lower than gases. Among the liquids, a single Hg atom has fewer motions than six-atom CH₃OH; among the gases, C₂H₆ has more atoms than CH₄. So Hg(l) (about 76, 127, 186, 230 J mol⁻¹·K⁻¹).",
+  "explain": "Liquids are lower than gases. Among the liquids, a single Hg atom has fewer motions than six-atom CH₃OH; among the gases, C₂H₆ has more atoms than CH₄. So Hg(l) < CH₃OH(l) < CH₄(g) < C₂H₆(g) (about 76, 127, 186, 230 J mol⁻¹·K⁻¹).",
   "html": {
    "prompt": "Arrange these substances in order of INCREASING standard molar entropy at 25 °C: CH<sub>4</sub>(g), Hg(l), C<sub>2</sub>H<sub>6</sub>(g), CH<sub>3</sub>OH(l).",
    "choices": [
@@ -8879,13 +8879,13 @@
   "prompt": "Measurements at 25 °C give an equilibrium constant of 3.0×10⁻⁴ for a certain redox reaction. What are the signs of its standard free-energy change and its standard cell potential?",
   "choices": [
    "ΔG° > 0 and E°_cell < 0",
-   "ΔG° 0",
+   "ΔG° < 0 and E°_cell > 0",
    "ΔG° > 0 and E°_cell > 0",
    "ΔG° < 0 and E°_cell < 0"
   ],
   "answer": "ΔG° > 0 and E°_cell < 0",
   "hint": "Use ΔG° = −RT ln K and ΔG° = −nFE°. What is the sign of ln K when K < 1?",
-  "explain": "K ΔG° > 0 and E° . ΔG° and E° always have opposite signs.",
+  "explain": "K < 1 → ln K < 0 → ΔG° = −RT ln K is positive, and since ΔG° = −nFE°, E° is negative: ΔG° > 0 and E° < 0. ΔG° and E° always have opposite signs.",
   "html": {
    "prompt": "Measurements at 25 °C give an equilibrium constant of 3.0×10<sup>−4</sup> for a certain redox reaction. What are the signs of its standard free-energy change and its standard cell potential?",
    "choices": [
@@ -8980,8 +8980,8 @@
    "3 O₂(g) → 2 O₃(g), ΔH° = +285 kJ"
   ],
   "answer": "2 H₂O₂(l) → 2 H₂O(l) + O₂(g), ΔH° = −196 kJ",
-  "hint": "ΔG° = ΔH° − TΔS° is negative at every T only if ΔH° 0. Count moles of gas.",
-  "explain": "H₂O₂ decomposition is exothermic and makes a gas from liquids (ΔS° > 0), so ΔG° 2 H₂O₂ → 2 H₂O + O₂. NH₃ synthesis has ΔS° < 0 (spontaneous only at low T), CaCO₃ only at high T, and O₃ formation never.",
+  "hint": "ΔG° = ΔH° − TΔS° is negative at every T only if ΔH° < 0 and ΔS° > 0. Count moles of gas.",
+  "explain": "H₂O₂ decomposition is exothermic and makes a gas from liquids (ΔS° > 0), so ΔG° < 0 at all T: 2 H₂O₂ → 2 H₂O + O₂. NH₃ synthesis has ΔS° < 0 (spontaneous only at low T), CaCO₃ only at high T, and O₃ formation never.",
   "html": {
    "prompt": "Predict the sign of ΔS° from each equation. Which reaction is spontaneous at ALL temperatures under standard conditions?",
    "choices": [
@@ -10338,7 +10338,7 @@
   ],
   "answer": "Q = 125, so the reaction proceeds to the right.",
   "hint": "Compute Q like K with the current concentrations, then compare with K.",
-  "explain": "Q = (0.50)²/[(0.10)²(0.20)] = 125. Since Q , forming more NOBr. Q = 25 comes from forgetting the squares.",
+  "explain": "Q = (0.50)²/[(0.10)²(0.20)] = 125. Since Q < K, the reaction proceeds to the right, forming more NOBr. Q = 25 comes from forgetting the squares.",
   "html": {
    "prompt": "In a reactor making nitrosyl bromide by the reaction shown (K<sub>c</sub> = 1.3×10<sup>3</sup>), a sample has the concentrations in the table. Which way must the reaction run to reach equilibrium, and why?",
    "choices": [
@@ -10974,7 +10974,7 @@
   ],
   "answer": "Cl⁻ < F⁻ < CH₃COO⁻ < CN⁻",
   "hint": "The weaker the acid, the stronger its conjugate base (K_a·K_b = K_w).",
-  "explain": "Order the parent acids from strongest to weakest: HCl > HF > CH₃COOH > HCN. Their conjugate bases go the opposite way: Cl⁻ . The reversed order ranks the acids, not the bases.",
+  "explain": "Order the parent acids from strongest to weakest: HCl > HF > CH₃COOH > HCN. Their conjugate bases go the opposite way: Cl⁻ < F⁻ < CH₃COO⁻ < CN⁻. The reversed order ranks the acids, not the bases.",
   "html": {
    "prompt": "Rank these anions from WEAKEST to STRONGEST base: Cl<sup>−</sup>, F<sup>−</sup>, CH<sub>3</sub>COO<sup>−</sup>, CN<sup>−</sup>. K<sub>a</sub> values of the conjugate acids are given in the table.",
    "choices": [
@@ -11297,7 +11297,7 @@
   ],
   "answer": "aqueous NH₃ titrated with HCl",
   "hint": "Ask what species is left in the flask at equivalence and whether it is an acid, a base, or neutral.",
-  "explain": "At equivalence, NH₃ + HCl leaves NH₄Cl, and the weak acid NH⁺₄ makes the solution acidic (pH . Strong acid/strong base titrations give pH 7; a weak acid with NaOH leaves a basic anion (pH > 7).",
+  "explain": "At equivalence, NH₃ + HCl leaves NH₄Cl, and the weak acid NH⁺₄ makes the solution acidic (pH < 7). Strong acid/strong base titrations give pH 7; a weak acid with NaOH leaves a basic anion (pH > 7).",
   "html": {
    "prompt": "Which acid–base titration ends at an acidic equivalence point (pH &lt; 7)?",
    "choices": [
@@ -11591,7 +11591,7 @@
   ],
   "answer": "No; Q = 3.4×10⁻⁹, which is less than K_sp.",
   "hint": "Mixing equal volumes halves each concentration. Then Q = [Pb²⁺][I⁻]².",
-  "explain": "After mixing, [Pb²⁺] = [I⁻] = 0.0015 M. Q = (0.0015)(0.0015)² = 3.4×10⁻⁹ no precipitate. 2.7×10⁻⁸ forgets the dilution on mixing.",
+  "explain": "After mixing, [Pb²⁺] = [I⁻] = 0.0015 M. Q = (0.0015)(0.0015)² = 3.4×10⁻⁹ < K_sp, so no precipitate. 2.7×10⁻⁸ forgets the dilution on mixing.",
   "html": {
    "prompt": "Equal 100.0-mL volumes of 0.0030 M lead(II) nitrate and 0.0030 M potassium iodide are poured together. Given K<sub>sp</sub>(PbI<sub>2</sub>) = 9.8×10<sup>−9</sup>, does PbI<sub>2</sub> precipitate?",
    "choices": [
@@ -12126,12 +12126,12 @@
   "choices": [
    "ΔH < 0 and ΔS < 0",
    "ΔH > 0 and ΔS > 0",
-   "ΔH 0",
+   "ΔH < 0 and ΔS > 0",
    "ΔH > 0 and ΔS < 0"
   ],
   "answer": "ΔH < 0 and ΔS < 0",
   "hint": "Which combination of signs makes ΔG = ΔH − TΔS negative only at LOW temperature?",
-  "explain": "Freezing releases heat (ΔH both negative, ΔG 0 would be spontaneous at every temperature.",
+  "explain": "Freezing releases heat (ΔH < 0) and makes an ordered solid (ΔS < 0). With both negative, ΔG < 0 only when T is small enough that |ΔH| outweighs |TΔS|. ΔH < 0, ΔS > 0 would be spontaneous at every temperature.",
   "html": {
    "prompt": "Water freezes spontaneously below 0 °C but not above it. Which signs of ΔH and ΔS for H<sub>2</sub>O(l) → H<sub>2</sub>O(s) explain this?",
    "choices": [
@@ -17385,7 +17385,7 @@
   ],
   "answer": "Q_c = 2.5; the reaction proceeds to the right, forming more A₂.",
   "hint": "Find each concentration from the counts, compute Q_c = [A₂]/[A]², and compare with K_c.",
-  "explain": "[A] = 4 × 0.10 M = 0.40 M and [A₂] = 0.40 M, so Q_c = 0.40/(0.40)² = 2.5. Q shifts right and makes more A₂. Q = 1.0 forgets to square [A].",
+  "explain": "[A] = 4 × 0.10 M = 0.40 M and [A₂] = 0.40 M, so Q_c = 0.40/(0.40)² = 2.5. Q < K, so the reaction shifts right and makes more A₂. Q = 1.0 forgets to square [A].",
   "html": {
    "prompt": "For the reaction shown, K<sub>c</sub> = 6.0 at this temperature. The box shows the mixture at one moment; each particle represents 0.10 mol in a 1.0 L container. Which statement is true?",
    "choices": [
@@ -24186,11 +24186,11 @@
    "ΔH° < 0 and ΔS° < 0; the reaction is spontaneous below about 460 K.",
    "ΔH° < 0 and ΔS° < 0; the reaction is spontaneous above about 460 K.",
    "ΔH° > 0 and ΔS° > 0; the reaction is spontaneous above about 460 K.",
-   "ΔH° 0; the reaction is spontaneous at all temperatures."
+   "ΔH° < 0 and ΔS° > 0; the reaction is spontaneous at all temperatures."
   ],
   "answer": "ΔH° < 0 and ΔS° < 0; the reaction is spontaneous below about 460 K.",
   "hint": "Read the intercept (ΔH°) and the direction of the slope (−ΔS°). Spontaneous means ΔG° < 0.",
-  "explain": "The line starts negative at T = 0 (ΔH° 0, so ΔS° below about 460 K, where it crosses zero. Above that temperature the −TΔS° term wins.",
+  "explain": "The line starts negative at T = 0 (ΔH° < 0) and rises with T (slope = −ΔS° > 0, so ΔS° < 0, as expected for 4 mol gas → 2 mol gas). ΔG° is negative only below about 460 K, where it crosses zero. Above that temperature the −TΔS° term wins.",
   "html": {
    "prompt": "The graph shows ΔG° versus temperature for the reaction shown, assuming ΔH° and ΔS° are constant. Which statement is true?",
    "choices": [
@@ -24320,7 +24320,7 @@
   ],
   "answer": "Dichromate, Cr₂O²⁻₇",
   "hint": "An oxidizing agent works on a species if its reduction E° is higher than that species' couple (E°_cell > 0).",
-  "explain": "To oxidize Br⁻, the oxidant needs E° > +1.07 V; to fail on Cl⁻, it needs E° Cr₂O²⁻₇ (+1.33 V) fits. MnO⁻₄ (+1.51 V) oxidizes both; Fe³⁺ and I₂ are too weak to oxidize Br⁻.",
+  "explain": "To oxidize Br⁻, the oxidant needs E° > +1.07 V; to fail on Cl⁻, it needs E° < +1.36 V. Only Cr₂O²⁻₇ (+1.33 V) fits. MnO⁻₄ (+1.51 V) oxidizes both; Fe³⁺ and I₂ are too weak to oxidize Br⁻.",
   "html": {
    "prompt": "Using the standard reduction potentials, which species (under standard conditions in acid) can oxidize Br<sup>−</sup> to Br<sub>2</sub> but CANNOT oxidize Cl<sup>−</sup> to Cl<sub>2</sub>?",
    "choices": [
@@ -25113,14 +25113,14 @@
   "calc": false,
   "prompt": "Can iodine convert bromide ions into bromine under standard conditions (reaction shown)? Using the table, choose the correct signs of E°, ΔG° and K.",
   "choices": [
-   "E° 0, K < 1",
-   "E° > 0, ΔG° 1",
-   "E° 1",
+   "E° < 0, ΔG° > 0, K < 1",
+   "E° > 0, ΔG° < 0, K > 1",
+   "E° < 0, ΔG° < 0, K > 1",
    "E° > 0, ΔG° > 0, K < 1"
   ],
-  "answer": "E° 0, K < 1",
+  "answer": "E° < 0, ΔG° > 0, K < 1",
   "hint": "Decide which species is reduced in the reaction AS WRITTEN, compute E°, then use ΔG° = −nFE° and the sign of ln K.",
-  "explain": "As written, I₂ is reduced (cathode) and Br⁻ is oxidized (anode): E° = 0.54 − 1.07 = −0.53 V. A negative E° gives ΔG° > 0 and K not spontaneous. E°, ΔG° and K always move together, so the mixed-sign choices are impossible.",
+  "explain": "As written, I₂ is reduced (cathode) and Br⁻ is oxidized (anode): E° = 0.54 − 1.07 = −0.53 V. A negative E° gives ΔG° > 0 and K < 1: not spontaneous. E°, ΔG° and K always move together, so the mixed-sign choices are impossible.",
   "html": {
    "prompt": "Can iodine convert bromide ions into bromine under standard conditions (reaction shown)? Using the table, choose the correct signs of E°, ΔG° and K.",
    "choices": [
@@ -26085,7 +26085,7 @@
   ],
   "answer": "I⁻ < Cl⁻ < H₂O < NH₃ < CN⁻",
   "hint": "Recall the spectrochemical series: halides are weak-field, water and ammonia are in the middle, and cyanide is strong-field.",
-  "explain": "The spectrochemical series runs I⁻ . Charge alone does not decide it: anionic halides are the WEAKEST field ligands, while CN⁻ is the strongest here.",
+  "explain": "The spectrochemical series runs I⁻ < Cl⁻ < H₂O < NH₃ < CN⁻. Charge alone does not decide it: anionic halides are the WEAKEST field ligands, while CN⁻ is the strongest here.",
   "html": {
    "prompt": "Which list ranks the ligands in order of INCREASING crystal-field splitting (Δ<sub>o</sub>) they produce for the same metal ion?",
    "choices": [
@@ -27200,7 +27200,7 @@
   ],
   "answer": "K decreases and the equilibrium shifts toward NO and O₂.",
   "hint": "Treat heat as a product of an exothermic reaction. Temperature is the only stress that changes the value of K.",
-  "explain": "With ΔH K decreases. Concentration and pressure changes shift the position but leave K unchanged; temperature does not.",
+  "explain": "With ΔH < 0, heat is a product; adding heat shifts the equilibrium LEFT, toward NO and O₂, and because a temperature change alters K itself, K decreases. Concentration and pressure changes shift the position but leave K unchanged; temperature does not.",
   "html": {
    "prompt": "For the exothermic reaction shown, the temperature of an equilibrium mixture is raised at constant volume. Which statement is correct?",
    "choices": [
@@ -41215,7 +41215,7 @@
   ],
   "answer": "IV",
   "hint": "ΔG° = ΔH° − TΔS° must be negative at every T. Which combination of signs guarantees that?",
-  "explain": "ΔG° is negative at every temperature only when ΔH° 0, so that both terms favor the reaction: reaction IV. Reaction I (ΔH° 0, ΔS° < 0) never. A negative ΔH° alone does not guarantee spontaneity.",
+  "explain": "ΔG° is negative at every temperature only when ΔH° < 0 and ΔS° > 0, so that both terms favor the reaction: reaction IV. Reaction I (ΔH° < 0, ΔS° < 0) is spontaneous only below T = ΔH°/ΔS° ≈ 400 K; II (both positive) only above ≈ 1270 K; III (ΔH° > 0, ΔS° < 0) never. A negative ΔH° alone does not guarantee spontaneity.",
   "html": {
    "prompt": "Thermodynamic data for reactions I–IV are tabulated. For which reaction is ΔG° negative at EVERY temperature?",
    "choices": [
@@ -42149,7 +42149,7 @@
   ],
   "answer": "BrO⁻",
   "hint": "Rank the parent oxoacids HBrO, HBrO₂, HBrO₃, HBrO₄ first. The weakest acid has the strongest conjugate base.",
-  "explain": "More oxygen atoms pull electron density from the O–H bond, so acid strength rises HBrO BrO⁻. Choosing BrO⁻₄ confuses \"strongest acid\" with \"strongest base\".",
+  "explain": "More oxygen atoms pull electron density from the O–H bond, so acid strength rises HBrO < HBrO₂ < HBrO₃ < HBrO₄. Because K_aK_b = K_w, the weakest acid (HBrO) has the strongest conjugate base: BrO⁻. Choosing BrO⁻₄ confuses \"strongest acid\" with \"strongest base\".",
   "html": {
    "prompt": "Of the four bromine oxoanions BrO<sup>−</sup>, <span class=\"nw\">BrO<span class=\"ss\"><sup>−</sup><sub>2</sub></span>,</span> <span class=\"nw\">BrO<span class=\"ss\"><sup>−</sup><sub>3</sub></span></span> and <span class=\"nw\">BrO<span class=\"ss\"><sup>−</sup><sub>4</sub></span>,</span> which is the strongest Brønsted–Lowry base in aqueous solution?",
    "choices": [
@@ -42593,7 +42593,7 @@
   ],
   "answer": "Q < K_sp",
   "hint": "Unsaturated means more solid could still dissolve. Does that mean the ion product is below or above the maximum allowed?",
-  "explain": "In an unsaturated solution the ion concentrations are below their saturation values, so Q = [Ca²⁺][C₂O²⁻₄] and additional solid dissolves. Q = K_sp is a saturated solution at equilibrium; Q > K_sp means a precipitate forms.",
+  "explain": "In an unsaturated solution the ion concentrations are below their saturation values, so Q = [Ca²⁺][C₂O²⁻₄] < K_sp and additional solid dissolves. Q = K_sp is a saturated solution at equilibrium; Q > K_sp means a precipitate forms.",
   "html": {
    "prompt": "A solution of calcium oxalate, CaC<sub>2</sub>O<sub>4</sub>, is unsaturated. Which relationship between the ion product Q and K<sub>sp</sub> holds?",
    "choices": [
@@ -43194,7 +43194,7 @@
   "prompt": "When urea dissolves in water in an instant cold pack, the pack becomes noticeably cold. Which set of signs describes the dissolving process, and what drives it?",
   "choices": [
    "ΔH > 0 and ΔS > 0; the process is driven by the entropy change",
-   "ΔH 0; the process is driven by the enthalpy change",
+   "ΔH < 0 and ΔS > 0; the process is driven by the enthalpy change",
    "ΔH > 0 and ΔS < 0; the process is driven by the entropy change",
    "ΔH < 0 and ΔS < 0; the process is driven by the enthalpy change"
   ],
@@ -43237,12 +43237,12 @@
   "choices": [
    "ΔH < 0 and ΔS < 0",
    "ΔH > 0 and ΔS > 0",
-   "ΔH 0",
+   "ΔH < 0 and ΔS > 0",
    "ΔH > 0 and ΔS < 0"
   ],
   "answer": "ΔH < 0 and ΔS < 0",
   "hint": "Deposition is the reverse of sublimation. Sublimation absorbs heat and increases disorder.",
-  "explain": "Gas → solid releases the heat that sublimation would absorb, so ΔH , and the ordered crystal has far fewer microstates than the gas, so ΔS . The process is spontaneous only at low temperature, where |TΔS| is smaller than |ΔH|.",
+  "explain": "Gas → solid releases the heat that sublimation would absorb, so ΔH < 0, and the ordered crystal has far fewer microstates than the gas, so ΔS < 0. The process is spontaneous only at low temperature, where |TΔS| is smaller than |ΔH|.",
   "html": {
    "prompt": "Iodine vapor deposits as solid crystals on a cold surface. What are the signs of ΔH and ΔS for this change?",
    "choices": [
@@ -43384,7 +43384,7 @@
   ],
   "answer": "ΔG is negative and ΔG° is positive",
   "hint": "ΔG° = −RT ln K depends only on K (is K above or below 1?). ΔG = RT ln(Q/K) depends on how Q compares with K.",
-  "explain": "K ΔG° = −RT ln K is positive. But this mixture has Q ΔG = RT ln(Q/K) is negative. A positive ΔG° does not forbid a forward reaction; it only means the equilibrium mixture is reactant-rich.",
+  "explain": "K < 1 means ln K < 0, so ΔG° = −RT ln K is positive. But this mixture has Q < K, so the reaction still proceeds forward: ΔG = RT ln(Q/K) is negative. A positive ΔG° does not forbid a forward reaction; it only means the equilibrium mixture is reactant-rich.",
   "html": {
    "prompt": "For a gas-phase reaction at 500 K, K = 2.5×10<sup>−3</sup>. In a particular reaction mixture at 500 K, Q = 1.0×10<sup>−4</sup>. What are the signs of ΔG and ΔG°?",
    "choices": [
@@ -43476,7 +43476,7 @@
   ],
   "answer": "The reaction is exothermic, and the temperature is low enough that |TΔS°| < |ΔH°|",
   "hint": "ΔG° = ΔH° − TΔS° must be negative. With ΔS° < 0 the −TΔS° term is positive, so what sign and size must ΔH° have?",
-  "explain": "With ΔS° negative and larger in magnitude than TΔS°, which is easiest at low temperature. An endothermic reaction with negative ΔS° is never spontaneous; raising T only makes the unfavorable −TΔS° term bigger.",
+  "explain": "With ΔS° < 0, −TΔS° is a positive contribution to ΔG°. For ΔG° to be negative, ΔH° must be negative and larger in magnitude than TΔS°, which is easiest at low temperature. An endothermic reaction with negative ΔS° is never spontaneous; raising T only makes the unfavorable −TΔS° term bigger.",
   "html": {
    "prompt": "Although its ΔS° is negative, a certain reaction proceeds spontaneously at 298 K under standard conditions. Which description of the reaction must be correct?",
    "choices": [
@@ -43687,14 +43687,14 @@
   "calc": false,
   "prompt": "A reaction has K > 1 at every temperature. Which statements about its standard enthalpy and entropy changes must be true?",
   "choices": [
-   "ΔH° 0",
+   "ΔH° < 0 and ΔS° > 0",
    "ΔH° < 0 and ΔS° < 0",
    "ΔH° > 0 and ΔS° > 0",
    "ΔH° > 0 and ΔS° < 0"
   ],
-  "answer": "ΔH° 0",
+  "answer": "ΔH° < 0 and ΔS° > 0",
   "hint": "K > 1 means ΔG° < 0. Which sign combination makes ΔH° − TΔS° negative no matter how large or small T is?",
-  "explain": "ΔG° = −RT ln K is negative whenever K > 1. For ΔG° = ΔH° − TΔS° to be negative at ALL temperatures, the enthalpy term must be favorable (ΔH° ) and the entropy term must also be favorable (ΔS° > 0) so that −TΔS° is negative too. Any other combination makes ΔG° change sign at some temperature.",
+  "explain": "ΔG° = −RT ln K is negative whenever K > 1. For ΔG° = ΔH° − TΔS° to be negative at ALL temperatures, the enthalpy term must be favorable (ΔH° < 0) and the entropy term must also be favorable (ΔS° > 0) so that −TΔS° is negative too. Any other combination makes ΔG° change sign at some temperature.",
   "html": {
    "prompt": "A reaction has K &gt; 1 at every temperature. Which statements about its standard enthalpy and entropy changes must be true?",
    "choices": [
@@ -43736,7 +43736,7 @@
   ],
   "answer": "ΔG_system < 0",
   "hint": "The entropy of the universe must increase, but the system alone can lose entropy or absorb heat. Which single system quantity captures the universe criterion at constant T and P?",
-  "explain": "At constant T and P, ΔS_universe > 0 is equivalent to ΔG_system . Water freezing below 0 °C is spontaneous with ΔS_sys 0 and ΔS_surr < 0. Only ΔG combines both effects.",
+  "explain": "At constant T and P, ΔS_universe > 0 is equivalent to ΔG_system < 0. Water freezing below 0 °C is spontaneous with ΔS_sys < 0; a cold pack dissolving is spontaneous with ΔH_sys > 0 and ΔS_surr < 0. Only ΔG combines both effects.",
   "html": {
    "prompt": "A process occurs spontaneously at constant temperature and pressure. Which inequality must hold in every such case?",
    "choices": [
@@ -47279,7 +47279,7 @@
   ],
   "answer": "II < I < III",
   "hint": "Count which molecules have an O–H hydrogen (can donate a hydrogen bond). Hydrogen bonding outweighs the molar-mass (dispersion) difference here.",
-  "explain": "Acetone has no O–H, so its molecules attract only by dipole–dipole and dispersion forces: it boils lowest (56 °C). Water and acetic acid both hydrogen-bond; acetic acid also has more electrons (stronger dispersion) and forms doubly hydrogen-bonded pairs, so it boils highest (118 °C), with water at 100 °C: II . Ranking by molar mass alone (I < II < III) ignores hydrogen bonding and wrongly puts water below acetone.",
+  "explain": "Acetone has no O–H, so its molecules attract only by dipole–dipole and dispersion forces: it boils lowest (56 °C). Water and acetic acid both hydrogen-bond; acetic acid also has more electrons (stronger dispersion) and forms doubly hydrogen-bonded pairs, so it boils highest (118 °C), with water at 100 °C: II < I < III. Ranking by molar mass alone (I < II < III) ignores hydrogen bonding and wrongly puts water below acetone.",
   "html": {
    "prompt": "Water (I), acetone (II) and acetic acid (III) are drawn with every hydrogen shown. Their molar masses are 18, 58 and 60 g mol<sup>−1</sup>. Which lists them in order of INCREASING normal boiling point?",
    "choices": [

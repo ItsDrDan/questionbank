@@ -2831,7 +2831,7 @@
   "choices": [
    "q > 0, w > 0",
    "q > 0, w < 0",
-   "q 0",
+   "q < 0, w > 0",
    "q < 0, w < 0"
   ],
   "answer": "q > 0, w > 0",
@@ -3964,7 +3964,7 @@
   ],
   "answer": "S < Mg < Na < K",
   "hint": "Radius decreases left to right across a period and increases down a group.",
-  "explain": "Na, Mg, S are in period 3 (radius shrinks left → right: Na > Mg > S); K is below Na and largest. S .",
+  "explain": "Na, Mg, S are in period 3 (radius shrinks left → right: Na > Mg > S); K is below Na and largest. S < Mg < Na < K.",
   "html": {
    "prompt": "Arrange Na, Mg, K, and S in order of increasing atomic radius.",
    "choices": [
@@ -4413,7 +4413,7 @@
   ],
   "answer": "Ca²⁺ < K⁺ < Cl⁻ < S²⁻",
   "hint": "These are isoelectronic (18 electrons). Which has the most protons?",
-  "explain": "Same electron count, so radius falls as Z rises: Ca²⁺ (20) Ca²⁺ .",
+  "explain": "Same electron count, so radius falls as Z rises: Ca²⁺ (20) < K⁺ (19) < Cl⁻ (17) < S²⁻ (16) → Ca²⁺ < K⁺ < Cl⁻ < S²⁻.",
   "html": {
    "prompt": "Arrange S<sup>2−</sup>, Cl<sup>−</sup>, K<sup>+</sup>, and Ca<sup>2+</sup> in order of increasing radius.",
    "choices": [
@@ -4833,7 +4833,7 @@
   ],
   "answer": "C₂H₂ < C₂H₄ < C₂H₆",
   "hint": "Draw each Lewis structure: triple, double, or single C–C bond?",
-  "explain": "C≡C (ethyne) C₂H₂ . More shared electrons pull the nuclei closer.",
+  "explain": "C≡C (ethyne) < C=C (ethene) < C–C (ethane): C₂H₂ < C₂H₄ < C₂H₆. More shared electrons pull the nuclei closer.",
   "html": {
    "prompt": "Rank the carbon–carbon bond lengths in C<sub>2</sub>H<sub>2</sub>, C<sub>2</sub>H<sub>4</sub>, and C<sub>2</sub>H<sub>6</sub> from shortest to longest.",
    "choices": [
@@ -6235,7 +6235,7 @@
   ],
   "answer": "CH₄ < H₂S < H₂O < NaCl",
   "hint": "Rank the forces: dispersion only < dipole–dipole < hydrogen bonding < ionic bonding.",
-  "explain": "CH₄ (dispersion only) CH₄ . H₂S is heavier than H₂O but lacks hydrogen bonding.",
+  "explain": "CH₄ (dispersion only) < H₂S (dipole–dipole) < H₂O (hydrogen bonds) < NaCl (ionic lattice): CH₄ < H₂S < H₂O < NaCl. H₂S is heavier than H₂O but lacks hydrogen bonding.",
   "html": {
    "prompt": "Arrange H<sub>2</sub>O, H<sub>2</sub>S, CH<sub>4</sub>, and NaCl in order of increasing boiling point.",
    "choices": [
@@ -8355,7 +8355,7 @@
   ],
   "answer": "Ca < Ga < As < Br",
   "hint": "All four are in period 4. How does electronegativity change across a period?",
-  "explain": "Electronegativity increases from left to right across a period as Zeff increases: Ca . The reversed order is the trend for atomic radius.",
+  "explain": "Electronegativity increases from left to right across a period as Zeff increases: Ca < Ga < As < Br. The reversed order is the trend for atomic radius.",
   "html": {
    "prompt": "Which sequence lists four period-4 elements correctly by electronegativity, lowest value first?",
    "choices": [
@@ -19335,7 +19335,7 @@
   ],
   "answer": "II < III < I",
   "hint": "With similar molar masses, dispersion forces are similar. Compare the other forces: nonpolar, polar, or able to hydrogen-bond.",
-  "explain": "II (propane) is nonpolar (dispersion only); III (dimethyl ether) is polar (dipole–dipole); I (ethanol) has an O–H and hydrogen-bonds. Increasing boiling point: II . III cannot hydrogen-bond because none of its H atoms is on O.",
+  "explain": "II (propane) is nonpolar (dispersion only); III (dimethyl ether) is polar (dipole–dipole); I (ethanol) has an O–H and hydrogen-bonds. Increasing boiling point: II < III < I. III cannot hydrogen-bond because none of its H atoms is on O.",
   "html": {
    "prompt": "The three substances drawn below have nearly the same molar mass (44–46 g mol⁻¹). Rank them by increasing boiling point.",
    "choices": [
@@ -19876,7 +19876,7 @@
   ],
   "answer": "I < II < III",
   "hint": "Molar masses are close, so look at hydrogen bonding. Count how many O–H groups each molecule has.",
-  "explain": "I (butane) has dispersion forces only. II has one O–H group for hydrogen bonding; III (ethylene glycol, antifreeze) has two O–H groups and forms more hydrogen bonds per molecule. I .",
+  "explain": "I (butane) has dispersion forces only. II has one O–H group for hydrogen bonding; III (ethylene glycol, antifreeze) has two O–H groups and forms more hydrogen bonds per molecule. I < II < III.",
   "html": {
    "prompt": "Structure III is the main ingredient of car antifreeze; I and II are two other compounds of similar molar mass (58–62 g mol⁻¹). Which order lists their boiling points from lowest to highest?",
    "choices": [
@@ -21090,7 +21090,7 @@
   ],
   "answer": "curve 4",
   "hint": "At the same temperature all gases have the same average kinetic energy, so heavier atoms move more slowly. Rank the gases by molar mass.",
-  "explain": "Lower molar mass → higher most-probable speed → broader, flatter curve. Ranking by peak speed: Kr (2) Ar (curve 4) < Ne (1) < He (3). Curve 2 (the tallest, slowest) is Kr, the heaviest; argon is the second heaviest.",
+  "explain": "Lower molar mass → higher most-probable speed → broader, flatter curve. Ranking by peak speed: Kr (2) < Ar (curve 4) < Ne (1) < He (3). Curve 2 (the tallest, slowest) is Kr, the heaviest; argon is the second heaviest.",
   "html": {
    "prompt": "The graph shows the distribution of molecular speeds for four gases, He, Ne, Ar and Kr, all at 300 K. Which curve represents argon?",
    "choices": [
@@ -34220,7 +34220,7 @@
   ],
   "answer": "F < O < S < Se",
   "hint": "Radius increases down a group (more shells) and decreases left to right across a period (higher Z_eff).",
-  "explain": "F is right of O in period 2 (smaller); S and Se add shells down group 16. So F . The reverse order lists largest first.",
+  "explain": "F is right of O in period 2 (smaller); S and Se add shells down group 16. So F < O < S < Se. The reverse order lists largest first.",
   "html": {
    "prompt": "Which list puts the atoms F, O, S, and Se from smallest to largest?",
    "choices": [
@@ -34388,7 +34388,7 @@
   ],
   "answer": "Li < B < Be < C",
   "hint": "IE₁ generally rises across a period, but watch for the group 2 → group 13 dip.",
-  "explain": "IE₁: Li 520, B 801, Be 900, C 1086 kJ mol⁻¹ → Li . B dips below Be because its electron comes from the higher-energy 2p subshell. Li < Be < B < C ignores that dip.",
+  "explain": "IE₁: Li 520, B 801, Be 900, C 1086 kJ mol⁻¹ → Li < B < Be < C. B dips below Be because its electron comes from the higher-energy 2p subshell. Li < Be < B < C ignores that dip.",
   "html": {
    "prompt": "Rank the period-2 elements Li, Be, B, and C from lowest to highest first ionization energy.",
    "choices": [
@@ -34430,7 +34430,7 @@
   ],
   "answer": "O < N < F",
   "hint": "Draw the 2p orbital boxes for N and O. Does removing O's electron relieve anything?",
-  "explain": "O (2p⁴) has one paired 2p orbital; electron–electron repulsion makes that electron easier to remove than any of N's half-filled 2p³ electrons. So O ; F has the highest Z_eff.",
+  "explain": "O (2p⁴) has one paired 2p orbital; electron–electron repulsion makes that electron easier to remove than any of N's half-filled 2p³ electrons. So O < N < F; F has the highest Z_eff.",
   "html": {
    "prompt": "Nitrogen, oxygen and fluorine are neighbors in period 2. Which order of their first ionization energies, smallest first, is correct?",
    "choices": [
@@ -34757,7 +34757,7 @@
   ],
   "answer": "Mg²⁺ < Na⁺ < F⁻ < Cl⁻",
   "hint": "Mg²⁺, Na⁺ and F⁻ are isoelectronic: more protons → smaller. Cl⁻ has an extra shell.",
-  "explain": "Mg²⁺, Na⁺ and F⁻ all have 10 electrons; 12, 11 and 9 protons make them shrink in that order. Cl⁻ has electrons in n = 3, so it is largest: Mg²⁺ .",
+  "explain": "Mg²⁺, Na⁺ and F⁻ all have 10 electrons; 12, 11 and 9 protons make them shrink in that order. Cl⁻ has electrons in n = 3, so it is largest: Mg²⁺ < Na⁺ < F⁻ < Cl⁻.",
   "html": {
    "prompt": "Sodium fluoride and magnesium chloride contain four different ions. Which ranking of those ions' radii, smallest first, is correct?",
    "choices": [
@@ -36385,7 +36385,7 @@
   ],
   "answer": "q < 0; the process is exothermic.",
   "hint": "Condensation forms attractions between molecules. Does the water gain or lose energy?",
-  "explain": "Condensing water releases heat to the can, so heat leaves the system: q . A phase change at constant temperature still transfers heat; it goes into or out of intermolecular attractions.",
+  "explain": "Condensing water releases heat to the can, so heat leaves the system: q < 0, exothermic. A phase change at constant temperature still transfers heat; it goes into or out of intermolecular attractions.",
   "html": {
    "prompt": "A cold soda can 'sweats' as water vapor from the air condenses on it. For the water, which is true?",
    "choices": [
@@ -36469,7 +36469,7 @@
   ],
   "answer": "Heat released and work done BY the system",
   "hint": "ΔE = q + w. Signs are from the system's point of view: energy leaving is negative.",
-  "explain": "Heat released → q ΔE = q + w is always negative. The mixed-sign cases depend on the sizes of q and w.",
+  "explain": "Heat released → q < 0; work done BY the system → w < 0. Both negative, so ΔE = q + w is always negative. The mixed-sign cases depend on the sizes of q and w.",
   "html": {
    "prompt": "For which combination of heat (q) and work (w) is ΔE of the system ALWAYS negative?",
    "choices": [
@@ -51614,7 +51614,7 @@
   ],
   "answer": "KBr < KCl < CaO < MgO",
   "hint": "Lattice energy ∝ (q_+q_−)/r. Sort by ion charges first, then by ion size within the same charges.",
-  "explain": "The 2+/2− oxides far exceed the 1+/1− salts. Among the 1+/1− pair, the smaller Cl⁻ gives KCl a larger lattice energy than KBr; among the oxides, the smaller Mg²⁺ puts MgO above CaO: KBr . Ordering by molar mass or putting MgO below CaO reverses the size effect.",
+  "explain": "The 2+/2− oxides far exceed the 1+/1− salts. Among the 1+/1− pair, the smaller Cl⁻ gives KCl a larger lattice energy than KBr; among the oxides, the smaller Mg²⁺ puts MgO above CaO: KBr < KCl < CaO < MgO. Ordering by molar mass or putting MgO below CaO reverses the size effect.",
   "html": {
    "prompt": "Which list places the ionic solids KBr, MgO, KCl and CaO in order from the weakest to the strongest lattice energy?",
    "choices": [
