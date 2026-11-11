@@ -10,6 +10,7 @@ const { openGame, validate } = require('./sample');
 const { refine } = require('./refine3b');
 const quantumWhy = require('./whys/quantum');
 const thermoWhy = require('./whys/thermo');
+const fillWhy = require('./whys/rest');
 
 const REPOS = path.resolve(process.argv[2] || '../');
 const OUT = path.resolve(__dirname, '..');
@@ -237,6 +238,7 @@ function mcFromArray(a, hasTitle) {
   for (const [file, items] of Object.entries(banks)) {
     const clean = JSON.parse(JSON.stringify(items));            // drops undefined fields
     for (const it of clean) it.chapters = refine(it);           // per-question 3B unit tags (tools/refine3b.js)
+    for (const it of clean) fillWhy(it);                       // per-choice feedback for anything still missing it (tools/whys/rest.js)
     const ids = new Set(); for (const it of clean) { if (ids.has(it.id)) it.id += '-' + it.from.index; ids.add(it.id); }
     fs.writeFileSync(path.join(OUT, 'bank', file + '.json'), JSON.stringify(clean, null, 1));
     index.banks[file] = clean.length;

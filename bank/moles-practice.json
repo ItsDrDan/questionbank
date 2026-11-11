@@ -6040,7 +6040,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 0
-  }
+  },
+  "why": [
+   "",
+   "A visible sample has a huge number of particles (10²² or more). A number like 10⁻²⁵ is far too small.",
+   "The molar mass is fine; the tiny answer means they divided by Avogadro’s number instead of multiplying."
+  ]
  },
  {
   "id": "moles-b58189f0",
@@ -6068,7 +6073,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 1
-  }
+  },
+  "why": [
+   "Even a tiny sample has trillions of trillions of particles, not 100.",
+   "",
+   "You can’t have less than one particle; a negative exponent this size is far too small."
+  ]
  },
  {
   "id": "moles-0ceb5643",
@@ -6096,7 +6106,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 2
-  }
+  },
+  "why": [
+   "Atoms is right only for elements made of single atoms (like metals or noble gases).",
+   "",
+   "Formula units are for ionic compounds (a metal with a nonmetal)."
+  ]
  },
  {
   "id": "moles-bdb0d6d4",
@@ -6124,7 +6139,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 3
-  }
+  },
+  "why": [
+   "",
+   "A visible sample has a huge number of particles (10²² or more). A number like 10⁻²⁵ is far too small.",
+   "The molar mass is fine; the tiny answer means they divided by Avogadro’s number instead of multiplying."
+  ]
  },
  {
   "id": "moles-4278db97",
@@ -6152,7 +6172,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 4
-  }
+  },
+  "why": [
+   "",
+   "One mole weighs its molar mass. One mole has a mass equal to the molar mass: CaCO 3 = 100.09 g, Cu = 63.55 g.",
+   "One mole has the same number of particles, but not the same mass: each mole weighs its molar mass. One mole has a mass equal to the molar mass: CaCO 3 = 100.09 g, Cu = 63.55 g."
+  ]
  },
  {
   "id": "moles-4538ec3c",
@@ -6180,7 +6205,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 5
-  }
+  },
+  "why": [
+   "Each molecule is diatomic: 2 atoms per molecule. Multiply moles × 2 × 6.0221 × 10²³. 1.00 mol × 2 × 6.0221 × 10²³ = 1.20 × 10²⁴ atoms .",
+   "",
+   "Each molecule is diatomic: 2 atoms per molecule. Multiply moles × 2 × 6.0221 × 10²³. 1.00 mol × 2 × 6.0221 × 10²³ = 1.20 × 10²⁴ atoms ."
+  ]
  },
  {
   "id": "moles-cb96c82a",
@@ -6208,7 +6238,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 6
-  }
+  },
+  "why": [
+   "",
+   "A visible sample has a huge number of particles (10²² or more). A number like 10⁻²⁵ is far too small.",
+   "The molar mass is fine; the tiny answer means they divided by Avogadro’s number instead of multiplying."
+  ]
  },
  {
   "id": "moles-0cdac95b",
@@ -6236,7 +6271,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 7
-  }
+  },
+  "why": [
+   "Moles = grams ÷ molar mass. The bigger molar mass gives fewer moles. Moles = grams ÷ molar mass. Dividing the same grams by a smaller molar mass gives more moles: CH 4 (16.043 g/mol).",
+   "",
+   "Equal grams aren’t equal moles: moles = grams ÷ molar mass. Moles = grams ÷ molar mass. Dividing the same grams by a smaller molar mass gives more moles: CH 4 (16.043 g/mol)."
+  ]
  },
  {
   "id": "moles-9eb13258",
@@ -6264,7 +6304,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 8
-  }
+  },
+  "why": [
+   "Moles = grams ÷ molar mass. The bigger molar mass gives fewer moles. Moles = grams ÷ molar mass. Dividing the same grams by a smaller molar mass gives more moles: CaCO 3 (100.09 g/mol).",
+   "",
+   "Equal grams aren’t equal moles: moles = grams ÷ molar mass. Moles = grams ÷ molar mass. Dividing the same grams by a smaller molar mass gives more moles: CaCO 3 (100.09 g/mol)."
+  ]
  },
  {
   "id": "moles-26d01616",
@@ -6292,7 +6337,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 9
-  }
+  },
+  "why": [
+   "Equal moles means equal particles, so count atoms per formula. Count atoms in each formula: NaCl = 2, NH 3 = 4, He = 1.",
+   "",
+   "Equal moles means equal particles, so count atoms per formula. Count atoms in each formula: NaCl = 2, NH 3 = 4, He = 1."
+  ]
  },
  {
   "id": "moles-e005cae8",
@@ -6320,7 +6370,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 10
-  }
+  },
+  "why": [
+   "",
+   "Equal moles means equal particles, so count atoms per formula. Count atoms in each formula: CH 4 = 5, O 2 = 2, CO 2 = 3.",
+   "Equal moles means equal particles, so count atoms per formula. Count atoms in each formula: CH 4 = 5, O 2 = 2, CO 2 = 3."
+  ]
  },
  {
   "id": "moles-31496208",
@@ -6348,7 +6403,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 11
-  }
+  },
+  "why": [
+   "Equal moles always means equal numbers of particles. Only the masses differ.",
+   "Equal moles always means equal numbers of particles. Only the masses differ.",
+   ""
+  ]
  },
  {
   "id": "moles-110d32e0",
@@ -6376,7 +6436,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 12
-  }
+  },
+  "why": [
+   "One mole weighs its molar mass. One mole has a mass equal to the molar mass: H 2 O = 18.015 g, C 6 H 12 O 6 = 180.156 g.",
+   "",
+   "One mole has the same number of particles, but not the same mass: each mole weighs its molar mass. One mole has a mass equal to the molar mass: H 2 O = 18.015 g, C 6 H 12 O 6 = 180.156 g."
+  ]
  },
  {
   "id": "moles-62f9d5d9",
@@ -6404,7 +6469,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 13
-  }
+  },
+  "why": [
+   "One mole weighs its molar mass. One mole has a mass equal to the molar mass: CH 4 = 16.043 g, CaCO 3 = 100.09 g.",
+   "",
+   "One mole has the same number of particles, but not the same mass: each mole weighs its molar mass. One mole has a mass equal to the molar mass: CH 4 = 16.043 g, CaCO 3 = 100.09 g."
+  ]
  },
  {
   "id": "moles-2e7151a3",
@@ -6432,7 +6502,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 14
-  }
+  },
+  "why": [
+   "",
+   "One mole weighs its molar mass. One mole has a mass equal to the molar mass: CaCO 3 = 100.09 g, H 2 O = 18.015 g.",
+   "One mole has the same number of particles, but not the same mass: each mole weighs its molar mass. One mole has a mass equal to the molar mass: CaCO 3 = 100.09 g, H 2 O = 18.015 g."
+  ]
  },
  {
   "id": "moles-fa22873b",
@@ -6460,7 +6535,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 15
-  }
+  },
+  "why": [
+   "Equal moles means equal particles, so count atoms per formula. Count atoms in each formula: O 2 = 2, C 6 H 12 O 6 = 24, NH 3 = 4.",
+   "",
+   "Equal moles means equal particles, so count atoms per formula. Count atoms in each formula: O 2 = 2, C 6 H 12 O 6 = 24, NH 3 = 4."
+  ]
  },
  {
   "id": "moles-427a813d",
@@ -6488,7 +6568,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 16
-  }
+  },
+  "why": [
+   "",
+   "Moles = grams ÷ molar mass. The bigger molar mass gives fewer moles. Moles = grams ÷ molar mass. Dividing the same grams by a smaller molar mass gives more moles: NaCl (58.44 g/mol).",
+   "Equal grams aren’t equal moles: moles = grams ÷ molar mass. Moles = grams ÷ molar mass. Dividing the same grams by a smaller molar mass gives more moles: NaCl (58.44 g/mol)."
+  ]
  },
  {
   "id": "moles-a6a0cd4f",
@@ -6516,7 +6601,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 17
-  }
+  },
+  "why": [
+   "",
+   "Each molecule is diatomic: 2 atoms per molecule. Multiply moles × 2 × 6.0221 × 10²³. 0.500 mol × 2 × 6.0221 × 10²³ = 6.02 × 10²³ atoms .",
+   "Each molecule is diatomic: 2 atoms per molecule. Multiply moles × 2 × 6.0221 × 10²³. 0.500 mol × 2 × 6.0221 × 10²³ = 6.02 × 10²³ atoms ."
+  ]
  },
  {
   "id": "moles-986bccb6",
@@ -6544,7 +6634,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 18
-  }
+  },
+  "why": [
+   "Even a tiny sample has trillions of trillions of particles, not 100.",
+   "",
+   "You can’t have less than one particle; a negative exponent this size is far too small."
+  ]
  },
  {
   "id": "moles-2372bfab",
@@ -6572,7 +6667,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 19
-  }
+  },
+  "why": [
+   "",
+   "One mole weighs its molar mass. One mole has a mass equal to the molar mass: O 2 = 31.998 g, He = 4.003 g.",
+   "One mole has the same number of particles, but not the same mass: each mole weighs its molar mass. One mole has a mass equal to the molar mass: O 2 = 31.998 g, He = 4.003 g."
+  ]
  },
  {
   "id": "moles-034fea92",
@@ -6600,7 +6700,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 20
-  }
+  },
+  "why": [
+   "",
+   "One mole weighs its molar mass. One mole has a mass equal to the molar mass: Au = 196.97 g, NaCl = 58.44 g.",
+   "One mole has the same number of particles, but not the same mass: each mole weighs its molar mass. One mole has a mass equal to the molar mass: Au = 196.97 g, NaCl = 58.44 g."
+  ]
  },
  {
   "id": "moles-69ac8831",
@@ -6628,7 +6733,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 21
-  }
+  },
+  "why": [
+   "",
+   "A visible sample has a huge number of particles (10²² or more). A number like 10⁻²⁵ is far too small.",
+   "The molar mass is fine; the tiny answer means they divided by Avogadro’s number instead of multiplying."
+  ]
  },
  {
   "id": "moles-c87c74bb",
@@ -6656,7 +6766,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 22
-  }
+  },
+  "why": [
+   "Each molecule is diatomic: 2 atoms per molecule. Multiply moles × 2 × 6.0221 × 10²³. 0.500 mol × 2 × 6.0221 × 10²³ = 6.02 × 10²³ atoms .",
+   "Each molecule is diatomic: 2 atoms per molecule. Multiply moles × 2 × 6.0221 × 10²³. 0.500 mol × 2 × 6.0221 × 10²³ = 6.02 × 10²³ atoms .",
+   ""
+  ]
  },
  {
   "id": "moles-6a670ae0",
@@ -6684,7 +6799,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 23
-  }
+  },
+  "why": [
+   "Each molecule is diatomic: 2 atoms per molecule. Multiply moles × 2 × 6.0221 × 10²³. 2.00 mol × 2 × 6.0221 × 10²³ = 2.41 × 10²⁴ atoms .",
+   "",
+   "Each molecule is diatomic: 2 atoms per molecule. Multiply moles × 2 × 6.0221 × 10²³. 2.00 mol × 2 × 6.0221 × 10²³ = 2.41 × 10²⁴ atoms ."
+  ]
  },
  {
   "id": "moles-e7a4ced2",
@@ -6712,7 +6832,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 24
-  }
+  },
+  "why": [
+   "Equal moles always means equal numbers of particles. Only the masses differ.",
+   "Equal moles always means equal numbers of particles. Only the masses differ.",
+   ""
+  ]
  },
  {
   "id": "moles-7850c5be",
@@ -6740,7 +6865,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 25
-  }
+  },
+  "why": [
+   "Equal moles always means equal numbers of particles. Only the masses differ.",
+   "Equal moles always means equal numbers of particles. Only the masses differ.",
+   ""
+  ]
  },
  {
   "id": "moles-90a4b7fd",
@@ -6768,7 +6898,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 26
-  }
+  },
+  "why": [
+   "Atoms is right only for elements made of single atoms (like metals or noble gases).",
+   "",
+   "Formula units are for ionic compounds (a metal with a nonmetal)."
+  ]
  },
  {
   "id": "moles-d0f3370c",
@@ -6796,7 +6931,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 27
-  }
+  },
+  "why": [
+   "",
+   "Molecules are for covalent substances (nonmetals sharing electrons). A metal is made of atoms.",
+   "Formula units are for ionic compounds (a metal with a nonmetal)."
+  ]
  },
  {
   "id": "moles-a2e0cde8",
@@ -6824,7 +6964,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 28
-  }
+  },
+  "why": [
+   "",
+   "Moles = grams ÷ molar mass. The bigger molar mass gives fewer moles. Moles = grams ÷ molar mass. Dividing the same grams by a smaller molar mass gives more moles: CaCO 3 (100.09 g/mol).",
+   "Equal grams aren’t equal moles: moles = grams ÷ molar mass. Moles = grams ÷ molar mass. Dividing the same grams by a smaller molar mass gives more moles: CaCO 3 (100.09 g/mol)."
+  ]
  },
  {
   "id": "moles-9d0986c0",
@@ -6852,7 +6997,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 29
-  }
+  },
+  "why": [
+   "Even a tiny sample has trillions of trillions of particles, not 100.",
+   "",
+   "You can’t have less than one particle; a negative exponent this size is far too small."
+  ]
  },
  {
   "id": "moles-f7481ac4",
@@ -6880,7 +7030,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 30
-  }
+  },
+  "why": [
+   "Each molecule is diatomic: 2 atoms per molecule. Multiply moles × 2 × 6.0221 × 10²³. 2.00 mol × 2 × 6.0221 × 10²³ = 2.41 × 10²⁴ atoms .",
+   "Each molecule is diatomic: 2 atoms per molecule. Multiply moles × 2 × 6.0221 × 10²³. 2.00 mol × 2 × 6.0221 × 10²³ = 2.41 × 10²⁴ atoms .",
+   ""
+  ]
  },
  {
   "id": "moles-caf08971",
@@ -6908,7 +7063,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 31
-  }
+  },
+  "why": [
+   "",
+   "A visible sample has a huge number of particles (10²² or more). A number like 10⁻²⁵ is far too small.",
+   "The molar mass is fine; the tiny answer means they divided by Avogadro’s number instead of multiplying."
+  ]
  },
  {
   "id": "moles-c7b96b78",
@@ -6936,7 +7096,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 32
-  }
+  },
+  "why": [
+   "",
+   "Each molecule is diatomic: 2 atoms per molecule. Multiply moles × 2 × 6.0221 × 10²³. 2.00 mol × 2 × 6.0221 × 10²³ = 2.41 × 10²⁴ atoms .",
+   "Each molecule is diatomic: 2 atoms per molecule. Multiply moles × 2 × 6.0221 × 10²³. 2.00 mol × 2 × 6.0221 × 10²³ = 2.41 × 10²⁴ atoms ."
+  ]
  },
  {
   "id": "moles-2529f0d1",
@@ -6964,7 +7129,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 33
-  }
+  },
+  "why": [
+   "",
+   "One mole weighs its molar mass. One mole has a mass equal to the molar mass: Au = 196.97 g, H 2 O = 18.015 g.",
+   "One mole has the same number of particles, but not the same mass: each mole weighs its molar mass. One mole has a mass equal to the molar mass: Au = 196.97 g, H 2 O = 18.015 g."
+  ]
  },
  {
   "id": "moles-d3c49178",
@@ -6992,7 +7162,12 @@
    "game": "moles",
    "list": "sample:sense",
    "index": 34
-  }
+  },
+  "why": [
+   "Atoms is right only for elements made of single atoms (like metals or noble gases).",
+   "",
+   "Formula units are for ionic compounds (a metal with a nonmetal)."
+  ]
  },
  {
   "id": "moles-406d6057",

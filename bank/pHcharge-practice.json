@@ -6049,7 +6049,13 @@
    "game": "pHcharge",
    "list": "sample:solu",
    "index": 0
-  }
+  },
+  "why": [
+   "Sodium benzoate is a salt, not a stronger acid.",
+   "The main reason is solubility.",
+   "",
+   "Sodium benzoate is a salt (Na⁺ + benzoate)."
+  ]
  },
  {
   "id": "pHcharge-cbc72695",
@@ -6077,7 +6083,13 @@
    "game": "pHcharge",
    "list": "sample:solu",
    "index": 1
-  }
+  },
+  "why": [
+   "",
+   "Charged ions can’t dissolve in the nonpolar membrane.",
+   "Charged ions are repelled by the nonpolar membrane interior.",
+   "The neutral form crosses."
+  ]
  },
  {
   "id": "pHcharge-d95765da",
@@ -6104,7 +6116,13 @@
    "game": "pHcharge",
    "list": "sample:solu",
    "index": 2
-  }
+  },
+  "why": [
+   "The ionic salt dissolves much better than the neutral amine.",
+   "",
+   "The salt dissolves well.",
+   "The ionic salt is much more soluble."
+  ]
  },
  {
   "id": "pHcharge-9f4f8cfb",
@@ -6131,7 +6149,13 @@
    "game": "pHcharge",
    "list": "sample:clinic",
    "index": 0
-  }
+  },
+  "why": [
+   "Above the pI, the protein is negative, so it moves toward the positive electrode.",
+   "",
+   "It stays put only at its pI.",
+   "A charged protein moves toward the opposite electrode."
+  ]
  },
  {
   "id": "pHcharge-145210ea",
@@ -6158,7 +6182,13 @@
    "game": "pHcharge",
    "list": "sample:clinic",
    "index": 1
-  }
+  },
+  "why": [
+   "",
+   "At pH 2 it keeps its H⁺, and ions don’t cross membranes anyway.",
+   "The neutral form is what crosses the membrane.",
+   "Stomach acid doesn’t turn it into an amine."
+  ]
  },
  {
   "id": "pHcharge-e20ddbaa",
@@ -6185,7 +6215,13 @@
    "game": "pHcharge",
    "list": "sample:clinic",
    "index": 2
-  }
+  },
+  "why": [
+   "At pH 7.4 a carboxylic acid loses its H⁺.",
+   "Losing H⁺ makes it negative, not positive.",
+   "",
+   "pH 7.4 is far above its pKa, so almost all is the ion."
+  ]
  },
  {
   "id": "pHcharge-2011f4a3",
@@ -6212,7 +6248,13 @@
    "game": "pHcharge",
    "list": "sample:clinic",
    "index": 3
-  }
+  },
+  "why": [
+   "Bicarbonate doesn’t destroy it; it keeps it ionized.",
+   "Basic conditions keep the acid ionized, not neutral.",
+   "Bicarbonate doesn’t make amines.",
+   ""
+  ]
  },
  {
   "id": "pHcharge-63fcf70c",
@@ -6239,7 +6281,13 @@
    "game": "pHcharge",
    "list": "sample:clinic",
    "index": 4
-  }
+  },
+  "why": [
+   "Each formula unit has one naproxen.",
+   "It is a carboxylate salt, not an amine.",
+   "Sodium salts are absorbed; they dissolve faster.",
+   ""
+  ]
  },
  {
   "id": "pHcharge-0c725218",
@@ -6267,7 +6315,13 @@
    "game": "pHcharge",
    "list": "sample:clinic",
    "index": 5
-  }
+  },
+  "why": [
+   "The pI is a property of an amino acid or protein, not blood.",
+   "",
+   "Normal is 7.35–7.45; 7.25 is too low.",
+   "Alkalosis is above 7.45."
+  ]
  },
  {
   "id": "pHcharge-32028144",
@@ -6294,7 +6348,13 @@
    "game": "pHcharge",
    "list": "sample:clinic",
    "index": 6
-  }
+  },
+  "why": [
+   "",
+   "Bicarbonate is a base; it makes the solution less acidic.",
+   "It changes the pH of the solution, not the epinephrine.",
+   "It does the opposite: more lidocaine becomes neutral."
+  ]
  },
  {
   "id": "pHcharge-17397993",
@@ -6321,7 +6381,13 @@
    "game": "pHcharge",
    "list": "sample:clinic",
    "index": 7
-  }
+  },
+  "why": [
+   "An amine picks up H⁺ and becomes positive, not negative.",
+   "Inflamed tissue has nerves (it hurts!).",
+   "",
+   "The amide bond survives; the problem is protonation."
+  ]
  },
  {
   "id": "pHcharge-7b626640",
@@ -6348,7 +6414,13 @@
    "game": "pHcharge",
    "list": "sample:clinic",
    "index": 8
-  }
+  },
+  "why": [
+   "The salt is absorbed; it is used because it dissolves.",
+   "It is a weak acid, much weaker than HCl.",
+   "HCl doesn’t change how well it numbs; it makes it soluble.",
+   ""
+  ]
  },
  {
   "id": "pHcharge-8558835b",
@@ -6376,7 +6448,13 @@
    "game": "pHcharge",
    "list": "sample:clinic",
    "index": 9
-  }
+  },
+  "why": [
+   "Every amino acid has –COOH (acidic) and –NH₂ (basic).",
+   "",
+   "Blood is slightly basic (pH 7.4).",
+   "Zwitterions carry both + and − charges."
+  ]
  },
  {
   "id": "pHcharge-0d1d459b",
@@ -6403,6 +6481,12 @@
    "game": "pHcharge",
    "list": "sample:clinic",
    "index": 10
-  }
+  },
+  "why": [
+   "Amines are bases.",
+   "They aren’t destroyed; they are protonated.",
+   "",
+   "The intestine is lined with membranes; that is how drugs are absorbed."
+  ]
  }
 ]

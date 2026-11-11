@@ -18,10 +18,10 @@
   ],
   "answer": "It is released unchanged and can bind another substrate",
   "why": [
-   "",
+   "The substrate becomes the product; the enzyme stays the same.",
    "Enzymes are catalysts, so they are regenerated, not consumed.",
    "",
-   ""
+   "The enzyme comes out unchanged, ready for the next substrate."
   ],
   "hint": "Think about what an enzyme is made of and what a catalyst does.",
   "explain": "Catalysts are unchanged. The enzyme releases the products and is ready for the next substrate.",
@@ -189,7 +189,13 @@
    "game": "enzymes",
    "list": "sample:terms",
    "index": 5
-  }
+  },
+  "why": [
+   "-ose marks sugars (glucose, sucrose).",
+   "-ol marks alcohols.",
+   "-ine is common in amino acids and amines.",
+   ""
+  ]
  },
  {
   "id": "enzymes-5db486b0",
@@ -216,7 +222,13 @@
    "game": "enzymes",
    "list": "sample:terms",
    "index": 6
-  }
+  },
+  "why": [
+   "",
+   "Speeding reactions up is exactly what enzymes do.",
+   "Enzymes are far more powerful than that: about a million to a trillion times.",
+   "Enzymes speed reactions by about 10⁶ to 10¹² times."
+  ]
  },
  {
   "id": "enzymes-76223220",
@@ -573,7 +585,13 @@
    "game": "enzymes",
    "list": "sample:terms",
    "index": 17
-  }
+  },
+  "why": [
+   "",
+   "The active site exists before the substrate arrives; substrate binding is usually not covalent.",
+   "Some enzymes need coenzymes, but the pocket comes from the protein’s fold.",
+   "The active site is part of the enzyme itself."
+  ]
  },
  {
   "id": "enzymes-b1c11166",
@@ -1290,7 +1308,13 @@
    "game": "enzymes",
    "list": "sample:energy",
    "index": 0
-  }
+  },
+  "why": [
+   "Enzymes lower the energy barrier; they don’t add energy.",
+   "Enzymes aren’t used up.",
+   "",
+   "Enzymes don’t make more reactant."
+  ]
  },
  {
   "id": "enzymes-7553191c",
@@ -1346,7 +1370,7 @@
   "why": [
    "The enzyme lowers the hump, not the energy difference between reactants and products.",
    "",
-   "",
+   "Enzymes don’t absorb the energy released.",
    "The enzyme lowers the hump, not the energy difference between reactants and products."
   ],
   "hint": "Does the enzyme change where the reaction starts or ends?",
@@ -6553,9 +6577,9 @@
   "answer": "It forms a covalent bond with the enzyme, permanently destroying its activity",
   "why": [
    "Where it binds is not the difference. Reversible vs irreversible is about how tightly (covalently) it binds.",
+   "That describes a competitive inhibitor.",
    "",
-   "",
-   ""
+   "Irreversible inhibitors work at body temperature."
   ],
   "hint": "Competitive = same shape, same site, beaten by more substrate.",
   "explain": "A reversible inhibitor lets go and the enzyme recovers. An irreversible inhibitor bonds covalently, usually to an R group near the active site, and the enzyme is ruined.",
@@ -6723,7 +6747,13 @@
    "game": "enzymes",
    "list": "sample:inhibit",
    "index": 8
-  }
+  },
+  "why": [
+   "That is true of competitive inhibitors, so it isn’t the exception.",
+   "That is true of competitive inhibitors.",
+   "",
+   "That is true of competitive inhibitors."
+  ]
  },
  {
   "id": "enzymes-aa19a660",
@@ -6882,7 +6912,13 @@
    "game": "enzymes",
    "list": "sample:inhibit",
    "index": 13
-  }
+  },
+  "why": [
+   "That is true of noncompetitive inhibitors.",
+   "That is true of noncompetitive inhibitors.",
+   "That is true of noncompetitive inhibitors.",
+   ""
+  ]
  },
  {
   "id": "enzymes-56ddc17a",
@@ -6975,7 +7011,13 @@
    "game": "enzymes",
    "list": "sample:regulate",
    "index": 0
-  }
+  },
+  "why": [
+   "They are switched on by cutting the chain, not by heat.",
+   "",
+   "Denatured proteins can’t be switched on; zymogens can.",
+   "They are activated by cutting off part of the chain, not by adding vitamins."
+  ]
  },
  {
   "id": "enzymes-fec123d0",
@@ -6997,9 +7039,9 @@
   "answer": "Positive allosteric control: the active site binds substrate better",
   "why": [
    "Look at the active site: it opened up and the substrate fits.",
+   "A competitive inhibitor sits in the active site itself, not at another site. Positive allosteric control: the regulator makes the active site better at binding substrate, so the rate goes up (like a memory-foam insole that molds to your foot)..",
    "",
-   "",
-   ""
+   "Zymogen activation cuts a chain to switch an enzyme on; it isn’t reversible regulation. Positive allosteric control: the regulator makes the active site better at binding substrate, so the rate goes up (like a memory-foam insole that molds to your foot).."
   ],
   "hint": "Did the active site open up or squeeze shut?",
   "explain": "Positive allosteric control: the regulator makes the active site better at binding substrate, so the rate goes up (like a memory-foam insole that molds to your foot).",
@@ -7031,8 +7073,8 @@
   "why": [
    "",
    "Allosteric regulators bind and let go; here a covalent bond is made and broken.",
-   "",
-   ""
+   "Zymogen activation cuts a chain to switch an enzyme on; it isn’t reversible regulation. Covalent modification changes an enzyme’s activity by adding or removing a chemical group with a covalent bond.",
+   "A competitive inhibitor sits in the active site itself, not at another site. Covalent modification changes an enzyme’s activity by adding or removing a chemical group with a covalent bond."
   ],
   "hint": "A group is bonded on, then taken off.",
   "explain": "Covalent modification changes an enzyme’s activity by adding or removing a chemical group with a covalent bond. Phosphorylation by a kinase and dephosphorylation by a phosphatase is the most common switch.",
@@ -7064,8 +7106,8 @@
   "why": [
    "",
    "Nothing is being slowed down by an end product here.",
-   "",
-   ""
+   "A competitive inhibitor sits in the active site itself, not at another site. Proinsulin is the inactive form (zymogen/proenzyme).",
+   "Denaturation destroys the shape; nothing is switched on. Proinsulin is the inactive form (zymogen/proenzyme)."
   ],
   "hint": "Bonds are broken to switch it on.",
   "explain": "Proinsulin is the inactive form (zymogen/proenzyme). Breaking covalent peptide bonds to remove part of the chain turns it into active insulin.",
@@ -7095,9 +7137,9 @@
   ],
   "answer": "A regulator binds a site other than the active site and changes the enzyme’s shape",
   "why": [
-   "",
+   "Allosteric enzymes work all over the body.",
    "Only some enzymes have allosteric sites; those are the allosteric enzymes.",
-   "",
+   "Regulators bind a different site and needn’t look like the substrate.",
    ""
   ],
   "hint": "allo- means other.",
@@ -7134,7 +7176,13 @@
    "game": "enzymes",
    "list": "sample:regulate",
    "index": 5
-  }
+  },
+  "why": [
+   "Enzymes never change ΔG; regulation only changes rates.",
+   "",
+   "Enzymes aren’t consumed.",
+   "Zymogens are made inactive on purpose; it isn’t caused by lack of regulation."
+  ]
  },
  {
   "id": "enzymes-dba28c95",
@@ -7157,8 +7205,8 @@
   "why": [
    "D is not a look-alike of A competing for E1’s active site; it is the pathway’s own end product acting as a regulator.",
    "",
-   "",
-   ""
+   "Zymogen activation cuts a chain to switch an enzyme on; it isn’t reversible regulation. Feedback control: the product of a series of enzyme reactions inhibits an earlier reaction.",
+   "Covalent modification adds or removes a group (like phosphate) with a covalent bond. Feedback control: the product of a series of enzyme reactions inhibits an earlier reaction."
   ],
   "hint": "The end of the pathway talks back to the start.",
   "explain": "Feedback control: the product of a series of enzyme reactions inhibits an earlier reaction. When D is used up, E1 is no longer inhibited and the pathway restarts.",
@@ -7188,8 +7236,8 @@
   ],
   "answer": "Negative allosteric control: the active site binds substrate less well",
   "why": [
-   "",
-   "",
+   "A competitive inhibitor sits in the active site itself, not at another site. Negative allosteric control: the regulator makes the active site worse at binding substrate, so the rate goes down (like a nail in your shoe)..",
+   "Zymogen activation cuts a chain to switch an enzyme on; it isn’t reversible regulation. Negative allosteric control: the regulator makes the active site worse at binding substrate, so the rate goes down (like a nail in your shoe)..",
    "",
    "Look at the active site: it got squeezed and the substrate can’t fit."
   ],
@@ -9203,8 +9251,8 @@
   "why": [
    "This is an organic molecule made from a vitamin: a coenzyme.",
    "",
-   "",
-   ""
+   "The substrate is the molecule the enzyme acts on. This helps the enzyme work.",
+   "An inhibitor slows an enzyme. The enzyme needs this to work."
   ],
   "hint": "Metal ion = cofactor. Organic molecule from a vitamin = coenzyme.",
   "explain": "Coenzyme A is an organic molecule made from a B vitamin, so it is a <b style=\"font-weight:700\">coenzyme</b>.",
@@ -9236,8 +9284,8 @@
   "why": [
    "",
    "A metal ion is inorganic: that makes it a cofactor.",
-   "",
-   ""
+   "The substrate is the molecule the enzyme acts on. This helps the enzyme work.",
+   "An inhibitor slows an enzyme. The enzyme needs this to work."
   ],
   "hint": "Metal ion = cofactor. Organic molecule from a vitamin = coenzyme.",
   "explain": "Fe<sup style=\"font-size:10.3168px;line-height:15.991px\">2+</sup> is a metal ion, an inorganic <b style=\"font-weight:700\">cofactor</b>.",
@@ -9302,8 +9350,8 @@
   "why": [
    "",
    "A metal ion is inorganic: that makes it a cofactor.",
-   "",
-   ""
+   "The substrate is the molecule the enzyme acts on. This helps the enzyme work.",
+   "An inhibitor slows an enzyme. The enzyme needs this to work."
   ],
   "hint": "Metal ion = cofactor. Organic molecule from a vitamin = coenzyme.",
   "explain": "Mg<sup style=\"font-size:10.3168px;line-height:15.991px\">2+</sup> is a metal ion, an inorganic <b style=\"font-weight:700\">cofactor</b>.",
@@ -9335,8 +9383,8 @@
   "why": [
    "This is an organic molecule made from a vitamin: a coenzyme.",
    "",
-   "",
-   ""
+   "The substrate is the molecule the enzyme acts on. This helps the enzyme work.",
+   "An inhibitor slows an enzyme. The enzyme needs this to work."
   ],
   "hint": "Metal ion = cofactor. Organic molecule from a vitamin = coenzyme.",
   "explain": "NAD<sup style=\"font-size:10.3168px;line-height:15.991px\">+</sup> is an organic molecule made from a B vitamin, so it is a <b style=\"font-weight:700\">coenzyme</b>.",
@@ -9368,8 +9416,8 @@
   "why": [
    "",
    "A metal ion is inorganic: that makes it a cofactor.",
-   "",
-   ""
+   "The substrate is the molecule the enzyme acts on. This helps the enzyme work.",
+   "An inhibitor slows an enzyme. The enzyme needs this to work."
   ],
   "hint": "Metal ion = cofactor. Organic molecule from a vitamin = coenzyme.",
   "explain": "Zn<sup style=\"font-size:10.3168px;line-height:15.991px\">2+</sup> is a metal ion, an inorganic <b style=\"font-weight:700\">cofactor</b>.",
@@ -9434,8 +9482,8 @@
   "why": [
    "This is an organic molecule made from a vitamin: a coenzyme.",
    "",
-   "",
-   ""
+   "The substrate is the molecule the enzyme acts on. This helps the enzyme work.",
+   "An inhibitor slows an enzyme. The enzyme needs this to work."
   ],
   "hint": "Metal ion = cofactor. Organic molecule from a vitamin = coenzyme.",
   "explain": "FAD is an organic molecule made from a B vitamin, so it is a <b style=\"font-weight:700\">coenzyme</b>.",

@@ -25,7 +25,13 @@
    "game": "organic",
    "list": "sample:picture-to-name",
    "index": 0
-  }
+  },
+  "why": [
+   "Alkene needs a C=C double bond.",
+   "",
+   "Aromatic (arene) needs a benzene ring.",
+   "Alkyne needs a C≡C triple bond."
+  ]
  },
  {
   "id": "organic-a633e341",
@@ -53,7 +59,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 0
-  }
+  },
+  "why": [
+   "",
+   "Aromatic (arene) needs a benzene ring. This compound has only C–C and C–H single bonds.",
+   "Alkyne needs a C≡C triple bond. This compound has only C–C and C–H single bonds.",
+   "Alkene needs a C=C double bond. This compound has only C–C and C–H single bonds."
+  ]
  },
  {
   "id": "organic-5f58c683",
@@ -81,7 +93,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 1
-  }
+  },
+  "why": [
+   "Aromatic (arene) needs a benzene ring. This compound has only C–C and C–H single bonds.",
+   "Alkene needs a C=C double bond. This compound has only C–C and C–H single bonds.",
+   "",
+   "Alkyne needs a C≡C triple bond. This compound has only C–C and C–H single bonds."
+  ]
  },
  {
   "id": "organic-823a015c",
@@ -109,7 +127,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 2
-  }
+  },
+  "why": [
+   "Aromatic (arene) needs a benzene ring. This compound has only C–C and C–H single bonds.",
+   "Alkyne needs a C≡C triple bond. This compound has only C–C and C–H single bonds.",
+   "",
+   "Alkene needs a C=C double bond. This compound has only C–C and C–H single bonds."
+  ]
  },
  {
   "id": "organic-90ab1822",
@@ -137,7 +161,13 @@
    "game": "organic",
    "list": "sample:picture-to-name",
    "index": 1
-  }
+  },
+  "why": [
+   "",
+   "Alkyne needs a C≡C triple bond.",
+   "Alkane needs only C–C and C–H single bonds.",
+   "Aromatic (arene) needs a benzene ring."
+  ]
  },
  {
   "id": "organic-39cef8f7",
@@ -165,7 +195,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 3
-  }
+  },
+  "why": [
+   "Alkyne needs a C≡C triple bond. This compound has a C=C double bond.",
+   "",
+   "Alkane needs only C–C and C–H single bonds. This compound has a C=C double bond.",
+   "Aromatic (arene) needs a benzene ring. This compound has a C=C double bond."
+  ]
  },
  {
   "id": "organic-2f2ef3f2",
@@ -193,7 +229,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 4
-  }
+  },
+  "why": [
+   "Alkyne needs a C≡C triple bond. This compound has a C=C double bond.",
+   "Aromatic (arene) needs a benzene ring. This compound has a C=C double bond.",
+   "",
+   "Alkane needs only C–C and C–H single bonds. This compound has a C=C double bond."
+  ]
  },
  {
   "id": "organic-85202c35",
@@ -221,7 +263,13 @@
    "game": "organic",
    "list": "sample:picture-to-name",
    "index": 2
-  }
+  },
+  "why": [
+   "Alkene needs a C=C double bond.",
+   "",
+   "Aromatic (arene) needs a benzene ring.",
+   "Alkane needs only C–C and C–H single bonds."
+  ]
  },
  {
   "id": "organic-0c8ef7ce",
@@ -249,7 +297,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 5
-  }
+  },
+  "why": [
+   "Alkene needs a C=C double bond. This compound has a C≡C triple bond.",
+   "Aromatic (arene) needs a benzene ring. This compound has a C≡C triple bond.",
+   "Alkane needs only C–C and C–H single bonds. This compound has a C≡C triple bond.",
+   ""
+  ]
  },
  {
   "id": "organic-f640f660",
@@ -277,7 +331,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 6
-  }
+  },
+  "why": [
+   "Alkane needs only C–C and C–H single bonds. This compound has a C≡C triple bond.",
+   "",
+   "Aromatic (arene) needs a benzene ring. This compound has a C≡C triple bond.",
+   "Alkene needs a C=C double bond. This compound has a C≡C triple bond."
+  ]
  },
  {
   "id": "organic-ea6c57d2",
@@ -305,7 +365,13 @@
    "game": "organic",
    "list": "sample:picture-to-name",
    "index": 3
-  }
+  },
+  "why": [
+   "Alkyne needs a C≡C triple bond.",
+   "",
+   "Alkane needs only C–C and C–H single bonds.",
+   "Alkene needs a C=C double bond."
+  ]
  },
  {
   "id": "organic-02e74dae",
@@ -333,7 +399,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 7
-  }
+  },
+  "why": [
+   "Alkene needs a C=C double bond. This compound has a benzene ring.",
+   "Alkyne needs a C≡C triple bond. This compound has a benzene ring.",
+   "Alkane needs only C–C and C–H single bonds. This compound has a benzene ring.",
+   ""
+  ]
  },
  {
   "id": "organic-255bb7a1",
@@ -361,7 +433,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 8
-  }
+  },
+  "why": [
+   "",
+   "Alkyne needs a C≡C triple bond. This compound has a benzene ring.",
+   "Alkene needs a C=C double bond. This compound has a benzene ring.",
+   "Alkane needs only C–C and C–H single bonds. This compound has a benzene ring."
+  ]
  },
  {
   "id": "organic-70056dd5",
@@ -389,7 +467,13 @@
    "game": "organic",
    "list": "sample:picture-to-name",
    "index": 4
-  }
+  },
+  "why": [
+   "",
+   "Aromatic (arene) needs a benzene ring.",
+   "Amide needs a C=O bonded directly to N (–CON).",
+   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH)."
+  ]
  },
  {
   "id": "organic-bf7d5b0a",
@@ -417,7 +501,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 9
-  }
+  },
+  "why": [
+   "Alkyne needs a C≡C triple bond. This compound has a halogen (F, Cl, Br, I) on a carbon.",
+   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a halogen (F, Cl, Br, I) on a carbon.",
+   "",
+   "Amide needs a C=O bonded directly to N (–CON). This compound has a halogen (F, Cl, Br, I) on a carbon."
+  ]
  },
  {
   "id": "organic-d0a61b31",
@@ -445,7 +535,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 10
-  }
+  },
+  "why": [
+   "Aromatic (arene) needs a benzene ring. This compound has a halogen (F, Cl, Br, I) on a carbon.",
+   "Alkane needs only C–C and C–H single bonds. This compound has a halogen (F, Cl, Br, I) on a carbon.",
+   "",
+   "Amide needs a C=O bonded directly to N (–CON). This compound has a halogen (F, Cl, Br, I) on a carbon."
+  ]
  },
  {
   "id": "organic-f577653c",
@@ -473,7 +569,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 11
-  }
+  },
+  "why": [
+   "Aromatic (arene) needs a benzene ring. This compound has a halogen (F, Cl, Br, I) on a carbon.",
+   "Thiol needs an –SH on a carbon. This compound has a halogen (F, Cl, Br, I) on a carbon.",
+   "Disulfide needs two S bonded to each other (C–S–S–C). This compound has a halogen (F, Cl, Br, I) on a carbon.",
+   ""
+  ]
  },
  {
   "id": "organic-0b58c0a5",
@@ -501,7 +603,13 @@
    "game": "organic",
    "list": "sample:picture-to-name",
    "index": 5
-  }
+  },
+  "why": [
+   "Alkane needs only C–C and C–H single bonds.",
+   "Ether needs an O between two carbons (C–O–C).",
+   "",
+   "Thiol needs an –SH on a carbon."
+  ]
  },
  {
   "id": "organic-58a8539c",
@@ -529,7 +637,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 12
-  }
+  },
+  "why": [
+   "Ether needs an O between two carbons (C–O–C). This compound has an –OH on a carbon with only single bonds.",
+   "",
+   "Amine needs an N with only single bonds to C and H. This compound has an –OH on a carbon with only single bonds.",
+   "Thiol needs an –SH on a carbon. This compound has an –OH on a carbon with only single bonds."
+  ]
  },
  {
   "id": "organic-cc06bc97",
@@ -557,7 +671,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 13
-  }
+  },
+  "why": [
+   "Thiol needs an –SH on a carbon. This compound has an –OH on a carbon with only single bonds.",
+   "Disulfide needs two S bonded to each other (C–S–S–C). This compound has an –OH on a carbon with only single bonds.",
+   "Ether needs an O between two carbons (C–O–C). This compound has an –OH on a carbon with only single bonds.",
+   ""
+  ]
  },
  {
   "id": "organic-2f6c047c",
@@ -585,7 +705,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 14
-  }
+  },
+  "why": [
+   "Thiol needs an –SH on a carbon. This compound has an –OH on a carbon with only single bonds.",
+   "",
+   "Amine needs an N with only single bonds to C and H. This compound has an –OH on a carbon with only single bonds.",
+   "Ether needs an O between two carbons (C–O–C). This compound has an –OH on a carbon with only single bonds."
+  ]
  },
  {
   "id": "organic-e138043c",
@@ -613,7 +739,13 @@
    "game": "organic",
    "list": "sample:picture-to-name",
    "index": 6
-  }
+  },
+  "why": [
+   "Alkyne needs a C≡C triple bond.",
+   "",
+   "Alcohol needs an –OH on a carbon with only single bonds.",
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C)."
+  ]
  },
  {
   "id": "organic-8a9a6497",
@@ -641,7 +773,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 15
-  }
+  },
+  "why": [
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has an O between two carbons (C–O–C).",
+   "Amide needs a C=O bonded directly to N (–CON). This compound has an O between two carbons (C–O–C).",
+   "",
+   "Alcohol needs an –OH on a carbon with only single bonds. This compound has an O between two carbons (C–O–C)."
+  ]
  },
  {
   "id": "organic-122fc800",
@@ -669,7 +807,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 16
-  }
+  },
+  "why": [
+   "Thiol needs an –SH on a carbon. This compound has an O between two carbons (C–O–C).",
+   "",
+   "Alcohol needs an –OH on a carbon with only single bonds. This compound has an O between two carbons (C–O–C).",
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has an O between two carbons (C–O–C)."
+  ]
  },
  {
   "id": "organic-7bbaeea4",
@@ -697,7 +841,13 @@
    "game": "organic",
    "list": "sample:picture-to-name",
    "index": 7
-  }
+  },
+  "why": [
+   "",
+   "Disulfide needs two S bonded to each other (C–S–S–C).",
+   "Alcohol needs an –OH on a carbon with only single bonds.",
+   "Sulfide (thioether) needs an S between two carbons (C–S–C)."
+  ]
  },
  {
   "id": "organic-5e3f506d",
@@ -725,7 +875,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 17
-  }
+  },
+  "why": [
+   "Alcohol needs an –OH on a carbon with only single bonds. This compound has an –SH on a carbon.",
+   "",
+   "Disulfide needs two S bonded to each other (C–S–S–C). This compound has an –SH on a carbon.",
+   "Sulfide (thioether) needs an S between two carbons (C–S–C). This compound has an –SH on a carbon."
+  ]
  },
  {
   "id": "organic-ad642ecd",
@@ -753,7 +909,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 18
-  }
+  },
+  "why": [
+   "Disulfide needs two S bonded to each other (C–S–S–C). This compound has an –SH on a carbon.",
+   "Sulfide (thioether) needs an S between two carbons (C–S–C). This compound has an –SH on a carbon.",
+   "Alcohol needs an –OH on a carbon with only single bonds. This compound has an –SH on a carbon.",
+   ""
+  ]
  },
  {
   "id": "organic-25608425",
@@ -781,7 +943,13 @@
    "game": "organic",
    "list": "sample:picture-to-name",
    "index": 8
-  }
+  },
+  "why": [
+   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH).",
+   "Disulfide needs two S bonded to each other (C–S–S–C).",
+   "Thiol needs an –SH on a carbon.",
+   ""
+  ]
  },
  {
   "id": "organic-ea29abd4",
@@ -809,7 +977,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 19
-  }
+  },
+  "why": [
+   "Ketone needs a C=O with carbons on both sides. This compound has an S between two carbons (C–S–C).",
+   "",
+   "Thiol needs an –SH on a carbon. This compound has an S between two carbons (C–S–C).",
+   "Disulfide needs two S bonded to each other (C–S–S–C). This compound has an S between two carbons (C–S–C)."
+  ]
  },
  {
   "id": "organic-fa5812be",
@@ -837,7 +1011,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 20
-  }
+  },
+  "why": [
+   "",
+   "Thiol needs an –SH on a carbon. This compound has an S between two carbons (C–S–C).",
+   "Haloalkane (alkyl halide) needs a halogen (F, Cl, Br, I) on a carbon. This compound has an S between two carbons (C–S–C).",
+   "Disulfide needs two S bonded to each other (C–S–S–C). This compound has an S between two carbons (C–S–C)."
+  ]
  },
  {
   "id": "organic-b773bec0",
@@ -865,7 +1045,13 @@
    "game": "organic",
    "list": "sample:picture-to-name",
    "index": 9
-  }
+  },
+  "why": [
+   "Sulfide (thioether) needs an S between two carbons (C–S–C).",
+   "",
+   "Thiol needs an –SH on a carbon.",
+   "Ether needs an O between two carbons (C–O–C)."
+  ]
  },
  {
   "id": "organic-1fc7ba32",
@@ -893,7 +1079,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 21
-  }
+  },
+  "why": [
+   "Sulfide (thioether) needs an S between two carbons (C–S–C). This compound has two S bonded to each other (C–S–S–C).",
+   "Alkyne needs a C≡C triple bond. This compound has two S bonded to each other (C–S–S–C).",
+   "",
+   "Thiol needs an –SH on a carbon. This compound has two S bonded to each other (C–S–S–C)."
+  ]
  },
  {
   "id": "organic-3095517d",
@@ -921,7 +1113,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 22
-  }
+  },
+  "why": [
+   "Thiol needs an –SH on a carbon. This compound has two S bonded to each other (C–S–S–C).",
+   "",
+   "Sulfide (thioether) needs an S between two carbons (C–S–C). This compound has two S bonded to each other (C–S–S–C).",
+   "Ether needs an O between two carbons (C–O–C). This compound has two S bonded to each other (C–S–S–C)."
+  ]
  },
  {
   "id": "organic-b3b9c18d",
@@ -949,7 +1147,13 @@
    "game": "organic",
    "list": "sample:picture-to-name",
    "index": 10
-  }
+  },
+  "why": [
+   "Amide needs a C=O bonded directly to N (–CON).",
+   "Ketone needs a C=O with carbons on both sides.",
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C).",
+   ""
+  ]
  },
  {
   "id": "organic-321fae4d",
@@ -977,7 +1181,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 23
-  }
+  },
+  "why": [
+   "Ketone needs a C=O with carbons on both sides. This compound has a C=O at the end of a chain with an H on it.",
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O at the end of a chain with an H on it.",
+   "",
+   "Amide needs a C=O bonded directly to N (–CON). This compound has a C=O at the end of a chain with an H on it."
+  ]
  },
  {
   "id": "organic-507f39d7",
@@ -1005,7 +1215,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 24
-  }
+  },
+  "why": [
+   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH). This compound has a C=O at the end of a chain with an H on it.",
+   "Ketone needs a C=O with carbons on both sides. This compound has a C=O at the end of a chain with an H on it.",
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O at the end of a chain with an H on it.",
+   ""
+  ]
  },
  {
   "id": "organic-19508297",
@@ -1033,7 +1249,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 25
-  }
+  },
+  "why": [
+   "",
+   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH). This compound has a C=O at the end of a chain with an H on it.",
+   "Ketone needs a C=O with carbons on both sides. This compound has a C=O at the end of a chain with an H on it.",
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O at the end of a chain with an H on it."
+  ]
  },
  {
   "id": "organic-c8277a60",
@@ -1061,7 +1283,13 @@
    "game": "organic",
    "list": "sample:picture-to-name",
    "index": 11
-  }
+  },
+  "why": [
+   "",
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C).",
+   "Amide needs a C=O bonded directly to N (–CON).",
+   "Aldehyde needs a C=O at the end of a chain with an H on it."
+  ]
  },
  {
   "id": "organic-eff5b4c0",
@@ -1089,7 +1317,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 26
-  }
+  },
+  "why": [
+   "",
+   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O with carbons on both sides.",
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O with carbons on both sides.",
+   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH). This compound has a C=O with carbons on both sides."
+  ]
  },
  {
   "id": "organic-aff05076",
@@ -1117,7 +1351,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 27
-  }
+  },
+  "why": [
+   "Amide needs a C=O bonded directly to N (–CON). This compound has a C=O with carbons on both sides.",
+   "",
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O with carbons on both sides.",
+   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O with carbons on both sides."
+  ]
  },
  {
   "id": "organic-051a1505",
@@ -1145,7 +1385,13 @@
    "game": "organic",
    "list": "sample:picture-to-name",
    "index": 12
-  }
+  },
+  "why": [
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C).",
+   "Ketone needs a C=O with carbons on both sides.",
+   "",
+   "Aldehyde needs a C=O at the end of a chain with an H on it."
+  ]
  },
  {
   "id": "organic-edcabe6f",
@@ -1173,7 +1419,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 28
-  }
+  },
+  "why": [
+   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O and –OH on the same carbon (–COOH).",
+   "",
+   "Amide needs a C=O bonded directly to N (–CON). This compound has a C=O and –OH on the same carbon (–COOH).",
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O and –OH on the same carbon (–COOH)."
+  ]
  },
  {
   "id": "organic-70eca2ae",
@@ -1201,7 +1453,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 29
-  }
+  },
+  "why": [
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O and –OH on the same carbon (–COOH).",
+   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O and –OH on the same carbon (–COOH).",
+   "Ketone needs a C=O with carbons on both sides. This compound has a C=O and –OH on the same carbon (–COOH).",
+   ""
+  ]
  },
  {
   "id": "organic-f2b18a64",
@@ -1229,7 +1487,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 30
-  }
+  },
+  "why": [
+   "Amide needs a C=O bonded directly to N (–CON). This compound has a C=O and –OH on the same carbon (–COOH).",
+   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O and –OH on the same carbon (–COOH).",
+   "",
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O and –OH on the same carbon (–COOH)."
+  ]
  },
  {
   "id": "organic-0397b346",
@@ -1257,7 +1521,13 @@
    "game": "organic",
    "list": "sample:picture-to-name",
    "index": 13
-  }
+  },
+  "why": [
+   "Ketone needs a C=O with carbons on both sides.",
+   "Ether needs an O between two carbons (C–O–C).",
+   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH).",
+   ""
+  ]
  },
  {
   "id": "organic-6570f4f1",
@@ -1285,7 +1555,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 31
-  }
+  },
+  "why": [
+   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH). This compound has a C=O next to an O that leads to another carbon (–COO–C).",
+   "",
+   "Amide needs a C=O bonded directly to N (–CON). This compound has a C=O next to an O that leads to another carbon (–COO–C).",
+   "Ether needs an O between two carbons (C–O–C). This compound has a C=O next to an O that leads to another carbon (–COO–C)."
+  ]
  },
  {
   "id": "organic-a29c3f15",
@@ -1313,7 +1589,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 32
-  }
+  },
+  "why": [
+   "Ketone needs a C=O with carbons on both sides. This compound has a C=O next to an O that leads to another carbon (–COO–C).",
+   "",
+   "Ether needs an O between two carbons (C–O–C). This compound has a C=O next to an O that leads to another carbon (–COO–C).",
+   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH). This compound has a C=O next to an O that leads to another carbon (–COO–C)."
+  ]
  },
  {
   "id": "organic-915805fe",
@@ -1341,7 +1623,13 @@
    "game": "organic",
    "list": "sample:picture-to-name",
    "index": 14
-  }
+  },
+  "why": [
+   "Alkyne needs a C≡C triple bond.",
+   "Alkane needs only C–C and C–H single bonds.",
+   "Amide needs a C=O bonded directly to N (–CON).",
+   ""
+  ]
  },
  {
   "id": "organic-ce7ea1f3",
@@ -1369,7 +1657,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 33
-  }
+  },
+  "why": [
+   "Aromatic (arene) needs a benzene ring. This compound has an N with only single bonds to C and H.",
+   "Amide needs a C=O bonded directly to N (–CON). This compound has an N with only single bonds to C and H.",
+   "Ketone needs a C=O with carbons on both sides. This compound has an N with only single bonds to C and H.",
+   ""
+  ]
  },
  {
   "id": "organic-07303447",
@@ -1397,7 +1691,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 34
-  }
+  },
+  "why": [
+   "Aromatic (arene) needs a benzene ring. This compound has an N with only single bonds to C and H.",
+   "Haloalkane (alkyl halide) needs a halogen (F, Cl, Br, I) on a carbon. This compound has an N with only single bonds to C and H.",
+   "Amide needs a C=O bonded directly to N (–CON). This compound has an N with only single bonds to C and H.",
+   ""
+  ]
  },
  {
   "id": "organic-7efffb7c",
@@ -1425,7 +1725,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 35
-  }
+  },
+  "why": [
+   "",
+   "Alkyne needs a C≡C triple bond. This compound has an N with only single bonds to C and H.",
+   "Amide needs a C=O bonded directly to N (–CON). This compound has an N with only single bonds to C and H.",
+   "Alcohol needs an –OH on a carbon with only single bonds. This compound has an N with only single bonds to C and H."
+  ]
  },
  {
   "id": "organic-eaa83b14",
@@ -1453,7 +1759,13 @@
    "game": "organic",
    "list": "sample:picture-to-name",
    "index": 15
-  }
+  },
+  "why": [
+   "Aldehyde needs a C=O at the end of a chain with an H on it.",
+   "Amine needs an N with only single bonds to C and H.",
+   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH).",
+   ""
+  ]
  },
  {
   "id": "organic-d67562da",
@@ -1481,7 +1793,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 36
-  }
+  },
+  "why": [
+   "",
+   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O bonded directly to N (–CON).",
+   "Amine needs an N with only single bonds to C and H. This compound has a C=O bonded directly to N (–CON).",
+   "Ketone needs a C=O with carbons on both sides. This compound has a C=O bonded directly to N (–CON)."
+  ]
  },
  {
   "id": "organic-ace0eeda",
@@ -1509,7 +1827,13 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 37
-  }
+  },
+  "why": [
+   "Amine needs an N with only single bonds to C and H. This compound has a C=O bonded directly to N (–CON).",
+   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O bonded directly to N (–CON).",
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O bonded directly to N (–CON).",
+   ""
+  ]
  },
  {
   "id": "organic-9cce8dac",
@@ -1537,6 +1861,12 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 38
-  }
+  },
+  "why": [
+   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH). This compound has a C=O bonded directly to N (–CON).",
+   "",
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O bonded directly to N (–CON).",
+   "Amine needs an N with only single bonds to C and H. This compound has a C=O bonded directly to N (–CON)."
+  ]
  }
 ]

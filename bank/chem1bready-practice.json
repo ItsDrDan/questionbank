@@ -3793,7 +3793,16 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 0
-  }
+  },
+  "why": [
+   "T-shaped needs 5 electron groups with 2 lone pairs. This atom has 5 (2 bonded + 3 lone pairs).",
+   "Trigonal bipyramidal needs 5 electron groups with 0 lone pairs. This atom has 5 (2 bonded + 3 lone pairs).",
+   "",
+   "Square pyramidal needs 6 electron groups with 1 lone pair. This atom has 5 (2 bonded + 3 lone pairs).",
+   "Octahedral needs 6 electron groups with 0 lone pairs. This atom has 5 (2 bonded + 3 lone pairs).",
+   "Seesaw needs 5 electron groups with 1 lone pair. This atom has 5 (2 bonded + 3 lone pairs).",
+   "Square planar needs 6 electron groups with 2 lone pairs. This atom has 5 (2 bonded + 3 lone pairs)."
+  ]
  },
  {
   "id": "chem1bready-9b70e3d2",
@@ -3822,7 +3831,13 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 1
-  }
+  },
+  "why": [
+   "sp³d² goes with 6 electron groups. This atom has 5.",
+   "sp³ goes with 4 electron groups. This atom has 5.",
+   "sp² goes with 3 electron groups. This atom has 5.",
+   ""
+  ]
  },
  {
   "id": "chem1bready-fea03b67",
@@ -3849,7 +3864,11 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 2
-  }
+  },
+  "why": [
+   "Polar needs bond dipoles that don’t cancel. Here identical outer atoms sit symmetrically around the center, so they cancel.",
+   ""
+  ]
  },
  {
   "id": "chem1bready-ac8ec6f7",
@@ -3879,7 +3898,14 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 3
-  }
+  },
+  "why": [
+   "Tetrahedral needs 4 electron groups with 0 lone pairs. This atom has 4 (3 bonded + 1 lone pair).",
+   "Trigonal planar needs 3 electron groups with 0 lone pairs. This atom has 4 (3 bonded + 1 lone pair).",
+   "Bent needs 3 electron groups with 1 lone pair or 4 electron groups with 2 lone pairs. This atom has 4 (3 bonded + 1 lone pair).",
+   "Linear needs 2 electron groups with 0 lone pairs or 5 electron groups with 3 lone pairs. This atom has 4 (3 bonded + 1 lone pair).",
+   ""
+  ]
  },
  {
   "id": "chem1bready-6919bd00",
@@ -3907,7 +3933,12 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 4
-  }
+  },
+  "why": [
+   "sp² goes with 3 electron groups. This atom has 4.",
+   "",
+   "sp goes with 2 electron groups. This atom has 4."
+  ]
  },
  {
   "id": "chem1bready-e77f8105",
@@ -3934,7 +3965,11 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 5
-  }
+  },
+  "why": [
+   "",
+   "Nonpolar needs the bond dipoles to cancel. Here lone pairs or different outer atoms make the shape lopsided, so they don’t."
+  ]
  },
  {
   "id": "chem1bready-8a81675d",
@@ -3966,7 +4001,16 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 6
-  }
+  },
+  "why": [
+   "Linear needs 2 electron groups with 0 lone pairs or 5 electron groups with 3 lone pairs. This atom has 6 (4 bonded + 2 lone pairs).",
+   "Octahedral needs 6 electron groups with 0 lone pairs. This atom has 6 (4 bonded + 2 lone pairs).",
+   "Square pyramidal needs 6 electron groups with 1 lone pair. This atom has 6 (4 bonded + 2 lone pairs).",
+   "",
+   "Trigonal bipyramidal needs 5 electron groups with 0 lone pairs. This atom has 6 (4 bonded + 2 lone pairs).",
+   "T-shaped needs 5 electron groups with 2 lone pairs. This atom has 6 (4 bonded + 2 lone pairs).",
+   "Seesaw needs 5 electron groups with 1 lone pair. This atom has 6 (4 bonded + 2 lone pairs)."
+  ]
  },
  {
   "id": "chem1bready-8f6a55c0",
@@ -3995,7 +4039,13 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 7
-  }
+  },
+  "why": [
+   "sp³ goes with 4 electron groups. This atom has 6.",
+   "sp³d goes with 5 electron groups. This atom has 6.",
+   "",
+   "sp² goes with 3 electron groups. This atom has 6."
+  ]
  },
  {
   "id": "chem1bready-48f0a4b5",
@@ -4022,7 +4072,11 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 8
-  }
+  },
+  "why": [
+   "Polar needs bond dipoles that don’t cancel. Here identical outer atoms sit symmetrically around the center, so they cancel.",
+   ""
+  ]
  },
  {
   "id": "chem1bready-c0feb9b5",
@@ -4054,7 +4108,16 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 9
-  }
+  },
+  "why": [
+   "Square planar needs 6 electron groups with 2 lone pairs. This atom has 6 (6 bonded + 0 lone pairs).",
+   "Trigonal bipyramidal needs 5 electron groups with 0 lone pairs. This atom has 6 (6 bonded + 0 lone pairs).",
+   "",
+   "Seesaw needs 5 electron groups with 1 lone pair. This atom has 6 (6 bonded + 0 lone pairs).",
+   "Square pyramidal needs 6 electron groups with 1 lone pair. This atom has 6 (6 bonded + 0 lone pairs).",
+   "T-shaped needs 5 electron groups with 2 lone pairs. This atom has 6 (6 bonded + 0 lone pairs).",
+   "Linear needs 2 electron groups with 0 lone pairs or 5 electron groups with 3 lone pairs. This atom has 6 (6 bonded + 0 lone pairs)."
+  ]
  },
  {
   "id": "chem1bready-4bcb700c",
@@ -4083,7 +4146,13 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 10
-  }
+  },
+  "why": [
+   "",
+   "sp³d goes with 5 electron groups. This atom has 6.",
+   "sp² goes with 3 electron groups. This atom has 6.",
+   "sp³ goes with 4 electron groups. This atom has 6."
+  ]
  },
  {
   "id": "chem1bready-9ffa7a4f",
@@ -4110,7 +4179,11 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 11
-  }
+  },
+  "why": [
+   "",
+   "Polar needs bond dipoles that don’t cancel. Here identical outer atoms sit symmetrically around the center, so they cancel."
+  ]
  },
  {
   "id": "chem1bready-7bfaddb3",
@@ -4142,7 +4215,16 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 12
-  }
+  },
+  "why": [
+   "T-shaped needs 5 electron groups with 2 lone pairs. This atom has 5 (5 bonded + 0 lone pairs).",
+   "Linear needs 2 electron groups with 0 lone pairs or 5 electron groups with 3 lone pairs. This atom has 5 (5 bonded + 0 lone pairs).",
+   "Square planar needs 6 electron groups with 2 lone pairs. This atom has 5 (5 bonded + 0 lone pairs).",
+   "Square pyramidal needs 6 electron groups with 1 lone pair. This atom has 5 (5 bonded + 0 lone pairs).",
+   "Seesaw needs 5 electron groups with 1 lone pair. This atom has 5 (5 bonded + 0 lone pairs).",
+   "",
+   "Octahedral needs 6 electron groups with 0 lone pairs. This atom has 5 (5 bonded + 0 lone pairs)."
+  ]
  },
  {
   "id": "chem1bready-0ab572ee",
@@ -4171,7 +4253,13 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 13
-  }
+  },
+  "why": [
+   "sp² goes with 3 electron groups. This atom has 5.",
+   "sp³d² goes with 6 electron groups. This atom has 5.",
+   "sp³ goes with 4 electron groups. This atom has 5.",
+   ""
+  ]
  },
  {
   "id": "chem1bready-86eee3f2",
@@ -4198,7 +4286,11 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 14
-  }
+  },
+  "why": [
+   "Polar needs bond dipoles that don’t cancel. Here identical outer atoms sit symmetrically around the center, so they cancel.",
+   ""
+  ]
  },
  {
   "id": "chem1bready-132b08b8",
@@ -4228,7 +4320,14 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 15
-  }
+  },
+  "why": [
+   "Trigonal planar needs 3 electron groups with 0 lone pairs. This atom has 2 (2 bonded + 0 lone pairs).",
+   "",
+   "Tetrahedral needs 4 electron groups with 0 lone pairs. This atom has 2 (2 bonded + 0 lone pairs).",
+   "Bent needs 3 electron groups with 1 lone pair or 4 electron groups with 2 lone pairs. This atom has 2 (2 bonded + 0 lone pairs).",
+   "Trigonal pyramidal needs 4 electron groups with 1 lone pair. This atom has 2 (2 bonded + 0 lone pairs)."
+  ]
  },
  {
   "id": "chem1bready-d7dec29d",
@@ -4256,7 +4355,12 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 16
-  }
+  },
+  "why": [
+   "",
+   "sp² goes with 3 electron groups. This atom has 2.",
+   "sp³ goes with 4 electron groups. This atom has 2."
+  ]
  },
  {
   "id": "chem1bready-620e39cf",
@@ -4283,7 +4387,11 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 17
-  }
+  },
+  "why": [
+   "Nonpolar needs the bond dipoles to cancel. Here lone pairs or different outer atoms make the shape lopsided, so they don’t.",
+   ""
+  ]
  },
  {
   "id": "chem1bready-faa4a71a",
@@ -4313,7 +4421,14 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 18
-  }
+  },
+  "why": [
+   "Linear needs 2 electron groups with 0 lone pairs or 5 electron groups with 3 lone pairs. This atom has 4 (4 bonded + 0 lone pairs).",
+   "Bent needs 3 electron groups with 1 lone pair or 4 electron groups with 2 lone pairs. This atom has 4 (4 bonded + 0 lone pairs).",
+   "Trigonal planar needs 3 electron groups with 0 lone pairs. This atom has 4 (4 bonded + 0 lone pairs).",
+   "Trigonal pyramidal needs 4 electron groups with 1 lone pair. This atom has 4 (4 bonded + 0 lone pairs).",
+   ""
+  ]
  },
  {
   "id": "chem1bready-17f6f3a0",
@@ -4341,7 +4456,12 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 19
-  }
+  },
+  "why": [
+   "sp goes with 2 electron groups. This atom has 4.",
+   "sp² goes with 3 electron groups. This atom has 4.",
+   ""
+  ]
  },
  {
   "id": "chem1bready-0ff06b25",
@@ -4368,7 +4488,11 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 20
-  }
+  },
+  "why": [
+   "Polar needs bond dipoles that don’t cancel. Here identical outer atoms sit symmetrically around the center, so they cancel.",
+   ""
+  ]
  },
  {
   "id": "chem1bready-a8287729",
@@ -4398,7 +4522,14 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 21
-  }
+  },
+  "why": [
+   "Tetrahedral needs 4 electron groups with 0 lone pairs. This atom has 4 (2 bonded + 2 lone pairs).",
+   "Trigonal planar needs 3 electron groups with 0 lone pairs. This atom has 4 (2 bonded + 2 lone pairs).",
+   "Trigonal pyramidal needs 4 electron groups with 1 lone pair. This atom has 4 (2 bonded + 2 lone pairs).",
+   "Linear needs 2 electron groups with 0 lone pairs or 5 electron groups with 3 lone pairs. This atom has 4 (2 bonded + 2 lone pairs).",
+   ""
+  ]
  },
  {
   "id": "chem1bready-c2d663ff",
@@ -4426,7 +4557,12 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 22
-  }
+  },
+  "why": [
+   "sp goes with 2 electron groups. This atom has 4.",
+   "sp² goes with 3 electron groups. This atom has 4.",
+   ""
+  ]
  },
  {
   "id": "chem1bready-0f251573",
@@ -4453,7 +4589,11 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 23
-  }
+  },
+  "why": [
+   "",
+   "Nonpolar needs the bond dipoles to cancel. Here lone pairs or different outer atoms make the shape lopsided, so they don’t."
+  ]
  },
  {
   "id": "chem1bready-1f86517b",
@@ -4485,7 +4625,16 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 24
-  }
+  },
+  "why": [
+   "T-shaped needs 5 electron groups with 2 lone pairs. This atom has 6 (5 bonded + 1 lone pair).",
+   "Octahedral needs 6 electron groups with 0 lone pairs. This atom has 6 (5 bonded + 1 lone pair).",
+   "Seesaw needs 5 electron groups with 1 lone pair. This atom has 6 (5 bonded + 1 lone pair).",
+   "Linear needs 2 electron groups with 0 lone pairs or 5 electron groups with 3 lone pairs. This atom has 6 (5 bonded + 1 lone pair).",
+   "Square planar needs 6 electron groups with 2 lone pairs. This atom has 6 (5 bonded + 1 lone pair).",
+   "",
+   "Trigonal bipyramidal needs 5 electron groups with 0 lone pairs. This atom has 6 (5 bonded + 1 lone pair)."
+  ]
  },
  {
   "id": "chem1bready-02b438c8",
@@ -4514,7 +4663,13 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 25
-  }
+  },
+  "why": [
+   "sp³ goes with 4 electron groups. This atom has 6.",
+   "sp² goes with 3 electron groups. This atom has 6.",
+   "",
+   "sp³d goes with 5 electron groups. This atom has 6."
+  ]
  },
  {
   "id": "chem1bready-1eb32fca",
@@ -4541,7 +4696,11 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 26
-  }
+  },
+  "why": [
+   "Nonpolar needs the bond dipoles to cancel. Here lone pairs or different outer atoms make the shape lopsided, so they don’t.",
+   ""
+  ]
  },
  {
   "id": "chem1bready-f596cefb",
@@ -4573,7 +4732,16 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 27
-  }
+  },
+  "why": [
+   "Linear needs 2 electron groups with 0 lone pairs or 5 electron groups with 3 lone pairs. This atom has 5 (4 bonded + 1 lone pair).",
+   "T-shaped needs 5 electron groups with 2 lone pairs. This atom has 5 (4 bonded + 1 lone pair).",
+   "",
+   "Square pyramidal needs 6 electron groups with 1 lone pair. This atom has 5 (4 bonded + 1 lone pair).",
+   "Trigonal bipyramidal needs 5 electron groups with 0 lone pairs. This atom has 5 (4 bonded + 1 lone pair).",
+   "Square planar needs 6 electron groups with 2 lone pairs. This atom has 5 (4 bonded + 1 lone pair).",
+   "Octahedral needs 6 electron groups with 0 lone pairs. This atom has 5 (4 bonded + 1 lone pair)."
+  ]
  },
  {
   "id": "chem1bready-634aabef",
@@ -4602,7 +4770,13 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 28
-  }
+  },
+  "why": [
+   "sp² goes with 3 electron groups. This atom has 5.",
+   "sp³d² goes with 6 electron groups. This atom has 5.",
+   "",
+   "sp³ goes with 4 electron groups. This atom has 5."
+  ]
  },
  {
   "id": "chem1bready-8ffe88a2",
@@ -4629,7 +4803,11 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 29
-  }
+  },
+  "why": [
+   "",
+   "Nonpolar needs the bond dipoles to cancel. Here lone pairs or different outer atoms make the shape lopsided, so they don’t."
+  ]
  },
  {
   "id": "chem1bready-ec64b277",
@@ -4659,7 +4837,14 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 30
-  }
+  },
+  "why": [
+   "Bent needs 3 electron groups with 1 lone pair or 4 electron groups with 2 lone pairs. This atom has 3 (3 bonded + 0 lone pairs).",
+   "Trigonal pyramidal needs 4 electron groups with 1 lone pair. This atom has 3 (3 bonded + 0 lone pairs).",
+   "Linear needs 2 electron groups with 0 lone pairs or 5 electron groups with 3 lone pairs. This atom has 3 (3 bonded + 0 lone pairs).",
+   "Tetrahedral needs 4 electron groups with 0 lone pairs. This atom has 3 (3 bonded + 0 lone pairs).",
+   ""
+  ]
  },
  {
   "id": "chem1bready-8543ab72",
@@ -4687,7 +4872,12 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 31
-  }
+  },
+  "why": [
+   "",
+   "sp³ goes with 4 electron groups. This atom has 3.",
+   "sp goes with 2 electron groups. This atom has 3."
+  ]
  },
  {
   "id": "chem1bready-2f0a247f",
@@ -4714,7 +4904,11 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 32
-  }
+  },
+  "why": [
+   "",
+   "Polar needs bond dipoles that don’t cancel. Here identical outer atoms sit symmetrically around the center, so they cancel."
+  ]
  },
  {
   "id": "chem1bready-c0939610",
@@ -4744,7 +4938,14 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 33
-  }
+  },
+  "why": [
+   "Trigonal planar needs 3 electron groups with 0 lone pairs. This atom has 4 (3 bonded + 1 lone pair).",
+   "Linear needs 2 electron groups with 0 lone pairs or 5 electron groups with 3 lone pairs. This atom has 4 (3 bonded + 1 lone pair).",
+   "Tetrahedral needs 4 electron groups with 0 lone pairs. This atom has 4 (3 bonded + 1 lone pair).",
+   "",
+   "Bent needs 3 electron groups with 1 lone pair or 4 electron groups with 2 lone pairs. This atom has 4 (3 bonded + 1 lone pair)."
+  ]
  },
  {
   "id": "chem1bready-3360178b",
@@ -4772,7 +4973,12 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 34
-  }
+  },
+  "why": [
+   "",
+   "sp² goes with 3 electron groups. This atom has 4.",
+   "sp goes with 2 electron groups. This atom has 4."
+  ]
  },
  {
   "id": "chem1bready-27bbd6f4",
@@ -4799,7 +5005,11 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 35
-  }
+  },
+  "why": [
+   "Nonpolar needs the bond dipoles to cancel. Here lone pairs or different outer atoms make the shape lopsided, so they don’t.",
+   ""
+  ]
  },
  {
   "id": "chem1bready-17d1c9af",
@@ -4829,7 +5039,14 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 36
-  }
+  },
+  "why": [
+   "Trigonal pyramidal needs 4 electron groups with 1 lone pair. This atom has 2 (2 bonded + 0 lone pairs).",
+   "Tetrahedral needs 4 electron groups with 0 lone pairs. This atom has 2 (2 bonded + 0 lone pairs).",
+   "Bent needs 3 electron groups with 1 lone pair or 4 electron groups with 2 lone pairs. This atom has 2 (2 bonded + 0 lone pairs).",
+   "Trigonal planar needs 3 electron groups with 0 lone pairs. This atom has 2 (2 bonded + 0 lone pairs).",
+   ""
+  ]
  },
  {
   "id": "chem1bready-f3fb2e18",
@@ -4857,7 +5074,12 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 37
-  }
+  },
+  "why": [
+   "sp² goes with 3 electron groups. This atom has 2.",
+   "",
+   "sp³ goes with 4 electron groups. This atom has 2."
+  ]
  },
  {
   "id": "chem1bready-4430b522",
@@ -4884,7 +5106,11 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 38
-  }
+  },
+  "why": [
+   "",
+   "Polar needs bond dipoles that don’t cancel. Here identical outer atoms sit symmetrically around the center, so they cancel."
+  ]
  },
  {
   "id": "chem1bready-a3d9c0aa",
@@ -4914,7 +5140,14 @@
    "game": "chem1bready",
    "list": "sample:geometry",
    "index": 39
-  }
+  },
+  "why": [
+   "Trigonal planar needs 3 electron groups with 0 lone pairs. This atom has 4 (3 bonded + 1 lone pair).",
+   "Bent needs 3 electron groups with 1 lone pair or 4 electron groups with 2 lone pairs. This atom has 4 (3 bonded + 1 lone pair).",
+   "Tetrahedral needs 4 electron groups with 0 lone pairs. This atom has 4 (3 bonded + 1 lone pair).",
+   "",
+   "Linear needs 2 electron groups with 0 lone pairs or 5 electron groups with 3 lone pairs. This atom has 4 (3 bonded + 1 lone pair)."
+  ]
  },
  {
   "id": "chem1bready-35be8b71",
@@ -4989,7 +5222,11 @@
    "game": "chem1bready",
    "list": "sample:mo",
    "index": 2
-  }
+  },
+  "why": [
+   "",
+   "Paramagnetic needs at least one unpaired electron. Fill the MO diagram: every electron here ends up paired."
+  ]
  },
  {
   "id": "chem1bready-51ade376",
@@ -5064,7 +5301,11 @@
    "game": "chem1bready",
    "list": "sample:mo",
    "index": 5
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic needs every electron paired. Fill the MO diagram: 2 electrons are left unpaired."
+  ]
  },
  {
   "id": "chem1bready-62bcd40b",
@@ -5139,7 +5380,11 @@
    "game": "chem1bready",
    "list": "sample:mo",
    "index": 8
-  }
+  },
+  "why": [
+   "",
+   "Paramagnetic needs at least one unpaired electron. Fill the MO diagram: every electron here ends up paired."
+  ]
  },
  {
   "id": "chem1bready-ba325d39",
@@ -5214,7 +5459,11 @@
    "game": "chem1bready",
    "list": "sample:mo",
    "index": 11
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic needs every electron paired. Fill the MO diagram: 1 electron is left unpaired."
+  ]
  },
  {
   "id": "chem1bready-0c31e7bb",
@@ -5289,7 +5538,11 @@
    "game": "chem1bready",
    "list": "sample:mo",
    "index": 14
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic needs every electron paired. Fill the MO diagram: 1 electron is left unpaired."
+  ]
  },
  {
   "id": "chem1bready-83fd798c",
@@ -5364,7 +5617,11 @@
    "game": "chem1bready",
    "list": "sample:mo",
    "index": 17
-  }
+  },
+  "why": [
+   "Diamagnetic needs every electron paired. Fill the MO diagram: 2 electrons are left unpaired.",
+   ""
+  ]
  },
  {
   "id": "chem1bready-ae644525",
@@ -5439,7 +5696,11 @@
    "game": "chem1bready",
    "list": "sample:mo",
    "index": 20
-  }
+  },
+  "why": [
+   "",
+   "Paramagnetic needs at least one unpaired electron. Fill the MO diagram: every electron here ends up paired."
+  ]
  },
  {
   "id": "chem1bready-bbd77946",
@@ -5514,7 +5775,11 @@
    "game": "chem1bready",
    "list": "sample:mo",
    "index": 23
-  }
+  },
+  "why": [
+   "Paramagnetic needs at least one unpaired electron. Fill the MO diagram: every electron here ends up paired.",
+   ""
+  ]
  },
  {
   "id": "chem1bready-26a1ab85",
@@ -5589,7 +5854,11 @@
    "game": "chem1bready",
    "list": "sample:mo",
    "index": 26
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic needs every electron paired. Fill the MO diagram: 1 electron is left unpaired."
+  ]
  },
  {
   "id": "chem1bready-15471909",
@@ -5664,7 +5933,11 @@
    "game": "chem1bready",
    "list": "sample:mo",
    "index": 29
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic needs every electron paired. Fill the MO diagram: 1 electron is left unpaired."
+  ]
  },
  {
   "id": "chem1bready-f46f337e",
@@ -5739,7 +6012,11 @@
    "game": "chem1bready",
    "list": "sample:mo",
    "index": 32
-  }
+  },
+  "why": [
+   "",
+   "Paramagnetic needs at least one unpaired electron. Fill the MO diagram: every electron here ends up paired."
+  ]
  },
  {
   "id": "chem1bready-23d56ab6",
@@ -5814,7 +6091,11 @@
    "game": "chem1bready",
    "list": "sample:mo",
    "index": 35
-  }
+  },
+  "why": [
+   "Diamagnetic needs every electron paired. Fill the MO diagram: 1 electron is left unpaired.",
+   ""
+  ]
  },
  {
   "id": "chem1bready-874632a8",
@@ -5889,7 +6170,11 @@
    "game": "chem1bready",
    "list": "sample:mo",
    "index": 38
-  }
+  },
+  "why": [
+   "Diamagnetic needs every electron paired. Fill the MO diagram: 1 electron is left unpaired.",
+   ""
+  ]
  },
  {
   "id": "chem1bready-00339992",
@@ -5999,7 +6284,13 @@
    "game": "chem1bready",
    "list": "sample:foundations",
    "index": 2
-  }
+  },
+  "why": [
+   "",
+   "Silver has a density of 10.5 g/cm³. Your density is 8.98 g/cm³ (mass ÷ the volume the water rose).",
+   "Gold has a density of 19.3 g/cm³. Your density is 8.98 g/cm³ (mass ÷ the volume the water rose).",
+   "Iron has a density of 7.9 g/cm³. Your density is 8.98 g/cm³ (mass ÷ the volume the water rose)."
+  ]
  },
  {
   "id": "chem1bready-e461e417",
@@ -6084,7 +6375,13 @@
    "game": "chem1bready",
    "list": "sample:foundations",
    "index": 5
-  }
+  },
+  "why": [
+   "Gold has a density of 19.3 g/cm³. Your density is 11.4 g/cm³ (mass ÷ the volume the water rose).",
+   "Silver has a density of 10.5 g/cm³. Your density is 11.4 g/cm³ (mass ÷ the volume the water rose).",
+   "Iron has a density of 7.9 g/cm³. Your density is 11.4 g/cm³ (mass ÷ the volume the water rose).",
+   ""
+  ]
  },
  {
   "id": "chem1bready-948b769a",
@@ -6358,7 +6655,13 @@
    "game": "chem1bready",
    "list": "sample:foundations",
    "index": 15
-  }
+  },
+  "why": [
+   "",
+   "Iron has a density of 7.9 g/cm³. Your density is 19.3 g/cm³ (mass ÷ the volume the water rose).",
+   "Copper has a density of 9.0 g/cm³. Your density is 19.3 g/cm³ (mass ÷ the volume the water rose).",
+   "Lead has a density of 11.3 g/cm³. Your density is 19.3 g/cm³ (mass ÷ the volume the water rose)."
+  ]
  },
  {
   "id": "chem1bready-8a08a40d",
@@ -6471,7 +6774,13 @@
    "game": "chem1bready",
    "list": "sample:foundations",
    "index": 19
-  }
+  },
+  "why": [
+   "Gold has a density of 19.3 g/cm³. Your density is 10.4 g/cm³ (mass ÷ the volume the water rose).",
+   "",
+   "Copper has a density of 9.0 g/cm³. Your density is 10.4 g/cm³ (mass ÷ the volume the water rose).",
+   "Lead has a density of 11.3 g/cm³. Your density is 10.4 g/cm³ (mass ÷ the volume the water rose)."
+  ]
  },
  {
   "id": "chem1bready-13a6b1e5",
@@ -6638,7 +6947,13 @@
    "game": "chem1bready",
    "list": "sample:foundations",
    "index": 25
-  }
+  },
+  "why": [
+   "Gold has a density of 19.3 g/cm³. Your density is 8.99 g/cm³ (mass ÷ the volume the water rose).",
+   "Silver has a density of 10.5 g/cm³. Your density is 8.99 g/cm³ (mass ÷ the volume the water rose).",
+   "Iron has a density of 7.9 g/cm³. Your density is 8.99 g/cm³ (mass ÷ the volume the water rose).",
+   ""
+  ]
  },
  {
   "id": "chem1bready-e6438110",
@@ -6777,7 +7092,13 @@
    "game": "chem1bready",
    "list": "sample:foundations",
    "index": 30
-  }
+  },
+  "why": [
+   "Copper has a density of 9.0 g/cm³. Your density is 7.93 g/cm³ (mass ÷ the volume the water rose).",
+   "",
+   "Lead has a density of 11.3 g/cm³. Your density is 7.93 g/cm³ (mass ÷ the volume the water rose).",
+   "Gold has a density of 19.3 g/cm³. Your density is 7.93 g/cm³ (mass ÷ the volume the water rose)."
+  ]
  },
  {
   "id": "chem1bready-069d464f",
@@ -6837,7 +7158,13 @@
    "game": "chem1bready",
    "list": "sample:foundations",
    "index": 32
-  }
+  },
+  "why": [
+   "",
+   "Copper has a density of 9.0 g/cm³. Your density is 11.3 g/cm³ (mass ÷ the volume the water rose).",
+   "Silver has a density of 10.5 g/cm³. Your density is 11.3 g/cm³ (mass ÷ the volume the water rose).",
+   "Gold has a density of 19.3 g/cm³. Your density is 11.3 g/cm³ (mass ÷ the volume the water rose)."
+  ]
  },
  {
   "id": "chem1bready-09c09d72",
@@ -6951,7 +7278,13 @@
    "game": "chem1bready",
    "list": "sample:foundations",
    "index": 36
-  }
+  },
+  "why": [
+   "Copper has a density of 9.0 g/cm³. Your density is 19.3 g/cm³ (mass ÷ the volume the water rose).",
+   "Lead has a density of 11.3 g/cm³. Your density is 19.3 g/cm³ (mass ÷ the volume the water rose).",
+   "",
+   "Silver has a density of 10.5 g/cm³. Your density is 19.3 g/cm³ (mass ÷ the volume the water rose)."
+  ]
  },
  {
   "id": "chem1bready-d703b105",
@@ -8174,7 +8507,11 @@
    "game": "chem1bready",
    "list": "sample:kineq",
    "index": 2
-  }
+  },
+  "why": [
+   "",
+   "Heat is a reactant only when ΔH is positive (endothermic). Here ΔH is negative."
+  ]
  },
  {
   "id": "chem1bready-92208b33",
@@ -8503,7 +8840,11 @@
    "game": "chem1bready",
    "list": "sample:kineq",
    "index": 15
-  }
+  },
+  "why": [
+   "",
+   "Heat is a product only when ΔH is negative (exothermic). Here ΔH is positive."
+  ]
  },
  {
   "id": "chem1bready-e3b11417",
@@ -8530,7 +8871,11 @@
    "game": "chem1bready",
    "list": "sample:kineq",
    "index": 16
-  }
+  },
+  "why": [
+   "",
+   "Heat is a reactant only when ΔH is positive (endothermic). Here ΔH is negative."
+  ]
  },
  {
   "id": "chem1bready-a3bb091a",
@@ -8808,7 +9153,11 @@
    "game": "chem1bready",
    "list": "sample:kineq",
    "index": 27
-  }
+  },
+  "why": [
+   "Heat is a reactant only when ΔH is positive (endothermic). Here ΔH is negative.",
+   ""
+  ]
  },
  {
   "id": "chem1bready-1b051498",
@@ -8835,7 +9184,11 @@
    "game": "chem1bready",
    "list": "sample:kineq",
    "index": 28
-  }
+  },
+  "why": [
+   "",
+   "Heat is a product only when ΔH is negative (exothermic). Here ΔH is positive."
+  ]
  },
  {
   "id": "chem1bready-3a8e145c",
@@ -8887,7 +9240,11 @@
    "game": "chem1bready",
    "list": "sample:kineq",
    "index": 30
-  }
+  },
+  "why": [
+   "Heat is a reactant only when ΔH is positive (endothermic). Here ΔH is negative.",
+   ""
+  ]
  },
  {
   "id": "chem1bready-9103e698",
@@ -8965,7 +9322,11 @@
    "game": "chem1bready",
    "list": "sample:kineq",
    "index": 33
-  }
+  },
+  "why": [
+   "",
+   "Heat is a reactant only when ΔH is positive (endothermic). Here ΔH is negative."
+  ]
  },
  {
   "id": "chem1bready-04b66b73",
@@ -8992,7 +9353,11 @@
    "game": "chem1bready",
    "list": "sample:kineq",
    "index": 34
-  }
+  },
+  "why": [
+   "Heat is a product only when ΔH is negative (exothermic). Here ΔH is positive.",
+   ""
+  ]
  },
  {
   "id": "chem1bready-d76e4448",

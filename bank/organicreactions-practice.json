@@ -24,7 +24,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 0
-  }
+  },
+  "why": [
+   "Esterification: an acid + an alcohol make an ester + water. This reaction is a hydration reaction.",
+   "Hydrohalogenation: HCl or HBr adds across a C=C. This reaction is a hydration reaction.",
+   "",
+   "Hydrolysis: water splits one molecule (an ester or amide) into two. This reaction is a hydration reaction."
+  ]
  },
  {
   "id": "organicreactions-c76ddb0f",
@@ -51,7 +57,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 1
-  }
+  },
+  "why": [
+   "Hydration: H₂O adds across a C=C to make an alcohol. This reaction is a hydrogenation reaction.",
+   "",
+   "Hydrolysis: water splits one molecule (an ester or amide) into two. This reaction is a hydrogenation reaction.",
+   "Halogenation (addition): Cl₂ or Br₂ adds across a C=C. This reaction is a hydrogenation reaction."
+  ]
  },
  {
   "id": "organicreactions-d36276b0",
@@ -78,7 +90,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 2
-  }
+  },
+  "why": [
+   "Neutralization: an acid + a base make a salt. This reaction is an amidation reaction.",
+   "",
+   "Hydrogenation: H₂ adds across a C=C or C≡C. This reaction is an amidation reaction.",
+   "Esterification: an acid + an alcohol make an ester + water. This reaction is an amidation reaction."
+  ]
  },
  {
   "id": "organicreactions-2c4e7ab4",
@@ -105,7 +123,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 3
-  }
+  },
+  "why": [
+   "",
+   "Hydrolysis: water splits one molecule (an ester or amide) into two. This reaction is a hydrohalogenation reaction.",
+   "Halogenation (addition): Cl₂ or Br₂ adds across a C=C. This reaction is a hydrohalogenation reaction.",
+   "Hydrogenation: H₂ adds across a C=C or C≡C. This reaction is a hydrohalogenation reaction."
+  ]
  },
  {
   "id": "organicreactions-9eea7302",
@@ -132,7 +156,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 4
-  }
+  },
+  "why": [
+   "Hydrolysis: water splits one molecule (an ester or amide) into two. This reaction is a condensation reaction.",
+   "",
+   "Substitution: one atom or group is swapped for another. This reaction is a condensation reaction.",
+   "Combustion: a fuel burns in O₂ to make CO₂ and H₂O. This reaction is a condensation reaction."
+  ]
  },
  {
   "id": "organicreactions-e12149f7",
@@ -159,7 +189,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 5
-  }
+  },
+  "why": [
+   "Esterification: an acid + an alcohol make an ester + water. This reaction is a neutralization reaction.",
+   "Halogenation (addition): Cl₂ or Br₂ adds across a C=C. This reaction is a neutralization reaction.",
+   "",
+   "Saponification: NaOH splits an ester into a carboxylate salt and an alcohol. This reaction is a neutralization reaction."
+  ]
  },
  {
   "id": "organicreactions-a2dc43f1",
@@ -186,7 +222,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 6
-  }
+  },
+  "why": [
+   "Oxidation: a carbon gains O or loses H (alcohol → aldehyde/ketone → acid). This reaction is a condensation reaction.",
+   "Elimination: a small molecule leaves and a double bond forms. This reaction is a condensation reaction.",
+   "",
+   "Acid–base: an H⁺ moves from an acid to a base. This reaction is a condensation reaction."
+  ]
  },
  {
   "id": "organicreactions-db4fb200",
@@ -217,7 +259,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 7
-  }
+  },
+  "why": [
+   "Hydrolysis: water splits one molecule (an ester or amide) into two. This reaction is a condensation reaction.",
+   "Substitution: one atom or group is swapped for another. This reaction is a condensation reaction.",
+   "",
+   "Elimination: a small molecule leaves and a double bond forms. This reaction is a condensation reaction."
+  ]
  },
  {
   "id": "organicreactions-be4dbbac",
@@ -244,7 +292,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 8
-  }
+  },
+  "why": [
+   "Acid–base: an H⁺ moves from an acid to a base. This reaction is a hydrolysis reaction.",
+   "Condensation: two molecules join and release a small molecule (usually H₂O). This reaction is a hydrolysis reaction.",
+   "",
+   "Combustion: a fuel burns in O₂ to make CO₂ and H₂O. This reaction is a hydrolysis reaction."
+  ]
  },
  {
   "id": "organicreactions-95465a4b",
@@ -271,7 +325,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 9
-  }
+  },
+  "why": [
+   "Substitution: one atom or group is swapped for another. This reaction is an oxidation reaction.",
+   "Combustion: a fuel burns in O₂ to make CO₂ and H₂O. This reaction is an oxidation reaction.",
+   "",
+   "Elimination: a small molecule leaves and a double bond forms. This reaction is an oxidation reaction."
+  ]
  },
  {
   "id": "organicreactions-76060df0",
@@ -298,7 +358,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 10
-  }
+  },
+  "why": [
+   "",
+   "Hydrolysis: water splits one molecule (an ester or amide) into two. This reaction is a dehydration reaction.",
+   "Oxidation: a carbon gains O or loses H (alcohol → aldehyde/ketone → acid). This reaction is a dehydration reaction.",
+   "Halogenation (substitution): a halogen replaces an H on an alkane (with light). This reaction is a dehydration reaction."
+  ]
  },
  {
   "id": "organicreactions-32829343",
@@ -325,7 +391,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 11
-  }
+  },
+  "why": [
+   "Elimination: a small molecule leaves and a double bond forms. This reaction is an addition reaction.",
+   "Reduction: a carbon gains H or loses O. This reaction is an addition reaction.",
+   "Condensation: two molecules join and release a small molecule (usually H₂O). This reaction is an addition reaction.",
+   ""
+  ]
  },
  {
   "id": "organicreactions-abe69e86",
@@ -352,7 +424,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 12
-  }
+  },
+  "why": [
+   "Combustion: a fuel burns in O₂ to make CO₂ and H₂O. This reaction is a hydrolysis reaction.",
+   "",
+   "Hydration: H₂O adds across a C=C to make an alcohol. This reaction is a hydrolysis reaction.",
+   "Amidation: an acid + an amine (or NH₃) make an amide + water. This reaction is a hydrolysis reaction."
+  ]
  },
  {
   "id": "organicreactions-66278e1e",
@@ -379,7 +457,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 13
-  }
+  },
+  "why": [
+   "Reduction: a carbon gains H or loses O. This reaction is a hydrolysis reaction.",
+   "",
+   "Acid–base: an H⁺ moves from an acid to a base. This reaction is a hydrolysis reaction.",
+   "Combustion: a fuel burns in O₂ to make CO₂ and H₂O. This reaction is a hydrolysis reaction."
+  ]
  },
  {
   "id": "organicreactions-e84b7a79",
@@ -406,7 +490,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 14
-  }
+  },
+  "why": [
+   "",
+   "Oxidation: a carbon gains O or loses H (alcohol → aldehyde/ketone → acid). This reaction is a neutralization reaction.",
+   "Esterification: an acid + an alcohol make an ester + water. This reaction is a neutralization reaction.",
+   "Reduction: a carbon gains H or loses O. This reaction is a neutralization reaction."
+  ]
  },
  {
   "id": "organicreactions-2e11892d",
@@ -433,7 +523,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 15
-  }
+  },
+  "why": [
+   "Hydrogenation: H₂ adds across a C=C or C≡C. This reaction is a dehydration reaction.",
+   "Hydrohalogenation: HCl or HBr adds across a C=C. This reaction is a dehydration reaction.",
+   "Oxidation: a carbon gains O or loses H (alcohol → aldehyde/ketone → acid). This reaction is a dehydration reaction.",
+   ""
+  ]
  },
  {
   "id": "organicreactions-8b6836ce",
@@ -460,7 +556,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 16
-  }
+  },
+  "why": [
+   "Combustion: a fuel burns in O₂ to make CO₂ and H₂O. This reaction is an oxidation reaction.",
+   "Hydration: H₂O adds across a C=C to make an alcohol. This reaction is an oxidation reaction.",
+   "Hydrohalogenation: HCl or HBr adds across a C=C. This reaction is an oxidation reaction.",
+   ""
+  ]
  },
  {
   "id": "organicreactions-de4dfe6f",
@@ -487,7 +589,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 17
-  }
+  },
+  "why": [
+   "Dehydration: an alcohol loses H₂O to make an alkene. This reaction is an acetal formation reaction.",
+   "Esterification: an acid + an alcohol make an ester + water. This reaction is an acetal formation reaction.",
+   "",
+   "Hydrogenation: H₂ adds across a C=C or C≡C. This reaction is an acetal formation reaction."
+  ]
  },
  {
   "id": "organicreactions-c82bac34",
@@ -514,7 +622,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 18
-  }
+  },
+  "why": [
+   "",
+   "Hydrolysis: water splits one molecule (an ester or amide) into two. This reaction is an acid–base reaction.",
+   "Reduction: a carbon gains H or loses O. This reaction is an acid–base reaction.",
+   "Addition: atoms add across a double or triple bond, which becomes a single bond. This reaction is an acid–base reaction."
+  ]
  },
  {
   "id": "organicreactions-6d4838a6",
@@ -541,7 +655,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 19
-  }
+  },
+  "why": [
+   "Combustion: a fuel burns in O₂ to make CO₂ and H₂O. This reaction is an addition reaction.",
+   "Condensation: two molecules join and release a small molecule (usually H₂O). This reaction is an addition reaction.",
+   "",
+   "Elimination: a small molecule leaves and a double bond forms. This reaction is an addition reaction."
+  ]
  },
  {
   "id": "organicreactions-42c03133",
@@ -568,7 +688,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 20
-  }
+  },
+  "why": [
+   "Hydrogenation: H₂ adds across a C=C or C≡C. This reaction is a hydration reaction.",
+   "Hydrohalogenation: HCl or HBr adds across a C=C. This reaction is a hydration reaction.",
+   "Halogenation (substitution): a halogen replaces an H on an alkane (with light). This reaction is a hydration reaction.",
+   ""
+  ]
  },
  {
   "id": "organicreactions-c493d276",
@@ -595,7 +721,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 21
-  }
+  },
+  "why": [
+   "Substitution: one atom or group is swapped for another. This reaction is a condensation reaction.",
+   "Reduction: a carbon gains H or loses O. This reaction is a condensation reaction.",
+   "",
+   "Acid–base: an H⁺ moves from an acid to a base. This reaction is a condensation reaction."
+  ]
  },
  {
   "id": "organicreactions-c5c1265f",
@@ -622,7 +754,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 22
-  }
+  },
+  "why": [
+   "Oxidation: a carbon gains O or loses H (alcohol → aldehyde/ketone → acid). This reaction is a neutralization reaction.",
+   "",
+   "Hemiacetal formation: one alcohol adds to a C=O. This reaction is a neutralization reaction.",
+   "Esterification: an acid + an alcohol make an ester + water. This reaction is a neutralization reaction."
+  ]
  },
  {
   "id": "organicreactions-4f51f7aa",
@@ -649,7 +787,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 23
-  }
+  },
+  "why": [
+   "Hemiacetal formation: one alcohol adds to a C=O. This reaction is a saponification reaction.",
+   "",
+   "Amidation: an acid + an amine (or NH₃) make an amide + water. This reaction is a saponification reaction.",
+   "Esterification: an acid + an alcohol make an ester + water. This reaction is a saponification reaction."
+  ]
  },
  {
   "id": "organicreactions-8002f451",
@@ -676,7 +820,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 24
-  }
+  },
+  "why": [
+   "Hydrolysis: water splits one molecule (an ester or amide) into two. This reaction is a reduction reaction.",
+   "Combustion: a fuel burns in O₂ to make CO₂ and H₂O. This reaction is a reduction reaction.",
+   "",
+   "Condensation: two molecules join and release a small molecule (usually H₂O). This reaction is a reduction reaction."
+  ]
  },
  {
   "id": "organicreactions-893d0692",
@@ -703,7 +853,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 25
-  }
+  },
+  "why": [
+   "",
+   "Oxidation: a carbon gains O or loses H (alcohol → aldehyde/ketone → acid). This reaction is an addition reaction.",
+   "Hydrolysis: water splits one molecule (an ester or amide) into two. This reaction is an addition reaction.",
+   "Substitution: one atom or group is swapped for another. This reaction is an addition reaction."
+  ]
  },
  {
   "id": "organicreactions-66bc991e",
@@ -734,7 +890,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 26
-  }
+  },
+  "why": [
+   "Oxidation: a carbon gains O or loses H (alcohol → aldehyde/ketone → acid). This reaction is a substitution reaction.",
+   "",
+   "Hydrolysis: water splits one molecule (an ester or amide) into two. This reaction is a substitution reaction.",
+   "Condensation: two molecules join and release a small molecule (usually H₂O). This reaction is a substitution reaction."
+  ]
  },
  {
   "id": "organicreactions-6fd3eabb",
@@ -761,7 +923,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 27
-  }
+  },
+  "why": [
+   "Oxidation: a carbon gains O or loses H (alcohol → aldehyde/ketone → acid). This reaction is an addition reaction.",
+   "Condensation: two molecules join and release a small molecule (usually H₂O). This reaction is an addition reaction.",
+   "Substitution: one atom or group is swapped for another. This reaction is an addition reaction.",
+   ""
+  ]
  },
  {
   "id": "organicreactions-0c9ea461",
@@ -788,7 +956,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 28
-  }
+  },
+  "why": [
+   "",
+   "Halogenation (addition): Cl₂ or Br₂ adds across a C=C. This reaction is a hydrogenation reaction.",
+   "Hydrohalogenation: HCl or HBr adds across a C=C. This reaction is a hydrogenation reaction.",
+   "Esterification: an acid + an alcohol make an ester + water. This reaction is a hydrogenation reaction."
+  ]
  },
  {
   "id": "organicreactions-6ff3053a",
@@ -815,7 +989,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 29
-  }
+  },
+  "why": [
+   "Neutralization: an acid + a base make a salt. This reaction is an amidation reaction.",
+   "",
+   "Dehydration: an alcohol loses H₂O to make an alkene. This reaction is an amidation reaction.",
+   "Saponification: NaOH splits an ester into a carboxylate salt and an alcohol. This reaction is an amidation reaction."
+  ]
  },
  {
   "id": "organicreactions-fe550655",
@@ -842,7 +1022,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 30
-  }
+  },
+  "why": [
+   "Esterification: an acid + an alcohol make an ester + water. This reaction is a hemiacetal formation reaction.",
+   "Halogenation (substitution): a halogen replaces an H on an alkane (with light). This reaction is a hemiacetal formation reaction.",
+   "",
+   "Reduction: a carbon gains H or loses O. This reaction is a hemiacetal formation reaction."
+  ]
  },
  {
   "id": "organicreactions-1f9bb59d",
@@ -869,7 +1055,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 31
-  }
+  },
+  "why": [
+   "Combustion: a fuel burns in O₂ to make CO₂ and H₂O. This reaction is an acetal formation reaction.",
+   "Hydration: H₂O adds across a C=C to make an alcohol. This reaction is an acetal formation reaction.",
+   "Dehydration: an alcohol loses H₂O to make an alkene. This reaction is an acetal formation reaction.",
+   ""
+  ]
  },
  {
   "id": "organicreactions-0b29c8ad",
@@ -896,7 +1088,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 32
-  }
+  },
+  "why": [
+   "",
+   "Reduction: a carbon gains H or loses O. This reaction is an oxidation reaction.",
+   "Combustion: a fuel burns in O₂ to make CO₂ and H₂O. This reaction is an oxidation reaction.",
+   "Neutralization: an acid + a base make a salt. This reaction is an oxidation reaction."
+  ]
  },
  {
   "id": "organicreactions-4f33408d",
@@ -923,7 +1121,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 33
-  }
+  },
+  "why": [
+   "",
+   "Neutralization: an acid + a base make a salt. This reaction is a saponification reaction.",
+   "Reduction: a carbon gains H or loses O. This reaction is a saponification reaction.",
+   "Esterification: an acid + an alcohol make an ester + water. This reaction is a saponification reaction."
+  ]
  },
  {
   "id": "organicreactions-6c62cbcc",
@@ -950,7 +1154,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 34
-  }
+  },
+  "why": [
+   "Hydration: H₂O adds across a C=C to make an alcohol. This reaction is an oxidation reaction.",
+   "",
+   "Dehydration: an alcohol loses H₂O to make an alkene. This reaction is an oxidation reaction.",
+   "Hydrolysis: water splits one molecule (an ester or amide) into two. This reaction is an oxidation reaction."
+  ]
  },
  {
   "id": "organicreactions-e4366107",
@@ -977,7 +1187,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 35
-  }
+  },
+  "why": [
+   "",
+   "Saponification: NaOH splits an ester into a carboxylate salt and an alcohol. This reaction is a dehydration reaction.",
+   "Hydrogenation: H₂ adds across a C=C or C≡C. This reaction is a dehydration reaction.",
+   "Oxidation: a carbon gains O or loses H (alcohol → aldehyde/ketone → acid). This reaction is a dehydration reaction."
+  ]
  },
  {
   "id": "organicreactions-f4bc4303",
@@ -1004,7 +1220,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 36
-  }
+  },
+  "why": [
+   "Hydrolysis: water splits one molecule (an ester or amide) into two. This reaction is an acid–base reaction.",
+   "",
+   "Addition: atoms add across a double or triple bond, which becomes a single bond. This reaction is an acid–base reaction.",
+   "Condensation: two molecules join and release a small molecule (usually H₂O). This reaction is an acid–base reaction."
+  ]
  },
  {
   "id": "organicreactions-ba0b6170",
@@ -1031,7 +1253,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 37
-  }
+  },
+  "why": [
+   "",
+   "Hydrogenation: H₂ adds across a C=C or C≡C. This reaction is a halogenation (addition) reaction.",
+   "Hydrolysis: water splits one molecule (an ester or amide) into two. This reaction is a halogenation (addition) reaction.",
+   "Hydrohalogenation: HCl or HBr adds across a C=C. This reaction is a halogenation (addition) reaction."
+  ]
  },
  {
   "id": "organicreactions-578a7d7a",
@@ -1058,7 +1286,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 38
-  }
+  },
+  "why": [
+   "Esterification: an acid + an alcohol make an ester + water. This reaction is a hemiacetal formation reaction.",
+   "Reduction: a carbon gains H or loses O. This reaction is a hemiacetal formation reaction.",
+   "",
+   "Hydrogenation: H₂ adds across a C=C or C≡C. This reaction is a hemiacetal formation reaction."
+  ]
  },
  {
   "id": "organicreactions-76ff374f",
@@ -1089,7 +1323,13 @@
    "game": "organicreactions",
    "list": "sample:identify",
    "index": 39
-  }
+  },
+  "why": [
+   "Hydrolysis: water splits one molecule (an ester or amide) into two. This reaction is a substitution reaction.",
+   "Combustion: a fuel burns in O₂ to make CO₂ and H₂O. This reaction is a substitution reaction.",
+   "",
+   "Acid–base: an H⁺ moves from an acid to a base. This reaction is a substitution reaction."
+  ]
  },
  {
   "id": "organicreactions-39844f89",

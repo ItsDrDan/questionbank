@@ -28,7 +28,13 @@
    "game": "chem1bready",
    "list": "CORE",
    "index": 0
-  }
+  },
+  "why": [
+   "",
+   "Al³⁺ and SO₄²⁻ don’t balance one-to-one: +3 and −2 leave a +1 charge.",
+   "Three Al³⁺ (+9) and one SO₄²⁻ (−2) don’t balance.",
+   "The sulfate needs parentheses and a subscript: two Al³⁺ (+6) need three SO₄²⁻ (−6)."
+  ]
  },
  {
   "id": "chem1bready-6959a614",
@@ -59,7 +65,13 @@
    "game": "chem1bready",
    "list": "CORE",
    "index": 1
-  }
+  },
+  "why": [
+   "",
+   "Right electron count, but ions lose their 4s electrons first.",
+   "Right electron count, but both 4s electrons leave before any 3d electron.",
+   "That has 26 electrons. Fe²⁺ has 24."
+  ]
  },
  {
   "id": "chem1bready-7dbd9b66",
@@ -90,7 +102,13 @@
    "game": "chem1bready",
    "list": "CORE",
    "index": 2
-  }
+  },
+  "why": [
+   "",
+   "The nucleus doesn’t change when an ion forms; only electrons move.",
+   "Gaining electrons gives a negative ion. A 2+ charge means two electrons were lost.",
+   "Neutrons have no charge, so losing them can’t make an ion."
+  ]
  },
  {
   "id": "chem1bready-305838a1",
@@ -121,7 +139,13 @@
    "game": "chem1bready",
    "list": "CORE",
    "index": 3
-  }
+  },
+  "why": [
+   "",
+   "Across a period, more protons pull the same shell in, so Cl is smaller.",
+   "Atoms in the same period differ in size: radius shrinks left to right.",
+   "Atomic radius has a clear trend: it decreases across a period."
+  ]
  },
  {
   "id": "chem1bready-8c9e8496",
@@ -152,7 +176,13 @@
    "game": "chem1bready",
    "list": "CORE",
    "index": 4
-  }
+  },
+  "why": [
+   "",
+   "Both have 10 electrons, but Mg²⁺ has 12 protons pulling them in, so it is smaller.",
+   "Same electron count, different nuclear charge (8 vs 12), so different sizes.",
+   "Both ions still have 10 electrons."
+  ]
  },
  {
   "id": "chem1bready-2222f92d",
@@ -183,7 +213,13 @@
    "game": "chem1bready",
    "list": "CORE",
    "index": 5
-  }
+  },
+  "why": [
+   "",
+   "Na is on the far left, so it is one of the least electronegative.",
+   "C is fairly electronegative, but F (top right) is the most electronegative element.",
+   "Mg is a metal on the left side, with low electronegativity."
+  ]
  },
  {
   "id": "chem1bready-9e27af5d",
@@ -214,7 +250,13 @@
    "game": "chem1bready",
    "list": "CORE",
    "index": 6
-  }
+  },
+  "why": [
+   "",
+   "Allowed: for n = 3, l can be 0, 1 or 2.",
+   "Allowed: for n = 2, l can be 0 or 1.",
+   "Allowed: for n = 1, l must be 0."
+  ]
  },
  {
   "id": "chem1bready-25d12f9e",
@@ -245,7 +287,13 @@
    "game": "chem1bready",
    "list": "CORE",
    "index": 7
-  }
+  },
+  "why": [
+   "",
+   "Hund’s rule: fill each equal-energy orbital singly before pairing.",
+   "One orbital holds at most two electrons (Pauli exclusion).",
+   "An orbital can hold only two electrons, with opposite spins."
+  ]
  },
  {
   "id": "chem1bready-565bd3fd",
@@ -276,7 +324,13 @@
    "game": "chem1bready",
    "list": "CORE",
    "index": 8
-  }
+  },
+  "why": [
+   "",
+   "CH₂O has a molar mass of only about 30 g/mol. 180.16 ÷ 30.03 ≈ 6.",
+   "That is about 90 g/mol, only half of 180.16.",
+   "That is about 360 g/mol, twice 180.16."
+  ]
  },
  {
   "id": "chem1bready-cdfdfb34",
@@ -307,7 +361,13 @@
    "game": "chem1bready",
    "list": "CORE",
    "index": 9
-  }
+  },
+  "why": [
+   "",
+   "The zero between 7 and the end counts, and so does the trailing zero after the decimal.",
+   "The trailing zero after a decimal point is significant too: 4, 0, 7, 0.",
+   "Leading zeros (0.00) are placeholders and never count."
+  ]
  },
  {
   "id": "chem1bready-1442e1b3",
@@ -338,7 +398,13 @@
    "game": "chem1bready",
    "list": "CORE",
    "index": 10
-  }
+  },
+  "why": [
+   "",
+   "Accurate means close to the accepted value, which these aren’t. Clustering tightly means precise.",
+   "They are far from the accepted value, so they aren’t accurate.",
+   "These are real measurements; they are just consistently off."
+  ]
  },
  {
   "id": "chem1bready-28932d4a",
@@ -369,7 +435,13 @@
    "game": "chem1bready",
    "list": "CORE",
    "index": 11
-  }
+  },
+  "why": [
+   "",
+   "Salt water contains more than one substance, so it is a mixture.",
+   "Its composition can vary (more or less salt), so it is a mixture, not a compound.",
+   "A solution looks the same throughout, so it is homogeneous."
+  ]
  },
  {
   "id": "chem1bready-0e6baa13",
@@ -400,7 +472,13 @@
    "game": "chem1bready",
    "list": "PHYSICAL",
    "index": 0
-  }
+  },
+  "why": [
+   "",
+   "O–H covalent bonds are inside each molecule. Between molecules, the attraction is hydrogen bonding.",
+   "Metallic bonding is in metals, not water.",
+   "Water has dispersion forces, but its strongest attraction is hydrogen bonding."
+  ]
  },
  {
   "id": "chem1bready-97290cdd",
@@ -431,7 +509,13 @@
    "game": "chem1bready",
    "list": "PHYSICAL",
    "index": 1
-  }
+  },
+  "why": [
+   "",
+   "Every atom and molecule has dispersion forces, polar or not.",
+   "They are weak attractions between molecules, not bonds inside them.",
+   "That describes hydrogen bonding, not dispersion."
+  ]
  },
  {
   "id": "chem1bready-f960cede",
@@ -462,7 +546,13 @@
    "game": "chem1bready",
    "list": "PHYSICAL",
    "index": 2
-  }
+  },
+  "why": [
+   "",
+   "Stronger attractions hold molecules in the liquid, so fewer escape: vapor pressure goes down.",
+   "Some molecules always escape, so vapor pressure isn’t zero.",
+   "Stronger attractions raise the boiling point."
+  ]
  },
  {
   "id": "chem1bready-1977c44a",
@@ -493,7 +583,13 @@
    "game": "chem1bready",
    "list": "PHYSICAL",
    "index": 3
-  }
+  },
+  "why": [
+   "",
+   "Once dissolved, the ions are surrounded by water, not by each other.",
+   "Water attracts ions through its partial charges; it doesn’t form covalent bonds with them.",
+   "That describes metals, not ions in water."
+  ]
  },
  {
   "id": "chem1bready-bbd63698",
@@ -524,7 +620,13 @@
    "game": "chem1bready",
    "list": "PHYSICAL",
    "index": 4
-  }
+  },
+  "why": [
+   "",
+   "More volume gives the particles more possible positions, so entropy increases.",
+   "Entropy depends on volume for a gas, so it changes.",
+   "Entropy is positive for any real substance; here it increases."
+  ]
  },
  {
   "id": "chem1bready-d43a3e32",
@@ -555,7 +657,13 @@
    "game": "chem1bready",
    "list": "PHYSICAL",
    "index": 5
-  }
+  },
+  "why": [
+   "",
+   "Pulling opposite charges apart takes energy.",
+   "Neutralization is an acid–base reaction, not separating ions.",
+   "No electrons are gained when ions are separated."
+  ]
  },
  {
   "id": "chem1bready-13da3e8d",
@@ -586,7 +694,13 @@
    "game": "chem1bready",
    "list": "PHYSICAL",
    "index": 6
-  }
+  },
+  "why": [
+   "",
+   "NaCl gives 2 ions per formula unit; AlCl₃ gives 4.",
+   "Glucose doesn’t dissociate, so it gives just 1 particle.",
+   "CaCl₂ gives 3 ions; AlCl₃ gives 4."
+  ]
  },
  {
   "id": "chem1bready-907f9e94",
@@ -617,7 +731,13 @@
    "game": "chem1bready",
    "list": "PHYSICAL",
    "index": 7
-  }
+  },
+  "why": [
+   "",
+   "Lighter molecules move faster at the same temperature, so speeds differ.",
+   "Temperature says nothing about which gas it is.",
+   "Density depends on molar mass and pressure, not only temperature."
+  ]
  },
  {
   "id": "chem1bready-ab3e9896",
@@ -648,7 +768,13 @@
    "game": "chem1bready",
    "list": "PHYSICAL",
    "index": 8
-  }
+  },
+  "why": [
+   "",
+   "Argon atoms are held by weak dispersion forces: an atomic solid.",
+   "NaCl is an ionic solid.",
+   "Methane molecules are held by dispersion forces: a molecular solid."
+  ]
  },
  {
   "id": "chem1bready-b2b5ab2c",
@@ -679,7 +805,13 @@
    "game": "chem1bready",
    "list": "PHYSICAL",
    "index": 9
-  }
+  },
+  "why": [
+   "",
+   "Colligative properties depend on how many particles there are, not what they are.",
+   "The solvent matters, but the change depends on the number of solute particles.",
+   "Oxidation states have nothing to do with colligative properties."
+  ]
  },
  {
   "id": "chem1bready-84ba6f9c",
@@ -709,7 +841,13 @@
    "game": "chem1bready",
    "list": "WATER_CONCEPTS",
    "index": 0
-  }
+  },
+  "why": [
+   "",
+   "HCl is a strong acid, so it ionizes completely in water.",
+   "HCl gives ions (H₃O⁺ and Cl⁻), not neutral atoms.",
+   "(aq) means dissolved in water."
+  ]
  },
  {
   "id": "chem1bready-1e9c9449",
@@ -739,7 +877,13 @@
    "game": "chem1bready",
    "list": "WATER_CONCEPTS",
    "index": 1
-  }
+  },
+  "why": [
+   "",
+   "Acetic acid is weak, so only a small fraction ionizes.",
+   "The acid molecules are dissolved in the water.",
+   "Acetic acid stays as molecules; it doesn’t break into atoms."
+  ]
  },
  {
   "id": "chem1bready-972a999d",
@@ -769,7 +913,13 @@
    "game": "chem1bready",
    "list": "WATER_CONCEPTS",
    "index": 2
-  }
+  },
+  "why": [
+   "",
+   "NaCl is soluble, so it doesn’t precipitate. Na⁺ and Cl⁻ are spectators.",
+   "Acids don’t break down into elements in water.",
+   "That is electrolysis, not an acid–base reaction."
+  ]
  },
  {
   "id": "chem1bready-ddd6bd48",
@@ -799,7 +949,13 @@
    "game": "chem1bready",
    "list": "WATER_CONCEPTS",
    "index": 3
-  }
+  },
+  "why": [
+   "",
+   "At equivalence, the added OH⁻ has used up the acid.",
+   "Exact titration means no extra OH⁻ was added.",
+   "Na⁺ stays as an ion; no metal atoms form."
+  ]
  },
  {
   "id": "chem1bready-cfdc59c2",
@@ -829,7 +985,13 @@
    "game": "chem1bready",
    "list": "WATER_CONCEPTS",
    "index": 4
-  }
+  },
+  "why": [
+   "",
+   "NaNO₃ is ionic and soluble, so it exists as separate ions.",
+   "Dissolving doesn’t change ions into elements.",
+   "All nitrates are soluble, so NaNO₃ doesn’t precipitate."
+  ]
  },
  {
   "id": "chem1bready-df67c31a",
@@ -859,7 +1021,13 @@
    "game": "chem1bready",
    "list": "WATER_CONCEPTS",
    "index": 5
-  }
+  },
+  "why": [
+   "",
+   "These react to make water, so they aren’t spectators.",
+   "OH⁻ reacts with H₃O⁺, so it isn’t a spectator.",
+   "H₃O⁺ reacts with OH⁻, so it isn’t a spectator."
+  ]
  },
  {
   "id": "chem1bready-e1a33746",
@@ -889,7 +1057,13 @@
    "game": "chem1bready",
    "list": "WATER_CONCEPTS",
    "index": 6
-  }
+  },
+  "why": [
+   "",
+   "No oxygen is made. The gas is CO₂ from H₂CO₃ breaking down.",
+   "That would be splitting water; acid + carbonate gives CO₂.",
+   "The carbon leaves as CO₂ gas."
+  ]
  },
  {
   "id": "chem1bready-12edf0e8",
@@ -919,7 +1093,13 @@
    "game": "chem1bready",
    "list": "WATER_CONCEPTS",
    "index": 7
-  }
+  },
+  "why": [
+   "",
+   "The endpoint is where the indicator changes; it only approximates equivalence.",
+   "Spectator ions remain at the endpoint.",
+   "Only strong acid + strong base gives pH 7 at equivalence; a weak acid gives a basic solution."
+  ]
  },
  {
   "id": "chem1bready-471305f9",
@@ -949,7 +1129,13 @@
    "game": "chem1bready",
    "list": "WATER_CONCEPTS",
    "index": 8
-  }
+  },
+  "why": [
+   "",
+   "The H end is partly positive, so it is repelled by a cation.",
+   "Water is polar, so one end is attracted more.",
+   "Water is polar: O is δ− and H is δ+."
+  ]
  },
  {
   "id": "chem1bready-05969dc1",
@@ -979,7 +1165,13 @@
    "game": "chem1bready",
    "list": "WATER_CONCEPTS",
    "index": 9
-  }
+  },
+  "why": [
+   "",
+   "Na⁺ and NO₃⁻ stay dissolved: they are spectators.",
+   "NaCl is soluble; the solid is AgCl.",
+   "AgNO₃ is soluble; the solid is AgCl."
+  ]
  },
  {
   "id": "chem1bready-a87be7a1",
@@ -1009,7 +1201,13 @@
    "game": "chem1bready",
    "list": "KE_CONCEPTS",
    "index": 0
-  }
+  },
+  "why": [
+   "",
+   "Equilibrium is dynamic: both reactions keep going, at equal rates.",
+   "Concentrations are constant, not necessarily equal.",
+   "At equilibrium reactants and products are both present."
+  ]
  },
  {
   "id": "chem1bready-0477bd84",
@@ -1039,7 +1237,13 @@
    "game": "chem1bready",
    "list": "KE_CONCEPTS",
    "index": 1
-  }
+  },
+  "why": [
+   "",
+   "Square brackets mean concentration in mol/L, not mass.",
+   "Brackets mean molarity, not a count of molecules.",
+   "Partial pressure is written P(NO₂). Brackets mean mol/L."
+  ]
  },
  {
   "id": "chem1bready-7c24336a",
@@ -1069,7 +1273,13 @@
    "game": "chem1bready",
    "list": "KE_CONCEPTS",
    "index": 2
-  }
+  },
+  "why": [
+   "",
+   "CaCO₃ is marked (s): solid.",
+   "CaO is marked (s): solid.",
+   "CO₂ is marked (g)."
+  ]
  },
  {
   "id": "chem1bready-e08bef28",
@@ -1099,7 +1309,13 @@
    "game": "chem1bready",
    "list": "KE_CONCEPTS",
    "index": 3
-  }
+  },
+  "why": [
+   "",
+   "A negative ΔH means heat is released, so heat is a product.",
+   "Heat appears on one side only: products for exothermic.",
+   "ΔH = −92 kJ means heat is released."
+  ]
  },
  {
   "id": "chem1bready-23886916",
@@ -1129,7 +1345,13 @@
    "game": "chem1bready",
    "list": "KE_CONCEPTS",
    "index": 4
-  }
+  },
+  "why": [
+   "",
+   "A positive ΔH means heat is absorbed, not released.",
+   "ΔH says nothing about speed.",
+   "Endothermic reactions happen all the time; they just take in heat."
+  ]
  },
  {
   "id": "chem1bready-5ed83a39",
@@ -1159,7 +1381,13 @@
    "game": "chem1bready",
    "list": "KE_CONCEPTS",
    "index": 5
-  }
+  },
+  "why": [
+   "",
+   "A catalyst speeds up the same reaction; the products are unchanged.",
+   "A catalyst is regenerated at the end.",
+   "A catalyst doesn’t change ΔH."
+  ]
  },
  {
   "id": "chem1bready-5b144dab",
@@ -1189,7 +1417,13 @@
    "game": "chem1bready",
    "list": "KE_CONCEPTS",
    "index": 6
-  }
+  },
+  "why": [
+   "",
+   "Temperature doesn’t change molecular size.",
+   "Heating doesn’t create molecules; it makes them move faster.",
+   "Products form faster, not slower."
+  ]
  },
  {
   "id": "chem1bready-67861d96",
@@ -1219,7 +1453,13 @@
    "game": "chem1bready",
    "list": "KE_CONCEPTS",
    "index": 7
-  }
+  },
+  "why": [
+   "",
+   "HCl is one of the strong acids on the green sheet.",
+   "HNO₃ is one of the strong acids on the green sheet.",
+   "HBr is one of the strong acids on the green sheet."
+  ]
  },
  {
   "id": "chem1bready-de058c98",
@@ -1249,7 +1489,13 @@
    "game": "chem1bready",
    "list": "KE_CONCEPTS",
    "index": 8
-  }
+  },
+  "why": [
+   "",
+   "More particles in the same space collide more often, not less.",
+   "More particles per liter means more collisions.",
+   "Adding reactant can’t stop collisions."
+  ]
  },
  {
   "id": "chem1bready-54ce6514",
@@ -1279,7 +1525,13 @@
    "game": "chem1bready",
    "list": "KE_CONCEPTS",
    "index": 9
-  }
+  },
+  "why": [
+   "",
+   "P = nRT/V: pressure goes up with moles, not down.",
+   "More particles hit the walls, so pressure rises.",
+   "More gas means more pressure."
+  ]
  },
  {
   "id": "chem1bready-0d5fbd2c",
@@ -1311,7 +1563,13 @@
    "game": "chem1bready",
    "list": "MG_CONCEPTS",
    "index": 0
-  }
+  },
+  "why": [
+   "",
+   "ln is base e. pH uses base-10 log.",
+   "eˣ undoes ln; it doesn’t take a log.",
+   "Squaring isn’t a log."
+  ]
  },
  {
   "id": "chem1bready-eff50ed7",
@@ -1343,7 +1601,13 @@
    "game": "chem1bready",
    "list": "MG_CONCEPTS",
    "index": 1
-  }
+  },
+  "why": [
+   "",
+   "10ˣ undoes log (base 10). ln is undone by eˣ.",
+   "Squaring doesn’t undo a log.",
+   "The reciprocal doesn’t undo a log."
+  ]
  },
  {
   "id": "chem1bready-d8a62515",
@@ -1375,7 +1639,13 @@
    "game": "chem1bready",
    "list": "MG_CONCEPTS",
    "index": 2
-  }
+  },
+  "why": [
+   "",
+   "Numbers less than 1 have negative logs. −log gives +4.7, which is the pH-style value.",
+   "log 1 = 0; this number is much smaller than 1.",
+   "Log is undefined only for zero or negative numbers."
+  ]
  },
  {
   "id": "chem1bready-8c6dbe35",
@@ -1407,7 +1677,13 @@
    "game": "chem1bready",
    "list": "MG_CONCEPTS",
    "index": 3
-  }
+  },
+  "why": [
+   "",
+   "That is straight for zero order, with slope −k there.",
+   "That is straight for second order, with slope +k.",
+   "No common rate law gives a straight line for [A]²."
+  ]
  },
  {
   "id": "chem1bready-07fbb3ec",
@@ -1439,7 +1715,13 @@
    "game": "chem1bready",
    "list": "MG_CONCEPTS",
    "index": 4
-  }
+  },
+  "why": [
+   "",
+   "Slope is y-units over x-units: M over s.",
+   "Slope divides by the x-axis units (s).",
+   "Slope carries y-units over x-units."
+  ]
  },
  {
   "id": "chem1bready-e1cf4229",
@@ -1471,7 +1753,13 @@
    "game": "chem1bready",
    "list": "MG_CONCEPTS",
    "index": 5
-  }
+  },
+  "why": [
+   "",
+   "A negative x would make a concentration negative here.",
+   "Only one root keeps every concentration positive.",
+   "x = 0.031 works: all concentrations stay positive."
+  ]
  },
  {
   "id": "chem1bready-abb73d58",
@@ -1503,7 +1791,13 @@
    "game": "chem1bready",
    "list": "MG_CONCEPTS",
    "index": 6
-  }
+  },
+  "why": [
+   "",
+   "Squaring doubles the exponent: (10⁻⁴)² = 10⁻⁸, not 10⁻¹⁶.",
+   "3.0² is 9.0, not 6.0.",
+   "Square the 3.0 too: 3.0² = 9.0."
+  ]
  },
  {
   "id": "chem1bready-ee5440b0",
@@ -1535,7 +1829,13 @@
    "game": "chem1bready",
    "list": "MG_CONCEPTS",
    "index": 7
-  }
+  },
+  "why": [
+   "",
+   "Second order: rate goes with [A]², so doubling [A] gives 2² = 4 times.",
+   "The rate depends on [A], so it changes.",
+   "Raising [A] raises the rate."
+  ]
  },
  {
   "id": "chem1bready-8808145d",
@@ -1567,7 +1867,13 @@
    "game": "chem1bready",
    "list": "MG_CONCEPTS",
    "index": 8
-  }
+  },
+  "why": [
+   "",
+   "J to kJ is ÷1000, not ÷10.",
+   "R is in J and ΔG° in kJ, so they don’t match yet.",
+   "Thermodynamics always uses kelvins."
+  ]
  },
  {
   "id": "chem1bready-4b64f5d3",
@@ -1599,6 +1905,12 @@
    "game": "chem1bready",
    "list": "MG_CONCEPTS",
    "index": 9
-  }
+  },
+  "why": [
+   "",
+   "The usual cutoff is 5%.",
+   "x can’t be zero if the reaction happens at all.",
+   "The test is the 5% check, not K > 1; small K is when the shortcut works."
+  ]
  }
 ]

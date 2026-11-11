@@ -2022,7 +2022,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 0
-  }
+  },
+  "why": [
+   "One enzyme per step; there are two 3-carbon molecules.",
+   "It runs once, but the split gives two 3-carbon halves.",
+   "Spending ATP doesn’t double anything; the split does.",
+   ""
+  ]
  },
  {
   "id": "metabolism-91e15558",
@@ -2050,7 +2056,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 1
-  }
+  },
+  "why": [
+   "Step 1 makes a C=C with FAD.",
+   "Step 2 adds water (hydration).",
+   "",
+   "Step 4 cuts off acetyl CoA."
+  ]
  },
  {
   "id": "metabolism-30e5f953",
@@ -2076,7 +2088,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 2
-  }
+  },
+  "why": [
+   "4 ATP are made, but 2 were spent: net 2.",
+   "Only 4 ATP are made in glycolysis.",
+   "",
+   "More ATP is made (4) than spent (2)."
+  ]
  },
  {
   "id": "metabolism-9634042d",
@@ -2203,7 +2221,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 6
-  }
+  },
+  "why": [
+   "Urea goes to the kidneys.",
+   "",
+   "Ornithine stays in the urea cycle.",
+   "Citrulline is an intermediate inside the cycle."
+  ]
  },
  {
   "id": "metabolism-a79d1b94",
@@ -2229,7 +2253,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 7
-  }
+  },
+  "why": [
+   "Complex III pumps H⁺.",
+   "",
+   "Complex IV pumps H⁺.",
+   "Complex I pumps H⁺."
+  ]
  },
  {
   "id": "metabolism-10b54384",
@@ -2255,7 +2285,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 8
-  }
+  },
+  "why": [
+   "Count the CO₂ arrows: steps 3 and 4 each release one.",
+   "",
+   "Only two steps release CO₂ (3 and 4).",
+   "That is per glucose (two turns), not per turn."
+  ]
  },
  {
   "id": "metabolism-5c6437d5",
@@ -2282,7 +2318,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 9
-  }
+  },
+  "why": [
+   "3 NADH per turn × 2 turns = 6.",
+   "That is per turn. One glucose gives two turns.",
+   "Count only NADH: 3 per turn × 2 = 6.",
+   ""
+  ]
  },
  {
   "id": "metabolism-fcb092fb",
@@ -2342,7 +2384,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 11
-  }
+  },
+  "why": [
+   "",
+   "Succinate is in the middle of the cycle.",
+   "Citrate is made in step 1 and is used up in step 2.",
+   "Acetyl CoA enters and is burned; it isn’t made again."
+  ]
  },
  {
   "id": "metabolism-c140a3ba",
@@ -2369,7 +2417,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 12
-  }
+  },
+  "why": [
+   "Citrate is made when acetyl CoA joins oxaloacetate.",
+   "",
+   "Pyruvate isn’t in the citric acid cycle.",
+   "Oxaloacetate comes after malate is oxidized."
+  ]
  },
  {
   "id": "metabolism-56eb60f9",
@@ -2395,7 +2449,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 13
-  }
+  },
+  "why": [
+   "Count the NAD⁺ → NADH arrows: steps 3, 4 and 8.",
+   "That is per glucose (two turns).",
+   "Three steps make NADH (3, 4 and 8).",
+   ""
+  ]
  },
  {
   "id": "metabolism-68eeb66b",
@@ -2421,7 +2481,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 14
-  }
+  },
+  "why": [
+   "",
+   "Only step 6 uses FAD.",
+   "That is per glucose (two turns).",
+   "Step 6 (succinate → fumarate) makes one FADH₂."
+  ]
  },
  {
   "id": "metabolism-d04a2bc9",
@@ -2449,7 +2515,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 15
-  }
+  },
+  "why": [
+   "β is the Greek letter for the second carbon, not vitamin B.",
+   "It works on fatty acids, not glucose.",
+   "β refers to the β carbon of the fatty acid.",
+   ""
+  ]
  },
  {
   "id": "metabolism-42093c5a",
@@ -2509,7 +2581,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 17
-  }
+  },
+  "why": [
+   "Step 10 makes ATP.",
+   "Steps 6–10 make ATP.",
+   "",
+   "Steps 1 and 3 each spend one ATP."
+  ]
  },
  {
   "id": "metabolism-cb48a7f0",
@@ -2569,7 +2647,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 19
-  }
+  },
+  "why": [
+   "",
+   "If the chain stops, NADH piles up rather than being made faster.",
+   "Glycolysis keeps going; the chain stops.",
+   "With electrons stuck, pumping stops."
+  ]
  },
  {
   "id": "metabolism-a4c555d1",
@@ -2629,7 +2713,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 21
-  }
+  },
+  "why": [
+   "",
+   "Urea is what leaves the cycle.",
+   "Ammonia is packaged first as carbamoyl phosphate.",
+   "Fumarate leaves the cycle."
+  ]
  },
  {
   "id": "metabolism-c22c7ab2",
@@ -2655,7 +2745,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 22
-  }
+  },
+  "why": [
+   "2 is the net gain. Made: 4.",
+   "",
+   "Steps 7 and 10 each make 2 ATP: 4 total.",
+   "Steps 7 and 10 each make 2 ATP: 4 total."
+  ]
  },
  {
   "id": "metabolism-33d4c093",
@@ -2681,7 +2777,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 23
-  }
+  },
+  "why": [
+   "",
+   "Only step 6 makes NADH: 2 per glucose.",
+   "Only step 6 makes NADH: 2 per glucose.",
+   "Step 6 happens twice (two halves), so 2 NADH."
+  ]
  },
  {
   "id": "metabolism-4d433419",
@@ -2741,7 +2843,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 25
-  }
+  },
+  "why": [
+   "Fumarate comes before malate.",
+   "Malate is the alcohol that is oxidized to make this.",
+   "",
+   "Citrate is the product of step 1, not what acetyl CoA joins."
+  ]
  },
  {
   "id": "metabolism-032cc315",
@@ -2767,7 +2875,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 26
-  }
+  },
+  "why": [
+   "",
+   "The gradient is across the inner membrane.",
+   "H⁺ is pumped out of the matrix, so it is lower there.",
+   "Pumping makes the sides unequal; that gradient drives ATP synthase."
+  ]
  },
  {
   "id": "metabolism-44c5ef2f",
@@ -2794,7 +2908,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 27
-  }
+  },
+  "why": [
+   "",
+   "Arginine is split into urea and ornithine.",
+   "Aspartate enters the cycle; it isn’t made again.",
+   "Urea leaves the body."
+  ]
  },
  {
   "id": "metabolism-0d61be27",
@@ -2820,7 +2940,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 28
-  }
+  },
+  "why": [
+   "FADH₂ gives electrons to Q through complex II first.",
+   "Complex I takes electrons from NADH.",
+   "Complex I takes electrons from NADH.",
+   ""
+  ]
  },
  {
   "id": "metabolism-433a7fd6",
@@ -2846,7 +2972,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 29
-  }
+  },
+  "why": [
+   "NAD⁺ is made back from NADH at the start.",
+   "",
+   "FAD is made back from FADH₂.",
+   "Water is the product; O₂ is the acceptor."
+  ]
  },
  {
   "id": "metabolism-36fb2bb8",
@@ -2873,7 +3005,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 30
-  }
+  },
+  "why": [
+   "Malate comes next, when fumarate is hydrated.",
+   "Pyruvate isn’t in the citric acid cycle.",
+   "Lactate isn’t in the citric acid cycle.",
+   ""
+  ]
  },
  {
   "id": "metabolism-454f1ad5",
@@ -2932,7 +3070,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 32
-  }
+  },
+  "why": [
+   "Step 5 (succinyl CoA → succinate) makes one GTP.",
+   "That is per glucose (two turns).",
+   "Only step 5 makes GTP.",
+   ""
+  ]
  },
  {
   "id": "metabolism-0868e5ee",
@@ -2959,7 +3103,13 @@
    "game": "metabolism",
    "list": "sample:diagram",
    "index": 33
-  }
+  },
+  "why": [
+   "That is complex IV.",
+   "That is complex I.",
+   "ATP synthase runs the other way: H⁺ flows in and ATP is made.",
+   ""
+  ]
  },
  {
   "id": "metabolism-492e2935",
@@ -3754,8 +3904,8 @@
   ],
   "answer": "7, 6, 6",
   "why": [
-   "",
-   "",
+   "7 acetyl CoA come from 6 turns (one fewer, since the last turn releases two), and each turn makes 1 NADH and 1 FADH₂: 6, not 8.",
+   "7 acetyl CoA come from 6 turns (one fewer, since the last turn releases two), and each turn makes 1 NADH and 1 FADH₂: 6, not 7.",
    "",
    "Count the carbons: CH₃ + 12 CH₂ + COOH = 14, not 12."
   ],
@@ -3810,9 +3960,9 @@
   ],
   "answer": "8, 7, 7",
   "why": [
+   "8 acetyl CoA come from 7 turns (one fewer, since the last turn releases two), and each turn makes 1 NADH and 1 FADH₂: 7, not 9.",
    "",
-   "",
-   "",
+   "8 acetyl CoA come from 7 turns (one fewer, since the last turn releases two), and each turn makes 1 NADH and 1 FADH₂: 7, not 8.",
    "Count the carbons: CH₃ + 14 CH₂ + COOH = 16, not 14."
   ],
   "hint": "First count all the carbons, including the CH₃ and the COOH carbon.",
@@ -3892,8 +4042,8 @@
   "why": [
    "Count the carbons: CH₃ + 10 CH₂ + COOH = 12, not 10.",
    "",
-   "",
-   ""
+   "6 acetyl CoA come from 5 turns (one fewer, since the last turn releases two), and each turn makes 1 NADH and 1 FADH₂: 5, not 6.",
+   "6 acetyl CoA come from 5 turns (one fewer, since the last turn releases two), and each turn makes 1 NADH and 1 FADH₂: 5, not 7."
   ],
   "hint": "First count all the carbons, including the CH₃ and the COOH carbon.",
   "explain": "Carbons: 1 (CH₃) + 10 (CH₂) + 1 (COOH) = <b style=\"font-weight:700\">12</b>. Acetyl CoA = 12 ÷ 2 = 6. Turns = 6 − 1 = 5, each making 1 NADH and 1 FADH₂.",
@@ -5530,7 +5680,13 @@
    "game": "metabolism",
    "list": "sample:rxn",
    "index": 1
-  }
+  },
+  "why": [
+   "",
+   "Reduction means gaining H from NADH or NADPH. Here NAD⁺ is used up as a reactant, so the substrate is oxidized.",
+   "Carboxylation means CO₂ is added. Here CO₂ leaves.",
+   "Reduction means gaining H from NADH or NADPH. Here NAD⁺ is used up as a reactant, so the substrate is oxidized. Carboxylation means CO₂ is added. Here CO₂ leaves."
+  ]
  },
  {
   "id": "metabolism-d0a7c8d5",
@@ -5723,7 +5879,13 @@
    "game": "metabolism",
    "list": "sample:rxn",
    "index": 7
-  }
+  },
+  "why": [
+   "Condensation joins two molecules and releases a small one. Here a thioester is split. Phosphate transfer moves a phosphate from the substrate to ADP; here the substrate has no phosphate to give.",
+   "Condensation joins two molecules and releases a small one. Here a thioester is split.",
+   "",
+   "Phosphate transfer moves a phosphate from the substrate to ADP; here the substrate has no phosphate to give."
+  ]
  },
  {
   "id": "metabolism-2fb57ede",
@@ -6019,7 +6181,13 @@
    "game": "metabolism",
    "list": "sample:rxn",
    "index": 16
-  }
+  },
+  "why": [
+   "Carboxylation means CO₂ is added. Here CO₂ leaves.",
+   "Reduction means gaining H from NADH or NADPH. Here NAD⁺ is used up as a reactant, so the substrate is oxidized. Carboxylation means CO₂ is added. Here CO₂ leaves.",
+   "Reduction means gaining H from NADH or NADPH. Here NAD⁺ is used up as a reactant, so the substrate is oxidized.",
+   ""
+  ]
  },
  {
   "id": "metabolism-d4269f40",
@@ -6245,7 +6413,13 @@
    "game": "metabolism",
    "list": "sample:rxn",
    "index": 23
-  }
+  },
+  "why": [
+   "",
+   "Reduction means gaining H from NADH or NADPH. Here NAD⁺ is used up as a reactant, so the substrate is oxidized.",
+   "Carboxylation means CO₂ is added. Here CO₂ leaves.",
+   "Reduction means gaining H from NADH or NADPH. Here NAD⁺ is used up as a reactant, so the substrate is oxidized. Carboxylation means CO₂ is added. Here CO₂ leaves."
+  ]
  },
  {
   "id": "metabolism-f1d3641b",
@@ -6273,7 +6447,13 @@
    "game": "metabolism",
    "list": "sample:rxn",
    "index": 24
-  }
+  },
+  "why": [
+   "Reduction means gaining H from NADH or NADPH. Here NAD⁺ is used up as a reactant, so the substrate is oxidized.",
+   "",
+   "Reduction means gaining H from NADH or NADPH. Here NAD⁺ is used up as a reactant, so the substrate is oxidized. Transamination swaps an amino group onto a keto acid. Here NH₄⁺ is released instead.",
+   "Transamination swaps an amino group onto a keto acid. Here NH₄⁺ is released instead."
+  ]
  },
  {
   "id": "metabolism-3d63a59e",
@@ -6899,7 +7079,13 @@
    "game": "metabolism",
    "list": "sample:structq",
    "index": 7
-  }
+  },
+  "why": [
+   "",
+   "PLP carries amino groups in transamination. The aldehyde gains two H and becomes a 1° alcohol: reduction, which recycles NAD+ in yeast.",
+   "ATP gives a phosphate (phosphorylation) or pays for joining CO₂. The aldehyde gains two H and becomes a 1° alcohol: reduction, which recycles NAD+ in yeast.",
+   "Some steps need no coenzyme, but this one shows a coenzyme change. The aldehyde gains two H and becomes a 1° alcohol: reduction, which recycles NAD+ in yeast."
+  ]
  },
  {
   "id": "metabolism-dd2cf2bc",
@@ -6960,7 +7146,13 @@
    "game": "metabolism",
    "list": "sample:structq",
    "index": 9
-  }
+  },
+  "why": [
+   "FAD takes 2 H to make a C=C. A CO 2 is added, using ATP: carboxylation. Malonyl CoA is the 2-carbon donor for building fatty acids.",
+   "",
+   "Coenzyme A carries acyl groups (thioesters). A CO 2 is added, using ATP: carboxylation. Malonyl CoA is the 2-carbon donor for building fatty acids.",
+   "NAD⁺ takes 2 H when an alcohol becomes a C=O (oxidation). A CO 2 is added, using ATP: carboxylation. Malonyl CoA is the 2-carbon donor for building fatty acids."
+  ]
  },
  {
   "id": "metabolism-000b3325",
@@ -7054,7 +7246,13 @@
    "game": "metabolism",
    "list": "sample:structq",
    "index": 12
-  }
+  },
+  "why": [
+   "",
+   "Some steps need no coenzyme, but this one shows a coenzyme change. Hexokinase moves a phosphate from ATP onto the carbon-6 –OH of glucose: phosphorylation.",
+   "NAD⁺ takes 2 H when an alcohol becomes a C=O (oxidation). Hexokinase moves a phosphate from ATP onto the carbon-6 –OH of glucose: phosphorylation.",
+   "NADH gives 2 H in a reduction (C=O → alcohol). Hexokinase moves a phosphate from ATP onto the carbon-6 –OH of glucose: phosphorylation."
+  ]
  },
  {
   "id": "metabolism-6e75c311",
@@ -7081,7 +7279,13 @@
    "game": "metabolism",
    "list": "sample:structq",
    "index": 13
-  }
+  },
+  "why": [
+   "Β-hydroxyacyl CoA dehydrogenase oxidizes an alcohol to a ketone with NAD⁺ (β-oxidation step 3). β-Oxidation step 2: water adds across the C=C, putting an –OH on the β carbon.",
+   "",
+   "Transaminase (PLP) moves an amino group. β-Oxidation step 2: water adds across the C=C, putting an –OH on the β carbon.",
+   "Aldolase splits a 6-carbon sugar into two 3-carbon sugars. β-Oxidation step 2: water adds across the C=C, putting an –OH on the β carbon."
+  ]
  },
  {
   "id": "metabolism-23bb663e",
@@ -7108,7 +7312,13 @@
    "game": "metabolism",
    "list": "sample:structq",
    "index": 14
-  }
+  },
+  "why": [
+   "Some steps need no coenzyme, but this one shows a coenzyme change. Two H atoms leave neighboring carbons and a C=C forms; FAD takes the hydrogens. Losing H is oxidation (LEO).",
+   "NAD⁺ takes 2 H when an alcohol becomes a C=O (oxidation). Two H atoms leave neighboring carbons and a C=C forms; FAD takes the hydrogens. Losing H is oxidation (LEO).",
+   "",
+   "NADH gives 2 H in a reduction (C=O → alcohol). Two H atoms leave neighboring carbons and a C=C forms; FAD takes the hydrogens. Losing H is oxidation (LEO)."
+  ]
  },
  {
   "id": "metabolism-eed70413",
@@ -7269,7 +7479,13 @@
    "game": "metabolism",
    "list": "sample:structq",
    "index": 19
-  }
+  },
+  "why": [
+   "",
+   "Glycerol kinase adds a phosphate from ATP to glycerol. A mutase moves the phosphate from carbon 3 to carbon 2. Same formula, new arrangement: isomerization.",
+   "Pyruvate decarboxylase (yeast) removes CO₂ from pyruvate. A mutase moves the phosphate from carbon 3 to carbon 2. Same formula, new arrangement: isomerization.",
+   "Enolase removes water to make PEP. A mutase moves the phosphate from carbon 3 to carbon 2. Same formula, new arrangement: isomerization."
+  ]
  },
  {
   "id": "metabolism-2431b250",
@@ -7297,7 +7513,13 @@
    "game": "metabolism",
    "list": "sample:structq",
    "index": 20
-  }
+  },
+  "why": [
+   "FAD takes 2 H to make a C=C. A carbon leaves as CO 2 and NAD+ is reduced while the 2-carbon piece joins CoA: oxidative decarboxylation.",
+   "ATP gives a phosphate (phosphorylation) or pays for joining CO₂. A carbon leaves as CO 2 and NAD+ is reduced while the 2-carbon piece joins CoA: oxidative decarboxylation.",
+   "",
+   "PLP carries amino groups in transamination. A carbon leaves as CO 2 and NAD+ is reduced while the 2-carbon piece joins CoA: oxidative decarboxylation."
+  ]
  },
  {
   "id": "metabolism-8859e210",
@@ -7357,7 +7579,13 @@
    "game": "metabolism",
    "list": "sample:structq",
    "index": 22
-  }
+  },
+  "why": [
+   "Phosphoglycerate mutase moves a phosphate from C3 to C2. The 1° –OH of glycerol picks up a phosphate from ATP: phosphorylation, the first step in using glycerol from fat.",
+   "Argininosuccinate synthetase joins citrulline and aspartate using ATP. The 1° –OH of glycerol picks up a phosphate from ATP: phosphorylation, the first step in using glycerol from fat.",
+   "Α-ketoglutarate dehydrogenase oxidatively decarboxylates α-ketoglutarate. The 1° –OH of glycerol picks up a phosphate from ATP: phosphorylation, the first step in using glycerol from fat.",
+   ""
+  ]
  },
  {
   "id": "metabolism-d66ba80a",
@@ -7384,7 +7612,13 @@
    "game": "metabolism",
    "list": "sample:structq",
    "index": 23
-  }
+  },
+  "why": [
+   "PLP carries amino groups in transamination. The 2° alcohol becomes a ketone and NAD+ takes the hydrogens: oxidation.",
+   "",
+   "Some steps need no coenzyme, but this one shows a coenzyme change. The 2° alcohol becomes a ketone and NAD+ takes the hydrogens: oxidation.",
+   "ATP gives a phosphate (phosphorylation) or pays for joining CO₂. The 2° alcohol becomes a ketone and NAD+ takes the hydrogens: oxidation."
+  ]
  },
  {
   "id": "metabolism-6e4e6b8a",
@@ -7477,7 +7711,13 @@
    "game": "metabolism",
    "list": "sample:structq",
    "index": 26
-  }
+  },
+  "why": [
+   "Phosphoglucomutase moves a phosphate between C1 and C6 of glucose. Lipogenesis step 3: water is removed from the alcohol to make a C=C: dehydration.",
+   "Succinate dehydrogenase oxidizes succinate to fumarate with FAD. Lipogenesis step 3: water is removed from the alcohol to make a C=C: dehydration.",
+   "Pyruvate dehydrogenase turns pyruvate into acetyl CoA. Lipogenesis step 3: water is removed from the alcohol to make a C=C: dehydration.",
+   ""
+  ]
  },
  {
   "id": "metabolism-5cef46c2",
@@ -7504,7 +7744,13 @@
    "game": "metabolism",
    "list": "sample:structq",
    "index": 27
-  }
+  },
+  "why": [
+   "Coenzyme A carries acyl groups (thioesters). β-Oxidation step 3: the 2° alcohol is oxidized to a ketone; NAD+ becomes NADH.",
+   "NADPH gives H in building pathways like lipogenesis. β-Oxidation step 3: the 2° alcohol is oxidized to a ketone; NAD+ becomes NADH.",
+   "NADH gives 2 H in a reduction (C=O → alcohol). β-Oxidation step 3: the 2° alcohol is oxidized to a ketone; NAD+ becomes NADH.",
+   ""
+  ]
  },
  {
   "id": "metabolism-364d8613",
@@ -7632,7 +7878,13 @@
    "game": "metabolism",
    "list": "sample:structq",
    "index": 31
-  }
+  },
+  "why": [
+   "NADPH gives H in building pathways like lipogenesis. The 2° alcohol of glycerol 3-phosphate becomes a ketone and NAD+ is reduced: oxidation.",
+   "ATP gives a phosphate (phosphorylation) or pays for joining CO₂. The 2° alcohol of glycerol 3-phosphate becomes a ketone and NAD+ is reduced: oxidation.",
+   "",
+   "PLP carries amino groups in transamination. The 2° alcohol of glycerol 3-phosphate becomes a ketone and NAD+ is reduced: oxidation."
+  ]
  },
  {
   "id": "metabolism-4b8c4ab4",
@@ -7659,7 +7911,13 @@
    "game": "metabolism",
    "list": "sample:structq",
    "index": 32
-  }
+  },
+  "why": [
+   "NAD⁺ takes 2 H when an alcohol becomes a C=O (oxidation). Lipogenesis step 4: the C=C gains two H from NADPH: reduction (hydrogenation).",
+   "",
+   "PLP carries amino groups in transamination. Lipogenesis step 4: the C=C gains two H from NADPH: reduction (hydrogenation).",
+   "Coenzyme A carries acyl groups (thioesters). Lipogenesis step 4: the C=C gains two H from NADPH: reduction (hydrogenation)."
+  ]
  },
  {
   "id": "metabolism-8bc1d2eb",
@@ -7686,7 +7944,13 @@
    "game": "metabolism",
    "list": "sample:structq",
    "index": 33
-  }
+  },
+  "why": [
+   "Glutamate dehydrogenase removes the amino group of glutamate as NH₄⁺. Yeast remove CO 2 from pyruvate with no coenzyme change: decarboxylation. This is the CO 2 that makes bread rise.",
+   "",
+   "Succinate dehydrogenase oxidizes succinate to fumarate with FAD. Yeast remove CO 2 from pyruvate with no coenzyme change: decarboxylation. This is the CO 2 that makes bread rise.",
+   "Arginase hydrolyzes arginine to urea and ornithine. Yeast remove CO 2 from pyruvate with no coenzyme change: decarboxylation. This is the CO 2 that makes bread rise."
+  ]
  },
  {
   "id": "metabolism-a29580d5",
@@ -12433,7 +12697,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 0
-  }
+  },
+  "why": [
+   "An inhibited enzyme slows the pathway.",
+   "High ATP inhibits PFK.",
+   "High ATP inhibits PFK; activating would speed glycolysis.",
+   "ATP is a regulator of PFK.",
+   ""
+  ]
  },
  {
   "id": "metabolism-e8f69c32",
@@ -12461,7 +12732,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 1
-  }
+  },
+  "why": [
+   "",
+   "Lysine’s skeleton doesn’t match oxaloacetate.",
+   "Tyrosine has an aromatic ring; oxaloacetate doesn’t.",
+   "Glutamate comes from α-ketoglutarate (5 C).",
+   "Alanine comes from pyruvate (3 C)."
+  ]
  },
  {
   "id": "metabolism-36795053",
@@ -12488,7 +12766,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 2
-  }
+  },
+  "why": [
+   "FADH₂ carries 2 H, so 2 electrons.",
+   "FADH₂ carries 2 H, so 2 electrons.",
+   "That would be two FADH₂.",
+   "FADH₂ gives up its electrons; that is its job.",
+   ""
+  ]
  },
  {
   "id": "metabolism-1c5a029c",
@@ -12515,7 +12800,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 3
-  }
+  },
+  "why": [
+   "",
+   "Only one FAD step is skipped: 7 − 1 = 6.",
+   "16 carbons give 8 acetyl CoA but only 7 turns.",
+   "Count turns, not carbons: 7 turns, minus 1.",
+   "The existing C=C skips one FAD step: 7 − 1."
+  ]
  },
  {
   "id": "metabolism-5aaf9eb3",
@@ -12542,7 +12834,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 4
-  }
+  },
+  "why": [
+   "No hydrogens are removed in this step.",
+   "Hexokinase adds a phosphate (step 1).",
+   "An isomerase rearranges one molecule; it doesn’t split it.",
+   "",
+   "Pyruvate kinase is step 10, making ATP."
+  ]
  },
  {
   "id": "metabolism-88eddc77",
@@ -12569,7 +12868,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 5
-  }
+  },
+  "why": [
+   "The CO₂ comes from carbon in the fuel, not from O₂.",
+   "O₂ doesn’t become ATP.",
+   "",
+   "NADH carries electrons to the chain; O₂ is at the other end.",
+   "Urea comes from amino acid nitrogen."
+  ]
  },
  {
   "id": "metabolism-52ee5d0b",
@@ -12596,7 +12902,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 6
-  }
+  },
+  "why": [
+   "36 or 38 uses the older 3 and 2 values per NADH and FADH₂.",
+   "2 ATP is glycolysis alone.",
+   "",
+   "38 uses the older values (3 per NADH, 2 per FADH₂).",
+   "That counts only part of the yield."
+  ]
  },
  {
   "id": "metabolism-4eec9822",
@@ -12623,7 +12936,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 7
-  }
+  },
+  "why": [
+   "The citric acid cycle is in the matrix.",
+   "Ketogenesis is in liver mitochondria.",
+   "",
+   "Pyruvate dehydrogenase is in the matrix.",
+   "β-Oxidation is in the matrix."
+  ]
  },
  {
   "id": "metabolism-10a9085d",
@@ -12650,7 +12970,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 8
-  }
+  },
+  "why": [
+   "A mutase moves a phosphate within one molecule.",
+   "",
+   "A synthetase uses ATP to join molecules.",
+   "A kinase adds a phosphate from ATP.",
+   "No hydrogens are removed."
+  ]
  },
  {
   "id": "metabolism-89fd1ddc",
@@ -12677,7 +13004,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 9
-  }
+  },
+  "why": [
+   "TPP is made from thiamine (B1).",
+   "",
+   "FAD is made from riboflavin (B2).",
+   "NAD⁺ is made from niacin (B3).",
+   "PLP is made from pyridoxine (B6)."
+  ]
  },
  {
   "id": "metabolism-fcbe2682",
@@ -12705,7 +13039,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 10
-  }
+  },
+  "why": [
+   "",
+   "Glucogenic skeletons become pyruvate or cycle intermediates.",
+   "Essential means we must eat them.",
+   "Nonessential means we can make them.",
+   "The term is ketogenic."
+  ]
  },
  {
   "id": "metabolism-b05acb1f",
@@ -12733,7 +13074,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 11
-  }
+  },
+  "why": [
+   "The problem is too little O₂.",
+   "",
+   "Glycogen is being used up.",
+   "The urea cycle is in the liver and unrelated.",
+   "β-Oxidation makes acetyl CoA."
+  ]
  },
  {
   "id": "metabolism-ee6b8259",
@@ -12761,7 +13109,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 12
-  }
+  },
+  "why": [
+   "β-Oxidation breaks down fatty acids.",
+   "Glycerol has no nitrogen.",
+   "",
+   "Glycerol can enter glycolysis as DHAP.",
+   "Ketone bodies come from acetyl CoA."
+  ]
  },
  {
   "id": "metabolism-8c7cec85",
@@ -12788,7 +13143,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 13
-  }
+  },
+  "why": [
+   "",
+   "That is NAD⁺’s job (alcohol → ketone).",
+   "That is a reduction (hydrogenation).",
+   "That isn’t an FAD reaction.",
+   "FAD makes a C=C from C–C."
+  ]
  },
  {
   "id": "metabolism-d1492fca",
@@ -12815,7 +13177,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 14
-  }
+  },
+  "why": [
+   "Reversed: glycogenolysis breaks down.",
+   "Glycogenesis builds glycogen, so it is anabolic.",
+   "Glycogenolysis breaks glycogen down.",
+   "",
+   "Catabolic; anabolic is right."
+  ]
  },
  {
   "id": "metabolism-c20f3fa0",
@@ -12842,7 +13211,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 15
-  }
+  },
+  "why": [
+   "Ligases join molecules using ATP.",
+   "Isomerases rearrange one molecule.",
+   "",
+   "No redox happens.",
+   "No water is used."
+  ]
  },
  {
   "id": "metabolism-b32e4770",
@@ -12869,7 +13245,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 16
-  }
+  },
+  "why": [
+   "Phosphates are negative.",
+   "Adenine isn’t charged in NAD⁺.",
+   "",
+   "Ribose isn’t charged.",
+   "It is on the nicotinamide N."
+  ]
  },
  {
   "id": "metabolism-17419a52",
@@ -12896,7 +13279,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 17
-  }
+  },
+  "why": [
+   "CoA carries acyl groups.",
+   "FAD makes C=C bonds.",
+   "ATP carries phosphates.",
+   "NADPH is a reducing agent for building.",
+   ""
+  ]
  },
  {
   "id": "metabolism-1909e29f",
@@ -12923,7 +13313,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 18
-  }
+  },
+  "why": [
+   "Two steps release CO₂.",
+   "That is per glucose.",
+   "Three steps make NADH.",
+   "Two CO₂ and three NADH.",
+   ""
+  ]
  },
  {
   "id": "metabolism-bd3f6c59",
@@ -12950,7 +13347,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 19
-  }
+  },
+  "why": [
+   "",
+   "That removed the –OH (reduction).",
+   "That is acetone, made by decarboxylating acetoacetate.",
+   "That is dehydration.",
+   "The 2° alcohol becomes a ketone: acetoacetate."
+  ]
  },
  {
   "id": "metabolism-3c67db62",
@@ -12978,7 +13382,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 20
-  }
+  },
+  "why": [
+   "O₂ is the final acceptor.",
+   "",
+   "NADPH is the reduced form.",
+   "β-Oxidation uses FAD and NAD⁺.",
+   "NADPH comes from niacin (B3)."
+  ]
  },
  {
   "id": "metabolism-fb75dbc3",
@@ -13006,7 +13417,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 21
-  }
+  },
+  "why": [
+   "Ketone bodies come from acetyl CoA.",
+   "The liver makes ketone bodies.",
+   "Urea is unrelated.",
+   "",
+   "The brain uses ketone bodies but doesn’t make them."
+  ]
  },
  {
   "id": "metabolism-ac37b7be",
@@ -13034,7 +13452,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 22
-  }
+  },
+  "why": [
+   "Ketogenesis makes ketone bodies.",
+   "Gluconeogenesis makes glucose.",
+   "β-Oxidation breaks fatty acids down.",
+   "",
+   "Glycogenesis makes glycogen."
+  ]
  },
  {
   "id": "metabolism-cc3a9b2b",
@@ -13062,7 +13487,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 23
-  }
+  },
+  "why": [
+   "These enter (as carbamoyl phosphate).",
+   "Aspartate enters.",
+   "These stay in the cycle.",
+   "NH₄⁺ enters; ornithine is recycled.",
+   ""
+  ]
  },
  {
   "id": "metabolism-f4bf558a",
@@ -13089,7 +13521,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 24
-  }
+  },
+  "why": [
+   "No water is involved.",
+   "Reversed: the substrate loses H.",
+   "",
+   "In redox, one is oxidized and one is reduced.",
+   "In redox, one is oxidized and one is reduced."
+  ]
  },
  {
   "id": "metabolism-fdf4094b",
@@ -13117,7 +13556,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 25
-  }
+  },
+  "why": [
+   "Each acetyl CoA has 2 carbons: 12 ÷ 2 = 6.",
+   "",
+   "12 carbons give 6 acetyl CoA.",
+   "The last turn releases two acetyl CoA: 5 turns.",
+   "Reversed: 6 acetyl CoA in 5 turns."
+  ]
  },
  {
   "id": "metabolism-aef5ad03",
@@ -13144,7 +13590,14 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 26
-  }
+  },
+  "why": [
+   "It is coupled to reactions that need energy.",
+   "ATP hydrolysis releases energy.",
+   "ATP hydrolysis is exothermic.",
+   "",
+   "Exothermic; require is right."
+  ]
  },
  {
   "id": "metabolism-3e097061",
@@ -13172,6 +13625,13 @@
    "game": "metabolism",
    "list": "sample:exam",
    "index": 27
-  }
+  },
+  "why": [
+   "Made in step 1.",
+   "",
+   "Made in step 4.",
+   "Made in step 2.",
+   "Made in step 3."
+  ]
  }
 ]
