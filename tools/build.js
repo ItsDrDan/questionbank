@@ -8,6 +8,8 @@ const { chromium } = require('playwright');
 const { grab } = require('./grab');
 const { openGame, validate } = require('./sample');
 const { refine } = require('./refine3b');
+const quantumWhy = require('./whys/quantum');
+const thermoWhy = require('./whys/thermo');
 
 const REPOS = path.resolve(process.argv[2] || '../');
 const OUT = path.resolve(__dirname, '..');
@@ -87,7 +89,9 @@ function mcFromArray(a, hasTitle) {
     const g = 'thermochemistry', d = await pull(page, g, ['concepts', 'FORMATION']);
     add('thermochemistry', d.concepts.map((a, i) => {
       const [title, q, ans, choices, why] = a;
-      return item(g, 'concepts', i, { skill: 'thermochemistry.concepts', courses: ['3A', '1A'], chapters: ['3A-7', '1A-10'], origin: 'original', type: 'mc', title, prompt: q, answer: ans, choices, explain: why });
+      const it = item(g, 'concepts', i, { skill: 'thermochemistry.concepts', courses: ['3A', '1A'], chapters: ['3A-7', '1A-10'], origin: 'original', type: 'mc', title, prompt: q, answer: ans, choices, explain: why });
+      const w = thermoWhy(it); if (w && w.some(Boolean)) it.why = w;
+      return it;
     }));
     fs.writeFileSync(path.join(OUT, 'data/formation-enthalpies.json'), JSON.stringify({ from: 'thermochemistry', source: 'OpenStax Chemistry 2e, Appendix G', units: 'kJ/mol', values: d.FORMATION }, null, 1));
   }
@@ -112,7 +116,9 @@ function mcFromArray(a, hasTitle) {
       if (t === 'number') Object.assign(f, { answer: q.value, unit: q.unit || undefined });
       else if (t === 'mc') Object.assign(f, { answer: q.answer, choices: q.choices });
       else f.data = q;
-      return item(g, 'bank', i, f);
+      const it = item(g, 'bank', i, f);
+      if (t === 'mc') { const w = quantumWhy(it); if (w && w.some(Boolean)) it.why = w; }
+      return it;
     }));
   }
 

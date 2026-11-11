@@ -17,6 +17,10 @@
   "answer": "Endothermic",
   "hint": "Energy as a reactant is taken in; energy as a product is given off. Plan: Locate the energy term → Reactant → absorbed; product → released → Classify the reaction and sign of q.",
   "explain": "<ol><li><b>Classify the reaction:</b> Energy is on the reactant side. The system absorbs heat, so the reaction is endothermic.</li><li><b>Follow the heat:</b> Endothermic: q > 0. Heat flows from surroundings to system.</li></ol>",
+  "why": [
+   "",
+   "Exothermic means heat is released: energy appears on the product side. Classify the reaction: Energy is on the reactant side. The system absorbs heat, so the reaction is endothermic. Follow the heat: Endothermic: q > 0. Heat flows from surroundings to system."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -42,6 +46,10 @@
   "answer": "Absorbs heat from the surroundings",
   "hint": "The positive number displayed in the equation is a magnitude. The sign of system q comes from its location in the equation. Plan: Locate the energy term → Reactant → absorbed; product → released → Classify the reaction and sign of q.",
   "explain": "<ol><li><b>Classify the reaction:</b> Energy is on the reactant side. The system absorbs heat, so the reaction is endothermic.</li><li><b>Follow the heat:</b> Endothermic: q > 0. Heat flows from surroundings to system.</li></ol>",
+  "why": [
+   "",
+   "Releasing heat means energy is a product (exothermic). Classify the reaction: Energy is on the reactant side. The system absorbs heat, so the reaction is endothermic. Follow the heat: Endothermic: q > 0. Heat flows from surroundings to system."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -67,6 +75,10 @@
   "answer": "Positive",
   "hint": "The positive number displayed in the equation is a magnitude. The sign of system q comes from its location in the equation. Plan: Locate the energy term → Reactant → absorbed; product → released → Classify the reaction and sign of q.",
   "explain": "<ol><li><b>Classify the reaction:</b> Energy is on the reactant side. The system absorbs heat, so the reaction is endothermic.</li><li><b>Follow the heat:</b> Endothermic: q > 0. Heat flows from surroundings to system.</li></ol>",
+  "why": [
+   "q is negative only when heat flows out of the system (exothermic). Classify the reaction: Energy is on the reactant side. The system absorbs heat, so the reaction is endothermic. Follow the heat: Endothermic: q > 0. Heat flows from surroundings to system.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -92,6 +104,10 @@
   "answer": "Temperature change",
   "hint": "Look for a horizontal segment versus a sloped segment.",
   "explain": "<ol><li><b>Slope or plateau?:</b> A slope changes temperature within one phase. Use q = mcΔT.</li><li><b>Interpret the segment:</b> The sample cools in one phase. Average particle kinetic energy decreases.</li></ol>",
+  "why": [
+   "A phase change is a flat plateau (constant temperature). A sloped segment means the temperature is changing.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -117,6 +133,10 @@
   "answer": "q = mcΔT",
   "hint": "Look for a horizontal segment versus a sloped segment.",
   "explain": "<ol><li><b>Slope or plateau?:</b> A slope changes temperature within one phase. Use q = mcΔT.</li><li><b>Interpret the segment:</b> The sample cools in one phase. Average particle kinetic energy decreases.</li></ol>",
+  "why": [
+   "",
+   "q = nΔH is for a phase change, a flat plateau at constant temperature. This segment slopes, so the temperature is changing: q = mcΔT."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -143,6 +163,11 @@
   "answer": "Decreases",
   "hint": "On a cooling curve the high-temperature plateau is condensation, and the low-temperature plateau is freezing.",
   "explain": "<ol><li><b>Slope or plateau?:</b> A slope changes temperature within one phase. Use q = mcΔT.</li><li><b>Interpret the segment:</b> The sample cools in one phase. Average particle kinetic energy decreases.</li></ol>",
+  "why": [
+   "",
+   "Temperature stays constant only on a flat plateau (a phase change). This segment slopes.",
+   "Heat is being removed, so the temperature can’t rise."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -169,6 +194,11 @@
   "answer": "Solid",
   "hint": "Solids are ordered here; liquids are close and disordered; gases have large separations.",
   "explain": "<ol><li><b>Identify the state:</b> Close, regularly arranged particles represent a solid. They still vibrate.</li></ol>",
+  "why": [
+   "A liquid’s particles are close together but jumbled and able to slide past each other.",
+   "A gas’s particles are far apart and spread out.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -194,6 +224,10 @@
   "answer": "Phase change",
   "hint": "Look for a horizontal segment versus a sloped segment.",
   "explain": "<ol><li><b>Slope or plateau?:</b> A plateau is a phase change at constant temperature. Use q = nΔH.</li><li><b>Interpret the segment:</b> Vaporization occurs at this plateau; temperature stays constant during the transition.</li></ol>",
+  "why": [
+   "",
+   "A temperature change is a sloped segment. A flat plateau means the phase is changing at constant temperature."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -219,6 +253,10 @@
   "answer": "q = nΔH",
   "hint": "Look for a horizontal segment versus a sloped segment.",
   "explain": "<ol><li><b>Slope or plateau?:</b> A plateau is a phase change at constant temperature. Use q = nΔH.</li><li><b>Interpret the segment:</b> Vaporization occurs at this plateau; temperature stays constant during the transition.</li></ol>",
+  "why": [
+   "",
+   "q = mcΔT is for a temperature change, a sloped segment. This segment is flat (a phase change), so use q = nΔH."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -248,6 +286,14 @@
   "answer": "Vaporization",
   "hint": "On a cooling curve the high-temperature plateau is condensation, and the low-temperature plateau is freezing.",
   "explain": "<ol><li><b>Slope or plateau?:</b> A plateau is a phase change at constant temperature. Use q = nΔH.</li><li><b>Interpret the segment:</b> Vaporization occurs at this plateau; temperature stays constant during the transition.</li></ol>",
+  "why": [
+   "Melting is solid → liquid.",
+   "",
+   "Freezing is liquid → solid.",
+   "Condensation is gas → liquid.",
+   "Deposition is gas → solid.",
+   "Sublimation is solid → gas."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -273,6 +319,10 @@
   "answer": "Exothermic",
   "hint": "Energy as a reactant is taken in; energy as a product is given off. Plan: Locate the energy term → Reactant → absorbed; product → released → Classify the reaction and sign of q.",
   "explain": "<ol><li><b>Classify the reaction:</b> Energy is on the product side. The system releases heat, so the reaction is exothermic.</li><li><b>Follow the heat:</b> Exothermic: q < 0. Heat flows from system to surroundings. For this sample, q = −2.50 × 10⁴ J.</li></ol>",
+  "why": [
+   "Endothermic means heat is absorbed: energy appears on the reactant side. Classify the reaction: Energy is on the product side. The system releases heat, so the reaction is exothermic. Follow the heat: Exothermic: q",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -298,6 +348,10 @@
   "answer": "Releases heat to the surroundings",
   "hint": "The positive number displayed in the equation is a magnitude. The sign of system q comes from its location in the equation. Plan: Locate the energy term → Reactant → absorbed; product → released → Classify the reaction and sign of q.",
   "explain": "<ol><li><b>Classify the reaction:</b> Energy is on the product side. The system releases heat, so the reaction is exothermic.</li><li><b>Follow the heat:</b> Exothermic: q < 0. Heat flows from system to surroundings. For this sample, q = −2.50 × 10⁴ J.</li></ol>",
+  "why": [
+   "Absorbing heat means energy is a reactant (endothermic). Classify the reaction: Energy is on the product side. The system releases heat, so the reaction is exothermic. Follow the heat: Exothermic: q",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -323,6 +377,10 @@
   "answer": "Negative",
   "hint": "The positive number displayed in the equation is a magnitude. The sign of system q comes from its location in the equation. Plan: Locate the energy term → Reactant → absorbed; product → released → Classify the reaction and sign of q.",
   "explain": "<ol><li><b>Classify the reaction:</b> Energy is on the product side. The system releases heat, so the reaction is exothermic.</li><li><b>Follow the heat:</b> Exothermic: q < 0. Heat flows from system to surroundings. For this sample, q = −2.50 × 10⁴ J.</li></ol>",
+  "why": [
+   "q is positive only when heat flows into the system (endothermic). Classify the reaction: Energy is on the product side. The system releases heat, so the reaction is exothermic. Follow the heat: Exothermic: q",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -352,6 +410,14 @@
   "answer": "Melting",
   "hint": "Use the starting phase and ending phase; do not reverse the arrow. Plan: Solid → Liquid → Name the transition → Determine heat direction.",
   "explain": "<ol><li><b>Identify the change:</b> Solid → Liquid is melting.</li><li><b>Follow the energy:</b> Melting is endothermic: heat enters the sample, so q > 0.</li></ol>",
+  "why": [
+   "",
+   "Deposition is gas → solid.",
+   "Condensation is gas → liquid.",
+   "Vaporization is liquid → gas.",
+   "Sublimation is solid → gas.",
+   "Freezing is liquid → solid."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -377,6 +443,10 @@
   "answer": "Absorbed",
   "hint": "Melting, vaporization, and sublimation absorb heat. Their reverse processes release heat. Plan: Solid → Liquid → Name the transition → Determine heat direction.",
   "explain": "<ol><li><b>Identify the change:</b> Solid → Liquid is melting.</li><li><b>Follow the energy:</b> Melting is endothermic: heat enters the sample, so q > 0.</li></ol>",
+  "why": [
+   "Melting, vaporization and sublimation absorb heat (endothermic). Freezing, condensation and deposition release heat (exothermic).",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -402,6 +472,10 @@
   "answer": "Positive",
   "hint": "Melting, vaporization, and sublimation absorb heat. Their reverse processes release heat. Plan: Solid → Liquid → Name the transition → Determine heat direction.",
   "explain": "<ol><li><b>Identify the change:</b> Solid → Liquid is melting.</li><li><b>Follow the energy:</b> Melting is endothermic: heat enters the sample, so q > 0.</li></ol>",
+  "why": [
+   "",
+   "q is negative only when heat flows out of the system (exothermic). Identify the change: Solid → Liquid is melting. Follow the energy: Melting is endothermic: heat enters the sample, so q > 0."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -429,6 +503,12 @@
   "answer": "Triple point",
   "hint": "Count the phase boundaries meeting at A.",
   "explain": "<ol><li><b>Identify point A:</b> At the triple point, solid, liquid, and gas coexist in equilibrium at one particular temperature and pressure.</li></ol>",
+  "why": [
+   "A melting point is on the solid–liquid line, between only two phases.",
+   "The normal boiling point is on the liquid–gas line at 1 atm.",
+   "",
+   "The critical point is the end of the liquid–gas line; above it, liquid and gas can’t be told apart."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -456,6 +536,12 @@
   "answer": "Solid, liquid, and gas",
   "hint": "Count the phase boundaries meeting at A.",
   "explain": "<ol><li><b>Identify point A:</b> At the triple point, solid, liquid, and gas coexist in equilibrium at one particular temperature and pressure.</li></ol>",
+  "why": [
+   "At the triple point, solid, liquid, and gas coexist in equilibrium at one particular temperature and pressure. Liquid and gas only would be a point on a single line or inside one region.",
+   "At the triple point, solid, liquid, and gas coexist in equilibrium at one particular temperature and pressure. Solid only would be a point on a single line or inside one region.",
+   "At the triple point, solid, liquid, and gas coexist in equilibrium at one particular temperature and pressure. No phases coexist would be a point away from all the lines.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -485,6 +571,14 @@
   "answer": "Freezing",
   "hint": "Use the starting phase and ending phase; do not reverse the arrow. Plan: Liquid → Solid → Name the transition → Determine heat direction.",
   "explain": "<ol><li><b>Identify the change:</b> Liquid → Solid is freezing.</li><li><b>Follow the energy:</b> Freezing is exothermic: heat leaves the sample, so q < 0.</li></ol>",
+  "why": [
+   "Deposition is gas → solid.",
+   "Melting is solid → liquid.",
+   "Sublimation is solid → gas.",
+   "",
+   "Vaporization is liquid → gas.",
+   "Condensation is gas → liquid."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -510,6 +604,10 @@
   "answer": "Released",
   "hint": "Melting, vaporization, and sublimation absorb heat. Their reverse processes release heat. Plan: Liquid → Solid → Name the transition → Determine heat direction.",
   "explain": "<ol><li><b>Identify the change:</b> Liquid → Solid is freezing.</li><li><b>Follow the energy:</b> Freezing is exothermic: heat leaves the sample, so q < 0.</li></ol>",
+  "why": [
+   "",
+   "Melting, vaporization and sublimation absorb heat (endothermic). Freezing, condensation and deposition release heat (exothermic)."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -535,6 +633,10 @@
   "answer": "Negative",
   "hint": "Melting, vaporization, and sublimation absorb heat. Their reverse processes release heat. Plan: Liquid → Solid → Name the transition → Determine heat direction.",
   "explain": "<ol><li><b>Identify the change:</b> Liquid → Solid is freezing.</li><li><b>Follow the energy:</b> Freezing is exothermic: heat leaves the sample, so q < 0.</li></ol>",
+  "why": [
+   "",
+   "q is positive only when heat flows into the system (endothermic). Identify the change: Liquid → Solid is freezing. Follow the energy: Freezing is exothermic: heat leaves the sample, so q"
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -560,6 +662,10 @@
   "answer": "Exothermic",
   "hint": "Energy as a reactant is taken in; energy as a product is given off. Plan: Locate the energy term → Reactant → absorbed; product → released → Classify the reaction and sign of q.",
   "explain": "<ol><li><b>Classify the reaction:</b> Energy is on the product side. The system releases heat, so the reaction is exothermic.</li><li><b>Follow the heat:</b> Exothermic: q < 0. Heat flows from system to surroundings.</li></ol>",
+  "why": [
+   "",
+   "Endothermic means heat is absorbed: energy appears on the reactant side. Classify the reaction: Energy is on the product side. The system releases heat, so the reaction is exothermic. Follow the heat: Exothermic: q"
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -585,6 +691,10 @@
   "answer": "Releases heat to the surroundings",
   "hint": "The positive number displayed in the equation is a magnitude. The sign of system q comes from its location in the equation. Plan: Locate the energy term → Reactant → absorbed; product → released → Classify the reaction and sign of q.",
   "explain": "<ol><li><b>Classify the reaction:</b> Energy is on the product side. The system releases heat, so the reaction is exothermic.</li><li><b>Follow the heat:</b> Exothermic: q < 0. Heat flows from system to surroundings.</li></ol>",
+  "why": [
+   "Absorbing heat means energy is a reactant (endothermic). Classify the reaction: Energy is on the product side. The system releases heat, so the reaction is exothermic. Follow the heat: Exothermic: q",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -610,6 +720,10 @@
   "answer": "Negative",
   "hint": "The positive number displayed in the equation is a magnitude. The sign of system q comes from its location in the equation. Plan: Locate the energy term → Reactant → absorbed; product → released → Classify the reaction and sign of q.",
   "explain": "<ol><li><b>Classify the reaction:</b> Energy is on the product side. The system releases heat, so the reaction is exothermic.</li><li><b>Follow the heat:</b> Exothermic: q < 0. Heat flows from system to surroundings.</li></ol>",
+  "why": [
+   "",
+   "q is positive only when heat flows into the system (endothermic). Classify the reaction: Energy is on the product side. The system releases heat, so the reaction is exothermic. Follow the heat: Exothermic: q"
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -635,6 +749,10 @@
   "answer": "Temperature change",
   "hint": "Look for a horizontal segment versus a sloped segment.",
   "explain": "<ol><li><b>Slope or plateau?:</b> A slope changes temperature within one phase. Use q = mcΔT.</li><li><b>Interpret the segment:</b> The sample warms in one phase. Average particle kinetic energy increases.</li></ol>",
+  "why": [
+   "",
+   "A phase change is a flat plateau (constant temperature). A sloped segment means the temperature is changing."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -660,6 +778,10 @@
   "answer": "q = mcΔT",
   "hint": "Look for a horizontal segment versus a sloped segment.",
   "explain": "<ol><li><b>Slope or plateau?:</b> A slope changes temperature within one phase. Use q = mcΔT.</li><li><b>Interpret the segment:</b> The sample warms in one phase. Average particle kinetic energy increases.</li></ol>",
+  "why": [
+   "q = nΔH is for a phase change, a flat plateau at constant temperature. This segment slopes, so the temperature is changing: q = mcΔT.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -686,6 +808,11 @@
   "answer": "Increases",
   "hint": "On a cooling curve the high-temperature plateau is condensation, and the low-temperature plateau is freezing.",
   "explain": "<ol><li><b>Slope or plateau?:</b> A slope changes temperature within one phase. Use q = mcΔT.</li><li><b>Interpret the segment:</b> The sample warms in one phase. Average particle kinetic energy increases.</li></ol>",
+  "why": [
+   "",
+   "Temperature stays constant only on a flat plateau (a phase change). This segment slopes.",
+   "Heat is being added, so the temperature can’t fall. Slope or plateau?: A slope changes temperature within one phase. Use q = mcΔT. Interpret the segment: The sample warms in one phase. Average particle kinetic energy increases."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -711,6 +838,10 @@
   "answer": "Endothermic",
   "hint": "Energy as a reactant is taken in; energy as a product is given off. Plan: Locate the energy term → Reactant → absorbed; product → released → Classify the reaction and sign of q.",
   "explain": "<ol><li><b>Classify the reaction:</b> Energy is on the reactant side. The system absorbs heat, so the reaction is endothermic.</li><li><b>Follow the heat:</b> Endothermic: q > 0. Heat flows from surroundings to system. For this sample, q = 1.20 × 10⁵ J.</li></ol>",
+  "why": [
+   "Exothermic means heat is released: energy appears on the product side. Classify the reaction: Energy is on the reactant side. The system absorbs heat, so the reaction is endothermic. Follow the heat: Endothermic: q > 0. Heat flows from surroundings to system. For this sample, q = 1.20 × 10⁵ J.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -736,6 +867,10 @@
   "answer": "Absorbs heat from the surroundings",
   "hint": "The positive number displayed in the equation is a magnitude. The sign of system q comes from its location in the equation. Plan: Locate the energy term → Reactant → absorbed; product → released → Classify the reaction and sign of q.",
   "explain": "<ol><li><b>Classify the reaction:</b> Energy is on the reactant side. The system absorbs heat, so the reaction is endothermic.</li><li><b>Follow the heat:</b> Endothermic: q > 0. Heat flows from surroundings to system. For this sample, q = 1.20 × 10⁵ J.</li></ol>",
+  "why": [
+   "",
+   "Releasing heat means energy is a product (exothermic). Classify the reaction: Energy is on the reactant side. The system absorbs heat, so the reaction is endothermic. Follow the heat: Endothermic: q > 0. Heat flows from surroundings to system. For this sample, q = 1.20 × 10⁵ J."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -761,6 +896,10 @@
   "answer": "Positive",
   "hint": "The positive number displayed in the equation is a magnitude. The sign of system q comes from its location in the equation. Plan: Locate the energy term → Reactant → absorbed; product → released → Classify the reaction and sign of q.",
   "explain": "<ol><li><b>Classify the reaction:</b> Energy is on the reactant side. The system absorbs heat, so the reaction is endothermic.</li><li><b>Follow the heat:</b> Endothermic: q > 0. Heat flows from surroundings to system. For this sample, q = 1.20 × 10⁵ J.</li></ol>",
+  "why": [
+   "q is negative only when heat flows out of the system (exothermic). Classify the reaction: Energy is on the reactant side. The system absorbs heat, so the reaction is endothermic. Follow the heat: Endothermic: q > 0. Heat flows from surroundings to system. For this sample, q = 1.20 × 10⁵ J.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -790,6 +929,14 @@
   "answer": "Vaporization",
   "hint": "Use the starting phase and ending phase; do not reverse the arrow. Plan: Liquid → Gas → Name the transition → Determine heat direction.",
   "explain": "<ol><li><b>Identify the change:</b> Liquid → Gas is vaporization.</li><li><b>Follow the energy:</b> Vaporization is endothermic: heat enters the sample, so q > 0.</li></ol>",
+  "why": [
+   "Melting is solid → liquid.",
+   "",
+   "Freezing is liquid → solid.",
+   "Sublimation is solid → gas.",
+   "Deposition is gas → solid.",
+   "Condensation is gas → liquid."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -815,6 +962,10 @@
   "answer": "Absorbed",
   "hint": "Melting, vaporization, and sublimation absorb heat. Their reverse processes release heat. Plan: Liquid → Gas → Name the transition → Determine heat direction.",
   "explain": "<ol><li><b>Identify the change:</b> Liquid → Gas is vaporization.</li><li><b>Follow the energy:</b> Vaporization is endothermic: heat enters the sample, so q > 0.</li></ol>",
+  "why": [
+   "Melting, vaporization and sublimation absorb heat (endothermic). Freezing, condensation and deposition release heat (exothermic).",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -840,6 +991,10 @@
   "answer": "Positive",
   "hint": "Melting, vaporization, and sublimation absorb heat. Their reverse processes release heat. Plan: Liquid → Gas → Name the transition → Determine heat direction.",
   "explain": "<ol><li><b>Identify the change:</b> Liquid → Gas is vaporization.</li><li><b>Follow the energy:</b> Vaporization is endothermic: heat enters the sample, so q > 0.</li></ol>",
+  "why": [
+   "q is negative only when heat flows out of the system (exothermic). Identify the change: Liquid → Gas is vaporization. Follow the energy: Vaporization is endothermic: heat enters the sample, so q > 0.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -869,6 +1024,14 @@
   "answer": "Condensation",
   "hint": "Use the starting phase and ending phase; do not reverse the arrow. Plan: Gas → Liquid → Name the transition → Determine heat direction.",
   "explain": "<ol><li><b>Identify the change:</b> Gas → Liquid is condensation.</li><li><b>Follow the energy:</b> Condensation is exothermic: heat leaves the sample, so q < 0.</li></ol>",
+  "why": [
+   "Deposition is gas → solid.",
+   "",
+   "Melting is solid → liquid.",
+   "Vaporization is liquid → gas.",
+   "Sublimation is solid → gas.",
+   "Freezing is liquid → solid."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -894,6 +1057,10 @@
   "answer": "Released",
   "hint": "Melting, vaporization, and sublimation absorb heat. Their reverse processes release heat. Plan: Gas → Liquid → Name the transition → Determine heat direction.",
   "explain": "<ol><li><b>Identify the change:</b> Gas → Liquid is condensation.</li><li><b>Follow the energy:</b> Condensation is exothermic: heat leaves the sample, so q < 0.</li></ol>",
+  "why": [
+   "",
+   "Melting, vaporization and sublimation absorb heat (endothermic). Freezing, condensation and deposition release heat (exothermic)."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -919,6 +1086,10 @@
   "answer": "Negative",
   "hint": "Melting, vaporization, and sublimation absorb heat. Their reverse processes release heat. Plan: Gas → Liquid → Name the transition → Determine heat direction.",
   "explain": "<ol><li><b>Identify the change:</b> Gas → Liquid is condensation.</li><li><b>Follow the energy:</b> Condensation is exothermic: heat leaves the sample, so q < 0.</li></ol>",
+  "why": [
+   "q is positive only when heat flows into the system (endothermic). Identify the change: Gas → Liquid is condensation. Follow the energy: Condensation is exothermic: heat leaves the sample, so q",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -945,6 +1116,11 @@
   "answer": "Gas",
   "hint": "Solids are ordered here; liquids are close and disordered; gases have large separations.",
   "explain": "<ol><li><b>Identify the state:</b> Widely separated particles represent a gas.</li></ol>",
+  "why": [
+   "A liquid’s particles are close together but jumbled and able to slide past each other.",
+   "A solid’s particles are close together in a regular, fixed pattern.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -970,6 +1146,10 @@
   "answer": "Temperature change",
   "hint": "Look for a horizontal segment versus a sloped segment.",
   "explain": "<ol><li><b>Slope or plateau?:</b> A slope changes temperature within one phase. Use q = mcΔT.</li><li><b>Interpret the segment:</b> The sample warms in one phase. Average particle kinetic energy increases.</li></ol>",
+  "why": [
+   "A phase change is a flat plateau (constant temperature). A sloped segment means the temperature is changing.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -995,6 +1175,10 @@
   "answer": "q = mcΔT",
   "hint": "Look for a horizontal segment versus a sloped segment.",
   "explain": "<ol><li><b>Slope or plateau?:</b> A slope changes temperature within one phase. Use q = mcΔT.</li><li><b>Interpret the segment:</b> The sample warms in one phase. Average particle kinetic energy increases.</li></ol>",
+  "why": [
+   "",
+   "q = nΔH is for a phase change, a flat plateau at constant temperature. This segment slopes, so the temperature is changing: q = mcΔT."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1021,6 +1205,11 @@
   "answer": "Increases",
   "hint": "On a cooling curve the high-temperature plateau is condensation, and the low-temperature plateau is freezing.",
   "explain": "<ol><li><b>Slope or plateau?:</b> A slope changes temperature within one phase. Use q = mcΔT.</li><li><b>Interpret the segment:</b> The sample warms in one phase. Average particle kinetic energy increases.</li></ol>",
+  "why": [
+   "Temperature stays constant only on a flat plateau (a phase change). This segment slopes.",
+   "Heat is being added, so the temperature can’t fall. Slope or plateau?: A slope changes temperature within one phase. Use q = mcΔT. Interpret the segment: The sample warms in one phase. Average particle kinetic energy increases.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1074,6 +1263,15 @@
   "answer": "Water",
   "hint": "Use the calculated c, not the mass, to identify the sample. Plan: Find ΔT → Calculate c = q/(mΔT) → Compare with the supplied chart.",
   "explain": "<ol><li><b>Temperature change:</b> <div class=\"math\">61.2 − 21.8 = 39.4 °C</div></li><li><b>Calculate specific heat:</b> <div class=\"math\">9130 / (55.4 × 39.4) = 4.184 J/(g·°C)</div></li><li><b>Identify the sample:</b> The chart value 4.184 J/(g·°C) matches water.</li></ol>",
+  "why": [
+   "Bismuth has c = 0.122 J/(g·°C). Your calculated c is 4.184 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Diamond has c = 0.509 J/(g·°C). Your calculated c is 4.184 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Aluminum has c = 0.903 J/(g·°C). Your calculated c is 4.184 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Copper has c = 0.385 J/(g·°C). Your calculated c is 4.184 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "",
+   "Iron has c = 0.449 J/(g·°C). Your calculated c is 4.184 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Silver has c = 0.235 J/(g·°C). Your calculated c is 4.184 J/(g·°C): use c = q ÷ (m × ΔT)."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1173,6 +1371,15 @@
   "answer": "Diamond",
   "hint": "Use the calculated c, not the mass, to identify the sample. Plan: Find ΔT → Calculate c = q/(mΔT) → Compare with the supplied chart.",
   "explain": "<ol><li><b>Temperature change:</b> <div class=\"math\">59 − 24.3 = 34.7 °C</div></li><li><b>Calculate specific heat:</b> <div class=\"math\">867 / (49.1 × 34.7) = 0.509 J/(g·°C)</div></li><li><b>Identify the sample:</b> The chart value 0.509 J/(g·°C) matches diamond.</li></ol>",
+  "why": [
+   "Copper has c = 0.385 J/(g·°C). Your calculated c is 0.509 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Water has c = 4.184 J/(g·°C). Your calculated c is 0.509 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Silver has c = 0.235 J/(g·°C). Your calculated c is 0.509 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "",
+   "Bismuth has c = 0.122 J/(g·°C). Your calculated c is 0.509 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Iron has c = 0.449 J/(g·°C). Your calculated c is 0.509 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Aluminum has c = 0.903 J/(g·°C). Your calculated c is 0.509 J/(g·°C): use c = q ÷ (m × ΔT)."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1272,6 +1479,15 @@
   "answer": "Silver",
   "hint": "Use the calculated c, not the mass, to identify the sample. Plan: Find ΔT → Calculate c = q/(mΔT) → Compare with the supplied chart.",
   "explain": "<ol><li><b>Temperature change:</b> <div class=\"math\">54.2 − 23.3 = 30.9 °C</div></li><li><b>Calculate specific heat:</b> <div class=\"math\">234 / (32.2 × 30.9) = 0.235 J/(g·°C)</div></li><li><b>Identify the sample:</b> The chart value 0.235 J/(g·°C) matches silver.</li></ol>",
+  "why": [
+   "",
+   "Bismuth has c = 0.122 J/(g·°C). Your calculated c is 0.235 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Aluminum has c = 0.903 J/(g·°C). Your calculated c is 0.235 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Water has c = 4.184 J/(g·°C). Your calculated c is 0.235 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Copper has c = 0.385 J/(g·°C). Your calculated c is 0.235 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Diamond has c = 0.509 J/(g·°C). Your calculated c is 0.235 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Iron has c = 0.449 J/(g·°C). Your calculated c is 0.235 J/(g·°C): use c = q ÷ (m × ΔT)."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1394,6 +1610,15 @@
   "answer": "Bismuth",
   "hint": "Use the calculated c, not the mass, to identify the sample. Plan: Find ΔT → Calculate c = q/(mΔT) → Compare with the supplied chart.",
   "explain": "<ol><li><b>Temperature change:</b> <div class=\"math\">58.6 − 20.7 = 37.9 °C</div></li><li><b>Calculate specific heat:</b> <div class=\"math\">120 / (26 × 37.9) = 0.122 J/(g·°C)</div></li><li><b>Identify the sample:</b> The chart value 0.122 J/(g·°C) matches bismuth.</li></ol>",
+  "why": [
+   "Copper has c = 0.385 J/(g·°C). Your calculated c is 0.122 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Diamond has c = 0.509 J/(g·°C). Your calculated c is 0.122 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Silver has c = 0.235 J/(g·°C). Your calculated c is 0.122 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "",
+   "Iron has c = 0.449 J/(g·°C). Your calculated c is 0.122 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Aluminum has c = 0.903 J/(g·°C). Your calculated c is 0.122 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Water has c = 4.184 J/(g·°C). Your calculated c is 0.122 J/(g·°C): use c = q ÷ (m × ΔT)."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1493,6 +1718,15 @@
   "answer": "Diamond",
   "hint": "Use the calculated c, not the mass, to identify the sample. Plan: Find ΔT → Calculate c = q/(mΔT) → Compare with the supplied chart.",
   "explain": "<ol><li><b>Temperature change:</b> <div class=\"math\">56.4 − 18.6 = 37.8 °C</div></li><li><b>Calculate specific heat:</b> <div class=\"math\">568 / (29.5 × 37.8) = 0.509 J/(g·°C)</div></li><li><b>Identify the sample:</b> The chart value 0.509 J/(g·°C) matches diamond.</li></ol>",
+  "why": [
+   "Bismuth has c = 0.122 J/(g·°C). Your calculated c is 0.509 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Copper has c = 0.385 J/(g·°C). Your calculated c is 0.509 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Aluminum has c = 0.903 J/(g·°C). Your calculated c is 0.509 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "",
+   "Silver has c = 0.235 J/(g·°C). Your calculated c is 0.509 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Iron has c = 0.449 J/(g·°C). Your calculated c is 0.509 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Water has c = 4.184 J/(g·°C). Your calculated c is 0.509 J/(g·°C): use c = q ÷ (m × ΔT)."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1546,6 +1780,15 @@
   "answer": "Copper",
   "hint": "Use the calculated c, not the mass, to identify the sample. Plan: Find ΔT → Calculate c = q/(mΔT) → Compare with the supplied chart.",
   "explain": "<ol><li><b>Temperature change:</b> <div class=\"math\">51.3 − 16.2 = 35.1 °C</div></li><li><b>Calculate specific heat:</b> <div class=\"math\">1390 / (102.5 × 35.1) = 0.385 J/(g·°C)</div></li><li><b>Identify the sample:</b> The chart value 0.385 J/(g·°C) matches copper.</li></ol>",
+  "why": [
+   "Bismuth has c = 0.122 J/(g·°C). Your calculated c is 0.385 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Water has c = 4.184 J/(g·°C). Your calculated c is 0.385 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "",
+   "Iron has c = 0.449 J/(g·°C). Your calculated c is 0.385 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Diamond has c = 0.509 J/(g·°C). Your calculated c is 0.385 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Aluminum has c = 0.903 J/(g·°C). Your calculated c is 0.385 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Silver has c = 0.235 J/(g·°C). Your calculated c is 0.385 J/(g·°C): use c = q ÷ (m × ΔT)."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1645,6 +1888,15 @@
   "answer": "Silver",
   "hint": "Use the calculated c, not the mass, to identify the sample. Plan: Find ΔT → Calculate c = q/(mΔT) → Compare with the supplied chart.",
   "explain": "<ol><li><b>Temperature change:</b> <div class=\"math\">59.7 − 18.7 = 41 °C</div></li><li><b>Calculate specific heat:</b> <div class=\"math\">789 / (81.9 × 41) = 0.235 J/(g·°C)</div></li><li><b>Identify the sample:</b> The chart value 0.235 J/(g·°C) matches silver.</li></ol>",
+  "why": [
+   "Aluminum has c = 0.903 J/(g·°C). Your calculated c is 0.235 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Bismuth has c = 0.122 J/(g·°C). Your calculated c is 0.235 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "",
+   "Diamond has c = 0.509 J/(g·°C). Your calculated c is 0.235 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Water has c = 4.184 J/(g·°C). Your calculated c is 0.235 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Iron has c = 0.449 J/(g·°C). Your calculated c is 0.235 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Copper has c = 0.385 J/(g·°C). Your calculated c is 0.235 J/(g·°C): use c = q ÷ (m × ΔT)."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1744,6 +1996,15 @@
   "answer": "Water",
   "hint": "Use the calculated c, not the mass, to identify the sample. Plan: Find ΔT → Calculate c = q/(mΔT) → Compare with the supplied chart.",
   "explain": "<ol><li><b>Temperature change:</b> <div class=\"math\">61 − 20.9 = 40.1 °C</div></li><li><b>Calculate specific heat:</b> <div class=\"math\">3690 / (22 × 40.1) = 4.184 J/(g·°C)</div></li><li><b>Identify the sample:</b> The chart value 4.184 J/(g·°C) matches water.</li></ol>",
+  "why": [
+   "Silver has c = 0.235 J/(g·°C). Your calculated c is 4.184 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Bismuth has c = 0.122 J/(g·°C). Your calculated c is 4.184 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Diamond has c = 0.509 J/(g·°C). Your calculated c is 4.184 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Copper has c = 0.385 J/(g·°C). Your calculated c is 4.184 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Iron has c = 0.449 J/(g·°C). Your calculated c is 4.184 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Aluminum has c = 0.903 J/(g·°C). Your calculated c is 4.184 J/(g·°C): use c = q ÷ (m × ΔT).",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1866,6 +2127,15 @@
   "answer": "Aluminum",
   "hint": "Use the calculated c, not the mass, to identify the sample. Plan: Find ΔT → Calculate c = q/(mΔT) → Compare with the supplied chart.",
   "explain": "<ol><li><b>Temperature change:</b> <div class=\"math\">47.5 − 22.9 = 24.6 °C</div></li><li><b>Calculate specific heat:</b> <div class=\"math\">1890 / (84.9 × 24.6) = 0.903 J/(g·°C)</div></li><li><b>Identify the sample:</b> The chart value 0.903 J/(g·°C) matches aluminum.</li></ol>",
+  "why": [
+   "Copper has c = 0.385 J/(g·°C). Your calculated c is 0.903 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Bismuth has c = 0.122 J/(g·°C). Your calculated c is 0.903 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Iron has c = 0.449 J/(g·°C). Your calculated c is 0.903 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Water has c = 4.184 J/(g·°C). Your calculated c is 0.903 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Silver has c = 0.235 J/(g·°C). Your calculated c is 0.903 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "",
+   "Diamond has c = 0.509 J/(g·°C). Your calculated c is 0.903 J/(g·°C): use c = q ÷ (m × ΔT)."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1960,6 +2230,10 @@
   "answer": "Vaporization",
   "hint": "Vaporization needs far more heat per mole than melting because the molecules separate completely. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Match ΔH to fusion or vaporization.",
   "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">80.3 g × 1 mol/18.02 g = 4.46 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">181.4 kJ/4.46 mol = 40.7 kJ/mol.</div></li><li><b>Name the phase change:</b> 40.7 kJ/mol matches the heat of vaporization (40.70 kJ/mol), so the water is vaporizing.</li></ol>",
+  "why": [
+   "",
+   "Melting water takes about 6.02 kJ/mol. Your heat per mole is much larger, which matches vaporization (about 40.7 kJ/mol)."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2077,6 +2351,10 @@
   "answer": "Melting (fusion)",
   "hint": "Vaporization needs far more heat per mole than melting because the molecules separate completely. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Match ΔH to fusion or vaporization.",
   "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">67.3 g × 1 mol/18.02 g = 3.73 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">22.48 kJ/3.73 mol = 6.02 kJ/mol.</div></li><li><b>Name the phase change:</b> 6.02 kJ/mol matches the heat of fusion (6.02 kJ/mol), so the water is melting.</li></ol>",
+  "why": [
+   "",
+   "Vaporizing water takes about 40.7 kJ/mol. Your heat per mole is much smaller, which matches melting (about 6.02 kJ/mol)."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2194,6 +2472,10 @@
   "answer": "Vaporization",
   "hint": "Vaporization needs far more heat per mole than melting because the molecules separate completely. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Match ΔH to fusion or vaporization.",
   "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">16.1 g × 1 mol/18.02 g = 0.893 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">36.36 kJ/0.893 mol = 40.7 kJ/mol.</div></li><li><b>Name the phase change:</b> 40.7 kJ/mol matches the heat of vaporization (40.70 kJ/mol), so the water is vaporizing.</li></ol>",
+  "why": [
+   "Melting water takes about 6.02 kJ/mol. Your heat per mole is much larger, which matches vaporization (about 40.7 kJ/mol).",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2311,6 +2593,10 @@
   "answer": "Melting (fusion)",
   "hint": "Vaporization needs far more heat per mole than melting because the molecules separate completely. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Match ΔH to fusion or vaporization.",
   "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">39.5 g × 1 mol/18.02 g = 2.19 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">13.2 kJ/2.19 mol = 6.02 kJ/mol.</div></li><li><b>Name the phase change:</b> 6.02 kJ/mol matches the heat of fusion (6.02 kJ/mol), so the water is melting.</li></ol>",
+  "why": [
+   "",
+   "Vaporizing water takes about 40.7 kJ/mol. Your heat per mole is much smaller, which matches melting (about 6.02 kJ/mol)."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2428,6 +2714,10 @@
   "answer": "Vaporization",
   "hint": "Vaporization needs far more heat per mole than melting because the molecules separate completely. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Match ΔH to fusion or vaporization.",
   "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">73.1 g × 1 mol/18.02 g = 4.06 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">165.1 kJ/4.06 mol = 40.7 kJ/mol.</div></li><li><b>Name the phase change:</b> 40.7 kJ/mol matches the heat of vaporization (40.70 kJ/mol), so the water is vaporizing.</li></ol>",
+  "why": [
+   "Melting water takes about 6.02 kJ/mol. Your heat per mole is much larger, which matches vaporization (about 40.7 kJ/mol).",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2545,6 +2835,10 @@
   "answer": "Melting (fusion)",
   "hint": "Vaporization needs far more heat per mole than melting because the molecules separate completely. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Match ΔH to fusion or vaporization.",
   "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">81.6 g × 1 mol/18.02 g = 4.53 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">27.26 kJ/4.53 mol = 6.02 kJ/mol.</div></li><li><b>Name the phase change:</b> 6.02 kJ/mol matches the heat of fusion (6.02 kJ/mol), so the water is melting.</li></ol>",
+  "why": [
+   "Vaporizing water takes about 40.7 kJ/mol. Your heat per mole is much smaller, which matches melting (about 6.02 kJ/mol).",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2662,6 +2956,10 @@
   "answer": "Vaporization",
   "hint": "Vaporization needs far more heat per mole than melting because the molecules separate completely. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Match ΔH to fusion or vaporization.",
   "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">84.6 g × 1 mol/18.02 g = 4.69 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">191.1 kJ/4.69 mol = 40.7 kJ/mol.</div></li><li><b>Name the phase change:</b> 40.7 kJ/mol matches the heat of vaporization (40.70 kJ/mol), so the water is vaporizing.</li></ol>",
+  "why": [
+   "",
+   "Melting water takes about 6.02 kJ/mol. Your heat per mole is much larger, which matches vaporization (about 40.7 kJ/mol)."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2734,6 +3032,11 @@
   "answer": "Metal → water",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> Heat transfers from the warmer metal to the cooler water until thermal equilibrium. Total energy is conserved.</li></ol>",
+  "why": [
+   "Heat flows from the hotter object to the colder one. Compare the two starting temperatures.",
+   "",
+   "Objects at different temperatures always exchange heat until they reach the same temperature."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2783,6 +3086,11 @@
   "answer": "38.8 g sample",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> For equal q and c, ΔT is inversely proportional to mass. The smaller sample warms more.</li></ol>",
+  "why": [
+   "ΔT = q ÷ (m × c). With a different mass or specific heat, the same heat gives a different ΔT.",
+   "ΔT = q ÷ (m × c). The bigger sample spreads the same heat over more mass, so it warms less.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2809,6 +3117,11 @@
   "answer": "Copper",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> For equal q and mass, ΔT = q/(mc). The smaller specific heat gives the larger temperature increase.</li></ol>",
+  "why": [
+   "ΔT = q ÷ (m × c). With a different mass or specific heat, the same heat gives a different ΔT.",
+   "Water has the largest specific heat (4.184 J/(g·°C)), so the same heat raises its temperature the least.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2835,6 +3148,11 @@
   "answer": "234 g sample",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> With equal c and ΔT, the larger mass has a larger |q|. Equal temperature does not mean equal total thermal energy.</li></ol>",
+  "why": [
+   "q = m × c × ΔT. With a different mass or specific heat, the heat is different.",
+   "",
+   "q = m × c × ΔT. With the same c and ΔT, the smaller mass has less heat to give or take."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2861,6 +3179,11 @@
   "answer": "Water",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> For equal mass and ΔT, q is proportional to c. Water’s larger c requires more heat.</li></ol>",
+  "why": [
+   "q = m × c × ΔT. With a different mass or specific heat, the heat is different.",
+   "",
+   "Aluminum has a much smaller specific heat than water, so it needs less heat for the same ΔT."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2887,6 +3210,11 @@
   "answer": "Metal → water",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> Heat transfers from the warmer metal to the cooler water until thermal equilibrium. Total energy is conserved.</li></ol>",
+  "why": [
+   "Objects at different temperatures always exchange heat until they reach the same temperature.",
+   "Heat flows from the hotter object to the colder one. Compare the two starting temperatures.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2913,6 +3241,11 @@
   "answer": "Water",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> For equal mass and ΔT, q is proportional to c. Water’s larger c requires more heat.</li></ol>",
+  "why": [
+   "",
+   "q = m × c × ΔT. With a different mass or specific heat, the heat is different.",
+   "Copper has a much smaller specific heat than water, so it needs less heat for the same ΔT."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2939,6 +3272,11 @@
   "answer": "61.9 g sample",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> For equal q and c, ΔT is inversely proportional to mass. The smaller sample warms more.</li></ol>",
+  "why": [
+   "",
+   "ΔT = q ÷ (m × c). With a different mass or specific heat, the same heat gives a different ΔT.",
+   "ΔT = q ÷ (m × c). The bigger sample spreads the same heat over more mass, so it warms less."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2988,6 +3326,11 @@
   "answer": "102 g sample",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> With equal c and ΔT, the larger mass has a larger |q|. Equal temperature does not mean equal total thermal energy.</li></ol>",
+  "why": [
+   "q = m × c × ΔT. With a different mass or specific heat, the heat is different.",
+   "q = m × c × ΔT. With the same c and ΔT, the smaller mass has less heat to give or take.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -3014,6 +3357,11 @@
   "answer": "Iron",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> For equal q and mass, ΔT = q/(mc). The smaller specific heat gives the larger temperature increase.</li></ol>",
+  "why": [
+   "",
+   "ΔT = q ÷ (m × c). With a different mass or specific heat, the same heat gives a different ΔT.",
+   "Water has the largest specific heat (4.184 J/(g·°C)), so the same heat raises its temperature the least."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -3040,6 +3388,11 @@
   "answer": "Water",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> For equal mass and ΔT, q is proportional to c. Water’s larger c requires more heat.</li></ol>",
+  "why": [
+   "Copper has a much smaller specific heat than water, so it needs less heat for the same ΔT.",
+   "q = m × c × ΔT. With a different mass or specific heat, the heat is different.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -3066,6 +3419,11 @@
   "answer": "Metal → water",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> Heat transfers from the warmer metal to the cooler water until thermal equilibrium. Total energy is conserved.</li></ol>",
+  "why": [
+   "Heat flows from the hotter object to the colder one. Compare the two starting temperatures.",
+   "",
+   "Objects at different temperatures always exchange heat until they reach the same temperature."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -3092,6 +3450,11 @@
   "answer": "144.6 g sample",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> With equal c and ΔT, the larger mass has a larger |q|. Equal temperature does not mean equal total thermal energy.</li></ol>",
+  "why": [
+   "q = m × c × ΔT. With the same c and ΔT, the smaller mass has less heat to give or take.",
+   "",
+   "q = m × c × ΔT. With a different mass or specific heat, the heat is different."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -3118,6 +3481,11 @@
   "answer": "38.9 g sample",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> For equal q and c, ΔT is inversely proportional to mass. The smaller sample warms more.</li></ol>",
+  "why": [
+   "ΔT = q ÷ (m × c). The bigger sample spreads the same heat over more mass, so it warms less.",
+   "",
+   "ΔT = q ÷ (m × c). With a different mass or specific heat, the same heat gives a different ΔT."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -3167,6 +3535,11 @@
   "answer": "Copper",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> For equal q and mass, ΔT = q/(mc). The smaller specific heat gives the larger temperature increase.</li></ol>",
+  "why": [
+   "Water has the largest specific heat (4.184 J/(g·°C)), so the same heat raises its temperature the least.",
+   "",
+   "ΔT = q ÷ (m × c). With a different mass or specific heat, the same heat gives a different ΔT."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -3193,6 +3566,11 @@
   "answer": "189.3 g sample",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> With equal c and ΔT, the larger mass has a larger |q|. Equal temperature does not mean equal total thermal energy.</li></ol>",
+  "why": [
+   "",
+   "q = m × c × ΔT. With a different mass or specific heat, the heat is different.",
+   "q = m × c × ΔT. With the same c and ΔT, the smaller mass has less heat to give or take."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -3219,6 +3597,11 @@
   "answer": "Metal → water",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> Heat transfers from the warmer metal to the cooler water until thermal equilibrium. Total energy is conserved.</li></ol>",
+  "why": [
+   "",
+   "Heat flows from the hotter object to the colder one. Compare the two starting temperatures.",
+   "Objects at different temperatures always exchange heat until they reach the same temperature."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -3245,6 +3628,11 @@
   "answer": "Water",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> For equal mass and ΔT, q is proportional to c. Water’s larger c requires more heat.</li></ol>",
+  "why": [
+   "q = m × c × ΔT. With a different mass or specific heat, the heat is different.",
+   "",
+   "Copper has a much smaller specific heat than water, so it needs less heat for the same ΔT."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -3294,6 +3682,11 @@
   "answer": "Copper",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> For equal q and mass, ΔT = q/(mc). The smaller specific heat gives the larger temperature increase.</li></ol>",
+  "why": [
+   "Water has the largest specific heat (4.184 J/(g·°C)), so the same heat raises its temperature the least.",
+   "ΔT = q ÷ (m × c). With a different mass or specific heat, the same heat gives a different ΔT.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -3320,6 +3713,11 @@
   "answer": "85.6 g sample",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> For equal q and c, ΔT is inversely proportional to mass. The smaller sample warms more.</li></ol>",
+  "why": [
+   "ΔT = q ÷ (m × c). The bigger sample spreads the same heat over more mass, so it warms less.",
+   "ΔT = q ÷ (m × c). With a different mass or specific heat, the same heat gives a different ΔT.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -3346,6 +3744,11 @@
   "answer": "221.4 g sample",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> With equal c and ΔT, the larger mass has a larger |q|. Equal temperature does not mean equal total thermal energy.</li></ol>",
+  "why": [
+   "q = m × c × ΔT. With the same c and ΔT, the smaller mass has less heat to give or take.",
+   "",
+   "q = m × c × ΔT. With a different mass or specific heat, the heat is different."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -3372,6 +3775,11 @@
   "answer": "Aluminum",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> For equal q and mass, ΔT = q/(mc). The smaller specific heat gives the larger temperature increase.</li></ol>",
+  "why": [
+   "ΔT = q ÷ (m × c). With a different mass or specific heat, the same heat gives a different ΔT.",
+   "Water has the largest specific heat (4.184 J/(g·°C)), so the same heat raises its temperature the least.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -3398,6 +3806,11 @@
   "answer": "Metal → water",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> Heat transfers from the warmer metal to the cooler water until thermal equilibrium. Total energy is conserved.</li></ol>",
+  "why": [
+   "Heat flows from the hotter object to the colder one. Compare the two starting temperatures.",
+   "Objects at different temperatures always exchange heat until they reach the same temperature.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -3424,6 +3837,11 @@
   "answer": "64.5 g sample",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> For equal q and c, ΔT is inversely proportional to mass. The smaller sample warms more.</li></ol>",
+  "why": [
+   "",
+   "ΔT = q ÷ (m × c). The bigger sample spreads the same heat over more mass, so it warms less.",
+   "ΔT = q ÷ (m × c). With a different mass or specific heat, the same heat gives a different ΔT."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -3473,6 +3891,11 @@
   "answer": "Water",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> For equal mass and ΔT, q is proportional to c. Water’s larger c requires more heat.</li></ol>",
+  "why": [
+   "",
+   "Aluminum has a much smaller specific heat than water, so it needs less heat for the same ΔT.",
+   "q = m × c × ΔT. With a different mass or specific heat, the heat is different."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4329,6 +4752,11 @@
   "answer": "Metal → water",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> Heat transfers from the warmer metal to the cooler water until thermal equilibrium. Total energy is conserved.</li></ol>",
+  "why": [
+   "Objects at different temperatures always exchange heat until they reach the same temperature.",
+   "",
+   "Heat flows from the hotter object to the colder one. Compare the two starting temperatures."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4355,6 +4783,10 @@
   "answer": "Exothermic",
   "hint": "Energy as a reactant is taken in; energy as a product is given off. Plan: Locate the energy term → Reactant → absorbed; product → released → Classify the reaction and sign of q.",
   "explain": "<ol><li><b>Classify the reaction:</b> Energy is on the product side. The system releases heat, so the reaction is exothermic.</li><li><b>Follow the heat:</b> Exothermic: q < 0. Heat flows from system to surroundings. For this sample, q = −1.20 × 10⁵ J.</li></ol>",
+  "why": [
+   "",
+   "Endothermic means heat is absorbed: energy appears on the reactant side. Classify the reaction: Energy is on the product side. The system releases heat, so the reaction is exothermic. Follow the heat: Exothermic: q"
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4381,6 +4813,10 @@
   "answer": "Releases heat to the surroundings",
   "hint": "The positive number displayed in the equation is a magnitude. The sign of system q comes from its location in the equation. Plan: Locate the energy term → Reactant → absorbed; product → released → Classify the reaction and sign of q.",
   "explain": "<ol><li><b>Classify the reaction:</b> Energy is on the product side. The system releases heat, so the reaction is exothermic.</li><li><b>Follow the heat:</b> Exothermic: q < 0. Heat flows from system to surroundings. For this sample, q = −1.20 × 10⁵ J.</li></ol>",
+  "why": [
+   "",
+   "Absorbing heat means energy is a reactant (endothermic). Classify the reaction: Energy is on the product side. The system releases heat, so the reaction is exothermic. Follow the heat: Exothermic: q"
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4407,6 +4843,10 @@
   "answer": "Negative",
   "hint": "The positive number displayed in the equation is a magnitude. The sign of system q comes from its location in the equation. Plan: Locate the energy term → Reactant → absorbed; product → released → Classify the reaction and sign of q.",
   "explain": "<ol><li><b>Classify the reaction:</b> Energy is on the product side. The system releases heat, so the reaction is exothermic.</li><li><b>Follow the heat:</b> Exothermic: q < 0. Heat flows from system to surroundings. For this sample, q = −1.20 × 10⁵ J.</li></ol>",
+  "why": [
+   "",
+   "q is positive only when heat flows into the system (endothermic). Classify the reaction: Energy is on the product side. The system releases heat, so the reaction is exothermic. Follow the heat: Exothermic: q"
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4506,6 +4946,11 @@
   "answer": "115.5 g sample",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> With equal c and ΔT, the larger mass has a larger |q|. Equal temperature does not mean equal total thermal energy.</li></ol>",
+  "why": [
+   "q = m × c × ΔT. With the same c and ΔT, the smaller mass has less heat to give or take.",
+   "",
+   "q = m × c × ΔT. With a different mass or specific heat, the heat is different."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4536,6 +4981,14 @@
   "answer": "Melting",
   "hint": "Use the starting phase and ending phase; do not reverse the arrow. Plan: Solid → Liquid → Name the transition → Determine heat direction.",
   "explain": "<ol><li><b>Identify the change:</b> Solid → Liquid is melting.</li><li><b>Follow the energy:</b> Melting is endothermic: heat enters the sample, so q > 0.</li></ol>",
+  "why": [
+   "",
+   "Deposition is gas → solid.",
+   "Condensation is gas → liquid.",
+   "Freezing is liquid → solid.",
+   "Vaporization is liquid → gas.",
+   "Sublimation is solid → gas."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4562,6 +5015,10 @@
   "answer": "Absorbed",
   "hint": "Melting, vaporization, and sublimation absorb heat. Their reverse processes release heat. Plan: Solid → Liquid → Name the transition → Determine heat direction.",
   "explain": "<ol><li><b>Identify the change:</b> Solid → Liquid is melting.</li><li><b>Follow the energy:</b> Melting is endothermic: heat enters the sample, so q > 0.</li></ol>",
+  "why": [
+   "Melting, vaporization and sublimation absorb heat (endothermic). Freezing, condensation and deposition release heat (exothermic).",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4588,6 +5045,10 @@
   "answer": "Positive",
   "hint": "Melting, vaporization, and sublimation absorb heat. Their reverse processes release heat. Plan: Solid → Liquid → Name the transition → Determine heat direction.",
   "explain": "<ol><li><b>Identify the change:</b> Solid → Liquid is melting.</li><li><b>Follow the energy:</b> Melting is endothermic: heat enters the sample, so q > 0.</li></ol>",
+  "why": [
+   "q is negative only when heat flows out of the system (exothermic). Identify the change: Solid → Liquid is melting. Follow the energy: Melting is endothermic: heat enters the sample, so q > 0.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4619,6 +5080,15 @@
   "answer": "Iron",
   "hint": "Use the calculated c, not the mass, to identify the sample. Plan: Find ΔT → Calculate c = q/(mΔT) → Compare with the supplied chart.",
   "explain": "<ol><li><b>Temperature change:</b> <div class=\"math\">61 − 16.9 = 44.1 °C</div></li><li><b>Calculate specific heat:</b> <div class=\"math\">398 / (20.1 × 44.1) = 0.449 J/(g·°C)</div></li><li><b>Identify the sample:</b> The chart value 0.449 J/(g·°C) matches iron.</li></ol>",
+  "why": [
+   "Silver has c = 0.235 J/(g·°C). Your calculated c is 0.449 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Copper has c = 0.385 J/(g·°C). Your calculated c is 0.449 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "",
+   "Bismuth has c = 0.122 J/(g·°C). Your calculated c is 0.449 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Aluminum has c = 0.903 J/(g·°C). Your calculated c is 0.449 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Diamond has c = 0.509 J/(g·°C). Your calculated c is 0.449 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Water has c = 4.184 J/(g·°C). Your calculated c is 0.449 J/(g·°C): use c = q ÷ (m × ΔT)."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4649,6 +5119,14 @@
   "answer": "Vaporization",
   "hint": "Use the starting phase and ending phase; do not reverse the arrow. Plan: Liquid → Gas → Name the transition → Determine heat direction.",
   "explain": "<ol><li><b>Identify the change:</b> Liquid → Gas is vaporization.</li><li><b>Follow the energy:</b> Vaporization is endothermic: heat enters the sample, so q > 0.</li></ol>",
+  "why": [
+   "",
+   "Deposition is gas → solid.",
+   "Sublimation is solid → gas.",
+   "Freezing is liquid → solid.",
+   "Condensation is gas → liquid.",
+   "Melting is solid → liquid."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4675,6 +5153,10 @@
   "answer": "Absorbed",
   "hint": "Melting, vaporization, and sublimation absorb heat. Their reverse processes release heat. Plan: Liquid → Gas → Name the transition → Determine heat direction.",
   "explain": "<ol><li><b>Identify the change:</b> Liquid → Gas is vaporization.</li><li><b>Follow the energy:</b> Vaporization is endothermic: heat enters the sample, so q > 0.</li></ol>",
+  "why": [
+   "",
+   "Melting, vaporization and sublimation absorb heat (endothermic). Freezing, condensation and deposition release heat (exothermic)."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4701,6 +5183,10 @@
   "answer": "Positive",
   "hint": "Melting, vaporization, and sublimation absorb heat. Their reverse processes release heat. Plan: Liquid → Gas → Name the transition → Determine heat direction.",
   "explain": "<ol><li><b>Identify the change:</b> Liquid → Gas is vaporization.</li><li><b>Follow the energy:</b> Vaporization is endothermic: heat enters the sample, so q > 0.</li></ol>",
+  "why": [
+   "",
+   "q is negative only when heat flows out of the system (exothermic). Identify the change: Liquid → Gas is vaporization. Follow the energy: Vaporization is endothermic: heat enters the sample, so q > 0."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4728,6 +5214,11 @@
   "answer": "80.2 g sample",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> For equal q and c, ΔT is inversely proportional to mass. The smaller sample warms more.</li></ol>",
+  "why": [
+   "ΔT = q ÷ (m × c). The bigger sample spreads the same heat over more mass, so it warms less.",
+   "",
+   "ΔT = q ÷ (m × c). With a different mass or specific heat, the same heat gives a different ΔT."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4754,6 +5245,10 @@
   "answer": "Vaporization",
   "hint": "Vaporization needs far more heat per mole than melting because the molecules separate completely. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Match ΔH to fusion or vaporization.",
   "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">35.6 g × 1 mol/18.02 g = 1.98 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">80.41 kJ/1.98 mol = 40.7 kJ/mol.</div></li><li><b>Name the phase change:</b> 40.7 kJ/mol matches the heat of vaporization (40.70 kJ/mol), so the water is vaporizing.</li></ol>",
+  "why": [
+   "Melting water takes about 6.02 kJ/mol. Your heat per mole is much larger, which matches vaporization (about 40.7 kJ/mol).",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4781,6 +5276,11 @@
   "answer": "Water",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> For equal mass and ΔT, q is proportional to c. Water’s larger c requires more heat.</li></ol>",
+  "why": [
+   "Iron has a much smaller specific heat than water, so it needs less heat for the same ΔT.",
+   "",
+   "q = m × c × ΔT. With a different mass or specific heat, the heat is different."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4855,6 +5355,10 @@
   "answer": "Temperature change",
   "hint": "Look for a horizontal segment versus a sloped segment.",
   "explain": "<ol><li><b>Slope or plateau?:</b> A slope changes temperature within one phase. Use q = mcΔT.</li><li><b>Interpret the segment:</b> The sample warms in one phase. Average particle kinetic energy increases.</li></ol>",
+  "why": [
+   "",
+   "A phase change is a flat plateau (constant temperature). A sloped segment means the temperature is changing."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4881,6 +5385,10 @@
   "answer": "q = mcΔT",
   "hint": "Look for a horizontal segment versus a sloped segment.",
   "explain": "<ol><li><b>Slope or plateau?:</b> A slope changes temperature within one phase. Use q = mcΔT.</li><li><b>Interpret the segment:</b> The sample warms in one phase. Average particle kinetic energy increases.</li></ol>",
+  "why": [
+   "q = nΔH is for a phase change, a flat plateau at constant temperature. This segment slopes, so the temperature is changing: q = mcΔT.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4908,6 +5416,11 @@
   "answer": "Increases",
   "hint": "On a cooling curve the high-temperature plateau is condensation, and the low-temperature plateau is freezing.",
   "explain": "<ol><li><b>Slope or plateau?:</b> A slope changes temperature within one phase. Use q = mcΔT.</li><li><b>Interpret the segment:</b> The sample warms in one phase. Average particle kinetic energy increases.</li></ol>",
+  "why": [
+   "Heat is being added, so the temperature can’t fall. Slope or plateau?: A slope changes temperature within one phase. Use q = mcΔT. Interpret the segment: The sample warms in one phase. Average particle kinetic energy increases.",
+   "",
+   "Temperature stays constant only on a flat plateau (a phase change). This segment slopes."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4935,6 +5448,11 @@
   "answer": "Copper",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> For equal q and mass, ΔT = q/(mc). The smaller specific heat gives the larger temperature increase.</li></ol>",
+  "why": [
+   "",
+   "Water has the largest specific heat (4.184 J/(g·°C)), so the same heat raises its temperature the least.",
+   "ΔT = q ÷ (m × c). With a different mass or specific heat, the same heat gives a different ΔT."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -5062,6 +5580,15 @@
   "answer": "Water",
   "hint": "Use the calculated c, not the mass, to identify the sample. Plan: Find ΔT → Calculate c = q/(mΔT) → Compare with the supplied chart.",
   "explain": "<ol><li><b>Temperature change:</b> <div class=\"math\">68.3 − 17.5 = 50.8 °C</div></li><li><b>Calculate specific heat:</b> <div class=\"math\">1.68 × 10⁴ / (79.1 × 50.8) = 4.184 J/(g·°C)</div></li><li><b>Identify the sample:</b> The chart value 4.184 J/(g·°C) matches water.</li></ol>",
+  "why": [
+   "Bismuth has c = 0.122 J/(g·°C). Your calculated c is 4.184 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "",
+   "Iron has c = 0.449 J/(g·°C). Your calculated c is 4.184 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Copper has c = 0.385 J/(g·°C). Your calculated c is 4.184 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Aluminum has c = 0.903 J/(g·°C). Your calculated c is 4.184 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Diamond has c = 0.509 J/(g·°C). Your calculated c is 4.184 J/(g·°C): use c = q ÷ (m × ΔT).",
+   "Silver has c = 0.235 J/(g·°C). Your calculated c is 4.184 J/(g·°C): use c = q ÷ (m × ΔT)."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -5088,6 +5615,10 @@
   "answer": "Endothermic",
   "hint": "Energy as a reactant is taken in; energy as a product is given off. Plan: Locate the energy term → Reactant → absorbed; product → released → Classify the reaction and sign of q.",
   "explain": "<ol><li><b>Classify the reaction:</b> Energy is on the reactant side. The system absorbs heat, so the reaction is endothermic.</li><li><b>Follow the heat:</b> Endothermic: q > 0. Heat flows from surroundings to system.</li></ol>",
+  "why": [
+   "",
+   "Exothermic means heat is released: energy appears on the product side. Classify the reaction: Energy is on the reactant side. The system absorbs heat, so the reaction is endothermic. Follow the heat: Endothermic: q > 0. Heat flows from surroundings to system."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -5114,6 +5645,10 @@
   "answer": "Absorbs heat from the surroundings",
   "hint": "The positive number displayed in the equation is a magnitude. The sign of system q comes from its location in the equation. Plan: Locate the energy term → Reactant → absorbed; product → released → Classify the reaction and sign of q.",
   "explain": "<ol><li><b>Classify the reaction:</b> Energy is on the reactant side. The system absorbs heat, so the reaction is endothermic.</li><li><b>Follow the heat:</b> Endothermic: q > 0. Heat flows from surroundings to system.</li></ol>",
+  "why": [
+   "Releasing heat means energy is a product (exothermic). Classify the reaction: Energy is on the reactant side. The system absorbs heat, so the reaction is endothermic. Follow the heat: Endothermic: q > 0. Heat flows from surroundings to system.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -5140,6 +5675,10 @@
   "answer": "Positive",
   "hint": "The positive number displayed in the equation is a magnitude. The sign of system q comes from its location in the equation. Plan: Locate the energy term → Reactant → absorbed; product → released → Classify the reaction and sign of q.",
   "explain": "<ol><li><b>Classify the reaction:</b> Energy is on the reactant side. The system absorbs heat, so the reaction is endothermic.</li><li><b>Follow the heat:</b> Endothermic: q > 0. Heat flows from surroundings to system.</li></ol>",
+  "why": [
+   "q is negative only when heat flows out of the system (exothermic). Classify the reaction: Energy is on the reactant side. The system absorbs heat, so the reaction is endothermic. Follow the heat: Endothermic: q > 0. Heat flows from surroundings to system.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -5191,6 +5730,11 @@
   "answer": "Metal → water",
   "hint": "Compare mass and specific heat in q = mcΔT. For heat direction, compare initial temperatures.",
   "explain": "<ol><li><b>Make a prediction:</b> Heat transfers from the warmer metal to the cooler water until thermal equilibrium. Total energy is conserved.</li></ol>",
+  "why": [
+   "",
+   "Heat flows from the hotter object to the colder one. Compare the two starting temperatures.",
+   "Objects at different temperatures always exchange heat until they reach the same temperature."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -5263,6 +5807,11 @@
   "answer": "qv = ΔU",
   "hint": "Rigid volume means no expansion work. Plan: Check ΔV → Apply ΔU = q + w.",
   "explain": "<ol><li><b>Interpret the conditions:</b> At fixed volume, ΔV = 0 and w = 0, so qv = ΔU. ΔH and ΔU can differ for reactions involving gases.</li></ol>",
+  "why": [
+   "q = ΔH only at constant pressure. In a rigid bomb the volume is constant.",
+   "Heat still flows in a bomb calorimeter. It is the work that is zero, since ΔV = 0.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -5289,6 +5838,11 @@
   "answer": "Zero",
   "hint": "Rigid volume means no expansion work. Plan: Check ΔV → Apply ΔU = q + w.",
   "explain": "<ol><li><b>Interpret the conditions:</b> At fixed volume, ΔV = 0 and w = 0, so qv = ΔU. ΔH and ΔU can differ for reactions involving gases.</li></ol>",
+  "why": [
+   "",
+   "Pressure–volume work needs a volume change (w = −PΔV). In a rigid bomb ΔV = 0, so w = 0.",
+   "Pressure–volume work needs a volume change (w = −PΔV). In a rigid bomb ΔV = 0, so w = 0."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -8812,6 +9366,10 @@
   "answer": "Released (exothermic)",
   "hint": "Negative ΔH means exothermic. Plan: ΔH ÷ coefficient → Multiply by moles reacting → Keep the sign.",
   "explain": "<ol><li><b>Heat per mole of reactant:</b> <div class=\"math\">-566 kJ ÷ 2 mol × 0.49 mol = -139 kJ</div></li><li><b>Sign check:</b> ΔH < 0, so heat is released.</li></ol>",
+  "why": [
+   "A negative ΔH means heat is released, not absorbed. Heat per mole of reactant: -566 kJ ÷ 2 mol × 0.49 mol = -139 kJ Sign check: ΔH",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -9030,6 +9588,10 @@
   "answer": "Absorbed (endothermic)",
   "hint": "Negative ΔH means exothermic. Plan: ΔH ÷ coefficient → Multiply by moles reacting → Keep the sign.",
   "explain": "<ol><li><b>Heat per mole of reactant:</b> <div class=\"math\">55.3 kJ ÷ 1 mol × 0.14 mol = 7.74 kJ</div></li><li><b>Sign check:</b> ΔH > 0, so heat is absorbed.</li></ol>",
+  "why": [
+   "",
+   "A positive ΔH means heat is absorbed, not released. Heat per mole of reactant: 55.3 kJ ÷ 1 mol × 0.14 mol = 7.74 kJ Sign check: ΔH > 0, so heat is absorbed."
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -9128,6 +9690,10 @@
   "answer": "Released (exothermic)",
   "hint": "Negative ΔH means exothermic. Plan: ΔH ÷ coefficient → Multiply by moles reacting → Keep the sign.",
   "explain": "<ol><li><b>Heat per mole of reactant:</b> <div class=\"math\">-1450 kJ ÷ 2 mol × 0.64 mol = -465 kJ</div></li><li><b>Sign check:</b> ΔH < 0, so heat is released.</li></ol>",
+  "why": [
+   "A negative ΔH means heat is released, not absorbed. Heat per mole of reactant: -1450 kJ ÷ 2 mol × 0.64 mol = -465 kJ Sign check: ΔH",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -9226,6 +9792,10 @@
   "answer": "Released (exothermic)",
   "hint": "Negative ΔH means exothermic. Plan: ΔH ÷ coefficient → Multiply by moles reacting → Keep the sign.",
   "explain": "<ol><li><b>Heat per mole of reactant:</b> <div class=\"math\">-1370 kJ ÷ 1 mol × 0.21 mol = -287 kJ</div></li><li><b>Sign check:</b> ΔH < 0, so heat is released.</li></ol>",
+  "why": [
+   "",
+   "A negative ΔH means heat is released, not absorbed. Heat per mole of reactant: -1370 kJ ÷ 1 mol × 0.21 mol = -287 kJ Sign check: ΔH"
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -9372,6 +9942,10 @@
   "answer": "Released (exothermic)",
   "hint": "Negative ΔH means exothermic. Plan: ΔH ÷ coefficient → Multiply by moles reacting → Keep the sign.",
   "explain": "<ol><li><b>Heat per mole of reactant:</b> <div class=\"math\">-2040 kJ ÷ 1 mol × 0.63 mol = -1290 kJ</div></li><li><b>Sign check:</b> ΔH < 0, so heat is released.</li></ol>",
+  "why": [
+   "A negative ΔH means heat is released, not absorbed. Heat per mole of reactant: -2040 kJ ÷ 1 mol × 0.63 mol = -1290 kJ Sign check: ΔH",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -9566,6 +10140,10 @@
   "answer": "Absorbed (endothermic)",
   "hint": "Negative ΔH means exothermic. Plan: ΔH ÷ coefficient → Multiply by moles reacting → Keep the sign.",
   "explain": "<ol><li><b>Heat per mole of reactant:</b> <div class=\"math\">192 kJ ÷ 1 mol × 0.78 mol = 149 kJ</div></li><li><b>Sign check:</b> ΔH > 0, so heat is absorbed.</li></ol>",
+  "why": [
+   "A positive ΔH means heat is absorbed, not released. Heat per mole of reactant: 192 kJ ÷ 1 mol × 0.78 mol = 149 kJ Sign check: ΔH > 0, so heat is absorbed.",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -9664,6 +10242,10 @@
   "answer": "Released (exothermic)",
   "hint": "Negative ΔH means exothermic. Plan: ΔH ÷ coefficient → Multiply by moles reacting → Keep the sign.",
   "explain": "<ol><li><b>Heat per mole of reactant:</b> <div class=\"math\">-114 kJ ÷ 2 mol × 0.81 mol = -46.2 kJ</div></li><li><b>Sign check:</b> ΔH < 0, so heat is released.</li></ol>",
+  "why": [
+   "A negative ΔH means heat is released, not absorbed. Heat per mole of reactant: -114 kJ ÷ 2 mol × 0.81 mol = -46.2 kJ Sign check: ΔH",
+   ""
+  ],
   "origin": "original",
   "from": {
    "game": "thermochemistry",

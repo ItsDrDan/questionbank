@@ -33,6 +33,7 @@ function loadQB() {
   return ctx.window.QB;
 }
 
+const thermoWhy = require('../whys/thermo');
 module.exports = async (page, ctx) => {
   const QB = loadQB();
   // The game draws randomness from crypto.getRandomValues (not Math.random). Route it through the seeded
@@ -109,6 +110,7 @@ module.exports = async (page, ctx) => {
       else { item.answer = r.answer; if (r.unit) item.unit = r.unit; item.tolerance = 0.005; } // game accepts ±0.5% when sig figs are not graded
       if (r.hint) item.hint = clean(r.hint);
       item.explain = clean(r.explain);
+      if (item.type === 'mc') { const w = thermoWhy(item); if (w && w.some(Boolean)) item.why = w; }
       item.origin = m.origin || 'original';
       const dk = item.skill + '|' + item.prompt + '|' + JSON.stringify(item.answer);
       if (seen.has(dk)) continue; seen.add(dk);

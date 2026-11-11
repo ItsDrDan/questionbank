@@ -746,7 +746,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 30
-  }
+  },
+  "why": [
+   "",
+   "Longer wavelength means lower energy (E = hc/λ). 400 nm is the shortest wavelength here.",
+   "Longer wavelength means lower energy (E = hc/λ). 400 nm is the shortest wavelength here.",
+   "Longer wavelength means lower energy (E = hc/λ). 400 nm is the shortest wavelength here."
+  ]
  },
  {
   "id": "quantumchemistry-cd51137a",
@@ -775,7 +781,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 31
-  }
+  },
+  "why": [
+   "Wavelength and frequency move in opposite directions (c = λν, and c is constant).",
+   "",
+   "C = λν with c constant, so if λ changes, ν must change too.",
+   "Frequency goes the opposite way, and only by the same factor: doubling λ halves ν."
+  ]
  },
  {
   "id": "quantumchemistry-5d3d2b0a",
@@ -802,7 +814,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 32
-  }
+  },
+  "why": [
+   "Each photon’s energy (hν) is still below the threshold. Brighter light means more photons, not more energetic ones.",
+   "",
+   "Photon energy depends only on frequency (E = hν). Intensity changes the number of photons.",
+   "The threshold frequency belongs to the metal. Changing the light doesn’t change it."
+  ]
  },
  {
   "id": "quantumchemistry-3c253880",
@@ -831,7 +849,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 33
-  }
+  },
+  "why": [
+   "A continuous spectrum comes from a hot solid. Atoms emit only certain wavelengths.",
+   "",
+   "That is an absorption spectrum (dark lines). A bright-line spectrum shows emitted light.",
+   "Spectra show photon energies, not electron paths; electrons don’t follow traceable paths."
+  ]
  },
  {
   "id": "quantumchemistry-406b7c1a",
@@ -858,7 +882,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 34
-  }
+  },
+  "why": [
+   "Mass is a particle property; it says nothing about interference.",
+   "",
+   "The photoelectric effect shows light acting as particles (photons), not as waves.",
+   "Line spectra show quantized energy levels, not interference."
+  ]
  },
  {
   "id": "quantumchemistry-eae2532b",
@@ -1415,7 +1445,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 59
-  }
+  },
+  "why": [
+   "That goes up to a higher n, which absorbs energy. Emission is a downward transition (higher n → lower n).",
+   "",
+   "That goes up to a higher n, which absorbs energy. Emission is a downward transition (higher n → lower n).",
+   "That goes up to a higher n, which absorbs energy. Emission is a downward transition (higher n → lower n)."
+  ]
  },
  {
   "id": "quantumchemistry-53d61b23",
@@ -1442,7 +1478,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 60
-  }
+  },
+  "why": [
+   "That is exactly what the uncertainty principle rules out.",
+   "",
+   "That is the Bohr model. The uncertainty principle says such exact paths can’t be known.",
+   "The limit is built into nature, not a flaw in our instruments."
+  ]
  },
  {
   "id": "quantumchemistry-762e56d7",
@@ -1469,7 +1511,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 61
-  }
+  },
+  "why": [
+   "Quantum mechanics gives probabilities, not exact paths.",
+   "",
+   "Fixed orbits are the Bohr model. |ψ|² gives where the electron is likely to be.",
+   "Charge comes from protons and electrons. |ψ|² is a probability density."
+  ]
  },
  {
   "id": "quantumchemistry-05f0b0a3",
@@ -2406,7 +2454,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 100
-  }
+  },
+  "why": [
+   "",
+   "Every rule is met: ℓ is 0 to n − 1, mℓ is −ℓ to +ℓ, and ms is ±½. Allowed: ℓ = 0 is less than n = 1, m ℓ = 0 is within ±0, and m s = +½."
+  ]
  },
  {
   "id": "quantumchemistry-1cbd5d5f",
@@ -2431,7 +2483,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 101
-  }
+  },
+  "why": [
+   "Check each rule: ℓ goes from 0 to n − 1, mℓ from −ℓ to +ℓ, and ms is +½ or −½. Not allowed: ℓ must be 0 when n = 1.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-7543b7e9",
@@ -2456,7 +2512,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 102
-  }
+  },
+  "why": [
+   "",
+   "Every rule is met: ℓ is 0 to n − 1, mℓ is −ℓ to +ℓ, and ms is ±½. Allowed: ℓ = 1 is less than n = 2, m ℓ = -1 is within ±1, and m s = −½."
+  ]
  },
  {
   "id": "quantumchemistry-b8d93885",
@@ -2481,7 +2541,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 103
-  }
+  },
+  "why": [
+   "Check each rule: ℓ goes from 0 to n − 1, mℓ from −ℓ to +ℓ, and ms is +½ or −½. Not allowed: m ℓ = 2 is outside −1 to +1.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-146b0796",
@@ -2506,7 +2570,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 104
-  }
+  },
+  "why": [
+   "",
+   "Every rule is met: ℓ is 0 to n − 1, mℓ is −ℓ to +ℓ, and ms is ±½. Allowed: ℓ = 2 is less than n = 3, m ℓ = -2 is within ±2, and m s = −½."
+  ]
  },
  {
   "id": "quantumchemistry-68dfdbec",
@@ -2531,7 +2599,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 105
-  }
+  },
+  "why": [
+   "Check each rule: ℓ goes from 0 to n − 1, mℓ from −ℓ to +ℓ, and ms is +½ or −½. Not allowed: ℓ = 3 is too large; ℓ can only be 0 to 2 when n = 3.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-5a7e2974",
@@ -2556,7 +2628,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 106
-  }
+  },
+  "why": [
+   "",
+   "Every rule is met: ℓ is 0 to n − 1, mℓ is −ℓ to +ℓ, and ms is ±½. Allowed: ℓ = 2 is less than n = 4, m ℓ = 1 is within ±2, and m s = +½."
+  ]
  },
  {
   "id": "quantumchemistry-41860903",
@@ -2581,7 +2657,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 107
-  }
+  },
+  "why": [
+   "Check each rule: ℓ goes from 0 to n − 1, mℓ from −ℓ to +ℓ, and ms is +½ or −½. Not allowed: m s must be +½ or −½, not 0.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-bd327062",
@@ -2606,7 +2686,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 108
-  }
+  },
+  "why": [
+   "Check each rule: ℓ goes from 0 to n − 1, mℓ from −ℓ to +ℓ, and ms is +½ or −½. Not allowed: m ℓ = -1 is outside −0 to +0.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-fbe9e6f2",
@@ -2631,7 +2715,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 109
-  }
+  },
+  "why": [
+   "",
+   "Every rule is met: ℓ is 0 to n − 1, mℓ is −ℓ to +ℓ, and ms is ±½. Allowed: ℓ = 3 is less than n = 4, m ℓ = -3 is within ±3, and m s = −½."
+  ]
  },
  {
   "id": "quantumchemistry-0cbb066b",
@@ -2659,7 +2747,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 110
-  }
+  },
+  "why": [
+   "",
+   "That configuration has 3 electrons; neutral He has 2.",
+   "That configuration has 1 electron; neutral He has 2."
+  ]
  },
  {
   "id": "quantumchemistry-943a010e",
@@ -2688,7 +2781,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 111
-  }
+  },
+  "why": [
+   "",
+   "That configuration has 4 electrons; neutral Li has 3.",
+   "That configuration has 2 electrons; neutral Li has 3.",
+   "That configuration has 1 electron; neutral Li has 3."
+  ]
  },
  {
   "id": "quantumchemistry-1196245d",
@@ -2717,7 +2816,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 112
-  }
+  },
+  "why": [
+   "",
+   "That configuration has 5 electrons; neutral Be has 4.",
+   "That configuration has 3 electrons; neutral Be has 4.",
+   "That configuration has 2 electrons; neutral Be has 4."
+  ]
  },
  {
   "id": "quantumchemistry-95bef934",
@@ -2746,7 +2851,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 113
-  }
+  },
+  "why": [
+   "",
+   "That configuration has 6 electrons; neutral B has 5.",
+   "That configuration has 4 electrons; neutral B has 5.",
+   "That configuration has 3 electrons; neutral B has 5."
+  ]
  },
  {
   "id": "quantumchemistry-07440c13",
@@ -2775,7 +2886,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 114
-  }
+  },
+  "why": [
+   "",
+   "That configuration has 7 electrons; neutral C has 6.",
+   "That configuration has 5 electrons; neutral C has 6.",
+   "That configuration has 4 electrons; neutral C has 6."
+  ]
  },
  {
   "id": "quantumchemistry-1823427f",
@@ -2804,7 +2921,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 115
-  }
+  },
+  "why": [
+   "",
+   "That configuration has 8 electrons; neutral N has 7.",
+   "That configuration has 6 electrons; neutral N has 7.",
+   "That configuration has 5 electrons; neutral N has 7."
+  ]
  },
  {
   "id": "quantumchemistry-db15029d",
@@ -2833,7 +2956,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 116
-  }
+  },
+  "why": [
+   "",
+   "That configuration has 9 electrons; neutral O has 8.",
+   "That configuration has 7 electrons; neutral O has 8.",
+   "That configuration has 6 electrons; neutral O has 8."
+  ]
  },
  {
   "id": "quantumchemistry-eeb2ad8a",
@@ -2862,7 +2991,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 117
-  }
+  },
+  "why": [
+   "",
+   "That configuration has 10 electrons; neutral F has 9.",
+   "That configuration has 8 electrons; neutral F has 9.",
+   "That configuration has 7 electrons; neutral F has 9."
+  ]
  },
  {
   "id": "quantumchemistry-ff4f8752",
@@ -2891,7 +3026,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 118
-  }
+  },
+  "why": [
+   "",
+   "That configuration has 11 electrons; neutral Ne has 10.",
+   "That configuration has 9 electrons; neutral Ne has 10.",
+   "That configuration has 8 electrons; neutral Ne has 10."
+  ]
  },
  {
   "id": "quantumchemistry-168eca30",
@@ -2920,7 +3061,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 119
-  }
+  },
+  "why": [
+   "",
+   "That configuration has 12 electrons; neutral Na has 11.",
+   "That configuration has 10 electrons; neutral Na has 11.",
+   "That configuration has 9 electrons; neutral Na has 11."
+  ]
  },
  {
   "id": "quantumchemistry-1bd93c29",
@@ -2949,7 +3096,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 120
-  }
+  },
+  "why": [
+   "",
+   "That configuration has 13 electrons; neutral Mg has 12.",
+   "That configuration has 11 electrons; neutral Mg has 12.",
+   "That configuration has 10 electrons; neutral Mg has 12."
+  ]
  },
  {
   "id": "quantumchemistry-59802615",
@@ -2978,7 +3131,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 121
-  }
+  },
+  "why": [
+   "",
+   "That configuration has 14 electrons; neutral Al has 13.",
+   "That configuration has 12 electrons; neutral Al has 13.",
+   "That configuration has 11 electrons; neutral Al has 13."
+  ]
  },
  {
   "id": "quantumchemistry-7acc7007",
@@ -3007,7 +3166,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 122
-  }
+  },
+  "why": [
+   "",
+   "That configuration has 15 electrons; neutral Si has 14.",
+   "That configuration has 13 electrons; neutral Si has 14.",
+   "That configuration has 12 electrons; neutral Si has 14."
+  ]
  },
  {
   "id": "quantumchemistry-e16d5cd8",
@@ -3036,7 +3201,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 123
-  }
+  },
+  "why": [
+   "",
+   "That configuration has 16 electrons; neutral P has 15.",
+   "That configuration has 14 electrons; neutral P has 15.",
+   "That configuration has 13 electrons; neutral P has 15."
+  ]
  },
  {
   "id": "quantumchemistry-09617573",
@@ -3065,7 +3236,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 124
-  }
+  },
+  "why": [
+   "",
+   "That configuration has 17 electrons; neutral S has 16.",
+   "That configuration has 15 electrons; neutral S has 16.",
+   "That configuration has 14 electrons; neutral S has 16."
+  ]
  },
  {
   "id": "quantumchemistry-2a4e788c",
@@ -3094,7 +3271,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 125
-  }
+  },
+  "why": [
+   "",
+   "That configuration has 18 electrons; neutral Cl has 17.",
+   "That configuration has 16 electrons; neutral Cl has 17.",
+   "That configuration has 15 electrons; neutral Cl has 17."
+  ]
  },
  {
   "id": "quantumchemistry-f878b03f",
@@ -3123,7 +3306,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 126
-  }
+  },
+  "why": [
+   "",
+   "That configuration has 19 electrons; neutral Ar has 18.",
+   "That configuration has 17 electrons; neutral Ar has 18.",
+   "That configuration has 16 electrons; neutral Ar has 18."
+  ]
  },
  {
   "id": "quantumchemistry-f7bd601f",
@@ -3151,7 +3340,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 127
-  }
+  },
+  "why": [
+   "",
+   "That configuration has 20 electrons; neutral K has 19.",
+   "That configuration has 18 electrons; neutral K has 19."
+  ]
  },
  {
   "id": "quantumchemistry-96a53322",
@@ -3179,7 +3373,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 128
-  }
+  },
+  "why": [
+   "",
+   "That configuration has 19 electrons; neutral Ca has 20.",
+   "That configuration has 18 electrons; neutral Ca has 20."
+  ]
  },
  {
   "id": "quantumchemistry-7e8e8bd7",
@@ -3550,7 +3749,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 137
-  }
+  },
+  "why": [
+   "",
+   "Right electron count, but transition-metal ions lose their 4s electrons first, before any 3d electrons.",
+   "Right electron count, but transition-metal ions lose their 4s electrons first, before any 3d electrons.",
+   "That has 22 electrons; Ti²⁺ has 22 − 2 = 20."
+  ]
  },
  {
   "id": "quantumchemistry-cb1d096e",
@@ -3577,7 +3782,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 138
-  }
+  },
+  "why": [
+   "",
+   "Right electron count, but transition-metal ions lose their 4s electrons first, before any 3d electrons.",
+   "That has 21 electrons; Fe³⁺ has 26 − 3 = 23.",
+   "Right electron count, but transition-metal ions lose their 4s electrons first, before any 3d electrons."
+  ]
  },
  {
   "id": "quantumchemistry-bdad4aec",
@@ -3604,7 +3815,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 139
-  }
+  },
+  "why": [
+   "",
+   "Right electron count, but Cr is an exception: moving one 4s electron into 3d gives a more stable half-filled 3d subshell.",
+   "That configuration has 25 electrons; neutral Cr has 24.",
+   "Right electron count, but neutral atoms fill 4s before 3d."
+  ]
  },
  {
   "id": "quantumchemistry-41452f72",
@@ -3631,7 +3848,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 140
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means all electrons are paired.",
+   "Charge has nothing to do with pairing; ions can have unpaired electrons too.",
+   "Noble gases have all electrons paired, so they are diamagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-afb14975",
@@ -3658,7 +3881,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 141
-  }
+  },
+  "why": [
+   "",
+   "Cl is smaller. Radius decreases across a period (more nuclear charge, same shell) and increases down a group (more shells). Same period: greater effective nuclear attraction generally makes Cl smaller."
+  ]
  },
  {
   "id": "quantumchemistry-e8c7e24b",
@@ -3685,7 +3912,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 142
-  }
+  },
+  "why": [
+   "Li is smaller. Radius decreases across a period (more nuclear charge, same shell) and increases down a group (more shells). A higher principal shell generally gives a larger atom.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-a9f8494b",
@@ -3712,7 +3943,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 143
-  }
+  },
+  "why": [
+   "Mg is smaller. Radius decreases across a period (more nuclear charge, same shell) and increases down a group (more shells). Atomic radius generally increases down a group.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-7c0b46c4",
@@ -3739,7 +3974,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 144
-  }
+  },
+  "why": [
+   "",
+   "O is smaller. Radius decreases across a period (more nuclear charge, same shell) and increases down a group (more shells). Across a period, effective nuclear attraction generally increases."
+  ]
  },
  {
   "id": "quantumchemistry-c8f31fe6",
@@ -3766,7 +4005,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 145
-  }
+  },
+  "why": [
+   "",
+   "S is smaller. Radius decreases across a period (more nuclear charge, same shell) and increases down a group (more shells). Across a period, atomic radius generally decreases."
+  ]
  },
  {
   "id": "quantumchemistry-331fa136",
@@ -3793,7 +4036,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 146
-  }
+  },
+  "why": [
+   "Na holds its outer electron less tightly. First ionization energy generally increases across a period and up a group.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-114324cb",
@@ -3820,7 +4067,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 147
-  }
+  },
+  "why": [
+   "",
+   "Na holds its outer electron less tightly. First ionization energy generally increases across a period and up a group."
+  ]
  },
  {
   "id": "quantumchemistry-59ccea6c",
@@ -3847,7 +4098,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 148
-  }
+  },
+  "why": [
+   "",
+   "Ca holds its outer electron less tightly. First ionization energy generally increases across a period and up a group."
+  ]
  },
  {
   "id": "quantumchemistry-85fef3ab",
@@ -3874,7 +4129,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 149
-  }
+  },
+  "why": [
+   "C holds its outer electron less tightly. First ionization energy generally increases across a period and up a group.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-3992ad74",
@@ -3901,7 +4160,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 150
-  }
+  },
+  "why": [
+   "Al holds its outer electron less tightly. First ionization energy generally increases across a period and up a group.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-3e45f338",
@@ -3928,7 +4191,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 151
-  }
+  },
+  "why": [
+   "",
+   "Losing electrons removes the outer 3s shell, so the cation is smaller.",
+   "Removing an electron changes the size: Na⁺ loses its whole 3s shell.",
+   "The size change comes directly from losing the 3s electron."
+  ]
  },
  {
   "id": "quantumchemistry-709144ac",
@@ -3957,7 +4226,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 152
-  }
+  },
+  "why": [
+   "Adding an electron adds repulsion with the same nuclear charge, so the anion is larger.",
+   "",
+   "Adding an electron increases repulsion, so the ion is larger.",
+   "An ion still has electrons around its nucleus, so its radius isn’t zero."
+  ]
  },
  {
   "id": "quantumchemistry-d770f116",
@@ -3984,7 +4259,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 153
-  }
+  },
+  "why": [
+   "",
+   "That is reversed: s orbitals have density closest to the nucleus.",
+   "Penetration follows ℓ: the lower ℓ, the more penetration (s > p > d > f).",
+   "They are equal only in hydrogen. In multi-electron atoms, lower ℓ penetrates more."
+  ]
  },
  {
   "id": "quantumchemistry-1477e197",
@@ -4011,7 +4292,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 154
-  }
+  },
+  "why": [
+   "",
+   "Al has more protons (13) than Mg (12).",
+   "Mg is slightly larger, which would make it easier to ionize, not harder.",
+   "Al has only one 3p electron (3p¹)."
+  ]
  },
  {
   "id": "quantumchemistry-3213de89",
@@ -4038,7 +4325,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 155
-  }
+  },
+  "why": [
+   "",
+   "O has more electrons (8) than N (7).",
+   "Being larger would make N easier to ionize. The real cause is pairing in O’s 2p.",
+   "O is in group 16, not 18."
+  ]
  },
  {
   "id": "quantumchemistry-67ffd6c2",
@@ -4065,7 +4358,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 156
-  }
+  },
+  "why": [
+   "",
+   "A string with N loops has N − 1 internal nodes (the points that never move between loops). Count the loops.",
+   "A string with N loops has N − 1 internal nodes (the points that never move between loops). Count the loops.",
+   "A string with N loops has N − 1 internal nodes (the points that never move between loops). Count the loops."
+  ]
  },
  {
   "id": "quantumchemistry-187ac48c",
@@ -4092,7 +4391,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 157
-  }
+  },
+  "why": [
+   "",
+   "A string with N loops has N − 1 internal nodes (the points that never move between loops). Count the loops.",
+   "A string with N loops has N − 1 internal nodes (the points that never move between loops). Count the loops.",
+   "A string with N loops has N − 1 internal nodes (the points that never move between loops). Count the loops."
+  ]
  },
  {
   "id": "quantumchemistry-8f8a3c56",
@@ -4119,7 +4424,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 158
-  }
+  },
+  "why": [
+   "",
+   "A string with N loops has N − 1 internal nodes (the points that never move between loops). Count the loops.",
+   "A string with N loops has N − 1 internal nodes (the points that never move between loops). Count the loops.",
+   "A string with N loops has N − 1 internal nodes (the points that never move between loops). Count the loops."
+  ]
  },
  {
   "id": "quantumchemistry-c16c273f",
@@ -4146,7 +4457,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 159
-  }
+  },
+  "why": [
+   "",
+   "A string with N loops has N − 1 internal nodes (the points that never move between loops). Count the loops.",
+   "A string with N loops has N − 1 internal nodes (the points that never move between loops). Count the loops.",
+   "A string with N loops has N − 1 internal nodes (the points that never move between loops). Count the loops."
+  ]
  },
  {
   "id": "quantumchemistry-180af3bf",
@@ -4173,7 +4490,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 160
-  }
+  },
+  "why": [
+   "Intensity goes with amplitude squared, not amplitude: 2² = 4.",
+   "",
+   "A bigger amplitude means more intensity, not less.",
+   "Intensity depends on amplitude, so doubling it changes the intensity."
+  ]
  },
  {
   "id": "quantumchemistry-740574da",
@@ -4200,7 +4523,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 161
-  }
+  },
+  "why": [
+   "",
+   "Destructive interference needs crests lined up with troughs (opposite phase).",
+   "The two waves are drawn with the same wavelength, so they have the same frequency.",
+   "Overlapping waves always add (superpose)."
+  ]
  },
  {
   "id": "quantumchemistry-f27827d5",
@@ -4227,7 +4556,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 162
-  }
+  },
+  "why": [
+   "Constructive interference needs crests lined up with crests (same phase).",
+   "",
+   "The two waves are drawn with the same wavelength, so they have the same frequency.",
+   "Overlapping waves always add (superpose)."
+  ]
  },
  {
   "id": "quantumchemistry-126faa6a",
@@ -4254,7 +4589,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 163
-  }
+  },
+  "why": [
+   "",
+   "The colors show the sign (phase) of ψ, not electric charge.",
+   "Orbitals don’t show paths.",
+   "One orbital belongs to one atom. The colors show the wavefunction’s sign."
+  ]
  },
  {
   "id": "quantumchemistry-d8a49b32",
@@ -4283,7 +4624,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 164
-  }
+  },
+  "why": [
+   "",
+   "That is a Bohr orbit, not a quantum-mechanical orbital.",
+   "Lobes aren’t paths. An orbital is a region of probability.",
+   "An orbital has no hard edge; it is a probability distribution."
+  ]
  },
  {
   "id": "quantumchemistry-eaf88bac",
@@ -7404,7 +7751,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 305
-  }
+  },
+  "why": [
+   "",
+   "2d doesn’t exist: ℓ can be at most n − 1, so the 2 shell has no d subshell.",
+   "The number in front is n. Here n = 2.",
+   "3f doesn’t exist: ℓ can be at most n − 1, so the 3 shell has no f subshell."
+  ]
  },
  {
   "id": "quantumchemistry-e4acfb7f",
@@ -7431,7 +7784,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 306
-  }
+  },
+  "why": [
+   "",
+   "3f doesn’t exist: ℓ can be at most n − 1, so the 3 shell has no f subshell.",
+   "The number in front is n. Here n = 3.",
+   "The number in front is n. Here n = 3."
+  ]
  },
  {
   "id": "quantumchemistry-86bb8fbc",
@@ -7458,7 +7817,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 307
-  }
+  },
+  "why": [
+   "",
+   "S means ℓ = 0. Here ℓ = 3, which is f.",
+   "The number in front is n. Here n = 4.",
+   "The number in front is n. Here n = 4."
+  ]
  },
  {
   "id": "quantumchemistry-85c0057c",
@@ -7485,7 +7850,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 308
-  }
+  },
+  "why": [
+   "",
+   "F means ℓ = 3. Here ℓ = 2, which is d.",
+   "The number in front is n. Here n = 5.",
+   "The number in front is n. Here n = 5."
+  ]
  },
  {
   "id": "quantumchemistry-e0349fa3",
@@ -7512,7 +7883,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 309
-  }
+  },
+  "why": [
+   "",
+   "P means ℓ = 1. Here ℓ = 0, which is s.",
+   "The number in front is n. Here n = 6.",
+   "The number in front is n. Here n = 6."
+  ]
  },
  {
   "id": "quantumchemistry-682f05ac",
@@ -7539,7 +7916,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 310
-  }
+  },
+  "why": [
+   "",
+   "D means ℓ = 2. Here ℓ = 1, which is p.",
+   "The number in front is n. Here n = 4.",
+   "The number in front is n. Here n = 4."
+  ]
  },
  {
   "id": "quantumchemistry-080baf68",
@@ -7566,7 +7949,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 311
-  }
+  },
+  "why": [
+   "",
+   "P means ℓ = 1. Here ℓ = 0, which is s.",
+   "The number in front is n. Here n = 3.",
+   "The number in front is n. Here n = 3."
+  ]
  },
  {
   "id": "quantumchemistry-da4ed45e",
@@ -7593,7 +7982,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 312
-  }
+  },
+  "why": [
+   "",
+   "S means ℓ = 0. Here ℓ = 3, which is f.",
+   "The number in front is n. Here n = 5.",
+   "The number in front is n. Here n = 5."
+  ]
  },
  {
   "id": "quantumchemistry-83fd8ef5",
@@ -9280,7 +9675,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 364
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Sc has 1 unpaired electron, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-4c8aa476",
@@ -9327,7 +9726,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 366
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Ti has 2 unpaired electrons, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-c9907765",
@@ -9374,7 +9777,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 368
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. V has 3 unpaired electrons, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-8c9366e1",
@@ -9421,7 +9828,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 370
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Cr has 6 unpaired electrons, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-9a947807",
@@ -9468,7 +9879,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 372
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Mn has 5 unpaired electrons, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-b97b6178",
@@ -9515,7 +9930,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 374
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Fe has 4 unpaired electrons, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-fbc2fdc2",
@@ -9562,7 +9981,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 376
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Co has 3 unpaired electrons, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-9607fed7",
@@ -9609,7 +10032,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 378
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Ni has 2 unpaired electrons, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-35750bff",
@@ -9656,7 +10083,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 380
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Cu has 1 unpaired electron, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-56f0efe7",
@@ -9703,7 +10134,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 382
-  }
+  },
+  "why": [
+   "Paramagnetic needs at least one unpaired electron. Zn has 0 unpaired electrons, so it is diamagnetic.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-d55014fb",
@@ -9750,7 +10185,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 384
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Ga has 1 unpaired electron, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-c9ff8603",
@@ -9797,7 +10236,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 386
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Ge has 2 unpaired electrons, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-bc67827a",
@@ -9844,7 +10287,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 388
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. As has 3 unpaired electrons, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-4293c0b7",
@@ -9891,7 +10338,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 390
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Se has 2 unpaired electrons, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-ae2ff08e",
@@ -9938,7 +10389,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 392
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Br has 1 unpaired electron, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-36deec08",
@@ -9985,7 +10440,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 394
-  }
+  },
+  "why": [
+   "Paramagnetic needs at least one unpaired electron. Kr has 0 unpaired electrons, so it is diamagnetic.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-1b09c956",
@@ -10032,7 +10491,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 396
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Ti²⁺ has 2 unpaired electrons, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-4110f359",
@@ -10079,7 +10542,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 398
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Fe²⁺ has 4 unpaired electrons, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-68f839aa",
@@ -10126,7 +10593,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 400
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Fe³⁺ has 5 unpaired electrons, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-e0c715dd",
@@ -10173,7 +10644,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 402
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Co²⁺ has 3 unpaired electrons, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-58b745c7",
@@ -10220,7 +10695,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 404
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Co³⁺ has 4 unpaired electrons, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-9640e03d",
@@ -10267,7 +10746,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 406
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Cr²⁺ has 4 unpaired electrons, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-b37bcead",
@@ -10314,7 +10797,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 408
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Cr³⁺ has 3 unpaired electrons, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-34eb74ee",
@@ -10361,7 +10848,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 410
-  }
+  },
+  "why": [
+   "Paramagnetic needs at least one unpaired electron. Cu⁺ has 0 unpaired electrons, so it is diamagnetic.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-bf7aa1b0",
@@ -10408,7 +10899,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 412
-  }
+  },
+  "why": [
+   "",
+   "Diamagnetic means every electron is paired. Cu²⁺ has 1 unpaired electron, so it is paramagnetic."
+  ]
  },
  {
   "id": "quantumchemistry-63fa7184",
@@ -10455,7 +10950,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 414
-  }
+  },
+  "why": [
+   "Paramagnetic needs at least one unpaired electron. Ag⁺ has 0 unpaired electrons, so it is diamagnetic.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-0d1e9e74",
@@ -11764,7 +12263,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 452
-  }
+  },
+  "why": [
+   "",
+   "The p block is groups 13–18 (except He). He is in the s block.",
+   "The d block is the transition metals, groups 3–12. He is in the s block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). He is in the s block."
+  ]
  },
  {
   "id": "quantumchemistry-d45d5308",
@@ -11793,7 +12298,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 453
-  }
+  },
+  "why": [
+   "",
+   "The p block is groups 13–18 (except He). Li is in the s block.",
+   "The d block is the transition metals, groups 3–12. Li is in the s block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). Li is in the s block."
+  ]
  },
  {
   "id": "quantumchemistry-8ba10f03",
@@ -11822,7 +12333,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 454
-  }
+  },
+  "why": [
+   "",
+   "The p block is groups 13–18 (except He). Ba is in the s block.",
+   "The d block is the transition metals, groups 3–12. Ba is in the s block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). Ba is in the s block."
+  ]
  },
  {
   "id": "quantumchemistry-e08fa3e6",
@@ -11851,7 +12368,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 455
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). F is in the p block.",
+   "",
+   "The d block is the transition metals, groups 3–12. F is in the p block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). F is in the p block."
+  ]
  },
  {
   "id": "quantumchemistry-d941b01e",
@@ -11880,7 +12403,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 456
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). Ge is in the p block.",
+   "",
+   "The d block is the transition metals, groups 3–12. Ge is in the p block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). Ge is in the p block."
+  ]
  },
  {
   "id": "quantumchemistry-9de4a67a",
@@ -11909,7 +12438,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 457
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). Rn is in the p block.",
+   "",
+   "The d block is the transition metals, groups 3–12. Rn is in the p block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). Rn is in the p block."
+  ]
  },
  {
   "id": "quantumchemistry-59fd7541",
@@ -11938,7 +12473,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 458
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). Os is in the d block.",
+   "The p block is groups 13–18 (except He). Os is in the d block.",
+   "",
+   "The f block is the lanthanides and actinides (the two rows below the table). Os is in the d block."
+  ]
  },
  {
   "id": "quantumchemistry-2185c11d",
@@ -11967,7 +12508,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 459
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). W is in the d block.",
+   "The p block is groups 13–18 (except He). W is in the d block.",
+   "",
+   "The f block is the lanthanides and actinides (the two rows below the table). W is in the d block."
+  ]
  },
  {
   "id": "quantumchemistry-6423f7c8",
@@ -11996,7 +12543,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 460
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). Rh is in the d block.",
+   "The p block is groups 13–18 (except He). Rh is in the d block.",
+   "",
+   "The f block is the lanthanides and actinides (the two rows below the table). Rh is in the d block."
+  ]
  },
  {
   "id": "quantumchemistry-7a2ba609",
@@ -12025,7 +12578,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 461
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). Pr is in the f block.",
+   "The p block is groups 13–18 (except He). Pr is in the f block.",
+   "The d block is the transition metals, groups 3–12. Pr is in the f block.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-d0f44a03",
@@ -12054,7 +12613,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 462
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). U is in the f block.",
+   "The p block is groups 13–18 (except He). U is in the f block.",
+   "The d block is the transition metals, groups 3–12. U is in the f block.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-629c1bc9",
@@ -12080,7 +12645,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 463
-  }
+  },
+  "why": [
+   "",
+   "That is the reverse order. The question asks for smallest first.",
+   "Ca and Mg are out of order. Atomic size increases down a group; these comparisons follow the dominant shell and group trends."
+  ]
  },
  {
   "id": "quantumchemistry-5bc9a0a9",
@@ -12106,7 +12676,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 464
-  }
+  },
+  "why": [
+   "",
+   "That is the reverse order. The question asks for smallest first.",
+   "Si and Cl are out of order. Size decreases across a period and increases down a group."
+  ]
  },
  {
   "id": "quantumchemistry-b9ce61c6",
@@ -12132,7 +12707,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 465
-  }
+  },
+  "why": [
+   "",
+   "That is the reverse order. The question asks for smallest first.",
+   "Li and Rb are out of order. First ionization energy generally rises up a group and across a period."
+  ]
  },
  {
   "id": "quantumchemistry-de61a82d",
@@ -12158,7 +12738,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 466
-  }
+  },
+  "why": [
+   "",
+   "That is the reverse order. The question asks for smallest first.",
+   "Si and Mg are out of order. Use actual broad trends with Mg vs Si and S vs O; configurations explain local exceptions."
+  ]
  },
  {
   "id": "quantumchemistry-dcceea13",
@@ -12184,7 +12769,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 467
-  }
+  },
+  "why": [
+   "",
+   "That is the reverse order. The question asks for smallest first.",
+   "K and Rb are out of order. Rb is below K; Ca is farther right than K in the same period."
+  ]
  },
  {
   "id": "quantumchemistry-89326667",
@@ -12210,7 +12800,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 468
-  }
+  },
+  "why": [
+   "",
+   "That is the reverse order. The question asks for smallest first.",
+   "Sr and Ba are out of order. Removing a valence electron is generally easier farther down a group."
+  ]
  },
  {
   "id": "quantumchemistry-1f79fb3f",
@@ -12236,7 +12831,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 469
-  }
+  },
+  "why": [
+   "",
+   "That is the reverse order. The question asks for smallest first.",
+   "I and Cs are out of order. Across period 5, Xe exceeds I; Cs has a new, easily removed valence shell."
+  ]
  },
  {
   "id": "quantumchemistry-d978d8a7",
@@ -12262,7 +12862,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 470
-  }
+  },
+  "why": [
+   "",
+   "That is the reverse order. The question asks for smallest first.",
+   "Na⁺ and Mg²⁺ are out of order. All have ten electrons. Greater nuclear charge pulls the same electron count closer."
+  ]
  },
  {
   "id": "quantumchemistry-2aec51a5",
@@ -12288,7 +12893,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 471
-  }
+  },
+  "why": [
+   "",
+   "That is the reverse order. The question asks for smallest first.",
+   "K⁺ and Ca²⁺ are out of order. All have eighteen electrons; greater nuclear charge gives the smaller radius."
+  ]
  },
  {
   "id": "quantumchemistry-0d02d901",
@@ -12313,7 +12923,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 472
-  }
+  },
+  "why": [
+   "",
+   "This pair is an exception to the simple trend. B loses a higher-energy 2p electron; Be loses a 2s electron."
+  ]
  },
  {
   "id": "quantumchemistry-c463301d",
@@ -12338,7 +12952,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 473
-  }
+  },
+  "why": [
+   "",
+   "This pair is an exception to the simple trend. Pairing in one oxygen 2p orbital adds electron repulsion."
+  ]
  },
  {
   "id": "quantumchemistry-34007c2c",
@@ -12363,7 +12981,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 474
-  }
+  },
+  "why": [
+   "",
+   "This pair is an exception to the simple trend. Al loses a 3p electron more easily than Mg loses a 3s electron."
+  ]
  },
  {
   "id": "quantumchemistry-e8723670",
@@ -12388,7 +13010,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 475
-  }
+  },
+  "why": [
+   "",
+   "This pair is an exception to the simple trend. S has paired 3p electrons, while P has a half-filled 3p subshell."
+  ]
  },
  {
   "id": "quantumchemistry-23d7c426",
@@ -12635,7 +13261,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 486
-  }
+  },
+  "why": [
+   "",
+   "It is the opposite: the fourth electron is in an inner shell, closer to the nucleus.",
+   "The fourth electron is held very strongly, which is why the jump is so big.",
+   "Ionization energies are for removing electrons."
+  ]
  },
  {
   "id": "quantumchemistry-cef8f96b",
@@ -12660,7 +13292,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 487
-  }
+  },
+  "why": [
+   "",
+   "Ar has a filled shell; adding an electron requires a higher shell."
+  ]
  },
  {
   "id": "quantumchemistry-1ad5f9c4",
@@ -12685,7 +13321,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 488
-  }
+  },
+  "why": [
+   "",
+   "Adding to P disrupts the half-filled p subshell; S generally has the more exothermic first electron affinity."
+  ]
  },
  {
   "id": "quantumchemistry-921ae64d",
@@ -12710,7 +13350,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 489
-  }
+  },
+  "why": [
+   "",
+   "A half-filled p subshell makes the general trend less favorable for adding to P."
+  ]
  },
  {
   "id": "quantumchemistry-b29b2faa",
@@ -12735,7 +13379,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 490
-  }
+  },
+  "why": [
+   "The very small 2p region in F increases electron repulsion; Cl has the more exothermic first electron affinity.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-89a0724e",
@@ -12762,7 +13410,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 491
-  }
+  },
+  "why": [
+   "",
+   "Adding an electron is electron affinity, not ionization.",
+   "That is sublimation (atomization). No electron is removed.",
+   "That is the reverse: an ion capturing an electron."
+  ]
  },
  {
   "id": "quantumchemistry-e4a8be70",
@@ -12789,7 +13443,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 492
-  }
+  },
+  "why": [
+   "Li holds its electrons more tightly, so it is less metallic. Metallic character is associated with readiness to lose electrons; it generally increases down and to the left.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-9ab5b1cb",
@@ -12816,7 +13474,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 493
-  }
+  },
+  "why": [
+   "K holds its electrons more tightly, so it is less metallic. Metallic character is associated with readiness to lose electrons; it generally increases down and to the left.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-f5dfaac3",
@@ -12843,7 +13505,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 494
-  }
+  },
+  "why": [
+   "",
+   "Mg holds its electrons more tightly, so it is less metallic. Metallic character is associated with readiness to lose electrons; it generally increases down and to the left."
+  ]
  },
  {
   "id": "quantumchemistry-50217bb8",
@@ -12870,7 +13536,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 495
-  }
+  },
+  "why": [
+   "",
+   "Cl holds its electrons more tightly, so it is less metallic. Metallic character is associated with readiness to lose electrons; it generally increases down and to the left."
+  ]
  },
  {
   "id": "quantumchemistry-75db993d",
@@ -12897,7 +13567,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 496
-  }
+  },
+  "why": [
+   "",
+   "Ge holds its electrons more tightly, so it is less metallic. Metallic character is associated with readiness to lose electrons; it generally increases down and to the left."
+  ]
  },
  {
   "id": "quantumchemistry-67409936",
@@ -12924,7 +13598,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 497
-  }
+  },
+  "why": [
+   "",
+   "Ba holds its electrons more tightly, so it is less metallic. Metallic character is associated with readiness to lose electrons; it generally increases down and to the left."
+  ]
  },
  {
   "id": "quantumchemistry-f88dca54",
@@ -12951,7 +13629,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 498
-  }
+  },
+  "why": [
+   "",
+   "Neutral Ca has 20 electrons; this configuration has 21.",
+   "Neutral Ti has 22 electrons; this configuration has 21.",
+   "Neutral K has 19 electrons; this configuration has 21."
+  ]
  },
  {
   "id": "quantumchemistry-02c465de",
@@ -12978,7 +13662,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 499
-  }
+  },
+  "why": [
+   "",
+   "Neutral Mn has 25 electrons; this configuration has 26.",
+   "Neutral Co has 27 electrons; this configuration has 26.",
+   "Neutral Cr has 24 electrons; this configuration has 26."
+  ]
  },
  {
   "id": "quantumchemistry-c9f687e7",
@@ -13007,7 +13697,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 500
-  }
+  },
+  "why": [
+   "",
+   "Neutral Se has 34 electrons; this configuration has 35.",
+   "Neutral Kr has 36 electrons; this configuration has 35.",
+   "Neutral As has 33 electrons; this configuration has 35."
+  ]
  },
  {
   "id": "quantumchemistry-4ee4ad54",
@@ -13034,7 +13730,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 501
-  }
+  },
+  "why": [
+   "",
+   "Neutral Y has 39 electrons; this configuration has 40.",
+   "Neutral Nb has 41 electrons; this configuration has 40.",
+   "Neutral Sr has 38 electrons; this configuration has 40."
+  ]
  },
  {
   "id": "quantumchemistry-7c6cd55a",
@@ -13061,7 +13763,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 502
-  }
+  },
+  "why": [
+   "",
+   "Neutral Pd has 46 electrons; this configuration has 47.",
+   "Neutral Cd has 48 electrons; this configuration has 47.",
+   "Neutral Rh has 45 electrons; this configuration has 47."
+  ]
  },
  {
   "id": "quantumchemistry-91f1f903",
@@ -13090,7 +13798,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 503
-  }
+  },
+  "why": [
+   "",
+   "Neutral Sb has 51 electrons; this configuration has 52.",
+   "Neutral I has 53 electrons; this configuration has 52.",
+   "Neutral Sn has 50 electrons; this configuration has 52."
+  ]
  },
  {
   "id": "quantumchemistry-02f68622",
@@ -13117,7 +13831,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 504
-  }
+  },
+  "why": [
+   "",
+   "Group 2 has 2 valence electrons, so its big jump would come right after IE 2. The large jump follows removal of 1 valence electron, consistent with group 1.",
+   "Group 13 has 3 valence electrons, so its big jump would come right after IE 3. The large jump follows removal of 1 valence electron, consistent with group 1.",
+   "Group 14 has 4 valence electrons, so its big jump would come right after IE 4. The large jump follows removal of 1 valence electron, consistent with group 1."
+  ]
  },
  {
   "id": "quantumchemistry-445dadb3",
@@ -13144,7 +13864,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 505
-  }
+  },
+  "why": [
+   "Group 1 has 1 valence electron, so its big jump would come right after IE 1. The large jump follows removal of 2 valence electrons, consistent with group 2.",
+   "",
+   "Group 13 has 3 valence electrons, so its big jump would come right after IE 3. The large jump follows removal of 2 valence electrons, consistent with group 2.",
+   "Group 14 has 4 valence electrons, so its big jump would come right after IE 4. The large jump follows removal of 2 valence electrons, consistent with group 2."
+  ]
  },
  {
   "id": "quantumchemistry-f27b3cd8",
@@ -13171,7 +13897,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 506
-  }
+  },
+  "why": [
+   "Group 1 has 1 valence electron, so its big jump would come right after IE 1. The large jump follows removal of 3 valence electrons, consistent with group 13.",
+   "Group 2 has 2 valence electrons, so its big jump would come right after IE 2. The large jump follows removal of 3 valence electrons, consistent with group 13.",
+   "",
+   "Group 14 has 4 valence electrons, so its big jump would come right after IE 4. The large jump follows removal of 3 valence electrons, consistent with group 13."
+  ]
  },
  {
   "id": "quantumchemistry-a2b19c19",
@@ -13198,7 +13930,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 507
-  }
+  },
+  "why": [
+   "Group 1 has 1 valence electron, so its big jump would come right after IE 1. The large jump follows removal of 4 valence electrons, consistent with group 14.",
+   "Group 2 has 2 valence electrons, so its big jump would come right after IE 2. The large jump follows removal of 4 valence electrons, consistent with group 14.",
+   "Group 13 has 3 valence electrons, so its big jump would come right after IE 3. The large jump follows removal of 4 valence electrons, consistent with group 14.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-eb1f33a0",
@@ -14421,7 +15159,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 562
-  }
+  },
+  "why": [
+   "",
+   "Within the same shell, lower ℓ penetrates more: s > p > d > f."
+  ]
  },
  {
   "id": "quantumchemistry-4985952a",
@@ -14447,7 +15189,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 563
-  }
+  },
+  "why": [
+   "",
+   "In hydrogen (one electron) the energy depends only on n, so these are equal. Subshells split only in many-electron atoms.",
+   "In hydrogen (one electron) the energy depends only on n, so these are equal. Subshells split only in many-electron atoms."
+  ]
  },
  {
   "id": "quantumchemistry-c41ce1f5",
@@ -14472,7 +15219,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 564
-  }
+  },
+  "why": [
+   "",
+   "Within the same shell, lower ℓ penetrates more: s > p > d > f."
+  ]
  },
  {
   "id": "quantumchemistry-7aa25241",
@@ -14498,7 +15249,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 565
-  }
+  },
+  "why": [
+   "",
+   "In hydrogen (one electron) the energy depends only on n, so these are equal. Subshells split only in many-electron atoms.",
+   "In hydrogen (one electron) the energy depends only on n, so these are equal. Subshells split only in many-electron atoms."
+  ]
  },
  {
   "id": "quantumchemistry-151e6c26",
@@ -14523,7 +15279,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 566
-  }
+  },
+  "why": [
+   "",
+   "Within the same shell, lower ℓ penetrates more: s > p > d > f."
+  ]
  },
  {
   "id": "quantumchemistry-658bd846",
@@ -14549,7 +15309,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 567
-  }
+  },
+  "why": [
+   "",
+   "In hydrogen (one electron) the energy depends only on n, so these are equal. Subshells split only in many-electron atoms.",
+   "In hydrogen (one electron) the energy depends only on n, so these are equal. Subshells split only in many-electron atoms."
+  ]
  },
  {
   "id": "quantumchemistry-b9cdc9ca",
@@ -14574,7 +15339,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 568
-  }
+  },
+  "why": [
+   "",
+   "Within the same shell, lower ℓ penetrates more: s > p > d > f."
+  ]
  },
  {
   "id": "quantumchemistry-e5cbb8cd",
@@ -14600,7 +15369,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 569
-  }
+  },
+  "why": [
+   "",
+   "In hydrogen (one electron) the energy depends only on n, so these are equal. Subshells split only in many-electron atoms.",
+   "In hydrogen (one electron) the energy depends only on n, so these are equal. Subshells split only in many-electron atoms."
+  ]
  },
  {
   "id": "quantumchemistry-30edbd0c",
@@ -14625,7 +15399,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 570
-  }
+  },
+  "why": [
+   "",
+   "Within the same shell, lower ℓ penetrates more: s > p > d > f."
+  ]
  },
  {
   "id": "quantumchemistry-c3b6ba4e",
@@ -14651,7 +15429,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 571
-  }
+  },
+  "why": [
+   "",
+   "In hydrogen (one electron) the energy depends only on n, so these are equal. Subshells split only in many-electron atoms.",
+   "In hydrogen (one electron) the energy depends only on n, so these are equal. Subshells split only in many-electron atoms."
+  ]
  },
  {
   "id": "quantumchemistry-20cffb64",
@@ -14676,7 +15459,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 572
-  }
+  },
+  "why": [
+   "",
+   "Within the same shell, lower ℓ penetrates more: s > p > d > f."
+  ]
  },
  {
   "id": "quantumchemistry-f31deff2",
@@ -14702,7 +15489,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 573
-  }
+  },
+  "why": [
+   "",
+   "In hydrogen (one electron) the energy depends only on n, so these are equal. Subshells split only in many-electron atoms.",
+   "In hydrogen (one electron) the energy depends only on n, so these are equal. Subshells split only in many-electron atoms."
+  ]
  },
  {
   "id": "quantumchemistry-8157e196",
@@ -14729,7 +15521,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 574
-  }
+  },
+  "why": [
+   "",
+   "Mg has 2 valence electrons, so its big jump would come between IE 2 and IE 3. Find where this table’s jump is.",
+   "Al has 3 valence electrons, so its big jump would come between IE 3 and IE 4. Find where this table’s jump is.",
+   "Si has 4 valence electrons, so its big jump would come between IE 4 and IE 5. Find where this table’s jump is."
+  ]
  },
  {
   "id": "quantumchemistry-d0605a2b",
@@ -14756,7 +15554,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 575
-  }
+  },
+  "why": [
+   "Na has 1 valence electron, so its big jump would come between IE 1 and IE 2. Find where this table’s jump is.",
+   "",
+   "Al has 3 valence electrons, so its big jump would come between IE 3 and IE 4. Find where this table’s jump is.",
+   "Si has 4 valence electrons, so its big jump would come between IE 4 and IE 5. Find where this table’s jump is."
+  ]
  },
  {
   "id": "quantumchemistry-9a07be4a",
@@ -14783,7 +15587,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 576
-  }
+  },
+  "why": [
+   "Na has 1 valence electron, so its big jump would come between IE 1 and IE 2. Find where this table’s jump is.",
+   "Mg has 2 valence electrons, so its big jump would come between IE 2 and IE 3. Find where this table’s jump is.",
+   "",
+   "Si has 4 valence electrons, so its big jump would come between IE 4 and IE 5. Find where this table’s jump is."
+  ]
  },
  {
   "id": "quantumchemistry-5c11763c",
@@ -14810,7 +15620,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 577
-  }
+  },
+  "why": [
+   "Na has 1 valence electron, so its big jump would come between IE 1 and IE 2. Find where this table’s jump is.",
+   "Mg has 2 valence electrons, so its big jump would come between IE 2 and IE 3. Find where this table’s jump is.",
+   "Al has 3 valence electrons, so its big jump would come between IE 3 and IE 4. Find where this table’s jump is.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-914dce36",
@@ -14839,7 +15655,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 578
-  }
+  },
+  "why": [
+   "Highest energy means the shortest wavelength: the most cycles in the same distance. Count the cycles.",
+   "Highest energy means the shortest wavelength: the most cycles in the same distance. Count the cycles.",
+   "Highest energy means the shortest wavelength: the most cycles in the same distance. Count the cycles.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-bb551dc9",
@@ -14868,7 +15690,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 579
-  }
+  },
+  "why": [
+   "",
+   "Lowest frequency means the longest wavelength: the fewest cycles in the same distance.",
+   "Lowest frequency means the longest wavelength: the fewest cycles in the same distance.",
+   "Lowest frequency means the longest wavelength: the fewest cycles in the same distance."
+  ]
  },
  {
   "id": "quantumchemistry-0956ddd4",
@@ -14897,7 +15725,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 580
-  }
+  },
+  "why": [
+   "",
+   "Longest wavelength means the fewest cycles in the same distance. Count the cycles.",
+   "Longest wavelength means the fewest cycles in the same distance. Count the cycles.",
+   "Longest wavelength means the fewest cycles in the same distance. Count the cycles."
+  ]
  },
  {
   "id": "quantumchemistry-dc198552",
@@ -14926,7 +15760,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 581
-  }
+  },
+  "why": [
+   "",
+   "Highest energy means the shortest wavelength: the most cycles in the same distance. Count the cycles.",
+   "Highest energy means the shortest wavelength: the most cycles in the same distance. Count the cycles.",
+   "Highest energy means the shortest wavelength: the most cycles in the same distance. Count the cycles."
+  ]
  },
  {
   "id": "quantumchemistry-ce1ce75b",
@@ -14955,7 +15795,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 582
-  }
+  },
+  "why": [
+   "Lowest frequency means the longest wavelength: the fewest cycles in the same distance.",
+   "",
+   "Lowest frequency means the longest wavelength: the fewest cycles in the same distance.",
+   "Lowest frequency means the longest wavelength: the fewest cycles in the same distance."
+  ]
  },
  {
   "id": "quantumchemistry-2452020a",
@@ -14984,7 +15830,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 583
-  }
+  },
+  "why": [
+   "Longest wavelength means the fewest cycles in the same distance. Count the cycles.",
+   "",
+   "Longest wavelength means the fewest cycles in the same distance. Count the cycles.",
+   "Longest wavelength means the fewest cycles in the same distance. Count the cycles."
+  ]
  },
  {
   "id": "quantumchemistry-f2ec8ce7",
@@ -15013,7 +15865,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 584
-  }
+  },
+  "why": [
+   "Highest energy means the shortest wavelength: the most cycles in the same distance. Count the cycles.",
+   "Highest energy means the shortest wavelength: the most cycles in the same distance. Count the cycles.",
+   "",
+   "Highest energy means the shortest wavelength: the most cycles in the same distance. Count the cycles."
+  ]
  },
  {
   "id": "quantumchemistry-dd26bdb9",
@@ -15042,7 +15900,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 585
-  }
+  },
+  "why": [
+   "Lowest frequency means the longest wavelength: the fewest cycles in the same distance.",
+   "Lowest frequency means the longest wavelength: the fewest cycles in the same distance.",
+   "Lowest frequency means the longest wavelength: the fewest cycles in the same distance.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-3ccb7de0",
@@ -15071,7 +15935,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 586
-  }
+  },
+  "why": [
+   "Longest wavelength means the fewest cycles in the same distance. Count the cycles.",
+   "Longest wavelength means the fewest cycles in the same distance. Count the cycles.",
+   "Longest wavelength means the fewest cycles in the same distance. Count the cycles.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-dc198552-587",
@@ -15100,7 +15970,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 587
-  }
+  },
+  "why": [
+   "",
+   "Highest energy means the shortest wavelength: the most cycles in the same distance. Count the cycles.",
+   "Highest energy means the shortest wavelength: the most cycles in the same distance. Count the cycles.",
+   "Highest energy means the shortest wavelength: the most cycles in the same distance. Count the cycles."
+  ]
  },
  {
   "id": "quantumchemistry-b03654a3",
@@ -15129,7 +16005,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 588
-  }
+  },
+  "why": [
+   "Lowest frequency means the longest wavelength: the fewest cycles in the same distance.",
+   "Lowest frequency means the longest wavelength: the fewest cycles in the same distance.",
+   "",
+   "Lowest frequency means the longest wavelength: the fewest cycles in the same distance."
+  ]
  },
  {
   "id": "quantumchemistry-f016ebf9",
@@ -15158,7 +16040,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 589
-  }
+  },
+  "why": [
+   "Longest wavelength means the fewest cycles in the same distance. Count the cycles.",
+   "Longest wavelength means the fewest cycles in the same distance. Count the cycles.",
+   "",
+   "Longest wavelength means the fewest cycles in the same distance. Count the cycles."
+  ]
  },
  {
   "id": "quantumchemistry-b33ca3a3",
@@ -15189,7 +16077,15 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 590
-  }
+  },
+  "why": [
+   "Radio is longer than about 1 m. This photon is 0.12 nm.",
+   "Microwave is about 1 mm to 1 m. This photon is 0.12 nm.",
+   "Infrared is about 700 nm to 1 mm. This photon is 0.12 nm.",
+   "Visible is about 400 to 700 nm. This photon is 0.12 nm.",
+   "Ultraviolet is about 10 to 400 nm. This photon is 0.12 nm.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-db5c3548",
@@ -15220,7 +16116,15 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 591
-  }
+  },
+  "why": [
+   "Radio is longer than about 1 m. This photon is 12 nm.",
+   "Microwave is about 1 mm to 1 m. This photon is 12 nm.",
+   "Infrared is about 700 nm to 1 mm. This photon is 12 nm.",
+   "Visible is about 400 to 700 nm. This photon is 12 nm.",
+   "",
+   "X-ray is about 0.01 to 10 nm. This photon is 12 nm."
+  ]
  },
  {
   "id": "quantumchemistry-f3dae288",
@@ -15251,7 +16155,15 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 592
-  }
+  },
+  "why": [
+   "Radio is longer than about 1 m. This photon is 250 nm.",
+   "Microwave is about 1 mm to 1 m. This photon is 250 nm.",
+   "Infrared is about 700 nm to 1 mm. This photon is 250 nm.",
+   "Visible is about 400 to 700 nm. This photon is 250 nm.",
+   "",
+   "X-ray is about 0.01 to 10 nm. This photon is 250 nm."
+  ]
  },
  {
   "id": "quantumchemistry-bd95c6fe",
@@ -15282,7 +16194,15 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 593
-  }
+  },
+  "why": [
+   "Radio is longer than about 1 m. This photon is 520 nm.",
+   "Microwave is about 1 mm to 1 m. This photon is 520 nm.",
+   "Infrared is about 700 nm to 1 mm. This photon is 520 nm.",
+   "",
+   "Ultraviolet is about 10 to 400 nm. This photon is 520 nm.",
+   "X-ray is about 0.01 to 10 nm. This photon is 520 nm."
+  ]
  },
  {
   "id": "quantumchemistry-1c5032d2",
@@ -15313,7 +16233,15 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 594
-  }
+  },
+  "why": [
+   "Radio is longer than about 1 m. This photon is 8 μm.",
+   "Microwave is about 1 mm to 1 m. This photon is 8 μm.",
+   "",
+   "Visible is about 400 to 700 nm. This photon is 8 μm.",
+   "Ultraviolet is about 10 to 400 nm. This photon is 8 μm.",
+   "X-ray is about 0.01 to 10 nm. This photon is 8 μm."
+  ]
  },
  {
   "id": "quantumchemistry-50a12b55",
@@ -15344,7 +16272,15 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 595
-  }
+  },
+  "why": [
+   "Radio is longer than about 1 m. This photon is 2 mm.",
+   "",
+   "Infrared is about 700 nm to 1 mm. This photon is 2 mm.",
+   "Visible is about 400 to 700 nm. This photon is 2 mm.",
+   "Ultraviolet is about 10 to 400 nm. This photon is 2 mm.",
+   "X-ray is about 0.01 to 10 nm. This photon is 2 mm."
+  ]
  },
  {
   "id": "quantumchemistry-ba27e2a8",
@@ -15375,7 +16311,15 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 596
-  }
+  },
+  "why": [
+   "",
+   "Microwave is about 1 mm to 1 m. This photon is 3 m.",
+   "Infrared is about 700 nm to 1 mm. This photon is 3 m.",
+   "Visible is about 400 to 700 nm. This photon is 3 m.",
+   "Ultraviolet is about 10 to 400 nm. This photon is 3 m.",
+   "X-ray is about 0.01 to 10 nm. This photon is 3 m."
+  ]
  },
  {
   "id": "quantumchemistry-15fa2d51",
@@ -15402,7 +16346,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 597
-  }
+  },
+  "why": [
+   "",
+   "II → I has a bigger energy gap, so its wavelength is shorter (λ = hc/ΔE). The longest wavelength comes from the smallest downward gap.",
+   "III → I has a bigger energy gap, so its wavelength is shorter (λ = hc/ΔE). The longest wavelength comes from the smallest downward gap.",
+   "I → III goes up, so it absorbs light; it isn’t an emission."
+  ]
  },
  {
   "id": "quantumchemistry-8e62ffc4",
@@ -15429,7 +16379,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 598
-  }
+  },
+  "why": [
+   "III → II has a bigger energy gap, so its wavelength is shorter (λ = hc/ΔE). The longest wavelength comes from the smallest downward gap.",
+   "",
+   "III → I has a bigger energy gap, so its wavelength is shorter (λ = hc/ΔE). The longest wavelength comes from the smallest downward gap.",
+   "I → III goes up, so it absorbs light; it isn’t an emission."
+  ]
  },
  {
   "id": "quantumchemistry-15fa2d51-599",
@@ -15456,7 +16412,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 599
-  }
+  },
+  "why": [
+   "",
+   "II → I has a bigger energy gap, so its wavelength is shorter (λ = hc/ΔE). The longest wavelength comes from the smallest downward gap.",
+   "III → I has a bigger energy gap, so its wavelength is shorter (λ = hc/ΔE). The longest wavelength comes from the smallest downward gap.",
+   "I → III goes up, so it absorbs light; it isn’t an emission."
+  ]
  },
  {
   "id": "quantumchemistry-15fa2d51-600",
@@ -15483,7 +16445,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 600
-  }
+  },
+  "why": [
+   "",
+   "II → I has a bigger energy gap, so its wavelength is shorter (λ = hc/ΔE). The longest wavelength comes from the smallest downward gap.",
+   "III → I has a bigger energy gap, so its wavelength is shorter (λ = hc/ΔE). The longest wavelength comes from the smallest downward gap.",
+   "I → III goes up, so it absorbs light; it isn’t an emission."
+  ]
  },
  {
   "id": "quantumchemistry-958ee931",
@@ -15560,7 +16528,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 603
-  }
+  },
+  "why": [
+   "",
+   "The p block is groups 13–18 (except He). H is in the s block.",
+   "The d block is the transition metals, groups 3–12. H is in the s block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). H is in the s block."
+  ]
  },
  {
   "id": "quantumchemistry-0e6d3a1a",
@@ -15637,7 +16611,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 606
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). B is in the p block.",
+   "",
+   "The d block is the transition metals, groups 3–12. B is in the p block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). B is in the p block."
+  ]
  },
  {
   "id": "quantumchemistry-ce80b400-607",
@@ -15714,7 +16694,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 609
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). N is in the p block.",
+   "",
+   "The d block is the transition metals, groups 3–12. N is in the p block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). N is in the p block."
+  ]
  },
  {
   "id": "quantumchemistry-8b7eb515",
@@ -15791,7 +16777,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 612
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). Ne is in the p block.",
+   "",
+   "The d block is the transition metals, groups 3–12. Ne is in the p block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). Ne is in the p block."
+  ]
  },
  {
   "id": "quantumchemistry-a1f83503",
@@ -15868,7 +16860,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 615
-  }
+  },
+  "why": [
+   "",
+   "The p block is groups 13–18 (except He). Na is in the s block.",
+   "The d block is the transition metals, groups 3–12. Na is in the s block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). Na is in the s block."
+  ]
  },
  {
   "id": "quantumchemistry-213fa6e3",
@@ -15945,7 +16943,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 618
-  }
+  },
+  "why": [
+   "",
+   "The p block is groups 13–18 (except He). Mg is in the s block.",
+   "The d block is the transition metals, groups 3–12. Mg is in the s block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). Mg is in the s block."
+  ]
  },
  {
   "id": "quantumchemistry-78920c49",
@@ -16022,7 +17026,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 621
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). Al is in the p block.",
+   "",
+   "The d block is the transition metals, groups 3–12. Al is in the p block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). Al is in the p block."
+  ]
  },
  {
   "id": "quantumchemistry-67d533dd",
@@ -16099,7 +17109,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 624
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). Si is in the p block.",
+   "",
+   "The d block is the transition metals, groups 3–12. Si is in the p block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). Si is in the p block."
+  ]
  },
  {
   "id": "quantumchemistry-16d7e989",
@@ -16176,7 +17192,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 627
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). P is in the p block.",
+   "",
+   "The d block is the transition metals, groups 3–12. P is in the p block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). P is in the p block."
+  ]
  },
  {
   "id": "quantumchemistry-91630267-628",
@@ -16253,7 +17275,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 630
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). Cl is in the p block.",
+   "",
+   "The d block is the transition metals, groups 3–12. Cl is in the p block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). Cl is in the p block."
+  ]
  },
  {
   "id": "quantumchemistry-f4a71b62",
@@ -16330,7 +17358,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 633
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). Ar is in the p block.",
+   "",
+   "The d block is the transition metals, groups 3–12. Ar is in the p block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). Ar is in the p block."
+  ]
  },
  {
   "id": "quantumchemistry-ca4f5603",
@@ -16407,7 +17441,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 636
-  }
+  },
+  "why": [
+   "",
+   "The p block is groups 13–18 (except He). K is in the s block.",
+   "The d block is the transition metals, groups 3–12. K is in the s block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). K is in the s block."
+  ]
  },
  {
   "id": "quantumchemistry-a19f6a4a",
@@ -16484,7 +17524,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 639
-  }
+  },
+  "why": [
+   "",
+   "The p block is groups 13–18 (except He). Ca is in the s block.",
+   "The d block is the transition metals, groups 3–12. Ca is in the s block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). Ca is in the s block."
+  ]
  },
  {
   "id": "quantumchemistry-ea3df5bc",
@@ -16561,7 +17607,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 642
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). Ge is in the p block.",
+   "",
+   "The d block is the transition metals, groups 3–12. Ge is in the p block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). Ge is in the p block."
+  ]
  },
  {
   "id": "quantumchemistry-976213c9",
@@ -16638,7 +17690,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 645
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). Br is in the p block.",
+   "",
+   "The d block is the transition metals, groups 3–12. Br is in the p block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). Br is in the p block."
+  ]
  },
  {
   "id": "quantumchemistry-3e0d5af6-646",
@@ -16715,7 +17773,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 648
-  }
+  },
+  "why": [
+   "",
+   "The p block is groups 13–18 (except He). Rb is in the s block.",
+   "The d block is the transition metals, groups 3–12. Rb is in the s block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). Rb is in the s block."
+  ]
  },
  {
   "id": "quantumchemistry-9af04b1c-649",
@@ -16792,7 +17856,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 651
-  }
+  },
+  "why": [
+   "",
+   "The p block is groups 13–18 (except He). Sr is in the s block.",
+   "The d block is the transition metals, groups 3–12. Sr is in the s block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). Sr is in the s block."
+  ]
  },
  {
   "id": "quantumchemistry-b08be8ba",
@@ -16869,7 +17939,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 654
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). Sb is in the p block.",
+   "",
+   "The d block is the transition metals, groups 3–12. Sb is in the p block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). Sb is in the p block."
+  ]
  },
  {
   "id": "quantumchemistry-cb94036f-655",
@@ -16946,7 +18022,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 657
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). Te is in the p block.",
+   "",
+   "The d block is the transition metals, groups 3–12. Te is in the p block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). Te is in the p block."
+  ]
  },
  {
   "id": "quantumchemistry-0207581a",
@@ -17019,7 +18101,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 660
-  }
+  },
+  "why": [
+   "The s block is groups 1–2 (plus He). Tl is in the p block.",
+   "",
+   "The d block is the transition metals, groups 3–12. Tl is in the p block.",
+   "The f block is the lanthanides and actinides (the two rows below the table). Tl is in the p block."
+  ]
  },
  {
   "id": "quantumchemistry-e8e87f9e",
@@ -17176,7 +18264,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 667
-  }
+  },
+  "why": [
+   "",
+   "I⁻ contains 53 − (-1) = 54 electrons, matching Xe."
+  ]
  },
  {
   "id": "quantumchemistry-5011e438",
@@ -17201,7 +18293,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 668
-  }
+  },
+  "why": [
+   "",
+   "Cs⁺ contains 55 − (1) = 54 electrons, matching Xe."
+  ]
  },
  {
   "id": "quantumchemistry-08d05dc8",
@@ -17226,7 +18322,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 669
-  }
+  },
+  "why": [
+   "",
+   "Ba²⁺ contains 56 − (2) = 54 electrons, matching Xe."
+  ]
  },
  {
   "id": "quantumchemistry-b34b8486",
@@ -17251,7 +18351,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 670
-  }
+  },
+  "why": [
+   "",
+   "Te²⁻ contains 52 − (-2) = 54 electrons, matching Xe."
+  ]
  },
  {
   "id": "quantumchemistry-e824fd92",
@@ -17276,7 +18380,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 671
-  }
+  },
+  "why": [
+   "Br⁻ contains 35 − (-1) = 36 electrons, not 54.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-5d89ca31",
@@ -17301,7 +18409,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 672
-  }
+  },
+  "why": [
+   "Sr²⁺ contains 38 − (2) = 36 electrons, not 54.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-2c973b92",
@@ -17330,7 +18442,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 673
-  }
+  },
+  "why": [
+   "",
+   "2p comes later. Order by n + ℓ (lowest n first when tied): 1s → 2s → 2p.",
+   "3s comes later. Order by n + ℓ (lowest n first when tied): 1s → 2s → 2p → 3s.",
+   "3p comes later. Order by n + ℓ (lowest n first when tied): 1s → 2s → 2p → 3s → 3p."
+  ]
  },
  {
   "id": "quantumchemistry-6b77e46b",
@@ -17359,7 +18477,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 674
-  }
+  },
+  "why": [
+   "",
+   "1s fills before 2s, so it is already full by then.",
+   "3s comes later. Order by n + ℓ (lowest n first when tied): 2s → 2p → 3s.",
+   "3p comes later. Order by n + ℓ (lowest n first when tied): 2s → 2p → 3s → 3p."
+  ]
  },
  {
   "id": "quantumchemistry-6f150a2a",
@@ -17388,7 +18512,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 675
-  }
+  },
+  "why": [
+   "",
+   "1s fills before 2p, so it is already full by then.",
+   "2s fills before 2p, so it is already full by then.",
+   "3p comes later. Order by n + ℓ (lowest n first when tied): 2p → 3s → 3p."
+  ]
  },
  {
   "id": "quantumchemistry-7e2e708d",
@@ -17417,7 +18547,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 676
-  }
+  },
+  "why": [
+   "",
+   "1s fills before 3s, so it is already full by then.",
+   "2s fills before 3s, so it is already full by then.",
+   "2p fills before 3s, so it is already full by then."
+  ]
  },
  {
   "id": "quantumchemistry-4793068e",
@@ -17446,7 +18582,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 677
-  }
+  },
+  "why": [
+   "",
+   "1s fills before 3p, so it is already full by then.",
+   "2s fills before 3p, so it is already full by then.",
+   "2p fills before 3p, so it is already full by then."
+  ]
  },
  {
   "id": "quantumchemistry-434a23b3",
@@ -17475,7 +18617,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 678
-  }
+  },
+  "why": [
+   "",
+   "1s fills before 4s, so it is already full by then.",
+   "2s fills before 4s, so it is already full by then.",
+   "2p fills before 4s, so it is already full by then."
+  ]
  },
  {
   "id": "quantumchemistry-e9d7f7bb",
@@ -17504,7 +18652,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 679
-  }
+  },
+  "why": [
+   "",
+   "1s fills before 3d, so it is already full by then.",
+   "2s fills before 3d, so it is already full by then.",
+   "2p fills before 3d, so it is already full by then."
+  ]
  },
  {
   "id": "quantumchemistry-3207d99c",
@@ -17533,7 +18687,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 680
-  }
+  },
+  "why": [
+   "",
+   "1s fills before 4p, so it is already full by then.",
+   "2s fills before 4p, so it is already full by then.",
+   "2p fills before 4p, so it is already full by then."
+  ]
  },
  {
   "id": "quantumchemistry-d1f00086",
@@ -17562,7 +18722,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 681
-  }
+  },
+  "why": [
+   "",
+   "1s fills before 5s, so it is already full by then.",
+   "2s fills before 5s, so it is already full by then.",
+   "2p fills before 5s, so it is already full by then."
+  ]
  },
  {
   "id": "quantumchemistry-8e80386a",
@@ -17591,7 +18757,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 682
-  }
+  },
+  "why": [
+   "",
+   "1s fills before 4d, so it is already full by then.",
+   "2s fills before 4d, so it is already full by then.",
+   "2p fills before 4d, so it is already full by then."
+  ]
  },
  {
   "id": "quantumchemistry-6f41ec9b",
@@ -17620,7 +18792,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 683
-  }
+  },
+  "why": [
+   "",
+   "1s fills before 5p, so it is already full by then.",
+   "2s fills before 5p, so it is already full by then.",
+   "2p fills before 5p, so it is already full by then."
+  ]
  },
  {
   "id": "quantumchemistry-a46c25ef",
@@ -17649,7 +18827,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 684
-  }
+  },
+  "why": [
+   "",
+   "1s fills before 6s, so it is already full by then.",
+   "2s fills before 6s, so it is already full by then.",
+   "2p fills before 6s, so it is already full by then."
+  ]
  },
  {
   "id": "quantumchemistry-a81bf3f6",
@@ -17678,7 +18862,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 685
-  }
+  },
+  "why": [
+   "",
+   "1s fills before 4f, so it is already full by then.",
+   "2s fills before 4f, so it is already full by then.",
+   "2p fills before 4f, so it is already full by then."
+  ]
  },
  {
   "id": "quantumchemistry-22fbb572",
@@ -17707,7 +18897,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 686
-  }
+  },
+  "why": [
+   "",
+   "1s fills before 5d, so it is already full by then.",
+   "2s fills before 5d, so it is already full by then.",
+   "2p fills before 5d, so it is already full by then."
+  ]
  },
  {
   "id": "quantumchemistry-5c210ebe",
@@ -17736,7 +18932,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 687
-  }
+  },
+  "why": [
+   "",
+   "1s fills before 6p, so it is already full by then.",
+   "2s fills before 6p, so it is already full by then.",
+   "2p fills before 6p, so it is already full by then."
+  ]
  },
  {
   "id": "quantumchemistry-6657868c",
@@ -19842,7 +21044,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 730
-  }
+  },
+  "why": [
+   "A ground state must follow Aufbau and Hund’s rule exactly. All 24 electrons obey Pauli exclusion, but chromium’s ground state is [Ar] 4s¹ 3d⁵. The pictured [Ar] 4s² 3d⁴ is not its ground state.",
+   "",
+   "Pauli exclusion is broken only when one orbital holds two electrons with the same spin. That doesn’t happen here."
+  ]
  },
  {
   "id": "quantumchemistry-70f0397b",
@@ -19868,7 +21075,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 731
-  }
+  },
+  "why": [
+   "",
+   "Nothing is promoted or wrongly paired here. Chromium’s ground state is [Ar] 4s¹ 3d⁵, with five parallel unpaired d electrons.",
+   "Pauli exclusion is broken only when one orbital holds two electrons with the same spin. That doesn’t happen here."
+  ]
  },
  {
   "id": "quantumchemistry-96031fd3",
@@ -19894,7 +21106,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 732
-  }
+  },
+  "why": [
+   "A ground state must follow Aufbau and Hund’s rule exactly. The 3d box contains two electrons with the same spin. This is forbidden by Pauli exclusion.",
+   "Even an excited arrangement must obey Pauli exclusion. The 3d box contains two electrons with the same spin. This is forbidden by Pauli exclusion.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-b9020ee6",
@@ -19920,7 +21137,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 733
-  }
+  },
+  "why": [
+   "",
+   "Nothing is promoted or wrongly paired here. Boron has configuration 1s² 2s² 2p¹.",
+   "Pauli exclusion is broken only when one orbital holds two electrons with the same spin. That doesn’t happen here."
+  ]
  },
  {
   "id": "quantumchemistry-248ce29c",
@@ -19946,7 +21168,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 734
-  }
+  },
+  "why": [
+   "A ground state must follow Aufbau and Hund’s rule exactly. Pauli exclusion is satisfied, but a 2s electron has been promoted to 2p.",
+   "",
+   "Pauli exclusion is broken only when one orbital holds two electrons with the same spin. That doesn’t happen here."
+  ]
  },
  {
   "id": "quantumchemistry-99ac0732",
@@ -19972,7 +21199,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 735
-  }
+  },
+  "why": [
+   "A ground state must follow Aufbau and Hund’s rule exactly. The 1s same-spin pair violates Pauli exclusion.",
+   "Even an excited arrangement must obey Pauli exclusion. The 1s same-spin pair violates Pauli exclusion.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-8b4f7c6c",
@@ -19998,7 +21230,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 736
-  }
+  },
+  "why": [
+   "",
+   "Nothing is promoted or wrongly paired here. Three p electrons occupy separate orbitals with parallel spins.",
+   "Pauli exclusion is broken only when one orbital holds two electrons with the same spin. That doesn’t happen here."
+  ]
  },
  {
   "id": "quantumchemistry-a87b0bd8",
@@ -20024,7 +21261,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 737
-  }
+  },
+  "why": [
+   "A ground state must follow Aufbau and Hund’s rule exactly. Pauli exclusion is satisfied, but pairing leaves a degenerate p orbital empty. This is not the ground-state arrangement.",
+   "",
+   "Pauli exclusion is broken only when one orbital holds two electrons with the same spin. That doesn’t happen here."
+  ]
  },
  {
   "id": "quantumchemistry-853d143e",
@@ -21147,7 +22389,17 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 785
-  }
+  },
+  "why": [
+   "",
+   "The activity’s reference for blue is 455 nm; this emission is 420 nm.",
+   "The activity’s reference for blue-green is 480 nm; this emission is 420 nm.",
+   "The activity’s reference for green is 525 nm; this emission is 420 nm.",
+   "The activity’s reference for yellow-green is 565 nm; this emission is 420 nm.",
+   "The activity’s reference for yellow is 580 nm; this emission is 420 nm.",
+   "The activity’s reference for orange is 620 nm; this emission is 420 nm.",
+   "The activity’s reference for red is 660 nm; this emission is 420 nm."
+  ]
  },
  {
   "id": "quantumchemistry-9c324949",
@@ -21202,7 +22454,17 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 787
-  }
+  },
+  "why": [
+   "The activity’s reference for violet is 420 nm; this emission is 455 nm.",
+   "",
+   "The activity’s reference for blue-green is 480 nm; this emission is 455 nm.",
+   "The activity’s reference for green is 525 nm; this emission is 455 nm.",
+   "The activity’s reference for yellow-green is 565 nm; this emission is 455 nm.",
+   "The activity’s reference for yellow is 580 nm; this emission is 455 nm.",
+   "The activity’s reference for orange is 620 nm; this emission is 455 nm.",
+   "The activity’s reference for red is 660 nm; this emission is 455 nm."
+  ]
  },
  {
   "id": "quantumchemistry-e7d3ab06",
@@ -21257,7 +22519,17 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 789
-  }
+  },
+  "why": [
+   "The activity’s reference for violet is 420 nm; this emission is 480 nm.",
+   "The activity’s reference for blue is 455 nm; this emission is 480 nm.",
+   "",
+   "The activity’s reference for green is 525 nm; this emission is 480 nm.",
+   "The activity’s reference for yellow-green is 565 nm; this emission is 480 nm.",
+   "The activity’s reference for yellow is 580 nm; this emission is 480 nm.",
+   "The activity’s reference for orange is 620 nm; this emission is 480 nm.",
+   "The activity’s reference for red is 660 nm; this emission is 480 nm."
+  ]
  },
  {
   "id": "quantumchemistry-104c30ea",
@@ -21312,7 +22584,17 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 791
-  }
+  },
+  "why": [
+   "The activity’s reference for violet is 420 nm; this emission is 525 nm.",
+   "The activity’s reference for blue is 455 nm; this emission is 525 nm.",
+   "The activity’s reference for blue-green is 480 nm; this emission is 525 nm.",
+   "",
+   "The activity’s reference for yellow-green is 565 nm; this emission is 525 nm.",
+   "The activity’s reference for yellow is 580 nm; this emission is 525 nm.",
+   "The activity’s reference for orange is 620 nm; this emission is 525 nm.",
+   "The activity’s reference for red is 660 nm; this emission is 525 nm."
+  ]
  },
  {
   "id": "quantumchemistry-0685e105",
@@ -21367,7 +22649,17 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 793
-  }
+  },
+  "why": [
+   "The activity’s reference for violet is 420 nm; this emission is 565 nm.",
+   "The activity’s reference for blue is 455 nm; this emission is 565 nm.",
+   "The activity’s reference for blue-green is 480 nm; this emission is 565 nm.",
+   "The activity’s reference for green is 525 nm; this emission is 565 nm.",
+   "",
+   "The activity’s reference for yellow is 580 nm; this emission is 565 nm.",
+   "The activity’s reference for orange is 620 nm; this emission is 565 nm.",
+   "The activity’s reference for red is 660 nm; this emission is 565 nm."
+  ]
  },
  {
   "id": "quantumchemistry-58bc848c",
@@ -21422,7 +22714,17 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 795
-  }
+  },
+  "why": [
+   "The activity’s reference for violet is 420 nm; this emission is 580 nm.",
+   "The activity’s reference for blue is 455 nm; this emission is 580 nm.",
+   "The activity’s reference for blue-green is 480 nm; this emission is 580 nm.",
+   "The activity’s reference for green is 525 nm; this emission is 580 nm.",
+   "The activity’s reference for yellow-green is 565 nm; this emission is 580 nm.",
+   "",
+   "The activity’s reference for orange is 620 nm; this emission is 580 nm.",
+   "The activity’s reference for red is 660 nm; this emission is 580 nm."
+  ]
  },
  {
   "id": "quantumchemistry-68a2264e",
@@ -21477,7 +22779,17 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 797
-  }
+  },
+  "why": [
+   "The activity’s reference for violet is 420 nm; this emission is 620 nm.",
+   "The activity’s reference for blue is 455 nm; this emission is 620 nm.",
+   "The activity’s reference for blue-green is 480 nm; this emission is 620 nm.",
+   "The activity’s reference for green is 525 nm; this emission is 620 nm.",
+   "The activity’s reference for yellow-green is 565 nm; this emission is 620 nm.",
+   "The activity’s reference for yellow is 580 nm; this emission is 620 nm.",
+   "",
+   "The activity’s reference for red is 660 nm; this emission is 620 nm."
+  ]
  },
  {
   "id": "quantumchemistry-7f57f882",
@@ -21532,7 +22844,17 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 799
-  }
+  },
+  "why": [
+   "The activity’s reference for violet is 420 nm; this emission is 660 nm.",
+   "The activity’s reference for blue is 455 nm; this emission is 660 nm.",
+   "The activity’s reference for blue-green is 480 nm; this emission is 660 nm.",
+   "The activity’s reference for green is 525 nm; this emission is 660 nm.",
+   "The activity’s reference for yellow-green is 565 nm; this emission is 660 nm.",
+   "The activity’s reference for yellow is 580 nm; this emission is 660 nm.",
+   "The activity’s reference for orange is 620 nm; this emission is 660 nm.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-8363f069",
@@ -21560,7 +22882,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 800
-  }
+  },
+  "why": [
+   "",
+   "Electrons don’t lose mass. Heat from the flame excites them.",
+   "The photon is emitted afterward, as the electron drops back down. It can’t be the source."
+  ]
  },
  {
   "id": "quantumchemistry-728800a7",
@@ -21588,7 +22915,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 801
-  }
+  },
+  "why": [
+   "",
+   "Emitting a photon carries energy away, so the atom’s energy goes down.",
+   "Energy is conserved: the photon’s energy comes from the atom."
+  ]
  },
  {
   "id": "quantumchemistry-aba4434b",
@@ -21616,7 +22948,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 802
-  }
+  },
+  "why": [
+   "",
+   "All electrons have the same mass. Elements differ in their energy levels.",
+   "Then every flame would look the same. Each element emits only certain wavelengths."
+  ]
  },
  {
   "id": "quantumchemistry-83900044",
@@ -21644,7 +22981,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 803
-  }
+  },
+  "why": [
+   "",
+   "E = hc/λ: energy goes down as wavelength goes up, and not in a straight line.",
+   "Photon energy depends on wavelength (E = hc/λ)."
+  ]
  },
  {
   "id": "quantumchemistry-56755ccf",
@@ -21672,7 +23014,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 804
-  }
+  },
+  "why": [
+   "",
+   "A flame usually emits several lines, which is why the color is only approximate.",
+   "The speed of light in air is essentially constant."
+  ]
  },
  {
   "id": "quantumchemistry-3b1a7712",
@@ -21697,7 +23044,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 805
-  }
+  },
+  "why": [
+   "",
+   "Curve B is the radial distribution (probability per unit radius, summed over a shell). Per unit volume is |ψ|²."
+  ]
  },
  {
   "id": "quantumchemistry-3e8197cd",
@@ -21722,7 +23073,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 806
-  }
+  },
+  "why": [
+   "Curve A is |ψ|², probability per unit volume at a point. Summing over a shell gives the radial distribution.",
+   ""
+  ]
  },
  {
   "id": "quantumchemistry-da6d2232",
@@ -21748,7 +23103,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 807
-  }
+  },
+  "why": [
+   "",
+   "For 1s, ψ is largest at the nucleus, not zero.",
+   "There are no fixed orbits in the quantum model."
+  ]
  },
  {
   "id": "quantumchemistry-a9e516e5",
@@ -21774,7 +23134,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 808
-  }
+  },
+  "why": [
+   "",
+   "At r = 0 the shell volume (4πr²) is zero, so the radial distribution is zero there.",
+   "The 1s radial distribution peaks at a₀ and is small by 5a₀."
+  ]
  },
  {
   "id": "quantumchemistry-7bbdb57d",
@@ -21800,7 +23165,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 809
-  }
+  },
+  "why": [
+   "",
+   "A single height doesn’t give a probability over a range. You need the area under the radial curve.",
+   "The sign doesn’t give a probability; probabilities come from |ψ|²."
+  ]
  },
  {
   "id": "quantumchemistry-c7237564",
@@ -21825,7 +23195,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 810
-  }
+  },
+  "why": [
+   "",
+   "Squaring removes the sign: |−ψ|² = |ψ|²."
+  ]
  },
  {
   "id": "quantumchemistry-0115e84f",
@@ -21850,7 +23224,11 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 811
-  }
+  },
+  "why": [
+   "",
+   "Ψ can be negative, but |ψ|² is a square, so it is never negative."
+  ]
  },
  {
   "id": "quantumchemistry-15250427",
@@ -21876,7 +23254,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 812
-  }
+  },
+  "why": [
+   "",
+   "Radial nodes = n − ℓ − 1 = 2 − 0 − 1 = 1.",
+   "Radial nodes = n − ℓ − 1 = 2 − 0 − 1 = 1."
+  ]
  },
  {
   "id": "quantumchemistry-4e8e3575",
@@ -21902,7 +23285,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 813
-  }
+  },
+  "why": [
+   "",
+   "Radial nodes = n − ℓ − 1 = 2 − 1 − 1 = 0.",
+   "Radial nodes = n − ℓ − 1 = 2 − 1 − 1 = 0."
+  ]
  },
  {
   "id": "quantumchemistry-1712ed0d",
@@ -21928,7 +23316,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 814
-  }
+  },
+  "why": [
+   "",
+   "Radial nodes = n − ℓ − 1 = 3 − 0 − 1 = 2.",
+   "Radial nodes = n − ℓ − 1 = 3 − 0 − 1 = 2."
+  ]
  },
  {
   "id": "quantumchemistry-40ef7ba2",
@@ -21954,7 +23347,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 815
-  }
+  },
+  "why": [
+   "",
+   "Radial nodes = n − ℓ − 1 = 3 − 1 − 1 = 1.",
+   "Radial nodes = n − ℓ − 1 = 3 − 1 − 1 = 1."
+  ]
  },
  {
   "id": "quantumchemistry-d98abd17",
@@ -21980,7 +23378,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 816
-  }
+  },
+  "why": [
+   "",
+   "Radial nodes = n − ℓ − 1 = 3 − 2 − 1 = 0.",
+   "Radial nodes = n − ℓ − 1 = 3 − 2 − 1 = 0."
+  ]
  },
  {
   "id": "quantumchemistry-fa1d1b14",
@@ -22006,7 +23409,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 817
-  }
+  },
+  "why": [
+   "",
+   "Radial nodes = n − ℓ − 1 = 4 − 0 − 1 = 3.",
+   "Radial nodes = n − ℓ − 1 = 4 − 0 − 1 = 3."
+  ]
  },
  {
   "id": "quantumchemistry-db847421",
@@ -22032,7 +23440,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 818
-  }
+  },
+  "why": [
+   "",
+   "Radial nodes = n − ℓ − 1 = 4 − 1 − 1 = 2.",
+   "Radial nodes = n − ℓ − 1 = 4 − 1 − 1 = 2."
+  ]
  },
  {
   "id": "quantumchemistry-00e0ca96",
@@ -22058,7 +23471,12 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 819
-  }
+  },
+  "why": [
+   "",
+   "Radial nodes = n − ℓ − 1 = 4 − 2 − 1 = 1.",
+   "Radial nodes = n − ℓ − 1 = 4 − 2 − 1 = 1."
+  ]
  },
  {
   "id": "quantumchemistry-8de2cd07",
@@ -24197,7 +25615,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 1547
-  }
+  },
+  "why": [
+   "",
+   "Carbon (C) has 4 valence electrons, so its big jump would come between IE 4 and IE 5. Find where this table’s jump is.",
+   "Nitrogen (N) has 5 valence electrons, so its big jump would come between IE 5 and IE 6. Find where this table’s jump is.",
+   "Beryllium (Be) has 2 valence electrons, so its big jump would come between IE 2 and IE 3. Find where this table’s jump is."
+  ]
  },
  {
   "id": "quantumchemistry-c9e811df",
@@ -24279,7 +25703,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 1550
-  }
+  },
+  "why": [
+   "",
+   "Lithium (Li) has 1 valence electron, so its big jump would come between IE 1 and IE 2. Find where this table’s jump is.",
+   "Nitrogen (N) has 5 valence electrons, so its big jump would come between IE 5 and IE 6. Find where this table’s jump is.",
+   "Boron (B) has 3 valence electrons, so its big jump would come between IE 3 and IE 4. Find where this table’s jump is."
+  ]
  },
  {
   "id": "quantumchemistry-67edf4fe",
@@ -24361,7 +25791,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 1553
-  }
+  },
+  "why": [
+   "",
+   "Lithium (Li) has 1 valence electron, so its big jump would come between IE 1 and IE 2. Find where this table’s jump is.",
+   "Carbon (C) has 4 valence electrons, so its big jump would come between IE 4 and IE 5. Find where this table’s jump is.",
+   "Neon (Ne) has 8 valence electrons, so its big jump would come between IE 8 and IE 9. Find where this table’s jump is."
+  ]
  },
  {
   "id": "quantumchemistry-d01b9ac4",
@@ -24443,7 +25879,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 1556
-  }
+  },
+  "why": [
+   "",
+   "Beryllium (Be) has 2 valence electrons, so its big jump would come between IE 2 and IE 3. Find where this table’s jump is.",
+   "Nitrogen (N) has 5 valence electrons, so its big jump would come between IE 5 and IE 6. Find where this table’s jump is.",
+   "Fluorine (F) has 7 valence electrons, so its big jump would come between IE 7 and IE 8. Find where this table’s jump is."
+  ]
  },
  {
   "id": "quantumchemistry-08569e73",
@@ -24525,7 +25967,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 1559
-  }
+  },
+  "why": [
+   "",
+   "Neon (Ne) has 8 valence electrons, so its big jump would come between IE 8 and IE 9. Find where this table’s jump is.",
+   "Carbon (C) has 4 valence electrons, so its big jump would come between IE 4 and IE 5. Find where this table’s jump is.",
+   "Fluorine (F) has 7 valence electrons, so its big jump would come between IE 7 and IE 8. Find where this table’s jump is."
+  ]
  },
  {
   "id": "quantumchemistry-5cc950b3",
@@ -24607,7 +26055,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 1562
-  }
+  },
+  "why": [
+   "",
+   "Carbon (C) has 4 valence electrons, so its big jump would come between IE 4 and IE 5. Find where this table’s jump is.",
+   "Lithium (Li) has 1 valence electron, so its big jump would come between IE 1 and IE 2. Find where this table’s jump is.",
+   "Fluorine (F) has 7 valence electrons, so its big jump would come between IE 7 and IE 8. Find where this table’s jump is."
+  ]
  },
  {
   "id": "quantumchemistry-c5b8d6f4",
@@ -24689,7 +26143,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 1565
-  }
+  },
+  "why": [
+   "",
+   "Neon (Ne) has 8 valence electrons, so its big jump would come between IE 8 and IE 9. Find where this table’s jump is.",
+   "Beryllium (Be) has 2 valence electrons, so its big jump would come between IE 2 and IE 3. Find where this table’s jump is.",
+   "Lithium (Li) has 1 valence electron, so its big jump would come between IE 1 and IE 2. Find where this table’s jump is."
+  ]
  },
  {
   "id": "quantumchemistry-90ea6c16",
@@ -24771,7 +26231,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 1568
-  }
+  },
+  "why": [
+   "",
+   "Boron (B) has 3 valence electrons, so its big jump would come between IE 3 and IE 4. Find where this table’s jump is.",
+   "Oxygen (O) has 6 valence electrons, so its big jump would come between IE 6 and IE 7. Find where this table’s jump is.",
+   "Fluorine (F) has 7 valence electrons, so its big jump would come between IE 7 and IE 8. Find where this table’s jump is."
+  ]
  },
  {
   "id": "quantumchemistry-71c81cb0",
@@ -24853,7 +26319,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 1571
-  }
+  },
+  "why": [
+   "",
+   "Chlorine (Cl) has 7 valence electrons, so its big jump would come between IE 7 and IE 8. Find where this table’s jump is.",
+   "Argon (Ar) has 8 valence electrons, so its big jump would come between IE 8 and IE 9. Find where this table’s jump is.",
+   "Phosphorus (P) has 5 valence electrons, so its big jump would come between IE 5 and IE 6. Find where this table’s jump is."
+  ]
  },
  {
   "id": "quantumchemistry-5514a4db",
@@ -24935,7 +26407,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 1574
-  }
+  },
+  "why": [
+   "",
+   "Phosphorus (P) has 5 valence electrons, so its big jump would come between IE 5 and IE 6. Find where this table’s jump is.",
+   "Argon (Ar) has 8 valence electrons, so its big jump would come between IE 8 and IE 9. Find where this table’s jump is.",
+   "Aluminum (Al) has 3 valence electrons, so its big jump would come between IE 3 and IE 4. Find where this table’s jump is."
+  ]
  },
  {
   "id": "quantumchemistry-457a1186",
@@ -25017,7 +26495,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 1577
-  }
+  },
+  "why": [
+   "",
+   "Silicon (Si) has 4 valence electrons, so its big jump would come between IE 4 and IE 5. Find where this table’s jump is.",
+   "Chlorine (Cl) has 7 valence electrons, so its big jump would come between IE 7 and IE 8. Find where this table’s jump is.",
+   "Phosphorus (P) has 5 valence electrons, so its big jump would come between IE 5 and IE 6. Find where this table’s jump is."
+  ]
  },
  {
   "id": "quantumchemistry-3ce47606",
@@ -25099,7 +26583,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 1580
-  }
+  },
+  "why": [
+   "",
+   "Sodium (Na) has 1 valence electron, so its big jump would come between IE 1 and IE 2. Find where this table’s jump is.",
+   "Aluminum (Al) has 3 valence electrons, so its big jump would come between IE 3 and IE 4. Find where this table’s jump is.",
+   "Argon (Ar) has 8 valence electrons, so its big jump would come between IE 8 and IE 9. Find where this table’s jump is."
+  ]
  },
  {
   "id": "quantumchemistry-145adf21",
@@ -25181,7 +26671,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 1583
-  }
+  },
+  "why": [
+   "",
+   "Sulfur (S) has 6 valence electrons, so its big jump would come between IE 6 and IE 7. Find where this table’s jump is.",
+   "Chlorine (Cl) has 7 valence electrons, so its big jump would come between IE 7 and IE 8. Find where this table’s jump is.",
+   "Silicon (Si) has 4 valence electrons, so its big jump would come between IE 4 and IE 5. Find where this table’s jump is."
+  ]
  },
  {
   "id": "quantumchemistry-63bc3274",
@@ -25263,7 +26759,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 1586
-  }
+  },
+  "why": [
+   "",
+   "Argon (Ar) has 8 valence electrons, so its big jump would come between IE 8 and IE 9. Find where this table’s jump is.",
+   "Aluminum (Al) has 3 valence electrons, so its big jump would come between IE 3 and IE 4. Find where this table’s jump is.",
+   "Magnesium (Mg) has 2 valence electrons, so its big jump would come between IE 2 and IE 3. Find where this table’s jump is."
+  ]
  },
  {
   "id": "quantumchemistry-5b9a19bd",
@@ -25345,7 +26847,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 1589
-  }
+  },
+  "why": [
+   "",
+   "Silicon (Si) has 4 valence electrons, so its big jump would come between IE 4 and IE 5. Find where this table’s jump is.",
+   "Aluminum (Al) has 3 valence electrons, so its big jump would come between IE 3 and IE 4. Find where this table’s jump is.",
+   "Sulfur (S) has 6 valence electrons, so its big jump would come between IE 6 and IE 7. Find where this table’s jump is."
+  ]
  },
  {
   "id": "quantumchemistry-df7a49ce",
@@ -25427,7 +26935,13 @@
    "game": "quantumchemistry",
    "list": "bank",
    "index": 1592
-  }
+  },
+  "why": [
+   "",
+   "Magnesium (Mg) has 2 valence electrons, so its big jump would come between IE 2 and IE 3. Find where this table’s jump is.",
+   "Silicon (Si) has 4 valence electrons, so its big jump would come between IE 4 and IE 5. Find where this table’s jump is.",
+   "Sulfur (S) has 6 valence electrons, so its big jump would come between IE 6 and IE 7. Find where this table’s jump is."
+  ]
  },
  {
   "id": "quantumchemistry-784ee949",
