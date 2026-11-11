@@ -21,6 +21,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Amide: the compound has a C=O attached directly to nitrogen (–CON). This is 3-isopropylheptanamide.",
   "origin": "original",
+  "why": [
+   "",
+   "Aldehyde needs a C=O at the end of a chain with an H on the carbonyl carbon (–CHO). This compound is an amide: it has a C=O attached directly to N (–CON).",
+   "Carboxylic acid needs a –COOH: C=O and –OH on the same carbon. This compound is an amide: it has a C=O attached directly to N (–CON).",
+   "Aromatic ring needs a benzene ring: six carbons with alternating double bonds. This compound is an amide: it has a C=O attached directly to N (–CON)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -49,6 +55,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Aromatic ring: the compound contains a benzene ring. This is propylbenzene.",
   "origin": "original",
+  "why": [
+   "Alkyne needs a C≡C triple bond. This compound is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds.",
+   "Ketone needs a C=O with a carbon on each side. This compound is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds.",
+   "",
+   "Alkane needs only C–C single bonds (and C–H bonds). This compound is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -77,6 +89,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Aldehyde: the compound has a C=O at the end of the chain with an H on the carbonyl carbon (–CHO). This is propanal.",
   "origin": "original",
+  "why": [
+   "Ester needs a C=O attached to –O–C (–COO–). This compound is an aldehyde: it has a C=O at the end of a chain with an H on the carbonyl carbon (–CHO).",
+   "Alkyne needs a C≡C triple bond. This compound is an aldehyde: it has a C=O at the end of a chain with an H on the carbonyl carbon (–CHO).",
+   "Ketone needs a C=O with a carbon on each side. This compound is an aldehyde: it has a C=O at the end of a chain with an H on the carbonyl carbon (–CHO).",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -105,6 +123,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Alkane: the compound has only C–C single bonds (and C–H bonds). This is propane.",
   "origin": "original",
+  "why": [
+   "Alkyl halide needs a halogen (F, Cl, Br or I) on a carbon. This compound is an alkane: it has only C–C single bonds (and C–H bonds).",
+   "Alcohol needs an –OH on a carbon with only single bonds. This compound is an alkane: it has only C–C single bonds (and C–H bonds).",
+   "Alkyne needs a C≡C triple bond. This compound is an alkane: it has only C–C single bonds (and C–H bonds).",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -133,6 +157,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Alkene: the compound has a C=C double bond. This is 3-hexene.",
   "origin": "original",
+  "why": [
+   "Alkyne needs a C≡C triple bond. This compound is an alkene: it has a C=C double bond.",
+   "Alkane needs only C–C single bonds (and C–H bonds). This compound is an alkene: it has a C=C double bond.",
+   "Aromatic ring needs a benzene ring: six carbons with alternating double bonds. This compound is an alkene: it has a C=C double bond.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -161,6 +191,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Alkyl halide: the compound has a halogen (Cl, Br or F) attached to a carbon. This is bromoethane.",
   "origin": "original",
+  "why": [
+   "Ether needs an O between two carbons (C–O–C) and no C=O. This compound is an alkyl halide: it has a halogen (F, Cl, Br or I) on a carbon.",
+   "Alcohol needs an –OH on a carbon with only single bonds. This compound is an alkyl halide: it has a halogen (F, Cl, Br or I) on a carbon.",
+   "",
+   "Amine needs an N bonded only by single bonds to C and H (no C=O on it). This compound is an alkyl halide: it has a halogen (F, Cl, Br or I) on a carbon."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -189,6 +225,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Ketone: the compound has a C=O with a carbon on each side. This is 4-isobutyl-2-octanone.",
   "origin": "original",
+  "why": [
+   "",
+   "Ether needs an O between two carbons (C–O–C) and no C=O. This compound is a ketone: it has a C=O with a carbon on each side.",
+   "Aldehyde needs a C=O at the end of a chain with an H on the carbonyl carbon (–CHO). This compound is a ketone: it has a C=O with a carbon on each side.",
+   "Alcohol needs an –OH on a carbon with only single bonds. This compound is a ketone: it has a C=O with a carbon on each side."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -217,6 +259,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Alcohol: the compound has an –OH on a carbon that has only single bonds. This is 1-hexanol.",
   "origin": "original",
+  "why": [
+   "Ether needs an O between two carbons (C–O–C) and no C=O. This compound is an alcohol: it has an –OH on a carbon with only single bonds.",
+   "Amine needs an N bonded only by single bonds to C and H (no C=O on it). This compound is an alcohol: it has an –OH on a carbon with only single bonds.",
+   "",
+   "Alkyl halide needs a halogen (F, Cl, Br or I) on a carbon. This compound is an alcohol: it has an –OH on a carbon with only single bonds."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -245,6 +293,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Ether: the compound has an oxygen between two carbons (C–O–C). This is 1-methoxypropane.",
   "origin": "original",
+  "why": [
+   "",
+   "Alkene needs a C=C double bond. This compound is an ether: it has an O between two carbons (C–O–C) and no C=O.",
+   "Aldehyde needs a C=O at the end of a chain with an H on the carbonyl carbon (–CHO). This compound is an ether: it has an O between two carbons (C–O–C) and no C=O.",
+   "Ester needs a C=O attached to –O–C (–COO–). This compound is an ether: it has an O between two carbons (C–O–C) and no C=O."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -273,6 +327,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Alkyne: the compound has a C≡C triple bond. This is 6-ethyl-5-methyl-2-octyne.",
   "origin": "original",
+  "why": [
+   "Alkene needs a C=C double bond. This compound is an alkyne: it has a C≡C triple bond.",
+   "Ether needs an O between two carbons (C–O–C) and no C=O. This compound is an alkyne: it has a C≡C triple bond.",
+   "Alkane needs only C–C single bonds (and C–H bonds). This compound is an alkyne: it has a C≡C triple bond.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -301,6 +361,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Ester: the compound has a C=O attached to –O–C (–COO–). This is propyl 3-tert-butyl-5-methylhexanoate.",
   "origin": "original",
+  "why": [
+   "Aromatic ring needs a benzene ring: six carbons with alternating double bonds. This compound is an ester: it has a C=O attached to –O–C (–COO–).",
+   "Ketone needs a C=O with a carbon on each side. This compound is an ester: it has a C=O attached to –O–C (–COO–).",
+   "",
+   "Carboxylic acid needs a –COOH: C=O and –OH on the same carbon. This compound is an ester: it has a C=O attached to –O–C (–COO–)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -329,6 +395,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Carboxylic acid: the compound has a –COOH group: C=O and –OH on the same carbon. This is 2-methylheptanoic acid.",
   "origin": "original",
+  "why": [
+   "Alkene needs a C=C double bond. This compound is a carboxylic acid: it has a –COOH: C=O and –OH on the same carbon.",
+   "",
+   "Ester needs a C=O attached to –O–C (–COO–). This compound is a carboxylic acid: it has a –COOH: C=O and –OH on the same carbon.",
+   "Aldehyde needs a C=O at the end of a chain with an H on the carbonyl carbon (–CHO). This compound is a carboxylic acid: it has a –COOH: C=O and –OH on the same carbon."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -357,6 +429,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Amine: the compound has a nitrogen bonded only by single bonds to carbon (and H). This is 5-ethyl-5-methyl-3-heptanamine.",
   "origin": "original",
+  "why": [
+   "Ether needs an O between two carbons (C–O–C) and no C=O. This compound is an amine: it has an N bonded only by single bonds to C and H (no C=O on it).",
+   "Alkyl halide needs a halogen (F, Cl, Br or I) on a carbon. This compound is an amine: it has an N bonded only by single bonds to C and H (no C=O on it).",
+   "",
+   "Alcohol needs an –OH on a carbon with only single bonds. This compound is an amine: it has an N bonded only by single bonds to C and H (no C=O on it)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -385,6 +463,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Ether: the compound has an oxygen between two carbons (C–O–C). This is 1-ethoxypropane.",
   "origin": "original",
+  "why": [
+   "Ester needs a C=O attached to –O–C (–COO–). This compound is an ether: it has an O between two carbons (C–O–C) and no C=O.",
+   "",
+   "Aldehyde needs a C=O at the end of a chain with an H on the carbonyl carbon (–CHO). This compound is an ether: it has an O between two carbons (C–O–C) and no C=O.",
+   "Alcohol needs an –OH on a carbon with only single bonds. This compound is an ether: it has an O between two carbons (C–O–C) and no C=O."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -413,6 +497,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Alkane: the compound has only C–C single bonds (and C–H bonds). This is 5-butyl-5-methyldecane.",
   "origin": "original",
+  "why": [
+   "Alkyne needs a C≡C triple bond. This compound is an alkane: it has only C–C single bonds (and C–H bonds).",
+   "Alkyl halide needs a halogen (F, Cl, Br or I) on a carbon. This compound is an alkane: it has only C–C single bonds (and C–H bonds).",
+   "Alkene needs a C=C double bond. This compound is an alkane: it has only C–C single bonds (and C–H bonds).",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -441,6 +531,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Alkene: the compound has a C=C double bond. This is 4-sec-butyl-2-methyl-2-octene.",
   "origin": "original",
+  "why": [
+   "Alkyne needs a C≡C triple bond. This compound is an alkene: it has a C=C double bond.",
+   "Alkane needs only C–C single bonds (and C–H bonds). This compound is an alkene: it has a C=C double bond.",
+   "Ketone needs a C=O with a carbon on each side. This compound is an alkene: it has a C=C double bond.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -469,6 +565,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Carboxylic acid: the compound has a –COOH group: C=O and –OH on the same carbon. This is ethanoic acid.",
   "origin": "original",
+  "why": [
+   "Aldehyde needs a C=O at the end of a chain with an H on the carbonyl carbon (–CHO). This compound is a carboxylic acid: it has a –COOH: C=O and –OH on the same carbon.",
+   "Amide needs a C=O attached directly to N (–CON). This compound is a carboxylic acid: it has a –COOH: C=O and –OH on the same carbon.",
+   "",
+   "Ketone needs a C=O with a carbon on each side. This compound is a carboxylic acid: it has a –COOH: C=O and –OH on the same carbon."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -497,6 +599,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Ketone: the compound has a C=O with a carbon on each side. This is 3-hexanone.",
   "origin": "original",
+  "why": [
+   "Carboxylic acid needs a –COOH: C=O and –OH on the same carbon. This compound is a ketone: it has a C=O with a carbon on each side.",
+   "Ester needs a C=O attached to –O–C (–COO–). This compound is a ketone: it has a C=O with a carbon on each side.",
+   "Aldehyde needs a C=O at the end of a chain with an H on the carbonyl carbon (–CHO). This compound is a ketone: it has a C=O with a carbon on each side.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -525,6 +633,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Aromatic ring: the compound contains a benzene ring. This is toluene.",
   "origin": "original",
+  "why": [
+   "Amide needs a C=O attached directly to N (–CON). This compound is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds.",
+   "Alkene needs a C=C double bond. This compound is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds.",
+   "Alkyne needs a C≡C triple bond. This compound is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -553,6 +667,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Ester: the compound has a C=O attached to –O–C (–COO–). This is methyl 3-isopropyloctanoate.",
   "origin": "original",
+  "why": [
+   "Aromatic ring needs a benzene ring: six carbons with alternating double bonds. This compound is an ester: it has a C=O attached to –O–C (–COO–).",
+   "",
+   "Ketone needs a C=O with a carbon on each side. This compound is an ester: it has a C=O attached to –O–C (–COO–).",
+   "Ether needs an O between two carbons (C–O–C) and no C=O. This compound is an ester: it has a C=O attached to –O–C (–COO–)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -581,6 +701,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Alkyl halide: the compound has a halogen (Cl, Br or F) attached to a carbon. This is 2-chlorobutane.",
   "origin": "original",
+  "why": [
+   "Alkane needs only C–C single bonds (and C–H bonds). This compound is an alkyl halide: it has a halogen (F, Cl, Br or I) on a carbon.",
+   "Amine needs an N bonded only by single bonds to C and H (no C=O on it). This compound is an alkyl halide: it has a halogen (F, Cl, Br or I) on a carbon.",
+   "",
+   "Alkyne needs a C≡C triple bond. This compound is an alkyl halide: it has a halogen (F, Cl, Br or I) on a carbon."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -609,6 +735,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Alkyne: the compound has a C≡C triple bond. This is propyne.",
   "origin": "original",
+  "why": [
+   "",
+   "Amide needs a C=O attached directly to N (–CON). This compound is an alkyne: it has a C≡C triple bond.",
+   "Alkene needs a C=C double bond. This compound is an alkyne: it has a C≡C triple bond.",
+   "Aromatic ring needs a benzene ring: six carbons with alternating double bonds. This compound is an alkyne: it has a C≡C triple bond."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -637,6 +769,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Alcohol: the compound has an –OH on a carbon that has only single bonds. This is 2-butanol.",
   "origin": "original",
+  "why": [
+   "",
+   "Carboxylic acid needs a –COOH: C=O and –OH on the same carbon. This compound is an alcohol: it has an –OH on a carbon with only single bonds.",
+   "Alkene needs a C=C double bond. This compound is an alcohol: it has an –OH on a carbon with only single bonds.",
+   "Ketone needs a C=O with a carbon on each side. This compound is an alcohol: it has an –OH on a carbon with only single bonds."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -665,6 +803,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Amine: the compound has a nitrogen bonded only by single bonds to carbon (and H). This is dimethylpropylamine.",
   "origin": "original",
+  "why": [
+   "Alkyne needs a C≡C triple bond. This compound is an amine: it has an N bonded only by single bonds to C and H (no C=O on it).",
+   "Amide needs a C=O attached directly to N (–CON). This compound is an amine: it has an N bonded only by single bonds to C and H (no C=O on it).",
+   "Ether needs an O between two carbons (C–O–C) and no C=O. This compound is an amine: it has an N bonded only by single bonds to C and H (no C=O on it).",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -693,6 +837,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Amide: the compound has a C=O attached directly to nitrogen (–CON). This is 2-methylpentanamide.",
   "origin": "original",
+  "why": [
+   "",
+   "Aldehyde needs a C=O at the end of a chain with an H on the carbonyl carbon (–CHO). This compound is an amide: it has a C=O attached directly to N (–CON).",
+   "Ketone needs a C=O with a carbon on each side. This compound is an amide: it has a C=O attached directly to N (–CON).",
+   "Amine needs an N bonded only by single bonds to C and H (no C=O on it). This compound is an amide: it has a C=O attached directly to N (–CON)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -721,6 +871,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Ketone: the compound has a C=O with a carbon on each side. This is 2-butanone.",
   "origin": "original",
+  "why": [
+   "Alcohol needs an –OH on a carbon with only single bonds. This compound is a ketone: it has a C=O with a carbon on each side.",
+   "",
+   "Aldehyde needs a C=O at the end of a chain with an H on the carbonyl carbon (–CHO). This compound is a ketone: it has a C=O with a carbon on each side.",
+   "Ether needs an O between two carbons (C–O–C) and no C=O. This compound is a ketone: it has a C=O with a carbon on each side."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -749,6 +905,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Alkyne: the compound has a C≡C triple bond. This is propyne.",
   "origin": "original",
+  "why": [
+   "Ether needs an O between two carbons (C–O–C) and no C=O. This compound is an alkyne: it has a C≡C triple bond.",
+   "",
+   "Alkene needs a C=C double bond. This compound is an alkyne: it has a C≡C triple bond.",
+   "Aromatic ring needs a benzene ring: six carbons with alternating double bonds. This compound is an alkyne: it has a C≡C triple bond."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -777,6 +939,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Alkyl halide: the compound has a halogen (Cl, Br or F) attached to a carbon. This is 3-bromopentane.",
   "origin": "original",
+  "why": [
+   "Alcohol needs an –OH on a carbon with only single bonds. This compound is an alkyl halide: it has a halogen (F, Cl, Br or I) on a carbon.",
+   "Ketone needs a C=O with a carbon on each side. This compound is an alkyl halide: it has a halogen (F, Cl, Br or I) on a carbon.",
+   "",
+   "Amine needs an N bonded only by single bonds to C and H (no C=O on it). This compound is an alkyl halide: it has a halogen (F, Cl, Br or I) on a carbon."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -805,6 +973,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Carboxylic acid: the compound has a –COOH group: C=O and –OH on the same carbon. This is 4-ethylnonanoic acid.",
   "origin": "original",
+  "why": [
+   "Alcohol needs an –OH on a carbon with only single bonds. This compound is a carboxylic acid: it has a –COOH: C=O and –OH on the same carbon.",
+   "Ether needs an O between two carbons (C–O–C) and no C=O. This compound is a carboxylic acid: it has a –COOH: C=O and –OH on the same carbon.",
+   "Ester needs a C=O attached to –O–C (–COO–). This compound is a carboxylic acid: it has a –COOH: C=O and –OH on the same carbon.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -833,6 +1007,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Amide: the compound has a C=O attached directly to nitrogen (–CON). This is 3-tert-butylhexanamide.",
   "origin": "original",
+  "why": [
+   "Ester needs a C=O attached to –O–C (–COO–). This compound is an amide: it has a C=O attached directly to N (–CON).",
+   "",
+   "Carboxylic acid needs a –COOH: C=O and –OH on the same carbon. This compound is an amide: it has a C=O attached directly to N (–CON).",
+   "Aromatic ring needs a benzene ring: six carbons with alternating double bonds. This compound is an amide: it has a C=O attached directly to N (–CON)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -861,6 +1041,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Ether: the compound has an oxygen between two carbons (C–O–C). This is 1-propoxybutane.",
   "origin": "original",
+  "why": [
+   "",
+   "Alkane needs only C–C single bonds (and C–H bonds). This compound is an ether: it has an O between two carbons (C–O–C) and no C=O.",
+   "Ester needs a C=O attached to –O–C (–COO–). This compound is an ether: it has an O between two carbons (C–O–C) and no C=O.",
+   "Alcohol needs an –OH on a carbon with only single bonds. This compound is an ether: it has an O between two carbons (C–O–C) and no C=O."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -889,6 +1075,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Amine: the compound has a nitrogen bonded only by single bonds to carbon (and H). This is dimethylamine.",
   "origin": "original",
+  "why": [
+   "Alkene needs a C=C double bond. This compound is an amine: it has an N bonded only by single bonds to C and H (no C=O on it).",
+   "Ether needs an O between two carbons (C–O–C) and no C=O. This compound is an amine: it has an N bonded only by single bonds to C and H (no C=O on it).",
+   "",
+   "Amide needs a C=O attached directly to N (–CON). This compound is an amine: it has an N bonded only by single bonds to C and H (no C=O on it)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -917,6 +1109,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Alcohol: the compound has an –OH on a carbon that has only single bonds. This is 3-hexanol.",
   "origin": "original",
+  "why": [
+   "Aldehyde needs a C=O at the end of a chain with an H on the carbonyl carbon (–CHO). This compound is an alcohol: it has an –OH on a carbon with only single bonds.",
+   "",
+   "Alkyne needs a C≡C triple bond. This compound is an alcohol: it has an –OH on a carbon with only single bonds.",
+   "Ketone needs a C=O with a carbon on each side. This compound is an alcohol: it has an –OH on a carbon with only single bonds."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -945,6 +1143,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Aldehyde: the compound has a C=O at the end of the chain with an H on the carbonyl carbon (–CHO). This is 3-tert-butylnonanal.",
   "origin": "original",
+  "why": [
+   "Alkane needs only C–C single bonds (and C–H bonds). This compound is an aldehyde: it has a C=O at the end of a chain with an H on the carbonyl carbon (–CHO).",
+   "",
+   "Alcohol needs an –OH on a carbon with only single bonds. This compound is an aldehyde: it has a C=O at the end of a chain with an H on the carbonyl carbon (–CHO).",
+   "Carboxylic acid needs a –COOH: C=O and –OH on the same carbon. This compound is an aldehyde: it has a C=O at the end of a chain with an H on the carbonyl carbon (–CHO)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -973,6 +1177,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Ester: the compound has a C=O attached to –O–C (–COO–). This is propyl butanoate.",
   "origin": "original",
+  "why": [
+   "Amide needs a C=O attached directly to N (–CON). This compound is an ester: it has a C=O attached to –O–C (–COO–).",
+   "",
+   "Carboxylic acid needs a –COOH: C=O and –OH on the same carbon. This compound is an ester: it has a C=O attached to –O–C (–COO–).",
+   "Ketone needs a C=O with a carbon on each side. This compound is an ester: it has a C=O attached to –O–C (–COO–)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -1001,6 +1211,12 @@
   "hint": "Look for the key atoms: C=O (carbonyl), O, N, halogens or multiple bonds. Then check what is attached to them.",
   "explain": "Alkene: the compound has a C=C double bond. This is 2-hexene.",
   "origin": "original",
+  "why": [
+   "Alkane needs only C–C single bonds (and C–H bonds). This compound is an alkene: it has a C=C double bond.",
+   "Alkyl halide needs a halogen (F, Cl, Br or I) on a carbon. This compound is an alkene: it has a C=C double bond.",
+   "Alkyne needs a C≡C triple bond. This compound is an alkene: it has a C=C double bond.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:spot",
@@ -1027,6 +1243,11 @@
   "hint": "Count the number of carbon groups attached directly to the nitrogen.",
   "explain": "Count the carbon groups attached to nitrogen: 1. So this is a primary (1°) amine (2-propanamine).",
   "origin": "original",
+  "why": [
+   "",
+   "Secondary means 2 carbons. For an amine, count the carbon groups bonded to the N: here there is 1.",
+   "Tertiary means 3 carbons. For an amine, count the carbon groups bonded to the N: here there is 1."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1053,6 +1274,11 @@
   "hint": "Find the carbon attached to the –OH, then count how many other carbons it is bonded to.",
   "explain": "Look at the carbon that carries the –OH. It is bonded to 2 other carbons, so this is a secondary (2°) alcohol.",
   "origin": "original",
+  "why": [
+   "Primary means 1 carbon. For an alcohol, count the carbons bonded to the carbon that carries the –OH: here there are 2.",
+   "",
+   "Tertiary means 3 carbons. For an alcohol, count the carbons bonded to the carbon that carries the –OH: here there are 2."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1079,6 +1305,11 @@
   "hint": "For an amide, count the carbon groups on nitrogen, not counting the carbonyl carbon (0 = primary, 1 = secondary, 2 = tertiary).",
   "explain": "Count the carbon groups on the nitrogen, not counting the carbonyl carbon: 2. N has 2 alkyl groups, so this is a tertiary (3°) amide (N,N-dimethylethanamide).",
   "origin": "original",
+  "why": [
+   "A primary amide has no carbon groups on N (–NH2). For an amide, count the carbon groups on the N, not counting the carbonyl carbon: here there are 2.",
+   "A secondary amide has 1 carbon group on N (–NH–). For an amide, count the carbon groups on the N, not counting the carbonyl carbon: here there are 2.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1105,6 +1336,11 @@
   "hint": "Find the carbon attached to the –OH, then count how many other carbons it is bonded to.",
   "explain": "Look at the carbon that carries the –OH. It is bonded to 1 other carbon, so this is a primary (1°) alcohol.",
   "origin": "original",
+  "why": [
+   "",
+   "Secondary means 2 carbons. For an alcohol, count the carbons bonded to the carbon that carries the –OH: here there is 1.",
+   "Tertiary means 3 carbons. For an alcohol, count the carbons bonded to the carbon that carries the –OH: here there is 1."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1131,6 +1367,11 @@
   "hint": "Count the number of carbon groups attached directly to the nitrogen.",
   "explain": "Count the carbon groups attached to nitrogen: 3. So this is a tertiary (3°) amine (dimethylpropylamine).",
   "origin": "original",
+  "why": [
+   "Primary means 1 carbon. For an amine, count the carbon groups bonded to the N: here there are 3.",
+   "Secondary means 2 carbons. For an amine, count the carbon groups bonded to the N: here there are 3.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1157,6 +1398,11 @@
   "hint": "For an amide, count the carbon groups on nitrogen, not counting the carbonyl carbon (0 = primary, 1 = secondary, 2 = tertiary).",
   "explain": "Count the carbon groups on the nitrogen, not counting the carbonyl carbon: 0. Only H atoms are on N, so this is a primary (1°) amide (methanamide).",
   "origin": "original",
+  "why": [
+   "",
+   "A secondary amide has 1 carbon group on N (–NH–). For an amide, count the carbon groups on the N, not counting the carbonyl carbon: here there are 0.",
+   "A tertiary amide has 2 carbon groups on N. For an amide, count the carbon groups on the N, not counting the carbonyl carbon: here there are 0."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1183,6 +1429,11 @@
   "hint": "For an amide, count the carbon groups on nitrogen, not counting the carbonyl carbon (0 = primary, 1 = secondary, 2 = tertiary).",
   "explain": "Count the carbon groups on the nitrogen, not counting the carbonyl carbon: 1. N has 1 alkyl group, so this is a secondary (2°) amide (N-methylethanamide).",
   "origin": "original",
+  "why": [
+   "A primary amide has no carbon groups on N (–NH2). For an amide, count the carbon groups on the N, not counting the carbonyl carbon: here there is 1.",
+   "",
+   "A tertiary amide has 2 carbon groups on N. For an amide, count the carbon groups on the N, not counting the carbonyl carbon: here there is 1."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1209,6 +1460,11 @@
   "hint": "Count the number of carbon groups attached directly to the nitrogen.",
   "explain": "Count the carbon groups attached to nitrogen: 2. So this is a secondary (2°) amine (ethylmethylamine).",
   "origin": "original",
+  "why": [
+   "Primary means 1 carbon. For an amine, count the carbon groups bonded to the N: here there are 2.",
+   "",
+   "Tertiary means 3 carbons. For an amine, count the carbon groups bonded to the N: here there are 2."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1235,6 +1491,11 @@
   "hint": "Find the carbon attached to the –OH, then count how many other carbons it is bonded to.",
   "explain": "Look at the carbon that carries the –OH. It is bonded to 3 other carbons, so this is a tertiary (3°) alcohol.",
   "origin": "original",
+  "why": [
+   "Primary means 1 carbon. For an alcohol, count the carbons bonded to the carbon that carries the –OH: here there are 3.",
+   "Secondary means 2 carbons. For an alcohol, count the carbons bonded to the carbon that carries the –OH: here there are 3.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1261,6 +1522,11 @@
   "hint": "For an amide, count the carbon groups on nitrogen, not counting the carbonyl carbon (0 = primary, 1 = secondary, 2 = tertiary).",
   "explain": "Count the carbon groups on the nitrogen, not counting the carbonyl carbon: 1. N has 1 alkyl group, so this is a secondary (2°) amide (N-ethylethanamide).",
   "origin": "original",
+  "why": [
+   "A primary amide has no carbon groups on N (–NH2). For an amide, count the carbon groups on the N, not counting the carbonyl carbon: here there is 1.",
+   "",
+   "A tertiary amide has 2 carbon groups on N. For an amide, count the carbon groups on the N, not counting the carbonyl carbon: here there is 1."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1287,6 +1553,11 @@
   "hint": "Count the number of carbon groups attached directly to the nitrogen.",
   "explain": "Count the carbon groups attached to nitrogen: 2. So this is a secondary (2°) amine (methylpropylamine).",
   "origin": "original",
+  "why": [
+   "Primary means 1 carbon. For an amine, count the carbon groups bonded to the N: here there are 2.",
+   "",
+   "Tertiary means 3 carbons. For an amine, count the carbon groups bonded to the N: here there are 2."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1313,6 +1584,11 @@
   "hint": "For an amide, count the carbon groups on nitrogen, not counting the carbonyl carbon (0 = primary, 1 = secondary, 2 = tertiary).",
   "explain": "Count the carbon groups on the nitrogen, not counting the carbonyl carbon: 0. Only H atoms are on N, so this is a primary (1°) amide (ethanamide).",
   "origin": "original",
+  "why": [
+   "",
+   "A secondary amide has 1 carbon group on N (–NH–). For an amide, count the carbon groups on the N, not counting the carbonyl carbon: here there are 0.",
+   "A tertiary amide has 2 carbon groups on N. For an amide, count the carbon groups on the N, not counting the carbonyl carbon: here there are 0."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1339,6 +1615,11 @@
   "hint": "For an amide, count the carbon groups on nitrogen, not counting the carbonyl carbon (0 = primary, 1 = secondary, 2 = tertiary).",
   "explain": "Count the carbon groups on the nitrogen, not counting the carbonyl carbon: 2. N has 2 alkyl groups, so this is a tertiary (3°) amide (N,N-dimethylbutanamide).",
   "origin": "original",
+  "why": [
+   "A primary amide has no carbon groups on N (–NH2). For an amide, count the carbon groups on the N, not counting the carbonyl carbon: here there are 2.",
+   "A secondary amide has 1 carbon group on N (–NH–). For an amide, count the carbon groups on the N, not counting the carbonyl carbon: here there are 2.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1365,6 +1646,11 @@
   "hint": "Count the number of carbon groups attached directly to the nitrogen.",
   "explain": "Count the carbon groups attached to nitrogen: 1. So this is a primary (1°) amine (4-propyl-1-octanamine).",
   "origin": "original",
+  "why": [
+   "",
+   "Secondary means 2 carbons. For an amine, count the carbon groups bonded to the N: here there is 1.",
+   "Tertiary means 3 carbons. For an amine, count the carbon groups bonded to the N: here there is 1."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1391,6 +1677,11 @@
   "hint": "Count the number of carbon groups attached directly to the nitrogen.",
   "explain": "Count the carbon groups attached to nitrogen: 3. So this is a tertiary (3°) amine (trimethylamine).",
   "origin": "original",
+  "why": [
+   "Primary means 1 carbon. For an amine, count the carbon groups bonded to the N: here there are 3.",
+   "Secondary means 2 carbons. For an amine, count the carbon groups bonded to the N: here there are 3.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1417,6 +1708,11 @@
   "hint": "Find the carbon attached to the –OH, then count how many other carbons it is bonded to.",
   "explain": "Look at the carbon that carries the –OH. It is bonded to 2 other carbons, so this is a secondary (2°) alcohol.",
   "origin": "original",
+  "why": [
+   "Primary means 1 carbon. For an alcohol, count the carbons bonded to the carbon that carries the –OH: here there are 2.",
+   "",
+   "Tertiary means 3 carbons. For an alcohol, count the carbons bonded to the carbon that carries the –OH: here there are 2."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1443,6 +1739,11 @@
   "hint": "Find the carbon attached to the –OH, then count how many other carbons it is bonded to.",
   "explain": "Look at the carbon that carries the –OH. It is bonded to 3 other carbons, so this is a tertiary (3°) alcohol.",
   "origin": "original",
+  "why": [
+   "Primary means 1 carbon. For an alcohol, count the carbons bonded to the carbon that carries the –OH: here there are 3.",
+   "Secondary means 2 carbons. For an alcohol, count the carbons bonded to the carbon that carries the –OH: here there are 3.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1469,6 +1770,11 @@
   "hint": "For an amide, count the carbon groups on nitrogen, not counting the carbonyl carbon (0 = primary, 1 = secondary, 2 = tertiary).",
   "explain": "Count the carbon groups on the nitrogen, not counting the carbonyl carbon: 0. Only H atoms are on N, so this is a primary (1°) amide (butanamide).",
   "origin": "original",
+  "why": [
+   "",
+   "A secondary amide has 1 carbon group on N (–NH–). For an amide, count the carbon groups on the N, not counting the carbonyl carbon: here there are 0.",
+   "A tertiary amide has 2 carbon groups on N. For an amide, count the carbon groups on the N, not counting the carbonyl carbon: here there are 0."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1495,6 +1801,11 @@
   "hint": "Count the number of carbon groups attached directly to the nitrogen.",
   "explain": "Count the carbon groups attached to nitrogen: 2. So this is a secondary (2°) amine (methylpropylamine).",
   "origin": "original",
+  "why": [
+   "Primary means 1 carbon. For an amine, count the carbon groups bonded to the N: here there are 2.",
+   "",
+   "Tertiary means 3 carbons. For an amine, count the carbon groups bonded to the N: here there are 2."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1521,6 +1832,11 @@
   "hint": "Count the number of carbon groups attached directly to the nitrogen.",
   "explain": "Count the carbon groups attached to nitrogen: 1. So this is a primary (1°) amine (1-propanamine).",
   "origin": "original",
+  "why": [
+   "",
+   "Secondary means 2 carbons. For an amine, count the carbon groups bonded to the N: here there is 1.",
+   "Tertiary means 3 carbons. For an amine, count the carbon groups bonded to the N: here there is 1."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1547,6 +1863,11 @@
   "hint": "Find the carbon attached to the –OH, then count how many other carbons it is bonded to.",
   "explain": "Look at the carbon that carries the –OH. It is bonded to 2 other carbons, so this is a secondary (2°) alcohol.",
   "origin": "original",
+  "why": [
+   "Primary means 1 carbon. For an alcohol, count the carbons bonded to the carbon that carries the –OH: here there are 2.",
+   "",
+   "Tertiary means 3 carbons. For an alcohol, count the carbons bonded to the carbon that carries the –OH: here there are 2."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1573,6 +1894,11 @@
   "hint": "For an amide, count the carbon groups on nitrogen, not counting the carbonyl carbon (0 = primary, 1 = secondary, 2 = tertiary).",
   "explain": "Count the carbon groups on the nitrogen, not counting the carbonyl carbon: 1. N has 1 alkyl group, so this is a secondary (2°) amide (N-methylbutanamide).",
   "origin": "original",
+  "why": [
+   "A primary amide has no carbon groups on N (–NH2). For an amide, count the carbon groups on the N, not counting the carbonyl carbon: here there is 1.",
+   "",
+   "A tertiary amide has 2 carbon groups on N. For an amide, count the carbon groups on the N, not counting the carbonyl carbon: here there is 1."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1599,6 +1925,11 @@
   "hint": "Count the number of carbon groups attached directly to the nitrogen.",
   "explain": "Count the carbon groups attached to nitrogen: 3. So this is a tertiary (3°) amine (dimethylpropylamine).",
   "origin": "original",
+  "why": [
+   "Primary means 1 carbon. For an amine, count the carbon groups bonded to the N: here there are 3.",
+   "Secondary means 2 carbons. For an amine, count the carbon groups bonded to the N: here there are 3.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1625,6 +1956,11 @@
   "hint": "Count the number of carbon groups attached directly to the nitrogen.",
   "explain": "Count the carbon groups attached to nitrogen: 1. So this is a primary (1°) amine (5-methyl-4-octanamine).",
   "origin": "original",
+  "why": [
+   "",
+   "Secondary means 2 carbons. For an amine, count the carbon groups bonded to the N: here there is 1.",
+   "Tertiary means 3 carbons. For an amine, count the carbon groups bonded to the N: here there is 1."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1651,6 +1987,11 @@
   "hint": "Count the number of carbon groups attached directly to the nitrogen.",
   "explain": "Count the carbon groups attached to nitrogen: 2. So this is a secondary (2°) amine (diethylamine).",
   "origin": "original",
+  "why": [
+   "Primary means 1 carbon. For an amine, count the carbon groups bonded to the N: here there are 2.",
+   "",
+   "Tertiary means 3 carbons. For an amine, count the carbon groups bonded to the N: here there are 2."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1677,6 +2018,11 @@
   "hint": "Find the carbon attached to the –OH, then count how many other carbons it is bonded to.",
   "explain": "Look at the carbon that carries the –OH. It is bonded to 3 other carbons, so this is a tertiary (3°) alcohol.",
   "origin": "original",
+  "why": [
+   "Primary means 1 carbon. For an alcohol, count the carbons bonded to the carbon that carries the –OH: here there are 3.",
+   "Secondary means 2 carbons. For an alcohol, count the carbons bonded to the carbon that carries the –OH: here there are 3.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1703,6 +2049,11 @@
   "hint": "Find the carbon attached to the –OH, then count how many other carbons it is bonded to.",
   "explain": "Look at the carbon that carries the –OH. It is bonded to 3 other carbons, so this is a tertiary (3°) alcohol.",
   "origin": "original",
+  "why": [
+   "Primary means 1 carbon. For an alcohol, count the carbons bonded to the carbon that carries the –OH: here there are 3.",
+   "Secondary means 2 carbons. For an alcohol, count the carbons bonded to the carbon that carries the –OH: here there are 3.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1729,6 +2080,11 @@
   "hint": "Count the number of carbon groups attached directly to the nitrogen.",
   "explain": "Count the carbon groups attached to nitrogen: 2. So this is a secondary (2°) amine (ethylpropylamine).",
   "origin": "original",
+  "why": [
+   "Primary means 1 carbon. For an amine, count the carbon groups bonded to the N: here there are 2.",
+   "",
+   "Tertiary means 3 carbons. For an amine, count the carbon groups bonded to the N: here there are 2."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1755,6 +2111,11 @@
   "hint": "Count the number of carbon groups attached directly to the nitrogen.",
   "explain": "Count the carbon groups attached to nitrogen: 3. So this is a tertiary (3°) amine (ethyldimethylamine).",
   "origin": "original",
+  "why": [
+   "Primary means 1 carbon. For an amine, count the carbon groups bonded to the N: here there are 3.",
+   "Secondary means 2 carbons. For an amine, count the carbon groups bonded to the N: here there are 3.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1781,6 +2142,11 @@
   "hint": "Find the carbon attached to the –OH, then count how many other carbons it is bonded to.",
   "explain": "Look at the carbon that carries the –OH. It is bonded to 3 other carbons, so this is a tertiary (3°) alcohol.",
   "origin": "original",
+  "why": [
+   "Primary means 1 carbon. For an alcohol, count the carbons bonded to the carbon that carries the –OH: here there are 3.",
+   "Secondary means 2 carbons. For an alcohol, count the carbons bonded to the carbon that carries the –OH: here there are 3.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:classify",
@@ -1808,6 +2174,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "2-pentyne. Use the longest chain with the C≡C, number from the end nearest the triple bond, and use -yne.",
   "origin": "original",
+  "why": [
+   "The ending -ane names an alkane (only C–C single bonds (and C–H bonds)). This compound is an alkyne.",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   "The ending -ene names an alkene (a C=C double bond). This compound is an alkyne.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -1835,6 +2207,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "hexanoic acid. Count all carbons including the –COOH carbon and change -e to -oic acid.",
   "origin": "original",
+  "why": [
+   "",
+   "The ending -oate names an ester (a C=O attached to –O–C (–COO–)). This compound is a carboxylic acid.",
+   "Pent- means a 5-carbon main chain. The longest chain that includes the functional group has 6 carbons (hex-).",
+   "The ending -al names an aldehyde (a C=O at the end of a chain with an H on the carbonyl carbon (–CHO)). This compound is a carboxylic acid."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -1862,6 +2240,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "2-methyl-2-propanol. Use the longest chain that has the –OH, number from the end nearest the –OH, and change -e to -ol (branches such as methyl go in front).",
   "origin": "original",
+  "why": [
+   "",
+   "The ending -one names a ketone (a C=O with a carbon on each side). This compound is an alcohol.",
+   "The name leaves out the methyl branch.",
+   "The name leaves out the methyl branch."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -1889,6 +2273,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "pentane. Count the carbons in the chain and add -ane.",
   "origin": "original",
+  "why": [
+   "A halo prefix names an alkyl halide (a halogen (F, Cl, Br or I) on a carbon). This compound is an alkane.",
+   "",
+   "Hex- means a 6-carbon main chain. The longest chain has 5 carbons (pent-).",
+   "The ending -ol names an alcohol (an –OH on a carbon with only single bonds). This compound is an alkane."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -1916,6 +2306,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "1-butene. Use the longest chain with the C=C, number from the end nearest the double bond, and use -ene.",
   "origin": "original",
+  "why": [
+   "The ending -ane names an alkane (only C–C single bonds (and C–H bonds)). This compound is an alkene.",
+   "Prop- means a 3-carbon main chain. The longest chain that includes the functional group has 4 carbons (but-).",
+   "",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -1943,6 +2339,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "1-methoxypropane. Name the shorter group as an alkoxy prefix (methoxy, ethoxy) on the longer alkane chain. Common name: methyl propyl ether.",
   "origin": "original",
+  "why": [
+   "The ending -ol names an alcohol (an –OH on a carbon with only single bonds). This compound is an ether.",
+   "The ending -ol names an alcohol (an –OH on a carbon with only single bonds). This compound is an ether.",
+   "But- means a 4-carbon main chain. The longest chain that includes the functional group has 3 carbons (prop-).",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -1970,6 +2372,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "3-hexanol. Use the longest chain that has the –OH, number from the end nearest the –OH, and change -e to -ol (branches such as methyl go in front).",
   "origin": "original",
+  "why": [
+   "The ending -one names a ketone (a C=O with a carbon on each side). This compound is an alcohol.",
+   "",
+   "The ending -amine names an amine (an N bonded only by single bonds to C and H (no C=O on it)). This compound is an alcohol.",
+   "Pent- means a 5-carbon main chain. The longest chain that includes the functional group has 6 carbons (hex-)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -1997,6 +2405,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "N,N-dimethylmethanamide. Count the carbons in the acyl part and change -e to -amide; groups on N are written N-.",
   "origin": "original",
+  "why": [
+   "This amide has carbon groups on its N, written with N- in front (N,N-dimethyl).",
+   "",
+   "Check the groups on the N: this amide has N,N-dimethyl, not N-methyl.",
+   "Eth- means a 2-carbon main chain. The longest chain that includes the functional group has 1 carbon (meth-)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2024,6 +2438,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "2-butanamine. Name the alkyl groups on N in alphabetical order, then add -amine (primary amines may also use -anamine with a number).",
   "origin": "original",
+  "why": [
+   "The ending -ol names an alcohol (an –OH on a carbon with only single bonds). This compound is an amine.",
+   "Prop- means a 3-carbon main chain. The longest chain that includes the functional group has 4 carbons (but-).",
+   "",
+   "Pent- means a 5-carbon main chain. The longest chain that includes the functional group has 4 carbons (but-)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2051,6 +2471,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "2-hexanone. Number from the end nearest the C=O and change -e to -one.",
   "origin": "original",
+  "why": [
+   "The ending -al names an aldehyde (a C=O at the end of a chain with an H on the carbonyl carbon (–CHO)). This compound is a ketone.",
+   "Pent- means a 5-carbon main chain. The longest chain that includes the functional group has 6 carbons (hex-).",
+   "",
+   "The ending -ol names an alcohol (an –OH on a carbon with only single bonds). This compound is a ketone."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2078,6 +2504,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "dipropylamine. Name the alkyl groups on N in alphabetical order, then add -amine (primary amines may also use -anamine with a number).",
   "origin": "original",
+  "why": [
+   "",
+   "Methylpropylamine would put 2 carbon groups (methyl, propyl) on the N. Here the N carries 2 (propyl, propyl). Name each group on N, in alphabetical order, then add -amine.",
+   "Methyldipropylamine would put 3 carbon groups (methyl, propyl, propyl) on the N. Here the N carries 2 (propyl, propyl). Name each group on N, in alphabetical order, then add -amine.",
+   "1-hexanamine would put 1 carbon group (hexyl) on the N. Here the N carries 2 (propyl, propyl). Name each group on N, in alphabetical order, then add -amine."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2105,6 +2537,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "2-bromobutane. Name the halogen as a prefix (chloro, bromo) with its number, then the alkane name.",
   "origin": "original",
+  "why": [
+   "Pent- means a 5-carbon main chain. The longest chain has 4 carbons (but-).",
+   "This compound has no chloro group. Look for the bromo instead.",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2132,6 +2570,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "ethyl methanoate. Name the alkyl group on the O first, then the acid part with -oate. Common name: ethyl formate.",
   "origin": "original",
+  "why": [
+   "Check the group on the single-bonded O: count its carbons.",
+   "",
+   "Check the acid part: count the carbons in the chain that includes the C=O carbon.",
+   "Check both parts. Name the alkyl group on the single-bonded O first, then the acid part (which includes the C=O carbon) with -oate."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2159,6 +2603,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "dimethylpropylamine. Name the alkyl groups on N in alphabetical order, then add -amine (primary amines may also use -anamine with a number).",
   "origin": "original",
+  "why": [
+   "Ethylmethylpropylamine would put 3 carbon groups (ethyl, methyl, propyl) on the N. Here the N carries 3 (methyl, methyl, propyl). Name each group on N, in alphabetical order, then add -amine.",
+   "1-pentanamine would put 1 carbon group (pentyl) on the N. Here the N carries 3 (methyl, methyl, propyl). Name each group on N, in alphabetical order, then add -amine.",
+   "Butylethylamine would put 2 carbon groups (butyl, ethyl) on the N. Here the N carries 3 (methyl, methyl, propyl). Name each group on N, in alphabetical order, then add -amine.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2186,6 +2636,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "pentanamide. Count the carbons in the acyl part and change -e to -amide; groups on N are written N-.",
   "origin": "original",
+  "why": [
+   "But- means a 4-carbon main chain. The longest chain that includes the functional group has 5 carbons (pent-).",
+   "This amide has no carbon groups on its N (just –NH2), so there is no N- prefix.",
+   "The ending -amine names an amine (an N bonded only by single bonds to C and H (no C=O on it)). This compound is an amide.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2213,6 +2669,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "propanal. The C=O is at the chain end (carbon 1). Change -e to -al.",
   "origin": "original",
+  "why": [
+   "But- means a 4-carbon main chain. The longest chain that includes the functional group has 3 carbons (prop-).",
+   "The ending -oic acid names a carboxylic acid (a –COOH: C=O and –OH on the same carbon). This compound is an aldehyde.",
+   "",
+   "Eth- means a 2-carbon main chain. The longest chain that includes the functional group has 3 carbons (prop-)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2240,6 +2702,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "N-methylbutanamide. Count the carbons in the acyl part and change -e to -amide; groups on N are written N-.",
   "origin": "original",
+  "why": [
+   "",
+   "This amide has carbon groups on its N, written with N- in front (N-methyl).",
+   "Check the groups on the N: this amide has N-methyl, not N-ethyl.",
+   "Prop- means a 3-carbon main chain. The longest chain that includes the functional group has 4 carbons (but-)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2267,6 +2735,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "3-hexene. Use the longest chain with the C=C, number from the end nearest the double bond, and use -ene.",
   "origin": "original",
+  "why": [
+   "The ending -ane names an alkane (only C–C single bonds (and C–H bonds)). This compound is an alkene.",
+   "The ending -yne names an alkyne (a C≡C triple bond). This compound is an alkene.",
+   "",
+   "Pent- means a 5-carbon main chain. The longest chain that includes the functional group has 6 carbons (hex-)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2294,6 +2768,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "1-propanol. Use the longest chain that has the –OH, number from the end nearest the –OH, and change -e to -ol (branches such as methyl go in front).",
   "origin": "original",
+  "why": [
+   "The ending -al names an aldehyde (a C=O at the end of a chain with an H on the carbonyl carbon (–CHO)). This compound is an alcohol.",
+   "The ending -amine names an amine (an N bonded only by single bonds to C and H (no C=O on it)). This compound is an alcohol.",
+   "An alkoxy (-oxy) prefix names an ether (an O between two carbons (C–O–C) and no C=O). This compound is an alcohol.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2321,6 +2801,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "methanoic acid. Count all carbons including the –COOH carbon and change -e to -oic acid. Common name: formic acid.",
   "origin": "original",
+  "why": [
+   "The ending -ol names an alcohol (an –OH on a carbon with only single bonds). This compound is a carboxylic acid.",
+   "The ending -oate names an ester (a C=O attached to –O–C (–COO–)). This compound is a carboxylic acid.",
+   "",
+   "Eth- means a 2-carbon main chain. The longest chain that includes the functional group has 1 carbon (meth-)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2348,6 +2834,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "2-butanamine. Name the alkyl groups on N in alphabetical order, then add -amine (primary amines may also use -anamine with a number).",
   "origin": "original",
+  "why": [
+   "The ending -ol names an alcohol (an –OH on a carbon with only single bonds). This compound is an amine.",
+   "The ending -amide names an amide (a C=O attached directly to N (–CON)). This compound is an amine.",
+   "",
+   "Prop- means a 3-carbon main chain. The longest chain that includes the functional group has 4 carbons (but-)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2375,6 +2867,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "pentanal. The C=O is at the chain end (carbon 1). Change -e to -al.",
   "origin": "original",
+  "why": [
+   "",
+   "But- means a 4-carbon main chain. The longest chain that includes the functional group has 5 carbons (pent-).",
+   "Hex- means a 6-carbon main chain. The longest chain that includes the functional group has 5 carbons (pent-).",
+   "The ending -one names a ketone (a C=O with a carbon on each side). This compound is an aldehyde."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2402,6 +2900,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "1-butyne. Use the longest chain with the C≡C, number from the end nearest the triple bond, and use -yne.",
   "origin": "original",
+  "why": [
+   "Pent- means a 5-carbon main chain. The longest chain that includes the functional group has 4 carbons (but-).",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   "Prop- means a 3-carbon main chain. The longest chain that includes the functional group has 4 carbons (but-).",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2429,6 +2933,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "ethoxyethane. Name the shorter group as an alkoxy prefix (methoxy, ethoxy) on the longer alkane chain. Common name: diethyl ether.",
   "origin": "original",
+  "why": [
+   "The ending -oate names an ester (a C=O attached to –O–C (–COO–)). This compound is an ether.",
+   "The ending -ol names an alcohol (an –OH on a carbon with only single bonds). This compound is an ether.",
+   "Prop- means a 3-carbon main chain. The longest chain that includes the functional group has 2 carbons (eth-).",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2456,6 +2966,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "ethyl butanoate. Name the alkyl group on the O first, then the acid part with -oate. Common name: ethyl butyrate.",
   "origin": "original",
+  "why": [
+   "",
+   "Check the acid part: count the carbons in the chain that includes the C=O carbon.",
+   "Check the group on the single-bonded O: count its carbons.",
+   "An alkoxy (-oxy) prefix names an ether (an O between two carbons (C–O–C) and no C=O). This compound is an ester."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2483,6 +2999,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "bromoethane. Name the halogen as a prefix (chloro, bromo) with its number, then the alkane name.",
   "origin": "original",
+  "why": [
+   "",
+   "The ending -ol names an alcohol (an –OH on a carbon with only single bonds). This compound is an alkyl halide.",
+   "The ending -ane names an alkane (only C–C single bonds (and C–H bonds)). This compound is an alkyl halide.",
+   "This compound has no chloro group. Look for the bromo instead."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2510,6 +3032,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "2-butanone. Number from the end nearest the C=O and change -e to -one.",
   "origin": "original",
+  "why": [
+   "The ending -ol names an alcohol (an –OH on a carbon with only single bonds). This compound is a ketone.",
+   "The ending -oic acid names a carboxylic acid (a –COOH: C=O and –OH on the same carbon). This compound is a ketone.",
+   "The ending -al names an aldehyde (a C=O at the end of a chain with an H on the carbonyl carbon (–CHO)). This compound is a ketone.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2537,6 +3065,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "N-ethylmethanamide. Count the carbons in the acyl part and change -e to -amide; groups on N are written N-.",
   "origin": "original",
+  "why": [
+   "Eth- means a 2-carbon main chain. The longest chain that includes the functional group has 1 carbon (meth-).",
+   "The ending -oate names an ester (a C=O attached to –O–C (–COO–)). This compound is an amide.",
+   "",
+   "Check the groups on the N: this amide has N-ethyl, not N,N-dimethyl."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2564,6 +3098,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "N,N-dimethylpropanamide. Count the carbons in the acyl part and change -e to -amide; groups on N are written N-.",
   "origin": "original",
+  "why": [
+   "But- means a 4-carbon main chain. The longest chain that includes the functional group has 3 carbons (prop-).",
+   "The ending -amine names an amine (an N bonded only by single bonds to C and H (no C=O on it)). This compound is an amide.",
+   "",
+   "Check the groups on the N: this amide has N,N-dimethyl, not N-methyl."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2591,6 +3131,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "3-methyl-3-hexanol. Use the longest chain that has the –OH, number from the end nearest the –OH, and change -e to -ol (branches such as methyl go in front).",
   "origin": "original",
+  "why": [
+   "The name leaves out the methyl branch.",
+   "Pent- means a 5-carbon main chain. The longest chain that includes the functional group has 6 carbons (hex-).",
+   "",
+   "Pent- means a 5-carbon main chain. The longest chain that includes the functional group has 6 carbons (hex-)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2618,6 +3164,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "hexane. Count the carbons in the chain and add -ane.",
   "origin": "original",
+  "why": [
+   "A halo prefix names an alkyl halide (a halogen (F, Cl, Br or I) on a carbon). This compound is an alkane.",
+   "Pent- means a 5-carbon main chain. The longest chain has 6 carbons (hex-).",
+   "The ending -ol names an alcohol (an –OH on a carbon with only single bonds). This compound is an alkane.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2645,6 +3197,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "ethylmethylamine. Name the alkyl groups on N in alphabetical order, then add -amine (primary amines may also use -anamine with a number).",
   "origin": "original",
+  "why": [
+   "Methylpropylamine would put 2 carbon groups (methyl, propyl) on the N. Here the N carries 2 (ethyl, methyl). Name each group on N, in alphabetical order, then add -amine.",
+   "Diethylamine would put 2 carbon groups (ethyl, ethyl) on the N. Here the N carries 2 (ethyl, methyl). Name each group on N, in alphabetical order, then add -amine.",
+   "Ethyldimethylamine would put 3 carbon groups (ethyl, methyl, methyl) on the N. Here the N carries 2 (ethyl, methyl). Name each group on N, in alphabetical order, then add -amine.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2672,6 +3230,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "methanamide. Count the carbons in the acyl part and change -e to -amide; groups on N are written N-.",
   "origin": "original",
+  "why": [
+   "Eth- means a 2-carbon main chain. The longest chain that includes the functional group has 1 carbon (meth-).",
+   "This amide has no carbon groups on its N (just –NH2), so there is no N- prefix.",
+   "The ending -amine names an amine (an N bonded only by single bonds to C and H (no C=O on it)). This compound is an amide.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2699,6 +3263,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "N-methylpropanamide. Count the carbons in the acyl part and change -e to -amide; groups on N are written N-.",
   "origin": "original",
+  "why": [
+   "Check the groups on the N: this amide has N-methyl, not N,N-dimethyl.",
+   "",
+   "This amide has carbon groups on its N, written with N- in front (N-methyl).",
+   "Check the groups on the N: this amide has N-methyl, not N-ethyl."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2726,6 +3296,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "1-hexene. Use the longest chain with the C=C, number from the end nearest the double bond, and use -ene.",
   "origin": "original",
+  "why": [
+   "Pent- means a 5-carbon main chain. The longest chain that includes the functional group has 6 carbons (hex-).",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   "",
+   "The ending -yne names an alkyne (a C≡C triple bond). This compound is an alkene."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2753,6 +3329,12 @@
   "hint": "Find the functional group first, then count the carbons in the main chain and number from the end nearest the group.",
   "explain": "3-chloropentane. Name the halogen as a prefix (chloro, bromo) with its number, then the alkane name.",
   "origin": "original",
+  "why": [
+   "The ending -ol names an alcohol (an –OH on a carbon with only single bonds). This compound is an alkyl halide.",
+   "",
+   "This compound has no bromo group. Look for the chloro instead.",
+   "Hex- means a 6-carbon main chain. The longest chain has 5 carbons (pent-)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-basic",
@@ -2780,6 +3362,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 4 carbons (but-) that include the –COOH.<br><b>2. Number:</b> the –COOH carbon is always C1.<br><b>3. Branches:</b> dibromo at 2, 2; methyl at 3. List them alphabetically (ignore di-, tri-, sec- and tert- when alphabetizing).<br><b>Name:</b> 2,2-dibromo-3-methylbutanoic acid",
   "origin": "original",
+  "why": [
+   "Pent- means a 5-carbon main chain. The longest chain that includes the functional group has 4 carbons (but-).",
+   "List the branches in alphabetical order (ignore sec-, tert- and di-), not by number.",
+   "",
+   "Two or more of the same branch need di-, tri- or tetra- in front, for example 2,2-dibromo."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -2807,6 +3395,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 7 carbons (hept-) that include the C=O.<br><b>2. Number:</b> from the end that gives the C=O the lowest number (C2).<br><b>3. Branches:</b> propyl at 4. List them alphabetically.<br><b>Name:</b> 4-propyl-2-heptanone",
   "origin": "original",
+  "why": [
+   "Oct- means a 8-carbon main chain. The longest chain that includes the functional group has 7 carbons (hept-).",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   "This compound has no isopropyl group. Look for the propyl instead.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -2834,6 +3428,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 7 carbons (hept-) that include the ester C=O.<br><b>2. Number:</b> the ester C=O carbon is always C1.<br><b>3. Branches:</b> isopropyl at 3. List them alphabetically.<br><b>Name:</b> propyl 3-isopropylheptanoate",
   "origin": "original",
+  "why": [
+   "This compound has no tert-butyl group. Look for the isopropyl instead.",
+   "Oct- means a 8-carbon main chain. The longest chain that includes the functional group has 7 carbons (hept-).",
+   "",
+   "Check the numbers. The C=O carbon of this group is always C1; count from there."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -2861,6 +3461,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 9 carbons (non-) that include the –CHO.<br><b>2. Number:</b> the –CHO carbon is always C1.<br><b>3. Branches:</b> sec-butyl at 4. List them alphabetically.<br><b>Name:</b> 4-sec-butylnonanal",
   "origin": "original",
+  "why": [
+   "Check the numbers. The C=O carbon of this group is always C1; count from there.",
+   "Dec- means a 10-carbon main chain. The longest chain that includes the functional group has 9 carbons (non-).",
+   "",
+   "Dec- means a 10-carbon main chain. The longest chain that includes the functional group has 9 carbons (non-)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -2888,6 +3494,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 8 carbons (oct-) that include the –CHO.<br><b>2. Number:</b> the –CHO carbon is always C1.<br><b>3. Branches:</b> sec-butyl at 4. List them alphabetically.<br><b>Name:</b> 4-sec-butyloctanal",
   "origin": "original",
+  "why": [
+   "This compound has no isobutyl group. Look for the sec-butyl instead.",
+   "",
+   "Non- means a 9-carbon main chain. The longest chain that includes the functional group has 8 carbons (oct-).",
+   "Check the numbers. The C=O carbon of this group is always C1; count from there."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -2915,6 +3527,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 6 carbons (hex-).<br><b>2. Number:</b> from the end that gives the branches the lowest numbers (2,4).<br><b>3. Branches:</b> chloro at 2; ethyl at 4. List them alphabetically (ignore di-, tri-, sec- and tert- when alphabetizing).<br><b>Name:</b> 2-chloro-4-ethylhexane",
   "origin": "original",
+  "why": [
+   "",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   "Hept- means a 7-carbon main chain. The longest chain has 6 carbons (hex-).",
+   "List the branches in alphabetical order (ignore sec-, tert- and di-), not by number."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -2942,6 +3560,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 8 carbons (oct-) that include the amide C=O.<br><b>2. Number:</b> the amide C=O carbon is always C1.<br><b>3. Branches:</b> tert-butyl at 4; chloro at 3. List them alphabetically (ignore di-, tri-, sec- and tert- when alphabetizing).<br><b>Name:</b> 4-tert-butyl-3-chlorooctanamide",
   "origin": "original",
+  "why": [
+   "This compound has no bromo group. Look for the chloro instead.",
+   "",
+   "Check the numbers. The C=O carbon of this group is always C1; count from there.",
+   "This compound has no isopropyl group. Look for the tert-butyl instead."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -2969,6 +3593,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 8 carbons (oct-) that include the ester C=O.<br><b>2. Number:</b> the ester C=O carbon is always C1.<br><b>3. Branches:</b> isobutyl at 4. List them alphabetically.<br><b>Name:</b> ethyl 4-isobutyloctanoate",
   "origin": "original",
+  "why": [
+   "",
+   "Non- means a 9-carbon main chain. The longest chain that includes the functional group has 8 carbons (oct-).",
+   "This compound has no tert-butyl group. Look for the isobutyl instead.",
+   "This compound has no sec-butyl group. Look for the isobutyl instead."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -2996,6 +3626,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 8 carbons (oct-) that include the amide C=O.<br><b>2. Number:</b> the amide C=O carbon is always C1.<br><b>3. Branches:</b> isopropyl at 3; dimethyl at 3, 5. List them alphabetically (ignore di-, tri-, sec- and tert- when alphabetizing).<br><b>Name:</b> 3-isopropyl-3,5-dimethyloctanamide",
   "origin": "original",
+  "why": [
+   "Two or more of the same branch need di-, tri- or tetra- in front, for example 2,2-dibromo.",
+   "",
+   "List the branches in alphabetical order (ignore sec-, tert- and di-), not by number.",
+   "Non- means a 9-carbon main chain. The longest chain that includes the functional group has 8 carbons (oct-)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3023,6 +3659,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 8 carbons (oct-) that include the amide C=O.<br><b>2. Number:</b> the amide C=O carbon is always C1.<br><b>3. Branches:</b> bromo at 3; propyl at 4. List them alphabetically (ignore di-, tri-, sec- and tert- when alphabetizing).<br><b>Name:</b> 3-bromo-4-propyloctanamide",
   "origin": "original",
+  "why": [
+   "Check the numbers. The C=O carbon of this group is always C1; count from there.",
+   "This compound has no chloro group. Look for the bromo instead.",
+   "",
+   "List the branches in alphabetical order (ignore sec-, tert- and di-), not by number."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3050,6 +3692,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 8 carbons (oct-) and the C≡C.<br><b>2. Number:</b> from the end that gives the triple bond the lowest number (C1).<br><b>3. Branches:</b> sec-butyl at 4. List them alphabetically.<br><b>Name:</b> 4-sec-butyl-1-octyne",
   "origin": "original",
+  "why": [
+   "",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   "Non- means a 9-carbon main chain. The longest chain that includes the functional group has 8 carbons (oct-).",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3077,6 +3725,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 9 carbons (non-).<br><b>2. Number:</b> from the end that gives the branches the lowest numbers (2,6,7).<br><b>3. Branches:</b> chloro at 2; ethyl at 6; iodo at 7. List them alphabetically (ignore di-, tri-, sec- and tert- when alphabetizing).<br><b>Name:</b> 2-chloro-6-ethyl-7-iodononane",
   "origin": "original",
+  "why": [
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   "",
+   "List the branches in alphabetical order (ignore sec-, tert- and di-), not by number.",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3104,6 +3758,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 8 carbons (oct-) and the C≡C.<br><b>2. Number:</b> from the end that gives the triple bond the lowest number (C2).<br><b>3. Branches:</b> chloro at 1; isobutyl at 4. List them alphabetically (ignore di-, tri-, sec- and tert- when alphabetizing).<br><b>Name:</b> 1-chloro-4-isobutyl-2-octyne",
   "origin": "original",
+  "why": [
+   "List the branches in alphabetical order (ignore sec-, tert- and di-), not by number.",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   "This compound has no sec-butyl group. Look for the isobutyl instead.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3131,6 +3791,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 8 carbons (oct-) and the C≡C.<br><b>2. Number:</b> from the end that gives the triple bond the lowest number (C1).<br><b>3. Branches:</b> isopropyl at 5. List them alphabetically.<br><b>Name:</b> 5-isopropyl-1-octyne",
   "origin": "original",
+  "why": [
+   "",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   "Non- means a 9-carbon main chain. The longest chain that includes the functional group has 8 carbons (oct-)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3158,6 +3824,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 7 carbons (hept-) that include the –CHO.<br><b>2. Number:</b> the –CHO carbon is always C1.<br><b>3. Branches:</b> chloro at 4; ethyl at 5; fluoro at 2. List them alphabetically (ignore di-, tri-, sec- and tert- when alphabetizing).<br><b>Name:</b> 4-chloro-5-ethyl-2-fluoroheptanal",
   "origin": "original",
+  "why": [
+   "Oct- means a 8-carbon main chain. The longest chain that includes the functional group has 7 carbons (hept-).",
+   "Check the numbers. The C=O carbon of this group is always C1; count from there.",
+   "",
+   "Check the numbers. The C=O carbon of this group is always C1; count from there."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3185,6 +3857,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 9 carbons (non-) that include the –OH.<br><b>2. Number:</b> from the end that gives the –OH the lowest number (C3).<br><b>3. Branches:</b> isobutyl at 4. List them alphabetically.<br><b>Name:</b> 4-isobutyl-3-nonanol",
   "origin": "original",
+  "why": [
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   "Dec- means a 10-carbon main chain. The longest chain that includes the functional group has 9 carbons (non-).",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3212,6 +3890,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 3 carbons (prop-) that include the –NH₂.<br><b>2. Number:</b> from the end that gives the –NH₂ the lowest number (C2).<br><b>3. Branches:</b> bromo at 1; fluoro at 3. List them alphabetically (ignore di-, tri-, sec- and tert- when alphabetizing).<br><b>Name:</b> 1-bromo-3-fluoro-2-propanamine",
   "origin": "original",
+  "why": [
+   "But- means a 4-carbon main chain. The longest chain that includes the functional group has 3 carbons (prop-).",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   "",
+   "This compound has no chloro group. Look for the bromo instead."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3239,6 +3923,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 7 carbons (hept-) that include the –NH₂.<br><b>2. Number:</b> from the end that gives the –NH₂ the lowest number (C2).<br><b>3. Branches:</b> ethyl at 4. List them alphabetically.<br><b>Name:</b> 4-ethyl-2-heptanamine",
   "origin": "original",
+  "why": [
+   "",
+   "Oct- means a 8-carbon main chain. The longest chain that includes the functional group has 7 carbons (hept-).",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   "This compound has no propyl group. Look for the ethyl instead."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3266,6 +3956,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 8 carbons (oct-) and the C≡C.<br><b>2. Number:</b> from the end that gives the triple bond the lowest number (C2).<br><b>3. Branches:</b> tert-butyl at 4. List them alphabetically.<br><b>Name:</b> 4-tert-butyl-2-octyne",
   "origin": "original",
+  "why": [
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   "",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   "Hept- means a 7-carbon main chain. The longest chain that includes the functional group has 8 carbons (oct-)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3293,6 +3989,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 9 carbons (non-) that include the –COOH.<br><b>2. Number:</b> the –COOH carbon is always C1.<br><b>3. Branches:</b> chloro at 2; fluoro at 6. List them alphabetically (ignore di-, tri-, sec- and tert- when alphabetizing).<br><b>Name:</b> 2-chloro-6-fluorononanoic acid",
   "origin": "original",
+  "why": [
+   "The name leaves out the fluoro branch.",
+   "List the branches in alphabetical order (ignore sec-, tert- and di-), not by number.",
+   "Check the numbers. The C=O carbon of this group is always C1; count from there.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3320,6 +4022,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 8 carbons (oct-) and the C=C.<br><b>2. Number:</b> from the end that gives the double bond the lowest number (C2).<br><b>3. Branches:</b> tert-butyl at 4; methyl at 7. List them alphabetically (ignore di-, tri-, sec- and tert- when alphabetizing).<br><b>Name:</b> 4-tert-butyl-7-methyl-2-octene",
   "origin": "original",
+  "why": [
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   "Non- means a 9-carbon main chain. The longest chain that includes the functional group has 8 carbons (oct-).",
+   "",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3347,6 +4055,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 6 carbons (hex-) that include the C=O.<br><b>2. Number:</b> from the end that gives the C=O the lowest number (C2).<br><b>3. Branches:</b> ethyl at 3; methyl at 4. List them alphabetically (ignore di-, tri-, sec- and tert- when alphabetizing).<br><b>Name:</b> 3-ethyl-4-methyl-2-hexanone",
   "origin": "original",
+  "why": [
+   "List the branches in alphabetical order (ignore sec-, tert- and di-), not by number.",
+   "Hept- means a 7-carbon main chain. The longest chain that includes the functional group has 6 carbons (hex-).",
+   "",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3374,6 +4088,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 7 carbons (hept-) that include the amide C=O.<br><b>2. Number:</b> the amide C=O carbon is always C1.<br><b>3. Branches:</b> dichloro at 3, 7. List them alphabetically.<br><b>Name:</b> 3,7-dichloroheptanamide",
   "origin": "original",
+  "why": [
+   "Check the numbers. The C=O carbon of this group is always C1; count from there.",
+   "",
+   "Check the numbers. The C=O carbon of this group is always C1; count from there.",
+   "Two or more of the same branch need di-, tri- or tetra- in front, for example 2,2-dibromo."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3401,6 +4121,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 9 carbons (non-) that include the C=O.<br><b>2. Number:</b> from the end that gives the C=O the lowest number (C2).<br><b>3. Branches:</b> tert-butyl at 6; isobutyl at 5; isopropyl at 4. List them alphabetically (ignore di-, tri-, sec- and tert- when alphabetizing).<br><b>Name:</b> 6-tert-butyl-5-isobutyl-4-isopropyl-2-nonanone",
   "origin": "original",
+  "why": [
+   "List the branches in alphabetical order (ignore sec-, tert- and di-), not by number.",
+   "",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   "Dec- means a 10-carbon main chain. The longest chain that includes the functional group has 9 carbons (non-)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3428,6 +4154,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 9 carbons (non-) that include the –CHO.<br><b>2. Number:</b> the –CHO carbon is always C1.<br><b>3. Branches:</b> butyl at 5; isobutyl at 4. List them alphabetically (ignore di-, tri-, sec- and tert- when alphabetizing).<br><b>Name:</b> 5-butyl-4-isobutylnonanal",
   "origin": "original",
+  "why": [
+   "Dec- means a 10-carbon main chain. The longest chain that includes the functional group has 9 carbons (non-).",
+   "This compound has no sec-butyl group. Look for the isobutyl instead.",
+   "List the branches in alphabetical order (ignore sec-, tert- and di-), not by number.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3455,6 +4187,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 3 carbons (prop-) that include the ester C=O.<br><b>2. Number:</b> the ester C=O carbon is always C1.<br><b>3. Branches:</b> dimethyl at 2, 2. List them alphabetically.<br><b>Name:</b> ethyl 2,2-dimethylpropanoate",
   "origin": "original",
+  "why": [
+   "But- means a 4-carbon main chain. The longest chain that includes the functional group has 3 carbons (prop-).",
+   "But- means a 4-carbon main chain. The longest chain that includes the functional group has 3 carbons (prop-).",
+   "",
+   "Two or more of the same branch need di-, tri- or tetra- in front, for example 2,2-dibromo."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3482,6 +4220,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 7 carbons (hept-) that include the ester C=O.<br><b>2. Number:</b> the ester C=O carbon is always C1.<br><b>3. Branches:</b> isopropyl at 4. List them alphabetically.<br><b>Name:</b> ethyl 4-isopropylheptanoate",
   "origin": "original",
+  "why": [
+   "Oct- means a 8-carbon main chain. The longest chain that includes the functional group has 7 carbons (hept-).",
+   "This compound has no tert-butyl group. Look for the isopropyl instead.",
+   "",
+   "Oct- means a 8-carbon main chain. The longest chain that includes the functional group has 7 carbons (hept-)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3509,6 +4253,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 8 carbons (oct-).<br><b>2. Number:</b> from the end that gives the branches the lowest numbers (4,4).<br><b>3. Branches:</b> chloro at 4; ethyl at 4. List them alphabetically (ignore di-, tri-, sec- and tert- when alphabetizing).<br><b>Name:</b> 4-chloro-4-ethyloctane",
   "origin": "original",
+  "why": [
+   "Non- means a 9-carbon main chain. The longest chain has 8 carbons (oct-).",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3536,6 +4286,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 9 carbons (non-) that include the –CHO.<br><b>2. Number:</b> the –CHO carbon is always C1.<br><b>3. Branches:</b> ethyl at 3; propyl at 4. List them alphabetically (ignore di-, tri-, sec- and tert- when alphabetizing).<br><b>Name:</b> 3-ethyl-4-propylnonanal",
   "origin": "original",
+  "why": [
+   "The name leaves out the propyl branch.",
+   "Check the numbers. The C=O carbon of this group is always C1; count from there.",
+   "",
+   "List the branches in alphabetical order (ignore sec-, tert- and di-), not by number."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3563,6 +4319,12 @@
   "hint": "🏆 Challenge: (1) find the longest chain that holds the functional group, (2) number from the end nearest the functional group (then nearest the first branch), (3) list branches alphabetically; di-, tri-, sec- and tert- don't count.",
   "explain": "<b>1. Main chain:</b> 9 carbons (non-) that include the –OH.<br><b>2. Number:</b> from the end that gives the –OH the lowest number (C4).<br><b>3. Branches:</b> isopropyl at 4. List them alphabetically.<br><b>Name:</b> 4-isopropyl-4-nonanol",
   "origin": "original",
+  "why": [
+   "",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers.",
+   "This compound has no tert-butyl group. Look for the isopropyl instead.",
+   "Check the numbers. Number from the end that gives the functional group (then the branches) the lowest numbers."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:name-challenge",
@@ -3591,6 +4353,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "hexanoic acid has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
   "origin": "original",
+  "why": [
+   "",
+   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. hexanoic acid has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). hexanoic acid has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. hexanoic acid has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -3619,6 +4387,12 @@
   "hint": "Water dissolves small molecules that can hydrogen bond (–OH, –COOH, –NH₂, C=O). Large hydrocarbon parts are nonpolar and do not dissolve.",
   "explain": "methanoic acid is small and polar, so it hydrogen bonds with water. The others are mostly nonpolar hydrocarbon and are not very soluble.",
   "origin": "original",
+  "why": [
+   "1-hexene has only London dispersion forces, so it is nonpolar and doesn’t mix with water. methanoic acid is small and can hydrogen bond with water.",
+   "",
+   "Hexane has only London dispersion forces, so it is nonpolar and doesn’t mix with water. methanoic acid is small and can hydrogen bond with water.",
+   "Toluene has only London dispersion forces, so it is nonpolar and doesn’t mix with water. methanoic acid is small and can hydrogen bond with water."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -3647,6 +4421,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "N-methylmethanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
   "origin": "original",
+  "why": [
+   "",
+   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. N-methylmethanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). N-methylmethanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. N-methylmethanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -3675,6 +4455,12 @@
   "hint": "Stronger attractions between molecules mean a higher boiling point. Order: London dispersion < ether < aldehyde/ketone < alcohol < carboxylic acid.",
   "explain": "butane has the weakest attractions: London dispersion only. Order of boiling points: alkane < ether < aldehyde/ketone < alcohol < carboxylic acid.",
   "origin": "original",
+  "why": [
+   "",
+   "Ethanoic acid has strong hydrogen bonding (–COOH or amide), stronger than butane’s London forces, so it boils higher.",
+   "1-propanol has hydrogen bonding, stronger than butane’s London forces, so it boils higher.",
+   "Methoxyethane has weak dipole–dipole attractions, stronger than butane’s London forces, so it boils higher."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -3703,6 +4489,12 @@
   "hint": "Water dissolves small molecules that can hydrogen bond (–OH, –COOH, –NH₂, C=O). Large hydrocarbon parts are nonpolar and do not dissolve.",
   "explain": "ethanol is small and polar, so it hydrogen bonds with water. The others are mostly nonpolar hydrocarbon and are not very soluble.",
   "origin": "original",
+  "why": [
+   "Hexane has only London dispersion forces, so it is nonpolar and doesn’t mix with water. ethanol is small and can hydrogen bond with water.",
+   "Butoxybutane has weak dipole–dipole attractions but is less able to hydrogen bond with water. ethanol is small and can hydrogen bond with water.",
+   "",
+   "1-bromopentane has weak dipole–dipole attractions but is less able to hydrogen bond with water. ethanol is small and can hydrogen bond with water."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -3731,6 +4523,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "methoxyethane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
+  "why": [
+   "Hydrogen bonding needs an O–H or N–H bond in the molecule. methoxyethane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
+   "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). methoxyethane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. methoxyethane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -3759,6 +4557,12 @@
   "hint": "Stronger attractions between molecules mean a higher boiling point. Order: London dispersion < ether < aldehyde/ketone < alcohol < carboxylic acid.",
   "explain": "methoxyethane has the weakest attractions: weak dipole–dipole (no H bonds). Order of boiling points: alkane < ether < aldehyde/ketone < alcohol < carboxylic acid.",
   "origin": "original",
+  "why": [
+   "Ethanoic acid has strong hydrogen bonding (–COOH or amide), stronger than methoxyethane’s London forces, so it boils higher.",
+   "Propanone has dipole–dipole attractions (a polar C=O), stronger than methoxyethane’s London forces, so it boils higher.",
+   "1-propanol has hydrogen bonding, stronger than methoxyethane’s London forces, so it boils higher.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -3787,6 +4591,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "propanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
+  "why": [
+   "Hydrogen bonding needs an O–H or N–H bond in the molecule. propanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
+   "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). propanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. propanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -3815,6 +4625,12 @@
   "hint": "Stronger attractions between molecules mean a higher boiling point. Order: London dispersion < ether < aldehyde/ketone < alcohol < carboxylic acid.",
   "explain": "1-propanol has the strongest attractions: hydrogen bonding (–OH). Order of boiling points: alkane < ether < aldehyde/ketone < alcohol < carboxylic acid.",
   "origin": "original",
+  "why": [
+   "",
+   "Butane has only London dispersion forces, weaker than 1-propanol’s hydrogen bonding, so it boils lower.",
+   "Propanal has dipole–dipole attractions (a polar C=O), weaker than 1-propanol’s hydrogen bonding, so it boils lower.",
+   "Methoxyethane has weak dipole–dipole attractions, weaker than 1-propanol’s hydrogen bonding, so it boils lower."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -3843,6 +4659,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "ethylbenzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
   "origin": "original",
+  "why": [
+   "Hydrogen bonding needs an O–H or N–H bond in the molecule. ethylbenzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. ethylbenzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. ethylbenzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -3871,6 +4693,12 @@
   "hint": "Water dissolves small molecules that can hydrogen bond (–OH, –COOH, –NH₂, C=O). Large hydrocarbon parts are nonpolar and do not dissolve.",
   "explain": "methanamine is small and polar, so it hydrogen bonds with water. The others are mostly nonpolar hydrocarbon and are not very soluble.",
   "origin": "original",
+  "why": [
+   "Hexane has only London dispersion forces, so it is nonpolar and doesn’t mix with water. methanamine is small and can hydrogen bond with water.",
+   "1-hexene has only London dispersion forces, so it is nonpolar and doesn’t mix with water. methanamine is small and can hydrogen bond with water.",
+   "1-bromopentane has weak dipole–dipole attractions but is less able to hydrogen bond with water. methanamine is small and can hydrogen bond with water.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -3899,6 +4727,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "hexanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
+  "why": [
+   "Hydrogen bonding needs an O–H or N–H bond in the molecule. hexanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
+   "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). hexanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. hexanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -3927,6 +4761,12 @@
   "hint": "Stronger attractions between molecules mean a higher boiling point. Order: London dispersion < ether < aldehyde/ketone < alcohol < carboxylic acid.",
   "explain": "ethanoic acid has the strongest attractions: strong hydrogen bonding (–COOH, forms pairs). Order of boiling points: alkane < ether < aldehyde/ketone < alcohol < carboxylic acid.",
   "origin": "original",
+  "why": [
+   "Butane has only London dispersion forces, weaker than ethanoic acid’s strong hydrogen bonding (–COOH or amide), so it boils lower.",
+   "Methoxyethane has weak dipole–dipole attractions, weaker than ethanoic acid’s strong hydrogen bonding (–COOH or amide), so it boils lower.",
+   "",
+   "1-propanol has hydrogen bonding, weaker than ethanoic acid’s strong hydrogen bonding (–COOH or amide), so it boils lower."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -3955,6 +4795,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "propene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
   "origin": "original",
+  "why": [
+   "Hydrogen bonding needs an O–H or N–H bond in the molecule. propene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. propene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. propene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -3983,6 +4829,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "N,N-dimethylmethanamide is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
+  "why": [
+   "Hydrogen bonding needs an O–H or N–H bond in the molecule. N,N-dimethylmethanamide is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
+   "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). N,N-dimethylmethanamide is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. N,N-dimethylmethanamide is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4011,6 +4863,12 @@
   "hint": "Water dissolves small molecules that can hydrogen bond (–OH, –COOH, –NH₂, C=O). Large hydrocarbon parts are nonpolar and do not dissolve.",
   "explain": "ethanoic acid is small and polar, so it hydrogen bonds with water. The others are mostly nonpolar hydrocarbon and are not very soluble.",
   "origin": "original",
+  "why": [
+   "Pentane has only London dispersion forces, so it is nonpolar and doesn’t mix with water. ethanoic acid is small and can hydrogen bond with water.",
+   "",
+   "Hexane has only London dispersion forces, so it is nonpolar and doesn’t mix with water. ethanoic acid is small and can hydrogen bond with water.",
+   "Butoxybutane has weak dipole–dipole attractions but is less able to hydrogen bond with water. ethanoic acid is small and can hydrogen bond with water."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4039,6 +4897,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "propane is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
   "origin": "original",
+  "why": [
+   "Hydrogen bonding needs an O–H or N–H bond in the molecule. propane is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. propane is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. propane is nonpolar (only C and H), so only weak London dispersion forces act between its molecules."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4067,6 +4931,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "butanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
+  "why": [
+   "Hydrogen bonding needs an O–H or N–H bond in the molecule. butanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
+   "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). butanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. butanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4095,6 +4965,12 @@
   "hint": "Water dissolves small molecules that can hydrogen bond (–OH, –COOH, –NH₂, C=O). Large hydrocarbon parts are nonpolar and do not dissolve.",
   "explain": "methanol is small and polar, so it hydrogen bonds with water. The others are mostly nonpolar hydrocarbon and are not very soluble.",
   "origin": "original",
+  "why": [
+   "Butoxybutane has weak dipole–dipole attractions but is less able to hydrogen bond with water. methanol is small and can hydrogen bond with water.",
+   "Toluene has only London dispersion forces, so it is nonpolar and doesn’t mix with water. methanol is small and can hydrogen bond with water.",
+   "Pentane has only London dispersion forces, so it is nonpolar and doesn’t mix with water. methanol is small and can hydrogen bond with water.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4123,6 +4999,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "propoxypropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
+  "why": [
+   "Hydrogen bonding needs an O–H or N–H bond in the molecule. propoxypropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
+   "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). propoxypropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. propoxypropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4151,6 +5033,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "1-methoxybutane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
+  "why": [
+   "Hydrogen bonding needs an O–H or N–H bond in the molecule. 1-methoxybutane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
+   "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). 1-methoxybutane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. 1-methoxybutane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4179,6 +5067,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "2-pentene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
   "origin": "original",
+  "why": [
+   "Hydrogen bonding needs an O–H or N–H bond in the molecule. 2-pentene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. 2-pentene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. 2-pentene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4207,6 +5101,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "2-chloropropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
+  "why": [
+   "Hydrogen bonding needs an O–H or N–H bond in the molecule. 2-chloropropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
+   "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). 2-chloropropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. 2-chloropropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4235,6 +5135,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "1-butanol has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
   "origin": "original",
+  "why": [
+   "",
+   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. 1-butanol has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). 1-butanol has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. 1-butanol has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4263,6 +5169,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "N-ethylpropanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
   "origin": "original",
+  "why": [
+   "",
+   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. N-ethylpropanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). N-ethylpropanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. N-ethylpropanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4291,6 +5203,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "2-bromopropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
+  "why": [
+   "Hydrogen bonding needs an O–H or N–H bond in the molecule. 2-bromopropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
+   "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). 2-bromopropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. 2-bromopropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4319,6 +5237,12 @@
   "hint": "Water dissolves small molecules that can hydrogen bond (–OH, –COOH, –NH₂, C=O). Large hydrocarbon parts are nonpolar and do not dissolve.",
   "explain": "1-propanol is small and polar, so it hydrogen bonds with water. The others are mostly nonpolar hydrocarbon and are not very soluble.",
   "origin": "original",
+  "why": [
+   "1-hexene has only London dispersion forces, so it is nonpolar and doesn’t mix with water. 1-propanol is small and can hydrogen bond with water.",
+   "Hexane has only London dispersion forces, so it is nonpolar and doesn’t mix with water. 1-propanol is small and can hydrogen bond with water.",
+   "Pentane has only London dispersion forces, so it is nonpolar and doesn’t mix with water. 1-propanol is small and can hydrogen bond with water.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4347,6 +5271,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "methanamine has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
   "origin": "original",
+  "why": [
+   "",
+   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. methanamine has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). methanamine has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. methanamine has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4375,6 +5305,12 @@
   "hint": "Water dissolves small molecules that can hydrogen bond (–OH, –COOH, –NH₂, C=O). Large hydrocarbon parts are nonpolar and do not dissolve.",
   "explain": "propanone is small and polar, so it hydrogen bonds with water. The others are mostly nonpolar hydrocarbon and are not very soluble.",
   "origin": "original",
+  "why": [
+   "Toluene has only London dispersion forces, so it is nonpolar and doesn’t mix with water. propanone is small and can hydrogen bond with water.",
+   "",
+   "1-hexene has only London dispersion forces, so it is nonpolar and doesn’t mix with water. propanone is small and can hydrogen bond with water.",
+   "Hexane has only London dispersion forces, so it is nonpolar and doesn’t mix with water. propanone is small and can hydrogen bond with water."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4403,6 +5339,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "N-methylpropanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
   "origin": "original",
+  "why": [
+   "",
+   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. N-methylpropanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). N-methylpropanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. N-methylpropanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4431,6 +5373,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "propylbenzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
   "origin": "original",
+  "why": [
+   "Hydrogen bonding needs an O–H or N–H bond in the molecule. propylbenzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. propylbenzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. propylbenzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4459,6 +5407,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "methyl butanoate is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
+  "why": [
+   "Hydrogen bonding needs an O–H or N–H bond in the molecule. methyl butanoate is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
+   "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). methyl butanoate is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. methyl butanoate is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4487,6 +5441,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "benzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
   "origin": "original",
+  "why": [
+   "Hydrogen bonding needs an O–H or N–H bond in the molecule. benzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. benzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. benzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4515,6 +5475,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "2-hexene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
   "origin": "original",
+  "why": [
+   "Hydrogen bonding needs an O–H or N–H bond in the molecule. 2-hexene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. 2-hexene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. 2-hexene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4543,6 +5509,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "N,N-dimethylpropanamide is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
+  "why": [
+   "Hydrogen bonding needs an O–H or N–H bond in the molecule. N,N-dimethylpropanamide is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
+   "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). N,N-dimethylpropanamide is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. N,N-dimethylpropanamide is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4571,6 +5543,12 @@
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "1-butanamine has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
   "origin": "original",
+  "why": [
+   "",
+   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. 1-butanamine has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). 1-butanamine has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "Ionic bonds hold ions together in salts. These are neutral molecules. 1-butanamine has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:props",
@@ -4652,6 +5630,12 @@
   "hint": "There is an –OH. Is the carbon holding it a plain single-bonded carbon, or part of a benzene ring?",
   "explain": "Label B is the alcohol: it has an –OH on a carbon that has only single bonds (not a ring of alternating double bonds).<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Fructose (open-chain form)</div><div class=\"fc-tags\"><span class=\"medtag\">🔄 Metabolism</span><span class=\"medtag\">🫀 Anatomy & physiology</span></div><p class=\"fc-fact\">Fructose is a ketose (sugar with a ketone), while glucose is an aldose (sugar with an aldehyde). Fructose is processed mostly by the liver.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Ketone<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#3a86c4;color:#fff;font-weight:900;text-align:center\">B</span> Alcohol</div></div>",
   "origin": "original",
+  "why": [
+   "Ketone needs a C=O with a carbon on each side. The highlighted part is an alcohol: it has an –OH on a carbon with only single bonds.",
+   "Carboxylic acid needs a –COOH: C=O and –OH on the same carbon. The highlighted part is an alcohol: it has an –OH on a carbon with only single bonds.",
+   "Phenol needs an –OH directly on a benzene ring carbon. The highlighted part is an alcohol: it has an –OH on a carbon with only single bonds.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -4680,6 +5664,12 @@
   "hint": "Look for a double bond between two carbons that is not part of a benzene ring.",
   "explain": "Label A is the alkene: it has a C=C double bond.<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: HEMA (2-hydroxyethyl methacrylate)</div><div class=\"fc-tags\"><span class=\"medtag\">🦷 Dental hygiene & dentistry</span></div><p class=\"fc-fact\">HEMA helps bonding agents soak into dentin. Its small size lets it pass through many glove materials within minutes, making it a common cause of allergic skin reactions in dental staff.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Alkene<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#3a86c4;color:#fff;font-weight:900;text-align:center\">B</span> Ester<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#c78c12;color:#fff;font-weight:900;text-align:center\">C</span> Alcohol</div></div>",
   "origin": "original",
+  "why": [
+   "",
+   "Alkyne needs a C≡C triple bond. The highlighted part is an alkene: it has a C=C double bond.",
+   "Ketone needs a C=O with a carbon on each side. The highlighted part is an alkene: it has a C=C double bond.",
+   "Alkane needs only C–C single bonds (and C–H bonds). The highlighted part is an alkene: it has a C=C double bond."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -4761,6 +5751,12 @@
   "hint": "There is an –OH. Is the carbon holding it a plain single-bonded carbon, or part of a benzene ring?",
   "explain": "Label A is the phenol: it has an –OH attached directly to a benzene (aromatic) ring carbon.<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: m-Cresol</div><div class=\"fc-tags\"><span class=\"medtag\">⬡ Benzene family</span><span class=\"medtag\">🩺 Nursing & pharmacology</span></div><p class=\"fc-fact\">m-Cresol keeps multi-dose insulin sterile after the stopper has been punctured. It is also what gives insulin its &quot;bandage&quot; smell. It is a phenol with a methyl group on the ring.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Phenol</div></div>",
   "origin": "original",
+  "why": [
+   "Alcohol needs an –OH on a carbon with only single bonds. The highlighted part is a phenol: it has an –OH directly on a benzene ring carbon.",
+   "",
+   "Carboxylic acid needs a –COOH: C=O and –OH on the same carbon. The highlighted part is a phenol: it has an –OH directly on a benzene ring carbon.",
+   "Ether needs an O between two carbons (C–O–C) and no C=O. The highlighted part is a phenol: it has an –OH directly on a benzene ring carbon."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -4789,6 +5785,12 @@
   "hint": "There is an –OH. Is the carbon holding it a plain single-bonded carbon, or part of a benzene ring?",
   "explain": "Label A is the alcohol: it has an –OH on a carbon that has only single bonds (not a ring of alternating double bonds).<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: β-Hydroxybutyric acid</div><div class=\"fc-tags\"><span class=\"medtag\">🔄 Metabolism</span><span class=\"medtag\">🫀 Anatomy & physiology</span><span class=\"medtag\">🩺 Nursing & pharmacology</span></div><p class=\"fc-fact\">β-Hydroxybutyrate is the most abundant ketone body in diabetic ketoacidosis and is what hospital blood ketone tests usually measure. Surprise: it has no ketone group at all. It is an alcohol plus a carboxylic acid, made by reducing acetoacetic acid.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Alcohol<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#3a86c4;color:#fff;font-weight:900;text-align:center\">B</span> Carboxylic acid</div></div>",
   "origin": "original",
+  "why": [
+   "Carboxylic acid needs a –COOH: C=O and –OH on the same carbon. The highlighted part is an alcohol: it has an –OH on a carbon with only single bonds.",
+   "Phenol needs an –OH directly on a benzene ring carbon. The highlighted part is an alcohol: it has an –OH on a carbon with only single bonds.",
+   "",
+   "Ketone needs a C=O with a carbon on each side. The highlighted part is an alcohol: it has an –OH on a carbon with only single bonds."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -4817,6 +5819,12 @@
   "hint": "Is it a six-carbon ring with alternating double bonds?",
   "explain": "Label C is the aromatic ring: it is a benzene ring: six carbons in a ring with alternating double bonds.<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Pseudoephedrine (Sudafed)</div><div class=\"fc-tags\"><span class=\"medtag\">🫁 Respiratory & anesthesia</span><span class=\"medtag\">🩺 Nursing & pharmacology</span></div><p class=\"fc-fact\">Since 2006, US law has kept pseudoephedrine behind the pharmacy counter with ID required, because it can be chemically converted into methamphetamine. It also raises blood pressure and heart rate.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Amine<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#3a86c4;color:#fff;font-weight:900;text-align:center\">B</span> Alcohol<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#c78c12;color:#fff;font-weight:900;text-align:center\">C</span> Aromatic ring</div></div>",
   "origin": "original",
+  "why": [
+   "Phenol needs an –OH directly on a benzene ring carbon. The highlighted part is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds.",
+   "",
+   "Alkene needs a C=C double bond. The highlighted part is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds.",
+   "Alkane needs only C–C single bonds (and C–H bonds). The highlighted part is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -4845,6 +5853,12 @@
   "hint": "Is it a six-carbon ring with alternating double bonds?",
   "explain": "Label A is the aromatic ring: it is a benzene ring: six carbons in a ring with alternating double bonds.<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Acetophenone</div><div class=\"fc-tags\"><span class=\"medtag\">⬡ Benzene family</span></div><p class=\"fc-fact\">In the 1880s acetophenone was sold as a sleeping medicine called &quot;Hypnone.&quot; It was abandoned, but its ketone sits next to the benzene ring the same way it does in many modern drugs.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Aromatic ring<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#3a86c4;color:#fff;font-weight:900;text-align:center\">B</span> Ketone</div></div>",
   "origin": "original",
+  "why": [
+   "",
+   "Alkane needs only C–C single bonds (and C–H bonds). The highlighted part is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds.",
+   "Phenol needs an –OH directly on a benzene ring carbon. The highlighted part is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds.",
+   "Alkene needs a C=C double bond. The highlighted part is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -4873,6 +5887,12 @@
   "hint": "Is it a six-carbon ring with alternating double bonds?",
   "explain": "Label C is the aromatic ring: it is a benzene ring: six carbons in a ring with alternating double bonds.<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Lidocaine</div><div class=\"fc-tags\"><span class=\"medtag\">🦷 Dental hygiene & dentistry</span><span class=\"medtag\">🩺 Nursing & pharmacology</span></div><p class=\"fc-fact\">Lidocaine blocks sodium channels in nerve cells, so pain signals (action potentials) cannot travel to the brain. Trick: amide anesthetics have two &quot;i&quot;s in the name (l-i-doca-i-ne) and are broken down by the liver.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Amine<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#3a86c4;color:#fff;font-weight:900;text-align:center\">B</span> Amide<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#c78c12;color:#fff;font-weight:900;text-align:center\">C</span> Aromatic ring</div></div>",
   "origin": "original",
+  "why": [
+   "Alkene needs a C=C double bond. The highlighted part is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds.",
+   "Alkane needs only C–C single bonds (and C–H bonds). The highlighted part is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds.",
+   "Phenol needs an –OH directly on a benzene ring carbon. The highlighted part is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -4901,6 +5921,12 @@
   "hint": "There is a nitrogen. Is that N bonded to a C=O carbon, or only to C and H?",
   "explain": "Label A is the amine: it has a nitrogen bonded only by single bonds to carbon (and H).<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Nicotine</div><div class=\"fc-tags\"><span class=\"medtag\">🦷 Dental hygiene & dentistry</span><span class=\"medtag\">🫀 Anatomy & physiology</span></div><p class=\"fc-fact\">Nicotine constricts blood vessels and reduces blood flow to the gums, which can hide the bleeding that usually signals gum disease. Smokers have a much higher risk of periodontal disease.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Amine</div></div>",
   "origin": "original",
+  "why": [
+   "",
+   "Ether needs an O between two carbons (C–O–C) and no C=O. The highlighted part is an amine: it has an N bonded only by single bonds to C and H (no C=O on it).",
+   "Alcohol needs an –OH on a carbon with only single bonds. The highlighted part is an amine: it has an N bonded only by single bonds to C and H (no C=O on it).",
+   "Amide needs a C=O attached directly to N (–CON). The highlighted part is an amine: it has an N bonded only by single bonds to C and H (no C=O on it)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -4955,6 +5981,12 @@
   "hint": "Look for a double bond between two carbons that is not part of a benzene ring.",
   "explain": "Label A is the alkene: it has a C=C double bond.<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Methyl methacrylate</div><div class=\"fc-tags\"><span class=\"medtag\">🦷 Dental hygiene & dentistry</span></div><p class=\"fc-fact\">When methyl methacrylate polymerizes, its C=C double bonds link up into the hard acrylic (PMMA) of denture bases, orthodontic retainers, and custom trays. The liquid monomer has a strong odor and can irritate skin.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Alkene<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#3a86c4;color:#fff;font-weight:900;text-align:center\">B</span> Ester</div></div>",
   "origin": "original",
+  "why": [
+   "Aromatic ring needs a benzene ring: six carbons with alternating double bonds. The highlighted part is an alkene: it has a C=C double bond.",
+   "Alkane needs only C–C single bonds (and C–H bonds). The highlighted part is an alkene: it has a C=C double bond.",
+   "Ketone needs a C=O with a carbon on each side. The highlighted part is an alkene: it has a C=C double bond.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -5035,6 +6067,12 @@
   "hint": "There is an –OH. Is the carbon holding it a plain single-bonded carbon, or part of a benzene ring?",
   "explain": "Label A is the alcohol: it has an –OH on a carbon that has only single bonds (not a ring of alternating double bonds).<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Methanol</div><div class=\"fc-tags\"><span class=\"medtag\">🔄 Metabolism</span><span class=\"medtag\">🩺 Nursing & pharmacology</span></div><p class=\"fc-fact\">Methanol itself is not very toxic, but the liver oxidizes it to formaldehyde and then formic acid, which can cause blindness and acidosis. The antidote fomepizole blocks that first oxidation step.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Alcohol</div></div>",
   "origin": "original",
+  "why": [
+   "Ketone needs a C=O with a carbon on each side. The highlighted part is an alcohol: it has an –OH on a carbon with only single bonds.",
+   "",
+   "Carboxylic acid needs a –COOH: C=O and –OH on the same carbon. The highlighted part is an alcohol: it has an –OH on a carbon with only single bonds.",
+   "Phenol needs an –OH directly on a benzene ring carbon. The highlighted part is an alcohol: it has an –OH on a carbon with only single bonds."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -5063,6 +6101,12 @@
   "hint": "There is a nitrogen. Is that N bonded to a C=O carbon, or only to C and H?",
   "explain": "Label B is the amine: it has a nitrogen bonded only by single bonds to carbon (and H).<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Hydrocodone</div><div class=\"fc-tags\"><span class=\"medtag\">🦷 Dental hygiene & dentistry</span><span class=\"medtag\">🩺 Nursing & pharmacology</span></div><p class=\"fc-fact\">Hydrocodone is codeine with its alcohol oxidized to a ketone and its C=C reduced to a single bond. Current dental guidelines recommend ibuprofen with acetaminophen first for tooth-extraction pain, keeping opioids for cases where that is not enough.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Ether<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#3a86c4;color:#fff;font-weight:900;text-align:center\">B</span> Amine<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#c78c12;color:#fff;font-weight:900;text-align:center\">C</span> Ketone</div></div>",
   "origin": "original",
+  "why": [
+   "Amide needs a C=O attached directly to N (–CON). The highlighted part is an amine: it has an N bonded only by single bonds to C and H (no C=O on it).",
+   "",
+   "Alkyl halide needs a halogen (F, Cl, Br or I) on a carbon. The highlighted part is an amine: it has an N bonded only by single bonds to C and H (no C=O on it).",
+   "Ether needs an O between two carbons (C–O–C) and no C=O. The highlighted part is an amine: it has an N bonded only by single bonds to C and H (no C=O on it)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -5118,6 +6162,12 @@
   "hint": "There is an –OH. Is the carbon holding it a plain single-bonded carbon, or part of a benzene ring?",
   "explain": "Label A is the alcohol: it has an –OH on a carbon that has only single bonds (not a ring of alternating double bonds).<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Ethanol</div><div class=\"fc-tags\"><span class=\"medtag\">🔄 Metabolism</span><span class=\"medtag\">🩺 Nursing & pharmacology</span></div><p class=\"fc-fact\">The liver clears roughly one standard drink per hour, and nothing (coffee, cold showers) speeds that up much. The first step is oxidation of the 1° alcohol to acetaldehyde by alcohol dehydrogenase.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Alcohol</div></div>",
   "origin": "original",
+  "why": [
+   "Carboxylic acid needs a –COOH: C=O and –OH on the same carbon. The highlighted part is an alcohol: it has an –OH on a carbon with only single bonds.",
+   "Ether needs an O between two carbons (C–O–C) and no C=O. The highlighted part is an alcohol: it has an –OH on a carbon with only single bonds.",
+   "Phenol needs an –OH directly on a benzene ring carbon. The highlighted part is an alcohol: it has an –OH on a carbon with only single bonds.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -5146,6 +6196,12 @@
   "hint": "Start at the C=O carbon. What else is on that same carbon: C, H, –OH, –O–C, or N?",
   "explain": "Label A is the carboxylic acid: it has a –COOH group: C=O and –OH on the same carbon.<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Aspirin</div><div class=\"fc-tags\"><span class=\"medtag\">🩺 Nursing & pharmacology</span><span class=\"medtag\">🦷 Dental hygiene & dentistry</span></div><p class=\"fc-fact\">Aspirin blocks the COX enzyme in platelets, so they stop clumping for the rest of their 7 to 10 day life. That is why patients may be asked about aspirin before surgery or a tooth extraction. Old aspirin that smells like vinegar has had its ester hydrolyzed into acetic acid.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Carboxylic acid<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#3a86c4;color:#fff;font-weight:900;text-align:center\">B</span> Aromatic ring<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#c78c12;color:#fff;font-weight:900;text-align:center\">C</span> Ester</div></div>",
   "origin": "original",
+  "why": [
+   "Aldehyde needs a C=O at the end of a chain with an H on the carbonyl carbon (–CHO). The highlighted part is a carboxylic acid: it has a –COOH: C=O and –OH on the same carbon.",
+   "Ketone needs a C=O with a carbon on each side. The highlighted part is a carboxylic acid: it has a –COOH: C=O and –OH on the same carbon.",
+   "Ester needs a C=O attached to –O–C (–COO–). The highlighted part is a carboxylic acid: it has a –COOH: C=O and –OH on the same carbon.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -5174,6 +6230,12 @@
   "hint": "Look for F, Cl, Br or I bonded to a carbon.",
   "explain": "Label A is the alkyl halide: it has a halogen (F, Cl, Br or I) attached to a carbon.<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Ethyl chloride</div><div class=\"fc-tags\"><span class=\"medtag\">🩺 Nursing & pharmacology</span><span class=\"medtag\">🦷 Dental hygiene & dentistry</span></div><p class=\"fc-fact\">Ethyl chloride boils at about 12 °C. Sprayed on the skin, it evaporates almost instantly and absorbs heat, numbing the area for a quick injection or IV start.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Alkyl halide</div></div>",
   "origin": "original",
+  "why": [
+   "Alkane needs only C–C single bonds (and C–H bonds). The highlighted part is an alkyl halide: it has a halogen (F, Cl, Br or I) on a carbon.",
+   "Ether needs an O between two carbons (C–O–C) and no C=O. The highlighted part is an alkyl halide: it has a halogen (F, Cl, Br or I) on a carbon.",
+   "",
+   "Alcohol needs an –OH on a carbon with only single bonds. The highlighted part is an alkyl halide: it has a halogen (F, Cl, Br or I) on a carbon."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -5255,6 +6317,12 @@
   "hint": "Start at the C=O carbon. What else is on that same carbon: C, H, –OH, –O–C, or N?",
   "explain": "Label A is the ester: it has a C=O attached to –O–C (–COO–).<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Acetylcholine</div><div class=\"fc-tags\"><span class=\"medtag\">🫀 Anatomy & physiology</span><span class=\"medtag\">🩺 Nursing & pharmacology</span></div><p class=\"fc-fact\">Acetylcholine tells skeletal muscles to contract. The enzyme acetylcholinesterase ends the signal by hydrolyzing the ester. Nerve agents and some insecticides block that enzyme.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Ester</div></div>",
   "origin": "original",
+  "why": [
+   "Ether needs an O between two carbons (C–O–C) and no C=O. The highlighted part is an ester: it has a C=O attached to –O–C (–COO–).",
+   "",
+   "Carboxylic acid needs a –COOH: C=O and –OH on the same carbon. The highlighted part is an ester: it has a C=O attached to –O–C (–COO–).",
+   "Ketone needs a C=O with a carbon on each side. The highlighted part is an ester: it has a C=O attached to –O–C (–COO–)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -5283,6 +6351,12 @@
   "hint": "Start at the C=O carbon. What else is on that same carbon: C, H, –OH, –O–C, or N?",
   "explain": "Label A is the carboxylic acid: it has a –COOH group: C=O and –OH on the same carbon.<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Tyrosine</div><div class=\"fc-tags\"><span class=\"medtag\">⬡ Benzene family</span><span class=\"medtag\">🫀 Anatomy & physiology</span></div><p class=\"fc-fact\">Tyrosine is the starting point for dopamine, epinephrine, thyroid hormones, and melanin. Its phenol OH is what makes it different from phenylalanine.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Carboxylic acid<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#3a86c4;color:#fff;font-weight:900;text-align:center\">B</span> Amine<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#c78c12;color:#fff;font-weight:900;text-align:center\">C</span> Phenol</div></div>",
   "origin": "original",
+  "why": [
+   "Aldehyde needs a C=O at the end of a chain with an H on the carbonyl carbon (–CHO). The highlighted part is a carboxylic acid: it has a –COOH: C=O and –OH on the same carbon.",
+   "Ester needs a C=O attached to –O–C (–COO–). The highlighted part is a carboxylic acid: it has a –COOH: C=O and –OH on the same carbon.",
+   "",
+   "Alcohol needs an –OH on a carbon with only single bonds. The highlighted part is a carboxylic acid: it has a –COOH: C=O and –OH on the same carbon."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -5363,6 +6437,12 @@
   "hint": "There is an –OH. Is the carbon holding it a plain single-bonded carbon, or part of a benzene ring?",
   "explain": "Label A is the alcohol: it has an –OH on a carbon that has only single bonds (not a ring of alternating double bonds).<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Cholesterol</div><div class=\"fc-tags\"><span class=\"medtag\">🫀 Anatomy & physiology</span><span class=\"medtag\">🩺 Nursing & pharmacology</span></div><p class=\"fc-fact\">Your body builds cortisol, estrogen, testosterone, and vitamin D from cholesterol. The single OH makes one end slightly polar, so cholesterol tucks into cell membranes with the OH facing the water.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Alcohol<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#3a86c4;color:#fff;font-weight:900;text-align:center\">B</span> Alkene</div></div>",
   "origin": "original",
+  "why": [
+   "Ether needs an O between two carbons (C–O–C) and no C=O. The highlighted part is an alcohol: it has an –OH on a carbon with only single bonds.",
+   "Ketone needs a C=O with a carbon on each side. The highlighted part is an alcohol: it has an –OH on a carbon with only single bonds.",
+   "",
+   "Carboxylic acid needs a –COOH: C=O and –OH on the same carbon. The highlighted part is an alcohol: it has an –OH on a carbon with only single bonds."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -5471,6 +6551,12 @@
   "hint": "Is it a six-carbon ring with alternating double bonds?",
   "explain": "Label B is the aromatic ring: it is a benzene ring: six carbons in a ring with alternating double bonds.<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Acetanilide (Antifebrin)</div><div class=\"fc-tags\"><span class=\"medtag\">⬡ Benzene family</span><span class=\"medtag\">🩺 Nursing & pharmacology</span></div><p class=\"fc-fact\">A pharmacy accidentally gave acetanilide to a patient in 1886, and it lowered the fever. It was too toxic for long-term use, but adding an OH to the ring led to acetaminophen. Compare the two: same amide, plus a phenol.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Amide<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#3a86c4;color:#fff;font-weight:900;text-align:center\">B</span> Aromatic ring</div></div>",
   "origin": "original",
+  "why": [
+   "Alkene needs a C=C double bond. The highlighted part is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds.",
+   "Phenol needs an –OH directly on a benzene ring carbon. The highlighted part is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds.",
+   "Alkane needs only C–C single bonds (and C–H bonds). The highlighted part is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds.",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -5499,6 +6585,12 @@
   "hint": "There is a nitrogen. Is that N bonded to a C=O carbon, or only to C and H?",
   "explain": "Label A is the amine: it has a nitrogen bonded only by single bonds to carbon (and H).<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Mepivacaine (Carbocaine)</div><div class=\"fc-tags\"><span class=\"medtag\">🦷 Dental hygiene & dentistry</span></div><p class=\"fc-fact\">Mepivacaine widens blood vessels less than most local anesthetics, so the 3% &quot;plain&quot; version works without epinephrine. That makes it useful for short procedures and patients who should limit epinephrine.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Amine<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#3a86c4;color:#fff;font-weight:900;text-align:center\">B</span> Amide<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#c78c12;color:#fff;font-weight:900;text-align:center\">C</span> Aromatic ring</div></div>",
   "origin": "original",
+  "why": [
+   "Alkyl halide needs a halogen (F, Cl, Br or I) on a carbon. The highlighted part is an amine: it has an N bonded only by single bonds to C and H (no C=O on it).",
+   "Amide needs a C=O attached directly to N (–CON). The highlighted part is an amine: it has an N bonded only by single bonds to C and H (no C=O on it).",
+   "",
+   "Ether needs an O between two carbons (C–O–C) and no C=O. The highlighted part is an amine: it has an N bonded only by single bonds to C and H (no C=O on it)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -5527,6 +6619,12 @@
   "hint": "There is a nitrogen. Is that N bonded to a C=O carbon, or only to C and H?",
   "explain": "Label B is the amine: it has a nitrogen bonded only by single bonds to carbon (and H).<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Aniline</div><div class=\"fc-tags\"><span class=\"medtag\">⬡ Benzene family</span><span class=\"medtag\">🩺 Nursing & pharmacology</span></div><p class=\"fc-fact\">Aniline exposure can cause methemoglobinemia, where blood turns chocolate-brown and cannot carry oxygen well. Turning aniline's amine into an amide gave acetanilide, an early fever reducer that led to acetaminophen.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Aromatic ring<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#3a86c4;color:#fff;font-weight:900;text-align:center\">B</span> Amine</div></div>",
   "origin": "original",
+  "why": [
+   "Amide needs a C=O attached directly to N (–CON). The highlighted part is an amine: it has an N bonded only by single bonds to C and H (no C=O on it).",
+   "Alcohol needs an –OH on a carbon with only single bonds. The highlighted part is an amine: it has an N bonded only by single bonds to C and H (no C=O on it).",
+   "Alkyl halide needs a halogen (F, Cl, Br or I) on a carbon. The highlighted part is an amine: it has an N bonded only by single bonds to C and H (no C=O on it).",
+   ""
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -5555,6 +6653,12 @@
   "hint": "Look for a double bond between two carbons that is not part of a benzene ring.",
   "explain": "Label C is the alkene: it has a C=C double bond.<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Bis-GMA</div><div class=\"fc-tags\"><span class=\"medtag\">🦷 Dental hygiene & dentistry</span></div><p class=\"fc-fact\">Bis-GMA has a reactive C=C at each end. When the blue curing light starts polymerization, those alkenes link many molecules into a hard network, which is how sealants and composite fillings set.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Alcohol<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#3a86c4;color:#fff;font-weight:900;text-align:center\">B</span> Aromatic ring<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#c78c12;color:#fff;font-weight:900;text-align:center\">C</span> Alkene</div></div>",
   "origin": "original",
+  "why": [
+   "Alkane needs only C–C single bonds (and C–H bonds). The highlighted part is an alkene: it has a C=C double bond.",
+   "",
+   "Aromatic ring needs a benzene ring: six carbons with alternating double bonds. The highlighted part is an alkene: it has a C=C double bond.",
+   "Alkyne needs a C≡C triple bond. The highlighted part is an alkene: it has a C=C double bond."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -5583,6 +6687,12 @@
   "hint": "There is an –OH. Is the carbon holding it a plain single-bonded carbon, or part of a benzene ring?",
   "explain": "Label A is the phenol: it has an –OH attached directly to a benzene (aromatic) ring carbon.<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Thymol</div><div class=\"fc-tags\"><span class=\"medtag\">⬡ Benzene family</span><span class=\"medtag\">🦷 Dental hygiene & dentistry</span></div><p class=\"fc-fact\">Listerine's essential oils are thymol, eucalyptol, menthol, and methyl salicylate. They disrupt bacterial cell membranes in plaque biofilm. Thymol comes from the herb thyme.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Phenol</div></div>",
   "origin": "original",
+  "why": [
+   "Alcohol needs an –OH on a carbon with only single bonds. The highlighted part is a phenol: it has an –OH directly on a benzene ring carbon.",
+   "",
+   "Ether needs an O between two carbons (C–O–C) and no C=O. The highlighted part is a phenol: it has an –OH directly on a benzene ring carbon.",
+   "Carboxylic acid needs a –COOH: C=O and –OH on the same carbon. The highlighted part is a phenol: it has an –OH directly on a benzene ring carbon."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -5611,6 +6721,12 @@
   "hint": "There is an –OH. Is the carbon holding it a plain single-bonded carbon, or part of a benzene ring?",
   "explain": "Label A is the alcohol: it has an –OH on a carbon that has only single bonds (not a ring of alternating double bonds).<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Isopropyl alcohol</div><div class=\"fc-tags\"><span class=\"medtag\">🩺 Nursing & pharmacology</span><span class=\"medtag\">🦷 Dental hygiene & dentistry</span></div><p class=\"fc-fact\">70% isopropyl alcohol kills germs better than 99%, because the water helps it get into cells and denature proteins and slows evaporation so it stays on the surface longer.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Alcohol</div></div>",
   "origin": "original",
+  "why": [
+   "",
+   "Phenol needs an –OH directly on a benzene ring carbon. The highlighted part is an alcohol: it has an –OH on a carbon with only single bonds.",
+   "Carboxylic acid needs a –COOH: C=O and –OH on the same carbon. The highlighted part is an alcohol: it has an –OH on a carbon with only single bonds.",
+   "Ketone needs a C=O with a carbon on each side. The highlighted part is an alcohol: it has an –OH on a carbon with only single bonds."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -5639,6 +6755,12 @@
   "hint": "There is a nitrogen. Is that N bonded to a C=O carbon, or only to C and H?",
   "explain": "Label C is the amine: it has a nitrogen bonded only by single bonds to carbon (and H).<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Fentanyl</div><div class=\"fc-tags\"><span class=\"medtag\">🫁 Respiratory & anesthesia</span><span class=\"medtag\">🩺 Nursing & pharmacology</span></div><p class=\"fc-fact\">Fentanyl is roughly 50 to 100 times more potent than morphine, so doses are in micrograms. It is used during anesthesia and in skin patches, and naloxone reverses it.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Aromatic ring<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#3a86c4;color:#fff;font-weight:900;text-align:center\">B</span> Amide<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#c78c12;color:#fff;font-weight:900;text-align:center\">C</span> Amine</div></div>",
   "origin": "original",
+  "why": [
+   "Alkyl halide needs a halogen (F, Cl, Br or I) on a carbon. The highlighted part is an amine: it has an N bonded only by single bonds to C and H (no C=O on it).",
+   "Ether needs an O between two carbons (C–O–C) and no C=O. The highlighted part is an amine: it has an N bonded only by single bonds to C and H (no C=O on it).",
+   "",
+   "Amide needs a C=O attached directly to N (–CON). The highlighted part is an amine: it has an N bonded only by single bonds to C and H (no C=O on it)."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",
@@ -5667,6 +6789,12 @@
   "hint": "Is it a six-carbon ring with alternating double bonds?",
   "explain": "Label A is the aromatic ring: it is a benzene ring: six carbons in a ring with alternating double bonds.<div class=\"factcard\"><div class=\"fc-title\">💡 Fun fact: Ibuprofen (Advil, Motrin)</div><div class=\"fc-tags\"><span class=\"medtag\">🩺 Nursing & pharmacology</span><span class=\"medtag\">🦷 Dental hygiene & dentistry</span></div><p class=\"fc-fact\">Ibuprofen lowers prostaglandins, which cause inflammation but also protect the stomach lining. That is why it is taken with food. It is one of the most common choices for dental pain after a procedure.</p><div class=\"fc-key\"><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#d9536f;color:#fff;font-weight:900;text-align:center\">A</span> Aromatic ring<span class=\"fc-sep\"></span><span style=\"display:inline-block;min-width:22px;padding:0 6px;border-radius:12px;background:#3a86c4;color:#fff;font-weight:900;text-align:center\">B</span> Carboxylic acid</div></div>",
   "origin": "original",
+  "why": [
+   "",
+   "Alkene needs a C=C double bond. The highlighted part is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds.",
+   "Alkane needs only C–C single bonds (and C–H bonds). The highlighted part is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds.",
+   "Phenol needs an –OH directly on a benzene ring carbon. The highlighted part is an aromatic ring: it has a benzene ring: six carbons with alternating double bonds."
+  ],
   "from": {
    "game": "functionalgroups",
    "list": "sample:med",

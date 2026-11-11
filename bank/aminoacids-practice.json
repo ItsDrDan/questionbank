@@ -19,6 +19,10 @@
   "hint": "With –COO⁻ on top and the R group on the bottom, look only at the –NH₃⁺: on the Left → L, on the Right → D.",
   "explain": "The –NH₃⁺ on the α-carbon is on the <b style=\"font-weight:700\">right</b>, so this is <b style=\"font-weight:700\">D-cysteine</b>. The amino acids in human proteins are L amino acids. (Glycine, R = H, is not chiral and has no D or L form.)",
   "origin": "original",
+  "why": [
+   "L has the –NH₃⁺ on the left (with –COO⁻ at the top). Here it is on the right, so this is D.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -46,6 +50,12 @@
   "hint": "The body can make the nonessential amino acids. A memory trick for the 9 essential ones: \"PVT TIM HaLL\" (Phe, Val, Thr, Trp, Ile, Met, His, Leu, Lys).",
   "explain": "<b style=\"font-weight:700\">lysine (Lys, K)</b> is essential. The 9 essential amino acids for adults are His, Ile, Leu, Lys, Met, Phe, Thr, Trp and Val (arginine is sometimes counted as a 10th, conditionally essential one).",
   "origin": "original",
+  "why": [
+   "Alanine is nonessential: the body can make it. The 9 essential ones are His, Ile, Leu, Lys, Met, Phe, Thr, Trp and Val.",
+   "Serine is nonessential: the body can make it. The 9 essential ones are His, Ile, Leu, Lys, Met, Phe, Thr, Trp and Val.",
+   "Glycine is nonessential: the body can make it. The 9 essential ones are His, Ile, Leu, Lys, Met, Phe, Thr, Trp and Val.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -73,6 +83,12 @@
   "hint": "Only C and H → nonpolar. Neutral –OH, –SH or amide → polar neutral. Extra –COO⁻ → acidic. Extra N that carries + → basic.",
   "explain": "<b style=\"font-weight:700\">tyrosine (Tyr, Y)</b> is <b style=\"font-weight:700\">polar neutral (hydrophilic)</b>: its side chain has a polar –OH, –SH or amide group that can hydrogen bond with water but carries no charge. The big ring is nonpolar, but the –OH makes Tyr polar.",
   "origin": "original",
+  "why": [
+   "Acidic side chains have a second –COOH (–COO⁻ at pH 7.4): Asp and Glu. tyrosine (Tyr, Y) is polar neutral (hydrophilic) : its side chain has a polar –OH, –SH or amide group that can hydrogen bond with water but carries no charge. The big ring is nonpolar, but the –OH makes Tyr polar.",
+   "Nonpolar side chains are only C and H (or the –S–CH₃ of Met). tyrosine (Tyr, Y) is polar neutral (hydrophilic) : its side chain has a polar –OH, –SH or amide group that can hydrogen bond with water but carries no charge. The big ring is nonpolar, but the –OH makes Tyr polar.",
+   "",
+   "Basic side chains have an extra N group that is positive at pH 7.4: Lys, Arg and His. tyrosine (Tyr, Y) is polar neutral (hydrophilic) : its side chain has a polar –OH, –SH or amide group that can hydrogen bond with water but carries no charge. The big ring is nonpolar, but the –OH makes Tyr polar."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -99,6 +115,11 @@
   "hint": "pH below pI → net +. pH = pI → net 0. pH above pI → net −.",
   "explain": "At its isoelectric point (pH = pI) an amino acid has <b style=\"font-weight:700\">no net charge</b>; it is a zwitterion and does not move in an electric field.",
   "origin": "original",
+  "why": [
+   "Negative needs H⁺ removed: pH above the pI, or an acidic side chain at pH 7.4. At its isoelectric point (pH = pI) an amino acid has no net charge ; it is a zwitterion and does not move in an electric field.",
+   "Positive needs extra H⁺: pH below the pI, or a basic side chain at pH 7.4. At its isoelectric point (pH = pI) an amino acid has no net charge ; it is a zwitterion and does not move in an electric field.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -126,6 +147,12 @@
   "hint": "Look only at the side chain (R group) hanging below the α-carbon. Does it contain O, N or S, a charge, or a ring? Count its carbons.",
   "explain": "This is <b style=\"font-weight:700\">tryptophan (Trp, W)</b>: R = –CH₂– attached to two fused rings (indole) with an N–H.",
   "origin": "original",
+  "why": [
+   "Leucine (Leu) has R = –CH₂–CH(CH₃)₂, a nonpolar side chain. Compare the side chain drawn here.",
+   "Histidine (His) has R = –CH₂– on an imidazole ring (a five-membered ring with two N), a basic side chain. Compare the side chain drawn here.",
+   "Valine (Val) has R = –CH(CH₃)₂, a nonpolar side chain. Compare the side chain drawn here.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -153,6 +180,12 @@
   "hint": "Only C and H → nonpolar. Neutral –OH, –SH or amide → polar neutral. Extra –COO⁻ → acidic. Extra N that carries + → basic.",
   "explain": "<b style=\"font-weight:700\">valine (Val, V)</b> is <b style=\"font-weight:700\">nonpolar (hydrophobic)</b>: its side chain is only C and H (or a nonpolar –S–CH₃), so it cannot hydrogen bond with water.",
   "origin": "original",
+  "why": [
+   "Polar neutral side chains have an –OH, –SH or amide group but no charge. valine (Val, V) is nonpolar (hydrophobic) : its side chain is only C and H (or a nonpolar –S–CH₃), so it cannot hydrogen bond with water.",
+   "Acidic side chains have a second –COOH (–COO⁻ at pH 7.4): Asp and Glu. valine (Val, V) is nonpolar (hydrophobic) : its side chain is only C and H (or a nonpolar –S–CH₃), so it cannot hydrogen bond with water.",
+   "Basic side chains have an extra N group that is positive at pH 7.4: Lys, Arg and His. valine (Val, V) is nonpolar (hydrophobic) : its side chain is only C and H (or a nonpolar –S–CH₃), so it cannot hydrogen bond with water.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -180,6 +213,12 @@
   "hint": "Many one-letter codes are the first letter of the name, but not when two amino acids start with the same letter.",
   "explain": "valine (Val, V): one-letter code <b style=\"font-weight:700\">V</b>.",
   "origin": "original",
+  "why": [
+   "",
+   "L is the code for leucine (Leu).",
+   "R is the code for arginine (Arg).",
+   "D is the code for aspartic acid (Asp)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -206,6 +245,11 @@
   "hint": "At pH 7.4, –COOH groups are –COO⁻ and amine groups are –NH₃⁺. The backbone charges cancel, so look at the side chain: acidic → −, basic → +, otherwise 0.",
   "explain": "At physiological pH (7.4) the backbone is –NH₃⁺ and –COO⁻ (they cancel). The extra side-chain –COO⁻ of Asp makes the net charge <b style=\"font-weight:700\">negative</b>.",
   "origin": "original",
+  "why": [
+   "Zero (a zwitterion) happens at the pI, or at pH 7.4 for a side chain with no charge. At physiological pH (7.4) the backbone is –NH₃⁺ and –COO⁻ (they cancel). The extra side-chain –COO⁻ of Asp makes the net charge negative .",
+   "",
+   "Positive needs extra H⁺: pH below the pI, or a basic side chain at pH 7.4. At physiological pH (7.4) the backbone is –NH₃⁺ and –COO⁻ (they cancel). The extra side-chain –COO⁻ of Asp makes the net charge negative ."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -233,6 +277,12 @@
   "hint": "Look only at the side chain (R group) hanging below the α-carbon. Does it contain O, N or S, a charge, or a ring? Count its carbons.",
   "explain": "This is <b style=\"font-weight:700\">arginine (Arg, R)</b>: R = –(CH₂)₃–NH–C(=NH₂⁺)–NH₂.",
   "origin": "original",
+  "why": [
+   "Lysine (Lys) has R = –(CH₂)₄–NH₃⁺, a basic side chain. Compare the side chain drawn here.",
+   "",
+   "Histidine (His) has R = –CH₂– on an imidazole ring (a five-membered ring with two N), a basic side chain. Compare the side chain drawn here.",
+   "Asparagine (Asn) has R = –CH₂–C(=O)–NH₂, a polar neutral side chain. Compare the side chain drawn here."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -260,6 +310,12 @@
   "hint": "Look only at the side chain (R group) hanging below the α-carbon. Does it contain O, N or S, a charge, or a ring? Count its carbons.",
   "explain": "This is <b style=\"font-weight:700\">histidine (His, H)</b>: R = –CH₂– attached to a five-membered ring with two N atoms (imidazole).",
   "origin": "original",
+  "why": [
+   "Lysine (Lys) has R = –(CH₂)₄–NH₃⁺, a basic side chain. Compare the side chain drawn here.",
+   "Arginine (Arg) has R = –(CH₂)₃–NH–C(=NH₂⁺)–NH₂, a basic side chain. Compare the side chain drawn here.",
+   "",
+   "Aspartic acid (Asp) has R = –CH₂–COO⁻, an acidic side chain. Compare the side chain drawn here."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -287,6 +343,12 @@
   "hint": "Many one-letter codes are the first letter of the name, but not when two amino acids start with the same letter.",
   "explain": "tryptophan (Trp, W): one-letter code <b style=\"font-weight:700\">W</b>. Memory trick: W = \"tWo rings\" (tryptophan).",
   "origin": "original",
+  "why": [
+   "C is the code for cysteine (Cys).",
+   "",
+   "T is the code for threonine (Thr).",
+   "Q is the code for glutamine (Gln)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -314,6 +376,12 @@
   "hint": "Look only at the side chain (R group) hanging below the α-carbon. Does it contain O, N or S, a charge, or a ring? Count its carbons.",
   "explain": "This is <b style=\"font-weight:700\">threonine (Thr, T)</b>: R = –CH(OH)–CH₃.",
   "origin": "original",
+  "why": [
+   "",
+   "Tyrosine (Tyr) has R = –CH₂– on a benzene ring with an –OH, a polar neutral side chain. Compare the side chain drawn here.",
+   "Asparagine (Asn) has R = –CH₂–C(=O)–NH₂, a polar neutral side chain. Compare the side chain drawn here.",
+   "Lysine (Lys) has R = –(CH₂)₄–NH₃⁺, a basic side chain. Compare the side chain drawn here."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -341,6 +409,12 @@
   "hint": "Only C and H → nonpolar. Neutral –OH, –SH or amide → polar neutral. Extra –COO⁻ → acidic. Extra N that carries + → basic.",
   "explain": "<b style=\"font-weight:700\">cysteine (Cys, C)</b> is <b style=\"font-weight:700\">polar neutral (hydrophilic)</b>: its side chain has a polar –OH, –SH or amide group that can hydrogen bond with water but carries no charge. The –SH group is polar, and it can form disulfide (–S–S–) bonds.",
   "origin": "original",
+  "why": [
+   "Basic side chains have an extra N group that is positive at pH 7.4: Lys, Arg and His. cysteine (Cys, C) is polar neutral (hydrophilic) : its side chain has a polar –OH, –SH or amide group that can hydrogen bond with water but carries no charge. The –SH group is polar, and it can form disulfide (–S–S–) bonds.",
+   "",
+   "Nonpolar side chains are only C and H (or the –S–CH₃ of Met). cysteine (Cys, C) is polar neutral (hydrophilic) : its side chain has a polar –OH, –SH or amide group that can hydrogen bond with water but carries no charge. The –SH group is polar, and it can form disulfide (–S–S–) bonds.",
+   "Acidic side chains have a second –COOH (–COO⁻ at pH 7.4): Asp and Glu. cysteine (Cys, C) is polar neutral (hydrophilic) : its side chain has a polar –OH, –SH or amide group that can hydrogen bond with water but carries no charge. The –SH group is polar, and it can form disulfide (–S–S–) bonds."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -367,6 +441,11 @@
   "hint": "pH below pI → net +. pH = pI → net 0. pH above pI → net −.",
   "explain": "When the pH is higher than the pI, H⁺ is removed from –NH₃⁺ groups, so the amino acid has a net <b style=\"font-weight:700\">negative</b> charge (it moves toward the + electrode).",
   "origin": "original",
+  "why": [
+   "Zero (a zwitterion) happens at the pI, or at pH 7.4 for a side chain with no charge. When the pH is higher than the pI, H⁺ is removed from –NH₃⁺ groups, so the amino acid has a net negative charge (it moves toward the + electrode).",
+   "",
+   "Positive needs extra H⁺: pH below the pI, or a basic side chain at pH 7.4. When the pH is higher than the pI, H⁺ is removed from –NH₃⁺ groups, so the amino acid has a net negative charge (it moves toward the + electrode)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -393,6 +472,11 @@
   "hint": "At pH 7.4, –COOH groups are –COO⁻ and amine groups are –NH₃⁺. The backbone charges cancel, so look at the side chain: acidic → −, basic → +, otherwise 0.",
   "explain": "At physiological pH (7.4) the backbone is –NH₃⁺ and –COO⁻ (they cancel). The extra side-chain –COO⁻ of Glu makes the net charge <b style=\"font-weight:700\">negative</b>.",
   "origin": "original",
+  "why": [
+   "Positive needs extra H⁺: pH below the pI, or a basic side chain at pH 7.4. At physiological pH (7.4) the backbone is –NH₃⁺ and –COO⁻ (they cancel). The extra side-chain –COO⁻ of Glu makes the net charge negative .",
+   "",
+   "Zero (a zwitterion) happens at the pI, or at pH 7.4 for a side chain with no charge. At physiological pH (7.4) the backbone is –NH₃⁺ and –COO⁻ (they cancel). The extra side-chain –COO⁻ of Glu makes the net charge negative ."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -420,6 +504,12 @@
   "hint": "Only C and H → nonpolar. Neutral –OH, –SH or amide → polar neutral. Extra –COO⁻ → acidic. Extra N that carries + → basic.",
   "explain": "<b style=\"font-weight:700\">glycine (Gly, G)</b> is <b style=\"font-weight:700\">nonpolar (hydrophobic)</b>: its side chain is only C and H (or a nonpolar –S–CH₃), so it cannot hydrogen bond with water. Its R group is just H, so it is grouped with the nonpolar amino acids.",
   "origin": "original",
+  "why": [
+   "Polar neutral side chains have an –OH, –SH or amide group but no charge. glycine (Gly, G) is nonpolar (hydrophobic) : its side chain is only C and H (or a nonpolar –S–CH₃), so it cannot hydrogen bond with water. Its R group is just H, so it is grouped with the nonpolar amino acids.",
+   "Basic side chains have an extra N group that is positive at pH 7.4: Lys, Arg and His. glycine (Gly, G) is nonpolar (hydrophobic) : its side chain is only C and H (or a nonpolar –S–CH₃), so it cannot hydrogen bond with water. Its R group is just H, so it is grouped with the nonpolar amino acids.",
+   "Acidic side chains have a second –COOH (–COO⁻ at pH 7.4): Asp and Glu. glycine (Gly, G) is nonpolar (hydrophobic) : its side chain is only C and H (or a nonpolar –S–CH₃), so it cannot hydrogen bond with water. Its R group is just H, so it is grouped with the nonpolar amino acids.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -447,6 +537,12 @@
   "hint": "The body can make the nonessential amino acids. A memory trick for the 9 essential ones: \"PVT TIM HaLL\" (Phe, Val, Thr, Trp, Ile, Met, His, Leu, Lys).",
   "explain": "<b style=\"font-weight:700\">phenylalanine (Phe, F)</b> is essential. The 9 essential amino acids for adults are His, Ile, Leu, Lys, Met, Phe, Thr, Trp and Val (arginine is sometimes counted as a 10th, conditionally essential one).",
   "origin": "original",
+  "why": [
+   "Aspartic acid is nonessential: the body can make it. The 9 essential ones are His, Ile, Leu, Lys, Met, Phe, Thr, Trp and Val.",
+   "Glycine is nonessential: the body can make it. The 9 essential ones are His, Ile, Leu, Lys, Met, Phe, Thr, Trp and Val.",
+   "",
+   "Cysteine is nonessential: the body can make it. The 9 essential ones are His, Ile, Leu, Lys, Met, Phe, Thr, Trp and Val."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -474,6 +570,12 @@
   "hint": "Many one-letter codes are the first letter of the name, but not when two amino acids start with the same letter.",
   "explain": "glutamine (Gln, Q): one-letter code <b style=\"font-weight:700\">Q</b>. Memory trick: Q = \"Q-tamine\" (glutamine).",
   "origin": "original",
+  "why": [
+   "V is the code for valine (Val).",
+   "",
+   "G is the code for glycine (Gly).",
+   "T is the code for threonine (Thr)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -500,6 +602,10 @@
   "hint": "With –COO⁻ on top and the R group on the bottom, look only at the –NH₃⁺: on the Left → L, on the Right → D.",
   "explain": "The –NH₃⁺ on the α-carbon is on the <b style=\"font-weight:700\">left</b>, so this is <b style=\"font-weight:700\">L-cysteine</b>. The amino acids in human proteins are L amino acids. (Glycine, R = H, is not chiral and has no D or L form.)",
   "origin": "original",
+  "why": [
+   "",
+   "D has the –NH₃⁺ on the right (with –COO⁻ at the top). Here it is on the left, so this is L."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -527,6 +633,12 @@
   "hint": "Only C and H → nonpolar. Neutral –OH, –SH or amide → polar neutral. Extra –COO⁻ → acidic. Extra N that carries + → basic.",
   "explain": "<b style=\"font-weight:700\">proline (Pro, P)</b> is <b style=\"font-weight:700\">nonpolar (hydrophobic)</b>: its side chain is only C and H (or a nonpolar –S–CH₃), so it cannot hydrogen bond with water.",
   "origin": "original",
+  "why": [
+   "Polar neutral side chains have an –OH, –SH or amide group but no charge. proline (Pro, P) is nonpolar (hydrophobic) : its side chain is only C and H (or a nonpolar –S–CH₃), so it cannot hydrogen bond with water.",
+   "Basic side chains have an extra N group that is positive at pH 7.4: Lys, Arg and His. proline (Pro, P) is nonpolar (hydrophobic) : its side chain is only C and H (or a nonpolar –S–CH₃), so it cannot hydrogen bond with water.",
+   "",
+   "Acidic side chains have a second –COOH (–COO⁻ at pH 7.4): Asp and Glu. proline (Pro, P) is nonpolar (hydrophobic) : its side chain is only C and H (or a nonpolar –S–CH₃), so it cannot hydrogen bond with water."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -554,6 +666,12 @@
   "hint": "Only C and H → nonpolar. Neutral –OH, –SH or amide → polar neutral. Extra –COO⁻ → acidic. Extra N that carries + → basic.",
   "explain": "<b style=\"font-weight:700\">lysine (Lys, K)</b> is <b style=\"font-weight:700\">basic (positive at pH 7.4)</b>: its side chain has a nitrogen group that picks up H⁺ (–NH₃⁺ in Lys, the guanidinium in Arg, the ring N in His).",
   "origin": "original",
+  "why": [
+   "",
+   "Nonpolar side chains are only C and H (or the –S–CH₃ of Met). lysine (Lys, K) is basic (positive at pH 7.4) : its side chain has a nitrogen group that picks up H⁺ (–NH₃⁺ in Lys, the guanidinium in Arg, the ring N in His).",
+   "Acidic side chains have a second –COOH (–COO⁻ at pH 7.4): Asp and Glu. lysine (Lys, K) is basic (positive at pH 7.4) : its side chain has a nitrogen group that picks up H⁺ (–NH₃⁺ in Lys, the guanidinium in Arg, the ring N in His).",
+   "Polar neutral side chains have an –OH, –SH or amide group but no charge. lysine (Lys, K) is basic (positive at pH 7.4) : its side chain has a nitrogen group that picks up H⁺ (–NH₃⁺ in Lys, the guanidinium in Arg, the ring N in His)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -581,6 +699,12 @@
   "hint": "Many one-letter codes are the first letter of the name, but not when two amino acids start with the same letter.",
   "explain": "tyrosine (Tyr, Y): one-letter code <b style=\"font-weight:700\">Y</b>. Memory trick: Y = \"tYrosine\".",
   "origin": "original",
+  "why": [
+   "T is the code for threonine (Thr).",
+   "M is the code for methionine (Met).",
+   "",
+   "V is the code for valine (Val)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -608,6 +732,12 @@
   "hint": "Look only at the side chain (R group) hanging below the α-carbon. Does it contain O, N or S, a charge, or a ring? Count its carbons.",
   "explain": "This is <b style=\"font-weight:700\">cysteine (Cys, C)</b>: R = –CH₂–SH (a thiol).",
   "origin": "original",
+  "why": [
+   "",
+   "Asparagine (Asn) has R = –CH₂–C(=O)–NH₂, a polar neutral side chain. Compare the side chain drawn here.",
+   "Threonine (Thr) has R = –CH(OH)–CH₃, a polar neutral side chain. Compare the side chain drawn here.",
+   "Glutamic acid (Glu) has R = –CH₂–CH₂–COO⁻, an acidic side chain. Compare the side chain drawn here."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -635,6 +765,12 @@
   "hint": "Look only at the side chain (R group) hanging below the α-carbon. Does it contain O, N or S, a charge, or a ring? Count its carbons.",
   "explain": "This is <b style=\"font-weight:700\">serine (Ser, S)</b>: R = –CH₂–OH.",
   "origin": "original",
+  "why": [
+   "Glutamic acid (Glu) has R = –CH₂–CH₂–COO⁻, an acidic side chain. Compare the side chain drawn here.",
+   "Cysteine (Cys) has R = –CH₂–SH, a polar neutral side chain. Compare the side chain drawn here.",
+   "Threonine (Thr) has R = –CH(OH)–CH₃, a polar neutral side chain. Compare the side chain drawn here.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -661,6 +797,11 @@
   "hint": "pH below pI → net +. pH = pI → net 0. pH above pI → net −.",
   "explain": "When the pH is lower than the pI, the extra H⁺ protonates –COO⁻ groups, so the amino acid has a net <b style=\"font-weight:700\">positive</b> charge (it moves toward the − electrode).",
   "origin": "original",
+  "why": [
+   "",
+   "Zero (a zwitterion) happens at the pI, or at pH 7.4 for a side chain with no charge. When the pH is lower than the pI, the extra H⁺ protonates –COO⁻ groups, so the amino acid has a net positive charge (it moves toward the − electrode).",
+   "Negative needs H⁺ removed: pH above the pI, or an acidic side chain at pH 7.4. When the pH is lower than the pI, the extra H⁺ protonates –COO⁻ groups, so the amino acid has a net positive charge (it moves toward the − electrode)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -688,6 +829,12 @@
   "hint": "Think of the letters that are NOT the first letter of the name: F, W, Y, K, R, D, E, N, Q.",
   "explain": "<b style=\"font-weight:700\">R</b> = arginine (Arg, R). Memory trick: R = \"aRginine\".",
   "origin": "original",
+  "why": [
+   "Histidine is H.",
+   "Glutamine is Q.",
+   "",
+   "Aspartic acid is D."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -714,6 +861,11 @@
   "hint": "At pH 7.4, –COOH groups are –COO⁻ and amine groups are –NH₃⁺. The backbone charges cancel, so look at the side chain: acidic → −, basic → +, otherwise 0.",
   "explain": "At physiological pH (7.4) the backbone is –NH₃⁺ and –COO⁻ (they cancel). The extra positive side-chain –NH₃⁺ of Lys makes the net charge <b style=\"font-weight:700\">positive</b>.",
   "origin": "original",
+  "why": [
+   "Zero (a zwitterion) happens at the pI, or at pH 7.4 for a side chain with no charge. At physiological pH (7.4) the backbone is –NH₃⁺ and –COO⁻ (they cancel). The extra positive side-chain –NH₃⁺ of Lys makes the net charge positive .",
+   "Negative needs H⁺ removed: pH above the pI, or an acidic side chain at pH 7.4. At physiological pH (7.4) the backbone is –NH₃⁺ and –COO⁻ (they cancel). The extra positive side-chain –NH₃⁺ of Lys makes the net charge positive .",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -740,6 +892,10 @@
   "hint": "With –COO⁻ on top and the R group on the bottom, look only at the –NH₃⁺: on the Left → L, on the Right → D.",
   "explain": "The –NH₃⁺ on the α-carbon is on the <b style=\"font-weight:700\">right</b>, so this is <b style=\"font-weight:700\">D-valine</b>. The amino acids in human proteins are L amino acids. (Glycine, R = H, is not chiral and has no D or L form.)",
   "origin": "original",
+  "why": [
+   "L has the –NH₃⁺ on the left (with –COO⁻ at the top). Here it is on the right, so this is D.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -767,6 +923,12 @@
   "hint": "Only C and H → nonpolar. Neutral –OH, –SH or amide → polar neutral. Extra –COO⁻ → acidic. Extra N that carries + → basic.",
   "explain": "<b style=\"font-weight:700\">glutamine (Gln, Q)</b> is <b style=\"font-weight:700\">polar neutral (hydrophilic)</b>: its side chain has a polar –OH, –SH or amide group that can hydrogen bond with water but carries no charge.",
   "origin": "original",
+  "why": [
+   "",
+   "Basic side chains have an extra N group that is positive at pH 7.4: Lys, Arg and His. glutamine (Gln, Q) is polar neutral (hydrophilic) : its side chain has a polar –OH, –SH or amide group that can hydrogen bond with water but carries no charge.",
+   "Acidic side chains have a second –COOH (–COO⁻ at pH 7.4): Asp and Glu. glutamine (Gln, Q) is polar neutral (hydrophilic) : its side chain has a polar –OH, –SH or amide group that can hydrogen bond with water but carries no charge.",
+   "Nonpolar side chains are only C and H (or the –S–CH₃ of Met). glutamine (Gln, Q) is polar neutral (hydrophilic) : its side chain has a polar –OH, –SH or amide group that can hydrogen bond with water but carries no charge."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -794,6 +956,12 @@
   "hint": "Only C and H → nonpolar. Neutral –OH, –SH or amide → polar neutral. Extra –COO⁻ → acidic. Extra N that carries + → basic.",
   "explain": "<b style=\"font-weight:700\">phenylalanine (Phe, F)</b> is <b style=\"font-weight:700\">nonpolar (hydrophobic)</b>: its side chain is only C and H (or a nonpolar –S–CH₃), so it cannot hydrogen bond with water.",
   "origin": "original",
+  "why": [
+   "Basic side chains have an extra N group that is positive at pH 7.4: Lys, Arg and His. phenylalanine (Phe, F) is nonpolar (hydrophobic) : its side chain is only C and H (or a nonpolar –S–CH₃), so it cannot hydrogen bond with water.",
+   "Acidic side chains have a second –COOH (–COO⁻ at pH 7.4): Asp and Glu. phenylalanine (Phe, F) is nonpolar (hydrophobic) : its side chain is only C and H (or a nonpolar –S–CH₃), so it cannot hydrogen bond with water.",
+   "Polar neutral side chains have an –OH, –SH or amide group but no charge. phenylalanine (Phe, F) is nonpolar (hydrophobic) : its side chain is only C and H (or a nonpolar –S–CH₃), so it cannot hydrogen bond with water.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -820,6 +988,11 @@
   "hint": "pH below pI → net +. pH = pI → net 0. pH above pI → net −.",
   "explain": "When the pH is lower than the pI, the extra H⁺ protonates –COO⁻ groups, so the amino acid has a net <b style=\"font-weight:700\">positive</b> charge (it moves toward the − electrode).",
   "origin": "original",
+  "why": [
+   "",
+   "Negative needs H⁺ removed: pH above the pI, or an acidic side chain at pH 7.4. When the pH is lower than the pI, the extra H⁺ protonates –COO⁻ groups, so the amino acid has a net positive charge (it moves toward the − electrode).",
+   "Zero (a zwitterion) happens at the pI, or at pH 7.4 for a side chain with no charge. When the pH is lower than the pI, the extra H⁺ protonates –COO⁻ groups, so the amino acid has a net positive charge (it moves toward the − electrode)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -847,6 +1020,12 @@
   "hint": "Look only at the side chain (R group) hanging below the α-carbon. Does it contain O, N or S, a charge, or a ring? Count its carbons.",
   "explain": "This is <b style=\"font-weight:700\">valine (Val, V)</b>: R = –CH(CH₃)₂, branched right at the first side-chain carbon.",
   "origin": "original",
+  "why": [
+   "",
+   "Leucine (Leu) has R = –CH₂–CH(CH₃)₂, a nonpolar side chain. Compare the side chain drawn here.",
+   "Glutamine (Gln) has R = –CH₂–CH₂–C(=O)–NH₂, a polar neutral side chain. Compare the side chain drawn here.",
+   "Tryptophan (Trp) has R = –CH₂– on an indole (two fused rings with an N–H), a nonpolar side chain. Compare the side chain drawn here."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -874,6 +1053,12 @@
   "hint": "The body can make the nonessential amino acids. A memory trick for the 9 essential ones: \"PVT TIM HaLL\" (Phe, Val, Thr, Trp, Ile, Met, His, Leu, Lys).",
   "explain": "<b style=\"font-weight:700\">valine (Val, V)</b> is essential. The 9 essential amino acids for adults are His, Ile, Leu, Lys, Met, Phe, Thr, Trp and Val (arginine is sometimes counted as a 10th, conditionally essential one).",
   "origin": "original",
+  "why": [
+   "Glutamine is nonessential: the body can make it. The 9 essential ones are His, Ile, Leu, Lys, Met, Phe, Thr, Trp and Val.",
+   "Tyrosine is nonessential: the body can make it. The 9 essential ones are His, Ile, Leu, Lys, Met, Phe, Thr, Trp and Val.",
+   "Glutamic acid is nonessential: the body can make it. The 9 essential ones are His, Ile, Leu, Lys, Met, Phe, Thr, Trp and Val.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -900,6 +1085,10 @@
   "hint": "With –COO⁻ on top and the R group on the bottom, look only at the –NH₃⁺: on the Left → L, on the Right → D.",
   "explain": "The –NH₃⁺ on the α-carbon is on the <b style=\"font-weight:700\">right</b>, so this is <b style=\"font-weight:700\">D-methionine</b>. The amino acids in human proteins are L amino acids. (Glycine, R = H, is not chiral and has no D or L form.)",
   "origin": "original",
+  "why": [
+   "L has the –NH₃⁺ on the left (with –COO⁻ at the top). Here it is on the right, so this is D.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -927,6 +1116,12 @@
   "hint": "Think of the letters that are NOT the first letter of the name: F, W, Y, K, R, D, E, N, Q.",
   "explain": "<b style=\"font-weight:700\">E</b> = glutamic acid (Glu, E). Memory trick: E = \"glutEmic\" acid.",
   "origin": "original",
+  "why": [
+   "",
+   "Glutamine is Q.",
+   "Tyrosine is Y.",
+   "Histidine is H."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -954,6 +1149,12 @@
   "hint": "Many one-letter codes are the first letter of the name, but not when two amino acids start with the same letter.",
   "explain": "alanine (Ala, A): one-letter code <b style=\"font-weight:700\">A</b>.",
   "origin": "original",
+  "why": [
+   "",
+   "S is the code for serine (Ser).",
+   "V is the code for valine (Val).",
+   "Q is the code for glutamine (Gln)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:aa",
@@ -981,6 +1182,12 @@
   "hint": "Draw a short chain: 2 amino acids need 1 bond, 3 need 2… Each peptide bond releases one H₂O when it forms and uses one H₂O when it is hydrolyzed.",
   "explain": "A chain of 300 amino acids has <b style=\"font-weight:700\">299</b> peptide bonds (one fewer than the number of amino acids). Forming them releases 299 H₂O, and hydrolyzing them uses 299 H₂O.",
   "origin": "original",
+  "why": [
+   "300 amino acids in a row are joined by 300 − 1 = 299 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "300 amino acids in a row are joined by 300 − 1 = 299 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "300 amino acids in a row are joined by 300 − 1 = 299 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1008,6 +1215,12 @@
   "hint": "Hydrolysis uses up water: one H₂O for every peptide bond broken. How many peptide bonds are in a tripeptide?",
   "explain": "A tripeptide has 2 peptide bonds. Complete hydrolysis breaks both, <b style=\"font-weight:700\">using 2 H₂O</b>, and gives the three free amino acids. Water is released when peptide bonds <i style=\"font-style:italic\">form</i>, not when they break.",
   "origin": "original",
+  "why": [
+   "Count the peptide bonds: one fewer than the number of amino acids, and each uses one H₂O.",
+   "",
+   "Complete hydrolysis breaks every peptide bond, so no dipeptide is left.",
+   "Hydrolysis uses water to break bonds; it doesn’t release water. Water is released when peptide bonds form."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1035,6 +1248,12 @@
   "hint": "Draw a short chain: 2 amino acids need 1 bond, 3 need 2… Each peptide bond releases one H₂O when it forms and uses one H₂O when it is hydrolyzed.",
   "explain": "A chain of 100 amino acids has <b style=\"font-weight:700\">99</b> peptide bonds (one fewer than the number of amino acids). Forming them releases 99 H₂O, and hydrolyzing them uses 99 H₂O.",
   "origin": "original",
+  "why": [
+   "100 amino acids in a row are joined by 100 − 1 = 99 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "",
+   "100 amino acids in a row are joined by 100 − 1 = 99 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "100 amino acids in a row are joined by 100 − 1 = 99 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1062,6 +1281,12 @@
   "hint": "Draw a short chain: 2 amino acids need 1 bond, 3 need 2… Each peptide bond releases one H₂O when it forms and uses one H₂O when it is hydrolyzed.",
   "explain": "A chain of 51 amino acids has <b style=\"font-weight:700\">50</b> peptide bonds (one fewer than the number of amino acids). Forming them releases 50 H₂O, and hydrolyzing them uses 50 H₂O.",
   "origin": "original",
+  "why": [
+   "51 amino acids in a row are joined by 51 − 1 = 50 peptide bonds (one between each neighboring pair).",
+   "51 amino acids in a row are joined by 51 − 1 = 50 peptide bonds (one between each neighboring pair).",
+   "51 amino acids in a row are joined by 51 − 1 = 50 peptide bonds (one between each neighboring pair).",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1089,6 +1314,12 @@
   "hint": "Hydrolysis uses up water: one H₂O for every peptide bond broken. How many peptide bonds are in a tripeptide?",
   "explain": "A tripeptide has 2 peptide bonds. Complete hydrolysis breaks both, <b style=\"font-weight:700\">using 2 H₂O</b>, and gives the three free amino acids. Water is released when peptide bonds <i style=\"font-style:italic\">form</i>, not when they break.",
   "origin": "original",
+  "why": [
+   "",
+   "Complete hydrolysis breaks every peptide bond, so no dipeptide is left.",
+   "Count the peptide bonds: one fewer than the number of amino acids, and each uses one H₂O.",
+   "Hydrolysis uses water to break bonds; it doesn’t release water. Water is released when peptide bonds form."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1116,6 +1347,12 @@
   "hint": "Condensation reactions join two molecules and give off a small molecule made from –OH plus –H.",
   "explain": "Peptide bond formation is a <b style=\"font-weight:700\">condensation</b> (dehydration): –OH from the –COOH and –H from the –NH₂ leave as <b style=\"font-weight:700\">H₂O</b>. Hydrolysis is the reverse and uses H₂O.",
   "origin": "original",
+  "why": [
+   "H₂ isn’t formed. The –OH from one –COO⁻ and an H from the next –NH₃⁺ leave together as H₂O.",
+   "CO₂ isn’t formed. The –OH from one –COO⁻ and an H from the next –NH₃⁺ leave together as H₂O.",
+   "",
+   "NH₃ isn’t formed. The –OH from one –COO⁻ and an H from the next –NH₃⁺ leave together as H₂O."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1143,6 +1380,12 @@
   "hint": "Draw a short chain: 2 amino acids need 1 bond, 3 need 2… Each peptide bond releases one H₂O when it forms and uses one H₂O when it is hydrolyzed.",
   "explain": "A chain of 6 amino acids has <b style=\"font-weight:700\">5</b> peptide bonds (one fewer than the number of amino acids). Forming them releases 5 H₂O, and hydrolyzing them uses 5 H₂O.",
   "origin": "original",
+  "why": [
+   "",
+   "6 amino acids in a row are joined by 6 − 1 = 5 peptide bonds (one between each neighboring pair).",
+   "6 amino acids in a row are joined by 6 − 1 = 5 peptide bonds (one between each neighboring pair).",
+   "6 amino acids in a row are joined by 6 − 1 = 5 peptide bonds (one between each neighboring pair)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1170,6 +1413,12 @@
   "hint": "The –COOH of one amino acid reacts with the –NH₂ of the next. Which atoms are left bonded after H₂O leaves?",
   "explain": "After –OH (from –COOH) and –H (from –NH₂) leave as water, the <b style=\"font-weight:700\">carbonyl carbon bonds to the nitrogen</b>: –C(=O)–NH–, an amide bond. An S–S link is a disulfide bond, not a peptide bond.",
   "origin": "original",
+  "why": [
+   "C–O bonds link esters. A peptide (amide) bond is C–N: the carbonyl C to the next amino acid’s N.",
+   "",
+   "That is a disulfide bond between cysteines, not a peptide bond.",
+   "A peptide bond is C–N: the carbonyl C of one amino acid to the N of the next."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1197,6 +1446,12 @@
   "hint": "Draw a short chain: 2 amino acids need 1 bond, 3 need 2… Each peptide bond releases one H₂O when it forms and uses one H₂O when it is hydrolyzed.",
   "explain": "A chain of 100 amino acids has <b style=\"font-weight:700\">99</b> peptide bonds (one fewer than the number of amino acids). Forming them releases 99 H₂O, and hydrolyzing them uses 99 H₂O.",
   "origin": "original",
+  "why": [
+   "100 amino acids in a row are joined by 100 − 1 = 99 peptide bonds (one between each neighboring pair).",
+   "100 amino acids in a row are joined by 100 − 1 = 99 peptide bonds (one between each neighboring pair).",
+   "100 amino acids in a row are joined by 100 − 1 = 99 peptide bonds (one between each neighboring pair).",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1224,6 +1479,12 @@
   "hint": "Draw a short chain: 2 amino acids need 1 bond, 3 need 2… Each peptide bond releases one H₂O when it forms and uses one H₂O when it is hydrolyzed.",
   "explain": "A chain of 6 amino acids has <b style=\"font-weight:700\">5</b> peptide bonds (one fewer than the number of amino acids). Forming them releases 5 H₂O, and hydrolyzing them uses 5 H₂O.",
   "origin": "original",
+  "why": [
+   "",
+   "6 amino acids in a row are joined by 6 − 1 = 5 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "6 amino acids in a row are joined by 6 − 1 = 5 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "6 amino acids in a row are joined by 6 − 1 = 5 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1251,6 +1512,12 @@
   "hint": "Draw a short chain: 2 amino acids need 1 bond, 3 need 2… Each peptide bond releases one H₂O when it forms and uses one H₂O when it is hydrolyzed.",
   "explain": "A chain of 150 amino acids has <b style=\"font-weight:700\">149</b> peptide bonds (one fewer than the number of amino acids). Forming them releases 149 H₂O, and hydrolyzing them uses 149 H₂O.",
   "origin": "original",
+  "why": [
+   "150 amino acids in a row are joined by 150 − 1 = 149 peptide bonds (one between each neighboring pair).",
+   "150 amino acids in a row are joined by 150 − 1 = 149 peptide bonds (one between each neighboring pair).",
+   "",
+   "150 amino acids in a row are joined by 150 − 1 = 149 peptide bonds (one between each neighboring pair)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1278,6 +1545,12 @@
   "hint": "Draw a short chain: 2 amino acids need 1 bond, 3 need 2… Each peptide bond releases one H₂O when it forms and uses one H₂O when it is hydrolyzed.",
   "explain": "A chain of 4 amino acids has <b style=\"font-weight:700\">3</b> peptide bonds (one fewer than the number of amino acids). Forming them releases 3 H₂O, and hydrolyzing them uses 3 H₂O.",
   "origin": "original",
+  "why": [
+   "4 amino acids in a row are joined by 4 − 1 = 3 peptide bonds (one between each neighboring pair).",
+   "4 amino acids in a row are joined by 4 − 1 = 3 peptide bonds (one between each neighboring pair).",
+   "4 amino acids in a row are joined by 4 − 1 = 3 peptide bonds (one between each neighboring pair).",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1305,6 +1578,12 @@
   "hint": "Draw a short chain: 2 amino acids need 1 bond, 3 need 2… Each peptide bond releases one H₂O when it forms and uses one H₂O when it is hydrolyzed.",
   "explain": "A chain of 5 amino acids has <b style=\"font-weight:700\">4</b> peptide bonds (one fewer than the number of amino acids). Forming them releases 4 H₂O, and hydrolyzing them uses 4 H₂O.",
   "origin": "original",
+  "why": [
+   "5 amino acids in a row are joined by 5 − 1 = 4 peptide bonds (one between each neighboring pair).",
+   "5 amino acids in a row are joined by 5 − 1 = 4 peptide bonds (one between each neighboring pair).",
+   "",
+   "5 amino acids in a row are joined by 5 − 1 = 4 peptide bonds (one between each neighboring pair)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1332,6 +1611,12 @@
   "hint": "Hydrolysis uses up water: one H₂O for every peptide bond broken. How many peptide bonds are in a tripeptide?",
   "explain": "A tripeptide has 2 peptide bonds. Complete hydrolysis breaks both, <b style=\"font-weight:700\">using 2 H₂O</b>, and gives the three free amino acids. Water is released when peptide bonds <i style=\"font-style:italic\">form</i>, not when they break.",
   "origin": "original",
+  "why": [
+   "Complete hydrolysis breaks every peptide bond, so no dipeptide is left.",
+   "",
+   "Count the peptide bonds: one fewer than the number of amino acids, and each uses one H₂O.",
+   "Hydrolysis uses water to break bonds; it doesn’t release water. Water is released when peptide bonds form."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1359,6 +1644,12 @@
   "hint": "Draw a short chain: 2 amino acids need 1 bond, 3 need 2… Each peptide bond releases one H₂O when it forms and uses one H₂O when it is hydrolyzed.",
   "explain": "A chain of 6 amino acids has <b style=\"font-weight:700\">5</b> peptide bonds (one fewer than the number of amino acids). Forming them releases 5 H₂O, and hydrolyzing them uses 5 H₂O.",
   "origin": "original",
+  "why": [
+   "",
+   "6 amino acids in a row are joined by 6 − 1 = 5 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "6 amino acids in a row are joined by 6 − 1 = 5 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "6 amino acids in a row are joined by 6 − 1 = 5 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1386,6 +1677,12 @@
   "hint": "Draw a short chain: 2 amino acids need 1 bond, 3 need 2… Each peptide bond releases one H₂O when it forms and uses one H₂O when it is hydrolyzed.",
   "explain": "A chain of 300 amino acids has <b style=\"font-weight:700\">299</b> peptide bonds (one fewer than the number of amino acids). Forming them releases 299 H₂O, and hydrolyzing them uses 299 H₂O.",
   "origin": "original",
+  "why": [
+   "300 amino acids in a row are joined by 300 − 1 = 299 peptide bonds (one between each neighboring pair).",
+   "",
+   "300 amino acids in a row are joined by 300 − 1 = 299 peptide bonds (one between each neighboring pair).",
+   "300 amino acids in a row are joined by 300 − 1 = 299 peptide bonds (one between each neighboring pair)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1413,6 +1710,12 @@
   "hint": "Hydrolysis uses up water: one H₂O for every peptide bond broken. How many peptide bonds are in a tripeptide?",
   "explain": "A tripeptide has 2 peptide bonds. Complete hydrolysis breaks both, <b style=\"font-weight:700\">using 2 H₂O</b>, and gives the three free amino acids. Water is released when peptide bonds <i style=\"font-style:italic\">form</i>, not when they break.",
   "origin": "original",
+  "why": [
+   "Complete hydrolysis breaks every peptide bond, so no dipeptide is left.",
+   "Count the peptide bonds: one fewer than the number of amino acids, and each uses one H₂O.",
+   "Hydrolysis uses water to break bonds; it doesn’t release water. Water is released when peptide bonds form.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1440,6 +1743,12 @@
   "hint": "Hydrolysis uses up water: one H₂O for every peptide bond broken. How many peptide bonds are in a tripeptide?",
   "explain": "A tripeptide has 2 peptide bonds. Complete hydrolysis breaks both, <b style=\"font-weight:700\">using 2 H₂O</b>, and gives the three free amino acids. Water is released when peptide bonds <i style=\"font-style:italic\">form</i>, not when they break.",
   "origin": "original",
+  "why": [
+   "Hydrolysis uses water to break bonds; it doesn’t release water. Water is released when peptide bonds form.",
+   "",
+   "Count the peptide bonds: one fewer than the number of amino acids, and each uses one H₂O.",
+   "Complete hydrolysis breaks every peptide bond, so no dipeptide is left."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1467,6 +1776,12 @@
   "hint": "Draw a short chain: 2 amino acids need 1 bond, 3 need 2… Each peptide bond releases one H₂O when it forms and uses one H₂O when it is hydrolyzed.",
   "explain": "A chain of 5 amino acids has <b style=\"font-weight:700\">4</b> peptide bonds (one fewer than the number of amino acids). Forming them releases 4 H₂O, and hydrolyzing them uses 4 H₂O.",
   "origin": "original",
+  "why": [
+   "5 amino acids in a row are joined by 5 − 1 = 4 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "",
+   "5 amino acids in a row are joined by 5 − 1 = 4 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "5 amino acids in a row are joined by 5 − 1 = 4 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1494,6 +1809,12 @@
   "hint": "Hydrolysis uses up water: one H₂O for every peptide bond broken. How many peptide bonds are in a tripeptide?",
   "explain": "A tripeptide has 2 peptide bonds. Complete hydrolysis breaks both, <b style=\"font-weight:700\">using 2 H₂O</b>, and gives the three free amino acids. Water is released when peptide bonds <i style=\"font-style:italic\">form</i>, not when they break.",
   "origin": "original",
+  "why": [
+   "Hydrolysis uses water to break bonds; it doesn’t release water. Water is released when peptide bonds form.",
+   "",
+   "Count the peptide bonds: one fewer than the number of amino acids, and each uses one H₂O.",
+   "Complete hydrolysis breaks every peptide bond, so no dipeptide is left."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1521,6 +1842,12 @@
   "hint": "Draw a short chain: 2 amino acids need 1 bond, 3 need 2… Each peptide bond releases one H₂O when it forms and uses one H₂O when it is hydrolyzed.",
   "explain": "A chain of 4 amino acids has <b style=\"font-weight:700\">3</b> peptide bonds (one fewer than the number of amino acids). Forming them releases 3 H₂O, and hydrolyzing them uses 3 H₂O.",
   "origin": "original",
+  "why": [
+   "4 amino acids in a row are joined by 4 − 1 = 3 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "4 amino acids in a row are joined by 4 − 1 = 3 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "4 amino acids in a row are joined by 4 − 1 = 3 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1548,6 +1875,12 @@
   "hint": "Draw a short chain: 2 amino acids need 1 bond, 3 need 2… Each peptide bond releases one H₂O when it forms and uses one H₂O when it is hydrolyzed.",
   "explain": "A chain of 5 amino acids has <b style=\"font-weight:700\">4</b> peptide bonds (one fewer than the number of amino acids). Forming them releases 4 H₂O, and hydrolyzing them uses 4 H₂O.",
   "origin": "original",
+  "why": [
+   "5 amino acids in a row are joined by 5 − 1 = 4 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "5 amino acids in a row are joined by 5 − 1 = 4 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "",
+   "5 amino acids in a row are joined by 5 − 1 = 4 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1575,6 +1908,12 @@
   "hint": "Draw a short chain: 2 amino acids need 1 bond, 3 need 2… Each peptide bond releases one H₂O when it forms and uses one H₂O when it is hydrolyzed.",
   "explain": "A chain of 51 amino acids has <b style=\"font-weight:700\">50</b> peptide bonds (one fewer than the number of amino acids). Forming them releases 50 H₂O, and hydrolyzing them uses 50 H₂O.",
   "origin": "original",
+  "why": [
+   "",
+   "51 amino acids in a row are joined by 51 − 1 = 50 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "51 amino acids in a row are joined by 51 − 1 = 50 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "51 amino acids in a row are joined by 51 − 1 = 50 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1602,6 +1941,12 @@
   "hint": "Hydrolysis uses up water: one H₂O for every peptide bond broken. How many peptide bonds are in a tripeptide?",
   "explain": "A tripeptide has 2 peptide bonds. Complete hydrolysis breaks both, <b style=\"font-weight:700\">using 2 H₂O</b>, and gives the three free amino acids. Water is released when peptide bonds <i style=\"font-style:italic\">form</i>, not when they break.",
   "origin": "original",
+  "why": [
+   "Hydrolysis uses water to break bonds; it doesn’t release water. Water is released when peptide bonds form.",
+   "Complete hydrolysis breaks every peptide bond, so no dipeptide is left.",
+   "",
+   "Count the peptide bonds: one fewer than the number of amino acids, and each uses one H₂O."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1629,6 +1974,12 @@
   "hint": "Draw a short chain: 2 amino acids need 1 bond, 3 need 2… Each peptide bond releases one H₂O when it forms and uses one H₂O when it is hydrolyzed.",
   "explain": "A chain of 100 amino acids has <b style=\"font-weight:700\">99</b> peptide bonds (one fewer than the number of amino acids). Forming them releases 99 H₂O, and hydrolyzing them uses 99 H₂O.",
   "origin": "original",
+  "why": [
+   "100 amino acids in a row are joined by 100 − 1 = 99 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "",
+   "100 amino acids in a row are joined by 100 − 1 = 99 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "100 amino acids in a row are joined by 100 − 1 = 99 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1656,6 +2007,12 @@
   "hint": "Hydrolysis uses up water: one H₂O for every peptide bond broken. How many peptide bonds are in a tripeptide?",
   "explain": "A tripeptide has 2 peptide bonds. Complete hydrolysis breaks both, <b style=\"font-weight:700\">using 2 H₂O</b>, and gives the three free amino acids. Water is released when peptide bonds <i style=\"font-style:italic\">form</i>, not when they break.",
   "origin": "original",
+  "why": [
+   "Hydrolysis uses water to break bonds; it doesn’t release water. Water is released when peptide bonds form.",
+   "Complete hydrolysis breaks every peptide bond, so no dipeptide is left.",
+   "",
+   "Count the peptide bonds: one fewer than the number of amino acids, and each uses one H₂O."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1683,6 +2040,12 @@
   "hint": "Hydrolysis uses up water: one H₂O for every peptide bond broken. How many peptide bonds are in a tripeptide?",
   "explain": "A tripeptide has 2 peptide bonds. Complete hydrolysis breaks both, <b style=\"font-weight:700\">using 2 H₂O</b>, and gives the three free amino acids. Water is released when peptide bonds <i style=\"font-style:italic\">form</i>, not when they break.",
   "origin": "original",
+  "why": [
+   "Hydrolysis uses water to break bonds; it doesn’t release water. Water is released when peptide bonds form.",
+   "Count the peptide bonds: one fewer than the number of amino acids, and each uses one H₂O.",
+   "",
+   "Complete hydrolysis breaks every peptide bond, so no dipeptide is left."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1710,6 +2073,12 @@
   "hint": "Draw a short chain: 2 amino acids need 1 bond, 3 need 2… Each peptide bond releases one H₂O when it forms and uses one H₂O when it is hydrolyzed.",
   "explain": "A chain of 4 amino acids has <b style=\"font-weight:700\">3</b> peptide bonds (one fewer than the number of amino acids). Forming them releases 3 H₂O, and hydrolyzing them uses 3 H₂O.",
   "origin": "original",
+  "why": [
+   "4 amino acids in a row are joined by 4 − 1 = 3 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "",
+   "4 amino acids in a row are joined by 4 − 1 = 3 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed).",
+   "4 amino acids in a row are joined by 4 − 1 = 3 peptide bonds (one between each neighboring pair), and each bond means one H₂O (released when it forms, used when it is hydrolyzed)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1737,6 +2106,12 @@
   "hint": "Hydrolysis uses up water: one H₂O for every peptide bond broken. How many peptide bonds are in a tripeptide?",
   "explain": "A tripeptide has 2 peptide bonds. Complete hydrolysis breaks both, <b style=\"font-weight:700\">using 2 H₂O</b>, and gives the three free amino acids. Water is released when peptide bonds <i style=\"font-style:italic\">form</i>, not when they break.",
   "origin": "original",
+  "why": [
+   "",
+   "Hydrolysis uses water to break bonds; it doesn’t release water. Water is released when peptide bonds form.",
+   "Complete hydrolysis breaks every peptide bond, so no dipeptide is left.",
+   "Count the peptide bonds: one fewer than the number of amino acids, and each uses one H₂O."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1764,6 +2139,12 @@
   "hint": "Hydrolysis uses up water: one H₂O for every peptide bond broken. How many peptide bonds are in a tripeptide?",
   "explain": "A tripeptide has 2 peptide bonds. Complete hydrolysis breaks both, <b style=\"font-weight:700\">using 2 H₂O</b>, and gives the three free amino acids. Water is released when peptide bonds <i style=\"font-style:italic\">form</i>, not when they break.",
   "origin": "original",
+  "why": [
+   "Count the peptide bonds: one fewer than the number of amino acids, and each uses one H₂O.",
+   "Hydrolysis uses water to break bonds; it doesn’t release water. Water is released when peptide bonds form.",
+   "Complete hydrolysis breaks every peptide bond, so no dipeptide is left.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1791,6 +2172,12 @@
   "hint": "Hydrolysis uses up water: one H₂O for every peptide bond broken. How many peptide bonds are in a tripeptide?",
   "explain": "A tripeptide has 2 peptide bonds. Complete hydrolysis breaks both, <b style=\"font-weight:700\">using 2 H₂O</b>, and gives the three free amino acids. Water is released when peptide bonds <i style=\"font-style:italic\">form</i>, not when they break.",
   "origin": "original",
+  "why": [
+   "Hydrolysis uses water to break bonds; it doesn’t release water. Water is released when peptide bonds form.",
+   "Complete hydrolysis breaks every peptide bond, so no dipeptide is left.",
+   "",
+   "Count the peptide bonds: one fewer than the number of amino acids, and each uses one H₂O."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1818,6 +2205,12 @@
   "hint": "Hydrolysis uses up water: one H₂O for every peptide bond broken. How many peptide bonds are in a tripeptide?",
   "explain": "A tripeptide has 2 peptide bonds. Complete hydrolysis breaks both, <b style=\"font-weight:700\">using 2 H₂O</b>, and gives the three free amino acids. Water is released when peptide bonds <i style=\"font-style:italic\">form</i>, not when they break.",
   "origin": "original",
+  "why": [
+   "Count the peptide bonds: one fewer than the number of amino acids, and each uses one H₂O.",
+   "",
+   "Complete hydrolysis breaks every peptide bond, so no dipeptide is left.",
+   "Hydrolysis uses water to break bonds; it doesn’t release water. Water is released when peptide bonds form."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1845,6 +2238,12 @@
   "hint": "Hydrolysis uses up water: one H₂O for every peptide bond broken. How many peptide bonds are in a tripeptide?",
   "explain": "A tripeptide has 2 peptide bonds. Complete hydrolysis breaks both, <b style=\"font-weight:700\">using 2 H₂O</b>, and gives the three free amino acids. Water is released when peptide bonds <i style=\"font-style:italic\">form</i>, not when they break.",
   "origin": "original",
+  "why": [
+   "Count the peptide bonds: one fewer than the number of amino acids, and each uses one H₂O.",
+   "Hydrolysis uses water to break bonds; it doesn’t release water. Water is released when peptide bonds form.",
+   "Complete hydrolysis breaks every peptide bond, so no dipeptide is left.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1872,6 +2271,12 @@
   "hint": "Hydrolysis uses up water: one H₂O for every peptide bond broken. How many peptide bonds are in a tripeptide?",
   "explain": "A tripeptide has 2 peptide bonds. Complete hydrolysis breaks both, <b style=\"font-weight:700\">using 2 H₂O</b>, and gives the three free amino acids. Water is released when peptide bonds <i style=\"font-style:italic\">form</i>, not when they break.",
   "origin": "original",
+  "why": [
+   "Complete hydrolysis breaks every peptide bond, so no dipeptide is left.",
+   "Hydrolysis uses water to break bonds; it doesn’t release water. Water is released when peptide bonds form.",
+   "",
+   "Count the peptide bonds: one fewer than the number of amino acids, and each uses one H₂O."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1899,6 +2304,12 @@
   "hint": "Hydrolysis uses up water: one H₂O for every peptide bond broken. How many peptide bonds are in a tripeptide?",
   "explain": "A tripeptide has 2 peptide bonds. Complete hydrolysis breaks both, <b style=\"font-weight:700\">using 2 H₂O</b>, and gives the three free amino acids. Water is released when peptide bonds <i style=\"font-style:italic\">form</i>, not when they break.",
   "origin": "original",
+  "why": [
+   "Complete hydrolysis breaks every peptide bond, so no dipeptide is left.",
+   "",
+   "Hydrolysis uses water to break bonds; it doesn’t release water. Water is released when peptide bonds form.",
+   "Count the peptide bonds: one fewer than the number of amino acids, and each uses one H₂O."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1926,6 +2337,12 @@
   "hint": "Hydrolysis uses up water: one H₂O for every peptide bond broken. How many peptide bonds are in a tripeptide?",
   "explain": "A tripeptide has 2 peptide bonds. Complete hydrolysis breaks both, <b style=\"font-weight:700\">using 2 H₂O</b>, and gives the three free amino acids. Water is released when peptide bonds <i style=\"font-style:italic\">form</i>, not when they break.",
   "origin": "original",
+  "why": [
+   "Complete hydrolysis breaks every peptide bond, so no dipeptide is left.",
+   "Count the peptide bonds: one fewer than the number of amino acids, and each uses one H₂O.",
+   "",
+   "Hydrolysis uses water to break bonds; it doesn’t release water. Water is released when peptide bonds form."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:build",
@@ -1953,6 +2370,12 @@
   "hint": "Search the chart for Thr, then read its first, second and third bases.",
   "explain": "Thr is coded by ACU, ACC, ACA, ACG. Of the choices, <b style=\"font-weight:700\">ACU</b> codes for Thr; CUC = Leu, CGA = Arg, GGG = Gly. Most amino acids have more than one codon.",
   "origin": "original",
+  "why": [
+   "",
+   "CGA codes for arginine (Arg). Use the chart: 1st base (left), 2nd base (top), 3rd base (right).",
+   "GGG codes for glycine (Gly). Use the chart: 1st base (left), 2nd base (top), 3rd base (right).",
+   "CUC codes for leucine (Leu). Use the chart: 1st base (left), 2nd base (top), 3rd base (right)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -1980,6 +2403,12 @@
   "hint": "Look up both codons. Same amino acid? Different amino acid? Or did it become a stop codon? (A single-base substitution does not shift the reading frame.)",
   "explain": "UGG = Trp and UUG = Leu, so it is a <b style=\"font-weight:700\">missense</b> mutation. One amino acid in the primary structure changes (like Glu → Val in sickle-cell hemoglobin).",
   "origin": "original",
+  "why": [
+   "",
+   "Nonsense means the new codon is a stop codon (UAA, UAG or UGA). UGG = Trp and UUG = Leu, so it is a missense mutation. One amino acid in the primary structure changes (like Glu → Val in sickle-cell hemoglobin).",
+   "A frameshift comes from inserting or deleting a base, which shifts every codon after it. A single swapped base doesn’t do that. UGG = Trp and UUG = Leu, so it is a missense mutation. One amino acid in the primary structure changes (like Glu → Val in sickle-cell hemoglobin).",
+   "Silent means the new codon still codes for the same amino acid. UGG = Trp and UUG = Leu, so it is a missense mutation. One amino acid in the primary structure changes (like Glu → Val in sickle-cell hemoglobin)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2007,6 +2436,12 @@
   "hint": "First base C (left side), second base G (top), third base U (inside the box).",
   "explain": "CGU: row C, column G, line U → <b style=\"font-weight:700\">arginine (Arg, R)</b>.",
   "origin": "original",
+  "why": [
+   "Serine is coded by UCU, UCC, UCA, UCG, AGU, AGC, not CGU. Find C on the left, G across the top, U on the right.",
+   "Glycine is coded by GGU, GGC, GGA, GGG, not CGU. Find C on the left, G across the top, U on the right.",
+   "Leucine is coded by UUA, UUG, CUU, CUC, CUA, CUG, not CGU. Find C on the left, G across the top, U on the right.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2121,6 +2556,12 @@
   "hint": "First base U (left side), second base U (top), third base C (inside the box).",
   "explain": "UUC: row U, column U, line C → <b style=\"font-weight:700\">phenylalanine (Phe, F)</b>.",
   "origin": "original",
+  "why": [
+   "Leucine is coded by UUA, UUG, CUU, CUC, CUA, CUG, not UUC. Find U on the left, U across the top, C on the right.",
+   "Isoleucine is coded by AUU, AUC, AUA, not UUC. Find U on the left, U across the top, C on the right.",
+   "Serine is coded by UCU, UCC, UCA, UCG, AGU, AGC, not UUC. Find U on the left, U across the top, C on the right.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2148,6 +2589,12 @@
   "hint": "mRNA is complementary to the template: A→U, T→A, G→C, C→G. Then look up the mRNA codon.",
   "explain": "Template 3′-AAG-5′ → mRNA 5′-<b style=\"font-weight:700\">UUC</b>-3′ (A→U, T→A, G→C, C→G) → <b style=\"font-weight:700\">phenylalanine (Phe, F)</b>. Reading the template as if it were the mRNA is the common mistake.",
   "origin": "original",
+  "why": [
+   "Leucine is coded by UUA, UUG, CUU, CUC, CUA, CUG. Transcribe the DNA to mRNA first (A→U, T→A, G→C, C→G), then read the chart.",
+   "Lysine is coded by AAA, AAG. Transcribe the DNA to mRNA first (A→U, T→A, G→C, C→G), then read the chart.",
+   "Aspartic acid is coded by GAU, GAC. Transcribe the DNA to mRNA first (A→U, T→A, G→C, C→G), then read the chart.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2175,6 +2622,12 @@
   "hint": "There are three stop codons; they all start with U.",
   "explain": "<b style=\"font-weight:700\">UAG</b> is a stop codon (UAA, UAG, UGA). No tRNA matches a stop codon, so the ribosome releases the finished chain. AUG (Met) is the start codon.",
   "origin": "original",
+  "why": [
+   "UGU codes for cysteine (Cys). Use the chart: 1st base (left), 2nd base (top), 3rd base (right).",
+   "",
+   "CAA codes for glutamine (Gln). Use the chart: 1st base (left), 2nd base (top), 3rd base (right).",
+   "UAU codes for tyrosine (Tyr). Use the chart: 1st base (left), 2nd base (top), 3rd base (right)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2202,6 +2655,12 @@
   "hint": "RNA pairs A with U and G with C (no T in RNA). Pair each base in order.",
   "explain": "Pair each base: C–G, C–G, U–A → anticodon <b style=\"font-weight:700\">3′-GGA-5′</b>. tRNA carries Pro to this codon.",
   "origin": "original",
+  "why": [
+   "",
+   "The anticodon pairs base by base with the codon (A–U, G–C). Written 3′→5′, its first base pairs with the codon’s first base. Pair each base: C–G, C–G, U–A → anticodon 3′-GGA-5′ . tRNA carries Pro to this codon.",
+   "The anticodon pairs base by base with the codon (A–U, G–C). Written 3′→5′, its first base pairs with the codon’s first base. Pair each base: C–G, C–G, U–A → anticodon 3′-GGA-5′ . tRNA carries Pro to this codon.",
+   "The anticodon pairs base by base with the codon (A–U, G–C). Written 3′→5′, its first base pairs with the codon’s first base. Pair each base: C–G, C–G, U–A → anticodon 3′-GGA-5′ . tRNA carries Pro to this codon."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2229,6 +2688,12 @@
   "hint": "Search the chart for Glu, then read its first, second and third bases.",
   "explain": "Glu is coded by GAA, GAG. Of the choices, <b style=\"font-weight:700\">GAA</b> codes for Glu; AAA = Lys, CCC = Pro, AUC = Ile. Most amino acids have more than one codon.",
   "origin": "original",
+  "why": [
+   "CCC codes for proline (Pro). Use the chart: 1st base (left), 2nd base (top), 3rd base (right).",
+   "AUC codes for isoleucine (Ile). Use the chart: 1st base (left), 2nd base (top), 3rd base (right).",
+   "",
+   "AAA codes for lysine (Lys). Use the chart: 1st base (left), 2nd base (top), 3rd base (right)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2256,6 +2721,12 @@
   "hint": "First base A (left side), second base C (top), third base A (inside the box).",
   "explain": "ACA: row A, column C, line A → <b style=\"font-weight:700\">threonine (Thr, T)</b>.",
   "origin": "original",
+  "why": [
+   "Arginine is coded by CGU, CGC, CGA, CGG, AGA, AGG, not ACA. Find A on the left, C across the top, A on the right.",
+   "Proline is coded by CCU, CCC, CCA, CCG, not ACA. Find A on the left, C across the top, A on the right.",
+   "",
+   "Lysine is coded by AAA, AAG, not ACA. Find A on the left, C across the top, A on the right."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2283,6 +2754,12 @@
   "hint": "RNA pairs A with U and G with C (no T in RNA). Pair each base in order.",
   "explain": "Pair each base: C–G, U–A, A–U → anticodon <b style=\"font-weight:700\">3′-GAU-5′</b>. tRNA carries Leu to this codon.",
   "origin": "original",
+  "why": [
+   "",
+   "The anticodon pairs base by base with the codon (A–U, G–C). Written 3′→5′, its first base pairs with the codon’s first base. Pair each base: C–G, U–A, A–U → anticodon 3′-GAU-5′ . tRNA carries Leu to this codon.",
+   "The anticodon pairs base by base with the codon (A–U, G–C). Written 3′→5′, its first base pairs with the codon’s first base. Pair each base: C–G, U–A, A–U → anticodon 3′-GAU-5′ . tRNA carries Leu to this codon.",
+   "The anticodon pairs base by base with the codon (A–U, G–C). Written 3′→5′, its first base pairs with the codon’s first base. Pair each base: C–G, U–A, A–U → anticodon 3′-GAU-5′ . tRNA carries Leu to this codon."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2368,6 +2845,12 @@
   "hint": "mRNA is complementary to the template: A→U, T→A, G→C, C→G. Then look up the mRNA codon.",
   "explain": "Template 3′-CCG-5′ → mRNA 5′-<b style=\"font-weight:700\">GGC</b>-3′ (A→U, T→A, G→C, C→G) → <b style=\"font-weight:700\">glycine (Gly, G)</b>. Reading the template as if it were the mRNA is the common mistake.",
   "origin": "original",
+  "why": [
+   "",
+   "Arginine is coded by CGU, CGC, CGA, CGG, AGA, AGG. Transcribe the DNA to mRNA first (A→U, T→A, G→C, C→G), then read the chart.",
+   "Glutamic acid is coded by GAA, GAG. Transcribe the DNA to mRNA first (A→U, T→A, G→C, C→G), then read the chart.",
+   "Proline is coded by CCU, CCC, CCA, CCG. Transcribe the DNA to mRNA first (A→U, T→A, G→C, C→G), then read the chart."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2395,6 +2878,12 @@
   "hint": "There are three stop codons; they all start with U.",
   "explain": "<b style=\"font-weight:700\">UAA</b> is a stop codon (UAA, UAG, UGA). No tRNA matches a stop codon, so the ribosome releases the finished chain. AUG (Met) is the start codon.",
   "origin": "original",
+  "why": [
+   "",
+   "GAA codes for glutamic acid (Glu). Use the chart: 1st base (left), 2nd base (top), 3rd base (right).",
+   "UGU codes for cysteine (Cys). Use the chart: 1st base (left), 2nd base (top), 3rd base (right).",
+   "AGA codes for arginine (Arg). Use the chart: 1st base (left), 2nd base (top), 3rd base (right)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2422,6 +2911,12 @@
   "hint": "Look up both codons. Same amino acid? Different amino acid? Or did it become a stop codon? (A single-base substitution does not shift the reading frame.)",
   "explain": "GCA = Ala and GCU = Ala, so it is a <b style=\"font-weight:700\">silent</b> mutation. Several codons code for the same amino acid, so the protein is unchanged.",
   "origin": "original",
+  "why": [
+   "",
+   "Missense means the new codon codes for a different amino acid. GCA = Ala and GCU = Ala, so it is a silent mutation. Several codons code for the same amino acid, so the protein is unchanged.",
+   "Nonsense means the new codon is a stop codon (UAA, UAG or UGA). GCA = Ala and GCU = Ala, so it is a silent mutation. Several codons code for the same amino acid, so the protein is unchanged.",
+   "A frameshift comes from inserting or deleting a base, which shifts every codon after it. A single swapped base doesn’t do that. GCA = Ala and GCU = Ala, so it is a silent mutation. Several codons code for the same amino acid, so the protein is unchanged."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2478,6 +2973,12 @@
   "hint": "First base C (left side), second base G (top), third base A (inside the box).",
   "explain": "CGA: row C, column G, line A → <b style=\"font-weight:700\">arginine (Arg, R)</b>.",
   "origin": "original",
+  "why": [
+   "Leucine is coded by UUA, UUG, CUU, CUC, CUA, CUG, not CGA. Find C on the left, G across the top, A on the right.",
+   "",
+   "Glutamine is coded by CAA, CAG, not CGA. Find C on the left, G across the top, A on the right.",
+   "Glycine is coded by GGU, GGC, GGA, GGG, not CGA. Find C on the left, G across the top, A on the right."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2534,6 +3035,12 @@
   "hint": "Search the chart for Pro, then read its first, second and third bases.",
   "explain": "Pro is coded by CCU, CCC, CCA, CCG. Of the choices, <b style=\"font-weight:700\">CCU</b> codes for Pro; CUA = Leu, UCU = Ser, AAG = Lys. Most amino acids have more than one codon.",
   "origin": "original",
+  "why": [
+   "CUA codes for leucine (Leu). Use the chart: 1st base (left), 2nd base (top), 3rd base (right).",
+   "AAG codes for lysine (Lys). Use the chart: 1st base (left), 2nd base (top), 3rd base (right).",
+   "UCU codes for serine (Ser). Use the chart: 1st base (left), 2nd base (top), 3rd base (right).",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2590,6 +3097,12 @@
   "hint": "First base U (left side), second base C (top), third base A (inside the box).",
   "explain": "UCA: row U, column C, line A → <b style=\"font-weight:700\">serine (Ser, S)</b>.",
   "origin": "original",
+  "why": [
+   "Threonine is coded by ACU, ACC, ACA, ACG, not UCA. Find U on the left, C across the top, A on the right.",
+   "Alanine is coded by GCU, GCC, GCA, GCG, not UCA. Find U on the left, C across the top, A on the right.",
+   "",
+   "Leucine is coded by UUA, UUG, CUU, CUC, CUA, CUG, not UCA. Find U on the left, C across the top, A on the right."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2617,6 +3130,12 @@
   "hint": "Look up both codons. Same amino acid? Different amino acid? Or did it become a stop codon? (A single-base substitution does not shift the reading frame.)",
   "explain": "UCA = Ser and UAA = Stop, so it is a <b style=\"font-weight:700\">nonsense</b> mutation. Translation stops early, usually giving a nonfunctional protein.",
   "origin": "original",
+  "why": [
+   "Silent means the new codon still codes for the same amino acid. UCA = Ser and UAA = Stop, so it is a nonsense mutation. Translation stops early, usually giving a nonfunctional protein.",
+   "Missense means the new codon codes for a different amino acid. UCA = Ser and UAA = Stop, so it is a nonsense mutation. Translation stops early, usually giving a nonfunctional protein.",
+   "",
+   "A frameshift comes from inserting or deleting a base, which shifts every codon after it. A single swapped base doesn’t do that. UCA = Ser and UAA = Stop, so it is a nonsense mutation. Translation stops early, usually giving a nonfunctional protein."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2644,6 +3163,12 @@
   "hint": "mRNA is complementary to the template: A→U, T→A, G→C, C→G. Then look up the mRNA codon.",
   "explain": "Template 3′-GAT-5′ → mRNA 5′-<b style=\"font-weight:700\">CUA</b>-3′ (A→U, T→A, G→C, C→G) → <b style=\"font-weight:700\">leucine (Leu, L)</b>. Reading the template as if it were the mRNA is the common mistake.",
   "origin": "original",
+  "why": [
+   "",
+   "Isoleucine is coded by AUU, AUC, AUA. Transcribe the DNA to mRNA first (A→U, T→A, G→C, C→G), then read the chart.",
+   "Aspartic acid is coded by GAU, GAC. Transcribe the DNA to mRNA first (A→U, T→A, G→C, C→G), then read the chart.",
+   "Cysteine is coded by UGU, UGC. Transcribe the DNA to mRNA first (A→U, T→A, G→C, C→G), then read the chart."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2700,6 +3225,12 @@
   "hint": "First base A (left side), second base G (top), third base A (inside the box).",
   "explain": "AGA: row A, column G, line A → <b style=\"font-weight:700\">arginine (Arg, R)</b>.",
   "origin": "original",
+  "why": [
+   "Threonine is coded by ACU, ACC, ACA, ACG, not AGA. Find A on the left, G across the top, A on the right.",
+   "Serine is coded by UCU, UCC, UCA, UCG, AGU, AGC, not AGA. Find A on the left, G across the top, A on the right.",
+   "",
+   "Glycine is coded by GGU, GGC, GGA, GGG, not AGA. Find A on the left, G across the top, A on the right."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2727,6 +3258,12 @@
   "hint": "RNA pairs A with U and G with C (no T in RNA). Pair each base in order.",
   "explain": "Pair each base: U–A, A–U, C–G → anticodon <b style=\"font-weight:700\">3′-AUG-5′</b>. tRNA carries Tyr to this codon.",
   "origin": "original",
+  "why": [
+   "The anticodon pairs base by base with the codon (A–U, G–C). Written 3′→5′, its first base pairs with the codon’s first base. Pair each base: U–A, A–U, C–G → anticodon 3′-AUG-5′ . tRNA carries Tyr to this codon.",
+   "",
+   "The anticodon pairs base by base with the codon (A–U, G–C). Written 3′→5′, its first base pairs with the codon’s first base. Pair each base: U–A, A–U, C–G → anticodon 3′-AUG-5′ . tRNA carries Tyr to this codon.",
+   "The anticodon pairs base by base with the codon (A–U, G–C). Written 3′→5′, its first base pairs with the codon’s first base. Pair each base: U–A, A–U, C–G → anticodon 3′-AUG-5′ . tRNA carries Tyr to this codon."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2754,6 +3291,12 @@
   "hint": "First base A (left side), second base G (top), third base U (inside the box).",
   "explain": "AGU: row A, column G, line U → <b style=\"font-weight:700\">serine (Ser, S)</b>.",
   "origin": "original",
+  "why": [
+   "Threonine is coded by ACU, ACC, ACA, ACG, not AGU. Find A on the left, G across the top, U on the right.",
+   "",
+   "Isoleucine is coded by AUU, AUC, AUA, not AGU. Find A on the left, G across the top, U on the right.",
+   "Arginine is coded by CGU, CGC, CGA, CGG, AGA, AGG, not AGU. Find A on the left, G across the top, U on the right."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2810,6 +3353,12 @@
   "hint": "Search the chart for Tyr, then read its first, second and third bases.",
   "explain": "Tyr is coded by UAU, UAC. Of the choices, <b style=\"font-weight:700\">UAU</b> codes for Tyr; UUU = Phe, ACA = Thr, GGC = Gly. Most amino acids have more than one codon.",
   "origin": "original",
+  "why": [
+   "ACA codes for threonine (Thr). Use the chart: 1st base (left), 2nd base (top), 3rd base (right).",
+   "UUU codes for phenylalanine (Phe). Use the chart: 1st base (left), 2nd base (top), 3rd base (right).",
+   "",
+   "GGC codes for glycine (Gly). Use the chart: 1st base (left), 2nd base (top), 3rd base (right)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2837,6 +3386,12 @@
   "hint": "First base U (left side), second base U (top), third base U (inside the box).",
   "explain": "UUU: row U, column U, line U → <b style=\"font-weight:700\">phenylalanine (Phe, F)</b>.",
   "origin": "original",
+  "why": [
+   "Valine is coded by GUU, GUC, GUA, GUG, not UUU. Find U on the left, U across the top, U on the right.",
+   "Isoleucine is coded by AUU, AUC, AUA, not UUU. Find U on the left, U across the top, U on the right.",
+   "",
+   "Leucine is coded by UUA, UUG, CUU, CUC, CUA, CUG, not UUU. Find U on the left, U across the top, U on the right."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2864,6 +3419,12 @@
   "hint": "mRNA is complementary to the template: A→U, T→A, G→C, C→G. Then look up the mRNA codon.",
   "explain": "Template 3′-CTT-5′ → mRNA 5′-<b style=\"font-weight:700\">GAA</b>-3′ (A→U, T→A, G→C, C→G) → <b style=\"font-weight:700\">glutamic acid (Glu, E)</b>. Reading the template as if it were the mRNA is the common mistake.",
   "origin": "original",
+  "why": [
+   "",
+   "Leucine is coded by UUA, UUG, CUU, CUC, CUA, CUG. Transcribe the DNA to mRNA first (A→U, T→A, G→C, C→G), then read the chart.",
+   "Methionine is coded by AUG. Transcribe the DNA to mRNA first (A→U, T→A, G→C, C→G), then read the chart.",
+   "Lysine is coded by AAA, AAG. Transcribe the DNA to mRNA first (A→U, T→A, G→C, C→G), then read the chart."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2920,6 +3481,12 @@
   "hint": "There are three stop codons; they all start with U.",
   "explain": "<b style=\"font-weight:700\">UGA</b> is a stop codon (UAA, UAG, UGA). No tRNA matches a stop codon, so the ribosome releases the finished chain. AUG (Met) is the start codon.",
   "origin": "original",
+  "why": [
+   "AGA codes for arginine (Arg). Use the chart: 1st base (left), 2nd base (top), 3rd base (right).",
+   "",
+   "CAA codes for glutamine (Gln). Use the chart: 1st base (left), 2nd base (top), 3rd base (right).",
+   "UCA codes for serine (Ser). Use the chart: 1st base (left), 2nd base (top), 3rd base (right)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:codon",
@@ -2947,6 +3514,12 @@
   "hint": "Start at the H₃N⁺ end (N-terminus) on the left. Identify each side chain in order.",
   "explain": "Reading from H₃N⁺ to COO⁻: Pro (the side chain loops back and bonds to the nitrogen, making a ring), Arg (–(CH₂)₃–NH–C(=NH₂⁺)–NH₂), Ile (–CH(CH₃)–CH₂–CH₃, branched at the first carbon with an ethyl tail) → <b style=\"font-weight:700\">Pro–Arg–Ile</b>, also called prolylarginylisoleucine.",
   "origin": "original",
+  "why": [
+   "",
+   "Residue 2 is Arg, not His: histidine has R = –CH₂– on an imidazole ring (a five-membered ring with two N), but the side chain here is –(CH₂)₃–NH–C(=NH₂⁺)–NH₂.",
+   "That reads from the C-terminus. Name a peptide starting at the N-terminus (the free –NH₃⁺ end).",
+   "Right amino acids, wrong order. Start at the free –NH₃⁺ and identify each side chain in turn."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -2972,6 +3545,10 @@
   "hint": "Order matters: Ala–Gly and Gly–Ala are different peptides. Count the choices for the first position, then the second…",
   "explain": "2 choices for position 1, 1 for position 2: 2 × 1 = <b style=\"font-weight:700\">2</b>. For example Lys–Met and Met–Lys are different.",
   "origin": "original",
+  "why": [
+   "Each order is a different peptide: 2 × 1 = 2.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -2999,6 +3576,12 @@
   "hint": "Start at the H₃N⁺ end (N-terminus) on the left. Identify each side chain in order.",
   "explain": "Reading from H₃N⁺ to COO⁻: Ala (–CH₃), Glu (–CH₂–CH₂–COO⁻ (one CH₂ longer than Asp)) → <b style=\"font-weight:700\">Ala–Glu</b>, also called alanylglutamic acid.",
   "origin": "original",
+  "why": [
+   "That reads from the C-terminus. Name a peptide starting at the N-terminus (the free –NH₃⁺ end).",
+   "Residue 1 is Ala, not Gly: glycine has R = –H, but the side chain here is –CH₃.",
+   "",
+   "Residue 1 is Ala, not Glu: glutamic acid has R = –CH₂–CH₂–COO⁻, but the side chain here is –CH₃."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3026,6 +3609,12 @@
   "hint": "Every amino acid except the C-terminal one gets the ending -yl. The last one keeps its full name.",
   "explain": "Change every name except the last to -yl: <b style=\"font-weight:700\">asparaginylaspartic acid</b>.",
   "origin": "original",
+  "why": [
+   "The last (C-terminal) amino acid keeps its full name. Only the ones before it change to -yl.",
+   "Name in order from the N-terminus (the first residue written) to the C-terminus.",
+   "",
+   "Every amino acid except the last changes its ending to -yl (alanine → alanyl)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3110,6 +3699,11 @@
   "hint": "Peptides are written and named from the N-terminus (left) to the C-terminus (right).",
   "explain": "Peptides are written N → C, so Thr is the N-terminus (–NH₃⁺) and Glu is the C-terminus (–COO⁻). Answer: <b style=\"font-weight:700\">Thr</b>.",
   "origin": "original",
+  "why": [
+   "The N-terminal residue (free –NH₃⁺) is the one written first, at the left end of the chain.",
+   "The N-terminal residue (free –NH₃⁺) is the one written first, at the left end of the chain.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3137,6 +3731,12 @@
   "hint": "Peptides are written and named from the N-terminus (left) to the C-terminus (right).",
   "explain": "Peptides are written N → C, so Arg is the N-terminus (–NH₃⁺) and Ser is the C-terminus (–COO⁻). Answer: <b style=\"font-weight:700\">Arg</b>.",
   "origin": "original",
+  "why": [
+   "The N-terminal residue (free –NH₃⁺) is the one written first, at the left end of the chain.",
+   "The N-terminal residue (free –NH₃⁺) is the one written first, at the left end of the chain.",
+   "",
+   "The N-terminal residue (free –NH₃⁺) is the one written first, at the left end of the chain."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3164,6 +3764,12 @@
   "hint": "Do not just match first letters: A is Ala (not Asp/Arg/Asn), G is Gly, T is Thr, L is Leu, P is Pro.",
   "explain": "H = His, W = Trp, M = Met, N = Asn → <b style=\"font-weight:700\">His–Trp–Met–Asn</b>.",
   "origin": "original",
+  "why": [
+   "Residue 2 is Trp, not Lys: lysine has R = –(CH₂)₄–NH₃⁺, but the side chain here is –CH₂– on an indole (two fused rings with an N–H).",
+   "",
+   "Residue 2 is Trp, not Pro: proline has R = a ring that bonds back to the backbone N, but the side chain here is –CH₂– on an indole (two fused rings with an N–H).",
+   "Residue 2 is Trp, not Cys: cysteine has R = –CH₂–SH, but the side chain here is –CH₂– on an indole (two fused rings with an N–H)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3213,6 +3819,12 @@
   "hint": "Do not just match first letters: A is Ala (not Asp/Arg/Asn), G is Gly, T is Thr, L is Leu, P is Pro.",
   "explain": "E = Glu, P = Pro, H = His, R = Arg → <b style=\"font-weight:700\">Glu–Pro–His–Arg</b>.",
   "origin": "original",
+  "why": [
+   "",
+   "Residue 1 is Glu, not Val: valine has R = –CH(CH₃)₂, but the side chain here is –CH₂–CH₂–COO⁻.",
+   "Residue 3 is His, not Phe: phenylalanine has R = –CH₂– on a benzene ring, but the side chain here is –CH₂– on an imidazole ring (a five-membered ring with two N).",
+   "Residue 2 is Pro, not Phe: phenylalanine has R = –CH₂– on a benzene ring, but the side chain here is a ring that bonds back to the backbone N."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3240,6 +3852,12 @@
   "hint": "Start at the H₃N⁺ end (N-terminus) on the left. Identify each side chain in order.",
   "explain": "Reading from H₃N⁺ to COO⁻: Val (–CH(CH₃)₂, branched right at the first side-chain carbon), Asn (–CH₂–C(=O)–NH₂ (an amide)) → <b style=\"font-weight:700\">Val–Asn</b>, also called valylasparagine.",
   "origin": "original",
+  "why": [
+   "Residue 1 is Val, not Thr: threonine has R = –CH(OH)–CH₃, but the side chain here is –CH(CH₃)₂.",
+   "Residue 2 is Asn, not Thr: threonine has R = –CH(OH)–CH₃, but the side chain here is –CH₂–C(=O)–NH₂.",
+   "",
+   "That reads from the C-terminus. Name a peptide starting at the N-terminus (the free –NH₃⁺ end)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3265,6 +3883,10 @@
   "hint": "Order matters: Ala–Gly and Gly–Ala are different peptides. Count the choices for the first position, then the second…",
   "explain": "2 choices for position 1, 1 for position 2: 2 × 1 = <b style=\"font-weight:700\">2</b>. For example Arg–Tyr and Tyr–Arg are different.",
   "origin": "original",
+  "why": [
+   "",
+   "Each order is a different peptide: 2 × 1 = 2."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3371,6 +3993,11 @@
   "hint": "Peptides are written and named from the N-terminus (left) to the C-terminus (right).",
   "explain": "Peptides are written N → C, so Ile is the N-terminus (–NH₃⁺) and Tyr is the C-terminus (–COO⁻). Answer: <b style=\"font-weight:700\">Ile</b>.",
   "origin": "original",
+  "why": [
+   "The N-terminal residue (free –NH₃⁺) is the one written first, at the left end of the chain.",
+   "The N-terminal residue (free –NH₃⁺) is the one written first, at the left end of the chain.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3398,6 +4025,12 @@
   "hint": "Start at the H₃N⁺ end (N-terminus) on the left. Identify each side chain in order.",
   "explain": "Reading from H₃N⁺ to COO⁻: His (–CH₂– attached to a five-membered ring with two N atoms (imidazole)), Pro (the side chain loops back and bonds to the nitrogen, making a ring), Asp (–CH₂–COO⁻) → <b style=\"font-weight:700\">His–Pro–Asp</b>, also called histidylprolylaspartic acid.",
   "origin": "original",
+  "why": [
+   "",
+   "Residue 3 is Asp, not Glu: glutamic acid has R = –CH₂–CH₂–COO⁻, but the side chain here is –CH₂–COO⁻.",
+   "That reads from the C-terminus. Name a peptide starting at the N-terminus (the free –NH₃⁺ end).",
+   "Right amino acids, wrong order. Start at the free –NH₃⁺ and identify each side chain in turn."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3425,6 +4058,12 @@
   "hint": "Every amino acid except the C-terminal one gets the ending -yl. The last one keeps its full name.",
   "explain": "Change every name except the last to -yl: <b style=\"font-weight:700\">histidylserylvaline</b>.",
   "origin": "original",
+  "why": [
+   "Name in order from the N-terminus (the first residue written) to the C-terminus.",
+   "The last (C-terminal) amino acid keeps its full name. Only the ones before it change to -yl.",
+   "Every amino acid except the last changes its ending to -yl (alanine → alanyl).",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3452,6 +4091,12 @@
   "hint": "Peptides are written and named from the N-terminus (left) to the C-terminus (right).",
   "explain": "Peptides are written N → C, so Pro is the N-terminus (–NH₃⁺) and Leu is the C-terminus (–COO⁻). Answer: <b style=\"font-weight:700\">Leu</b>.",
   "origin": "original",
+  "why": [
+   "The C-terminal residue (free –COO⁻) is the one written last, at the right end of the chain.",
+   "The C-terminal residue (free –COO⁻) is the one written last, at the right end of the chain.",
+   "",
+   "The C-terminal residue (free –COO⁻) is the one written last, at the right end of the chain."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3479,6 +4124,12 @@
   "hint": "Every amino acid except the C-terminal one gets the ending -yl. The last one keeps its full name.",
   "explain": "Change every name except the last to -yl: <b style=\"font-weight:700\">threonylglutamic acid</b>.",
   "origin": "original",
+  "why": [
+   "Every amino acid except the last changes its ending to -yl (alanine → alanyl).",
+   "",
+   "The last (C-terminal) amino acid keeps its full name. Only the ones before it change to -yl.",
+   "Name in order from the N-terminus (the first residue written) to the C-terminus."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3504,6 +4155,10 @@
   "hint": "Order matters: Ala–Gly and Gly–Ala are different peptides. Count the choices for the first position, then the second…",
   "explain": "2 choices for position 1, 1 for position 2: 2 × 1 = <b style=\"font-weight:700\">2</b>. For example Gln–Gly and Gly–Gln are different.",
   "origin": "original",
+  "why": [
+   "Each order is a different peptide: 2 × 1 = 2.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3531,6 +4186,12 @@
   "hint": "Do not just match first letters: A is Ala (not Asp/Arg/Asn), G is Gly, T is Thr, L is Leu, P is Pro.",
   "explain": "N = Asn, C = Cys, A = Ala, S = Ser → <b style=\"font-weight:700\">Asn–Cys–Ala–Ser</b>.",
   "origin": "original",
+  "why": [
+   "Residue 3 is Ala, not Glu: glutamic acid has R = –CH₂–CH₂–COO⁻, but the side chain here is –CH₃.",
+   "",
+   "Residue 3 is Ala, not Asp: aspartic acid has R = –CH₂–COO⁻, but the side chain here is –CH₃.",
+   "Residue 2 is Cys, not Gln: glutamine has R = –CH₂–CH₂–C(=O)–NH₂, but the side chain here is –CH₂–SH."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3557,6 +4218,11 @@
   "hint": "Peptides are written and named from the N-terminus (left) to the C-terminus (right).",
   "explain": "Peptides are written N → C, so His is the N-terminus (–NH₃⁺) and Gln is the C-terminus (–COO⁻). Answer: <b style=\"font-weight:700\">His</b>.",
   "origin": "original",
+  "why": [
+   "The N-terminal residue (free –NH₃⁺) is the one written first, at the left end of the chain.",
+   "The N-terminal residue (free –NH₃⁺) is the one written first, at the left end of the chain.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3613,6 +4279,12 @@
   "hint": "Start at the H₃N⁺ end (N-terminus) on the left. Identify each side chain in order.",
   "explain": "Reading from H₃N⁺ to COO⁻: Phe (–CH₂– attached to a benzene ring), Lys (–(CH₂)₄–NH₃⁺), Val (–CH(CH₃)₂, branched right at the first side-chain carbon) → <b style=\"font-weight:700\">Phe–Lys–Val</b>, also called phenylalanyllysylvaline.",
   "origin": "original",
+  "why": [
+   "Residue 3 is Val, not Ala: alanine has R = –CH₃, but the side chain here is –CH(CH₃)₂.",
+   "That reads from the C-terminus. Name a peptide starting at the N-terminus (the free –NH₃⁺ end).",
+   "Right amino acids, wrong order. Start at the free –NH₃⁺ and identify each side chain in turn.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3669,6 +4341,12 @@
   "hint": "Peptides are written and named from the N-terminus (left) to the C-terminus (right).",
   "explain": "Peptides are written N → C, so Leu is the N-terminus (–NH₃⁺) and Ser is the C-terminus (–COO⁻). Answer: <b style=\"font-weight:700\">Leu</b>.",
   "origin": "original",
+  "why": [
+   "The N-terminal residue (free –NH₃⁺) is the one written first, at the left end of the chain.",
+   "",
+   "The N-terminal residue (free –NH₃⁺) is the one written first, at the left end of the chain.",
+   "The N-terminal residue (free –NH₃⁺) is the one written first, at the left end of the chain."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3718,6 +4396,12 @@
   "hint": "Start at the H₃N⁺ end (N-terminus) on the left. Identify each side chain in order.",
   "explain": "Reading from H₃N⁺ to COO⁻: Asp (–CH₂–COO⁻), Ala (–CH₃), Leu (–CH₂–CH(CH₃)₂, branched one carbon farther out than valine) → <b style=\"font-weight:700\">Asp–Ala–Leu</b>, also called aspartylalanylleucine.",
   "origin": "original",
+  "why": [
+   "That reads from the C-terminus. Name a peptide starting at the N-terminus (the free –NH₃⁺ end).",
+   "Residue 3 is Leu, not Val: valine has R = –CH(CH₃)₂, but the side chain here is –CH₂–CH(CH₃)₂.",
+   "Right amino acids, wrong order. Start at the free –NH₃⁺ and identify each side chain in turn.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3774,6 +4458,12 @@
   "hint": "Order matters: Ala–Gly and Gly–Ala are different peptides. Count the choices for the first position, then the second…",
   "explain": "4 choices for position 1, 3 for position 2, 2 for position 3, 1 for position 4: 4 × 3 × 2 × 1 = <b style=\"font-weight:700\">24</b>. For example Val–Met–Arg–Cys and Cys–Arg–Met–Val are different.",
   "origin": "original",
+  "why": [
+   "Each order is a different peptide: 4 × 3 × 2 × 1 = 24.",
+   "Each order is a different peptide: 4 × 3 × 2 × 1 = 24.",
+   "Each order is a different peptide: 4 × 3 × 2 × 1 = 24.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3801,6 +4491,12 @@
   "hint": "Peptides are written and named from the N-terminus (left) to the C-terminus (right).",
   "explain": "Peptides are written N → C, so Leu is the N-terminus (–NH₃⁺) and Met is the C-terminus (–COO⁻). Answer: <b style=\"font-weight:700\">Leu</b>.",
   "origin": "original",
+  "why": [
+   "",
+   "The N-terminal residue (free –NH₃⁺) is the one written first, at the left end of the chain.",
+   "The N-terminal residue (free –NH₃⁺) is the one written first, at the left end of the chain.",
+   "The N-terminal residue (free –NH₃⁺) is the one written first, at the left end of the chain."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3828,6 +4524,12 @@
   "hint": "Do not just match first letters: A is Ala (not Asp/Arg/Asn), G is Gly, T is Thr, L is Leu, P is Pro.",
   "explain": "N = Asn, L = Leu, D = Asp, Q = Gln, P = Pro → <b style=\"font-weight:700\">Asn–Leu–Asp–Gln–Pro</b>.",
   "origin": "original",
+  "why": [
+   "",
+   "Residue 5 is Pro, not Phe: phenylalanine has R = –CH₂– on a benzene ring, but the side chain here is a ring that bonds back to the backbone N.",
+   "Residue 2 is Leu, not Lys: lysine has R = –(CH₂)₄–NH₃⁺, but the side chain here is –CH₂–CH(CH₃)₂.",
+   "Residue 2 is Leu, not Phe: phenylalanine has R = –CH₂– on a benzene ring, but the side chain here is –CH₂–CH(CH₃)₂."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3855,6 +4557,12 @@
   "hint": "Every amino acid except the C-terminal one gets the ending -yl. The last one keeps its full name.",
   "explain": "Change every name except the last to -yl: <b style=\"font-weight:700\">alanylglycylglutamic acid</b>.",
   "origin": "original",
+  "why": [
+   "The last (C-terminal) amino acid keeps its full name. Only the ones before it change to -yl.",
+   "Every amino acid except the last changes its ending to -yl (alanine → alanyl).",
+   "Name in order from the N-terminus (the first residue written) to the C-terminus.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3882,6 +4590,12 @@
   "hint": "Start at the H₃N⁺ end (N-terminus) on the left. Identify each side chain in order.",
   "explain": "Reading from H₃N⁺ to COO⁻: His (–CH₂– attached to a five-membered ring with two N atoms (imidazole)), Thr (–CH(OH)–CH₃), Val (–CH(CH₃)₂, branched right at the first side-chain carbon) → <b style=\"font-weight:700\">His–Thr–Val</b>, also called histidylthreonylvaline.",
   "origin": "original",
+  "why": [
+   "That reads from the C-terminus. Name a peptide starting at the N-terminus (the free –NH₃⁺ end).",
+   "Right amino acids, wrong order. Start at the free –NH₃⁺ and identify each side chain in turn.",
+   "Residue 2 is Thr, not Tyr: tyrosine has R = –CH₂– on a benzene ring with an –OH, but the side chain here is –CH(OH)–CH₃.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:name",
@@ -3909,6 +4623,12 @@
   "hint": "Ask: is it the order of amino acids, a regular backbone pattern, the fold of one chain, or several chains together?",
   "explain": "This describes <b style=\"font-weight:700\">tertiary</b> structure. Folding of a single chain is held by R-group interactions.",
   "origin": "original",
+  "why": [
+   "Primary structure is the amino acid sequence, held by peptide bonds. This describes tertiary structure. Folding of a single chain is held by R-group interactions.",
+   "Quaternary structure is two or more chains packed together. This describes tertiary structure. Folding of a single chain is held by R-group interactions.",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. This describes tertiary structure. Folding of a single chain is held by R-group interactions.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -3936,6 +4656,12 @@
   "hint": "Sequence only → primary. Regular coil or sheet of the backbone → secondary. One whole chain folded → tertiary. Several chains together → quaternary.",
   "explain": "Primary structure is just the <b style=\"font-weight:700\">sequence</b> of amino acids, held together by peptide bonds.",
   "origin": "original",
+  "why": [
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Primary structure is just the sequence of amino acids, held together by peptide bonds.",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Primary structure is just the sequence of amino acids, held together by peptide bonds.",
+   "Tertiary structure is the 3-D folding of one chain, held by R-group interactions (salt bridges, H bonds, disulfides, hydrophobic). Primary structure is just the sequence of amino acids, held together by peptide bonds.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -3963,6 +4689,12 @@
   "hint": "Disulfide bonds link two Cys side chains within one folded chain.",
   "explain": "Disulfide bonds between Cys R groups hold the <b style=\"font-weight:700\">tertiary</b> structure of keratin. The reducing agent breaks them; an oxidizer re-forms them in the new shape.",
   "origin": "original",
+  "why": [
+   "",
+   "Quaternary structure is two or more chains packed together. Disulfide bonds between Cys R groups hold the tertiary structure of keratin. The reducing agent breaks them; an oxidizer re-forms them in the new shape.",
+   "Primary structure is the amino acid sequence, held by peptide bonds. Disulfide bonds between Cys R groups hold the tertiary structure of keratin. The reducing agent breaks them; an oxidizer re-forms them in the new shape.",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Disulfide bonds between Cys R groups hold the tertiary structure of keratin. The reducing agent breaks them; an oxidizer re-forms them in the new shape."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -3990,6 +4722,12 @@
   "hint": "Sequence only → primary. Regular coil or sheet of the backbone → secondary. One whole chain folded → tertiary. Several chains together → quaternary.",
   "explain": "<b style=\"font-weight:700\">Quaternary</b> structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme).",
   "origin": "original",
+  "why": [
+   "",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme).",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme).",
+   "Tertiary structure is the 3-D folding of one chain, held by R-group interactions (salt bridges, H bonds, disulfides, hydrophobic). Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4017,6 +4755,12 @@
   "hint": "Ask: is it the order of amino acids, a regular backbone pattern, the fold of one chain, or several chains together?",
   "explain": "This describes <b style=\"font-weight:700\">primary</b> structure. Any change in the order of amino acids is a change in primary structure.",
   "origin": "original",
+  "why": [
+   "Tertiary structure is the 3-D folding of one chain, held by R-group interactions (salt bridges, H bonds, disulfides, hydrophobic). This describes primary structure. Any change in the order of amino acids is a change in primary structure.",
+   "",
+   "Quaternary structure is two or more chains packed together. This describes primary structure. Any change in the order of amino acids is a change in primary structure.",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. This describes primary structure. Any change in the order of amino acids is a change in primary structure."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4044,6 +4788,12 @@
   "hint": "Denaturation breaks the weak interactions that hold the shape, not the covalent peptide bonds.",
   "explain": "Denaturation unfolds secondary, tertiary and quaternary structure, but the peptide bonds stay intact, so the <b style=\"font-weight:700\">primary</b> structure (sequence) is unchanged.",
   "origin": "original",
+  "why": [
+   "Tertiary structure is the 3-D folding of one chain, held by R-group interactions (salt bridges, H bonds, disulfides, hydrophobic). Denaturation unfolds secondary, tertiary and quaternary structure, but the peptide bonds stay intact, so the primary structure (sequence) is unchanged.",
+   "",
+   "Quaternary structure is two or more chains packed together. Denaturation unfolds secondary, tertiary and quaternary structure, but the peptide bonds stay intact, so the primary structure (sequence) is unchanged.",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Denaturation unfolds secondary, tertiary and quaternary structure, but the peptide bonds stay intact, so the primary structure (sequence) is unchanged."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4071,6 +4821,12 @@
   "hint": "Secondary structure involves only the backbone (C=O and N–H). Tertiary and quaternary involve the side chains (R groups).",
   "explain": "An <b style=\"font-weight:700\">α-helix</b> is a secondary structure: the backbone coils, and each C=O hydrogen bonds to the N–H four amino acids farther along. It is held by: <b style=\"font-weight:700\">hydrogen bonds between backbone c=o and n–h groups</b>.",
   "origin": "original",
+  "why": [
+   "Interactions between separate chains hold quaternary structure. An α-helix is a secondary structure: the backbone coils, and each C=O hydrogen bonds to the N–H four amino acids farther along. It is held by: hydrogen bonds between backbone c=o and n–h groups .",
+   "",
+   "R-group interactions in one chain hold tertiary structure. An α-helix is a secondary structure: the backbone coils, and each C=O hydrogen bonds to the N–H four amino acids farther along. It is held by: hydrogen bonds between backbone c=o and n–h groups .",
+   "Peptide bonds hold the primary sequence. An α-helix is a secondary structure: the backbone coils, and each C=O hydrogen bonds to the N–H four amino acids farther along. It is held by: hydrogen bonds between backbone c=o and n–h groups ."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4098,6 +4854,12 @@
   "hint": "Sequence only → primary. Regular coil or sheet of the backbone → secondary. One whole chain folded → tertiary. Several chains together → quaternary.",
   "explain": "An <b style=\"font-weight:700\">α-helix</b> is a secondary structure: the backbone coils, and each C=O hydrogen bonds to the N–H four amino acids farther along.",
   "origin": "original",
+  "why": [
+   "Quaternary structure is two or more chains packed together. An α-helix is a secondary structure: the backbone coils, and each C=O hydrogen bonds to the N–H four amino acids farther along.",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. An α-helix is a secondary structure: the backbone coils, and each C=O hydrogen bonds to the N–H four amino acids farther along.",
+   "Primary structure is the amino acid sequence, held by peptide bonds. An α-helix is a secondary structure: the backbone coils, and each C=O hydrogen bonds to the N–H four amino acids farther along.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4125,6 +4887,12 @@
   "hint": "Secondary structure involves only the backbone (C=O and N–H). Tertiary and quaternary involve the side chains (R groups).",
   "explain": "<b style=\"font-weight:700\">Tertiary</b> structure is the overall 3-D folding of <b style=\"font-weight:700\">one</b> chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core. It is held by: <b style=\"font-weight:700\">interactions between r groups of one chain: h bonds, salt bridges, disulfides, hydrophobic</b>.",
   "origin": "original",
+  "why": [
+   "Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core. It is held by: interactions between r groups of one chain: h bonds, salt bridges, disulfides, hydrophobic .",
+   "Interactions between separate chains hold quaternary structure. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core. It is held by: interactions between r groups of one chain: h bonds, salt bridges, disulfides, hydrophobic .",
+   "",
+   "Peptide bonds hold the primary sequence. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core. It is held by: interactions between r groups of one chain: h bonds, salt bridges, disulfides, hydrophobic ."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4152,6 +4920,12 @@
   "hint": "Sequence only → primary. Regular coil or sheet of the backbone → secondary. One whole chain folded → tertiary. Several chains together → quaternary.",
   "explain": "A <b style=\"font-weight:700\">β-pleated sheet</b> is a secondary structure: stretched-out strands lie side by side, held by hydrogen bonds between C=O and N–H groups of neighboring strands.",
   "origin": "original",
+  "why": [
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. A β-pleated sheet is a secondary structure: stretched-out strands lie side by side, held by hydrogen bonds between C=O and N–H groups of neighboring strands.",
+   "Quaternary structure is two or more chains packed together. A β-pleated sheet is a secondary structure: stretched-out strands lie side by side, held by hydrogen bonds between C=O and N–H groups of neighboring strands.",
+   "Tertiary structure is the 3-D folding of one chain, held by R-group interactions (salt bridges, H bonds, disulfides, hydrophobic). A β-pleated sheet is a secondary structure: stretched-out strands lie side by side, held by hydrogen bonds between C=O and N–H groups of neighboring strands.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4179,6 +4953,12 @@
   "hint": "Sequence only → primary. Regular coil or sheet of the backbone → secondary. One whole chain folded → tertiary. Several chains together → quaternary.",
   "explain": "Primary structure is just the <b style=\"font-weight:700\">sequence</b> of amino acids, held together by peptide bonds.",
   "origin": "original",
+  "why": [
+   "Tertiary structure is the 3-D folding of one chain, held by R-group interactions (salt bridges, H bonds, disulfides, hydrophobic). Primary structure is just the sequence of amino acids, held together by peptide bonds.",
+   "",
+   "Quaternary structure is two or more chains packed together. Primary structure is just the sequence of amino acids, held together by peptide bonds.",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Primary structure is just the sequence of amino acids, held together by peptide bonds."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4206,6 +4986,12 @@
   "hint": "Ask: is it the order of amino acids, a regular backbone pattern, the fold of one chain, or several chains together?",
   "explain": "This describes <b style=\"font-weight:700\">secondary</b> structure. Regular α-helix and β-sheet patterns come from backbone hydrogen bonds.",
   "origin": "original",
+  "why": [
+   "",
+   "Tertiary structure is the 3-D folding of one chain, held by R-group interactions (salt bridges, H bonds, disulfides, hydrophobic). This describes secondary structure. Regular α-helix and β-sheet patterns come from backbone hydrogen bonds.",
+   "Quaternary structure is two or more chains packed together. This describes secondary structure. Regular α-helix and β-sheet patterns come from backbone hydrogen bonds.",
+   "Primary structure is the amino acid sequence, held by peptide bonds. This describes secondary structure. Regular α-helix and β-sheet patterns come from backbone hydrogen bonds."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4233,6 +5019,12 @@
   "hint": "Sequence only → primary. Regular coil or sheet of the backbone → secondary. One whole chain folded → tertiary. Several chains together → quaternary.",
   "explain": "<b style=\"font-weight:700\">Tertiary</b> structure is the overall 3-D folding of <b style=\"font-weight:700\">one</b> chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
   "origin": "original",
+  "why": [
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
+   "Quaternary structure is two or more chains packed together. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
+   "Primary structure is the amino acid sequence, held by peptide bonds. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4260,6 +5052,12 @@
   "hint": "Ask: is it the order of amino acids, a regular backbone pattern, the fold of one chain, or several chains together?",
   "explain": "This describes <b style=\"font-weight:700\">quaternary</b> structure. More than one polypeptide chain means quaternary structure.",
   "origin": "original",
+  "why": [
+   "",
+   "Primary structure is the amino acid sequence, held by peptide bonds. This describes quaternary structure. More than one polypeptide chain means quaternary structure.",
+   "Tertiary structure is the 3-D folding of one chain, held by R-group interactions (salt bridges, H bonds, disulfides, hydrophobic). This describes quaternary structure. More than one polypeptide chain means quaternary structure.",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. This describes quaternary structure. More than one polypeptide chain means quaternary structure."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4287,6 +5085,12 @@
   "hint": "Which level is held together by peptide bonds?",
   "explain": "Hydrolysis breaks <b style=\"font-weight:700\">peptide bonds</b>, so it destroys the <b style=\"font-weight:700\">primary</b> structure (and every level built on it), releasing free amino acids.",
   "origin": "original",
+  "why": [
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Hydrolysis breaks peptide bonds , so it destroys the primary structure (and every level built on it), releasing free amino acids.",
+   "Tertiary structure is the 3-D folding of one chain, held by R-group interactions (salt bridges, H bonds, disulfides, hydrophobic). Hydrolysis breaks peptide bonds , so it destroys the primary structure (and every level built on it), releasing free amino acids.",
+   "Quaternary structure is two or more chains packed together. Hydrolysis breaks peptide bonds , so it destroys the primary structure (and every level built on it), releasing free amino acids.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4314,6 +5118,12 @@
   "hint": "Ask: is it the order of amino acids, a regular backbone pattern, the fold of one chain, or several chains together?",
   "explain": "This describes <b style=\"font-weight:700\">primary</b> structure. Any change in the order of amino acids is a change in primary structure.",
   "origin": "original",
+  "why": [
+   "",
+   "Quaternary structure is two or more chains packed together. This describes primary structure. Any change in the order of amino acids is a change in primary structure.",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. This describes primary structure. Any change in the order of amino acids is a change in primary structure.",
+   "Tertiary structure is the 3-D folding of one chain, held by R-group interactions (salt bridges, H bonds, disulfides, hydrophobic). This describes primary structure. Any change in the order of amino acids is a change in primary structure."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4341,6 +5151,12 @@
   "hint": "Secondary structure involves only the backbone (C=O and N–H). Tertiary and quaternary involve the side chains (R groups).",
   "explain": "Primary structure is just the <b style=\"font-weight:700\">sequence</b> of amino acids, held together by peptide bonds. It is held by: <b style=\"font-weight:700\">peptide bonds linking the amino acids in order</b>.",
   "origin": "original",
+  "why": [
+   "",
+   "Primary structure is just the sequence of amino acids, held together by peptide bonds. It is held by: peptide bonds linking the amino acids in order .",
+   "Interactions between separate chains hold quaternary structure. Primary structure is just the sequence of amino acids, held together by peptide bonds. It is held by: peptide bonds linking the amino acids in order .",
+   "R-group interactions in one chain hold tertiary structure. Primary structure is just the sequence of amino acids, held together by peptide bonds. It is held by: peptide bonds linking the amino acids in order ."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4368,6 +5184,12 @@
   "hint": "Sequence only → primary. Regular coil or sheet of the backbone → secondary. One whole chain folded → tertiary. Several chains together → quaternary.",
   "explain": "<b style=\"font-weight:700\">Quaternary</b> structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme).",
   "origin": "original",
+  "why": [
+   "Tertiary structure is the 3-D folding of one chain, held by R-group interactions (salt bridges, H bonds, disulfides, hydrophobic). Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme).",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme).",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme).",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4395,6 +5217,12 @@
   "hint": "Sequence only → primary. Regular coil or sheet of the backbone → secondary. One whole chain folded → tertiary. Several chains together → quaternary.",
   "explain": "<b style=\"font-weight:700\">Tertiary</b> structure is the overall 3-D folding of <b style=\"font-weight:700\">one</b> chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
   "origin": "original",
+  "why": [
+   "Quaternary structure is two or more chains packed together. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
+   "",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4422,6 +5250,12 @@
   "hint": "Sequence only → primary. Regular coil or sheet of the backbone → secondary. One whole chain folded → tertiary. Several chains together → quaternary.",
   "explain": "<b style=\"font-weight:700\">Tertiary</b> structure is the overall 3-D folding of <b style=\"font-weight:700\">one</b> chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
   "origin": "original",
+  "why": [
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
+   "Primary structure is the amino acid sequence, held by peptide bonds. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4449,6 +5283,12 @@
   "hint": "Denaturing agents break H bonds, salt bridges, disulfides and hydrophobic interactions, but not peptide bonds.",
   "explain": "Denaturation unfolds the protein (<b style=\"font-weight:700\">secondary, tertiary and quaternary</b>) and it loses its function, but the amino acid sequence (primary) stays the same.",
   "origin": "original",
+  "why": [
+   "Denaturation doesn’t break peptide bonds, so the primary sequence stays.",
+   "Denaturation unfolds everything above the sequence: secondary, tertiary and quaternary.",
+   "",
+   "Denaturation doesn’t break peptide bonds, so the primary sequence stays."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4476,6 +5316,12 @@
   "hint": "Sequence only → primary. Regular coil or sheet of the backbone → secondary. One whole chain folded → tertiary. Several chains together → quaternary.",
   "explain": "<b style=\"font-weight:700\">Tertiary</b> structure is the overall 3-D folding of <b style=\"font-weight:700\">one</b> chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
   "origin": "original",
+  "why": [
+   "",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
+   "Quaternary structure is two or more chains packed together. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4503,6 +5349,12 @@
   "hint": "Secondary structure involves only the backbone (C=O and N–H). Tertiary and quaternary involve the side chains (R groups).",
   "explain": "<b style=\"font-weight:700\">Quaternary</b> structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme). It is held by: <b style=\"font-weight:700\">the same r-group interactions, but between two or more separate chains</b>.",
   "origin": "original",
+  "why": [
+   "Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme). It is held by: the same r-group interactions, but between two or more separate chains .",
+   "",
+   "Peptide bonds hold the primary sequence. Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme). It is held by: the same r-group interactions, but between two or more separate chains .",
+   "R-group interactions in one chain hold tertiary structure. Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme). It is held by: the same r-group interactions, but between two or more separate chains ."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4530,6 +5382,12 @@
   "hint": "Ask: is it the order of amino acids, a regular backbone pattern, the fold of one chain, or several chains together?",
   "explain": "This describes <b style=\"font-weight:700\">tertiary</b> structure. Folding of a single chain is held by R-group interactions.",
   "origin": "original",
+  "why": [
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. This describes tertiary structure. Folding of a single chain is held by R-group interactions.",
+   "",
+   "Primary structure is the amino acid sequence, held by peptide bonds. This describes tertiary structure. Folding of a single chain is held by R-group interactions.",
+   "Quaternary structure is two or more chains packed together. This describes tertiary structure. Folding of a single chain is held by R-group interactions."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4557,6 +5415,12 @@
   "hint": "Sequence only → primary. Regular coil or sheet of the backbone → secondary. One whole chain folded → tertiary. Several chains together → quaternary.",
   "explain": "<b style=\"font-weight:700\">Tertiary</b> structure is the overall 3-D folding of <b style=\"font-weight:700\">one</b> chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
   "origin": "original",
+  "why": [
+   "",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
+   "Quaternary structure is two or more chains packed together. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
+   "Primary structure is the amino acid sequence, held by peptide bonds. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4584,6 +5448,12 @@
   "hint": "Secondary structure involves only the backbone (C=O and N–H). Tertiary and quaternary involve the side chains (R groups).",
   "explain": "<b style=\"font-weight:700\">Quaternary</b> structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme). It is held by: <b style=\"font-weight:700\">the same r-group interactions, but between two or more separate chains</b>.",
   "origin": "original",
+  "why": [
+   "R-group interactions in one chain hold tertiary structure. Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme). It is held by: the same r-group interactions, but between two or more separate chains .",
+   "Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme). It is held by: the same r-group interactions, but between two or more separate chains .",
+   "Peptide bonds hold the primary sequence. Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme). It is held by: the same r-group interactions, but between two or more separate chains .",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4611,6 +5481,12 @@
   "hint": "Secondary structure involves only the backbone (C=O and N–H). Tertiary and quaternary involve the side chains (R groups).",
   "explain": "<b style=\"font-weight:700\">Quaternary</b> structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme). It is held by: <b style=\"font-weight:700\">the same r-group interactions, but between two or more separate chains</b>.",
   "origin": "original",
+  "why": [
+   "Peptide bonds hold the primary sequence. Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme). It is held by: the same r-group interactions, but between two or more separate chains .",
+   "Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme). It is held by: the same r-group interactions, but between two or more separate chains .",
+   "",
+   "R-group interactions in one chain hold tertiary structure. Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme). It is held by: the same r-group interactions, but between two or more separate chains ."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4638,6 +5514,12 @@
   "hint": "Sequence only → primary. Regular coil or sheet of the backbone → secondary. One whole chain folded → tertiary. Several chains together → quaternary.",
   "explain": "Primary structure is just the <b style=\"font-weight:700\">sequence</b> of amino acids, held together by peptide bonds.",
   "origin": "original",
+  "why": [
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Primary structure is just the sequence of amino acids, held together by peptide bonds.",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Primary structure is just the sequence of amino acids, held together by peptide bonds.",
+   "Tertiary structure is the 3-D folding of one chain, held by R-group interactions (salt bridges, H bonds, disulfides, hydrophobic). Primary structure is just the sequence of amino acids, held together by peptide bonds.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4665,6 +5547,12 @@
   "hint": "Ask: is it the order of amino acids, a regular backbone pattern, the fold of one chain, or several chains together?",
   "explain": "This describes <b style=\"font-weight:700\">quaternary</b> structure. More than one polypeptide chain means quaternary structure.",
   "origin": "original",
+  "why": [
+   "Primary structure is the amino acid sequence, held by peptide bonds. This describes quaternary structure. More than one polypeptide chain means quaternary structure.",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. This describes quaternary structure. More than one polypeptide chain means quaternary structure.",
+   "Tertiary structure is the 3-D folding of one chain, held by R-group interactions (salt bridges, H bonds, disulfides, hydrophobic). This describes quaternary structure. More than one polypeptide chain means quaternary structure.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4692,6 +5580,12 @@
   "hint": "Secondary structure involves only the backbone (C=O and N–H). Tertiary and quaternary involve the side chains (R groups).",
   "explain": "<b style=\"font-weight:700\">Tertiary</b> structure is the overall 3-D folding of <b style=\"font-weight:700\">one</b> chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core. It is held by: <b style=\"font-weight:700\">interactions between r groups of one chain: h bonds, salt bridges, disulfides, hydrophobic</b>.",
   "origin": "original",
+  "why": [
+   "",
+   "Peptide bonds hold the primary sequence. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core. It is held by: interactions between r groups of one chain: h bonds, salt bridges, disulfides, hydrophobic .",
+   "Interactions between separate chains hold quaternary structure. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core. It is held by: interactions between r groups of one chain: h bonds, salt bridges, disulfides, hydrophobic .",
+   "Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core. It is held by: interactions between r groups of one chain: h bonds, salt bridges, disulfides, hydrophobic ."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4719,6 +5613,12 @@
   "hint": "Sequence only → primary. Regular coil or sheet of the backbone → secondary. One whole chain folded → tertiary. Several chains together → quaternary.",
   "explain": "Primary structure is just the <b style=\"font-weight:700\">sequence</b> of amino acids, held together by peptide bonds.",
   "origin": "original",
+  "why": [
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Primary structure is just the sequence of amino acids, held together by peptide bonds.",
+   "",
+   "Tertiary structure is the 3-D folding of one chain, held by R-group interactions (salt bridges, H bonds, disulfides, hydrophobic). Primary structure is just the sequence of amino acids, held together by peptide bonds.",
+   "Quaternary structure is two or more chains packed together. Primary structure is just the sequence of amino acids, held together by peptide bonds."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4746,6 +5646,12 @@
   "hint": "Sequence only → primary. Regular coil or sheet of the backbone → secondary. One whole chain folded → tertiary. Several chains together → quaternary.",
   "explain": "<b style=\"font-weight:700\">Quaternary</b> structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme).",
   "origin": "original",
+  "why": [
+   "Primary structure is the amino acid sequence, held by peptide bonds. Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme).",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme).",
+   "",
+   "Tertiary structure is the 3-D folding of one chain, held by R-group interactions (salt bridges, H bonds, disulfides, hydrophobic). Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme)."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4773,6 +5679,12 @@
   "hint": "Secondary structure involves only the backbone (C=O and N–H). Tertiary and quaternary involve the side chains (R groups).",
   "explain": "<b style=\"font-weight:700\">Tertiary</b> structure is the overall 3-D folding of <b style=\"font-weight:700\">one</b> chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core. It is held by: <b style=\"font-weight:700\">interactions between r groups of one chain: h bonds, salt bridges, disulfides, hydrophobic</b>.",
   "origin": "original",
+  "why": [
+   "Interactions between separate chains hold quaternary structure. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core. It is held by: interactions between r groups of one chain: h bonds, salt bridges, disulfides, hydrophobic .",
+   "",
+   "Peptide bonds hold the primary sequence. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core. It is held by: interactions between r groups of one chain: h bonds, salt bridges, disulfides, hydrophobic .",
+   "Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core. It is held by: interactions between r groups of one chain: h bonds, salt bridges, disulfides, hydrophobic ."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4800,6 +5712,12 @@
   "hint": "Sequence only → primary. Regular coil or sheet of the backbone → secondary. One whole chain folded → tertiary. Several chains together → quaternary.",
   "explain": "<b style=\"font-weight:700\">Tertiary</b> structure is the overall 3-D folding of <b style=\"font-weight:700\">one</b> chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
   "origin": "original",
+  "why": [
+   "Primary structure is the amino acid sequence, held by peptide bonds. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
+   "",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core.",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Tertiary structure is the overall 3-D folding of one chain, held by R-group interactions such as disulfide bonds, salt bridges, H bonds and a hydrophobic core."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4827,6 +5745,12 @@
   "hint": "Sequence only → primary. Regular coil or sheet of the backbone → secondary. One whole chain folded → tertiary. Several chains together → quaternary.",
   "explain": "Primary structure is just the <b style=\"font-weight:700\">sequence</b> of amino acids, held together by peptide bonds.",
   "origin": "original",
+  "why": [
+   "",
+   "Tertiary structure is the 3-D folding of one chain, held by R-group interactions (salt bridges, H bonds, disulfides, hydrophobic). Primary structure is just the sequence of amino acids, held together by peptide bonds.",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Primary structure is just the sequence of amino acids, held together by peptide bonds.",
+   "Secondary structure (α-helix, β-pleated sheet) is held by hydrogen bonds between backbone C=O and N–H groups. Primary structure is just the sequence of amino acids, held together by peptide bonds."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4854,6 +5778,12 @@
   "hint": "Secondary structure involves only the backbone (C=O and N–H). Tertiary and quaternary involve the side chains (R groups).",
   "explain": "<b style=\"font-weight:700\">Quaternary</b> structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme). It is held by: <b style=\"font-weight:700\">the same r-group interactions, but between two or more separate chains</b>.",
   "origin": "original",
+  "why": [
+   "Peptide bonds hold the primary sequence. Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme). It is held by: the same r-group interactions, but between two or more separate chains .",
+   "",
+   "R-group interactions in one chain hold tertiary structure. Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme). It is held by: the same r-group interactions, but between two or more separate chains .",
+   "Quaternary structure is two or more folded chains (subunits) packed together, like hemoglobin (2 α + 2 β, each with a heme). It is held by: the same r-group interactions, but between two or more separate chains ."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:levels",
@@ -4881,6 +5811,12 @@
   "hint": "Charges on both ends (+ and −)? Two S atoms bonded? –OH near an O? Only C and H on both sides?",
   "explain": "Lys and Asp form a <b style=\"font-weight:700\">salt bridge</b>: the positive –NH₃⁺ (or guanidinium) of a basic side chain attracts the negative –COO⁻ of an acidic side chain.",
   "origin": "original",
+  "why": [
+   "A hydrophobic interaction is between two nonpolar side chains. Lys and Asp form a salt bridge : the positive –NH₃⁺ (or guanidinium) of a basic side chain attracts the negative –COO⁻ of an acidic side chain.",
+   "A side-chain hydrogen bond is between two polar groups (–OH, –NH, amide) with no full charges. Lys and Asp form a salt bridge : the positive –NH₃⁺ (or guanidinium) of a basic side chain attracts the negative –COO⁻ of an acidic side chain.",
+   "A disulfide bond forms only between two cysteine –SH groups. Lys and Asp form a salt bridge : the positive –NH₃⁺ (or guanidinium) of a basic side chain attracts the negative –COO⁻ of an acidic side chain.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -4908,6 +5844,12 @@
   "hint": "Hydrogen bonding needs an H on O or N, or a lone pair on O or N. Nonpolar side chains have only C–H bonds.",
   "explain": "Tyr has –CH₂– attached to a ring with an –OH (a phenol), a polar group that hydrogen bonds. The other choices are nonpolar.",
   "origin": "original",
+  "why": [
+   "",
+   "Methionine (Met) is nonpolar. Hydrogen bonding with water needs a polar group.",
+   "Alanine (Ala) is nonpolar. Hydrogen bonding with water needs a polar group.",
+   "Valine (Val) is nonpolar. Hydrogen bonding with water needs a polar group."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -4935,6 +5877,12 @@
   "hint": "Acidic side chains (Asp, Glu) are –COO⁻; basic side chains (Lys, Arg) are positive.",
   "explain": "<b style=\"font-weight:700\">arginine</b> is basic (positive at pH 7.4). A salt bridge pairs a positive side chain with a negative one.",
   "origin": "original",
+  "why": [
+   "Glutamic acid (Glu) is acidic. A salt bridge needs opposite charges.",
+   "",
+   "Cysteine (Cys) is polar neutral. A salt bridge needs opposite charges.",
+   "Glycine (Gly) is nonpolar. A salt bridge needs opposite charges."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -4962,6 +5910,12 @@
   "hint": "Charges on both ends (+ and −)? Two S atoms bonded? –OH near an O? Only C and H on both sides?",
   "explain": "Tyr and Thr form a <b style=\"font-weight:700\">hydrogen bond</b>: the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
   "origin": "original",
+  "why": [
+   "",
+   "A salt bridge is between a + side chain (Lys, Arg, His) and a − side chain (Asp, Glu). Tyr and Thr form a hydrogen bond : the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
+   "A disulfide bond forms only between two cysteine –SH groups. Tyr and Thr form a hydrogen bond : the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
+   "A hydrophobic interaction is between two nonpolar side chains. Tyr and Thr form a hydrogen bond : the H of a polar –OH is attracted to a lone pair on an O of another polar side chain."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -4987,6 +5941,10 @@
   "hint": "Nonpolar side chains avoid water (hydrophobic); polar and charged side chains attract water (hydrophilic).",
   "explain": "Glu is acidic (negative at pH 7.4), so it is most likely <b style=\"font-weight:700\">on the surface, where it can interact with water</b>.",
   "origin": "original",
+  "why": [
+   "",
+   "Polar and charged side chains stay on the surface, touching water. Only nonpolar ones are buried."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5014,6 +5972,12 @@
   "hint": "Heat and shaking break the weak attractions; pH changes alter charges; heavy metals grab –SH and –COO⁻ groups; reducing agents break –S–S–.",
   "explain": "A reducing agent, as in a hair perm mainly disrupts <b style=\"font-weight:700\">disulfide bonds only</b>. Peptide bonds are not broken, so the primary structure stays the same.",
   "origin": "original",
+  "why": [
+   "",
+   "A reducing agent, as in a hair perm mainly disrupts disulfide bonds only . Peptide bonds are not broken, so the primary structure stays the same.",
+   "A reducing agent, as in a hair perm mainly disrupts disulfide bonds only . Peptide bonds are not broken, so the primary structure stays the same.",
+   "A reducing agent, as in a hair perm mainly disrupts disulfide bonds only . Peptide bonds are not broken, so the primary structure stays the same."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5041,6 +6005,12 @@
   "hint": "Only one amino acid has an –SH group.",
   "explain": "Cys and Cys can form a <b style=\"font-weight:700\">disulfide bond</b>: two Cys –SH groups are oxidized to a covalent –S–S– bridge, the strongest of these interactions.",
   "origin": "original",
+  "why": [
+   "Ser is polar neutral and Ser is polar neutral. This interaction needs two Cys.",
+   "Met is nonpolar and Met is nonpolar. This interaction needs two Cys.",
+   "Val is nonpolar and Ile is nonpolar. This interaction needs two Cys.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5066,6 +6036,10 @@
   "hint": "Nonpolar side chains avoid water (hydrophobic); polar and charged side chains attract water (hydrophilic).",
   "explain": "Ser is polar neutral (hydrophilic), so it is most likely <b style=\"font-weight:700\">on the surface, where it can interact with water</b>.",
   "origin": "original",
+  "why": [
+   "Polar and charged side chains stay on the surface, touching water. Only nonpolar ones are buried.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5093,6 +6067,12 @@
   "hint": "Heat and shaking break the weak attractions; pH changes alter charges; heavy metals grab –SH and –COO⁻ groups; reducing agents break –S–S–.",
   "explain": "Heavy-metal ions such as Hg²⁺, Pb²⁺ or Ag⁺ mainly disrupts <b style=\"font-weight:700\">disulfide bonds and salt bridges</b>. Peptide bonds are not broken, so the primary structure stays the same.",
   "origin": "original",
+  "why": [
+   "Heavy-metal ions such as Hg²⁺, Pb²⁺ or Ag⁺ mainly disrupts disulfide bonds and salt bridges . Peptide bonds are not broken, so the primary structure stays the same.",
+   "",
+   "Heavy-metal ions such as Hg²⁺, Pb²⁺ or Ag⁺ mainly disrupts disulfide bonds and salt bridges . Peptide bonds are not broken, so the primary structure stays the same.",
+   "Heavy-metal ions such as Hg²⁺, Pb²⁺ or Ag⁺ mainly disrupts disulfide bonds and salt bridges . Peptide bonds are not broken, so the primary structure stays the same."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5120,6 +6100,12 @@
   "hint": "Hydrogen bonding needs an H on O or N, or a lone pair on O or N. Nonpolar side chains have only C–H bonds.",
   "explain": "Gln has –CH₂–CH₂–C(=O)–NH₂ (an amide, one CH₂ longer than Asn), a polar group that hydrogen bonds. The other choices are nonpolar.",
   "origin": "original",
+  "why": [
+   "Phenylalanine (Phe) is nonpolar. Hydrogen bonding with water needs a polar group.",
+   "Alanine (Ala) is nonpolar. Hydrogen bonding with water needs a polar group.",
+   "",
+   "Isoleucine (Ile) is nonpolar. Hydrogen bonding with water needs a polar group."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5147,6 +6133,12 @@
   "hint": "Charges on both ends (+ and −)? Two S atoms bonded? –OH near an O? Only C and H on both sides?",
   "explain": "Tyr and Gln form a <b style=\"font-weight:700\">hydrogen bond</b>: the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
   "origin": "original",
+  "why": [
+   "A hydrophobic interaction is between two nonpolar side chains. Tyr and Gln form a hydrogen bond : the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
+   "A salt bridge is between a + side chain (Lys, Arg, His) and a − side chain (Asp, Glu). Tyr and Gln form a hydrogen bond : the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
+   "",
+   "A disulfide bond forms only between two cysteine –SH groups. Tyr and Gln form a hydrogen bond : the H of a polar –OH is attracted to a lone pair on an O of another polar side chain."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5174,6 +6166,12 @@
   "hint": "Both side chains need polar groups such as –OH or C=O / –NH₂.",
   "explain": "Ser and Ser can form a <b style=\"font-weight:700\">hydrogen bond</b>: the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
   "origin": "original",
+  "why": [
+   "Gly is nonpolar and Pro is nonpolar. This interaction needs two polar side chains (–OH, –NH or amide).",
+   "Val is nonpolar and Leu is nonpolar. This interaction needs two polar side chains (–OH, –NH or amide).",
+   "Phe is nonpolar and Ala is nonpolar. This interaction needs two polar side chains (–OH, –NH or amide).",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5201,6 +6199,12 @@
   "hint": "Charges on both ends (+ and −)? Two S atoms bonded? –OH near an O? Only C and H on both sides?",
   "explain": "Cys and Cys form a <b style=\"font-weight:700\">disulfide bond</b>: two Cys –SH groups are oxidized to a covalent –S–S– bridge, the strongest of these interactions.",
   "origin": "original",
+  "why": [
+   "",
+   "A hydrophobic interaction is between two nonpolar side chains. Cys and Cys form a disulfide bond : two Cys –SH groups are oxidized to a covalent –S–S– bridge, the strongest of these interactions.",
+   "A side-chain hydrogen bond is between two polar groups (–OH, –NH, amide) with no full charges. Cys and Cys form a disulfide bond : two Cys –SH groups are oxidized to a covalent –S–S– bridge, the strongest of these interactions.",
+   "A salt bridge is between a + side chain (Lys, Arg, His) and a − side chain (Asp, Glu). Cys and Cys form a disulfide bond : two Cys –SH groups are oxidized to a covalent –S–S– bridge, the strongest of these interactions."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5228,6 +6232,12 @@
   "hint": "Heat and shaking break the weak attractions; pH changes alter charges; heavy metals grab –SH and –COO⁻ groups; reducing agents break –S–S–.",
   "explain": "Rubbing alcohol (70% isopropyl alcohol) or ethanol mainly disrupts <b style=\"font-weight:700\">hydrogen bonds between side chains</b>. Peptide bonds are not broken, so the primary structure stays the same.",
   "origin": "original",
+  "why": [
+   "Rubbing alcohol (70% isopropyl alcohol) or ethanol mainly disrupts hydrogen bonds between side chains . Peptide bonds are not broken, so the primary structure stays the same.",
+   "",
+   "Rubbing alcohol (70% isopropyl alcohol) or ethanol mainly disrupts hydrogen bonds between side chains . Peptide bonds are not broken, so the primary structure stays the same.",
+   "Rubbing alcohol (70% isopropyl alcohol) or ethanol mainly disrupts hydrogen bonds between side chains . Peptide bonds are not broken, so the primary structure stays the same."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5255,6 +6265,12 @@
   "hint": "Charges on both ends (+ and −)? Two S atoms bonded? –OH near an O? Only C and H on both sides?",
   "explain": "Ser and Ser form a <b style=\"font-weight:700\">hydrogen bond</b>: the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
   "origin": "original",
+  "why": [
+   "A salt bridge is between a + side chain (Lys, Arg, His) and a − side chain (Asp, Glu). Ser and Ser form a hydrogen bond : the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
+   "A hydrophobic interaction is between two nonpolar side chains. Ser and Ser form a hydrogen bond : the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
+   "A disulfide bond forms only between two cysteine –SH groups. Ser and Ser form a hydrogen bond : the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5280,6 +6296,10 @@
   "hint": "Nonpolar side chains avoid water (hydrophobic); polar and charged side chains attract water (hydrophilic).",
   "explain": "Arg is basic (positive at pH 7.4), so it is most likely <b style=\"font-weight:700\">on the surface, where it can interact with water</b>.",
   "origin": "original",
+  "why": [
+   "Polar and charged side chains stay on the surface, touching water. Only nonpolar ones are buried.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5307,6 +6327,12 @@
   "hint": "Acidic side chains (Asp, Glu) are –COO⁻; basic side chains (Lys, Arg) are positive.",
   "explain": "<b style=\"font-weight:700\">glutamic acid</b> is acidic (negative at pH 7.4). A salt bridge pairs a positive side chain with a negative one.",
   "origin": "original",
+  "why": [
+   "Asparagine (Asn) is polar neutral. A salt bridge needs opposite charges.",
+   "Lysine (Lys) is basic. A salt bridge needs opposite charges.",
+   "",
+   "Methionine (Met) is nonpolar. A salt bridge needs opposite charges."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5334,6 +6360,12 @@
   "hint": "Charges on both ends (+ and −)? Two S atoms bonded? –OH near an O? Only C and H on both sides?",
   "explain": "Thr and Gln form a <b style=\"font-weight:700\">hydrogen bond</b>: the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
   "origin": "original",
+  "why": [
+   "A hydrophobic interaction is between two nonpolar side chains. Thr and Gln form a hydrogen bond : the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
+   "A disulfide bond forms only between two cysteine –SH groups. Thr and Gln form a hydrogen bond : the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
+   "",
+   "A salt bridge is between a + side chain (Lys, Arg, His) and a − side chain (Asp, Glu). Thr and Gln form a hydrogen bond : the H of a polar –OH is attracted to a lone pair on an O of another polar side chain."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5361,6 +6393,12 @@
   "hint": "Heat and shaking break the weak attractions; pH changes alter charges; heavy metals grab –SH and –COO⁻ groups; reducing agents break –S–S–.",
   "explain": "Strong acids or bases (a big change in pH) mainly disrupts <b style=\"font-weight:700\">hydrogen bonds and salt bridges</b>. Peptide bonds are not broken, so the primary structure stays the same.",
   "origin": "original",
+  "why": [
+   "Strong acids or bases (a big change in pH) mainly disrupts hydrogen bonds and salt bridges . Peptide bonds are not broken, so the primary structure stays the same.",
+   "Strong acids or bases (a big change in pH) mainly disrupts hydrogen bonds and salt bridges . Peptide bonds are not broken, so the primary structure stays the same.",
+   "Strong acids or bases (a big change in pH) mainly disrupts hydrogen bonds and salt bridges . Peptide bonds are not broken, so the primary structure stays the same.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5388,6 +6426,12 @@
   "hint": "Charges on both ends (+ and −)? Two S atoms bonded? –OH near an O? Only C and H on both sides?",
   "explain": "Leu and Val form a <b style=\"font-weight:700\">hydrophobic interaction</b>: nonpolar side chains cluster together, away from water, in the interior of the protein.",
   "origin": "original",
+  "why": [
+   "A disulfide bond forms only between two cysteine –SH groups. Leu and Val form a hydrophobic interaction : nonpolar side chains cluster together, away from water, in the interior of the protein.",
+   "A side-chain hydrogen bond is between two polar groups (–OH, –NH, amide) with no full charges. Leu and Val form a hydrophobic interaction : nonpolar side chains cluster together, away from water, in the interior of the protein.",
+   "",
+   "A salt bridge is between a + side chain (Lys, Arg, His) and a − side chain (Asp, Glu). Leu and Val form a hydrophobic interaction : nonpolar side chains cluster together, away from water, in the interior of the protein."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5413,6 +6457,10 @@
   "hint": "Nonpolar side chains avoid water (hydrophobic); polar and charged side chains attract water (hydrophilic).",
   "explain": "Phe is nonpolar (hydrophobic), so it is most likely <b style=\"font-weight:700\">buried in the nonpolar interior</b>.",
   "origin": "original",
+  "why": [
+   "Nonpolar side chains avoid water and are buried inside. Only polar and charged ones face water.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5440,6 +6488,12 @@
   "hint": "Charges on both ends (+ and −)? Two S atoms bonded? –OH near an O? Only C and H on both sides?",
   "explain": "Arg and Asp form a <b style=\"font-weight:700\">salt bridge</b>: the positive –NH₃⁺ (or guanidinium) of a basic side chain attracts the negative –COO⁻ of an acidic side chain.",
   "origin": "original",
+  "why": [
+   "A side-chain hydrogen bond is between two polar groups (–OH, –NH, amide) with no full charges. Arg and Asp form a salt bridge : the positive –NH₃⁺ (or guanidinium) of a basic side chain attracts the negative –COO⁻ of an acidic side chain.",
+   "",
+   "A hydrophobic interaction is between two nonpolar side chains. Arg and Asp form a salt bridge : the positive –NH₃⁺ (or guanidinium) of a basic side chain attracts the negative –COO⁻ of an acidic side chain.",
+   "A disulfide bond forms only between two cysteine –SH groups. Arg and Asp form a salt bridge : the positive –NH₃⁺ (or guanidinium) of a basic side chain attracts the negative –COO⁻ of an acidic side chain."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5467,6 +6521,12 @@
   "hint": "Charges on both ends (+ and −)? Two S atoms bonded? –OH near an O? Only C and H on both sides?",
   "explain": "Thr and Asn form a <b style=\"font-weight:700\">hydrogen bond</b>: the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
   "origin": "original",
+  "why": [
+   "A salt bridge is between a + side chain (Lys, Arg, His) and a − side chain (Asp, Glu). Thr and Asn form a hydrogen bond : the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
+   "A disulfide bond forms only between two cysteine –SH groups. Thr and Asn form a hydrogen bond : the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
+   "A hydrophobic interaction is between two nonpolar side chains. Thr and Asn form a hydrogen bond : the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5494,6 +6554,12 @@
   "hint": "Hydrogen bonding needs an H on O or N, or a lone pair on O or N. Nonpolar side chains have only C–H bonds.",
   "explain": "Asn has –CH₂–C(=O)–NH₂ (an amide), a polar group that hydrogen bonds. The other choices are nonpolar.",
   "origin": "original",
+  "why": [
+   "Valine (Val) is nonpolar. Hydrogen bonding with water needs a polar group.",
+   "Phenylalanine (Phe) is nonpolar. Hydrogen bonding with water needs a polar group.",
+   "Leucine (Leu) is nonpolar. Hydrogen bonding with water needs a polar group.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5521,6 +6587,12 @@
   "hint": "Charges on both ends (+ and −)? Two S atoms bonded? –OH near an O? Only C and H on both sides?",
   "explain": "Glu and Arg form a <b style=\"font-weight:700\">salt bridge</b>: the positive –NH₃⁺ (or guanidinium) of a basic side chain attracts the negative –COO⁻ of an acidic side chain.",
   "origin": "original",
+  "why": [
+   "",
+   "A hydrophobic interaction is between two nonpolar side chains. Glu and Arg form a salt bridge : the positive –NH₃⁺ (or guanidinium) of a basic side chain attracts the negative –COO⁻ of an acidic side chain.",
+   "A disulfide bond forms only between two cysteine –SH groups. Glu and Arg form a salt bridge : the positive –NH₃⁺ (or guanidinium) of a basic side chain attracts the negative –COO⁻ of an acidic side chain.",
+   "A side-chain hydrogen bond is between two polar groups (–OH, –NH, amide) with no full charges. Glu and Arg form a salt bridge : the positive –NH₃⁺ (or guanidinium) of a basic side chain attracts the negative –COO⁻ of an acidic side chain."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5548,6 +6620,12 @@
   "hint": "Acidic side chains (Asp, Glu) are –COO⁻; basic side chains (Lys, Arg) are positive.",
   "explain": "<b style=\"font-weight:700\">lysine</b> is basic (positive at pH 7.4). A salt bridge pairs a positive side chain with a negative one.",
   "origin": "original",
+  "why": [
+   "Aspartic acid (Asp) is acidic. A salt bridge needs opposite charges.",
+   "",
+   "Tyrosine (Tyr) is polar neutral. A salt bridge needs opposite charges.",
+   "Valine (Val) is nonpolar. A salt bridge needs opposite charges."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5575,6 +6653,12 @@
   "hint": "Both side chains should be nonpolar (only C and H, or –S–CH₃).",
   "explain": "Ala and Val can form a <b style=\"font-weight:700\">hydrophobic interaction</b>: nonpolar side chains cluster together, away from water, in the interior of the protein.",
   "origin": "original",
+  "why": [
+   "Asp is acidic and Arg is basic. This interaction needs two nonpolar side chains.",
+   "",
+   "Lys is basic and Glu is acidic. This interaction needs two nonpolar side chains.",
+   "Cys is polar neutral and Asn is polar neutral. This interaction needs two nonpolar side chains."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5602,6 +6686,12 @@
   "hint": "Like dissolves like: which side chain is nonpolar?",
   "explain": "<b style=\"font-weight:700\">Met</b> is nonpolar, so it is stable next to the nonpolar fatty-acid tails. Charged and polar side chains are found where the protein meets water.",
   "origin": "original",
+  "why": [
+   "Glutamine (Gln) is polar neutral. Only nonpolar side chains face the lipids.",
+   "Asparagine (Asn) is polar neutral. Only nonpolar side chains face the lipids.",
+   "",
+   "Glutamic acid (Glu) is acidic. Only nonpolar side chains face the lipids."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5629,6 +6719,12 @@
   "hint": "Both side chains should be nonpolar (only C and H, or –S–CH₃).",
   "explain": "Ile and Met can form a <b style=\"font-weight:700\">hydrophobic interaction</b>: nonpolar side chains cluster together, away from water, in the interior of the protein.",
   "origin": "original",
+  "why": [
+   "Lys is basic and Glu is acidic. This interaction needs two nonpolar side chains.",
+   "Ser is polar neutral and Thr is polar neutral. This interaction needs two nonpolar side chains.",
+   "Asp is acidic and Arg is basic. This interaction needs two nonpolar side chains.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5656,6 +6752,12 @@
   "hint": "Charges on both ends (+ and −)? Two S atoms bonded? –OH near an O? Only C and H on both sides?",
   "explain": "Thr and Thr form a <b style=\"font-weight:700\">hydrogen bond</b>: the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
   "origin": "original",
+  "why": [
+   "A disulfide bond forms only between two cysteine –SH groups. Thr and Thr form a hydrogen bond : the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
+   "",
+   "A hydrophobic interaction is between two nonpolar side chains. Thr and Thr form a hydrogen bond : the H of a polar –OH is attracted to a lone pair on an O of another polar side chain.",
+   "A salt bridge is between a + side chain (Lys, Arg, His) and a − side chain (Asp, Glu). Thr and Thr form a hydrogen bond : the H of a polar –OH is attracted to a lone pair on an O of another polar side chain."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5683,6 +6785,12 @@
   "hint": "Charges on both ends (+ and −)? Two S atoms bonded? –OH near an O? Only C and H on both sides?",
   "explain": "Lys and Glu form a <b style=\"font-weight:700\">salt bridge</b>: the positive –NH₃⁺ (or guanidinium) of a basic side chain attracts the negative –COO⁻ of an acidic side chain.",
   "origin": "original",
+  "why": [
+   "A disulfide bond forms only between two cysteine –SH groups. Lys and Glu form a salt bridge : the positive –NH₃⁺ (or guanidinium) of a basic side chain attracts the negative –COO⁻ of an acidic side chain.",
+   "A hydrophobic interaction is between two nonpolar side chains. Lys and Glu form a salt bridge : the positive –NH₃⁺ (or guanidinium) of a basic side chain attracts the negative –COO⁻ of an acidic side chain.",
+   "A side-chain hydrogen bond is between two polar groups (–OH, –NH, amide) with no full charges. Lys and Glu form a salt bridge : the positive –NH₃⁺ (or guanidinium) of a basic side chain attracts the negative –COO⁻ of an acidic side chain.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5710,6 +6818,12 @@
   "hint": "Acidic side chains (Asp, Glu) are –COO⁻; basic side chains (Lys, Arg) are positive.",
   "explain": "<b style=\"font-weight:700\">aspartic acid</b> is acidic (negative at pH 7.4). A salt bridge pairs a positive side chain with a negative one.",
   "origin": "original",
+  "why": [
+   "Arginine (Arg) is basic. A salt bridge needs opposite charges.",
+   "Proline (Pro) is nonpolar. A salt bridge needs opposite charges.",
+   "Leucine (Leu) is nonpolar. A salt bridge needs opposite charges.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5737,6 +6851,12 @@
   "hint": "Hydrogen bonding needs an H on O or N, or a lone pair on O or N. Nonpolar side chains have only C–H bonds.",
   "explain": "Ser has –CH₂–OH, a polar group that hydrogen bonds. The other choices are nonpolar.",
   "origin": "original",
+  "why": [
+   "",
+   "Isoleucine (Ile) is nonpolar. Hydrogen bonding with water needs a polar group.",
+   "Phenylalanine (Phe) is nonpolar. Hydrogen bonding with water needs a polar group.",
+   "Alanine (Ala) is nonpolar. Hydrogen bonding with water needs a polar group."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5762,6 +6882,10 @@
   "hint": "Nonpolar side chains avoid water (hydrophobic); polar and charged side chains attract water (hydrophilic).",
   "explain": "Leu is nonpolar (hydrophobic), so it is most likely <b style=\"font-weight:700\">buried in the nonpolar interior</b>.",
   "origin": "original",
+  "why": [
+   "Nonpolar side chains avoid water and are buried inside. Only polar and charged ones face water.",
+   ""
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5789,6 +6913,12 @@
   "hint": "Heat and shaking break the weak attractions; pH changes alter charges; heavy metals grab –SH and –COO⁻ groups; reducing agents break –S–S–.",
   "explain": "Heating (as in cooking an egg) or UV light mainly disrupts <b style=\"font-weight:700\">hydrogen bonds and hydrophobic interactions</b>. Peptide bonds are not broken, so the primary structure stays the same.",
   "origin": "original",
+  "why": [
+   "",
+   "Heating (as in cooking an egg) or UV light mainly disrupts hydrogen bonds and hydrophobic interactions . Peptide bonds are not broken, so the primary structure stays the same.",
+   "Heating (as in cooking an egg) or UV light mainly disrupts hydrogen bonds and hydrophobic interactions . Peptide bonds are not broken, so the primary structure stays the same.",
+   "Heating (as in cooking an egg) or UV light mainly disrupts hydrogen bonds and hydrophobic interactions . Peptide bonds are not broken, so the primary structure stays the same."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",
@@ -5816,6 +6946,12 @@
   "hint": "You need one positive (basic) and one negative (acidic) side chain.",
   "explain": "Asp and Lys can form a <b style=\"font-weight:700\">salt bridge</b>: the positive –NH₃⁺ (or guanidinium) of a basic side chain attracts the negative –COO⁻ of an acidic side chain.",
   "origin": "original",
+  "why": [
+   "Ser is polar neutral and Asn is polar neutral. This interaction needs one + (Lys, Arg, His) and one − (Asp, Glu) side chain.",
+   "",
+   "Leu is nonpolar and Phe is nonpolar. This interaction needs one + (Lys, Arg, His) and one − (Asp, Glu) side chain.",
+   "Lys is basic and Arg is basic. This interaction needs one + (Lys, Arg, His) and one − (Asp, Glu) side chain."
+  ],
   "from": {
    "game": "aminoacids",
    "list": "sample:interact",

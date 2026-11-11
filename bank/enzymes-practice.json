@@ -7221,8 +7221,8 @@
   ],
   "answer": "Hydrolyzes the ester bond (a hydrolase)",
   "why": [
-   "",
-   "",
+   "Isomerases rearrange a molecule. Cholinesterase splits the ester bond with water.",
+   "That would be an oxidoreductase. Cholinesterase uses water to split the ester bond.",
    "",
    "Breaking down a drug is not joining it to anything."
   ],
@@ -7253,6 +7253,12 @@
    "The bacteria make stronger acid"
   ],
   "answer": "The bacteria make less acid on the tooth surface",
+  "why": [
+   "Fluoride inhibits enolase; the enzyme doesn’t make enamel.",
+   "Fluoride doesn’t denature proteins. It slows one glycolysis enzyme.",
+   "",
+   "Inhibiting an enzyme slows the pathway, so less acid is made, not stronger acid."
+  ],
   "hint": "Which pathway makes the acid?",
   "explain": "Blocking enolase slows glycolysis in plaque bacteria, so they get less energy and release less lactic acid. Fluoride also converts hydroxyapatite to the more acid-resistant fluorapatite.",
   "origin": "original",
@@ -7281,10 +7287,10 @@
   ],
   "answer": "Cofactor",
   "why": [
-   "",
+   "An inhibitor slows the enzyme. Zn<sup style=\"font-size:10.3168px;line-height:15.991px\">2+</sup> is needed for it to work.",
    "Coenzymes are organic molecules made from vitamins. A metal ion is a cofactor.",
    "",
-   ""
+   "The substrate is collagen, the molecule the enzyme breaks down."
   ],
   "hint": "Metal ion = ?",
   "explain": "Metal ions such as Zn<sup style=\"font-size:10.3168px;line-height:15.991px\">2+</sup> are inorganic cofactors. That is why drugs that grab the zinc can slow these enzymes.",
@@ -7314,8 +7320,8 @@
   ],
   "answer": "Aspirin irreversibly inhibits COX in platelets, so they clump poorly",
   "why": [
-   "",
-   "",
+   "Aspirin inhibits COX. It doesn’t activate clotting zymogens.",
+   "Aspirin contains no vitamin K, and vitamin K would help clotting.",
    "",
    "Aspirin bonds covalently: the effect lasts until new platelets are made."
   ],
@@ -7347,8 +7353,8 @@
   ],
   "answer": "Vitamin C: enzymes that build collagen need it",
   "why": [
-   "",
-   "",
+   "Vitamin D helps absorb calcium. It doesn’t make saliva or build gum collagen.",
+   "Vitamin B12 is needed for red blood cells and nerves, not collagen or whitening.",
    "",
    "Vitamin K deficiency causes bleeding, but the collagen and slow healing point to vitamin C."
   ],
@@ -7380,10 +7386,10 @@
   ],
   "answer": "Catalase: 2 H<sub style=\"font-size:11.5328px;line-height:17.8758px\">2</sub>O<sub style=\"font-size:11.5328px;line-height:17.8758px\">2</sub> → 2 H<sub style=\"font-size:11.5328px;line-height:17.8758px\">2</sub>O + O<sub style=\"font-size:11.5328px;line-height:17.8758px\">2</sub>",
   "why": [
-   "",
+   "H<sub style=\"font-size:11.3152px;line-height:17.5386px\">2</sub>O<sub style=\"font-size:11.3152px;line-height:17.5386px\">2</sub> breaks down slowly on its own. The fast foaming comes from catalase in blood and tissue.",
    "Amylase acts on starch.",
    "",
-   ""
+   "Lipase digests fats. The bubbles are O2 gas from breaking down H<sub style=\"font-size:11.3152px;line-height:17.5386px\">2</sub>O<sub style=\"font-size:11.3152px;line-height:17.5386px\">2</sub>."
   ],
   "hint": "The bubbles are a gas. Which gas?",
   "explain": "Catalase, an oxidoreductase in blood and tissue cells, breaks H<sub style=\"font-size:11.3152px;line-height:17.5386px\">2</sub>O<sub style=\"font-size:11.3152px;line-height:17.5386px\">2</sub> into water and oxygen gas very fast. The O<sub style=\"font-size:11.3152px;line-height:17.5386px\">2</sub> makes the foam.",
@@ -7414,8 +7420,8 @@
   "answer": "An enzyme inhibitor",
   "why": [
    "A coenzyme helps an enzyme work; this drug slows it down.",
-   "",
-   "",
+   "A substrate is what the enzyme acts on. Doxycycline slows the enzyme instead.",
+   "A zymogen is an inactive enzyme precursor. Doxycycline is a drug that blocks the enzyme.",
    ""
   ],
   "hint": "It slows the enzyme down.",
@@ -7445,6 +7451,12 @@
    "Xylitol is a coenzyme for fluoride"
   ],
   "answer": "They lack the enzymes to ferment it for energy",
+  "why": [
+   "Xylitol is a sugar alcohol, not an enzyme.",
+   "",
+   "Xylitol doesn’t denature proteins. Bacteria simply can’t ferment it.",
+   "Xylitol isn’t a coenzyme, and fluoride doesn’t need one."
+  ],
   "hint": "Bacteria need enzymes to break a sugar down.",
   "explain": "<i style=\"font-style:italic\">S. mutans</i> cannot run xylitol through glycolysis the way it does sucrose, so it gets no energy and makes little acid.",
   "origin": "original",
@@ -7474,8 +7486,8 @@
   "answer": "They denature proteins and disrupt membranes, so every enzyme stops",
   "why": [
    "A competitive inhibitor targets one enzyme’s active site; disinfectants are not that specific.",
-   "",
-   "",
+   "They kill by denaturing proteins, not by changing temperature.",
+   "They don’t provide vitamins. They damage proteins and membranes directly.",
    ""
   ],
   "hint": "Specific or non-specific?",
@@ -7506,10 +7518,10 @@
   ],
   "answer": "It raises the pH of plaque, which helps neutralize acid",
   "why": [
-   "",
+   "Ammonia isn’t a coenzyme, and amylase doesn’t need one.",
    "NH<sub style=\"font-size:11.3152px;line-height:17.5386px\">3</sub> is a base, so it raises the pH.",
    "",
-   ""
+   "Ammonia is a base dissolved in plaque. It doesn’t become enamel."
   ],
   "hint": "Is NH<sub style=\"font-size:11.22px;line-height:17.391px\">3</sub> an acid or a base?",
   "explain": "Ammonia is a base, so urease activity raises plaque pH and works against caries. (A higher pH also favors calcium phosphate deposits, so it is linked to calculus build-up.)",
@@ -7538,6 +7550,12 @@
    "It can only be removed by the kidneys unchanged"
   ],
   "answer": "It is cleared from the blood quickly",
+  "why": [
+   "Articaine is the substrate the enzymes break down. It doesn’t inhibit them.",
+   "Hydrolysis in the blood starts right away, so it is cleared quickly, not over days.",
+   "",
+   "Blood enzymes break it down before the kidneys are needed."
+  ],
   "hint": "Blood enzymes start working on it right away.",
   "explain": "Because blood esterases start hydrolyzing articaine immediately, most of it is inactivated within minutes, which is part of why it is popular in dentistry.",
   "origin": "original",
@@ -7567,8 +7585,8 @@
   "answer": "Oxidoreductase",
   "why": [
    "",
-   "",
-   "",
+   "Transferases move a group from one molecule to another. Here something is oxidized.",
+   "Ligases join two molecules using ATP. Here H<sub style=\"font-size:11.3152px;line-height:17.5386px\">2</sub>O<sub style=\"font-size:11.3152px;line-height:17.5386px\">2</sub> oxidizes thiocyanate.",
    "No bond is split by water here; one substance is oxidized while H<sub style=\"font-size:11.3152px;line-height:17.5386px\">2</sub>O<sub style=\"font-size:11.3152px;line-height:17.5386px\">2</sub> is reduced."
   ],
   "hint": "The name has “oxid” hiding in it.",
@@ -7600,8 +7618,8 @@
   "answer": "Salivary amylase: it releases sugars that plaque bacteria ferment into acid",
   "why": [
    "",
-   "",
-   "",
+   "Pepsin is a stomach protease. It isn’t in saliva, and enamel is mostly mineral, not protein.",
+   "Lactase splits lactose (milk sugar). Starch is broken down by amylase.",
    "Lipase works on fats, not starch."
   ],
   "hint": "Which enzyme acts on starch?",
@@ -7634,8 +7652,8 @@
   "why": [
    "",
    "The enzyme breaks the drug down; a weak enzyme means the drug lasts longer, not shorter.",
-   "",
-   ""
+   "A weak enzyme means the drug lasts longer, so the patient would need less, not more.",
+   "It is the opposite: plasma cholinesterase breaks down ester anesthetics, not amides."
   ],
   "hint": "If the enzyme that removes the drug is weak, what happens to the drug?",
   "explain": "With a weak or missing enzyme, ester drugs (and the surgical relaxant succinylcholine) are hydrolyzed slowly, so blood levels stay high longer. An amide anesthetic such as lidocaine is usually chosen instead.",
@@ -7665,8 +7683,8 @@
   ],
   "answer": "A hydrolase that helps kill bacteria",
   "why": [
-   "",
-   "",
+   "Lysozyme adds water to break bonds, so it is a hydrolase, and it doesn’t whiten teeth.",
+   "Isomerases rearrange one molecule. Lysozyme uses water to cut bonds.",
    "",
    "Ligases join molecules using ATP; lysozyme breaks bonds with water."
   ],
@@ -7697,6 +7715,12 @@
    "It denatures salivary amylase only"
   ],
   "answer": "It can cause a vitamin B12 deficiency, with anemia and nerve damage",
+  "why": [
+   "",
+   "N<sub style=\"font-size:11.3152px;line-height:17.5386px\">2</sub>O inactivates vitamin B12 inside the body. It doesn’t stain teeth.",
+   "Scurvy is a vitamin C deficiency, not B12.",
+   "The concern is vitamin B12, which many enzymes in the body need, not salivary amylase."
+  ],
   "hint": "B12 deficiency causes anemia and nerve damage.",
   "explain": "N<sub style=\"font-size:11.3152px;line-height:17.5386px\">2</sub>O oxidizes the cobalt in cobalamin (B12), so the enzymes that need B12 as a coenzyme stop working. Repeated exposure can cause B12-deficiency symptoms, which is why offices use scavenging systems.",
   "origin": "original",
@@ -7724,6 +7748,12 @@
    "The steam hydrolyzes their DNA into nucleotides only"
   ],
   "answer": "The heat denatures their proteins, including all their enzymes",
+  "why": [
+   "",
+   "Steam isn’t a competitive inhibitor; it doesn’t look like any substrate. Heat denatures the enzymes.",
+   "Heat destroys enzymes and zymogens. It doesn’t activate them.",
+   "Heat damages DNA too, but sterilization works mainly because heat denatures every protein."
+  ],
   "hint": "What happens to enzymes far above their optimum temperature?",
   "explain": "At 121 °C under pressure, hydrogen bonds and other attractions holding proteins in shape break. Enzymes lose their active sites and the microbe dies.",
   "origin": "original",
@@ -7753,9 +7783,9 @@
   "answer": "Irreversible inhibition, so acetylcholine builds up at nerve synapses",
   "why": [
    "A covalent bond makes the inhibition irreversible, and with its breakdown enzyme blocked, acetylcholine builds up.",
+   "A covalent bond is irreversible, and blocking the enzyme makes acetylcholine build up, not fall.",
    "",
-   "",
-   ""
+   "This is enzyme inhibition, not denaturation, and the molecule that builds up is acetylcholine."
   ],
   "hint": "Which enzyme normally clears acetylcholine?",
   "explain": "Organophosphates bond covalently (irreversibly) to acetylcholinesterase. Acetylcholine is not cleared, so nerves keep firing. Treatment includes atropine and pralidoxime, which can reactivate the enzyme if given early.",
@@ -7785,8 +7815,8 @@
   ],
   "answer": "Warfarin blocks the enzyme that recycles vitamin K, so a big change in vitamin K changes how well the drug works",
   "why": [
-   "",
-   "",
+   "Leafy greens contain vitamin K, not warfarin.",
+   "Vitamin K is a vitamin the liver uses, not an enzyme that digests drugs.",
    "",
    "It’s about vitamin K, which counteracts the drug."
   ],
@@ -7817,6 +7847,12 @@
    "They denature mucus in the lungs"
   ],
   "answer": "They replace the lipase, protease and amylase that can’t reach the intestine",
+  "why": [
+   "Pancreatic enzymes digest food in the intestine. They don’t kill bacteria.",
+   "",
+   "Enzymes aren’t vitamins, and they don’t replace insulin.",
+   "The capsules release enzymes in the intestine to digest food. They don’t act on lung mucus."
+  ],
   "hint": "What normally comes out of the pancreas into the intestine?",
   "explain": "Without pancreatic enzymes, fats and proteins aren’t digested (fatty stools, poor growth). The capsules supply the hydrolases with the food so digestion can happen.",
   "origin": "original",
@@ -7844,6 +7880,12 @@
    "It hydrolyzes peptide bonds in fibrin, breaking up the mesh"
   ],
   "answer": "It hydrolyzes peptide bonds in fibrin, breaking up the mesh",
+  "why": [
+   "Plasmin is a protease (an enzyme), not a vitamin, and it thins clots.",
+   "Plasmin is itself a protease; it cuts fibrin rather than blocking other proteases.",
+   "Joining strands with ATP would be a ligase and would build the clot, not dissolve it.",
+   ""
+  ],
   "hint": "Zymogen → active enzyme → what does it digest?",
   "explain": "Plasminogen is an inactive precursor (zymogen). tPA cuts it into active plasmin, which hydrolyzes the fibrin mesh and dissolves the clot.",
   "origin": "original",
@@ -7871,6 +7913,12 @@
    "It is a vitamin that rebuilds neurons"
   ],
   "answer": "Acetylcholine lasts longer at synapses, boosting weak nerve signals",
+  "why": [
+   "Donepezil is reversible and targets one enzyme.",
+   "Inhibiting the enzyme slows acetylcholine breakdown, so it lasts longer.",
+   "",
+   "Donepezil is a drug that inhibits an enzyme, not a vitamin."
+  ],
   "hint": "Less breakdown = more of the neurotransmitter.",
   "explain": "Slowing the enzyme that removes acetylcholine leaves more of it at the synapse. Unlike nerve agents, donepezil lets go, so the effect is controlled.",
   "origin": "original",
@@ -7901,8 +7949,8 @@
   "why": [
    "",
    "Statins compete and let go; they are reversible.",
-   "",
-   ""
+   "Statins slow cholesterol synthesis. They don’t speed it up, and they aren’t coenzymes.",
+   "A zymogen is an inactive precursor of an enzyme. Statins are drugs that block the enzyme."
   ],
   "hint": "Look-alike in the active site.",
   "explain": "HMG-CoA reductase controls the rate of cholesterol synthesis in the liver. A substrate look-alike in its active site slows the whole pathway.",
@@ -7931,6 +7979,12 @@
    "The liver makes extra NAD<sup style=\"font-size:11.5328px;line-height:17.8758px\">+</sup>"
   ],
   "answer": "Acetaldehyde builds up because it can’t be oxidized to acetate",
+  "why": [
+   "Enzymes don’t change class. The second step simply stops.",
+   "",
+   "Ethanol is absorbed normally. The block is at the second step, after acetaldehyde is made.",
+   "Disulfiram blocks an oxidation. It doesn’t make extra NAD<sup style=\"font-size:10.3168px;line-height:15.991px\">+</sup>."
+  ],
   "hint": "Which step is blocked: the first or the second?",
   "explain": "Ethanol → acetaldehyde (alcohol dehydrogenase) → acetate (aldehyde dehydrogenase). Blocking the second step lets toxic acetaldehyde accumulate. Metronidazole can cause a similar reaction, so patients are told to avoid alcohol.",
   "origin": "original",
@@ -7959,8 +8013,8 @@
   ],
   "answer": "Aspirin bonds covalently (irreversible); ibuprofen binds and lets go (reversible)",
   "why": [
-   "",
-   "",
+   "Ibuprofen blocks COX. A coenzyme would help the enzyme work.",
+   "Both are COX inhibitors. They differ in how they bind.",
    "It’s the other way around: aspirin transfers an acetyl group onto COX.",
    ""
   ],
@@ -7991,6 +8045,12 @@
    "It is a coenzyme for amoxicillin"
   ],
   "answer": "It inhibits β-lactamase so the antibiotic isn’t destroyed",
+  "why": [
+   "",
+   "Activating β-lactamase would destroy the antibiotic faster.",
+   "Clavulanic acid kills few bacteria itself. It protects amoxicillin from β-lactamase.",
+   "It isn’t a coenzyme. It blocks the enzyme that would destroy the antibiotic."
+  ],
   "hint": "Protect the antibiotic from the enzyme that breaks it.",
   "explain": "β-lactamase is a bacterial hydrolase that breaks penicillin’s ring. Clavulanic acid binds it and permanently inactivates it, protecting the amoxicillin.",
   "origin": "original",
@@ -8018,6 +8078,12 @@
    "Acid makes enzymes work too fast"
   ],
   "answer": "Enzymes are pushed away from their optimum pH, changing the charges in their active sites",
+  "why": [
+   "Enzyme activity depends strongly on pH because the active site’s charges change.",
+   "",
+   "Acid can denature enzymes, but it can’t turn them into vitamins.",
+   "Moving away from the optimum pH slows enzymes; it doesn’t speed them up."
+  ],
   "hint": "Enzymes have an optimum pH.",
   "explain": "The charges on acidic and basic side chains depend on pH. Outside the normal range, enzymes lose activity and can denature, so buffers and breathing tightly control blood pH.",
   "origin": "original",
@@ -8048,8 +8114,8 @@
   "why": [
    "",
    "It looks like the substrate and binds the active site: competitive.",
-   "",
-   ""
+   "Heavy metals bind –SH groups. Allopurinol works by resembling the substrate.",
+   "Allopurinol isn’t a coenzyme. It slows the enzyme instead of helping it."
   ],
   "hint": "Substrate look-alike = ?",
   "explain": "Allopurinol is a substrate look-alike for xanthine oxidase, so less uric acid forms and fewer painful crystals deposit in joints.",
@@ -8079,9 +8145,9 @@
   ],
   "answer": "It decreases, because the stomach pH rises above pepsin’s optimum of 2",
   "why": [
-   "",
+   "Every enzyme has an optimum pH, and pepsin works best near pH 2.",
    "Pepsin’s optimum is pH 2; less acid moves it away from that.",
-   "",
+   "Enzymes don’t turn into other enzymes. Trypsin is made by the pancreas.",
    ""
   ],
   "hint": "Pepsin’s optimum pH is…",
@@ -8112,9 +8178,9 @@
   ],
   "answer": "Competitive inhibitor that slows dividing cells",
   "why": [
-   "",
+   "Heavy metals bind –SH groups. Methotrexate works by resembling the substrate (folate).",
    "It blocks the folate enzyme; it does not help it.",
-   "",
+   "A zymogen is an inactive enzyme precursor. Methotrexate is a drug that blocks an enzyme.",
    ""
   ],
   "hint": "Folate look-alike = ?",
@@ -8144,6 +8210,12 @@
    "Denatured protein"
   ],
   "answer": "Zymogen (inactive precursor) activated by covalent modification",
+  "why": [
+   "An inhibitor blocks an enzyme. Proinsulin is an inactive precursor.",
+   "",
+   "A coenzyme is a small helper molecule. Proinsulin is the inactive protein itself.",
+   "Proinsulin is folded and stable. It just needs a section cut out to become active."
+  ],
   "hint": "Inactive form, switched on by cutting.",
   "explain": "Proinsulin is inactive until peptidases break peptide bonds to remove the connecting piece (C-peptide). C-peptide levels can even be measured to check how much insulin a patient makes.",
   "origin": "original",
@@ -8173,8 +8245,8 @@
   "answer": "Enzymes start to denature and lose their active sites",
   "why": [
    "",
-   "",
-   "",
+   "Vitamins don’t evaporate from blood.",
+   "Zymogens are inactive precursors made by the body. Heat damages enzymes; it doesn’t make zymogens.",
    "Above about 40 °C the bigger risk is unfolding, not speed."
   ],
   "hint": "What does heat do to tertiary structure?",
@@ -8204,6 +8276,12 @@
    "The strip denatures other sugars"
   ],
   "answer": "The enzyme is highly specific for glucose",
+  "why": [
+   "Several sugars dissolve in blood. The enzyme’s specificity is what matters.",
+   "Sugars have different shapes, which is why a specific enzyme can tell them apart.",
+   "",
+   "The strip doesn’t denature other sugars. The enzyme just doesn’t fit them."
+  ],
   "hint": "Which property of enzymes makes them good detectors?",
   "explain": "Enzyme specificity: glucose oxidase’s active site fits glucose. The reaction (glucose + O<sub style=\"font-size:11.3152px;line-height:17.5386px\">2</sub> → gluconolactone + H<sub style=\"font-size:11.3152px;line-height:17.5386px\">2</sub>O<sub style=\"font-size:11.3152px;line-height:17.5386px\">2</sub>) makes a signal the meter reads.",
   "origin": "original",
@@ -8231,6 +8309,12 @@
    "It adds a vitamin cofactor to the heart"
   ],
   "answer": "It blocks angiotensin-converting enzyme, so less of the vessel-tightening hormone is made",
+  "why": [
+   "It is a targeted inhibitor of one enzyme, not a denaturing agent.",
+   "It lowers blood pressure by blocking ACE. It doesn’t raise it.",
+   "",
+   "Lisinopril blocks an enzyme. It doesn’t add a vitamin."
+  ],
   "hint": "The drug name tells you: ACE inhibitor.",
   "explain": "ACE converts angiotensin I to angiotensin II, which narrows blood vessels. Inhibiting ACE lowers angiotensin II and blood pressure. A common side effect is a dry cough.",
   "origin": "original",
@@ -8259,10 +8343,10 @@
   ],
   "answer": "Enzyme-catalyzed reactions slow down, lowering the brain’s demand for oxygen",
   "why": [
-   "",
+   "Cooling doesn’t change the activation energy. Molecules simply collide less often and with less energy.",
    "",
    "Cooling slows enzymes; it does not denature them.",
-   ""
+   "Zymogens are made by the body, not by cold."
   ],
   "hint": "Colder molecules collide less often.",
   "explain": "Lower temperature = fewer, slower collisions, so metabolism slows. Cells need less oxygen while the brain recovers.",
@@ -8292,10 +8376,10 @@
   ],
   "answer": "It rises, because less of the drug is broken down on the way in",
   "why": [
-   "",
+   "Enzymes like CYP3A4 break down many drugs, so inhibiting them changes drug levels.",
    "",
    "Grapefruit inhibits the enzyme, so less drug is broken down: levels go up.",
-   ""
+   "Grapefruit doesn’t denature the statin. It blocks the enzyme, so more drug gets through."
   ],
   "hint": "If the breakdown enzyme is blocked, what happens to the drug level?",
   "explain": "Compounds in grapefruit inactivate CYP3A4 in the gut wall. Less of the drug is broken down on the way in, so more reaches the blood, raising the risk of side effects such as muscle damage.",
@@ -8324,6 +8408,12 @@
    "Enzyme activity changes with temperature and pH, so they must be kept constant to compare results"
   ],
   "answer": "Enzyme activity changes with temperature and pH, so they must be kept constant to compare results",
+  "why": [
+   "Enzymes work at many temperatures, just at different rates.",
+   "Temperature strongly affects enzyme rate.",
+   "Buffers keep pH steady so enzymes stay active. They don’t denature them.",
+   ""
+  ],
   "hint": "Which conditions change an enzyme’s rate?",
   "explain": "Rate depends on temperature, pH and substrate. With substrate in excess and temperature and pH fixed, the rate is proportional to how much enzyme is in the sample.",
   "origin": "original",
@@ -8352,8 +8442,8 @@
   ],
   "answer": "Skeletal muscle breakdown (rhabdomyolysis), not heart damage",
   "why": [
-   "",
-   "",
+   "Liver damage raises ALT and AST, not CK.",
+   "Pancreatitis raises amylase and lipase, not CK.",
    "",
    "Troponin is normal, so the heart is not the source."
   ],
@@ -8385,10 +8475,10 @@
   ],
   "answer": "The liver",
   "why": [
-   "",
+   "Salivary gland damage would raise amylase only.",
    "CK is normal. ALT and AST are concentrated in liver cells.",
    "",
-   ""
+   "Pancreatic damage would raise amylase and lipase, not ALT and AST."
   ],
   "hint": "ALT and AST: think liver.",
   "explain": "ALT and AST are aminotransferases concentrated in liver cells. Hepatitis, heavy alcohol use or an acetaminophen overdose releases them into the blood.",
@@ -8417,6 +8507,12 @@
    "Damaged heart-muscle cells leaked their enzymes into the blood"
   ],
   "answer": "Damaged heart-muscle cells leaked their enzymes into the blood",
+  "why": [
+   "Denatured enzymes would be inactive and wouldn’t show up as higher activity.",
+   "The liver doesn’t release CK and LDH to dissolve clots. They came from the damaged heart muscle.",
+   "Damaged cells leak enzymes they already contain; they don’t make extra.",
+   ""
+  ],
   "hint": "Where do these enzymes normally live?",
   "explain": "CK and LDH work inside cells. High activity in plasma means cell membranes broke open. (Troponin, the main heart test today, is a muscle protein, not an enzyme.)",
   "origin": "original",
@@ -8445,10 +8541,10 @@
   ],
   "answer": "Then the rate depends only on how much enzyme is present",
   "why": [
-   "",
+   "More substrate doesn’t change the energy released. It keeps every active site busy.",
    "",
    "Substrate doesn’t denature enzymes.",
-   ""
+   "A substrate is what the enzyme acts on, not a helper like a cofactor."
   ],
   "hint": "Rate vs enzyme concentration with excess substrate is a straight line.",
   "explain": "With every active site saturated, the rate is at its maximum for that amount of enzyme. Doubling the enzyme doubles the rate, so the rate measures the enzyme level.",
@@ -8477,6 +8573,12 @@
    "A heart attack"
   ],
   "answer": "Acute pancreatitis",
+  "why": [
+   "",
+   "Vitamin C deficiency affects collagen, not pancreatic enzymes.",
+   "Lactose intolerance is a missing gut enzyme. It doesn’t raise blood enzymes.",
+   "A heart attack raises CK, LDH and troponin, not lipase and amylase."
+  ],
   "hint": "Which organ makes lipase?",
   "explain": "The pancreas makes lipase and amylase. When it is inflamed, they leak into the blood. In pancreatitis, trypsin can also activate too early and digest the pancreas itself.",
   "origin": "original",
@@ -8505,8 +8607,8 @@
   ],
   "answer": "Normal bone growth: bone-building cells release ALP",
   "why": [
-   "",
-   "",
+   "A heart attack raises CK and troponin, not ALP.",
+   "Vitamin K deficiency affects clotting, not ALP.",
    "",
    "ALT and AST are normal, so the liver is fine."
   ],
@@ -8538,10 +8640,10 @@
   ],
   "answer": "Hydrolase that cuts peptide bonds",
   "why": [
-   "",
+   "Vitamins are small molecules. PSA is a protein enzyme.",
    "",
    "Proteases break peptide bonds with water.",
-   ""
+   "PSA is a protein, not a lipid."
   ],
   "hint": "-ase that acts on protein.",
   "explain": "PSA cuts proteins in semen. Higher blood levels can come from prostate enlargement, inflammation or cancer, so it is followed up with other tests.",
@@ -8572,8 +8674,8 @@
   "answer": "Inflamed salivary glands release salivary amylase, but they don’t make lipase",
   "why": [
    "",
-   "",
-   "",
+   "Lipase is a different enzyme, and a denatured sample would affect results unpredictably, not just lipase.",
+   "They are different enzymes: amylase digests starch and lipase digests fats.",
    "Pancreatic damage would raise lipase too."
   ],
   "hint": "Which of the two enzymes do salivary glands make?",
@@ -8606,8 +8708,8 @@
   "why": [
    "FAD is made from riboflavin (B2). Thiamine becomes thiamine pyrophosphate.",
    "",
-   "",
-   ""
+   "Coenzyme A comes from pantothenic acid (B5).",
+   "NAD<sup style=\"font-size:10.3168px;line-height:15.991px\">+</sup> comes from niacin (B3), not thiamine."
   ],
   "hint": "The coenzyme name hides the vitamin name: thiamine → thiamine ___.",
   "explain": "Thiamine (B1) is made into thiamine pyrophosphate (TPP), the coenzyme for enzymes that remove CO<sub style=\"font-size:11.3152px;line-height:17.5386px\">2</sub> from pyruvate (decarboxylation). The brain depends on these energy-producing reactions, so a B1 deficiency (beriberi; in heavy drinkers, Wernicke encephalopathy) causes confusion and unsteadiness.",
@@ -8636,6 +8738,12 @@
    "Tyrosine is a competitive inhibitor of melanin"
   ],
   "answer": "The first enzyme is missing, so tyrosine can’t be converted",
+  "why": [
+   "Melanin is made in the body, not taken in as a vitamin.",
+   "",
+   "Extra tyrosine doesn’t denature proteins. It just can’t be converted.",
+   "Tyrosine is the substrate, not an inhibitor."
+  ],
   "hint": "What happens to a pathway when its first enzyme is missing?",
   "explain": "An enzyme pathway stops at the missing enzyme: without tyrosinase, tyrosine is not turned into melanin, so skin, hair and eyes lack pigment and sun protection is important.",
   "origin": "original",
@@ -8666,8 +8774,8 @@
   "why": [
    "Ethanol is converted normally; the second step is slow.",
    "",
-   "",
-   ""
+   "Glucose isn’t part of the alcohol breakdown pathway.",
+   "Lactose is milk sugar, not part of alcohol breakdown."
   ],
   "hint": "Which molecule does aldehyde dehydrogenase remove?",
   "explain": "Ethanol → acetaldehyde → acetate. A slow second enzyme lets acetaldehyde accumulate, causing flushing and nausea (the same effect disulfiram causes on purpose).",
@@ -8697,9 +8805,9 @@
   ],
   "answer": "Vitamin B12 (cobalamin)",
   "why": [
+   "Vitamin C absorption doesn’t need intrinsic factor.",
    "",
-   "",
-   "",
+   "Vitamin K absorption doesn’t need intrinsic factor.",
    "Folate deficiency causes anemia too, but intrinsic factor and nerve damage point to B12."
   ],
   "hint": "Intrinsic factor + nerve damage.",
@@ -8731,8 +8839,8 @@
   "answer": "Vitamin A is fat-soluble and is stored, so it can build up to toxic levels",
   "why": [
    "Vitamin A is one of the fat-soluble four (A, D, E, K).",
-   "",
-   "",
+   "Fat-soluble vitamins like A are stored, not flushed out.",
+   "Vitamin C is water-soluble; extra is excreted in urine.",
    ""
   ],
   "hint": "ADEK are stored.",
@@ -8762,6 +8870,12 @@
    "Aspartame inhibits lactase"
   ],
   "answer": "Aspartame contains phenylalanine, which they can’t break down and which damages the brain",
+  "why": [
+   "Aspartame is a sweetener, not a vitamin.",
+   "",
+   "Aspartame doesn’t denature insulin. Its phenylalanine is the danger.",
+   "Aspartame doesn’t inhibit lactase. The problem is the phenylalanine it contains."
+  ],
   "hint": "What is aspartame made from?",
   "explain": "Without the enzyme, phenylalanine builds up and harms brain development. A low-phenylalanine diet started early prevents this, which is why diet sodas carry a “Phenylketonurics: contains phenylalanine” warning.",
   "origin": "original",
@@ -8789,6 +8903,12 @@
    "Collagen can’t be made"
   ],
   "answer": "A lipid (ganglioside) that should be broken down builds up in nerve cells",
+  "why": [
+   "",
+   "Tay-Sachs affects nerve-cell lipids, not bone.",
+   "The missing enzyme breaks down a lipid in nerve cells, not glucose.",
+   "Collagen synthesis needs vitamin C, not this hydrolase."
+  ],
   "hint": "A missing hydrolase means its substrate…",
   "explain": "Without this hydrolase, gangliosides aren’t broken down in lysosomes and accumulate in neurons, causing progressive nerve damage.",
   "origin": "original",
@@ -8818,8 +8938,8 @@
   "answer": "It binds their –SH groups and stays bound (irreversible, noncompetitive)",
   "why": [
    "",
-   "",
-   "",
+   "Lead reaches enzymes all over the body, including the ones that make heme.",
+   "Lead slows enzymes. It isn’t a coenzyme and doesn’t speed them up.",
    "Lead binds tightly to –SH groups; it doesn’t simply compete and leave."
   ],
   "hint": "Heavy metals bind –SH groups.",
@@ -8849,6 +8969,12 @@
    "It is a heavy metal that protects the baby"
   ],
   "answer": "Its coenzyme (THF) is needed to make DNA bases for rapidly dividing cells, preventing neural-tube defects",
+  "why": [
+   "Scurvy is vitamin C deficiency.",
+   "",
+   "Folic acid is water-soluble and isn’t stored well, which is why steady intake matters.",
+   "Folic acid is a B vitamin, not a heavy metal."
+  ],
   "hint": "Which coenzyme helps build DNA bases?",
   "explain": "Tetrahydrofolate carries one-carbon groups used to make DNA bases. The neural tube closes in the first weeks of pregnancy, when cells divide very fast.",
   "origin": "original",
@@ -8877,8 +9003,8 @@
   ],
   "answer": "Lactase",
   "why": [
-   "",
-   "",
+   "Pepsin digests protein. Yogurt still has milk protein and doesn’t cause symptoms.",
+   "Amylase digests starch. Milk sugar needs lactase.",
    "",
    "Milk sugar, not milk fat, is the problem."
   ],
@@ -8909,6 +9035,12 @@
    "It makes hemoglobin from iron"
   ],
   "answer": "It makes NADPH, which protects red blood cells from oxidative damage",
+  "why": [
+   "G6PD isn’t a digestive enzyme. Fava beans cause oxidative stress that red cells can’t handle without NADPH.",
+   "G6PD makes NADPH. It doesn’t add CO<sub style=\"font-size:11.3152px;line-height:17.5386px\">2</sub> to hemoglobin.",
+   "",
+   "Hemoglobin isn’t made by G6PD."
+  ],
   "hint": "Which reduced coenzyme fights oxidation?",
   "explain": "G6PD is the first enzyme of the pentose phosphate pathway, which makes NADPH. Without it, oxidizing triggers (fava beans, some sulfa drugs and antimalarials) break red cells apart (hemolysis).",
   "origin": "original",
@@ -8936,6 +9068,12 @@
    "Table sugar (sucrose)"
   ],
   "answer": "Breast milk and regular formula (lactose = glucose + galactose)",
+  "why": [
+   "Starch is all glucose, with no galactose.",
+   "",
+   "Fructose isn’t galactose. Fruit doesn’t need to be removed.",
+   "Sucrose is glucose + fructose, with no galactose."
+  ],
   "hint": "Which disaccharide contains galactose?",
   "explain": "Lactose is hydrolyzed into glucose and galactose. Without the galactose-processing enzyme, galactose builds up and damages the liver, brain and eyes, so soy or special formulas are used.",
   "origin": "original",
