@@ -146,12 +146,16 @@ async function mirrorFamily(page, ctx, cfg) {
         }
         let prompt = parts.join('');
         if (q.kind === 'input' && q.note) prompt += '<p style="font-size:0.9em;color:#5b5670">' + fx(q.note) + '</p>';
-        let choices, answer, typed = [];
+        let choices, answer, whys, typed = [];
         if (q.kind === 'choice') {
           const btns = [...document.querySelectorAll(cfg.choiceSel)];
           if (btns.length !== q.choices.length) { why['choice buttons not found'] = (why['choice buttons not found'] || 0) + 1; continue; }
           choices = btns.map(b => { const c = b.cloneNode(true); for (const d of cfg.choiceDrop || []) c.querySelectorAll(d).forEach(x => x.remove()); b.parentElement.appendChild(c); c.hidden = false; const h = window.__inline(c); c.remove(); return h; });
           answer = choices[q.choices.findIndex(c => c.ok)];
+          // each wrong choice's own "why" from the game (shown when a student picks it); '' for the right answer
+          const fb = document.getElementById(cfg.explainHost || 'feedback');
+          whys = q.choices.map(c => c.ok || !c.why ? '' : window.__inlineHTML(fx(c.why), fb));
+          if (!whys.some(Boolean)) whys = undefined;
         }
         // ---- grade with the game's own checker ----
         let ok = false;
@@ -190,7 +194,7 @@ async function mirrorFamily(page, ctx, cfg) {
           let a = strip(q.answer); const unit = q.unit ? strip(q.unit) : '';
           if (unit && a.endsWith(unit) && /^-?\d+(\.\d+)?$/.test(a.slice(0, -unit.length).trim())) a = a.slice(0, -unit.length).trim();   // "16%" with unit % -> 16
           out.push({ kind: /^-?\d+(\.\d+)?$/.test(a) ? 'number' : 'text', topic: q.topic, tag: q.tag || '', prompt, answer: a, accept: typed, unit: q.unit ? strip(q.unit) : undefined, hint, explain, ok });
-        } else out.push({ kind: 'mc', topic: q.topic, tag: q.tag || '', prompt, choices, answer, hint, explain, ok });
+        } else out.push({ kind: 'mc', topic: q.topic, tag: q.tag || '', prompt, choices, answer, why: whys, hint, explain, ok });
       }
       return { out, why };
     }, { t: { key: t.key, want: t.want, tries: t.tries }, cfg: { ...cfg, topics: undefined, skip: cfg.skip && String(cfg.skip), prep: cfg.prep && String(cfg.prep), variants: cfg.variants && String(cfg.variants) } });
@@ -199,7 +203,7 @@ async function mirrorFamily(page, ctx, cfg) {
       if (!r.ok) throw new Error(`${t.key}: game checker rejected its own answer for ${r.prompt.replace(/<[^>]+>/g, '').slice(0, 100)}`);
       const it = {
         skill: `${cfg.game}.${t.slug || t.key}`, courses: ['3B'], chapters: null, type: r.kind, prompt: r.prompt,
-        choices: r.choices, answer: r.answer, hint: r.hint || undefined, explain: r.explain || undefined,
+        choices: r.choices, answer: r.answer, why: r.why, hint: r.hint || undefined, explain: r.explain || undefined,
         origin: 'original', from: { game: cfg.game, list: `sample:${t.key}`, index },
       };
       if (r.kind === 'text') { it.caseSensitive = false; if (r.accept && r.accept.length) it.accept = [...new Set(r.accept)]; }
