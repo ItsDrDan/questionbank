@@ -76,8 +76,19 @@
     if (!/^\d*\.?\d*$/.test(m) || !/\d/.test(m)) return 0;
     var hasPoint = m.indexOf('.') >= 0, digits = m.replace('.', '').replace(/^0+/, '');
     if (!hasPoint) digits = digits.replace(/0+$/, '');
-    return digits.length || 1;
+    return digits.length || (hasPoint ? Math.max(1, (m.split('.')[1] || '').length) : 1);  // 0.000 = 3 sig figs
   }
+  // Right value but wrong sig figs (games show this as a yellow 'fix your sig figs' notice and still count it).
+  function sfOnly(q, response) {
+    if (!q || q.type !== 'number' || !q.sigfigs) return false;
+    var r = String(response == null ? '' : response).trim(), x = parseFloat(r.replace(/[×x]\s*10\^?/i, 'e').replace(/\s/g, '')), a = parseFloat(q.answer);
+    if (!isFinite(x) || !isFinite(a) || a === 0) return false;
+    var got = sigFigs(r); if (!got || got === q.sigfigs) return false;
+    if (Math.abs(x - a) / Math.abs(a) > (q.tolerance || 0.01)) return false;
+    var m = Math.min(got, q.sigfigs); return Number(x.toPrecision(m)) === Number(a.toPrecision(m));
+  }
+  // Why a given wrong choice is wrong (q.why is parallel to q.choices; '' for the right answer).
+  function why(q, choice) { if (!q || !q.why || !q.choices) return ''; var i = q.choices.indexOf(choice); return i >= 0 ? (q.why[i] || '') : ''; }
 
-  window.QB = { get: get, check: check, sigFigs: sigFigs, data: function (name) { return fetchJSON('data/' + name + '.json'); }, skills: function () { return fetchJSON('skills.json'); }, index: function () { return fetchJSON('index.json'); }, base: BASE };
+  window.QB = { get: get, check: check, sigFigs: sigFigs, sfOnly: sfOnly, why: why, data: function (name) { return fetchJSON('data/' + name + '.json'); }, skills: function () { return fetchJSON('skills.json'); }, index: function () { return fetchJSON('index.json'); }, base: BASE };
 })();

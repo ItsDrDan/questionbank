@@ -161,7 +161,8 @@ function mcFromArray(a, hasTitle) {
           made: q.src || 'original', exam: course === '3B' ? (MID.includes(q.t) ? 'midterm' : 'final') : 'final',
           type: drawn ? 'finalboss-mc' : 'mc', difficulty: q.d, calc: !!q.k,
           prompt: plain(q.q), choices: q.c.map(plain), answer: plain(q.c[0]), hint: plain(q.h), explain: plain(q.w),
-          html: { prompt: q.q, choices: q.c, hint: q.h, explain: q.w },
+          why: q.x ? q.x.map(plain) : undefined,
+          html: { prompt: q.q, choices: q.c, hint: q.h, explain: q.w, why: q.x },
           data: drawn ? { s: q.s, cs: q.cs, f: q.f } : undefined });
       }).filter(Boolean));
     }

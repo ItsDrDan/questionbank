@@ -37,6 +37,7 @@ Chapter ids match the study hub's course map (`games/data/hub.js`).
 }
 ```
 
+- `why` (optional, `mc` only): one short reason per choice, in the same order as `choices` (`""` for the right answer). Games show it when a student picks that wrong choice and in a "Why the other choices are wrong" list. `QB.why(q, choice)` returns it.
 - `type`: `mc`, `number` (optional `unit`, `tolerance`), `text` (optional `accept` list). Any game can show these.
   Game-specific types (`oxidation-chart`, `redox-balance`, `redox-identify`, `quantum-orbital`, …) carry their raw `data`
   and are shown by the game that owns them, or by a game that learns that type.
