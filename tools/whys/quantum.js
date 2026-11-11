@@ -51,10 +51,42 @@ const HAND = {
 };
 function handFor(p) { const k = Object.keys(HAND).find(k => p.startsWith(k)); return k && HAND[k]; }
 
+
+// ---- general rules for the game-only (publisher-style) items
+const PERIOD = z => z <= 2 ? 1 : z <= 10 ? 2 : z <= 18 ? 3 : z <= 36 ? 4 : z <= 54 ? 5 : z <= 86 ? 6 : 7;
+const GROUP = z => { const st = [0, 2, 10, 18, 36, 54, 86][PERIOD(z) - 1], k = z - st; if (z === 1) return 1; if (z === 2) return 18; if (PERIOD(z) <= 3) return k <= 2 ? k : k + 10; if (PERIOD(z) <= 5) return k; if (k <= 2) return k; if (k >= 17) return k - 14; return 3; };
+const where = s => { const z = Z(s); return z ? `${s} is in period ${PERIOD(z)}, group ${GROUP(z)}` : ''; };
+const TREND = { radius: 'Atomic radius grows down a group and toward the left of a period.', ionization: 'Ionization energy grows up a group and toward the right of a period (watch the Be/B, N/O type exceptions).', electronegativity: 'Electronegativity grows up a group and toward the right (F is highest).', metallic: 'Metallic character grows down a group and toward the left.', affinity: 'Electron affinity is generally most exothermic toward the upper right (halogens), with exceptions for filled or half-filled subshells.', zeff: 'Effective nuclear charge on the valence electrons grows across a period.' };
+const trendKey = p => /radius|radii/.test(p) ? 'radius' : /ionization/.test(p) ? 'ionization' : /electronegativ/.test(p) ? 'electronegativity' : /metallic/.test(p) ? 'metallic' : /affinity/.test(p) ? 'affinity' : /nuclear charge/.test(p) ? 'zeff' : '';
+function generalQuantum(p, ex, ans, ch, one) {
+  let m, tk = trendKey(p);
+  if (tk && /^Which (element|atom) has the (most|least|highest|lowest|largest|smallest|greatest)/.test(p) && ch.every(c => Z(c))) return one(c => `${where(c)}; ${where(ans)}. ${TREND[tk]}`);
+  if (tk && /^Arrange in order of (decreasing|increasing)/.test(p)) { const dir = p.match(/order of (\w+)/)[1], A = ans.split(/ [<>] /);
+    return one(c => { const C = c.split(/ [<>] /); if (C.slice().reverse().join() === A.join()) return `That is the reverse order. The question asks for ${dir} ${tk === 'zeff' ? 'effective nuclear charge' : tk}.`;
+      const i = C.findIndex((x, k) => x !== A[k]); return i >= 0 ? `${C[i]} and ${C[i + 1]} are out of order. ${TREND[tk] || ''}` : ''; }); }
+  if ((m = p.match(/configuration of (?:a ground-state )?([A-Z][a-z]?)([¹²³⁴⁵]?)([⁺⁻]?)(?: atom| ion)?\?/)) && Z(m[1]) && !/valence/.test(p)) { const q = m[3] ? (+(SUPD[m[2]] || 1)) * (m[3] === '⁺' ? 1 : -1) : 0, e = Z(m[1]) - q, sp = m[1] + m[2] + m[3];
+    return one(c => { const n = count(plain(c)); if (n !== e) return `That configuration has ${n} electrons; ${sp} has ${e}.`;
+      if (q > 0 && /4s|5s|6s/.test(c) && /d/.test(c)) return 'Right electron count, but ions lose their highest-n (outer s) electrons before d electrons.';
+      if (/^(Cr|Cu|Mo|Ag|Au)$/.test(m[1]) && q === 0) return `Right electron count, but ${m[1]} is an exception: one s electron moves into d to give a ${/Cr|Mo/.test(m[1]) ? 'half-filled' : 'filled'} d subshell.`;
+      return 'Right electron count, but fill subshells in Aufbau order (for example 4s before 3d) and don’t skip any.'; }); }
+  if ((m = p.match(/valence-electron configuration of a ground-state ([A-Z][a-z]?) atom/))) { const g = GROUP(Z(m[1])), v = g > 12 ? g - 10 : g, per = PERIOD(Z(m[1]));
+    return one(c => { const n = count(plain(c).replace(/\[\w+\]/, '')); if (g > 2 && g < 13) return `${m[1]} is a transition metal in period ${per}: its valence electrons are the ${per}s and ${per - 1}d electrons.`;
+      return n !== v ? `That shows ${n} valence electron${n === 1 ? '' : 's'}; ${m[1]} (group ${g}) has ${v}.` : `Right number, but the valence shell of ${m[1]} is n = ${per}.`; }); }
+  const eOf = t => { const x = plain(t).match(/^([A-Z][a-z]?)\s*([0-9]*)\s*([⁺⁻+−-]?)$/) || t.match(/^([A-Z][a-z]?)([¹²³⁴⁵]?)([⁺⁻]?)$/); if (!x || !Z(x[1])) return null; const n = x[2] ? +(SUPD[x[2]] || x[2]) : 1; return Z(x[1]) - (x[3] ? (/[⁺+]/.test(x[3]) ? n : -n) : 0); };
+  if ((m = p.match(/Which species has the ground-state configuration (.+)\?/))) { const n = count(plain(m[1])); return one(c => { const e = eOf(c); return e != null ? `${c} has ${e} electrons; this configuration has ${n}.` : ''; }); }
+  if ((m = p.match(/isoelectronic with \S+ \(has (\d+) electrons\)/))) return one(c => { const e = eOf(c); return e != null ? `${c} has ${e} electrons, not ${m[1]}.` : ''; });
+  if (/Which ion does NOT have a noble-gas electron configuration/.test(p)) return one(c => { const e = eOf(c); return e != null ? `${c} has ${e} electrons, the same as a noble gas.` : ''; });  if (/hydrogen-atom transition represents (emission|absorption)/.test(p)) { const em = /emission/.test(p);
+    return one(c => { const x = c.match(/n\s*=\s*(\d+)\s*→\s*n\s*=\s*(\d+)/); if (!x) return ''; const down = +x[1] > +x[2];
+      if (down !== em) return `${c} goes ${down ? 'down' : 'up'}, so it ${down ? 'emits' : 'absorbs'} light. The question asks about ${em ? 'emission' : 'absorption'}.`;
+      return 'Compare the energy gaps: levels get closer together as n increases, so gaps to n = 1 are biggest. Bigger gap = higher energy and frequency, shorter wavelength.'; }); }
+  if (/Which equation represents the (first|second) (ionization|electron affinity)/.test(p)) return one(c => /e⁻ →/.test(c) || /\+ e⁻ →/.test(c) ? 'Adding an electron is electron affinity, not ionization.' : /\(s\)/.test(c) ? 'Ionization and electron affinity are defined for gas-phase atoms (g).' : /→ \w+⁺⁺|²⁺/.test(c) && /first/.test(p) ? 'The first ionization removes only one electron.' : 'Check which particle is on the left and how many electrons move. ' + ex);
+  if (/Which set of quantum numbers/.test(p) || /Each set is supposed to describe an orbital/.test(p)) return one(c => 'Check each rule: n ≥ 1, ℓ from 0 to n − 1, mℓ from −ℓ to +ℓ, ms = +½ or −½. Then match ℓ to the subshell letter (0 = s, 1 = p, 2 = d, 3 = f). ' + ex);
+}
+
 module.exports = function quantumWhy(item) {
   if (!item.choices || !item.choices.length) return;
   const p = plainKeep(item.prompt), ex = plainKeep(item.explain), ans = plainKeep(item.answer), ch = item.choices.map(plainKeep);
-  const cap = t => t ? t.charAt(0).toUpperCase() + t.slice(1) : '', one = f => ch.map(c => c === ans ? '' : cap(f(c) || ''));
+  const cap = t => t && /^[a-z]/.test(t) ? t.charAt(0).toUpperCase() + t.slice(1) : (t || ''), one = f => ch.map(c => c === ans ? '' : cap(f(c) || ''));
   const h = handFor(p); if (h) return one(c => h[c]);
   let m;
   if (/Which photon has the greatest energy/.test(p)) return one(c => `Longer wavelength means lower energy (E = hc/λ). ${ans} is the shortest wavelength here.`);
@@ -104,5 +136,6 @@ module.exports = function quantumWhy(item) {
   if (/standing-wave pattern/.test(p)) return one(c => 'A string with N loops has N − 1 internal nodes (the points that never move between loops). Count the loops.');
   if (/What type of interference occurs/.test(p)) return one(c => /different frequencies/.test(c) ? 'The two waves are drawn with the same wavelength, so they have the same frequency.' : /No superposition/.test(c) ? 'Overlapping waves always add (superpose).' : /Destructive/.test(c) ? 'Destructive interference needs crests lined up with troughs (opposite phase).' : 'Constructive interference needs crests lined up with crests (same phase).');
   if (/Which transition in hydrogen emits a photon/.test(p)) return one(c => 'That goes up to a higher n, which absorbs energy. Emission is a downward transition (higher n → lower n).');
+  { const g = generalQuantum(p, ex, ans, ch, one); if (g) return g; }
   if (/emission transition produces the longest wavelength/.test(p)) return one(c => /^I →/.test(c) ? `${c} goes up, so it absorbs light; it isn’t an emission.` : `${c} has a bigger energy gap, so its wavelength is shorter (λ = hc/ΔE). The longest wavelength comes from the smallest downward gap.`);
 };

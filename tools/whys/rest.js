@@ -247,8 +247,10 @@ function rule(item) {
   // gas laws
   if ((m = p.match(/If the (pressure|volume|temperature|moles of gas) of a gas (increases|decreases) \(with (.+?) constant\), the (\w[\w ]*?) …/))) return one(c => c === 'stays the same' ? `${m[4].charAt(0).toUpperCase() + m[4].slice(1)} changes when ${m[1]} changes with ${m[3]} held constant. ` + ex.replace(/^Relationship: /, '') : `Check the relationship: ${ex.replace(/^Relationship: /, '').replace(/ : /g, ': ')}`);
   if (ch.every(c => LAWS[c])) return one(c => LAWS[c]);
-  if (ch.length === 2 && /Boyle|Charles|Gay-Lussac|Avogadro/.test(ex)) return one(c => `${c} goes the wrong way. ${ex}`);
-  if (/what is its identity\?/.test(p) && (m = ex.match(/Molar mass: .*?= ([\d.]+) g\/mol/))) return one(c => { const x = c.match(/\(([\d.]+)\)/); return x ? `${c.split(' (')[0].replace(/ /g, '')} has a molar mass of ${x[1]} g/mol. Your calculated molar mass is ${m[1]} g/mol (grams ÷ moles).` : ''; });
+  if (ch.length === 2 && /Boyle|Charles|Gay-Lussac|Avogadro/.test(ex)) return one(c => `That goes the wrong way. ${ex}`);
+  if (/what is its identity\?/.test(p) && !(m = ex.match(/Molar mass: .*?= ([\d.]+) g\/mol/))) { const g = p.match(/A ([\d.]+) g sample of a gas occupies ([\d.]+) L at (STP|([\d.]+) (atm|mmHg|torr|kPa) and (-?[\d.]+) °C)/);
+    if (g) { let n; if (g[3] === 'STP') n = +g[2] / 22.4; else { const P = +g[4] / ({ atm: 1, mmHg: 760, torr: 760, kPa: 101.325 })[g[5]]; n = P * +g[2] / (0.08206 * (+g[6] + 273.15)); } m = [0, (+g[1] / n).toPrecision(4)]; } }
+  if (/what is its identity\?/.test(p) && m) return one(c => { const x = c.match(/\(([\d.]+)\)/); return x ? `${c.split(' (')[0].replace(/ /g, '')} has a molar mass of ${x[1]} g/mol. Your calculated molar mass is ${m[1]} g/mol (grams ÷ moles).` : ''; });
   // metabolism leftovers
   if (/it is really two reactions\. Which two\?/.test(p)) { const A = ans.split(' and '); return one(c => c.split(' and ').filter((x, i) => x !== A[i]).map(x => PART[x] || '').join(' ')); }
   if (/Which coenzyme does this step use\?/.test(p)) return one(c => COENZ[c] ? `${COENZ[c]} ${ex.split(' Coenzyme:')[0]}` : '');
@@ -271,7 +273,7 @@ function rule(item) {
       if (mm[3] !== want || mm[6] !== have) return `That ratio uses the wrong substance. You need mol ${m[2]} on top and mol ${m[1]} on the bottom.`;
       return 'Use the coefficients from the balanced equation, not 1:1.'; }); }
   if (/limiting reactant/.test(p)) return one(c => `${c} would make more product. The limiting reactant is the one that makes the least. ` + ex.split(' Compare')[0]);
-  if (/Which ingredient limits/.test(p)) return one(c => { const x = ex.match(new RegExp('From ' + c.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ': .*? = (\\d+) waffles')); return x ? `${c} could make ${x[1]} waffles. The ingredient that makes the fewest waffles limits you.` : 'The ingredient that makes the fewest waffles limits you.'; });
+  if (/Which ingredient limits/.test(p)) return one(c => { const x = ex.match(new RegExp('From ' + c.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ': .*? = (\\d+) waffles')); const prod = (p.match(/→ \d+ ([a-z][a-z ]*?)(?= You| \.|$)/) || [, 'products'])[1]; return x ? `${c} could make ${x[1]} ${prod}. The ingredient that makes the fewest ${prod} limits you.` : `Divide what you have of each ingredient by what the recipe needs. ${c} isn’t the one that runs out first; the ingredient that makes the fewest ${prod} limits you.`; });
   // polyatomic charges
   if ((m = p.match(/charge on the (.+?) ion/))) { const r = CHG[ans]; return one(c => CHG[c] == null ? '' : Math.sign(CHG[c]) !== Math.sign(r) ? (r > 0 ? `${m[1]} is one of the few positive polyatomic ions (with ammonium and hydronium).` : 'Almost all polyatomic ions are negative. The positive ones are ammonium, hydronium and mercury(I).') : `${m[1].charAt(0).toUpperCase() + m[1].slice(1)} has a ${ans} charge, not ${c}. Check the Green Sheet.`); }
   // intro organic

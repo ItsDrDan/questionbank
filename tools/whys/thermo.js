@@ -65,6 +65,9 @@ module.exports = function thermoWhy(item) {
     : `${c} has a much smaller specific heat than water, so it needs less heat for the same ΔT.`);
   if (ch.some(c => /^q[vp] = /.test(c))) return one(c => /ΔH/.test(c) ? 'q = ΔH only at constant pressure. In a rigid bomb the volume is constant.' : /= 0/.test(c) ? 'Heat still flows in a bomb calorimeter. It is the work that is zero, since ΔV = 0.' : /ΔU/.test(c) ? 'qv = ΔU needs constant volume, which isn’t the case here.' : '');
 
+  if (ch.every(c => /=/.test(c)) && /Rearrangement|Equation|equation/.test(p)) return one(c => /nΔH/.test(c) && !/nΔH/.test(ans) ? 'q = nΔH is for a phase change at constant temperature. This step changes temperature, so start from q = mcΔT.'
+    : /mcΔT|q\s*\/|cΔT/.test(c) && /nΔH/.test(ans) ? 'q = mcΔT is for a temperature change. This step is a phase change at constant temperature, so use q = nΔH.'
+    : `That isn’t equal to ${ans}. Start from q = mcΔT with ΔT = Tf − Ti, then undo one operation at a time to get the unknown by itself.`);
   if (ch.every(c => /^(Absorbs|Releases) heat/.test(c))) return one(c => /^Absorbs/.test(c) ? 'Absorbing heat means energy is a reactant (endothermic). ' + ex : 'Releasing heat means energy is a product (exothermic). ' + ex);
   if (ch.every(c => /^(Positive|Negative)$/.test(c))) return one(c => c === 'Positive' ? 'q is positive only when heat flows into the system (endothermic). ' + ex : 'q is negative only when heat flows out of the system (exothermic). ' + ex);
   if (ch.every(c => /^q = (mcΔT|nΔH)$/.test(c))) return one(c => /nΔH/.test(c) ? 'q = nΔH is for a phase change, a flat plateau at constant temperature. This segment slopes, so the temperature is changing: q = mcΔT.' : 'q = mcΔT is for a temperature change, a sloped segment. This segment is flat (a phase change), so use q = nΔH.');

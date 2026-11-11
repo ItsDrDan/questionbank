@@ -11,6 +11,7 @@ const { refine } = require('./refine3b');
 const quantumWhy = require('./whys/quantum');
 const thermoWhy = require('./whys/thermo');
 const fillWhy = require('./whys/rest');
+require('./build-whys');   // refresh the browser bundle (whys.js) from tools/whys
 
 const REPOS = path.resolve(process.argv[2] || '../');
 const OUT = path.resolve(__dirname, '..');

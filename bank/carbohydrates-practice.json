@@ -1,6 +1,6 @@
 [
  {
-  "id": "carbohydrates-b512a257",
+  "id": "carbohydrates-0b6d16ba",
   "skill": "carbohydrates.classify",
   "courses": [
    "3B"
@@ -9,22 +9,20 @@
    "3B-9"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">Glucose contains 6 carbons and an aldehyde group. How is it classified?</p>",
+  "prompt": "<p class=\"prompt\">How is <b>maltose</b> classified?</p>",
   "choices": [
-   "aldohexose",
-   "aldotriose",
-   "aldopentose",
-   "ketohexose"
+   "monosaccharide",
+   "disaccharide",
+   "polysaccharide"
   ],
-  "answer": "aldohexose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldohexose: 6 carbons (hexose) and an aldehyde (–CHO) at C1, so it is an aldose.",
+  "answer": "disaccharide",
+  "hint": "Count the sugar units: one unit = mono-, two = di-, many = poly-.",
+  "explain": "Maltose is malt sugar = glucose + glucose (2 units): a <b>disaccharide</b>.",
   "origin": "original",
   "why": [
+   "A monosaccharide has 1 sugar unit. Maltose is malt sugar = glucose + glucose (2 units), so it is a disaccharide.",
    "",
-   "-triose means 3 carbons; this sugar has 6.",
-   "-pentose means 5 carbons; this sugar has 6.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1."
+   "A polysaccharide has many sugar units. Maltose is malt sugar = glucose + glucose (2 units), so it is a disaccharide."
   ],
   "from": {
    "game": "carbohydrates",
@@ -33,7 +31,7 @@
   }
  },
  {
-  "id": "carbohydrates-49e64029",
+  "id": "carbohydrates-b84dbc80",
   "skill": "carbohydrates.classify",
   "courses": [
    "3B"
@@ -42,21 +40,21 @@
    "3B-9"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 246\" width=\"140\" height=\"246\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CHO</text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"62\" x2=\"94\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"62\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"182\" x2=\"94\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"188\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"188\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"182\" x2=\"70\" y2=\"212\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"228\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
+  "prompt": "<p class=\"prompt\">An <b>aldopentose</b> has how many carbons, and what kind of carbonyl group?</p>",
   "choices": [
-   "ketotriose",
-   "ketotetrose",
-   "ketohexose",
-   "aldohexose"
+   "6 carbons, with an aldehyde (–CHO) at C1",
+   "6 carbons, with a ketone (C=O) at C2",
+   "5 carbons, with a ketone (C=O) at C2",
+   "5 carbons, with an aldehyde (–CHO) at C1"
   ],
-  "answer": "aldohexose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldohexose: 6 carbons (hexose) and an aldehyde (–CHO) at C1, so it is an aldose. This is D-mannose.",
+  "answer": "5 carbons, with an aldehyde (–CHO) at C1",
+  "hint": "Split the name: aldo/keto (carbonyl type) + tri/tetr/pent/hex (carbons) + -ose (sugar).",
+  "explain": "aldopentose = aldo + pent + ose: <b>5 carbons, with an aldehyde (–CHO) at C1</b>.",
   "origin": "original",
   "why": [
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -triose means 3 carbons; this sugar has 6.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -tetrose means 4 carbons; this sugar has 6.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1.",
+   "“pentose” means 5 carbons, not 6.",
+   "Both parts are off: “pentose” = 5 carbons, and “aldo-” puts the C=O at the end (C1).",
+   "“Aldo-” means an aldehyde: the C=O is at the end of the chain (C1).",
    ""
   ],
   "from": {
@@ -66,7 +64,7 @@
   }
  },
  {
-  "id": "carbohydrates-d16d93d6",
+  "id": "carbohydrates-024d2eca",
   "skill": "carbohydrates.classify",
   "courses": [
    "3B"
@@ -75,22 +73,20 @@
    "3B-9"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">Psicose contains 6 carbons and a ketone group. How is it classified?</p>",
+  "prompt": "<p class=\"prompt\">How is <b>glycogen</b> classified?</p>",
   "choices": [
-   "ketohexose",
-   "ketotetrose",
-   "aldopentose",
-   "aldohexose"
+   "monosaccharide",
+   "disaccharide",
+   "polysaccharide"
   ],
-  "answer": "ketohexose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "ketohexose: 6 carbons (hexose) and a ketone (C=O) at C2, so it is a ketose.",
+  "answer": "polysaccharide",
+  "hint": "Count the sugar units: one unit = mono-, two = di-, many = poly-.",
+  "explain": "Glycogen is animal storage form: many glucose units, highly branched: a <b>polysaccharide</b>.",
   "origin": "original",
   "why": [
-   "",
-   "-tetrose means 4 carbons; this sugar has 6.",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose. -pentose means 5 carbons; this sugar has 6.",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose."
+   "A monosaccharide has 1 sugar unit. Glycogen is animal storage form: many glucose units, highly branched, so it is a polysaccharide.",
+   "A disaccharide has 2 sugar units. Glycogen is animal storage form: many glucose units, highly branched, so it is a polysaccharide.",
+   ""
   ],
   "from": {
    "game": "carbohydrates",
@@ -99,7 +95,7 @@
   }
  },
  {
-  "id": "carbohydrates-54916e73",
+  "id": "carbohydrates-1e8294e4",
   "skill": "carbohydrates.classify",
   "courses": [
    "3B"
@@ -108,27 +104,124 @@
    "3B-9"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 206\" width=\"140\" height=\"206\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CHO</text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"62\" x2=\"94\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"62\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"172\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"188\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
+  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 246\" width=\"140\" height=\"246\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CHO</text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"62\" x2=\"94\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"62\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"182\" x2=\"94\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"188\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"188\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"182\" x2=\"70\" y2=\"212\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"228\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
   "choices": [
    "ketohexose",
+   "ketotetrose",
    "aldopentose",
-   "aldohexose",
-   "ketopentose"
+   "aldohexose"
   ],
-  "answer": "aldopentose",
+  "answer": "aldohexose",
   "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldopentose: 5 carbons (pentose) and an aldehyde (–CHO) at C1, so it is an aldose. This is D-lyxose.",
+  "explain": "aldohexose: 6 carbons (hexose) and an aldehyde (–CHO) at C1, so it is an aldose. This is L-mannose.",
   "origin": "original",
   "why": [
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -hexose means 6 carbons; this sugar has 5.",
-   "",
-   "-hexose means 6 carbons; this sugar has 5.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1."
+   "The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose.",
+   "“tetrose” means 4 carbons, but this sugar has 6. Count every C, including both ends. The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose.",
+   "“pentose” means 5 carbons, but this sugar has 6. Count every C, including both ends.",
+   ""
   ],
   "from": {
    "game": "carbohydrates",
    "list": "sample:classify",
    "index": 3
+  }
+ },
+ {
+  "id": "carbohydrates-30c3af93",
+  "skill": "carbohydrates.classify",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 246\" width=\"140\" height=\"246\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"54\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"59\" x2=\"97\" y2=\"59\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"65\" x2=\"97\" y2=\"65\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"70\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"107\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text><line x1=\"70\" y1=\"72\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"182\" x2=\"94\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"188\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"188\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"182\" x2=\"70\" y2=\"212\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"228\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
+  "choices": [
+   "aldohexose",
+   "ketohexose",
+   "ketopentose",
+   "ketotetrose"
+  ],
+  "answer": "ketohexose",
+  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
+  "explain": "ketohexose: 6 carbons (hexose) and a ketone (C=O) at C2, so it is a ketose. This is D-sorbose.",
+  "origin": "original",
+  "why": [
+   "The C=O is inside the chain (at C2, a ketone), so it is a ketose.",
+   "",
+   "“pentose” means 5 carbons, but this sugar has 6. Count every C, including both ends.",
+   "“tetrose” means 4 carbons, but this sugar has 6. Count every C, including both ends."
+  ],
+  "from": {
+   "game": "carbohydrates",
+   "list": "sample:classify",
+   "index": 4
+  }
+ },
+ {
+  "id": "carbohydrates-b144d709",
+  "skill": "carbohydrates.classify",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">The open-chain sugar below is glyceraldehyde. How is it classified?</p><p class=\"prompt\" style=\"font-size:1.15em;text-align:center\"><b>CHO–CHOH–CH<sub>2</sub>OH</b></p>",
+  "choices": [
+   "aldotetrose",
+   "aldotriose",
+   "ketotriose",
+   "ketohexose"
+  ],
+  "answer": "aldotriose",
+  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
+  "explain": "aldotriose: 3 carbons (triose) and an aldehyde (–CHO) at C1, so it is an aldose.",
+  "origin": "original",
+  "why": [
+   "“tetrose” means 4 carbons, but this sugar has 3. Count every C, including both ends.",
+   "",
+   "The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose.",
+   "“hexose” means 6 carbons, but this sugar has 3. Count every C, including both ends. The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose."
+  ],
+  "from": {
+   "game": "carbohydrates",
+   "list": "sample:classify",
+   "index": 5
+  }
+ },
+ {
+  "id": "carbohydrates-e490fc6d",
+  "skill": "carbohydrates.classify",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">How is <b>fructose</b> classified?</p>",
+  "choices": [
+   "monosaccharide",
+   "disaccharide",
+   "polysaccharide"
+  ],
+  "answer": "monosaccharide",
+  "hint": "Count the sugar units: one unit = mono-, two = di-, many = poly-.",
+  "explain": "Fructose is fruit sugar; a single six-carbon ketose: a <b>monosaccharide</b>.",
+  "origin": "original",
+  "why": [
+   "",
+   "A disaccharide has 2 sugar units. Fructose is fruit sugar; a single six-carbon ketose, so it is a monosaccharide.",
+   "A polysaccharide has many sugar units. Fructose is fruit sugar; a single six-carbon ketose, so it is a monosaccharide."
+  ],
+  "from": {
+   "game": "carbohydrates",
+   "list": "sample:classify",
+   "index": 6
   }
  },
  {
@@ -143,119 +236,20 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 166\" width=\"140\" height=\"166\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"54\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"59\" x2=\"97\" y2=\"59\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"65\" x2=\"97\" y2=\"65\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"70\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"107\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text><line x1=\"70\" y1=\"72\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"132\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"148\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
   "choices": [
-   "ketopentose",
    "aldotetrose",
+   "aldotriose",
    "ketotetrose",
-   "ketohexose"
+   "aldohexose"
   ],
   "answer": "ketotetrose",
   "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
   "explain": "ketotetrose: 4 carbons (tetrose) and a ketone (C=O) at C2, so it is a ketose. This is D-erythrulose.",
   "origin": "original",
   "why": [
-   "-pentose means 5 carbons; this sugar has 4.",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose.",
+   "The C=O is inside the chain (at C2, a ketone), so it is a ketose.",
+   "“triose” means 3 carbons, but this sugar has 4. Count every C, including both ends. The C=O is inside the chain (at C2, a ketone), so it is a ketose.",
    "",
-   "-hexose means 6 carbons; this sugar has 4."
-  ],
-  "from": {
-   "game": "carbohydrates",
-   "list": "sample:classify",
-   "index": 4
-  }
- },
- {
-  "id": "carbohydrates-3bc3d051",
-  "skill": "carbohydrates.classify",
-  "courses": [
-   "3B"
-  ],
-  "chapters": [
-   "3B-9"
-  ],
-  "type": "mc",
-  "prompt": "<p class=\"prompt\">Sorbose contains 6 carbons and a ketone group. How is it classified?</p>",
-  "choices": [
-   "ketotriose",
-   "aldopentose",
-   "ketohexose",
-   "aldohexose"
-  ],
-  "answer": "ketohexose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "ketohexose: 6 carbons (hexose) and a ketone (C=O) at C2, so it is a ketose.",
-  "origin": "original",
-  "why": [
-   "-triose means 3 carbons; this sugar has 6.",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose. -pentose means 5 carbons; this sugar has 6.",
-   "",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose."
-  ],
-  "from": {
-   "game": "carbohydrates",
-   "list": "sample:classify",
-   "index": 5
-  }
- },
- {
-  "id": "carbohydrates-71e4724c",
-  "skill": "carbohydrates.classify",
-  "courses": [
-   "3B"
-  ],
-  "chapters": [
-   "3B-9"
-  ],
-  "type": "mc",
-  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 166\" width=\"140\" height=\"166\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CHO</text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"62\" x2=\"94\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"62\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"132\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"148\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
-  "choices": [
-   "aldotriose",
-   "ketotetrose",
-   "aldotetrose",
-   "aldohexose"
-  ],
-  "answer": "aldotetrose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldotetrose: 4 carbons (tetrose) and an aldehyde (–CHO) at C1, so it is an aldose. This is L-threose.",
-  "origin": "original",
-  "why": [
-   "-triose means 3 carbons; this sugar has 4.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1.",
-   "",
-   "-hexose means 6 carbons; this sugar has 4."
-  ],
-  "from": {
-   "game": "carbohydrates",
-   "list": "sample:classify",
-   "index": 6
-  }
- },
- {
-  "id": "carbohydrates-88fc824d",
-  "skill": "carbohydrates.classify",
-  "courses": [
-   "3B"
-  ],
-  "chapters": [
-   "3B-9"
-  ],
-  "type": "mc",
-  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 166\" width=\"140\" height=\"166\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"54\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"59\" x2=\"97\" y2=\"59\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"65\" x2=\"97\" y2=\"65\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"70\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"107\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text><line x1=\"70\" y1=\"72\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"132\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"148\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
-  "choices": [
-   "ketotetrose",
-   "aldohexose",
-   "aldotetrose",
-   "ketotriose"
-  ],
-  "answer": "ketotetrose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "ketotetrose: 4 carbons (tetrose) and a ketone (C=O) at C2, so it is a ketose. This is L-erythrulose.",
-  "origin": "original",
-  "why": [
-   "",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose. -hexose means 6 carbons; this sugar has 4.",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose.",
-   "-triose means 3 carbons; this sugar has 4."
+   "“hexose” means 6 carbons, but this sugar has 4. Count every C, including both ends. The C=O is inside the chain (at C2, a ketone), so it is a ketose."
   ],
   "from": {
    "game": "carbohydrates",
@@ -264,7 +258,7 @@
   }
  },
  {
-  "id": "carbohydrates-7293b921",
+  "id": "carbohydrates-ed6f42a9",
   "skill": "carbohydrates.classify",
   "courses": [
    "3B"
@@ -273,390 +267,25 @@
    "3B-9"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">Altrose contains 6 carbons and an aldehyde group. How is it classified?</p>",
+  "prompt": "<p class=\"prompt\">How is <b>galactose</b> classified?</p>",
   "choices": [
-   "aldohexose",
-   "aldopentose",
-   "ketopentose",
-   "ketohexose"
+   "monosaccharide",
+   "disaccharide",
+   "polysaccharide"
   ],
-  "answer": "aldohexose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldohexose: 6 carbons (hexose) and an aldehyde (–CHO) at C1, so it is an aldose.",
+  "answer": "monosaccharide",
+  "hint": "Count the sugar units: one unit = mono-, two = di-, many = poly-.",
+  "explain": "Galactose is a single six-carbon unit (half of lactose): a <b>monosaccharide</b>.",
   "origin": "original",
   "why": [
    "",
-   "-pentose means 5 carbons; this sugar has 6.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -pentose means 5 carbons; this sugar has 6.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1."
+   "A disaccharide has 2 sugar units. Galactose is a single six-carbon unit (half of lactose), so it is a monosaccharide.",
+   "A polysaccharide has many sugar units. Galactose is a single six-carbon unit (half of lactose), so it is a monosaccharide."
   ],
   "from": {
    "game": "carbohydrates",
    "list": "sample:classify",
    "index": 8
-  }
- },
- {
-  "id": "carbohydrates-f92953aa",
-  "skill": "carbohydrates.classify",
-  "courses": [
-   "3B"
-  ],
-  "chapters": [
-   "3B-9"
-  ],
-  "type": "mc",
-  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 126\" width=\"140\" height=\"126\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"54\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"59\" x2=\"97\" y2=\"59\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"65\" x2=\"97\" y2=\"65\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"70\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"107\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text><line x1=\"70\" y1=\"72\" x2=\"70\" y2=\"92\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"108\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
-  "choices": [
-   "aldotriose",
-   "ketopentose",
-   "ketotetrose",
-   "ketotriose"
-  ],
-  "answer": "ketotriose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "ketotriose: 3 carbons (triose) and a ketone (C=O) at C2, so it is a ketose. This is 1,3-dihydroxyacetone.",
-  "origin": "original",
-  "why": [
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose.",
-   "-pentose means 5 carbons; this sugar has 3.",
-   "-tetrose means 4 carbons; this sugar has 3.",
-   ""
-  ],
-  "from": {
-   "game": "carbohydrates",
-   "list": "sample:classify",
-   "index": 9
-  }
- },
- {
-  "id": "carbohydrates-f175da54",
-  "skill": "carbohydrates.classify",
-  "courses": [
-   "3B"
-  ],
-  "chapters": [
-   "3B-9"
-  ],
-  "type": "mc",
-  "prompt": "<p class=\"prompt\">Allose contains 6 carbons and an aldehyde group. How is it classified?</p>",
-  "choices": [
-   "aldohexose",
-   "aldotetrose",
-   "ketohexose",
-   "ketotriose"
-  ],
-  "answer": "aldohexose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldohexose: 6 carbons (hexose) and an aldehyde (–CHO) at C1, so it is an aldose.",
-  "origin": "original",
-  "why": [
-   "",
-   "-tetrose means 4 carbons; this sugar has 6.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -triose means 3 carbons; this sugar has 6."
-  ],
-  "from": {
-   "game": "carbohydrates",
-   "list": "sample:classify",
-   "index": 10
-  }
- },
- {
-  "id": "carbohydrates-0d33dfbd",
-  "skill": "carbohydrates.classify",
-  "courses": [
-   "3B"
-  ],
-  "chapters": [
-   "3B-9"
-  ],
-  "type": "mc",
-  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 246\" width=\"140\" height=\"246\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CHO</text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"62\" x2=\"94\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"62\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"182\" x2=\"94\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"188\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"188\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"182\" x2=\"70\" y2=\"212\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"228\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
-  "choices": [
-   "aldohexose",
-   "ketopentose",
-   "ketohexose",
-   "aldopentose"
-  ],
-  "answer": "aldohexose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldohexose: 6 carbons (hexose) and an aldehyde (–CHO) at C1, so it is an aldose. This is D-glucose.",
-  "origin": "original",
-  "why": [
-   "",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -pentose means 5 carbons; this sugar has 6.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1.",
-   "-pentose means 5 carbons; this sugar has 6."
-  ],
-  "from": {
-   "game": "carbohydrates",
-   "list": "sample:classify",
-   "index": 11
-  }
- },
- {
-  "id": "carbohydrates-1c3c4d9c",
-  "skill": "carbohydrates.classify",
-  "courses": [
-   "3B"
-  ],
-  "chapters": [
-   "3B-9"
-  ],
-  "type": "mc",
-  "prompt": "<p class=\"prompt\">Gulose contains 6 carbons and an aldehyde group. How is it classified?</p>",
-  "choices": [
-   "ketohexose",
-   "ketotriose",
-   "aldopentose",
-   "aldohexose"
-  ],
-  "answer": "aldohexose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldohexose: 6 carbons (hexose) and an aldehyde (–CHO) at C1, so it is an aldose.",
-  "origin": "original",
-  "why": [
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -triose means 3 carbons; this sugar has 6.",
-   "-pentose means 5 carbons; this sugar has 6.",
-   ""
-  ],
-  "from": {
-   "game": "carbohydrates",
-   "list": "sample:classify",
-   "index": 12
-  }
- },
- {
-  "id": "carbohydrates-345fa6b7",
-  "skill": "carbohydrates.classify",
-  "courses": [
-   "3B"
-  ],
-  "chapters": [
-   "3B-9"
-  ],
-  "type": "mc",
-  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 206\" width=\"140\" height=\"206\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CHO</text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"62\" x2=\"94\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"62\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"172\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"188\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
-  "choices": [
-   "ketopentose",
-   "aldopentose",
-   "ketotriose",
-   "aldohexose"
-  ],
-  "answer": "aldopentose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldopentose: 5 carbons (pentose) and an aldehyde (–CHO) at C1, so it is an aldose. This is D-ribose.",
-  "origin": "original",
-  "why": [
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1.",
-   "",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -triose means 3 carbons; this sugar has 5.",
-   "-hexose means 6 carbons; this sugar has 5."
-  ],
-  "from": {
-   "game": "carbohydrates",
-   "list": "sample:classify",
-   "index": 13
-  }
- },
- {
-  "id": "carbohydrates-6e4c363f",
-  "skill": "carbohydrates.classify",
-  "courses": [
-   "3B"
-  ],
-  "chapters": [
-   "3B-9"
-  ],
-  "type": "mc",
-  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 246\" width=\"140\" height=\"246\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CHO</text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"62\" x2=\"94\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"62\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"182\" x2=\"94\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"188\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"188\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"182\" x2=\"70\" y2=\"212\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"228\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
-  "choices": [
-   "aldohexose",
-   "ketohexose",
-   "ketopentose",
-   "ketotetrose"
-  ],
-  "answer": "aldohexose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldohexose: 6 carbons (hexose) and an aldehyde (–CHO) at C1, so it is an aldose. This is D-talose.",
-  "origin": "original",
-  "why": [
-   "",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -pentose means 5 carbons; this sugar has 6.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -tetrose means 4 carbons; this sugar has 6."
-  ],
-  "from": {
-   "game": "carbohydrates",
-   "list": "sample:classify",
-   "index": 14
-  }
- },
- {
-  "id": "carbohydrates-b227af09",
-  "skill": "carbohydrates.classify",
-  "courses": [
-   "3B"
-  ],
-  "chapters": [
-   "3B-9"
-  ],
-  "type": "mc",
-  "prompt": "<p class=\"prompt\">Ribulose contains 5 carbons and a ketone group. How is it classified?</p>",
-  "choices": [
-   "ketopentose",
-   "aldopentose",
-   "ketotriose",
-   "ketotetrose"
-  ],
-  "answer": "ketopentose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "ketopentose: 5 carbons (pentose) and a ketone (C=O) at C2, so it is a ketose.",
-  "origin": "original",
-  "why": [
-   "",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose.",
-   "-triose means 3 carbons; this sugar has 5.",
-   "-tetrose means 4 carbons; this sugar has 5."
-  ],
-  "from": {
-   "game": "carbohydrates",
-   "list": "sample:classify",
-   "index": 15
-  }
- },
- {
-  "id": "carbohydrates-3c57553c",
-  "skill": "carbohydrates.classify",
-  "courses": [
-   "3B"
-  ],
-  "chapters": [
-   "3B-9"
-  ],
-  "type": "mc",
-  "prompt": "<p class=\"prompt\">Galactose contains 6 carbons and an aldehyde group. How is it classified?</p>",
-  "choices": [
-   "aldotetrose",
-   "ketohexose",
-   "aldohexose",
-   "aldotriose"
-  ],
-  "answer": "aldohexose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldohexose: 6 carbons (hexose) and an aldehyde (–CHO) at C1, so it is an aldose.",
-  "origin": "original",
-  "why": [
-   "-tetrose means 4 carbons; this sugar has 6.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1.",
-   "",
-   "-triose means 3 carbons; this sugar has 6."
-  ],
-  "from": {
-   "game": "carbohydrates",
-   "list": "sample:classify",
-   "index": 16
-  }
- },
- {
-  "id": "carbohydrates-c65a9598",
-  "skill": "carbohydrates.classify",
-  "courses": [
-   "3B"
-  ],
-  "chapters": [
-   "3B-9"
-  ],
-  "type": "mc",
-  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 126\" width=\"140\" height=\"126\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CHO</text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"62\" x2=\"94\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"62\" x2=\"70\" y2=\"92\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"108\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
-  "choices": [
-   "aldotriose",
-   "aldopentose",
-   "ketopentose",
-   "ketotriose"
-  ],
-  "answer": "aldotriose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldotriose: 3 carbons (triose) and an aldehyde (–CHO) at C1, so it is an aldose. This is L-glyceraldehyde.",
-  "origin": "original",
-  "why": [
-   "",
-   "-pentose means 5 carbons; this sugar has 3.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -pentose means 5 carbons; this sugar has 3.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1."
-  ],
-  "from": {
-   "game": "carbohydrates",
-   "list": "sample:classify",
-   "index": 17
-  }
- },
- {
-  "id": "carbohydrates-a75caade",
-  "skill": "carbohydrates.classify",
-  "courses": [
-   "3B"
-  ],
-  "chapters": [
-   "3B-9"
-  ],
-  "type": "mc",
-  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 246\" width=\"140\" height=\"246\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CHO</text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"62\" x2=\"94\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"62\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"182\" x2=\"94\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"188\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"188\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"182\" x2=\"70\" y2=\"212\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"228\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
-  "choices": [
-   "ketopentose",
-   "aldohexose",
-   "ketohexose",
-   "ketotriose"
-  ],
-  "answer": "aldohexose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldohexose: 6 carbons (hexose) and an aldehyde (–CHO) at C1, so it is an aldose. This is L-galactose.",
-  "origin": "original",
-  "why": [
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -pentose means 5 carbons; this sugar has 6.",
-   "",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -triose means 3 carbons; this sugar has 6."
-  ],
-  "from": {
-   "game": "carbohydrates",
-   "list": "sample:classify",
-   "index": 18
-  }
- },
- {
-  "id": "carbohydrates-d182743c",
-  "skill": "carbohydrates.classify",
-  "courses": [
-   "3B"
-  ],
-  "chapters": [
-   "3B-9"
-  ],
-  "type": "mc",
-  "prompt": "<p class=\"prompt\">Ribose contains 5 carbons and an aldehyde group. How is it classified?</p>",
-  "choices": [
-   "aldotetrose",
-   "aldohexose",
-   "aldopentose",
-   "ketopentose"
-  ],
-  "answer": "aldopentose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldopentose: 5 carbons (pentose) and an aldehyde (–CHO) at C1, so it is an aldose.",
-  "origin": "original",
-  "why": [
-   "-tetrose means 4 carbons; this sugar has 5.",
-   "-hexose means 6 carbons; this sugar has 5.",
-   "",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1."
-  ],
-  "from": {
-   "game": "carbohydrates",
-   "list": "sample:classify",
-   "index": 19
   }
  },
  {
@@ -671,20 +300,375 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 206\" width=\"140\" height=\"206\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"54\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"59\" x2=\"97\" y2=\"59\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"65\" x2=\"97\" y2=\"65\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"70\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"107\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text><line x1=\"70\" y1=\"72\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"172\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"188\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
   "choices": [
-   "ketohexose",
-   "aldotriose",
+   "ketopentose",
+   "aldotetrose",
    "aldopentose",
-   "ketopentose"
+   "ketohexose"
   ],
   "answer": "ketopentose",
   "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
   "explain": "ketopentose: 5 carbons (pentose) and a ketone (C=O) at C2, so it is a ketose. This is L-ribulose.",
   "origin": "original",
   "why": [
-   "-hexose means 6 carbons; this sugar has 5.",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose. -triose means 3 carbons; this sugar has 5.",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose.",
+   "",
+   "“tetrose” means 4 carbons, but this sugar has 5. Count every C, including both ends. The C=O is inside the chain (at C2, a ketone), so it is a ketose.",
+   "The C=O is inside the chain (at C2, a ketone), so it is a ketose.",
+   "“hexose” means 6 carbons, but this sugar has 5. Count every C, including both ends."
+  ],
+  "from": {
+   "game": "carbohydrates",
+   "list": "sample:classify",
+   "index": 9
+  }
+ },
+ {
+  "id": "carbohydrates-09e350e2",
+  "skill": "carbohydrates.classify",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">The open-chain sugar below is gulose. How is it classified?</p><p class=\"prompt\" style=\"font-size:1.15em;text-align:center\"><b>CHO–(CHOH)<sub>4</sub>–CH<sub>2</sub>OH</b></p>",
+  "choices": [
+   "ketotriose",
+   "ketohexose",
+   "aldohexose",
+   "aldotetrose"
+  ],
+  "answer": "aldohexose",
+  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
+  "explain": "aldohexose: 6 carbons (hexose) and an aldehyde (–CHO) at C1, so it is an aldose.",
+  "origin": "original",
+  "why": [
+   "“triose” means 3 carbons, but this sugar has 6. Count every C, including both ends. The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose.",
+   "The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose.",
+   "",
+   "“tetrose” means 4 carbons, but this sugar has 6. Count every C, including both ends."
+  ],
+  "from": {
+   "game": "carbohydrates",
+   "list": "sample:classify",
+   "index": 10
+  }
+ },
+ {
+  "id": "carbohydrates-7f961d51",
+  "skill": "carbohydrates.classify",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 166\" width=\"140\" height=\"166\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CHO</text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"62\" x2=\"94\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"62\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"132\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"148\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
+  "choices": [
+   "aldotetrose",
+   "ketotetrose",
+   "ketopentose",
+   "aldopentose"
+  ],
+  "answer": "aldotetrose",
+  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
+  "explain": "aldotetrose: 4 carbons (tetrose) and an aldehyde (–CHO) at C1, so it is an aldose. This is L-erythrose.",
+  "origin": "original",
+  "why": [
+   "",
+   "The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose.",
+   "“pentose” means 5 carbons, but this sugar has 4. Count every C, including both ends. The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose.",
+   "“pentose” means 5 carbons, but this sugar has 4. Count every C, including both ends."
+  ],
+  "from": {
+   "game": "carbohydrates",
+   "list": "sample:classify",
+   "index": 11
+  }
+ },
+ {
+  "id": "carbohydrates-71f8d422",
+  "skill": "carbohydrates.classify",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">The open-chain sugar below is threose. How is it classified?</p><p class=\"prompt\" style=\"font-size:1.15em;text-align:center\"><b>CHO–(CHOH)<sub>2</sub>–CH<sub>2</sub>OH</b></p>",
+  "choices": [
+   "aldotetrose",
+   "aldohexose",
+   "ketopentose",
+   "ketotetrose"
+  ],
+  "answer": "aldotetrose",
+  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
+  "explain": "aldotetrose: 4 carbons (tetrose) and an aldehyde (–CHO) at C1, so it is an aldose.",
+  "origin": "original",
+  "why": [
+   "",
+   "“hexose” means 6 carbons, but this sugar has 4. Count every C, including both ends.",
+   "“pentose” means 5 carbons, but this sugar has 4. Count every C, including both ends. The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose.",
+   "The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose."
+  ],
+  "from": {
+   "game": "carbohydrates",
+   "list": "sample:classify",
+   "index": 12
+  }
+ },
+ {
+  "id": "carbohydrates-4c5236ec",
+  "skill": "carbohydrates.classify",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">How is <b>lactose</b> classified?</p>",
+  "choices": [
+   "monosaccharide",
+   "disaccharide",
+   "polysaccharide"
+  ],
+  "answer": "disaccharide",
+  "hint": "Count the sugar units: one unit = mono-, two = di-, many = poly-.",
+  "explain": "Lactose is milk sugar = galactose + glucose (2 units): a <b>disaccharide</b>.",
+  "origin": "original",
+  "why": [
+   "A monosaccharide has 1 sugar unit. Lactose is milk sugar = galactose + glucose (2 units), so it is a disaccharide.",
+   "",
+   "A polysaccharide has many sugar units. Lactose is milk sugar = galactose + glucose (2 units), so it is a disaccharide."
+  ],
+  "from": {
+   "game": "carbohydrates",
+   "list": "sample:classify",
+   "index": 13
+  }
+ },
+ {
+  "id": "carbohydrates-c078f213",
+  "skill": "carbohydrates.classify",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 246\" width=\"140\" height=\"246\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"54\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"59\" x2=\"97\" y2=\"59\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"65\" x2=\"97\" y2=\"65\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"70\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"107\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text><line x1=\"70\" y1=\"72\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"182\" x2=\"94\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"188\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"188\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"182\" x2=\"70\" y2=\"212\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"228\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
+  "choices": [
+   "aldotriose",
+   "ketohexose",
+   "aldohexose",
+   "aldotetrose"
+  ],
+  "answer": "ketohexose",
+  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
+  "explain": "ketohexose: 6 carbons (hexose) and a ketone (C=O) at C2, so it is a ketose. This is L-psicose.",
+  "origin": "original",
+  "why": [
+   "“triose” means 3 carbons, but this sugar has 6. Count every C, including both ends. The C=O is inside the chain (at C2, a ketone), so it is a ketose.",
+   "",
+   "The C=O is inside the chain (at C2, a ketone), so it is a ketose.",
+   "“tetrose” means 4 carbons, but this sugar has 6. Count every C, including both ends. The C=O is inside the chain (at C2, a ketone), so it is a ketose."
+  ],
+  "from": {
+   "game": "carbohydrates",
+   "list": "sample:classify",
+   "index": 14
+  }
+ },
+ {
+  "id": "carbohydrates-77401bc7",
+  "skill": "carbohydrates.classify",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">How is <b>deoxyribose</b> classified?</p>",
+  "choices": [
+   "monosaccharide",
+   "disaccharide",
+   "polysaccharide"
+  ],
+  "answer": "monosaccharide",
+  "hint": "Count the sugar units: one unit = mono-, two = di-, many = poly-.",
+  "explain": "Deoxyribose is a single five-carbon unit found in DNA: a <b>monosaccharide</b>.",
+  "origin": "original",
+  "why": [
+   "",
+   "A disaccharide has 2 sugar units. Deoxyribose is a single five-carbon unit found in DNA, so it is a monosaccharide.",
+   "A polysaccharide has many sugar units. Deoxyribose is a single five-carbon unit found in DNA, so it is a monosaccharide."
+  ],
+  "from": {
+   "game": "carbohydrates",
+   "list": "sample:classify",
+   "index": 15
+  }
+ },
+ {
+  "id": "carbohydrates-f5f31f91",
+  "skill": "carbohydrates.classify",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">An <b>aldohexose</b> has how many carbons, and what kind of carbonyl group?</p>",
+  "choices": [
+   "5 carbons, with a ketone (C=O) at C2",
+   "6 carbons, with a ketone (C=O) at C2",
+   "5 carbons, with an aldehyde (–CHO) at C1",
+   "6 carbons, with an aldehyde (–CHO) at C1"
+  ],
+  "answer": "6 carbons, with an aldehyde (–CHO) at C1",
+  "hint": "Split the name: aldo/keto (carbonyl type) + tri/tetr/pent/hex (carbons) + -ose (sugar).",
+  "explain": "aldohexose = aldo + hex + ose: <b>6 carbons, with an aldehyde (–CHO) at C1</b>.",
+  "origin": "original",
+  "why": [
+   "Both parts are off: “hexose” = 6 carbons, and “aldo-” puts the C=O at the end (C1).",
+   "“Aldo-” means an aldehyde: the C=O is at the end of the chain (C1).",
+   "“hexose” means 6 carbons, not 5.",
    ""
+  ],
+  "from": {
+   "game": "carbohydrates",
+   "list": "sample:classify",
+   "index": 16
+  }
+ },
+ {
+  "id": "carbohydrates-7716abf6",
+  "skill": "carbohydrates.classify",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">The open-chain sugar below is arabinose. How is it classified?</p><p class=\"prompt\" style=\"font-size:1.15em;text-align:center\"><b>CHO–(CHOH)<sub>3</sub>–CH<sub>2</sub>OH</b></p>",
+  "choices": [
+   "ketotetrose",
+   "aldopentose",
+   "ketopentose",
+   "aldotetrose"
+  ],
+  "answer": "aldopentose",
+  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
+  "explain": "aldopentose: 5 carbons (pentose) and an aldehyde (–CHO) at C1, so it is an aldose.",
+  "origin": "original",
+  "why": [
+   "“tetrose” means 4 carbons, but this sugar has 5. Count every C, including both ends. The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose.",
+   "",
+   "The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose.",
+   "“tetrose” means 4 carbons, but this sugar has 5. Count every C, including both ends."
+  ],
+  "from": {
+   "game": "carbohydrates",
+   "list": "sample:classify",
+   "index": 17
+  }
+ },
+ {
+  "id": "carbohydrates-1103c357",
+  "skill": "carbohydrates.classify",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">How is <b>amylopectin (starch)</b> classified?</p>",
+  "choices": [
+   "monosaccharide",
+   "disaccharide",
+   "polysaccharide"
+  ],
+  "answer": "polysaccharide",
+  "hint": "Count the sugar units: one unit = mono-, two = di-, many = poly-.",
+  "explain": "Amylopectin (starch) is thousands of glucose units with branches: a <b>polysaccharide</b>.",
+  "origin": "original",
+  "why": [
+   "A monosaccharide has 1 sugar unit. Amylopectin (starch) is thousands of glucose units with branches, so it is a polysaccharide.",
+   "A disaccharide has 2 sugar units. Amylopectin (starch) is thousands of glucose units with branches, so it is a polysaccharide.",
+   ""
+  ],
+  "from": {
+   "game": "carbohydrates",
+   "list": "sample:classify",
+   "index": 18
+  }
+ },
+ {
+  "id": "carbohydrates-8f14a8b1",
+  "skill": "carbohydrates.classify",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">The open-chain sugar below is tagatose. How is it classified?</p><p class=\"prompt\" style=\"font-size:1.15em;text-align:center\"><b>CH<sub>2</sub>OH–CO–(CHOH)<sub>3</sub>–CH<sub>2</sub>OH</b></p>",
+  "choices": [
+   "aldotetrose",
+   "ketohexose",
+   "aldohexose",
+   "ketotriose"
+  ],
+  "answer": "ketohexose",
+  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
+  "explain": "ketohexose: 6 carbons (hexose) and a ketone (C=O) at C2, so it is a ketose.",
+  "origin": "original",
+  "why": [
+   "“tetrose” means 4 carbons, but this sugar has 6. Count every C, including both ends. The C=O is inside the chain (at C2, a ketone), so it is a ketose.",
+   "",
+   "The C=O is inside the chain (at C2, a ketone), so it is a ketose.",
+   "“triose” means 3 carbons, but this sugar has 6. Count every C, including both ends."
+  ],
+  "from": {
+   "game": "carbohydrates",
+   "list": "sample:classify",
+   "index": 19
+  }
+ },
+ {
+  "id": "carbohydrates-14a1054c",
+  "skill": "carbohydrates.classify",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">How is <b>sucrose</b> classified?</p>",
+  "choices": [
+   "monosaccharide",
+   "disaccharide",
+   "polysaccharide"
+  ],
+  "answer": "disaccharide",
+  "hint": "Count the sugar units: one unit = mono-, two = di-, many = poly-.",
+  "explain": "Sucrose is table sugar = glucose + fructose (2 units): a <b>disaccharide</b>.",
+  "origin": "original",
+  "why": [
+   "A monosaccharide has 1 sugar unit. Sucrose is table sugar = glucose + fructose (2 units), so it is a disaccharide.",
+   "",
+   "A polysaccharide has many sugar units. Sucrose is table sugar = glucose + fructose (2 units), so it is a disaccharide."
   ],
   "from": {
    "game": "carbohydrates",
@@ -693,7 +677,7 @@
   }
  },
  {
-  "id": "carbohydrates-eab31f3b",
+  "id": "carbohydrates-576f52c8",
   "skill": "carbohydrates.classify",
   "courses": [
    "3B"
@@ -702,22 +686,22 @@
    "3B-9"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 206\" width=\"140\" height=\"206\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"54\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"59\" x2=\"97\" y2=\"59\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"65\" x2=\"97\" y2=\"65\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"70\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"107\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text><line x1=\"70\" y1=\"72\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"172\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"188\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
+  "prompt": "<p class=\"prompt\">An <b>aldotetrose</b> has how many carbons, and what kind of carbonyl group?</p>",
   "choices": [
-   "ketotriose",
-   "aldopentose",
-   "ketopentose",
-   "aldohexose"
+   "5 carbons, with a ketone (C=O) at C2",
+   "4 carbons, with an aldehyde (–CHO) at C1",
+   "5 carbons, with an aldehyde (–CHO) at C1",
+   "4 carbons, with a ketone (C=O) at C2"
   ],
-  "answer": "ketopentose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "ketopentose: 5 carbons (pentose) and a ketone (C=O) at C2, so it is a ketose. This is D-ribulose.",
+  "answer": "4 carbons, with an aldehyde (–CHO) at C1",
+  "hint": "Split the name: aldo/keto (carbonyl type) + tri/tetr/pent/hex (carbons) + -ose (sugar).",
+  "explain": "aldotetrose = aldo + tetr + ose: <b>4 carbons, with an aldehyde (–CHO) at C1</b>.",
   "origin": "original",
   "why": [
-   "-triose means 3 carbons; this sugar has 5.",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose.",
+   "Both parts are off: “tetrose” = 4 carbons, and “aldo-” puts the C=O at the end (C1).",
    "",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose. -hexose means 6 carbons; this sugar has 5."
+   "“tetrose” means 4 carbons, not 5.",
+   "“Aldo-” means an aldehyde: the C=O is at the end of the chain (C1)."
   ],
   "from": {
    "game": "carbohydrates",
@@ -726,7 +710,7 @@
   }
  },
  {
-  "id": "carbohydrates-f65f1aba",
+  "id": "carbohydrates-8c4180a8",
   "skill": "carbohydrates.classify",
   "courses": [
    "3B"
@@ -735,27 +719,188 @@
    "3B-9"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 246\" width=\"140\" height=\"246\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"54\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"59\" x2=\"97\" y2=\"59\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"65\" x2=\"97\" y2=\"65\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"70\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"107\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text><line x1=\"70\" y1=\"72\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"182\" x2=\"94\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"188\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"188\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"182\" x2=\"70\" y2=\"212\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"228\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
+  "prompt": "<p class=\"prompt\">The open-chain sugar below is glucose. How is it classified?</p><p class=\"prompt\" style=\"font-size:1.15em;text-align:center\"><b>CHO–(CHOH)<sub>4</sub>–CH<sub>2</sub>OH</b></p>",
   "choices": [
+   "ketotetrose",
    "aldohexose",
-   "ketotriose",
-   "ketohexose",
-   "aldopentose"
+   "ketopentose",
+   "ketohexose"
   ],
-  "answer": "ketohexose",
+  "answer": "aldohexose",
   "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "ketohexose: 6 carbons (hexose) and a ketone (C=O) at C2, so it is a ketose. This is L-sorbose.",
+  "explain": "aldohexose: 6 carbons (hexose) and an aldehyde (–CHO) at C1, so it is an aldose.",
   "origin": "original",
   "why": [
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose.",
-   "-triose means 3 carbons; this sugar has 6.",
+   "“tetrose” means 4 carbons, but this sugar has 6. Count every C, including both ends. The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose.",
    "",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose. -pentose means 5 carbons; this sugar has 6."
+   "“pentose” means 5 carbons, but this sugar has 6. Count every C, including both ends. The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose.",
+   "The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose."
   ],
   "from": {
    "game": "carbohydrates",
    "list": "sample:classify",
    "index": 22
+  }
+ },
+ {
+  "id": "carbohydrates-f92953aa",
+  "skill": "carbohydrates.classify",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 126\" width=\"140\" height=\"126\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"54\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"59\" x2=\"97\" y2=\"59\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"65\" x2=\"97\" y2=\"65\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"70\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"107\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text><line x1=\"70\" y1=\"72\" x2=\"70\" y2=\"92\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"108\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
+  "choices": [
+   "aldopentose",
+   "ketohexose",
+   "aldotriose",
+   "ketotriose"
+  ],
+  "answer": "ketotriose",
+  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
+  "explain": "ketotriose: 3 carbons (triose) and a ketone (C=O) at C2, so it is a ketose. This is 1,3-dihydroxyacetone.",
+  "origin": "original",
+  "why": [
+   "“pentose” means 5 carbons, but this sugar has 3. Count every C, including both ends. The C=O is inside the chain (at C2, a ketone), so it is a ketose.",
+   "“hexose” means 6 carbons, but this sugar has 3. Count every C, including both ends.",
+   "The C=O is inside the chain (at C2, a ketone), so it is a ketose.",
+   ""
+  ],
+  "from": {
+   "game": "carbohydrates",
+   "list": "sample:classify",
+   "index": 23
+  }
+ },
+ {
+  "id": "carbohydrates-c5b3d9ca",
+  "skill": "carbohydrates.classify",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">How is <b>ribose</b> classified?</p>",
+  "choices": [
+   "monosaccharide",
+   "disaccharide",
+   "polysaccharide"
+  ],
+  "answer": "monosaccharide",
+  "hint": "Count the sugar units: one unit = mono-, two = di-, many = poly-.",
+  "explain": "Ribose is a single five-carbon unit found in RNA: a <b>monosaccharide</b>.",
+  "origin": "original",
+  "why": [
+   "",
+   "A disaccharide has 2 sugar units. Ribose is a single five-carbon unit found in RNA, so it is a monosaccharide.",
+   "A polysaccharide has many sugar units. Ribose is a single five-carbon unit found in RNA, so it is a monosaccharide."
+  ],
+  "from": {
+   "game": "carbohydrates",
+   "list": "sample:classify",
+   "index": 24
+  }
+ },
+ {
+  "id": "carbohydrates-fdce9f94",
+  "skill": "carbohydrates.classify",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">How is <b>amylose (starch)</b> classified?</p>",
+  "choices": [
+   "monosaccharide",
+   "disaccharide",
+   "polysaccharide"
+  ],
+  "answer": "polysaccharide",
+  "hint": "Count the sugar units: one unit = mono-, two = di-, many = poly-.",
+  "explain": "Amylose (starch) is hundreds of glucose units in an unbranched chain: a <b>polysaccharide</b>.",
+  "origin": "original",
+  "why": [
+   "A monosaccharide has 1 sugar unit. Amylose (starch) is hundreds of glucose units in an unbranched chain, so it is a polysaccharide.",
+   "A disaccharide has 2 sugar units. Amylose (starch) is hundreds of glucose units in an unbranched chain, so it is a polysaccharide.",
+   ""
+  ],
+  "from": {
+   "game": "carbohydrates",
+   "list": "sample:classify",
+   "index": 25
+  }
+ },
+ {
+  "id": "carbohydrates-b3f404ff",
+  "skill": "carbohydrates.classify",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">A <b>ketohexose</b> has how many carbons, and what kind of carbonyl group?</p>",
+  "choices": [
+   "6 carbons, with a ketone (C=O) at C2",
+   "5 carbons, with a ketone (C=O) at C2",
+   "6 carbons, with an aldehyde (–CHO) at C1",
+   "5 carbons, with an aldehyde (–CHO) at C1"
+  ],
+  "answer": "6 carbons, with a ketone (C=O) at C2",
+  "hint": "Split the name: aldo/keto (carbonyl type) + tri/tetr/pent/hex (carbons) + -ose (sugar).",
+  "explain": "ketohexose = keto + hex + ose: <b>6 carbons, with a ketone (C=O) at C2</b>.",
+  "origin": "original",
+  "why": [
+   "",
+   "“hexose” means 6 carbons, not 5.",
+   "“Keto-” means a ketone: the C=O is inside the chain (C2).",
+   "Both parts are off: “hexose” = 6 carbons, and “keto-” puts the C=O at C2."
+  ],
+  "from": {
+   "game": "carbohydrates",
+   "list": "sample:classify",
+   "index": 26
+  }
+ },
+ {
+  "id": "carbohydrates-2d2ad28e",
+  "skill": "carbohydrates.classify",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 206\" width=\"140\" height=\"206\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CHO</text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"62\" x2=\"94\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"62\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"172\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"188\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
+  "choices": [
+   "aldohexose",
+   "aldopentose",
+   "ketopentose",
+   "aldotriose"
+  ],
+  "answer": "aldopentose",
+  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
+  "explain": "aldopentose: 5 carbons (pentose) and an aldehyde (–CHO) at C1, so it is an aldose. This is D-xylose.",
+  "origin": "original",
+  "why": [
+   "“hexose” means 6 carbons, but this sugar has 5. Count every C, including both ends.",
+   "",
+   "The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose.",
+   "“triose” means 3 carbons, but this sugar has 5. Count every C, including both ends."
+  ],
+  "from": {
+   "game": "carbohydrates",
+   "list": "sample:classify",
+   "index": 27
   }
  },
  {
@@ -770,185 +915,20 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 206\" width=\"140\" height=\"206\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"54\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"59\" x2=\"97\" y2=\"59\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"65\" x2=\"97\" y2=\"65\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"70\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"107\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text><line x1=\"70\" y1=\"72\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"172\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"188\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
   "choices": [
-   "ketotriose",
-   "ketopentose",
    "aldopentose",
-   "aldotetrose"
+   "ketopentose",
+   "aldotetrose",
+   "ketotriose"
   ],
   "answer": "ketopentose",
   "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
   "explain": "ketopentose: 5 carbons (pentose) and a ketone (C=O) at C2, so it is a ketose. This is L-xylulose.",
   "origin": "original",
   "why": [
-   "-triose means 3 carbons; this sugar has 5.",
+   "The C=O is inside the chain (at C2, a ketone), so it is a ketose.",
    "",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose.",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose. -tetrose means 4 carbons; this sugar has 5."
-  ],
-  "from": {
-   "game": "carbohydrates",
-   "list": "sample:classify",
-   "index": 23
-  }
- },
- {
-  "id": "carbohydrates-6c862205",
-  "skill": "carbohydrates.classify",
-  "courses": [
-   "3B"
-  ],
-  "chapters": [
-   "3B-9"
-  ],
-  "type": "mc",
-  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 246\" width=\"140\" height=\"246\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CHO</text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"62\" x2=\"94\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"62\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"182\" x2=\"94\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"188\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"188\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"182\" x2=\"70\" y2=\"212\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"228\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
-  "choices": [
-   "ketotetrose",
-   "ketohexose",
-   "ketopentose",
-   "aldohexose"
-  ],
-  "answer": "aldohexose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldohexose: 6 carbons (hexose) and an aldehyde (–CHO) at C1, so it is an aldose. This is D-altrose.",
-  "origin": "original",
-  "why": [
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -tetrose means 4 carbons; this sugar has 6.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -pentose means 5 carbons; this sugar has 6.",
-   ""
-  ],
-  "from": {
-   "game": "carbohydrates",
-   "list": "sample:classify",
-   "index": 24
-  }
- },
- {
-  "id": "carbohydrates-6994267e",
-  "skill": "carbohydrates.classify",
-  "courses": [
-   "3B"
-  ],
-  "chapters": [
-   "3B-9"
-  ],
-  "type": "mc",
-  "prompt": "<p class=\"prompt\">Erythrulose contains 4 carbons and a ketone group. How is it classified?</p>",
-  "choices": [
-   "ketotetrose",
-   "aldotetrose",
-   "aldotriose",
-   "aldopentose"
-  ],
-  "answer": "ketotetrose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "ketotetrose: 4 carbons (tetrose) and a ketone (C=O) at C2, so it is a ketose.",
-  "origin": "original",
-  "why": [
-   "",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose.",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose. -triose means 3 carbons; this sugar has 4.",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose. -pentose means 5 carbons; this sugar has 4."
-  ],
-  "from": {
-   "game": "carbohydrates",
-   "list": "sample:classify",
-   "index": 25
-  }
- },
- {
-  "id": "carbohydrates-810707ad",
-  "skill": "carbohydrates.classify",
-  "courses": [
-   "3B"
-  ],
-  "chapters": [
-   "3B-9"
-  ],
-  "type": "mc",
-  "prompt": "<p class=\"prompt\">Mannose contains 6 carbons and an aldehyde group. How is it classified?</p>",
-  "choices": [
-   "aldotriose",
-   "ketotetrose",
-   "aldohexose",
-   "ketohexose"
-  ],
-  "answer": "aldohexose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldohexose: 6 carbons (hexose) and an aldehyde (–CHO) at C1, so it is an aldose.",
-  "origin": "original",
-  "why": [
-   "-triose means 3 carbons; this sugar has 6.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -tetrose means 4 carbons; this sugar has 6.",
-   "",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1."
-  ],
-  "from": {
-   "game": "carbohydrates",
-   "list": "sample:classify",
-   "index": 26
-  }
- },
- {
-  "id": "carbohydrates-45fd2df9",
-  "skill": "carbohydrates.classify",
-  "courses": [
-   "3B"
-  ],
-  "chapters": [
-   "3B-9"
-  ],
-  "type": "mc",
-  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 166\" width=\"140\" height=\"166\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CHO</text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"62\" x2=\"94\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"62\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"132\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"148\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
-  "choices": [
-   "ketohexose",
-   "aldotriose",
-   "aldotetrose",
-   "ketotetrose"
-  ],
-  "answer": "aldotetrose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldotetrose: 4 carbons (tetrose) and an aldehyde (–CHO) at C1, so it is an aldose. This is D-threose.",
-  "origin": "original",
-  "why": [
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -hexose means 6 carbons; this sugar has 4.",
-   "-triose means 3 carbons; this sugar has 4.",
-   "",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1."
-  ],
-  "from": {
-   "game": "carbohydrates",
-   "list": "sample:classify",
-   "index": 27
-  }
- },
- {
-  "id": "carbohydrates-e3d7fcfc",
-  "skill": "carbohydrates.classify",
-  "courses": [
-   "3B"
-  ],
-  "chapters": [
-   "3B-9"
-  ],
-  "type": "mc",
-  "prompt": "<p class=\"prompt\">Arabinose contains 5 carbons and an aldehyde group. How is it classified?</p>",
-  "choices": [
-   "aldotetrose",
-   "aldopentose",
-   "ketopentose",
-   "ketohexose"
-  ],
-  "answer": "aldopentose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldopentose: 5 carbons (pentose) and an aldehyde (–CHO) at C1, so it is an aldose.",
-  "origin": "original",
-  "why": [
-   "-tetrose means 4 carbons; this sugar has 5.",
-   "",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -hexose means 6 carbons; this sugar has 5."
+   "“tetrose” means 4 carbons, but this sugar has 5. Count every C, including both ends. The C=O is inside the chain (at C2, a ketone), so it is a ketose.",
+   "“triose” means 3 carbons, but this sugar has 5. Count every C, including both ends."
   ],
   "from": {
    "game": "carbohydrates",
@@ -957,7 +937,7 @@
   }
  },
  {
-  "id": "carbohydrates-1fd3bd08",
+  "id": "carbohydrates-5700b353",
   "skill": "carbohydrates.classify",
   "courses": [
    "3B"
@@ -966,22 +946,20 @@
    "3B-9"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">1,3-dihydroxyacetone contains 3 carbons and a ketone group. How is it classified?</p>",
+  "prompt": "<p class=\"prompt\">How is <b>cellulose</b> classified?</p>",
   "choices": [
-   "ketotriose",
-   "ketotetrose",
-   "aldotriose",
-   "aldotetrose"
+   "monosaccharide",
+   "disaccharide",
+   "polysaccharide"
   ],
-  "answer": "ketotriose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "ketotriose: 3 carbons (triose) and a ketone (C=O) at C2, so it is a ketose.",
+  "answer": "polysaccharide",
+  "hint": "Count the sugar units: one unit = mono-, two = di-, many = poly-.",
+  "explain": "Cellulose is plant cell walls: thousands of β-linked glucose units: a <b>polysaccharide</b>.",
   "origin": "original",
   "why": [
-   "",
-   "-tetrose means 4 carbons; this sugar has 3.",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose.",
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose. -tetrose means 4 carbons; this sugar has 3."
+   "A monosaccharide has 1 sugar unit. Cellulose is plant cell walls: thousands of β-linked glucose units, so it is a polysaccharide.",
+   "A disaccharide has 2 sugar units. Cellulose is plant cell walls: thousands of β-linked glucose units, so it is a polysaccharide.",
+   ""
   ],
   "from": {
    "game": "carbohydrates",
@@ -990,7 +968,7 @@
   }
  },
  {
-  "id": "carbohydrates-450b8929",
+  "id": "carbohydrates-5b0e399d",
   "skill": "carbohydrates.classify",
   "courses": [
    "3B"
@@ -999,22 +977,22 @@
    "3B-9"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 206\" width=\"140\" height=\"206\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"54\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"59\" x2=\"97\" y2=\"59\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"65\" x2=\"97\" y2=\"65\" stroke=\"#2d3f4b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"70\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"107\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text><line x1=\"70\" y1=\"72\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"172\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"188\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
+  "prompt": "<p class=\"prompt\">The open-chain sugar below is erythrose. How is it classified?</p><p class=\"prompt\" style=\"font-size:1.15em;text-align:center\"><b>CHO–(CHOH)<sub>2</sub>–CH<sub>2</sub>OH</b></p>",
   "choices": [
-   "aldopentose",
    "ketotriose",
-   "ketopentose",
-   "ketohexose"
+   "aldotetrose",
+   "aldohexose",
+   "ketotetrose"
   ],
-  "answer": "ketopentose",
+  "answer": "aldotetrose",
   "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "ketopentose: 5 carbons (pentose) and a ketone (C=O) at C2, so it is a ketose. This is D-xylulose.",
+  "explain": "aldotetrose: 4 carbons (tetrose) and an aldehyde (–CHO) at C1, so it is an aldose.",
   "origin": "original",
   "why": [
-   "An aldose has an aldehyde (–CHO) at C1. This sugar’s C=O is on C2, inside the chain, so it is a ketose.",
-   "-triose means 3 carbons; this sugar has 5.",
+   "“triose” means 3 carbons, but this sugar has 4. Count every C, including both ends. The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose.",
    "",
-   "-hexose means 6 carbons; this sugar has 5."
+   "“hexose” means 6 carbons, but this sugar has 4. Count every C, including both ends.",
+   "The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose."
   ],
   "from": {
    "game": "carbohydrates",
@@ -1023,7 +1001,7 @@
   }
  },
  {
-  "id": "carbohydrates-6b7e3a33",
+  "id": "carbohydrates-a2ccd61b",
   "skill": "carbohydrates.classify",
   "courses": [
    "3B"
@@ -1032,22 +1010,20 @@
    "3B-9"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 206\" width=\"140\" height=\"206\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CHO</text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"62\" x2=\"94\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"62\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"172\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"188\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
+  "prompt": "<p class=\"prompt\">How is <b>glucose</b> classified?</p>",
   "choices": [
-   "aldopentose",
-   "aldohexose",
-   "ketopentose",
-   "aldotetrose"
+   "monosaccharide",
+   "disaccharide",
+   "polysaccharide"
   ],
-  "answer": "aldopentose",
-  "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldopentose: 5 carbons (pentose) and an aldehyde (–CHO) at C1, so it is an aldose. This is L-ribose.",
+  "answer": "monosaccharide",
+  "hint": "Count the sugar units: one unit = mono-, two = di-, many = poly-.",
+  "explain": "Glucose is blood sugar; a single six-carbon unit: a <b>monosaccharide</b>.",
   "origin": "original",
   "why": [
    "",
-   "-hexose means 6 carbons; this sugar has 5.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1.",
-   "-tetrose means 4 carbons; this sugar has 5."
+   "A disaccharide has 2 sugar units. Glucose is blood sugar; a single six-carbon unit, so it is a monosaccharide.",
+   "A polysaccharide has many sugar units. Glucose is blood sugar; a single six-carbon unit, so it is a monosaccharide."
   ],
   "from": {
    "game": "carbohydrates",
@@ -1056,7 +1032,7 @@
   }
  },
  {
-  "id": "carbohydrates-26c83799",
+  "id": "carbohydrates-4605b463",
   "skill": "carbohydrates.classify",
   "courses": [
    "3B"
@@ -1065,22 +1041,22 @@
    "3B-9"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">Talose contains 6 carbons and an aldehyde group. How is it classified?</p>",
+  "prompt": "<p class=\"prompt\">The open-chain sugar below is talose. How is it classified?</p><p class=\"prompt\" style=\"font-size:1.15em;text-align:center\"><b>CHO–(CHOH)<sub>4</sub>–CH<sub>2</sub>OH</b></p>",
   "choices": [
-   "ketotriose",
+   "aldotriose",
+   "aldohexose",
    "ketohexose",
-   "aldopentose",
-   "aldohexose"
+   "aldopentose"
   ],
   "answer": "aldohexose",
   "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
   "explain": "aldohexose: 6 carbons (hexose) and an aldehyde (–CHO) at C1, so it is an aldose.",
   "origin": "original",
   "why": [
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -triose means 3 carbons; this sugar has 6.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1.",
-   "-pentose means 5 carbons; this sugar has 6.",
-   ""
+   "“triose” means 3 carbons, but this sugar has 6. Count every C, including both ends.",
+   "",
+   "The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose.",
+   "“pentose” means 5 carbons, but this sugar has 6. Count every C, including both ends."
   ],
   "from": {
    "game": "carbohydrates",
@@ -1089,7 +1065,7 @@
   }
  },
  {
-  "id": "carbohydrates-1bdc44db",
+  "id": "carbohydrates-2b0bf9ca",
   "skill": "carbohydrates.classify",
   "courses": [
    "3B"
@@ -1098,22 +1074,22 @@
    "3B-9"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 246\" width=\"140\" height=\"246\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CHO</text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"62\" x2=\"94\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"62\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"182\" x2=\"94\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"188\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"188\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"182\" x2=\"70\" y2=\"212\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"228\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
+  "prompt": "<p class=\"prompt\">The open-chain sugar below is ribulose. How is it classified?</p><p class=\"prompt\" style=\"font-size:1.15em;text-align:center\"><b>CH<sub>2</sub>OH–CO–(CHOH)<sub>2</sub>–CH<sub>2</sub>OH</b></p>",
   "choices": [
-   "aldohexose",
-   "ketotetrose",
-   "ketohexose",
+   "aldopentose",
+   "ketopentose",
+   "aldotetrose",
    "aldotriose"
   ],
-  "answer": "aldohexose",
+  "answer": "ketopentose",
   "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldohexose: 6 carbons (hexose) and an aldehyde (–CHO) at C1, so it is an aldose. This is L-talose.",
+  "explain": "ketopentose: 5 carbons (pentose) and a ketone (C=O) at C2, so it is a ketose.",
   "origin": "original",
   "why": [
+   "The C=O is inside the chain (at C2, a ketone), so it is a ketose.",
    "",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -tetrose means 4 carbons; this sugar has 6.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1.",
-   "-triose means 3 carbons; this sugar has 6."
+   "“tetrose” means 4 carbons, but this sugar has 5. Count every C, including both ends. The C=O is inside the chain (at C2, a ketone), so it is a ketose.",
+   "“triose” means 3 carbons, but this sugar has 5. Count every C, including both ends. The C=O is inside the chain (at C2, a ketone), so it is a ketose."
   ],
   "from": {
    "game": "carbohydrates",
@@ -1122,7 +1098,7 @@
   }
  },
  {
-  "id": "carbohydrates-6acf2f76",
+  "id": "carbohydrates-2727b415",
   "skill": "carbohydrates.classify",
   "courses": [
    "3B"
@@ -1131,22 +1107,22 @@
    "3B-9"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">Lyxose contains 5 carbons and an aldehyde group. How is it classified?</p>",
+  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 246\" width=\"140\" height=\"246\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CHO</text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"62\" x2=\"94\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"62\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"182\" x2=\"94\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"188\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"188\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"182\" x2=\"70\" y2=\"212\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"228\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
   "choices": [
-   "ketotetrose",
+   "ketohexose",
+   "aldotriose",
    "aldohexose",
-   "ketopentose",
-   "aldopentose"
+   "ketotriose"
   ],
-  "answer": "aldopentose",
+  "answer": "aldohexose",
   "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldopentose: 5 carbons (pentose) and an aldehyde (–CHO) at C1, so it is an aldose.",
+  "explain": "aldohexose: 6 carbons (hexose) and an aldehyde (–CHO) at C1, so it is an aldose. This is L-allose.",
   "origin": "original",
   "why": [
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -tetrose means 4 carbons; this sugar has 5.",
-   "-hexose means 6 carbons; this sugar has 5.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1.",
-   ""
+   "The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose.",
+   "“triose” means 3 carbons, but this sugar has 6. Count every C, including both ends.",
+   "",
+   "“triose” means 3 carbons, but this sugar has 6. Count every C, including both ends. The C=O is at the end of the chain (–CHO, an aldehyde), so it is an aldose."
   ],
   "from": {
    "game": "carbohydrates",
@@ -1155,7 +1131,7 @@
   }
  },
  {
-  "id": "carbohydrates-a10d0909",
+  "id": "carbohydrates-998bbebb",
   "skill": "carbohydrates.classify",
   "courses": [
    "3B"
@@ -1164,22 +1140,22 @@
    "3B-9"
   ],
   "type": "mc",
-  "prompt": "<p class=\"prompt\">What type of monosaccharide is shown?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"0 0 140 246\" width=\"140\" height=\"246\" role=\"img\" aria-label=\"Fischer projection\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"28\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CHO</text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"62\" x2=\"94\" y2=\"62\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"68\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"68\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"62\" x2=\"70\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"102\" x2=\"94\" y2=\"102\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"108\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"108\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"102\" x2=\"70\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"142\" x2=\"94\" y2=\"142\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"148\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">HO</text><text x=\"110\" y=\"148\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><line x1=\"70\" y1=\"142\" x2=\"70\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"182\" x2=\"94\" y2=\"182\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"30\" y=\"188\" text-anchor=\"middle\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"110\" y=\"188\" text-anchor=\"middle\" fill=\"#c0392b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">OH</text><line x1=\"70\" y1=\"182\" x2=\"70\" y2=\"212\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"64\" y=\"228\" text-anchor=\"start\" fill=\"#2d3f4b\" font-size=\"17\" font-weight=\"800\" font-family=\"Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">CH<tspan dy=\"5\" font-size=\"11\">2</tspan><tspan dy=\"-5\">OH</tspan></text></svg></div>",
+  "prompt": "<p class=\"prompt\">The open-chain sugar below is xylulose. How is it classified?</p><p class=\"prompt\" style=\"font-size:1.15em;text-align:center\"><b>CH<sub>2</sub>OH–CO–(CHOH)<sub>2</sub>–CH<sub>2</sub>OH</b></p>",
   "choices": [
-   "aldohexose",
-   "ketotriose",
    "aldotetrose",
-   "ketohexose"
+   "aldohexose",
+   "aldopentose",
+   "ketopentose"
   ],
-  "answer": "aldohexose",
+  "answer": "ketopentose",
   "hint": "Count the carbons for the size (tri-, tetr-, pent-, hex-). Look at the top: –CHO means aldo-, a C=O in the middle (at C2) means keto-.",
-  "explain": "aldohexose: 6 carbons (hexose) and an aldehyde (–CHO) at C1, so it is an aldose. This is D-galactose.",
+  "explain": "ketopentose: 5 carbons (pentose) and a ketone (C=O) at C2, so it is a ketose.",
   "origin": "original",
   "why": [
-   "",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1. -triose means 3 carbons; this sugar has 6.",
-   "-tetrose means 4 carbons; this sugar has 6.",
-   "A ketose has its C=O on C2, inside the chain. This sugar has an aldehyde (–CHO) at C1."
+   "“tetrose” means 4 carbons, but this sugar has 5. Count every C, including both ends. The C=O is inside the chain (at C2, a ketone), so it is a ketose.",
+   "“hexose” means 6 carbons, but this sugar has 5. Count every C, including both ends. The C=O is inside the chain (at C2, a ketone), so it is a ketose.",
+   "The C=O is inside the chain (at C2, a ketone), so it is a ketose.",
+   ""
   ],
   "from": {
    "game": "carbohydrates",
@@ -2320,7 +2296,7 @@
   "origin": "original",
   "why": [
    "",
-   "Β has the anomeric –OH pointing up (same side as the –CH2OH). Here it points down."
+   "β has the anomeric –OH pointing up (same side as the –CH2OH). Here it points down."
   ],
   "from": {
    "game": "carbohydrates",
@@ -2349,7 +2325,7 @@
   "origin": "original",
   "why": [
    "",
-   "Β has the anomeric –OH pointing up (same side as the –CH2OH). Here it points down."
+   "β has the anomeric –OH pointing up (same side as the –CH2OH). Here it points down."
   ],
   "from": {
    "game": "carbohydrates",
@@ -2381,7 +2357,7 @@
   "why": [
    "A pyranose is a six-membered ring (5 C + O). This ring has five atoms (a furanose). α means the anomeric –OH points down; here it points up (β).",
    "",
-   "Α means the anomeric –OH points down; here it points up (β).",
+   "α means the anomeric –OH points down; here it points up (β).",
    "Ribose has only one –CH2OH outside the ring and no extra carbon on the anomeric C. Compare the groups."
   ],
   "from": {
@@ -2410,7 +2386,7 @@
   "explain": "The anomeric –OH points up, so this is the β anomer: β-D-fructofuranose.",
   "origin": "original",
   "why": [
-   "Α has the anomeric –OH pointing down (opposite the –CH2OH). Here it points up.",
+   "α has the anomeric –OH pointing down (opposite the –CH2OH). Here it points up.",
    ""
   ],
   "from": {
@@ -2444,7 +2420,7 @@
    "A pyranose is a six-membered ring (5 C + O). This ring has five atoms (a furanose).",
    "",
    "Fructose rings carry an extra –CH2OH on the anomeric carbon (C2). This ring doesn’t.",
-   "Α means the anomeric –OH points down; here it points up (β)."
+   "α means the anomeric –OH points down; here it points up (β)."
   ],
   "from": {
    "game": "carbohydrates",
@@ -2472,7 +2448,7 @@
   "explain": "The anomeric –OH points up, so this is the β anomer: β-D-galactopyranose.",
   "origin": "original",
   "why": [
-   "Α has the anomeric –OH pointing down (opposite the –CH2OH). Here it points up.",
+   "α has the anomeric –OH pointing down (opposite the –CH2OH). Here it points up.",
    ""
   ],
   "from": {
@@ -2501,7 +2477,7 @@
   "explain": "The anomeric –OH points up, so this is the β anomer: β-D-ribofuranose.",
   "origin": "original",
   "why": [
-   "Α has the anomeric –OH pointing down (opposite the –CH2OH). Here it points up.",
+   "α has the anomeric –OH pointing down (opposite the –CH2OH). Here it points up.",
    ""
   ],
   "from": {
@@ -2532,7 +2508,7 @@
   "explain": "α-D-galactopyranose: a six-membered (pyranose) ring with the anomeric –OH down (α).",
   "origin": "original",
   "why": [
-   "Β means the anomeric –OH points up; here it points down (α).",
+   "β means the anomeric –OH points up; here it points down (α).",
    "A furanose is a five-membered ring (4 C + O). This ring has six atoms (a pyranose).",
    "",
    "Glucose has its C4 –OH pointing down in the ring. Here it points up, which is galactose."
@@ -2564,7 +2540,7 @@
   "origin": "original",
   "why": [
    "",
-   "Β has the anomeric –OH pointing up (same side as the –CH2OH). Here it points down."
+   "β has the anomeric –OH pointing up (same side as the –CH2OH). Here it points down."
   ],
   "from": {
    "game": "carbohydrates",
@@ -2594,7 +2570,7 @@
   "explain": "β-D-glucopyranose: a six-membered (pyranose) ring with the anomeric –OH up (β).",
   "origin": "original",
   "why": [
-   "Α means the anomeric –OH points down; here it points up (β).",
+   "α means the anomeric –OH points down; here it points up (β).",
    "",
    "Galactose differs from glucose at C4: its C4 –OH points up in the ring. Here it points down.",
    "A furanose is a five-membered ring (4 C + O). This ring has six atoms (a pyranose). α means the anomeric –OH points down; here it points up (β)."
@@ -2626,7 +2602,7 @@
   "origin": "original",
   "why": [
    "",
-   "Β has the anomeric –OH pointing up (same side as the –CH2OH). Here it points down."
+   "β has the anomeric –OH pointing up (same side as the –CH2OH). Here it points down."
   ],
   "from": {
    "game": "carbohydrates",
@@ -2654,7 +2630,7 @@
   "explain": "The anomeric –OH points up, so this is the β anomer: β-D-mannopyranose.",
   "origin": "original",
   "why": [
-   "Α has the anomeric –OH pointing down (opposite the –CH2OH). Here it points up.",
+   "α has the anomeric –OH pointing down (opposite the –CH2OH). Here it points up.",
    ""
   ],
   "from": {
@@ -2685,7 +2661,7 @@
   "explain": "β-D-galactopyranose: a six-membered (pyranose) ring with the anomeric –OH up (β).",
   "origin": "original",
   "why": [
-   "Α means the anomeric –OH points down; here it points up (β).",
+   "α means the anomeric –OH points down; here it points up (β).",
    "",
    "Glucose has its C4 –OH pointing down in the ring. Here it points up, which is galactose.",
    "A furanose is a five-membered ring (4 C + O). This ring has six atoms (a pyranose)."
@@ -2720,7 +2696,7 @@
   "why": [
    "A furanose is a five-membered ring (4 C + O). This ring has six atoms (a pyranose). β means the anomeric –OH points up; here it points down (α).",
    "",
-   "Β means the anomeric –OH points up; here it points down (α).",
+   "β means the anomeric –OH points up; here it points down (α).",
    "Galactose differs from glucose at C4: its C4 –OH points up in the ring. Here it points down."
   ],
   "from": {
@@ -2749,7 +2725,7 @@
   "explain": "The anomeric –OH points up, so this is the β anomer: β-D-glucopyranose.",
   "origin": "original",
   "why": [
-   "Α has the anomeric –OH pointing down (opposite the –CH2OH). Here it points up.",
+   "α has the anomeric –OH pointing down (opposite the –CH2OH). Here it points up.",
    ""
   ],
   "from": {
@@ -2779,7 +2755,7 @@
   "origin": "original",
   "why": [
    "",
-   "Β has the anomeric –OH pointing up (same side as the –CH2OH). Here it points down."
+   "β has the anomeric –OH pointing up (same side as the –CH2OH). Here it points down."
   ],
   "from": {
    "game": "carbohydrates",
@@ -2812,7 +2788,7 @@
    "A pyranose is a six-membered ring (5 C + O). This ring has five atoms (a furanose).",
    "Ribose has only one –CH2OH outside the ring and no extra carbon on the anomeric C. Compare the groups.",
    "",
-   "Β means the anomeric –OH points up; here it points down (α)."
+   "β means the anomeric –OH points up; here it points down (α)."
   ],
   "from": {
    "game": "carbohydrates",
@@ -2845,7 +2821,7 @@
    "Fructose rings carry an extra –CH2OH on the anomeric carbon (C2). This ring doesn’t.",
    "A pyranose is a six-membered ring (5 C + O). This ring has five atoms (a furanose). β means the anomeric –OH points up; here it points down (α).",
    "",
-   "Β means the anomeric –OH points up; here it points down (α)."
+   "β means the anomeric –OH points up; here it points down (α)."
   ],
   "from": {
    "game": "carbohydrates",
@@ -4166,9 +4142,9 @@
   "origin": "original",
   "why": [
    "",
-   "Β(1→4) joins C1 (anomeric –OH up) to C4 of the next ring, as in lactose, cellobiose and cellulose.",
-   "Α(1→6) joins C1 to the C6 (–CH2–) of the next unit: the branch points of amylopectin and glycogen.",
-   "Α(1→2)β joins C1 of glucose to C2 of fructose, using both anomeric carbons: that is sucrose."
+   "β(1→4) joins C1 (anomeric –OH up) to C4 of the next ring, as in lactose, cellobiose and cellulose.",
+   "α(1→6) joins C1 to the C6 (–CH2–) of the next unit: the branch points of amylopectin and glycogen.",
+   "α(1→2)β joins C1 of glucose to C2 of fructose, using both anomeric carbons: that is sucrose."
   ],
   "from": {
    "game": "carbohydrates",
@@ -4260,9 +4236,9 @@
   "explain": "Sucrose: C1 of glucose points <b>down (α)</b> and the O lands on <b>C2</b>, the anomeric carbon of a five-membered fructose ring (β), so both anomeric carbons are used, so the linkage is <b>α(1→2)β</b> (also written α,β(1→2)).<div class=\"struct fbx\"><span class=\"fbx-figs\"><span class=\"fbx-fig\"><svg class=\"fbx-fsvg\" viewBox=\"-25.4 -63.1 515.5 220.2\" width=\"516\" height=\"220\" role=\"img\" aria-label=\"Haworth projection\"><line x1=\"126.3\" y1=\"5.5\" x2=\"184.0\" y2=\"44.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"184.0\" y1=\"44.0\" x2=\"146.0\" y2=\"94.0\" stroke=\"#2d3f4b\" stroke-width=\"5.5\" stroke-linecap=\"round\"/><line x1=\"146.0\" y1=\"94.0\" x2=\"40.0\" y2=\"94.0\" stroke=\"#2d3f4b\" stroke-width=\"5.5\" stroke-linecap=\"round\"/><line x1=\"40.0\" y1=\"94.0\" x2=\"0.0\" y2=\"44.0\" stroke=\"#2d3f4b\" stroke-width=\"5.5\" stroke-linecap=\"round\"/><line x1=\"0.0\" y1=\"44.0\" x2=\"66.0\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"66.0\" y1=\"0.0\" x2=\"108.0\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"118.0\" y=\"7.8\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#c0473b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"22.1\" text-anchor=\"middle\">O</text><line x1=\"184.0\" y1=\"44.0\" x2=\"184.0\" y2=\"14.9\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"184.0\" y=\"9.0\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"middle\">H</text><line x1=\"146.0\" y1=\"94.0\" x2=\"146.0\" y2=\"71.6\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"146.0\" y=\"67.7\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"middle\">H</text><line x1=\"146.0\" y1=\"94.0\" x2=\"146.0\" y2=\"123.1\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"137.9\" y=\"143.3\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#c0473b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"start\">OH</text><line x1=\"40.0\" y1=\"94.0\" x2=\"40.0\" y2=\"71.6\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"31.9\" y=\"67.7\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#c0473b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"start\">OH</text><line x1=\"40.0\" y1=\"94.0\" x2=\"40.0\" y2=\"123.1\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"40.0\" y=\"143.3\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"middle\">H</text><line x1=\"0.0\" y1=\"44.0\" x2=\"0.0\" y2=\"14.9\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"0.0\" y=\"9.0\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"middle\">H</text><line x1=\"0.0\" y1=\"44.0\" x2=\"0.0\" y2=\"73.1\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"8.1\" y=\"93.3\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#c0473b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"end\">HO</text><line x1=\"66.0\" y1=\"0.0\" x2=\"66.0\" y2=\"-29.1\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"96.9\" y=\"-35.0\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"end\">HOCH<tspan baseline-shift=\"sub\" font-size=\"75%\">2</tspan></text><line x1=\"66.0\" y1=\"0.0\" x2=\"66.0\" y2=\"22.4\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"66.0\" y=\"40.6\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"middle\">H</text><text x=\"196.0\" y=\"48.0\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#8a96a0\" font-family=\"Inter,Helvetica,Arial,sans-serif\">1</text><text x=\"158.0\" y=\"107.0\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#8a96a0\" font-family=\"Inter,Helvetica,Arial,sans-serif\">2</text><text x=\"28.0\" y=\"107.0\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#8a96a0\" font-family=\"Inter,Helvetica,Arial,sans-serif\">3</text><text x=\"-12.0\" y=\"48.0\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#8a96a0\" font-family=\"Inter,Helvetica,Arial,sans-serif\">4</text><text x=\"54.0\" y=\"-5.0\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#8a96a0\" font-family=\"Inter,Helvetica,Arial,sans-serif\">5</text><line x1=\"333.4\" y1=\"134.9\" x2=\"260.0\" y2=\"92.0\" stroke=\"#2d3f4b\" stroke-width=\"5.5\" stroke-linecap=\"round\"/><line x1=\"260.0\" y1=\"92.0\" x2=\"292.0\" y2=\"40.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"292.0\" y1=\"40.0\" x2=\"392.0\" y2=\"40.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"392.0\" y1=\"40.0\" x2=\"426.0\" y2=\"92.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"426.0\" y1=\"92.0\" x2=\"350.7\" y2=\"135.0\" stroke=\"#2d3f4b\" stroke-width=\"5.5\" stroke-linecap=\"round\"/><text x=\"342.0\" y=\"147.8\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#c0473b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"22.1\" text-anchor=\"middle\">O</text><line x1=\"260.0\" y1=\"92.0\" x2=\"260.0\" y2=\"121.1\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"290.9\" y=\"141.3\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"end\">HOCH<tspan baseline-shift=\"sub\" font-size=\"75%\">2</tspan></text><line x1=\"292.0\" y1=\"40.0\" x2=\"292.0\" y2=\"10.9\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"300.1\" y=\"5.0\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#c0473b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"end\">HO</text><line x1=\"292.0\" y1=\"40.0\" x2=\"292.0\" y2=\"62.4\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"292.0\" y=\"80.6\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"middle\">H</text><line x1=\"392.0\" y1=\"40.0\" x2=\"392.0\" y2=\"10.9\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"392.0\" y=\"5.0\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"middle\">H</text><line x1=\"392.0\" y1=\"40.0\" x2=\"392.0\" y2=\"62.4\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"400.1\" y=\"80.6\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#c0473b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"end\">HO</text><line x1=\"426.0\" y1=\"92.0\" x2=\"426.0\" y2=\"62.9\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"418.5\" y=\"57.0\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"start\">CH<tspan baseline-shift=\"sub\" font-size=\"75%\">2</tspan>OH</text><line x1=\"426.0\" y1=\"92.0\" x2=\"426.0\" y2=\"121.1\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"426.0\" y=\"141.3\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"middle\">H</text><text x=\"248.0\" y=\"96.0\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#8a96a0\" font-family=\"Inter,Helvetica,Arial,sans-serif\">2</text><text x=\"280.0\" y=\"35.0\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#8a96a0\" font-family=\"Inter,Helvetica,Arial,sans-serif\">3</text><text x=\"404.0\" y=\"35.0\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#8a96a0\" font-family=\"Inter,Helvetica,Arial,sans-serif\">4</text><text x=\"438.0\" y=\"96.0\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#8a96a0\" font-family=\"Inter,Helvetica,Arial,sans-serif\">5</text><line x1=\"184.0\" y1=\"47.1\" x2=\"184.0\" y2=\"73.1\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"184.0\" y1=\"73.1\" x2=\"212.1\" y2=\"69.3\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"260.0\" y1=\"62.9\" x2=\"231.9\" y2=\"66.7\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"260.0\" y1=\"62.9\" x2=\"260.0\" y2=\"88.9\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"222.0\" y=\"75.8\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#c0473b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"22.1\" text-anchor=\"middle\">O</text></svg></span></span></div>",
   "origin": "original",
   "why": [
-   "Α(1→4) joins C1 (anomeric –OH down) to C4 of the next ring, as in maltose and starch. Look at which carbons the bridging O connects and which way the anomeric bond points.",
-   "Β(1→4) joins C1 (anomeric –OH up) to C4 of the next ring, as in lactose, cellobiose and cellulose. Look at which carbons the bridging O connects and which way the anomeric bond points.",
-   "Α(1→6) joins C1 to the C6 (–CH2–) of the next unit: the branch points of amylopectin and glycogen. Look at which carbons the bridging O connects and which way the anomeric bond points.",
+   "α(1→4) joins C1 (anomeric –OH down) to C4 of the next ring, as in maltose and starch. Look at which carbons the bridging O connects and which way the anomeric bond points.",
+   "β(1→4) joins C1 (anomeric –OH up) to C4 of the next ring, as in lactose, cellobiose and cellulose. Look at which carbons the bridging O connects and which way the anomeric bond points.",
+   "α(1→6) joins C1 to the C6 (–CH2–) of the next unit: the branch points of amylopectin and glycogen. Look at which carbons the bridging O connects and which way the anomeric bond points.",
    ""
   ],
   "from": {
@@ -4487,10 +4463,10 @@
   "explain": "Lactose: C1 of the left sugar (galactose: its C4 –OH points up) points <b>up (β)</b> and the O lands on <b>C4</b> of glucose, so the linkage is <b>β(1→4)</b>. The right glucose happens to be drawn as the β anomer (its free C1 –OH up); that end can open, so lactose is a reducing sugar, but it is not part of the linkage name.<div class=\"struct fbx\"><span class=\"fbx-figs\"><span class=\"fbx-fig\"><svg class=\"fbx-fsvg\" viewBox=\"-25.4 -63.1 476.7 220.2\" width=\"477\" height=\"220\" role=\"img\" aria-label=\"Haworth projection\"><line x1=\"126.3\" y1=\"5.5\" x2=\"184.0\" y2=\"44.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"184.0\" y1=\"44.0\" x2=\"146.0\" y2=\"94.0\" stroke=\"#2d3f4b\" stroke-width=\"5.5\" stroke-linecap=\"round\"/><line x1=\"146.0\" y1=\"94.0\" x2=\"40.0\" y2=\"94.0\" stroke=\"#2d3f4b\" stroke-width=\"5.5\" stroke-linecap=\"round\"/><line x1=\"40.0\" y1=\"94.0\" x2=\"0.0\" y2=\"44.0\" stroke=\"#2d3f4b\" stroke-width=\"5.5\" stroke-linecap=\"round\"/><line x1=\"0.0\" y1=\"44.0\" x2=\"66.0\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"66.0\" y1=\"0.0\" x2=\"108.0\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"118.0\" y=\"7.8\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#c0473b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"22.1\" text-anchor=\"middle\">O</text><line x1=\"184.0\" y1=\"44.0\" x2=\"184.0\" y2=\"73.1\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"184.0\" y=\"93.3\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"middle\">H</text><line x1=\"146.0\" y1=\"94.0\" x2=\"146.0\" y2=\"71.6\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"146.0\" y=\"67.7\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"middle\">H</text><line x1=\"146.0\" y1=\"94.0\" x2=\"146.0\" y2=\"123.1\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"137.9\" y=\"143.3\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#c0473b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"start\">OH</text><line x1=\"40.0\" y1=\"94.0\" x2=\"40.0\" y2=\"71.6\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"31.9\" y=\"67.7\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#c0473b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"start\">OH</text><line x1=\"40.0\" y1=\"94.0\" x2=\"40.0\" y2=\"123.1\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"40.0\" y=\"143.3\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"middle\">H</text><line x1=\"0.0\" y1=\"44.0\" x2=\"0.0\" y2=\"14.9\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"8.1\" y=\"9.0\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#c0473b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"end\">HO</text><line x1=\"0.0\" y1=\"44.0\" x2=\"0.0\" y2=\"73.1\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"0.0\" y=\"93.3\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"middle\">H</text><line x1=\"66.0\" y1=\"0.0\" x2=\"66.0\" y2=\"-29.1\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"96.9\" y=\"-35.0\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"end\">HOCH<tspan baseline-shift=\"sub\" font-size=\"75%\">2</tspan></text><line x1=\"66.0\" y1=\"0.0\" x2=\"66.0\" y2=\"22.4\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"66.0\" y=\"40.6\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"middle\">H</text><text x=\"196.0\" y=\"48.0\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#8a96a0\" font-family=\"Inter,Helvetica,Arial,sans-serif\">1</text><text x=\"158.0\" y=\"107.0\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#8a96a0\" font-family=\"Inter,Helvetica,Arial,sans-serif\">2</text><text x=\"28.0\" y=\"107.0\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#8a96a0\" font-family=\"Inter,Helvetica,Arial,sans-serif\">3</text><text x=\"-12.0\" y=\"48.0\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#8a96a0\" font-family=\"Inter,Helvetica,Arial,sans-serif\">4</text><text x=\"54.0\" y=\"-5.0\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#8a96a0\" font-family=\"Inter,Helvetica,Arial,sans-serif\">5</text><line x1=\"368.3\" y1=\"5.5\" x2=\"426.0\" y2=\"44.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"426.0\" y1=\"44.0\" x2=\"388.0\" y2=\"94.0\" stroke=\"#2d3f4b\" stroke-width=\"5.5\" stroke-linecap=\"round\"/><line x1=\"388.0\" y1=\"94.0\" x2=\"282.0\" y2=\"94.0\" stroke=\"#2d3f4b\" stroke-width=\"5.5\" stroke-linecap=\"round\"/><line x1=\"282.0\" y1=\"94.0\" x2=\"242.0\" y2=\"44.0\" stroke=\"#2d3f4b\" stroke-width=\"5.5\" stroke-linecap=\"round\"/><line x1=\"242.0\" y1=\"44.0\" x2=\"308.0\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"308.0\" y1=\"0.0\" x2=\"350.0\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"360.0\" y=\"7.8\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#c0473b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"22.1\" text-anchor=\"middle\">O</text><line x1=\"426.0\" y1=\"44.0\" x2=\"426.0\" y2=\"14.9\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"417.9\" y=\"9.0\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#c0473b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"start\">OH</text><line x1=\"426.0\" y1=\"44.0\" x2=\"426.0\" y2=\"73.1\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"426.0\" y=\"93.3\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"middle\">H</text><line x1=\"388.0\" y1=\"94.0\" x2=\"388.0\" y2=\"71.6\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"388.0\" y=\"67.7\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"middle\">H</text><line x1=\"388.0\" y1=\"94.0\" x2=\"388.0\" y2=\"123.1\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"379.9\" y=\"143.3\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#c0473b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"start\">OH</text><line x1=\"282.0\" y1=\"94.0\" x2=\"282.0\" y2=\"71.6\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"273.9\" y=\"67.7\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#c0473b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"start\">OH</text><line x1=\"282.0\" y1=\"94.0\" x2=\"282.0\" y2=\"123.1\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"282.0\" y=\"143.3\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"middle\">H</text><line x1=\"242.0\" y1=\"44.0\" x2=\"242.0\" y2=\"14.9\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"242.0\" y=\"9.0\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"middle\">H</text><line x1=\"308.0\" y1=\"0.0\" x2=\"308.0\" y2=\"-29.1\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"338.9\" y=\"-35.0\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"end\">HOCH<tspan baseline-shift=\"sub\" font-size=\"75%\">2</tspan></text><line x1=\"308.0\" y1=\"0.0\" x2=\"308.0\" y2=\"22.4\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"308.0\" y=\"40.6\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#2d3f4b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"20.8\" text-anchor=\"middle\">H</text><text x=\"438.0\" y=\"48.0\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#8a96a0\" font-family=\"Inter,Helvetica,Arial,sans-serif\">1</text><text x=\"400.0\" y=\"107.0\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#8a96a0\" font-family=\"Inter,Helvetica,Arial,sans-serif\">2</text><text x=\"270.0\" y=\"107.0\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#8a96a0\" font-family=\"Inter,Helvetica,Arial,sans-serif\">3</text><text x=\"230.0\" y=\"48.0\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#8a96a0\" font-family=\"Inter,Helvetica,Arial,sans-serif\">4</text><text x=\"296.0\" y=\"-5.0\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#8a96a0\" font-family=\"Inter,Helvetica,Arial,sans-serif\">5</text><line x1=\"184.0\" y1=\"40.9\" x2=\"184.0\" y2=\"14.9\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"184.0\" y1=\"14.9\" x2=\"205.9\" y2=\"36.9\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"242.0\" y1=\"73.1\" x2=\"220.1\" y2=\"51.1\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"242.0\" y1=\"73.1\" x2=\"242.0\" y2=\"47.1\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"213.0\" y=\"51.8\" font-family=\"Inter,Helvetica,Arial,sans-serif\" fill=\"#c0473b\" font-weight=\"800\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\" font-size=\"22.1\" text-anchor=\"middle\">O</text></svg></span></span></div>",
   "origin": "original",
   "why": [
-   "Α(1→4) joins C1 (anomeric –OH down) to C4 of the next ring, as in maltose and starch. Look at which carbons the bridging O connects and which way the anomeric bond points.",
+   "α(1→4) joins C1 (anomeric –OH down) to C4 of the next ring, as in maltose and starch. Look at which carbons the bridging O connects and which way the anomeric bond points.",
    "",
-   "Α(1→6) joins C1 to the C6 (–CH2–) of the next unit: the branch points of amylopectin and glycogen. Look at which carbons the bridging O connects and which way the anomeric bond points.",
-   "Α(1→2)β joins C1 of glucose to C2 of fructose, using both anomeric carbons: that is sucrose. Look at which carbons the bridging O connects and which way the anomeric bond points."
+   "α(1→6) joins C1 to the C6 (–CH2–) of the next unit: the branch points of amylopectin and glycogen. Look at which carbons the bridging O connects and which way the anomeric bond points.",
+   "α(1→2)β joins C1 of glucose to C2 of fructose, using both anomeric carbons: that is sucrose. Look at which carbons the bridging O connects and which way the anomeric bond points."
   ],
   "from": {
    "game": "carbohydrates",
@@ -4521,9 +4497,9 @@
   "origin": "original",
   "why": [
    "",
-   "Β(1→4) joins C1 (anomeric –OH up) to C4 of the next ring, as in lactose, cellobiose and cellulose.",
-   "Α(1→6) joins C1 to the C6 (–CH2–) of the next unit: the branch points of amylopectin and glycogen.",
-   "Α(1→2)β joins C1 of glucose to C2 of fructose, using both anomeric carbons: that is sucrose."
+   "β(1→4) joins C1 (anomeric –OH up) to C4 of the next ring, as in lactose, cellobiose and cellulose.",
+   "α(1→6) joins C1 to the C6 (–CH2–) of the next unit: the branch points of amylopectin and glycogen.",
+   "α(1→2)β joins C1 of glucose to C2 of fructose, using both anomeric carbons: that is sucrose."
   ],
   "from": {
    "game": "carbohydrates",
@@ -4686,9 +4662,9 @@
   "origin": "original",
   "why": [
    "",
-   "Β(1→4) joins C1 (anomeric –OH up) to C4 of the next ring, as in lactose, cellobiose and cellulose. Look at which carbons the bridging O connects and which way the anomeric bond points.",
-   "Α(1→6) joins C1 to the C6 (–CH2–) of the next unit: the branch points of amylopectin and glycogen. Look at which carbons the bridging O connects and which way the anomeric bond points.",
-   "Α(1→2)β joins C1 of glucose to C2 of fructose, using both anomeric carbons: that is sucrose. Look at which carbons the bridging O connects and which way the anomeric bond points."
+   "β(1→4) joins C1 (anomeric –OH up) to C4 of the next ring, as in lactose, cellobiose and cellulose. Look at which carbons the bridging O connects and which way the anomeric bond points.",
+   "α(1→6) joins C1 to the C6 (–CH2–) of the next unit: the branch points of amylopectin and glycogen. Look at which carbons the bridging O connects and which way the anomeric bond points.",
+   "α(1→2)β joins C1 of glucose to C2 of fructose, using both anomeric carbons: that is sucrose. Look at which carbons the bridging O connects and which way the anomeric bond points."
   ],
   "from": {
    "game": "carbohydrates",
@@ -4982,9 +4958,9 @@
   "explain": "Sucrose has α(1→2)β glycosidic bonds.",
   "origin": "original",
   "why": [
-   "Α(1→4) joins C1 (anomeric –OH down) to C4 of the next ring, as in maltose and starch.",
-   "Β(1→4) joins C1 (anomeric –OH up) to C4 of the next ring, as in lactose, cellobiose and cellulose.",
-   "Α(1→6) joins C1 to the C6 (–CH2–) of the next unit: the branch points of amylopectin and glycogen.",
+   "α(1→4) joins C1 (anomeric –OH down) to C4 of the next ring, as in maltose and starch.",
+   "β(1→4) joins C1 (anomeric –OH up) to C4 of the next ring, as in lactose, cellobiose and cellulose.",
+   "α(1→6) joins C1 to the C6 (–CH2–) of the next unit: the branch points of amylopectin and glycogen.",
    ""
   ],
   "from": {
@@ -5111,9 +5087,9 @@
   "origin": "original",
   "why": [
    "",
-   "Β(1→4) joins C1 (anomeric –OH up) to C4 of the next ring, as in lactose, cellobiose and cellulose. Look at which carbons the bridging O connects and which way the anomeric bond points.",
-   "Α(1→6) joins C1 to the C6 (–CH2–) of the next unit: the branch points of amylopectin and glycogen. Look at which carbons the bridging O connects and which way the anomeric bond points.",
-   "Α(1→2)β joins C1 of glucose to C2 of fructose, using both anomeric carbons: that is sucrose. Look at which carbons the bridging O connects and which way the anomeric bond points."
+   "β(1→4) joins C1 (anomeric –OH up) to C4 of the next ring, as in lactose, cellobiose and cellulose. Look at which carbons the bridging O connects and which way the anomeric bond points.",
+   "α(1→6) joins C1 to the C6 (–CH2–) of the next unit: the branch points of amylopectin and glycogen. Look at which carbons the bridging O connects and which way the anomeric bond points.",
+   "α(1→2)β joins C1 of glucose to C2 of fructose, using both anomeric carbons: that is sucrose. Look at which carbons the bridging O connects and which way the anomeric bond points."
   ],
   "from": {
    "game": "carbohydrates",
@@ -5143,10 +5119,10 @@
   "explain": "Lactose has β(1→4) glycosidic bonds.",
   "origin": "original",
   "why": [
-   "Α(1→4) joins C1 (anomeric –OH down) to C4 of the next ring, as in maltose and starch.",
+   "α(1→4) joins C1 (anomeric –OH down) to C4 of the next ring, as in maltose and starch.",
    "",
-   "Α(1→6) joins C1 to the C6 (–CH2–) of the next unit: the branch points of amylopectin and glycogen.",
-   "Α(1→2)β joins C1 of glucose to C2 of fructose, using both anomeric carbons: that is sucrose."
+   "α(1→6) joins C1 to the C6 (–CH2–) of the next unit: the branch points of amylopectin and glycogen.",
+   "α(1→2)β joins C1 of glucose to C2 of fructose, using both anomeric carbons: that is sucrose."
   ],
   "from": {
    "game": "carbohydrates",

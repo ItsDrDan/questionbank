@@ -31,7 +31,7 @@ jobs:
         run: |
           cd questionbank
           git config user.name "question-bank-bot"; git config user.email "actions@github.com"
-          git add bank data index.json
+          git add bank data index.json whys.js
           git diff --cached --quiet || (git commit -m "Rebuild question bank from games" && git push)
       - name: Flag sampler problems
         if: env.SAMPLER_FAILED == '1'
