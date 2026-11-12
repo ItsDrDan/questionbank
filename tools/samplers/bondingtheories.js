@@ -9,7 +9,8 @@ const { installInliner } = require('../sampler-kit');
 const GAME = 'bondingtheories';
 const CH = { t1: ['1A-8'], t2: ['1A-7', '1A-8'], t3: ['1A-8'], t4: ['1A-8'] };
 const TOPICS = ['whatbond', 'pecurve', 'gallery', 'which', 'strength', 'why', 'table', 'angle', 'label', 'pisource', 'rotation', 'resonance',
-  'count', 'skelcount', 'boss', 'lcao', 'ordering', 'trends', 'theory', 'scBO'];
+  'count', 'skelcount', 'boss', 'lcao', 'ordering', 'trends', 'theory', 'scBO',
+  'howmany', 'reverse', 'paralist', 'moorder', 'moconcept'];   // added with game v6
 const WANT = 24;
 
 module.exports = async (page, ctx) => {
