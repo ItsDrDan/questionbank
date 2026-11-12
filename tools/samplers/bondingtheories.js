@@ -14,7 +14,8 @@ const TOPICS = ['whatbond', 'pecurve', 'gallery', 'which', 'strength', 'why', 't
   'howmany', 'reverse', 'paralist', 'moorder', 'moconcept',    // added with game v6
   'scHyb', 'scAtom',                                           // typed hybridization (skills groups, tagger), added with game v15
   'termhyb', 'bonddesc',
-  'bequick'];                                                   // bond energies → ΔH (OpenStax §7.5, so chapter 1A-7), game v19                                      // end-atom hybridization (C=O oxygen, C≡N nitrogen) and whole-bond descriptions, game v16
+  'bequick',
+  'isomer', 'bestrong', 'resbo'];                              // game v20: more stable structure, bond-strength concepts, resonance bond order                                                   // bond energies → ΔH (OpenStax §7.5, so chapter 1A-7), game v19                                      // end-atom hybridization (C=O oxygen, C≡N nitrogen) and whole-bond descriptions, game v16
 const WANT = 24;
 
 module.exports = async (page, ctx) => {
@@ -66,7 +67,7 @@ module.exports = async (page, ctx) => {
           p.fields.forEach(f => { document.getElementById('in-' + f.key).value = String(f.answer); });
           checkCurrent();
           const ok = state.pi > 0 || state.done;
-          p.fields.forEach(f => out.push({ type: 'number', topic: q.topic, tile: label, prompt: prompt + `<p><b>${strip(f.label)}?</b></p>`, answer: f.answer, hint: strip(p.hint), explain: strip(p.solution), ok }));
+          p.fields.forEach(f => out.push({ type: 'number', topic: q.topic, tile: label, prompt: prompt + `<p><b>${strip(f.label)}?</b></p>`, answer: f.tol ? Math.round(f.answer * 1000) / 1000 : f.answer, tol: f.tol ? Math.max(0.005, f.tol / Math.abs(f.answer)) : 0, hint: strip(p.hint), explain: strip(p.solution), ok }));
         }
       }
       return out;
@@ -74,11 +75,11 @@ module.exports = async (page, ctx) => {
     raw.forEach((r, index) => {
       if (!r.ok) throw new Error(`${t}: the game did not accept its own answer (${String(r.answer).slice(0, 60)})`);
       const item = {
-        skill: `${GAME}.${r.topic}`, courses: ['1A', '1B'], chapters: (r.topic === 'bequick' ? ['1A-7'] : CH[r.tile]).concat('1B-ready'), type: r.type, prompt: r.prompt,
+        skill: `${GAME}.${r.topic}`, courses: ['1A', '1B'], chapters: (['bequick', 'isomer', 'bestrong'].includes(r.topic) ? ['1A-7'] : r.topic === 'resbo' ? ['1A-7', '1A-8'] : CH[r.tile]).concat('1B-ready'), type: r.type, prompt: r.prompt,
         answer: r.answer, hint: r.hint, explain: r.explain, origin: 'original', from: { game: GAME, list: `sample:${t}`, index },
       };
       if (r.type === 'mc') { item.choices = r.choices; if (r.why.some(Boolean)) item.why = r.why; }
-      if (r.type === 'number') item.tolerance = 1e-9;
+      if (r.type === 'number') item.tolerance = r.tol || 1e-9;   // resonance bond orders like 4/3 accept 1.33
       if (r.type === 'text') item.accept = r.accept;
       items.push(item);
     });
