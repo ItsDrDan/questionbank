@@ -17,6 +17,7 @@ const TOPICS = ['whatbond', 'pecurve', 'gallery', 'which', 'strength', 'why', 't
   'bequick',
   'isomer', 'bestrong', 'resbo'];                              // game v20: more stable structure, bond-strength concepts, resonance bond order                                                   // bond energies → ΔH (OpenStax §7.5, so chapter 1A-7), game v19                                      // end-atom hybridization (C=O oxygen, C≡N nitrogen) and whole-bond descriptions, game v16
 const WANT = 24;
+const WANT_FOR = { bequick: 40 };   // every bond-energy reaction (37 in game v20); duplicates are dropped, so this takes them all
 
 module.exports = async (page, ctx) => {
   await installInliner(page);
@@ -71,7 +72,7 @@ module.exports = async (page, ctx) => {
         }
       }
       return out;
-    }, { t, want: WANT });
+    }, { t, want: WANT_FOR[t] || WANT });
     raw.forEach((r, index) => {
       if (!r.ok) throw new Error(`${t}: the game did not accept its own answer (${String(r.answer).slice(0, 60)})`);
       const item = {
