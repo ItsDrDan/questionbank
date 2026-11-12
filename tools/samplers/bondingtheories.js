@@ -12,7 +12,8 @@ const CH = { t1: ['1A-8'], t2: ['1A-7', '1A-8'], t3: ['1A-8'], t4: ['1A-8'] };
 const TOPICS = ['whatbond', 'pecurve', 'gallery', 'which', 'strength', 'why', 'table', 'angle', 'label', 'pisource', 'rotation', 'resonance',
   'count', 'skelcount', 'boss', 'lcao', 'ordering', 'trends', 'theory', 'scBO',
   'howmany', 'reverse', 'paralist', 'moorder', 'moconcept',    // added with game v6
-  'scHyb', 'scAtom'];                                          // typed hybridization (skills groups, tagger), added with game v15
+  'scHyb', 'scAtom',                                           // typed hybridization (skills groups, tagger), added with game v15
+  'termhyb', 'bonddesc'];                                      // end-atom hybridization (C=O oxygen, C≡N nitrogen) and whole-bond descriptions, game v16
 const WANT = 24;
 
 module.exports = async (page, ctx) => {
