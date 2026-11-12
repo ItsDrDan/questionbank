@@ -59,7 +59,7 @@ module.exports = async (page, ctx) => {
           const sup = { 2: '²', 3: '³' }, supForm = p.want.replace(/[23]/g, d => sup[d]), caret = p.want.replace(/(\d)/g, '^$1');
           const forms = [...new Set([p.want, supForm, caret, p.want.replace(/(\d)/g, ' $1')])];
           const accept = [...new Set(forms.concat(forms.map(f => f + ' hybridized'), forms.map(f => f + '-hybridized'), forms.map(f => f + ' hybrid')))].filter(f => f !== p.want);
-          out.push({ type: 'text', topic: q.topic, tile: label, prompt: prompt + `<p><small>${strip(p.note)}</small></p>`, answer: p.want, accept, hint: strip(p.hint), explain: strip(p.solution), ok });
+          out.push({ type: 'text', topic: q.topic, tile: label, prompt: prompt + '<p><small>Type sp, sp2, sp3 (sp² and sp^2 work too).</small></p>', answer: p.want, accept, hint: strip(p.hint), explain: strip(p.solution), ok });
         } else {
           const vals = p.fields.map(f => f.answer);
           p.fields.forEach(f => { document.getElementById('in-' + f.key).value = String(f.answer); });
