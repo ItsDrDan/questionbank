@@ -59285,5 +59285,329 @@
    "list": "BANK.1A",
    "index": 593
   }
+ },
+ {
+  "id": "finalexam-daca1a25",
+  "skill": "finalexam.1a.advanced",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-8"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Formaldehyde, H₂C=O, is used to preserve tissue samples. What are the hybridizations of the carbon atom and of the oxygen atom?",
+  "choices": [
+   "C: sp²; O: sp²",
+   "C: sp²; O: sp³",
+   "C: sp³; O: sp³",
+   "C: sp; O: sp"
+  ],
+  "answer": "C: sp²; O: sp²",
+  "hint": "Count electron groups on each atom, including the oxygen: bonded atoms + lone pairs, with a double bond counted once.",
+  "explain": "C has 3 groups (C=O and two C–H) → sp². O has 1 bonded atom + 2 lone pairs = 3 groups → sp². So C sp², O sp². The unhybridized 2p orbital left on each atom forms the C=O π bond.",
+  "why": [
+   "",
+   "O has only 3 groups (1 bonded atom + 2 lone pairs), so it is sp². Counting the double bond as two groups gives sp³.",
+   "sp³ needs 4 groups. C has 3 (the double bond counts once), and so does O.",
+   "sp needs only 2 groups. C has 3 and O has 3."
+  ],
+  "html": {
+   "prompt": "Formaldehyde, H<sub>2</sub>C=O, is used to preserve tissue samples. What are the hybridizations of the carbon atom and of the oxygen atom?",
+   "choices": [
+    "C: sp<sup>2</sup>; O: sp<sup>2</sup>",
+    "C: sp<sup>2</sup>; O: sp<sup>3</sup>",
+    "C: sp<sup>3</sup>; O: sp<sup>3</sup>",
+    "C: sp; O: sp"
+   ],
+   "hint": "Count electron groups on each atom, including the oxygen: bonded atoms + lone pairs, with a double bond counted once.",
+   "explain": "C has 3 groups (C=O and two C–H) → sp<sup>2</sup>. O has 1 bonded atom + 2 lone pairs = 3 groups → sp<sup>2</sup>. So <b>C sp<sup>2</sup>, O sp<sup>2</sup></b>. The unhybridized 2p orbital left on each atom forms the C=O π bond.",
+   "why": [
+    "",
+    "O has only 3 groups (1 bonded atom + 2 lone pairs), so it is sp<sup>2</sup>. Counting the double bond as two groups gives sp<sup>3</sup>.",
+    "sp<sup>3</sup> needs 4 groups. C has 3 (the double bond counts once), and so does O.",
+    "sp needs only 2 groups. C has 3 and O has 3."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 594
+  }
+ },
+ {
+  "id": "finalexam-4ccfc79b",
+  "skill": "finalexam.1a.advanced",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-8"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "In acetonitrile, CH₃–C≡N, what are the hybridizations of the carbon bonded to nitrogen and of the nitrogen atom?",
+  "choices": [
+   "C: sp; N: sp",
+   "C: sp; N: sp³",
+   "C: sp; N: sp²",
+   "C: sp²; N: sp"
+  ],
+  "answer": "C: sp; N: sp",
+  "hint": "Count groups on the end nitrogen too: 1 bonded atom + its lone pair. A triple bond is one group.",
+  "explain": "The nitrile carbon has 2 groups (C–C and C≡N) → sp. The nitrogen has 1 bonded atom + 1 lone pair = 2 groups → sp. So C sp, N sp; each atom keeps two unhybridized 2p orbitals for the two π bonds.",
+  "why": [
+   "",
+   "N has 1 bonded atom + 1 lone pair = 2 groups, so it is sp, not sp³. A triple bond counts as one group.",
+   "N has 2 groups (the triple bond counts once, plus 1 lone pair), so it is sp.",
+   "The nitrile carbon has only 2 groups (C–C and C≡N), so it is sp."
+  ],
+  "html": {
+   "prompt": "In acetonitrile, CH<sub>3</sub>–C≡N, what are the hybridizations of the carbon bonded to nitrogen and of the nitrogen atom?",
+   "choices": [
+    "C: sp; N: sp",
+    "C: sp; N: sp<sup>3</sup>",
+    "C: sp; N: sp<sup>2</sup>",
+    "C: sp<sup>2</sup>; N: sp"
+   ],
+   "hint": "Count groups on the end nitrogen too: 1 bonded atom + its lone pair. A triple bond is one group.",
+   "explain": "The nitrile carbon has 2 groups (C–C and C≡N) → sp. The nitrogen has 1 bonded atom + 1 lone pair = 2 groups → sp. So <b>C sp, N sp</b>; each atom keeps two unhybridized 2p orbitals for the two π bonds.",
+   "why": [
+    "",
+    "N has 1 bonded atom + 1 lone pair = 2 groups, so it is sp, not sp³. A triple bond counts as one group.",
+    "N has 2 groups (the triple bond counts once, plus 1 lone pair), so it is sp.",
+    "The nitrile carbon has only 2 groups (C–C and C≡N), so it is sp."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 595
+  }
+ },
+ {
+  "id": "finalexam-53711999",
+  "skill": "finalexam.1a.advanced",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-8"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Acetone, (CH₃)₂C=O, is a common solvent and is found in the breath during ketosis. Which describes the C=O double bond?",
+  "choices": [
+   "one σ bond (C sp² – O sp²) and one π bond (C 2p – O 2p)",
+   "one σ bond (C sp² – O sp³) and one π bond (C 2p – O 2p)",
+   "two σ bonds, both C sp² – O sp²",
+   "one σ bond (C 2p – O 2p) and one π bond (C sp² – O sp²)"
+  ],
+  "answer": "one σ bond (C sp² – O sp²) and one π bond (C 2p – O 2p)",
+  "hint": "A double bond is one σ plus one π. σ = head-on overlap of hybrids; π = side-by-side overlap of unhybridized p orbitals.",
+  "explain": "C has 3 groups and O has 3 groups (1 bonded atom + 2 lone pairs), so both are sp². The σ bond is C sp² – O sp² and the π bond is C 2p – O 2p.",
+  "why": [
+   "",
+   "O has 3 groups (1 bonded atom + 2 lone pairs), so it is sp², not sp³.",
+   "Only one σ bond can form along the C–O axis. The second bond of a double bond is π.",
+   "These are swapped. Hybrids overlap head-on to make the σ bond; the 2p orbitals overlap side by side to make the π bond."
+  ],
+  "html": {
+   "prompt": "Acetone, (CH<sub>3</sub>)<sub>2</sub>C=O, is a common solvent and is found in the breath during ketosis. Which describes the C=O double bond?",
+   "choices": [
+    "one σ bond (C sp<sup>2</sup> – O sp<sup>2</sup>) and one π bond (C 2p – O 2p)",
+    "one σ bond (C sp<sup>2</sup> – O sp<sup>3</sup>) and one π bond (C 2p – O 2p)",
+    "two σ bonds, both C sp<sup>2</sup> – O sp<sup>2</sup>",
+    "one σ bond (C 2p – O 2p) and one π bond (C sp<sup>2</sup> – O sp<sup>2</sup>)"
+   ],
+   "hint": "A double bond is one σ plus one π. σ = head-on overlap of hybrids; π = side-by-side overlap of unhybridized p orbitals.",
+   "explain": "C has 3 groups and O has 3 groups (1 bonded atom + 2 lone pairs), so both are sp<sup>2</sup>. The σ bond is <b>C sp<sup>2</sup> – O sp<sup>2</sup></b> and the π bond is <b>C 2p – O 2p</b>.",
+   "why": [
+    "",
+    "O has 3 groups (1 bonded atom + 2 lone pairs), so it is sp<sup>2</sup>, not sp<sup>3</sup>.",
+    "Only one σ bond can form along the C–O axis. The second bond of a double bond is π.",
+    "These are swapped. Hybrids overlap head-on to make the σ bond; the 2p orbitals overlap side by side to make the π bond."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 596
+  }
+ },
+ {
+  "id": "finalexam-058af77a",
+  "skill": "finalexam.1a.advanced",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-8"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which describes the C≡N triple bond in hydrogen cyanide, H–C≡N?",
+  "choices": [
+   "one σ bond (C sp – N sp) and two π bonds (C 2p – N 2p)",
+   "one σ bond (C sp – N sp) and one π bond (C 2p – N 2p)",
+   "one σ bond (C sp – N sp³) and two π bonds (C 2p – N 2p)",
+   "three σ bonds, all C sp – N sp"
+  ],
+  "answer": "one σ bond (C sp – N sp) and two π bonds (C 2p – N 2p)",
+  "hint": "A triple bond is one σ plus two π. Find the hybridization of C and of N by counting groups on each.",
+  "explain": "C has 2 groups (C–H and C≡N) → sp. N has 1 bonded atom + 1 lone pair = 2 groups → sp. The σ bond is C sp – N sp; the two π bonds come from the two unhybridized 2p orbitals on each atom, at 90° to each other.",
+  "why": [
+   "",
+   "A triple bond has two π bonds, not one.",
+   "N has 2 groups (1 bonded atom + 1 lone pair), so it is sp, not sp³.",
+   "Only one σ bond fits along the C–N axis. The other two bonds are π."
+  ],
+  "html": {
+   "prompt": "Which describes the C≡N triple bond in hydrogen cyanide, H–C≡N?",
+   "choices": [
+    "one σ bond (C sp – N sp) and two π bonds (C 2p – N 2p)",
+    "one σ bond (C sp – N sp) and one π bond (C 2p – N 2p)",
+    "one σ bond (C sp – N sp<sup>3</sup>) and two π bonds (C 2p – N 2p)",
+    "three σ bonds, all C sp – N sp"
+   ],
+   "hint": "A triple bond is one σ plus two π. Find the hybridization of C and of N by counting groups on each.",
+   "explain": "C has 2 groups (C–H and C≡N) → sp. N has 1 bonded atom + 1 lone pair = 2 groups → sp. The σ bond is <b>C sp – N sp</b>; the two π bonds come from the two unhybridized 2p orbitals on each atom, at 90° to each other.",
+   "why": [
+    "",
+    "A triple bond has two π bonds, not one.",
+    "N has 2 groups (1 bonded atom + 1 lone pair), so it is sp, not sp³.",
+    "Only one σ bond fits along the C–N axis. The other two bonds are π."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 597
+  }
+ },
+ {
+  "id": "finalexam-d8cb536f",
+  "skill": "finalexam.1a.advanced",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-8"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "In CO₂ (O=C=O), what is the hybridization of each oxygen atom, and which orbitals overlap to form each C=O π bond?",
+  "choices": [
+   "O is sp²; each π bond is C 2p – O 2p",
+   "O is sp³; each π bond is C 2p – O 2p",
+   "O is sp; each π bond is C sp – O sp",
+   "O is sp²; each π bond is C sp – O sp²"
+  ],
+  "answer": "O is sp²; each π bond is C 2p – O 2p",
+  "hint": "Count groups on an oxygen (1 bonded atom + its lone pairs). π bonds never use hybrid orbitals.",
+  "explain": "Each O has 1 bonded atom + 2 lone pairs = 3 groups → sp². The central C is sp, so it keeps two unhybridized 2p orbitals, one for each π bond: C 2p – O 2p. The two π bonds are at 90° to each other.",
+  "why": [
+   "",
+   "O has 3 groups (1 bonded atom + 2 lone pairs), so it is sp². Counting the double bond as two groups gives sp³.",
+   "π bonds use unhybridized p orbitals, not sp hybrids. And O has 3 groups, so it is sp².",
+   "π bonds come from side-by-side p orbitals. Hybrid orbitals (C sp, O sp²) form σ bonds and hold lone pairs."
+  ],
+  "html": {
+   "prompt": "In CO<sub>2</sub> (O=C=O), what is the hybridization of each oxygen atom, and which orbitals overlap to form each C=O π bond?",
+   "choices": [
+    "O is sp<sup>2</sup>; each π bond is C 2p – O 2p",
+    "O is sp<sup>3</sup>; each π bond is C 2p – O 2p",
+    "O is sp; each π bond is C sp – O sp",
+    "O is sp<sup>2</sup>; each π bond is C sp – O sp<sup>2</sup>"
+   ],
+   "hint": "Count groups on an oxygen (1 bonded atom + its lone pairs). π bonds never use hybrid orbitals.",
+   "explain": "Each O has 1 bonded atom + 2 lone pairs = 3 groups → <b>sp<sup>2</sup></b>. The central C is sp, so it keeps two unhybridized 2p orbitals, one for each π bond: <b>C 2p – O 2p</b>. The two π bonds are at 90° to each other.",
+   "why": [
+    "",
+    "O has 3 groups (1 bonded atom + 2 lone pairs), so it is sp<sup>2</sup>. Counting the double bond as two groups gives sp<sup>3</sup>.",
+    "π bonds use unhybridized p orbitals, not sp hybrids. And O has 3 groups, so it is sp².",
+    "π bonds come from side-by-side p orbitals. Hybrid orbitals (C sp, O sp²) form σ bonds and hold lone pairs."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 598
+  }
+ },
+ {
+  "id": "finalexam-094c62dc",
+  "skill": "finalexam.1a.advanced",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-8"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Urea, (NH₂)₂C=O, is how the body gets rid of excess nitrogen. Which orbitals overlap to form the π bond of its C=O group?",
+  "choices": [
+   "C 2p and O 2p",
+   "C sp² and O sp²",
+   "C sp² and O 2p",
+   "C 2p and O sp³"
+  ],
+  "answer": "C 2p and O 2p",
+  "hint": "π bonds form from side-by-side overlap of orbitals that were left out of hybridization.",
+  "explain": "Both C and O are sp² (3 groups each). Each keeps one unhybridized 2p orbital, and these overlap side by side to form the π bond: C 2p and O 2p. The sp² hybrids form the C=O σ bond.",
+  "why": [
+   "",
+   "The sp² hybrids form the C=O σ bond (head-on). The π bond uses the leftover 2p orbitals.",
+   "An sp² hybrid makes σ bonds, not π. The carbon's π orbital is its unhybridized 2p.",
+   "The oxygen is sp² (3 groups), and its π orbital is the unhybridized 2p, not a hybrid."
+  ],
+  "html": {
+   "prompt": "Urea, (NH<sub>2</sub>)<sub>2</sub>C=O, is how the body gets rid of excess nitrogen. Which orbitals overlap to form the π bond of its C=O group?",
+   "choices": [
+    "C 2p and O 2p",
+    "C sp<sup>2</sup> and O sp<sup>2</sup>",
+    "C sp<sup>2</sup> and O 2p",
+    "C 2p and O sp<sup>3</sup>"
+   ],
+   "hint": "π bonds form from side-by-side overlap of orbitals that were left out of hybridization.",
+   "explain": "Both C and O are sp<sup>2</sup> (3 groups each). Each keeps one unhybridized 2p orbital, and these overlap side by side to form the π bond: <b>C 2p and O 2p</b>. The sp<sup>2</sup> hybrids form the C=O σ bond.",
+   "why": [
+    "",
+    "The sp<sup>2</sup> hybrids form the C=O σ bond (head-on). The π bond uses the leftover 2p orbitals.",
+    "An sp<sup>2</sup> hybrid makes σ bonds, not π. The carbon's π orbital is its unhybridized 2p.",
+    "The oxygen is sp<sup>2</sup> (3 groups), and its π orbital is the unhybridized 2p, not a hybrid."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 599
+  }
  }
 ]

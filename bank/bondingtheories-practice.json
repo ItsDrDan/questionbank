@@ -11744,5 +11744,1545 @@
    "list": "sample:scAtom",
    "index": 23
   }
+ },
+ {
+  "id": "bondingtheories-8b3fb12f",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "text",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Nitrogen, N<sub style=\"font-size:12.544px;line-height:0px\">2</sub></p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-40 -40 144 80\" style=\"width:144px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:144px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15.0\" y1=\"-6.5\" x2=\"49.0\" y2=\"-6.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"6.5\" x2=\"49.0\" y2=\"6.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><circle cx=\"-24.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-24.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: N\"><circle cx=\"0.0\" cy=\"0.0\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><circle cx=\"15.0\" cy=\"-16.0\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"15.0\" y=\"-12.0\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g><circle cx=\"88.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"88.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text></svg></div></div><div>Type the hybridization of atom 1 (the N triple-bonded to N).</div><p><small>Type sp, sp2, sp3 (sp² and sp^2 work too).</small></p>",
+  "answer": "sp",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "N (atom 1): 1 bonded atom + 1 lone pair = 2 groups → sp. The triple bond counts as one group. Its leftover 2 unhybridized 2p orbitals make the π bonds to N.",
+  "origin": "original",
+  "accept": [
+   "sp hybridized",
+   "sp-hybridized",
+   "sp hybrid"
+  ],
+  "caseSensitive": true,
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 0
+  }
+ },
+ {
+  "id": "bondingtheories-c415a1ea",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "text",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">C<sub style=\"font-size:12.544px;line-height:0px\">3</sub>H<sub style=\"font-size:12.544px;line-height:0px\">3</sub>N</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-72 -95 240 246\" style=\"width:240px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:240px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15.0\" y1=\"-3.8\" x2=\"49.0\" y2=\"-3.8\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"3.8\" x2=\"49.0\" y2=\"3.8\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"71.5\" y1=\"13.0\" x2=\"88.5\" y2=\"42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"109.1\" y1=\"65.2\" x2=\"126.1\" y2=\"94.6\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"103.5\" y1=\"68.4\" x2=\"120.5\" y2=\"97.9\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"97.9\" y1=\"71.7\" x2=\"114.9\" y2=\"101.1\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-7.5\" y1=\"-13.0\" x2=\"-24.5\" y2=\"-42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-7.5\" y1=\"13.0\" x2=\"-24.5\" y2=\"42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"71.5\" y1=\"-13.0\" x2=\"88.5\" y2=\"-42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"96.0\" y=\"62.4\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"136.4\" cy=\"133.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"143.6\" cy=\"129.5\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: N\"><circle cx=\"128.0\" cy=\"110.9\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"128.0\" y=\"117.9\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><circle cx=\"143.0\" cy=\"94.9\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"143.0\" y=\"98.9\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g><text x=\"-32.0\" y=\"-48.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-32.0\" y=\"62.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"96.0\" y=\"-48.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>Type the hybridization of atom 1 (the N triple-bonded to C).</div><p><small>Type sp, sp2, sp3 (sp² and sp^2 work too).</small></p>",
+  "answer": "sp",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "N (atom 1): 1 bonded atom + 1 lone pair = 2 groups → sp. The triple bond counts as one group. Its leftover 2 unhybridized 2p orbitals make the π bonds to C.",
+  "origin": "original",
+  "accept": [
+   "sp hybridized",
+   "sp-hybridized",
+   "sp hybrid"
+  ],
+  "caseSensitive": true,
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 1
+  }
+ },
+ {
+  "id": "bondingtheories-b327a3c2",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">ClNO</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-95 -40 191 112\" style=\"width:191px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:191px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-13.0\" y1=\"7.5\" x2=\"-42.4\" y2=\"24.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"14.9\" y1=\"4.2\" x2=\"44.3\" y2=\"21.2\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"11.1\" y1=\"10.8\" x2=\"40.5\" y2=\"27.8\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><circle cx=\"4.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-4.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><circle cx=\"-47.1\" cy=\"54.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-39.8\" cy=\"50.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-78.3\" cy=\"40.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-74.1\" cy=\"47.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-63.8\" cy=\"9.1\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-71.1\" cy=\"13.3\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"-55.4\" y=\"39.0\" text-anchor=\"middle\" style=\"fill:rgb(35, 128, 79);font-size:21px;font-weight:700\">Cl</text><circle cx=\"78.3\" cy=\"23.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"74.1\" cy=\"16.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"51.2\" cy=\"56.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"59.6\" cy=\"56.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: O\"><circle cx=\"55.4\" cy=\"32.0\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"55.4\" y=\"39.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"70.4\" cy=\"16.0\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"70.4\" y=\"20.0\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g></svg></div></div><div>What is the hybridization of atom 1, the O double-bonded to N?</div>",
+  "answer": "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "O (atom 1): 1 bonded atom + 2 lone pairs = 3 groups → sp². The double bond counts as one group. Its leftover 1 unhybridized 2p orbital makes the π bond to N.",
+  "origin": "original",
+  "choices": [
+   "sp",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>"
+  ],
+  "why": [
+   "O has 1 bonded atom + 2 lone pairs = 3 groups.",
+   "",
+   "A double or triple bond is one electron group."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 2
+  }
+ },
+ {
+  "id": "bondingtheories-77edc26b",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">HCOOH</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -104 272 144\" style=\"width:272px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:272px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-3.8\" y1=\"-15.0\" x2=\"-3.8\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"3.8\" y1=\"-15.0\" x2=\"3.8\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"0.0\" x2=\"113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"-18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: O\"><circle cx=\"0.0\" cy=\"-64.0\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"15.0\" cy=\"-80.0\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"15.0\" y=\"-76.0\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g><circle cx=\"59.8\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"68.2\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"68.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"59.8\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>What is the hybridization of atom 1, the O double-bonded to C?</div>",
+  "answer": "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "O (atom 1): 1 bonded atom + 2 lone pairs = 3 groups → sp². The double bond counts as one group. Its leftover 1 unhybridized 2p orbital makes the π bond to C.",
+  "origin": "original",
+  "choices": [
+   "sp",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>"
+  ],
+  "why": [
+   "O has 1 bonded atom + 2 lone pairs = 3 groups.",
+   "",
+   "A double or triple bond is one electron group."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 3
+  }
+ },
+ {
+  "id": "bondingtheories-aace610e",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "text",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Urea, CO(NH<sub style=\"font-size:12.544px;line-height:0px\">2</sub>)<sub style=\"font-size:12.544px;line-height:0px\">2</sub></p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-168 -104 336 208\" style=\"width:336px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:336px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-3.8\" y1=\"-15.0\" x2=\"-3.8\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"3.8\" y1=\"-15.0\" x2=\"3.8\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-79.0\" y1=\"0.0\" x2=\"-113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-64.0\" y1=\"15.0\" x2=\"-64.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"0.0\" x2=\"113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"64.0\" y1=\"15.0\" x2=\"64.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"-18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: O\"><circle cx=\"0.0\" cy=\"-64.0\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"15.0\" cy=\"-80.0\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"15.0\" y=\"-76.0\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g><circle cx=\"-59.8\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-68.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><circle cx=\"68.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"59.8\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><text x=\"-128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-64.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"64.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>Type the hybridization of atom 1 (the O double-bonded to C).</div><p><small>Type sp, sp2, sp3 (sp² and sp^2 work too).</small></p>",
+  "answer": "sp2",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "O (atom 1): 1 bonded atom + 2 lone pairs = 3 groups → sp². The double bond counts as one group. Its leftover 1 unhybridized 2p orbital makes the π bond to C.",
+  "origin": "original",
+  "accept": [
+   "sp²",
+   "sp^2",
+   "sp 2",
+   "sp2 hybridized",
+   "sp² hybridized",
+   "sp^2 hybridized",
+   "sp 2 hybridized",
+   "sp2-hybridized",
+   "sp²-hybridized",
+   "sp^2-hybridized",
+   "sp 2-hybridized",
+   "sp2 hybrid",
+   "sp² hybrid",
+   "sp^2 hybrid",
+   "sp 2 hybrid"
+  ],
+  "caseSensitive": true,
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 4
+  }
+ },
+ {
+  "id": "bondingtheories-fefe4ed4",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "text",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Acetone, CH<sub style=\"font-size:12.544px;line-height:0px\">3</sub>COCH<sub style=\"font-size:12.544px;line-height:0px\">3</sub></p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-168 -104 336 208\" style=\"width:336px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:336px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-3.8\" y1=\"-15.0\" x2=\"-3.8\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"3.8\" y1=\"-15.0\" x2=\"3.8\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-79.0\" y1=\"0.0\" x2=\"-113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-64.0\" y1=\"-15.0\" x2=\"-64.0\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-64.0\" y1=\"15.0\" x2=\"-64.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"0.0\" x2=\"113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"64.0\" y1=\"-15.0\" x2=\"64.0\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"64.0\" y1=\"15.0\" x2=\"64.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"-18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: O\"><circle cx=\"0.0\" cy=\"-64.0\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"15.0\" cy=\"-80.0\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"15.0\" y=\"-76.0\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"-128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-64.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-64.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"64.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"64.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>Type the hybridization of atom 1 (the O double-bonded to C).</div><p><small>Type sp, sp2, sp3 (sp² and sp^2 work too).</small></p>",
+  "answer": "sp2",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "O (atom 1): 1 bonded atom + 2 lone pairs = 3 groups → sp². The double bond counts as one group. Its leftover 1 unhybridized 2p orbital makes the π bond to C.",
+  "origin": "original",
+  "accept": [
+   "sp²",
+   "sp^2",
+   "sp 2",
+   "sp2 hybridized",
+   "sp² hybridized",
+   "sp^2 hybridized",
+   "sp 2 hybridized",
+   "sp2-hybridized",
+   "sp²-hybridized",
+   "sp^2-hybridized",
+   "sp 2-hybridized",
+   "sp2 hybrid",
+   "sp² hybrid",
+   "sp^2 hybrid",
+   "sp 2 hybrid"
+  ],
+  "caseSensitive": true,
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 5
+  }
+ },
+ {
+  "id": "bondingtheories-b486e2d0",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Cl<sub style=\"font-size:12.544px;line-height:0px\">2</sub>CO</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-95 -104 191 176\" style=\"width:191px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:191px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-3.8\" y1=\"-15.0\" x2=\"-3.8\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"3.8\" y1=\"-15.0\" x2=\"3.8\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-13.0\" y1=\"7.5\" x2=\"-42.4\" y2=\"24.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"13.0\" y1=\"7.5\" x2=\"42.4\" y2=\"24.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"-18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: O\"><circle cx=\"0.0\" cy=\"-64.0\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"15.0\" cy=\"-80.0\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"15.0\" y=\"-76.0\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g><circle cx=\"-47.1\" cy=\"54.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-39.8\" cy=\"50.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-78.3\" cy=\"40.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-74.1\" cy=\"47.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-63.8\" cy=\"9.1\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-71.1\" cy=\"13.3\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"-55.4\" y=\"39.0\" text-anchor=\"middle\" style=\"fill:rgb(35, 128, 79);font-size:21px;font-weight:700\">Cl</text><circle cx=\"71.1\" cy=\"13.3\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"63.8\" cy=\"9.1\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"74.1\" cy=\"47.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"78.3\" cy=\"40.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"39.8\" cy=\"50.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"47.1\" cy=\"54.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"55.4\" y=\"39.0\" text-anchor=\"middle\" style=\"fill:rgb(35, 128, 79);font-size:21px;font-weight:700\">Cl</text></svg></div></div><div>What is the hybridization of atom 1, the O double-bonded to C?</div>",
+  "answer": "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "O (atom 1): 1 bonded atom + 2 lone pairs = 3 groups → sp². The double bond counts as one group. Its leftover 1 unhybridized 2p orbital makes the π bond to C.",
+  "origin": "original",
+  "choices": [
+   "sp",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>"
+  ],
+  "why": [
+   "O has 1 bonded atom + 2 lone pairs = 3 groups.",
+   "",
+   "A double or triple bond is one electron group."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 6
+  }
+ },
+ {
+  "id": "bondingtheories-2f39d9d2",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">CH<sub style=\"font-size:12.544px;line-height:0px\">3</sub>COOH</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -104 336 208\" style=\"width:336px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:336px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"60.2\" y1=\"-15.0\" x2=\"60.2\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"67.8\" y1=\"-15.0\" x2=\"67.8\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"0.0\" x2=\"113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"-15.0\" x2=\"0.0\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"15.0\" x2=\"0.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"143.0\" y1=\"0.0\" x2=\"177.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"45.3\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"41.1\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"86.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"82.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: O\"><circle cx=\"64.0\" cy=\"-64.0\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"64.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"79.0\" cy=\"-80.0\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"79.0\" y=\"-76.0\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g><circle cx=\"123.8\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"132.2\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"132.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"123.8\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"192.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>What is the hybridization of atom 1, the O double-bonded to C?</div>",
+  "answer": "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "O (atom 1): 1 bonded atom + 2 lone pairs = 3 groups → sp². The double bond counts as one group. Its leftover 1 unhybridized 2p orbital makes the π bond to C.",
+  "origin": "original",
+  "choices": [
+   "sp",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>"
+  ],
+  "why": [
+   "O has 1 bonded atom + 2 lone pairs = 3 groups.",
+   "",
+   "A double or triple bond is one electron group."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 7
+  }
+ },
+ {
+  "id": "bondingtheories-aa2d3de3",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Formamide, HCONH<sub style=\"font-size:12.544px;line-height:0px\">2</sub></p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -104 272 208\" style=\"width:272px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:272px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-3.8\" y1=\"-15.0\" x2=\"-3.8\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"3.8\" y1=\"-15.0\" x2=\"3.8\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"0.0\" x2=\"113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"64.0\" y1=\"15.0\" x2=\"64.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"-18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: O\"><circle cx=\"0.0\" cy=\"-64.0\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"15.0\" cy=\"-80.0\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"15.0\" y=\"-76.0\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><circle cx=\"68.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"59.8\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><text x=\"128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"64.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>What is the hybridization of atom 1, the O double-bonded to C?</div>",
+  "answer": "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "O (atom 1): 1 bonded atom + 2 lone pairs = 3 groups → sp². The double bond counts as one group. Its leftover 1 unhybridized 2p orbital makes the π bond to C.",
+  "origin": "original",
+  "choices": [
+   "sp",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>"
+  ],
+  "why": [
+   "O has 1 bonded atom + 2 lone pairs = 3 groups.",
+   "",
+   "A double or triple bond is one electron group."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 8
+  }
+ },
+ {
+  "id": "bondingtheories-08e35ab0",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Hydrogen cyanide, HCN</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -40 208 80\" style=\"width:208px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:208px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-49.0\" y1=\"0.0\" x2=\"-15.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"-6.5\" x2=\"49.0\" y2=\"-6.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"6.5\" x2=\"49.0\" y2=\"6.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"88.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"88.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: N\"><circle cx=\"64.0\" cy=\"0.0\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><circle cx=\"79.0\" cy=\"-16.0\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"79.0\" y=\"-12.0\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g></svg></div></div><div>What is the hybridization of atom 1, the N triple-bonded to C?</div>",
+  "answer": "sp",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "N (atom 1): 1 bonded atom + 1 lone pair = 2 groups → sp. The triple bond counts as one group. Its leftover 2 unhybridized 2p orbitals make the π bonds to C.",
+  "origin": "original",
+  "choices": [
+   "sp",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>"
+  ],
+  "why": [
+   "",
+   "N has 1 bonded atom + 1 lone pair = 2 groups.",
+   "A double or triple bond is one electron group."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 9
+  }
+ },
+ {
+  "id": "bondingtheories-7211d8eb",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">HONO</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -40 240 135\" style=\"width:240px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:240px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-49.0\" y1=\"0.0\" x2=\"-15.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"74.8\" y1=\"11.1\" x2=\"91.8\" y2=\"40.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"68.2\" y1=\"14.9\" x2=\"85.2\" y2=\"44.3\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><circle cx=\"-4.2\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"4.2\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"4.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-4.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"79.6\" cy=\"-18.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"72.4\" cy=\"-22.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><circle cx=\"120.0\" cy=\"59.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"120.0\" cy=\"51.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"80.4\" cy=\"74.1\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"87.6\" cy=\"78.3\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: O\"><circle cx=\"96.0\" cy=\"55.4\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"96.0\" y=\"62.4\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"111.0\" cy=\"39.4\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"111.0\" y=\"43.4\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g></svg></div></div><div>What is the hybridization of atom 1, the O double-bonded to N?</div>",
+  "answer": "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "O (atom 1): 1 bonded atom + 2 lone pairs = 3 groups → sp². The double bond counts as one group. Its leftover 1 unhybridized 2p orbital makes the π bond to N.",
+  "origin": "original",
+  "choices": [
+   "sp",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>"
+  ],
+  "why": [
+   "O has 1 bonded atom + 2 lone pairs = 3 groups.",
+   "",
+   "A double or triple bond is one electron group."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 10
+  }
+ },
+ {
+  "id": "bondingtheories-a21dd19a",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Formaldehyde, CH<sub style=\"font-size:12.544px;line-height:0px\">2</sub>O</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-95 -104 191 176\" style=\"width:191px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:191px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-3.8\" y1=\"-15.0\" x2=\"-3.8\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"3.8\" y1=\"-15.0\" x2=\"3.8\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-13.0\" y1=\"7.5\" x2=\"-42.4\" y2=\"24.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"13.0\" y1=\"7.5\" x2=\"42.4\" y2=\"24.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"-18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: O\"><circle cx=\"0.0\" cy=\"-64.0\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"15.0\" cy=\"-80.0\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"15.0\" y=\"-76.0\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g><text x=\"-55.4\" y=\"39.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"55.4\" y=\"39.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>What is the hybridization of atom 1, the O double-bonded to C?</div>",
+  "answer": "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "O (atom 1): 1 bonded atom + 2 lone pairs = 3 groups → sp². The double bond counts as one group. Its leftover 1 unhybridized 2p orbital makes the π bond to C.",
+  "origin": "original",
+  "choices": [
+   "sp",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>"
+  ],
+  "why": [
+   "O has 1 bonded atom + 2 lone pairs = 3 groups.",
+   "",
+   "A double or triple bond is one electron group."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 11
+  }
+ },
+ {
+  "id": "bondingtheories-8d111b1a",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Carbon dioxide, CO<sub style=\"font-size:12.544px;line-height:0px\">2</sub></p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -40 208 80\" style=\"width:208px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:208px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-49.0\" y1=\"-3.8\" x2=\"-15.0\" y2=\"-3.8\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-49.0\" y1=\"3.8\" x2=\"-15.0\" y2=\"3.8\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"-3.8\" x2=\"49.0\" y2=\"-3.8\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"3.8\" x2=\"49.0\" y2=\"3.8\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><circle cx=\"-79.6\" cy=\"18.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-72.4\" cy=\"22.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-72.4\" cy=\"-22.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-79.6\" cy=\"-18.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: O\"><circle cx=\"-64.0\" cy=\"0.0\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"-49.0\" cy=\"-16.0\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"-49.0\" y=\"-12.0\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"79.6\" cy=\"-18.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"72.4\" cy=\"-22.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"72.4\" cy=\"22.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"79.6\" cy=\"18.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text></svg></div></div><div>What is the hybridization of atom 1, the O double-bonded to C?</div>",
+  "answer": "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "O (atom 1): 1 bonded atom + 2 lone pairs = 3 groups → sp². The double bond counts as one group. Its leftover 1 unhybridized 2p orbital makes the π bond to C.",
+  "origin": "original",
+  "choices": [
+   "sp",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>"
+  ],
+  "why": [
+   "O has 1 bonded atom + 2 lone pairs = 3 groups.",
+   "",
+   "A double or triple bond is one electron group."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 12
+  }
+ },
+ {
+  "id": "bondingtheories-efa2fb18",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Acetaldehyde, CH<sub style=\"font-size:12.544px;line-height:0px\">3</sub>CHO</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -104 240 208\" style=\"width:240px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:240px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"68.2\" y1=\"-14.9\" x2=\"85.2\" y2=\"-44.3\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"74.8\" y1=\"-11.1\" x2=\"91.8\" y2=\"-40.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"71.5\" y1=\"13.0\" x2=\"88.5\" y2=\"42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"-15.0\" x2=\"0.0\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"15.0\" x2=\"0.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"87.6\" cy=\"-78.3\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"80.4\" cy=\"-74.1\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"120.0\" cy=\"-51.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"120.0\" cy=\"-59.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: O\"><circle cx=\"96.0\" cy=\"-55.4\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"96.0\" y=\"-48.4\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"111.0\" cy=\"-71.4\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"111.0\" y=\"-67.4\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g><text x=\"96.0\" y=\"62.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>What is the hybridization of atom 1, the O double-bonded to C?</div>",
+  "answer": "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "O (atom 1): 1 bonded atom + 2 lone pairs = 3 groups → sp². The double bond counts as one group. Its leftover 1 unhybridized 2p orbital makes the π bond to C.",
+  "origin": "original",
+  "choices": [
+   "sp",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>"
+  ],
+  "why": [
+   "O has 1 bonded atom + 2 lone pairs = 3 groups.",
+   "",
+   "A double or triple bond is one electron group."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 13
+  }
+ },
+ {
+  "id": "bondingtheories-aa3f3af5",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "text",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">CH<sub style=\"font-size:12.544px;line-height:0px\">3</sub>CN</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -104 272 208\" style=\"width:272px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:272px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"-6.5\" x2=\"113.0\" y2=\"-6.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"0.0\" x2=\"113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"6.5\" x2=\"113.0\" y2=\"6.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"-15.0\" x2=\"0.0\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"15.0\" x2=\"0.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"152.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"152.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: N\"><circle cx=\"128.0\" cy=\"0.0\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><circle cx=\"143.0\" cy=\"-16.0\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"143.0\" y=\"-12.0\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>Type the hybridization of atom 1 (the N triple-bonded to C).</div><p><small>Type sp, sp2, sp3 (sp² and sp^2 work too).</small></p>",
+  "answer": "sp",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "N (atom 1): 1 bonded atom + 1 lone pair = 2 groups → sp. The triple bond counts as one group. Its leftover 2 unhybridized 2p orbitals make the π bonds to C.",
+  "origin": "original",
+  "accept": [
+   "sp hybridized",
+   "sp-hybridized",
+   "sp hybrid"
+  ],
+  "caseSensitive": true,
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 14
+  }
+ },
+ {
+  "id": "bondingtheories-7c1d4f40",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "text",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">HONO</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -40 240 135\" style=\"width:240px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:240px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-49.0\" y1=\"0.0\" x2=\"-15.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"74.8\" y1=\"11.1\" x2=\"91.8\" y2=\"40.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"68.2\" y1=\"14.9\" x2=\"85.2\" y2=\"44.3\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><circle cx=\"-4.2\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"4.2\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"4.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-4.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"79.6\" cy=\"-18.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"72.4\" cy=\"-22.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><circle cx=\"120.0\" cy=\"59.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"120.0\" cy=\"51.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"80.4\" cy=\"74.1\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"87.6\" cy=\"78.3\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: O\"><circle cx=\"96.0\" cy=\"55.4\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"96.0\" y=\"62.4\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"111.0\" cy=\"39.4\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"111.0\" y=\"43.4\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g></svg></div></div><div>Type the hybridization of atom 1 (the O double-bonded to N).</div><p><small>Type sp, sp2, sp3 (sp² and sp^2 work too).</small></p>",
+  "answer": "sp2",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "O (atom 1): 1 bonded atom + 2 lone pairs = 3 groups → sp². The double bond counts as one group. Its leftover 1 unhybridized 2p orbital makes the π bond to N.",
+  "origin": "original",
+  "accept": [
+   "sp²",
+   "sp^2",
+   "sp 2",
+   "sp2 hybridized",
+   "sp² hybridized",
+   "sp^2 hybridized",
+   "sp 2 hybridized",
+   "sp2-hybridized",
+   "sp²-hybridized",
+   "sp^2-hybridized",
+   "sp 2-hybridized",
+   "sp2 hybrid",
+   "sp² hybrid",
+   "sp^2 hybrid",
+   "sp 2 hybrid"
+  ],
+  "caseSensitive": true,
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 15
+  }
+ },
+ {
+  "id": "bondingtheories-1785a85c",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "text",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">HCOOH</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -104 272 144\" style=\"width:272px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:272px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-3.8\" y1=\"-15.0\" x2=\"-3.8\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"3.8\" y1=\"-15.0\" x2=\"3.8\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"0.0\" x2=\"113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"-18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: O\"><circle cx=\"0.0\" cy=\"-64.0\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"15.0\" cy=\"-80.0\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"15.0\" y=\"-76.0\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g><circle cx=\"59.8\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"68.2\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"68.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"59.8\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>Type the hybridization of atom 1 (the O double-bonded to C).</div><p><small>Type sp, sp2, sp3 (sp² and sp^2 work too).</small></p>",
+  "answer": "sp2",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "O (atom 1): 1 bonded atom + 2 lone pairs = 3 groups → sp². The double bond counts as one group. Its leftover 1 unhybridized 2p orbital makes the π bond to C.",
+  "origin": "original",
+  "accept": [
+   "sp²",
+   "sp^2",
+   "sp 2",
+   "sp2 hybridized",
+   "sp² hybridized",
+   "sp^2 hybridized",
+   "sp 2 hybridized",
+   "sp2-hybridized",
+   "sp²-hybridized",
+   "sp^2-hybridized",
+   "sp 2-hybridized",
+   "sp2 hybrid",
+   "sp² hybrid",
+   "sp^2 hybrid",
+   "sp 2 hybrid"
+  ],
+  "caseSensitive": true,
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 16
+  }
+ },
+ {
+  "id": "bondingtheories-d3d8a117",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "text",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Hydrogen cyanide, HCN</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -40 208 80\" style=\"width:208px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:208px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-49.0\" y1=\"0.0\" x2=\"-15.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"-6.5\" x2=\"49.0\" y2=\"-6.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"6.5\" x2=\"49.0\" y2=\"6.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"88.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"88.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: N\"><circle cx=\"64.0\" cy=\"0.0\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><circle cx=\"79.0\" cy=\"-16.0\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"79.0\" y=\"-12.0\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g></svg></div></div><div>Type the hybridization of atom 1 (the N triple-bonded to C).</div><p><small>Type sp, sp2, sp3 (sp² and sp^2 work too).</small></p>",
+  "answer": "sp",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "N (atom 1): 1 bonded atom + 1 lone pair = 2 groups → sp. The triple bond counts as one group. Its leftover 2 unhybridized 2p orbitals make the π bonds to C.",
+  "origin": "original",
+  "accept": [
+   "sp hybridized",
+   "sp-hybridized",
+   "sp hybrid"
+  ],
+  "caseSensitive": true,
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 17
+  }
+ },
+ {
+  "id": "bondingtheories-988fe911",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Nitrogen, N<sub style=\"font-size:12.544px;line-height:0px\">2</sub></p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-40 -40 144 80\" style=\"width:144px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:144px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15.0\" y1=\"-6.5\" x2=\"49.0\" y2=\"-6.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"6.5\" x2=\"49.0\" y2=\"6.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><circle cx=\"-24.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-24.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: N\"><circle cx=\"0.0\" cy=\"0.0\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><circle cx=\"15.0\" cy=\"-16.0\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"15.0\" y=\"-12.0\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g><circle cx=\"88.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"88.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text></svg></div></div><div>What is the hybridization of atom 1, the N triple-bonded to N?</div>",
+  "answer": "sp",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "N (atom 1): 1 bonded atom + 1 lone pair = 2 groups → sp. The triple bond counts as one group. Its leftover 2 unhybridized 2p orbitals make the π bonds to N.",
+  "origin": "original",
+  "choices": [
+   "sp",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>"
+  ],
+  "why": [
+   "",
+   "N has 1 bonded atom + 1 lone pair = 2 groups.",
+   "A double or triple bond is one electron group."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 18
+  }
+ },
+ {
+  "id": "bondingtheories-68ce06fe",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "text",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Acetaldehyde, CH<sub style=\"font-size:12.544px;line-height:0px\">3</sub>CHO</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -104 240 208\" style=\"width:240px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:240px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"68.2\" y1=\"-14.9\" x2=\"85.2\" y2=\"-44.3\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"74.8\" y1=\"-11.1\" x2=\"91.8\" y2=\"-40.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"71.5\" y1=\"13.0\" x2=\"88.5\" y2=\"42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"-15.0\" x2=\"0.0\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"15.0\" x2=\"0.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"87.6\" cy=\"-78.3\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"80.4\" cy=\"-74.1\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"120.0\" cy=\"-51.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"120.0\" cy=\"-59.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: O\"><circle cx=\"96.0\" cy=\"-55.4\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"96.0\" y=\"-48.4\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"111.0\" cy=\"-71.4\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"111.0\" y=\"-67.4\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g><text x=\"96.0\" y=\"62.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>Type the hybridization of atom 1 (the O double-bonded to C).</div><p><small>Type sp, sp2, sp3 (sp² and sp^2 work too).</small></p>",
+  "answer": "sp2",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "O (atom 1): 1 bonded atom + 2 lone pairs = 3 groups → sp². The double bond counts as one group. Its leftover 1 unhybridized 2p orbital makes the π bond to C.",
+  "origin": "original",
+  "accept": [
+   "sp²",
+   "sp^2",
+   "sp 2",
+   "sp2 hybridized",
+   "sp² hybridized",
+   "sp^2 hybridized",
+   "sp 2 hybridized",
+   "sp2-hybridized",
+   "sp²-hybridized",
+   "sp^2-hybridized",
+   "sp 2-hybridized",
+   "sp2 hybrid",
+   "sp² hybrid",
+   "sp^2 hybrid",
+   "sp 2 hybrid"
+  ],
+  "caseSensitive": true,
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 19
+  }
+ },
+ {
+  "id": "bondingtheories-b2af221a",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">CH<sub style=\"font-size:12.544px;line-height:0px\">3</sub>CN</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -104 272 208\" style=\"width:272px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:272px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"-6.5\" x2=\"113.0\" y2=\"-6.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"0.0\" x2=\"113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"6.5\" x2=\"113.0\" y2=\"6.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"-15.0\" x2=\"0.0\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"15.0\" x2=\"0.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"152.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"152.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: N\"><circle cx=\"128.0\" cy=\"0.0\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><circle cx=\"143.0\" cy=\"-16.0\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"143.0\" y=\"-12.0\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>What is the hybridization of atom 1, the N triple-bonded to C?</div>",
+  "answer": "sp",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "N (atom 1): 1 bonded atom + 1 lone pair = 2 groups → sp. The triple bond counts as one group. Its leftover 2 unhybridized 2p orbitals make the π bonds to C.",
+  "origin": "original",
+  "choices": [
+   "sp",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>"
+  ],
+  "why": [
+   "",
+   "N has 1 bonded atom + 1 lone pair = 2 groups.",
+   "A double or triple bond is one electron group."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 20
+  }
+ },
+ {
+  "id": "bondingtheories-588ef98f",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">C<sub style=\"font-size:12.544px;line-height:0px\">3</sub>H<sub style=\"font-size:12.544px;line-height:0px\">3</sub>N</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-72 -95 240 246\" style=\"width:240px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:240px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15.0\" y1=\"-3.8\" x2=\"49.0\" y2=\"-3.8\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"3.8\" x2=\"49.0\" y2=\"3.8\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"71.5\" y1=\"13.0\" x2=\"88.5\" y2=\"42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"109.1\" y1=\"65.2\" x2=\"126.1\" y2=\"94.6\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"103.5\" y1=\"68.4\" x2=\"120.5\" y2=\"97.9\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"97.9\" y1=\"71.7\" x2=\"114.9\" y2=\"101.1\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-7.5\" y1=\"-13.0\" x2=\"-24.5\" y2=\"-42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-7.5\" y1=\"13.0\" x2=\"-24.5\" y2=\"42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"71.5\" y1=\"-13.0\" x2=\"88.5\" y2=\"-42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"96.0\" y=\"62.4\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"136.4\" cy=\"133.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"143.6\" cy=\"129.5\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: N\"><circle cx=\"128.0\" cy=\"110.9\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"128.0\" y=\"117.9\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><circle cx=\"143.0\" cy=\"94.9\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"143.0\" y=\"98.9\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g><text x=\"-32.0\" y=\"-48.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-32.0\" y=\"62.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"96.0\" y=\"-48.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>What is the hybridization of atom 1, the N triple-bonded to C?</div>",
+  "answer": "sp",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "N (atom 1): 1 bonded atom + 1 lone pair = 2 groups → sp. The triple bond counts as one group. Its leftover 2 unhybridized 2p orbitals make the π bonds to C.",
+  "origin": "original",
+  "choices": [
+   "sp",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>"
+  ],
+  "why": [
+   "",
+   "N has 1 bonded atom + 1 lone pair = 2 groups.",
+   "A double or triple bond is one electron group."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 21
+  }
+ },
+ {
+  "id": "bondingtheories-9f2b593a",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Urea, CO(NH<sub style=\"font-size:12.544px;line-height:0px\">2</sub>)<sub style=\"font-size:12.544px;line-height:0px\">2</sub></p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-168 -104 336 208\" style=\"width:336px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:336px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-3.8\" y1=\"-15.0\" x2=\"-3.8\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"3.8\" y1=\"-15.0\" x2=\"3.8\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-79.0\" y1=\"0.0\" x2=\"-113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-64.0\" y1=\"15.0\" x2=\"-64.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"0.0\" x2=\"113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"64.0\" y1=\"15.0\" x2=\"64.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"-18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: O\"><circle cx=\"0.0\" cy=\"-64.0\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"15.0\" cy=\"-80.0\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"15.0\" y=\"-76.0\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g><circle cx=\"-59.8\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-68.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><circle cx=\"68.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"59.8\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><text x=\"-128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-64.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"64.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>What is the hybridization of atom 1, the O double-bonded to C?</div>",
+  "answer": "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "O (atom 1): 1 bonded atom + 2 lone pairs = 3 groups → sp². The double bond counts as one group. Its leftover 1 unhybridized 2p orbital makes the π bond to C.",
+  "origin": "original",
+  "choices": [
+   "sp",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>"
+  ],
+  "why": [
+   "O has 1 bonded atom + 2 lone pairs = 3 groups.",
+   "",
+   "A double or triple bond is one electron group."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 22
+  }
+ },
+ {
+  "id": "bondingtheories-a24b3c62",
+  "skill": "bondingtheories.termhyb",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-7",
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Acetone, CH<sub style=\"font-size:12.544px;line-height:0px\">3</sub>COCH<sub style=\"font-size:12.544px;line-height:0px\">3</sub></p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-168 -104 336 208\" style=\"width:336px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:336px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one end atom numbered\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-3.8\" y1=\"-15.0\" x2=\"-3.8\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"3.8\" y1=\"-15.0\" x2=\"3.8\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-79.0\" y1=\"0.0\" x2=\"-113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-64.0\" y1=\"-15.0\" x2=\"-64.0\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-64.0\" y1=\"15.0\" x2=\"-64.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"0.0\" x2=\"113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"64.0\" y1=\"-15.0\" x2=\"64.0\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"64.0\" y1=\"15.0\" x2=\"64.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"-18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><g aria-label=\"Atom 1: O\"><circle cx=\"0.0\" cy=\"-64.0\" r=\"17\" fill=\"transparent\" stroke=\"transparent\"></circle><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"15.0\" cy=\"-80.0\" r=\"10\" style=\"fill:rgb(75, 87, 209)\"></circle><text x=\"15.0\" y=\"-76.0\" text-anchor=\"middle\" style=\"fill:rgb(255, 255, 255);font-size:12px;font-weight:800\">1</text></g><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"-128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-64.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-64.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"64.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"64.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>What is the hybridization of atom 1, the O double-bonded to C?</div>",
+  "answer": "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+  "hint": "Hybridize an end atom the same way as a central one: count its bonded atoms plus its lone pairs. A double or triple bond is one group.",
+  "explain": "O (atom 1): 1 bonded atom + 2 lone pairs = 3 groups → sp². The double bond counts as one group. Its leftover 1 unhybridized 2p orbital makes the π bond to C.",
+  "origin": "original",
+  "choices": [
+   "sp",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>"
+  ],
+  "why": [
+   "O has 1 bonded atom + 2 lone pairs = 3 groups.",
+   "",
+   "A double or triple bond is one electron group."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:termhyb",
+   "index": 23
+  }
+ },
+ {
+  "id": "bondingtheories-3f8255c7",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Formamide, HCONH<sub style=\"font-size:12.544px;line-height:0px\">2</sub></p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -104 272 208\" style=\"width:272px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:272px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0\" y1=\"-15\" x2=\"0\" y2=\"-49\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"-3.8\" y1=\"-15.0\" x2=\"-3.8\" y2=\"-49.0\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"3.8\" y1=\"-15.0\" x2=\"3.8\" y2=\"-49.0\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"0.0\" x2=\"113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"64.0\" y1=\"15.0\" x2=\"64.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"-18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><circle cx=\"68.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"59.8\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><text x=\"128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"64.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>Which describes the highlighted C=O double bond?</div>",
+  "answer": "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – O 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: C sp² – O sp²; π: C 2p – O 2p. C: 3 groups → sp²; O: 3 groups → sp².",
+  "origin": "original",
+  "choices": [
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – O 2p",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; two π: C 2p – O 2p",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>; π: C 2p – O 2p"
+  ],
+  "why": [
+   "",
+   "π bonds use unhybridized p orbitals, side by side. Hybrid orbitals make σ bonds and hold lone pairs.",
+   "A double bond is 1 σ + 1 π.",
+   "A double or triple bond is one electron group. So O is sp²."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 0
+  }
+ },
+ {
+  "id": "bondingtheories-6466d93b",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Ethene, C<sub style=\"font-size:12.544px;line-height:0px\">2</sub>H<sub style=\"font-size:12.544px;line-height:0px\">4</sub></p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-72 -95 208 191\" style=\"width:208px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:208px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15\" y1=\"0\" x2=\"49\" y2=\"0\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"-3.8\" x2=\"49.0\" y2=\"-3.8\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"3.8\" x2=\"49.0\" y2=\"3.8\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"-7.5\" y1=\"-13.0\" x2=\"-24.5\" y2=\"-42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-7.5\" y1=\"13.0\" x2=\"-24.5\" y2=\"42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"71.5\" y1=\"-13.0\" x2=\"88.5\" y2=\"-42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"71.5\" y1=\"13.0\" x2=\"88.5\" y2=\"42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"-32.0\" y=\"-48.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-32.0\" y=\"62.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"96.0\" y=\"-48.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"96.0\" y=\"62.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>Which describes the highlighted C=C double bond?</div>",
+  "answer": "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – C 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: C sp² – C sp²; π: C 2p – C 2p. C: 3 groups → sp²; C: 3 groups → sp².",
+  "origin": "original",
+  "choices": [
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – C 2p",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>; π: C 2p – C 2p",
+   "two σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>"
+  ],
+  "why": [
+   "",
+   "π bonds use unhybridized p orbitals, side by side. Hybrid orbitals make σ bonds and hold lone pairs.",
+   "A double or triple bond is one electron group. So C is sp².",
+   "Only one σ bond fits on the axis between two atoms. The second bond is π."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 1
+  }
+ },
+ {
+  "id": "bondingtheories-fde6325e",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">ClNO</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-95 -40 191 112\" style=\"width:191px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:191px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-13.0\" y1=\"7.5\" x2=\"-42.4\" y2=\"24.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"12.990285789431086\" y1=\"7.500165005445199\" x2=\"42.433714210568915\" y2=\"24.499834994554803\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"14.9\" y1=\"4.2\" x2=\"44.3\" y2=\"21.2\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"11.1\" y1=\"10.8\" x2=\"40.5\" y2=\"27.8\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><circle cx=\"4.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-4.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><circle cx=\"-47.1\" cy=\"54.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-39.8\" cy=\"50.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-78.3\" cy=\"40.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-74.1\" cy=\"47.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-63.8\" cy=\"9.1\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-71.1\" cy=\"13.3\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"-55.4\" y=\"39.0\" text-anchor=\"middle\" style=\"fill:rgb(35, 128, 79);font-size:21px;font-weight:700\">Cl</text><circle cx=\"78.3\" cy=\"23.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"74.1\" cy=\"16.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"51.2\" cy=\"56.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"59.6\" cy=\"56.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"55.4\" y=\"39.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text></svg></div></div><div>Which describes the highlighted N=O double bond?</div>",
+  "answer": "σ: N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: N 2p – O 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: N sp² – O sp²; π: N 2p – O 2p. N: 3 groups → sp²; O: 3 groups → sp².",
+  "origin": "original",
+  "choices": [
+   "σ: N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: N 2p – O 2p",
+   "σ: N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>; π: N 2p – O 2p",
+   "σ: N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; two π: N 2p – O 2p",
+   "σ: N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>"
+  ],
+  "why": [
+   "",
+   "A double or triple bond is one electron group. So O is sp².",
+   "A double bond is 1 σ + 1 π.",
+   "π bonds use unhybridized p orbitals, side by side. Hybrid orbitals make σ bonds and hold lone pairs."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 2
+  }
+ },
+ {
+  "id": "bondingtheories-4e300507",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">C<sub style=\"font-size:12.544px;line-height:0px\">3</sub>H<sub style=\"font-size:12.544px;line-height:0px\">3</sub>N</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-72 -95 240 246\" style=\"width:240px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:240px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15.0\" y1=\"-3.8\" x2=\"49.0\" y2=\"-3.8\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"3.8\" x2=\"49.0\" y2=\"3.8\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"71.5\" y1=\"13.0\" x2=\"88.5\" y2=\"42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"103.5\" y1=\"68.41600689897065\" x2=\"120.5\" y2=\"97.86087062764156\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"109.1\" y1=\"65.2\" x2=\"126.1\" y2=\"94.6\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"103.5\" y1=\"68.4\" x2=\"120.5\" y2=\"97.9\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"97.9\" y1=\"71.7\" x2=\"114.9\" y2=\"101.1\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"-7.5\" y1=\"-13.0\" x2=\"-24.5\" y2=\"-42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-7.5\" y1=\"13.0\" x2=\"-24.5\" y2=\"42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"71.5\" y1=\"-13.0\" x2=\"88.5\" y2=\"-42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"96.0\" y=\"62.4\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"136.4\" cy=\"133.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"143.6\" cy=\"129.5\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"128.0\" y=\"117.9\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><text x=\"-32.0\" y=\"-48.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-32.0\" y=\"62.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"96.0\" y=\"-48.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>Which describes the highlighted C≡N triple bond?</div>",
+  "answer": "σ: C sp – N sp; two π: C 2p – N 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: C sp – N sp; two π: C 2p – N 2p. C: 2 groups → sp; N: 2 groups → sp.",
+  "origin": "original",
+  "choices": [
+   "σ: C 2p – N 2p; two π: C sp – N sp",
+   "σ: C sp – N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; two π: C 2p – N 2p",
+   "σ: C sp – N sp; two π: C 2p – N 2p",
+   "σ: C sp – N sp; two π: C sp – N sp"
+  ],
+  "why": [
+   "Those are swapped. Head-on hybrid overlap makes the σ bond; side-by-side 2p overlap makes the π.",
+   "N has 1 bonded atom + 1 lone pair = 2 groups. So N is sp.",
+   "",
+   "π bonds use unhybridized p orbitals, side by side. Hybrid orbitals make σ bonds and hold lone pairs."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 3
+  }
+ },
+ {
+  "id": "bondingtheories-4d5e82ed",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">HONO</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -40 240 135\" style=\"width:240px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:240px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-49.0\" y1=\"0.0\" x2=\"-15.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"71.5\" y1=\"12.990381056766578\" x2=\"88.5\" y2=\"42.43524478543749\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"74.8\" y1=\"11.1\" x2=\"91.8\" y2=\"40.5\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"68.2\" y1=\"14.9\" x2=\"85.2\" y2=\"44.3\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><circle cx=\"-4.2\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"4.2\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"4.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-4.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"79.6\" cy=\"-18.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"72.4\" cy=\"-22.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><circle cx=\"120.0\" cy=\"59.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"120.0\" cy=\"51.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"80.4\" cy=\"74.1\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"87.6\" cy=\"78.3\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"96.0\" y=\"62.4\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text></svg></div></div><div>Which describes the highlighted N=O double bond?</div>",
+  "answer": "σ: N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: N 2p – O 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: N sp² – O sp²; π: N 2p – O 2p. N: 3 groups → sp²; O: 3 groups → sp².",
+  "origin": "original",
+  "choices": [
+   "σ: N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "σ: N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>; π: N 2p – O 2p",
+   "σ: N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: N 2p – O 2p",
+   "σ: N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; two π: N 2p – O 2p"
+  ],
+  "why": [
+   "π bonds use unhybridized p orbitals, side by side. Hybrid orbitals make σ bonds and hold lone pairs.",
+   "A double or triple bond is one electron group. So O is sp².",
+   "",
+   "A double bond is 1 σ + 1 π."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 4
+  }
+ },
+ {
+  "id": "bondingtheories-c68ca83e",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Acetaldehyde, CH<sub style=\"font-size:12.544px;line-height:0px\">3</sub>CHO</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -104 240 208\" style=\"width:240px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:240px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"71.5\" y1=\"-12.990381056766578\" x2=\"88.5\" y2=\"-42.43524478543749\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"68.2\" y1=\"-14.9\" x2=\"85.2\" y2=\"-44.3\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"74.8\" y1=\"-11.1\" x2=\"91.8\" y2=\"-40.5\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"71.5\" y1=\"13.0\" x2=\"88.5\" y2=\"42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"-15.0\" x2=\"0.0\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"15.0\" x2=\"0.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"87.6\" cy=\"-78.3\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"80.4\" cy=\"-74.1\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"120.0\" cy=\"-51.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"120.0\" cy=\"-59.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"96.0\" y=\"-48.4\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><text x=\"96.0\" y=\"62.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>Which describes the highlighted C=O double bond?</div>",
+  "answer": "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – O 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: C sp² – O sp²; π: C 2p – O 2p. C: 3 groups → sp²; O: 3 groups → sp².",
+  "origin": "original",
+  "choices": [
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>; π: C 2p – O 2p",
+   "σ: C 2p – O 2p; π: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – O 2p"
+  ],
+  "why": [
+   "A double or triple bond is one electron group. So O is sp².",
+   "Those are swapped. Head-on hybrid overlap makes the σ bond; side-by-side 2p overlap makes the π.",
+   "π bonds use unhybridized p orbitals, side by side. Hybrid orbitals make σ bonds and hold lone pairs.",
+   ""
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 5
+  }
+ },
+ {
+  "id": "bondingtheories-7a597847",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Acetone, CH<sub style=\"font-size:12.544px;line-height:0px\">3</sub>COCH<sub style=\"font-size:12.544px;line-height:0px\">3</sub></p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-168 -104 336 208\" style=\"width:336px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:336px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0\" y1=\"-15\" x2=\"0\" y2=\"-49\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"-3.8\" y1=\"-15.0\" x2=\"-3.8\" y2=\"-49.0\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"3.8\" y1=\"-15.0\" x2=\"3.8\" y2=\"-49.0\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-79.0\" y1=\"0.0\" x2=\"-113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-64.0\" y1=\"-15.0\" x2=\"-64.0\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-64.0\" y1=\"15.0\" x2=\"-64.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"0.0\" x2=\"113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"64.0\" y1=\"-15.0\" x2=\"64.0\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"64.0\" y1=\"15.0\" x2=\"64.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"-18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"-128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-64.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-64.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"64.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"64.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>Which describes the highlighted C=O double bond?</div>",
+  "answer": "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – O 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: C sp² – O sp²; π: C 2p – O 2p. C: 3 groups → sp²; O: 3 groups → sp².",
+  "origin": "original",
+  "choices": [
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>; π: C 2p – O 2p",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "two σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – O 2p"
+  ],
+  "why": [
+   "A double or triple bond is one electron group. So O is sp².",
+   "π bonds use unhybridized p orbitals, side by side. Hybrid orbitals make σ bonds and hold lone pairs.",
+   "Only one σ bond fits on the axis between two atoms. The second bond is π.",
+   ""
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 6
+  }
+ },
+ {
+  "id": "bondingtheories-5036e49a",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">C<sub style=\"font-size:12.544px;line-height:0px\">3</sub>H<sub style=\"font-size:12.544px;line-height:0px\">3</sub>N</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-72 -95 240 246\" style=\"width:240px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:240px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15\" y1=\"0\" x2=\"49\" y2=\"0\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"-3.8\" x2=\"49.0\" y2=\"-3.8\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"3.8\" x2=\"49.0\" y2=\"3.8\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"71.5\" y1=\"13.0\" x2=\"88.5\" y2=\"42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"109.1\" y1=\"65.2\" x2=\"126.1\" y2=\"94.6\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"103.5\" y1=\"68.4\" x2=\"120.5\" y2=\"97.9\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"97.9\" y1=\"71.7\" x2=\"114.9\" y2=\"101.1\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-7.5\" y1=\"-13.0\" x2=\"-24.5\" y2=\"-42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-7.5\" y1=\"13.0\" x2=\"-24.5\" y2=\"42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"71.5\" y1=\"-13.0\" x2=\"88.5\" y2=\"-42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"96.0\" y=\"62.4\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"136.4\" cy=\"133.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"143.6\" cy=\"129.5\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"128.0\" y=\"117.9\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><text x=\"-32.0\" y=\"-48.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-32.0\" y=\"62.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"96.0\" y=\"-48.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>Which describes the highlighted C=C double bond?</div>",
+  "answer": "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – C 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: C sp² – C sp²; π: C 2p – C 2p. C: 3 groups → sp²; C: 3 groups → sp².",
+  "origin": "original",
+  "choices": [
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – C 2p",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>; π: C 2p – C 2p",
+   "σ: C 2p – C 2p; π: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>"
+  ],
+  "why": [
+   "π bonds use unhybridized p orbitals, side by side. Hybrid orbitals make σ bonds and hold lone pairs.",
+   "",
+   "A double or triple bond is one electron group. So C is sp².",
+   "Those are swapped. Head-on hybrid overlap makes the σ bond; side-by-side 2p overlap makes the π."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 7
+  }
+ },
+ {
+  "id": "bondingtheories-54c0d897",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Hydrogen cyanide, HCN</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -40 208 80\" style=\"width:208px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:208px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-49.0\" y1=\"0.0\" x2=\"-15.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15\" y1=\"0\" x2=\"49\" y2=\"0\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"-6.5\" x2=\"49.0\" y2=\"-6.5\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"6.5\" x2=\"49.0\" y2=\"6.5\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"88.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"88.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text></svg></div></div><div>Which describes the highlighted C≡N triple bond?</div>",
+  "answer": "σ: C sp – N sp; two π: C 2p – N 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: C sp – N sp; two π: C 2p – N 2p. C: 2 groups → sp; N: 2 groups → sp.",
+  "origin": "original",
+  "choices": [
+   "σ: C sp – N sp; two π: C 2p – N 2p",
+   "σ: C sp – N sp; π: C 2p – N 2p",
+   "σ: C sp – N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; two π: C 2p – N 2p",
+   "three σ: C sp – N sp"
+  ],
+  "why": [
+   "",
+   "A triple bond is 1 σ + 2 π.",
+   "N has 1 bonded atom + 1 lone pair = 2 groups. So N is sp.",
+   "Only one σ bond fits on the axis between two atoms. The other two bonds are π."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 8
+  }
+ },
+ {
+  "id": "bondingtheories-e9bb31f7",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">HCOOH</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -104 272 144\" style=\"width:272px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:272px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0\" y1=\"-15\" x2=\"0\" y2=\"-49\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"-3.8\" y1=\"-15.0\" x2=\"-3.8\" y2=\"-49.0\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"3.8\" y1=\"-15.0\" x2=\"3.8\" y2=\"-49.0\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"0.0\" x2=\"113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"-18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"59.8\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"68.2\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"68.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"59.8\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>Which describes the highlighted C=O double bond?</div>",
+  "answer": "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – O 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: C sp² – O sp²; π: C 2p – O 2p. C: 3 groups → sp²; O: 3 groups → sp².",
+  "origin": "original",
+  "choices": [
+   "two σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>; π: C 2p – O 2p",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – O 2p"
+  ],
+  "why": [
+   "Only one σ bond fits on the axis between two atoms. The second bond is π.",
+   "π bonds use unhybridized p orbitals, side by side. Hybrid orbitals make σ bonds and hold lone pairs.",
+   "A double or triple bond is one electron group. So O is sp².",
+   ""
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 9
+  }
+ },
+ {
+  "id": "bondingtheories-c3286481",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">N<sub style=\"font-size:12.544px;line-height:0px\">2</sub>F<sub style=\"font-size:12.544px;line-height:0px\">2</sub></p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-72 -95 208 191\" style=\"width:208px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:208px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-24.5\" y1=\"-42.4\" x2=\"-7.5\" y2=\"-13.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15\" y1=\"0\" x2=\"49\" y2=\"0\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"-3.8\" x2=\"49.0\" y2=\"-3.8\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"3.8\" x2=\"49.0\" y2=\"3.8\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"71.5\" y1=\"13.0\" x2=\"88.5\" y2=\"42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><circle cx=\"-54.9\" cy=\"-47.1\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-50.7\" cy=\"-39.8\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-40.4\" cy=\"-78.3\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-47.6\" cy=\"-74.1\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-9.1\" cy=\"-63.8\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-13.3\" cy=\"-71.1\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"-32.0\" y=\"-48.4\" text-anchor=\"middle\" style=\"fill:rgb(35, 128, 79);font-size:21px;font-weight:700\">F</text><circle cx=\"-15.6\" cy=\"18.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-8.4\" cy=\"22.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><circle cx=\"79.6\" cy=\"-18.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"72.4\" cy=\"-22.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><circle cx=\"118.9\" cy=\"47.1\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"114.7\" cy=\"39.8\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"104.4\" cy=\"78.3\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"111.6\" cy=\"74.1\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"73.1\" cy=\"63.8\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"77.3\" cy=\"71.1\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"96.0\" y=\"62.4\" text-anchor=\"middle\" style=\"fill:rgb(35, 128, 79);font-size:21px;font-weight:700\">F</text></svg></div></div><div>Which describes the highlighted N=N double bond?</div>",
+  "answer": "σ: N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: N 2p – N 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: N sp² – N sp²; π: N 2p – N 2p. N: 3 groups → sp²; N: 3 groups → sp².",
+  "origin": "original",
+  "choices": [
+   "σ: N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "σ: N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: N 2p – N 2p",
+   "σ: N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – N sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>; π: N 2p – N 2p",
+   "σ: N 2p – N 2p; π: N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>"
+  ],
+  "why": [
+   "π bonds use unhybridized p orbitals, side by side. Hybrid orbitals make σ bonds and hold lone pairs.",
+   "",
+   "A double or triple bond is one electron group. So N is sp².",
+   "Those are swapped. Head-on hybrid overlap makes the σ bond; side-by-side 2p overlap makes the π."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 10
+  }
+ },
+ {
+  "id": "bondingtheories-166dec87",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Formaldehyde, CH<sub style=\"font-size:12.544px;line-height:0px\">2</sub>O</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-95 -104 191 176\" style=\"width:191px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:191px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0\" y1=\"-15\" x2=\"0\" y2=\"-49\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"-3.8\" y1=\"-15.0\" x2=\"-3.8\" y2=\"-49.0\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"3.8\" y1=\"-15.0\" x2=\"3.8\" y2=\"-49.0\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"-13.0\" y1=\"7.5\" x2=\"-42.4\" y2=\"24.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"13.0\" y1=\"7.5\" x2=\"42.4\" y2=\"24.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"-18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><text x=\"-55.4\" y=\"39.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"55.4\" y=\"39.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>Which describes the highlighted C=O double bond?</div>",
+  "answer": "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – O 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: C sp² – O sp²; π: C 2p – O 2p. C: 3 groups → sp²; O: 3 groups → sp².",
+  "origin": "original",
+  "choices": [
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>; π: C 2p – O 2p",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; two π: C 2p – O 2p",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – O 2p",
+   "two σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>"
+  ],
+  "why": [
+   "A double or triple bond is one electron group. So O is sp².",
+   "A double bond is 1 σ + 1 π.",
+   "",
+   "Only one σ bond fits on the axis between two atoms. The second bond is π."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 11
+  }
+ },
+ {
+  "id": "bondingtheories-3ac9f77e",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">CH<sub style=\"font-size:12.544px;line-height:0px\">3</sub>CN</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -104 272 208\" style=\"width:272px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:272px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"79\" y1=\"0\" x2=\"113\" y2=\"0\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"-6.5\" x2=\"113.0\" y2=\"-6.5\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"0.0\" x2=\"113.0\" y2=\"0.0\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"6.5\" x2=\"113.0\" y2=\"6.5\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"-15.0\" x2=\"0.0\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"15.0\" x2=\"0.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"152.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"152.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>Which describes the highlighted C≡N triple bond?</div>",
+  "answer": "σ: C sp – N sp; two π: C 2p – N 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: C sp – N sp; two π: C 2p – N 2p. C: 2 groups → sp; N: 2 groups → sp.",
+  "origin": "original",
+  "choices": [
+   "three σ: C sp – N sp",
+   "σ: C sp – N sp; two π: C 2p – N 2p",
+   "σ: C sp – N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; two π: C 2p – N 2p",
+   "σ: C sp – N sp; two π: C sp – N sp"
+  ],
+  "why": [
+   "Only one σ bond fits on the axis between two atoms. The other two bonds are π.",
+   "",
+   "N has 1 bonded atom + 1 lone pair = 2 groups. So N is sp.",
+   "π bonds use unhybridized p orbitals, side by side. Hybrid orbitals make σ bonds and hold lone pairs."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 12
+  }
+ },
+ {
+  "id": "bondingtheories-40c0c8a0",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Urea, CO(NH<sub style=\"font-size:12.544px;line-height:0px\">2</sub>)<sub style=\"font-size:12.544px;line-height:0px\">2</sub></p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-168 -104 336 208\" style=\"width:336px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:336px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0\" y1=\"-15\" x2=\"0\" y2=\"-49\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"-3.8\" y1=\"-15.0\" x2=\"-3.8\" y2=\"-49.0\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"3.8\" y1=\"-15.0\" x2=\"3.8\" y2=\"-49.0\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-79.0\" y1=\"0.0\" x2=\"-113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-64.0\" y1=\"15.0\" x2=\"-64.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"0.0\" x2=\"113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"64.0\" y1=\"15.0\" x2=\"64.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"-18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"-59.8\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-68.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><circle cx=\"68.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"59.8\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><text x=\"-128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-64.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"64.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>Which describes the highlighted C=O double bond?</div>",
+  "answer": "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – O 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: C sp² – O sp²; π: C 2p – O 2p. C: 3 groups → sp²; O: 3 groups → sp².",
+  "origin": "original",
+  "choices": [
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – O 2p",
+   "σ: C 2p – O 2p; π: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>; π: C 2p – O 2p",
+   "two σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>"
+  ],
+  "why": [
+   "",
+   "Those are swapped. Head-on hybrid overlap makes the σ bond; side-by-side 2p overlap makes the π.",
+   "A double or triple bond is one electron group. So O is sp².",
+   "Only one σ bond fits on the axis between two atoms. The second bond is π."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 13
+  }
+ },
+ {
+  "id": "bondingtheories-da552366",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Carbon dioxide, CO<sub style=\"font-size:12.544px;line-height:0px\">2</sub></p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -40 208 80\" style=\"width:208px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:208px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-49\" y1=\"0\" x2=\"-15\" y2=\"0\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"-49.0\" y1=\"-3.8\" x2=\"-15.0\" y2=\"-3.8\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"-49.0\" y1=\"3.8\" x2=\"-15.0\" y2=\"3.8\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"-3.8\" x2=\"49.0\" y2=\"-3.8\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"3.8\" x2=\"49.0\" y2=\"3.8\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><circle cx=\"-79.6\" cy=\"18.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-72.4\" cy=\"22.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-72.4\" cy=\"-22.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-79.6\" cy=\"-18.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"79.6\" cy=\"-18.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"72.4\" cy=\"-22.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"72.4\" cy=\"22.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"79.6\" cy=\"18.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text></svg></div></div><div>Which describes the highlighted O=C double bond?</div>",
+  "answer": "σ: O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp; π: O 2p – C 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: O sp² – C sp; π: O 2p – C 2p. O: 3 groups → sp²; C: 2 groups → sp.",
+  "origin": "original",
+  "choices": [
+   "two σ: O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp",
+   "σ: O 2p – C 2p; π: O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp",
+   "σ: O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp; π: O 2p – C 2p",
+   "σ: O sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup> – C sp; π: O 2p – C 2p"
+  ],
+  "why": [
+   "Only one σ bond fits on the axis between two atoms. The second bond is π.",
+   "Those are swapped. Head-on hybrid overlap makes the σ bond; side-by-side 2p overlap makes the π.",
+   "",
+   "A double or triple bond is one electron group. So O is sp²."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 14
+  }
+ },
+ {
+  "id": "bondingtheories-31f56e00",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">CH<sub style=\"font-size:12.544px;line-height:0px\">3</sub>COOH</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -104 336 208\" style=\"width:336px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:336px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"64\" y1=\"-15\" x2=\"64\" y2=\"-49\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"60.2\" y1=\"-15.0\" x2=\"60.2\" y2=\"-49.0\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"67.8\" y1=\"-15.0\" x2=\"67.8\" y2=\"-49.0\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"0.0\" x2=\"113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"-15.0\" x2=\"0.0\" y2=\"-49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"15.0\" x2=\"0.0\" y2=\"49.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-49.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"143.0\" y1=\"0.0\" x2=\"177.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"45.3\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"41.1\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"86.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"82.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"64.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"123.8\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"132.2\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"132.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"123.8\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"71.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"192.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>Which describes the highlighted C=O double bond?</div>",
+  "answer": "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – O 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: C sp² – O sp²; π: C 2p – O 2p. C: 3 groups → sp²; O: 3 groups → sp².",
+  "origin": "original",
+  "choices": [
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; two π: C 2p – O 2p",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>; π: C 2p – O 2p",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – O 2p",
+   "two σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>"
+  ],
+  "why": [
+   "A double bond is 1 σ + 1 π.",
+   "A double or triple bond is one electron group. So O is sp².",
+   "",
+   "Only one σ bond fits on the axis between two atoms. The second bond is π."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 15
+  }
+ },
+ {
+  "id": "bondingtheories-ac61368f",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Nitrogen, N<sub style=\"font-size:12.544px;line-height:0px\">2</sub></p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-40 -40 144 80\" style=\"width:144px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:144px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15\" y1=\"0\" x2=\"49\" y2=\"0\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"-6.5\" x2=\"49.0\" y2=\"-6.5\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"6.5\" x2=\"49.0\" y2=\"6.5\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><circle cx=\"-24.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-24.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><circle cx=\"88.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"88.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text></svg></div></div><div>Which describes the highlighted N≡N triple bond?</div>",
+  "answer": "σ: N sp – N sp; two π: N 2p – N 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: N sp – N sp; two π: N 2p – N 2p. N: 2 groups → sp; N: 2 groups → sp.",
+  "origin": "original",
+  "choices": [
+   "σ: N sp – N sp; π: N 2p – N 2p",
+   "three σ: N sp – N sp",
+   "σ: N sp – N sp; two π: N 2p – N 2p",
+   "σ: N sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – N sp; two π: N 2p – N 2p"
+  ],
+  "why": [
+   "A triple bond is 1 σ + 2 π.",
+   "Only one σ bond fits on the axis between two atoms. The other two bonds are π.",
+   "",
+   "N has 1 bonded atom + 1 lone pair = 2 groups. So N is sp."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 16
+  }
+ },
+ {
+  "id": "bondingtheories-76e1b5b2",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Ethyne, C<sub style=\"font-size:12.544px;line-height:0px\">2</sub>H<sub style=\"font-size:12.544px;line-height:0px\">2</sub></p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-104 -40 272 80\" style=\"width:272px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:272px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-49.0\" y1=\"0.0\" x2=\"-15.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15\" y1=\"0\" x2=\"49\" y2=\"0\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"-6.5\" x2=\"49.0\" y2=\"-6.5\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"49.0\" y2=\"0.0\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"6.5\" x2=\"49.0\" y2=\"6.5\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"79.0\" y1=\"0.0\" x2=\"113.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"128.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>Which describes the highlighted C≡C triple bond?</div>",
+  "answer": "σ: C sp – C sp; two π: C 2p – C 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: C sp – C sp; two π: C 2p – C 2p. C: 2 groups → sp; C: 2 groups → sp.",
+  "origin": "original",
+  "choices": [
+   "σ: C sp – C sp; two π: C 2p – C 2p",
+   "σ: C sp – C sp; two π: C sp – C sp",
+   "σ: C sp – C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; two π: C 2p – C 2p",
+   "σ: C sp – C sp; π: C 2p – C 2p"
+  ],
+  "why": [
+   "",
+   "π bonds use unhybridized p orbitals, side by side. Hybrid orbitals make σ bonds and hold lone pairs.",
+   "C has 2 bonded atoms + 0 lone pairs = 2 groups. So C is sp.",
+   "A triple bond is 1 σ + 2 π."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 17
+  }
+ },
+ {
+  "id": "bondingtheories-8338ed88",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Cl<sub style=\"font-size:12.544px;line-height:0px\">2</sub>CO</p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-95 -104 191 176\" style=\"width:191px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:191px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0\" y1=\"-15\" x2=\"0\" y2=\"-49\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"-3.8\" y1=\"-15.0\" x2=\"-3.8\" y2=\"-49.0\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"3.8\" y1=\"-15.0\" x2=\"3.8\" y2=\"-49.0\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"-13.0\" y1=\"7.5\" x2=\"-42.4\" y2=\"24.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"13.0\" y1=\"7.5\" x2=\"42.4\" y2=\"24.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"-18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"22.9\" cy=\"-72.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"18.7\" cy=\"-79.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"0.0\" y=\"-57.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><circle cx=\"-47.1\" cy=\"54.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-39.8\" cy=\"50.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-78.3\" cy=\"40.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-74.1\" cy=\"47.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-63.8\" cy=\"9.1\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-71.1\" cy=\"13.3\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"-55.4\" y=\"39.0\" text-anchor=\"middle\" style=\"fill:rgb(35, 128, 79);font-size:21px;font-weight:700\">Cl</text><circle cx=\"71.1\" cy=\"13.3\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"63.8\" cy=\"9.1\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"74.1\" cy=\"47.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"78.3\" cy=\"40.4\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"39.8\" cy=\"50.7\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"47.1\" cy=\"54.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"55.4\" y=\"39.0\" text-anchor=\"middle\" style=\"fill:rgb(35, 128, 79);font-size:21px;font-weight:700\">Cl</text></svg></div></div><div>Which describes the highlighted C=O double bond?</div>",
+  "answer": "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – O 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: C sp² – O sp²; π: C 2p – O 2p. C: 3 groups → sp²; O: 3 groups → sp².",
+  "origin": "original",
+  "choices": [
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup>; π: C 2p – O 2p",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; two π: C 2p – O 2p",
+   "two σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – O sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup>; π: C 2p – O 2p"
+  ],
+  "why": [
+   "A double or triple bond is one electron group. So O is sp².",
+   "A double bond is 1 σ + 1 π.",
+   "Only one σ bond fits on the axis between two atoms. The second bond is π.",
+   ""
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 18
+  }
+ },
+ {
+  "id": "bondingtheories-120f6292",
+  "skill": "bondingtheories.bonddesc",
+  "courses": [
+   "1A",
+   "1B"
+  ],
+  "chapters": [
+   "1A-8",
+   "1B-ready"
+  ],
+  "type": "mc",
+  "prompt": "<div><p style=\"font-size:17.92px;font-weight:650;line-height:27.776px;margin:0px 0px 6px 0px\">Allene, C<sub style=\"font-size:12.544px;line-height:0px\">3</sub>H<sub style=\"font-size:12.544px;line-height:0px\">4</sub></p><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"-136 -95 272 191\" style=\"width:272px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:272px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Structure with one bond highlighted\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-49\" y1=\"0\" x2=\"-15\" y2=\"0\" stroke=\"#ffd6df\" stroke-width=\"20\" stroke-linecap=\"round\"></line><line x1=\"-49.0\" y1=\"-3.8\" x2=\"-15.0\" y2=\"-3.8\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"-49.0\" y1=\"3.8\" x2=\"-15.0\" y2=\"3.8\" stroke=\"#d9577f\" stroke-width=\"3.4\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"-3.8\" x2=\"49.0\" y2=\"-3.8\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"3.8\" x2=\"49.0\" y2=\"3.8\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-71.5\" y1=\"-13.0\" x2=\"-88.5\" y2=\"-42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-71.5\" y1=\"13.0\" x2=\"-88.5\" y2=\"42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"71.5\" y1=\"-13.0\" x2=\"88.5\" y2=\"-42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"71.5\" y1=\"13.0\" x2=\"88.5\" y2=\"42.4\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"-64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"64.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"-96.0\" y=\"-48.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-96.0\" y=\"62.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"96.0\" y=\"-48.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"96.0\" y=\"62.4\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg></div></div><div>Which describes the highlighted C=C double bond?</div>",
+  "answer": "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp; π: C 2p – C 2p",
+  "hint": "Find each atom’s hybridization first (groups → sp, sp², sp³). σ uses hybrids; π uses the leftover 2p orbitals.",
+  "explain": "σ: C sp² – C sp; π: C 2p – C 2p. C: 3 groups → sp²; C: 2 groups → sp.",
+  "origin": "original",
+  "choices": [
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp; π: C 2p – C 2p",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp; two π: C 2p – C 2p",
+   "σ: C sp<sup style=\"font-size:11.648px;line-height:0px\">3</sup> – C sp; π: C 2p – C 2p",
+   "σ: C 2p – C 2p; π: C sp<sup style=\"font-size:11.648px;line-height:0px\">2</sup> – C sp"
+  ],
+  "why": [
+   "",
+   "A double bond is 1 σ + 1 π.",
+   "A double or triple bond is one electron group. So C is sp².",
+   "Those are swapped. Head-on hybrid overlap makes the σ bond; side-by-side 2p overlap makes the π."
+  ],
+  "from": {
+   "game": "bondingtheories",
+   "list": "sample:bonddesc",
+   "index": 19
+  }
  }
 ]
