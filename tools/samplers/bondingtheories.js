@@ -13,7 +13,8 @@ const TOPICS = ['whatbond', 'pecurve', 'gallery', 'which', 'strength', 'why', 't
   'count', 'skelcount', 'boss', 'lcao', 'ordering', 'trends', 'theory', 'scBO',
   'howmany', 'reverse', 'paralist', 'moorder', 'moconcept',    // added with game v6
   'scHyb', 'scAtom',                                           // typed hybridization (skills groups, tagger), added with game v15
-  'termhyb', 'bonddesc'];                                      // end-atom hybridization (C=O oxygen, C≡N nitrogen) and whole-bond descriptions, game v16
+  'termhyb', 'bonddesc',
+  'bequick'];                                                   // bond energies → ΔH (OpenStax §7.5, so chapter 1A-7), game v19                                      // end-atom hybridization (C=O oxygen, C≡N nitrogen) and whole-bond descriptions, game v16
 const WANT = 24;
 
 module.exports = async (page, ctx) => {
@@ -73,7 +74,7 @@ module.exports = async (page, ctx) => {
     raw.forEach((r, index) => {
       if (!r.ok) throw new Error(`${t}: the game did not accept its own answer (${String(r.answer).slice(0, 60)})`);
       const item = {
-        skill: `${GAME}.${r.topic}`, courses: ['1A', '1B'], chapters: CH[r.tile].concat('1B-ready'), type: r.type, prompt: r.prompt,
+        skill: `${GAME}.${r.topic}`, courses: ['1A', '1B'], chapters: (r.topic === 'bequick' ? ['1A-7'] : CH[r.tile]).concat('1B-ready'), type: r.type, prompt: r.prompt,
         answer: r.answer, hint: r.hint, explain: r.explain, origin: 'original', from: { game: GAME, list: `sample:${t}`, index },
       };
       if (r.type === 'mc') { item.choices = r.choices; if (r.why.some(Boolean)) item.why = r.why; }
