@@ -887,5 +887,5 @@ function reason(item, picked, ctx) {
   const p = plain(picked), i = (item.choices || []).findIndex(c => plain(c) === p);
   return i >= 0 ? (w[i] || '') : '';
 }
-window.QBWhy = { reasons, reason, version: "2026-11-11" };
+window.QBWhy = { reasons, reason, version: "2026-11-12" };
 })();

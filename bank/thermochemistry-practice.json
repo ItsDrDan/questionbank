@@ -1294,7 +1294,7 @@
   "unit": "g",
   "tolerance": 0.005,
   "hint": "Check your sign and unit. Cooling q is negative, but mass and specific heat are positive. Plan: Identify given quantities → Find signed ΔT or rearrange → Match energy units → m = q / (cΔT) → Report g.",
-  "explain": "<ol><li><b>Find the signed temperature change:</b> <div class=\"math\">10.6 − 20.1 = -9.5 °C.</div></li><li><b>Set up the equation:</b> <div class=\"math\">m = q / (cΔT)</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">-107 J/0.385 J/(g·°C) × -9.5 °C = 29.3 g.</div></li></ol>",
+  "explain": "<ol><li><b>Find the signed temperature change:</b> <div class=\"math\">10.6 − 20.1 = -9.50 °C.</div></li><li><b>Set up the equation:</b> <div class=\"math\">m = q / (cΔT)</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">-107 J/0.385 J/(g·°C) × -9.50 °C = 29.3 g.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1317,7 +1317,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "Calculate in joules, then divide by 1000. Plan: Volume × density → mass → Find ΔT → q = mcΔT → J → kJ.",
-  "explain": "<ol><li><b>Convert volume to mass:</b> <div class=\"math\">97.5 mL × 1.00 g/mL = 97.5 g</div></li><li><b>Temperature change:</b> <div class=\"math\">59.1 − 22.4 = 36.7 °C</div></li><li><b>Calculate heat:</b> <div class=\"math\">97.5 × 4.184 × 36.7 = 1.50 × 10⁴ J = 15 kJ</div></li></ol>",
+  "explain": "<ol><li><b>Convert volume to mass:</b> <div class=\"math\">97.5 mL × 1.00 g/mL = 97.5 g</div></li><li><b>Temperature change:</b> <div class=\"math\">59.1 − 22.4 = 36.7 °C</div></li><li><b>Calculate heat:</b> <div class=\"math\">97.5 × 4.184 × 36.7 = 1.50 × 10⁴ J = 15.0 kJ</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1326,7 +1326,7 @@
   }
  },
  {
-  "id": "thermochemistry-549d210a",
+  "id": "thermochemistry-5f74298d",
   "skill": "thermochemistry.specific-heat",
   "courses": [
    "3A"
@@ -1335,12 +1335,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>A 82 g sample of water changes from 26.1 °C to 44.8 °C. Its specific heat is 4.184 J/(g·°C). Calculate signed heat q in cal. Assume no phase change and constant specific heat over this interval.</p><p><b>Enter:</b> Signed heat q (cal)</p>",
+  "prompt": "<p>A 82.0 g sample of water changes from 26.1 °C to 44.8 °C. Its specific heat is 4.184 J/(g·°C). Calculate signed heat q in cal. Assume no phase change and constant specific heat over this interval.</p><p><b>Enter:</b> Signed heat q (cal)</p>",
   "answer": 1533.4,
   "unit": "cal",
   "tolerance": 0.005,
   "hint": "Check your sign and unit. Cooling q is negative, but mass and specific heat are positive. Plan: Identify given quantities → Find signed ΔT or rearrange → Match energy units → q = mcΔT → Report cal.",
-  "explain": "<ol><li><b>Find the signed temperature change:</b> <div class=\"math\">44.8 − 26.1 = 18.7 °C.</div></li><li><b>Set up the equation:</b> <div class=\"math\">q = mcΔT</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">82 g × 4.184 J/(g·°C) × 18.7 °C = 6420 J. Divide by 4.184 J/cal to get 1530 cal.</div></li></ol>",
+  "explain": "<ol><li><b>Find the signed temperature change:</b> <div class=\"math\">44.8 − 26.1 = 18.7 °C.</div></li><li><b>Set up the equation:</b> <div class=\"math\">q = mcΔT</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">82.0 g × 4.184 J/(g·°C) × 18.7 °C = 6420 J. Divide by 4.184 J/cal to get 1530 cal.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1425,7 +1425,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "Calculate in joules, then divide by 1000. Plan: Volume × density → mass → Find ΔT → q = mcΔT → J → kJ.",
-  "explain": "<ol><li><b>Convert volume to mass:</b> <div class=\"math\">195.4 mL × 1.00 g/mL = 195.4 g</div></li><li><b>Temperature change:</b> <div class=\"math\">45.5 − 16.1 = 29.4 °C</div></li><li><b>Calculate heat:</b> <div class=\"math\">195.4 × 4.184 × 29.4 = 2.40 × 10⁴ J = 24 kJ</div></li></ol>",
+  "explain": "<ol><li><b>Convert volume to mass:</b> <div class=\"math\">195.4 mL × 1.00 g/mL = 195.4 g</div></li><li><b>Temperature change:</b> <div class=\"math\">45.5 − 16.1 = 29.4 °C</div></li><li><b>Calculate heat:</b> <div class=\"math\">195.4 × 4.184 × 29.4 = 2.40 × 10⁴ J = 24.0 kJ</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1533,7 +1533,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "Calculate in joules, then divide by 1000. Plan: Volume × density → mass → Find ΔT → q = mcΔT → J → kJ.",
-  "explain": "<ol><li><b>Convert volume to mass:</b> <div class=\"math\">128.4 mL × 1.00 g/mL = 128.4 g</div></li><li><b>Temperature change:</b> <div class=\"math\">55.5 − 23.8 = 31.7 °C</div></li><li><b>Calculate heat:</b> <div class=\"math\">128.4 × 4.184 × 31.7 = 1.70 × 10⁴ J = 17 kJ</div></li></ol>",
+  "explain": "<ol><li><b>Convert volume to mass:</b> <div class=\"math\">128.4 mL × 1.00 g/mL = 128.4 g</div></li><li><b>Temperature change:</b> <div class=\"math\">55.5 − 23.8 = 31.7 °C</div></li><li><b>Calculate heat:</b> <div class=\"math\">128.4 × 4.184 × 31.7 = 1.70 × 10⁴ J = 17.0 kJ</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1609,7 +1609,7 @@
   ],
   "answer": "Bismuth",
   "hint": "Use the calculated c, not the mass, to identify the sample. Plan: Find ΔT → Calculate c = q/(mΔT) → Compare with the supplied chart.",
-  "explain": "<ol><li><b>Temperature change:</b> <div class=\"math\">58.6 − 20.7 = 37.9 °C</div></li><li><b>Calculate specific heat:</b> <div class=\"math\">120 / (26 × 37.9) = 0.122 J/(g·°C)</div></li><li><b>Identify the sample:</b> The chart value 0.122 J/(g·°C) matches bismuth.</li></ol>",
+  "explain": "<ol><li><b>Temperature change:</b> <div class=\"math\">58.6 − 20.7 = 37.9 °C</div></li><li><b>Calculate specific heat:</b> <div class=\"math\">120. / (26 × 37.9) = 0.122 J/(g·°C)</div></li><li><b>Identify the sample:</b> The chart value 0.122 J/(g·°C) matches bismuth.</li></ol>",
   "why": [
    "Copper has c = 0.385 J/(g·°C). Your calculated c is 0.122 J/(g·°C): use c = q ÷ (m × ΔT).",
    "Diamond has c = 0.509 J/(g·°C). Your calculated c is 0.122 J/(g·°C): use c = q ÷ (m × ΔT).",
@@ -1627,7 +1627,7 @@
   }
  },
  {
-  "id": "thermochemistry-14356388",
+  "id": "thermochemistry-d029308d",
   "skill": "thermochemistry.specific-heat",
   "courses": [
    "3A"
@@ -1636,12 +1636,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>A 39.2 g sample of gold changes from 15.2 °C to 8.3 °C. Its specific heat is 0.128 J/(g·°C). Calculate signed heat q in kJ. Assume no phase change and constant specific heat over this interval.</p><p><b>Enter:</b> Signed heat q (kJ)</p>",
+  "prompt": "<p>A 39.2 g sample of gold changes from 15.2 °C to 8.30 °C. Its specific heat is 0.128 J/(g·°C). Calculate signed heat q in kJ. Assume no phase change and constant specific heat over this interval.</p><p><b>Enter:</b> Signed heat q (kJ)</p>",
   "answer": -0.0346214,
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "Check your sign and unit. Cooling q is negative, but mass and specific heat are positive. Plan: Identify given quantities → Find signed ΔT or rearrange → Match energy units → q = mcΔT → Report kJ.",
-  "explain": "<ol><li><b>Find the signed temperature change:</b> <div class=\"math\">8.3 − 15.2 = -6.9 °C.</div></li><li><b>Set up the equation:</b> <div class=\"math\">q = mcΔT</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">39.2 g × 0.128 J/(g·°C) × -6.9 °C = -34.6 J. Divide by 1000 to get -0.0346 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Find the signed temperature change:</b> <div class=\"math\">8.30 − 15.2 = -6.90 °C.</div></li><li><b>Set up the equation:</b> <div class=\"math\">q = mcΔT</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">39.2 g × 0.128 J/(g·°C) × -6.90 °C = -34.6 J. Divide by 1000 to get -0.0346 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1673,7 +1673,7 @@
   }
  },
  {
-  "id": "thermochemistry-216ba306",
+  "id": "thermochemistry-02d25bfe",
   "skill": "thermochemistry.specific-heat",
   "courses": [
    "3A"
@@ -1682,12 +1682,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>A iron sample changes from 19.9 °C to 8.6 °C while releasing 403.36 J. Its specific heat is 0.449 J/(g·°C). Find its mass. Assume no phase change and constant specific heat over this interval.</p><p><b>Enter:</b> Mass (g)</p>",
+  "prompt": "<p>A iron sample changes from 19.9 °C to 8.60 °C while releasing 403.36 J. Its specific heat is 0.449 J/(g·°C). Find its mass. Assume no phase change and constant specific heat over this interval.</p><p><b>Enter:</b> Mass (g)</p>",
   "answer": 79.5,
   "unit": "g",
   "tolerance": 0.005,
   "hint": "Check your sign and unit. Cooling q is negative, but mass and specific heat are positive. Plan: Identify given quantities → Find signed ΔT or rearrange → Match energy units → m = q / (cΔT) → Report g.",
-  "explain": "<ol><li><b>Find the signed temperature change:</b> <div class=\"math\">8.6 − 19.9 = -11.3 °C.</div></li><li><b>Set up the equation:</b> <div class=\"math\">m = q / (cΔT)</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">-403 J/0.449 J/(g·°C) × -11.3 °C = 79.5 g.</div></li></ol>",
+  "explain": "<ol><li><b>Find the signed temperature change:</b> <div class=\"math\">8.60 − 19.9 = -11.3 °C.</div></li><li><b>Set up the equation:</b> <div class=\"math\">m = q / (cΔT)</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">-403 J/0.449 J/(g·°C) × -11.3 °C = 79.5 g.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1735,7 +1735,7 @@
   }
  },
  {
-  "id": "thermochemistry-b6229610",
+  "id": "thermochemistry-91471936",
   "skill": "thermochemistry.specific-heat",
   "courses": [
    "3A"
@@ -1744,12 +1744,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>A sample changes from 22.7 °C to 4.2 °C. Find its signed temperature change. Assume no phase change and constant specific heat over this interval.</p><p><b>Enter:</b> Signed ΔT (°C)</p>",
+  "prompt": "<p>A sample changes from 22.7 °C to 4.20 °C. Find its signed temperature change. Assume no phase change and constant specific heat over this interval.</p><p><b>Enter:</b> Signed ΔT (°C)</p>",
   "answer": -18.5,
   "unit": "°C",
   "tolerance": 0.005,
   "hint": "Check your sign and unit. Cooling q is negative, but mass and specific heat are positive. Plan: Identify given quantities → Find signed ΔT or rearrange → Match energy units → ΔT = Tf − Ti → Report °C.",
-  "explain": "<ol><li><b>Calculate the requested value:</b> <div class=\"math\">4.2 − 22.7 = -18.5 °C.</div></li></ol>",
+  "explain": "<ol><li><b>Calculate the requested value:</b> <div class=\"math\">4.20 − 22.7 = -18.5 °C.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1843,7 +1843,7 @@
   }
  },
  {
-  "id": "thermochemistry-acd9f6ca",
+  "id": "thermochemistry-f2720f01",
   "skill": "thermochemistry.specific-heat",
   "courses": [
    "3A"
@@ -1852,12 +1852,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>A 49.5 g sample of iron changes from 19.8 °C to 7.4 °C. Its specific heat is 0.449 J/(g·°C). Calculate signed heat q in J. Assume no phase change and constant specific heat over this interval.</p><p><b>Enter:</b> Signed heat q (J)</p>",
+  "prompt": "<p>A 49.5 g sample of iron changes from 19.8 °C to 7.40 °C. Its specific heat is 0.449 J/(g·°C). Calculate signed heat q in J. Assume no phase change and constant specific heat over this interval.</p><p><b>Enter:</b> Signed heat q (J)</p>",
   "answer": -275.596,
   "unit": "J",
   "tolerance": 0.005,
   "hint": "Check your sign and unit. Cooling q is negative, but mass and specific heat are positive. Plan: Identify given quantities → Find signed ΔT or rearrange → Match energy units → q = mcΔT → Report J.",
-  "explain": "<ol><li><b>Find the signed temperature change:</b> <div class=\"math\">7.4 − 19.8 = -12.4 °C.</div></li><li><b>Set up the equation:</b> <div class=\"math\">q = mcΔT</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">49.5 g × 0.449 J/(g·°C) × -12.4 °C = -276 J.</div></li></ol>",
+  "explain": "<ol><li><b>Find the signed temperature change:</b> <div class=\"math\">7.40 − 19.8 = -12.4 °C.</div></li><li><b>Set up the equation:</b> <div class=\"math\">q = mcΔT</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">49.5 g × 0.449 J/(g·°C) × -12.4 °C = -276 J.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1887,7 +1887,7 @@
   ],
   "answer": "Silver",
   "hint": "Use the calculated c, not the mass, to identify the sample. Plan: Find ΔT → Calculate c = q/(mΔT) → Compare with the supplied chart.",
-  "explain": "<ol><li><b>Temperature change:</b> <div class=\"math\">59.7 − 18.7 = 41 °C</div></li><li><b>Calculate specific heat:</b> <div class=\"math\">789 / (81.9 × 41) = 0.235 J/(g·°C)</div></li><li><b>Identify the sample:</b> The chart value 0.235 J/(g·°C) matches silver.</li></ol>",
+  "explain": "<ol><li><b>Temperature change:</b> <div class=\"math\">59.7 − 18.7 = 41.0 °C</div></li><li><b>Calculate specific heat:</b> <div class=\"math\">789 / (81.9 × 41.0) = 0.235 J/(g·°C)</div></li><li><b>Identify the sample:</b> The chart value 0.235 J/(g·°C) matches silver.</li></ol>",
   "why": [
    "Aluminum has c = 0.903 J/(g·°C). Your calculated c is 0.235 J/(g·°C): use c = q ÷ (m × ΔT).",
    "Bismuth has c = 0.122 J/(g·°C). Your calculated c is 0.235 J/(g·°C): use c = q ÷ (m × ΔT).",
@@ -1905,7 +1905,7 @@
   }
  },
  {
-  "id": "thermochemistry-de545b8d",
+  "id": "thermochemistry-cb083bda",
   "skill": "thermochemistry.specific-heat",
   "courses": [
    "3A"
@@ -1914,12 +1914,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>A 14.2 g unknown sample changes from 17.9 °C to 5.2 °C while releasing 436.42 J. Determine its specific heat. Assume no phase change and constant specific heat over this interval.</p><p><b>Enter:</b> Specific heat (J/(g·°C))</p>",
+  "prompt": "<p>A 14.2 g unknown sample changes from 17.9 °C to 5.20 °C while releasing 436.42 J. Determine its specific heat. Assume no phase change and constant specific heat over this interval.</p><p><b>Enter:</b> Specific heat (J/(g·°C))</p>",
   "answer": 2.42,
   "unit": "J/(g·°C)",
   "tolerance": 0.005,
   "hint": "Check your sign and unit. Cooling q is negative, but mass and specific heat are positive. Plan: Identify given quantities → Find signed ΔT or rearrange → Match energy units → c = q / (mΔT) → Report J/(g·°C).",
-  "explain": "<ol><li><b>Find the signed temperature change:</b> <div class=\"math\">5.2 − 17.9 = -12.7 °C.</div></li><li><b>Set up the equation:</b> <div class=\"math\">c = q / (mΔT)</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">-436 J/14.2 g × -12.7 °C = 2.42 J/(g·°C).</div></li></ol>",
+  "explain": "<ol><li><b>Find the signed temperature change:</b> <div class=\"math\">5.20 − 17.9 = -12.7 °C.</div></li><li><b>Set up the equation:</b> <div class=\"math\">c = q / (mΔT)</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">-436 J/14.2 g × -12.7 °C = 2.42 J/(g·°C).</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -1965,7 +1965,7 @@
   "unit": "°C",
   "tolerance": 0.005,
   "hint": "Check your sign and unit. Cooling q is negative, but mass and specific heat are positive. Plan: Identify given quantities → Find signed ΔT or rearrange → Match energy units → Tf = Ti + q/(mc) → Report °C.",
-  "explain": "<ol><li><b>Set up the equation:</b> <div class=\"math\">Tf = Ti + q/(mc)</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">q = -2090 J. ΔT = q/(mc) = -14.3 °C. Tf = 18.6 + (-14.3) = 4.3 °C.</div></li></ol>",
+  "explain": "<ol><li><b>Set up the equation:</b> <div class=\"math\">Tf = Ti + q/(mc)</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">q = -2090 J. ΔT = q/(mc) = -14.3 °C. Tf = 18.6 + (-14.3) = 4.30 °C.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2036,7 +2036,7 @@
   }
  },
  {
-  "id": "thermochemistry-5a78bb2c",
+  "id": "thermochemistry-b0e0283d",
   "skill": "thermochemistry.specific-heat",
   "courses": [
    "3A"
@@ -2045,12 +2045,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>A 73 g sample of silver changes from 26.2 °C to 9.9 °C. Its specific heat is 0.235 J/(g·°C). Calculate signed heat q in cal. Assume no phase change and constant specific heat over this interval.</p><p><b>Enter:</b> Signed heat q (cal)</p>",
+  "prompt": "<p>A 73.0 g sample of silver changes from 26.2 °C to 9.90 °C. Its specific heat is 0.235 J/(g·°C). Calculate signed heat q in cal. Assume no phase change and constant specific heat over this interval.</p><p><b>Enter:</b> Signed heat q (cal)</p>",
   "answer": -66.8323,
   "unit": "cal",
   "tolerance": 0.005,
   "hint": "Check your sign and unit. Cooling q is negative, but mass and specific heat are positive. Plan: Identify given quantities → Find signed ΔT or rearrange → Match energy units → q = mcΔT → Report cal.",
-  "explain": "<ol><li><b>Find the signed temperature change:</b> <div class=\"math\">9.9 − 26.2 = -16.3 °C.</div></li><li><b>Set up the equation:</b> <div class=\"math\">q = mcΔT</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">73 g × 0.235 J/(g·°C) × -16.3 °C = -280 J. Divide by 4.184 J/cal to get -66.8 cal.</div></li></ol>",
+  "explain": "<ol><li><b>Find the signed temperature change:</b> <div class=\"math\">9.90 − 26.2 = -16.3 °C.</div></li><li><b>Set up the equation:</b> <div class=\"math\">q = mcΔT</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">73.0 g × 0.235 J/(g·°C) × -16.3 °C = -280. J. Divide by 4.184 J/cal to get -66.8 cal.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2073,7 +2073,7 @@
   "unit": "°C",
   "tolerance": 0.005,
   "hint": "Check your sign and unit. Cooling q is negative, but mass and specific heat are positive. Plan: Identify given quantities → Find signed ΔT or rearrange → Match energy units → Ti = Tf − q/(mc) → Report °C.",
-  "explain": "<ol><li><b>Set up the equation:</b> <div class=\"math\">Ti = Tf − q/(mc)</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">ΔT = q/(mc) = -6.9 °C. Ti = 10.5 − (-6.9) = 17.4 °C.</div></li></ol>",
+  "explain": "<ol><li><b>Set up the equation:</b> <div class=\"math\">Ti = Tf − q/(mc)</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">ΔT = q/(mc) = -6.90 °C. Ti = 10.5 − (-6.90) = 17.4 °C.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2167,7 +2167,7 @@
   }
  },
  {
-  "id": "thermochemistry-2acacc20",
+  "id": "thermochemistry-380bd37e",
   "skill": "thermochemistry.phase-change-heat",
   "courses": [
    "3A"
@@ -2176,12 +2176,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>A 10.2 g sample of water condenses completely at 100.0 °C, releasing 23.038 kJ of heat. Calculate ΔH in kJ/mol for this change. Assume constant pressure and constant temperature.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr></table><p><b>Enter:</b> Signed ΔH for this change (kJ/mol)</p>",
+  "prompt": "<p>A 10.20 g sample of water condenses completely at 100.0 °C, releasing 23.038 kJ of heat. Calculate ΔH in kJ/mol for this change. Assume constant pressure and constant temperature.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr></table><p><b>Enter:</b> Signed ΔH for this change (kJ/mol)</p>",
   "answer": -40.7,
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "Absorbing heat gives a positive ΔH; releasing heat gives a negative ΔH. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Keep the sign for absorb or release.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">10.2 g × 1 mol/18.02 g = 0.566 mol.</div></li><li><b>Find the molar enthalpy change:</b> <div class=\"math\">-23.038 kJ/0.566 mol = -40.7 kJ/mol.</div></li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">10.20 g × 1 mol/18.02 g = 0.566 mol.</div></li><li><b>Find the molar enthalpy change:</b> <div class=\"math\">-23.038 kJ/0.566 mol = -40.7 kJ/mol.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2213,7 +2213,7 @@
   }
  },
  {
-  "id": "thermochemistry-6f291595",
+  "id": "thermochemistry-966522f0",
   "skill": "thermochemistry.phase-change-heat",
   "courses": [
    "3A"
@@ -2222,14 +2222,14 @@
    "3A-7"
   ],
   "type": "mc",
-  "prompt": "<p>A 80.3 g sample of water absorbs 181.4 kJ at constant temperature while it completely changes phase at normal pressure. Use the table to decide whether the sample is melting or vaporizing.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr></table><p>Compare your ΔH with the table values.</p><p><b>Phase change:</b></p>",
+  "prompt": "<p>A 80.30 g sample of water absorbs 181.4 kJ at constant temperature while it completely changes phase at normal pressure. Use the table to decide whether the sample is melting or vaporizing.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr></table><p>Compare your ΔH with the table values.</p><p><b>Phase change:</b></p>",
   "choices": [
    "Vaporization",
    "Melting (fusion)"
   ],
   "answer": "Vaporization",
   "hint": "Vaporization needs far more heat per mole than melting because the molecules separate completely. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Match ΔH to fusion or vaporization.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">80.3 g × 1 mol/18.02 g = 4.46 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">181.4 kJ/4.46 mol = 40.7 kJ/mol.</div></li><li><b>Name the phase change:</b> 40.7 kJ/mol matches the heat of vaporization (40.70 kJ/mol), so the water is vaporizing.</li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">80.30 g × 1 mol/18.02 g = 4.46 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">181.4 kJ/4.46 mol = 40.7 kJ/mol.</div></li><li><b>Name the phase change:</b> 40.7 kJ/mol matches the heat of vaporization (40.70 kJ/mol), so the water is vaporizing.</li></ol>",
   "why": [
    "",
    "Melting water takes about 6.02 kJ/mol. Your heat per mole is much larger, which matches vaporization (about 40.7 kJ/mol)."
@@ -2256,7 +2256,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "During this transition ΔT = 0. Use nΔH rather than mcΔT. Plan: Grams ÷ molar mass → moles → Choose fusion or vaporization and sign → Moles × ΔH → kJ → requested unit.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">40.28 g × 1 mol/200.59 g = 0.201 mol.</div></li><li><b>Choose the signed enthalpy:</b> Freezes releases heat, so ΔH = -2.29 kJ/mol.</li><li><b>Calculate phase-change heat:</b> <div class=\"math\">0.20081 mol × (-2.29 kJ/mol) = -0.46 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">40.28 g × 1 mol/200.59 g = 0.201 mol.</div></li><li><b>Choose the signed enthalpy:</b> Freezes releases heat, so ΔH = -2.29 kJ/mol.</li><li><b>Calculate phase-change heat:</b> <div class=\"math\">0.20081 mol × (-2.29 kJ/mol) = -0.460 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2288,7 +2288,7 @@
   }
  },
  {
-  "id": "thermochemistry-26297e7e",
+  "id": "thermochemistry-a81827a4",
   "skill": "thermochemistry.phase-change-heat",
   "courses": [
    "3A"
@@ -2297,12 +2297,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>A 73.7 g sample of water melts completely at 0.0 °C, absorbing 24.621 kJ of heat. Calculate ΔH in kJ/mol for this change. Assume constant pressure and constant temperature.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr></table><p><b>Enter:</b> Signed ΔH for this change (kJ/mol)</p>",
+  "prompt": "<p>A 73.70 g sample of water melts completely at 0.0 °C, absorbing 24.621 kJ of heat. Calculate ΔH in kJ/mol for this change. Assume constant pressure and constant temperature.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr></table><p><b>Enter:</b> Signed ΔH for this change (kJ/mol)</p>",
   "answer": 6.02,
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "Absorbing heat gives a positive ΔH; releasing heat gives a negative ΔH. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Keep the sign for absorb or release.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">73.7 g × 1 mol/18.02 g = 4.09 mol.</div></li><li><b>Find the molar enthalpy change:</b> <div class=\"math\">24.621 kJ/4.09 mol = 6.02 kJ/mol.</div></li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">73.70 g × 1 mol/18.02 g = 4.09 mol.</div></li><li><b>Find the molar enthalpy change:</b> <div class=\"math\">24.621 kJ/4.09 mol = 6.02 kJ/mol.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2334,7 +2334,7 @@
   }
  },
  {
-  "id": "thermochemistry-d13d8d8b",
+  "id": "thermochemistry-2e2c9955",
   "skill": "thermochemistry.phase-change-heat",
   "courses": [
    "3A"
@@ -2343,14 +2343,14 @@
    "3A-7"
   ],
   "type": "mc",
-  "prompt": "<p>A 67.3 g sample of water absorbs 22.48 kJ at constant temperature while it completely changes phase at normal pressure. Use the table to decide whether the sample is melting or vaporizing.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr></table><p>Compare your ΔH with the table values.</p><p><b>Phase change:</b></p>",
+  "prompt": "<p>A 67.30 g sample of water absorbs 22.48 kJ at constant temperature while it completely changes phase at normal pressure. Use the table to decide whether the sample is melting or vaporizing.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr></table><p>Compare your ΔH with the table values.</p><p><b>Phase change:</b></p>",
   "choices": [
    "Melting (fusion)",
    "Vaporization"
   ],
   "answer": "Melting (fusion)",
   "hint": "Vaporization needs far more heat per mole than melting because the molecules separate completely. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Match ΔH to fusion or vaporization.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">67.3 g × 1 mol/18.02 g = 3.73 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">22.48 kJ/3.73 mol = 6.02 kJ/mol.</div></li><li><b>Name the phase change:</b> 6.02 kJ/mol matches the heat of fusion (6.02 kJ/mol), so the water is melting.</li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">67.30 g × 1 mol/18.02 g = 3.73 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">22.48 kJ/3.73 mol = 6.02 kJ/mol.</div></li><li><b>Name the phase change:</b> 6.02 kJ/mol matches the heat of fusion (6.02 kJ/mol), so the water is melting.</li></ol>",
   "why": [
    "",
    "Vaporizing water takes about 40.7 kJ/mol. Your heat per mole is much smaller, which matches melting (about 6.02 kJ/mol)."
@@ -2377,7 +2377,7 @@
   "unit": "g",
   "tolerance": 0.005,
   "hint": "During this transition ΔT = 0. Use nΔH rather than mcΔT. Plan: q ÷ signed ΔH → moles → Choose fusion or vaporization and sign → Moles × molar mass → grams.",
-  "explain": "<ol><li><b>Choose the signed enthalpy:</b> Freezes releases heat, so ΔH = -5.02 kJ/mol.</li><li><b>Find moles that changed phase:</b> <div class=\"math\">-1.7391 kJ/-5.02 kJ/mol = 0.346 mol.</div></li><li><b>Convert moles to mass:</b> <div class=\"math\">0.34643 mol × 46.07 g/mol = 16 g.</div></li></ol>",
+  "explain": "<ol><li><b>Choose the signed enthalpy:</b> Freezes releases heat, so ΔH = -5.02 kJ/mol.</li><li><b>Find moles that changed phase:</b> <div class=\"math\">-1.7391 kJ/-5.02 kJ/mol = 0.346 mol.</div></li><li><b>Convert moles to mass:</b> <div class=\"math\">0.34643 mol × 46.07 g/mol = 16.0 g.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2409,7 +2409,7 @@
   }
  },
  {
-  "id": "thermochemistry-37d8114f",
+  "id": "thermochemistry-d8032cd9",
   "skill": "thermochemistry.phase-change-heat",
   "courses": [
    "3A"
@@ -2418,12 +2418,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>A 32.1 g sample of mercury melts completely at −38.8 °C, absorbing 0.36646 kJ of heat. Calculate ΔH in kJ/mol for this change. Assume constant pressure and constant temperature.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>200.59</td><td>g/mol</td></tr></table><p><b>Enter:</b> Signed ΔH for this change (kJ/mol)</p>",
+  "prompt": "<p>A 32.10 g sample of mercury melts completely at −38.8 °C, absorbing 0.36646 kJ of heat. Calculate ΔH in kJ/mol for this change. Assume constant pressure and constant temperature.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>200.59</td><td>g/mol</td></tr></table><p><b>Enter:</b> Signed ΔH for this change (kJ/mol)</p>",
   "answer": 2.29,
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "Absorbing heat gives a positive ΔH; releasing heat gives a negative ΔH. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Keep the sign for absorb or release.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">32.1 g × 1 mol/200.59 g = 0.16 mol.</div></li><li><b>Find the molar enthalpy change:</b> <div class=\"math\">0.36646 kJ/0.16 mol = 2.29 kJ/mol.</div></li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">32.10 g × 1 mol/200.59 g = 0.160 mol.</div></li><li><b>Find the molar enthalpy change:</b> <div class=\"math\">0.36646 kJ/0.160 mol = 2.29 kJ/mol.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2455,7 +2455,7 @@
   }
  },
  {
-  "id": "thermochemistry-317e0efc",
+  "id": "thermochemistry-7c9d69aa",
   "skill": "thermochemistry.phase-change-heat",
   "courses": [
    "3A"
@@ -2464,14 +2464,14 @@
    "3A-7"
   ],
   "type": "mc",
-  "prompt": "<p>A 16.1 g sample of water absorbs 36.36 kJ at constant temperature while it completely changes phase at normal pressure. Use the table to decide whether the sample is melting or vaporizing.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr></table><p>Compare your ΔH with the table values.</p><p><b>Phase change:</b></p>",
+  "prompt": "<p>A 16.10 g sample of water absorbs 36.36 kJ at constant temperature while it completely changes phase at normal pressure. Use the table to decide whether the sample is melting or vaporizing.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr></table><p>Compare your ΔH with the table values.</p><p><b>Phase change:</b></p>",
   "choices": [
    "Melting (fusion)",
    "Vaporization"
   ],
   "answer": "Vaporization",
   "hint": "Vaporization needs far more heat per mole than melting because the molecules separate completely. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Match ΔH to fusion or vaporization.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">16.1 g × 1 mol/18.02 g = 0.893 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">36.36 kJ/0.893 mol = 40.7 kJ/mol.</div></li><li><b>Name the phase change:</b> 40.7 kJ/mol matches the heat of vaporization (40.70 kJ/mol), so the water is vaporizing.</li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">16.10 g × 1 mol/18.02 g = 0.893 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">36.36 kJ/0.893 mol = 40.7 kJ/mol.</div></li><li><b>Name the phase change:</b> 40.7 kJ/mol matches the heat of vaporization (40.70 kJ/mol), so the water is vaporizing.</li></ol>",
   "why": [
    "Melting water takes about 6.02 kJ/mol. Your heat per mole is much larger, which matches vaporization (about 40.7 kJ/mol).",
    ""
@@ -2530,7 +2530,7 @@
   }
  },
  {
-  "id": "thermochemistry-882b3233",
+  "id": "thermochemistry-fa92db71",
   "skill": "thermochemistry.phase-change-heat",
   "courses": [
    "3A"
@@ -2539,12 +2539,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>A 92.1 g sample of ethanol vaporizes completely at 78.0 °C, absorbing 73.968 kJ of heat. Calculate ΔH in kJ/mol for this change. Assume constant pressure and constant temperature.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr></table><p><b>Enter:</b> Signed ΔH for this change (kJ/mol)</p>",
+  "prompt": "<p>A 92.10 g sample of ethanol vaporizes completely at 78.0 °C, absorbing 73.968 kJ of heat. Calculate ΔH in kJ/mol for this change. Assume constant pressure and constant temperature.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr></table><p><b>Enter:</b> Signed ΔH for this change (kJ/mol)</p>",
   "answer": 37,
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "Absorbing heat gives a positive ΔH; releasing heat gives a negative ΔH. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Keep the sign for absorb or release.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">92.1 g × 1 mol/46.07 g = 2 mol.</div></li><li><b>Find the molar enthalpy change:</b> <div class=\"math\">73.968 kJ/2 mol = 37 kJ/mol.</div></li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">92.10 g × 1 mol/46.07 g = 2.00 mol.</div></li><li><b>Find the molar enthalpy change:</b> <div class=\"math\">73.968 kJ/2.00 mol = 37.0 kJ/mol.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2576,7 +2576,7 @@
   }
  },
  {
-  "id": "thermochemistry-3145e562",
+  "id": "thermochemistry-25b902c7",
   "skill": "thermochemistry.phase-change-heat",
   "courses": [
    "3A"
@@ -2585,14 +2585,14 @@
    "3A-7"
   ],
   "type": "mc",
-  "prompt": "<p>A 39.5 g sample of water absorbs 13.2 kJ at constant temperature while it completely changes phase at normal pressure. Use the table to decide whether the sample is melting or vaporizing.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr></table><p>Compare your ΔH with the table values.</p><p><b>Phase change:</b></p>",
+  "prompt": "<p>A 39.50 g sample of water absorbs 13.20 kJ at constant temperature while it completely changes phase at normal pressure. Use the table to decide whether the sample is melting or vaporizing.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr></table><p>Compare your ΔH with the table values.</p><p><b>Phase change:</b></p>",
   "choices": [
    "Melting (fusion)",
    "Vaporization"
   ],
   "answer": "Melting (fusion)",
   "hint": "Vaporization needs far more heat per mole than melting because the molecules separate completely. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Match ΔH to fusion or vaporization.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">39.5 g × 1 mol/18.02 g = 2.19 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">13.2 kJ/2.19 mol = 6.02 kJ/mol.</div></li><li><b>Name the phase change:</b> 6.02 kJ/mol matches the heat of fusion (6.02 kJ/mol), so the water is melting.</li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">39.50 g × 1 mol/18.02 g = 2.19 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">13.20 kJ/2.19 mol = 6.02 kJ/mol.</div></li><li><b>Name the phase change:</b> 6.02 kJ/mol matches the heat of fusion (6.02 kJ/mol), so the water is melting.</li></ol>",
   "why": [
    "",
    "Vaporizing water takes about 40.7 kJ/mol. Your heat per mole is much smaller, which matches melting (about 6.02 kJ/mol)."
@@ -2619,7 +2619,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "During this transition ΔT = 0. Use nΔH rather than mcΔT. Plan: Grams ÷ molar mass → moles → Choose fusion or vaporization and sign → Moles × ΔH → kJ → requested unit.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">16.47 g × 1 mol/78.11 g = 0.211 mol.</div></li><li><b>Choose the signed enthalpy:</b> Freezes releases heat, so ΔH = -9.95 kJ/mol.</li><li><b>Calculate phase-change heat:</b> <div class=\"math\">0.21086 mol × (-9.95 kJ/mol) = -2.1 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">16.47 g × 1 mol/78.11 g = 0.211 mol.</div></li><li><b>Choose the signed enthalpy:</b> Freezes releases heat, so ΔH = -9.95 kJ/mol.</li><li><b>Calculate phase-change heat:</b> <div class=\"math\">0.21086 mol × (-9.95 kJ/mol) = -2.10 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2642,7 +2642,7 @@
   "unit": "g",
   "tolerance": 0.005,
   "hint": "During this transition ΔT = 0. Use nΔH rather than mcΔT. Plan: q ÷ signed ΔH → moles → Choose fusion or vaporization and sign → Moles × molar mass → grams.",
-  "explain": "<ol><li><b>Choose the signed enthalpy:</b> Vaporizes absorbs heat, so ΔH = 59.23 kJ/mol.</li><li><b>Find moles that changed phase:</b> <div class=\"math\">25.459 kJ/59.23 kJ/mol = 0.43 mol.</div></li><li><b>Convert moles to mass:</b> <div class=\"math\">0.42983 mol × 200.59 g/mol = 86.2 g.</div></li></ol>",
+  "explain": "<ol><li><b>Choose the signed enthalpy:</b> Vaporizes absorbs heat, so ΔH = 59.23 kJ/mol.</li><li><b>Find moles that changed phase:</b> <div class=\"math\">25.459 kJ/59.23 kJ/mol = 0.430 mol.</div></li><li><b>Convert moles to mass:</b> <div class=\"math\">0.42983 mol × 200.59 g/mol = 86.2 g.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2651,7 +2651,7 @@
   }
  },
  {
-  "id": "thermochemistry-5c1961d2",
+  "id": "thermochemistry-5fb18c02",
   "skill": "thermochemistry.phase-change-heat",
   "courses": [
    "3A"
@@ -2660,12 +2660,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>A 35 g sample of mercury condenses completely at 357 °C, releasing 10.335 kJ of heat. Calculate ΔH in kJ/mol for this change. Assume constant pressure and constant temperature.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>200.59</td><td>g/mol</td></tr></table><p><b>Enter:</b> Signed ΔH for this change (kJ/mol)</p>",
+  "prompt": "<p>A 35.00 g sample of mercury condenses completely at 357 °C, releasing 10.335 kJ of heat. Calculate ΔH in kJ/mol for this change. Assume constant pressure and constant temperature.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>200.59</td><td>g/mol</td></tr></table><p><b>Enter:</b> Signed ΔH for this change (kJ/mol)</p>",
   "answer": -59.23,
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "Absorbing heat gives a positive ΔH; releasing heat gives a negative ΔH. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Keep the sign for absorb or release.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">35 g × 1 mol/200.59 g = 0.174 mol.</div></li><li><b>Find the molar enthalpy change:</b> <div class=\"math\">-10.335 kJ/0.174 mol = -59.2 kJ/mol.</div></li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">35.00 g × 1 mol/200.59 g = 0.174 mol.</div></li><li><b>Find the molar enthalpy change:</b> <div class=\"math\">-10.335 kJ/0.174 mol = -59.2 kJ/mol.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2688,7 +2688,7 @@
   "unit": "J",
   "tolerance": 0.005,
   "hint": "During this transition ΔT = 0. Use nΔH rather than mcΔT. Plan: Given moles → Choose fusion or vaporization and sign → Moles × ΔH → kJ → requested unit.",
-  "explain": "<ol><li><b>Choose the signed enthalpy:</b> Melts absorbs heat, so ΔH = 5.02 kJ/mol.</li><li><b>Calculate phase-change heat:</b> <div class=\"math\">1.8724 mol × (5.02 kJ/mol) = 9.4 kJ. × 1000 J/kJ = 9400 J.</div></li></ol>",
+  "explain": "<ol><li><b>Choose the signed enthalpy:</b> Melts absorbs heat, so ΔH = 5.02 kJ/mol.</li><li><b>Calculate phase-change heat:</b> <div class=\"math\">1.8724 mol × (5.02 kJ/mol) = 9.40 kJ. × 1000 J/kJ = 9.40 × 10³ J.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2697,7 +2697,7 @@
   }
  },
  {
-  "id": "thermochemistry-35bff808",
+  "id": "thermochemistry-21cb9b51",
   "skill": "thermochemistry.phase-change-heat",
   "courses": [
    "3A"
@@ -2706,14 +2706,14 @@
    "3A-7"
   ],
   "type": "mc",
-  "prompt": "<p>A 73.1 g sample of water absorbs 165.1 kJ at constant temperature while it completely changes phase at normal pressure. Use the table to decide whether the sample is melting or vaporizing.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr></table><p>Compare your ΔH with the table values.</p><p><b>Phase change:</b></p>",
+  "prompt": "<p>A 73.10 g sample of water absorbs 165.1 kJ at constant temperature while it completely changes phase at normal pressure. Use the table to decide whether the sample is melting or vaporizing.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr></table><p>Compare your ΔH with the table values.</p><p><b>Phase change:</b></p>",
   "choices": [
    "Melting (fusion)",
    "Vaporization"
   ],
   "answer": "Vaporization",
   "hint": "Vaporization needs far more heat per mole than melting because the molecules separate completely. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Match ΔH to fusion or vaporization.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">73.1 g × 1 mol/18.02 g = 4.06 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">165.1 kJ/4.06 mol = 40.7 kJ/mol.</div></li><li><b>Name the phase change:</b> 40.7 kJ/mol matches the heat of vaporization (40.70 kJ/mol), so the water is vaporizing.</li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">73.10 g × 1 mol/18.02 g = 4.06 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">165.1 kJ/4.06 mol = 40.7 kJ/mol.</div></li><li><b>Name the phase change:</b> 40.7 kJ/mol matches the heat of vaporization (40.70 kJ/mol), so the water is vaporizing.</li></ol>",
   "why": [
    "Melting water takes about 6.02 kJ/mol. Your heat per mole is much larger, which matches vaporization (about 40.7 kJ/mol).",
    ""
@@ -2772,7 +2772,7 @@
   }
  },
  {
-  "id": "thermochemistry-8f9c7ab6",
+  "id": "thermochemistry-92e981ac",
   "skill": "thermochemistry.phase-change-heat",
   "courses": [
    "3A"
@@ -2781,12 +2781,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>A 61.3 g sample of ethanol freezes completely at −114.3 °C, releasing 6.6795 kJ of heat. Calculate ΔH in kJ/mol for this change. Assume constant pressure and constant temperature.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr></table><p><b>Enter:</b> Signed ΔH for this change (kJ/mol)</p>",
+  "prompt": "<p>A 61.30 g sample of ethanol freezes completely at −114.3 °C, releasing 6.6795 kJ of heat. Calculate ΔH in kJ/mol for this change. Assume constant pressure and constant temperature.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr></table><p><b>Enter:</b> Signed ΔH for this change (kJ/mol)</p>",
   "answer": -5.02,
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "Absorbing heat gives a positive ΔH; releasing heat gives a negative ΔH. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Keep the sign for absorb or release.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">61.3 g × 1 mol/46.07 g = 1.33 mol.</div></li><li><b>Find the molar enthalpy change:</b> <div class=\"math\">-6.6795 kJ/1.33 mol = -5.02 kJ/mol.</div></li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">61.30 g × 1 mol/46.07 g = 1.33 mol.</div></li><li><b>Find the molar enthalpy change:</b> <div class=\"math\">-6.6795 kJ/1.33 mol = -5.02 kJ/mol.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2818,7 +2818,7 @@
   }
  },
  {
-  "id": "thermochemistry-863e6565",
+  "id": "thermochemistry-c10aa4e7",
   "skill": "thermochemistry.phase-change-heat",
   "courses": [
    "3A"
@@ -2827,14 +2827,14 @@
    "3A-7"
   ],
   "type": "mc",
-  "prompt": "<p>A 81.6 g sample of water absorbs 27.26 kJ at constant temperature while it completely changes phase at normal pressure. Use the table to decide whether the sample is melting or vaporizing.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr></table><p>Compare your ΔH with the table values.</p><p><b>Phase change:</b></p>",
+  "prompt": "<p>A 81.60 g sample of water absorbs 27.26 kJ at constant temperature while it completely changes phase at normal pressure. Use the table to decide whether the sample is melting or vaporizing.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr></table><p>Compare your ΔH with the table values.</p><p><b>Phase change:</b></p>",
   "choices": [
    "Vaporization",
    "Melting (fusion)"
   ],
   "answer": "Melting (fusion)",
   "hint": "Vaporization needs far more heat per mole than melting because the molecules separate completely. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Match ΔH to fusion or vaporization.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">81.6 g × 1 mol/18.02 g = 4.53 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">27.26 kJ/4.53 mol = 6.02 kJ/mol.</div></li><li><b>Name the phase change:</b> 6.02 kJ/mol matches the heat of fusion (6.02 kJ/mol), so the water is melting.</li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">81.60 g × 1 mol/18.02 g = 4.53 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">27.26 kJ/4.53 mol = 6.02 kJ/mol.</div></li><li><b>Name the phase change:</b> 6.02 kJ/mol matches the heat of fusion (6.02 kJ/mol), so the water is melting.</li></ol>",
   "why": [
    "Vaporizing water takes about 40.7 kJ/mol. Your heat per mole is much smaller, which matches melting (about 6.02 kJ/mol).",
    ""
@@ -2884,7 +2884,7 @@
   "unit": "g",
   "tolerance": 0.005,
   "hint": "During this transition ΔT = 0. Use nΔH rather than mcΔT. Plan: q ÷ signed ΔH → moles → Choose fusion or vaporization and sign → Moles × molar mass → grams.",
-  "explain": "<ol><li><b>Choose the signed enthalpy:</b> Condenses releases heat, so ΔH = -30.8 kJ/mol.</li><li><b>Find moles that changed phase:</b> <div class=\"math\">-29.57 kJ/-30.8 kJ/mol = 0.96 mol.</div></li><li><b>Convert moles to mass:</b> <div class=\"math\">0.96006 mol × 78.11 g/mol = 75 g.</div></li></ol>",
+  "explain": "<ol><li><b>Choose the signed enthalpy:</b> Condenses releases heat, so ΔH = -30.8 kJ/mol.</li><li><b>Find moles that changed phase:</b> <div class=\"math\">-29.57 kJ/-30.8 kJ/mol = 0.960 mol.</div></li><li><b>Convert moles to mass:</b> <div class=\"math\">0.96006 mol × 78.11 g/mol = 75.0 g.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2893,7 +2893,7 @@
   }
  },
  {
-  "id": "thermochemistry-97e9bd7a",
+  "id": "thermochemistry-5e4f70a1",
   "skill": "thermochemistry.phase-change-heat",
   "courses": [
    "3A"
@@ -2902,12 +2902,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>A 64.7 g sample of benzene vaporizes completely at 80.1 °C, absorbing 25.512 kJ of heat. Calculate ΔH in kJ/mol for this change. Assume constant pressure and constant temperature.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>78.11</td><td>g/mol</td></tr></table><p><b>Enter:</b> Signed ΔH for this change (kJ/mol)</p>",
+  "prompt": "<p>A 64.70 g sample of benzene vaporizes completely at 80.1 °C, absorbing 25.512 kJ of heat. Calculate ΔH in kJ/mol for this change. Assume constant pressure and constant temperature.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>78.11</td><td>g/mol</td></tr></table><p><b>Enter:</b> Signed ΔH for this change (kJ/mol)</p>",
   "answer": 30.8,
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "Absorbing heat gives a positive ΔH; releasing heat gives a negative ΔH. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Keep the sign for absorb or release.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">64.7 g × 1 mol/78.11 g = 0.828 mol.</div></li><li><b>Find the molar enthalpy change:</b> <div class=\"math\">25.512 kJ/0.828 mol = 30.8 kJ/mol.</div></li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">64.70 g × 1 mol/78.11 g = 0.828 mol.</div></li><li><b>Find the molar enthalpy change:</b> <div class=\"math\">25.512 kJ/0.828 mol = 30.8 kJ/mol.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2930,7 +2930,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "During this transition ΔT = 0. Use nΔH rather than mcΔT. Plan: Given moles → Choose fusion or vaporization and sign → Moles × ΔH → kJ → requested unit.",
-  "explain": "<ol><li><b>Choose the signed enthalpy:</b> Freezes releases heat, so ΔH = -6.02 kJ/mol.</li><li><b>Calculate phase-change heat:</b> <div class=\"math\">2.4856 mol × (-6.02 kJ/mol) = -15 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Choose the signed enthalpy:</b> Freezes releases heat, so ΔH = -6.02 kJ/mol.</li><li><b>Calculate phase-change heat:</b> <div class=\"math\">2.4856 mol × (-6.02 kJ/mol) = -15.0 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -2939,7 +2939,7 @@
   }
  },
  {
-  "id": "thermochemistry-07343b9e",
+  "id": "thermochemistry-02a85287",
   "skill": "thermochemistry.phase-change-heat",
   "courses": [
    "3A"
@@ -2948,14 +2948,14 @@
    "3A-7"
   ],
   "type": "mc",
-  "prompt": "<p>A 84.6 g sample of water absorbs 191.1 kJ at constant temperature while it completely changes phase at normal pressure. Use the table to decide whether the sample is melting or vaporizing.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr></table><p>Compare your ΔH with the table values.</p><p><b>Phase change:</b></p>",
+  "prompt": "<p>A 84.60 g sample of water absorbs 191.1 kJ at constant temperature while it completely changes phase at normal pressure. Use the table to decide whether the sample is melting or vaporizing.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr></table><p>Compare your ΔH with the table values.</p><p><b>Phase change:</b></p>",
   "choices": [
    "Vaporization",
    "Melting (fusion)"
   ],
   "answer": "Vaporization",
   "hint": "Vaporization needs far more heat per mole than melting because the molecules separate completely. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Match ΔH to fusion or vaporization.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">84.6 g × 1 mol/18.02 g = 4.69 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">191.1 kJ/4.69 mol = 40.7 kJ/mol.</div></li><li><b>Name the phase change:</b> 40.7 kJ/mol matches the heat of vaporization (40.70 kJ/mol), so the water is vaporizing.</li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">84.60 g × 1 mol/18.02 g = 4.69 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">191.1 kJ/4.69 mol = 40.7 kJ/mol.</div></li><li><b>Name the phase change:</b> 40.7 kJ/mol matches the heat of vaporization (40.70 kJ/mol), so the water is vaporizing.</li></ol>",
   "why": [
    "",
    "Melting water takes about 6.02 kJ/mol. Your heat per mole is much larger, which matches vaporization (about 40.7 kJ/mol)."
@@ -3005,7 +3005,7 @@
   "unit": "g",
   "tolerance": 0.005,
   "hint": "During this transition ΔT = 0. Use nΔH rather than mcΔT. Plan: q ÷ signed ΔH → moles → Choose fusion or vaporization and sign → Moles × molar mass → grams.",
-  "explain": "<ol><li><b>Choose the signed enthalpy:</b> Vaporizes absorbs heat, so ΔH = 59.23 kJ/mol.</li><li><b>Find moles that changed phase:</b> <div class=\"math\">27.815 kJ/59.23 kJ/mol = 0.47 mol.</div></li><li><b>Convert moles to mass:</b> <div class=\"math\">0.46961 mol × 200.59 g/mol = 94.2 g.</div></li></ol>",
+  "explain": "<ol><li><b>Choose the signed enthalpy:</b> Vaporizes absorbs heat, so ΔH = 59.23 kJ/mol.</li><li><b>Find moles that changed phase:</b> <div class=\"math\">27.815 kJ/59.23 kJ/mol = 0.470 mol.</div></li><li><b>Convert moles to mass:</b> <div class=\"math\">0.46961 mol × 200.59 g/mol = 94.2 g.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -3927,7 +3927,7 @@
   }
  },
  {
-  "id": "thermochemistry-08d2e42b",
+  "id": "thermochemistry-96682d32",
   "skill": "thermochemistry.total-heat",
   "courses": [
    "3A"
@@ -3936,12 +3936,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>Condense 150.27 g of ethanol vapor at 78.0 °C, then cool the liquid to 34.2 °C. Find signed heat q for the sample. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in kJ.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr><tr><td>Specific heat of liquid ethanol, cliquid</td><td>2.46</td><td>J/(g·°C)</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>37.0</td><td>kJ/mol</td></tr><tr><td>Boiling point</td><td>78.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (kJ)</p>",
+  "prompt": "<p>Condense 150.27 g of ethanol vapor at 78.0 °C, then cool the liquid to 34.20 °C. Find signed heat q for the sample. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in kJ.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr><tr><td>Specific heat of liquid ethanol, cliquid</td><td>2.46</td><td>J/(g·°C)</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>37.0</td><td>kJ/mol</td></tr><tr><td>Boiling point</td><td>78.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (kJ)</p>",
   "answer": -136.877,
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Condense at 78 °C → nΔH → Cool the liquid ethanol → mcΔT → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Condense at 78 °C (nΔH)<br>2. Cool the liquid ethanol (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">150.27 g × 1 mol/46.07 g = 3.26 mol.</div></li><li><b>Stage 1: Condense at 78 °C:</b> <div class=\"math\">q1 = 3.2618 mol × (-37 kJ/mol) = -121 kJ.</div></li><li><b>Stage 2: Cool the liquid ethanol:</b> <div class=\"math\">ΔT = 34.2 − (78) = -43.8 °C.<br>q2 = 150.27 g × 2.46 J/(g·°C) × (-43.8 °C) × 1 kJ/1000 J = -16.2 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-120.69) + (-16.191) = -137 kJ.<br>The sample releases 137 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Condense at 78 °C (nΔH)<br>2. Cool the liquid ethanol (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">150.27 g × 1 mol/46.07 g = 3.26 mol.</div></li><li><b>Stage 1: Condense at 78 °C:</b> <div class=\"math\">q1 = 3.2618 mol × (-37 kJ/mol) = -121 kJ.</div></li><li><b>Stage 2: Cool the liquid ethanol:</b> <div class=\"math\">ΔT = 34.2 − (78) = -43.80 °C.<br>q2 = 150.27 g × 2.46 J/(g·°C) × (-43.80 °C) × 1 kJ/1000 J = -16.2 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-120.69) + (-16.191) = -137 kJ.<br>The sample releases 137 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -3964,7 +3964,7 @@
   "unit": "J",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Cool the steam → mcΔT → Condense at 100 °C → nΔH → Cool the liquid water → mcΔT → Freeze at 0 °C → nΔH → Cool the ice → mcΔT → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Cool the steam (mcΔT)<br>2. Condense at 100 °C (nΔH)<br>3. Cool the liquid water (mcΔT)<br>4. Freeze at 0 °C (nΔH)<br>5. Cool the ice (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">53.13 g × 1 mol/18.02 g = 2.95 mol.</div></li><li><b>Stage 1: Cool the steam:</b> <div class=\"math\">ΔT = 100 − (110) = -10 °C.<br>q1 = 53.13 g × 2.04 J/(g·°C) × (-10 °C) × 1 kJ/1000 J = -1.08 kJ.</div></li><li><b>Stage 2: Condense at 100 °C:</b> <div class=\"math\">q2 = 2.9484 mol × (-40.7 kJ/mol) = -120 kJ.</div></li><li><b>Stage 3: Cool the liquid water:</b> <div class=\"math\">ΔT = 0 − (100) = -100 °C.<br>q3 = 53.13 g × 4.184 J/(g·°C) × (-100 °C) × 1 kJ/1000 J = -22.2 kJ.</div></li><li><b>Stage 4: Freeze at 0 °C:</b> <div class=\"math\">q4 = 2.9484 mol × (-6.02 kJ/mol) = -17.7 kJ.</div></li><li><b>Stage 5: Cool the ice:</b> <div class=\"math\">ΔT = -10 − (0) = -10 °C.<br>q5 = 53.13 g × 2.09 J/(g·°C) × (-10 °C) × 1 kJ/1000 J = -1.11 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-1.0839) + (-120) + (-22.23) + (-17.749) + (-1.1104) = -162 kJ. Multiply by 1000 to report -1.62 × 10⁵ J.<br>The sample releases 162 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Cool the steam (mcΔT)<br>2. Condense at 100 °C (nΔH)<br>3. Cool the liquid water (mcΔT)<br>4. Freeze at 0 °C (nΔH)<br>5. Cool the ice (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">53.13 g × 1 mol/18.02 g = 2.95 mol.</div></li><li><b>Stage 1: Cool the steam:</b> <div class=\"math\">ΔT = 100 − (110) = -10.00 °C.<br>q1 = 53.13 g × 2.04 J/(g·°C) × (-10.00 °C) × 1 kJ/1000 J = -1.08 kJ.</div></li><li><b>Stage 2: Condense at 100 °C:</b> <div class=\"math\">q2 = 2.9484 mol × (-40.7 kJ/mol) = -120. kJ.</div></li><li><b>Stage 3: Cool the liquid water:</b> <div class=\"math\">ΔT = 0 − (100) = -100.0 °C.<br>q3 = 53.13 g × 4.184 J/(g·°C) × (-100.0 °C) × 1 kJ/1000 J = -22.2 kJ.</div></li><li><b>Stage 4: Freeze at 0 °C:</b> <div class=\"math\">q4 = 2.9484 mol × (-6.02 kJ/mol) = -17.7 kJ.</div></li><li><b>Stage 5: Cool the ice:</b> <div class=\"math\">ΔT = -10 − (0) = -10.00 °C.<br>q5 = 53.13 g × 2.09 J/(g·°C) × (-10.00 °C) × 1 kJ/1000 J = -1.11 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-1.0839) + (-120) + (-22.23) + (-17.749) + (-1.1104) = -162 kJ. Multiply by 1000 to report -1.62 × 10⁵ J.<br>The sample releases 162 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -3973,7 +3973,7 @@
   }
  },
  {
-  "id": "thermochemistry-1cc7577d",
+  "id": "thermochemistry-07936f04",
   "skill": "thermochemistry.total-heat",
   "courses": [
    "3A"
@@ -3982,12 +3982,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>Fully vaporize 29.19 g of liquid water initially at 28 °C, ending as steam at 100 °C. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in kJ.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Specific heat of ice, cice</td><td>2.09</td><td>J/(g·°C)</td></tr><tr><td>Specific heat of liquid water, cliquid</td><td>4.184</td><td>J/(g·°C)</td></tr><tr><td>Specific heat of steam, csteam</td><td>2.04</td><td>J/(g·°C)</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr><tr><td>Melting point</td><td>0.0</td><td>°C</td></tr><tr><td>Boiling point</td><td>100.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (kJ)</p>",
+  "prompt": "<p>Fully vaporize 29.19 g of liquid water initially at 28.00 °C, ending as steam at 100 °C. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in kJ.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Specific heat of ice, cice</td><td>2.09</td><td>J/(g·°C)</td></tr><tr><td>Specific heat of liquid water, cliquid</td><td>4.184</td><td>J/(g·°C)</td></tr><tr><td>Specific heat of steam, csteam</td><td>2.04</td><td>J/(g·°C)</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr><tr><td>Melting point</td><td>0.0</td><td>°C</td></tr><tr><td>Boiling point</td><td>100.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (kJ)</p>",
   "answer": 74.722,
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Warm the liquid water → mcΔT → Vaporize at 100 °C → nΔH → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the liquid water (mcΔT)<br>2. Vaporize at 100 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">29.19 g × 1 mol/18.02 g = 1.62 mol.</div></li><li><b>Stage 1: Warm the liquid water:</b> <div class=\"math\">ΔT = 100 − (28) = 72 °C.<br>q1 = 29.19 g × 4.184 J/(g·°C) × (72 °C) × 1 kJ/1000 J = 8.79 kJ.</div></li><li><b>Stage 2: Vaporize at 100 °C:</b> <div class=\"math\">q2 = 1.6199 mol × (40.7 kJ/mol) = 65.9 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (8.7934) + (65.929) = 74.7 kJ.<br>The sample absorbs 74.7 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the liquid water (mcΔT)<br>2. Vaporize at 100 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">29.19 g × 1 mol/18.02 g = 1.62 mol.</div></li><li><b>Stage 1: Warm the liquid water:</b> <div class=\"math\">ΔT = 100 − (28) = 72.00 °C.<br>q1 = 29.19 g × 4.184 J/(g·°C) × (72.00 °C) × 1 kJ/1000 J = 8.79 kJ.</div></li><li><b>Stage 2: Vaporize at 100 °C:</b> <div class=\"math\">q2 = 1.6199 mol × (40.7 kJ/mol) = 65.9 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (8.7934) + (65.929) = 74.7 kJ.<br>The sample absorbs 74.7 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4010,7 +4010,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "Both absorb heat, so both terms are positive. Plan: Shared ΔT → q for container → q for water → Add both heat amounts.",
-  "explain": "<ol><li><b>Shared temperature change:</b> <div class=\"math\">84.5 − 16.7 = 67.8 °C</div></li><li><b>Heat for the container:</b> <div class=\"math\">251.5 × 0.385 × 67.8 / 1000 = 6.56 kJ</div></li><li><b>Heat for the water:</b> <div class=\"math\">540.6 × 4.184 × 67.8 / 1000 = 153 kJ</div></li><li><b>Total absorbed heat:</b> <div class=\"math\">6.56 + 153 = 160 kJ</div></li></ol>",
+  "explain": "<ol><li><b>Shared temperature change:</b> <div class=\"math\">84.5 − 16.7 = 67.8 °C</div></li><li><b>Heat for the container:</b> <div class=\"math\">251.5 × 0.385 × 67.8 / 1000 = 6.56 kJ</div></li><li><b>Heat for the water:</b> <div class=\"math\">540.6 × 4.184 × 67.8 / 1000 = 153 kJ</div></li><li><b>Total absorbed heat:</b> <div class=\"math\">6.56 + 153 = 160. kJ</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4033,7 +4033,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Warm the ice → mcΔT → Melt at 0 °C → nΔH → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the ice (mcΔT)<br>2. Melt at 0 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">175.39 g × 1 mol/18.02 g = 9.73 mol.</div></li><li><b>Stage 1: Warm the ice:</b> <div class=\"math\">ΔT = 0 − (-20) = 20 °C.<br>q1 = 175.39 g × 2.09 J/(g·°C) × (20 °C) × 1 kJ/1000 J = 7.33 kJ.</div></li><li><b>Stage 2: Melt at 0 °C:</b> <div class=\"math\">q2 = 9.7331 mol × (6.02 kJ/mol) = 58.6 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (7.3313) + (58.593) = 65.9 kJ.<br>The sample absorbs 65.9 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the ice (mcΔT)<br>2. Melt at 0 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">175.39 g × 1 mol/18.02 g = 9.73 mol.</div></li><li><b>Stage 1: Warm the ice:</b> <div class=\"math\">ΔT = 0 − (-20) = 20.00 °C.<br>q1 = 175.39 g × 2.09 J/(g·°C) × (20.00 °C) × 1 kJ/1000 J = 7.33 kJ.</div></li><li><b>Stage 2: Melt at 0 °C:</b> <div class=\"math\">q2 = 9.7331 mol × (6.02 kJ/mol) = 58.6 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (7.3313) + (58.593) = 65.9 kJ.<br>The sample absorbs 65.9 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4056,7 +4056,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Condense at 100 °C → nΔH → Cool the liquid water → mcΔT → Freeze at 0 °C → nΔH → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Condense at 100 °C (nΔH)<br>2. Cool the liquid water (mcΔT)<br>3. Freeze at 0 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">126.68 g × 1 mol/18.02 g = 7.03 mol.</div></li><li><b>Stage 1: Condense at 100 °C:</b> <div class=\"math\">q1 = 7.03 mol × (-40.7 kJ/mol) = -286 kJ.</div></li><li><b>Stage 2: Cool the liquid water:</b> <div class=\"math\">ΔT = 0 − (100) = -100 °C.<br>q2 = 126.68 g × 4.184 J/(g·°C) × (-100 °C) × 1 kJ/1000 J = -53 kJ.</div></li><li><b>Stage 3: Freeze at 0 °C:</b> <div class=\"math\">q3 = 7.03 mol × (-6.02 kJ/mol) = -42.3 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-286.12) + (-53.003) + (-42.32) = -381 kJ.<br>The sample releases 381 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Condense at 100 °C (nΔH)<br>2. Cool the liquid water (mcΔT)<br>3. Freeze at 0 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">126.68 g × 1 mol/18.02 g = 7.03 mol.</div></li><li><b>Stage 1: Condense at 100 °C:</b> <div class=\"math\">q1 = 7.03 mol × (-40.7 kJ/mol) = -286 kJ.</div></li><li><b>Stage 2: Cool the liquid water:</b> <div class=\"math\">ΔT = 0 − (100) = -100.0 °C.<br>q2 = 126.68 g × 4.184 J/(g·°C) × (-100.0 °C) × 1 kJ/1000 J = -53.0 kJ.</div></li><li><b>Stage 3: Freeze at 0 °C:</b> <div class=\"math\">q3 = 7.03 mol × (-6.02 kJ/mol) = -42.3 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-286.12) + (-53.003) + (-42.32) = -381 kJ.<br>The sample releases 381 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4111,7 +4111,7 @@
   }
  },
  {
-  "id": "thermochemistry-5e2aa50a",
+  "id": "thermochemistry-182ae9e6",
   "skill": "thermochemistry.total-heat",
   "courses": [
    "3A"
@@ -4120,12 +4120,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>Convert 42.08 g of liquid ethanol at 23.9 °C to ethanol vapor at its boiling point, 78.0 °C. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in J.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr><tr><td>Specific heat of liquid ethanol, cliquid</td><td>2.46</td><td>J/(g·°C)</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>37.0</td><td>kJ/mol</td></tr><tr><td>Boiling point</td><td>78.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (J)</p>",
+  "prompt": "<p>Convert 42.08 g of liquid ethanol at 23.90 °C to ethanol vapor at its boiling point, 78.0 °C. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in J.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr><tr><td>Specific heat of liquid ethanol, cliquid</td><td>2.46</td><td>J/(g·°C)</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>37.0</td><td>kJ/mol</td></tr><tr><td>Boiling point</td><td>78.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (J)</p>",
   "answer": 39395.8,
   "unit": "J",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Warm the liquid ethanol → mcΔT → Vaporize at 78 °C → nΔH → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the liquid ethanol (mcΔT)<br>2. Vaporize at 78 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">42.08 g × 1 mol/46.07 g = 0.913 mol.</div></li><li><b>Stage 1: Warm the liquid ethanol:</b> <div class=\"math\">ΔT = 78 − (23.9) = 54.1 °C.<br>q1 = 42.08 g × 2.46 J/(g·°C) × (54.1 °C) × 1 kJ/1000 J = 5.6 kJ.</div></li><li><b>Stage 2: Vaporize at 78 °C:</b> <div class=\"math\">q2 = 0.91339 mol × (37 kJ/mol) = 33.8 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (5.6003) + (33.796) = 39.4 kJ. Multiply by 1000 to report 3.94 × 10⁴ J.<br>The sample absorbs 39.4 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the liquid ethanol (mcΔT)<br>2. Vaporize at 78 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">42.08 g × 1 mol/46.07 g = 0.913 mol.</div></li><li><b>Stage 1: Warm the liquid ethanol:</b> <div class=\"math\">ΔT = 78 − (23.9) = 54.10 °C.<br>q1 = 42.08 g × 2.46 J/(g·°C) × (54.10 °C) × 1 kJ/1000 J = 5.60 kJ.</div></li><li><b>Stage 2: Vaporize at 78 °C:</b> <div class=\"math\">q2 = 0.91339 mol × (37 kJ/mol) = 33.8 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (5.6003) + (33.796) = 39.4 kJ. Multiply by 1000 to report 3.94 × 10⁴ J.<br>The sample absorbs 39.4 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4171,7 +4171,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Warm the ice → mcΔT → Melt at 0 °C → nΔH → Warm the liquid water → mcΔT → Vaporize at 100 °C → nΔH → Warm the steam → mcΔT → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the ice (mcΔT)<br>2. Melt at 0 °C (nΔH)<br>3. Warm the liquid water (mcΔT)<br>4. Vaporize at 100 °C (nΔH)<br>5. Warm the steam (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">70.36 g × 1 mol/18.02 g = 3.9 mol.</div></li><li><b>Stage 1: Warm the ice:</b> <div class=\"math\">ΔT = 0 − (-20) = 20 °C.<br>q1 = 70.36 g × 2.09 J/(g·°C) × (20 °C) × 1 kJ/1000 J = 2.94 kJ.</div></li><li><b>Stage 2: Melt at 0 °C:</b> <div class=\"math\">q2 = 3.9046 mol × (6.02 kJ/mol) = 23.5 kJ.</div></li><li><b>Stage 3: Warm the liquid water:</b> <div class=\"math\">ΔT = 100 − (0) = 100 °C.<br>q3 = 70.36 g × 4.184 J/(g·°C) × (100 °C) × 1 kJ/1000 J = 29.4 kJ.</div></li><li><b>Stage 4: Vaporize at 100 °C:</b> <div class=\"math\">q4 = 3.9046 mol × (40.7 kJ/mol) = 159 kJ.</div></li><li><b>Stage 5: Warm the steam:</b> <div class=\"math\">ΔT = 110 − (100) = 10 °C.<br>q5 = 70.36 g × 2.04 J/(g·°C) × (10 °C) × 1 kJ/1000 J = 1.44 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (2.941) + (23.505) + (29.439) + (158.92) + (1.4353) = 216 kJ.<br>The sample absorbs 216 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the ice (mcΔT)<br>2. Melt at 0 °C (nΔH)<br>3. Warm the liquid water (mcΔT)<br>4. Vaporize at 100 °C (nΔH)<br>5. Warm the steam (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">70.36 g × 1 mol/18.02 g = 3.90 mol.</div></li><li><b>Stage 1: Warm the ice:</b> <div class=\"math\">ΔT = 0 − (-20) = 20.00 °C.<br>q1 = 70.36 g × 2.09 J/(g·°C) × (20.00 °C) × 1 kJ/1000 J = 2.94 kJ.</div></li><li><b>Stage 2: Melt at 0 °C:</b> <div class=\"math\">q2 = 3.9046 mol × (6.02 kJ/mol) = 23.5 kJ.</div></li><li><b>Stage 3: Warm the liquid water:</b> <div class=\"math\">ΔT = 100 − (0) = 100.0 °C.<br>q3 = 70.36 g × 4.184 J/(g·°C) × (100.0 °C) × 1 kJ/1000 J = 29.4 kJ.</div></li><li><b>Stage 4: Vaporize at 100 °C:</b> <div class=\"math\">q4 = 3.9046 mol × (40.7 kJ/mol) = 159 kJ.</div></li><li><b>Stage 5: Warm the steam:</b> <div class=\"math\">ΔT = 110 − (100) = 10.00 °C.<br>q5 = 70.36 g × 2.04 J/(g·°C) × (10.00 °C) × 1 kJ/1000 J = 1.44 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (2.941) + (23.505) + (29.439) + (158.92) + (1.4353) = 216 kJ.<br>The sample absorbs 216 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4217,7 +4217,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Warm the ice → mcΔT → Melt at 0 °C → nΔH → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the ice (mcΔT)<br>2. Melt at 0 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">46.8 g × 1 mol/18.02 g = 2.6 mol.</div></li><li><b>Stage 1: Warm the ice:</b> <div class=\"math\">ΔT = 0 − (-20) = 20 °C.<br>q1 = 46.8 g × 2.09 J/(g·°C) × (20 °C) × 1 kJ/1000 J = 1.96 kJ.</div></li><li><b>Stage 2: Melt at 0 °C:</b> <div class=\"math\">q2 = 2.5971 mol × (6.02 kJ/mol) = 15.6 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (1.9562) + (15.635) = 17.6 kJ.<br>The sample absorbs 17.6 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the ice (mcΔT)<br>2. Melt at 0 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">46.8 g × 1 mol/18.02 g = 2.60 mol.</div></li><li><b>Stage 1: Warm the ice:</b> <div class=\"math\">ΔT = 0 − (-20) = 20.00 °C.<br>q1 = 46.8 g × 2.09 J/(g·°C) × (20.00 °C) × 1 kJ/1000 J = 1.96 kJ.</div></li><li><b>Stage 2: Melt at 0 °C:</b> <div class=\"math\">q2 = 2.5971 mol × (6.02 kJ/mol) = 15.6 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (1.9562) + (15.635) = 17.6 kJ.<br>The sample absorbs 17.6 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4226,7 +4226,7 @@
   }
  },
  {
-  "id": "thermochemistry-e4be795e",
+  "id": "thermochemistry-f251d9fd",
   "skill": "thermochemistry.total-heat",
   "courses": [
    "3A"
@@ -4235,12 +4235,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>Convert 175.39 g of liquid ethanol at 25 °C to ethanol vapor at its boiling point, 78.0 °C. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in J.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr><tr><td>Specific heat of liquid ethanol, cliquid</td><td>2.46</td><td>J/(g·°C)</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>37.0</td><td>kJ/mol</td></tr><tr><td>Boiling point</td><td>78.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (J)</p>",
+  "prompt": "<p>Convert 175.39 g of liquid ethanol at 25.00 °C to ethanol vapor at its boiling point, 78.0 °C. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in J.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr><tr><td>Specific heat of liquid ethanol, cliquid</td><td>2.46</td><td>J/(g·°C)</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>37.0</td><td>kJ/mol</td></tr><tr><td>Boiling point</td><td>78.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (J)</p>",
   "answer": 163728,
   "unit": "J",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Warm the liquid ethanol → mcΔT → Vaporize at 78 °C → nΔH → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the liquid ethanol (mcΔT)<br>2. Vaporize at 78 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">175.39 g × 1 mol/46.07 g = 3.81 mol.</div></li><li><b>Stage 1: Warm the liquid ethanol:</b> <div class=\"math\">ΔT = 78 − (25) = 53 °C.<br>q1 = 175.39 g × 2.46 J/(g·°C) × (53 °C) × 1 kJ/1000 J = 22.9 kJ.</div></li><li><b>Stage 2: Vaporize at 78 °C:</b> <div class=\"math\">q2 = 3.807 mol × (37 kJ/mol) = 141 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (22.867) + (140.86) = 164 kJ. Multiply by 1000 to report 1.64 × 10⁵ J.<br>The sample absorbs 164 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the liquid ethanol (mcΔT)<br>2. Vaporize at 78 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">175.39 g × 1 mol/46.07 g = 3.81 mol.</div></li><li><b>Stage 1: Warm the liquid ethanol:</b> <div class=\"math\">ΔT = 78 − (25) = 53.00 °C.<br>q1 = 175.39 g × 2.46 J/(g·°C) × (53.00 °C) × 1 kJ/1000 J = 22.9 kJ.</div></li><li><b>Stage 2: Vaporize at 78 °C:</b> <div class=\"math\">q2 = 3.807 mol × (37 kJ/mol) = 141 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (22.867) + (140.86) = 164 kJ. Multiply by 1000 to report 1.64 × 10⁵ J.<br>The sample absorbs 164 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4286,7 +4286,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "Both absorb heat, so both terms are positive. Plan: Shared ΔT → q for container → q for water → Add both heat amounts.",
-  "explain": "<ol><li><b>Shared temperature change:</b> <div class=\"math\">71.7 − 22.8 = 48.9 °C</div></li><li><b>Heat for the container:</b> <div class=\"math\">446.2 × 0.385 × 48.9 / 1000 = 8.4 kJ</div></li><li><b>Heat for the water:</b> <div class=\"math\">316.3 × 4.184 × 48.9 / 1000 = 64.7 kJ</div></li><li><b>Total absorbed heat:</b> <div class=\"math\">8.4 + 64.7 = 73.1 kJ</div></li></ol>",
+  "explain": "<ol><li><b>Shared temperature change:</b> <div class=\"math\">71.7 − 22.8 = 48.9 °C</div></li><li><b>Heat for the container:</b> <div class=\"math\">446.2 × 0.385 × 48.9 / 1000 = 8.40 kJ</div></li><li><b>Heat for the water:</b> <div class=\"math\">316.3 × 4.184 × 48.9 / 1000 = 64.7 kJ</div></li><li><b>Total absorbed heat:</b> <div class=\"math\">8.40 + 64.7 = 73.1 kJ</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4309,7 +4309,7 @@
   "unit": "J",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Warm the ice → mcΔT → Melt at 0 °C → nΔH → Warm the liquid water → mcΔT → Vaporize at 100 °C → nΔH → Warm the steam → mcΔT → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the ice (mcΔT)<br>2. Melt at 0 °C (nΔH)<br>3. Warm the liquid water (mcΔT)<br>4. Vaporize at 100 °C (nΔH)<br>5. Warm the steam (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">132.25 g × 1 mol/18.02 g = 7.34 mol.</div></li><li><b>Stage 1: Warm the ice:</b> <div class=\"math\">ΔT = 0 − (-20) = 20 °C.<br>q1 = 132.25 g × 2.09 J/(g·°C) × (20 °C) × 1 kJ/1000 J = 5.53 kJ.</div></li><li><b>Stage 2: Melt at 0 °C:</b> <div class=\"math\">q2 = 7.3391 mol × (6.02 kJ/mol) = 44.2 kJ.</div></li><li><b>Stage 3: Warm the liquid water:</b> <div class=\"math\">ΔT = 100 − (0) = 100 °C.<br>q3 = 132.25 g × 4.184 J/(g·°C) × (100 °C) × 1 kJ/1000 J = 55.3 kJ.</div></li><li><b>Stage 4: Vaporize at 100 °C:</b> <div class=\"math\">q4 = 7.3391 mol × (40.7 kJ/mol) = 299 kJ.</div></li><li><b>Stage 5: Warm the steam:</b> <div class=\"math\">ΔT = 115 − (100) = 15 °C.<br>q5 = 132.25 g × 2.04 J/(g·°C) × (15 °C) × 1 kJ/1000 J = 4.05 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (5.528) + (44.181) + (55.333) + (298.7) + (4.0469) = 408 kJ. Multiply by 1000 to report 4.08 × 10⁵ J.<br>The sample absorbs 408 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the ice (mcΔT)<br>2. Melt at 0 °C (nΔH)<br>3. Warm the liquid water (mcΔT)<br>4. Vaporize at 100 °C (nΔH)<br>5. Warm the steam (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">132.25 g × 1 mol/18.02 g = 7.34 mol.</div></li><li><b>Stage 1: Warm the ice:</b> <div class=\"math\">ΔT = 0 − (-20) = 20.00 °C.<br>q1 = 132.25 g × 2.09 J/(g·°C) × (20.00 °C) × 1 kJ/1000 J = 5.53 kJ.</div></li><li><b>Stage 2: Melt at 0 °C:</b> <div class=\"math\">q2 = 7.3391 mol × (6.02 kJ/mol) = 44.2 kJ.</div></li><li><b>Stage 3: Warm the liquid water:</b> <div class=\"math\">ΔT = 100 − (0) = 100.0 °C.<br>q3 = 132.25 g × 4.184 J/(g·°C) × (100.0 °C) × 1 kJ/1000 J = 55.3 kJ.</div></li><li><b>Stage 4: Vaporize at 100 °C:</b> <div class=\"math\">q4 = 7.3391 mol × (40.7 kJ/mol) = 299 kJ.</div></li><li><b>Stage 5: Warm the steam:</b> <div class=\"math\">ΔT = 115 − (100) = 15.00 °C.<br>q5 = 132.25 g × 2.04 J/(g·°C) × (15.00 °C) × 1 kJ/1000 J = 4.05 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (5.528) + (44.181) + (55.333) + (298.7) + (4.0469) = 408 kJ. Multiply by 1000 to report 4.08 × 10⁵ J.<br>The sample absorbs 408 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4332,7 +4332,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Condense at 100 °C → nΔH → Cool the liquid water → mcΔT → Freeze at 0 °C → nΔH → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Condense at 100 °C (nΔH)<br>2. Cool the liquid water (mcΔT)<br>3. Freeze at 0 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">106.6 g × 1 mol/18.02 g = 5.92 mol.</div></li><li><b>Stage 1: Condense at 100 °C:</b> <div class=\"math\">q1 = 5.9156 mol × (-40.7 kJ/mol) = -241 kJ.</div></li><li><b>Stage 2: Cool the liquid water:</b> <div class=\"math\">ΔT = 0 − (100) = -100 °C.<br>q2 = 106.6 g × 4.184 J/(g·°C) × (-100 °C) × 1 kJ/1000 J = -44.6 kJ.</div></li><li><b>Stage 3: Freeze at 0 °C:</b> <div class=\"math\">q3 = 5.9156 mol × (-6.02 kJ/mol) = -35.6 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-240.77) + (-44.601) + (-35.612) = -321 kJ.<br>The sample releases 321 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Condense at 100 °C (nΔH)<br>2. Cool the liquid water (mcΔT)<br>3. Freeze at 0 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">106.6 g × 1 mol/18.02 g = 5.92 mol.</div></li><li><b>Stage 1: Condense at 100 °C:</b> <div class=\"math\">q1 = 5.9156 mol × (-40.7 kJ/mol) = -241 kJ.</div></li><li><b>Stage 2: Cool the liquid water:</b> <div class=\"math\">ΔT = 0 − (100) = -100.0 °C.<br>q2 = 106.6 g × 4.184 J/(g·°C) × (-100.0 °C) × 1 kJ/1000 J = -44.6 kJ.</div></li><li><b>Stage 3: Freeze at 0 °C:</b> <div class=\"math\">q3 = 5.9156 mol × (-6.02 kJ/mol) = -35.6 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-240.77) + (-44.601) + (-35.612) = -321 kJ.<br>The sample releases 321 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4341,7 +4341,7 @@
   }
  },
  {
-  "id": "thermochemistry-b7e31edf",
+  "id": "thermochemistry-2873c462",
   "skill": "thermochemistry.total-heat",
   "courses": [
    "3A"
@@ -4350,12 +4350,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>Condense 32.85 g of ethanol vapor at 78.0 °C, then cool the liquid to 27.3 °C. Find signed heat q for the sample. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in J.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr><tr><td>Specific heat of liquid ethanol, cliquid</td><td>2.46</td><td>J/(g·°C)</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>37.0</td><td>kJ/mol</td></tr><tr><td>Boiling point</td><td>78.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (J)</p>",
+  "prompt": "<p>Condense 32.85 g of ethanol vapor at 78.0 °C, then cool the liquid to 27.30 °C. Find signed heat q for the sample. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in J.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr><tr><td>Specific heat of liquid ethanol, cliquid</td><td>2.46</td><td>J/(g·°C)</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>37.0</td><td>kJ/mol</td></tr><tr><td>Boiling point</td><td>78.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (J)</p>",
   "answer": -30479.8,
   "unit": "J",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Condense at 78 °C → nΔH → Cool the liquid ethanol → mcΔT → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Condense at 78 °C (nΔH)<br>2. Cool the liquid ethanol (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">32.85 g × 1 mol/46.07 g = 0.713 mol.</div></li><li><b>Stage 1: Condense at 78 °C:</b> <div class=\"math\">q1 = 0.71305 mol × (-37 kJ/mol) = -26.4 kJ.</div></li><li><b>Stage 2: Cool the liquid ethanol:</b> <div class=\"math\">ΔT = 27.3 − (78) = -50.7 °C.<br>q2 = 32.85 g × 2.46 J/(g·°C) × (-50.7 °C) × 1 kJ/1000 J = -4.1 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-26.383) + (-4.0971) = -30.5 kJ. Multiply by 1000 to report -3.05 × 10⁴ J.<br>The sample releases 30.5 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Condense at 78 °C (nΔH)<br>2. Cool the liquid ethanol (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">32.85 g × 1 mol/46.07 g = 0.713 mol.</div></li><li><b>Stage 1: Condense at 78 °C:</b> <div class=\"math\">q1 = 0.71305 mol × (-37 kJ/mol) = -26.4 kJ.</div></li><li><b>Stage 2: Cool the liquid ethanol:</b> <div class=\"math\">ΔT = 27.3 − (78) = -50.70 °C.<br>q2 = 32.85 g × 2.46 J/(g·°C) × (-50.70 °C) × 1 kJ/1000 J = -4.10 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-26.383) + (-4.0971) = -30.5 kJ. Multiply by 1000 to report -3.05 × 10⁴ J.<br>The sample releases 30.5 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4378,7 +4378,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "Both absorb heat, so both terms are positive. Plan: Shared ΔT → q for container → q for water → Add both heat amounts.",
-  "explain": "<ol><li><b>Shared temperature change:</b> <div class=\"math\">81.2 − 17.4 = 63.8 °C</div></li><li><b>Heat for the container:</b> <div class=\"math\">350 × 0.449 × 63.8 / 1000 = 10 kJ</div></li><li><b>Heat for the water:</b> <div class=\"math\">509.5 × 4.184 × 63.8 / 1000 = 136 kJ</div></li><li><b>Total absorbed heat:</b> <div class=\"math\">10 + 136 = 146 kJ</div></li></ol>",
+  "explain": "<ol><li><b>Shared temperature change:</b> <div class=\"math\">81.2 − 17.4 = 63.8 °C</div></li><li><b>Heat for the container:</b> <div class=\"math\">350 × 0.449 × 63.8 / 1000 = 10.0 kJ</div></li><li><b>Heat for the water:</b> <div class=\"math\">509.5 × 4.184 × 63.8 / 1000 = 136 kJ</div></li><li><b>Total absorbed heat:</b> <div class=\"math\">10.0 + 136 = 146 kJ</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4401,7 +4401,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Cool the steam → mcΔT → Condense at 100 °C → nΔH → Cool the liquid water → mcΔT → Freeze at 0 °C → nΔH → Cool the ice → mcΔT → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Cool the steam (mcΔT)<br>2. Condense at 100 °C (nΔH)<br>3. Cool the liquid water (mcΔT)<br>4. Freeze at 0 °C (nΔH)<br>5. Cool the ice (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">94.47 g × 1 mol/18.02 g = 5.24 mol.</div></li><li><b>Stage 1: Cool the steam:</b> <div class=\"math\">ΔT = 100 − (115) = -15 °C.<br>q1 = 94.47 g × 2.04 J/(g·°C) × (-15 °C) × 1 kJ/1000 J = -2.89 kJ.</div></li><li><b>Stage 2: Condense at 100 °C:</b> <div class=\"math\">q2 = 5.2425 mol × (-40.7 kJ/mol) = -213 kJ.</div></li><li><b>Stage 3: Cool the liquid water:</b> <div class=\"math\">ΔT = 0 − (100) = -100 °C.<br>q3 = 94.47 g × 4.184 J/(g·°C) × (-100 °C) × 1 kJ/1000 J = -39.5 kJ.</div></li><li><b>Stage 4: Freeze at 0 °C:</b> <div class=\"math\">q4 = 5.2425 mol × (-6.02 kJ/mol) = -31.6 kJ.</div></li><li><b>Stage 5: Cool the ice:</b> <div class=\"math\">ΔT = -20 − (0) = -20 °C.<br>q5 = 94.47 g × 2.09 J/(g·°C) × (-20 °C) × 1 kJ/1000 J = -3.95 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-2.8908) + (-213.37) + (-39.526) + (-31.56) + (-3.9488) = -291 kJ.<br>The sample releases 291 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Cool the steam (mcΔT)<br>2. Condense at 100 °C (nΔH)<br>3. Cool the liquid water (mcΔT)<br>4. Freeze at 0 °C (nΔH)<br>5. Cool the ice (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">94.47 g × 1 mol/18.02 g = 5.24 mol.</div></li><li><b>Stage 1: Cool the steam:</b> <div class=\"math\">ΔT = 100 − (115) = -15.00 °C.<br>q1 = 94.47 g × 2.04 J/(g·°C) × (-15.00 °C) × 1 kJ/1000 J = -2.89 kJ.</div></li><li><b>Stage 2: Condense at 100 °C:</b> <div class=\"math\">q2 = 5.2425 mol × (-40.7 kJ/mol) = -213 kJ.</div></li><li><b>Stage 3: Cool the liquid water:</b> <div class=\"math\">ΔT = 0 − (100) = -100.0 °C.<br>q3 = 94.47 g × 4.184 J/(g·°C) × (-100.0 °C) × 1 kJ/1000 J = -39.5 kJ.</div></li><li><b>Stage 4: Freeze at 0 °C:</b> <div class=\"math\">q4 = 5.2425 mol × (-6.02 kJ/mol) = -31.6 kJ.</div></li><li><b>Stage 5: Cool the ice:</b> <div class=\"math\">ΔT = -20 − (0) = -20.00 °C.<br>q5 = 94.47 g × 2.09 J/(g·°C) × (-20.00 °C) × 1 kJ/1000 J = -3.95 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-2.8908) + (-213.37) + (-39.526) + (-31.56) + (-3.9488) = -291 kJ.<br>The sample releases 291 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4433,7 +4433,7 @@
   }
  },
  {
-  "id": "thermochemistry-3fe43d89",
+  "id": "thermochemistry-01c30b18",
   "skill": "thermochemistry.total-heat",
   "courses": [
    "3A"
@@ -4442,12 +4442,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>Fully vaporize 179.65 g of liquid water initially at 37.8 °C, ending as steam at 100 °C. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in J.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Specific heat of ice, cice</td><td>2.09</td><td>J/(g·°C)</td></tr><tr><td>Specific heat of liquid water, cliquid</td><td>4.184</td><td>J/(g·°C)</td></tr><tr><td>Specific heat of steam, csteam</td><td>2.04</td><td>J/(g·°C)</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr><tr><td>Melting point</td><td>0.0</td><td>°C</td></tr><tr><td>Boiling point</td><td>100.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (J)</p>",
+  "prompt": "<p>Fully vaporize 179.65 g of liquid water initially at 37.80 °C, ending as steam at 100 °C. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in J.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Specific heat of ice, cice</td><td>2.09</td><td>J/(g·°C)</td></tr><tr><td>Specific heat of liquid water, cliquid</td><td>4.184</td><td>J/(g·°C)</td></tr><tr><td>Specific heat of steam, csteam</td><td>2.04</td><td>J/(g·°C)</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr><tr><td>Melting point</td><td>0.0</td><td>°C</td></tr><tr><td>Boiling point</td><td>100.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (J)</p>",
   "answer": 452511,
   "unit": "J",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Warm the liquid water → mcΔT → Vaporize at 100 °C → nΔH → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the liquid water (mcΔT)<br>2. Vaporize at 100 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">179.65 g × 1 mol/18.02 g = 9.97 mol.</div></li><li><b>Stage 1: Warm the liquid water:</b> <div class=\"math\">ΔT = 100 − (37.8) = 62.2 °C.<br>q1 = 179.65 g × 4.184 J/(g·°C) × (62.2 °C) × 1 kJ/1000 J = 46.8 kJ.</div></li><li><b>Stage 2: Vaporize at 100 °C:</b> <div class=\"math\">q2 = 9.9695 mol × (40.7 kJ/mol) = 406 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (46.753) + (405.76) = 453 kJ. Multiply by 1000 to report 4.53 × 10⁵ J.<br>The sample absorbs 453 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the liquid water (mcΔT)<br>2. Vaporize at 100 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">179.65 g × 1 mol/18.02 g = 9.97 mol.</div></li><li><b>Stage 1: Warm the liquid water:</b> <div class=\"math\">ΔT = 100 − (37.8) = 62.20 °C.<br>q1 = 179.65 g × 4.184 J/(g·°C) × (62.20 °C) × 1 kJ/1000 J = 46.8 kJ.</div></li><li><b>Stage 2: Vaporize at 100 °C:</b> <div class=\"math\">q2 = 9.9695 mol × (40.7 kJ/mol) = 406 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (46.753) + (405.76) = 453 kJ. Multiply by 1000 to report 4.53 × 10⁵ J.<br>The sample absorbs 453 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4493,7 +4493,7 @@
   "unit": "J",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Warm the ice → mcΔT → Melt at 0 °C → nΔH → Warm the liquid water → mcΔT → Vaporize at 100 °C → nΔH → Warm the steam → mcΔT → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the ice (mcΔT)<br>2. Melt at 0 °C (nΔH)<br>3. Warm the liquid water (mcΔT)<br>4. Vaporize at 100 °C (nΔH)<br>5. Warm the steam (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">25.49 g × 1 mol/18.02 g = 1.41 mol.</div></li><li><b>Stage 1: Warm the ice:</b> <div class=\"math\">ΔT = 0 − (-15) = 15 °C.<br>q1 = 25.49 g × 2.09 J/(g·°C) × (15 °C) × 1 kJ/1000 J = 0.799 kJ.</div></li><li><b>Stage 2: Melt at 0 °C:</b> <div class=\"math\">q2 = 1.4145 mol × (6.02 kJ/mol) = 8.52 kJ.</div></li><li><b>Stage 3: Warm the liquid water:</b> <div class=\"math\">ΔT = 100 − (0) = 100 °C.<br>q3 = 25.49 g × 4.184 J/(g·°C) × (100 °C) × 1 kJ/1000 J = 10.7 kJ.</div></li><li><b>Stage 4: Vaporize at 100 °C:</b> <div class=\"math\">q4 = 1.4145 mol × (40.7 kJ/mol) = 57.6 kJ.</div></li><li><b>Stage 5: Warm the steam:</b> <div class=\"math\">ΔT = 115 − (100) = 15 °C.<br>q5 = 25.49 g × 2.04 J/(g·°C) × (15 °C) × 1 kJ/1000 J = 0.78 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (0.79911) + (8.5155) + (10.665) + (57.572) + (0.77999) = 78.3 kJ. Multiply by 1000 to report 7.83 × 10⁴ J.<br>The sample absorbs 78.3 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the ice (mcΔT)<br>2. Melt at 0 °C (nΔH)<br>3. Warm the liquid water (mcΔT)<br>4. Vaporize at 100 °C (nΔH)<br>5. Warm the steam (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">25.49 g × 1 mol/18.02 g = 1.41 mol.</div></li><li><b>Stage 1: Warm the ice:</b> <div class=\"math\">ΔT = 0 − (-15) = 15.00 °C.<br>q1 = 25.49 g × 2.09 J/(g·°C) × (15.00 °C) × 1 kJ/1000 J = 0.799 kJ.</div></li><li><b>Stage 2: Melt at 0 °C:</b> <div class=\"math\">q2 = 1.4145 mol × (6.02 kJ/mol) = 8.52 kJ.</div></li><li><b>Stage 3: Warm the liquid water:</b> <div class=\"math\">ΔT = 100 − (0) = 100.0 °C.<br>q3 = 25.49 g × 4.184 J/(g·°C) × (100.0 °C) × 1 kJ/1000 J = 10.7 kJ.</div></li><li><b>Stage 4: Vaporize at 100 °C:</b> <div class=\"math\">q4 = 1.4145 mol × (40.7 kJ/mol) = 57.6 kJ.</div></li><li><b>Stage 5: Warm the steam:</b> <div class=\"math\">ΔT = 115 − (100) = 15.00 °C.<br>q5 = 25.49 g × 2.04 J/(g·°C) × (15.00 °C) × 1 kJ/1000 J = 0.780 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (0.79911) + (8.5155) + (10.665) + (57.572) + (0.77999) = 78.3 kJ. Multiply by 1000 to report 7.83 × 10⁴ J.<br>The sample absorbs 78.3 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4502,7 +4502,7 @@
   }
  },
  {
-  "id": "thermochemistry-355e039e",
+  "id": "thermochemistry-5c1ca1d1",
   "skill": "thermochemistry.total-heat",
   "courses": [
    "3A"
@@ -4511,12 +4511,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>Fully vaporize 96.72 g of liquid water initially at 30.1 °C, ending as steam at 100 °C. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in J.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Specific heat of ice, cice</td><td>2.09</td><td>J/(g·°C)</td></tr><tr><td>Specific heat of liquid water, cliquid</td><td>4.184</td><td>J/(g·°C)</td></tr><tr><td>Specific heat of steam, csteam</td><td>2.04</td><td>J/(g·°C)</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr><tr><td>Melting point</td><td>0.0</td><td>°C</td></tr><tr><td>Boiling point</td><td>100.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (J)</p>",
+  "prompt": "<p>Fully vaporize 96.72 g of liquid water initially at 30.10 °C, ending as steam at 100 °C. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in J.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Specific heat of ice, cice</td><td>2.09</td><td>J/(g·°C)</td></tr><tr><td>Specific heat of liquid water, cliquid</td><td>4.184</td><td>J/(g·°C)</td></tr><tr><td>Specific heat of steam, csteam</td><td>2.04</td><td>J/(g·°C)</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr><tr><td>Melting point</td><td>0.0</td><td>°C</td></tr><tr><td>Boiling point</td><td>100.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (J)</p>",
   "answer": 246739,
   "unit": "J",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Warm the liquid water → mcΔT → Vaporize at 100 °C → nΔH → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the liquid water (mcΔT)<br>2. Vaporize at 100 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">96.72 g × 1 mol/18.02 g = 5.37 mol.</div></li><li><b>Stage 1: Warm the liquid water:</b> <div class=\"math\">ΔT = 100 − (30.1) = 69.9 °C.<br>q1 = 96.72 g × 4.184 J/(g·°C) × (69.9 °C) × 1 kJ/1000 J = 28.3 kJ.</div></li><li><b>Stage 2: Vaporize at 100 °C:</b> <div class=\"math\">q2 = 5.3674 mol × (40.7 kJ/mol) = 218 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (28.287) + (218.45) = 247 kJ. Multiply by 1000 to report 2.47 × 10⁵ J.<br>The sample absorbs 247 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the liquid water (mcΔT)<br>2. Vaporize at 100 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">96.72 g × 1 mol/18.02 g = 5.37 mol.</div></li><li><b>Stage 1: Warm the liquid water:</b> <div class=\"math\">ΔT = 100 − (30.1) = 69.90 °C.<br>q1 = 96.72 g × 4.184 J/(g·°C) × (69.90 °C) × 1 kJ/1000 J = 28.3 kJ.</div></li><li><b>Stage 2: Vaporize at 100 °C:</b> <div class=\"math\">q2 = 5.3674 mol × (40.7 kJ/mol) = 218 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (28.287) + (218.45) = 247 kJ. Multiply by 1000 to report 2.47 × 10⁵ J.<br>The sample absorbs 247 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4525,7 +4525,7 @@
   }
  },
  {
-  "id": "thermochemistry-3d5d7bc2",
+  "id": "thermochemistry-374ebc67",
   "skill": "thermochemistry.total-heat",
   "courses": [
    "3A"
@@ -4534,12 +4534,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>Condense 42.59 g of ethanol vapor at 78.0 °C, then cool the liquid to 35.7 °C. Find signed heat q for the sample. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in J.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr><tr><td>Specific heat of liquid ethanol, cliquid</td><td>2.46</td><td>J/(g·°C)</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>37.0</td><td>kJ/mol</td></tr><tr><td>Boiling point</td><td>78.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (J)</p>",
+  "prompt": "<p>Condense 42.59 g of ethanol vapor at 78.0 °C, then cool the liquid to 35.70 °C. Find signed heat q for the sample. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in J.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr><tr><td>Specific heat of liquid ethanol, cliquid</td><td>2.46</td><td>J/(g·°C)</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>37.0</td><td>kJ/mol</td></tr><tr><td>Boiling point</td><td>78.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (J)</p>",
   "answer": -38637,
   "unit": "J",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Condense at 78 °C → nΔH → Cool the liquid ethanol → mcΔT → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Condense at 78 °C (nΔH)<br>2. Cool the liquid ethanol (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">42.59 g × 1 mol/46.07 g = 0.924 mol.</div></li><li><b>Stage 1: Condense at 78 °C:</b> <div class=\"math\">q1 = 0.92446 mol × (-37 kJ/mol) = -34.2 kJ.</div></li><li><b>Stage 2: Cool the liquid ethanol:</b> <div class=\"math\">ΔT = 35.7 − (78) = -42.3 °C.<br>q2 = 42.59 g × 2.46 J/(g·°C) × (-42.3 °C) × 1 kJ/1000 J = -4.43 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-34.205) + (-4.4318) = -38.6 kJ. Multiply by 1000 to report -3.86 × 10⁴ J.<br>The sample releases 38.6 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Condense at 78 °C (nΔH)<br>2. Cool the liquid ethanol (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">42.59 g × 1 mol/46.07 g = 0.924 mol.</div></li><li><b>Stage 1: Condense at 78 °C:</b> <div class=\"math\">q1 = 0.92446 mol × (-37 kJ/mol) = -34.2 kJ.</div></li><li><b>Stage 2: Cool the liquid ethanol:</b> <div class=\"math\">ΔT = 35.7 − (78) = -42.30 °C.<br>q2 = 42.59 g × 2.46 J/(g·°C) × (-42.30 °C) × 1 kJ/1000 J = -4.43 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-34.205) + (-4.4318) = -38.6 kJ. Multiply by 1000 to report -3.86 × 10⁴ J.<br>The sample releases 38.6 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4562,7 +4562,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "Both absorb heat, so both terms are positive. Plan: Shared ΔT → q for container → q for water → Add both heat amounts.",
-  "explain": "<ol><li><b>Shared temperature change:</b> <div class=\"math\">85.6 − 20.2 = 65.4 °C</div></li><li><b>Heat for the container:</b> <div class=\"math\">147.3 × 0.903 × 65.4 / 1000 = 8.7 kJ</div></li><li><b>Heat for the water:</b> <div class=\"math\">239.5 × 4.184 × 65.4 / 1000 = 65.5 kJ</div></li><li><b>Total absorbed heat:</b> <div class=\"math\">8.7 + 65.5 = 74.2 kJ</div></li></ol>",
+  "explain": "<ol><li><b>Shared temperature change:</b> <div class=\"math\">85.6 − 20.2 = 65.4 °C</div></li><li><b>Heat for the container:</b> <div class=\"math\">147.3 × 0.903 × 65.4 / 1000 = 8.70 kJ</div></li><li><b>Heat for the water:</b> <div class=\"math\">239.5 × 4.184 × 65.4 / 1000 = 65.5 kJ</div></li><li><b>Total absorbed heat:</b> <div class=\"math\">8.70 + 65.5 = 74.2 kJ</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4608,7 +4608,7 @@
   "unit": "J",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Warm the ice → mcΔT → Melt at 0 °C → nΔH → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the ice (mcΔT)<br>2. Melt at 0 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">25.06 g × 1 mol/18.02 g = 1.39 mol.</div></li><li><b>Stage 1: Warm the ice:</b> <div class=\"math\">ΔT = 0 − (-15) = 15 °C.<br>q1 = 25.06 g × 2.09 J/(g·°C) × (15 °C) × 1 kJ/1000 J = 0.786 kJ.</div></li><li><b>Stage 2: Melt at 0 °C:</b> <div class=\"math\">q2 = 1.3907 mol × (6.02 kJ/mol) = 8.37 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (0.78563) + (8.3719) = 9.16 kJ. Multiply by 1000 to report 9160 J.<br>The sample absorbs 9.16 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the ice (mcΔT)<br>2. Melt at 0 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">25.06 g × 1 mol/18.02 g = 1.39 mol.</div></li><li><b>Stage 1: Warm the ice:</b> <div class=\"math\">ΔT = 0 − (-15) = 15.00 °C.<br>q1 = 25.06 g × 2.09 J/(g·°C) × (15.00 °C) × 1 kJ/1000 J = 0.786 kJ.</div></li><li><b>Stage 2: Melt at 0 °C:</b> <div class=\"math\">q2 = 1.3907 mol × (6.02 kJ/mol) = 8.37 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (0.78563) + (8.3719) = 9.16 kJ. Multiply by 1000 to report 9160 J.<br>The sample absorbs 9.16 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4677,7 +4677,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Condense at 100 °C → nΔH → Cool the liquid water → mcΔT → Freeze at 0 °C → nΔH → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Condense at 100 °C (nΔH)<br>2. Cool the liquid water (mcΔT)<br>3. Freeze at 0 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">131.93 g × 1 mol/18.02 g = 7.32 mol.</div></li><li><b>Stage 1: Condense at 100 °C:</b> <div class=\"math\">q1 = 7.3213 mol × (-40.7 kJ/mol) = -298 kJ.</div></li><li><b>Stage 2: Cool the liquid water:</b> <div class=\"math\">ΔT = 0 − (100) = -100 °C.<br>q2 = 131.93 g × 4.184 J/(g·°C) × (-100 °C) × 1 kJ/1000 J = -55.2 kJ.</div></li><li><b>Stage 3: Freeze at 0 °C:</b> <div class=\"math\">q3 = 7.3213 mol × (-6.02 kJ/mol) = -44.1 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-297.98) + (-55.2) + (-44.074) = -397 kJ.<br>The sample releases 397 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Condense at 100 °C (nΔH)<br>2. Cool the liquid water (mcΔT)<br>3. Freeze at 0 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">131.93 g × 1 mol/18.02 g = 7.32 mol.</div></li><li><b>Stage 1: Condense at 100 °C:</b> <div class=\"math\">q1 = 7.3213 mol × (-40.7 kJ/mol) = -298 kJ.</div></li><li><b>Stage 2: Cool the liquid water:</b> <div class=\"math\">ΔT = 0 − (100) = -100.0 °C.<br>q2 = 131.93 g × 4.184 J/(g·°C) × (-100.0 °C) × 1 kJ/1000 J = -55.2 kJ.</div></li><li><b>Stage 3: Freeze at 0 °C:</b> <div class=\"math\">q3 = 7.3213 mol × (-6.02 kJ/mol) = -44.1 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-297.98) + (-55.2) + (-44.074) = -397 kJ.<br>The sample releases 397 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4686,7 +4686,7 @@
   }
  },
  {
-  "id": "thermochemistry-f16a2b79",
+  "id": "thermochemistry-e1c72571",
   "skill": "thermochemistry.total-heat",
   "courses": [
    "3A"
@@ -4695,12 +4695,12 @@
    "3A-7"
   ],
   "type": "number",
-  "prompt": "<p>Convert 157.21 g of liquid ethanol at 20.8 °C to ethanol vapor at its boiling point, 78.0 °C. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in kJ.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr><tr><td>Specific heat of liquid ethanol, cliquid</td><td>2.46</td><td>J/(g·°C)</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>37.0</td><td>kJ/mol</td></tr><tr><td>Boiling point</td><td>78.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (kJ)</p>",
+  "prompt": "<p>Convert 157.21 g of liquid ethanol at 20.80 °C to ethanol vapor at its boiling point, 78.0 °C. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in kJ.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr><tr><td>Specific heat of liquid ethanol, cliquid</td><td>2.46</td><td>J/(g·°C)</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>37.0</td><td>kJ/mol</td></tr><tr><td>Boiling point</td><td>78.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (kJ)</p>",
   "answer": 148.381,
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Warm the liquid ethanol → mcΔT → Vaporize at 78 °C → nΔH → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the liquid ethanol (mcΔT)<br>2. Vaporize at 78 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">157.21 g × 1 mol/46.07 g = 3.41 mol.</div></li><li><b>Stage 1: Warm the liquid ethanol:</b> <div class=\"math\">ΔT = 78 − (20.8) = 57.2 °C.<br>q1 = 157.21 g × 2.46 J/(g·°C) × (57.2 °C) × 1 kJ/1000 J = 22.1 kJ.</div></li><li><b>Stage 2: Vaporize at 78 °C:</b> <div class=\"math\">q2 = 3.4124 mol × (37 kJ/mol) = 126 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (22.121) + (126.26) = 148 kJ.<br>The sample absorbs 148 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the liquid ethanol (mcΔT)<br>2. Vaporize at 78 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">157.21 g × 1 mol/46.07 g = 3.41 mol.</div></li><li><b>Stage 1: Warm the liquid ethanol:</b> <div class=\"math\">ΔT = 78 − (20.8) = 57.20 °C.<br>q1 = 157.21 g × 2.46 J/(g·°C) × (57.20 °C) × 1 kJ/1000 J = 22.1 kJ.</div></li><li><b>Stage 2: Vaporize at 78 °C:</b> <div class=\"math\">q2 = 3.4124 mol × (37 kJ/mol) = 126 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (22.121) + (126.26) = 148 kJ.<br>The sample absorbs 148 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4709,7 +4709,7 @@
   }
  },
  {
-  "id": "thermochemistry-6f896399",
+  "id": "thermochemistry-bb55f679",
   "skill": "thermochemistry.heat-foundations",
   "courses": [
    "1A"
@@ -4719,12 +4719,12 @@
    "1A-10"
   ],
   "type": "number",
-  "prompt": "<p>A 50.3 g sample of benzene condenses completely at 80.1 °C, releasing 19.834 kJ of heat. Calculate ΔH in kJ/mol for this change. Assume constant pressure and constant temperature.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>78.11</td><td>g/mol</td></tr></table><p><b>Enter:</b> Signed ΔH for this change (kJ/mol)</p>",
+  "prompt": "<p>A 50.30 g sample of benzene condenses completely at 80.1 °C, releasing 19.834 kJ of heat. Calculate ΔH in kJ/mol for this change. Assume constant pressure and constant temperature.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>78.11</td><td>g/mol</td></tr></table><p><b>Enter:</b> Signed ΔH for this change (kJ/mol)</p>",
   "answer": -30.8,
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "Absorbing heat gives a positive ΔH; releasing heat gives a negative ΔH. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Keep the sign for absorb or release.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">50.3 g × 1 mol/78.11 g = 0.644 mol.</div></li><li><b>Find the molar enthalpy change:</b> <div class=\"math\">-19.834 kJ/0.644 mol = -30.8 kJ/mol.</div></li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">50.30 g × 1 mol/78.11 g = 0.644 mol.</div></li><li><b>Find the molar enthalpy change:</b> <div class=\"math\">-19.834 kJ/0.644 mol = -30.8 kJ/mol.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4855,7 +4855,7 @@
   }
  },
  {
-  "id": "thermochemistry-abdc9d07",
+  "id": "thermochemistry-bd6420d3",
   "skill": "thermochemistry.heat-foundations",
   "courses": [
    "1A"
@@ -4865,12 +4865,12 @@
    "1A-10"
   ],
   "type": "number",
-  "prompt": "<p>A 51.6 g lead sample ends at 5 °C after losing 75.295 J. Its specific heat is 0.128 J/(g·°C). Find the initial temperature. Assume no phase change and constant specific heat over this interval.</p><p><b>Enter:</b> Initial temperature (°C)</p>",
+  "prompt": "<p>A 51.6 g lead sample ends at 5.00 °C after losing 75.295 J. Its specific heat is 0.128 J/(g·°C). Find the initial temperature. Assume no phase change and constant specific heat over this interval.</p><p><b>Enter:</b> Initial temperature (°C)</p>",
   "answer": 16.4,
   "unit": "°C",
   "tolerance": 0.005,
   "hint": "Check your sign and unit. Cooling q is negative, but mass and specific heat are positive. Plan: Identify given quantities → Find signed ΔT or rearrange → Match energy units → Ti = Tf − q/(mc) → Report °C.",
-  "explain": "<ol><li><b>Set up the equation:</b> <div class=\"math\">Ti = Tf − q/(mc)</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">ΔT = q/(mc) = -11.4 °C. Ti = 5 − (-11.4) = 16.4 °C.</div></li></ol>",
+  "explain": "<ol><li><b>Set up the equation:</b> <div class=\"math\">Ti = Tf − q/(mc)</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">ΔT = q/(mc) = -11.4 °C. Ti = 5.00 − (-11.4) = 16.4 °C.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -4879,7 +4879,7 @@
   }
  },
  {
-  "id": "thermochemistry-eb7328ee",
+  "id": "thermochemistry-434e869f",
   "skill": "thermochemistry.heat-foundations",
   "courses": [
    "1A"
@@ -4889,12 +4889,12 @@
    "1A-10"
   ],
   "type": "number",
-  "prompt": "<p>32.2 g of water vaporizes completely at 100.0 °C. Calculate heat q in J. Assume the entire sample completes the phase change at constant pressure.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.7</td><td>kJ/mol</td></tr></table><p><b>Enter:</b> Heat q (J)</p>",
+  "prompt": "<p>32.20 g of water vaporizes completely at 100.0 °C. Calculate heat q in J. Assume the entire sample completes the phase change at constant pressure.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.7</td><td>kJ/mol</td></tr></table><p><b>Enter:</b> Heat q (J)</p>",
   "answer": 72727,
   "unit": "J",
   "tolerance": 0.005,
   "hint": "During this transition ΔT = 0. Use nΔH rather than mcΔT. Plan: Grams ÷ molar mass → moles → Choose fusion or vaporization and sign → Moles × ΔH → kJ → requested unit.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">32.2 g × 1 mol/18.02 g = 1.79 mol.</div></li><li><b>Choose the signed enthalpy:</b> Vaporizes absorbs heat, so ΔH = 40.7 kJ/mol.</li><li><b>Calculate phase-change heat:</b> <div class=\"math\">1.7869 mol × (40.7 kJ/mol) = 72.7 kJ. × 1000 J/kJ = 7.27 × 10⁴ J.</div></li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">32.20 g × 1 mol/18.02 g = 1.79 mol.</div></li><li><b>Choose the signed enthalpy:</b> Vaporizes absorbs heat, so ΔH = 40.7 kJ/mol.</li><li><b>Calculate phase-change heat:</b> <div class=\"math\">1.7869 mol × (40.7 kJ/mol) = 72.7 kJ. × 1000 J/kJ = 7.27 × 10⁴ J.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -5227,7 +5227,7 @@
   }
  },
  {
-  "id": "thermochemistry-030d766f",
+  "id": "thermochemistry-a66119f5",
   "skill": "thermochemistry.heat-foundations",
   "courses": [
    "1A"
@@ -5237,14 +5237,14 @@
    "1A-10"
   ],
   "type": "mc",
-  "prompt": "<p>A 35.6 g sample of water absorbs 80.41 kJ at constant temperature while it completely changes phase at normal pressure. Use the table to decide whether the sample is melting or vaporizing.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr></table><p>Compare your ΔH with the table values.</p><p><b>Phase change:</b></p>",
+  "prompt": "<p>A 35.60 g sample of water absorbs 80.41 kJ at constant temperature while it completely changes phase at normal pressure. Use the table to decide whether the sample is melting or vaporizing.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>18.02</td><td>g/mol</td></tr><tr><td>Heat of fusion, ΔH<sub>fus</sub></td><td>6.02</td><td>kJ/mol</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>40.70</td><td>kJ/mol</td></tr></table><p>Compare your ΔH with the table values.</p><p><b>Phase change:</b></p>",
   "choices": [
    "Melting (fusion)",
    "Vaporization"
   ],
   "answer": "Vaporization",
   "hint": "Vaporization needs far more heat per mole than melting because the molecules separate completely. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Match ΔH to fusion or vaporization.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">35.6 g × 1 mol/18.02 g = 1.98 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">80.41 kJ/1.98 mol = 40.7 kJ/mol.</div></li><li><b>Name the phase change:</b> 40.7 kJ/mol matches the heat of vaporization (40.70 kJ/mol), so the water is vaporizing.</li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">35.60 g × 1 mol/18.02 g = 1.98 mol.</div></li><li><b>Calculate the heat per mole:</b> <div class=\"math\">80.41 kJ/1.98 mol = 40.7 kJ/mol.</div></li><li><b>Name the phase change:</b> 40.7 kJ/mol matches the heat of vaporization (40.70 kJ/mol), so the water is vaporizing.</li></ol>",
   "why": [
    "Melting water takes about 6.02 kJ/mol. Your heat per mole is much larger, which matches vaporization (about 40.7 kJ/mol).",
    ""
@@ -5509,7 +5509,7 @@
   }
  },
  {
-  "id": "thermochemistry-4418ee88",
+  "id": "thermochemistry-be7902b9",
   "skill": "thermochemistry.heat-foundations",
   "courses": [
    "1A"
@@ -5519,12 +5519,12 @@
    "1A-10"
   ],
   "type": "number",
-  "prompt": "<p>A 49.7 g sample of ethanol condenses completely at 78.0 °C, releasing 39.915 kJ of heat. Calculate ΔH in kJ/mol for this change. Assume constant pressure and constant temperature.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr></table><p><b>Enter:</b> Signed ΔH for this change (kJ/mol)</p>",
+  "prompt": "<p>A 49.70 g sample of ethanol condenses completely at 78.0 °C, releasing 39.915 kJ of heat. Calculate ΔH in kJ/mol for this change. Assume constant pressure and constant temperature.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr></table><p><b>Enter:</b> Signed ΔH for this change (kJ/mol)</p>",
   "answer": -37,
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "Absorbing heat gives a positive ΔH; releasing heat gives a negative ΔH. Plan: Grams ÷ molar mass → moles → ΔH = q ÷ moles → Keep the sign for absorb or release.",
-  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">49.7 g × 1 mol/46.07 g = 1.08 mol.</div></li><li><b>Find the molar enthalpy change:</b> <div class=\"math\">-39.915 kJ/1.08 mol = -37 kJ/mol.</div></li></ol>",
+  "explain": "<ol><li><b>Convert mass to moles:</b> <div class=\"math\">49.70 g × 1 mol/46.07 g = 1.08 mol.</div></li><li><b>Find the molar enthalpy change:</b> <div class=\"math\">-39.915 kJ/1.08 mol = -37.0 kJ/mol.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -5687,7 +5687,7 @@
   }
  },
  {
-  "id": "thermochemistry-224b1a16",
+  "id": "thermochemistry-4a1f5afa",
   "skill": "thermochemistry.heat-foundations",
   "courses": [
    "1A"
@@ -5697,12 +5697,12 @@
    "1A-10"
   ],
   "type": "number",
-  "prompt": "<p>A 8.2 g sample of iron changes from 20 °C to 7 °C. Its specific heat is 0.449 J/(g·°C). Calculate signed heat q in J. Assume no phase change and constant specific heat over this interval.</p><p><b>Enter:</b> Signed heat q (J)</p>",
+  "prompt": "<p>A 8.20 g sample of iron changes from 20.0 °C to 7.00 °C. Its specific heat is 0.449 J/(g·°C). Calculate signed heat q in J. Assume no phase change and constant specific heat over this interval.</p><p><b>Enter:</b> Signed heat q (J)</p>",
   "answer": -47.8634,
   "unit": "J",
   "tolerance": 0.005,
   "hint": "Check your sign and unit. Cooling q is negative, but mass and specific heat are positive. Plan: Identify given quantities → Find signed ΔT or rearrange → Match energy units → q = mcΔT → Report J.",
-  "explain": "<ol><li><b>Find the signed temperature change:</b> <div class=\"math\">7 − 20 = -13 °C.</div></li><li><b>Set up the equation:</b> <div class=\"math\">q = mcΔT</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">8.2 g × 0.449 J/(g·°C) × -13 °C = -47.9 J.</div></li></ol>",
+  "explain": "<ol><li><b>Find the signed temperature change:</b> <div class=\"math\">7.00 − 20.0 = -13.0 °C.</div></li><li><b>Set up the equation:</b> <div class=\"math\">q = mcΔT</div></li><li><b>Calculate the requested value:</b> <div class=\"math\">8.20 g × 0.449 J/(g·°C) × -13.0 °C = -47.9 J.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -5888,7 +5888,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "Keep both terms in kJ. Plan: Calculate PΔV → Convert units → ΔH = ΔU + PΔV.",
-  "explain": "<ol><li><b>Pressure-volume term:</b> <div class=\"math\">1.25 × 3.85 × 0.101325 = 0.488 kJ</div></li><li><b>Calculate ΔH:</b> <div class=\"math\">0.13 + (0.488) = 0.618 kJ</div></li></ol>",
+  "explain": "<ol><li><b>Pressure-volume term:</b> <div class=\"math\">1.25 × 3.85 × 0.101325 = 0.488 kJ</div></li><li><b>Calculate ΔH:</b> <div class=\"math\">0.130 + (0.488) = 0.618 kJ</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -5911,7 +5911,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "q = ΔU − w; w = ΔU − q. Plan: Assign heat/work signs → ΔU = q + w → Solve the unknown.",
-  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (-7.9) + (5.06) = -2.84 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (-7.90) + (5.06) = -2.84 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -5957,7 +5957,7 @@
   "unit": "J",
   "tolerance": 0.005,
   "hint": "The minus sign makes expansion work negative. Plan: Find ΔV → Multiply by −Pext → L·atm → J.",
-  "explain": "<ol><li><b>Volume change:</b> <div class=\"math\">0.74 − 1.37 = -0.63 L</div></li><li><b>Pressure-volume work:</b> <div class=\"math\">−1.46 × (-0.63) × 101.325 = 93.2 J</div></li></ol>",
+  "explain": "<ol><li><b>Volume change:</b> <div class=\"math\">0.74 − 1.37 = -0.630 L</div></li><li><b>Pressure-volume work:</b> <div class=\"math\">−1.46 × (-0.630) × 101.325 = 93.2 J</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -5980,7 +5980,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "q = ΔU − w; w = ΔU − q. Plan: Assign heat/work signs → ΔU = q + w → Solve the unknown.",
-  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (1.89) + (-1.95) = -0.06 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (1.89) + (-1.95) = -0.0600 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -6026,7 +6026,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "q = ΔU − w; w = ΔU − q. Plan: Assign heat/work signs → ΔU = q + w → Solve the unknown.",
-  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (-2.79) + (3.66) = 0.87 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (-2.79) + (3.66) = 0.870 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -6072,7 +6072,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "q = ΔU − w; w = ΔU − q. Plan: Assign heat/work signs → ΔU = q + w → Solve the unknown.",
-  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (10.2) + (-0.6) = 9.57 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (10.2) + (-0.600) = 9.57 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -6210,7 +6210,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "q = ΔU − w; w = ΔU − q. Plan: Assign heat/work signs → ΔU = q + w → Solve the unknown.",
-  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (-8.24) + (1.7) = -6.54 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (-8.24) + (1.70) = -6.54 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -6233,7 +6233,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "q = ΔU − w; w = ΔU − q. Plan: Assign heat/work signs → ΔU = q + w → Solve the unknown.",
-  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (6.28) + (3.7) = 9.98 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (6.28) + (3.70) = 9.98 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -6279,7 +6279,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "q = ΔU − w; w = ΔU − q. Plan: Assign heat/work signs → ΔU = q + w → Solve the unknown.",
-  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (11.4) + (4.61) = 16 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (11.4) + (4.61) = 16.0 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -6348,7 +6348,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "q = ΔU − w; w = ΔU − q. Plan: Assign heat/work signs → ΔU = q + w → Solve the unknown.",
-  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (1.56) + (-1.96) = -0.4 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (1.56) + (-1.96) = -0.400 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -6394,7 +6394,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "q = ΔU − w; w = ΔU − q. Plan: Assign heat/work signs → ΔU = q + w → Solve the unknown.",
-  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (10.7) + (0.59) = 11.3 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (10.7) + (0.590) = 11.3 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -6417,7 +6417,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "q = ΔU − w; w = ΔU − q. Plan: Assign heat/work signs → ΔU = q + w → Solve the unknown.",
-  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (-4.22) + (3.77) = -0.45 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (-4.22) + (3.77) = -0.450 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -6440,7 +6440,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "Keep both terms in kJ. Plan: Calculate PΔV → Convert units → ΔH = ΔU + PΔV.",
-  "explain": "<ol><li><b>Pressure-volume term:</b> <div class=\"math\">1.03 × 4.6 × 0.101325 = 0.48 kJ</div></li><li><b>Calculate ΔH:</b> <div class=\"math\">2.89 + (0.48) = 3.37 kJ</div></li></ol>",
+  "explain": "<ol><li><b>Pressure-volume term:</b> <div class=\"math\">1.03 × 4.6 × 0.101325 = 0.480 kJ</div></li><li><b>Calculate ΔH:</b> <div class=\"math\">2.89 + (0.480) = 3.37 kJ</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -6486,7 +6486,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "q = ΔU − w; w = ΔU − q. Plan: Assign heat/work signs → ΔU = q + w → Solve the unknown.",
-  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (3.23) + (0.54) = 3.77 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (3.23) + (0.540) = 3.77 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -6532,7 +6532,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "q = ΔU − w; w = ΔU − q. Plan: Assign heat/work signs → ΔU = q + w → Solve the unknown.",
-  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (-10) + (-0.82) = -10.9 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (-10.0) + (-0.820) = -10.9 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -6555,7 +6555,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "q = ΔU − w; w = ΔU − q. Plan: Assign heat/work signs → ΔU = q + w → Solve the unknown.",
-  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (-7.79) + (3.09) = -4.7 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Choose the signs:</b> Heat absorbed is positive; work performed by the system is negative.</li><li><b>Apply the first law:</b> <div class=\"math\">ΔU = (-7.79) + (3.09) = -4.70 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -6578,7 +6578,7 @@
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "First convert the burned glucose mass to moles. Plan: Separate or combined heat capacity? → Heat absorbed by surroundings → Negative reaction heat → Moles burned → ΔU per mole.",
-  "explain": "<ol><li><b>Water heat:</b> <div class=\"math\">678.9 × 4.184 × 6.969 / 1000 = 19.8 kJ</div></li><li><b>Calorimeter heat:</b> <div class=\"math\">1.332 × 6.969 = 9.28 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −29.1 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−29.1 / (1.869/180.16) = -2800 kJ/mol</div></li></ol>",
+  "explain": "<ol><li><b>Water heat:</b> <div class=\"math\">678.9 × 4.184 × 6.969 / 1000 = 19.8 kJ</div></li><li><b>Calorimeter heat:</b> <div class=\"math\">1.332 × 6.969 = 9.28 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −29.1 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−29.1 / (1.869/180.16) = -2.80 × 10³ kJ/mol</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -6647,7 +6647,7 @@
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "Use the specified amount that actually forms. Plan: Solution mass → Solution heat → Calorimeter heat → Opposite reaction heat → kJ/mol.",
-  "explain": "<ol><li><b>Solution heat:</b> <div class=\"math\">(49.4 + 52.1) × 4.184 × 4 = 1700 J</div></li><li><b>Calorimeter heat:</b> <div class=\"math\">18 × 4 = 72 J</div></li><li><b>Reaction heat:</b> <div class=\"math\">−(1700 + 72) / 1000 = -1.77 kJ</div></li><li><b>Molar enthalpy:</b> <div class=\"math\">-1.77 / 0.0356 = -49.7 kJ/mol</div></li></ol>",
+  "explain": "<ol><li><b>Solution heat:</b> <div class=\"math\">(49.4 + 52.1) × 4.184 × 4 = 1.70 × 10³ J</div></li><li><b>Calorimeter heat:</b> <div class=\"math\">18 × 4 = 72.0 J</div></li><li><b>Reaction heat:</b> <div class=\"math\">−(1.70 × 10³ + 72.0) / 1000 = -1.77 kJ</div></li><li><b>Molar enthalpy:</b> <div class=\"math\">-1.77 / 0.0356 = -49.7 kJ/mol</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -6739,7 +6739,7 @@
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "First convert the burned glucose mass to moles. Plan: Separate or combined heat capacity? → Heat absorbed by surroundings → Negative reaction heat → Moles burned → ΔU per mole.",
-  "explain": "<ol><li><b>Calorimeter heat:</b> <div class=\"math\">7.01 × 3.303 = 23.2 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −23.2 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−23.2 / (1.488/180.16) = -2800 kJ/mol</div></li></ol>",
+  "explain": "<ol><li><b>Calorimeter heat:</b> <div class=\"math\">7.01 × 3.303 = 23.2 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −23.2 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−23.2 / (1.488/180.16) = -2.80 × 10³ kJ/mol</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -6785,7 +6785,7 @@
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "First convert the burned glucose mass to moles. Plan: Separate or combined heat capacity? → Heat absorbed by surroundings → Negative reaction heat → Moles burned → ΔU per mole.",
-  "explain": "<ol><li><b>Water heat:</b> <div class=\"math\">486 × 4.184 × 5.695 / 1000 = 11.6 kJ</div></li><li><b>Calorimeter heat:</b> <div class=\"math\">1.316 × 5.695 = 7.49 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −19.1 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−19.1 / (1.226/180.16) = -2800 kJ/mol</div></li></ol>",
+  "explain": "<ol><li><b>Water heat:</b> <div class=\"math\">486 × 4.184 × 5.695 / 1000 = 11.6 kJ</div></li><li><b>Calorimeter heat:</b> <div class=\"math\">1.316 × 5.695 = 7.49 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −19.1 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−19.1 / (1.226/180.16) = -2.80 × 10³ kJ/mol</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -6854,7 +6854,7 @@
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "First convert the burned glucose mass to moles. Plan: Separate or combined heat capacity? → Heat absorbed by surroundings → Negative reaction heat → Moles burned → ΔU per mole.",
-  "explain": "<ol><li><b>Calorimeter heat:</b> <div class=\"math\">6.42 × 2.317 = 14.9 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −14.9 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−14.9 / (0.956/180.16) = -2800 kJ/mol</div></li></ol>",
+  "explain": "<ol><li><b>Calorimeter heat:</b> <div class=\"math\">6.42 × 2.317 = 14.9 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −14.9 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−14.9 / (0.956/180.16) = -2.80 × 10³ kJ/mol</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -6946,7 +6946,7 @@
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "First convert the burned glucose mass to moles. Plan: Separate or combined heat capacity? → Heat absorbed by surroundings → Negative reaction heat → Moles burned → ΔU per mole.",
-  "explain": "<ol><li><b>Water heat:</b> <div class=\"math\">528 × 4.184 × 5.334 / 1000 = 11.8 kJ</div></li><li><b>Calorimeter heat:</b> <div class=\"math\">2.677 × 5.334 = 14.3 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −26.1 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−26.1 / (1.675/180.16) = -2800 kJ/mol</div></li></ol>",
+  "explain": "<ol><li><b>Water heat:</b> <div class=\"math\">528 × 4.184 × 5.334 / 1000 = 11.8 kJ</div></li><li><b>Calorimeter heat:</b> <div class=\"math\">2.677 × 5.334 = 14.3 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −26.1 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−26.1 / (1.675/180.16) = -2.80 × 10³ kJ/mol</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -7084,7 +7084,7 @@
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "First convert the burned glucose mass to moles. Plan: Separate or combined heat capacity? → Heat absorbed by surroundings → Negative reaction heat → Moles burned → ΔU per mole.",
-  "explain": "<ol><li><b>Calorimeter heat:</b> <div class=\"math\">8.2 × 1.294 = 10.6 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −10.6 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−10.6 / (0.682/180.16) = -2800 kJ/mol</div></li></ol>",
+  "explain": "<ol><li><b>Calorimeter heat:</b> <div class=\"math\">8.2 × 1.294 = 10.6 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −10.6 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−10.6 / (0.682/180.16) = -2.80 × 10³ kJ/mol</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -7153,7 +7153,7 @@
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "Use the specified amount that actually forms. Plan: Solution mass → Solution heat → Calorimeter heat → Opposite reaction heat → kJ/mol.",
-  "explain": "<ol><li><b>Solution heat:</b> <div class=\"math\">(74.7 + 64.7) × 4.184 × 3.2 = 1870 J</div></li><li><b>Calorimeter heat:</b> <div class=\"math\">21.9 × 3.2 = 70.1 J</div></li><li><b>Reaction heat:</b> <div class=\"math\">−(1870 + 70.1) / 1000 = -1.94 kJ</div></li><li><b>Molar enthalpy:</b> <div class=\"math\">-1.94 / 0.0193 = -100 kJ/mol</div></li></ol>",
+  "explain": "<ol><li><b>Solution heat:</b> <div class=\"math\">(74.7 + 64.7) × 4.184 × 3.2 = 1870 J</div></li><li><b>Calorimeter heat:</b> <div class=\"math\">21.9 × 3.2 = 70.1 J</div></li><li><b>Reaction heat:</b> <div class=\"math\">−(1870 + 70.1) / 1000 = -1.94 kJ</div></li><li><b>Molar enthalpy:</b> <div class=\"math\">-1.94 / 0.0193 = -100. kJ/mol</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -7176,7 +7176,7 @@
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "First convert the burned glucose mass to moles. Plan: Separate or combined heat capacity? → Heat absorbed by surroundings → Negative reaction heat → Moles burned → ΔU per mole.",
-  "explain": "<ol><li><b>Calorimeter heat:</b> <div class=\"math\">9.83 × 3.112 = 30.6 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −30.6 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−30.6 / (1.966/180.16) = -2800 kJ/mol</div></li></ol>",
+  "explain": "<ol><li><b>Calorimeter heat:</b> <div class=\"math\">9.83 × 3.112 = 30.6 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −30.6 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−30.6 / (1.966/180.16) = -2.80 × 10³ kJ/mol</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -7291,7 +7291,7 @@
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "First convert the burned glucose mass to moles. Plan: Separate or combined heat capacity? → Heat absorbed by surroundings → Negative reaction heat → Moles burned → ΔU per mole.",
-  "explain": "<ol><li><b>Water heat:</b> <div class=\"math\">476.2 × 4.184 × 4.029 / 1000 = 8.03 kJ</div></li><li><b>Calorimeter heat:</b> <div class=\"math\">1.371 × 4.029 = 5.52 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −13.6 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−13.6 / (0.871/180.16) = -2800 kJ/mol</div></li></ol>",
+  "explain": "<ol><li><b>Water heat:</b> <div class=\"math\">476.2 × 4.184 × 4.029 / 1000 = 8.03 kJ</div></li><li><b>Calorimeter heat:</b> <div class=\"math\">1.371 × 4.029 = 5.52 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −13.6 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−13.6 / (0.871/180.16) = -2.80 × 10³ kJ/mol</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -7360,7 +7360,7 @@
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "First convert the burned glucose mass to moles. Plan: Separate or combined heat capacity? → Heat absorbed by surroundings → Negative reaction heat → Moles burned → ΔU per mole.",
-  "explain": "<ol><li><b>Calorimeter heat:</b> <div class=\"math\">9.07 × 1.748 = 15.9 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −15.9 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−15.9 / (1.019/180.16) = -2800 kJ/mol</div></li></ol>",
+  "explain": "<ol><li><b>Calorimeter heat:</b> <div class=\"math\">9.07 × 1.748 = 15.9 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −15.9 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−15.9 / (1.019/180.16) = -2.80 × 10³ kJ/mol</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -7452,7 +7452,7 @@
   "unit": "kJ/°C",
   "tolerance": 0.005,
   "hint": "Use the positive heat absorbed by the calorimeter. Plan: Identify absorbed heat → Divide by ΔT.",
-  "explain": "<ol><li><b>Heat-capacity calculation:</b> <div class=\"math\">5.8 / 3.789 = 1.53 kJ/°C</div></li></ol>",
+  "explain": "<ol><li><b>Heat-capacity calculation:</b> <div class=\"math\">5.80 / 3.789 = 1.53 kJ/°C</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -7475,7 +7475,7 @@
   "unit": "kJ/mol",
   "tolerance": 0.005,
   "hint": "First convert the burned glucose mass to moles. Plan: Separate or combined heat capacity? → Heat absorbed by surroundings → Negative reaction heat → Moles burned → ΔU per mole.",
-  "explain": "<ol><li><b>Water heat:</b> <div class=\"math\">430.6 × 4.184 × 7.047 / 1000 = 12.7 kJ</div></li><li><b>Calorimeter heat:</b> <div class=\"math\">2.612 × 7.047 = 18.4 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −31.1 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−31.1 / (1.999/180.16) = -2800 kJ/mol</div></li></ol>",
+  "explain": "<ol><li><b>Water heat:</b> <div class=\"math\">430.6 × 4.184 × 7.047 / 1000 = 12.7 kJ</div></li><li><b>Calorimeter heat:</b> <div class=\"math\">2.612 × 7.047 = 18.4 kJ</div></li><li><b>Reaction energy:</b> <div class=\"math\">qreaction = −31.1 kJ</div></li><li><b>Molar internal-energy change:</b> <div class=\"math\">−31.1 / (1.999/180.16) = -2.80 × 10³ kJ/mol</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -8395,7 +8395,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "Add the values with their displayed signs. The result belongs to the exact target equation. Plan: Flip and scale the cards → Lock the matched setup → Click matching species on both sides → Check the net reaction → Add adjusted ΔH.",
-  "explain": "<ol><li>Reaction 1 × (−1) × 3/4: 3/4 N<sub>2</sub>(g) + 3/4 O<sub>2</sub>(g) <span class=\"yield\">→</span> 3/2 NO(g); ΔH = 135.375 kJ</li><li>Reaction 2 × (−1) × 1/4: 1/2 N<sub>2</sub>O(g) <span class=\"yield\">→</span> 1/2 N<sub>2</sub>(g) + 1/4 O<sub>2</sub>(g); ΔH = -40.8 kJ</li><li>Reaction 3 × (−1) × 1/2: 1/2 NO<sub>2</sub>(g) <span class=\"yield\">→</span> 1/4 N<sub>2</sub>(g) + 1/2 O<sub>2</sub>(g); ΔH = -16.6 kJ</li></ol><div class=\"math\">(135.375) + (-40.8) + (-16.6) = 78 kJ</div><div class=\"math\">1/2 N<sub>2</sub>O(g) + 1/2 NO<sub>2</sub>(g) <span class=\"yield\">→</span> 3/2 NO(g)</div>",
+  "explain": "<ol><li>Reaction 1 × (−1) × 3/4: 3/4 N<sub>2</sub>(g) + 3/4 O<sub>2</sub>(g) <span class=\"yield\">→</span> 3/2 NO(g); ΔH = 135.375 kJ</li><li>Reaction 2 × (−1) × 1/4: 1/2 N<sub>2</sub>O(g) <span class=\"yield\">→</span> 1/2 N<sub>2</sub>(g) + 1/4 O<sub>2</sub>(g); ΔH = -40.8 kJ</li><li>Reaction 3 × (−1) × 1/2: 1/2 NO<sub>2</sub>(g) <span class=\"yield\">→</span> 1/4 N<sub>2</sub>(g) + 1/2 O<sub>2</sub>(g); ΔH = -16.6 kJ</li></ol><div class=\"math\">(135.375) + (-40.8) + (-16.6) = 78.0 kJ</div><div class=\"math\">1/2 N<sub>2</sub>O(g) + 1/2 NO<sub>2</sub>(g) <span class=\"yield\">→</span> 3/2 NO(g)</div>",
   "origin": "openstax",
   "from": {
    "game": "thermochemistry",
@@ -8487,7 +8487,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "Subtract the entire reactant sum, including its sign. Plan: Predict complete-combustion products → ΣnΔH°f products → ΣnΔH°f reactants → Products − reactants.",
-  "explain": "<ol><li><b>Predict the combustion products:</b> <div class=\"math\">CO<sub>2</sub> and H<sub>2</sub>O</div></li><li><b>Balance the predicted reaction:</b> <div class=\"math\">2 C<sub>2</sub>H<sub>2</sub>(g) + 5 O<sub>2</sub>(g) <span class=\"yield\">→</span> 4 CO<sub>2</sub>(g) + 2 H<sub>2</sub>O(l)</div></li><li><b>Product contributions:</b> <div class=\"math\">4(-393.51) + 2(-285.83) = -2150 kJ</div></li><li><b>Reactant contributions:</b> <div class=\"math\">2(227.4) + 5(0) = 455 kJ</div></li><li><b>Reaction enthalpy:</b> <div class=\"math\">-2150 − (455) = -2600 kJ</div></li></ol>",
+  "explain": "<ol><li><b>Predict the combustion products:</b> <div class=\"math\">CO<sub>2</sub> and H<sub>2</sub>O</div></li><li><b>Balance the predicted reaction:</b> <div class=\"math\">2 C<sub>2</sub>H<sub>2</sub>(g) + 5 O<sub>2</sub>(g) <span class=\"yield\">→</span> 4 CO<sub>2</sub>(g) + 2 H<sub>2</sub>O(l)</div></li><li><b>Product contributions:</b> <div class=\"math\">4(-393.51) + 2(-285.83) = -2150 kJ</div></li><li><b>Reactant contributions:</b> <div class=\"math\">2(227.4) + 5(0) = 455 kJ</div></li><li><b>Reaction enthalpy:</b> <div class=\"math\">-2150 − (455) = -2.60 × 10³ kJ</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -9269,7 +9269,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "Subtract the entire reactant sum, including its sign. Plan: ΣnΔH°f products → ΣnΔH°f reactants → Products − reactants.",
-  "explain": "<ol><li><b>Product contributions:</b> <div class=\"math\">1(-241.82) = -242 kJ</div></li><li><b>Reactant contributions:</b> <div class=\"math\">1(-285.83) = -286 kJ</div></li><li><b>Reaction enthalpy:</b> <div class=\"math\">-242 − (-286) = 44 kJ</div></li></ol>",
+  "explain": "<ol><li><b>Product contributions:</b> <div class=\"math\">1(-241.82) = -242 kJ</div></li><li><b>Reactant contributions:</b> <div class=\"math\">1(-285.83) = -286 kJ</div></li><li><b>Reaction enthalpy:</b> <div class=\"math\">-242 − (-286) = 44.0 kJ</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -9339,7 +9339,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "ΔH scales with the coefficients, and reversing also changes the sign. Plan: Reverse → flip the sign → Scale → multiply ΔH → Report the new ΔH.",
-  "explain": "<ol><li><b>Reverse the reaction:</b> Reversing swaps reactants and products, so the sign of ΔH flips.</li><li><b>Scale the equation:</b> <div class=\"math\">(−1) × (-2600 kJ) × 2 = 5200 kJ</div></li></ol>",
+  "explain": "<ol><li><b>Reverse the reaction:</b> Reversing swaps reactants and products, so the sign of ΔH flips.</li><li><b>Scale the equation:</b> <div class=\"math\">(−1) × (-2.60 × 10³ kJ) × 2 = 5.20 × 10³ kJ</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -9441,7 +9441,7 @@
   "unit": "g",
   "tolerance": 0.005,
   "hint": "Mass and moles must be positive. Plan: Predict complete-combustion products → Balance the equation → Convert given amount → Use coefficient-linked ΔH → Report requested quantity.",
-  "explain": "<ol><li><b>Predict the combustion products:</b> <div class=\"math\">CO<sub>2</sub> and H<sub>2</sub>O</div></li><li><b>Balance the equation:</b> <div class=\"math\">2 C<sub>2</sub>H<sub>2</sub>(g) + 5 O<sub>2</sub>(g) <span class=\"yield\">→</span> 4 CO<sub>2</sub>(g) + 2 H<sub>2</sub>O(l)</div></li><li><b>Energy to moles:</b> <div class=\"math\">1710 kJ × 2 mol / 2600 kJ = 1.32 mol</div></li><li><b>Moles to mass:</b> <div class=\"math\">1.32 × 26.04 = 34.3 g</div></li></ol>",
+  "explain": "<ol><li><b>Predict the combustion products:</b> <div class=\"math\">CO<sub>2</sub> and H<sub>2</sub>O</div></li><li><b>Balance the equation:</b> <div class=\"math\">2 C<sub>2</sub>H<sub>2</sub>(g) + 5 O<sub>2</sub>(g) <span class=\"yield\">→</span> 4 CO<sub>2</sub>(g) + 2 H<sub>2</sub>O(l)</div></li><li><b>Energy to moles:</b> <div class=\"math\">1710 kJ × 2 mol / 2.60 × 10³ kJ = 1.32 mol</div></li><li><b>Moles to mass:</b> <div class=\"math\">1.32 × 26.04 = 34.3 g</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -9489,7 +9489,7 @@
   "unit": "kJ/g",
   "tolerance": 0.005,
   "hint": "Convert moles to grams with the molar mass of the fuel. Plan: ΔH ÷ fuel coefficient → Moles → grams → Report released heat as positive.",
-  "explain": "<ol><li><b>Energy per mole of fuel:</b> <div class=\"math\">-2600 kJ ÷ 2 mol = -1300 kJ/mol</div></li><li><b>Energy per gram:</b> <div class=\"math\">1300 kJ/mol ÷ 26.04 g/mol = 49.9 kJ/g</div></li></ol>",
+  "explain": "<ol><li><b>Energy per mole of fuel:</b> <div class=\"math\">-2.60 × 10³ kJ ÷ 2 mol = -1.30 × 10³ kJ/mol</div></li><li><b>Energy per gram:</b> <div class=\"math\">1.30 × 10³ kJ/mol ÷ 26.04 g/mol = 49.9 kJ/g</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -9615,7 +9615,7 @@
   "unit": "g",
   "tolerance": 0.005,
   "hint": "Mass and moles must be positive. Plan: Predict complete-combustion products → Balance the equation → Convert given amount → Use coefficient-linked ΔH → Report requested quantity.",
-  "explain": "<ol><li><b>Predict the combustion products:</b> <div class=\"math\">CO<sub>2</sub> and H<sub>2</sub>O</div></li><li><b>Balance the equation:</b> <div class=\"math\">2 CH<sub>3</sub>OH(l) + 3 O<sub>2</sub>(g) <span class=\"yield\">→</span> 2 CO<sub>2</sub>(g) + 4 H<sub>2</sub>O(l)</div></li><li><b>Energy to moles:</b> <div class=\"math\">150 kJ × 2 mol / 1450 kJ = 0.207 mol</div></li><li><b>Moles to mass:</b> <div class=\"math\">0.207 × 32.04 = 6.62 g</div></li></ol>",
+  "explain": "<ol><li><b>Predict the combustion products:</b> <div class=\"math\">CO<sub>2</sub> and H<sub>2</sub>O</div></li><li><b>Balance the equation:</b> <div class=\"math\">2 CH<sub>3</sub>OH(l) + 3 O<sub>2</sub>(g) <span class=\"yield\">→</span> 2 CO<sub>2</sub>(g) + 4 H<sub>2</sub>O(l)</div></li><li><b>Energy to moles:</b> <div class=\"math\">150. kJ × 2 mol / 1450 kJ = 0.207 mol</div></li><li><b>Moles to mass:</b> <div class=\"math\">0.207 × 32.04 = 6.62 g</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -9663,7 +9663,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "Do not use ΔH as if it is per mole when the coefficient is not 1. Plan: Balance the equation → Convert given amount → Use coefficient-linked ΔH → Report requested quantity.",
-  "explain": "<ol><li><b>Balance the equation:</b> <div class=\"math\">2 C<sub>2</sub>H<sub>2</sub>(g) + 5 O<sub>2</sub>(g) <span class=\"yield\">→</span> 4 CO<sub>2</sub>(g) + 2 H<sub>2</sub>O(l)</div></li><li><b>Convert grams to moles:</b> <div class=\"math\">47.25 / 26.04 = 1.81 mol</div></li><li><b>Moles to heat:</b> <div class=\"math\">1.81 mol × -2600 kJ / 2 mol = -2360 kJ</div></li></ol>",
+  "explain": "<ol><li><b>Balance the equation:</b> <div class=\"math\">2 C<sub>2</sub>H<sub>2</sub>(g) + 5 O<sub>2</sub>(g) <span class=\"yield\">→</span> 4 CO<sub>2</sub>(g) + 2 H<sub>2</sub>O(l)</div></li><li><b>Convert grams to moles:</b> <div class=\"math\">47.25 / 26.04 = 1.81 mol</div></li><li><b>Moles to heat:</b> <div class=\"math\">1.81 mol × -2.60 × 10³ kJ / 2 mol = -2360 kJ</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -9717,7 +9717,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "Do not use ΔH as if it is per mole when the coefficient is not 1. Plan: Balance the equation → Convert given amount → Use coefficient-linked ΔH → Report requested quantity.",
-  "explain": "<ol><li><b>Balance the equation:</b> <div class=\"math\">C<sub>2</sub>H<sub>4</sub>(g) + 3 O<sub>2</sub>(g) <span class=\"yield\">→</span> 2 CO<sub>2</sub>(g) + 2 H<sub>2</sub>O(l)</div></li><li><b>Convert grams to moles:</b> <div class=\"math\">13.72 / 44.01 = 0.312 mol</div></li><li><b>Moles to heat:</b> <div class=\"math\">0.312 mol × -1410 kJ / 2 mol = -220 kJ</div></li></ol>",
+  "explain": "<ol><li><b>Balance the equation:</b> <div class=\"math\">C<sub>2</sub>H<sub>4</sub>(g) + 3 O<sub>2</sub>(g) <span class=\"yield\">→</span> 2 CO<sub>2</sub>(g) + 2 H<sub>2</sub>O(l)</div></li><li><b>Convert grams to moles:</b> <div class=\"math\">13.72 / 44.01 = 0.312 mol</div></li><li><b>Moles to heat:</b> <div class=\"math\">0.312 mol × -1410 kJ / 2 mol = -220. kJ</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -9765,7 +9765,7 @@
   "unit": "g",
   "tolerance": 0.005,
   "hint": "Mass and moles must be positive. Plan: Balance the equation → Convert given amount → Use coefficient-linked ΔH → Report requested quantity.",
-  "explain": "<ol><li><b>Balance the equation:</b> <div class=\"math\">2 H<sub>2</sub>O<sub>2</sub>(l) <span class=\"yield\">→</span> 2 H<sub>2</sub>O(l) + O<sub>2</sub>(g)</div></li><li><b>Energy to moles:</b> <div class=\"math\">112 kJ × 2 mol / 196 kJ = 1.15 mol</div></li><li><b>Moles to mass:</b> <div class=\"math\">1.15 × 34.02 = 39 g</div></li></ol>",
+  "explain": "<ol><li><b>Balance the equation:</b> <div class=\"math\">2 H<sub>2</sub>O<sub>2</sub>(l) <span class=\"yield\">→</span> 2 H<sub>2</sub>O(l) + O<sub>2</sub>(g)</div></li><li><b>Energy to moles:</b> <div class=\"math\">112 kJ × 2 mol / 196 kJ = 1.15 mol</div></li><li><b>Moles to mass:</b> <div class=\"math\">1.15 × 34.02 = 39.0 g</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -10041,7 +10041,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "Do not use ΔH as if it is per mole when the coefficient is not 1. Plan: Balance the equation → Convert given amount → Use coefficient-linked ΔH → Report requested quantity.",
-  "explain": "<ol><li><b>Balance the equation:</b> <div class=\"math\">4 NH<sub>3</sub>(g) + 5 O<sub>2</sub>(g) <span class=\"yield\">→</span> 4 NO(g) + 6 H<sub>2</sub>O(g)</div></li><li><b>Convert grams to moles:</b> <div class=\"math\">26.29 / 17.03 = 1.54 mol</div></li><li><b>Moles to heat:</b> <div class=\"math\">1.54 mol × -906 kJ / 4 mol = -350 kJ</div></li></ol>",
+  "explain": "<ol><li><b>Balance the equation:</b> <div class=\"math\">4 NH<sub>3</sub>(g) + 5 O<sub>2</sub>(g) <span class=\"yield\">→</span> 4 NO(g) + 6 H<sub>2</sub>O(g)</div></li><li><b>Convert grams to moles:</b> <div class=\"math\">26.29 / 17.03 = 1.54 mol</div></li><li><b>Moles to heat:</b> <div class=\"math\">1.54 mol × -906 kJ / 4 mol = -350. kJ</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -10293,7 +10293,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "Do not use ΔH as if it is per mole when the coefficient is not 1. Plan: Balance the equation → Convert given amount → Use coefficient-linked ΔH → Report requested quantity.",
-  "explain": "<ol><li><b>Balance the equation:</b> <div class=\"math\">N<sub>2</sub>O<sub>4</sub>(g) <span class=\"yield\">→</span> 2 NO<sub>2</sub>(g)</div></li><li><b>Moles to heat:</b> <div class=\"math\">0.3 mol × 55.3 kJ / 1 mol = 16.6 kJ</div></li></ol>",
+  "explain": "<ol><li><b>Balance the equation:</b> <div class=\"math\">N<sub>2</sub>O<sub>4</sub>(g) <span class=\"yield\">→</span> 2 NO<sub>2</sub>(g)</div></li><li><b>Moles to heat:</b> <div class=\"math\">0.300 mol × 55.3 kJ / 1 mol = 16.6 kJ</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -10413,7 +10413,7 @@
   "unit": "J",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Cool the steam → mcΔT → Condense at 100 °C → nΔH → Cool the liquid water → mcΔT → Freeze at 0 °C → nΔH → Cool the ice → mcΔT → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Cool the steam (mcΔT)<br>2. Condense at 100 °C (nΔH)<br>3. Cool the liquid water (mcΔT)<br>4. Freeze at 0 °C (nΔH)<br>5. Cool the ice (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">149.13 g × 1 mol/18.02 g = 8.28 mol.</div></li><li><b>Stage 1: Cool the steam:</b> <div class=\"math\">ΔT = 100 − (120) = -20 °C.<br>q1 = 149.13 g × 2.04 J/(g·°C) × (-20 °C) × 1 kJ/1000 J = -6.08 kJ.</div></li><li><b>Stage 2: Condense at 100 °C:</b> <div class=\"math\">q2 = 8.2758 mol × (-40.7 kJ/mol) = -337 kJ.</div></li><li><b>Stage 3: Cool the liquid water:</b> <div class=\"math\">ΔT = 0 − (100) = -100 °C.<br>q3 = 149.13 g × 4.184 J/(g·°C) × (-100 °C) × 1 kJ/1000 J = -62.4 kJ.</div></li><li><b>Stage 4: Freeze at 0 °C:</b> <div class=\"math\">q4 = 8.2758 mol × (-6.02 kJ/mol) = -49.8 kJ.</div></li><li><b>Stage 5: Cool the ice:</b> <div class=\"math\">ΔT = -10 − (0) = -10 °C.<br>q5 = 149.13 g × 2.09 J/(g·°C) × (-10 °C) × 1 kJ/1000 J = -3.12 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-6.0845) + (-336.83) + (-62.396) + (-49.82) + (-3.1168) = -458 kJ. Multiply by 1000 to report -4.58 × 10⁵ J.<br>The sample releases 458 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Cool the steam (mcΔT)<br>2. Condense at 100 °C (nΔH)<br>3. Cool the liquid water (mcΔT)<br>4. Freeze at 0 °C (nΔH)<br>5. Cool the ice (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">149.13 g × 1 mol/18.02 g = 8.28 mol.</div></li><li><b>Stage 1: Cool the steam:</b> <div class=\"math\">ΔT = 100 − (120) = -20.00 °C.<br>q1 = 149.13 g × 2.04 J/(g·°C) × (-20.00 °C) × 1 kJ/1000 J = -6.08 kJ.</div></li><li><b>Stage 2: Condense at 100 °C:</b> <div class=\"math\">q2 = 8.2758 mol × (-40.7 kJ/mol) = -337 kJ.</div></li><li><b>Stage 3: Cool the liquid water:</b> <div class=\"math\">ΔT = 0 − (100) = -100.0 °C.<br>q3 = 149.13 g × 4.184 J/(g·°C) × (-100.0 °C) × 1 kJ/1000 J = -62.4 kJ.</div></li><li><b>Stage 4: Freeze at 0 °C:</b> <div class=\"math\">q4 = 8.2758 mol × (-6.02 kJ/mol) = -49.8 kJ.</div></li><li><b>Stage 5: Cool the ice:</b> <div class=\"math\">ΔT = -10 − (0) = -10.00 °C.<br>q5 = 149.13 g × 2.09 J/(g·°C) × (-10.00 °C) × 1 kJ/1000 J = -3.12 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-6.0845) + (-336.83) + (-62.396) + (-49.82) + (-3.1168) = -458 kJ. Multiply by 1000 to report -4.58 × 10⁵ J.<br>The sample releases 458 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -10461,7 +10461,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "ΔH belongs to one full balanced equation. Plan: Predict complete-combustion products → Balance → Fuel grams → moles → Compare coefficient ratios → Reaction heat → Excess remaining.",
-  "explain": "<ol><li><b>Predict the combustion products:</b> <div class=\"math\">CO<sub>2</sub> and H<sub>2</sub>O</div></li><li><b>Balance the combustion:</b> <div class=\"math\">2 C<sub>2</sub>H<sub>2</sub>(g) + 5 O<sub>2</sub>(g) <span class=\"yield\">→</span> 4 CO<sub>2</sub>(g) + 2 H<sub>2</sub>O(l)</div></li><li><b>Compare reactants:</b> <div class=\"math\">Fuel: 0.101 / 2; oxygen: 0.403 / 5. The smaller ratio limits the reaction.</div></li><li><b>Heat from the limiting reactant:</b> <div class=\"math\">0.0507 × (-2600) = -132 kJ</div></li><li><b>Excess reactant left:</b> <div class=\"math\">Remaining = initial − amount consumed = 0.149 mol</div></li></ol>",
+  "explain": "<ol><li><b>Predict the combustion products:</b> <div class=\"math\">CO<sub>2</sub> and H<sub>2</sub>O</div></li><li><b>Balance the combustion:</b> <div class=\"math\">2 C<sub>2</sub>H<sub>2</sub>(g) + 5 O<sub>2</sub>(g) <span class=\"yield\">→</span> 4 CO<sub>2</sub>(g) + 2 H<sub>2</sub>O(l)</div></li><li><b>Compare reactants:</b> <div class=\"math\">Fuel: 0.101 / 2; oxygen: 0.403 / 5. The smaller ratio limits the reaction.</div></li><li><b>Heat from the limiting reactant:</b> <div class=\"math\">0.0507 × (-2.60 × 10³) = -132 kJ</div></li><li><b>Excess reactant left:</b> <div class=\"math\">Remaining = initial − amount consumed = 0.149 mol</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -10509,7 +10509,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "Do not use ΔH as if it is per mole when the coefficient is not 1. Plan: Predict complete-combustion products → Balance the equation → Convert given amount → Use coefficient-linked ΔH → Report requested quantity.",
-  "explain": "<ol><li><b>Predict the combustion products:</b> <div class=\"math\">CO<sub>2</sub> and H<sub>2</sub>O</div></li><li><b>Balance the equation:</b> <div class=\"math\">2 CH<sub>3</sub>OH(l) + 3 O<sub>2</sub>(g) <span class=\"yield\">→</span> 2 CO<sub>2</sub>(g) + 4 H<sub>2</sub>O(l)</div></li><li><b>Determine reaction enthalpy:</b> <div class=\"math\">ΔH = -1930 − (-478) = -1450 kJ</div></li><li><b>Convert grams to moles:</b> <div class=\"math\">21.64 / 32.04 = 0.675 mol</div></li><li><b>Moles to heat:</b> <div class=\"math\">0.675 mol × -1450 kJ / 2 mol = -490 kJ</div></li></ol>",
+  "explain": "<ol><li><b>Predict the combustion products:</b> <div class=\"math\">CO<sub>2</sub> and H<sub>2</sub>O</div></li><li><b>Balance the equation:</b> <div class=\"math\">2 CH<sub>3</sub>OH(l) + 3 O<sub>2</sub>(g) <span class=\"yield\">→</span> 2 CO<sub>2</sub>(g) + 4 H<sub>2</sub>O(l)</div></li><li><b>Determine reaction enthalpy:</b> <div class=\"math\">ΔH = -1930 − (-478) = -1450 kJ</div></li><li><b>Convert grams to moles:</b> <div class=\"math\">21.64 / 32.04 = 0.675 mol</div></li><li><b>Moles to heat:</b> <div class=\"math\">0.675 mol × -1450 kJ / 2 mol = -490. kJ</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -10542,7 +10542,7 @@
   }
  },
  {
-  "id": "thermochemistry-d774aea2",
+  "id": "thermochemistry-3d7000d6",
   "skill": "thermochemistry.advanced-challenge",
   "courses": [
    "1A"
@@ -10552,12 +10552,12 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<p>Condense 67.42 g of ethanol vapor at 78.0 °C, then cool the liquid to 25 °C. Find signed heat q for the sample. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in J.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr><tr><td>Specific heat of liquid ethanol, cliquid</td><td>2.46</td><td>J/(g·°C)</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>37.0</td><td>kJ/mol</td></tr><tr><td>Boiling point</td><td>78.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (J)</p>",
+  "prompt": "<p>Condense 67.42 g of ethanol vapor at 78.0 °C, then cool the liquid to 25.00 °C. Find signed heat q for the sample. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in J.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr><tr><td>Specific heat of liquid ethanol, cliquid</td><td>2.46</td><td>J/(g·°C)</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>37.0</td><td>kJ/mol</td></tr><tr><td>Boiling point</td><td>78.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (J)</p>",
   "answer": -62937,
   "unit": "J",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Condense at 78 °C → nΔH → Cool the liquid ethanol → mcΔT → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Condense at 78 °C (nΔH)<br>2. Cool the liquid ethanol (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">67.42 g × 1 mol/46.07 g = 1.46 mol.</div></li><li><b>Stage 1: Condense at 78 °C:</b> <div class=\"math\">q1 = 1.4634 mol × (-37 kJ/mol) = -54.1 kJ.</div></li><li><b>Stage 2: Cool the liquid ethanol:</b> <div class=\"math\">ΔT = 25 − (78) = -53 °C.<br>q2 = 67.42 g × 2.46 J/(g·°C) × (-53 °C) × 1 kJ/1000 J = -8.79 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-54.147) + (-8.7902) = -62.9 kJ. Multiply by 1000 to report -6.29 × 10⁴ J.<br>The sample releases 62.9 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Condense at 78 °C (nΔH)<br>2. Cool the liquid ethanol (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">67.42 g × 1 mol/46.07 g = 1.46 mol.</div></li><li><b>Stage 1: Condense at 78 °C:</b> <div class=\"math\">q1 = 1.4634 mol × (-37 kJ/mol) = -54.1 kJ.</div></li><li><b>Stage 2: Cool the liquid ethanol:</b> <div class=\"math\">ΔT = 25 − (78) = -53.00 °C.<br>q2 = 67.42 g × 2.46 J/(g·°C) × (-53.00 °C) × 1 kJ/1000 J = -8.79 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (-54.147) + (-8.7902) = -62.9 kJ. Multiply by 1000 to report -6.29 × 10⁴ J.<br>The sample releases 62.9 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -10638,7 +10638,7 @@
   }
  },
  {
-  "id": "thermochemistry-b0f0c380",
+  "id": "thermochemistry-08e7785f",
   "skill": "thermochemistry.advanced-challenge",
   "courses": [
    "1A"
@@ -10648,12 +10648,12 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<p>Convert 148.14 g of liquid ethanol at 20 °C to ethanol vapor at its boiling point, 78.0 °C. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in kJ.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr><tr><td>Specific heat of liquid ethanol, cliquid</td><td>2.46</td><td>J/(g·°C)</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>37.0</td><td>kJ/mol</td></tr><tr><td>Boiling point</td><td>78.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (kJ)</p>",
+  "prompt": "<p>Convert 148.14 g of liquid ethanol at 20.00 °C to ethanol vapor at its boiling point, 78.0 °C. Assume a pure substance at 1 atm, constant specific heats, no heat lost to the container, and complete transitions. Use the reference data below. Report total heat in kJ.</p><table border=\"1\" cellpadding=\"3\" style=\"border-collapse:collapse\"><caption>Given reference data</caption><tr><td>Molar mass</td><td>46.07</td><td>g/mol</td></tr><tr><td>Specific heat of liquid ethanol, cliquid</td><td>2.46</td><td>J/(g·°C)</td></tr><tr><td>Heat of vaporization, ΔH<sub>vap</sub></td><td>37.0</td><td>kJ/mol</td></tr><tr><td>Boiling point</td><td>78.0</td><td>°C</td></tr></table><p><b>Enter:</b> Signed total heat (kJ)</p>",
   "answer": 140.112,
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Warm the liquid ethanol → mcΔT → Vaporize at 78 °C → nΔH → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the liquid ethanol (mcΔT)<br>2. Vaporize at 78 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">148.14 g × 1 mol/46.07 g = 3.22 mol.</div></li><li><b>Stage 1: Warm the liquid ethanol:</b> <div class=\"math\">ΔT = 78 − (20) = 58 °C.<br>q1 = 148.14 g × 2.46 J/(g·°C) × (58 °C) × 1 kJ/1000 J = 21.1 kJ.</div></li><li><b>Stage 2: Vaporize at 78 °C:</b> <div class=\"math\">q2 = 3.2155 mol × (37 kJ/mol) = 119 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (21.137) + (118.98) = 140 kJ.<br>The sample absorbs 140 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the liquid ethanol (mcΔT)<br>2. Vaporize at 78 °C (nΔH)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">148.14 g × 1 mol/46.07 g = 3.22 mol.</div></li><li><b>Stage 1: Warm the liquid ethanol:</b> <div class=\"math\">ΔT = 78 − (20) = 58.00 °C.<br>q1 = 148.14 g × 2.46 J/(g·°C) × (58.00 °C) × 1 kJ/1000 J = 21.1 kJ.</div></li><li><b>Stage 2: Vaporize at 78 °C:</b> <div class=\"math\">q2 = 3.2155 mol × (37 kJ/mol) = 119 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (21.137) + (118.98) = 140. kJ.<br>The sample absorbs 140. kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -10749,7 +10749,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "ΔH belongs to one full balanced equation. Plan: Predict complete-combustion products → Balance → Fuel grams → moles → Compare coefficient ratios → Reaction heat → Excess remaining.",
-  "explain": "<ol><li><b>Predict the combustion products:</b> <div class=\"math\">CO<sub>2</sub> and H<sub>2</sub>O</div></li><li><b>Balance the combustion:</b> <div class=\"math\">2 C<sub>2</sub>H<sub>6</sub>(g) + 7 O<sub>2</sub>(g) <span class=\"yield\">→</span> 4 CO<sub>2</sub>(g) + 6 H<sub>2</sub>O(l)</div></li><li><b>Compare reactants:</b> <div class=\"math\">Fuel: 0.101 / 2; oxygen: 0.247 / 7. The smaller ratio limits the reaction.</div></li><li><b>Heat from the limiting reactant:</b> <div class=\"math\">0.0353 × (-3120) = -110 kJ</div></li><li><b>Excess reactant left:</b> <div class=\"math\">Remaining = initial − amount consumed = 0.0304 mol</div></li></ol>",
+  "explain": "<ol><li><b>Predict the combustion products:</b> <div class=\"math\">CO<sub>2</sub> and H<sub>2</sub>O</div></li><li><b>Balance the combustion:</b> <div class=\"math\">2 C<sub>2</sub>H<sub>6</sub>(g) + 7 O<sub>2</sub>(g) <span class=\"yield\">→</span> 4 CO<sub>2</sub>(g) + 6 H<sub>2</sub>O(l)</div></li><li><b>Compare reactants:</b> <div class=\"math\">Fuel: 0.101 / 2; oxygen: 0.247 / 7. The smaller ratio limits the reaction.</div></li><li><b>Heat from the limiting reactant:</b> <div class=\"math\">0.0353 × (-3120) = -110. kJ</div></li><li><b>Excess reactant left:</b> <div class=\"math\">Remaining = initial − amount consumed = 0.0304 mol</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -10869,7 +10869,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "Do not use ΔH as if it is per mole when the coefficient is not 1. Plan: Predict complete-combustion products → Balance the equation → Convert given amount → Use coefficient-linked ΔH → Report requested quantity.",
-  "explain": "<ol><li><b>Predict the combustion products:</b> <div class=\"math\">CO<sub>2</sub> and H<sub>2</sub>O</div></li><li><b>Balance the equation:</b> <div class=\"math\">2 C<sub>2</sub>H<sub>2</sub>(g) + 5 O<sub>2</sub>(g) <span class=\"yield\">→</span> 4 CO<sub>2</sub>(g) + 2 H<sub>2</sub>O(l)</div></li><li><b>Determine reaction enthalpy:</b> <div class=\"math\">ΔH = -2150 − (455) = -2600 kJ</div></li><li><b>Convert grams to moles:</b> <div class=\"math\">25.92 / 26.04 = 0.995 mol</div></li><li><b>Moles to heat:</b> <div class=\"math\">0.995 mol × -2600 kJ / 2 mol = -1290 kJ</div></li></ol>",
+  "explain": "<ol><li><b>Predict the combustion products:</b> <div class=\"math\">CO<sub>2</sub> and H<sub>2</sub>O</div></li><li><b>Balance the equation:</b> <div class=\"math\">2 C<sub>2</sub>H<sub>2</sub>(g) + 5 O<sub>2</sub>(g) <span class=\"yield\">→</span> 4 CO<sub>2</sub>(g) + 2 H<sub>2</sub>O(l)</div></li><li><b>Determine reaction enthalpy:</b> <div class=\"math\">ΔH = -2150 − (455) = -2.60 × 10³ kJ</div></li><li><b>Convert grams to moles:</b> <div class=\"math\">25.92 / 26.04 = 0.995 mol</div></li><li><b>Moles to heat:</b> <div class=\"math\">0.995 mol × -2.60 × 10³ kJ / 2 mol = -1290 kJ</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -10965,7 +10965,7 @@
   "unit": "kJ",
   "tolerance": 0.005,
   "hint": "ΔH belongs to one full balanced equation. Plan: Predict complete-combustion products → Balance → Fuel grams → moles → Compare coefficient ratios → Reaction heat → Excess remaining.",
-  "explain": "<ol><li><b>Predict the combustion products:</b> <div class=\"math\">CO<sub>2</sub> and H<sub>2</sub>O</div></li><li><b>Balance the combustion:</b> <div class=\"math\">2 C<sub>2</sub>H<sub>2</sub>(g) + 5 O<sub>2</sub>(g) <span class=\"yield\">→</span> 4 CO<sub>2</sub>(g) + 2 H<sub>2</sub>O(l)</div></li><li><b>Compare reactants:</b> <div class=\"math\">Fuel: 0.0219 / 2; oxygen: 0.0766 / 5. The smaller ratio limits the reaction.</div></li><li><b>Heat from the limiting reactant:</b> <div class=\"math\">0.0109 × (-2600) = -28.5 kJ</div></li><li><b>Excess reactant left:</b> <div class=\"math\">Remaining = initial − amount consumed = 0.0219 mol</div></li></ol>",
+  "explain": "<ol><li><b>Predict the combustion products:</b> <div class=\"math\">CO<sub>2</sub> and H<sub>2</sub>O</div></li><li><b>Balance the combustion:</b> <div class=\"math\">2 C<sub>2</sub>H<sub>2</sub>(g) + 5 O<sub>2</sub>(g) <span class=\"yield\">→</span> 4 CO<sub>2</sub>(g) + 2 H<sub>2</sub>O(l)</div></li><li><b>Compare reactants:</b> <div class=\"math\">Fuel: 0.0219 / 2; oxygen: 0.0766 / 5. The smaller ratio limits the reaction.</div></li><li><b>Heat from the limiting reactant:</b> <div class=\"math\">0.0109 × (-2.60 × 10³) = -28.5 kJ</div></li><li><b>Excess reactant left:</b> <div class=\"math\">Remaining = initial − amount consumed = 0.0219 mol</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
@@ -11085,7 +11085,7 @@
   "unit": "J",
   "tolerance": 0.005,
   "hint": "All stage heat values must use the same unit before you add them. Plan: Warm the ice → mcΔT → Melt at 0 °C → nΔH → Warm the liquid water → mcΔT → Vaporize at 100 °C → nΔH → Warm the steam → mcΔT → Add signed q values.",
-  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the ice (mcΔT)<br>2. Melt at 0 °C (nΔH)<br>3. Warm the liquid water (mcΔT)<br>4. Vaporize at 100 °C (nΔH)<br>5. Warm the steam (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">150.81 g × 1 mol/18.02 g = 8.37 mol.</div></li><li><b>Stage 1: Warm the ice:</b> <div class=\"math\">ΔT = 0 − (-20) = 20 °C.<br>q1 = 150.81 g × 2.09 J/(g·°C) × (20 °C) × 1 kJ/1000 J = 6.3 kJ.</div></li><li><b>Stage 2: Melt at 0 °C:</b> <div class=\"math\">q2 = 8.369 mol × (6.02 kJ/mol) = 50.4 kJ.</div></li><li><b>Stage 3: Warm the liquid water:</b> <div class=\"math\">ΔT = 100 − (0) = 100 °C.<br>q3 = 150.81 g × 4.184 J/(g·°C) × (100 °C) × 1 kJ/1000 J = 63.1 kJ.</div></li><li><b>Stage 4: Vaporize at 100 °C:</b> <div class=\"math\">q4 = 8.369 mol × (40.7 kJ/mol) = 341 kJ.</div></li><li><b>Stage 5: Warm the steam:</b> <div class=\"math\">ΔT = 120 − (100) = 20 °C.<br>q5 = 150.81 g × 2.04 J/(g·°C) × (20 °C) × 1 kJ/1000 J = 6.15 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (6.3039) + (50.382) + (63.099) + (340.62) + (6.153) = 467 kJ. Multiply by 1000 to report 4.67 × 10⁵ J.<br>The sample absorbs 467 kJ.</div></li></ol>",
+  "explain": "<ol><li><b>Plan the path:</b> 1. Warm the ice (mcΔT)<br>2. Melt at 0 °C (nΔH)<br>3. Warm the liquid water (mcΔT)<br>4. Vaporize at 100 °C (nΔH)<br>5. Warm the steam (mcΔT)</li><li><b>Convert the sample to moles:</b> <div class=\"math\">150.81 g × 1 mol/18.02 g = 8.37 mol.</div></li><li><b>Stage 1: Warm the ice:</b> <div class=\"math\">ΔT = 0 − (-20) = 20.00 °C.<br>q1 = 150.81 g × 2.09 J/(g·°C) × (20.00 °C) × 1 kJ/1000 J = 6.30 kJ.</div></li><li><b>Stage 2: Melt at 0 °C:</b> <div class=\"math\">q2 = 8.369 mol × (6.02 kJ/mol) = 50.4 kJ.</div></li><li><b>Stage 3: Warm the liquid water:</b> <div class=\"math\">ΔT = 100 − (0) = 100.0 °C.<br>q3 = 150.81 g × 4.184 J/(g·°C) × (100.0 °C) × 1 kJ/1000 J = 63.1 kJ.</div></li><li><b>Stage 4: Vaporize at 100 °C:</b> <div class=\"math\">q4 = 8.369 mol × (40.7 kJ/mol) = 341 kJ.</div></li><li><b>Stage 5: Warm the steam:</b> <div class=\"math\">ΔT = 120 − (100) = 20.00 °C.<br>q5 = 150.81 g × 2.04 J/(g·°C) × (20.00 °C) × 1 kJ/1000 J = 6.15 kJ.</div></li><li><b>Add all stages:</b> <div class=\"math\">qtotal = (6.3039) + (50.382) + (63.099) + (340.62) + (6.153) = 467 kJ. Multiply by 1000 to report 4.67 × 10⁵ J.<br>The sample absorbs 467 kJ.</div></li></ol>",
   "origin": "original",
   "from": {
    "game": "thermochemistry",
