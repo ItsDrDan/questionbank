@@ -17,7 +17,7 @@ jobs:
         # textbook: its js/fbx.js draws the molecules in stereochemistry and pHcharge (tools/sampler-kit.js loads it)
         run: |
           mkdir games && cd games
-          for r in sigfig metric elements polyatomic ionicformula moles stoichiometry gaslaws thermochemistry reactions redox quantumchemistry lewisstructures chem1bready algebratrainer functionalgroups organicreactions organic carbohydrates finalexam aminoacids enzymes lipids nucleicacids metabolism stereochemistry pHcharge bondingtheories textbook; do
+          for r in sigfig metric elements polyatomic ionicformula moles stoichiometry gaslaws thermochemistry reactions redox quantumchemistry lewisstructures chem1bready algebratrainer functionalgroups organicreactions organic carbohydrates finalexam aminoacids enzymes lipids nucleicacids metabolism stereochemistry pHcharge bondingtheories IMF textbook; do
             git clone --depth 1 https://github.com/ItsDrDan/$r.git
           done
       - uses: actions/setup-node@v4

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-12",
  "note": "One entry per game mode. kind: generated = made by code each time; static = fixed list; mixed = both. bankSkills = matching questions in bank/.",
  "skills": [
   {
@@ -4665,6 +4665,233 @@
    ],
    "pictures": true,
    "url": "https://itsdrdan.github.io/bondingtheories/?mode=faceoff"
+  },
+  {
+   "id": "IMF.t1",
+   "game": "IMF",
+   "mode": "t1",
+   "title": "Spot the Forces",
+   "courses": [
+    "3A",
+    "1A",
+    "3B"
+   ],
+   "chapters": [
+    "3A-6",
+    "1A-10",
+    "3B-2",
+    "3B-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice",
+    "numeric",
+    "tap in order",
+    "simulations"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/IMF/",
+   "bankSkills": [
+    "IMF.concept",
+    "IMF.polar",
+    "IMF.hbond",
+    "IMF.strongest",
+    "IMF.forces",
+    "IMF.organic",
+    "IMF.iondipole",
+    "IMF.simhb",
+    "IMF.simwell"
+   ]
+  },
+  {
+   "id": "IMF.t2",
+   "game": "IMF",
+   "mode": "t2",
+   "title": "Boiling Point Battles",
+   "courses": [
+    "3A",
+    "1A",
+    "3B"
+   ],
+   "chapters": [
+    "3A-6",
+    "1A-10",
+    "3B-2",
+    "3B-4",
+    "3B-10"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice",
+    "numeric",
+    "tap in order",
+    "simulations"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/IMF/",
+   "bankSkills": [
+    "IMF.bppair",
+    "IMF.disp",
+    "IMF.orgbp",
+    "IMF.fats",
+    "IMF.simcoin"
+   ]
+  },
+  {
+   "id": "IMF.t3",
+   "game": "IMF",
+   "mode": "t3",
+   "title": "Liquids & Mixing",
+   "courses": [
+    "3A",
+    "1A",
+    "3B"
+   ],
+   "chapters": [
+    "3A-7",
+    "1A-10",
+    "3B-2",
+    "3B-4"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice",
+    "numeric",
+    "tap in order",
+    "simulations"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/IMF/",
+   "bankSkills": [
+    "IMF.mixing",
+    "IMF.liquids",
+    "IMF.vapor",
+    "IMF.simmix"
+   ]
+  },
+  {
+   "id": "IMF.t4",
+   "game": "IMF",
+   "mode": "t4",
+   "title": "Phase Changes",
+   "courses": [
+    "3A",
+    "1A"
+   ],
+   "chapters": [
+    "3A-7",
+    "1A-10"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice",
+    "numeric",
+    "tap in order",
+    "simulations"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/IMF/",
+   "bankSkills": [
+    "IMF.phasename",
+    "IMF.endoexo",
+    "IMF.curve",
+    "IMF.pdiagram",
+    "IMF.simcurve",
+    "IMF.simpd"
+   ]
+  },
+  {
+   "id": "IMF.t5",
+   "game": "IMF",
+   "mode": "t5",
+   "title": "Cells & Osmosis",
+   "courses": [
+    "3A",
+    "1A",
+    "3B"
+   ],
+   "chapters": [
+    "3A-9",
+    "1A-11",
+    "3B-10",
+    "3B-15"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice",
+    "numeric",
+    "tap in order",
+    "simulations"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/IMF/",
+   "bankSkills": [
+    "IMF.osmosis",
+    "IMF.tonicity",
+    "IMF.osmoticp",
+    "IMF.simcell"
+   ]
+  },
+  {
+   "id": "IMF.t6",
+   "game": "IMF",
+   "mode": "t6",
+   "title": "Colligative Properties",
+   "courses": [
+    "1A"
+   ],
+   "chapters": [
+    "1A-11"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice",
+    "numeric",
+    "tap in order",
+    "simulations"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/IMF/",
+   "bankSkills": [
+    "IMF.colligq",
+    "IMF.vanthoff",
+    "IMF.conc",
+    "IMF.fpbp",
+    "IMF.raoult",
+    "IMF.simsol"
+   ]
+  },
+  {
+   "id": "IMF.t7",
+   "game": "IMF",
+   "mode": "t7",
+   "title": "Biomolecules",
+   "courses": [
+    "3B"
+   ],
+   "chapters": [
+    "3B-9",
+    "3B-10",
+    "3B-11",
+    "3B-13"
+   ],
+   "kind": "generated",
+   "answerTypes": [
+    "multiple-choice",
+    "numeric",
+    "tap in order",
+    "simulations"
+   ],
+   "pictures": true,
+   "url": "https://itsdrdan.github.io/IMF/",
+   "bankSkills": [
+    "IMF.sidechain",
+    "IMF.folding",
+    "IMF.dna",
+    "IMF.carbs",
+    "IMF.colloid",
+    "IMF.simfold"
+   ]
   }
  ]
 }
