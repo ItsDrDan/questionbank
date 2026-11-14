@@ -524,7 +524,7 @@
    "",
    "This adds 273 to +196 and drops the negative sign of −196 °C.",
    "This subtracts 273. Kelvin temperatures can never be negative.",
-   "The digits are right, but kelvins are never negative. Check your sign when you add 273."
+   "This drops the negative sign and computes 196 − 273. Kelvin temperatures are never negative."
   ],
   "html": {
    "prompt": "Liquid nitrogen, used to freeze off warts, boils at −196 °C. What is this temperature in kelvins?",
@@ -540,7 +540,7 @@
     "",
     "This adds 273 to +196 and drops the negative sign of −196 °C.",
     "This subtracts 273. Kelvin temperatures can never be negative.",
-    "The digits are right, but kelvins are never negative. Check your sign when you add 273."
+    "This drops the negative sign and computes 196 − 273. Kelvin temperatures are never negative."
    ]
   },
   "from": {
@@ -1168,7 +1168,7 @@
    "sulfur"
   ],
   "answer": "silicon",
-  "hint": "Metalloids sit along the zigzag line between metals and nonmetals, such as B, Si, Ge, As, Sb, Te.",
+  "hint": "Metalloids sit along the zigzag staircase line between metals and nonmetals and have properties of both. Find each choice on the periodic table.",
   "explain": "Silicon is a metalloid: shiny like a metal but a semiconductor. Aluminum touches the zigzag line but is a metal; P and S are nonmetals.",
   "why": [
    "",
@@ -1184,7 +1184,7 @@
     "phosphorus",
     "sulfur"
    ],
-   "hint": "Metalloids sit along the zigzag line between metals and nonmetals, such as B, Si, Ge, As, Sb, Te.",
+   "hint": "Metalloids sit along the zigzag staircase line between metals and nonmetals and have properties of both. Find each choice on the periodic table.",
    "explain": "<b>Silicon</b> is a metalloid: shiny like a metal but a semiconductor. Aluminum touches the zigzag line but is a metal; P and S are nonmetals.",
    "why": [
     "",
@@ -1284,7 +1284,7 @@
    "",
    "80.0% is the abundance of boron-11, the other isotope.",
    "Equal amounts would give an average of about 10.51 amu, not 10.81 amu.",
-   "This divides one mass by the other. Set up a weighted average: 10.01x + 11.01(1 − x) = 10.81."
+   "This divides the boron-10 mass by the average atomic mass. Instead, let x be the fraction of boron-10 and (1 − x) the fraction of boron-11 in a weighted average."
   ],
   "html": {
    "prompt": "Boron has the two isotopes listed in the table. The average atomic mass of boron is 10.81 amu. What is the percent abundance of boron-10?",
@@ -1300,7 +1300,7 @@
     "",
     "80.0% is the abundance of boron-11, the other isotope.",
     "Equal amounts would give an average of about 10.51 amu, not 10.81 amu.",
-    "This divides one mass by the other. Set up a weighted average: 10.01x + 11.01(1 − x) = 10.81."
+    "This divides the boron-10 mass by the average atomic mass. Instead, let x be the fraction of boron-10 and (1 − x) the fraction of boron-11 in a weighted average."
    ]
   },
   "data": {
@@ -1685,7 +1685,7 @@
   ],
   "answer": "Na < Mg < S < Cl",
   "hint": "Ionization energy generally increases across a period from left to right (opposite to atomic radius).",
-  "explain": "All are in period 3; ionization energy rises left to right: Na < Mg < S < Cl. The reversed list is the order of atomic radius (largest to smallest).",
+  "explain": "All are in period 3; ionization energy rises left to right: Na < Mg < S < Cl. The reversed list is the order of atomic radius (smallest to largest).",
   "why": [
    "",
    "This list is backward. It goes from highest to lowest ionization energy.",
@@ -1701,7 +1701,7 @@
     "Na &lt; Mg &lt; Cl &lt; S"
    ],
    "hint": "Ionization energy generally increases across a period from left to right (opposite to atomic radius).",
-   "explain": "All are in period 3; ionization energy rises left to right: <b>Na &lt; Mg &lt; S &lt; Cl</b>. The reversed list is the order of atomic radius (largest to smallest).",
+   "explain": "All are in period 3; ionization energy rises left to right: <b>Na &lt; Mg &lt; S &lt; Cl</b>. The reversed list is the order of atomic radius (smallest to largest).",
    "why": [
     "",
     "This list is backward. It goes from highest to lowest ionization energy.",
@@ -1799,8 +1799,8 @@
   "why": [
    "",
    "This list is reversed. It is the order of increasing wavelength (decreasing frequency).",
-   "Radio waves have the lowest frequency of these, so they come before microwaves.",
-   "Radio waves, not infrared, have the lowest frequency, and ultraviolet has the highest."
+   "Check which of these has the longest wavelength; longest wavelength means lowest frequency.",
+   "Infrared does not have the lowest frequency of these. Compare the wavelengths again."
   ],
   "html": {
    "prompt": "Which list arranges these types of electromagnetic radiation in order of increasing frequency?",
@@ -1815,8 +1815,8 @@
    "why": [
     "",
     "This list is reversed. It is the order of increasing wavelength (decreasing frequency).",
-    "Radio waves have the lowest frequency of these, so they come before microwaves.",
-    "Radio waves, not infrared, have the lowest frequency, and ultraviolet has the highest."
+    "Check which of these has the longest wavelength; longest wavelength means lowest frequency.",
+    "Infrared does not have the lowest frequency of these. Compare the wavelengths again."
    ]
   },
   "from": {
@@ -2687,7 +2687,7 @@
    "",
    "Sulfuric acid is H₂SO₄, made from sulfate (SO₄²⁻).",
    "Hydrosulfuric acid is H₂S, which has no oxygen.",
-   "Sulfur trioxide is the gas SO₃. This is not how acids are named."
+   "SO₃ is sulfur trioxide, a different compound. An acid made from an oxyanion is named from its anion, not with Greek prefixes."
   ],
   "html": {
    "prompt": "What is the name of H<sub>2</sub>SO<sub>3</sub>(aq)?",
@@ -2703,7 +2703,7 @@
     "",
     "Sulfuric acid is H₂SO₄, made from sulfate (SO₄²⁻).",
     "Hydrosulfuric acid is H₂S, which has no oxygen.",
-    "Sulfur trioxide is the gas SO₃. This is not how acids are named."
+    "SO₃ is sulfur trioxide, a different compound. An acid made from an oxyanion is named from its anion, not with Greek prefixes."
    ]
   },
   "from": {
@@ -3182,7 +3182,7 @@
    "",
    "This counts only 4 O per formula. The 3 outside the parentheses makes it 12.",
    "1.50 mol is the moles of sulfate groups, not oxygen atoms.",
-   "12 is the O per formula unit, but you still need to multiply by 0.500 mol."
+   "12 is the O per formula unit, not the moles of O in this sample. Account for how much compound you have."
   ],
   "html": {
    "prompt": "How many moles of oxygen atoms are in 0.500 mol of aluminum sulfate, Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>?",
@@ -3198,7 +3198,7 @@
     "",
     "This counts only 4 O per formula. The 3 outside the parentheses makes it 12.",
     "1.50 mol is the moles of sulfate groups, not oxygen atoms.",
-    "12 is the O per formula unit, but you still need to multiply by 0.500 mol."
+    "12 is the O per formula unit, not the moles of O in this sample. Account for how much compound you have."
    ]
   },
   "from": {
@@ -3501,13 +3501,13 @@
   "prompt": "What is the mass percent of water in copper(II) sulfate pentahydrate, CuSO₄·5H₂O?",
   "choices": [
    "36.08%",
-   "56.44%",
+   "56.43%",
    "7.22%",
    "11.29%"
   ],
   "answer": "36.08%",
   "hint": "Molar mass of the hydrate = CuSO₄ + 5 H₂O. Percent water = mass of 5 H₂O ÷ mass of the whole hydrate.",
-  "explain": "5 H₂O = 5(18.016) = 90.08 g; CuSO₄ = 159.61 g; hydrate = 249.69 g mol⁻¹. %H₂O = 90.08/249.69 × 100 = 36.08%. 56.44% divides by the anhydrous mass only.",
+  "explain": "5 H₂O = 5(18.016) = 90.08 g; CuSO₄ = 159.62 g; hydrate = 249.70 g mol⁻¹. %H₂O = 90.08/249.70 × 100 = 36.08%. 56.43% divides by the anhydrous mass only.",
   "why": [
    "",
    "This divides by the anhydrous mass (CuSO₄ only). Divide by the whole hydrate's mass.",
@@ -3518,12 +3518,12 @@
    "prompt": "What is the mass percent of water in copper(II) sulfate pentahydrate, CuSO<sub>4</sub>·5H<sub>2</sub>O?",
    "choices": [
     "36.08%",
-    "56.44%",
+    "56.43%",
     "7.22%",
     "11.29%"
    ],
    "hint": "Molar mass of the hydrate = CuSO<sub>4</sub> + 5 H<sub>2</sub>O. Percent water = mass of 5 H<sub>2</sub>O ÷ mass of the whole hydrate.",
-   "explain": "5 H<sub>2</sub>O = 5(18.016) = 90.08 g; CuSO<sub>4</sub> = 159.61 g; hydrate = 249.69 g mol⁻¹. %H<sub>2</sub>O = 90.08/249.69 × 100 = <b>36.08%</b>. 56.44% divides by the anhydrous mass only.",
+   "explain": "5 H<sub>2</sub>O = 5(18.016) = 90.08 g; CuSO<sub>4</sub> = 159.62 g; hydrate = 249.70 g mol⁻¹. %H<sub>2</sub>O = 90.08/249.70 × 100 = <b>36.08%</b>. 56.43% divides by the anhydrous mass only.",
    "why": [
     "",
     "This divides by the anhydrous mass (CuSO₄ only). Divide by the whole hydrate's mass.",
@@ -3567,7 +3567,7 @@
    "",
    "44.0 g is a full mole. 3.01×10²³ molecules is only half a mole.",
    "This multiplies the number of molecules by the molar mass without converting to moles first.",
-   "This multiplies by 2 instead of 0.5. 3.01×10²³ is half of Avogadro's number."
+   "This multiplies by 2 instead of dividing by Avogadro's number. Compare 3.01×10²³ with 6.022×10²³."
   ],
   "html": {
    "prompt": "What is the mass of 3.01×10<sup>23</sup> molecules of carbon dioxide?",
@@ -3583,7 +3583,7 @@
     "",
     "44.0 g is a full mole. 3.01×10²³ molecules is only half a mole.",
     "This multiplies the number of molecules by the molar mass without converting to moles first.",
-    "This multiplies by 2 instead of 0.5. 3.01×10²³ is half of Avogadro's number."
+    "This multiplies by 2 instead of dividing by Avogadro's number. Compare 3.01×10²³ with 6.022×10²³."
    ]
   },
   "from": {
@@ -3617,12 +3617,12 @@
   ],
   "answer": "10.6 g",
   "hint": "Find the molar mass and the mass fraction of N (count both N atoms), then multiply by the sample mass.",
-  "explain": "M = 132.14 g mol⁻¹, with 2 × 14.01 = 28.02 g N per mole. 50.0 g × (28.02/132.14) = 10.6 g N. 5.30 g counts only one N; 6.14 g drops the subscript 2 outside the parentheses (uses NH₄SO₄, 114.12 g mol⁻¹); 0.757 g is moles of N, not grams.",
+  "explain": "M = 132.15 g mol⁻¹, with 2 × 14.01 = 28.02 g N per mole. 50.0 g × (28.02/132.15) = 10.6 g N. 5.30 g counts only one N; 6.14 g drops the subscript 2 outside the parentheses (uses NH₄SO₄, 114.12 g mol⁻¹); 0.757 g is moles of N, not grams.",
   "why": [
    "",
    "This counts only one N. (NH₄)₂ has two.",
    "This drops the subscript 2 outside the parentheses when finding the molar mass.",
-   "0.757 is the moles of N. Multiply by 14.01 g/mol to get grams."
+   "0.757 is the moles of N, not the mass. Convert moles of N to grams."
   ],
   "html": {
    "prompt": "How many grams of nitrogen are in 50.0 g of the fertilizer ammonium sulfate, (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>?",
@@ -3633,12 +3633,12 @@
     "0.757 g"
    ],
    "hint": "Find the molar mass and the mass fraction of N (count both N atoms), then multiply by the sample mass.",
-   "explain": "M = 132.14 g mol⁻¹, with 2 × 14.01 = 28.02 g N per mole. 50.0 g × (28.02/132.14) = <b>10.6 g N</b>. 5.30 g counts only one N; 6.14 g drops the subscript 2 outside the parentheses (uses NH<sub>4</sub>SO<sub>4</sub>, 114.12 g mol⁻¹); 0.757 g is moles of N, not grams.",
+   "explain": "M = 132.15 g mol⁻¹, with 2 × 14.01 = 28.02 g N per mole. 50.0 g × (28.02/132.15) = <b>10.6 g N</b>. 5.30 g counts only one N; 6.14 g drops the subscript 2 outside the parentheses (uses NH<sub>4</sub>SO<sub>4</sub>, 114.12 g mol⁻¹); 0.757 g is moles of N, not grams.",
    "why": [
     "",
     "This counts only one N. (NH₄)₂ has two.",
     "This drops the subscript 2 outside the parentheses when finding the molar mass.",
-    "0.757 is the moles of N. Multiply by 14.01 g/mol to get grams."
+    "0.757 is the moles of N, not the mass. Convert moles of N to grams."
    ]
   },
   "from": {
@@ -4501,7 +4501,7 @@
   "why": [
    "",
    "This subtracts the change. Absorbing heat makes the water warmer.",
-   "5.0 °C is only the change in temperature. Add it to the starting temperature.",
+   "5.0 °C is only the change in temperature, not the final temperature. Use the starting temperature too.",
    "Absorbing 2.09 kJ must change the temperature."
   ],
   "html": {
@@ -4517,7 +4517,7 @@
    "why": [
     "",
     "This subtracts the change. Absorbing heat makes the water warmer.",
-    "5.0 °C is only the change in temperature. Add it to the starting temperature.",
+    "5.0 °C is only the change in temperature, not the final temperature. Use the starting temperature too.",
     "Absorbing 2.09 kJ must change the temperature."
    ]
   },
@@ -5161,7 +5161,7 @@
   "why": [
    "",
    "This flips the pressure ratio. Lower pressure makes the volume larger.",
-   "Halving the pressure doubles the volume, and the temperature rise adds more. Redo it with kelvins.",
+   "This flips the temperature ratio. A temperature rise makes the volume larger, not smaller.",
    "This applies only the pressure change and ignores the temperature rise."
   ],
   "html": {
@@ -5177,7 +5177,7 @@
    "why": [
     "",
     "This flips the pressure ratio. Lower pressure makes the volume larger.",
-    "Halving the pressure doubles the volume, and the temperature rise adds more. Redo it with kelvins.",
+    "This flips the temperature ratio. A temperature rise makes the volume larger, not smaller.",
     "This applies only the pressure change and ignores the temperature rise."
    ]
   },
@@ -6041,8 +6041,8 @@
   "why": [
    "",
    "This flips the equation. The concentrated acid volume should be small.",
-   "150 is only M₂V₂. You still need to divide by 12.0 M.",
-   "This is about how much water you'd add, not the volume of concentrated acid."
+   "150 is only M₂V₂, which is not a volume yet. Finish solving M₁V₁ = M₂V₂ for V₁.",
+   "This is not the volume of concentrated acid. A concentrated stock is used in a small amount, so solve M₁V₁ = M₂V₂ for V₁."
   ],
   "html": {
    "prompt": "What volume of 12.0 M HCl is needed to prepare 500. mL of 0.300 M HCl?",
@@ -6057,8 +6057,8 @@
    "why": [
     "",
     "This flips the equation. The concentrated acid volume should be small.",
-    "150 is only M₂V₂. You still need to divide by 12.0 M.",
-    "This is about how much water you'd add, not the volume of concentrated acid."
+    "150 is only M₂V₂, which is not a volume yet. Finish solving M₁V₁ = M₂V₂ for V₁.",
+    "This is not the volume of concentrated acid. A concentrated stock is used in a small amount, so solve M₁V₁ = M₂V₂ for V₁."
    ]
   },
   "from": {
@@ -6262,7 +6262,7 @@
    "",
    "This forgets that 100 mL is only 0.100 L.",
    "9.0 is grams per liter, not moles per liter. Divide by the molar mass.",
-   "This is off by a factor of 10. 0.90 g per 100 mL is 9.0 g per liter."
+   "Check the volume: 0.90 g per 100 mL is 9.0 g per liter."
   ],
   "html": {
    "prompt": "Normal saline is 0.90% (m/v) NaCl. What is its molarity? (NaCl = 58.44 g mol⁻¹)",
@@ -6278,7 +6278,7 @@
     "",
     "This forgets that 100 mL is only 0.100 L.",
     "9.0 is grams per liter, not moles per liter. Divide by the molar mass.",
-    "This is off by a factor of 10. 0.90 g per 100 mL is 9.0 g per liter."
+    "Check the volume: 0.90 g per 100 mL is 9.0 g per liter."
    ]
   },
   "from": {
@@ -7526,7 +7526,7 @@
    "",
    "This swaps the two molarities.",
    "The volumes are equal only if the molarities are equal, and here they aren't.",
-   "This is off by a factor of 100. 0.0375 L = 37.5 mL."
+   "0.375 mL is far too small for this titration. Moles divided by molarity gives liters, and 1 L is 1000 mL."
   ],
   "html": {
    "prompt": "Consider the reaction below. What volume of 0.100 M NaOH is needed to neutralize 25.0 mL of 0.150 M HCl?",
@@ -7542,7 +7542,7 @@
     "",
     "This swaps the two molarities.",
     "The volumes are equal only if the molarities are equal, and here they aren't.",
-    "This is off by a factor of 100. 0.0375 L = 37.5 mL."
+    "0.375 mL is far too small for this titration. Moles divided by molarity gives liters, and 1 L is 1000 mL."
    ]
   },
   "data": {
@@ -7588,7 +7588,7 @@
   "why": [
    "",
    "This forgets that each H₂SO₄ needs 2 NaOH.",
-   "This is the answer in liters, labeled as mL.",
+   "Moles divided by molarity gives liters. Change liters to milliliters before you compare with the choices.",
    "This flips the 2:1 ratio. Each H₂SO₄ needs two NaOH, not half of one."
   ],
   "html": {
@@ -7604,7 +7604,7 @@
    "why": [
     "",
     "This forgets that each H₂SO₄ needs 2 NaOH.",
-    "This is the answer in liters, labeled as mL.",
+    "Moles divided by molarity gives liters. Change liters to milliliters before you compare with the choices.",
     "This flips the 2:1 ratio. Each H₂SO₄ needs two NaOH, not half of one."
    ]
   },
@@ -9483,7 +9483,7 @@
   "why": [
    "",
    "This divides by the density. Mass = density × volume.",
-   "This divides density by volume.",
+   "This divides the density by the volume. Mass = density × volume, so multiply so that mL cancels.",
    "This adds two numbers with different units."
   ],
   "html": {
@@ -9499,7 +9499,7 @@
    "why": [
     "",
     "This divides by the density. Mass = density × volume.",
-    "This divides density by volume.",
+    "This divides the density by the volume. Mass = density × volume, so multiply so that mL cancels.",
     "This adds two numbers with different units."
    ]
   },
@@ -9815,7 +9815,7 @@
    "",
    "Argon is in the same row as P, so it can't be the core. Use the noble gas from the row above.",
    "3p⁵ gives 7 valence electrons (that's chlorine). P is in group 5A.",
-   "This skips 3s², and it has the wrong number of electrons."
+   "This has the right total of 15 electrons, but it skips 3s². The 3s orbital fills before 3p, so two of these electrons belong in 3s."
   ],
   "html": {
    "prompt": "Using a noble-gas core, which electron configuration is correct for a phosphorus atom?",
@@ -9831,7 +9831,7 @@
     "",
     "Argon is in the same row as P, so it can't be the core. Use the noble gas from the row above.",
     "3p⁵ gives 7 valence electrons (that's chlorine). P is in group 5A.",
-    "This skips 3s², and it has the wrong number of electrons."
+    "This has the right total of 15 electrons, but it skips 3s². The 3s orbital fills before 3p, so two of these electrons belong in 3s."
    ]
   },
   "from": {
@@ -10879,7 +10879,7 @@
   }
  },
  {
-  "id": "finalexam-451f557d",
+  "id": "finalexam-d8376e12",
   "skill": "finalexam.3a.moles",
   "courses": [
    "3A"
@@ -10896,14 +10896,14 @@
   "calc": true,
   "prompt": "Aluminum sulfate, Al₂(SO₄)₃, is used to purify drinking water. Calculate its molar mass.",
   "choices": [
-   "342.14 g mol⁻¹",
-   "150.02 g mol⁻¹",
-   "278.02 g mol⁻¹",
-   "315.16 g mol⁻¹"
+   "342.17 g mol⁻¹",
+   "150.03 g mol⁻¹",
+   "278.03 g mol⁻¹",
+   "315.19 g mol⁻¹"
   ],
-  "answer": "342.14 g mol⁻¹",
+  "answer": "342.17 g mol⁻¹",
   "hint": "The subscript 3 outside the parentheses multiplies everything inside: count the S and O atoms carefully.",
-  "explain": "2 Al + 3 S + 12 O = 2(26.98) + 3(32.06) + 12(16.00) = 53.96 + 96.18 + 192.00 = 342.14 g mol⁻¹. 278.02 g mol⁻¹ multiplies only the O by 3 (counting one S), and 150.02 g mol⁻¹ ignores the parentheses completely.",
+  "explain": "2 Al + 3 S + 12 O = 2(26.98) + 3(32.07) + 12(16.00) = 53.96 + 96.21 + 192.00 = 342.17 g mol⁻¹. 278.03 g mol⁻¹ multiplies only the O by 3 (counting one S), and 150.03 g mol⁻¹ ignores the parentheses completely.",
   "why": [
    "",
    "This ignores the parentheses (one S and 4 O).",
@@ -10913,13 +10913,13 @@
   "html": {
    "prompt": "Aluminum sulfate, Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>, is used to purify drinking water. Calculate its molar mass.",
    "choices": [
-    "342.14 g mol⁻¹",
-    "150.02 g mol⁻¹",
-    "278.02 g mol⁻¹",
-    "315.16 g mol⁻¹"
+    "342.17 g mol⁻¹",
+    "150.03 g mol⁻¹",
+    "278.03 g mol⁻¹",
+    "315.19 g mol⁻¹"
    ],
    "hint": "The subscript 3 outside the parentheses multiplies everything inside: count the S and O atoms carefully.",
-   "explain": "2 Al + 3 S + 12 O = 2(26.98) + 3(32.06) + 12(16.00) = 53.96 + 96.18 + 192.00 = <b>342.14 g mol⁻¹</b>. 278.02 g mol⁻¹ multiplies only the O by 3 (counting one S), and 150.02 g mol⁻¹ ignores the parentheses completely.",
+   "explain": "2 Al + 3 S + 12 O = 2(26.98) + 3(32.07) + 12(16.00) = 53.96 + 96.21 + 192.00 = <b>342.17 g mol⁻¹</b>. 278.03 g mol⁻¹ multiplies only the O by 3 (counting one S), and 150.03 g mol⁻¹ ignores the parentheses completely.",
    "why": [
     "",
     "This ignores the parentheses (one S and 4 O).",
@@ -11018,7 +11018,7 @@
    "",
    "Temperature doesn't change the activation energy. Only a catalyst changes it.",
    "Temperature doesn't push every reaction toward products, and this question is about speed.",
-   "Cold doesn't break molecules apart."
+   "Cooling takes energy away from molecules, so it cannot supply the energy needed to break bonds. It only slows the molecules down."
   ],
   "html": {
    "prompt": "Food is stored in a refrigerator to slow spoilage. Which best explains why a lower temperature slows these reactions?",
@@ -11034,7 +11034,7 @@
     "",
     "Temperature doesn't change the activation energy. Only a catalyst changes it.",
     "Temperature doesn't push every reaction toward products, and this question is about speed.",
-    "Cold doesn't break molecules apart."
+    "Cooling takes energy away from molecules, so it cannot supply the energy needed to break bonds. It only slows the molecules down."
    ]
   },
   "from": {
@@ -11246,7 +11246,7 @@
    "",
    "This flips the ratio. A diluted solution must have a larger volume.",
    "This multiplies by 0.600 M instead of dividing.",
-   "185 mL is the water you add, not the final volume."
+   "This is not the final volume of the solution. Solve M₁V₁ = M₂V₂ for V₂, the total volume after dilution."
   ],
   "html": {
    "prompt": "To what final volume must 15.0 mL of 8.00 M NaOH be diluted to make a 0.600 M solution?",
@@ -11262,7 +11262,7 @@
     "",
     "This flips the ratio. A diluted solution must have a larger volume.",
     "This multiplies by 0.600 M instead of dividing.",
-    "185 mL is the water you add, not the final volume."
+    "This is not the final volume of the solution. Solve M₁V₁ = M₂V₂ for V₂, the total volume after dilution."
    ]
   },
   "from": {
@@ -11898,7 +11898,7 @@
   ],
   "answer": "1.84 cm",
   "hint": "The ruler is marked every 0.1 cm (1 mm). Record every certain digit plus one estimated digit.",
-  "explain": "The tablet ends four marks past 1.8 cm, a little less than halfway to the next mark, so the reading is estimated to hundredths: 1.84 cm. \"1.8 cm\" and \"1.9 cm\" drop the estimated digit; \"1.840 cm\" adds a digit the ruler cannot give.",
+  "explain": "The tablet ends between the 1.8 cm and 1.9 cm marks, a little less than halfway (about four-tenths of the way), so the reading is estimated to hundredths: 1.84 cm. \"1.8 cm\" and \"1.9 cm\" drop the estimated digit; \"1.840 cm\" adds a digit the ruler cannot give.",
   "why": [
    "",
    "This drops the estimated digit. Estimate one place past the smallest mark.",
@@ -11914,7 +11914,7 @@
     "1.9 cm"
    ],
    "hint": "The ruler is marked every 0.1 cm (1 mm). Record every certain digit plus one estimated digit.",
-   "explain": "The tablet ends four marks past 1.8 cm, a little less than halfway to the next mark, so the reading is estimated to hundredths: <b>1.84 cm</b>. \"1.8 cm\" and \"1.9 cm\" drop the estimated digit; \"1.840 cm\" adds a digit the ruler cannot give.",
+   "explain": "The tablet ends between the 1.8 cm and 1.9 cm marks, a little less than halfway (about four-tenths of the way), so the reading is estimated to hundredths: <b>1.84 cm</b>. \"1.8 cm\" and \"1.9 cm\" drop the estimated digit; \"1.840 cm\" adds a digit the ruler cannot give.",
    "why": [
     "",
     "This drops the estimated digit. Estimate one place past the smallest mark.",
@@ -13075,7 +13075,7 @@
    "",
    "This counts kinds of atoms (H, C, N, O), not kinds of substances.",
    "N₂ and O₂ contain only one element each, so they're elements.",
-   "Only H₂O and CO₂ are compounds. Count the elements again."
+   "Not every molecule here is an element. A compound has two or more different kinds of atoms, so check each kind of molecule again."
   ],
   "html": {
    "prompt": "The box models a sample of exhaled breath. How many of the substances in the sample are elements, and how many are compounds?",
@@ -13091,7 +13091,7 @@
     "",
     "This counts kinds of atoms (H, C, N, O), not kinds of substances.",
     "N₂ and O₂ contain only one element each, so they're elements.",
-    "Only H₂O and CO₂ are compounds. Count the elements again."
+    "Not every molecule here is an element. A compound has two or more different kinds of atoms, so check each kind of molecule again."
    ]
   },
   "data": {
@@ -14038,7 +14038,7 @@
    "",
    "Having fewer O₂ molecules doesn't make O₂ limiting. Use the 2:1 ratio.",
    "There is some O₂ left over. Check the ratio again.",
-   "H₂ is limiting, but it uses 3 of the 4 O₂, not none of them."
+   "H₂ is limiting, but it still reacts with some of the O₂. Use the 2 to 1 ratio to find how many O₂ it uses."
   ],
   "html": {
    "prompt": "The box shows a mixture that reacts according to the equation shown. Which reactant is limiting, and what is left over?",
@@ -14054,7 +14054,7 @@
     "",
     "Having fewer O₂ molecules doesn't make O₂ limiting. Use the 2:1 ratio.",
     "There is some O₂ left over. Check the ratio again.",
-    "H₂ is limiting, but it uses 3 of the 4 O₂, not none of them."
+    "H₂ is limiting, but it still reacts with some of the O₂. Use the 2 to 1 ratio to find how many O₂ it uses."
    ]
   },
   "data": {
@@ -14557,7 +14557,7 @@
    "",
    "6 ignores the limiting reactant. The O₂ runs out first.",
    "Each O₂ makes 2 SO₃, not 1.",
-   "Use the ratio: 2 O₂ × (2 SO₃ / 1 O₂)."
+   "3 does not match either reactant. Find how many SO₃ each reactant could make on its own and take the smaller number."
   ],
   "html": {
    "prompt": "Sulfur dioxide and oxygen react as shown; the box shows the starting molecules. At most, how many SO<sub>3</sub> molecules can be made?",
@@ -14573,7 +14573,7 @@
     "",
     "6 ignores the limiting reactant. The O₂ runs out first.",
     "Each O₂ makes 2 SO₃, not 1.",
-    "Use the ratio: 2 O₂ × (2 SO₃ / 1 O₂)."
+    "3 does not match either reactant. Find how many SO₃ each reactant could make on its own and take the smaller number."
    ]
   },
   "data": {
@@ -15946,7 +15946,7 @@
    "",
    "This splits the pressure equally among the gases, ignoring how many of each are present.",
    "This uses only 1 of the 10 molecules. Count the O₂ molecules.",
-   "This fraction doesn't match the O₂ molecules. Use O₂ molecules ÷ total molecules."
+   "450. mmHg uses the 6 N₂ molecules. Count only the O₂ molecules over the total."
   ],
   "html": {
    "prompt": "Gas from a patient's breathing circuit is modeled in the box. If the total pressure is 750. mmHg, how much of that pressure is due to O<sub>2</sub>?",
@@ -15962,7 +15962,7 @@
     "",
     "This splits the pressure equally among the gases, ignoring how many of each are present.",
     "This uses only 1 of the 10 molecules. Count the O₂ molecules.",
-    "This fraction doesn't match the O₂ molecules. Use O₂ molecules ÷ total molecules."
+    "450. mmHg uses the 6 N₂ molecules. Count only the O₂ molecules over the total."
    ]
   },
   "data": {
@@ -17797,7 +17797,7 @@
   "explain": "The double bond can be drawn to each O in turn (3 equivalent resonance structures), and the real ion is a blend of them: all three N–O bonds are the same length, between a single and a double bond. The ion does not flip back and forth between the drawings.",
   "why": [
    "",
-   "In the real ion, all three bonds are the same.",
+   "One shorter bond would be true only if a single drawing were the real ion. The double bond can be drawn to any of the three oxygens, so think about each bond on average.",
    "The ion doesn't flip between drawings. It's always a blend.",
    "There aren't enough electrons for three true double bonds."
   ],
@@ -17813,7 +17813,7 @@
    "explain": "The double bond can be drawn to each O in turn (3 equivalent resonance structures), and the real ion is a blend of them: <b>all three N–O bonds are the same length</b>, between a single and a double bond. The ion does not flip back and forth between the drawings.",
    "why": [
     "",
-    "In the real ion, all three bonds are the same.",
+    "One shorter bond would be true only if a single drawing were the real ion. The double bond can be drawn to any of the three oxygens, so think about each bond on average.",
     "The ion doesn't flip between drawings. It's always a blend.",
     "There aren't enough electrons for three true double bonds."
    ]
@@ -19608,7 +19608,7 @@
   "why": [
    "",
    "Water has the largest specific heat, so it warms the least.",
-   "Aluminum's specific heat is larger than one of the others.",
+   "Aluminum's specific heat is larger than those of iron and gold. A larger specific heat means a smaller temperature rise.",
    "Iron's specific heat is larger than one of the others."
   ],
   "html": {
@@ -19624,7 +19624,7 @@
    "why": [
     "",
     "Water has the largest specific heat, so it warms the least.",
-    "Aluminum's specific heat is larger than one of the others.",
+    "Aluminum's specific heat is larger than those of iron and gold. A larger specific heat means a smaller temperature rise.",
     "Iron's specific heat is larger than one of the others."
    ]
   },
@@ -19777,7 +19777,7 @@
    "",
    "This flips the ratio. Iron's smaller specific heat means a larger temperature rise.",
    "The same ΔT would need the same specific heat, and iron's is much smaller.",
-   "Use ΔT = q ÷ (m·c) with iron's specific heat, 0.449."
+   "Recheck your setup. The heat and the 20.0 g mass are the same for both samples, so only the specific heat changes."
   ],
   "html": {
    "prompt": "Adding a certain amount of heat to 20.0 g of water raises its temperature by 5.0 °C. The same amount of heat is added to 20.0 g of iron (specific heat 0.449 J g⁻¹ °C⁻¹). By how much does the temperature of the iron rise?",
@@ -19793,7 +19793,7 @@
     "",
     "This flips the ratio. Iron's smaller specific heat means a larger temperature rise.",
     "The same ΔT would need the same specific heat, and iron's is much smaller.",
-    "Use ΔT = q ÷ (m·c) with iron's specific heat, 0.449."
+    "Recheck your setup. The heat and the 20.0 g mass are the same for both samples, so only the specific heat changes."
    ]
   },
   "from": {
@@ -19830,8 +19830,8 @@
   "explain": "Evaporation must overcome attractions between water molecules, so it absorbs heat: endothermic, heat flows from the skin into the sweat. The skin (surroundings) loses heat and cools; that is how sweating controls body temperature.",
   "why": [
    "",
-   "Heat flows into the sweat, not out of it, and evaporation absorbs heat.",
-   "Heat flows into the sweat, so the skin cools.",
+   "Does evaporation need energy or give it off? Decide which way heat must flow.",
+   "Check the direction of heat flow for an endothermic process, and what that does to the skin.",
    "Evaporation absorbs heat, so it's endothermic."
   ],
   "html": {
@@ -19846,8 +19846,8 @@
    "explain": "Evaporation must overcome attractions between water molecules, so it absorbs heat: <b>endothermic, heat flows from the skin into the sweat</b>. The skin (surroundings) loses heat and cools; that is how sweating controls body temperature.",
    "why": [
     "",
-    "Heat flows into the sweat, not out of it, and evaporation absorbs heat.",
-    "Heat flows into the sweat, so the skin cools.",
+    "Does evaporation need energy or give it off? Decide which way heat must flow.",
+    "Check the direction of heat flow for an endothermic process, and what that does to the skin.",
     "Evaporation absorbs heat, so it's endothermic."
    ]
   },
@@ -19881,12 +19881,12 @@
    "The process is exothermic, and q for the system is positive."
   ],
   "answer": "The process is endothermic, and q for the system is positive.",
-  "hint": "Your hand feels cold because heat leaves it. Where does that heat go, and what sign does q have when a system gains heat?",
-  "explain": "Heat flows from your hand into the dissolving mixture, so the system absorbs heat: endothermic, q > 0. A common mistake is to call it exothermic because \"cold\" is leaving the pack; cold is not a form of energy.",
+  "hint": "The knee feels cold because heat leaves it. Where does that heat go, and what sign does q have when a system gains heat?",
+  "explain": "Heat flows from the knee into the dissolving mixture, so the system absorbs heat: endothermic, q > 0. A common mistake is to call it exothermic because \"cold\" is leaving the pack; cold is not a form of energy.",
   "why": [
    "",
    "The pack gets cold because the mixture absorbs heat. That's endothermic, not exothermic.",
-   "Endothermic means the system absorbs heat, so q is positive.",
+   "What sign does q have when the system gains heat?",
    "An exothermic process would make the pack warm."
   ],
   "html": {
@@ -19897,12 +19897,12 @@
     "The process is endothermic, and q for the system is negative.",
     "The process is exothermic, and q for the system is positive."
    ],
-   "hint": "Your hand feels cold because heat leaves it. Where does that heat go, and what sign does q have when a system gains heat?",
-   "explain": "Heat flows from your hand into the dissolving mixture, so the system absorbs heat: <b>endothermic, q &gt; 0</b>. A common mistake is to call it exothermic because \"cold\" is leaving the pack; cold is not a form of energy.",
+   "hint": "The knee feels cold because heat leaves it. Where does that heat go, and what sign does q have when a system gains heat?",
+   "explain": "Heat flows from the knee into the dissolving mixture, so the system absorbs heat: <b>endothermic, q &gt; 0</b>. A common mistake is to call it exothermic because \"cold\" is leaving the pack; cold is not a form of energy.",
    "why": [
     "",
     "The pack gets cold because the mixture absorbs heat. That's endothermic, not exothermic.",
-    "Endothermic means the system absorbs heat, so q is positive.",
+    "What sign does q have when the system gains heat?",
     "An exothermic process would make the pack warm."
    ]
   },
@@ -20251,7 +20251,7 @@
    "",
    "This counts formula units. Each one has 3 O atoms.",
    "This counts all 5 atoms in CaCO₃, not just the oxygens.",
-   "Each CaCO₃ has exactly 3 O atoms. Multiply the formula units by 3."
+   "This uses only calcium's mass (40.08 g/mol) and stops at formula units. Use the molar mass of the whole CaCO₃ and count 3 O atoms per unit."
   ],
   "html": {
    "prompt": "An antacid tablet contains 1.25 g of calcium carbonate, CaCO<sub>3</sub>. How many oxygen atoms does the calcium carbonate contain?",
@@ -20267,7 +20267,7 @@
     "",
     "This counts formula units. Each one has 3 O atoms.",
     "This counts all 5 atoms in CaCO₃, not just the oxygens.",
-    "Each CaCO₃ has exactly 3 O atoms. Multiply the formula units by 3."
+    "This uses only calcium's mass (40.08 g/mol) and stops at formula units. Use the molar mass of the whole CaCO₃ and count 3 O atoms per unit."
    ]
   },
   "from": {
@@ -20277,7 +20277,7 @@
   }
  },
  {
-  "id": "finalexam-067ea363",
+  "id": "finalexam-2f8e3dee",
   "skill": "finalexam.3a.moles",
   "courses": [
    "3A"
@@ -20294,14 +20294,14 @@
   "calc": true,
   "prompt": "Iron supplements often contain iron(II) sulfate, FeSO₄. What is the mass percent of iron in FeSO₄?",
   "choices": [
-   "36.77%",
-   "63.23%",
-   "58.14%",
+   "36.76%",
+   "63.24%",
+   "58.13%",
    "16.67%"
   ],
-  "answer": "36.77%",
+  "answer": "36.76%",
   "hint": "Mass percent = (mass of the element in one mole ÷ molar mass of the compound) × 100.",
-  "explain": "Molar mass = 55.85 + 32.06 + 4(16.00) = 151.91 g mol⁻¹; 55.85 ÷ 151.91 × 100 = 36.77%. 58.14% divides by the mass of sulfate only, and 16.67% (1 of 6 atoms) counts atoms instead of mass.",
+  "explain": "Molar mass = 55.85 + 32.07 + 4(16.00) = 151.92 g mol⁻¹; 55.85 ÷ 151.92 × 100 = 36.76%. 58.13% divides by the mass of sulfate only, and 16.67% (1 of 6 atoms) counts atoms instead of mass.",
   "why": [
    "",
    "This is the percent of everything except iron.",
@@ -20311,13 +20311,13 @@
   "html": {
    "prompt": "Iron supplements often contain iron(II) sulfate, FeSO<sub>4</sub>. What is the mass percent of iron in FeSO<sub>4</sub>?",
    "choices": [
-    "36.77%",
-    "63.23%",
-    "58.14%",
+    "36.76%",
+    "63.24%",
+    "58.13%",
     "16.67%"
    ],
    "hint": "Mass percent = (mass of the element in one mole ÷ molar mass of the compound) × 100.",
-   "explain": "Molar mass = 55.85 + 32.06 + 4(16.00) = 151.91 g mol⁻¹; 55.85 ÷ 151.91 × 100 = <b>36.77%</b>. 58.14% divides by the mass of sulfate only, and 16.67% (1 of 6 atoms) counts atoms instead of mass.",
+   "explain": "Molar mass = 55.85 + 32.07 + 4(16.00) = 151.92 g mol⁻¹; 55.85 ÷ 151.92 × 100 = <b>36.76%</b>. 58.13% divides by the mass of sulfate only, and 16.67% (1 of 6 atoms) counts atoms instead of mass.",
    "why": [
     "",
     "This is the percent of everything except iron.",
@@ -22161,7 +22161,7 @@
    "",
    "O₂ is a reactant, so adding it shifts the equilibrium right, not left.",
    "Changing a concentration never changes K. Only temperature does.",
-   "The equilibrium does shift when [O₂] goes up."
+   "O₂ does not react with CO here. It competes with CO for hemoglobin, and adding O₂, a reactant, does shift the equilibrium."
   ],
   "html": {
    "prompt": "Carbon monoxide binds to hemoglobin (Hb) and blocks oxygen transport. A poisoned patient is given 100% oxygen. How does this help, according to the equilibrium shown?",
@@ -22177,7 +22177,7 @@
     "",
     "O₂ is a reactant, so adding it shifts the equilibrium right, not left.",
     "Changing a concentration never changes K. Only temperature does.",
-    "The equilibrium does shift when [O₂] goes up."
+    "O₂ does not react with CO here. It competes with CO for hemoglobin, and adding O₂, a reactant, does shift the equilibrium."
    ]
   },
   "data": {
@@ -25081,7 +25081,7 @@
   ],
   "answer": "R",
   "hint": "Atomic size increases down a group (more shells) and increases toward the left of a period (less pull per electron).",
-  "explain": "R is in period 4, group 1: the most shells and the fewest protons pulling on them, so it is the largest atom (it is potassium). J (lithium) is small because it has only two shells; Q and X are halogens, the smallest atoms of their periods.",
+  "explain": "R is in period 4, group 1: the most shells and the fewest protons pulling on them, so it is the largest atom (it is potassium). J (lithium) is small because it has only two shells; Q and X are halogens, among the smallest atoms of their periods.",
   "why": [
    "",
    "J has only two shells, so it's small.",
@@ -25097,7 +25097,7 @@
     "Q"
    ],
    "hint": "Atomic size increases down a group (more shells) and increases toward the left of a period (less pull per electron).",
-   "explain": "<b>R</b> is in period 4, group 1: the most shells and the fewest protons pulling on them, so it is the largest atom (it is potassium). J (lithium) is small because it has only two shells; Q and X are halogens, the smallest atoms of their periods.",
+   "explain": "<b>R</b> is in period 4, group 1: the most shells and the fewest protons pulling on them, so it is the largest atom (it is potassium). J (lithium) is small because it has only two shells; Q and X are halogens, among the smallest atoms of their periods.",
    "why": [
     "",
     "J has only two shells, so it's small.",
@@ -25409,8 +25409,8 @@
   "why": [
    "",
    "Red light has the longest wavelength and the lowest energy per photon.",
-   "Line III has a longer wavelength than another line.",
-   "Line II has a longer wavelength than another line."
+   "Line III does not have the shortest wavelength. A longer wavelength means less energy in each photon.",
+   "Line II does not have the shortest wavelength. A longer wavelength means less energy in each photon."
   ],
   "html": {
    "prompt": "The visible emission lines of hydrogen are shown. Which line is produced by electrons releasing the greatest amount of energy per photon?",
@@ -25425,8 +25425,8 @@
    "why": [
     "",
     "Red light has the longest wavelength and the lowest energy per photon.",
-    "Line III has a longer wavelength than another line.",
-    "Line II has a longer wavelength than another line."
+    "Line III does not have the shortest wavelength. A longer wavelength means less energy in each photon.",
+    "Line II does not have the shortest wavelength. A longer wavelength means less energy in each photon."
    ]
   },
   "data": {
@@ -25680,10 +25680,10 @@
   ],
   "answer": "rubidium, Rb",
   "hint": "Estimate the weighted average mass from the peaks, then find the element whose atomic mass on the periodic table matches.",
-  "explain": "The heavier peak is less abundant, so the average lies closer to 85: (85)(0.7217) + (87)(0.2783) = 85.56 amu, matching rubidium (85.47). Strontium (87.62) would need the 87 peak to dominate, and krypton (83.80) and bromine (79.90) are too light.",
+  "explain": "The heavier peak is less abundant, so the average lies closer to 85: (85)(0.7217) + (87)(0.2783) = 85.56 amu, matching rubidium (85.47). Strontium (87.62) is heavier than both peaks, and krypton (83.80) and bromine (79.90) are too light.",
   "why": [
    "",
-   "Strontium would need the 87 peak to be the bigger one.",
+   "Strontium's atomic mass (87.62) is heavier than both peaks, so no mix of these two isotopes can average to it.",
    "Krypton's mass (83.80) is too light.",
    "Bromine's mass (79.90) is too light."
   ],
@@ -25696,10 +25696,10 @@
     "bromine, Br"
    ],
    "hint": "Estimate the weighted average mass from the peaks, then find the element whose atomic mass on the periodic table matches.",
-   "explain": "The heavier peak is less abundant, so the average lies closer to 85: (85)(0.7217) + (87)(0.2783) = <b>85.56 amu</b>, matching rubidium (85.47). Strontium (87.62) would need the 87 peak to dominate, and krypton (83.80) and bromine (79.90) are too light.",
+   "explain": "The heavier peak is less abundant, so the average lies closer to 85: (85)(0.7217) + (87)(0.2783) = <b>85.56 amu</b>, matching rubidium (85.47). Strontium (87.62) is heavier than both peaks, and krypton (83.80) and bromine (79.90) are too light.",
    "why": [
     "",
-    "Strontium would need the 87 peak to be the bigger one.",
+    "Strontium's atomic mass (87.62) is heavier than both peaks, so no mix of these two isotopes can average to it.",
     "Krypton's mass (83.80) is too light.",
     "Bromine's mass (79.90) is too light."
    ]
@@ -26474,7 +26474,7 @@
    "phosphate"
   ],
   "answer": "carbonate",
-  "hint": "Carbonate and hydrogen carbonate (bicarbonate) differ by one H⁺; adding H⁺ makes the charge less negative by one.",
+  "hint": "Some ions come in pairs that differ by one H⁺; adding H⁺ makes the charge less negative by one.",
   "explain": "Carbonate is CO²⁻₃; the table shows HCO⁻₃, which is hydrogen carbonate (bicarbonate). Nitrate NO⁻₃, sulfate SO²⁻₄ and phosphate PO³⁻₄ are all correct.",
   "why": [
    "",
@@ -26490,7 +26490,7 @@
     "sulfate",
     "phosphate"
    ],
-   "hint": "Carbonate and hydrogen carbonate (bicarbonate) differ by one H<sup>+</sup>; adding H<sup>+</sup> makes the charge less negative by one.",
+   "hint": "Some ions come in pairs that differ by one H<sup>+</sup>; adding H<sup>+</sup> makes the charge less negative by one.",
    "explain": "<b>Carbonate</b> is <span class=\"nw\">CO<span class=\"ss\"><sup>2−</sup><sub>3</sub></span>;</span> the table shows <span class=\"nw\">HCO<span class=\"ss\"><sup>−</sup><sub>3</sub></span>,</span> which is hydrogen carbonate (bicarbonate). Nitrate <span class=\"nw\">NO<span class=\"ss\"><sup>−</sup><sub>3</sub></span>,</span> sulfate <span class=\"nw\">SO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span> and phosphate <span class=\"nw\">PO<span class=\"ss\"><sup>3−</sup><sub>4</sub></span></span> are all correct.",
    "why": [
     "",
@@ -28211,7 +28211,7 @@
   "why": [
    "",
    "L is just outside the band (above it).",
-   "Q is just outside the band (below it).",
+   "Q lies below the band, with too few neutrons for its protons, so it is radioactive.",
    "No nuclei beyond Z = 83 are stable."
   ],
   "html": {
@@ -28227,7 +28227,7 @@
    "why": [
     "",
     "L is just outside the band (above it).",
-    "Q is just outside the band (below it).",
+    "Q lies below the band, with too few neutrons for its protons, so it is radioactive.",
     "No nuclei beyond Z = 83 are stable."
    ]
   },
@@ -28882,7 +28882,7 @@
   "explain": "Curve I reaches 50 % at 4 h and curve II at 12 h, so the half-life of II is 12/4 = 3 times longer. Reading where the curves reach 25 % gives 8 h and 24 h, the same ratio; 4 is the half-life of I itself, not the ratio.",
   "why": [
    "",
-   "Read where each curve hits 50%: 4 h and 12 h.",
+   "Read the time where each curve crosses 50%, then divide the longer half-life by the shorter one.",
    "4 h is the half-life of I, not the ratio.",
    "This compares different percent points. Read both curves at 50%."
   ],
@@ -28898,7 +28898,7 @@
    "explain": "Curve I reaches 50 % at 4 h and curve II at 12 h, so the half-life of II is 12/4 = <b>3</b> times longer. Reading where the curves reach 25 % gives 8 h and 24 h, the same ratio; 4 is the half-life of I itself, not the ratio.",
    "why": [
     "",
-    "Read where each curve hits 50%: 4 h and 12 h.",
+    "Read the time where each curve crosses 50%, then divide the longer half-life by the shorter one.",
     "4 h is the half-life of I, not the ratio.",
     "This compares different percent points. Read both curves at 50%."
    ]
@@ -29996,7 +29996,7 @@
   "why": [
    "",
    "This is only two half-lives.",
-   "This is four half-lives. 330 min is three.",
+   "2.50 mg is four half-lives. Recount how many 110 min half-lives fit in 5.5 h.",
    "This is only one half-life."
   ],
   "html": {
@@ -30012,7 +30012,7 @@
    "why": [
     "",
     "This is only two half-lives.",
-    "This is four half-lives. 330 min is three.",
+    "2.50 mg is four half-lives. Recount how many 110 min half-lives fit in 5.5 h.",
     "This is only one half-life."
    ]
   },
@@ -31108,11 +31108,11 @@
   ],
   "answer": "NaCl",
   "hint": "A curve's slope shows how fast solubility changes with temperature. The flattest curve changes least.",
-  "explain": "The NaCl curve is almost flat (about 36 to 38 g per 100 g water), so heating barely changes its solubility. KNO₃ changes the most; it is the salt whose solubility is most sensitive to temperature, not least. KCl and NH₄Cl roughly double.",
+  "explain": "The NaCl curve is almost flat (about 36 to 38 g per 100 g water), so heating barely changes its solubility. KNO₃ changes the most; it is the salt whose solubility is most sensitive to temperature, not least. NH₄Cl roughly doubles and KCl rises by about 20 g.",
   "why": [
    "",
    "KNO₃'s solubility changes the most, not the least.",
-   "KCl's solubility roughly doubles.",
+   "KCl's solubility rises from about 28 g to 48 g, a big change compared with NaCl.",
    "NH₄Cl's solubility roughly doubles."
   ],
   "html": {
@@ -31124,11 +31124,11 @@
     "NH<sub>4</sub>Cl"
    ],
    "hint": "A curve's slope shows how fast solubility changes with temperature. The flattest curve changes least.",
-   "explain": "The <b>NaCl</b> curve is almost flat (about 36 to 38 g per 100 g water), so heating barely changes its solubility. KNO<sub>3</sub> changes the most; it is the salt whose solubility is most sensitive to temperature, not least. KCl and NH<sub>4</sub>Cl roughly double.",
+   "explain": "The <b>NaCl</b> curve is almost flat (about 36 to 38 g per 100 g water), so heating barely changes its solubility. KNO<sub>3</sub> changes the most; it is the salt whose solubility is most sensitive to temperature, not least. NH<sub>4</sub>Cl roughly doubles and KCl rises by about 20 g.",
    "why": [
     "",
     "KNO₃'s solubility changes the most, not the least.",
-    "KCl's solubility roughly doubles.",
+    "KCl's solubility rises from about 28 g to 48 g, a big change compared with NaCl.",
     "NH₄Cl's solubility roughly doubles."
    ]
   },
@@ -31705,7 +31705,7 @@
   "why": [
    "",
    "This divides. Box II has more particles, not fewer.",
-   "Count the particles again. Box II has 3 times as many.",
+   "Count the particles in each box again and compare the two counts.",
    "The same concentration would need the same number of particles."
   ],
   "html": {
@@ -31721,7 +31721,7 @@
    "why": [
     "",
     "This divides. Box II has more particles, not fewer.",
-    "Count the particles again. Box II has 3 times as many.",
+    "Count the particles in each box again and compare the two counts.",
     "The same concentration would need the same number of particles."
    ]
   },
@@ -32029,11 +32029,11 @@
   ],
   "answer": "0.500 M",
   "hint": "Moles of acid do not change on dilution: M₁V₁ = M₂V₂. The final volume is the total volume after adding water.",
-  "explain": "M₂ = M₁V₁/V₂ = (12.0 M)(10.0 mL)/(240. mL) = 0.500 M. Inverting the volume ratio gives 2.00 M; 0.522 M comes from using 230 mL (subtracting the acid volume) as the final volume, but 240. mL is already the total.",
+  "explain": "M₂ = M₁V₁/V₂ = (12.0 M)(10.0 mL)/(240. mL) = 0.500 M. Putting V2 over M1V1 (upside down) gives 2.00 M; 0.522 M comes from using 230 mL (subtracting the acid volume) as the final volume, but 240. mL is already the total.",
   "why": [
    "",
-   "This flips the volume ratio. Dilution lowers the concentration.",
-   "This is off by a factor of 10. Recompute (12.0 × 10.0) ÷ 240.",
+   "This puts V₂ over M₁V₁, which is upside down. Solve M₁V₁ = M₂V₂ for M₂ again.",
+   "Check the decimal place in M₁V₁ ÷ V₂.",
    "This uses 230 mL. 240 mL is already the total volume."
   ],
   "html": {
@@ -32045,11 +32045,11 @@
     "0.522 M"
    ],
    "hint": "Moles of acid do not change on dilution: M<sub>1</sub>V<sub>1</sub> = M<sub>2</sub>V<sub>2</sub>. The final volume is the total volume after adding water.",
-   "explain": "M<sub>2</sub> = M<sub>1</sub>V<sub>1</sub>/V<sub>2</sub> = (12.0 M)(10.0 mL)/(240. mL) = <b>0.500 M</b>. Inverting the volume ratio gives 2.00 M; 0.522 M comes from using 230 mL (subtracting the acid volume) as the final volume, but 240. mL is already the total.",
+   "explain": "M<sub>2</sub> = M<sub>1</sub>V<sub>1</sub>/V<sub>2</sub> = (12.0 M)(10.0 mL)/(240. mL) = <b>0.500 M</b>. Putting V2 over M1V1 (upside down) gives 2.00 M; 0.522 M comes from using 230 mL (subtracting the acid volume) as the final volume, but 240. mL is already the total.",
    "why": [
     "",
-    "This flips the volume ratio. Dilution lowers the concentration.",
-    "This is off by a factor of 10. Recompute (12.0 × 10.0) ÷ 240.",
+    "This puts V₂ over M₁V₁, which is upside down. Solve M₁V₁ = M₂V₂ for M₂ again.",
+    "Check the decimal place in M₁V₁ ÷ V₂.",
     "This uses 230 mL. 240 mL is already the total volume."
    ]
   },
@@ -32928,7 +32928,7 @@
   "why": [
    "",
    "A taller, narrow peak means slower molecules, so it's the colder gas.",
-   "Molecules never all move at the same speed.",
+   "Curve I does have a narrow peak, but it sits at slow speeds. A narrow peak at low speed marks the colder gas, because heating spreads speeds out toward faster values.",
    "Molecules move at a range of speeds at any temperature."
   ],
   "html": {
@@ -32944,7 +32944,7 @@
    "why": [
     "",
     "A taller, narrow peak means slower molecules, so it's the colder gas.",
-    "Molecules never all move at the same speed.",
+    "Curve I does have a narrow peak, but it sits at slow speeds. A narrow peak at low speed marks the colder gas, because heating spreads speeds out toward faster values.",
     "Molecules move at a range of speeds at any temperature."
    ]
   },
@@ -33883,12 +33883,12 @@
   ],
   "answer": "40 mmHg",
   "hint": "Dalton's law: the total pressure is the sum of all partial pressures. Subtract the known gases from the total.",
-  "explain": "PCO₂ = 760 − 573 − 100 − 47 = 40 mmHg. Forgetting to subtract the water vapor gives 87 mmHg; 720 mmHg is the total minus only the CO₂ answer and makes no physical sense for a minor gas.",
+  "explain": "PCO₂ = 760 − 573 − 100 − 47 = 40 mmHg. Forgetting to subtract the water vapor gives 87 mmHg; 720 mmHg is the sum of the known gases, not what is left of the total.",
   "why": [
    "",
    "47 mmHg is water vapor's partial pressure.",
    "This forgets to subtract the water vapor.",
-   "720 mmHg is far too large for a minor gas."
+   "720 mmHg is the sum of the known gases. Subtract that sum from the total pressure."
   ],
   "html": {
    "prompt": "The table gives the partial pressures of the gases in the air inside the lungs (alveolar air) at a total pressure of 760 mmHg. What is the partial pressure of CO<sub>2</sub>?",
@@ -33899,12 +33899,12 @@
     "720 mmHg"
    ],
    "hint": "Dalton's law: the total pressure is the sum of all partial pressures. Subtract the known gases from the total.",
-   "explain": "P<sub>CO<sub>2</sub></sub> = 760 − 573 − 100 − 47 = <b>40 mmHg</b>. Forgetting to subtract the water vapor gives 87 mmHg; 720 mmHg is the total minus only the CO<sub>2</sub> answer and makes no physical sense for a minor gas.",
+   "explain": "P<sub>CO<sub>2</sub></sub> = 760 − 573 − 100 − 47 = <b>40 mmHg</b>. Forgetting to subtract the water vapor gives 87 mmHg; 720 mmHg is the sum of the known gases, not what is left of the total.",
    "why": [
     "",
     "47 mmHg is water vapor's partial pressure.",
     "This forgets to subtract the water vapor.",
-    "720 mmHg is far too large for a minor gas."
+    "720 mmHg is the sum of the known gases. Subtract that sum from the total pressure."
    ]
   },
   "data": {
@@ -33972,7 +33972,7 @@
    "",
    "pH is logarithmic, not linear.",
    "This divides the pH values. Each pH unit is a factor of 10.",
-   "1000 times is for 3 pH units. These differ by 4."
+   "1000 times would mean the pH values differ by 3. Recheck the difference between the two bars."
   ],
   "html": {
    "prompt": "The bar graph shows typical pH values of four body fluids. The hydronium ion concentration of stomach fluid (gastric juice) is how many times that of urine?",
@@ -33988,7 +33988,7 @@
     "",
     "pH is logarithmic, not linear.",
     "This divides the pH values. Each pH unit is a factor of 10.",
-    "1000 times is for 3 pH units. These differ by 4."
+    "1000 times would mean the pH values differ by 3. Recheck the difference between the two bars."
    ]
   },
   "data": {
@@ -34109,7 +34109,7 @@
    "",
    "Saliva's pH is about 6.5, not 8.",
    "Blood's pH is about 7.4, not 8.",
-   "Stomach fluid's pH is about 2."
+   "Stomach fluid's pH is about 1.5, which means far more H₃O⁺ than 10⁻⁸ M."
   ],
   "html": {
    "prompt": "Typical pH values of body fluids are shown. In which fluid is [H<sub>3</sub>O<sup>+</sup>] about 1 × 10<sup>−8</sup> M?",
@@ -34125,7 +34125,7 @@
     "",
     "Saliva's pH is about 6.5, not 8.",
     "Blood's pH is about 7.4, not 8.",
-    "Stomach fluid's pH is about 2."
+    "Stomach fluid's pH is about 1.5, which means far more H₃O⁺ than 10⁻⁸ M."
    ]
   },
   "data": {
@@ -34686,8 +34686,8 @@
   "explain": "Per 100 g: C 40.0/12.01 = 3.33 mol, H 6.7/1.008 = 6.65 mol, O 53.3/16.00 = 3.33 mol → ratio 1 : 2 : 1, empirical formula CH₂O. Only C₂H₄O₂ (acetic acid) reduces to CH₂O. C₂H₆O₂ looks close by mass (38.7 % C) but its atom ratio is 1 : 3 : 1; the percents are by mass, not atom counts.",
   "why": [
    "",
-   "C₂H₆O has a 2:6:1 ratio, not 1:2:1.",
-   "C₂H₄O has only half the oxygen needed.",
+   "Convert each percent to moles first. C₂H₆O is only about 35% oxygen by mass, well below the 53.3% in the graph.",
+   "Convert each percent to moles first. C₂H₄O is only about 36% oxygen by mass, well below the 53.3% in the graph.",
    "C₂H₆O₂ has a 1:3:1 ratio. The percents are by mass, not atom counts."
   ],
   "html": {
@@ -34702,8 +34702,8 @@
    "explain": "Per 100 g: C 40.0/12.01 = 3.33 mol, H 6.7/1.008 = 6.65 mol, O 53.3/16.00 = 3.33 mol → ratio 1 : 2 : 1, empirical formula CH<sub>2</sub>O. Only <b>C<sub>2</sub>H<sub>4</sub>O<sub>2</sub></b> (acetic acid) reduces to CH<sub>2</sub>O. C<sub>2</sub>H<sub>6</sub>O<sub>2</sub> looks close by mass (38.7 % C) but its atom ratio is 1 : 3 : 1; the percents are by mass, not atom counts.",
    "why": [
     "",
-    "C₂H₆O has a 2:6:1 ratio, not 1:2:1.",
-    "C₂H₄O has only half the oxygen needed.",
+    "Convert each percent to moles first. C₂H₆O is only about 35% oxygen by mass, well below the 53.3% in the graph.",
+    "Convert each percent to moles first. C₂H₄O is only about 36% oxygen by mass, well below the 53.3% in the graph.",
     "C₂H₆O₂ has a 1:3:1 ratio. The percents are by mass, not atom counts."
    ]
   },
@@ -34804,13 +34804,13 @@
   "prompt": "The bar graph shows the mass percent of each element in urea, a nitrogen fertilizer. How many grams of nitrogen are in a 25.0 g sample of urea?",
   "choices": [
    "11.7 g",
-   "6.66 g",
+   "6.65 g",
    "5.00 g",
    "46.7 g"
   ],
   "answer": "11.7 g",
   "hint": "Mass percent means grams of the element per 100 g of compound. Multiply the sample mass by the nitrogen fraction.",
-  "explain": "Nitrogen is 46.7 % of urea by mass: (25.0 g)(0.467) = 11.7 g. 6.66 g uses the oxygen bar, 5.00 g the carbon bar, and 46.7 g reports the percent as if it were grams.",
+  "explain": "Nitrogen is 46.7 % of urea by mass: (25.0 g)(0.467) = 11.7 g. 6.65 g uses the oxygen bar, 5.00 g the carbon bar, and 46.7 g reports the percent as if it were grams.",
   "why": [
    "",
    "This uses the oxygen bar.",
@@ -34821,12 +34821,12 @@
    "prompt": "The bar graph shows the mass percent of each element in urea, a nitrogen fertilizer. How many grams of nitrogen are in a 25.0 g sample of urea?",
    "choices": [
     "11.7 g",
-    "6.66 g",
+    "6.65 g",
     "5.00 g",
     "46.7 g"
    ],
    "hint": "Mass percent means grams of the element per 100 g of compound. Multiply the sample mass by the nitrogen fraction.",
-   "explain": "Nitrogen is 46.7 % of urea by mass: (25.0 g)(0.467) = <b>11.7 g</b>. 6.66 g uses the oxygen bar, 5.00 g the carbon bar, and 46.7 g reports the percent as if it were grams.",
+   "explain": "Nitrogen is 46.7 % of urea by mass: (25.0 g)(0.467) = <b>11.7 g</b>. 6.65 g uses the oxygen bar, 5.00 g the carbon bar, and 46.7 g reports the percent as if it were grams.",
    "why": [
     "",
     "This uses the oxygen bar.",
@@ -34951,7 +34951,7 @@
    "",
    "This compares grams directly. Change each mass to moles first.",
    "This divides by carbon's moles and rounds oxygen's 0.5 up. Divide by the smallest moles.",
-   "C₃H₈O doesn't match the 2:6:1 mole ratio."
+   "C₃H₈O has 3 C for every O. Change each mass to moles and check whether this sample has that C to O ratio."
   ],
   "html": {
    "prompt": "A sample of a compound was analyzed, and the masses of its elements are listed in the table. What is its empirical formula?",
@@ -34967,7 +34967,7 @@
     "",
     "This compares grams directly. Change each mass to moles first.",
     "This divides by carbon's moles and rounds oxygen's 0.5 up. Divide by the smallest moles.",
-    "C₃H₈O doesn't match the 2:6:1 mole ratio."
+    "C₃H₈O has 3 C for every O. Change each mass to moles and check whether this sample has that C to O ratio."
    ]
   },
   "data": {
