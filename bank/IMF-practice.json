@@ -7421,6 +7421,44 @@
   }
  },
  {
+  "id": "IMF-f8e0fff5",
+  "skill": "IMF.simhb",
+  "courses": [
+   "3A",
+   "1A",
+   "3B"
+  ],
+  "chapters": [
+   "3A-6",
+   "1A-10",
+   "3B-2",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "<div>The water starts cold. As you raise the temperature, what will happen to the dashed lines (hydrogen bonds)?</div>",
+  "answer": "They break more often, but every molecule stays whole",
+  "hint": "A hydrogen bond needs an H on N, O or F in one molecule and a lone pair on N, O or F in the next. Heat makes molecules move faster.",
+  "explain": "Faster molecules shake loose from their neighbors. Only the attractions between molecules break: each H₂O stays H₂O.",
+  "origin": "original",
+  "choices": [
+   "The water molecules split into H and O atoms",
+   "Nothing changes",
+   "More of them form, because the molecules collide more",
+   "They break more often, but every molecule stays whole"
+  ],
+  "why": [
+   "Boiling pulls whole molecules apart from each other . No covalent bond breaks: the steam is still H₂O.",
+   "Temperature is the motion of the molecules. More motion shakes hydrogen bonds apart.",
+   "Collisions are harder and faster when hot, so molecules bounce apart instead of sticking. Heating breaks hydrogen bonds.",
+   ""
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:simhb",
+   "index": 0
+  }
+ },
+ {
   "id": "IMF-3366854a",
   "skill": "IMF.simhb",
   "courses": [
@@ -7441,10 +7479,10 @@
   "explain": "Every H in CH₄ is bonded to carbon, and there is no lone pair on N, O or F to point at. Methane has dispersion forces only, which is why it boils at −162 °C.",
   "origin": "original",
   "choices": [
-   "2",
-   "0",
    "4, one for each H",
-   "1"
+   "0",
+   "1",
+   "2"
   ],
   "why": [
    "The H must be bonded directly to N, O or F . An H on carbon (or on Cl, S, P) does not hydrogen bond. CH₄ has no hydrogen bonds at all.",
@@ -7455,40 +7493,81 @@
   "from": {
    "game": "IMF",
    "list": "sample:simhb",
-   "index": 0
+   "index": 1
   }
  },
  {
-  "id": "IMF-069221bb",
+  "id": "IMF-d0e032ab",
   "skill": "IMF.simhb",
   "courses": [
    "3A",
-   "1A"
+   "1A",
+   "3B"
   ],
   "chapters": [
    "3A-6",
-   "1A-10"
+   "1A-10",
+   "3B-2",
+   "3B-4"
   ],
   "type": "mc",
-  "prompt": "<div>HF has the most polar H–X bond, but only one H. At the same temperature, which shows more hydrogen bonds per molecule: HF or water?</div>",
-  "answer": "Water",
+  "prompt": "<div>The liquid water is cooled from 25 °C to −20 °C. What will the molecules do?</div>",
+  "answer": "Lock into a regular pattern held by hydrogen bonds, and only vibrate",
   "hint": "A hydrogen bond needs an H on N, O or F in one molecule and a lone pair on N, O or F in the next. Heat makes molecules move faster.",
-  "explain": "Each HF can donate only one H, so HF forms chains. Water donates two and accepts two, building a network. Boiling points: water 100 °C, HF 20 °C.",
+  "explain": "Below the freezing point the molecules move too slowly to break away, so each one settles into a fixed place: a crystal.",
   "origin": "original",
   "choices": [
-   "Water",
-   "HF, because F is the most electronegative atom",
-   "The same"
+   "Break apart into H and O atoms",
+   "Lock into a regular pattern held by hydrogen bonds, and only vibrate",
+   "Stop moving completely",
+   "Spread out to fill the box"
   ],
   "why": [
+   "Boiling pulls whole molecules apart from each other . No covalent bond breaks: the steam is still H₂O.",
    "",
-   "Each H–F···H–F bond is strong, but there is only one H per molecule. The number of bonds per molecule matters too: water makes about twice as many.",
-   "HF has 1 H per molecule; water has 2 H and 2 lone pairs, so water can be part of more hydrogen bonds."
+   "Even in ice the molecules vibrate in place. They only stop sliding past each other.",
+   "That is what a gas does. Cooling brings molecules together and holds them in place."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:simhb",
-   "index": 1
+   "index": 2
+  }
+ },
+ {
+  "id": "IMF-8f64f757",
+  "skill": "IMF.simhb",
+  "courses": [
+   "3A",
+   "1A",
+   "3B"
+  ],
+  "chapters": [
+   "3A-6",
+   "1A-10",
+   "3B-2",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "<div>The liquid water is heated past 100 °C. What will you see?</div>",
+  "answer": "The molecules spread out to fill the box, and the dashed hydrogen bonds are gone",
+  "hint": "A hydrogen bond needs an H on N, O or F in one molecule and a lone pair on N, O or F in the next. Heat makes molecules move faster.",
+  "explain": "Above the boiling point the molecules have enough energy to escape each other. Each one is still a whole H₂O molecule.",
+  "origin": "original",
+  "choices": [
+   "The molecules split into H and O atoms",
+   "The molecules stay in a pool at the bottom, only moving faster",
+   "The molecules spread out to fill the box, and the dashed hydrogen bonds are gone"
+  ],
+  "why": [
+   "Boiling pulls whole molecules apart from each other . No covalent bond breaks: the steam is still H₂O.",
+   "That describes hot liquid water. Past the boiling point the molecules leave the pool and fill the box.",
+   ""
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:simhb",
+   "index": 3
   }
  },
  {
@@ -7512,19 +7591,19 @@
   "explain": "Water can donate 2 H atoms and accept at 2 lone pairs. Methanol has only 1 H on oxygen; its CH₃ hydrogens are on carbon and do not count. Boiling points: water 100 °C, methanol 65 °C.",
   "origin": "original",
   "choices": [
-   "Methanol, because it is the bigger molecule",
+   "Water",
    "Methanol, because it has four H atoms",
-   "Water"
+   "Methanol, because it is the bigger molecule"
   ],
   "why": [
-   "Size adds dispersion, but hydrogen bonds are counted by O–H groups and lone pairs: water has two O–H, methanol one.",
+   "",
    "The H must be bonded directly to N, O or F . An H on carbon (or on Cl, S, P) does not hydrogen bond. Only one of methanol’s four H atoms is on oxygen.",
-   ""
+   "Size adds dispersion, but hydrogen bonds are counted by O–H groups and lone pairs: water has two O–H, methanol one."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:simhb",
-   "index": 2
+   "index": 4
   }
  },
  {
@@ -7548,59 +7627,21 @@
   "explain": "Opposite partial charges attract: O–H···O. The H always points at a lone pair on the next molecule.",
   "origin": "original",
   "choices": [
-   "From an H on one molecule to an H on a neighbor",
    "From an H (δ+) on one molecule to a lone pair (δ−) on a neighbor",
+   "From the O of one molecule to the O of a neighbor",
    "Between the O and H inside one molecule",
-   "From the O of one molecule to the O of a neighbor"
+   "From an H on one molecule to an H on a neighbor"
   ],
   "why": [
-   "Two δ+ hydrogens repel each other. The H points at a lone pair.",
    "",
+   "Two δ− oxygens repel. An H sits between them: O–H···O.",
    "That solid line is the covalent O–H bond. A hydrogen bond is an attraction between molecules, with no shared electrons. It is much weaker than a covalent bond.",
-   "Two δ− oxygens repel. An H sits between them: O–H···O."
+   "Two δ+ hydrogens repel each other. The H points at a lone pair."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:simhb",
-   "index": 3
-  }
- },
- {
-  "id": "IMF-f8e0fff5",
-  "skill": "IMF.simhb",
-  "courses": [
-   "3A",
-   "1A",
-   "3B"
-  ],
-  "chapters": [
-   "3A-6",
-   "1A-10",
-   "3B-2",
-   "3B-4"
-  ],
-  "type": "mc",
-  "prompt": "<div>The water starts cold. As you raise the temperature, what will happen to the dashed lines (hydrogen bonds)?</div>",
-  "answer": "They break more often, but every molecule stays whole",
-  "hint": "A hydrogen bond needs an H on N, O or F in one molecule and a lone pair on N, O or F in the next. Heat makes molecules move faster.",
-  "explain": "Faster molecules shake loose from their neighbors. Only the attractions between molecules break: each H₂O stays H₂O.",
-  "origin": "original",
-  "choices": [
-   "The water molecules split into H and O atoms",
-   "More of them form, because the molecules collide more",
-   "They break more often, but every molecule stays whole",
-   "Nothing changes"
-  ],
-  "why": [
-   "Boiling pulls whole molecules apart from each other . No covalent bond breaks: the steam is still H₂O.",
-   "Collisions are harder and faster when hot, so molecules bounce apart instead of sticking. Heating breaks hydrogen bonds.",
-   "",
-   "Temperature is the motion of the molecules. More motion shakes hydrogen bonds apart."
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:simhb",
-   "index": 4
+   "index": 5
   }
  },
  {
@@ -7625,18 +7666,51 @@
   "origin": "original",
   "choices": [
    "Water, H₂O",
-   "Ammonia, NH₃, because it has more H atoms",
-   "The same, because both hydrogen bond"
+   "The same, because both hydrogen bond",
+   "Ammonia, NH₃, because it has more H atoms"
   ],
   "why": [
    "",
-   "A hydrogen bond needs an H and a lone pair to point it at. NH₃ has only 1 lone pair, so most of its H atoms have nowhere to go. Water (2 H, 2 lone pairs) makes more: it boils at 100 °C, ammonia at −33 °C.",
-   "They hydrogen bond to different extents. Water has 2 H and 2 lone pairs per molecule; NH₃ has 3 H but only 1 lone pair."
+   "They hydrogen bond to different extents. Water has 2 H and 2 lone pairs per molecule; NH₃ has 3 H but only 1 lone pair.",
+   "A hydrogen bond needs an H and a lone pair to point it at. NH₃ has only 1 lone pair, so most of its H atoms have nowhere to go. Water (2 H, 2 lone pairs) makes more: it boils at 100 °C, ammonia at −33 °C."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:simhb",
-   "index": 5
+   "index": 6
+  }
+ },
+ {
+  "id": "IMF-069221bb",
+  "skill": "IMF.simhb",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-6",
+   "1A-10"
+  ],
+  "type": "mc",
+  "prompt": "<div>HF has the most polar H–X bond, but only one H. At the same temperature, which shows more hydrogen bonds per molecule: HF or water?</div>",
+  "answer": "Water",
+  "hint": "A hydrogen bond needs an H on N, O or F in one molecule and a lone pair on N, O or F in the next. Heat makes molecules move faster.",
+  "explain": "Each HF can donate only one H, so HF forms chains. Water donates two and accepts two, building a network. Boiling points: water 100 °C, HF 20 °C.",
+  "origin": "original",
+  "choices": [
+   "The same",
+   "Water",
+   "HF, because F is the most electronegative atom"
+  ],
+  "why": [
+   "HF has 1 H per molecule; water has 2 H and 2 lone pairs, so water can be part of more hydrogen bonds.",
+   "",
+   "Each H–F···H–F bond is strong, but there is only one H per molecule. The number of bonds per molecule matters too: water makes about twice as many."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:simhb",
+   "index": 7
   }
  },
  {
@@ -16273,19 +16347,81 @@
   "explain": "An exact even split gets rarer as electrons are added: about 25% of the time for neon and 19% for argon. So argon is lopsided more often, which fits its higher boiling point (87 K vs 27 K).",
   "origin": "original",
   "choices": [
-   "Neon",
    "Argon",
+   "Neon",
    "Neither: electrons are always spread evenly"
   ],
   "why": [
-   "Neon splits evenly about 25% of the time, argon only about 19%. More electrons means more ways to be uneven.",
    "",
+   "Neon splits evenly about 25% of the time, argon only about 19%. More electrons means more ways to be uneven.",
    "On average, yes. At any instant the cloud is usually a little lopsided, and that is where dispersion forces come from."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:simcoin",
    "index": 0
+  }
+ },
+ {
+  "id": "IMF-fa75f00a",
+  "skill": "IMF.simcoin",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-10"
+  ],
+  "type": "mc",
+  "prompt": "<div>On a flip where atom 1’s electrons split exactly evenly, how strong is the pull between the two atoms at that instant?</div>",
+  "answer": "There is no pull at that instant",
+  "hint": "Each electron is equally likely to be on either side. More electrons (a higher molar mass) means more ways to be uneven.",
+  "explain": "With an even split there is no temporary dipole, so nothing pushes atom 2’s electrons. The pull comes and goes as the clouds shift.",
+  "origin": "original",
+  "choices": [
+   "There is no pull at that instant",
+   "The same as on any other flip",
+   "It is at its strongest"
+  ],
+  "why": [
+   "",
+   "The pull depends on how lopsided the cloud is at that instant, so it changes from flip to flip.",
+   "The pull is strongest when the cloud is most lopsided. An even split gives no dipole at all."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:simcoin",
+   "index": 1
+  }
+ },
+ {
+  "id": "IMF-d8784b89",
+  "skill": "IMF.simcoin",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-10"
+  ],
+  "type": "mc",
+  "prompt": "<div>For an instant, atom 1 has extra electrons on its right side, next to atom 2. What will atom 2’s electrons do?</div>",
+  "answer": "Shift away, to the far side of atom 2",
+  "hint": "Each electron is equally likely to be on either side. More electrons (a higher molar mass) means more ways to be uneven.",
+  "explain": "Electrons repel electrons. That leaves the near side of atom 2 a little positive, facing the negative side of atom 1, so the two atoms attract.",
+  "origin": "original",
+  "choices": [
+   "Nothing: atom 2 is not affected",
+   "Shift away, to the far side of atom 2",
+   "Shift toward atom 1"
+  ],
+  "why": [
+   "An electron cloud is easy to push. The lopsided cloud of atom 1 pushes atom 2’s cloud the same way, and that is what makes the attraction.",
+   "",
+   "Electrons repel each other, so atom 2’s electrons are pushed away from the crowded side of atom 1."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:simcoin",
+   "index": 2
   }
  },
  {
@@ -16304,50 +16440,19 @@
   "explain": "A big electron cloud is lopsided more often and by more, and its outer electrons are far from the nucleus, so the cloud is easy to distort (polarizable). That makes larger temporary dipoles. Xe boils at 165 K; He at 4.2 K.",
   "origin": "original",
   "choices": [
-   "Helium, with 2 electrons",
    "Xenon, with 54 electrons",
+   "Helium, with 2 electrons",
    "They are all the same"
   ],
   "why": [
-   "Two electrons can only make a tiny temporary dipole. Helium has the weakest dispersion forces of all.",
    "",
+   "Two electrons can only make a tiny temporary dipole. Helium has the weakest dispersion forces of all.",
    "Dispersion forces grow with the number of electrons."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:simcoin",
-   "index": 1
-  }
- },
- {
-  "id": "IMF-0587a87d",
-  "skill": "IMF.simcoin",
-  "courses": [
-   "1A"
-  ],
-  "chapters": [
-   "1A-10"
-  ],
-  "type": "mc",
-  "prompt": "<div>As the number of electrons goes up from 2 to 54, what will happen to the chance of a perfectly even split?</div>",
-  "answer": "It goes down",
-  "hint": "Each electron is equally likely to be on either side. More electrons (a higher molar mass) means more ways to be uneven.",
-  "explain": "With more electrons there are many more lopsided arrangements, so the cloud is almost always a little uneven: 50.0% for He but only 10.8% for Xe.",
-  "origin": "original",
-  "choices": [
-   "It goes up",
-   "It goes down",
-   "It stays at 50%"
-  ],
-  "why": [
-   "More electrons means more ways to be uneven, so an exact tie gets rarer.",
-   "",
-   "It is 50% only for 2 electrons."
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:simcoin",
-   "index": 2
+   "index": 3
   }
  },
  {
@@ -16366,19 +16471,50 @@
   "explain": "Four equally likely arrangements: left-left, left-right, right-left, right-right. Two of the four are even.",
   "origin": "original",
   "choices": [
+   "Never",
    "About half the time",
-   "Always",
-   "Never"
+   "Always"
   ],
   "why": [
+   "One on each side is the most likely single outcome.",
    "",
-   "Both electrons can land on the same side. That happens half the time.",
-   "One on each side is the most likely single outcome."
+   "Both electrons can land on the same side. That happens half the time."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:simcoin",
-   "index": 3
+   "index": 4
+  }
+ },
+ {
+  "id": "IMF-0587a87d",
+  "skill": "IMF.simcoin",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-10"
+  ],
+  "type": "mc",
+  "prompt": "<div>As the number of electrons goes up from 2 to 54, what will happen to the chance of a perfectly even split?</div>",
+  "answer": "It goes down",
+  "hint": "Each electron is equally likely to be on either side. More electrons (a higher molar mass) means more ways to be uneven.",
+  "explain": "With more electrons there are many more lopsided arrangements, so the cloud is almost always a little uneven: 50.0% for He but only 10.8% for Xe.",
+  "origin": "original",
+  "choices": [
+   "It stays at 50%",
+   "It goes down",
+   "It goes up"
+  ],
+  "why": [
+   "It is 50% only for 2 electrons.",
+   "",
+   "More electrons means more ways to be uneven, so an exact tie gets rarer."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:simcoin",
+   "index": 5
   }
  },
  {
@@ -20791,14 +20927,14 @@
   "explain": "Nonpolar side chains cannot attract water, so they cluster together (hydrophobic interactions).",
   "origin": "original",
   "choices": [
-   "Spread evenly along the chain",
    "Packed together in the middle, away from water",
-   "On the outside, facing the water"
+   "On the outside, facing the water",
+   "Spread evenly along the chain"
   ],
   "why": [
-   "Water pushes the nonpolar groups together, which is what drives the folding.",
    "",
-   "The polar and charged side chains face the water. Nonpolar ones hide inside."
+   "The polar and charged side chains face the water. Nonpolar ones hide inside.",
+   "Water pushes the nonpolar groups together, which is what drives the folding."
   ],
   "from": {
    "game": "IMF",
@@ -20807,7 +20943,7 @@
   }
  },
  {
-  "id": "IMF-a84092a4",
+  "id": "IMF-fd265b77",
   "skill": "IMF.simfold",
   "courses": [
    "3B"
@@ -20816,20 +20952,20 @@
    "3B-11"
   ],
   "type": "mc",
-  "prompt": "<div>Which two side chains in this chain can form a salt bridge?</div>",
-  "answer": "Lys (–NH₃⁺) and Asp (–COO⁻)",
+  "prompt": "<div>You are going to set the temperature to 60 °C. Which links do you predict will still be holding?</div>",
+  "answer": "The hydrophobic core and the covalent bonds",
   "hint": "Heat breaks attractions (hydrogen bonds, salt bridges, hydrophobic contacts). Covalent bonds stay.",
-  "explain": "Lysine’s side chain is positive and aspartic acid’s is negative. Opposite charges attract, which makes a salt bridge.",
+  "explain": "In this model the hydrogen bond and the salt bridge have let go by 60 °C. The nonpolar side chains are still clustered, and no covalent bond has broken.",
   "origin": "original",
   "choices": [
-   "Leu and Val",
-   "Lys (–NH₃⁺) and Asp (–COO⁻)",
-   "The two Cys side chains"
+   "The hydrophobic core and the covalent bonds",
+   "Every link: 60 °C is too cool to change anything",
+   "Only the peptide bonds"
   ],
   "why": [
-   "Those are nonpolar and uncharged. They make hydrophobic contacts.",
    "",
-   "Two cysteines form a covalent disulfide bond, –S–S–."
+   "By 60 °C the hydrogen bond and the salt bridge have already let go in this model.",
+   "The disulfide bond is covalent too, and at 60 °C the nonpolar side chains are still clustered together."
   ],
   "from": {
    "game": "IMF",
@@ -20853,19 +20989,50 @@
   "explain": "Peptide bonds are covalent. Heat unfolds the chain by breaking attractions, and the backbone stays in one piece.",
   "origin": "original",
   "choices": [
-   "About half",
    "None",
-   "All 11"
+   "All 11",
+   "About half"
   ],
   "why": [
-   "No peptide bond breaks. Only the attractions that hold the folded shape let go.",
    "",
-   "That would cut the protein into separate amino acids. Boiling pulls whole molecules apart from each other . No covalent bond breaks: the steam is still H₂O."
+   "That would cut the protein into separate amino acids. Boiling pulls whole molecules apart from each other . No covalent bond breaks: the steam is still H₂O.",
+   "No peptide bond breaks. Only the attractions that hold the folded shape let go."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:simfold",
    "index": 2
+  }
+ },
+ {
+  "id": "IMF-775896b3",
+  "skill": "IMF.simfold",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-11"
+  ],
+  "type": "mc",
+  "prompt": "<div>You are going to raise the temperature a little at a time. Which link do you predict will let go <b style=\"font-weight:900\">first</b>?</div>",
+  "answer": "The hydrogen bond between Ser and Gln",
+  "hint": "Heat breaks attractions (hydrogen bonds, salt bridges, hydrophobic contacts). Covalent bonds stay.",
+  "explain": "One hydrogen bond is the weakest of these links. In this model it lets go near 54 °C, before the salt bridge (near 59 °C) and the hydrophobic core (near 65 °C).",
+  "origin": "original",
+  "choices": [
+   "The disulfide bond between the two Cys",
+   "The salt bridge between Lys and Asp",
+   "The hydrogen bond between Ser and Gln"
+  ],
+  "why": [
+   "A disulfide bond (–S–S–) is a real covalent bond between two cysteines. The other side-chain interactions are attractions, not shared electrons. It does not let go at all.",
+   "The attraction between two full charges is stronger than one hydrogen bond, so the salt bridge holds a little longer.",
+   ""
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:simfold",
+   "index": 3
   }
  },
  {
@@ -20884,19 +21051,19 @@
   "explain": "A disulfide bond (–S–S–) is a real covalent bond between two cysteines. The other side-chain interactions are attractions, not shared electrons.",
   "origin": "original",
   "choices": [
-   "The hydrogen bond between Ser and Gln",
    "The disulfide bond between the two cysteines",
+   "The hydrogen bond between Ser and Gln",
    "The salt bridge between Lys and Asp"
   ],
   "why": [
-   "A hydrogen bond is an attraction between molecules, with no shared electrons. It is much weaker than a covalent bond.",
    "",
+   "A hydrogen bond is an attraction between molecules, with no shared electrons. It is much weaker than a covalent bond.",
    "A salt bridge is an ionic attraction between charged groups. Heat can separate them."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:simfold",
-   "index": 3
+   "index": 4
   }
  },
  {
@@ -20915,19 +21082,81 @@
   "explain": "The sequence is intact, so the same attractions can form again. (Many real proteins tangle instead, like a cooked egg.)",
   "origin": "original",
   "choices": [
+   "Nothing: the amino acids have been destroyed",
    "It can fold back up, because no covalent bond was broken",
-   "The chain falls apart into amino acids",
-   "Nothing: the amino acids have been destroyed"
+   "The chain falls apart into amino acids"
   ],
   "why": [
+   "Heating did not break any covalent bond. The chain is whole.",
    "",
-   "That would need the peptide bonds to break (hydrolysis). Cooling does not do that.",
-   "Heating did not break any covalent bond. The chain is whole."
+   "That would need the peptide bonds to break (hydrolysis). Cooling does not do that."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:simfold",
-   "index": 4
+   "index": 5
+  }
+ },
+ {
+  "id": "IMF-b525cd99",
+  "skill": "IMF.simfold",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-11"
+  ],
+  "type": "mc",
+  "prompt": "<div>You are going to drag the temperature from 25 °C up to 100 °C. How do you predict the shape of the chain will change?</div>",
+  "answer": "It opens from a compact fold into a loose, stretched-out chain",
+  "hint": "Heat breaks attractions (hydrogen bonds, salt bridges, hydrophobic contacts). Covalent bonds stay.",
+  "explain": "As the attractions between side chains let go, nothing holds the fold together. The backbone is the same length, and still in one piece.",
+  "origin": "original",
+  "choices": [
+   "It opens from a compact fold into a loose, stretched-out chain",
+   "It curls up tighter",
+   "It breaks into shorter pieces"
+  ],
+  "why": [
+   "",
+   "Heat makes every part of the chain move more, which pulls the fold apart.",
+   "That would need peptide bonds to break. Boiling pulls whole molecules apart from each other . No covalent bond breaks: the steam is still H₂O."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:simfold",
+   "index": 6
+  }
+ },
+ {
+  "id": "IMF-a84092a4",
+  "skill": "IMF.simfold",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-11"
+  ],
+  "type": "mc",
+  "prompt": "<div>Which two side chains in this chain can form a salt bridge?</div>",
+  "answer": "Lys (–NH₃⁺) and Asp (–COO⁻)",
+  "hint": "Heat breaks attractions (hydrogen bonds, salt bridges, hydrophobic contacts). Covalent bonds stay.",
+  "explain": "Lysine’s side chain is positive and aspartic acid’s is negative. Opposite charges attract, which makes a salt bridge.",
+  "origin": "original",
+  "choices": [
+   "Lys (–NH₃⁺) and Asp (–COO⁻)",
+   "Leu and Val",
+   "The two Cys side chains"
+  ],
+  "why": [
+   "",
+   "Those are nonpolar and uncharged. They make hydrophobic contacts.",
+   "Two cysteines form a covalent disulfide bond, –S–S–."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:simfold",
+   "index": 7
   }
  },
  {
@@ -20946,19 +21175,19 @@
   "explain": "These are attractions between groups, so heat can shake them apart. The protein unfolds (denatures), but the chain itself stays in one piece.",
   "origin": "original",
   "choices": [
-   "The attractions: the hydrogen bond, the salt bridge and the hydrophobic contacts",
+   "Every link, including the disulfide bond",
    "The peptide bonds along the chain",
-   "Every link, including the disulfide bond"
+   "The attractions: the hydrogen bond, the salt bridge and the hydrophobic contacts"
   ],
   "why": [
-   "",
+   "A disulfide bond (–S–S–) is a real covalent bond between two cysteines. The other side-chain interactions are attractions, not shared electrons.",
    "Peptide bonds are covalent. Heating unfolds the protein without cutting the chain. Boiling pulls whole molecules apart from each other . No covalent bond breaks: the steam is still H₂O.",
-   "A disulfide bond (–S–S–) is a real covalent bond between two cysteines. The other side-chain interactions are attractions, not shared electrons."
+   ""
   ],
   "from": {
    "game": "IMF",
    "list": "sample:simfold",
-   "index": 5
+   "index": 8
   }
  }
 ]
