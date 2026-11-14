@@ -798,7 +798,7 @@
   }
  },
  {
-  "id": "IMF-8b266a96",
+  "id": "IMF-91bc8ea1",
   "skill": "IMF.hbond",
   "courses": [
    "3A",
@@ -813,26 +813,129 @@
   ],
   "type": "mc",
   "prompt": "<div>Which of these can form hydrogen bonds between <b style=\"font-weight:900\">its own molecules</b>?</div>",
-  "answer": "CH₃OH",
+  "answer": "CH₃CH₂OH",
   "hint": "Find the H atoms. What is each one attached to?",
-  "explain": "Only CH₃OH has H bonded directly to N, O or F.",
+  "explain": "Only CH₃CH₂OH has H bonded directly to N, O or F.",
   "origin": "original",
   "choices": [
-   "CH₃F",
-   "CH₃CH₃",
-   "CO₂",
-   "CH₃OH"
+   "H₂S",
+   "CH₂O",
+   "CCl₄",
+   "CH₃CH₂OH"
   ],
   "why": [
-   "CH₃F has F, but every H is bonded to carbon. With no F–H it cannot supply the H for a hydrogen bond.",
-   "In CH₃CH₃ every H is bonded to carbon.",
-   "CO₂ has no hydrogen at all.",
+   "In H₂S the H is bonded to S, which is not N, O or F.",
+   "CH₂O has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water).",
+   "CCl₄ has no hydrogen at all.",
    ""
   ],
   "from": {
    "game": "IMF",
    "list": "sample:hbond",
    "index": 0
+  }
+ },
+ {
+  "id": "IMF-517259ef",
+  "skill": "IMF.hbond",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-6"
+  ],
+  "type": "mc",
+  "prompt": "<div>Which of these can form hydrogen bonds between <b style=\"font-weight:900\">its own molecules</b>?</div>",
+  "answer": "NH₃",
+  "hint": "Find the H atoms. What is each one attached to?",
+  "explain": "Only NH₃ has H bonded directly to N, O or F.",
+  "origin": "original",
+  "choices": [
+   "CH₃OCH₃",
+   "CCl₄",
+   "CH₃F",
+   "NH₃"
+  ],
+  "why": [
+   "CH₃OCH₃ has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water).",
+   "CCl₄ has no hydrogen at all.",
+   "CH₃F has F, but every H is bonded to carbon. With no F–H it cannot supply the H for a hydrogen bond.",
+   ""
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:hbond",
+   "index": 1
+  }
+ },
+ {
+  "id": "IMF-c82756f8",
+  "skill": "IMF.hbond",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-6",
+   "1A-10"
+  ],
+  "type": "mc",
+  "prompt": "<div>Which of these can form hydrogen bonds between <b style=\"font-weight:900\">its own molecules</b>?</div>",
+  "answer": "H₂O",
+  "hint": "Find the H atoms. What is each one attached to?",
+  "explain": "Only H₂O has H bonded directly to N, O or F.",
+  "origin": "original",
+  "choices": [
+   "CH₃OCH₃",
+   "H₂O",
+   "CH₃CH₃",
+   "H₂S"
+  ],
+  "why": [
+   "CH₃OCH₃ has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water).",
+   "",
+   "In CH₃CH₃ every H is bonded to carbon.",
+   "In H₂S the H is bonded to S, which is not N, O or F."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:hbond",
+   "index": 2
+  }
+ },
+ {
+  "id": "IMF-a2b3a030",
+  "skill": "IMF.hbond",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-6",
+   "1A-10"
+  ],
+  "type": "mc",
+  "prompt": "<div>Which of these can form hydrogen bonds between <b style=\"font-weight:900\">its own molecules</b>?</div>",
+  "answer": "HF",
+  "hint": "Find the H atoms. What is each one attached to?",
+  "explain": "Only HF has H bonded directly to N, O or F.",
+  "origin": "original",
+  "choices": [
+   "CH₃OCH₃",
+   "HF",
+   "CH₃CH₃",
+   "CH₄"
+  ],
+  "why": [
+   "CH₃OCH₃ has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water).",
+   "",
+   "In CH₃CH₃ every H is bonded to carbon.",
+   "In CH₄ every H is bonded to carbon."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:hbond",
+   "index": 3
   }
  },
  {
@@ -856,124 +959,16 @@
   "explain": "Only CH₃NH₂ has H bonded directly to N, O or F.",
   "origin": "original",
   "choices": [
-   "CH₄",
-   "CH₃F",
    "CH₃NH₂",
-   "CH₃CH₃"
-  ],
-  "why": [
-   "In CH₄ every H is bonded to carbon.",
-   "CH₃F has F, but every H is bonded to carbon. With no F–H it cannot supply the H for a hydrogen bond.",
-   "",
-   "In CH₃CH₃ every H is bonded to carbon."
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:hbond",
-   "index": 1
-  }
- },
- {
-  "id": "IMF-517259ef",
-  "skill": "IMF.hbond",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-6",
-   "1A-10"
-  ],
-  "type": "mc",
-  "prompt": "<div>Which of these can form hydrogen bonds between <b style=\"font-weight:900\">its own molecules</b>?</div>",
-  "answer": "NH₃",
-  "hint": "Find the H atoms. What is each one attached to?",
-  "explain": "Only NH₃ has H bonded directly to N, O or F.",
-  "origin": "original",
-  "choices": [
    "CO₂",
-   "CCl₄",
-   "H₂S",
-   "NH₃"
-  ],
-  "why": [
-   "CO₂ has no hydrogen at all.",
-   "CCl₄ has no hydrogen at all.",
-   "In H₂S the H is bonded to S, which is not N, O or F.",
-   ""
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:hbond",
-   "index": 2
-  }
- },
- {
-  "id": "IMF-c82756f8",
-  "skill": "IMF.hbond",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-6",
-   "1A-10"
-  ],
-  "type": "mc",
-  "prompt": "<div>Which of these can form hydrogen bonds between <b style=\"font-weight:900\">its own molecules</b>?</div>",
-  "answer": "H₂O",
-  "hint": "Find the H atoms. What is each one attached to?",
-  "explain": "Only H₂O has H bonded directly to N, O or F.",
-  "origin": "original",
-  "choices": [
    "CH₃F",
-   "CCl₄",
-   "CH₂O",
-   "H₂O"
-  ],
-  "why": [
-   "CH₃F has F, but every H is bonded to carbon. With no F–H it cannot supply the H for a hydrogen bond.",
-   "CCl₄ has no hydrogen at all.",
-   "CH₂O has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water).",
-   ""
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:hbond",
-   "index": 3
-  }
- },
- {
-  "id": "IMF-91bc8ea1",
-  "skill": "IMF.hbond",
-  "courses": [
-   "3A",
-   "1A",
-   "3B"
-  ],
-  "chapters": [
-   "3A-6",
-   "1A-10",
-   "3B-2",
-   "3B-4"
-  ],
-  "type": "mc",
-  "prompt": "<div>Which of these can form hydrogen bonds between <b style=\"font-weight:900\">its own molecules</b>?</div>",
-  "answer": "CH₃CH₂OH",
-  "hint": "Find the H atoms. What is each one attached to?",
-  "explain": "Only CH₃CH₂OH has H bonded directly to N, O or F.",
-  "origin": "original",
-  "choices": [
-   "CH₃CH₂OH",
-   "CH₂O",
-   "CH₄",
-   "CH₃F"
+   "H₂S"
   ],
   "why": [
    "",
-   "CH₂O has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water).",
-   "In CH₄ every H is bonded to carbon.",
-   "CH₃F has F, but every H is bonded to carbon. With no F–H it cannot supply the H for a hydrogen bond."
+   "CO₂ has no hydrogen at all.",
+   "CH₃F has F, but every H is bonded to carbon. With no F–H it cannot supply the H for a hydrogen bond.",
+   "In H₂S the H is bonded to S, which is not N, O or F."
   ],
   "from": {
    "game": "IMF",
@@ -982,7 +977,7 @@
   }
  },
  {
-  "id": "IMF-a2b3a030",
+  "id": "IMF-8b266a96",
   "skill": "IMF.hbond",
   "courses": [
    "3A",
@@ -994,21 +989,21 @@
   ],
   "type": "mc",
   "prompt": "<div>Which of these can form hydrogen bonds between <b style=\"font-weight:900\">its own molecules</b>?</div>",
-  "answer": "HF",
+  "answer": "CH₃OH",
   "hint": "Find the H atoms. What is each one attached to?",
-  "explain": "Only HF has H bonded directly to N, O or F.",
+  "explain": "Only CH₃OH has H bonded directly to N, O or F.",
   "origin": "original",
   "choices": [
-   "CO₂",
+   "CH₃OH",
+   "CCl₄",
    "CH₄",
-   "CH₃F",
-   "HF"
+   "CH₃OCH₃"
   ],
   "why": [
-   "CO₂ has no hydrogen at all.",
+   "",
+   "CCl₄ has no hydrogen at all.",
    "In CH₄ every H is bonded to carbon.",
-   "CH₃F has F, but every H is bonded to carbon. With no F–H it cannot supply the H for a hydrogen bond.",
-   ""
+   "CH₃OCH₃ has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water)."
   ],
   "from": {
    "game": "IMF",
@@ -1577,12 +1572,10 @@
   "id": "IMF-3a16e12b",
   "skill": "IMF.forces",
   "courses": [
-   "3A",
-   "1A"
+   "3A"
   ],
   "chapters": [
-   "3A-6",
-   "1A-10"
+   "3A-6"
   ],
   "type": "mc",
   "prompt": "<div><div style=\"display:flex;margin:6px 0px 6px 0px;gap:10px 26px;flex-wrap:wrap;justify-content:center;align-items:flow-end\"><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><svg viewBox=\"-102 -102 328 204\" style=\"width:300px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:300px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Lewis structure of dimethyl ether\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15.0\" y1=\"0.0\" x2=\"47.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"77.0\" y1=\"0.0\" x2=\"109.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-47.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"-15.0\" x2=\"0.0\" y2=\"-47.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"15.0\" x2=\"0.0\" y2=\"47.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"124.0\" y1=\"-15.0\" x2=\"124.0\" y2=\"-47.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"124.0\" y1=\"15.0\" x2=\"124.0\" y2=\"47.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"139.0\" y1=\"0.0\" x2=\"171.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"57.8\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"66.2\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"66.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"57.8\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"62.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><text x=\"124.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"-62.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"-55.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"69.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"124.0\" y=\"-55.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"124.0\" y=\"69.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"186.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Dimethyl ether</b>, CH<sub style=\"font-size:10.64px;line-height:0px\">3</sub>OCH<sub style=\"font-size:10.64px;line-height:0px\">3</sub></figcaption></figure></div></div><div>So which forces act between dimethyl ether molecules?</div>",
@@ -1667,39 +1660,6 @@
   }
  },
  {
-  "id": "IMF-bd182988",
-  "skill": "IMF.forces",
-  "courses": [
-   "3A"
-  ],
-  "chapters": [
-   "3A-6"
-  ],
-  "type": "mc",
-  "prompt": "<div><div style=\"display:flex;margin:6px 0px 6px 0px;gap:10px 26px;flex-wrap:wrap;justify-content:center;align-items:flow-end\"><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><svg viewBox=\"-102 -102 204 204\" style=\"width:204px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:204px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Lewis structure of fluoromethane\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0.0\" y1=\"-15.0\" x2=\"0.0\" y2=\"-47.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"47.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"15.0\" x2=\"0.0\" y2=\"47.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-47.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"0.0\" y=\"-55.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><circle cx=\"66.2\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"57.8\" cy=\"-24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"86.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"86.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"57.8\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"66.2\" cy=\"24.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"62.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(35, 128, 79);font-size:21px;font-weight:700\">F</text><text x=\"0.0\" y=\"69.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-62.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Fluoromethane</b>, CH<sub style=\"font-size:10.64px;line-height:0px\">3</sub>F</figcaption></figure></div></div><div>So which forces act between fluoromethane molecules?</div>",
-  "answer": "Dispersion and dipole–dipole",
-  "hint": "Start with dispersion (everything has it), then add dipole–dipole if polar, then hydrogen bonding if H is on N, O or F.",
-  "explain": "Dispersion and dipole–dipole. Strongest type: dipole–dipole.",
-  "origin": "original",
-  "choices": [
-   "Dispersion only",
-   "Dispersion and dipole–dipole",
-   "Dispersion, dipole–dipole and hydrogen bonding",
-   "Dipole–dipole only"
-  ],
-  "why": [
-   "A polar molecule has a δ+ end and a δ− end, so its molecules also attract by dipole–dipole forces.",
-   "",
-   "Hydrogen bonding needs an H on N, O or F, and this molecule has none.",
-   "Every molecule has dispersion forces, because every molecule has electrons. Polar molecules have them too."
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:forces",
-   "index": 8
-  }
- },
- {
   "id": "IMF-acae7b52",
   "skill": "IMF.forces",
   "courses": [
@@ -1725,7 +1685,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 9
+   "index": 8
   }
  },
  {
@@ -1754,7 +1714,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 10
+   "index": 9
   }
  },
  {
@@ -1787,7 +1747,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 11
+   "index": 10
   }
  },
  {
@@ -1816,7 +1776,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 12
+   "index": 11
   }
  },
  {
@@ -1845,7 +1805,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 13
+   "index": 12
   }
  },
  {
@@ -1878,7 +1838,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 14
+   "index": 13
   }
  },
  {
@@ -1907,7 +1867,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 15
+   "index": 14
   }
  },
  {
@@ -1936,40 +1896,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 16
-  }
- },
- {
-  "id": "IMF-37b0e1fa",
-  "skill": "IMF.forces",
-  "courses": [
-   "3A"
-  ],
-  "chapters": [
-   "3A-6"
-  ],
-  "type": "mc",
-  "prompt": "<div><div style=\"display:flex;margin:6px 0px 6px 0px;gap:10px 26px;flex-wrap:wrap;justify-content:center;align-items:flow-end\"><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><svg viewBox=\"-40 -40 142 80\" style=\"width:142px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:142px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Lewis structure of chlorine\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"19.0\" y1=\"0.0\" x2=\"43.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><circle cx=\"-4.2\" cy=\"27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"4.2\" cy=\"27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-27.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-27.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"4.2\" cy=\"-27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-4.2\" cy=\"-27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(35, 128, 79);font-size:21px;font-weight:700\">Cl</text><circle cx=\"66.2\" cy=\"-27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"57.8\" cy=\"-27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"89.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"89.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"57.8\" cy=\"27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"66.2\" cy=\"27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"62.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(35, 128, 79);font-size:21px;font-weight:700\">Cl</text></svg><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Chlorine</b>, Cl<sub style=\"font-size:10.64px;line-height:0px\">2</sub></figcaption></figure></div></div><div>So which forces act between chlorine molecules?</div>",
-  "answer": "Dispersion only",
-  "hint": "Start with dispersion (everything has it), then add dipole–dipole if polar, then hydrogen bonding if H is on N, O or F.",
-  "explain": "Dispersion only. Strongest type: dispersion.",
-  "origin": "original",
-  "choices": [
-   "Dispersion only",
-   "Dispersion and dipole–dipole",
-   "Dispersion, dipole–dipole and hydrogen bonding",
-   "Dipole–dipole only"
-  ],
-  "why": [
-   "",
-   "It is nonpolar, so there is no dipole–dipole force. Two identical atoms share electrons equally, so there is no dipole.",
-   "Hydrogen bonding needs an H on N, O or F, and this molecule has none.",
-   "Every molecule has dispersion forces, because every molecule has electrons. Polar molecules have them too."
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:forces",
-   "index": 17
+   "index": 15
   }
  },
  {
@@ -1998,7 +1925,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 18
+   "index": 16
   }
  },
  {
@@ -2027,40 +1954,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 19
-  }
- },
- {
-  "id": "IMF-16c6ced2",
-  "skill": "IMF.forces",
-  "courses": [
-   "3A"
-  ],
-  "chapters": [
-   "3A-6"
-  ],
-  "type": "mc",
-  "prompt": "<div><div style=\"display:flex;margin:6px 0px 6px 0px;gap:10px 26px;flex-wrap:wrap;justify-content:center;align-items:flow-end\"><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><svg viewBox=\"-40 -40 142 80\" style=\"width:142px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:142px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Lewis structure of hydrogen chloride\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15.0\" y1=\"0.0\" x2=\"43.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><circle cx=\"66.2\" cy=\"-27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"57.8\" cy=\"-27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"89.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"89.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"57.8\" cy=\"27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"66.2\" cy=\"27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"62.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(35, 128, 79);font-size:21px;font-weight:700\">Cl</text></svg><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Hydrogen chloride</b>, HCl</figcaption></figure></div></div><div>So which forces act between hydrogen chloride molecules?</div>",
-  "answer": "Dispersion and dipole–dipole",
-  "hint": "Start with dispersion (everything has it), then add dipole–dipole if polar, then hydrogen bonding if H is on N, O or F.",
-  "explain": "Dispersion and dipole–dipole. Strongest type: dipole–dipole.",
-  "origin": "original",
-  "choices": [
-   "Dispersion only",
-   "Dispersion and dipole–dipole",
-   "Dispersion, dipole–dipole and hydrogen bonding",
-   "Dipole–dipole only"
-  ],
-  "why": [
-   "A polar molecule has a δ+ end and a δ− end, so its molecules also attract by dipole–dipole forces.",
-   "",
-   "Hydrogen bonding needs an H on N, O or F, and this molecule has none.",
-   "Every molecule has dispersion forces, because every molecule has electrons. Polar molecules have them too."
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:forces",
-   "index": 20
+   "index": 17
   }
  },
  {
@@ -2089,7 +1983,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 21
+   "index": 18
   }
  },
  {
@@ -2118,7 +2012,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 22
+   "index": 19
   }
  },
  {
@@ -2151,7 +2045,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 23
+   "index": 20
   }
  },
  {
@@ -2182,7 +2076,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 24
+   "index": 21
   }
  },
  {
@@ -2213,42 +2107,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 25
-  }
- },
- {
-  "id": "IMF-03507882",
-  "skill": "IMF.forces",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-6",
-   "1A-10"
-  ],
-  "type": "mc",
-  "prompt": "<div><div style=\"display:flex;margin:6px 0px 6px 0px;gap:10px 26px;flex-wrap:wrap;justify-content:center;align-items:flow-end\"><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><svg viewBox=\"-90 -40 179 117\" style=\"width:179px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:179px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Lewis structure of water\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-12.0\" y1=\"9.0\" x2=\"-37.6\" y2=\"28.2\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"12.0\" y1=\"9.0\" x2=\"37.6\" y2=\"28.2\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><circle cx=\"-13.0\" cy=\"-20.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-19.3\" cy=\"-14.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"19.3\" cy=\"-14.9\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"13.0\" cy=\"-20.6\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(194, 65, 45);font-size:21px;font-weight:700\">O</text><text x=\"-49.6\" y=\"44.2\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"49.6\" y=\"44.2\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Water</b>, H<sub style=\"font-size:10.64px;line-height:0px\">2</sub>O</figcaption></figure></div></div><div>So which forces act between water molecules?</div>",
-  "answer": "Dispersion, dipole–dipole and hydrogen bonding",
-  "hint": "Start with dispersion (everything has it), then add dipole–dipole if polar, then hydrogen bonding if H is on N, O or F.",
-  "explain": "Dispersion, dipole–dipole and hydrogen bonding. Strongest type: hydrogen bonding.",
-  "origin": "original",
-  "choices": [
-   "Dispersion only",
-   "Dispersion and dipole–dipole",
-   "Dispersion, dipole–dipole and hydrogen bonding",
-   "Dipole–dipole only"
-  ],
-  "why": [
-   "Look for an H bonded directly to N, O or F. This molecule has one, so it can hydrogen bond, which is stronger than ordinary dipole–dipole attraction.",
-   "Look for an H bonded directly to N, O or F. This molecule has one, so it can hydrogen bond, which is stronger than ordinary dipole–dipole attraction.",
-   "",
-   "Every molecule has dispersion forces, because every molecule has electrons. Polar molecules have them too."
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:forces",
-   "index": 26
+   "index": 22
   }
  },
  {
@@ -2279,7 +2138,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 27
+   "index": 23
   }
  },
  {
@@ -2310,7 +2169,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 28
+   "index": 24
   }
  },
  {
@@ -2345,7 +2204,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 29
+   "index": 25
   }
  },
  {
@@ -2374,7 +2233,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 30
+   "index": 26
   }
  },
  {
@@ -2403,7 +2262,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 31
+   "index": 27
   }
  },
  {
@@ -2436,7 +2295,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 32
+   "index": 28
   }
  },
  {
@@ -2465,7 +2324,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 33
+   "index": 29
   }
  },
  {
@@ -2494,40 +2353,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 34
-  }
- },
- {
-  "id": "IMF-198243aa",
-  "skill": "IMF.forces",
-  "courses": [
-   "3A"
-  ],
-  "chapters": [
-   "3A-6"
-  ],
-  "type": "mc",
-  "prompt": "<div><div style=\"display:flex;margin:6px 0px 6px 0px;gap:10px 26px;flex-wrap:wrap;justify-content:center;align-items:flow-end\"><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><svg viewBox=\"-102 -102 204 204\" style=\"width:204px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:204px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Lewis structure of methane\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0.0\" y1=\"-15.0\" x2=\"0.0\" y2=\"-47.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"47.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"15.0\" x2=\"0.0\" y2=\"47.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-47.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><text x=\"0.0\" y=\"-55.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"62.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"69.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"-62.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Methane</b>, CH<sub style=\"font-size:10.64px;line-height:0px\">4</sub></figcaption></figure></div></div><div>So which forces act between methane molecules?</div>",
-  "answer": "Dispersion only",
-  "hint": "Start with dispersion (everything has it), then add dipole–dipole if polar, then hydrogen bonding if H is on N, O or F.",
-  "explain": "Dispersion only. Strongest type: dispersion.",
-  "origin": "original",
-  "choices": [
-   "Dispersion only",
-   "Dispersion and dipole–dipole",
-   "Dispersion, dipole–dipole and hydrogen bonding",
-   "Dipole–dipole only"
-  ],
-  "why": [
-   "",
-   "It is nonpolar, so there is no dipole–dipole force. C–H bonds are nearly nonpolar, and the tetrahedral shape is symmetric.",
-   "Hydrogen bonding needs an H on N, O or F, and this molecule has none.",
-   "Every molecule has dispersion forces, because every molecule has electrons. Polar molecules have them too."
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:forces",
-   "index": 35
+   "index": 30
   }
  },
  {
@@ -3974,12 +3800,10 @@
   "id": "IMF-896fa019",
   "skill": "IMF.liquids",
   "courses": [
-   "3A",
-   "1A"
+   "3A"
   ],
   "chapters": [
-   "3A-7",
-   "1A-10"
+   "3A-7"
   ],
   "type": "mc",
   "prompt": "<div>Viscosity is…</div>",
@@ -3988,14 +3812,14 @@
   "explain": "Honey has a high viscosity. Water has a low one.",
   "origin": "original",
   "choices": [
-   "how much a liquid weighs",
    "a liquid’s resistance to flowing",
+   "how much a liquid weighs",
    "the skin-like pull at a liquid’s surface",
    "how easily a liquid evaporates"
   ],
   "why": [
-   "Viscosity is about flow, not mass.",
    "",
+   "Viscosity is about flow, not mass.",
    "That is surface tension.",
    "That is volatility (vapor pressure)."
   ],
@@ -4006,7 +3830,7 @@
   }
  },
  {
-  "id": "IMF-03fd09b4",
+  "id": "IMF-175d1824",
   "skill": "IMF.liquids",
   "courses": [
    "3A",
@@ -4017,22 +3841,22 @@
    "1A-10"
   ],
   "type": "mc",
-  "prompt": "<div>Why does warm maple syrup pour faster than cold syrup?</div>",
-  "answer": "Faster-moving molecules overcome their attractions more easily, so viscosity drops",
+  "prompt": "<div>Motor oil and gasoline are both mixtures of nonpolar hydrocarbons, but motor oil pours much more slowly. Why?</div>",
+  "answer": "Oil molecules are much longer, so their dispersion forces are stronger and the chains tangle",
   "hint": "Stronger attractions make a liquid harder to pull apart at the surface (surface tension), slower to flow (viscosity) and harder to evaporate (lower vapor pressure).",
-  "explain": "Heating lowers viscosity.",
+  "explain": "Gasoline molecules have about 5 to 12 carbons. Motor oil molecules have 20 or more, so a higher molar mass and stronger dispersion forces: a higher viscosity.",
   "origin": "original",
   "choices": [
-   "Heating makes the molecules smaller",
-   "Heating breaks the sugar molecules apart",
-   "Faster-moving molecules overcome their attractions more easily, so viscosity drops",
-   "Heating strengthens hydrogen bonds"
+   "Gasoline molecules are the bigger ones",
+   "Motor oil can hydrogen bond",
+   "Oil molecules are much longer, so their dispersion forces are stronger and the chains tangle",
+   "Motor oil is polar"
   ],
   "why": [
-   "Molecules do not change size. They move faster.",
-   "Warming syrup is a physical change. The molecules stay whole.",
+   "Gasoline molecules are the smaller ones, which is why gasoline also evaporates faster.",
+   "Hydrocarbons have every H on carbon. The H must be bonded directly to N, O or F . An H on carbon (or on Cl, S, P) does not hydrogen bond.",
    "",
-   "Stronger attractions would make it pour more slowly."
+   "Both are nonpolar hydrocarbons."
   ],
   "from": {
    "game": "IMF",
@@ -4059,53 +3883,20 @@
   "origin": "original",
   "choices": [
    "how thick a liquid is",
-   "the pressure of the gas above a liquid",
+   "the temperature where a liquid boils",
    "the pull of a liquid’s surface molecules inward, which makes the surface act like a stretched skin",
-   "the temperature where a liquid boils"
+   "the pressure of the gas above a liquid"
   ],
   "why": [
    "That is viscosity.",
-   "That is vapor pressure.",
+   "That is the boiling point.",
    "",
-   "That is the boiling point."
+   "That is vapor pressure."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:liquids",
    "index": 2
-  }
- },
- {
-  "id": "IMF-175d1824",
-  "skill": "IMF.liquids",
-  "courses": [
-   "3A"
-  ],
-  "chapters": [
-   "3A-7"
-  ],
-  "type": "mc",
-  "prompt": "<div>Motor oil and gasoline are both mixtures of nonpolar hydrocarbons, but motor oil pours much more slowly. Why?</div>",
-  "answer": "Oil molecules are much longer, so their dispersion forces are stronger and the chains tangle",
-  "hint": "Stronger attractions make a liquid harder to pull apart at the surface (surface tension), slower to flow (viscosity) and harder to evaporate (lower vapor pressure).",
-  "explain": "Gasoline molecules have about 5 to 12 carbons. Motor oil molecules have 20 or more, so a higher molar mass and stronger dispersion forces: a higher viscosity.",
-  "origin": "original",
-  "choices": [
-   "Gasoline molecules are the bigger ones",
-   "Oil molecules are much longer, so their dispersion forces are stronger and the chains tangle",
-   "Motor oil can hydrogen bond",
-   "Motor oil is polar"
-  ],
-  "why": [
-   "Gasoline molecules are the smaller ones, which is why gasoline also evaporates faster.",
-   "",
-   "Hydrocarbons have every H on carbon. The H must be bonded directly to N, O or F . An H on carbon (or on Cl, S, P) does not hydrogen bond.",
-   "Both are nonpolar hydrocarbons."
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:liquids",
-   "index": 3
   }
  },
  {
@@ -4127,20 +3918,187 @@
   "origin": "original",
   "choices": [
    "High boiling point and high vapor pressure",
-   "Low boiling point, low viscosity, low surface tension, high vapor pressure",
+   "High boiling point, high viscosity, high surface tension, low vapor pressure",
    "Low boiling point and high surface tension",
-   "High boiling point, high viscosity, high surface tension, low vapor pressure"
+   "Low boiling point, low viscosity, low surface tension, high vapor pressure"
   ],
   "why": [
    "Strong forces hold molecules in the liquid, so fewer escape: strong forces → low vapor pressure.",
-   "That describes a liquid with weak forces.",
+   "",
    "Strong forces raise the boiling point and the surface tension together.",
-   ""
+   "That describes a liquid with weak forces."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:liquids",
+   "index": 3
+  }
+ },
+ {
+  "id": "IMF-03fd09b4",
+  "skill": "IMF.liquids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "type": "mc",
+  "prompt": "<div>Why does warm maple syrup pour faster than cold syrup?</div>",
+  "answer": "Faster-moving molecules overcome their attractions more easily, so viscosity drops",
+  "hint": "Stronger attractions make a liquid harder to pull apart at the surface (surface tension), slower to flow (viscosity) and harder to evaporate (lower vapor pressure).",
+  "explain": "Heating lowers viscosity.",
+  "origin": "original",
+  "choices": [
+   "Heating strengthens hydrogen bonds",
+   "Heating makes the molecules smaller",
+   "Faster-moving molecules overcome their attractions more easily, so viscosity drops",
+   "Heating breaks the sugar molecules apart"
+  ],
+  "why": [
+   "Stronger attractions would make it pour more slowly.",
+   "Molecules do not change size. They move faster.",
+   "",
+   "Warming syrup is a physical change. The molecules stay whole."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:liquids",
    "index": 4
+  }
+ },
+ {
+  "id": "IMF-7f2e57a2",
+  "skill": "IMF.liquids",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-7"
+  ],
+  "type": "mc",
+  "prompt": "<div>Water climbs up a thin glass tube, and up a paper towel, against gravity. What is this called, and why does it happen?</div>",
+  "answer": "Capillary action: water is attracted to the polar glass or paper, and it pulls more water along behind it",
+  "hint": "Stronger attractions make a liquid harder to pull apart at the surface (surface tension), slower to flow (viscosity) and harder to evaporate (lower vapor pressure).",
+  "explain": "Water hydrogen bonds to the O–H groups on glass and on paper (cellulose), and to itself, so the liquid is drawn upward.",
+  "origin": "original",
+  "choices": [
+   "Capillary action: water is attracted to the polar glass or paper, and it pulls more water along behind it",
+   "Viscosity: thick liquids climb",
+   "Osmosis: water is moving toward more solute",
+   "Evaporation: the water turns to gas and rises"
+  ],
+  "why": [
+   "",
+   "Viscosity resists flow. The climb comes from attraction to the walls of the tube.",
+   "Osmosis is water crossing a membrane. Climbing a narrow tube is capillary action.",
+   "The water stays liquid as it climbs. This is capillary action."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:liquids",
+   "index": 5
+  }
+ },
+ {
+  "id": "IMF-1db4333e",
+  "skill": "IMF.liquids",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-7"
+  ],
+  "type": "mc",
+  "prompt": "<div>Which liquid should have the higher surface tension: water or hexane (C₆H₁₄)?</div>",
+  "answer": "Water",
+  "hint": "Stronger attractions make a liquid harder to pull apart at the surface (surface tension), slower to flow (viscosity) and harder to evaporate (lower vapor pressure).",
+  "explain": "Water molecules hydrogen bond to each other, so the surface is hard to stretch: 72 mN/m. Hexane has dispersion forces only, and its surface tension is about a quarter of that.",
+  "origin": "original",
+  "choices": [
+   "Hexane",
+   "They are the same",
+   "Water"
+  ],
+  "why": [
+   "Hexane has dispersion forces only. Weaker attractions give a lower surface tension.",
+   "Surface tension follows the strength of the attractions, and water’s hydrogen bonds are much stronger.",
+   ""
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:liquids",
+   "index": 6
+  }
+ },
+ {
+  "id": "IMF-98f6da94",
+  "skill": "IMF.liquids",
+  "courses": [
+   "3A"
+  ],
+  "chapters": [
+   "3A-7"
+  ],
+  "type": "mc",
+  "prompt": "<div>A water strider can stand on a pond. Which property of water makes that possible?</div>",
+  "answer": "High surface tension, from hydrogen bonding",
+  "hint": "Stronger attractions make a liquid harder to pull apart at the surface (surface tension), slower to flow (viscosity) and harder to evaporate (lower vapor pressure).",
+  "explain": "The hydrogen-bonded surface resists being stretched or broken.",
+  "origin": "original",
+  "choices": [
+   "Its covalent O–H bonds",
+   "High surface tension, from hydrogen bonding",
+   "High vapor pressure",
+   "Low viscosity"
+  ],
+  "why": [
+   "Bonds inside a molecule do not hold neighboring molecules together. Hydrogen bonds between molecules do.",
+   "",
+   "Water’s vapor pressure is low for its size, and it does not hold insects up.",
+   "Viscosity is about flow. The “skin” effect is surface tension."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:liquids",
+   "index": 7
+  }
+ },
+ {
+  "id": "IMF-09f9968b",
+  "skill": "IMF.liquids",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-7",
+   "1A-10"
+  ],
+  "type": "mc",
+  "prompt": "<div>Drops of water pile up into a dome on a penny before they spill over. Which property of water is this?</div>",
+  "answer": "Surface tension",
+  "hint": "Stronger attractions make a liquid harder to pull apart at the surface (surface tension), slower to flow (viscosity) and harder to evaporate (lower vapor pressure).",
+  "explain": "Water molecules at the surface are pulled inward by hydrogen bonds, so the surface acts like a stretched skin that holds the dome together.",
+  "origin": "original",
+  "choices": [
+   "Vapor pressure",
+   "Boiling point",
+   "Surface tension",
+   "Viscosity"
+  ],
+  "why": [
+   "Vapor pressure is about molecules escaping into the gas. The dome is held by surface tension.",
+   "Nothing is boiling. The dome is held by surface tension.",
+   "",
+   "Viscosity is resistance to flowing. The dome is held by the pull at the surface."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:liquids",
+   "index": 8
   }
  },
  {
@@ -4162,53 +4120,20 @@
   "origin": "original",
   "choices": [
    "Water has a low surface tension",
-   "Water molecules attract each other much more than they attract the nonpolar wax",
    "The water reacts with the wax",
-   "Wax is polar and pushes the water away"
+   "Wax is polar and pushes the water away",
+   "Water molecules attract each other much more than they attract the nonpolar wax"
   ],
   "why": [
    "It is the reverse: water’s high surface tension is what pulls it into beads.",
-   "",
    "Nothing reacts. Beading is a physical effect of the attractions between water molecules.",
-   "Wax is nonpolar. Water simply attracts other water molecules more than it attracts wax."
+   "Wax is nonpolar. Water simply attracts other water molecules more than it attracts wax.",
+   ""
   ],
   "from": {
    "game": "IMF",
    "list": "sample:liquids",
-   "index": 5
-  }
- },
- {
-  "id": "IMF-98f6da94",
-  "skill": "IMF.liquids",
-  "courses": [
-   "3A"
-  ],
-  "chapters": [
-   "3A-7"
-  ],
-  "type": "mc",
-  "prompt": "<div>A water strider can stand on a pond. Which property of water makes that possible?</div>",
-  "answer": "High surface tension, from hydrogen bonding",
-  "hint": "Stronger attractions make a liquid harder to pull apart at the surface (surface tension), slower to flow (viscosity) and harder to evaporate (lower vapor pressure).",
-  "explain": "The hydrogen-bonded surface resists being stretched or broken.",
-  "origin": "original",
-  "choices": [
-   "High vapor pressure",
-   "High surface tension, from hydrogen bonding",
-   "Its covalent O–H bonds",
-   "Low viscosity"
-  ],
-  "why": [
-   "Water’s vapor pressure is low for its size, and it does not hold insects up.",
-   "",
-   "Bonds inside a molecule do not hold neighboring molecules together. Hydrogen bonds between molecules do.",
-   "Viscosity is about flow. The “skin” effect is surface tension."
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:liquids",
-   "index": 6
+   "index": 9
   }
  },
  {
@@ -8873,39 +8798,6 @@
   }
  },
  {
-  "id": "IMF-592bd9de",
-  "skill": "IMF.hbond",
-  "courses": [
-   "1A"
-  ],
-  "chapters": [
-   "1A-10"
-  ],
-  "type": "mc",
-  "prompt": "<div>Which of these can form hydrogen bonds between <b style=\"font-weight:900\">its own molecules</b>?</div>",
-  "answer": "H₂O₂",
-  "hint": "Find the H atoms. What is each one attached to?",
-  "explain": "Only H₂O₂ has H bonded directly to N, O or F.",
-  "origin": "original",
-  "choices": [
-   "CH₃COCH₃",
-   "CH₃F",
-   "H₂S",
-   "H₂O₂"
-  ],
-  "why": [
-   "CH₃COCH₃ has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water).",
-   "CH₃F has F, but every H is bonded to carbon. With no F–H it cannot supply the H for a hydrogen bond.",
-   "In H₂S the H is bonded to S, which is not N, O or F.",
-   ""
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:hbond",
-   "index": 6
-  }
- },
- {
   "id": "IMF-ee5300ac",
   "skill": "IMF.hbond",
   "courses": [
@@ -8926,19 +8818,19 @@
   "choices": [
    "CH₃COOH",
    "H₂S",
-   "CHCl₃",
-   "CH₄"
+   "CH₃COCH₃",
+   "HCN"
   ],
   "why": [
    "",
    "In H₂S the H is bonded to S, which is not N, O or F.",
-   "In CHCl₃ every H is bonded to carbon.",
-   "In CH₄ every H is bonded to carbon."
+   "CH₃COCH₃ has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water).",
+   "HCN has N, but every H is bonded to carbon. With no N–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water)."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:hbond",
-   "index": 7
+   "index": 6
   }
  },
  {
@@ -8957,21 +8849,21 @@
   "explain": "Only N₂H₄ has H bonded directly to N, O or F.",
   "origin": "original",
   "choices": [
-   "PH₃",
-   "CH₃F",
-   "CH₃OCH₃",
+   "HCN",
+   "H₂S",
+   "CH₃COCH₃",
    "N₂H₄"
   ],
   "why": [
-   "In PH₃ the H is bonded to P, which is not N, O or F.",
-   "CH₃F has F, but every H is bonded to carbon. With no F–H it cannot supply the H for a hydrogen bond.",
-   "CH₃OCH₃ has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water).",
+   "HCN has N, but every H is bonded to carbon. With no N–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water).",
+   "In H₂S the H is bonded to S, which is not N, O or F.",
+   "CH₃COCH₃ has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water).",
    ""
   ],
   "from": {
    "game": "IMF",
    "list": "sample:hbond",
-   "index": 8
+   "index": 7
   }
  },
  {
@@ -9264,7 +9156,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 36
+   "index": 31
   }
  },
  {
@@ -9293,7 +9185,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 37
+   "index": 32
   }
  },
  {
@@ -9326,7 +9218,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 38
+   "index": 33
   }
  },
  {
@@ -9355,7 +9247,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 39
+   "index": 34
   }
  },
  {
@@ -9384,40 +9276,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 40
-  }
- },
- {
-  "id": "IMF-48ee61ea",
-  "skill": "IMF.forces",
-  "courses": [
-   "1A"
-  ],
-  "chapters": [
-   "1A-10"
-  ],
-  "type": "mc",
-  "prompt": "<div><div style=\"display:flex;margin:6px 0px 6px 0px;gap:10px 26px;flex-wrap:wrap;justify-content:center;align-items:flow-end\"><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><svg viewBox=\"-102 -102 204 204\" style=\"width:204px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:204px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Lewis structure of methylamine\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15.0\" y1=\"0.0\" x2=\"47.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"-15.0\" y1=\"0.0\" x2=\"-47.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"-15.0\" x2=\"0.0\" y2=\"-47.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"0.0\" y1=\"15.0\" x2=\"0.0\" y2=\"47.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"62.0\" y1=\"-15.0\" x2=\"62.0\" y2=\"-47.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"62.0\" y1=\"15.0\" x2=\"62.0\" y2=\"47.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"86.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"86.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"62.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text><text x=\"-62.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"-55.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"69.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"62.0\" y=\"-55.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"62.0\" y=\"69.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text></svg><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Methylamine</b>, CH<sub style=\"font-size:10.64px;line-height:0px\">3</sub>NH<sub style=\"font-size:10.64px;line-height:0px\">2</sub></figcaption></figure></div></div><div>So which forces act between methylamine molecules?</div>",
-  "answer": "Dispersion, dipole–dipole and hydrogen bonding",
-  "hint": "Start with dispersion (everything has it), then add dipole–dipole if polar, then hydrogen bonding if H is on N, O or F.",
-  "explain": "Dispersion, dipole–dipole and hydrogen bonding. Strongest type: hydrogen bonding.",
-  "origin": "original",
-  "choices": [
-   "Dispersion only",
-   "Dispersion and dipole–dipole",
-   "Dispersion, dipole–dipole and hydrogen bonding",
-   "Dipole–dipole only"
-  ],
-  "why": [
-   "Look for an H bonded directly to N, O or F. This molecule has one, so it can hydrogen bond, which is stronger than ordinary dipole–dipole attraction.",
-   "Look for an H bonded directly to N, O or F. This molecule has one, so it can hydrogen bond, which is stronger than ordinary dipole–dipole attraction.",
-   "",
-   "Every molecule has dispersion forces, because every molecule has electrons. Polar molecules have them too."
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:forces",
-   "index": 41
+   "index": 35
   }
  },
  {
@@ -9446,7 +9305,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 42
+   "index": 36
   }
  },
  {
@@ -9475,7 +9334,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 43
+   "index": 37
   }
  },
  {
@@ -9508,7 +9367,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 44
+   "index": 38
   }
  },
  {
@@ -9537,7 +9396,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 45
+   "index": 39
   }
  },
  {
@@ -9566,40 +9425,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 46
-  }
- },
- {
-  "id": "IMF-a60a3002",
-  "skill": "IMF.forces",
-  "courses": [
-   "1A"
-  ],
-  "chapters": [
-   "1A-10"
-  ],
-  "type": "mc",
-  "prompt": "<div><div style=\"display:flex;margin:6px 0px 6px 0px;gap:10px 26px;flex-wrap:wrap;justify-content:center;align-items:flow-end\"><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><svg viewBox=\"-102 -40 204 80\" style=\"width:204px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:204px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Lewis structure of hydrogen cyanide\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"-47.0\" y1=\"0.0\" x2=\"-15.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"-6.5\" x2=\"47.0\" y2=\"-6.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"0.0\" x2=\"47.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"15.0\" y1=\"6.5\" x2=\"47.0\" y2=\"6.5\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"-62.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(31, 42, 68);font-size:21px;font-weight:700\">C</text><circle cx=\"86.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"86.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"62.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(47, 95, 196);font-size:21px;font-weight:700\">N</text></svg><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Hydrogen cyanide</b>, HCN</figcaption></figure></div></div><div>So which forces act between hydrogen cyanide molecules?</div>",
-  "answer": "Dispersion and dipole–dipole",
-  "hint": "Start with dispersion (everything has it), then add dipole–dipole if polar, then hydrogen bonding if H is on N, O or F.",
-  "explain": "Dispersion and dipole–dipole. Strongest type: dipole–dipole.",
-  "origin": "original",
-  "choices": [
-   "Dispersion only",
-   "Dispersion and dipole–dipole",
-   "Dispersion, dipole–dipole and hydrogen bonding",
-   "Dipole–dipole only"
-  ],
-  "why": [
-   "A polar molecule has a δ+ end and a δ− end, so its molecules also attract by dipole–dipole forces.",
-   "",
-   "Hydrogen bonding needs an H on N, O or F, and this molecule has none.",
-   "Every molecule has dispersion forces, because every molecule has electrons. Polar molecules have them too."
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:forces",
-   "index": 47
+   "index": 40
   }
  },
  {
@@ -9628,7 +9454,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 48
+   "index": 41
   }
  },
  {
@@ -9657,7 +9483,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 49
+   "index": 42
   }
  },
  {
@@ -9690,7 +9516,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 50
+   "index": 43
   }
  },
  {
@@ -9719,7 +9545,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 51
+   "index": 44
   }
  },
  {
@@ -9748,40 +9574,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 52
-  }
- },
- {
-  "id": "IMF-f82d4c03",
-  "skill": "IMF.forces",
-  "courses": [
-   "1A"
-  ],
-  "chapters": [
-   "1A-10"
-  ],
-  "type": "mc",
-  "prompt": "<div><div style=\"display:flex;margin:6px 0px 6px 0px;gap:10px 26px;flex-wrap:wrap;justify-content:center;align-items:flow-end\"><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><svg viewBox=\"-40 -40 142 80\" style=\"width:142px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:142px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Lewis structure of hydrogen bromide\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15.0\" y1=\"0.0\" x2=\"43.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(85, 96, 122);font-size:21px;font-weight:700\">H</text><circle cx=\"66.2\" cy=\"-27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"57.8\" cy=\"-27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"89.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"89.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"57.8\" cy=\"27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"66.2\" cy=\"27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"62.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(138, 59, 18);font-size:21px;font-weight:700\">Br</text></svg><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Hydrogen bromide</b>, HBr</figcaption></figure></div></div><div>So which forces act between hydrogen bromide molecules?</div>",
-  "answer": "Dispersion and dipole–dipole",
-  "hint": "Start with dispersion (everything has it), then add dipole–dipole if polar, then hydrogen bonding if H is on N, O or F.",
-  "explain": "Dispersion and dipole–dipole. Strongest type: dipole–dipole.",
-  "origin": "original",
-  "choices": [
-   "Dispersion only",
-   "Dispersion and dipole–dipole",
-   "Dispersion, dipole–dipole and hydrogen bonding",
-   "Dipole–dipole only"
-  ],
-  "why": [
-   "A polar molecule has a δ+ end and a δ− end, so its molecules also attract by dipole–dipole forces.",
-   "",
-   "Hydrogen bonding needs an H on N, O or F, and this molecule has none.",
-   "Every molecule has dispersion forces, because every molecule has electrons. Polar molecules have them too."
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:forces",
-   "index": 53
+   "index": 45
   }
  },
  {
@@ -9810,7 +9603,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 54
+   "index": 46
   }
  },
  {
@@ -9839,40 +9632,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 55
-  }
- },
- {
-  "id": "IMF-305d5cc7",
-  "skill": "IMF.forces",
-  "courses": [
-   "1A"
-  ],
-  "chapters": [
-   "1A-10"
-  ],
-  "type": "mc",
-  "prompt": "<div><div style=\"display:flex;margin:6px 0px 6px 0px;gap:10px 26px;flex-wrap:wrap;justify-content:center;align-items:flow-end\"><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><svg viewBox=\"-40 -40 142 80\" style=\"width:142px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:142px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Lewis structure of bromine\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"19.0\" y1=\"0.0\" x2=\"43.0\" y2=\"0.0\" stroke=\"#3d4a73\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><circle cx=\"-4.2\" cy=\"27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"4.2\" cy=\"27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-27.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-27.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"4.2\" cy=\"-27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"-4.2\" cy=\"-27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"0.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(138, 59, 18);font-size:21px;font-weight:700\">Br</text><circle cx=\"66.2\" cy=\"-27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"57.8\" cy=\"-27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"89.0\" cy=\"4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"89.0\" cy=\"-4.2\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"57.8\" cy=\"27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><circle cx=\"66.2\" cy=\"27.0\" r=\"2.7\" fill=\"#1f2a44\"></circle><text x=\"62.0\" y=\"7.0\" text-anchor=\"middle\" style=\"fill:rgb(138, 59, 18);font-size:21px;font-weight:700\">Br</text></svg><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Bromine</b>, Br<sub style=\"font-size:10.64px;line-height:0px\">2</sub></figcaption></figure></div></div><div>So which forces act between bromine molecules?</div>",
-  "answer": "Dispersion only",
-  "hint": "Start with dispersion (everything has it), then add dipole–dipole if polar, then hydrogen bonding if H is on N, O or F.",
-  "explain": "Dispersion only. Strongest type: dispersion.",
-  "origin": "original",
-  "choices": [
-   "Dispersion only",
-   "Dispersion and dipole–dipole",
-   "Dispersion, dipole–dipole and hydrogen bonding",
-   "Dipole–dipole only"
-  ],
-  "why": [
-   "",
-   "It is nonpolar, so there is no dipole–dipole force. Two identical atoms share electrons equally, so there is no dipole.",
-   "Hydrogen bonding needs an H on N, O or F, and this molecule has none.",
-   "Every molecule has dispersion forces, because every molecule has electrons. Polar molecules have them too."
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:forces",
-   "index": 56
+   "index": 47
   }
  },
  {
@@ -9901,7 +9661,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 57
+   "index": 48
   }
  },
  {
@@ -9930,7 +9690,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 58
+   "index": 49
   }
  },
  {
@@ -9963,7 +9723,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 59
+   "index": 50
   }
  },
  {
@@ -9992,7 +9752,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 60
+   "index": 51
   }
  },
  {
@@ -10021,7 +9781,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 61
+   "index": 52
   }
  },
  {
@@ -10054,7 +9814,7 @@
   "from": {
    "game": "IMF",
    "list": "sample:forces",
-   "index": 62
+   "index": 53
   }
  },
  {
@@ -10073,16 +9833,16 @@
   "explain": "The positive ion attracts the δ− oxygen end of each polar water molecule.",
   "origin": "original",
   "choices": [
-   "Ion–dipole",
    "Ionic bonding",
    "Hydrogen bonding",
-   "Dispersion"
+   "Dispersion",
+   "Ion–dipole"
   ],
   "why": [
-   "",
    "Water is a molecule, not an ion. Ion plus polar molecule = ion–dipole.",
    "Na⁺ has no lone pair on N, O or F and no H. An ion attracted to a polar molecule is ion–dipole.",
-   "Dispersion is present but much weaker than the pull of a full charge on a dipole."
+   "Dispersion is present but much weaker than the pull of a full charge on a dipole.",
+   ""
   ],
   "from": {
    "game": "IMF",
@@ -10091,7 +9851,7 @@
   }
  },
  {
-  "id": "IMF-05db7d10",
+  "id": "IMF-73be23a0",
   "skill": "IMF.iondipole",
   "courses": [
    "1A"
@@ -10100,27 +9860,60 @@
    "1A-10"
   ],
   "type": "mc",
-  "prompt": "<div>Which pair is held together by an ion–dipole attraction?</div>",
-  "answer": "K⁺ and H₂O",
-  "hint": "Ion–dipole needs one ion and one polar molecule.",
-  "explain": "An ion (K⁺) and a polar molecule (H₂O): ion–dipole.",
+  "prompt": "<div>Which liquid should dissolve the most NaCl?</div>",
+  "answer": "Water, H₂O",
+  "hint": "Which one is polar enough to attract ions?",
+  "explain": "Water is very polar, so it forms strong ion–dipole attractions with Na⁺ and Cl⁻.",
   "origin": "original",
   "choices": [
-   "K⁺ and H₂O",
-   "H₂O and H₂O",
-   "CH₄ and CH₄",
-   "Na⁺ and Cl⁻ in a salt crystal"
+   "Carbon tetrachloride, CCl₄",
+   "Hexane, C₆H₁₄",
+   "Water, H₂O",
+   "Octane, C₈H₁₈"
   ],
   "why": [
+   "CCl₄ is nonpolar: its four bond dipoles cancel. It cannot pull ions out of the crystal.",
+   "Hexane is nonpolar. It has no partial charges to attract the ions.",
    "",
-   "Two water molecules attract by hydrogen bonding. Neither one is an ion.",
-   "Two nonpolar molecules attract by dispersion forces only.",
-   "Two ions attract by ionic bonding. Ion–dipole needs a polar molecule as the partner."
+   "Octane is nonpolar. It has no partial charges to attract the ions."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:iondipole",
    "index": 1
+  }
+ },
+ {
+  "id": "IMF-6598ebea",
+  "skill": "IMF.iondipole",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-10"
+  ],
+  "type": "mc",
+  "prompt": "<div>For particles of similar size, which attraction is strongest?</div>",
+  "answer": "Ion–dipole",
+  "hint": "An ion has a full charge. It attracts the oppositely charged end of a polar molecule: δ− toward positive ions, δ+ toward negative ions.",
+  "explain": "A full charge on an ion pulls harder on a dipole than two partial charges pull on each other.",
+  "origin": "original",
+  "choices": [
+   "Hydrogen bonding",
+   "Dipole–dipole",
+   "Dispersion",
+   "Ion–dipole"
+  ],
+  "why": [
+   "Hydrogen bonds are strong for a molecule-to-molecule force, but a full ionic charge pulls harder.",
+   "Partial charges attract less than a full charge does.",
+   "For similar sizes, dispersion is the weakest on the ladder.",
+   ""
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:iondipole",
+   "index": 2
   }
  },
  {
@@ -10139,83 +9932,19 @@
   "explain": "δ+ hydrogens face the negative ion.",
   "origin": "original",
   "choices": [
-   "The hydrogen end (δ+)",
    "The oxygen end (δ−)",
+   "The hydrogen end (δ+)",
    "Either end, at random"
   ],
   "why": [
-   "",
    "δ− oxygen is repelled by a negative ion. Oxygen faces positive ions like Na⁺.",
+   "",
    "Water molecules line up around an ion: δ− toward cations, δ+ toward anions."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:iondipole",
-   "index": 2
-  }
- },
- {
-  "id": "IMF-3a1234e6",
-  "skill": "IMF.iondipole",
-  "courses": [
-   "1A"
-  ],
-  "chapters": [
-   "1A-10"
-  ],
-  "type": "mc",
-  "prompt": "<div>Which end of a water molecule points toward a dissolved Na⁺ ion?</div>",
-  "answer": "The oxygen end (δ−)",
-  "hint": "An ion has a full charge. It attracts the oppositely charged end of a polar molecule: δ− toward positive ions, δ+ toward negative ions.",
-  "explain": "Opposites attract: δ− oxygen (with its lone pairs) faces the positive ion.",
-  "origin": "original",
-  "choices": [
-   "Either end, at random",
-   "The hydrogen end (δ+)",
-   "The oxygen end (δ−)"
-  ],
-  "why": [
-   "Water molecules line up around an ion: δ− toward cations, δ+ toward anions.",
-   "δ+ hydrogens are repelled by a positive ion. They face negative ions like Cl⁻.",
-   ""
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:iondipole",
    "index": 3
-  }
- },
- {
-  "id": "IMF-d77decda",
-  "skill": "IMF.iondipole",
-  "courses": [
-   "1A"
-  ],
-  "chapters": [
-   "1A-10"
-  ],
-  "type": "mc",
-  "prompt": "<div>KBr dissolves in water but not in hexane (C₆H₁₄). Why?</div>",
-  "answer": "Water is polar and can form ion–dipole attractions; nonpolar hexane cannot",
-  "hint": "An ion has a full charge. It attracts the oppositely charged end of a polar molecule: δ− toward positive ions, δ+ toward negative ions.",
-  "explain": "Ion–dipole attractions with water pay for pulling the ions apart. Hexane has only weak dispersion forces to offer.",
-  "origin": "original",
-  "choices": [
-   "Water breaks the covalent bonds in KBr",
-   "Water is polar and can form ion–dipole attractions; nonpolar hexane cannot",
-   "Hexane molecules are too small to fit between the ions",
-   "KBr is nonpolar, like hexane"
-  ],
-  "why": [
-   "KBr is ionic: it has no covalent bonds between K and Br. Water separates the ions.",
-   "",
-   "Hexane is much bigger than water. The problem is that hexane is nonpolar.",
-   "KBr is ionic, the opposite extreme from nonpolar."
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:iondipole",
-   "index": 4
   }
  },
  {
@@ -10246,11 +9975,11 @@
   "from": {
    "game": "IMF",
    "list": "sample:iondipole",
-   "index": 5
+   "index": 4
   }
  },
  {
-  "id": "IMF-6598ebea",
+  "id": "IMF-05db7d10",
   "skill": "IMF.iondipole",
   "courses": [
    "1A"
@@ -10259,27 +9988,157 @@
    "1A-10"
   ],
   "type": "mc",
-  "prompt": "<div>For particles of similar size, which attraction is strongest?</div>",
-  "answer": "Ion–dipole",
-  "hint": "An ion has a full charge. It attracts the oppositely charged end of a polar molecule: δ− toward positive ions, δ+ toward negative ions.",
-  "explain": "A full charge on an ion pulls harder on a dipole than two partial charges pull on each other.",
+  "prompt": "<div>Which pair is held together by an ion–dipole attraction?</div>",
+  "answer": "K⁺ and H₂O",
+  "hint": "Ion–dipole needs one ion and one polar molecule.",
+  "explain": "An ion (K⁺) and a polar molecule (H₂O): ion–dipole.",
   "origin": "original",
   "choices": [
-   "Dispersion",
-   "Ion–dipole",
-   "Dipole–dipole",
-   "Hydrogen bonding"
+   "K⁺ and H₂O",
+   "Na⁺ and Cl⁻ in a salt crystal",
+   "CH₄ and CH₄",
+   "H₂O and H₂O"
   ],
   "why": [
-   "For similar sizes, dispersion is the weakest on the ladder.",
    "",
-   "Partial charges attract less than a full charge does.",
-   "Hydrogen bonds are strong for a molecule-to-molecule force, but a full ionic charge pulls harder."
+   "Two ions attract by ionic bonding. Ion–dipole needs a polar molecule as the partner.",
+   "Two nonpolar molecules attract by dispersion forces only.",
+   "Two water molecules attract by hydrogen bonding. Neither one is an ion."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:iondipole",
+   "index": 5
+  }
+ },
+ {
+  "id": "IMF-d77decda",
+  "skill": "IMF.iondipole",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-10"
+  ],
+  "type": "mc",
+  "prompt": "<div>KBr dissolves in water but not in hexane (C₆H₁₄). Why?</div>",
+  "answer": "Water is polar and can form ion–dipole attractions; nonpolar hexane cannot",
+  "hint": "An ion has a full charge. It attracts the oppositely charged end of a polar molecule: δ− toward positive ions, δ+ toward negative ions.",
+  "explain": "Ion–dipole attractions with water pay for pulling the ions apart. Hexane has only weak dispersion forces to offer.",
+  "origin": "original",
+  "choices": [
+   "KBr is nonpolar, like hexane",
+   "Water breaks the covalent bonds in KBr",
+   "Hexane molecules are too small to fit between the ions",
+   "Water is polar and can form ion–dipole attractions; nonpolar hexane cannot"
+  ],
+  "why": [
+   "KBr is ionic, the opposite extreme from nonpolar.",
+   "KBr is ionic: it has no covalent bonds between K and Br. Water separates the ions.",
+   "Hexane is much bigger than water. The problem is that hexane is nonpolar.",
+   ""
   ],
   "from": {
    "game": "IMF",
    "list": "sample:iondipole",
    "index": 6
+  }
+ },
+ {
+  "id": "IMF-3a1234e6",
+  "skill": "IMF.iondipole",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-10"
+  ],
+  "type": "mc",
+  "prompt": "<div>Which end of a water molecule points toward a dissolved Na⁺ ion?</div>",
+  "answer": "The oxygen end (δ−)",
+  "hint": "An ion has a full charge. It attracts the oppositely charged end of a polar molecule: δ− toward positive ions, δ+ toward negative ions.",
+  "explain": "Opposites attract: δ− oxygen (with its lone pairs) faces the positive ion.",
+  "origin": "original",
+  "choices": [
+   "The oxygen end (δ−)",
+   "Either end, at random",
+   "The hydrogen end (δ+)"
+  ],
+  "why": [
+   "",
+   "Water molecules line up around an ion: δ− toward cations, δ+ toward anions.",
+   "δ+ hydrogens are repelled by a positive ion. They face negative ions like Cl⁻."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:iondipole",
+   "index": 7
+  }
+ },
+ {
+  "id": "IMF-9a56eab8",
+  "skill": "IMF.iondipole",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-10"
+  ],
+  "type": "mc",
+  "prompt": "<div>When NaCl dissolves, each ion ends up surrounded by a shell of water molecules. What is this called?</div>",
+  "answer": "Hydration (solvation)",
+  "hint": "An ion has a full charge. It attracts the oppositely charged end of a polar molecule: δ− toward positive ions, δ+ toward negative ions.",
+  "explain": "Water molecules crowd around each ion: oxygen toward Na⁺, hydrogen toward Cl⁻. The ion–dipole attractions keep the ions apart in solution.",
+  "origin": "original",
+  "choices": [
+   "Hydration (solvation)",
+   "Crenation",
+   "Hydrogenation",
+   "Precipitation"
+  ],
+  "why": [
+   "",
+   "Crenation is a red blood cell shrinking in a hypertonic solution.",
+   "Hydrogenation is a reaction that adds H₂ to a C=C double bond. Surrounding an ion with water is hydration.",
+   "Precipitation is the reverse: ions leaving the solution to form a solid."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:iondipole",
+   "index": 8
+  }
+ },
+ {
+  "id": "IMF-fda1d59c",
+  "skill": "IMF.iondipole",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-10"
+  ],
+  "type": "mc",
+  "prompt": "<div>As NaCl dissolves in water, which attraction is overcome, and which one replaces it?</div>",
+  "answer": "The ionic bonds between Na⁺ and Cl⁻ are replaced by ion–dipole attractions to water",
+  "hint": "What holds the crystal together? What can water offer an ion?",
+  "explain": "Many ion–dipole attractions to water make up for the energy needed to pull the ions out of the crystal.",
+  "origin": "original",
+  "choices": [
+   "The ionic bonds between Na⁺ and Cl⁻ are replaced by ion–dipole attractions to water",
+   "Nothing is overcome: the crystal just floats apart",
+   "Covalent bonds in NaCl are replaced by hydrogen bonds",
+   "Hydrogen bonds in NaCl are replaced by dispersion forces"
+  ],
+  "why": [
+   "",
+   "The ions attract each other strongly. Water has to pull them apart, and ion–dipole attractions are what do it.",
+   "NaCl has no covalent bonds between Na and Cl. It is held together by ionic bonds.",
+   "NaCl has no hydrogen. The crystal is held together by ionic bonds."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:iondipole",
+   "index": 9
   }
  },
  {
@@ -11045,97 +10904,6 @@
   "from": {
    "game": "IMF",
    "list": "sample:liquids",
-   "index": 7
-  }
- },
- {
-  "id": "IMF-c71ace1a",
-  "skill": "IMF.liquids",
-  "courses": [
-   "1A"
-  ],
-  "chapters": [
-   "1A-10"
-  ],
-  "type": "mc",
-  "prompt": "<div>Mercury’s surface tension (458.48 mN/m) is far above water’s (71.99 mN/m). What holds mercury atoms together so strongly?</div>",
-  "answer": "Metallic bonding",
-  "hint": "Stronger attractions make a liquid harder to pull apart at the surface (surface tension), slower to flow (viscosity) and harder to evaporate (lower vapor pressure).",
-  "explain": "Liquid mercury is a metal: its atoms share a sea of electrons, a much stronger attraction than hydrogen bonding.",
-  "origin": "original",
-  "choices": [
-   "Metallic bonding",
-   "Ion–dipole forces",
-   "Dipole–dipole forces",
-   "Hydrogen bonding"
-  ],
-  "why": [
-   "",
-   "There are no ions and no dipoles in pure mercury.",
-   "Single Hg atoms have no dipole.",
-   "Mercury has no hydrogen."
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:liquids",
-   "index": 8
-  }
- },
- {
-  "id": "IMF-9085e250",
-  "skill": "IMF.liquids",
-  "courses": [
-   "1A"
-  ],
-  "chapters": [
-   "1A-10"
-  ],
-  "type": "mc",
-  "prompt": "<div><div style=\"display:flex;margin:6px 0px 6px 0px;gap:10px 26px;flex-wrap:wrap;justify-content:center;align-items:flow-end\"><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><div style=\"color:rgb(38, 50, 106);font-size:23.2px;font-weight:800;line-height:27.84px;background-color:rgb(246, 247, 252);border-top:2px solid rgb(227, 230, 240);border-right:2px solid rgb(227, 230, 240);border-bottom:2px solid rgb(227, 230, 240);border-left:2px solid rgb(227, 230, 240);border-radius:14px;padding:12px 16px\">CH<sub style=\"font-size:16.24px;line-height:0px\">3</sub>CH<sub style=\"font-size:16.24px;line-height:0px\">2</sub>OH</div><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Ethanol</b></figcaption></figure><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><div style=\"color:rgb(38, 50, 106);font-size:23.2px;font-weight:800;line-height:27.84px;background-color:rgb(246, 247, 252);border-top:2px solid rgb(227, 230, 240);border-right:2px solid rgb(227, 230, 240);border-bottom:2px solid rgb(227, 230, 240);border-left:2px solid rgb(227, 230, 240);border-radius:14px;padding:12px 16px\">HOCH<sub style=\"font-size:16.24px;line-height:0px\">2</sub>CH<sub style=\"font-size:16.24px;line-height:0px\">2</sub>OH</div><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Ethylene glycol</b></figcaption></figure></div></div><div>Which has the higher <b style=\"font-weight:900\">surface tension</b> at 25 °C?</div>",
-  "answer": "Ethylene glycol",
-  "hint": "Count the O–H groups on each molecule. More hydrogen bonding → stronger attractions.",
-  "explain": "Ethylene glycol: two O–H groups per molecule. Ethanol: one O–H group. Surface tension at 25 °C: ethylene glycol 47.99 mN/m, ethanol 21.97 mN/m (OpenStax Table 10.3).",
-  "origin": "original",
-  "choices": [
-   "Ethylene glycol",
-   "Ethanol"
-  ],
-  "why": [
-   "",
-   "Compare the forces. Ethylene glycol: two O–H groups per molecule. Ethanol: one O–H group. Surface tension at 25 °C: ethylene glycol 47.99 mN/m, ethanol 21.97 mN/m (OpenStax Table 10.3)."
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:liquids",
-   "index": 9
-  }
- },
- {
-  "id": "IMF-2cb6b337",
-  "skill": "IMF.liquids",
-  "courses": [
-   "1A"
-  ],
-  "chapters": [
-   "1A-10"
-  ],
-  "type": "mc",
-  "prompt": "<div><div style=\"display:flex;margin:6px 0px 6px 0px;gap:10px 26px;flex-wrap:wrap;justify-content:center;align-items:flow-end\"><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><div style=\"color:rgb(38, 50, 106);font-size:23.2px;font-weight:800;line-height:27.84px;background-color:rgb(246, 247, 252);border-top:2px solid rgb(227, 230, 240);border-right:2px solid rgb(227, 230, 240);border-bottom:2px solid rgb(227, 230, 240);border-left:2px solid rgb(227, 230, 240);border-radius:14px;padding:12px 16px\">CH<sub style=\"font-size:16.24px;line-height:0px\">3</sub>CH<sub style=\"font-size:16.24px;line-height:0px\">2</sub>OH</div><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Ethanol</b></figcaption></figure><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><div style=\"color:rgb(38, 50, 106);font-size:23.2px;font-weight:800;line-height:27.84px;background-color:rgb(246, 247, 252);border-top:2px solid rgb(227, 230, 240);border-right:2px solid rgb(227, 230, 240);border-bottom:2px solid rgb(227, 230, 240);border-left:2px solid rgb(227, 230, 240);border-radius:14px;padding:12px 16px\">H<sub style=\"font-size:16.24px;line-height:0px\">2</sub>O</div><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Water</b></figcaption></figure></div></div><div>Which has the higher <b style=\"font-weight:900\">viscosity</b> at 25 °C?</div>",
-  "answer": "Ethanol",
-  "hint": "This one is close. Both hydrogen bond. Viscosity also depends on the size and shape of the molecule: bigger molecules slide past each other more slowly.",
-  "explain": "Ethanol: one O–H group. Water: hydrogen bonds in every direction. It is close: water hydrogen bonds more, but ethanol molecules are larger, so they slide past each other a little more slowly. Viscosity at 25 °C: ethanol 1.074 mPa·s, water 0.89 mPa·s (OpenStax Table 10.2).",
-  "origin": "original",
-  "choices": [
-   "Water",
-   "Ethanol"
-  ],
-  "why": [
-   "Compare the forces. Ethanol: one O–H group. Water: hydrogen bonds in every direction. It is close: water hydrogen bonds more, but ethanol molecules are larger, so they slide past each other a little more slowly. Viscosity at 25 °C: ethanol 1.074 mPa·s, water 0.89 mPa·s (OpenStax Table 10.2).",
-   ""
-  ],
-  "from": {
-   "game": "IMF",
-   "list": "sample:liquids",
    "index": 10
   }
  },
@@ -11173,7 +10941,7 @@
   }
  },
  {
-  "id": "IMF-3673a739",
+  "id": "IMF-f1b14b11",
   "skill": "IMF.liquids",
   "courses": [
    "1A"
@@ -11182,18 +10950,18 @@
    "1A-10"
   ],
   "type": "mc",
-  "prompt": "<div><div style=\"display:flex;margin:6px 0px 6px 0px;gap:10px 26px;flex-wrap:wrap;justify-content:center;align-items:flow-end\"><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><div style=\"color:rgb(38, 50, 106);font-size:23.2px;font-weight:800;line-height:27.84px;background-color:rgb(246, 247, 252);border-top:2px solid rgb(227, 230, 240);border-right:2px solid rgb(227, 230, 240);border-bottom:2px solid rgb(227, 230, 240);border-left:2px solid rgb(227, 230, 240);border-radius:14px;padding:12px 16px\">HOCH<sub style=\"font-size:16.24px;line-height:0px\">2</sub>CH<sub style=\"font-size:16.24px;line-height:0px\">2</sub>OH</div><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Ethylene glycol</b></figcaption></figure><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><div style=\"color:rgb(38, 50, 106);font-size:23.2px;font-weight:800;line-height:27.84px;background-color:rgb(246, 247, 252);border-top:2px solid rgb(227, 230, 240);border-right:2px solid rgb(227, 230, 240);border-bottom:2px solid rgb(227, 230, 240);border-left:2px solid rgb(227, 230, 240);border-radius:14px;padding:12px 16px\">C<sub style=\"font-size:16.24px;line-height:0px\">8</sub>H<sub style=\"font-size:16.24px;line-height:0px\">18</sub></div><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Octane</b></figcaption></figure></div></div><div>Which has the higher <b style=\"font-weight:900\">surface tension</b> at 25 °C?</div>",
+  "prompt": "<div><div style=\"display:flex;margin:6px 0px 6px 0px;gap:10px 26px;flex-wrap:wrap;justify-content:center;align-items:flow-end\"><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><div style=\"color:rgb(38, 50, 106);font-size:23.2px;font-weight:800;line-height:27.84px;background-color:rgb(246, 247, 252);border-top:2px solid rgb(227, 230, 240);border-right:2px solid rgb(227, 230, 240);border-bottom:2px solid rgb(227, 230, 240);border-left:2px solid rgb(227, 230, 240);border-radius:14px;padding:12px 16px\">HOCH<sub style=\"font-size:16.24px;line-height:0px\">2</sub>CH<sub style=\"font-size:16.24px;line-height:0px\">2</sub>OH</div><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Ethylene glycol</b></figcaption></figure><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><div style=\"color:rgb(38, 50, 106);font-size:23.2px;font-weight:800;line-height:27.84px;background-color:rgb(246, 247, 252);border-top:2px solid rgb(227, 230, 240);border-right:2px solid rgb(227, 230, 240);border-bottom:2px solid rgb(227, 230, 240);border-left:2px solid rgb(227, 230, 240);border-radius:14px;padding:12px 16px\">H<sub style=\"font-size:16.24px;line-height:0px\">2</sub>O</div><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Water</b></figcaption></figure></div></div><div>Which has the higher <b style=\"font-weight:900\">viscosity</b> at 25 °C?</div>",
   "answer": "Ethylene glycol",
-  "hint": "One of these hydrogen bonds and the other has dispersion forces only.",
-  "explain": "Ethylene glycol: two O–H groups per molecule. Octane: dispersion only. Surface tension at 25 °C: ethylene glycol 47.99 mN/m, octane 21.14 mN/m (OpenStax Table 10.3).",
+  "hint": "Both hydrogen bond through two O–H groups. Surface tension: which one packs more hydrogen bonds into its surface? Viscosity: which molecule is bigger, and can tangle with its neighbors?",
+  "explain": "Ethylene glycol: two O–H groups per molecule. Water: hydrogen bonds in every direction. Ethylene glycol molecules are larger and tangle through two O–H groups each, so they slide past each other slowly. Viscosity at 25 °C: ethylene glycol 16.1 mPa·s, water 0.89 mPa·s (OpenStax Table 10.2).",
   "origin": "original",
   "choices": [
-   "Ethylene glycol",
-   "Octane"
+   "Water",
+   "Ethylene glycol"
   ],
   "why": [
-   "",
-   "Compare the forces. Ethylene glycol: two O–H groups per molecule. Octane: dispersion only. Surface tension at 25 °C: ethylene glycol 47.99 mN/m, octane 21.14 mN/m (OpenStax Table 10.3)."
+   "Compare the forces. Ethylene glycol: two O–H groups per molecule. Water: hydrogen bonds in every direction. Ethylene glycol molecules are larger and tangle through two O–H groups each, so they slide past each other slowly. Viscosity at 25 °C: ethylene glycol 16.1 mPa·s, water 0.89 mPa·s (OpenStax Table 10.2).",
+   ""
   ],
   "from": {
    "game": "IMF",
@@ -11202,7 +10970,7 @@
   }
  },
  {
-  "id": "IMF-96189025",
+  "id": "IMF-43e2144d",
   "skill": "IMF.liquids",
   "courses": [
    "1A"
@@ -11211,23 +10979,85 @@
    "1A-10"
   ],
   "type": "mc",
-  "prompt": "<div><div style=\"display:flex;margin:6px 0px 6px 0px;gap:10px 26px;flex-wrap:wrap;justify-content:center;align-items:flow-end\"><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><div style=\"color:rgb(38, 50, 106);font-size:23.2px;font-weight:800;line-height:27.84px;background-color:rgb(246, 247, 252);border-top:2px solid rgb(227, 230, 240);border-right:2px solid rgb(227, 230, 240);border-bottom:2px solid rgb(227, 230, 240);border-left:2px solid rgb(227, 230, 240);border-radius:14px;padding:12px 16px\">HOCH<sub style=\"font-size:16.24px;line-height:0px\">2</sub>CH<sub style=\"font-size:16.24px;line-height:0px\">2</sub>OH</div><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Ethylene glycol</b></figcaption></figure><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><div style=\"color:rgb(38, 50, 106);font-size:23.2px;font-weight:800;line-height:27.84px;background-color:rgb(246, 247, 252);border-top:2px solid rgb(227, 230, 240);border-right:2px solid rgb(227, 230, 240);border-bottom:2px solid rgb(227, 230, 240);border-left:2px solid rgb(227, 230, 240);border-radius:14px;padding:12px 16px\">C<sub style=\"font-size:16.24px;line-height:0px\">8</sub>H<sub style=\"font-size:16.24px;line-height:0px\">18</sub></div><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Octane</b></figcaption></figure></div></div><div>Which has the higher <b style=\"font-weight:900\">viscosity</b> at 25 °C?</div>",
-  "answer": "Ethylene glycol",
+  "prompt": "<div><div style=\"display:flex;margin:6px 0px 6px 0px;gap:10px 26px;flex-wrap:wrap;justify-content:center;align-items:flow-end\"><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><div style=\"color:rgb(38, 50, 106);font-size:23.2px;font-weight:800;line-height:27.84px;background-color:rgb(246, 247, 252);border-top:2px solid rgb(227, 230, 240);border-right:2px solid rgb(227, 230, 240);border-bottom:2px solid rgb(227, 230, 240);border-left:2px solid rgb(227, 230, 240);border-radius:14px;padding:12px 16px\">C<sub style=\"font-size:16.24px;line-height:0px\">8</sub>H<sub style=\"font-size:16.24px;line-height:0px\">18</sub></div><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Octane</b></figcaption></figure><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><div style=\"color:rgb(38, 50, 106);font-size:23.2px;font-weight:800;line-height:27.84px;background-color:rgb(246, 247, 252);border-top:2px solid rgb(227, 230, 240);border-right:2px solid rgb(227, 230, 240);border-bottom:2px solid rgb(227, 230, 240);border-left:2px solid rgb(227, 230, 240);border-radius:14px;padding:12px 16px\">H<sub style=\"font-size:16.24px;line-height:0px\">2</sub>O</div><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Water</b></figcaption></figure></div></div><div>Which has the higher <b style=\"font-weight:900\">viscosity</b> at 25 °C?</div>",
+  "answer": "Water",
   "hint": "One of these hydrogen bonds and the other has dispersion forces only.",
-  "explain": "Ethylene glycol: two O–H groups per molecule. Octane: dispersion only. Viscosity at 25 °C: ethylene glycol 16.1 mPa·s, octane 0.508 mPa·s (OpenStax Table 10.2).",
+  "explain": "Water: hydrogen bonds in every direction. Octane: dispersion only. Octane boils higher than water only because each big molecule has so many dispersion contacts. Packed into the same space, water’s small molecules make far more strong attractions. Viscosity at 25 °C: water 0.89 mPa·s, octane 0.508 mPa·s (OpenStax Table 10.2).",
   "origin": "original",
   "choices": [
-   "Ethylene glycol",
+   "Water",
    "Octane"
   ],
   "why": [
    "",
-   "Compare the forces. Ethylene glycol: two O–H groups per molecule. Octane: dispersion only. Viscosity at 25 °C: ethylene glycol 16.1 mPa·s, octane 0.508 mPa·s (OpenStax Table 10.2)."
+   "Compare the forces. Water: hydrogen bonds in every direction. Octane: dispersion only. Octane boils higher than water only because each big molecule has so many dispersion contacts. Packed into the same space, water’s small molecules make far more strong attractions. Viscosity at 25 °C: water 0.89 mPa·s, octane 0.508 mPa·s (OpenStax Table 10.2)."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:liquids",
    "index": 13
+  }
+ },
+ {
+  "id": "IMF-17be89de",
+  "skill": "IMF.liquids",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-10"
+  ],
+  "type": "mc",
+  "prompt": "<div><div style=\"display:flex;margin:6px 0px 6px 0px;gap:10px 26px;flex-wrap:wrap;justify-content:center;align-items:flow-end\"><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><div style=\"color:rgb(38, 50, 106);font-size:23.2px;font-weight:800;line-height:27.84px;background-color:rgb(246, 247, 252);border-top:2px solid rgb(227, 230, 240);border-right:2px solid rgb(227, 230, 240);border-bottom:2px solid rgb(227, 230, 240);border-left:2px solid rgb(227, 230, 240);border-radius:14px;padding:12px 16px\">HOCH<sub style=\"font-size:16.24px;line-height:0px\">2</sub>CH<sub style=\"font-size:16.24px;line-height:0px\">2</sub>OH</div><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Ethylene glycol</b></figcaption></figure><figure style=\"text-align:center;display:flex;margin:0px 0px 0px 0px;gap:2px;flex-direction:column;align-items:center;max-width:100%;min-width:120px\"><div style=\"color:rgb(38, 50, 106);font-size:23.2px;font-weight:800;line-height:27.84px;background-color:rgb(246, 247, 252);border-top:2px solid rgb(227, 230, 240);border-right:2px solid rgb(227, 230, 240);border-bottom:2px solid rgb(227, 230, 240);border-left:2px solid rgb(227, 230, 240);border-radius:14px;padding:12px 16px\">CH<sub style=\"font-size:16.24px;line-height:0px\">3</sub>CH<sub style=\"font-size:16.24px;line-height:0px\">2</sub>OH</div><figcaption style=\"font-size:15.2px;line-height:19.76px\"><b style=\"font-weight:700\">Ethanol</b></figcaption></figure></div></div><div>Which has the higher <b style=\"font-weight:900\">surface tension</b> at 25 °C?</div>",
+  "answer": "Ethylene glycol",
+  "hint": "Count the O–H groups on each molecule. More hydrogen bonding → stronger attractions.",
+  "explain": "Ethylene glycol: two O–H groups per molecule. Ethanol: one O–H group. Surface tension at 25 °C: ethylene glycol 47.99 mN/m, ethanol 21.97 mN/m (OpenStax Table 10.3).",
+  "origin": "original",
+  "choices": [
+   "Ethylene glycol",
+   "Ethanol"
+  ],
+  "why": [
+   "",
+   "Compare the forces. Ethylene glycol: two O–H groups per molecule. Ethanol: one O–H group. Surface tension at 25 °C: ethylene glycol 47.99 mN/m, ethanol 21.97 mN/m (OpenStax Table 10.3)."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:liquids",
+   "index": 14
+  }
+ },
+ {
+  "id": "IMF-c71ace1a",
+  "skill": "IMF.liquids",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-10"
+  ],
+  "type": "mc",
+  "prompt": "<div>Mercury’s surface tension (458.48 mN/m) is far above water’s (71.99 mN/m). What holds mercury atoms together so strongly?</div>",
+  "answer": "Metallic bonding",
+  "hint": "Stronger attractions make a liquid harder to pull apart at the surface (surface tension), slower to flow (viscosity) and harder to evaporate (lower vapor pressure).",
+  "explain": "Liquid mercury is a metal: its atoms share a sea of electrons, a much stronger attraction than hydrogen bonding.",
+  "origin": "original",
+  "choices": [
+   "Dipole–dipole forces",
+   "Ion–dipole forces",
+   "Hydrogen bonding",
+   "Metallic bonding"
+  ],
+  "why": [
+   "Single Hg atoms have no dipole.",
+   "There are no ions and no dipoles in pure mercury.",
+   "Mercury has no hydrogen.",
+   ""
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:liquids",
+   "index": 15
   }
  },
  {
@@ -17227,21 +17057,21 @@
   "explain": "Only CH₃CONH₂ has H bonded directly to N, O or F.",
   "origin": "original",
   "choices": [
-   "CH₃CONH₂",
-   "CH₃CH₂CH₃",
-   "CH₃CH₂CH₂CH₃",
-   "CH₂=CHCH₂CH₃"
+   "CH₃CH₂CHO",
+   "CH₃COCH₃",
+   "CH₃OCH₃",
+   "CH₃CONH₂"
   ],
   "why": [
-   "",
-   "In CH₃CH₂CH₃ every H is bonded to carbon.",
-   "In CH₃CH₂CH₂CH₃ every H is bonded to carbon.",
-   "In CH₂=CHCH₂CH₃ every H is bonded to carbon."
+   "CH₃CH₂CHO has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water).",
+   "CH₃COCH₃ has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water).",
+   "CH₃OCH₃ has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water).",
+   ""
   ],
   "from": {
    "game": "IMF",
    "list": "sample:hbond",
-   "index": 9
+   "index": 8
   }
  },
  {
@@ -17262,20 +17092,20 @@
   "origin": "original",
   "choices": [
    "CH₃CH₂CH₂NH₂",
-   "(CH₃)₃N",
-   "CH₃COCH₃",
-   "CH₂=CHCH₂CH₃"
+   "CH₃CH₂OCH₂CH₃",
+   "CH₃CH₂CH₂CH₃",
+   "CH₃CH₂CHO"
   ],
   "why": [
    "",
-   "In (CH₃)₃N every H is on carbon. The N has a lone pair (it can accept a hydrogen bond from water) but no N–H of its own.",
-   "CH₃COCH₃ has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water).",
-   "In CH₂=CHCH₂CH₃ every H is bonded to carbon."
+   "CH₃CH₂OCH₂CH₃ has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water).",
+   "In CH₃CH₂CH₂CH₃ every H is bonded to carbon.",
+   "CH₃CH₂CHO has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water)."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:hbond",
-   "index": 10
+   "index": 9
   }
  },
  {
@@ -17297,19 +17127,19 @@
   "choices": [
    "CH₃COCH₃",
    "CH₃CH₂COOH",
-   "CH₃CH₂CH₃",
-   "CH₃CH₂CHO"
+   "CH₃CH₂CHO",
+   "CH₃CH₂CH₃"
   ],
   "why": [
    "CH₃COCH₃ has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water).",
    "",
-   "In CH₃CH₂CH₃ every H is bonded to carbon.",
-   "CH₃CH₂CHO has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water)."
+   "CH₃CH₂CHO has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water).",
+   "In CH₃CH₂CH₃ every H is bonded to carbon."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:hbond",
-   "index": 11
+   "index": 10
   }
  },
  {
@@ -17329,21 +17159,21 @@
   "explain": "Only CH₃CH₂CH₂OH has H bonded directly to N, O or F.",
   "origin": "original",
   "choices": [
-   "CH₃CH₂CH₂CH₃",
    "CH₂=CHCH₂CH₃",
-   "CH₃CH₂CHO",
-   "CH₃CH₂CH₂OH"
+   "CH₃CH₂CH₂OH",
+   "CH₃CH₂CH₂CH₃",
+   "(CH₃)₃N"
   ],
   "why": [
-   "In CH₃CH₂CH₂CH₃ every H is bonded to carbon.",
    "In CH₂=CHCH₂CH₃ every H is bonded to carbon.",
-   "CH₃CH₂CHO has O, but every H is bonded to carbon. With no O–H it cannot supply the H for a hydrogen bond (its lone pairs could only accept one from a molecule like water).",
-   ""
+   "",
+   "In CH₃CH₂CH₂CH₃ every H is bonded to carbon.",
+   "In (CH₃)₃N every H is on carbon. The N has a lone pair (it can accept a hydrogen bond from water) but no N–H of its own."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:hbond",
-   "index": 12
+   "index": 11
   }
  },
  {
@@ -20292,7 +20122,7 @@
   }
  },
  {
-  "id": "IMF-0c4b598a",
+  "id": "IMF-215e915b",
   "skill": "IMF.carbs",
   "courses": [
    "3B"
@@ -20301,27 +20131,60 @@
    "3B-9"
   ],
   "type": "mc",
-  "prompt": "<div>Table sugar (sucrose) is a molecular compound, yet it is a hard solid at room temperature. What mainly holds one sucrose molecule to the next in the crystal?</div>",
-  "answer": "Hydrogen bonds between –OH groups on neighboring molecules",
+  "prompt": "<div>Glucose is C₆H₁₂O₆. How many O–H groups does one glucose molecule have?</div>",
+  "answer": "5",
   "hint": "Count the –OH groups. Each one can hydrogen bond, to water or to a neighboring chain.",
-  "explain": "Sucrose has eight O–H groups, so each molecule hydrogen bonds to several neighbors.",
+  "explain": "Five of the six oxygens are in O–H groups. The sixth is the ring oxygen (or the C=O of the open chain).",
   "origin": "original",
   "choices": [
-   "Covalent bonds between the molecules",
-   "Hydrogen bonds between –OH groups on neighboring molecules",
-   "Dispersion forces only",
-   "Ionic bonds"
+   "6",
+   "5",
+   "12",
+   "0"
   ],
   "why": [
-   "The molecules are not bonded to each other: they separate as whole molecules when sugar dissolves.",
+   "One of the six oxygens has no H on it: it is in the ring (or is the C=O of the open chain).",
    "",
-   "It has dispersion forces too, but with eight O–H groups the hydrogen bonds matter most.",
-   "Sucrose is molecular. It has no ions."
+   "There are 12 H atoms, but seven of them are bonded to carbon. Only five are on oxygen.",
+   "Glucose is covered in O–H groups, which is why it dissolves so well in water."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:carbs",
    "index": 0
+  }
+ },
+ {
+  "id": "IMF-74e922a3",
+  "skill": "IMF.carbs",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<div>Starch and cellulose are both long chains of glucose, yet we can digest starch and not cellulose. What is different about them?</div>",
+  "answer": "The way the glucose units are linked: α links in starch, β links in cellulose",
+  "hint": "Count the –OH groups. Each one can hydrogen bond, to water or to a neighboring chain.",
+  "explain": "The α links let starch coil, and our enzymes fit them. The β links make straight chains that pack into fibers our enzymes cannot break down.",
+  "origin": "original",
+  "choices": [
+   "Cellulose has no –OH groups",
+   "The way the glucose units are linked: α links in starch, β links in cellulose",
+   "Cellulose chains are joined by disulfide bonds",
+   "Cellulose is made from a different sugar"
+  ],
+  "why": [
+   "Both have the same –OH groups. The difference is how the glucose units are joined.",
+   "",
+   "Disulfide bonds are found in proteins. Carbohydrates contain no sulfur.",
+   "Both are made of glucose. Only the linkage differs."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:carbs",
+   "index": 1
   }
  },
  {
@@ -20340,19 +20203,19 @@
   "explain": "Strong attractions between glucose molecules make it a solid, and its –OH groups attract water.",
   "origin": "original",
   "choices": [
-   "Glucose is heavier",
    "Hexane has more hydrogen atoms, so it hydrogen bonds more",
+   "Glucose is heavier",
    "Glucose hydrogen bonds through its –OH groups; hexane has only dispersion forces"
   ],
   "why": [
-   "Mass alone does not explain it. The –OH groups change the type of force.",
    "The H must be bonded directly to N, O or F . An H on carbon (or on Cl, S, P) does not hydrogen bond.",
+   "Mass alone does not explain it. The –OH groups change the type of force.",
    ""
   ],
   "from": {
    "game": "IMF",
    "list": "sample:carbs",
-   "index": 1
+   "index": 2
   }
  },
  {
@@ -20371,19 +20234,19 @@
   "explain": "Straight chains can lie side by side and hydrogen bond along their whole length.",
   "origin": "original",
   "choices": [
-   "Starch",
    "Cellulose",
-   "Both equally"
+   "Both equally",
+   "Starch"
   ],
   "why": [
-   "Coiled chains cannot line up closely, so starch does not form strong fibers.",
    "",
-   "Shape decides how well chains can pack and hydrogen bond to each other."
+   "Shape decides how well chains can pack and hydrogen bond to each other.",
+   "Coiled chains cannot line up closely, so starch does not form strong fibers."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:carbs",
-   "index": 2
+   "index": 3
   }
  },
  {
@@ -20402,21 +20265,21 @@
   "explain": "The β links make straight chains, so many –OH groups on neighboring chains can hydrogen bond. Starch chains coil instead.",
   "origin": "original",
   "choices": [
-   "Its straight chains line up and hydrogen bond to each other into fibers",
    "Cellulose is nonpolar",
-   "Cellulose has no –OH groups",
-   "Cellulose chains are joined by disulfide bonds"
+   "Cellulose chains are joined by disulfide bonds",
+   "Its straight chains line up and hydrogen bond to each other into fibers",
+   "Cellulose has no –OH groups"
   ],
   "why": [
-   "",
    "It is covered in polar –OH groups. They hydrogen bond chain to chain.",
-   "It has just as many –OH groups as starch. In cellulose they are busy hydrogen bonding to neighboring chains.",
-   "Disulfide bonds are found in proteins. Carbohydrates have no sulfur."
+   "Disulfide bonds are found in proteins. Carbohydrates have no sulfur.",
+   "",
+   "It has just as many –OH groups as starch. In cellulose they are busy hydrogen bonding to neighboring chains."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:carbs",
-   "index": 3
+   "index": 4
   }
  },
  {
@@ -20435,25 +20298,25 @@
   "explain": "Glucose has five O–H groups on six carbons.",
   "origin": "original",
   "choices": [
-   "Water breaks sugars into atoms",
+   "Sugars are nonpolar",
    "Sugars are ionic compounds",
-   "Each sugar has many –OH groups that hydrogen bond with water",
-   "Sugars are nonpolar"
+   "Water breaks sugars into atoms",
+   "Each sugar has many –OH groups that hydrogen bond with water"
   ],
   "why": [
-   "The sugar molecules stay whole in solution.",
+   "Nonpolar molecules do not dissolve in water. The –OH groups make sugars very polar.",
    "Sugars are molecular. They dissolve as whole molecules.",
-   "",
-   "Nonpolar molecules do not dissolve in water. The –OH groups make sugars very polar."
+   "The sugar molecules stay whole in solution.",
+   ""
   ],
   "from": {
    "game": "IMF",
    "list": "sample:carbs",
-   "index": 4
+   "index": 5
   }
  },
  {
-  "id": "IMF-a3c9e276",
+  "id": "IMF-0c4b598a",
   "skill": "IMF.carbs",
   "courses": [
    "3B"
@@ -20462,27 +20325,27 @@
    "3B-9"
   ],
   "type": "mc",
-  "prompt": "<div>A cotton towel is mostly cellulose. Why does cotton soak up water so well?</div>",
-  "answer": "The –OH groups on cellulose hydrogen bond with water",
+  "prompt": "<div>Table sugar (sucrose) is a molecular compound, yet it is a hard solid at room temperature. What mainly holds one sucrose molecule to the next in the crystal?</div>",
+  "answer": "Hydrogen bonds between –OH groups on neighboring molecules",
   "hint": "Count the –OH groups. Each one can hydrogen bond, to water or to a neighboring chain.",
-  "explain": "Water clings to the many –OH groups on the fibers. The fibers themselves stay solid, because the chains are also hydrogen bonded to each other.",
+  "explain": "Sucrose has eight O–H groups, so each molecule hydrogen bonds to several neighbors.",
   "origin": "original",
   "choices": [
-   "The –OH groups on cellulose hydrogen bond with water",
-   "Water breaks the covalent bonds in cellulose",
-   "Cellulose is nonpolar",
-   "Cellulose dissolves in water"
+   "Dispersion forces only",
+   "Ionic bonds",
+   "Hydrogen bonds between –OH groups on neighboring molecules",
+   "Covalent bonds between the molecules"
   ],
   "why": [
+   "It has dispersion forces too, but with eight O–H groups the hydrogen bonds matter most.",
+   "Sucrose is molecular. It has no ions.",
    "",
-   "Wetting a towel is a physical change. No covalent bond breaks.",
-   "A nonpolar fiber would repel water. Cellulose is covered in polar –OH groups.",
-   "Cotton does not dissolve: its chains hold on to each other. Water sticks to the –OH groups on the surface of the fibers."
+   "The molecules are not bonded to each other: they separate as whole molecules when sugar dissolves."
   ],
   "from": {
    "game": "IMF",
    "list": "sample:carbs",
-   "index": 5
+   "index": 6
   }
  },
  {
@@ -20502,20 +20365,86 @@
   "origin": "original",
   "choices": [
    "Only the O",
-   "Both: the H can donate and the O’s lone pairs can accept",
+   "Neither",
    "Only the H",
-   "Neither"
+   "Both: the H can donate and the O’s lone pairs can accept"
   ],
   "why": [
    "The H on oxygen is δ+ and donates a hydrogen bond too.",
-   "",
+   "An O–H group is exactly what hydrogen bonding needs.",
    "The O also has two lone pairs that accept hydrogen bonds.",
-   "An O–H group is exactly what hydrogen bonding needs."
+   ""
   ],
   "from": {
    "game": "IMF",
    "list": "sample:carbs",
-   "index": 6
+   "index": 7
+  }
+ },
+ {
+  "id": "IMF-d2b8b859",
+  "skill": "IMF.carbs",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<div>Honey is mostly sugars with a little water, and it pours very slowly. What makes it so viscous?</div>",
+  "answer": "The sugar molecules and water are held to each other by many hydrogen bonds",
+  "hint": "Count the –OH groups. Each one can hydrogen bond, to water or to a neighboring chain.",
+  "explain": "Each sugar has several O–H groups, so the molecules cling to their neighbors and resist sliding past each other.",
+  "origin": "original",
+  "choices": [
+   "Covalent bonds between the sugar molecules",
+   "Dispersion forces only",
+   "The sugar molecules and water are held to each other by many hydrogen bonds",
+   "The sugars are nonpolar"
+  ],
+  "why": [
+   "The sugar molecules are not bonded to each other. They are held by hydrogen bonds, which are attractions.",
+   "Sugars have dispersion forces too, but their many O–H groups make hydrogen bonding the main attraction.",
+   "",
+   "Sugars are very polar: every O–H group is polar."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:carbs",
+   "index": 8
+  }
+ },
+ {
+  "id": "IMF-a3c9e276",
+  "skill": "IMF.carbs",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "type": "mc",
+  "prompt": "<div>A cotton towel is mostly cellulose. Why does cotton soak up water so well?</div>",
+  "answer": "The –OH groups on cellulose hydrogen bond with water",
+  "hint": "Count the –OH groups. Each one can hydrogen bond, to water or to a neighboring chain.",
+  "explain": "Water clings to the many –OH groups on the fibers. The fibers themselves stay solid, because the chains are also hydrogen bonded to each other.",
+  "origin": "original",
+  "choices": [
+   "Water breaks the covalent bonds in cellulose",
+   "Cellulose is nonpolar",
+   "The –OH groups on cellulose hydrogen bond with water",
+   "Cellulose dissolves in water"
+  ],
+  "why": [
+   "Wetting a towel is a physical change. No covalent bond breaks.",
+   "A nonpolar fiber would repel water. Cellulose is covered in polar –OH groups.",
+   "",
+   "Cotton does not dissolve: its chains hold on to each other. Water sticks to the –OH groups on the surface of the fibers."
+  ],
+  "from": {
+   "game": "IMF",
+   "list": "sample:carbs",
+   "index": 9
   }
  },
  {
