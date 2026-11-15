@@ -3558,7 +3558,7 @@
    "Butanoic acid would be an oxidation product, and a ketone cannot form it. H₂ is a reducing agent."
   ],
   "html": {
-   "prompt": "What is formed when butanone, CH<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub>, is reduced with H<sub>2</sub> and a nickel catalyst?",
+   "prompt": "What is formed when butanone, CH<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub>, is reduced with [H] (a reducing agent)?",
    "choices": [
     "2-butanol",
     "1-butanol",
@@ -3566,12 +3566,12 @@
     "butanoic acid"
    ],
    "hint": "Reduction adds H to each atom of the C=O. Which class of alcohol does a ketone give?",
-   "explain": "Adding H<sub>2</sub> across the C=O gives CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub>, <b>2-butanol</b>, a 2° alcohol. Reducing a ketone never gives a 1° alcohol, and butanoic acid would be an oxidation product.",
+   "explain": "Adding H atoms across the C=O gives CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub>, <b>2-butanol</b>, a 2° alcohol. Reducing a ketone never gives a 1° alcohol, and butanoic acid would be an oxidation product.",
    "why": [
     "",
     "1-Butanol has the OH on the end carbon, but in butanone the C=O is on carbon 2. Reduction puts the OH on the former C=O carbon.",
-    "Butanal is an aldehyde isomer, not a reduction product. Adding H<sub>2</sub> converts the C=O into C–OH.",
-    "Butanoic acid would be an oxidation product, and a ketone cannot form it. H<sub>2</sub> is a reducing agent."
+    "Butanal is an aldehyde isomer, not a reduction product. Reduction ([H]) converts the C=O into C–OH.",
+    "Butanoic acid would be an oxidation product, and a ketone cannot form it. [H] is a reducing agent."
    ]
   },
   "data": {
@@ -14596,7 +14596,7 @@
     "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>COOH"
    ],
    "hint": "Reduction runs oxidation backward. A secondary alcohol comes from a ketone with C=O on the same carbon.",
-   "explain": "Adding H<sub>2</sub> across the C=O of 2-pentanone puts –OH on carbon 2: <b>CH<sub>3</sub>COCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></b>. 3-Pentanone gives 3-pentanol, and pentanal or pentanoic acid give the primary alcohol 1-pentanol.",
+   "explain": "Adding H atoms across the C=O of 2-pentanone puts –OH on carbon 2: <b>CH<sub>3</sub>COCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></b>. 3-Pentanone gives 3-pentanol, and pentanal or pentanoic acid give the primary alcohol 1-pentanol.",
    "why": [
     "",
     "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CHO is an aldehyde; reduction gives a primary alcohol with OH on the end carbon (1-pentanol).",
@@ -14654,7 +14654,7 @@
    "Propane is an alkane with no oxygen. It is neither oxidized to an acid by a mild oxidizing agent nor reduced by H₂."
   ],
   "html": {
-   "prompt": "Which compound is oxidized to propanoic acid, CH<sub>3</sub>CH<sub>2</sub>COOH, by a mild oxidizing agent and reduced to 1-propanol, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH, by H<sub>2</sub> and a Ni catalyst?",
+   "prompt": "Which compound is oxidized to propanoic acid, CH<sub>3</sub>CH<sub>2</sub>COOH, by a mild oxidizing agent and reduced to 1-propanol, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH, by [H] (a reducing agent)?",
    "choices": [
     "propanal, CH<sub>3</sub>CH<sub>2</sub>CHO",
     "propanone, CH<sub>3</sub>COCH<sub>3</sub>",
@@ -14667,7 +14667,7 @@
     null,
     "Propanone is a ketone. It is not oxidized by mild oxidizing agents, and its reduction gives 2-propanol, not 1-propanol.",
     "2-Propanol is a 2° alcohol. Oxidizing it gives propanone, a ketone, not propanoic acid.",
-    "Propane is an alkane with no oxygen. It is neither oxidized to an acid by a mild oxidizing agent nor reduced by H<sub>2</sub>."
+    "Propane is an alkane with no oxygen. It is neither oxidized to an acid by a mild oxidizing agent nor reduced by [H]."
    ]
   },
   "data": {
@@ -19456,20 +19456,20 @@
    "An alkene has no oxygen. H₂ adds across the C=O; it does not remove the oxygen."
   ],
   "html": {
-   "prompt": "Catalytic hydrogenation (H<sub>2</sub>, Ni) of pentanal, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CHO, gives which compound?",
+   "prompt": "Reduction ([H]) of pentanal, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CHO, gives which compound?",
    "choices": [
     "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH",
     "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH(OH)CH<sub>3</sub>",
     "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>COOH",
     "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH=CH<sub>2</sub>"
    ],
-   "hint": "Reduction is the reverse of oxidation: H<sub>2</sub> adds across the C=O on the same carbon.",
+   "hint": "Reduction is the reverse of oxidation: [H] adds H atoms across the C=O on the same carbon.",
    "explain": "H adds to the C and O of the –CHO, so the end carbon becomes –CH<sub>2</sub>OH: <b>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH</b> (1-pentanol), a 1° alcohol. The carboxylic acid would be an oxidation product.",
    "why": [
     "",
     "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH(OH)CH<sub>3</sub> has the OH on carbon 2. Reduction puts the OH on the carbon that held the C=O, the end carbon.",
-    "The carboxylic acid is an oxidation product. H<sub>2</sub> with Ni is a reduction.",
-    "An alkene has no oxygen. H<sub>2</sub> adds across the C=O; it does not remove the oxygen."
+    "The carboxylic acid is an oxidation product. [H] is a reduction.",
+    "An alkene has no oxygen. [H] adds H atoms across the C=O; it does not remove the oxygen."
    ]
   },
   "data": {
@@ -19522,7 +19522,7 @@
    "This moves the OH to a different carbon. Reduction keeps the oxygen on the same carbon that held the C=O."
   ],
   "html": {
-   "prompt": "When 3-methyl-2-butanone, (CH<sub>3</sub>)<sub>2</sub>CHCOCH<sub>3</sub>, takes up H<sub>2</sub> over platinum, which product and alcohol class result?",
+   "prompt": "When 3-methyl-2-butanone, (CH<sub>3</sub>)<sub>2</sub>CHCOCH<sub>3</sub>, is reduced with [H] (a reducing agent), which product and alcohol class result?",
    "choices": [
     "3-methyl-2-butanol, a 2° alcohol",
     "3-methyl-2-butanol, a 3° alcohol",
@@ -19534,7 +19534,7 @@
    "why": [
     "",
     "The name is right, but check the class. The C–OH carbon is bonded to two carbons and one H.",
-    "A carboxylic acid would be an oxidation product, and a ketone cannot form one. Adding H<sub>2</sub> is reduction.",
+    "A carboxylic acid would be an oxidation product, and a ketone cannot form one. Adding [H] is reduction.",
     "This moves the OH to a different carbon. Reduction keeps the oxygen on the same carbon that held the C=O."
    ]
   },
@@ -34878,19 +34878,19 @@
    "This drawing has a cyclohexane ring instead of benzene. The question says the ring is not affected."
   ],
   "html": {
-   "prompt": "Benzaldehyde (almond flavor), shown, is reduced with H<sub>2</sub> and a catalyst under conditions that do not affect the benzene ring. What is the product?",
+   "prompt": "Benzaldehyde (almond flavor), shown, is reduced with [H] (a reducing agent); the benzene ring is not affected. What is the product?",
    "choices": [
     "§A",
     "§B",
     "§C",
     "§D"
    ],
-   "hint": "Reduction adds H<sub>2</sub> across the C=O. What kind of alcohol does an aldehyde give?",
-   "explain": "H<sub>2</sub> adds across C=O, turning the aldehyde CHO into CH<sub>2</sub>OH: <b>benzyl alcohol</b>, a 1° alcohol. Benzoic acid is the oxidation product (the opposite reaction). Toluene would require removing the oxygen entirely, and the benzene ring is unchanged under these conditions.",
+   "hint": "Reduction adds H atoms across the C=O. What kind of alcohol does an aldehyde give?",
+   "explain": "[H] adds H atoms across the C=O, turning the aldehyde CHO into CH<sub>2</sub>OH: <b>benzyl alcohol</b>, a 1° alcohol. Benzoic acid is the oxidation product (the opposite reaction). Toluene would require removing the oxygen entirely, and the benzene ring is unchanged under these conditions.",
    "why": [
     "",
-    "This drawing is benzoic acid, the oxidation product. H<sub>2</sub> is a reducing agent.",
-    "This drawing is toluene: the oxygen is gone completely. H<sub>2</sub> adds across the C=O; it does not remove the oxygen.",
+    "This drawing is benzoic acid, the oxidation product. [H] is a reducing agent.",
+    "This drawing is toluene: the oxygen is gone completely. [H] adds H atoms across the C=O; it does not remove the oxygen.",
     "This drawing has a cyclohexane ring instead of benzene. The question says the ring is not affected."
    ]
   },
@@ -35453,7 +35453,7 @@
    "This drawing is pentanoic acid, an oxidation product. H₂ is a reducing agent, and a ketone cannot give an acid."
   ],
   "html": {
-   "prompt": "3-Pentanone, shown, is reduced with H<sub>2</sub> and a nickel catalyst. What is the product?",
+   "prompt": "3-Pentanone, shown, is reduced with [H] (a reducing agent). What is the product?",
    "choices": [
     "§A",
     "§B",
@@ -35465,8 +35465,8 @@
    "why": [
     "",
     "This drawing is 2-pentanol, with OH on carbon 2. Reduction puts the OH on the carbon that held the C=O, carbon 3.",
-    "This drawing is pentane: the oxygen is gone. H<sub>2</sub> adds across the C=O; it does not remove the oxygen.",
-    "This drawing is pentanoic acid, an oxidation product. H<sub>2</sub> is a reducing agent, and a ketone cannot give an acid."
+    "This drawing is pentane: the oxygen is gone. [H] adds H atoms across the C=O; it does not remove the oxygen.",
+    "This drawing is pentanoic acid, an oxidation product. [H] is a reducing agent, and a ketone cannot give an acid."
    ]
   },
   "data": {
@@ -93876,13 +93876,13 @@
     "§C",
     "§D"
    ],
-   "hint": "Reduction is the reverse of oxidation: H<sub>2</sub> adds across the C=O, which becomes C–OH on the same carbon.",
-   "explain": "H<sub>2</sub> adds to the C=O at C2, so a ketone gives a 2° alcohol: <b>2-heptanol</b>. 1-Heptanol puts the OH on the end carbon, which never held the oxygen. Heptane has lost the oxygen completely, and heptanoic acid is an oxidation product (and would need the C=O at the end).",
+   "hint": "Reduction is the reverse of oxidation: [H] adds H atoms across the C=O, which becomes C–OH on the same carbon.",
+   "explain": "H atoms add to the C=O at C2, so a ketone gives a 2° alcohol: <b>2-heptanol</b>. 1-Heptanol puts the OH on the end carbon, which never held the oxygen. Heptane has lost the oxygen completely, and heptanoic acid is an oxidation product (and would need the C=O at the end).",
    "why": [
     "",
     "This drawing has the OH on the end carbon, which never held the oxygen. Reduction puts the OH on the former C=O carbon.",
-    "This drawing is heptane: the oxygen is gone. H<sub>2</sub> adds across the C=O; it does not remove the oxygen.",
-    "This drawing is heptanoic acid, an oxidation product. H<sub>2</sub> is a reducing agent."
+    "This drawing is heptane: the oxygen is gone. [H] adds H atoms across the C=O; it does not remove the oxygen.",
+    "This drawing is heptanoic acid, an oxidation product. [H] is a reducing agent."
    ]
   },
   "data": {
@@ -94430,12 +94430,12 @@
     "§D"
    ],
    "hint": "An aldehyde is reduced at the CHO carbon. What class of alcohol does that give?",
-   "explain": "H<sub>2</sub> adds across the C=O, so –CHO becomes –CH<sub>2</sub>OH: <b>2-methyl-1-propanol</b> (isobutyl alcohol), a 1° alcohol. tert-Butyl alcohol puts the OH on the branch carbon, which was never the carbonyl carbon. 2-Methylpropanoic acid is the oxidation product, and 2-methylpropane has lost the oxygen.",
+   "explain": "[H] adds H atoms across the C=O, so –CHO becomes –CH<sub>2</sub>OH: <b>2-methyl-1-propanol</b> (isobutyl alcohol), a 1° alcohol. tert-Butyl alcohol puts the OH on the branch carbon, which was never the carbonyl carbon. 2-Methylpropanoic acid is the oxidation product, and 2-methylpropane has lost the oxygen.",
    "why": [
     "",
     "This drawing puts the OH on the branch carbon, which was never the carbonyl carbon. Reduction keeps the oxygen where the C=O was.",
-    "This drawing is 2-methylpropanoic acid, the oxidation product. H<sub>2</sub> is a reducing agent.",
-    "This drawing is 2-methylpropane: the oxygen is gone. H<sub>2</sub> adds across the C=O; it does not remove oxygen."
+    "This drawing is 2-methylpropanoic acid, the oxidation product. [H] is a reducing agent.",
+    "This drawing is 2-methylpropane: the oxygen is gone. [H] adds H atoms across the C=O; it does not remove oxygen."
    ]
   },
   "data": {
@@ -94795,7 +94795,7 @@
    "This drawing is styrene, which has no oxygen. H₂ would add across its C=C and could not create an –OH."
   ],
   "html": {
-   "prompt": "Which compound gives 1-phenylethanol, shown, when it is treated with H<sub>2</sub> and a Ni catalyst (the benzene ring does not react)?",
+   "prompt": "Which compound gives 1-phenylethanol, shown, when it is treated with [H] (a reducing agent)? The benzene ring does not react.",
    "choices": [
     "§A",
     "§B",
@@ -94803,12 +94803,12 @@
     "§D"
    ],
    "hint": "The OH carbon in the product was the C=O carbon before reduction. Which carbon carries the OH?",
-   "explain": "The OH is on the carbon bonded to the ring, a 2° alcohol carbon, so it came from the ketone <b>acetophenone</b> (C=O on that same carbon). Phenylacetaldehyde gives 2-phenylethanol (OH on the end carbon). 4-Methylbenzaldehyde has the same formula as acetophenone but gives a 1° alcohol. Styrene has no oxygen, so H<sub>2</sub> just gives ethylbenzene.",
+   "explain": "The OH is on the carbon bonded to the ring, a 2° alcohol carbon, so it came from the ketone <b>acetophenone</b> (C=O on that same carbon). Phenylacetaldehyde gives 2-phenylethanol (OH on the end carbon). 4-Methylbenzaldehyde has the same formula as acetophenone but gives a 1° alcohol. Styrene has no oxygen, so reducing it cannot create an –OH.",
    "why": [
     "",
     "This drawing is phenylacetaldehyde, with the C=O on the end carbon. Reducing it gives a 1° alcohol with OH on the end carbon.",
     "This drawing is 4-methylbenzaldehyde: its CHO reduces to a 1° alcohol, CH<sub>2</sub>OH. The product has a 2° alcohol carbon.",
-    "This drawing is styrene, which has no oxygen. H<sub>2</sub> would add across its C=C and could not create an –OH."
+    "This drawing is styrene, which has no oxygen. Reducing it could not create an –OH."
    ]
   },
   "data": {
@@ -95426,7 +95426,7 @@
     "§D"
    ],
    "hint": "Aldehydes oxidize easily: the –CHO carbon gains an O and becomes –COOH. Keep every carbon and branch.",
-   "explain": "The H on the CHO carbon is replaced by OH, giving <b>3-methylbutanoic acid</b>. 3-Methyl-1-butanol is the reduction product (H<sub>2</sub>), the opposite reaction. The ketone, 3-methyl-2-butanone, moves the C=O to a different carbon, and 2-methylpropanoic acid has lost a carbon.",
+   "explain": "The H on the CHO carbon is replaced by OH, giving <b>3-methylbutanoic acid</b>. 3-Methyl-1-butanol is the reduction product ([H]), the opposite reaction. The ketone, 3-methyl-2-butanone, moves the C=O to a different carbon, and 2-methylpropanoic acid has lost a carbon.",
    "why": [
     "",
     "This drawing is 3-methyl-1-butanol, the reduction product. [O] means oxidation.",
@@ -99563,13 +99563,13 @@
     "§C",
     "§D"
    ],
-   "hint": "H<sub>2</sub> adds one H to the C and one H to the O of the C=O.",
+   "hint": "[H] adds one H to the C and one H to the O of the C=O.",
    "explain": "The aldehyde –CHO becomes –CH<sub>2</sub>OH, a 1° alcohol: <b>3-phenyl-1-propanol</b>. 3-Phenylpropanoic acid is the oxidation product, the opposite reaction. 1-Phenyl-2-propanol has the OH on the wrong carbon, and propylbenzene has lost the oxygen.",
    "why": [
     "",
-    "This drawing is 3-phenylpropanoic acid, the oxidation product. H<sub>2</sub> is a reducing agent.",
+    "This drawing is 3-phenylpropanoic acid, the oxidation product. [H] is a reducing agent.",
     "This drawing puts the OH on the middle carbon of the chain. Reduction keeps the oxygen on the carbon that held the C=O, the end carbon.",
-    "This drawing is propylbenzene: the oxygen is gone. H<sub>2</sub> adds across the C=O; it does not remove oxygen."
+    "This drawing is propylbenzene: the oxygen is gone. [H] adds H atoms across the C=O; it does not remove oxygen."
    ]
   },
   "data": {
@@ -168401,7 +168401,7 @@
    "That describes oxidation with a mild oxidizing agent. H₂ with a Ni catalyst reduces both aldehydes and ketones."
   ],
   "html": {
-   "prompt": "Butanal, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CHO, and butanone, CH<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub>, are each reduced with H<sub>2</sub> and a Ni catalyst. Which pair of products forms?",
+   "prompt": "Butanal, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CHO, and butanone, CH<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub>, are each reduced with [H] (a reducing agent). Which pair of products forms?",
    "choices": [
     "butanal → 1-butanol (1°); butanone → 2-butanol (2°)",
     "butanal → 2-butanol (2°); butanone → 1-butanol (1°)",
@@ -168409,12 +168409,12 @@
     "butanal → butanoic acid; butanone → no reaction"
    ],
    "hint": "Reduction turns the C=O into CH–OH on the same carbon. Where is the C=O in each compound?",
-   "explain": "Reduction adds H<sub>2</sub> across the C=O, so the –OH ends up on the carbon that held the C=O. The aldehyde carbon is at the end of the chain, giving a 1° alcohol; the ketone carbon is in the chain, giving a 2° alcohol: <b>1-butanol and 2-butanol</b>.",
+   "explain": "Reduction adds two H atoms across the C=O, so the –OH ends up on the carbon that held the C=O. The aldehyde carbon is at the end of the chain, giving a 1° alcohol; the ketone carbon is in the chain, giving a 2° alcohol: <b>1-butanol and 2-butanol</b>.",
    "why": [
     null,
     "This swaps the two. The aldehyde's C=O is on the end carbon, so it gives the 1° alcohol.",
     "Butanone's C=O is on carbon 2, so its –OH ends up on carbon 2 as well, giving 2-butanol.",
-    "That describes oxidation with a mild oxidizing agent. H<sub>2</sub> with a Ni catalyst reduces both aldehydes and ketones."
+    "That describes oxidation with a mild oxidizing agent. [H] reduces both aldehydes and ketones."
    ]
   },
   "from": {
@@ -182715,7 +182715,7 @@
     null,
     "This has the two roles reversed. Going from Cu<sup>2+</sup> to the Cu<sup>+</sup> in Cu<sub>2</sub>O is a gain of electrons, which is reduction, so the sugar must be the one oxidized.",
     "Two things cannot both be oxidized; one must be reduced. The reagent starts as Cu<sup>2+</sup> (blue) and ends as copper(I).",
-    "Sorbitol comes from reducing glucose with H<sub>2</sub> and a metal catalyst. The red solid is proof that the copper did change."
+    "Sorbitol comes from reducing glucose with [H]. The red solid is proof that the copper did change."
    ]
   },
   "from": {
@@ -182810,20 +182810,20 @@
    "Oxidizing both ends needs a strong oxidizing agent and gives an aldaric acid (ending -aric). Adding H₂ never makes a –COOH group."
   ],
   "html": {
-   "prompt": "Mannitol is made from the aldohexose mannose by reaction with H<sub>2</sub> and a metal catalyst. What change takes place?",
+   "prompt": "Mannitol is made from the aldohexose mannose by reaction with [H] (a reducing agent). What change takes place?",
    "choices": [
     "The –CHO group at C1 is reduced to –CH<sub>2</sub>OH, giving a sugar alcohol",
     "The –CHO group at C1 is oxidized to –COOH, giving an aldonic acid",
     "The –CH<sub>2</sub>OH group at C6 is oxidized to –COOH, giving a uronic acid",
     "Both ends of the chain are oxidized to –COOH, giving an aldaric acid"
    ],
-   "hint": "Look at the name ending -itol and at the reagent. Is H<sub>2</sub> with a metal catalyst an oxidation or a reduction?",
-   "explain": "H<sub>2</sub> with a metal catalyst is a reduction. It turns the aldehyde C=O into an alcohol, so <b>mannose becomes mannitol, a sugar alcohol (alditol)</b> with an –OH on every carbon.",
+   "hint": "Look at the name ending -itol and at the reagent. Is [H] an oxidation or a reduction?",
+   "explain": "[H] stands for a reducing agent. It turns the aldehyde C=O into an alcohol, so <b>mannose becomes mannitol, a sugar alcohol (alditol)</b> with an –OH on every carbon.",
    "why": [
     null,
-    "Oxidizing C1 would give mannonic acid (ending -onic). That needs a mild oxidizing agent such as Benedict's reagent, not H<sub>2</sub>.",
+    "Oxidizing C1 would give mannonic acid (ending -onic). That needs a mild oxidizing agent such as Benedict's reagent, not [H].",
     "Oxidizing only C6 gives a uronic acid (ending -uronic). The ending -itol marks a reduction product.",
-    "Oxidizing both ends needs a strong oxidizing agent and gives an aldaric acid (ending -aric). Adding H<sub>2</sub> never makes a –COOH group."
+    "Oxidizing both ends needs a strong oxidizing agent and gives an aldaric acid (ending -aric). Adding H atoms never makes a –COOH group."
    ]
   },
   "from": {
