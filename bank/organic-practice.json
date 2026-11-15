@@ -1,6 +1,6 @@
 [
  {
-  "id": "organic-41d23da0",
+  "id": "organic-180e1361",
   "skill": "organic.picture-to-name",
   "courses": [
    "3B"
@@ -10,12 +10,12 @@
    "3B-2"
   ],
   "type": "mc",
-  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"52\" y1=\"113.6\" x2=\"124\" y2=\"70.4\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"124\" y1=\"70.4\" x2=\"196\" y2=\"113.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"196\" y1=\"113.6\" x2=\"268\" y2=\"70.4\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"160\" y=\"168\" text-anchor=\"middle\" style=\"font-size:15px;font-weight:800\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"800\">every corner is a carbon</text></svg>",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure: zig-zag chain of carbons joined only by single bonds\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"52\" y1=\"117.4556\" x2=\"124\" y2=\"66.5444\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"124\" y1=\"66.5444\" x2=\"196\" y2=\"117.4556\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"196\" y1=\"117.4556\" x2=\"268\" y2=\"66.5444\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"160\" y=\"168\" text-anchor=\"middle\" style=\"font-size:15px;font-weight:800\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"800\">every corner is a carbon</text></svg>",
   "choices": [
-   "Alkene",
    "Alkane",
    "Aromatic (arene)",
-   "Alkyne"
+   "Alkyne",
+   "Alkene"
   ],
   "answer": "Alkane",
   "hint": "No double bonds, no O, N, S or halogen anywhere.",
@@ -27,10 +27,10 @@
    "index": 0
   },
   "why": [
-   "Alkene needs a C=C double bond.",
    "",
    "Aromatic (arene) needs a benzene ring.",
-   "Alkyne needs a C≡C triple bond."
+   "Alkyne needs a C≡C triple bond.",
+   "Alkene needs a C=C double bond."
   ]
  },
  {
@@ -46,10 +46,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></div>",
   "choices": [
+   "Alkene",
    "Alkane",
    "Aromatic (arene)",
-   "Alkyne",
-   "Alkene"
+   "Alkyne"
   ],
   "answer": "Alkane",
   "hint": "This compound is butane. No double bonds, no O, N, S or halogen anywhere.",
@@ -61,10 +61,10 @@
    "index": 0
   },
   "why": [
+   "Alkene needs a C=C double bond. This compound has only C–C and C–H single bonds.",
    "",
    "Aromatic (arene) needs a benzene ring. This compound has only C–C and C–H single bonds.",
-   "Alkyne needs a C≡C triple bond. This compound has only C–C and C–H single bonds.",
-   "Alkene needs a C=C double bond. This compound has only C–C and C–H single bonds."
+   "Alkyne needs a C≡C triple bond. This compound has only C–C and C–H single bonds."
   ]
  },
  {
@@ -80,8 +80,8 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>4</sub></div>",
   "choices": [
-   "Aromatic (arene)",
    "Alkene",
+   "Aromatic (arene)",
    "Alkane",
    "Alkyne"
   ],
@@ -95,8 +95,8 @@
    "index": 1
   },
   "why": [
-   "Aromatic (arene) needs a benzene ring. This compound has only C–C and C–H single bonds.",
    "Alkene needs a C=C double bond. This compound has only C–C and C–H single bonds.",
+   "Aromatic (arene) needs a benzene ring. This compound has only C–C and C–H single bonds.",
    "",
    "Alkyne needs a C≡C triple bond. This compound has only C–C and C–H single bonds."
   ]
@@ -114,8 +114,8 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>3</sub></div>",
   "choices": [
-   "Aromatic (arene)",
    "Alkyne",
+   "Aromatic (arene)",
    "Alkane",
    "Alkene"
   ],
@@ -129,14 +129,14 @@
    "index": 2
   },
   "why": [
-   "Aromatic (arene) needs a benzene ring. This compound has only C–C and C–H single bonds.",
    "Alkyne needs a C≡C triple bond. This compound has only C–C and C–H single bonds.",
+   "Aromatic (arene) needs a benzene ring. This compound has only C–C and C–H single bonds.",
    "",
    "Alkene needs a C=C double bond. This compound has only C–C and C–H single bonds."
   ]
  },
  {
-  "id": "organic-90ab1822",
+  "id": "organic-57e5e5ba",
   "skill": "organic.picture-to-name",
   "courses": [
    "3B"
@@ -146,12 +146,12 @@
    "3B-2"
   ],
   "type": "mc",
-  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"52\" y1=\"113.6\" x2=\"124\" y2=\"70.4\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"126.57247877713763\" y1=\"66.11253537143729\" x2=\"198.57247877713763\" y2=\"109.31253537143728\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"121.42752122286237\" y1=\"74.68746462856272\" x2=\"193.42752122286237\" y2=\"117.88746462856271\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"196\" y1=\"113.6\" x2=\"268\" y2=\"70.4\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"160\" y=\"168\" text-anchor=\"middle\" style=\"font-size:15px;font-weight:800\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"800\">every corner is a carbon</text></svg>",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure: zig-zag chain of carbons with a C=C double bond in the middle\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"52\" y1=\"112.78496\" x2=\"124\" y2=\"71.21504\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"126.50003160153395\" y1=\"66.8849312263857\" x2=\"198.50003160153395\" y2=\"108.4548512263857\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"121.49996839846605\" y1=\"75.5451487736143\" x2=\"193.49996839846605\" y2=\"117.1150687736143\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"196\" y1=\"112.78496\" x2=\"268\" y2=\"71.21504\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"160\" y=\"168\" text-anchor=\"middle\" style=\"font-size:15px;font-weight:800\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"800\">every corner is a carbon</text></svg>",
   "choices": [
-   "Alkene",
    "Alkyne",
    "Alkane",
-   "Aromatic (arene)"
+   "Aromatic (arene)",
+   "Alkene"
   ],
   "answer": "Alkene",
   "hint": "Look for two lines between two carbons (no O, N or S).",
@@ -163,10 +163,10 @@
    "index": 1
   },
   "why": [
-   "",
    "Alkyne needs a C≡C triple bond.",
    "Alkane needs only C–C and C–H single bonds.",
-   "Aromatic (arene) needs a benzene ring."
+   "Aromatic (arene) needs a benzene ring.",
+   ""
   ]
  },
  {
@@ -184,8 +184,8 @@
   "choices": [
    "Alkyne",
    "Alkene",
-   "Alkane",
-   "Aromatic (arene)"
+   "Aromatic (arene)",
+   "Alkane"
   ],
   "answer": "Alkene",
   "hint": "This compound is ethene (ethylene). Look for two lines between two carbons (no O, N or S).",
@@ -199,8 +199,8 @@
   "why": [
    "Alkyne needs a C≡C triple bond. This compound has a C=C double bond.",
    "",
-   "Alkane needs only C–C and C–H single bonds. This compound has a C=C double bond.",
-   "Aromatic (arene) needs a benzene ring. This compound has a C=C double bond."
+   "Aromatic (arene) needs a benzene ring. This compound has a C=C double bond.",
+   "Alkane needs only C–C and C–H single bonds. This compound has a C=C double bond."
   ]
  },
  {
@@ -216,10 +216,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH=CH<sub>2</sub></div>",
   "choices": [
+   "Alkane",
    "Alkyne",
    "Aromatic (arene)",
-   "Alkene",
-   "Alkane"
+   "Alkene"
   ],
   "answer": "Alkene",
   "hint": "This compound is propene. Look for two lines between two carbons (no O, N or S).",
@@ -231,14 +231,14 @@
    "index": 4
   },
   "why": [
+   "Alkane needs only C–C and C–H single bonds. This compound has a C=C double bond.",
    "Alkyne needs a C≡C triple bond. This compound has a C=C double bond.",
    "Aromatic (arene) needs a benzene ring. This compound has a C=C double bond.",
-   "",
-   "Alkane needs only C–C and C–H single bonds. This compound has a C=C double bond."
+   ""
   ]
  },
  {
-  "id": "organic-85202c35",
+  "id": "organic-463fb9e0",
   "skill": "organic.picture-to-name",
   "courses": [
    "3B"
@@ -248,12 +248,12 @@
    "3B-2"
   ],
   "type": "mc",
-  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"67\" y1=\"92\" x2=\"109\" y2=\"92\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"139\" y1=\"84\" x2=\"181\" y2=\"84\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"139\" y1=\"92\" x2=\"181\" y2=\"92\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"139\" y1=\"100\" x2=\"181\" y2=\"100\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"211\" y1=\"92\" x2=\"252\" y2=\"92\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"52\" y=\"101\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"124\" y=\"101\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"196\" y=\"101\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"258.609375\" y=\"101\" text-anchor=\"start\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R′</tspan></text></svg>",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure: R–C≡C–R′, a straight C≡C triple bond\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"67\" y1=\"92\" x2=\"109\" y2=\"92\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"139\" y1=\"84\" x2=\"181\" y2=\"84\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"139\" y1=\"92\" x2=\"181\" y2=\"92\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"139\" y1=\"100\" x2=\"181\" y2=\"100\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"211\" y1=\"92\" x2=\"252\" y2=\"92\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"52\" y=\"101\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"124\" y=\"101\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"196\" y=\"101\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"258.609375\" y=\"101\" text-anchor=\"start\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R′</tspan></text></svg>",
   "choices": [
-   "Alkene",
-   "Alkyne",
    "Aromatic (arene)",
-   "Alkane"
+   "Alkane",
+   "Alkyne",
+   "Alkene"
   ],
   "answer": "Alkyne",
   "hint": "Three lines between two carbons; that part is straight (180°).",
@@ -265,10 +265,10 @@
    "index": 2
   },
   "why": [
-   "Alkene needs a C=C double bond.",
-   "",
    "Aromatic (arene) needs a benzene ring.",
-   "Alkane needs only C–C and C–H single bonds."
+   "Alkane needs only C–C and C–H single bonds.",
+   "",
+   "Alkene needs a C=C double bond."
   ]
  },
  {
@@ -284,8 +284,8 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">HC≡CH</div>",
   "choices": [
-   "Alkene",
    "Aromatic (arene)",
+   "Alkene",
    "Alkane",
    "Alkyne"
   ],
@@ -299,8 +299,8 @@
    "index": 5
   },
   "why": [
-   "Alkene needs a C=C double bond. This compound has a C≡C triple bond.",
    "Aromatic (arene) needs a benzene ring. This compound has a C≡C triple bond.",
+   "Alkene needs a C=C double bond. This compound has a C≡C triple bond.",
    "Alkane needs only C–C and C–H single bonds. This compound has a C≡C triple bond.",
    ""
   ]
@@ -318,10 +318,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>C≡CH</div>",
   "choices": [
-   "Alkane",
-   "Alkyne",
    "Aromatic (arene)",
-   "Alkene"
+   "Alkene",
+   "Alkane",
+   "Alkyne"
   ],
   "answer": "Alkyne",
   "hint": "This compound is propyne. Three lines between two carbons; that part is straight (180°).",
@@ -333,14 +333,14 @@
    "index": 6
   },
   "why": [
-   "Alkane needs only C–C and C–H single bonds. This compound has a C≡C triple bond.",
-   "",
    "Aromatic (arene) needs a benzene ring. This compound has a C≡C triple bond.",
-   "Alkene needs a C=C double bond. This compound has a C≡C triple bond."
+   "Alkene needs a C=C double bond. This compound has a C≡C triple bond.",
+   "Alkane needs only C–C and C–H single bonds. This compound has a C≡C triple bond.",
+   ""
   ]
  },
  {
-  "id": "organic-ea6c57d2",
+  "id": "organic-e48e5f99",
   "skill": "organic.picture-to-name",
   "courses": [
    "3B"
@@ -350,11 +350,11 @@
    "3B-3"
   ],
   "type": "mc",
-  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"160,36 208.49742261192858,64 208.49742261192858,120 160,148 111.50257738807143,120 111.50257738807144,63.99999999999999\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></polygon><line x1=\"161.93989690447714\" y1=\"52.800000000000004\" x2=\"192.97824737611145\" y2=\"70.72\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"192.97824737611145\" y1=\"113.28\" x2=\"161.93989690447714\" y2=\"131.2\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"125.08185571941144\" y1=\"109.92\" x2=\"125.08185571941144\" y2=\"74.08\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></svg>",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure: six-carbon ring with three alternating double bonds\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"160,36 208.49742261192858,64 208.49742261192858,120 160,148 111.50257738807143,120 111.50257738807144,63.99999999999999\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></polygon><line x1=\"161.93989690447714\" y1=\"52.800000000000004\" x2=\"192.97824737611145\" y2=\"70.72\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"192.97824737611145\" y1=\"113.28\" x2=\"161.93989690447714\" y2=\"131.2\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"125.08185571941144\" y1=\"109.92\" x2=\"125.08185571941144\" y2=\"74.08\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></svg>",
   "choices": [
+   "Alkane",
    "Alkyne",
    "Aromatic (arene)",
-   "Alkane",
    "Alkene"
   ],
   "answer": "Aromatic (arene)",
@@ -367,9 +367,9 @@
    "index": 3
   },
   "why": [
+   "Alkane needs only C–C and C–H single bonds.",
    "Alkyne needs a C≡C triple bond.",
    "",
-   "Alkane needs only C–C and C–H single bonds.",
    "Alkene needs a C=C double bond."
   ]
  },
@@ -387,9 +387,9 @@
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">C<sub>6</sub>H<sub>6</sub></div>",
   "choices": [
    "Alkene",
+   "Aromatic (arene)",
    "Alkyne",
-   "Alkane",
-   "Aromatic (arene)"
+   "Alkane"
   ],
   "answer": "Aromatic (arene)",
   "hint": "This compound is benzene. A hexagon with three double bonds (or a circle inside).",
@@ -402,9 +402,9 @@
   },
   "why": [
    "Alkene needs a C=C double bond. This compound has a benzene ring.",
+   "",
    "Alkyne needs a C≡C triple bond. This compound has a benzene ring.",
-   "Alkane needs only C–C and C–H single bonds. This compound has a benzene ring.",
-   ""
+   "Alkane needs only C–C and C–H single bonds. This compound has a benzene ring."
   ]
  },
  {
@@ -420,9 +420,9 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">C<sub>6</sub>H<sub>5</sub>CH<sub>3</sub></div>",
   "choices": [
+   "Alkene",
    "Aromatic (arene)",
    "Alkyne",
-   "Alkene",
    "Alkane"
   ],
   "answer": "Aromatic (arene)",
@@ -435,14 +435,14 @@
    "index": 8
   },
   "why": [
+   "Alkene needs a C=C double bond. This compound has a benzene ring.",
    "",
    "Alkyne needs a C≡C triple bond. This compound has a benzene ring.",
-   "Alkene needs a C=C double bond. This compound has a benzene ring.",
    "Alkane needs only C–C and C–H single bonds. This compound has a benzene ring."
   ]
  },
  {
-  "id": "organic-70056dd5",
+  "id": "organic-0cd3a80e",
   "skill": "organic.picture-to-name",
   "courses": [
    "3B"
@@ -452,12 +452,12 @@
    "3B-2"
   ],
   "type": "mc",
-  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"139\" y1=\"92\" x2=\"181\" y2=\"92\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"124\" y=\"101\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"196\" y=\"101\" text-anchor=\"middle\" fill=\"#3a9d4a\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>X</tspan></text><circle cx=\"220\" cy=\"87\" r=\"3.2\" fill=\"#3a9d4a\" stroke=\"none\"></circle><circle cx=\"220\" cy=\"97\" r=\"3.2\" fill=\"#3a9d4a\" stroke=\"none\"></circle><circle cx=\"191\" cy=\"68\" r=\"3.2\" fill=\"#3a9d4a\" stroke=\"none\"></circle><circle cx=\"201\" cy=\"68\" r=\"3.2\" fill=\"#3a9d4a\" stroke=\"none\"></circle><circle cx=\"201\" cy=\"116\" r=\"3.2\" fill=\"#3a9d4a\" stroke=\"none\"></circle><circle cx=\"191\" cy=\"116\" r=\"3.2\" fill=\"#3a9d4a\" stroke=\"none\"></circle><text x=\"160\" y=\"168\" text-anchor=\"middle\" style=\"font-size:15px;font-weight:800\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"800\">X = F, Cl, Br or I</text></svg>",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure: R–X, where X = F, Cl, Br or I\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"139\" y1=\"92\" x2=\"181\" y2=\"92\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"124\" y=\"101\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"196\" y=\"101\" text-anchor=\"middle\" fill=\"#3a9d4a\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>X</tspan></text><circle cx=\"220\" cy=\"87\" r=\"3.2\" fill=\"#3a9d4a\" stroke=\"none\"></circle><circle cx=\"220\" cy=\"97\" r=\"3.2\" fill=\"#3a9d4a\" stroke=\"none\"></circle><circle cx=\"191\" cy=\"68\" r=\"3.2\" fill=\"#3a9d4a\" stroke=\"none\"></circle><circle cx=\"201\" cy=\"68\" r=\"3.2\" fill=\"#3a9d4a\" stroke=\"none\"></circle><circle cx=\"201\" cy=\"116\" r=\"3.2\" fill=\"#3a9d4a\" stroke=\"none\"></circle><circle cx=\"191\" cy=\"116\" r=\"3.2\" fill=\"#3a9d4a\" stroke=\"none\"></circle><text x=\"160\" y=\"168\" text-anchor=\"middle\" style=\"font-size:15px;font-weight:800\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"800\">X = F, Cl, Br or I</text></svg>",
   "choices": [
-   "Haloalkane (alkyl halide)",
-   "Aromatic (arene)",
-   "Amide",
-   "Carboxylic acid"
+   "Alkene",
+   "Thiol",
+   "Disulfide",
+   "Haloalkane (alkyl halide)"
   ],
   "answer": "Haloalkane (alkyl halide)",
   "hint": "Find F, Cl, Br or I bonded to carbon.",
@@ -469,10 +469,10 @@
    "index": 4
   },
   "why": [
-   "",
-   "Aromatic (arene) needs a benzene ring.",
-   "Amide needs a C=O bonded directly to N (–CON).",
-   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH)."
+   "Alkene needs a C=C double bond.",
+   "Thiol needs an –SH on a carbon.",
+   "Disulfide needs two S bonded to each other (C–S–S–C).",
+   ""
   ]
  },
  {
@@ -488,10 +488,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CHCl<sub>3</sub></div>",
   "choices": [
-   "Alkyne",
-   "Aldehyde",
    "Haloalkane (alkyl halide)",
-   "Amide"
+   "Ether",
+   "Ester",
+   "Carboxylic acid"
   ],
   "answer": "Haloalkane (alkyl halide)",
   "hint": "This compound is chloroform. Find F, Cl, Br or I bonded to carbon.",
@@ -503,10 +503,10 @@
    "index": 9
   },
   "why": [
-   "Alkyne needs a C≡C triple bond. This compound has a halogen (F, Cl, Br, I) on a carbon.",
-   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a halogen (F, Cl, Br, I) on a carbon.",
    "",
-   "Amide needs a C=O bonded directly to N (–CON). This compound has a halogen (F, Cl, Br, I) on a carbon."
+   "Ether needs an O between two carbons (C–O–C). This compound has a halogen (F, Cl, Br, I) on a carbon.",
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a halogen (F, Cl, Br, I) on a carbon.",
+   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH). This compound has a halogen (F, Cl, Br, I) on a carbon."
   ]
  },
  {
@@ -522,10 +522,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>Cl</div>",
   "choices": [
-   "Aromatic (arene)",
-   "Alkane",
+   "Ketone",
+   "Amine",
    "Haloalkane (alkyl halide)",
-   "Amide"
+   "Alkyne"
   ],
   "answer": "Haloalkane (alkyl halide)",
   "hint": "This compound is chloromethane. Find F, Cl, Br or I bonded to carbon.",
@@ -537,10 +537,10 @@
    "index": 10
   },
   "why": [
-   "Aromatic (arene) needs a benzene ring. This compound has a halogen (F, Cl, Br, I) on a carbon.",
-   "Alkane needs only C–C and C–H single bonds. This compound has a halogen (F, Cl, Br, I) on a carbon.",
+   "Ketone needs a C=O with carbons on both sides. This compound has a halogen (F, Cl, Br, I) on a carbon.",
+   "Amine needs an N with only single bonds to C and H. This compound has a halogen (F, Cl, Br, I) on a carbon.",
    "",
-   "Amide needs a C=O bonded directly to N (–CON). This compound has a halogen (F, Cl, Br, I) on a carbon."
+   "Alkyne needs a C≡C triple bond. This compound has a halogen (F, Cl, Br, I) on a carbon."
   ]
  },
  {
@@ -556,10 +556,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CF<sub>3</sub>CHClBr</div>",
   "choices": [
-   "Aromatic (arene)",
-   "Thiol",
-   "Disulfide",
-   "Haloalkane (alkyl halide)"
+   "Amine",
+   "Haloalkane (alkyl halide)",
+   "Alkane",
+   "Disulfide"
   ],
   "answer": "Haloalkane (alkyl halide)",
   "hint": "This compound is halothane. Find F, Cl, Br or I bonded to carbon.",
@@ -571,14 +571,14 @@
    "index": 11
   },
   "why": [
-   "Aromatic (arene) needs a benzene ring. This compound has a halogen (F, Cl, Br, I) on a carbon.",
-   "Thiol needs an –SH on a carbon. This compound has a halogen (F, Cl, Br, I) on a carbon.",
-   "Disulfide needs two S bonded to each other (C–S–S–C). This compound has a halogen (F, Cl, Br, I) on a carbon.",
-   ""
+   "Amine needs an N with only single bonds to C and H. This compound has a halogen (F, Cl, Br, I) on a carbon.",
+   "",
+   "Alkane needs only C–C and C–H single bonds. This compound has a halogen (F, Cl, Br, I) on a carbon.",
+   "Disulfide needs two S bonded to each other (C–S–S–C). This compound has a halogen (F, Cl, Br, I) on a carbon."
   ]
  },
  {
-  "id": "organic-0b58c0a5",
+  "id": "organic-67644785",
   "skill": "organic.picture-to-name",
   "courses": [
    "3B"
@@ -588,12 +588,12 @@
    "3B-4"
   ],
   "type": "mc",
-  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"101.41640786499873\" y1=\"103.29179606750063\" x2=\"146.58359213500125\" y2=\"80.70820393249937\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"173.41640786499875\" y1=\"80.70820393249937\" x2=\"218.58359213500125\" y2=\"103.29179606750063\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"119\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"83\" text-anchor=\"middle\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"232\" y=\"119\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>H</tspan></text><circle cx=\"136.71539030917347\" cy=\"66.33012701892218\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"141.71539030917347\" cy=\"57.6698729810778\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"178.28460969082653\" cy=\"57.66987298107781\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"183.28460969082653\" cy=\"66.3301270189222\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle></svg>",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure: R–O–H\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"100.24748786511468\" y1=\"108.79540133057742\" x2=\"147.75251213488534\" y2=\"75.20459866942258\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"172.24748786511466\" y1=\"75.20459866942258\" x2=\"219.75251213488534\" y2=\"108.79540133057742\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"126.4556\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"75.5444\" text-anchor=\"middle\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"232\" y=\"126.4556\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>H</tspan></text><circle cx=\"136.71539030917347\" cy=\"58.87452701892219\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"141.71539030917347\" cy=\"50.214272981077805\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"178.28460969082653\" cy=\"50.2142729810778\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"183.28460969082653\" cy=\"58.87452701892218\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle></svg>",
   "choices": [
-   "Alkane",
-   "Ether",
+   "Phenol",
+   "Thiol",
    "Alcohol",
-   "Thiol"
+   "Ether"
   ],
   "answer": "Alcohol",
   "hint": "O–H attached to a carbon that is NOT a C=O.",
@@ -603,13 +603,7 @@
    "game": "organic",
    "list": "sample:picture-to-name",
    "index": 5
-  },
-  "why": [
-   "Alkane needs only C–C and C–H single bonds.",
-   "Ether needs an O between two carbons (C–O–C).",
-   "",
-   "Thiol needs an –SH on a carbon."
-  ]
+  }
  },
  {
   "id": "organic-58a8539c",
@@ -624,10 +618,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH<sub>2</sub>OH</div>",
   "choices": [
-   "Ether",
+   "Phenol",
+   "Thiol",
    "Alcohol",
-   "Amine",
-   "Thiol"
+   "Ether"
   ],
   "answer": "Alcohol",
   "hint": "This compound is ethanol. O–H attached to a carbon that is NOT a C=O.",
@@ -637,13 +631,7 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 12
-  },
-  "why": [
-   "Ether needs an O between two carbons (C–O–C). This compound has an –OH on a carbon with only single bonds.",
-   "",
-   "Amine needs an N with only single bonds to C and H. This compound has an –OH on a carbon with only single bonds.",
-   "Thiol needs an –SH on a carbon. This compound has an –OH on a carbon with only single bonds."
-  ]
+  }
  },
  {
   "id": "organic-cc06bc97",
@@ -658,10 +646,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH(OH)CH<sub>3</sub></div>",
   "choices": [
+   "Alcohol",
    "Thiol",
-   "Disulfide",
    "Ether",
-   "Alcohol"
+   "Phenol"
   ],
   "answer": "Alcohol",
   "hint": "This compound is 2-propanol (isopropyl alcohol). O–H attached to a carbon that is NOT a C=O.",
@@ -671,13 +659,7 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 13
-  },
-  "why": [
-   "Thiol needs an –SH on a carbon. This compound has an –OH on a carbon with only single bonds.",
-   "Disulfide needs two S bonded to each other (C–S–S–C). This compound has an –OH on a carbon with only single bonds.",
-   "Ether needs an O between two carbons (C–O–C). This compound has an –OH on a carbon with only single bonds.",
-   ""
-  ]
+  }
  },
  {
   "id": "organic-2f6c047c",
@@ -693,9 +675,9 @@
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>OH</div>",
   "choices": [
    "Thiol",
+   "Ether",
    "Alcohol",
-   "Amine",
-   "Ether"
+   "Phenol"
   ],
   "answer": "Alcohol",
   "hint": "This compound is methanol. O–H attached to a carbon that is NOT a C=O.",
@@ -705,16 +687,10 @@
    "game": "organic",
    "list": "sample:real-molecules",
    "index": 14
-  },
-  "why": [
-   "Thiol needs an –SH on a carbon. This compound has an –OH on a carbon with only single bonds.",
-   "",
-   "Amine needs an N with only single bonds to C and H. This compound has an –OH on a carbon with only single bonds.",
-   "Ether needs an O between two carbons (C–O–C). This compound has an –OH on a carbon with only single bonds."
-  ]
+  }
  },
  {
-  "id": "organic-e138043c",
+  "id": "organic-53f76646",
   "skill": "organic.picture-to-name",
   "courses": [
    "3B"
@@ -724,12 +700,96 @@
    "3B-4"
   ],
   "type": "mc",
-  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"101.41640786499873\" y1=\"103.29179606750063\" x2=\"146.58359213500125\" y2=\"80.70820393249937\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"173.41640786499875\" y1=\"80.70820393249937\" x2=\"217.68916494400133\" y2=\"102.84458247200067\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"119\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"83\" text-anchor=\"middle\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"222.609375\" y=\"119\" text-anchor=\"start\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R′</tspan></text><circle cx=\"136.71539030917347\" cy=\"66.33012701892218\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"141.71539030917347\" cy=\"57.6698729810778\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"178.28460969082653\" cy=\"57.66987298107781\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"183.28460969082653\" cy=\"66.3301270189222\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle></svg>",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure: six-carbon ring with alternating double bonds and an –OH on one ring carbon\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"160,62 203.30127018922195,87 203.30127018922195,137 160,162 116.69872981077806,137 116.69872981077808,87\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></polygon><line x1=\"161.73205080756887\" y1=\"77\" x2=\"189.44486372867092\" y2=\"93\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"189.44486372867092\" y1=\"131\" x2=\"161.73205080756887\" y2=\"147\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"128.8230854637602\" y1=\"128\" x2=\"128.8230854637602\" y2=\"96\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"160\" y1=\"62\" x2=\"160\" y2=\"30\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><text x=\"151\" y=\"21\" text-anchor=\"start\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>OH</tspan></text></svg>",
   "choices": [
-   "Alkyne",
    "Ether",
+   "Phenol",
    "Alcohol",
-   "Ester"
+   "Disulfide"
+  ],
+  "answer": "Phenol",
+  "hint": "O–H on a ring carbon of a benzene ring (not on a chain carbon).",
+  "explain": "Phenol: An –OH bonded directly to a benzene ring carbon. Where you’ll meet it: Phenol was the first surgical antiseptic (1867) and is still in sore-throat sprays; tyrosine and estradiol contain phenol rings.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:picture-to-name",
+   "index": 6
+  }
+ },
+ {
+  "id": "organic-1298df4e",
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">C<sub>6</sub>H<sub>5</sub>OH</div>",
+  "choices": [
+   "Ester",
+   "Alcohol",
+   "Ether",
+   "Phenol"
+  ],
+  "answer": "Phenol",
+  "hint": "This compound is phenol. O–H on a ring carbon of a benzene ring (not on a chain carbon).",
+  "explain": "C<sub>6</sub>H<sub>5</sub>OH is phenol (throat spray antiseptic): An –OH bonded directly to a benzene ring carbon.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 15
+  }
+ },
+ {
+  "id": "organic-00ad9e40",
+  "skill": "organic.real-molecules",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">HOC<sub>6</sub>H<sub>4</sub>CH<sub>3</sub></div>",
+  "choices": [
+   "Phenol",
+   "Ether",
+   "Sulfide (thioether)",
+   "Alcohol"
+  ],
+  "answer": "Phenol",
+  "hint": "This compound is 4-methylphenol (p-cresol). O–H on a ring carbon of a benzene ring (not on a chain carbon).",
+  "explain": "HOC<sub>6</sub>H<sub>4</sub>CH<sub>3</sub> is 4-methylphenol (p-cresol) (disinfectant): An –OH bonded directly to a benzene ring carbon.",
+  "origin": "original",
+  "from": {
+   "game": "organic",
+   "list": "sample:real-molecules",
+   "index": 16
+  }
+ },
+ {
+  "id": "organic-644a3515",
+  "skill": "organic.picture-to-name",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1",
+   "3B-4"
+  ],
+  "type": "mc",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure: R–O–R′\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"100.24748786511468\" y1=\"108.79540133057742\" x2=\"147.75251213488534\" y2=\"75.20459866942258\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"172.24748786511466\" y1=\"75.20459866942258\" x2=\"218.93601294387767\" y2=\"108.21805475261591\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"126.4556\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"75.5444\" text-anchor=\"middle\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"222.609375\" y=\"126.4556\" text-anchor=\"start\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R′</tspan></text><circle cx=\"136.71539030917347\" cy=\"58.87452701892219\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"141.71539030917347\" cy=\"50.214272981077805\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"178.28460969082653\" cy=\"50.2142729810778\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"183.28460969082653\" cy=\"58.87452701892218\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle></svg>",
+  "choices": [
+   "Ether",
+   "Ester",
+   "Phenol",
+   "Alcohol"
   ],
   "answer": "Ether",
   "hint": "O with a carbon group on each side and no C=O.",
@@ -738,14 +798,8 @@
   "from": {
    "game": "organic",
    "list": "sample:picture-to-name",
-   "index": 6
-  },
-  "why": [
-   "Alkyne needs a C≡C triple bond.",
-   "",
-   "Alcohol needs an –OH on a carbon with only single bonds.",
-   "Ester needs a C=O next to an O that leads to another carbon (–COO–C)."
-  ]
+   "index": 7
+  }
  },
  {
   "id": "organic-8a9a6497",
@@ -760,10 +814,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH<sub>2</sub>OCH<sub>2</sub>CH<sub>3</sub></div>",
   "choices": [
-   "Ester",
-   "Amide",
    "Ether",
-   "Alcohol"
+   "Alcohol",
+   "Phenol",
+   "Ester"
   ],
   "answer": "Ether",
   "hint": "This compound is diethyl ether. O with a carbon group on each side and no C=O.",
@@ -772,14 +826,8 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 15
-  },
-  "why": [
-   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has an O between two carbons (C–O–C).",
-   "Amide needs a C=O bonded directly to N (–CON). This compound has an O between two carbons (C–O–C).",
-   "",
-   "Alcohol needs an –OH on a carbon with only single bonds. This compound has an O between two carbons (C–O–C)."
-  ]
+   "index": 17
+  }
  },
  {
   "id": "organic-122fc800",
@@ -794,10 +842,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>OCH<sub>3</sub></div>",
   "choices": [
-   "Thiol",
-   "Ether",
+   "Ester",
    "Alcohol",
-   "Ester"
+   "Ether",
+   "Phenol"
   ],
   "answer": "Ether",
   "hint": "This compound is dimethyl ether. O with a carbon group on each side and no C=O.",
@@ -806,17 +854,11 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 16
-  },
-  "why": [
-   "Thiol needs an –SH on a carbon. This compound has an O between two carbons (C–O–C).",
-   "",
-   "Alcohol needs an –OH on a carbon with only single bonds. This compound has an O between two carbons (C–O–C).",
-   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has an O between two carbons (C–O–C)."
-  ]
+   "index": 18
+  }
  },
  {
-  "id": "organic-7bbaeea4",
+  "id": "organic-c813ca6e",
   "skill": "organic.picture-to-name",
   "courses": [
    "3B"
@@ -826,12 +868,12 @@
    "3B-4"
   ],
   "type": "mc",
-  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"101.41640786499873\" y1=\"103.29179606750063\" x2=\"146.58359213500125\" y2=\"80.70820393249937\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"173.41640786499875\" y1=\"80.70820393249937\" x2=\"218.58359213500125\" y2=\"103.29179606750063\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"119\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"83\" text-anchor=\"middle\" fill=\"#c98a00\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>S</tspan></text><text x=\"232\" y=\"119\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>H</tspan></text><circle cx=\"136.71539030917347\" cy=\"66.33012701892218\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"141.71539030917347\" cy=\"57.6698729810778\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"178.28460969082653\" cy=\"57.66987298107781\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"183.28460969082653\" cy=\"66.3301270189222\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle></svg>",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure: R–S–H\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"100.24748786511468\" y1=\"108.79540133057742\" x2=\"147.75251213488534\" y2=\"75.20459866942258\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"172.24748786511466\" y1=\"75.20459866942258\" x2=\"219.75251213488534\" y2=\"108.79540133057742\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"126.4556\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"75.5444\" text-anchor=\"middle\" fill=\"#c98a00\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>S</tspan></text><text x=\"232\" y=\"126.4556\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>H</tspan></text><circle cx=\"136.71539030917347\" cy=\"58.87452701892219\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"141.71539030917347\" cy=\"50.214272981077805\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"178.28460969082653\" cy=\"50.2142729810778\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"183.28460969082653\" cy=\"58.87452701892218\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle></svg>",
   "choices": [
-   "Thiol",
-   "Disulfide",
    "Alcohol",
-   "Sulfide (thioether)"
+   "Sulfide (thioether)",
+   "Disulfide",
+   "Thiol"
   ],
   "answer": "Thiol",
   "hint": "S–H attached to carbon.",
@@ -840,13 +882,13 @@
   "from": {
    "game": "organic",
    "list": "sample:picture-to-name",
-   "index": 7
+   "index": 8
   },
   "why": [
-   "",
-   "Disulfide needs two S bonded to each other (C–S–S–C).",
    "Alcohol needs an –OH on a carbon with only single bonds.",
-   "Sulfide (thioether) needs an S between two carbons (C–S–C)."
+   "Sulfide (thioether) needs an S between two carbons (C–S–C).",
+   "Disulfide needs two S bonded to each other (C–S–S–C).",
+   ""
   ]
  },
  {
@@ -862,10 +904,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH<sub>2</sub>SH</div>",
   "choices": [
-   "Alcohol",
+   "Sulfide (thioether)",
    "Thiol",
    "Disulfide",
-   "Sulfide (thioether)"
+   "Alcohol"
   ],
   "answer": "Thiol",
   "hint": "This compound is ethanethiol. S–H attached to carbon.",
@@ -874,13 +916,13 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 17
+   "index": 19
   },
   "why": [
-   "Alcohol needs an –OH on a carbon with only single bonds. This compound has an –SH on a carbon.",
+   "Sulfide (thioether) needs an S between two carbons (C–S–C). This compound has an –SH on a carbon.",
    "",
    "Disulfide needs two S bonded to each other (C–S–S–C). This compound has an –SH on a carbon.",
-   "Sulfide (thioether) needs an S between two carbons (C–S–C). This compound has an –SH on a carbon."
+   "Alcohol needs an –OH on a carbon with only single bonds. This compound has an –SH on a carbon."
   ]
  },
  {
@@ -896,9 +938,9 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>SH</div>",
   "choices": [
-   "Disulfide",
-   "Sulfide (thioether)",
    "Alcohol",
+   "Sulfide (thioether)",
+   "Disulfide",
    "Thiol"
   ],
   "answer": "Thiol",
@@ -908,17 +950,17 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 18
+   "index": 20
   },
   "why": [
-   "Disulfide needs two S bonded to each other (C–S–S–C). This compound has an –SH on a carbon.",
-   "Sulfide (thioether) needs an S between two carbons (C–S–C). This compound has an –SH on a carbon.",
    "Alcohol needs an –OH on a carbon with only single bonds. This compound has an –SH on a carbon.",
+   "Sulfide (thioether) needs an S between two carbons (C–S–C). This compound has an –SH on a carbon.",
+   "Disulfide needs two S bonded to each other (C–S–S–C). This compound has an –SH on a carbon.",
    ""
   ]
  },
  {
-  "id": "organic-25608425",
+  "id": "organic-477b50aa",
   "skill": "organic.picture-to-name",
   "courses": [
    "3B"
@@ -928,12 +970,12 @@
    "3B-4"
   ],
   "type": "mc",
-  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"101.41640786499873\" y1=\"103.29179606750063\" x2=\"146.58359213500125\" y2=\"80.70820393249937\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"173.41640786499875\" y1=\"80.70820393249937\" x2=\"217.68916494400133\" y2=\"102.84458247200067\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"119\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"83\" text-anchor=\"middle\" fill=\"#c98a00\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>S</tspan></text><text x=\"222.609375\" y=\"119\" text-anchor=\"start\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R′</tspan></text><circle cx=\"136.71539030917347\" cy=\"66.33012701892218\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"141.71539030917347\" cy=\"57.6698729810778\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"178.28460969082653\" cy=\"57.66987298107781\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"183.28460969082653\" cy=\"66.3301270189222\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle></svg>",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure: R–S–R′\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"100.24748786511468\" y1=\"108.79540133057742\" x2=\"147.75251213488534\" y2=\"75.20459866942258\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"172.24748786511466\" y1=\"75.20459866942258\" x2=\"218.93601294387767\" y2=\"108.21805475261591\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"126.4556\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"75.5444\" text-anchor=\"middle\" fill=\"#c98a00\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>S</tspan></text><text x=\"222.609375\" y=\"126.4556\" text-anchor=\"start\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R′</tspan></text><circle cx=\"136.71539030917347\" cy=\"58.87452701892219\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"141.71539030917347\" cy=\"50.214272981077805\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"178.28460969082653\" cy=\"50.2142729810778\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"183.28460969082653\" cy=\"58.87452701892218\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle></svg>",
   "choices": [
-   "Carboxylic acid",
-   "Disulfide",
+   "Alkene",
+   "Sulfide (thioether)",
    "Thiol",
-   "Sulfide (thioether)"
+   "Disulfide"
   ],
   "answer": "Sulfide (thioether)",
   "hint": "S with a carbon group on each side.",
@@ -942,13 +984,13 @@
   "from": {
    "game": "organic",
    "list": "sample:picture-to-name",
-   "index": 8
+   "index": 9
   },
   "why": [
-   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH).",
-   "Disulfide needs two S bonded to each other (C–S–S–C).",
+   "Alkene needs a C=C double bond.",
+   "",
    "Thiol needs an –SH on a carbon.",
-   ""
+   "Disulfide needs two S bonded to each other (C–S–S–C)."
   ]
  },
  {
@@ -964,10 +1006,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>SCH<sub>3</sub></div>",
   "choices": [
-   "Ketone",
+   "Disulfide",
    "Sulfide (thioether)",
    "Thiol",
-   "Disulfide"
+   "Alcohol"
   ],
   "answer": "Sulfide (thioether)",
   "hint": "This compound is dimethyl sulfide. S with a carbon group on each side.",
@@ -976,13 +1018,13 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 19
+   "index": 21
   },
   "why": [
-   "Ketone needs a C=O with carbons on both sides. This compound has an S between two carbons (C–S–C).",
+   "Disulfide needs two S bonded to each other (C–S–S–C). This compound has an S between two carbons (C–S–C).",
    "",
    "Thiol needs an –SH on a carbon. This compound has an S between two carbons (C–S–C).",
-   "Disulfide needs two S bonded to each other (C–S–S–C). This compound has an S between two carbons (C–S–C)."
+   "Alcohol needs an –OH on a carbon with only single bonds. This compound has an S between two carbons (C–S–C)."
   ]
  },
  {
@@ -998,10 +1040,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>SCH<sub>2</sub>CH<sub>3</sub></div>",
   "choices": [
-   "Sulfide (thioether)",
+   "Disulfide",
    "Thiol",
-   "Haloalkane (alkyl halide)",
-   "Disulfide"
+   "Sulfide (thioether)",
+   "Phenol"
   ],
   "answer": "Sulfide (thioether)",
   "hint": "This compound is ethyl methyl sulfide. S with a carbon group on each side.",
@@ -1010,17 +1052,11 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 20
-  },
-  "why": [
-   "",
-   "Thiol needs an –SH on a carbon. This compound has an S between two carbons (C–S–C).",
-   "Haloalkane (alkyl halide) needs a halogen (F, Cl, Br, I) on a carbon. This compound has an S between two carbons (C–S–C).",
-   "Disulfide needs two S bonded to each other (C–S–S–C). This compound has an S between two carbons (C–S–C)."
-  ]
+   "index": 22
+  }
  },
  {
-  "id": "organic-b773bec0",
+  "id": "organic-f062e4e2",
   "skill": "organic.picture-to-name",
   "courses": [
    "3B"
@@ -1030,11 +1066,11 @@
    "3B-4"
   ],
   "type": "mc",
-  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"65.41640786499873\" y1=\"103.29179606750063\" x2=\"110.58359213500127\" y2=\"80.70820393249937\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"137.41640786499875\" y1=\"80.70820393249937\" x2=\"182.58359213500125\" y2=\"103.29179606750063\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"209.41640786499875\" y1=\"103.29179606750063\" x2=\"253.68916494400133\" y2=\"81.15541752799933\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"52\" y=\"119\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"124\" y=\"83\" text-anchor=\"middle\" fill=\"#c98a00\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>S</tspan></text><text x=\"196\" y=\"119\" text-anchor=\"middle\" fill=\"#c98a00\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>S</tspan></text><text x=\"258.609375\" y=\"83\" text-anchor=\"start\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R′</tspan></text><circle cx=\"100.71539030917347\" cy=\"66.33012701892218\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"105.71539030917347\" cy=\"57.6698729810778\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"142.28460969082653\" cy=\"57.66987298107781\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"147.28460969082653\" cy=\"66.3301270189222\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"219.28460969082653\" cy=\"117.6698729810778\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"214.28460969082653\" cy=\"126.3301270189222\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"177.71539030917347\" cy=\"126.3301270189222\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"172.71539030917347\" cy=\"117.6698729810778\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle></svg>",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure: R–S–S–R′\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"64.24748786511468\" y1=\"108.79540133057742\" x2=\"111.75251213488532\" y2=\"75.20459866942258\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"136.24748786511466\" y1=\"75.20459866942258\" x2=\"183.75251213488534\" y2=\"108.79540133057742\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"208.24748786511466\" y1=\"108.79540133057742\" x2=\"254.93601294387767\" y2=\"75.78194524738409\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"52\" y=\"126.4556\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"124\" y=\"75.5444\" text-anchor=\"middle\" fill=\"#c98a00\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>S</tspan></text><text x=\"196\" y=\"126.4556\" text-anchor=\"middle\" fill=\"#c98a00\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>S</tspan></text><text x=\"258.609375\" y=\"75.5444\" text-anchor=\"start\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R′</tspan></text><circle cx=\"100.71539030917347\" cy=\"58.87452701892219\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"105.71539030917347\" cy=\"50.214272981077805\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"142.28460969082653\" cy=\"50.2142729810778\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"147.28460969082653\" cy=\"58.87452701892218\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"219.28460969082653\" cy=\"125.1254729810778\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"214.28460969082653\" cy=\"133.7857270189222\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"177.71539030917347\" cy=\"133.7857270189222\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle><circle cx=\"172.71539030917347\" cy=\"125.1254729810778\" r=\"3.2\" fill=\"#c98a00\" stroke=\"none\"></circle></svg>",
   "choices": [
-   "Sulfide (thioether)",
    "Disulfide",
    "Thiol",
+   "Sulfide (thioether)",
    "Ether"
   ],
   "answer": "Disulfide",
@@ -1044,12 +1080,12 @@
   "from": {
    "game": "organic",
    "list": "sample:picture-to-name",
-   "index": 9
+   "index": 10
   },
   "why": [
-   "Sulfide (thioether) needs an S between two carbons (C–S–C).",
    "",
    "Thiol needs an –SH on a carbon.",
+   "Sulfide (thioether) needs an S between two carbons (C–S–C).",
    "Ether needs an O between two carbons (C–O–C)."
   ]
  },
@@ -1066,10 +1102,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>SSCH<sub>3</sub></div>",
   "choices": [
-   "Sulfide (thioether)",
-   "Alkyne",
+   "Thiol",
    "Disulfide",
-   "Thiol"
+   "Sulfide (thioether)",
+   "Aldehyde"
   ],
   "answer": "Disulfide",
   "hint": "This compound is dimethyl disulfide. S–S in the middle.",
@@ -1078,13 +1114,13 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 21
+   "index": 23
   },
   "why": [
-   "Sulfide (thioether) needs an S between two carbons (C–S–C). This compound has two S bonded to each other (C–S–S–C).",
-   "Alkyne needs a C≡C triple bond. This compound has two S bonded to each other (C–S–S–C).",
+   "Thiol needs an –SH on a carbon. This compound has two S bonded to each other (C–S–S–C).",
    "",
-   "Thiol needs an –SH on a carbon. This compound has two S bonded to each other (C–S–S–C)."
+   "Sulfide (thioether) needs an S between two carbons (C–S–C). This compound has two S bonded to each other (C–S–S–C).",
+   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has two S bonded to each other (C–S–S–C)."
   ]
  },
  {
@@ -1100,10 +1136,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH<sub>2</sub>SSCH<sub>2</sub>CH<sub>3</sub></div>",
   "choices": [
-   "Thiol",
-   "Disulfide",
+   "Ketone",
    "Sulfide (thioether)",
-   "Ether"
+   "Thiol",
+   "Disulfide"
   ],
   "answer": "Disulfide",
   "hint": "This compound is diethyl disulfide. S–S in the middle.",
@@ -1112,17 +1148,17 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 22
+   "index": 24
   },
   "why": [
-   "Thiol needs an –SH on a carbon. This compound has two S bonded to each other (C–S–S–C).",
-   "",
+   "Ketone needs a C=O with carbons on both sides. This compound has two S bonded to each other (C–S–S–C).",
    "Sulfide (thioether) needs an S between two carbons (C–S–C). This compound has two S bonded to each other (C–S–S–C).",
-   "Ether needs an O between two carbons (C–O–C). This compound has two S bonded to each other (C–S–S–C)."
+   "Thiol needs an –SH on a carbon. This compound has two S bonded to each other (C–S–S–C).",
+   ""
   ]
  },
  {
-  "id": "organic-b3b9c18d",
+  "id": "organic-b831c5be",
   "skill": "organic.picture-to-name",
   "courses": [
    "3B"
@@ -1132,12 +1168,12 @@
    "3B-5"
   ],
   "type": "mc",
-  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"101.1432386301497\" y1=\"135.17121875341766\" x2=\"146.8567613698503\" y2=\"110.02878124658234\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"155\" y1=\"87.8\" x2=\"155\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"165\" y1=\"87.8\" x2=\"165\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"173.1432386301497\" y1=\"110.02878124658234\" x2=\"218.8567613698503\" y2=\"135.17121875341766\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"151.4\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"111.8\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"160\" y=\"50.6\" text-anchor=\"middle\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"232\" y=\"151.4\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>H</tspan></text><circle cx=\"136.71539030917347\" cy=\"33.93012701892219\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"141.71539030917347\" cy=\"25.269872981077807\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"178.28460969082653\" cy=\"25.269872981077803\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"183.28460969082653\" cy=\"33.930127018922185\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle></svg>",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure: R–C(=O)–H\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"100.99038257095813\" y1=\"141.28460262265733\" x2=\"147.00961742904187\" y2=\"114.71539737734268\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"155\" y1=\"92.2154\" x2=\"155\" y2=\"50.2154\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"165\" y1=\"92.2154\" x2=\"165\" y2=\"50.2154\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"172.99038257095813\" y1=\"114.71539737734268\" x2=\"219.00961742904187\" y2=\"141.28460262265733\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"157.7846\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"116.2154\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"160\" y=\"44.2154\" text-anchor=\"middle\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"232\" y=\"157.7846\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>H</tspan></text><circle cx=\"136.71539030917347\" cy=\"27.545527018922197\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"141.71539030917347\" cy=\"18.885272981077808\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"178.28460969082653\" cy=\"18.885272981077804\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"183.28460969082653\" cy=\"27.545527018922186\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle></svg>",
   "choices": [
-   "Amide",
-   "Ketone",
+   "Carboxylic acid",
    "Ester",
-   "Aldehyde"
+   "Aldehyde",
+   "Ketone"
   ],
   "answer": "Aldehyde",
   "hint": "C=O with an H attached (–CHO).",
@@ -1146,13 +1182,13 @@
   "from": {
    "game": "organic",
    "list": "sample:picture-to-name",
-   "index": 10
+   "index": 11
   },
   "why": [
-   "Amide needs a C=O bonded directly to N (–CON).",
-   "Ketone needs a C=O with carbons on both sides.",
+   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH).",
    "Ester needs a C=O next to an O that leads to another carbon (–COO–C).",
-   ""
+   "",
+   "Ketone needs a C=O with carbons on both sides."
   ]
  },
  {
@@ -1170,8 +1206,8 @@
   "choices": [
    "Ketone",
    "Ester",
-   "Aldehyde",
-   "Amide"
+   "Amide",
+   "Aldehyde"
   ],
   "answer": "Aldehyde",
   "hint": "This compound is methanal (formaldehyde). C=O with an H attached (–CHO).",
@@ -1180,13 +1216,13 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 23
+   "index": 25
   },
   "why": [
    "Ketone needs a C=O with carbons on both sides. This compound has a C=O at the end of a chain with an H on it.",
    "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O at the end of a chain with an H on it.",
-   "",
-   "Amide needs a C=O bonded directly to N (–CON). This compound has a C=O at the end of a chain with an H on it."
+   "Amide needs a C=O bonded directly to N (–CON). This compound has a C=O at the end of a chain with an H on it.",
+   ""
   ]
  },
  {
@@ -1202,9 +1238,9 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CHO</div>",
   "choices": [
-   "Carboxylic acid",
+   "Amide",
    "Ketone",
-   "Ester",
+   "Carboxylic acid",
    "Aldehyde"
   ],
   "answer": "Aldehyde",
@@ -1214,12 +1250,12 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 24
+   "index": 26
   },
   "why": [
-   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH). This compound has a C=O at the end of a chain with an H on it.",
+   "Amide needs a C=O bonded directly to N (–CON). This compound has a C=O at the end of a chain with an H on it.",
    "Ketone needs a C=O with carbons on both sides. This compound has a C=O at the end of a chain with an H on it.",
-   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O at the end of a chain with an H on it.",
+   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH). This compound has a C=O at the end of a chain with an H on it.",
    ""
   ]
  },
@@ -1236,9 +1272,9 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">C<sub>6</sub>H<sub>5</sub>CHO</div>",
   "choices": [
-   "Aldehyde",
-   "Carboxylic acid",
    "Ketone",
+   "Amide",
+   "Aldehyde",
    "Ester"
   ],
   "answer": "Aldehyde",
@@ -1248,17 +1284,17 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 25
+   "index": 27
   },
   "why": [
-   "",
-   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH). This compound has a C=O at the end of a chain with an H on it.",
    "Ketone needs a C=O with carbons on both sides. This compound has a C=O at the end of a chain with an H on it.",
+   "Amide needs a C=O bonded directly to N (–CON). This compound has a C=O at the end of a chain with an H on it.",
+   "",
    "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O at the end of a chain with an H on it."
   ]
  },
  {
-  "id": "organic-c8277a60",
+  "id": "organic-dc751bc7",
   "skill": "organic.picture-to-name",
   "courses": [
    "3B"
@@ -1268,12 +1304,12 @@
    "3B-5"
   ],
   "type": "mc",
-  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"101.1432386301497\" y1=\"135.17121875341766\" x2=\"146.8567613698503\" y2=\"110.02878124658234\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"155\" y1=\"87.8\" x2=\"155\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"165\" y1=\"87.8\" x2=\"165\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"173.1432386301497\" y1=\"110.02878124658234\" x2=\"217.98054546117365\" y2=\"134.6893000036455\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"151.4\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"111.8\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"160\" y=\"50.6\" text-anchor=\"middle\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"222.609375\" y=\"151.4\" text-anchor=\"start\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R′</tspan></text><circle cx=\"136.71539030917347\" cy=\"33.93012701892219\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"141.71539030917347\" cy=\"25.269872981077807\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"178.28460969082653\" cy=\"25.269872981077803\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"183.28460969082653\" cy=\"33.930127018922185\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle></svg>",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure: R–C(=O)–R′\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"100.99038257095813\" y1=\"141.28460262265733\" x2=\"147.00961742904187\" y2=\"114.71539737734268\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"155\" y1=\"92.2154\" x2=\"155\" y2=\"50.2154\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"165\" y1=\"92.2154\" x2=\"165\" y2=\"50.2154\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"172.99038257095813\" y1=\"114.71539737734268\" x2=\"218.14359192431132\" y2=\"140.78460279750115\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"157.7846\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"116.2154\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"160\" y=\"44.2154\" text-anchor=\"middle\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"222.609375\" y=\"157.7846\" text-anchor=\"start\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R′</tspan></text><circle cx=\"136.71539030917347\" cy=\"27.545527018922197\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"141.71539030917347\" cy=\"18.885272981077808\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"178.28460969082653\" cy=\"18.885272981077804\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"183.28460969082653\" cy=\"27.545527018922186\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle></svg>",
   "choices": [
-   "Ketone",
-   "Ester",
+   "Aldehyde",
    "Amide",
-   "Aldehyde"
+   "Ketone",
+   "Carboxylic acid"
   ],
   "answer": "Ketone",
   "hint": "C=O with carbons on both sides and no O, N or H on that carbon.",
@@ -1282,13 +1318,13 @@
   "from": {
    "game": "organic",
    "list": "sample:picture-to-name",
-   "index": 11
+   "index": 12
   },
   "why": [
-   "",
-   "Ester needs a C=O next to an O that leads to another carbon (–COO–C).",
+   "Aldehyde needs a C=O at the end of a chain with an H on it.",
    "Amide needs a C=O bonded directly to N (–CON).",
-   "Aldehyde needs a C=O at the end of a chain with an H on it."
+   "",
+   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH)."
   ]
  },
  {
@@ -1304,10 +1340,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>COCH<sub>3</sub></div>",
   "choices": [
+   "Amide",
    "Ketone",
    "Aldehyde",
-   "Ester",
-   "Carboxylic acid"
+   "Ester"
   ],
   "answer": "Ketone",
   "hint": "This compound is propanone (acetone). C=O with carbons on both sides and no O, N or H on that carbon.",
@@ -1316,13 +1352,13 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 26
+   "index": 28
   },
   "why": [
+   "Amide needs a C=O bonded directly to N (–CON). This compound has a C=O with carbons on both sides.",
    "",
    "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O with carbons on both sides.",
-   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O with carbons on both sides.",
-   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH). This compound has a C=O with carbons on both sides."
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O with carbons on both sides."
   ]
  },
  {
@@ -1338,10 +1374,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub></div>",
   "choices": [
+   "Aldehyde",
    "Amide",
    "Ketone",
-   "Ester",
-   "Aldehyde"
+   "Ester"
   ],
   "answer": "Ketone",
   "hint": "This compound is butanone (MEK). C=O with carbons on both sides and no O, N or H on that carbon.",
@@ -1350,17 +1386,17 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 27
+   "index": 29
   },
   "why": [
+   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O with carbons on both sides.",
    "Amide needs a C=O bonded directly to N (–CON). This compound has a C=O with carbons on both sides.",
    "",
-   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O with carbons on both sides.",
-   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O with carbons on both sides."
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O with carbons on both sides."
   ]
  },
  {
-  "id": "organic-051a1505",
+  "id": "organic-84540f05",
   "skill": "organic.picture-to-name",
   "courses": [
    "3B"
@@ -1370,12 +1406,12 @@
    "3B-7"
   ],
   "type": "mc",
-  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"65.1432386301497\" y1=\"135.17121875341766\" x2=\"110.8567613698503\" y2=\"110.02878124658234\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"119\" y1=\"87.8\" x2=\"119\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"129\" y1=\"87.8\" x2=\"129\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"137.1432386301497\" y1=\"110.02878124658234\" x2=\"182.8567613698503\" y2=\"135.17121875341766\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"209.1432386301497\" y1=\"135.17121875341766\" x2=\"254.8567613698503\" y2=\"110.02878124658234\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"52\" y=\"151.4\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"124\" y=\"111.8\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"124\" y=\"50.6\" text-anchor=\"middle\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"196\" y=\"151.4\" text-anchor=\"middle\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"268\" y=\"111.8\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>H</tspan></text><circle cx=\"100.71539030917347\" cy=\"33.93012701892219\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"105.71539030917347\" cy=\"25.269872981077807\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"142.28460969082653\" cy=\"25.269872981077803\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"147.28460969082653\" cy=\"33.930127018922185\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"219.28460969082653\" cy=\"150.06987298107782\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"214.28460969082653\" cy=\"158.7301270189222\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"177.71539030917347\" cy=\"158.7301270189222\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"172.71539030917347\" cy=\"150.06987298107782\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle></svg>",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure: R–C(=O)–O–H\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"69.38238257095813\" y1=\"141.28460262265733\" x2=\"115.40161742904186\" y2=\"114.71539737734268\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"123.392\" y1=\"92.2154\" x2=\"123.392\" y2=\"50.2154\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"133.392\" y1=\"92.2154\" x2=\"133.392\" y2=\"50.2154\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"141.38238257095813\" y1=\"114.71539737734268\" x2=\"187.40161742904186\" y2=\"141.28460262265733\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"211.79765863425806\" y1=\"139.04237483740113\" x2=\"252.20234136574194\" y2=\"104.53042516259889\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"56.391999999999996\" y=\"157.7846\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"128.392\" y=\"116.2154\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"128.392\" y=\"44.2154\" text-anchor=\"middle\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"200.392\" y=\"157.7846\" text-anchor=\"middle\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"263.608\" y=\"103.7882\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>H</tspan></text><circle cx=\"105.10739030917347\" cy=\"27.545527018922197\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"110.10739030917347\" cy=\"18.885272981077808\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"146.67660969082652\" cy=\"18.885272981077804\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"151.67660969082652\" cy=\"27.545527018922186\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"224.28085718876622\" cy=\"154.29118716581624\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"220.0944615494414\" cy=\"163.37271190294283\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"183.67872703186669\" cy=\"166.719663609942\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"177.90709372408065\" cy=\"158.553376267431\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle></svg>",
   "choices": [
+   "Amide",
+   "Aldehyde",
    "Ester",
-   "Ketone",
-   "Carboxylic acid",
-   "Aldehyde"
+   "Carboxylic acid"
   ],
   "answer": "Carboxylic acid",
   "hint": "Look for C=O with O–H right next to it.",
@@ -1384,13 +1420,13 @@
   "from": {
    "game": "organic",
    "list": "sample:picture-to-name",
-   "index": 12
+   "index": 13
   },
   "why": [
+   "Amide needs a C=O bonded directly to N (–CON).",
+   "Aldehyde needs a C=O at the end of a chain with an H on it.",
    "Ester needs a C=O next to an O that leads to another carbon (–COO–C).",
-   "Ketone needs a C=O with carbons on both sides.",
-   "",
-   "Aldehyde needs a C=O at the end of a chain with an H on it."
+   ""
   ]
  },
  {
@@ -1406,10 +1442,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>COOH</div>",
   "choices": [
-   "Aldehyde",
-   "Carboxylic acid",
+   "Ester",
    "Amide",
-   "Ester"
+   "Carboxylic acid",
+   "Ketone"
   ],
   "answer": "Carboxylic acid",
   "hint": "This compound is ethanoic acid (acetic acid). Look for C=O with O–H right next to it.",
@@ -1418,13 +1454,13 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 28
+   "index": 30
   },
   "why": [
-   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O and –OH on the same carbon (–COOH).",
-   "",
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O and –OH on the same carbon (–COOH).",
    "Amide needs a C=O bonded directly to N (–CON). This compound has a C=O and –OH on the same carbon (–COOH).",
-   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O and –OH on the same carbon (–COOH)."
+   "",
+   "Ketone needs a C=O with carbons on both sides. This compound has a C=O and –OH on the same carbon (–COOH)."
   ]
  },
  {
@@ -1440,10 +1476,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">HCOOH</div>",
   "choices": [
-   "Ester",
-   "Aldehyde",
    "Ketone",
-   "Carboxylic acid"
+   "Aldehyde",
+   "Carboxylic acid",
+   "Ester"
   ],
   "answer": "Carboxylic acid",
   "hint": "This compound is methanoic acid (formic acid). Look for C=O with O–H right next to it.",
@@ -1452,13 +1488,13 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 29
+   "index": 31
   },
   "why": [
-   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O and –OH on the same carbon (–COOH).",
-   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O and –OH on the same carbon (–COOH).",
    "Ketone needs a C=O with carbons on both sides. This compound has a C=O and –OH on the same carbon (–COOH).",
-   ""
+   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O and –OH on the same carbon (–COOH).",
+   "",
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O and –OH on the same carbon (–COOH)."
   ]
  },
  {
@@ -1474,10 +1510,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH<sub>2</sub>COOH</div>",
   "choices": [
-   "Amide",
+   "Ester",
+   "Ketone",
    "Aldehyde",
-   "Carboxylic acid",
-   "Ester"
+   "Carboxylic acid"
   ],
   "answer": "Carboxylic acid",
   "hint": "This compound is propanoic acid. Look for C=O with O–H right next to it.",
@@ -1486,17 +1522,17 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 30
+   "index": 32
   },
   "why": [
-   "Amide needs a C=O bonded directly to N (–CON). This compound has a C=O and –OH on the same carbon (–COOH).",
+   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O and –OH on the same carbon (–COOH).",
+   "Ketone needs a C=O with carbons on both sides. This compound has a C=O and –OH on the same carbon (–COOH).",
    "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O and –OH on the same carbon (–COOH).",
-   "",
-   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O and –OH on the same carbon (–COOH)."
+   ""
   ]
  },
  {
-  "id": "organic-0397b346",
+  "id": "organic-f89c6995",
   "skill": "organic.picture-to-name",
   "courses": [
    "3B"
@@ -1506,10 +1542,10 @@
    "3B-7"
   ],
   "type": "mc",
-  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"65.1432386301497\" y1=\"135.17121875341766\" x2=\"110.8567613698503\" y2=\"110.02878124658234\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"119\" y1=\"87.8\" x2=\"119\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"129\" y1=\"87.8\" x2=\"129\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"137.1432386301497\" y1=\"110.02878124658234\" x2=\"182.8567613698503\" y2=\"135.17121875341766\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"209.1432386301497\" y1=\"135.17121875341766\" x2=\"253.98054546117365\" y2=\"110.51069999635449\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"52\" y=\"151.4\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"124\" y=\"111.8\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"124\" y=\"50.6\" text-anchor=\"middle\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"196\" y=\"151.4\" text-anchor=\"middle\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"258.609375\" y=\"111.8\" text-anchor=\"start\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R′</tspan></text><circle cx=\"100.71539030917347\" cy=\"33.93012701892219\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"105.71539030917347\" cy=\"25.269872981077807\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"142.28460969082653\" cy=\"25.269872981077803\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"147.28460969082653\" cy=\"33.930127018922185\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"219.28460969082653\" cy=\"150.06987298107782\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"214.28460969082653\" cy=\"158.7301270189222\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"177.71539030917347\" cy=\"158.7301270189222\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"172.71539030917347\" cy=\"150.06987298107782\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle></svg>",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure: R–C(=O)–O–R′\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"69.38238257095813\" y1=\"141.28460262265733\" x2=\"115.40161742904186\" y2=\"114.71539737734268\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"123.392\" y1=\"92.2154\" x2=\"123.392\" y2=\"50.2154\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"133.392\" y1=\"92.2154\" x2=\"133.392\" y2=\"50.2154\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"141.38238257095813\" y1=\"114.71539737734268\" x2=\"187.40161742904186\" y2=\"141.28460262265733\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"211.79765863425806\" y1=\"139.04237483740113\" x2=\"251.4419641234581\" y2=\"105.17990684010549\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"56.391999999999996\" y=\"157.7846\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"128.392\" y=\"116.2154\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"128.392\" y=\"44.2154\" text-anchor=\"middle\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"200.392\" y=\"157.7846\" text-anchor=\"middle\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"254.217375\" y=\"103.7882\" text-anchor=\"start\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R′</tspan></text><circle cx=\"105.10739030917347\" cy=\"27.545527018922197\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"110.10739030917347\" cy=\"18.885272981077808\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"146.67660969082652\" cy=\"18.885272981077804\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"151.67660969082652\" cy=\"27.545527018922186\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"224.28085718876622\" cy=\"154.29118716581624\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"220.0944615494414\" cy=\"163.37271190294283\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"183.67872703186669\" cy=\"166.719663609942\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"177.90709372408065\" cy=\"158.553376267431\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle></svg>",
   "choices": [
-   "Ketone",
    "Ether",
+   "Amide",
    "Carboxylic acid",
    "Ester"
   ],
@@ -1520,11 +1556,11 @@
   "from": {
    "game": "organic",
    "list": "sample:picture-to-name",
-   "index": 13
+   "index": 14
   },
   "why": [
-   "Ketone needs a C=O with carbons on both sides.",
    "Ether needs an O between two carbons (C–O–C).",
+   "Amide needs a C=O bonded directly to N (–CON).",
    "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH).",
    ""
   ]
@@ -1543,9 +1579,9 @@
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub></div>",
   "choices": [
    "Carboxylic acid",
-   "Ester",
-   "Amide",
-   "Ether"
+   "Ether",
+   "Aldehyde",
+   "Ester"
   ],
   "answer": "Ester",
   "hint": "This compound is ethyl acetate. C=O then O then another carbon group (no H on that O).",
@@ -1554,13 +1590,13 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 31
+   "index": 33
   },
   "why": [
    "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH). This compound has a C=O next to an O that leads to another carbon (–COO–C).",
-   "",
-   "Amide needs a C=O bonded directly to N (–CON). This compound has a C=O next to an O that leads to another carbon (–COO–C).",
-   "Ether needs an O between two carbons (C–O–C). This compound has a C=O next to an O that leads to another carbon (–COO–C)."
+   "Ether needs an O between two carbons (C–O–C). This compound has a C=O next to an O that leads to another carbon (–COO–C).",
+   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O next to an O that leads to another carbon (–COO–C).",
+   ""
   ]
  },
  {
@@ -1576,10 +1612,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)<sub>2</sub></div>",
   "choices": [
-   "Ketone",
    "Ester",
-   "Ether",
-   "Carboxylic acid"
+   "Aldehyde",
+   "Carboxylic acid",
+   "Ether"
   ],
   "answer": "Ester",
   "hint": "This compound is isoamyl acetate. C=O then O then another carbon group (no H on that O).",
@@ -1588,17 +1624,17 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 32
+   "index": 34
   },
   "why": [
-   "Ketone needs a C=O with carbons on both sides. This compound has a C=O next to an O that leads to another carbon (–COO–C).",
    "",
-   "Ether needs an O between two carbons (C–O–C). This compound has a C=O next to an O that leads to another carbon (–COO–C).",
-   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH). This compound has a C=O next to an O that leads to another carbon (–COO–C)."
+   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O next to an O that leads to another carbon (–COO–C).",
+   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH). This compound has a C=O next to an O that leads to another carbon (–COO–C).",
+   "Ether needs an O between two carbons (C–O–C). This compound has a C=O next to an O that leads to another carbon (–COO–C)."
   ]
  },
  {
-  "id": "organic-915805fe",
+  "id": "organic-e7c38ea6",
   "skill": "organic.picture-to-name",
   "courses": [
    "3B"
@@ -1608,12 +1644,12 @@
    "3B-8"
   ],
   "type": "mc",
-  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"137.41640786499875\" y1=\"103.29179606750063\" x2=\"181.68916494400133\" y2=\"81.15541752799933\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"124\" y=\"119\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"186.609375\" y=\"83\" text-anchor=\"start\" fill=\"#3b6fd6\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>NH</tspan><tspan dy=\"7\" font-size=\"16\">2</tspan></text><circle cx=\"185.61968495952468\" cy=\"51.79078885551128\" r=\"3.2\" fill=\"#3b6fd6\" stroke=\"none\"></circle><circle cx=\"195.352174854202\" cy=\"49.49325965003767\" r=\"3.2\" fill=\"#3b6fd6\" stroke=\"none\"></circle><text x=\"160\" y=\"168\" text-anchor=\"middle\" style=\"font-size:15px;font-weight:800\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"800\">also R–NH–R′ and R–N(R′)–R″</text></svg>",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure: R–NH₂\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"137.41640786499875\" y1=\"103.29179606750063\" x2=\"181.68916494400133\" y2=\"81.15541752799933\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"124\" y=\"119\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"186.609375\" y=\"83\" text-anchor=\"start\" fill=\"#3b6fd6\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>NH</tspan><tspan dy=\"7\" font-size=\"16\">2</tspan></text><circle cx=\"185.61968495952468\" cy=\"51.79078885551128\" r=\"3.2\" fill=\"#3b6fd6\" stroke=\"none\"></circle><circle cx=\"195.352174854202\" cy=\"49.49325965003767\" r=\"3.2\" fill=\"#3b6fd6\" stroke=\"none\"></circle><text x=\"160\" y=\"168\" text-anchor=\"middle\" style=\"font-size:15px;font-weight:800\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"800\">also R–NH–R′ and R–N(R′)–R″</text></svg>",
   "choices": [
+   "Alkene",
    "Alkyne",
-   "Alkane",
-   "Amide",
-   "Amine"
+   "Amine",
+   "Amide"
   ],
   "answer": "Amine",
   "hint": "N attached to carbon, but NOT next to a C=O.",
@@ -1622,13 +1658,13 @@
   "from": {
    "game": "organic",
    "list": "sample:picture-to-name",
-   "index": 14
+   "index": 15
   },
   "why": [
+   "Alkene needs a C=C double bond.",
    "Alkyne needs a C≡C triple bond.",
-   "Alkane needs only C–C and C–H single bonds.",
-   "Amide needs a C=O bonded directly to N (–CON).",
-   ""
+   "",
+   "Amide needs a C=O bonded directly to N (–CON)."
   ]
  },
  {
@@ -1644,10 +1680,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>NH<sub>2</sub></div>",
   "choices": [
-   "Aromatic (arene)",
-   "Amide",
-   "Ketone",
-   "Amine"
+   "Amine",
+   "Alkane",
+   "Carboxylic acid",
+   "Amide"
   ],
   "answer": "Amine",
   "hint": "This compound is methylamine. N attached to carbon, but NOT next to a C=O.",
@@ -1656,13 +1692,13 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 33
+   "index": 35
   },
   "why": [
-   "Aromatic (arene) needs a benzene ring. This compound has an N with only single bonds to C and H.",
-   "Amide needs a C=O bonded directly to N (–CON). This compound has an N with only single bonds to C and H.",
-   "Ketone needs a C=O with carbons on both sides. This compound has an N with only single bonds to C and H.",
-   ""
+   "",
+   "Alkane needs only C–C and C–H single bonds. This compound has an N with only single bonds to C and H.",
+   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH). This compound has an N with only single bonds to C and H.",
+   "Amide needs a C=O bonded directly to N (–CON). This compound has an N with only single bonds to C and H."
   ]
  },
  {
@@ -1678,10 +1714,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">(CH<sub>3</sub>)<sub>3</sub>N</div>",
   "choices": [
-   "Aromatic (arene)",
    "Haloalkane (alkyl halide)",
-   "Amide",
-   "Amine"
+   "Amine",
+   "Alkyne",
+   "Amide"
   ],
   "answer": "Amine",
   "hint": "This compound is trimethylamine. N attached to carbon, but NOT next to a C=O.",
@@ -1690,13 +1726,13 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 34
+   "index": 36
   },
   "why": [
-   "Aromatic (arene) needs a benzene ring. This compound has an N with only single bonds to C and H.",
    "Haloalkane (alkyl halide) needs a halogen (F, Cl, Br, I) on a carbon. This compound has an N with only single bonds to C and H.",
-   "Amide needs a C=O bonded directly to N (–CON). This compound has an N with only single bonds to C and H.",
-   ""
+   "",
+   "Alkyne needs a C≡C triple bond. This compound has an N with only single bonds to C and H.",
+   "Amide needs a C=O bonded directly to N (–CON). This compound has an N with only single bonds to C and H."
   ]
  },
  {
@@ -1713,9 +1749,9 @@
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CH<sub>2</sub>NH<sub>2</sub></div>",
   "choices": [
    "Amine",
-   "Alkyne",
    "Amide",
-   "Alcohol"
+   "Alkyne",
+   "Aldehyde"
   ],
   "answer": "Amine",
   "hint": "This compound is ethylamine. N attached to carbon, but NOT next to a C=O.",
@@ -1724,17 +1760,17 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 35
+   "index": 37
   },
   "why": [
    "",
-   "Alkyne needs a C≡C triple bond. This compound has an N with only single bonds to C and H.",
    "Amide needs a C=O bonded directly to N (–CON). This compound has an N with only single bonds to C and H.",
-   "Alcohol needs an –OH on a carbon with only single bonds. This compound has an N with only single bonds to C and H."
+   "Alkyne needs a C≡C triple bond. This compound has an N with only single bonds to C and H.",
+   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has an N with only single bonds to C and H."
   ]
  },
  {
-  "id": "organic-eaa83b14",
+  "id": "organic-ae863bc5",
   "skill": "organic.picture-to-name",
   "courses": [
    "3B"
@@ -1744,12 +1780,12 @@
    "3B-8"
   ],
   "type": "mc",
-  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"101.1432386301497\" y1=\"135.17121875341766\" x2=\"146.8567613698503\" y2=\"110.02878124658234\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"155\" y1=\"87.8\" x2=\"155\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"165\" y1=\"87.8\" x2=\"165\" y2=\"56.6\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"173.1432386301497\" y1=\"110.02878124658234\" x2=\"217.98054546117365\" y2=\"134.6893000036455\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"151.4\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"111.8\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"160\" y=\"50.6\" text-anchor=\"middle\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"222.609375\" y=\"151.4\" text-anchor=\"start\" fill=\"#3b6fd6\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>NH</tspan><tspan dy=\"7\" font-size=\"16\">2</tspan></text><circle cx=\"136.71539030917347\" cy=\"33.93012701892219\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"141.71539030917347\" cy=\"25.269872981077807\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"178.28460969082653\" cy=\"25.269872981077803\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"183.28460969082653\" cy=\"33.930127018922185\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"230.87205178003373\" cy=\"166.8893391665246\" r=\"3.2\" fill=\"#3b6fd6\" stroke=\"none\"></circle><circle cx=\"221.18645446062013\" cy=\"164.40152796666084\" r=\"3.2\" fill=\"#3b6fd6\" stroke=\"none\"></circle></svg>",
+  "prompt": "Which functional group is in this structure?<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Structure: R–C(=O)–NH₂\" style=\"width:min(260px,80vw);height:auto;display:block;margin:6px auto\" xmlns=\"http://www.w3.org/2000/svg\"><g><line x1=\"100.99038257095813\" y1=\"141.28460262265733\" x2=\"147.00961742904187\" y2=\"114.71539737734268\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"155\" y1=\"92.2154\" x2=\"155\" y2=\"50.2154\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line><line x1=\"165\" y1=\"92.2154\" x2=\"165\" y2=\"50.2154\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><g><line x1=\"172.99038257095813\" y1=\"114.71539737734268\" x2=\"218.14359192431132\" y2=\"140.78460279750115\" stroke=\"#3a3157\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></line></g><text x=\"88\" y=\"157.7846\" text-anchor=\"middle\" fill=\"#7d7399\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>R</tspan></text><text x=\"160\" y=\"116.2154\" text-anchor=\"middle\" fill=\"#3a3157\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>C</tspan></text><text x=\"160\" y=\"44.2154\" text-anchor=\"middle\" fill=\"#d9534f\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>O</tspan></text><text x=\"222.609375\" y=\"157.7846\" text-anchor=\"start\" fill=\"#3b6fd6\" font-family=\"Nunito,&quot;Segoe UI&quot;,system-ui,sans-serif\" font-weight=\"900\" font-size=\"26\"><tspan>NH</tspan><tspan dy=\"7\" font-size=\"16\">2</tspan></text><circle cx=\"136.71539030917347\" cy=\"27.545527018922197\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"141.71539030917347\" cy=\"18.885272981077808\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"178.28460969082653\" cy=\"18.885272981077804\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"183.28460969082653\" cy=\"27.545527018922186\" r=\"3.2\" fill=\"#d9534f\" stroke=\"none\"></circle><circle cx=\"230.61797451977392\" cy=\"173.26091519596048\" r=\"3.2\" fill=\"#3b6fd6\" stroke=\"none\"></circle><circle cx=\"220.9587159956155\" cy=\"170.67272571999996\" r=\"3.2\" fill=\"#3b6fd6\" stroke=\"none\"></circle></svg>",
   "choices": [
-   "Aldehyde",
    "Amine",
+   "Amide",
    "Carboxylic acid",
-   "Amide"
+   "Ketone"
   ],
   "answer": "Amide",
   "hint": "C=O with N right next to it.",
@@ -1758,13 +1794,13 @@
   "from": {
    "game": "organic",
    "list": "sample:picture-to-name",
-   "index": 15
+   "index": 16
   },
   "why": [
-   "Aldehyde needs a C=O at the end of a chain with an H on it.",
    "Amine needs an N with only single bonds to C and H.",
+   "",
    "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH).",
-   ""
+   "Ketone needs a C=O with carbons on both sides."
   ]
  },
  {
@@ -1781,9 +1817,9 @@
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CONH<sub>2</sub></div>",
   "choices": [
    "Amide",
-   "Aldehyde",
    "Amine",
-   "Ketone"
+   "Ketone",
+   "Aldehyde"
   ],
   "answer": "Amide",
   "hint": "This compound is ethanamide (acetamide). C=O with N right next to it.",
@@ -1792,13 +1828,13 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 36
+   "index": 38
   },
   "why": [
    "",
-   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O bonded directly to N (–CON).",
    "Amine needs an N with only single bonds to C and H. This compound has a C=O bonded directly to N (–CON).",
-   "Ketone needs a C=O with carbons on both sides. This compound has a C=O bonded directly to N (–CON)."
+   "Ketone needs a C=O with carbons on both sides. This compound has a C=O bonded directly to N (–CON).",
+   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O bonded directly to N (–CON)."
   ]
  },
  {
@@ -1814,10 +1850,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">HCONH<sub>2</sub></div>",
   "choices": [
-   "Amine",
-   "Aldehyde",
+   "Amide",
    "Ester",
-   "Amide"
+   "Ketone",
+   "Amine"
   ],
   "answer": "Amide",
   "hint": "This compound is methanamide (formamide). C=O with N right next to it.",
@@ -1826,13 +1862,13 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 37
+   "index": 39
   },
   "why": [
-   "Amine needs an N with only single bonds to C and H. This compound has a C=O bonded directly to N (–CON).",
-   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O bonded directly to N (–CON).",
+   "",
    "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O bonded directly to N (–CON).",
-   ""
+   "Ketone needs a C=O with carbons on both sides. This compound has a C=O bonded directly to N (–CON).",
+   "Amine needs an N with only single bonds to C and H. This compound has a C=O bonded directly to N (–CON)."
   ]
  },
  {
@@ -1848,10 +1884,10 @@
   "type": "mc",
   "prompt": "Which functional group does this compound contain?<div style=\"font-size:1.6em;font-weight:900;text-align:center;margin:8px 0\">CH<sub>3</sub>CONHCH<sub>3</sub></div>",
   "choices": [
-   "Carboxylic acid",
+   "Aldehyde",
+   "Amine",
    "Amide",
-   "Ester",
-   "Amine"
+   "Ketone"
   ],
   "answer": "Amide",
   "hint": "This compound is N-methylethanamide. C=O with N right next to it.",
@@ -1860,13 +1896,13 @@
   "from": {
    "game": "organic",
    "list": "sample:real-molecules",
-   "index": 38
+   "index": 40
   },
   "why": [
-   "Carboxylic acid needs a C=O and –OH on the same carbon (–COOH). This compound has a C=O bonded directly to N (–CON).",
+   "Aldehyde needs a C=O at the end of a chain with an H on it. This compound has a C=O bonded directly to N (–CON).",
+   "Amine needs an N with only single bonds to C and H. This compound has a C=O bonded directly to N (–CON).",
    "",
-   "Ester needs a C=O next to an O that leads to another carbon (–COO–C). This compound has a C=O bonded directly to N (–CON).",
-   "Amine needs an N with only single bonds to C and H. This compound has a C=O bonded directly to N (–CON)."
+   "Ketone needs a C=O with carbons on both sides. This compound has a C=O bonded directly to N (–CON)."
   ]
  }
 ]

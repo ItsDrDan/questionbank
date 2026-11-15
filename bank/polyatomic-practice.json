@@ -1247,6 +1247,8 @@
    "mercury 1",
    "mercury(I) ion",
    "mercury one",
+   "mercurous",
+   "mercurous ion",
    "mercury (I)",
    "mercury (I) ion"
   ],
@@ -1918,7 +1920,12 @@
    "CH3COO-",
    "CH3COO^1-",
    "CH3COO1-",
-   "CH3COO-1"
+   "CH3COO-1",
+   "CH3CO2^-",
+   "CH3CO2-",
+   "CH3CO2^1-",
+   "CH3CO21-",
+   "CH3CO2-1"
   ],
   "origin": "original",
   "caseSensitive": true,
@@ -2375,7 +2382,9 @@
   "answer": "hydrogenphosphate",
   "explain": "HPO<sub>4</sub><sup>2−</sup> is hydrogenphosphate",
   "accept": [
-   "hydrogen phosphate"
+   "hydrogen phosphate",
+   "monohydrogen phosphate",
+   "monohydrogenphosphate"
   ],
   "origin": "original",
   "from": {
