@@ -16,9 +16,9 @@
   "answer": "Gas particles colliding with the walls of the container",
   "choices": [
    "Gas particles colliding with the walls of the container",
-   "Gas particles sticking to each other",
-   "The weight of the container",
-   "Gas particles slowing down"
+   "Gas particles sticking to each other and to the walls",
+   "The weight of the container pressing down on the gas",
+   "Gas particles slowing down as they spread through the container"
   ],
   "explain": "Pressure is the push from billions of collisions with the container walls.",
   "tag": "kmt",
@@ -122,8 +122,8 @@
   "choices": [
    "Are far apart, with lots of empty space between them",
    "Are packed tightly together",
-   "Attract each other strongly",
-   "Stay in one place and vibrate"
+   "Attract each other strongly and stay close together",
+   "Stay in one place and vibrate back and forth"
   ],
   "explain": "Gases are mostly empty space. That is why they compress easily.",
   "tag": "kmt",
@@ -191,9 +191,9 @@
   "answer": "Gas particles are tiny and far apart, so their identity barely matters",
   "choices": [
    "Gas particles are tiny and far apart, so their identity barely matters",
-   "All gases have the same molar mass",
-   "All gas particles are the same size",
-   "Gases have no mass"
+   "All gases have the same molar mass, so 1 mol always weighs the same",
+   "All gas particles are the same size, no matter the element",
+   "Gases have no mass, so only the number of moles counts"
   ],
   "explain": "The volume is almost all empty space, so it depends on the number of particles, not which gas.",
   "tag": "kmt",
@@ -366,9 +366,9 @@
   "answer": "The ideal gas law, PV = nRT",
   "choices": [
    "The ideal gas law, PV = nRT",
-   "Boyle’s law",
-   "The combined gas law",
-   "Charles’s law"
+   "Boyle’s law, P₁V₁ = P₂V₂",
+   "The combined gas law, P₁V₁/T₁ = P₂V₂/T₂",
+   "Charles’s law, V₁/T₁ = V₂/T₂"
   ],
   "explain": "Simple and combined gas laws compare two states. PV = nRT describes one state.",
   "tag": "kmt",
@@ -465,9 +465,9 @@
   "answer": "Shifts to higher speeds and becomes broader",
   "choices": [
    "Shifts to higher speeds and becomes broader",
-   "Shifts to lower speeds",
-   "Becomes narrower",
-   "Does not change"
+   "Shifts to lower speeds and becomes narrower",
+   "Becomes narrower, with all particles nearer one speed",
+   "Does not change; the speeds stay the same"
   ],
   "explain": "Hotter gas: higher average speed and a wider range of speeds.",
   "tag": "speed",
@@ -498,9 +498,9 @@
   "answer": "Inversely proportional to the square root of molar mass",
   "choices": [
    "Inversely proportional to the square root of molar mass",
-   "Directly proportional to molar mass",
-   "Inversely proportional to temperature",
-   "Independent of molar mass"
+   "Directly proportional to molar mass, so heavier gases escape faster",
+   "Inversely proportional to temperature in kelvins",
+   "Independent of molar mass, the same for every gas"
   ],
   "explain": "rate ∝ 1/√M. Lighter gases escape faster.",
   "tag": "speed",
@@ -664,8 +664,8 @@
   "choices": [
    "Attractions between particles",
    "The volume of the particles",
-   "The temperature",
-   "The number of moles"
+   "The temperature of the gas sample",
+   "The number of moles of gas"
   ],
   "explain": "a = attractions (pressure correction); b = particle volume (volume correction).",
   "tag": "real",

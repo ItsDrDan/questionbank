@@ -4332,7 +4332,7 @@
   }
  },
  {
-  "id": "functionalgroups-4d912b06",
+  "id": "functionalgroups-27aa7550",
   "skill": "functionalgroups.properties",
   "courses": [
    "3B"
@@ -4344,18 +4344,18 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><svg class=\"mol cond2d\" viewBox=\"-12 -74 387 102\" width=\"387\" height=\"102\" role=\"img\" aria-label=\"Structure with condensed formula CH3CH2CH2CH2CH2C(=O)OH\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"0.0\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH<tspan dy=\"5\" font-size=\"13\">3</tspan><tspan dy=\"-5\"></tspan></text><line x1=\"41.5\" y1=\"0.0\" x2=\"55.5\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"59.5\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH<tspan dy=\"5\" font-size=\"13\">2</tspan><tspan dy=\"-5\"></tspan></text><line x1=\"101.0\" y1=\"0.0\" x2=\"115.0\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"119.0\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH<tspan dy=\"5\" font-size=\"13\">2</tspan><tspan dy=\"-5\"></tspan></text><line x1=\"160.5\" y1=\"0.0\" x2=\"174.5\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"178.5\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH<tspan dy=\"5\" font-size=\"13\">2</tspan><tspan dy=\"-5\"></tspan></text><line x1=\"220.0\" y1=\"0.0\" x2=\"234.0\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"238.0\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH<tspan dy=\"5\" font-size=\"13\">2</tspan><tspan dy=\"-5\"></tspan></text><line x1=\"279.5\" y1=\"0.0\" x2=\"293.5\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"297.5\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">C</text><line x1=\"316.0\" y1=\"0.0\" x2=\"330.0\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><line x1=\"301.8\" y1=\"-14.0\" x2=\"301.8\" y2=\"-34.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><line x1=\"307.8\" y1=\"-14.0\" x2=\"307.8\" y2=\"-34.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"297.5\" y=\"-39.0\" fill=\"#c0392b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">O</text><text x=\"334.0\" y=\"7.0\" fill=\"#c0392b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">OH</text></svg></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
-  "answer": "Hydrogen bonding",
+  "answer": "Hydrogen-bonding forces",
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "hexanoic acid has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
   "origin": "original",
   "why": [
    "",
-   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. hexanoic acid has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "",
    "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). hexanoic acid has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
    "Ionic bonds hold ions together in salts. These are neutral molecules. hexanoic acid has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules."
   ],
@@ -4400,7 +4400,7 @@
   }
  },
  {
-  "id": "functionalgroups-3e9e3269",
+  "id": "functionalgroups-6f1c1e4d",
   "skill": "functionalgroups.properties",
   "courses": [
    "3B"
@@ -4412,18 +4412,18 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><div class=\"condensed\" aria-label=\"Condensed structure\">CH(=O)NHCH<sub>3</sub></div></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
-  "answer": "Hydrogen bonding",
+  "answer": "Hydrogen-bonding forces",
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "N-methylmethanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
   "origin": "original",
   "why": [
    "",
-   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. N-methylmethanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "",
    "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). N-methylmethanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
    "Ionic bonds hold ions together in salts. These are neutral molecules. N-methylmethanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules."
   ],
@@ -4502,7 +4502,7 @@
   }
  },
  {
-  "id": "functionalgroups-7c1490db",
+  "id": "functionalgroups-9b0a86ec",
   "skill": "functionalgroups.properties",
   "courses": [
    "3B"
@@ -4514,17 +4514,17 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"-24 -24 144 65\" width=\"144\" height=\"65\" role=\"img\" aria-label=\"Structure with condensed formula CH3OCH2CH3\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0.0\" y1=\"0.0\" x2=\"21.7\" y2=\"12.5\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"37.2\" y1=\"12.5\" x2=\"58.9\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"58.9\" y1=\"0.0\" x2=\"88.3\" y2=\"17.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"29.4\" y=\"23.3\" text-anchor=\"middle\" fill=\"#c0392b\" class=\"atom-label\" font-size=\"18\" font-weight=\"800\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text></svg></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
-  "answer": "Dipole–dipole attractions",
+  "answer": "Dipole–dipole forces",
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "methoxyethane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
   "why": [
-   "Hydrogen bonding needs an O–H or N–H bond in the molecule. methoxyethane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
    "",
    "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). methoxyethane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
    "Ionic bonds hold ions together in salts. These are neutral molecules. methoxyethane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
@@ -4570,7 +4570,7 @@
   }
  },
  {
-  "id": "functionalgroups-8e841a10",
+  "id": "functionalgroups-814d082d",
   "skill": "functionalgroups.properties",
   "courses": [
    "3B"
@@ -4582,17 +4582,17 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"-24 -58 147 99\" width=\"147\" height=\"99\" role=\"img\" aria-label=\"Structure with condensed formula CH3CH2C(=O)H\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0.0\" y1=\"0.0\" x2=\"29.4\" y2=\"17.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"29.4\" y1=\"17.0\" x2=\"58.9\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"58.9\" y1=\"0.0\" x2=\"80.5\" y2=\"12.5\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"56.0\" y1=\"0.0\" x2=\"56.0\" y2=\"-25.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"61.8\" y1=\"0.0\" x2=\"61.8\" y2=\"-25.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"88.3\" y=\"23.3\" text-anchor=\"middle\" fill=\"#334650\" class=\"atom-label\" font-size=\"18\" font-weight=\"800\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"58.9\" y=\"-27.7\" text-anchor=\"middle\" fill=\"#c0392b\" class=\"atom-label\" font-size=\"18\" font-weight=\"800\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text></svg></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
-  "answer": "Dipole–dipole attractions",
+  "answer": "Dipole–dipole forces",
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "propanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
   "why": [
-   "Hydrogen bonding needs an O–H or N–H bond in the molecule. propanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
    "",
    "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). propanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
    "Ionic bonds hold ions together in salts. These are neutral molecules. propanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
@@ -4650,8 +4650,8 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"-83 -75 174 116\" width=\"174\" height=\"116\" role=\"img\" aria-label=\"Structure with condensed formula C6H5CH2CH3\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"0.0,0.0 -29.4,17.0 -58.9,0.0 -58.9,-34.0 -29.4,-51.0 -0.0,-34.0\" fill=\"none\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"-29.4\" cy=\"-17.0\" r=\"21.1\" fill=\"none\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><line x1=\"0.0\" y1=\"0.0\" x2=\"29.4\" y2=\"17.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"29.4\" y1=\"17.0\" x2=\"58.9\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/></svg></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
@@ -4660,8 +4660,8 @@
   "explain": "ethylbenzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
   "origin": "original",
   "why": [
-   "Hydrogen bonding needs an O–H or N–H bond in the molecule. ethylbenzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
-   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. ethylbenzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "",
+   "",
    "",
    "Ionic bonds hold ions together in salts. These are neutral molecules. ethylbenzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules."
   ],
@@ -4706,7 +4706,7 @@
   }
  },
  {
-  "id": "functionalgroups-68a373b8",
+  "id": "functionalgroups-052e8c2c",
   "skill": "functionalgroups.properties",
   "courses": [
    "3B"
@@ -4718,17 +4718,17 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><div class=\"condensed\" aria-label=\"Condensed structure\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>C(=O)H</div></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
-  "answer": "Dipole–dipole attractions",
+  "answer": "Dipole–dipole forces",
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "hexanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
   "why": [
-   "Hydrogen bonding needs an O–H or N–H bond in the molecule. hexanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
    "",
    "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). hexanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
    "Ionic bonds hold ions together in salts. These are neutral molecules. hexanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
@@ -4786,8 +4786,8 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><div class=\"condensed\" aria-label=\"Condensed structure\">CH<sub>2</sub>=CHCH<sub>3</sub></div></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
@@ -4796,8 +4796,8 @@
   "explain": "propene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
   "origin": "original",
   "why": [
-   "Hydrogen bonding needs an O–H or N–H bond in the molecule. propene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
-   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. propene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "",
+   "",
    "",
    "Ionic bonds hold ions together in salts. These are neutral molecules. propene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules."
   ],
@@ -4808,7 +4808,7 @@
   }
  },
  {
-  "id": "functionalgroups-081e1367",
+  "id": "functionalgroups-8dfbee34",
   "skill": "functionalgroups.properties",
   "courses": [
    "3B"
@@ -4820,17 +4820,17 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><svg class=\"mol cond2d\" viewBox=\"-12 -74 149 148\" width=\"149\" height=\"148\" role=\"img\" aria-label=\"Structure with condensed formula CH(=O)N(CH3)CH3\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"0.0\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH</text><line x1=\"33.0\" y1=\"0.0\" x2=\"47.0\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><line x1=\"4.3\" y1=\"-14.0\" x2=\"4.3\" y2=\"-34.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><line x1=\"10.3\" y1=\"-14.0\" x2=\"10.3\" y2=\"-34.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"0.0\" y=\"-39.0\" fill=\"#c0392b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">O</text><text x=\"51.0\" y=\"7.0\" fill=\"#2f5fc4\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">N</text><line x1=\"69.5\" y1=\"0.0\" x2=\"83.5\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><line x1=\"58.3\" y1=\"14.0\" x2=\"58.3\" y2=\"34.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"51.0\" y=\"53.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH<tspan dy=\"5\" font-size=\"13\">3</tspan><tspan dy=\"-5\"></tspan></text><text x=\"87.5\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH<tspan dy=\"5\" font-size=\"13\">3</tspan><tspan dy=\"-5\"></tspan></text></svg></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
-  "answer": "Dipole–dipole attractions",
+  "answer": "Dipole–dipole forces",
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "N,N-dimethylmethanamide is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
   "why": [
-   "Hydrogen bonding needs an O–H or N–H bond in the molecule. N,N-dimethylmethanamide is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
    "",
    "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). N,N-dimethylmethanamide is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
    "Ionic bonds hold ions together in salts. These are neutral molecules. N,N-dimethylmethanamide is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
@@ -4888,8 +4888,8 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><div class=\"condensed\" aria-label=\"Condensed structure\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>3</sub></div></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
@@ -4898,8 +4898,8 @@
   "explain": "propane is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
   "origin": "original",
   "why": [
-   "Hydrogen bonding needs an O–H or N–H bond in the molecule. propane is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
-   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. propane is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "",
+   "",
    "",
    "Ionic bonds hold ions together in salts. These are neutral molecules. propane is nonpolar (only C and H), so only weak London dispersion forces act between its molecules."
   ],
@@ -4910,7 +4910,7 @@
   }
  },
  {
-  "id": "functionalgroups-40f0f26c",
+  "id": "functionalgroups-dd2d20b4",
   "skill": "functionalgroups.properties",
   "courses": [
    "3B"
@@ -4922,17 +4922,17 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"-24 -24 177 99\" width=\"177\" height=\"99\" role=\"img\" aria-label=\"Structure with condensed formula CH3CH2CH2C(=O)H\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0.0\" y1=\"0.0\" x2=\"29.4\" y2=\"17.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"29.4\" y1=\"17.0\" x2=\"58.9\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"58.9\" y1=\"0.0\" x2=\"88.3\" y2=\"17.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"88.3\" y1=\"17.0\" x2=\"110.0\" y2=\"4.5\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"91.2\" y1=\"17.0\" x2=\"91.2\" y2=\"42.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"85.4\" y1=\"17.0\" x2=\"85.4\" y2=\"42.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"117.8\" y=\"6.3\" text-anchor=\"middle\" fill=\"#334650\" class=\"atom-label\" font-size=\"18\" font-weight=\"800\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"88.3\" y=\"57.3\" text-anchor=\"middle\" fill=\"#c0392b\" class=\"atom-label\" font-size=\"18\" font-weight=\"800\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text></svg></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
-  "answer": "Dipole–dipole attractions",
+  "answer": "Dipole–dipole forces",
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "butanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
   "why": [
-   "Hydrogen bonding needs an O–H or N–H bond in the molecule. butanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
    "",
    "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). butanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
    "Ionic bonds hold ions together in salts. These are neutral molecules. butanal is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
@@ -4978,7 +4978,7 @@
   }
  },
  {
-  "id": "functionalgroups-e497116d",
+  "id": "functionalgroups-f55f009f",
   "skill": "functionalgroups.properties",
   "courses": [
    "3B"
@@ -4990,17 +4990,17 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"-24 -24 233 65\" width=\"233\" height=\"65\" role=\"img\" aria-label=\"Structure with condensed formula CH3CH2CH2OCH2CH2CH3\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0.0\" y1=\"0.0\" x2=\"29.4\" y2=\"17.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"29.4\" y1=\"17.0\" x2=\"58.9\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"58.9\" y1=\"0.0\" x2=\"80.5\" y2=\"12.5\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"96.1\" y1=\"12.5\" x2=\"117.8\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"117.8\" y1=\"0.0\" x2=\"147.2\" y2=\"17.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"147.2\" y1=\"17.0\" x2=\"176.7\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"88.3\" y=\"23.3\" text-anchor=\"middle\" fill=\"#c0392b\" class=\"atom-label\" font-size=\"18\" font-weight=\"800\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text></svg></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
-  "answer": "Dipole–dipole attractions",
+  "answer": "Dipole–dipole forces",
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "propoxypropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
   "why": [
-   "Hydrogen bonding needs an O–H or N–H bond in the molecule. propoxypropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
    "",
    "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). propoxypropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
    "Ionic bonds hold ions together in salts. These are neutral molecules. propoxypropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
@@ -5012,7 +5012,7 @@
   }
  },
  {
-  "id": "functionalgroups-4aeb592e",
+  "id": "functionalgroups-53100d36",
   "skill": "functionalgroups.properties",
   "courses": [
    "3B"
@@ -5024,17 +5024,17 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><svg class=\"mol cond2d\" viewBox=\"-12 -28 336 56\" width=\"336\" height=\"56\" role=\"img\" aria-label=\"Structure with condensed formula CH3OCH2CH2CH2CH3\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"0.0\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH<tspan dy=\"5\" font-size=\"13\">3</tspan><tspan dy=\"-5\"></tspan></text><line x1=\"41.5\" y1=\"0.0\" x2=\"55.5\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"59.5\" y=\"7.0\" fill=\"#c0392b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">O</text><line x1=\"78.0\" y1=\"0.0\" x2=\"92.0\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"96.0\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH<tspan dy=\"5\" font-size=\"13\">2</tspan><tspan dy=\"-5\"></tspan></text><line x1=\"137.5\" y1=\"0.0\" x2=\"151.5\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"155.5\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH<tspan dy=\"5\" font-size=\"13\">2</tspan><tspan dy=\"-5\"></tspan></text><line x1=\"197.0\" y1=\"0.0\" x2=\"211.0\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"215.0\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH<tspan dy=\"5\" font-size=\"13\">2</tspan><tspan dy=\"-5\"></tspan></text><line x1=\"256.5\" y1=\"0.0\" x2=\"270.5\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"274.5\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH<tspan dy=\"5\" font-size=\"13\">3</tspan><tspan dy=\"-5\"></tspan></text></svg></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
-  "answer": "Dipole–dipole attractions",
+  "answer": "Dipole–dipole forces",
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "1-methoxybutane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
   "why": [
-   "Hydrogen bonding needs an O–H or N–H bond in the molecule. 1-methoxybutane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
    "",
    "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). 1-methoxybutane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
    "Ionic bonds hold ions together in salts. These are neutral molecules. 1-methoxybutane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
@@ -5058,8 +5058,8 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"-24 -24 174 65\" width=\"174\" height=\"65\" role=\"img\" aria-label=\"Structure with condensed formula CH3CH=CHCH2CH3\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0.0\" y1=\"0.0\" x2=\"29.4\" y2=\"17.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"28.0\" y1=\"14.5\" x2=\"57.4\" y2=\"-2.5\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"30.9\" y1=\"19.5\" x2=\"60.3\" y2=\"2.5\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"58.9\" y1=\"0.0\" x2=\"88.3\" y2=\"17.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"88.3\" y1=\"17.0\" x2=\"117.8\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/></svg></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
@@ -5068,8 +5068,8 @@
   "explain": "2-pentene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
   "origin": "original",
   "why": [
-   "Hydrogen bonding needs an O–H or N–H bond in the molecule. 2-pentene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
-   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. 2-pentene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "",
+   "",
    "",
    "Ionic bonds hold ions together in salts. These are neutral molecules. 2-pentene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules."
   ],
@@ -5080,7 +5080,7 @@
   }
  },
  {
-  "id": "functionalgroups-a85f0dde",
+  "id": "functionalgroups-8e6c72c8",
   "skill": "functionalgroups.properties",
   "courses": [
    "3B"
@@ -5092,17 +5092,17 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><svg class=\"mol cond2d\" viewBox=\"-12 -28 172 102\" width=\"172\" height=\"102\" role=\"img\" aria-label=\"Structure with condensed formula CH3CH(Cl)CH3\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"0.0\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH<tspan dy=\"5\" font-size=\"13\">3</tspan><tspan dy=\"-5\"></tspan></text><line x1=\"41.5\" y1=\"0.0\" x2=\"55.5\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"59.5\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH</text><line x1=\"92.5\" y1=\"0.0\" x2=\"106.5\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><line x1=\"66.8\" y1=\"14.0\" x2=\"66.8\" y2=\"34.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"56.5\" y=\"53.0\" fill=\"#2e8b57\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">Cl</text><text x=\"110.5\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH<tspan dy=\"5\" font-size=\"13\">3</tspan><tspan dy=\"-5\"></tspan></text></svg></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
-  "answer": "Dipole–dipole attractions",
+  "answer": "Dipole–dipole forces",
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "2-chloropropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
   "why": [
-   "Hydrogen bonding needs an O–H or N–H bond in the molecule. 2-chloropropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
    "",
    "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). 2-chloropropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
    "Ionic bonds hold ions together in salts. These are neutral molecules. 2-chloropropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
@@ -5114,7 +5114,7 @@
   }
  },
  {
-  "id": "functionalgroups-61be757e",
+  "id": "functionalgroups-099d2e93",
   "skill": "functionalgroups.properties",
   "courses": [
    "3B"
@@ -5126,18 +5126,18 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"-24 -24 188 65\" width=\"188\" height=\"65\" role=\"img\" aria-label=\"Structure with condensed formula CH3CH2CH2CH2OH\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0.0\" y1=\"0.0\" x2=\"29.4\" y2=\"17.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"29.4\" y1=\"17.0\" x2=\"58.9\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"58.9\" y1=\"0.0\" x2=\"88.3\" y2=\"17.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"88.3\" y1=\"17.0\" x2=\"110.0\" y2=\"4.5\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"117.8\" y=\"6.3\" text-anchor=\"middle\" fill=\"#c0392b\" class=\"atom-label\" font-size=\"18\" font-weight=\"800\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text><text x=\"124.5\" y=\"6.3\" fill=\"#c0392b\" class=\"atom-label\" font-size=\"18\" font-weight=\"800\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text></svg></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
-  "answer": "Hydrogen bonding",
+  "answer": "Hydrogen-bonding forces",
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "1-butanol has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
   "origin": "original",
   "why": [
    "",
-   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. 1-butanol has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "",
    "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). 1-butanol has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
    "Ionic bonds hold ions together in salts. These are neutral molecules. 1-butanol has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules."
   ],
@@ -5148,7 +5148,7 @@
   }
  },
  {
-  "id": "functionalgroups-d7e40a2b",
+  "id": "functionalgroups-e633562d",
   "skill": "functionalgroups.properties",
   "courses": [
    "3B"
@@ -5160,18 +5160,18 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><svg class=\"mol cond2d\" viewBox=\"-12 -74 328 102\" width=\"328\" height=\"102\" role=\"img\" aria-label=\"Structure with condensed formula CH3CH2C(=O)NHCH2CH3\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"0.0\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH<tspan dy=\"5\" font-size=\"13\">3</tspan><tspan dy=\"-5\"></tspan></text><line x1=\"41.5\" y1=\"0.0\" x2=\"55.5\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"59.5\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH<tspan dy=\"5\" font-size=\"13\">2</tspan><tspan dy=\"-5\"></tspan></text><line x1=\"101.0\" y1=\"0.0\" x2=\"115.0\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"119.0\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">C</text><line x1=\"137.5\" y1=\"0.0\" x2=\"151.5\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><line x1=\"123.3\" y1=\"-14.0\" x2=\"123.3\" y2=\"-34.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><line x1=\"129.3\" y1=\"-14.0\" x2=\"129.3\" y2=\"-34.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"119.0\" y=\"-39.0\" fill=\"#c0392b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">O</text><text x=\"155.5\" y=\"7.0\" fill=\"#2f5fc4\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">NH</text><line x1=\"188.5\" y1=\"0.0\" x2=\"202.5\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"206.5\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH<tspan dy=\"5\" font-size=\"13\">2</tspan><tspan dy=\"-5\"></tspan></text><line x1=\"248.0\" y1=\"0.0\" x2=\"262.0\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"266.0\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH<tspan dy=\"5\" font-size=\"13\">3</tspan><tspan dy=\"-5\"></tspan></text></svg></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
-  "answer": "Hydrogen bonding",
+  "answer": "Hydrogen-bonding forces",
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "N-ethylpropanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
   "origin": "original",
   "why": [
    "",
-   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. N-ethylpropanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "",
    "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). N-ethylpropanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
    "Ionic bonds hold ions together in salts. These are neutral molecules. N-ethylpropanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules."
   ],
@@ -5182,7 +5182,7 @@
   }
  },
  {
-  "id": "functionalgroups-324eea1d",
+  "id": "functionalgroups-c991777d",
   "skill": "functionalgroups.properties",
   "courses": [
    "3B"
@@ -5194,17 +5194,17 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><div class=\"condensed\" aria-label=\"Condensed structure\">CH<sub>3</sub>CH(Br)CH<sub>3</sub></div></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
-  "answer": "Dipole–dipole attractions",
+  "answer": "Dipole–dipole forces",
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "2-bromopropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
   "why": [
-   "Hydrogen bonding needs an O–H or N–H bond in the molecule. 2-bromopropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
    "",
    "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). 2-bromopropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
    "Ionic bonds hold ions together in salts. These are neutral molecules. 2-bromopropane is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
@@ -5250,7 +5250,7 @@
   }
  },
  {
-  "id": "functionalgroups-29cf5a81",
+  "id": "functionalgroups-e42816cf",
   "skill": "functionalgroups.properties",
   "courses": [
    "3B"
@@ -5262,18 +5262,18 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><svg class=\"mol cond2d\" viewBox=\"-12 -28 121 56\" width=\"121\" height=\"56\" role=\"img\" aria-label=\"Structure with condensed formula CH3NH2\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"0.0\" y=\"7.0\" fill=\"#2d3f4b\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">CH<tspan dy=\"5\" font-size=\"13\">3</tspan><tspan dy=\"-5\"></tspan></text><line x1=\"41.5\" y1=\"0.0\" x2=\"55.5\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><text x=\"59.5\" y=\"7.0\" fill=\"#2f5fc4\" font-size=\"20\" font-weight=\"700\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\">NH<tspan dy=\"5\" font-size=\"13\">2</tspan><tspan dy=\"-5\"></tspan></text></svg></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
-  "answer": "Hydrogen bonding",
+  "answer": "Hydrogen-bonding forces",
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "methanamine has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
   "origin": "original",
   "why": [
    "",
-   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. methanamine has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "",
    "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). methanamine has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
    "Ionic bonds hold ions together in salts. These are neutral molecules. methanamine has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules."
   ],
@@ -5318,7 +5318,7 @@
   }
  },
  {
-  "id": "functionalgroups-41c90b35",
+  "id": "functionalgroups-6701354a",
   "skill": "functionalgroups.properties",
   "courses": [
    "3B"
@@ -5330,18 +5330,18 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"-24 -58 174 99\" width=\"174\" height=\"99\" role=\"img\" aria-label=\"Structure with condensed formula CH3CH2C(=O)NHCH3\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0.0\" y1=\"0.0\" x2=\"29.4\" y2=\"17.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"29.4\" y1=\"17.0\" x2=\"58.9\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"58.9\" y1=\"0.0\" x2=\"80.5\" y2=\"12.5\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"96.1\" y1=\"12.5\" x2=\"117.8\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"56.0\" y1=\"0.0\" x2=\"56.0\" y2=\"-25.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"61.8\" y1=\"0.0\" x2=\"61.8\" y2=\"-25.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"88.3\" y=\"23.3\" text-anchor=\"middle\" fill=\"#2f5fc4\" class=\"atom-label\" font-size=\"18\" font-weight=\"800\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">N</text><text x=\"94.6\" y=\"23.3\" fill=\"#2f5fc4\" class=\"atom-label\" font-size=\"18\" font-weight=\"800\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">H</text><text x=\"58.9\" y=\"-27.7\" text-anchor=\"middle\" fill=\"#c0392b\" class=\"atom-label\" font-size=\"18\" font-weight=\"800\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text></svg></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
-  "answer": "Hydrogen bonding",
+  "answer": "Hydrogen-bonding forces",
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "N-methylpropanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
   "origin": "original",
   "why": [
    "",
-   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. N-methylpropanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "",
    "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). N-methylpropanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
    "Ionic bonds hold ions together in salts. These are neutral molecules. N-methylpropanamide has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules."
   ],
@@ -5364,8 +5364,8 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"-83 -75 203 116\" width=\"203\" height=\"116\" role=\"img\" aria-label=\"Structure with condensed formula C6H5CH2CH2CH3\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"0.0,0.0 -29.4,17.0 -58.9,0.0 -58.9,-34.0 -29.4,-51.0 -0.0,-34.0\" fill=\"none\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"-29.4\" cy=\"-17.0\" r=\"21.1\" fill=\"none\" stroke=\"#2d3f4b\" stroke-width=\"2\"/><line x1=\"0.0\" y1=\"0.0\" x2=\"29.4\" y2=\"17.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"29.4\" y1=\"17.0\" x2=\"58.9\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"58.9\" y1=\"0.0\" x2=\"88.3\" y2=\"17.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/></svg></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
@@ -5374,8 +5374,8 @@
   "explain": "propylbenzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
   "origin": "original",
   "why": [
-   "Hydrogen bonding needs an O–H or N–H bond in the molecule. propylbenzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
-   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. propylbenzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "",
+   "",
    "",
    "Ionic bonds hold ions together in salts. These are neutral molecules. propylbenzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules."
   ],
@@ -5386,7 +5386,7 @@
   }
  },
  {
-  "id": "functionalgroups-993fe18d",
+  "id": "functionalgroups-3a531650",
   "skill": "functionalgroups.properties",
   "courses": [
    "3B"
@@ -5398,17 +5398,17 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><div class=\"condensed\" aria-label=\"Condensed structure\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>C(=O)OCH<sub>3</sub></div></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
-  "answer": "Dipole–dipole attractions",
+  "answer": "Dipole–dipole forces",
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "methyl butanoate is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
   "why": [
-   "Hydrogen bonding needs an O–H or N–H bond in the molecule. methyl butanoate is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
    "",
    "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). methyl butanoate is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
    "Ionic bonds hold ions together in salts. These are neutral molecules. methyl butanoate is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
@@ -5432,8 +5432,8 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"-83 -75 115 116\" width=\"115\" height=\"116\" role=\"img\" aria-label=\"Structure with condensed formula C6H6\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"0.0,0.0 -29.4,17.0 -58.9,0.0 -58.9,-34.0 -29.4,-51.0 -0.0,-34.0\" fill=\"none\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"-29.4\" cy=\"-17.0\" r=\"21.1\" fill=\"none\" stroke=\"#2d3f4b\" stroke-width=\"2\"/></svg></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
@@ -5442,8 +5442,8 @@
   "explain": "benzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
   "origin": "original",
   "why": [
-   "Hydrogen bonding needs an O–H or N–H bond in the molecule. benzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
-   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. benzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "",
+   "",
    "",
    "Ionic bonds hold ions together in salts. These are neutral molecules. benzene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules."
   ],
@@ -5466,8 +5466,8 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><div class=\"condensed\" aria-label=\"Condensed structure\">CH<sub>3</sub>CH=CHCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></div></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
@@ -5476,8 +5476,8 @@
   "explain": "2-hexene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
   "origin": "original",
   "why": [
-   "Hydrogen bonding needs an O–H or N–H bond in the molecule. 2-hexene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
-   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. 2-hexene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules.",
+   "",
+   "",
    "",
    "Ionic bonds hold ions together in salts. These are neutral molecules. 2-hexene is nonpolar (only C and H), so only weak London dispersion forces act between its molecules."
   ],
@@ -5488,7 +5488,7 @@
   }
  },
  {
-  "id": "functionalgroups-8a781d07",
+  "id": "functionalgroups-e40e131f",
   "skill": "functionalgroups.properties",
   "courses": [
    "3B"
@@ -5500,17 +5500,17 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><svg class=\"mol\" viewBox=\"-24 -58 174 133\" width=\"174\" height=\"133\" role=\"img\" aria-label=\"Structure with condensed formula CH3CH2C(=O)N(CH3)CH3\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0.0\" y1=\"0.0\" x2=\"29.4\" y2=\"17.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"29.4\" y1=\"17.0\" x2=\"58.9\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"58.9\" y1=\"0.0\" x2=\"80.5\" y2=\"12.5\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"96.1\" y1=\"12.5\" x2=\"117.8\" y2=\"0.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"56.0\" y1=\"0.0\" x2=\"56.0\" y2=\"-25.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"61.8\" y1=\"0.0\" x2=\"61.8\" y2=\"-25.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"88.3\" y1=\"26.0\" x2=\"88.3\" y2=\"51.0\" stroke=\"#2d3f4b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"88.3\" y=\"23.3\" text-anchor=\"middle\" fill=\"#2f5fc4\" class=\"atom-label\" font-size=\"18\" font-weight=\"800\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">N</text><text x=\"58.9\" y=\"-27.7\" text-anchor=\"middle\" fill=\"#c0392b\" class=\"atom-label\" font-size=\"18\" font-weight=\"800\" font-family=\"Nunito,Inter,Helvetica,Arial,sans-serif\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text></svg></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
-  "answer": "Dipole–dipole attractions",
+  "answer": "Dipole–dipole forces",
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "N,N-dimethylpropanamide is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
   "origin": "original",
   "why": [
-   "Hydrogen bonding needs an O–H or N–H bond in the molecule. N,N-dimethylpropanamide is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
+   "",
    "",
    "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). N,N-dimethylpropanamide is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces.",
    "Ionic bonds hold ions together in salts. These are neutral molecules. N,N-dimethylpropanamide is polar but has no O–H or N–H bond, so its molecules attract by dipole–dipole forces."
@@ -5522,7 +5522,7 @@
   }
  },
  {
-  "id": "functionalgroups-ace0c590",
+  "id": "functionalgroups-d3f55fae",
   "skill": "functionalgroups.properties",
   "courses": [
    "3B"
@@ -5534,18 +5534,18 @@
   "type": "mc",
   "prompt": "<p class=\"prompt\">What is the strongest attraction between molecules of this compound (as a pure liquid)?</p><div class=\"struct\"><div class=\"condensed\" aria-label=\"Condensed structure\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>NH<sub>2</sub></div></div>",
   "choices": [
-   "Hydrogen bonding",
-   "Dipole–dipole attractions",
+   "Hydrogen-bonding forces",
+   "Dipole–dipole forces",
    "London dispersion forces",
    "Ionic bonds"
   ],
-  "answer": "Hydrogen bonding",
+  "answer": "Hydrogen-bonding forces",
   "hint": "Does the molecule have an O–H or N–H bond (hydrogen bonding)? If not, is it polar (dipole–dipole) or only C and H (London forces)?",
   "explain": "1-butanamine has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
   "origin": "original",
   "why": [
    "",
-   "Dipole–dipole is the strongest force only for polar molecules without O–H or N–H. 1-butanamine has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
+   "",
    "London dispersion is the strongest force only in nonpolar molecules (just C and H, or symmetric). 1-butanamine has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules.",
    "Ionic bonds hold ions together in salts. These are neutral molecules. 1-butanamine has an O–H or N–H bond, so its molecules hydrogen bond to each other. This is the strongest attraction between molecules."
   ],

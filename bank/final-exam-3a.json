@@ -1174,7 +1174,7 @@
    "",
    "Aluminum touches the zigzag line, but it behaves as a metal.",
    "Phosphorus is a nonmetal.",
-   "Sulfur is a nonmetal."
+   "Sulfur sits to the right of the zigzag line, so it is a nonmetal: dull, brittle and a poor conductor. Metalloids lie right along the staircase and have properties between metals and nonmetals."
   ],
   "html": {
    "prompt": "Which element is a metalloid?",
@@ -1190,7 +1190,7 @@
     "",
     "Aluminum touches the zigzag line, but it behaves as a metal.",
     "Phosphorus is a nonmetal.",
-    "Sulfur is a nonmetal."
+    "Sulfur sits to the right of the zigzag line, so it is a nonmetal: dull, brittle and a poor conductor. Metalloids lie right along the staircase and have properties between metals and nonmetals."
    ]
   },
   "from": {
@@ -2851,7 +2851,7 @@
   "why": [
    "",
    "Helium is a noble gas that exists as single atoms, and sulfur is not diatomic.",
-   "Carbon is not diatomic.",
+   "Nitrogen and chlorine are diatomic (N₂, Cl₂), but carbon is not: it exists as networks of bonded atoms such as graphite and diamond, so this set fails.",
    "Neon is a noble gas that exists as single atoms."
   ],
   "html": {
@@ -2867,7 +2867,7 @@
    "why": [
     "",
     "Helium is a noble gas that exists as single atoms, and sulfur is not diatomic.",
-    "Carbon is not diatomic.",
+    "Nitrogen and chlorine are diatomic (N<sub>2</sub>, Cl<sub>2</sub>), but carbon is not: it exists as networks of bonded atoms such as graphite and diamond, so this set fails.",
     "Neon is a noble gas that exists as single atoms."
    ]
   },
@@ -8288,7 +8288,7 @@
   "why": [
    "",
    "[OH⁻] = 10⁻⁴ M gives pH 10, which is basic.",
-   "A pH above 7 is basic.",
+   "A pH above 7 means basic, not acidic. Acidic solutions have pH below 7, which means [H₃O⁺] greater than 1.0×10⁻⁷ M at 25 °C.",
    "10⁻⁹ M is less than 10⁻⁷ M, so this solution is basic."
   ],
   "html": {
@@ -8304,7 +8304,7 @@
    "why": [
     "",
     "[OH⁻] = 10⁻⁴ M gives pH 10, which is basic.",
-    "A pH above 7 is basic.",
+    "A pH above 7 means basic, not acidic. Acidic solutions have pH below 7, which means [H<sub>3</sub>O<sup>+</sup>] greater than 1.0×10<sup>−7</sup> M at 25 °C.",
     "10⁻⁹ M is less than 10⁻⁷ M, so this solution is basic."
    ]
   },
@@ -9704,7 +9704,7 @@
   "why": [
    "",
    "Calcium is in group 2A, an alkaline earth metal.",
-   "Krypton is a noble gas.",
+   "Krypton is in the last column (group 8A), so it is a noble gas, not an alkali metal. Alkali metals are the reactive metals in group 1A, the first column.",
    "Copper is a transition metal."
   ],
   "html": {
@@ -9720,7 +9720,7 @@
    "why": [
     "",
     "Calcium is in group 2A, an alkaline earth metal.",
-    "Krypton is a noble gas.",
+    "Krypton is in the last column (group 8A), so it is a noble gas, not an alkali metal. Alkali metals are the reactive metals in group 1A, the first column.",
     "Copper is a transition metal."
    ]
   },
@@ -10255,7 +10255,7 @@
    "",
    "Fe₃O₂ gives +9 and −4, so the charges don't balance.",
    "This uses the Roman numeral III as a subscript. The numeral is the charge.",
-   "FeO is iron(II) oxide."
+   "FeO pairs one Fe with one O, which only balances if iron is 2+, so it is iron(II) oxide. The Roman numeral III means Fe³⁺, which needs a different ratio with O²⁻."
   ],
   "html": {
    "prompt": "Rust is mainly iron(III) oxide. Which formula represents this compound?",
@@ -10271,7 +10271,7 @@
     "",
     "Fe₃O₂ gives +9 and −4, so the charges don't balance.",
     "This uses the Roman numeral III as a subscript. The numeral is the charge.",
-    "FeO is iron(II) oxide."
+    "FeO pairs one Fe with one O, which only balances if iron is 2+, so it is iron(II) oxide. The Roman numeral III means Fe<sup>3+</sup>, which needs a different ratio with O<sup>2−</sup>."
    ]
   },
   "from": {
@@ -10601,7 +10601,7 @@
    "",
    "H⁺ and OH⁻ combine to make water, so they react.",
    "OH⁻ reacts to make water.",
-   "H⁺ reacts to make water."
+   "H⁺ is not a spectator: it combines with OH⁻ to make water, which is the actual reaction. Spectators are the ions that stay dissolved and unchanged on both sides."
   ],
   "html": {
    "prompt": "Nitric acid, HNO<sub>3</sub>(aq), is neutralized by lithium hydroxide, LiOH(aq). Which ions are spectator ions?",
@@ -10617,7 +10617,7 @@
     "",
     "H⁺ and OH⁻ combine to make water, so they react.",
     "OH⁻ reacts to make water.",
-    "H⁺ reacts to make water."
+    "H⁺ is not a spectator: it combines with OH⁻ to make water, which is the actual reaction. Spectators are the ions that stay dissolved and unchanged on both sides."
    ]
   },
   "from": {
@@ -15410,7 +15410,7 @@
    "",
    "NaCl gives a 1:1 ratio of cations to anions.",
    "MgCl₂ gives more anions than cations (1:2).",
-   "K₃PO₄ gives a 3:1 ratio."
+   "K₃PO₄ breaks into 3 K⁺ for every PO₄³⁻, a 3 : 1 cation-to-anion ratio. Count the ions in the box: there are 6 cations and 3 anions, which is a 2 : 1 ratio."
   ],
   "html": {
    "prompt": "The box shows the ions in a solution of ONE ionic compound (water not shown). The signs show only whether each ion is positive or negative. Which compound could it be?",
@@ -15426,7 +15426,7 @@
     "",
     "NaCl gives a 1:1 ratio of cations to anions.",
     "MgCl₂ gives more anions than cations (1:2).",
-    "K₃PO₄ gives a 3:1 ratio."
+    "K₃PO₄ breaks into 3 K⁺ for every PO₄³⁻, a 3 : 1 cation-to-anion ratio. Count the ions in the box: there are 6 cations and 3 anions, which is a 2 : 1 ratio."
    ]
   },
   "data": {
@@ -20652,7 +20652,7 @@
   "explain": "Box III has two kinds of particles: red–red molecules (an element) and blue–red–red molecules (a compound). Box I is a pure element, Box II is a pure compound, and Box IV is a mixture of two elements.",
   "why": [
    "",
-   "Box I is a pure element.",
+   "Box I holds only one kind of particle, so it is a pure element, not a mixture. A mixture needs two or more different kinds of particles in the same box.",
    "Box II is a pure compound.",
    "Box IV is a mixture of two elements, with no compound."
   ],
@@ -20668,7 +20668,7 @@
    "explain": "<b>Box III</b> has two kinds of particles: red–red molecules (an element) and blue–red–red molecules (a compound). Box I is a pure element, Box II is a pure compound, and Box IV is a mixture of two elements.",
    "why": [
     "",
-    "Box I is a pure element.",
+    "Box I holds only one kind of particle, so it is a pure element, not a mixture. A mixture needs two or more different kinds of particles in the same box.",
     "Box II is a pure compound.",
     "Box IV is a mixture of two elements, with no compound."
    ]
@@ -21933,7 +21933,7 @@
    "",
    "Ba₂SO₄ treats barium as 1+. It's 2+.",
    "Ba(SO₄)₂ treats barium as 4+. It's 2+.",
-   "BaSO₃ is barium sulfite."
+   "BaSO₃ contains sulfite (SO₃²⁻), so it is barium sulfite. The -ate ending in sulfate means the ion with one more oxygen, SO₄²⁻."
   ],
   "html": {
    "prompt": "Barium sulfate is swallowed as a contrast agent for X-ray images of the digestive tract. What is its formula?",
@@ -21949,7 +21949,7 @@
     "",
     "Ba₂SO₄ treats barium as 1+. It's 2+.",
     "Ba(SO₄)₂ treats barium as 4+. It's 2+.",
-    "BaSO₃ is barium sulfite."
+    "BaSO₃ contains sulfite (SO₃²⁻), so it is barium sulfite. The -ate ending in sulfate means the ion with one more oxygen, SO₄²⁻."
    ]
   },
   "from": {
@@ -26253,7 +26253,7 @@
   "why": [
    "",
    "JX assumes the two ions have equal charges.",
-   "This reverses the ratio.",
+   "This reverses the ratio by putting the subscript on the wrong ion. J is in group 2 (J²⁺) and X is in group 17 (X⁻), so the charges balance only with two X for each J.",
    "JX₃ would need J to be 3+."
   ],
   "html": {
@@ -26269,7 +26269,7 @@
    "why": [
     "",
     "JX assumes the two ions have equal charges.",
-    "This reverses the ratio.",
+    "This reverses the ratio by putting the subscript on the wrong ion. J is in group 2 (J²⁺) and X is in group 17 (X⁻), so the charges balance only with two X for each J.",
     "JX₃ would need J to be 3+."
    ]
   },
@@ -33804,7 +33804,7 @@
    "",
    "950 mmHg is less than 1.50 atm (1140 mmHg).",
    "120 kPa is only about 900 mmHg.",
-   "700 torr is 700 mmHg."
+   "1 torr equals 1 mmHg, so sample IV is only 700 mmHg. Convert every sample to the same unit first; the others, including the 1.50 atm sample, are higher."
   ],
   "html": {
    "prompt": "Four gas samples have the pressures recorded in the table (1 atm = 101.3 kPa). Which sample has the highest pressure?",
@@ -33820,7 +33820,7 @@
     "",
     "950 mmHg is less than 1.50 atm (1140 mmHg).",
     "120 kPa is only about 900 mmHg.",
-    "700 torr is 700 mmHg."
+    "1 torr equals 1 mmHg, so sample IV is only 700 mmHg. Convert every sample to the same unit first; the others, including the 1.50 atm sample, are higher."
    ]
   },
   "data": {

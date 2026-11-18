@@ -1114,9 +1114,9 @@
   "type": "mc",
   "prompt": "<div>Compared with its cis isomer, a <b style=\"font-weight:900\">trans</b> fatty acid</div>",
   "choices": [
-   "<span style=\"display:block\">is more kinked and melts lower</span>",
+   "<span style=\"display:block\">is more kinked, so its chains pack loosely and it melts lower</span>",
    "<span style=\"display:block\">is nearly straight, packs like a saturated chain and melts higher</span>",
-   "<span style=\"display:block\">has one fewer carbon atom</span>",
+   "<span style=\"display:block\">has one fewer carbon atom, because the C=C moved to a new position in the chain</span>",
    "<span style=\"display:block\">has the same shape and the same melting point</span>"
   ],
   "answer": "<span style=\"display:block\">is nearly straight, packs like a saturated chain and melts higher</span>",
@@ -1165,7 +1165,7 @@
   }
  },
  {
-  "id": "lipids-3bb87d76",
+  "id": "lipids-6a5f60b2",
   "skill": "lipids.cistrans",
   "courses": [
    "3B"
@@ -1176,12 +1176,12 @@
   "type": "mc",
   "prompt": "<div>Oleic acid and elaidic acid are both 18:1 with the C=C at C9. Oleic acid is cis, elaidic acid is trans. Which melts at the higher temperature, and why?</div>",
   "choices": [
-   "<span style=\"display:block\">Elaidic acid: its straight trans chains pack closely, giving more dispersion forces</span>",
-   "<span style=\"display:block\">Oleic acid: cis bonds are stronger than trans bonds</span>",
-   "<span style=\"display:block\">Oleic acid: the cis kink lets the chains pack closer together</span>",
+   "<span style=\"display:block\">Elaidic acid: straight trans chains pack closely, giving more dispersion forces</span>",
+   "<span style=\"display:block\">Oleic acid: cis C=C bonds are stronger than trans C=C bonds</span>",
+   "<span style=\"display:block\">Oleic acid: the cis kink lets the chains pack closer, giving more dispersion forces</span>",
    "<span style=\"display:block\">They melt at the same temperature because they have the same formula</span>"
   ],
-  "answer": "<span style=\"display:block\">Elaidic acid: its straight trans chains pack closely, giving more dispersion forces</span>",
+  "answer": "<span style=\"display:block\">Elaidic acid: straight trans chains pack closely, giving more dispersion forces</span>",
   "why": [
    "",
    "Melting is about forces between molecules, not bond strength inside them.",
@@ -3212,10 +3212,10 @@
   "type": "mc",
   "prompt": "<div>Which two fatty acids are <b style=\"font-weight:900\">essential</b>, meaning we must get them from food?</div>",
   "choices": [
-   "<span style=\"display:block\">Oleic acid and palmitoleic acid</span>",
-   "<span style=\"display:block\">Arachidonic acid and EPA</span>",
+   "<span style=\"display:block\">Oleic acid (omega-9) and palmitoleic acid (omega-7)</span>",
+   "<span style=\"display:block\">Arachidonic acid (omega-6) and eicosapentaenoic acid (omega-3)</span>",
    "<span style=\"display:block\">Linoleic acid (omega-6) and α-linolenic acid (omega-3)</span>",
-   "<span style=\"display:block\">Palmitic acid and stearic acid</span>"
+   "<span style=\"display:block\">Palmitic acid (16:0) and stearic acid (18:0)</span>"
   ],
   "answer": "<span style=\"display:block\">Linoleic acid (omega-6) and α-linolenic acid (omega-3)</span>",
   "why": [
@@ -3822,7 +3822,7 @@
   "prompt": "<div>Lard is a solid at room temperature. Chemically, it is mostly</div>",
   "choices": [
    "<span style=\"display:block\">triacylglycerols with three identical saturated fatty acids</span>",
-   "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly unsaturated (cis)</span>",
+   "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly cis-unsaturated</span>",
    "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly saturated</span>",
    "<span style=\"display:block\">esters of one long-chain fatty acid and one long-chain alcohol</span>"
   ],
@@ -3855,9 +3855,9 @@
   "prompt": "<div>Beeswax and carnauba wax are firm and water-repellent. Structurally, a wax is</div>",
   "choices": [
    "<span style=\"display:block\">one ester of a long-chain fatty acid and a long-chain alcohol</span>",
-   "<span style=\"display:block\">a steroid with four fused rings</span>",
-   "<span style=\"display:block\">three fatty acids esterified to glycerol</span>",
-   "<span style=\"display:block\">a glycerol with a phosphate head</span>"
+   "<span style=\"display:block\">a steroid with four fused rings and a long hydrocarbon tail</span>",
+   "<span style=\"display:block\">three fatty acids joined to glycerol by ester bonds</span>",
+   "<span style=\"display:block\">a glycerol with two fatty acids and a polar phosphate head</span>"
   ],
   "answer": "<span style=\"display:block\">one ester of a long-chain fatty acid and a long-chain alcohol</span>",
   "why": [
@@ -3887,10 +3887,10 @@
   "type": "mc",
   "prompt": "<div><div style=\"font-size:19.2px;letter-spacing:0.192px;line-height:29.76px\">glycerol + 3 fatty acids → triacylglycerol + 3 H<sub style=\"font-size:13.056px;line-height:20.2368px\">2</sub>O</div></div><div>What type of reaction is this?</div>",
   "choices": [
-   "<span style=\"display:block\">Hydrolysis</span>",
+   "<span style=\"display:block\">Hydrolysis (ester splitting)</span>",
    "<span style=\"display:block\">Condensation (esterification)</span>",
-   "<span style=\"display:block\">Saponification</span>",
-   "<span style=\"display:block\">Hydrogenation</span>"
+   "<span style=\"display:block\">Saponification (base hydrolysis)</span>",
+   "<span style=\"display:block\">Hydrogenation (adding H<sub style=\"font-size:14.1333px;line-height:21.9067px\">2</sub>)</span>"
   ],
   "answer": "<span style=\"display:block\">Condensation (esterification)</span>",
   "why": [
@@ -3921,7 +3921,7 @@
   "prompt": "<div>Beef tallow is a solid at room temperature. Chemically, it is mostly</div>",
   "choices": [
    "<span style=\"display:block\">triacylglycerols with three identical saturated fatty acids</span>",
-   "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly unsaturated (cis)</span>",
+   "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly cis-unsaturated</span>",
    "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly saturated</span>",
    "<span style=\"display:block\">esters of one long-chain fatty acid and one long-chain alcohol</span>"
   ],
@@ -3984,7 +3984,7 @@
   }
  },
  {
-  "id": "lipids-92e30af3",
+  "id": "lipids-3a1ba908",
   "skill": "lipids.build",
   "courses": [
    "3B"
@@ -3997,10 +3997,10 @@
   "choices": [
    "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly saturated</span>",
    "<span style=\"display:block\">esters of one long-chain fatty acid and one long-chain alcohol</span>",
-   "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly unsaturated (cis)</span>",
+   "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly cis-unsaturated</span>",
    "<span style=\"display:block\">triacylglycerols with three identical unsaturated fatty acids</span>"
   ],
-  "answer": "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly unsaturated (cis)</span>",
+  "answer": "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly cis-unsaturated</span>",
   "why": [
    "Saturated chains pack tightly and make a solid. A liquid needs cis kinks.",
    "That describes a wax, not a fat or oil.",
@@ -4038,7 +4038,7 @@
   }
  },
  {
-  "id": "lipids-c879eb6a",
+  "id": "lipids-2556c737",
   "skill": "lipids.build",
   "courses": [
    "3B"
@@ -4051,10 +4051,10 @@
   "choices": [
    "<span style=\"display:block\">triacylglycerols with three identical unsaturated fatty acids</span>",
    "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly saturated</span>",
-   "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly unsaturated (cis)</span>",
+   "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly cis-unsaturated</span>",
    "<span style=\"display:block\">esters of one long-chain fatty acid and one long-chain alcohol</span>"
   ],
-  "answer": "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly unsaturated (cis)</span>",
+  "answer": "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly cis-unsaturated</span>",
   "why": [
    "Natural fats and oils are mixed: each glycerol usually carries two or three different fatty acids.",
    "Saturated chains pack tightly and make a solid. A liquid needs cis kinks.",
@@ -4113,7 +4113,7 @@
   }
  },
  {
-  "id": "lipids-12dbaecb",
+  "id": "lipids-14159ec0",
   "skill": "lipids.build",
   "courses": [
    "3B"
@@ -4127,9 +4127,9 @@
    "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly saturated</span>",
    "<span style=\"display:block\">esters of one long-chain fatty acid and one long-chain alcohol</span>",
    "<span style=\"display:block\">triacylglycerols with three identical unsaturated fatty acids</span>",
-   "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly unsaturated (cis)</span>"
+   "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly cis-unsaturated</span>"
   ],
-  "answer": "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly unsaturated (cis)</span>",
+  "answer": "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly cis-unsaturated</span>",
   "why": [
    "Saturated chains pack tightly and make a solid. A liquid needs cis kinks.",
    "That describes a wax, not a fat or oil.",
@@ -4158,7 +4158,7 @@
   "prompt": "<div>Butter is a solid at room temperature. Chemically, it is mostly</div>",
   "choices": [
    "<span style=\"display:block\">esters of one long-chain fatty acid and one long-chain alcohol</span>",
-   "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly unsaturated (cis)</span>",
+   "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly cis-unsaturated</span>",
    "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly saturated</span>",
    "<span style=\"display:block\">triacylglycerols with three identical saturated fatty acids</span>"
   ],
@@ -4221,7 +4221,7 @@
   }
  },
  {
-  "id": "lipids-7fca3617",
+  "id": "lipids-b6faf5a1",
   "skill": "lipids.build",
   "courses": [
    "3B"
@@ -4233,11 +4233,11 @@
   "prompt": "<div>Corn oil is a liquid at room temperature. Chemically, it is mostly</div>",
   "choices": [
    "<span style=\"display:block\">triacylglycerols with three identical unsaturated fatty acids</span>",
-   "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly unsaturated (cis)</span>",
+   "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly cis-unsaturated</span>",
    "<span style=\"display:block\">esters of one long-chain fatty acid and one long-chain alcohol</span>",
    "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly saturated</span>"
   ],
-  "answer": "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly unsaturated (cis)</span>",
+  "answer": "<span style=\"display:block\">triacylglycerols whose fatty acids are mostly cis-unsaturated</span>",
   "why": [
    "Natural fats and oils are mixed: each glycerol usually carries two or three different fatty acids.",
    "",
@@ -5394,8 +5394,8 @@
   "prompt": "<div>Why does sodium stearate clean greasy hands when water alone does not?</div>",
   "choices": [
    "<span style=\"display:block\">Its long nonpolar tail dissolves in grease and its ionic head dissolves in water</span>",
-   "<span style=\"display:block\">It reacts with grease to make a water-soluble salt</span>",
-   "<span style=\"display:block\">It is a strong acid that breaks down grease</span>",
+   "<span style=\"display:block\">It reacts with grease to make a water-soluble salt that rinses away</span>",
+   "<span style=\"display:block\">It is a strong acid that breaks the grease into small, water-soluble pieces</span>",
    "<span style=\"display:block\">It is nonpolar from end to end</span>"
   ],
   "answer": "<span style=\"display:block\">Its long nonpolar tail dissolves in grease and its ionic head dissolves in water</span>",
@@ -5459,10 +5459,10 @@
   "type": "mc",
   "prompt": "<div>A fat reacts with NaOH to make glycerol and fatty acid salts. This reaction is</div>",
   "choices": [
-   "<span style=\"display:block\">Hydrogenation</span>",
-   "<span style=\"display:block\">Oxidation</span>",
+   "<span style=\"display:block\">Hydrogenation (adding H<sub style=\"font-size:14.1333px;line-height:21.9067px\">2</sub>)</span>",
+   "<span style=\"display:block\">Oxidation (attack by O<sub style=\"font-size:14.1333px;line-height:21.9067px\">2</sub>)</span>",
    "<span style=\"display:block\">Hydrolysis in base (saponification)</span>",
-   "<span style=\"display:block\">Condensation</span>"
+   "<span style=\"display:block\">Condensation (joining with loss of water)</span>"
   ],
   "answer": "<span style=\"display:block\">Hydrolysis in base (saponification)</span>",
   "why": [
@@ -5481,7 +5481,7 @@
   }
  },
  {
-  "id": "lipids-b5582baa",
+  "id": "lipids-1689d60d",
   "skill": "lipids.sapon",
   "courses": [
    "3B"
@@ -5493,11 +5493,11 @@
   "prompt": "<div>A kitchen drain is clogged with solid beef fat (mostly tristearin). Why does a lye (NaOH) drain cleaner clear it?</div>",
   "choices": [
    "<span style=\"display:block\">NaOH oxidizes the C=C bonds so the fat turns rancid and breaks up</span>",
-   "<span style=\"display:block\">NaOH hydrogenates the fat, turning it into a liquid oil</span>",
-   "<span style=\"display:block\">NaOH saponifies the fat into glycerol and soap, which both dissolve in water and wash away</span>",
+   "<span style=\"display:block\">NaOH hydrogenates the fat, turning it into a liquid oil that flows down the drain</span>",
+   "<span style=\"display:block\">NaOH saponifies the fat into glycerol and soap, which dissolve and wash away</span>",
    "<span style=\"display:block\">NaOH melts the fat by raising its melting point</span>"
   ],
-  "answer": "<span style=\"display:block\">NaOH saponifies the fat into glycerol and soap, which both dissolve in water and wash away</span>",
+  "answer": "<span style=\"display:block\">NaOH saponifies the fat into glycerol and soap, which dissolve and wash away</span>",
   "why": [
    "Saturated fats have few C=C bonds, and rancidity does not clear clogs.",
    "Hydrogenation adds H<sub style=\"font-size:13.8667px;line-height:21.4933px\">2</sub> and makes fats more solid, not less.",
@@ -5580,7 +5580,7 @@
   }
  },
  {
-  "id": "lipids-c2194105",
+  "id": "lipids-2f2d5f18",
   "skill": "lipids.sapon",
   "courses": [
    "3B"
@@ -5591,12 +5591,12 @@
   "type": "mc",
   "prompt": "<div>A kitchen drain is clogged with old cooking fat (mostly tripalmitin). Why does a lye (NaOH) drain cleaner clear it?</div>",
   "choices": [
-   "<span style=\"display:block\">NaOH hydrogenates the fat, turning it into a liquid oil</span>",
-   "<span style=\"display:block\">NaOH saponifies the fat into glycerol and soap, which both dissolve in water and wash away</span>",
+   "<span style=\"display:block\">NaOH hydrogenates the fat, turning it into a liquid oil that flows down the drain</span>",
+   "<span style=\"display:block\">NaOH saponifies the fat into glycerol and soap, which dissolve and wash away</span>",
    "<span style=\"display:block\">NaOH oxidizes the C=C bonds so the fat turns rancid and breaks up</span>",
    "<span style=\"display:block\">NaOH melts the fat by raising its melting point</span>"
   ],
-  "answer": "<span style=\"display:block\">NaOH saponifies the fat into glycerol and soap, which both dissolve in water and wash away</span>",
+  "answer": "<span style=\"display:block\">NaOH saponifies the fat into glycerol and soap, which dissolve and wash away</span>",
   "why": [
    "Hydrogenation adds H<sub style=\"font-size:13.8667px;line-height:21.4933px\">2</sub> and makes fats more solid, not less.",
    "",
@@ -5853,7 +5853,7 @@
   }
  },
  {
-  "id": "lipids-33727d7c",
+  "id": "lipids-9bfc016f",
   "skill": "lipids.sapon",
   "courses": [
    "3B"
@@ -5864,12 +5864,12 @@
   "type": "mc",
   "prompt": "<div>A kitchen drain is clogged with bacon grease (mostly tripalmitin and tristearin). Why does a lye (NaOH) drain cleaner clear it?</div>",
   "choices": [
-   "<span style=\"display:block\">NaOH hydrogenates the fat, turning it into a liquid oil</span>",
+   "<span style=\"display:block\">NaOH hydrogenates the fat, turning it into a liquid oil that flows down the drain</span>",
    "<span style=\"display:block\">NaOH oxidizes the C=C bonds so the fat turns rancid and breaks up</span>",
    "<span style=\"display:block\">NaOH melts the fat by raising its melting point</span>",
-   "<span style=\"display:block\">NaOH saponifies the fat into glycerol and soap, which both dissolve in water and wash away</span>"
+   "<span style=\"display:block\">NaOH saponifies the fat into glycerol and soap, which dissolve and wash away</span>"
   ],
-  "answer": "<span style=\"display:block\">NaOH saponifies the fat into glycerol and soap, which both dissolve in water and wash away</span>",
+  "answer": "<span style=\"display:block\">NaOH saponifies the fat into glycerol and soap, which dissolve and wash away</span>",
   "why": [
    "Hydrogenation adds H<sub style=\"font-size:13.8667px;line-height:21.4933px\">2</sub> and makes fats more solid, not less.",
    "Saturated fats have few C=C bonds, and rancidity does not clear clogs.",
@@ -6473,10 +6473,10 @@
   "type": "mc",
   "prompt": "<div>Vegetable oil is hydrogenated to make margarine. How does the product compare with the oil?</div>",
   "choices": [
-   "<span style=\"display:block\">It has fewer ester bonds</span>",
-   "<span style=\"display:block\">It is more unsaturated and stays liquid</span>",
+   "<span style=\"display:block\">It has fewer ester bonds, so the chains can pack into a solid fat</span>",
+   "<span style=\"display:block\">It is more unsaturated, so its kinked chains keep it liquid</span>",
    "<span style=\"display:block\">It is more saturated, so it packs better and is solid at room temperature</span>",
-   "<span style=\"display:block\">It becomes glycerol and fatty acids</span>"
+   "<span style=\"display:block\">It breaks down into glycerol and free fatty acids</span>"
   ],
   "answer": "<span style=\"display:block\">It is more saturated, so it packs better and is solid at room temperature</span>",
   "why": [
@@ -6506,9 +6506,9 @@
   "type": "mc",
   "prompt": "<div>Which conditions hydrogenate the C=C bonds of an oil?</div>",
   "choices": [
-   "<span style=\"display:block\">O<sub style=\"font-size:14.1333px;line-height:21.9067px\">2</sub> from the air</span>",
-   "<span style=\"display:block\">NaOH and heat</span>",
-   "<span style=\"display:block\">H<sub style=\"font-size:14.1333px;line-height:21.9067px\">2</sub>O and lipase</span>",
+   "<span style=\"display:block\">O<sub style=\"font-size:14.1333px;line-height:21.9067px\">2</sub> from the air, bubbled through warm oil</span>",
+   "<span style=\"display:block\">NaOH dissolved in water, heated to boiling</span>",
+   "<span style=\"display:block\">H<sub style=\"font-size:14.1333px;line-height:21.9067px\">2</sub>O with the enzyme lipase at body temperature</span>",
    "<span style=\"display:block\">H<sub style=\"font-size:14.1333px;line-height:21.9067px\">2</sub> gas with a Ni (or Pd) catalyst</span>"
   ],
   "answer": "<span style=\"display:block\">H<sub style=\"font-size:14.1333px;line-height:21.9067px\">2</sub> gas with a Ni (or Pd) catalyst</span>",
@@ -6561,7 +6561,7 @@
   }
  },
  {
-  "id": "lipids-dab8311f",
+  "id": "lipids-d1ab80f6",
   "skill": "lipids.hydrog",
   "courses": [
    "3B"
@@ -6572,12 +6572,12 @@
   "type": "mc",
   "prompt": "<div>Partial hydrogenation of an oil can create a problem for heart health. What is it?</div>",
   "choices": [
-   "<span style=\"display:block\">It makes the oil polyunsaturated</span>",
-   "<span style=\"display:block\">It adds oxygen to the chains</span>",
-   "<span style=\"display:block\">It breaks the fat into free glycerol</span>",
-   "<span style=\"display:block\">Some remaining cis C=C bonds flip to trans, making trans fats that raise LDL</span>"
+   "<span style=\"display:block\">It adds more C=C bonds and makes the oil polyunsaturated</span>",
+   "<span style=\"display:block\">It adds oxygen to the chains along with the H<sub style=\"font-size:14.1333px;line-height:21.9067px\">2</sub>, which damages blood vessels</span>",
+   "<span style=\"display:block\">It breaks the ester bonds and floods the blood with free glycerol</span>",
+   "<span style=\"display:block\">Some cis C=C bonds flip to trans, making trans fats that raise LDL</span>"
   ],
-  "answer": "<span style=\"display:block\">Some remaining cis C=C bonds flip to trans, making trans fats that raise LDL</span>",
+  "answer": "<span style=\"display:block\">Some cis C=C bonds flip to trans, making trans fats that raise LDL</span>",
   "why": [
    "Hydrogenation only removes C=C.",
    "Only H<sub style=\"font-size:13.8667px;line-height:21.4933px\">2</sub> is added.",
@@ -7260,7 +7260,7 @@
   }
  },
  {
-  "id": "lipids-1d3cefd4",
+  "id": "lipids-29bd5c34",
   "skill": "lipids.rancid",
   "courses": [
    "3B"
@@ -7271,12 +7271,12 @@
   "type": "mc",
   "prompt": "<div>Butter left out gets a sour, cheesy smell from butyric acid (4 carbons). What reaction releases it?</div>",
   "choices": [
-   "<span style=\"display:block\">Saponification by the salt in butter</span>",
-   "<span style=\"display:block\">Hydrolysis of the ester bonds by water and microbial lipases</span>",
-   "<span style=\"display:block\">Condensation of glycerol</span>",
-   "<span style=\"display:block\">Hydrogenation of the C=C bonds</span>"
+   "<span style=\"display:block\">Saponification of the ester bonds by the salt in butter</span>",
+   "<span style=\"display:block\">Hydrolysis of the esters by water and microbial lipases</span>",
+   "<span style=\"display:block\">Condensation of glycerol with the short acids in the butter</span>",
+   "<span style=\"display:block\">Hydrogenation of the C=C bonds as the butter sits out</span>"
   ],
-  "answer": "<span style=\"display:block\">Hydrolysis of the ester bonds by water and microbial lipases</span>",
+  "answer": "<span style=\"display:block\">Hydrolysis of the esters by water and microbial lipases</span>",
   "why": [
    "NaCl is not a base; saponification needs NaOH or KOH.",
    "",
@@ -7293,7 +7293,7 @@
   }
  },
  {
-  "id": "lipids-0c706b38",
+  "id": "lipids-43b53ab8",
   "skill": "lipids.rancid",
   "courses": [
    "3B"
@@ -7304,12 +7304,12 @@
   "type": "mc",
   "prompt": "<div>Old fish oil capsules smell bad because</div>",
   "choices": [
-   "<span style=\"display:block\">the ester bonds absorb water and turn to glycerol</span>",
-   "<span style=\"display:block\">O<sub style=\"font-size:14.1333px;line-height:21.9067px\">2</sub> attacks the chains next to C=C and breaks them into short, smelly aldehydes and acids</span>",
-   "<span style=\"display:block\">the saturated chains evaporate</span>",
-   "<span style=\"display:block\">H<sub style=\"font-size:14.1333px;line-height:21.9067px\">2</sub> from the air adds to the double bonds</span>"
+   "<span style=\"display:block\">the ester bonds absorb water over time and slowly turn the oil into glycerol</span>",
+   "<span style=\"display:block\">O<sub style=\"font-size:14.1333px;line-height:21.9067px\">2</sub> attacks next to the C=C and splits the chains into smelly aldehydes and acids</span>",
+   "<span style=\"display:block\">the saturated chains slowly evaporate out of the capsule and smell fishy</span>",
+   "<span style=\"display:block\">H<sub style=\"font-size:14.1333px;line-height:21.9067px\">2</sub> from the air slowly adds to the double bonds and makes a smelly fat</span>"
   ],
-  "answer": "<span style=\"display:block\">O<sub style=\"font-size:14.1333px;line-height:21.9067px\">2</sub> attacks the chains next to C=C and breaks them into short, smelly aldehydes and acids</span>",
+  "answer": "<span style=\"display:block\">O<sub style=\"font-size:14.1333px;line-height:21.9067px\">2</sub> attacks next to the C=C and splits the chains into smelly aldehydes and acids</span>",
   "why": [
    "That is hydrolytic rancidity, and it gives free fatty acids, not the main fishy smell.",
    "",
@@ -7337,9 +7337,9 @@
   "type": "mc",
   "prompt": "<div>Why is vitamin E (or BHT) added to oils and fish-oil supplements?</div>",
   "choices": [
-   "<span style=\"display:block\">It saponifies the oil into soap</span>",
+   "<span style=\"display:block\">It saponifies the oil into soap that resists spoiling</span>",
    "<span style=\"display:block\">It is an antioxidant that protects the C=C bonds from O<sub style=\"font-size:14.1333px;line-height:21.9067px\">2</sub></span>",
-   "<span style=\"display:block\">It hydrogenates the oil</span>",
+   "<span style=\"display:block\">It hydrogenates the oil so no C=C bonds are left to attack</span>",
    "<span style=\"display:block\">It is an emulsifier that mixes the oil with water</span>"
   ],
   "answer": "<span style=\"display:block\">It is an antioxidant that protects the C=C bonds from O<sub style=\"font-size:14.1333px;line-height:21.9067px\">2</sub></span>",
@@ -7359,7 +7359,7 @@
   }
  },
  {
-  "id": "lipids-0c4ba11a",
+  "id": "lipids-d4c753bf",
   "skill": "lipids.rancid",
   "courses": [
    "3B"
@@ -7370,12 +7370,12 @@
   "type": "mc",
   "prompt": "<div>Olestra is sucrose with 6–8 fatty acids attached by esters. It passes through the gut undigested. Why did it need vitamins added?</div>",
   "choices": [
-   "<span style=\"display:block\">Fat-soluble vitamins (A, D, E, K) dissolve in it and leave the body with it</span>",
-   "<span style=\"display:block\">It destroys water-soluble vitamins B and C</span>",
-   "<span style=\"display:block\">It turns vitamins into soap</span>",
-   "<span style=\"display:block\">It is digested into vitamin-blocking acids</span>"
+   "<span style=\"display:block\">Fat-soluble vitamins (A, D, E, K) dissolve in it and leave with it</span>",
+   "<span style=\"display:block\">It destroys the water-soluble vitamins B and C as it passes through the gut</span>",
+   "<span style=\"display:block\">It turns the vitamins in food into soap that cannot be absorbed</span>",
+   "<span style=\"display:block\">It is digested by lipase into fatty acids that block vitamin absorption</span>"
   ],
-  "answer": "<span style=\"display:block\">Fat-soluble vitamins (A, D, E, K) dissolve in it and leave the body with it</span>",
+  "answer": "<span style=\"display:block\">Fat-soluble vitamins (A, D, E, K) dissolve in it and leave with it</span>",
   "why": [
    "",
    "Olestra is nonpolar; it carries off nonpolar vitamins.",
@@ -7404,9 +7404,9 @@
   "prompt": "<div>Diets high in saturated or trans fatty acids</div>",
   "choices": [
    "<span style=\"display:block\">have no effect because trans fats are not absorbed</span>",
-   "<span style=\"display:block\">are healthier than omega-3 oils</span>",
+   "<span style=\"display:block\">are healthier than omega-3 oils for the heart and blood vessels</span>",
    "<span style=\"display:block\">raise the ratio of LDL to HDL and increase the risk of heart disease</span>",
-   "<span style=\"display:block\">lower LDL because trans bonds are kinked</span>"
+   "<span style=\"display:block\">lower LDL because their kinked trans bonds keep the chains apart</span>"
   ],
   "answer": "<span style=\"display:block\">raise the ratio of LDL to HDL and increase the risk of heart disease</span>",
   "why": [
@@ -9448,7 +9448,7 @@
   }
  },
  {
-  "id": "lipids-51ef535c",
+  "id": "lipids-dae4f00e",
   "skill": "lipids.steroid",
   "courses": [
    "3B"
@@ -9459,12 +9459,12 @@
   "type": "mc",
   "prompt": "<div>Where is cholesterol found in a cell membrane, and what does it do?</div>",
   "choices": [
-   "<span style=\"display:block\">It forms the ion channels</span>",
-   "<span style=\"display:block\">Tucked between phospholipid tails, it keeps the membrane from getting too fluid or too stiff</span>",
-   "<span style=\"display:block\">It sits only on the outer surface as a coating</span>",
-   "<span style=\"display:block\">It replaces all the phospholipids</span>"
+   "<span style=\"display:block\">It lines the inside of the ion channels and controls which ions pass through</span>",
+   "<span style=\"display:block\">Among the tails, it keeps the membrane from getting too fluid or too stiff</span>",
+   "<span style=\"display:block\">It sits only on the outer surface as a waxy coating that keeps water out</span>",
+   "<span style=\"display:block\">It replaces all the phospholipids, forming a rigid layer of fused rings</span>"
   ],
-  "answer": "<span style=\"display:block\">Tucked between phospholipid tails, it keeps the membrane from getting too fluid or too stiff</span>",
+  "answer": "<span style=\"display:block\">Among the tails, it keeps the membrane from getting too fluid or too stiff</span>",
   "why": [
    "Proteins form channels.",
    "",
@@ -9525,9 +9525,9 @@
   "type": "mc",
   "prompt": "<div><svg viewBox=\"0 0 274.4 165.3\" role=\"img\" aria-label=\"Line structure of testosterone: a steroid with four fused rings (three six-membered and one five-membered)\" style=\"--vbw:274;max-width:329px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;margin:4px auto 12px auto;width:329px;max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"91\" y1=\"81.3\" x2=\"65\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"65\" y1=\"96.3\" x2=\"65\" y2=\"126.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"65\" y1=\"126.3\" x2=\"91\" y2=\"141.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"91\" y1=\"141.3\" x2=\"116.9\" y2=\"126.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"92.4\" y1=\"133.5\" x2=\"109.5\" y2=\"123.6\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"126.3\" x2=\"116.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"96.3\" x2=\"91\" y2=\"81.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"126.3\" x2=\"142.9\" y2=\"141.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"141.3\" x2=\"168.9\" y2=\"126.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"126.3\" x2=\"168.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"96.3\" x2=\"142.9\" y2=\"81.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"81.3\" x2=\"116.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"81.3\" x2=\"142.9\" y2=\"51.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"51.3\" x2=\"168.9\" y2=\"36.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"36.3\" x2=\"194.9\" y2=\"51.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"51.3\" x2=\"194.9\" y2=\"81.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"81.3\" x2=\"168.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"81.3\" x2=\"223.4\" y2=\"90.6\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"90.6\" x2=\"241.1\" y2=\"66.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"241.1\" y1=\"66.3\" x2=\"223.4\" y2=\"42\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"42\" x2=\"194.9\" y2=\"51.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"96.3\" x2=\"116.9\" y2=\"66.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"51.3\" x2=\"194.9\" y2=\"21.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"63.6\" y1=\"123.9\" x2=\"47.5\" y2=\"133.2\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"66.4\" y1=\"128.7\" x2=\"50.3\" y2=\"138\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"42\" x2=\"234.6\" y2=\"27.1\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"39\" y=\"147.3\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">O</text><text x=\"234.9\" y=\"24\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"start\">OH</text></svg></div><div>What ring system do all steroids share?</div>",
   "choices": [
-   "<span style=\"display:block\">A glycerol backbone with two fatty acids</span>",
-   "<span style=\"display:block\">Two six-membered rings joined by an ester</span>",
-   "<span style=\"display:block\">One five-membered ring on a 20-carbon chain</span>",
+   "<span style=\"display:block\">A glycerol backbone with two fatty acids and a phosphate</span>",
+   "<span style=\"display:block\">Two six-membered rings joined by an ester link</span>",
+   "<span style=\"display:block\">One five-membered ring on a 20-carbon chain with a COOH</span>",
    "<span style=\"display:block\">Four fused rings: three six-membered and one five-membered</span>"
   ],
   "answer": "<span style=\"display:block\">Four fused rings: three six-membered and one five-membered</span>",
@@ -9547,7 +9547,7 @@
   }
  },
  {
-  "id": "lipids-13e57388",
+  "id": "lipids-4229c148",
   "skill": "lipids.steroid",
   "courses": [
    "3B"
@@ -9556,14 +9556,14 @@
    "3B-10"
   ],
   "type": "mc",
-  "prompt": "<div><div style=\"display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:center;align-items:flex-end;width:100%;display:flex;gap:6px 18px;flex-wrap:wrap;justify-content:center;align-items:flow-end\"><div style=\"flex:1 1 240px;max-width:330px;text-align:center;text-align:center;max-width:330px\"><svg viewBox=\"0 0 274.4 165.3\" role=\"img\" aria-label=\"Line structure of testosterone: a steroid with four fused rings (three six-membered and one five-membered)\" style=\"--vbw:274;max-width:329px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;margin:4px auto 12px auto;width:329px;max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"91\" y1=\"81.3\" x2=\"65\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"65\" y1=\"96.3\" x2=\"65\" y2=\"126.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"65\" y1=\"126.3\" x2=\"91\" y2=\"141.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"91\" y1=\"141.3\" x2=\"116.9\" y2=\"126.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"92.4\" y1=\"133.5\" x2=\"109.5\" y2=\"123.6\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"126.3\" x2=\"116.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"96.3\" x2=\"91\" y2=\"81.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"126.3\" x2=\"142.9\" y2=\"141.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"141.3\" x2=\"168.9\" y2=\"126.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"126.3\" x2=\"168.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"96.3\" x2=\"142.9\" y2=\"81.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"81.3\" x2=\"116.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"81.3\" x2=\"142.9\" y2=\"51.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"51.3\" x2=\"168.9\" y2=\"36.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"36.3\" x2=\"194.9\" y2=\"51.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"51.3\" x2=\"194.9\" y2=\"81.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"81.3\" x2=\"168.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"81.3\" x2=\"223.4\" y2=\"90.6\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"90.6\" x2=\"241.1\" y2=\"66.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"241.1\" y1=\"66.3\" x2=\"223.4\" y2=\"42\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"42\" x2=\"194.9\" y2=\"51.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"96.3\" x2=\"116.9\" y2=\"66.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"51.3\" x2=\"194.9\" y2=\"21.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"63.6\" y1=\"123.9\" x2=\"47.5\" y2=\"133.2\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"66.4\" y1=\"128.7\" x2=\"50.3\" y2=\"138\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"42\" x2=\"234.6\" y2=\"27.1\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"39\" y=\"147.3\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">O</text><text x=\"234.9\" y=\"24\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"start\">OH</text></svg><div style=\"font-weight:800;font-weight:800\">testosterone</div></div><div style=\"flex:1 1 240px;max-width:330px;text-align:center;text-align:center;max-width:330px\"><svg viewBox=\"0 0 274.4 165.3\" role=\"img\" aria-label=\"Line structure of estradiol: a steroid with four fused rings (three six-membered and one five-membered)\" style=\"--vbw:274;max-width:329px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;margin:4px auto 12px auto;width:329px;max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"91\" y1=\"81.3\" x2=\"65\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"89.5\" y1=\"89\" x2=\"72.4\" y2=\"98.9\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"65\" y1=\"96.3\" x2=\"65\" y2=\"126.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"65\" y1=\"126.3\" x2=\"91\" y2=\"141.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"72.4\" y1=\"123.6\" x2=\"89.5\" y2=\"133.5\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"91\" y1=\"141.3\" x2=\"116.9\" y2=\"126.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"126.3\" x2=\"116.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"110.9\" y1=\"121.2\" x2=\"110.9\" y2=\"101.4\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"96.3\" x2=\"91\" y2=\"81.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"126.3\" x2=\"142.9\" y2=\"141.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"141.3\" x2=\"168.9\" y2=\"126.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"126.3\" x2=\"168.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"96.3\" x2=\"142.9\" y2=\"81.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"81.3\" x2=\"116.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"81.3\" x2=\"142.9\" y2=\"51.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"51.3\" x2=\"168.9\" y2=\"36.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"36.3\" x2=\"194.9\" y2=\"51.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"51.3\" x2=\"194.9\" y2=\"81.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"81.3\" x2=\"168.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"81.3\" x2=\"223.4\" y2=\"90.6\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"90.6\" x2=\"241.1\" y2=\"66.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"241.1\" y1=\"66.3\" x2=\"223.4\" y2=\"42\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"42\" x2=\"194.9\" y2=\"51.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"51.3\" x2=\"194.9\" y2=\"21.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"65\" y1=\"126.3\" x2=\"48.9\" y2=\"135.6\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"42\" x2=\"234.6\" y2=\"27.1\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"45.5\" y=\"147.3\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"end\">HO</text><text x=\"234.9\" y=\"24\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"start\">OH</text></svg><div style=\"font-weight:800;font-weight:800\">estradiol</div></div></div></div><div>Testosterone and estradiol look very similar. What is the main structural difference?</div>",
+  "prompt": "<div><div style=\"display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:center;align-items:flex-end;width:100%;display:flex;gap:6px 18px;flex-wrap:wrap;justify-content:center;align-items:flex-end\"><div style=\"flex:1 1 240px;max-width:330px;text-align:center;text-align:center;max-width:330px\"><svg viewBox=\"0 0 274.4 165.3\" role=\"img\" aria-label=\"Line structure of testosterone: a steroid with four fused rings (three six-membered and one five-membered)\" style=\"--vbw:274;max-width:329px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;margin:4px auto 12px auto;width:329px;max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"91\" y1=\"81.3\" x2=\"65\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"65\" y1=\"96.3\" x2=\"65\" y2=\"126.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"65\" y1=\"126.3\" x2=\"91\" y2=\"141.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"91\" y1=\"141.3\" x2=\"116.9\" y2=\"126.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"92.4\" y1=\"133.5\" x2=\"109.5\" y2=\"123.6\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"126.3\" x2=\"116.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"96.3\" x2=\"91\" y2=\"81.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"126.3\" x2=\"142.9\" y2=\"141.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"141.3\" x2=\"168.9\" y2=\"126.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"126.3\" x2=\"168.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"96.3\" x2=\"142.9\" y2=\"81.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"81.3\" x2=\"116.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"81.3\" x2=\"142.9\" y2=\"51.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"51.3\" x2=\"168.9\" y2=\"36.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"36.3\" x2=\"194.9\" y2=\"51.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"51.3\" x2=\"194.9\" y2=\"81.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"81.3\" x2=\"168.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"81.3\" x2=\"223.4\" y2=\"90.6\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"90.6\" x2=\"241.1\" y2=\"66.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"241.1\" y1=\"66.3\" x2=\"223.4\" y2=\"42\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"42\" x2=\"194.9\" y2=\"51.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"96.3\" x2=\"116.9\" y2=\"66.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"51.3\" x2=\"194.9\" y2=\"21.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"63.6\" y1=\"123.9\" x2=\"47.5\" y2=\"133.2\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"66.4\" y1=\"128.7\" x2=\"50.3\" y2=\"138\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"42\" x2=\"234.6\" y2=\"27.1\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"39\" y=\"147.3\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">O</text><text x=\"234.9\" y=\"24\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"start\">OH</text></svg><div style=\"font-weight:800;font-weight:800\">testosterone</div></div><div style=\"flex:1 1 240px;max-width:330px;text-align:center;text-align:center;max-width:330px\"><svg viewBox=\"0 0 274.4 165.3\" role=\"img\" aria-label=\"Line structure of estradiol: a steroid with four fused rings (three six-membered and one five-membered)\" style=\"--vbw:274;max-width:329px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;margin:4px auto 12px auto;width:329px;max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"91\" y1=\"81.3\" x2=\"65\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"89.5\" y1=\"89\" x2=\"72.4\" y2=\"98.9\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"65\" y1=\"96.3\" x2=\"65\" y2=\"126.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"65\" y1=\"126.3\" x2=\"91\" y2=\"141.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"72.4\" y1=\"123.6\" x2=\"89.5\" y2=\"133.5\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"91\" y1=\"141.3\" x2=\"116.9\" y2=\"126.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"126.3\" x2=\"116.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"110.9\" y1=\"121.2\" x2=\"110.9\" y2=\"101.4\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"96.3\" x2=\"91\" y2=\"81.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"126.3\" x2=\"142.9\" y2=\"141.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"141.3\" x2=\"168.9\" y2=\"126.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"126.3\" x2=\"168.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"96.3\" x2=\"142.9\" y2=\"81.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"81.3\" x2=\"116.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"81.3\" x2=\"142.9\" y2=\"51.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"51.3\" x2=\"168.9\" y2=\"36.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"36.3\" x2=\"194.9\" y2=\"51.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"51.3\" x2=\"194.9\" y2=\"81.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"81.3\" x2=\"168.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"81.3\" x2=\"223.4\" y2=\"90.6\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"90.6\" x2=\"241.1\" y2=\"66.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"241.1\" y1=\"66.3\" x2=\"223.4\" y2=\"42\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"42\" x2=\"194.9\" y2=\"51.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"51.3\" x2=\"194.9\" y2=\"21.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"65\" y1=\"126.3\" x2=\"48.9\" y2=\"135.6\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"42\" x2=\"234.6\" y2=\"27.1\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"45.5\" y=\"147.3\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"end\">HO</text><text x=\"234.9\" y=\"24\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"start\">OH</text></svg><div style=\"font-weight:800;font-weight:800\">estradiol</div></div></div></div><div>Testosterone and estradiol look very similar. What is the main structural difference?</div>",
   "choices": [
-   "<span style=\"display:block\">Estradiol’s first ring is aromatic with an OH; testosterone has a C=O there and an extra CH<sub style=\"font-size:14.1333px;line-height:21.9067px\">3</sub></span>",
-   "<span style=\"display:block\">Testosterone has five rings</span>",
-   "<span style=\"display:block\">They are identical</span>",
-   "<span style=\"display:block\">Estradiol has a fatty acid ester</span>"
+   "<span style=\"display:block\">Estradiol’s first ring is aromatic with an OH; testosterone’s has a C=O</span>",
+   "<span style=\"display:block\">Testosterone has five fused rings, while estradiol has the usual four</span>",
+   "<span style=\"display:block\">They are identical; only their names and the glands that make them differ</span>",
+   "<span style=\"display:block\">Estradiol has a fatty acid joined by an ester at its OH group</span>"
   ],
-  "answer": "<span style=\"display:block\">Estradiol’s first ring is aromatic with an OH; testosterone has a C=O there and an extra CH<sub style=\"font-size:14.1333px;line-height:21.9067px\">3</sub></span>",
+  "answer": "<span style=\"display:block\">Estradiol’s first ring is aromatic with an OH; testosterone’s has a C=O</span>",
   "why": [
    "",
    "Both have four fused rings.",
@@ -9592,9 +9592,9 @@
   "prompt": "<div>The adrenal glands make two kinds of steroid hormones: <b style=\"font-weight:900\">glucocorticoids</b>, which raise blood glucose and reduce inflammation, and <b style=\"font-weight:900\">mineralocorticoids</b>, which control Na<sup style=\"font-size:12.4px;line-height:18.6px\">+</sup> and K<sup style=\"font-size:12.4px;line-height:18.6px\">+</sup>. Hydrocortisone (cortisol) cream reduces swelling and itching. Hydrocortisone is a</div>",
   "choices": [
    "<span style=\"display:block\">glucocorticoid: an adrenal steroid that controls glucose and inflammation</span>",
-   "<span style=\"display:block\">prostaglandin that causes inflammation</span>",
-   "<span style=\"display:block\">mineralocorticoid that controls Na<sup style=\"font-size:14.1333px;line-height:21.9067px\">+</sup> and K<sup style=\"font-size:14.1333px;line-height:21.9067px\">+</sup></span>",
-   "<span style=\"display:block\">fat-soluble vitamin</span>"
+   "<span style=\"display:block\">prostaglandin: a local hormone that causes inflammation</span>",
+   "<span style=\"display:block\">mineralocorticoid: an adrenal steroid that controls Na<sup style=\"font-size:14.1333px;line-height:21.9067px\">+</sup> and K<sup style=\"font-size:14.1333px;line-height:21.9067px\">+</sup></span>",
+   "<span style=\"display:block\">fat-soluble vitamin stored in the liver and fat tissue</span>"
   ],
   "answer": "<span style=\"display:block\">glucocorticoid: an adrenal steroid that controls glucose and inflammation</span>",
   "why": [
@@ -9613,7 +9613,7 @@
   }
  },
  {
-  "id": "lipids-61ab416e",
+  "id": "lipids-3ef55d88",
   "skill": "lipids.steroid",
   "courses": [
    "3B"
@@ -9624,12 +9624,12 @@
   "type": "mc",
   "prompt": "<div>Bile salts are made from cholesterol and stored in the gallbladder. What do they do in the small intestine?</div>",
   "choices": [
-   "<span style=\"display:block\">Hydrolyze the ester bonds themselves</span>",
-   "<span style=\"display:block\">Build new cell membranes</span>",
-   "<span style=\"display:block\">Carry oxygen in the blood</span>",
-   "<span style=\"display:block\">Emulsify dietary fat (act like soaps) so lipase can digest it</span>"
+   "<span style=\"display:block\">Hydrolyze the ester bonds of the fat themselves, doing lipase’s job</span>",
+   "<span style=\"display:block\">Build new cell membranes for the cells lining the intestine</span>",
+   "<span style=\"display:block\">Bind oxygen and carry it through the blood to the tissues</span>",
+   "<span style=\"display:block\">Emulsify dietary fat, like soaps, so lipase can digest it</span>"
   ],
-  "answer": "<span style=\"display:block\">Emulsify dietary fat (act like soaps) so lipase can digest it</span>",
+  "answer": "<span style=\"display:block\">Emulsify dietary fat, like soaps, so lipase can digest it</span>",
   "why": [
    "Lipase does the hydrolysis. Bile salts break fat into tiny droplets.",
    "That is cholesterol’s other job, not bile salts.",
@@ -9646,7 +9646,7 @@
   }
  },
  {
-  "id": "lipids-a13b1e0a",
+  "id": "lipids-e568259d",
   "skill": "lipids.steroid",
   "courses": [
    "3B"
@@ -9657,12 +9657,12 @@
   "type": "mc",
   "prompt": "<div>Aldosterone helps control blood pressure. How?</div>",
   "choices": [
-   "<span style=\"display:block\">It regulates Na<sup style=\"font-size:14.1333px;line-height:21.9067px\">+</sup> and K<sup style=\"font-size:14.1333px;line-height:21.9067px\">+</sup> levels in body fluids (a mineralocorticoid)</span>",
-   "<span style=\"display:block\">It carries cholesterol to the liver</span>",
-   "<span style=\"display:block\">It emulsifies fats</span>",
-   "<span style=\"display:block\">It blocks the COX enzyme</span>"
+   "<span style=\"display:block\">It regulates Na<sup style=\"font-size:14.1333px;line-height:21.9067px\">+</sup> and K<sup style=\"font-size:14.1333px;line-height:21.9067px\">+</sup> levels, and so water and blood volume</span>",
+   "<span style=\"display:block\">It carries extra cholesterol from the tissues back to the liver</span>",
+   "<span style=\"display:block\">It emulsifies dietary fats in the small intestine</span>",
+   "<span style=\"display:block\">It blocks the COX enzyme, so fewer prostaglandins are made</span>"
   ],
-  "answer": "<span style=\"display:block\">It regulates Na<sup style=\"font-size:14.1333px;line-height:21.9067px\">+</sup> and K<sup style=\"font-size:14.1333px;line-height:21.9067px\">+</sup> levels in body fluids (a mineralocorticoid)</span>",
+  "answer": "<span style=\"display:block\">It regulates Na<sup style=\"font-size:14.1333px;line-height:21.9067px\">+</sup> and K<sup style=\"font-size:14.1333px;line-height:21.9067px\">+</sup> levels, and so water and blood volume</span>",
   "why": [
    "",
    "That is HDL.",
@@ -9690,9 +9690,9 @@
   "type": "mc",
   "prompt": "<div>Steroid hormones are grouped as <b style=\"font-weight:900\">sex hormones</b> (androgens = male; estrogens and progestins = female) and <b style=\"font-weight:900\">adrenal corticosteroids</b> (glucocorticoids and mineralocorticoids). Progesterone is a female hormone that prepares the uterus for a fertilized egg, but it is not an estrogen. Which class is it?</div>",
   "choices": [
-   "<span style=\"display:block\">An androgen</span>",
-   "<span style=\"display:block\">A mineralocorticoid</span>",
-   "<span style=\"display:block\">A glucocorticoid</span>",
+   "<span style=\"display:block\">An androgen (male sex hormone)</span>",
+   "<span style=\"display:block\">A mineralocorticoid (adrenal steroid)</span>",
+   "<span style=\"display:block\">A glucocorticoid (adrenal steroid)</span>",
    "<span style=\"display:block\">A progestin (female sex hormone)</span>"
   ],
   "answer": "<span style=\"display:block\">A progestin (female sex hormone)</span>",
@@ -9723,10 +9723,10 @@
   "type": "mc",
   "prompt": "<div><svg viewBox=\"0 0 412.3 186.3\" role=\"img\" aria-label=\"Line structure of cholesterol: a steroid with four fused rings (three six-membered and one five-membered)\" style=\"--vbw:412;max-width:495px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;margin:4px auto 12px auto;width:495px;max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"91\" y1=\"102.3\" x2=\"65\" y2=\"117.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"65\" y1=\"117.3\" x2=\"65\" y2=\"147.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"65\" y1=\"147.3\" x2=\"91\" y2=\"162.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"91\" y1=\"162.3\" x2=\"116.9\" y2=\"147.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"147.3\" x2=\"116.9\" y2=\"117.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"117.3\" x2=\"91\" y2=\"102.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"147.3\" x2=\"142.9\" y2=\"162.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"124.4\" y1=\"144.6\" x2=\"141.5\" y2=\"154.5\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"162.3\" x2=\"168.9\" y2=\"147.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"147.3\" x2=\"168.9\" y2=\"117.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"117.3\" x2=\"142.9\" y2=\"102.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"102.3\" x2=\"116.9\" y2=\"117.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"102.3\" x2=\"142.9\" y2=\"72.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"72.3\" x2=\"168.9\" y2=\"57.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"57.3\" x2=\"194.9\" y2=\"72.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"72.3\" x2=\"194.9\" y2=\"102.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"102.3\" x2=\"168.9\" y2=\"117.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"102.3\" x2=\"223.4\" y2=\"111.6\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"111.6\" x2=\"241.1\" y2=\"87.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"241.1\" y1=\"87.3\" x2=\"223.4\" y2=\"63\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"63\" x2=\"194.9\" y2=\"72.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"117.3\" x2=\"116.9\" y2=\"87.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"72.3\" x2=\"194.9\" y2=\"42.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"65\" y1=\"147.3\" x2=\"48.9\" y2=\"156.6\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"63\" x2=\"249.4\" y2=\"48\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"249.4\" y1=\"48\" x2=\"249.4\" y2=\"18\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"249.4\" y1=\"48\" x2=\"275.4\" y2=\"63\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"275.4\" y1=\"63\" x2=\"301.4\" y2=\"48\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"301.4\" y1=\"48\" x2=\"327.3\" y2=\"63\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"327.3\" y1=\"63\" x2=\"353.3\" y2=\"48\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"353.3\" y1=\"48\" x2=\"379.3\" y2=\"63\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"353.3\" y1=\"48\" x2=\"353.3\" y2=\"18\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"45.5\" y=\"168.3\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"end\">HO</text></svg></div><div>What ring system do all steroids share?</div>",
   "choices": [
-   "<span style=\"display:block\">One five-membered ring on a 20-carbon chain</span>",
+   "<span style=\"display:block\">One five-membered ring on a 20-carbon chain with a COOH</span>",
    "<span style=\"display:block\">Four fused rings: three six-membered and one five-membered</span>",
-   "<span style=\"display:block\">Two six-membered rings joined by an ester</span>",
-   "<span style=\"display:block\">A glycerol backbone with two fatty acids</span>"
+   "<span style=\"display:block\">Two six-membered rings joined by an ester link</span>",
+   "<span style=\"display:block\">A glycerol backbone with two fatty acids and a phosphate</span>"
   ],
   "answer": "<span style=\"display:block\">Four fused rings: three six-membered and one five-membered</span>",
   "why": [
@@ -9756,10 +9756,10 @@
   "type": "mc",
   "prompt": "<div><svg viewBox=\"0 0 274.4 165.3\" role=\"img\" aria-label=\"Line structure of estradiol: a steroid with four fused rings (three six-membered and one five-membered)\" style=\"--vbw:274;max-width:329px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;margin:4px auto 12px auto;width:329px;max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"91\" y1=\"81.3\" x2=\"65\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"89.5\" y1=\"89\" x2=\"72.4\" y2=\"98.9\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"65\" y1=\"96.3\" x2=\"65\" y2=\"126.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"65\" y1=\"126.3\" x2=\"91\" y2=\"141.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"72.4\" y1=\"123.6\" x2=\"89.5\" y2=\"133.5\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"91\" y1=\"141.3\" x2=\"116.9\" y2=\"126.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"126.3\" x2=\"116.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"110.9\" y1=\"121.2\" x2=\"110.9\" y2=\"101.4\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"96.3\" x2=\"91\" y2=\"81.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.9\" y1=\"126.3\" x2=\"142.9\" y2=\"141.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"141.3\" x2=\"168.9\" y2=\"126.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"126.3\" x2=\"168.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"96.3\" x2=\"142.9\" y2=\"81.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"81.3\" x2=\"116.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"81.3\" x2=\"142.9\" y2=\"51.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"142.9\" y1=\"51.3\" x2=\"168.9\" y2=\"36.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"168.9\" y1=\"36.3\" x2=\"194.9\" y2=\"51.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"51.3\" x2=\"194.9\" y2=\"81.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"81.3\" x2=\"168.9\" y2=\"96.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"81.3\" x2=\"223.4\" y2=\"90.6\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"90.6\" x2=\"241.1\" y2=\"66.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"241.1\" y1=\"66.3\" x2=\"223.4\" y2=\"42\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"42\" x2=\"194.9\" y2=\"51.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"194.9\" y1=\"51.3\" x2=\"194.9\" y2=\"21.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"65\" y1=\"126.3\" x2=\"48.9\" y2=\"135.6\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"223.4\" y1=\"42\" x2=\"234.6\" y2=\"27.1\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"45.5\" y=\"147.3\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"end\">HO</text><text x=\"234.9\" y=\"24\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"start\">OH</text></svg></div><div>What ring system do all steroids share?</div>",
   "choices": [
-   "<span style=\"display:block\">Two six-membered rings joined by an ester</span>",
+   "<span style=\"display:block\">Two six-membered rings joined by an ester link</span>",
    "<span style=\"display:block\">Four fused rings: three six-membered and one five-membered</span>",
-   "<span style=\"display:block\">One five-membered ring on a 20-carbon chain</span>",
-   "<span style=\"display:block\">A glycerol backbone with two fatty acids</span>"
+   "<span style=\"display:block\">One five-membered ring on a 20-carbon chain with a COOH</span>",
+   "<span style=\"display:block\">A glycerol backbone with two fatty acids and a phosphate</span>"
   ],
   "answer": "<span style=\"display:block\">Four fused rings: three six-membered and one five-membered</span>",
   "why": [
@@ -9778,7 +9778,7 @@
   }
  },
  {
-  "id": "lipids-99e5dc80",
+  "id": "lipids-09f6ad30",
   "skill": "lipids.eico",
   "courses": [
    "3B"
@@ -9789,12 +9789,12 @@
   "type": "mc",
   "prompt": "<div><svg viewBox=\"0 0 315.5 252.9\" role=\"img\" aria-label=\"Line structure of prostaglandin E2: a 20-carbon acid with a five-membered ring and a COOH group\" style=\"--vbw:315;max-width:363px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;margin:4px auto 12px auto;width:363px;max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"76.7\" y1=\"157.6\" x2=\"50.1\" y2=\"149\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"50.1\" y1=\"149\" x2=\"33.6\" y2=\"171.6\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"33.6\" y1=\"171.6\" x2=\"50.1\" y2=\"194.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"50.1\" y1=\"194.3\" x2=\"76.7\" y2=\"185.7\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"76.7\" y1=\"185.7\" x2=\"76.7\" y2=\"157.6\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"52.7\" y1=\"148.1\" x2=\"47.5\" y2=\"131.7\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"47.4\" y1=\"149.8\" x2=\"42.2\" y2=\"133.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"50.1\" y1=\"194.3\" x2=\"44.9\" y2=\"210.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"76.7\" y1=\"157.6\" x2=\"90.7\" y2=\"133.4\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"90.7\" y1=\"133.4\" x2=\"118.7\" y2=\"133.4\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"118.7\" y1=\"133.4\" x2=\"132.7\" y2=\"109.1\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"115.9\" y1=\"126.3\" x2=\"125.1\" y2=\"110.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"132.7\" y1=\"109.1\" x2=\"118.7\" y2=\"84.9\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"118.7\" y1=\"84.9\" x2=\"132.7\" y2=\"60.6\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"132.7\" y1=\"60.6\" x2=\"160.7\" y2=\"60.6\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"160.7\" y1=\"60.6\" x2=\"174.7\" y2=\"36.4\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"176.1\" y1=\"38.8\" x2=\"191.1\" y2=\"30.1\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"173.3\" y1=\"34\" x2=\"188.3\" y2=\"25.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"174.7\" y1=\"36.4\" x2=\"189.7\" y2=\"45.1\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"76.7\" y1=\"185.7\" x2=\"101\" y2=\"199.7\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"101\" y1=\"199.7\" x2=\"125.2\" y2=\"185.7\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"102.1\" y1=\"192.1\" x2=\"118.1\" y2=\"182.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"125.2\" y1=\"185.7\" x2=\"149.5\" y2=\"199.7\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"149.5\" y1=\"199.7\" x2=\"149.5\" y2=\"217\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"149.5\" y1=\"199.7\" x2=\"173.7\" y2=\"185.7\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"173.7\" y1=\"185.7\" x2=\"197.9\" y2=\"199.7\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"197.9\" y1=\"199.7\" x2=\"222.2\" y2=\"185.7\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"222.2\" y1=\"185.7\" x2=\"246.4\" y2=\"199.7\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"246.4\" y1=\"199.7\" x2=\"270.7\" y2=\"185.7\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"41.7\" y=\"128.4\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">O</text><text x=\"48.2\" y=\"226.9\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"end\">HO</text><text x=\"199\" y=\"28.4\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">O</text><text x=\"192.5\" y=\"56.4\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"start\">OH</text><text x=\"143\" y=\"233.7\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"start\">OH</text></svg></div><div>Which family does this molecule belong to, and what does it do?</div>",
   "choices": [
-   "<span style=\"display:block\">Fat-soluble vitamin: vision</span>",
-   "<span style=\"display:block\">Steroid: a sex hormone</span>",
-   "<span style=\"display:block\">Fatty acid: stored energy</span>",
-   "<span style=\"display:block\">Eicosanoid (prostaglandin): a local hormone for pain, fever and inflammation</span>"
+   "<span style=\"display:block\">Fat-soluble vitamin (vitamin A): needed for vision</span>",
+   "<span style=\"display:block\">Steroid (sex hormone): controls the development of male or female traits</span>",
+   "<span style=\"display:block\">Fatty acid (unsaturated): stored and burned for energy</span>",
+   "<span style=\"display:block\">Eicosanoid (prostaglandin): causes pain, fever and inflammation</span>"
   ],
-  "answer": "<span style=\"display:block\">Eicosanoid (prostaglandin): a local hormone for pain, fever and inflammation</span>",
+  "answer": "<span style=\"display:block\">Eicosanoid (prostaglandin): causes pain, fever and inflammation</span>",
   "why": [
    "That is vitamin A.",
    "Steroids have four fused rings. This has one five-membered ring and a COOH.",
@@ -9811,7 +9811,7 @@
   }
  },
  {
-  "id": "lipids-64a8ff9e",
+  "id": "lipids-187f0b0f",
   "skill": "lipids.eico",
   "courses": [
    "3B"
@@ -9822,12 +9822,12 @@
   "type": "mc",
   "prompt": "<div><svg viewBox=\"0 0 520 236\" role=\"img\" aria-label=\"Scheme: membrane phospholipids release arachidonic acid; COX enzymes turn it into prostaglandins and thromboxanes; lipoxygenase turns it into leukotrienes\" style=\"--vbw:520;max-width:540px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;margin:4px auto 12px auto;width:540px;max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"145\" y=\"11\" width=\"230\" height=\"26\" rx=\"10\" fill=\"#eef3ff\" stroke=\"#1f2a44\" stroke-width=\"1.6\"></rect><text x=\"260\" y=\"30\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"15\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">membrane phospholipids</text><line x1=\"260\" y1=\"38\" x2=\"260\" y2=\"74\" stroke=\"#1f2a44\" stroke-width=\"2.2\" stroke-linecap=\"round\"></line><polygon points=\"260,80 255,70 265,70\" fill=\"#1f2a44\"></polygon><text x=\"286\" y=\"55\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"14\" font-weight=\"800\" fill=\"#d9577f\" text-anchor=\"start\">release</text><rect x=\"145\" y=\"83\" width=\"230\" height=\"26\" rx=\"10\" fill=\"#fff5e6\" stroke=\"#1f2a44\" stroke-width=\"1.6\"></rect><text x=\"260\" y=\"102\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"15\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">arachidonic acid (20:4)</text><line x1=\"215\" y1=\"110\" x2=\"135\" y2=\"164.6\" stroke=\"#1f2a44\" stroke-width=\"2.2\" stroke-linecap=\"round\"></line><polygon points=\"130,168 135.4,158.2 141.1,166.5\" fill=\"#1f2a44\"></polygon><text x=\"146.5\" y=\"135\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"14\" font-weight=\"800\" fill=\"#d9577f\" text-anchor=\"end\">COX enzymes</text><line x1=\"305\" y1=\"110\" x2=\"385\" y2=\"164.6\" stroke=\"#1f2a44\" stroke-width=\"2.2\" stroke-linecap=\"round\"></line><polygon points=\"390,168 378.9,166.5 384.6,158.2\" fill=\"#1f2a44\"></polygon><text x=\"373.5\" y=\"135\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"14\" font-weight=\"800\" fill=\"#d9577f\" text-anchor=\"start\">lipoxygenase</text><rect x=\"35\" y=\"173\" width=\"190\" height=\"46\" rx=\"10\" fill=\"#fdecef\" stroke=\"#1f2a44\" stroke-width=\"1.6\"></rect><text x=\"130\" y=\"192\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"15\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">prostaglandins</text><text x=\"130\" y=\"212\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"15\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">thromboxanes</text><rect x=\"310\" y=\"173\" width=\"160\" height=\"26\" rx=\"10\" fill=\"#e9f7f0\" stroke=\"#1f2a44\" stroke-width=\"1.6\"></rect><text x=\"390\" y=\"192\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"15\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">leukotrienes</text></svg></div><div>A corticosteroid inhaler lowers prostaglandins, thromboxanes <b style=\"font-weight:900\">and</b> leukotrienes. Aspirin, which blocks COX, lowers only the first two. Use the scheme: where must corticosteroids act?</div>",
   "choices": [
-   "<span style=\"display:block\">Corticosteroids block COX more strongly</span>",
-   "<span style=\"display:block\">Aspirin blocks lipoxygenase</span>",
-   "<span style=\"display:block\">Corticosteroids are eicosanoids themselves</span>",
-   "<span style=\"display:block\">Corticosteroids block the release of arachidonic acid, the starting point for all three</span>"
+   "<span style=\"display:block\">Corticosteroids block COX more strongly and for longer than aspirin does</span>",
+   "<span style=\"display:block\">Aspirin blocks lipoxygenase, while corticosteroids block only COX</span>",
+   "<span style=\"display:block\">Corticosteroids are eicosanoids themselves, so they replace all three families</span>",
+   "<span style=\"display:block\">They block the release of arachidonic acid, the starting point for all three</span>"
   ],
-  "answer": "<span style=\"display:block\">Corticosteroids block the release of arachidonic acid, the starting point for all three</span>",
+  "answer": "<span style=\"display:block\">They block the release of arachidonic acid, the starting point for all three</span>",
   "why": [
    "COX does not make leukotrienes; lipoxygenase does.",
    "Aspirin blocks COX.",
@@ -9857,7 +9857,7 @@
   "choices": [
    "<span style=\"display:block\">Lauric acid (12:0)</span>",
    "<span style=\"display:block\">Stearic acid (18:0)</span>",
-   "<span style=\"display:block\">Cholesterol</span>",
+   "<span style=\"display:block\">Cholesterol (a steroid)</span>",
    "<span style=\"display:block\">Arachidonic acid (20:4)</span>"
   ],
   "answer": "<span style=\"display:block\">Arachidonic acid (20:4)</span>",
@@ -9888,9 +9888,9 @@
   "type": "mc",
   "prompt": "<div>Why are eicosanoids called “local hormones”?</div>",
   "choices": [
-   "<span style=\"display:block\">They only work inside the nucleus</span>",
-   "<span style=\"display:block\">They travel through the blood to distant organs</span>",
-   "<span style=\"display:block\">They are stored in fat cells for weeks</span>",
+   "<span style=\"display:block\">They only work inside the nucleus of the cell that made them</span>",
+   "<span style=\"display:block\">They travel through the blood to reach organs far from where they are made</span>",
+   "<span style=\"display:block\">They are stored in fat cells for weeks and released when the body needs them</span>",
    "<span style=\"display:block\">They are made on demand, act near where they are made, and break down quickly</span>"
   ],
   "answer": "<span style=\"display:block\">They are made on demand, act near where they are made, and break down quickly</span>",
@@ -9910,7 +9910,7 @@
   }
  },
  {
-  "id": "lipids-0accf99e",
+  "id": "lipids-2a5cf28e",
   "skill": "lipids.eico",
   "courses": [
    "3B"
@@ -9921,12 +9921,12 @@
   "type": "mc",
   "prompt": "<div><svg viewBox=\"0 0 418.6 264\" role=\"img\" aria-label=\"Line structure of leukotriene B4: a 20-carbon acid with no ring, three conjugated double bonds and two OH groups\" style=\"--vbw:419;max-width:523px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;margin:4px auto 12px auto;width:523px;max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"74.8\" y1=\"192\" x2=\"95.6\" y2=\"204\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"95.6\" y1=\"204\" x2=\"116.4\" y2=\"192\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"116.4\" y1=\"192\" x2=\"137.1\" y2=\"204\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"137.1\" y1=\"204\" x2=\"157.9\" y2=\"192\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"157.9\" y1=\"192\" x2=\"178.7\" y2=\"204\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"178.7\" y1=\"204\" x2=\"199.5\" y2=\"192\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"179.2\" y1=\"196.8\" x2=\"193\" y2=\"188.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"199.5\" y1=\"192\" x2=\"199.5\" y2=\"168\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"199.5\" y1=\"168\" x2=\"220.3\" y2=\"156\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"206\" y1=\"171.2\" x2=\"219.7\" y2=\"163.2\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"220.3\" y1=\"156\" x2=\"220.3\" y2=\"132\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"220.3\" y1=\"132\" x2=\"241.1\" y2=\"120\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"226.8\" y1=\"135.2\" x2=\"240.5\" y2=\"127.2\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"241.1\" y1=\"120\" x2=\"241.1\" y2=\"96\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"241.1\" y1=\"96\" x2=\"261.8\" y2=\"84\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"261.8\" y1=\"84\" x2=\"261.8\" y2=\"60\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"261.8\" y1=\"60\" x2=\"282.6\" y2=\"48\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"268.4\" y1=\"63.2\" x2=\"282.1\" y2=\"55.2\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"282.6\" y1=\"48\" x2=\"303.4\" y2=\"60\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"303.4\" y1=\"60\" x2=\"324.2\" y2=\"48\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"324.2\" y1=\"48\" x2=\"345\" y2=\"60\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"345\" y1=\"60\" x2=\"365.8\" y2=\"48\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"365.8\" y1=\"48\" x2=\"386.6\" y2=\"60\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"77.6\" y1=\"192\" x2=\"77.6\" y2=\"176.2\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"72\" y1=\"192\" x2=\"72\" y2=\"176.2\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"74.8\" y=\"174\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">O</text><line x1=\"74.8\" y1=\"192\" x2=\"61.1\" y2=\"199.9\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"60.5\" y=\"210\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"end\">HO</text><line x1=\"157.9\" y1=\"192\" x2=\"157.9\" y2=\"176.2\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"151.4\" y=\"174\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"start\">OH</text><line x1=\"241.1\" y1=\"96\" x2=\"227.3\" y2=\"88.1\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"213.8\" y=\"90\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"start\">OH</text></svg></div><div>Leukotrienes constrict the airways in asthma. Which description fits them?</div>",
   "choices": [
-   "<span style=\"display:block\">A six-membered ring containing an oxygen</span>",
-   "<span style=\"display:block\">A five-membered ring with two side chains</span>",
-   "<span style=\"display:block\">20-carbon acids with no ring and several C=C (three of them conjugated), made in white blood cells</span>",
-   "<span style=\"display:block\">Four fused rings with an OH</span>"
+   "<span style=\"display:block\">20-carbon acids with a six-membered ring containing an oxygen, made in platelets</span>",
+   "<span style=\"display:block\">20-carbon acids with a five-membered ring and two side chains, made by COX</span>",
+   "<span style=\"display:block\">20-carbon acids with no ring and a conjugated triene, made in white blood cells</span>",
+   "<span style=\"display:block\">Four fused rings with an OH, made from cholesterol in the adrenal glands</span>"
   ],
-  "answer": "<span style=\"display:block\">20-carbon acids with no ring and several C=C (three of them conjugated), made in white blood cells</span>",
+  "answer": "<span style=\"display:block\">20-carbon acids with no ring and a conjugated triene, made in white blood cells</span>",
   "why": [
    "That is a thromboxane.",
    "That is a prostaglandin.",
@@ -9955,9 +9955,9 @@
   "prompt": "<div><svg viewBox=\"0 0 520 236\" role=\"img\" aria-label=\"Scheme: membrane phospholipids release arachidonic acid; COX enzymes turn it into prostaglandins and thromboxanes; lipoxygenase turns it into leukotrienes\" style=\"--vbw:520;max-width:540px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;margin:4px auto 12px auto;width:540px;max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"145\" y=\"11\" width=\"230\" height=\"26\" rx=\"10\" fill=\"#eef3ff\" stroke=\"#1f2a44\" stroke-width=\"1.6\"></rect><text x=\"260\" y=\"30\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"15\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">membrane phospholipids</text><line x1=\"260\" y1=\"38\" x2=\"260\" y2=\"74\" stroke=\"#1f2a44\" stroke-width=\"2.2\" stroke-linecap=\"round\"></line><polygon points=\"260,80 255,70 265,70\" fill=\"#1f2a44\"></polygon><text x=\"286\" y=\"55\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"14\" font-weight=\"800\" fill=\"#d9577f\" text-anchor=\"start\">release</text><rect x=\"145\" y=\"83\" width=\"230\" height=\"26\" rx=\"10\" fill=\"#fff5e6\" stroke=\"#1f2a44\" stroke-width=\"1.6\"></rect><text x=\"260\" y=\"102\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"15\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">arachidonic acid (20:4)</text><line x1=\"215\" y1=\"110\" x2=\"135\" y2=\"164.6\" stroke=\"#1f2a44\" stroke-width=\"2.2\" stroke-linecap=\"round\"></line><polygon points=\"130,168 135.4,158.2 141.1,166.5\" fill=\"#1f2a44\"></polygon><text x=\"146.5\" y=\"135\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"14\" font-weight=\"800\" fill=\"#d9577f\" text-anchor=\"end\">COX enzymes</text><line x1=\"305\" y1=\"110\" x2=\"385\" y2=\"164.6\" stroke=\"#1f2a44\" stroke-width=\"2.2\" stroke-linecap=\"round\"></line><polygon points=\"390,168 378.9,166.5 384.6,158.2\" fill=\"#1f2a44\"></polygon><text x=\"373.5\" y=\"135\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"14\" font-weight=\"800\" fill=\"#d9577f\" text-anchor=\"start\">lipoxygenase</text><rect x=\"35\" y=\"173\" width=\"190\" height=\"46\" rx=\"10\" fill=\"#fdecef\" stroke=\"#1f2a44\" stroke-width=\"1.6\"></rect><text x=\"130\" y=\"192\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"15\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">prostaglandins</text><text x=\"130\" y=\"212\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"15\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">thromboxanes</text><rect x=\"310\" y=\"173\" width=\"160\" height=\"26\" rx=\"10\" fill=\"#e9f7f0\" stroke=\"#1f2a44\" stroke-width=\"1.6\"></rect><text x=\"390\" y=\"192\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"15\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">leukotrienes</text></svg></div><div>Prostaglandins cause pain, fever and inflammation. Aspirin and ibuprofen (NSAIDs) inhibit the <b style=\"font-weight:900\">COX enzymes</b> in the scheme. Which eicosanoids do NSAIDs lower?</div>",
   "choices": [
    "<span style=\"display:block\">Prostaglandins and thromboxanes, because COX makes them from arachidonic acid</span>",
-   "<span style=\"display:block\">Leukotrienes only, because COX makes leukotrienes</span>",
-   "<span style=\"display:block\">All three families, because COX releases arachidonic acid</span>",
-   "<span style=\"display:block\">None; NSAIDs lower cholesterol instead</span>"
+   "<span style=\"display:block\">Leukotrienes only, because COX turns arachidonic acid into leukotrienes</span>",
+   "<span style=\"display:block\">All three families, because COX is the enzyme that releases arachidonic acid from membranes</span>",
+   "<span style=\"display:block\">None; NSAIDs lower blood cholesterol instead of acting on eicosanoids</span>"
   ],
   "answer": "<span style=\"display:block\">Prostaglandins and thromboxanes, because COX makes them from arachidonic acid</span>",
   "why": [
@@ -9987,9 +9987,9 @@
   "type": "mc",
   "prompt": "<div><svg viewBox=\"0 0 520 236\" role=\"img\" aria-label=\"Scheme: membrane phospholipids release arachidonic acid; COX enzymes turn it into prostaglandins and thromboxanes; lipoxygenase turns it into leukotrienes\" style=\"--vbw:520;max-width:540px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;margin:4px auto 12px auto;width:540px;max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"145\" y=\"11\" width=\"230\" height=\"26\" rx=\"10\" fill=\"#eef3ff\" stroke=\"#1f2a44\" stroke-width=\"1.6\"></rect><text x=\"260\" y=\"30\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"15\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">membrane phospholipids</text><line x1=\"260\" y1=\"38\" x2=\"260\" y2=\"74\" stroke=\"#1f2a44\" stroke-width=\"2.2\" stroke-linecap=\"round\"></line><polygon points=\"260,80 255,70 265,70\" fill=\"#1f2a44\"></polygon><text x=\"286\" y=\"55\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"14\" font-weight=\"800\" fill=\"#d9577f\" text-anchor=\"start\">release</text><rect x=\"145\" y=\"83\" width=\"230\" height=\"26\" rx=\"10\" fill=\"#fff5e6\" stroke=\"#1f2a44\" stroke-width=\"1.6\"></rect><text x=\"260\" y=\"102\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"15\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">arachidonic acid (20:4)</text><line x1=\"215\" y1=\"110\" x2=\"135\" y2=\"164.6\" stroke=\"#1f2a44\" stroke-width=\"2.2\" stroke-linecap=\"round\"></line><polygon points=\"130,168 135.4,158.2 141.1,166.5\" fill=\"#1f2a44\"></polygon><text x=\"146.5\" y=\"135\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"14\" font-weight=\"800\" fill=\"#d9577f\" text-anchor=\"end\">COX enzymes</text><line x1=\"305\" y1=\"110\" x2=\"385\" y2=\"164.6\" stroke=\"#1f2a44\" stroke-width=\"2.2\" stroke-linecap=\"round\"></line><polygon points=\"390,168 378.9,166.5 384.6,158.2\" fill=\"#1f2a44\"></polygon><text x=\"373.5\" y=\"135\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"14\" font-weight=\"800\" fill=\"#d9577f\" text-anchor=\"start\">lipoxygenase</text><rect x=\"35\" y=\"173\" width=\"190\" height=\"46\" rx=\"10\" fill=\"#fdecef\" stroke=\"#1f2a44\" stroke-width=\"1.6\"></rect><text x=\"130\" y=\"192\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"15\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">prostaglandins</text><text x=\"130\" y=\"212\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"15\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">thromboxanes</text><rect x=\"310\" y=\"173\" width=\"160\" height=\"26\" rx=\"10\" fill=\"#e9f7f0\" stroke=\"#1f2a44\" stroke-width=\"1.6\"></rect><text x=\"390\" y=\"192\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"15\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"middle\">leukotrienes</text></svg></div><div>Thromboxanes, made by COX enzymes in platelets, make platelets clump to start a blood clot. Aspirin blocks COX. A patient on daily low-dose aspirin bleeds more after a tooth extraction. Why?</div>",
   "choices": [
-   "<span style=\"display:block\">Aspirin destroys vitamin K</span>",
-   "<span style=\"display:block\">More leukotrienes are made, and leukotrienes thin the blood</span>",
-   "<span style=\"display:block\">Aspirin dissolves blood cholesterol</span>",
+   "<span style=\"display:block\">Aspirin destroys vitamin K, so the liver makes fewer clotting factors</span>",
+   "<span style=\"display:block\">More leukotrienes are made, and leukotrienes thin the blood around the wound</span>",
+   "<span style=\"display:block\">Aspirin dissolves cholesterol in the blood, so clots cannot form</span>",
    "<span style=\"display:block\">Less thromboxane is made, so platelets clump less and clotting is slower</span>"
   ],
   "answer": "<span style=\"display:block\">Less thromboxane is made, so platelets clump less and clotting is slower</span>",
@@ -10022,9 +10022,9 @@
   "prompt": "<div>Which fat-soluble vitamin protects the unsaturated chains in membranes from oxidation?</div>",
   "choices": [
    "<span style=\"display:block\">Vitamin E (α-tocopherol)</span>",
-   "<span style=\"display:block\">Vitamin K</span>",
-   "<span style=\"display:block\">Vitamin A</span>",
-   "<span style=\"display:block\">Vitamin D</span>"
+   "<span style=\"display:block\">Vitamin K (phylloquinone)</span>",
+   "<span style=\"display:block\">Vitamin A (retinol)</span>",
+   "<span style=\"display:block\">Vitamin D (calciferol)</span>"
   ],
   "answer": "<span style=\"display:block\">Vitamin E (α-tocopherol)</span>",
   "why": [
@@ -10055,10 +10055,10 @@
   "type": "mc",
   "prompt": "<div><svg viewBox=\"0 0 343 131.7\" role=\"img\" aria-label=\"Line structure of vitamin A (retinol): one ring and a chain of alternating double bonds ending in CH2OH\" style=\"--vbw:343;max-width:394px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;margin:4px auto 12px auto;width:394px;max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"76.2\" y1=\"85.8\" x2=\"53.7\" y2=\"98.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"53.7\" y1=\"98.8\" x2=\"31.2\" y2=\"85.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"31.2\" y1=\"85.8\" x2=\"31.2\" y2=\"59.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"31.2\" y1=\"59.8\" x2=\"53.7\" y2=\"46.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"53.7\" y1=\"46.8\" x2=\"76.2\" y2=\"59.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"54.5\" y1=\"54.2\" x2=\"69.4\" y2=\"62.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"76.2\" y1=\"59.8\" x2=\"76.2\" y2=\"85.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"76.2\" y1=\"85.8\" x2=\"102.2\" y2=\"85.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"76.2\" y1=\"85.8\" x2=\"89.2\" y2=\"108.3\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"53.7\" y1=\"46.8\" x2=\"53.7\" y2=\"20.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"76.2\" y1=\"59.8\" x2=\"98.7\" y2=\"46.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"98.7\" y1=\"46.8\" x2=\"121.3\" y2=\"59.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"105.6\" y1=\"43.8\" x2=\"120.4\" y2=\"52.4\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"121.3\" y1=\"59.8\" x2=\"143.8\" y2=\"46.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"143.8\" y1=\"46.8\" x2=\"166.3\" y2=\"59.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"150.6\" y1=\"43.8\" x2=\"165.5\" y2=\"52.4\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"166.3\" y1=\"59.8\" x2=\"188.8\" y2=\"46.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"188.8\" y1=\"46.8\" x2=\"211.3\" y2=\"59.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"195.6\" y1=\"43.8\" x2=\"210.5\" y2=\"52.4\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"211.3\" y1=\"59.8\" x2=\"233.8\" y2=\"46.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"233.8\" y1=\"46.8\" x2=\"256.4\" y2=\"59.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"240.7\" y1=\"43.8\" x2=\"255.5\" y2=\"52.4\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"256.4\" y1=\"59.8\" x2=\"278.9\" y2=\"46.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"143.8\" y1=\"46.8\" x2=\"143.8\" y2=\"20.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"233.8\" y1=\"46.8\" x2=\"233.8\" y2=\"20.8\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><line x1=\"278.9\" y1=\"46.8\" x2=\"292.8\" y2=\"54.9\" stroke=\"#1f2a44\" stroke-width=\"2.6\" stroke-linecap=\"round\"></line><text x=\"294.9\" y=\"65.8\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#1f2a44\" text-anchor=\"start\">OH</text></svg></div><div>Which vitamin is this, and what is it needed for?</div>",
   "choices": [
-   "<span style=\"display:block\">Vitamin D: calcium absorption</span>",
+   "<span style=\"display:block\">Vitamin D (cholecalciferol): calcium absorption</span>",
    "<span style=\"display:block\">Vitamin A (retinol): vision and healthy mucous membranes</span>",
-   "<span style=\"display:block\">Vitamin E: antioxidant</span>",
-   "<span style=\"display:block\">Vitamin K: blood clotting</span>"
+   "<span style=\"display:block\">Vitamin E (α-tocopherol): antioxidant in membranes</span>",
+   "<span style=\"display:block\">Vitamin K (phylloquinone): blood clotting</span>"
   ],
   "answer": "<span style=\"display:block\">Vitamin A (retinol): vision and healthy mucous membranes</span>",
   "why": [
@@ -10111,7 +10111,7 @@
   }
  },
  {
-  "id": "lipids-c44699f1",
+  "id": "lipids-c7d3e635",
   "skill": "lipids.vitamin",
   "courses": [
    "3B"
@@ -10123,12 +10123,12 @@
   "type": "mc",
   "prompt": "<div>Fat-soluble vitamins can reach toxic levels, but water-soluble vitamins (B, C) rarely do. Why?</div>",
   "choices": [
-   "<span style=\"display:block\">They are destroyed by stomach acid</span>",
-   "<span style=\"display:block\">They are made in the body in large amounts</span>",
-   "<span style=\"display:block\">They are nonpolar, so they are stored in liver and fat tissue instead of leaving in urine</span>",
-   "<span style=\"display:block\">They are proteins that clump in the blood</span>"
+   "<span style=\"display:block\">They are destroyed by stomach acid before they can be absorbed</span>",
+   "<span style=\"display:block\">They are made in the body in large amounts, faster than they are used</span>",
+   "<span style=\"display:block\">Being nonpolar, they are stored in liver and fat, not lost in urine</span>",
+   "<span style=\"display:block\">They are proteins that clump together in the blood and cannot be filtered</span>"
   ],
-  "answer": "<span style=\"display:block\">They are nonpolar, so they are stored in liver and fat tissue instead of leaving in urine</span>",
+  "answer": "<span style=\"display:block\">Being nonpolar, they are stored in liver and fat, not lost in urine</span>",
   "why": [
    "Then they could not build up.",
    "Most must come from food.",
@@ -10145,7 +10145,7 @@
   }
  },
  {
-  "id": "lipids-4c65843e",
+  "id": "lipids-1b6bffa4",
   "skill": "lipids.vitamin",
   "courses": [
    "3B"
@@ -10157,12 +10157,12 @@
   "type": "mc",
   "prompt": "<div>Which fat-soluble vitamin is made in the skin from a cholesterol derivative when UVB light hits it?</div>",
   "choices": [
-   "<span style=\"display:block\">Vitamin D (cholecalciferol)</span>",
+   "<span style=\"display:block\">Vitamin D</span>",
    "<span style=\"display:block\">Vitamin A</span>",
    "<span style=\"display:block\">Vitamin K</span>",
    "<span style=\"display:block\">Vitamin E</span>"
   ],
-  "answer": "<span style=\"display:block\">Vitamin D (cholecalciferol)</span>",
+  "answer": "<span style=\"display:block\">Vitamin D</span>",
   "why": [
    "",
    "Vitamin A comes from β-carotene.",
@@ -10179,7 +10179,7 @@
   }
  },
  {
-  "id": "lipids-5dab6e57",
+  "id": "lipids-84f2de30",
   "skill": "lipids.vitamin",
   "courses": [
    "3B"
@@ -10191,12 +10191,12 @@
   "type": "mc",
   "prompt": "<div>Warfarin is a blood thinner: it slows clotting by working against the fat-soluble vitamin the liver needs to make clotting factors. Leafy greens are rich in that vitamin, so a patient on warfarin is told to keep their intake of leafy greens steady. Which vitamin is it?</div>",
   "choices": [
-   "<span style=\"display:block\">Vitamin D: it raises blood calcium</span>",
-   "<span style=\"display:block\">Vitamin K: it is needed to make clotting factors, and warfarin works against it</span>",
+   "<span style=\"display:block\">Vitamin D: it raises the amount of calcium in the blood</span>",
+   "<span style=\"display:block\">Vitamin K: the liver needs it to make clotting factors</span>",
    "<span style=\"display:block\">Vitamin E: it thins the blood</span>",
-   "<span style=\"display:block\">Vitamin A: it builds platelets</span>"
+   "<span style=\"display:block\">Vitamin A: the bone marrow needs it to build platelets</span>"
   ],
-  "answer": "<span style=\"display:block\">Vitamin K: it is needed to make clotting factors, and warfarin works against it</span>",
+  "answer": "<span style=\"display:block\">Vitamin K: the liver needs it to make clotting factors</span>",
   "why": [
    "Warfarin targets clotting, not calcium.",
    "",
@@ -10246,7 +10246,7 @@
   }
  },
  {
-  "id": "lipids-68df12ff",
+  "id": "lipids-ca97ee98",
   "skill": "lipids.bilayer",
   "courses": [
    "3B"
@@ -10257,12 +10257,12 @@
   "type": "mc",
   "prompt": "<div>The fluid-mosaic model describes a cell membrane as</div>",
   "choices": [
-   "<span style=\"display:block\">a crystal of cholesterol</span>",
-   "<span style=\"display:block\">a phospholipid bilayer with proteins and cholesterol that can drift sideways</span>",
-   "<span style=\"display:block\">a rigid protein wall coated with fat</span>",
-   "<span style=\"display:block\">a single layer with heads pointing inward</span>"
+   "<span style=\"display:block\">a crystal of cholesterol with proteins locked in fixed positions</span>",
+   "<span style=\"display:block\">a phospholipid bilayer in which proteins and cholesterol drift sideways</span>",
+   "<span style=\"display:block\">a rigid protein wall coated on both sides with a thin layer of fat</span>",
+   "<span style=\"display:block\">a single layer of phospholipids with the heads pointing inward</span>"
   ],
-  "answer": "<span style=\"display:block\">a phospholipid bilayer with proteins and cholesterol that can drift sideways</span>",
+  "answer": "<span style=\"display:block\">a phospholipid bilayer in which proteins and cholesterol drift sideways</span>",
   "why": [
    "Cholesterol is only one part.",
    "",
@@ -10345,7 +10345,7 @@
   }
  },
  {
-  "id": "lipids-5c6d0d89",
+  "id": "lipids-9dd9ed66",
   "skill": "lipids.bilayer",
   "courses": [
    "3B"
@@ -10356,12 +10356,12 @@
   "type": "mc",
   "prompt": "<div>In water, soaps form round micelles but phospholipids form flat bilayers. Why?</div>",
   "choices": [
-   "<span style=\"display:block\">Soaps are nonpolar from end to end</span>",
-   "<span style=\"display:block\">Phospholipids are not charged</span>",
-   "<span style=\"display:block\">Bilayers form only when cholesterol is missing</span>",
-   "<span style=\"display:block\">Phospholipids have two tails, which fit better side by side in a sheet than in a small sphere</span>"
+   "<span style=\"display:block\">Soaps are nonpolar from end to end, so they curl into balls to hide from water</span>",
+   "<span style=\"display:block\">Phospholipids are not charged, so their heads do not need to face the water</span>",
+   "<span style=\"display:block\">Bilayers form only when cholesterol is missing; otherwise phospholipids form micelles</span>",
+   "<span style=\"display:block\">Their two tails fit better side by side in a flat sheet than in a small sphere</span>"
   ],
-  "answer": "<span style=\"display:block\">Phospholipids have two tails, which fit better side by side in a sheet than in a small sphere</span>",
+  "answer": "<span style=\"display:block\">Their two tails fit better side by side in a flat sheet than in a small sphere</span>",
   "why": [
    "Soaps have an ionic head.",
    "They are charged at the head.",
@@ -10390,9 +10390,9 @@
   "prompt": "<div>Cold-water fish keep their membranes flexible. Compared with a membrane rich in saturated tails, one rich in unsaturated tails is</div>",
   "choices": [
    "<span style=\"display:block\">more fluid, because the cis kinks keep the tails from packing</span>",
-   "<span style=\"display:block\">the same, because the heads control fluidity</span>",
-   "<span style=\"display:block\">thicker, because the tails are longer</span>",
-   "<span style=\"display:block\">stiffer, because C=C bonds are rigid</span>"
+   "<span style=\"display:block\">the same, because the heads, not the tails, control fluidity</span>",
+   "<span style=\"display:block\">thicker, because unsaturated tails are longer</span>",
+   "<span style=\"display:block\">stiffer, because the rigid C=C bonds lock the tails in place</span>"
   ],
   "answer": "<span style=\"display:block\">more fluid, because the cis kinks keep the tails from packing</span>",
   "why": [
@@ -10411,7 +10411,7 @@
   }
  },
  {
-  "id": "lipids-acd84dc7",
+  "id": "lipids-ba93f5f0",
   "skill": "lipids.bilayer",
   "courses": [
    "3B"
@@ -10422,12 +10422,12 @@
   "type": "mc",
   "prompt": "<div>Lecithin from egg yolk keeps mayonnaise from separating. It works because it</div>",
   "choices": [
-   "<span style=\"display:block\">is amphipathic: its tails dissolve in oil and its charged head in water (an emulsifier)</span>",
-   "<span style=\"display:block\">is a strong acid that hydrolyzes the oil</span>",
-   "<span style=\"display:block\">is nonpolar and dissolves only in oil</span>",
-   "<span style=\"display:block\">hydrogenates the oil into a solid</span>"
+   "<span style=\"display:block\">is an emulsifier: its tails dissolve in oil and its charged head in water</span>",
+   "<span style=\"display:block\">is a strong acid that hydrolyzes the oil into pieces that mix with water</span>",
+   "<span style=\"display:block\">is nonpolar and dissolves only in oil, thickening it so it cannot separate</span>",
+   "<span style=\"display:block\">hydrogenates the oil into a solid fat that cannot separate from the water</span>"
   ],
-  "answer": "<span style=\"display:block\">is amphipathic: its tails dissolve in oil and its charged head in water (an emulsifier)</span>",
+  "answer": "<span style=\"display:block\">is an emulsifier: its tails dissolve in oil and its charged head in water</span>",
   "why": [
    "",
    "Lecithin is not an acid catalyst.",
@@ -10632,7 +10632,7 @@
   }
  },
  {
-  "id": "lipids-3d018722",
+  "id": "lipids-6b93cbd6",
   "skill": "lipids.transport",
   "courses": [
    "3B"
@@ -10643,12 +10643,12 @@
   "type": "mc",
   "prompt": "<div>Lidocaine is a weak base. Only its <b style=\"font-weight:900\">uncharged</b> form gets into the nerve cell. Why?</div>",
   "choices": [
-   "<span style=\"display:block\">Only the charged form fits the glucose carrier</span>",
-   "<span style=\"display:block\">The charged form is too small</span>",
-   "<span style=\"display:block\">The charged form is pumped out by ATP</span>",
-   "<span style=\"display:block\">The uncharged form is nonpolar enough to diffuse through the bilayer; the charged form is not</span>"
+   "<span style=\"display:block\">Only the charged form fits the glucose carrier, which nerve cells lack</span>",
+   "<span style=\"display:block\">The charged form is too small to stay in the bilayer, so it slips back out</span>",
+   "<span style=\"display:block\">The charged form gets in too, but an ATP-driven pump moves it right back out</span>",
+   "<span style=\"display:block\">The uncharged form can diffuse through the nonpolar bilayer; the charged form cannot</span>"
   ],
-  "answer": "<span style=\"display:block\">The uncharged form is nonpolar enough to diffuse through the bilayer; the charged form is not</span>",
+  "answer": "<span style=\"display:block\">The uncharged form can diffuse through the nonpolar bilayer; the charged form cannot</span>",
   "why": [
    "Lidocaine does not use the glucose carrier.",
    "Size is similar; charge is the problem.",
@@ -10665,7 +10665,7 @@
   }
  },
  {
-  "id": "lipids-1991caac",
+  "id": "lipids-231247f2",
   "skill": "lipids.transport",
   "courses": [
    "3B"
@@ -10676,12 +10676,12 @@
   "type": "mc",
   "prompt": "<div>A student says glucose entering a red blood cell is active transport “because it uses a protein.” What is wrong?</div>",
   "choices": [
-   "<span style=\"display:block\">Glucose crosses by simple diffusion</span>",
-   "<span style=\"display:block\">Nothing; any transport that uses a protein is active</span>",
-   "<span style=\"display:block\">Energy, not the protein, is the test: glucose moves down its gradient, so it is facilitated transport</span>",
-   "<span style=\"display:block\">Glucose cannot enter red blood cells</span>"
+   "<span style=\"display:block\">Glucose crosses by simple diffusion, slipping straight through the bilayer with no protein</span>",
+   "<span style=\"display:block\">Nothing; any transport that uses a protein is active, whether or not ATP is spent</span>",
+   "<span style=\"display:block\">Energy is the test, not the protein: glucose moves downhill, so it is facilitated</span>",
+   "<span style=\"display:block\">Glucose cannot enter red blood cells, because they have no carriers for it</span>"
   ],
-  "answer": "<span style=\"display:block\">Energy, not the protein, is the test: glucose moves down its gradient, so it is facilitated transport</span>",
+  "answer": "<span style=\"display:block\">Energy is the test, not the protein: glucose moves downhill, so it is facilitated</span>",
   "why": [
    "Glucose is polar; it needs a carrier.",
    "Facilitated transport uses a protein too, but no ATP.",
@@ -10853,7 +10853,7 @@
   }
  },
  {
-  "id": "lipids-d0398c5c",
+  "id": "lipids-cd6b0573",
   "skill": "lipids.clinic",
   "courses": [
    "3B"
@@ -10864,12 +10864,12 @@
   "type": "mc",
   "prompt": "<div>A patient with a blocked bile duct has pale, greasy stools (steatorrhea). Why?</div>",
   "choices": [
-   "<span style=\"display:block\">Bile salts are needed to absorb sugars</span>",
-   "<span style=\"display:block\">Lipase is destroyed by cholesterol</span>",
-   "<span style=\"display:block\">The fat is turned into soap</span>",
-   "<span style=\"display:block\">Without bile salts, fat is not emulsified, so lipase cannot digest it and it passes through</span>"
+   "<span style=\"display:block\">Bile salts are needed to absorb sugars, so unabsorbed sugar makes the stool greasy</span>",
+   "<span style=\"display:block\">Cholesterol from the blocked duct destroys lipase, so fat is not digested</span>",
+   "<span style=\"display:block\">The trapped bile turns the fat into soap, which passes out in the stool</span>",
+   "<span style=\"display:block\">Without bile salts, fat is not emulsified, so lipase cannot digest it</span>"
   ],
-  "answer": "<span style=\"display:block\">Without bile salts, fat is not emulsified, so lipase cannot digest it and it passes through</span>",
+  "answer": "<span style=\"display:block\">Without bile salts, fat is not emulsified, so lipase cannot digest it</span>",
   "why": [
    "Bile salts work on fats.",
    "Lipase still works; it just cannot reach the fat.",
@@ -10886,7 +10886,7 @@
   }
  },
  {
-  "id": "lipids-867adae2",
+  "id": "lipids-80f359c1",
   "skill": "lipids.clinic",
   "courses": [
    "3B"
@@ -10897,12 +10897,12 @@
   "type": "mc",
   "prompt": "<div>Premature babies may lack lung surfactant, mostly dipalmitoylphosphatidylcholine. What property lets it keep the alveoli open?</div>",
   "choices": [
-   "<span style=\"display:block\">It is a protein that props the alveoli open</span>",
-   "<span style=\"display:block\">It is nonpolar and seals the alveoli</span>",
-   "<span style=\"display:block\">It is amphipathic, so it spreads on the watery alveolar surface and lowers surface tension</span>",
-   "<span style=\"display:block\">It is a strong base</span>"
+   "<span style=\"display:block\">It is a stiff protein that props the alveoli open like scaffolding</span>",
+   "<span style=\"display:block\">It is fully nonpolar, so it forms a waterproof seal over the alveoli</span>",
+   "<span style=\"display:block\">It is amphipathic, so it spreads on the watery surface and lowers surface tension</span>",
+   "<span style=\"display:block\">It is a strong base that neutralizes acid building up in the air sacs</span>"
   ],
-  "answer": "<span style=\"display:block\">It is amphipathic, so it spreads on the watery alveolar surface and lowers surface tension</span>",
+  "answer": "<span style=\"display:block\">It is amphipathic, so it spreads on the watery surface and lowers surface tension</span>",
   "why": [
    "It is a phospholipid.",
    "It must interact with the water layer.",
@@ -10919,7 +10919,7 @@
   }
  },
  {
-  "id": "lipids-1eb0e26a",
+  "id": "lipids-74bfa970",
   "skill": "lipids.clinic",
   "courses": [
    "3B"
@@ -10930,12 +10930,12 @@
   "type": "mc",
   "prompt": "<div>Chlorhexidine mouth rinse has a positive charge and nonpolar parts. It sticks to the phospholipid bilayer of oral bacteria and disrupts it. Why does that kill the bacteria?</div>",
   "choices": [
-   "<span style=\"display:block\">The bilayer is the barrier that keeps the cell’s ions and molecules inside; once disrupted, they leak out</span>",
-   "<span style=\"display:block\">It hydrogenates the fatty acid tails, making the membrane solid</span>",
-   "<span style=\"display:block\">It turns the phospholipids into cholesterol</span>",
-   "<span style=\"display:block\">It hydrolyzes the tooth enamel the bacteria live on</span>"
+   "<span style=\"display:block\">The bilayer keeps the cell’s ions and molecules inside; once disrupted, they leak out</span>",
+   "<span style=\"display:block\">It hydrogenates the fatty acid tails, making the whole membrane solid and unable to bend</span>",
+   "<span style=\"display:block\">It turns the phospholipids into cholesterol, which cannot form a membrane</span>",
+   "<span style=\"display:block\">It hydrolyzes the tooth enamel the bacteria live on, so they wash away</span>"
   ],
-  "answer": "<span style=\"display:block\">The bilayer is the barrier that keeps the cell’s ions and molecules inside; once disrupted, they leak out</span>",
+  "answer": "<span style=\"display:block\">The bilayer keeps the cell’s ions and molecules inside; once disrupted, they leak out</span>",
   "why": [
    "",
    "Hydrogenation needs H<sub style=\"font-size:13.8667px;line-height:21.4933px\">2</sub> and a metal catalyst.",
@@ -10964,8 +10964,8 @@
   "prompt": "<div>A nurse suggests eating salmon twice a week. Which fatty acids are being recommended?</div>",
   "choices": [
    "<span style=\"display:block\">Saturated fatty acids like stearic acid</span>",
-   "<span style=\"display:block\">Omega-9 fatty acids only</span>",
-   "<span style=\"display:block\">Trans fatty acids</span>",
+   "<span style=\"display:block\">Omega-9 fatty acids only, such as oleic acid</span>",
+   "<span style=\"display:block\">Trans fatty acids such as elaidic acid</span>",
    "<span style=\"display:block\">Omega-3 fatty acids such as EPA and DHA</span>"
   ],
   "answer": "<span style=\"display:block\">Omega-3 fatty acids such as EPA and DHA</span>",
@@ -10996,10 +10996,10 @@
   "type": "mc",
   "prompt": "<div>Which lipoprotein carries cholesterol <b style=\"font-weight:900\">from the liver to the tissues</b>, and in high levels leaves plaque in arteries?</div>",
   "choices": [
-   "<span style=\"display:block\">Bile salts</span>",
+   "<span style=\"display:block\">Bile salts (made from cholesterol in the liver)</span>",
    "<span style=\"display:block\">LDL (low-density lipoprotein), “bad” cholesterol</span>",
-   "<span style=\"display:block\">Chylomicrons</span>",
-   "<span style=\"display:block\">HDL, “good” cholesterol</span>"
+   "<span style=\"display:block\">Chylomicrons (the largest, least dense lipoproteins)</span>",
+   "<span style=\"display:block\">HDL (high-density lipoprotein), “good” cholesterol</span>"
   ],
   "answer": "<span style=\"display:block\">LDL (low-density lipoprotein), “bad” cholesterol</span>",
   "why": [
@@ -11062,9 +11062,9 @@
   "type": "mc",
   "prompt": "<div>A lipid panel shows LDL 142 mg/dL, HDL 38 mg/dL, triglycerides 230 mg/dL. What is a “triglyceride”, chemically?</div>",
   "choices": [
-   "<span style=\"display:block\">Three glucose molecules joined together</span>",
-   "<span style=\"display:block\">A steroid with three rings</span>",
-   "<span style=\"display:block\">Glycerol with three phosphate groups</span>",
+   "<span style=\"display:block\">A carbohydrate: three glucose molecules joined by glycosidic bonds</span>",
+   "<span style=\"display:block\">A steroid: a cholesterol-like molecule with three fused rings</span>",
+   "<span style=\"display:block\">A phospholipid: glycerol joined by three ester bonds to three phosphates</span>",
    "<span style=\"display:block\">A triacylglycerol: glycerol joined by three ester bonds to three fatty acids</span>"
   ],
   "answer": "<span style=\"display:block\">A triacylglycerol: glycerol joined by three ester bonds to three fatty acids</span>",
@@ -11095,8 +11095,8 @@
   "type": "mc",
   "prompt": "<div><div style=\"display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:center;align-items:center;width:100%;display:flex;gap:6px 18px;flex-wrap:wrap;justify-content:center;align-items:center\"><div style=\"flex:0 1 240px\"><svg viewBox=\"0 0 300 230\" role=\"img\" aria-label=\"A lipoprotein particle: a nonpolar core of triacylglycerols and cholesterol esters inside a shell of phospholipids, cholesterol and protein\" style=\"--vbw:300;max-width:300px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;margin:4px auto 12px auto;width:240px;max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"150\" cy=\"115\" r=\"88\" fill=\"#fff4dc\" stroke=\"#c98a2b\" stroke-width=\"2\"></circle><circle cx=\"236\" cy=\"115\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"236\" y1=\"115\" x2=\"214\" y2=\"115\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"233.5\" cy=\"135.6\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"233.5\" y1=\"135.6\" x2=\"212.1\" y2=\"130.3\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"226.1\" cy=\"155\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"226.1\" y1=\"155\" x2=\"206.7\" y2=\"144.7\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"214.4\" cy=\"172\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"214.4\" y1=\"172\" x2=\"197.9\" y2=\"157.4\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"198.9\" cy=\"185.8\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"198.9\" y1=\"185.8\" x2=\"186.4\" y2=\"167.7\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"180.5\" cy=\"195.4\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"180.5\" y1=\"195.4\" x2=\"172.7\" y2=\"174.8\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"160.4\" cy=\"200.4\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"160.4\" y1=\"200.4\" x2=\"157.7\" y2=\"178.5\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"139.6\" cy=\"200.4\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"139.6\" y1=\"200.4\" x2=\"142.3\" y2=\"178.5\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"119.5\" cy=\"195.4\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"119.5\" y1=\"195.4\" x2=\"127.3\" y2=\"174.8\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"101.1\" cy=\"185.8\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"101.1\" y1=\"185.8\" x2=\"113.6\" y2=\"167.7\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"85.6\" cy=\"172\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"85.6\" y1=\"172\" x2=\"102.1\" y2=\"157.4\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"73.9\" cy=\"155\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"73.9\" y1=\"155\" x2=\"93.3\" y2=\"144.7\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"66.5\" cy=\"135.6\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"66.5\" y1=\"135.6\" x2=\"87.9\" y2=\"130.3\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"64\" cy=\"115\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"64\" y1=\"115\" x2=\"86\" y2=\"115\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"66.5\" cy=\"94.4\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"66.5\" y1=\"94.4\" x2=\"87.9\" y2=\"99.7\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"73.9\" cy=\"75\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"73.9\" y1=\"75\" x2=\"93.3\" y2=\"85.3\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"85.6\" cy=\"58\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"85.6\" y1=\"58\" x2=\"102.1\" y2=\"72.6\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"101.1\" cy=\"44.2\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"101.1\" y1=\"44.2\" x2=\"113.6\" y2=\"62.3\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"119.5\" cy=\"34.6\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"119.5\" y1=\"34.6\" x2=\"127.3\" y2=\"55.2\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"139.6\" cy=\"29.6\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"139.6\" y1=\"29.6\" x2=\"142.3\" y2=\"51.5\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"160.4\" cy=\"29.6\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"160.4\" y1=\"29.6\" x2=\"157.7\" y2=\"51.5\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"180.5\" cy=\"34.6\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"180.5\" y1=\"34.6\" x2=\"172.7\" y2=\"55.2\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"198.9\" cy=\"44.2\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"198.9\" y1=\"44.2\" x2=\"186.4\" y2=\"62.3\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"214.4\" cy=\"58\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"214.4\" y1=\"58\" x2=\"197.9\" y2=\"72.6\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"226.1\" cy=\"75\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"226.1\" y1=\"75\" x2=\"206.7\" y2=\"85.3\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><circle cx=\"233.5\" cy=\"94.4\" r=\"7\" fill=\"#f28aa3\" stroke=\"#c4466a\" stroke-width=\"1.5\"></circle><line x1=\"233.5\" y1=\"94.4\" x2=\"212.1\" y2=\"99.7\" stroke=\"#c98a2b\" stroke-width=\"2.2\"></line><path d=\"M88 55 q30 -30 70 -10\" fill=\"none\" stroke=\"#4b57d1\" stroke-width=\"9\" stroke-linecap=\"round\" opacity=\".8\" style=\"opacity:0.8\"></path><text x=\"150\" y=\"111\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"13\" font-weight=\"800\" fill=\"#8a5a12\" text-anchor=\"middle\">nonpolar core:</text><text x=\"150\" y=\"129\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#8a5a12\" text-anchor=\"middle\">triacylglycerols,</text><text x=\"150\" y=\"145\" font-family=\"Nunito,Arial,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#8a5a12\" text-anchor=\"middle\">cholesterol esters</text></svg></div><div><table style=\"font-size:17.6px;line-height:27.28px;background-color:rgb(255, 255, 255);margin:auto auto auto auto;border-collapse:collapse\"><thead style=\"border-collapse:collapse\"><tr style=\"vertical-align:middle;border-collapse:collapse\"><th style=\"font-weight:800;text-align:center;background-color:rgb(244, 245, 251);border-top:1px solid rgb(213, 217, 232);border-right:1px solid rgb(213, 217, 232);border-bottom:1px solid rgb(213, 217, 232);border-left:1px solid rgb(213, 217, 232);padding:6px 14px;vertical-align:middle;border-collapse:collapse\">Lipoprotein</th><th style=\"font-weight:800;text-align:center;background-color:rgb(244, 245, 251);border-top:1px solid rgb(213, 217, 232);border-right:1px solid rgb(213, 217, 232);border-bottom:1px solid rgb(213, 217, 232);border-left:1px solid rgb(213, 217, 232);padding:6px 14px;vertical-align:middle;border-collapse:collapse\">Protein</th><th style=\"font-weight:800;text-align:center;background-color:rgb(244, 245, 251);border-top:1px solid rgb(213, 217, 232);border-right:1px solid rgb(213, 217, 232);border-bottom:1px solid rgb(213, 217, 232);border-left:1px solid rgb(213, 217, 232);padding:6px 14px;vertical-align:middle;border-collapse:collapse\">Lipid</th></tr></thead><tbody style=\"border-collapse:collapse\"><tr style=\"vertical-align:middle;border-collapse:collapse\"><td style=\"text-align:center;border-top:1px solid rgb(213, 217, 232);border-right:1px solid rgb(213, 217, 232);border-bottom:1px solid rgb(213, 217, 232);border-left:1px solid rgb(213, 217, 232);padding:6px 14px;vertical-align:middle;border-collapse:collapse\">Chylomicron</td><td style=\"text-align:center;border-top:1px solid rgb(213, 217, 232);border-right:1px solid rgb(213, 217, 232);border-bottom:1px solid rgb(213, 217, 232);border-left:1px solid rgb(213, 217, 232);padding:6px 14px;vertical-align:middle;border-collapse:collapse\">≈ 2%</td><td style=\"text-align:center;border-top:1px solid rgb(213, 217, 232);border-right:1px solid rgb(213, 217, 232);border-bottom:1px solid rgb(213, 217, 232);border-left:1px solid rgb(213, 217, 232);padding:6px 14px;vertical-align:middle;border-collapse:collapse\">≈ 98%</td></tr><tr style=\"vertical-align:middle;border-collapse:collapse\"><td style=\"text-align:center;border-top:1px solid rgb(213, 217, 232);border-right:1px solid rgb(213, 217, 232);border-bottom:1px solid rgb(213, 217, 232);border-left:1px solid rgb(213, 217, 232);padding:6px 14px;vertical-align:middle;border-collapse:collapse\">VLDL</td><td style=\"text-align:center;border-top:1px solid rgb(213, 217, 232);border-right:1px solid rgb(213, 217, 232);border-bottom:1px solid rgb(213, 217, 232);border-left:1px solid rgb(213, 217, 232);padding:6px 14px;vertical-align:middle;border-collapse:collapse\">≈ 10%</td><td style=\"text-align:center;border-top:1px solid rgb(213, 217, 232);border-right:1px solid rgb(213, 217, 232);border-bottom:1px solid rgb(213, 217, 232);border-left:1px solid rgb(213, 217, 232);padding:6px 14px;vertical-align:middle;border-collapse:collapse\">≈ 90%</td></tr><tr style=\"vertical-align:middle;border-collapse:collapse\"><td style=\"text-align:center;border-top:1px solid rgb(213, 217, 232);border-right:1px solid rgb(213, 217, 232);border-bottom:1px solid rgb(213, 217, 232);border-left:1px solid rgb(213, 217, 232);padding:6px 14px;vertical-align:middle;border-collapse:collapse\">LDL</td><td style=\"text-align:center;border-top:1px solid rgb(213, 217, 232);border-right:1px solid rgb(213, 217, 232);border-bottom:1px solid rgb(213, 217, 232);border-left:1px solid rgb(213, 217, 232);padding:6px 14px;vertical-align:middle;border-collapse:collapse\">≈ 25%</td><td style=\"text-align:center;border-top:1px solid rgb(213, 217, 232);border-right:1px solid rgb(213, 217, 232);border-bottom:1px solid rgb(213, 217, 232);border-left:1px solid rgb(213, 217, 232);padding:6px 14px;vertical-align:middle;border-collapse:collapse\">≈ 75%</td></tr><tr style=\"vertical-align:middle;border-collapse:collapse\"><td style=\"text-align:center;border-top:1px solid rgb(213, 217, 232);border-right:1px solid rgb(213, 217, 232);border-bottom:1px solid rgb(213, 217, 232);border-left:1px solid rgb(213, 217, 232);padding:6px 14px;vertical-align:middle;border-collapse:collapse\">HDL</td><td style=\"text-align:center;border-top:1px solid rgb(213, 217, 232);border-right:1px solid rgb(213, 217, 232);border-bottom:1px solid rgb(213, 217, 232);border-left:1px solid rgb(213, 217, 232);padding:6px 14px;vertical-align:middle;border-collapse:collapse\">≈ 50%</td><td style=\"text-align:center;border-top:1px solid rgb(213, 217, 232);border-right:1px solid rgb(213, 217, 232);border-bottom:1px solid rgb(213, 217, 232);border-left:1px solid rgb(213, 217, 232);padding:6px 14px;vertical-align:middle;border-collapse:collapse\">≈ 50%</td></tr></tbody></table><p style=\"color:rgb(100, 108, 130);font-size:13.12px;line-height:20.336px;margin:14px 0px 0px 0px\">Approximate composition by mass. Protein is denser than lipid.</p></div></div></div><div>Lipoproteins have a nonpolar lipid core and a protein–phospholipid shell. Use the table: which is the densest?</div>",
   "choices": [
-   "<span style=\"display:block\">LDL: it carries the most cholesterol</span>",
-   "<span style=\"display:block\">Chylomicrons: they are the biggest</span>",
+   "<span style=\"display:block\">LDL: it carries the most cholesterol to the tissues</span>",
+   "<span style=\"display:block\">Chylomicrons: they are the biggest particles in the blood</span>",
    "<span style=\"display:block\">VLDL: it is made in the liver</span>",
    "<span style=\"display:block\">HDL: it has the most protein and the least lipid</span>"
   ],
@@ -11131,7 +11131,7 @@
    "<span style=\"display:block\">an enzyme inhibitor that slows the liver’s own production of cholesterol</span>",
    "<span style=\"display:block\">a lipase that hydrolyzes cholesterol into fatty acids</span>",
    "<span style=\"display:block\">a substrate that the enzyme turns into extra cholesterol</span>",
-   "<span style=\"display:block\">an emulsifier that dissolves plaque in the arteries</span>"
+   "<span style=\"display:block\">an emulsifier that dissolves the cholesterol plaque already built up in the arteries</span>"
   ],
   "answer": "<span style=\"display:block\">an enzyme inhibitor that slows the liver’s own production of cholesterol</span>",
   "why": [
@@ -11161,10 +11161,10 @@
   "type": "mc",
   "prompt": "<div>After a meal, dietary triacylglycerols travel from the intestine into the blood packed in lipoproteins called <b style=\"font-weight:900\">chylomicrons</b>, which take several hours to clear. Why does a lipid panel usually need a fasting blood draw?</div>",
   "choices": [
-   "<span style=\"display:block\">Cholesterol is only made at night</span>",
-   "<span style=\"display:block\">Eating converts LDL into bile</span>",
+   "<span style=\"display:block\">Cholesterol is only made at night, so a morning draw after fasting catches it</span>",
+   "<span style=\"display:block\">Eating converts LDL into bile salts, so the LDL number would read too low</span>",
    "<span style=\"display:block\">Chylomicrons from a recent meal would make blood triglycerides read too high</span>",
-   "<span style=\"display:block\">Food destroys HDL</span>"
+   "<span style=\"display:block\">Food breaks down HDL, so the HDL number would read falsely low</span>"
   ],
   "answer": "<span style=\"display:block\">Chylomicrons from a recent meal would make blood triglycerides read too high</span>",
   "why": [

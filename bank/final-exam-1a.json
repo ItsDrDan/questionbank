@@ -960,7 +960,7 @@
   "why": [
    "",
    "Se is in group 16, not the halogens.",
-   "Kr is a noble gas.",
+   "Kr is in period 4, but it is in group 18, so it is a noble gas, not a halogen. Halogens are the group 17 elements, one column to the left of the noble gases.",
    "I is a halogen, but it's in period 5."
   ],
   "html": {
@@ -976,7 +976,7 @@
    "why": [
     "",
     "Se is in group 16, not the halogens.",
-    "Kr is a noble gas.",
+    "Kr is in period 4, but it is in group 18, so it is a noble gas, not a halogen. Halogens are the group 17 elements, one column to the left of the noble gases.",
     "I is a halogen, but it's in period 5."
    ]
   },
@@ -1608,7 +1608,7 @@
   "why": [
    "",
    "CH₂ is only the empirical formula (14 g/mol).",
-   "C₂H₄ is only 28 g/mol.",
+   "C₂H₄ has the right 1 : 2 ratio, but its molar mass is only about 28 g/mol. Divide 56.1 g/mol by the empirical formula mass (14.03) to find how many CH₂ units the molecule really has.",
    "C₄H₁₀ doesn't fit the 1:2 C:H ratio and is 58 g/mol."
   ],
   "html": {
@@ -1624,7 +1624,7 @@
    "why": [
     "",
     "CH₂ is only the empirical formula (14 g/mol).",
-    "C₂H₄ is only 28 g/mol.",
+    "C₂H₄ has the right 1 : 2 ratio, but its molar mass is only about 28 g/mol. Divide 56.1 g/mol by the empirical formula mass (14.03) to find how many CH₂ units the molecule really has.",
     "C₄H₁₀ doesn't fit the 1:2 C:H ratio and is 58 g/mol."
    ]
   },
@@ -3742,7 +3742,7 @@
    "",
    "This forgets to divide by 2. The target makes only 1 NO₂.",
    "This subtracts the second equation instead of adding it. Add the equations as written, then scale.",
-   "This has the wrong sign."
+   "This has the wrong sign. When the given steps are added, the overall ΔH for forming NO₂ is positive (endothermic); scaling an equation by ½ changes the size of ΔH but never its sign."
   ],
   "html": {
    "prompt": "Use the data in the table to find ΔH for the formation of nitrogen dioxide shown below.",
@@ -3758,7 +3758,7 @@
     "",
     "This forgets to divide by 2. The target makes only 1 NO₂.",
     "This subtracts the second equation instead of adding it. Add the equations as written, then scale.",
-    "This has the wrong sign."
+    "This has the wrong sign. When the given steps are added, the overall ΔH for forming NO₂ is positive (endothermic); scaling an equation by ½ changes the size of ΔH but never its sign."
    ]
   },
   "data": {
@@ -5484,9 +5484,9 @@
   "explain": "In group 14, C is a nonmetal, Si and Ge are metalloids, and Sn, lowest of the four, is a metal.",
   "why": [
    "",
-   "Ge is a metalloid.",
-   "Si is a metalloid.",
-   "C is a nonmetal."
+   "Ge is a metalloid, with properties between metals and nonmetals. In group 14, metallic character increases going down the group, and Ge is not the lowest of these four.",
+   "Si is a metalloid, so it is only partly metallic. Metallic character increases down a group, and Si is near the top of group 14 in this list.",
+   "C is a nonmetal at the top of group 14, so it has the least metallic character here. Metallic character increases as you go down a group."
   ],
   "html": {
    "prompt": "Which element has the greatest metallic character?",
@@ -5500,9 +5500,9 @@
    "explain": "In group 14, C is a nonmetal, Si and Ge are metalloids, and <b>Sn</b>, lowest of the four, is a metal.",
    "why": [
     "",
-    "Ge is a metalloid.",
-    "Si is a metalloid.",
-    "C is a nonmetal."
+    "Ge is a metalloid, with properties between metals and nonmetals. In group 14, metallic character increases going down the group, and Ge is not the lowest of these four.",
+    "Si is a metalloid, so it is only partly metallic. Metallic character increases down a group, and Si is near the top of group 14 in this list.",
+    "C is a nonmetal at the top of group 14, so it has the least metallic character here. Metallic character increases as you go down a group."
    ]
   },
   "from": {
@@ -6349,8 +6349,8 @@
   "why": [
    "",
    "NH₃ is about 107°. One lone pair squeezes less than two.",
-   "CH₄ is 109.5°.",
-   "BF₃ is 120°."
+   "CH₄ has no lone pairs, so it keeps the full tetrahedral angle of 109.5°. Lone pairs squeeze bond angles smaller, so a central atom with more lone pairs gives a smaller angle.",
+   "BF₃ has three bonding groups and no lone pairs on B, so it is trigonal planar with 120° angles, the largest here. Look for the molecule with the most lone pairs on the central atom."
   ],
   "html": {
    "prompt": "Which molecule has the smallest bond angle?",
@@ -6365,8 +6365,8 @@
    "why": [
     "",
     "NH₃ is about 107°. One lone pair squeezes less than two.",
-    "CH₄ is 109.5°.",
-    "BF₃ is 120°."
+    "CH₄ has no lone pairs, so it keeps the full tetrahedral angle of 109.5°. Lone pairs squeeze bond angles smaller, so a central atom with more lone pairs gives a smaller angle.",
+    "BF₃ has three bonding groups and no lone pairs on B, so it is trigonal planar with 120° angles, the largest here. Look for the molecule with the most lone pairs on the central atom."
    ]
   },
   "from": {
@@ -6620,7 +6620,7 @@
    "",
    "The first carbon is double-bonded, so it has 3 groups (sp²), not 4.",
    "The middle carbon has 3 groups (sp²), not 2.",
-   "This reverses the order."
+   "This reverses the order. Count electron groups left to right: the first two carbons each have three groups (double bond plus two other atoms), and the C≡N carbon has two."
   ],
   "html": {
    "prompt": "Acrylonitrile is CH<sub>2</sub>=CH–C≡N. What are the hybridizations of the three carbon atoms, from left to right?",
@@ -6636,7 +6636,7 @@
     "",
     "The first carbon is double-bonded, so it has 3 groups (sp²), not 4.",
     "The middle carbon has 3 groups (sp²), not 2.",
-    "This reverses the order."
+    "This reverses the order. Count electron groups left to right: the first two carbons each have three groups (double bond plus two other atoms), and the C≡N carbon has two."
    ]
   },
   "from": {
@@ -6943,7 +6943,7 @@
   "why": [
    "",
    "If σ₂p were lower, the last two electrons would pair and B₂ would be diamagnetic.",
-   "σ*₂s is full in B₂.",
+   "σ*₂s is full in B₂: it holds 2 paired electrons. The unpaired electrons come from the last two electrons that enter the higher-energy 2p-based molecular orbitals.",
    "B₂ has 10 electrons, an even number."
   ],
   "html": {
@@ -6959,7 +6959,7 @@
    "why": [
     "",
     "If σ₂p were lower, the last two electrons would pair and B₂ would be diamagnetic.",
-    "σ*₂s is full in B₂.",
+    "σ*₂s is full in B₂: it holds 2 paired electrons. The unpaired electrons come from the last two electrons that enter the higher-energy 2p-based molecular orbitals.",
     "B₂ has 10 electrons, an even number."
    ]
   },
@@ -9477,9 +9477,9 @@
   "explain": "Boron, silicon and germanium all lie on the staircase, so B, Si, Ge are all metalloids. Al is a metal, C is a nonmetal, and Se and Br are nonmetals.",
   "why": [
    "",
-   "Al is a metal.",
-   "C is a nonmetal.",
-   "Se and Br are nonmetals."
+   "Al is a metal, even though it touches the zigzag line. It is shiny, conducts electricity well and forms Al³⁺ ions, so this set does not contain only metalloids.",
+   "C is a nonmetal: it sits above the staircase on the nonmetal side. Si and Ge are metalloids, but carbon makes this set fail.",
+   "As is a metalloid, but Se and Br are nonmetals to the right of the staircase. A set of only metalloids must have every element on the staircase line."
   ],
   "html": {
    "prompt": "Which set contains ONLY metalloids (semimetals)?",
@@ -9493,9 +9493,9 @@
    "explain": "Boron, silicon and germanium all lie on the staircase, so <b>B, Si, Ge</b> are all metalloids. Al is a metal, C is a nonmetal, and Se and Br are nonmetals.",
    "why": [
     "",
-    "Al is a metal.",
-    "C is a nonmetal.",
-    "Se and Br are nonmetals."
+    "Al is a metal, even though it touches the zigzag line. It is shiny, conducts electricity well and forms Al³⁺ ions, so this set does not contain only metalloids.",
+    "C is a nonmetal: it sits above the staircase on the nonmetal side. Si and Ge are metalloids, but carbon makes this set fail.",
+    "As is a metalloid, but Se and Br are nonmetals to the right of the staircase. A set of only metalloids must have every element on the staircase line."
    ]
   },
   "from": {
@@ -9917,7 +9917,7 @@
   "explain": "Ba²⁺ + 2 OH⁻ + 2 H⁺ + SO²⁻₄ → BaSO₄(s) + 2 H₂O(l): the ions are removed as a precipitate and water, so almost no ions remain. Past equivalence, extra H₂SO₄ (a strong acid) adds ions and the conductivity rises.",
   "why": [
    "",
-   "H₂SO₄ is a strong acid.",
+   "H₂SO₄ is a strong acid and a strong electrolyte, so it ionizes completely. That is why conductivity rises again after equivalence when excess acid is added.",
    "Ba(OH)₂ is a strong base, so it conducts well on its own.",
    "No gas forms. The ions leave as a solid and water."
   ],
@@ -9933,7 +9933,7 @@
    "explain": "Ba<sup>2+</sup> + 2 OH<sup>−</sup> + 2 H<sup>+</sup> + <span class=\"nw\">SO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span> → BaSO<sub>4</sub>(s) + 2 H<sub>2</sub>O(l): the ions are removed as a precipitate and water, so <b>almost no ions remain</b>. Past equivalence, extra H<sub>2</sub>SO<sub>4</sub> (a strong acid) adds ions and the conductivity rises.",
    "why": [
     "",
-    "H₂SO₄ is a strong acid.",
+    "H₂SO₄ is a strong acid and a strong electrolyte, so it ionizes completely. That is why conductivity rises again after equivalence when excess acid is added.",
     "Ba(OH)₂ is a strong base, so it conducts well on its own.",
     "No gas forms. The ions leave as a solid and water."
    ]
@@ -11790,7 +11790,7 @@
   "why": [
    "",
    "This forgets the drop factor (15 drops per mL).",
-   "125 is mL per hour.",
+   "125 is the rate in mL per hour (1000 mL ÷ 8.00 h). The question asks for drops per minute, so convert hours to minutes and multiply by 15 drops per mL.",
    "This is drops per hour. Divide by 60."
   ],
   "html": {
@@ -11806,7 +11806,7 @@
    "why": [
     "",
     "This forgets the drop factor (15 drops per mL).",
-    "125 is mL per hour.",
+    "125 is the rate in mL per hour (1000 mL ÷ 8.00 h). The question asks for drops per minute, so convert hours to minutes and multiply by 15 drops per mL.",
     "This is drops per hour. Divide by 60."
    ]
   },
@@ -11843,7 +11843,7 @@
   "explain": "°F = 1.8 × 38.5 + 32 = 101.3 °F, a fever. 69.3 °F forgets to add 32; 53.4 °F uses the 5/9 factor in the wrong direction.",
   "why": [
    "",
-   "This forgets to add 32.",
+   "This forgets to add 32. Multiplying by 1.8 only scales the degree size; °F also starts 32 degrees higher, since water freezes at 32 °F, not 0 °F.",
    "This uses the conversion factor in the wrong direction.",
    "This uses the °F → °C formula. Here you're going °C → °F."
   ],
@@ -11859,7 +11859,7 @@
    "explain": "°F = 1.8 × 38.5 + 32 = <b>101.3 °F</b>, a fever. 69.3 °F forgets to add 32; 53.4 °F uses the 5/9 factor in the wrong direction.",
    "why": [
     "",
-    "This forgets to add 32.",
+    "This forgets to add 32. Multiplying by 1.8 only scales the degree size; °F also starts 32 degrees higher, since water freezes at 32 °F, not 0 °F.",
     "This uses the conversion factor in the wrong direction.",
     "This uses the °F → °C formula. Here you're going °C → °F."
    ]
@@ -13052,9 +13052,9 @@
   "explain": "NaNO₂: +1 + N + 2(−2) = 0 → N = +3. In HNO₃ N is +5, in NH₄⁺ it is −3, and in N₂O it is +1.",
   "why": [
    "",
-   "N is +5 in HNO₃.",
-   "N is −3 in NH₄⁺.",
-   "N is +1 in N₂O."
+   "In HNO₃, H is +1 and three O give −6, so N must be +5 to make the total 0. That is nitrogen's highest oxidation state, not +3.",
+   "In NH₄⁺, four H at +1 each give +4, so N must be −3 for the ion to have a +1 charge. That is nitrogen's lowest oxidation state, not +3.",
+   "In N₂O, one O at −2 is shared by two N atoms, so each N is +1 for a neutral molecule. Remember to divide by the number of N atoms."
   ],
   "html": {
    "prompt": "Nitrogen shows oxidation states from −3 to +5. In which compound is it +3?",
@@ -13068,9 +13068,9 @@
    "explain": "NaNO₂: +1 + N + 2(−2) = 0 → N = <b>+3</b>. In HNO₃ N is +5, in NH₄⁺ it is −3, and in N₂O it is +1.",
    "why": [
     "",
-    "N is +5 in HNO₃.",
-    "N is −3 in NH₄⁺.",
-    "N is +1 in N₂O."
+    "In HNO₃, H is +1 and three O give −6, so N must be +5 to make the total 0. That is nitrogen's highest oxidation state, not +3.",
+    "In NH₄⁺, four H at +1 each give +4, so N must be −3 for the ion to have a +1 charge. That is nitrogen's lowest oxidation state, not +3.",
+    "In N₂O, one O at −2 is shared by two N atoms, so each N is +1 for a neutral molecule. Remember to divide by the number of N atoms."
    ]
   },
   "from": {
@@ -13107,7 +13107,7 @@
   "why": [
    "",
    "This is upside down. c = q ÷ (m·ΔT).",
-   "This leaves out ΔT.",
+   "This leaves out ΔT, dividing q only by mass. Specific heat is per gram per degree, so you must also divide by the temperature change, 64.5 − 22.0 = 42.5 °C.",
    "This uses 22.0 °C instead of ΔT (42.5 °C)."
   ],
   "html": {
@@ -13123,7 +13123,7 @@
    "why": [
     "",
     "This is upside down. c = q ÷ (m·ΔT).",
-    "This leaves out ΔT.",
+    "This leaves out ΔT, dividing q only by mass. Specific heat is per gram per degree, so you must also divide by the temperature change, 64.5 − 22.0 = 42.5 °C.",
     "This uses 22.0 °C instead of ΔT (42.5 °C)."
    ]
   },
@@ -13161,7 +13161,7 @@
   "why": [
    "",
    "This uses 80.0 °C as ΔT. Use the change, 60.0 °C.",
-   "This mixes J with kJ.",
+   "This mixes J with kJ: dividing 502,000 J by 2220 kJ/mol makes the answer 1000 times too big. Convert q to kJ (502 kJ) before dividing by the heat per mole.",
    "This flips the kJ per mol ratio."
   ],
   "html": {
@@ -13177,7 +13177,7 @@
    "why": [
     "",
     "This uses 80.0 °C as ΔT. Use the change, 60.0 °C.",
-    "This mixes J with kJ.",
+    "This mixes J with kJ: dividing 502,000 J by 2220 kJ/mol makes the answer 1000 times too big. Convert q to kJ (502 kJ) before dividing by the heat per mole.",
     "This flips the kJ per mol ratio."
    ]
   },
@@ -13637,8 +13637,8 @@
   "explain": "n gives the shell (5) and l = 3 is an f subshell: 5f. 5d would be l = 2; '3f' puts the l value in place of n (and cannot exist).",
   "why": [
    "",
-   "5d has l = 2.",
-   "5p has l = 1.",
+   "5d has l = 2, not 3. The letter comes from l: l = 0, 1, 2, 3 correspond to s, p, d, f.",
+   "5p has l = 1, not 3. The letter comes from l: l = 0, 1, 2, 3 correspond to s, p, d, f.",
    "3f uses the l value 3 as the shell number. The shell here is n = 5, and 3f cannot exist because l must be less than n."
   ],
   "html": {
@@ -13653,8 +13653,8 @@
    "explain": "n gives the shell (5) and l = 3 is an f subshell: <b>5f</b>. 5d would be l = 2; '3f' puts the l value in place of n (and cannot exist).",
    "why": [
     "",
-    "5d has l = 2.",
-    "5p has l = 1.",
+    "5d has l = 2, not 3. The letter comes from l: l = 0, 1, 2, 3 correspond to s, p, d, f.",
+    "5p has l = 1, not 3. The letter comes from l: l = 0, 1, 2, 3 correspond to s, p, d, f.",
     "3f uses the l value 3 as the shell number. The shell here is n = 5, and 3f cannot exist because l must be less than n."
    ]
   },
@@ -14046,7 +14046,7 @@
    "",
    "N has more protons than C, not fewer.",
    "The added electron goes into the same 2p subshell, not a new shell.",
-   "N is a nonmetal."
+   "N is a nonmetal, not a metal, and nonmetals usually gain electrons readily. Its near-zero electron affinity comes from its electron configuration, not from being a metal."
   ],
   "html": {
    "prompt": "Carbon releases energy when it gains an electron, but nitrogen's electron affinity is close to zero. What is the best explanation?",
@@ -14062,7 +14062,7 @@
     "",
     "N has more protons than C, not fewer.",
     "The added electron goes into the same 2p subshell, not a new shell.",
-    "N is a nonmetal."
+    "N is a nonmetal, not a metal, and nonmetals usually gain electrons readily. Its near-zero electron affinity comes from its electron configuration, not from being a metal."
    ]
   },
   "from": {
@@ -14098,7 +14098,7 @@
   "explain": "SO₃ is a nonmetal oxide: SO₃ + H₂O → H₂SO₄, so SO₃ gives an acidic solution. Na₂O, MgO and CaO form hydroxides (basic).",
   "why": [
    "",
-   "Na₂O makes NaOH, a base.",
+   "Na₂O is a metal oxide: it reacts with water to make NaOH, a base, which turns red litmus blue. An acidic solution comes from a nonmetal oxide.",
    "MgO makes a basic solution.",
    "CaO makes Ca(OH)₂, a base."
   ],
@@ -14114,7 +14114,7 @@
    "explain": "SO₃ is a nonmetal oxide: SO₃ + H₂O → H₂SO₄, so <b>SO₃</b> gives an acidic solution. Na₂O, MgO and CaO form hydroxides (basic).",
    "why": [
     "",
-    "Na₂O makes NaOH, a base.",
+    "Na₂O is a metal oxide: it reacts with water to make NaOH, a base, which turns red litmus blue. An acidic solution comes from a nonmetal oxide.",
     "MgO makes a basic solution.",
     "CaO makes Ca(OH)₂, a base."
    ]
@@ -14208,7 +14208,7 @@
    "",
    "C has exactly 8 electrons.",
    "N has exactly 8 electrons.",
-   "B has only 6 electrons."
+   "B in BCl₃ has only 3 bonding pairs, or 6 electrons, so it has fewer than an octet, not more. An expanded octet needs more than 4 electron pairs around the central atom."
   ],
   "html": {
    "prompt": "In which compound does the central atom hold MORE than an octet of electrons in its Lewis structure?",
@@ -14224,7 +14224,7 @@
     "",
     "C has exactly 8 electrons.",
     "N has exactly 8 electrons.",
-    "B has only 6 electrons."
+    "B in BCl₃ has only 3 bonding pairs, or 6 electrons, so it has fewer than an octet, not more. An expanded octet needs more than 4 electron pairs around the central atom."
    ]
   },
   "from": {
@@ -14368,7 +14368,7 @@
   "explain": "BF₃: 3 groups, trigonal planar, 120°. CF₄ is 109.5°, NF₃ (one lone pair) is less than 109.5°, and OF₂ (two lone pairs) is smaller still.",
   "why": [
    "",
-   "CF₄ has 109.5° angles.",
+   "CF₄ has four bonding groups, so it is tetrahedral with 109.5° angles. Fewer electron groups around the central atom spread farther apart and give a wider angle.",
    "NF₃'s lone pair squeezes its angles below 109.5°.",
    "OF₂'s two lone pairs squeeze its angle even more."
   ],
@@ -14384,7 +14384,7 @@
    "explain": "BF₃: 3 groups, trigonal planar, <b>120°</b>. CF₄ is 109.5°, NF₃ (one lone pair) is less than 109.5°, and OF₂ (two lone pairs) is smaller still.",
    "why": [
     "",
-    "CF₄ has 109.5° angles.",
+    "CF₄ has four bonding groups, so it is tetrahedral with 109.5° angles. Fewer electron groups around the central atom spread farther apart and give a wider angle.",
     "NF₃'s lone pair squeezes its angles below 109.5°.",
     "OF₂'s two lone pairs squeeze its angle even more."
    ]
@@ -15154,7 +15154,7 @@
   "why": [
    "",
    "Every H is on carbon, so there's no hydrogen bonding.",
-   "There are no ions.",
+   "Ion–dipole forces need ions, but dimethyl ether is a neutral molecule with no charged particles. Only forces between neutral molecules apply to this pure liquid.",
    "Dimethyl ether is polar, so it has dipole–dipole forces too."
   ],
   "html": {
@@ -15170,7 +15170,7 @@
    "why": [
     "",
     "Every H is on carbon, so there's no hydrogen bonding.",
-    "There are no ions.",
+    "Ion–dipole forces need ions, but dimethyl ether is a neutral molecule with no charged particles. Only forces between neutral molecules apply to this pure liquid.",
     "Dimethyl ether is polar, so it has dipole–dipole forces too."
    ]
   },
@@ -15370,7 +15370,7 @@
   "why": [
    "",
    "This ignores the density.",
-   "This ignores the 70.0%.",
+   "This ignores the 70.0%, treating all 1410 g of solution as HNO₃. Only 70.0% of each gram is HNO₃; the rest is water, so multiply by 0.700 before converting to moles.",
    "This divides by the density. Mass of solution = volume × density."
   ],
   "html": {
@@ -15386,7 +15386,7 @@
    "why": [
     "",
     "This ignores the density.",
-    "This ignores the 70.0%.",
+    "This ignores the 70.0%, treating all 1410 g of solution as HNO₃. Only 70.0% of each gram is HNO₃; the rest is water, so multiply by 0.700 before converting to moles.",
     "This divides by the density. Mass of solution = volume × density."
    ]
   },
@@ -15423,7 +15423,7 @@
   "explain": "Π = (2)(0.150 mol L⁻¹)(0.08206 L atm mol⁻¹ K⁻¹)(310.15 K) = 7.64 atm. 3.82 atm leaves out i = 2; 0.911 atm uses 37 instead of 310 K; 6.72 atm uses 273 K.",
   "why": [
    "",
-   "This leaves out i = 2.",
+   "This leaves out i = 2. NaCl dissociates into Na⁺ and Cl⁻, so each formula unit gives two particles, and osmotic pressure depends on the total particle concentration.",
    "This uses 37 °C instead of 310 K.",
    "This uses 273 K instead of 310 K."
   ],
@@ -15439,7 +15439,7 @@
    "explain": "Π = (2)(0.150 mol L⁻¹)(0.08206 L atm mol⁻¹ K⁻¹)(310.15 K) = <b>7.64 atm</b>. 3.82 atm leaves out i = 2; 0.911 atm uses 37 instead of 310 K; 6.72 atm uses 273 K.",
    "why": [
     "",
-    "This leaves out i = 2.",
+    "This leaves out i = 2. NaCl dissociates into Na⁺ and Cl⁻, so each formula unit gives two particles, and osmotic pressure depends on the total particle concentration.",
     "This uses 37 °C instead of 310 K.",
     "This uses 273 K instead of 310 K."
    ]
@@ -20192,7 +20192,7 @@
   "why": [
    "",
    "The \"opposite\" Cl atoms are just how the flat drawing looks. In 3-D they're about 109.5° apart.",
-   "C–Cl bonds are polar.",
+   "C–Cl bonds are polar because Cl is much more electronegative than C. The C–H bonds are close to nonpolar, but the C–Cl bond dipoles still make the molecule's polarity depend on its 3-D shape.",
    "Carbon has no lone pair here."
   ],
   "html": {
@@ -20208,7 +20208,7 @@
    "why": [
     "",
     "The \"opposite\" Cl atoms are just how the flat drawing looks. In 3-D they're about 109.5° apart.",
-    "C–Cl bonds are polar.",
+    "C–Cl bonds are polar because Cl is much more electronegative than C. The C–H bonds are close to nonpolar, but the C–Cl bond dipoles still make the molecule's polarity depend on its 3-D shape.",
     "Carbon has no lone pair here."
    ]
   },
@@ -22542,7 +22542,7 @@
    "",
    "Every H is on carbon, so acetone can't hydrogen bond with itself.",
    "Acetone is polar, so it has more than dispersion forces.",
-   "There are no ions."
+   "Ion–dipole forces need ions, but acetone is a neutral molecule with no charged particles. Only forces between neutral molecules apply to pure liquid acetone."
   ],
   "html": {
    "prompt": "Acetone, the solvent in nail-polish remover, is drawn below. What is the strongest type of attraction between acetone molecules in the liquid?",
@@ -22558,7 +22558,7 @@
     "",
     "Every H is on carbon, so acetone can't hydrogen bond with itself.",
     "Acetone is polar, so it has more than dispersion forces.",
-    "There are no ions."
+    "Ion–dipole forces need ions, but acetone is a neutral molecule with no charged particles. Only forces between neutral molecules apply to pure liquid acetone."
    ]
   },
   "data": {
@@ -23562,8 +23562,8 @@
   "why": [
    "",
    "CCl₄'s four dipoles cancel, so the molecule is nonpolar.",
-   "CCl₄ has no H at all.",
-   "There are no ions."
+   "CCl₄ has no H atoms at all. Hydrogen bonding needs an H bonded directly to N, O or F, so it is impossible here.",
+   "Ion–dipole forces need ions, but CCl₄ is a neutral molecule with no charged particles. Only forces between neutral molecules apply to this pure liquid."
   ],
   "html": {
    "prompt": "Which intermolecular force holds liquid carbon tetrachloride (structure below) together most strongly?",
@@ -23578,8 +23578,8 @@
    "why": [
     "",
     "CCl₄'s four dipoles cancel, so the molecule is nonpolar.",
-    "CCl₄ has no H at all.",
-    "There are no ions."
+    "CCl₄ has no H atoms at all. Hydrogen bonding needs an H bonded directly to N, O or F, so it is impossible here.",
+    "Ion–dipole forces need ions, but CCl₄ is a neutral molecule with no charged particles. Only forces between neutral molecules apply to this pure liquid."
    ]
   },
   "data": {
@@ -23687,7 +23687,7 @@
    "",
    "I (butane) has only dispersion forces, so it boils lowest.",
    "III has two O–H groups, so it boils highest.",
-   "This is reversed."
+   "This is reversed: it puts the substance with the most hydrogen bonding lowest. Stronger attractions mean a higher boiling point, so more O–H groups per molecule means boiling later, not earlier."
   ],
   "html": {
    "prompt": "Structure III is the main ingredient of car antifreeze; I and II are two other compounds of similar molar mass (58–62 g mol⁻¹). Which order lists their boiling points from lowest to highest?",
@@ -23703,7 +23703,7 @@
     "",
     "I (butane) has only dispersion forces, so it boils lowest.",
     "III has two O–H groups, so it boils highest.",
-    "This is reversed."
+    "This is reversed: it puts the substance with the most hydrogen bonding lowest. Stronger attractions mean a higher boiling point, so more O–H groups per molecule means boiling later, not earlier."
    ]
   },
   "data": {
@@ -24674,7 +24674,7 @@
    "",
    "O₂'s last two electrons are unpaired in π*₂p.",
    "The π₂p orbitals are full and paired.",
-   "σ*₂p is empty in O₂."
+   "σ*₂p is empty in O₂: it is the highest-energy valence orbital, and O₂'s 12 valence electrons run out before reaching it. The last electrons go into the orbitals just below it."
   ],
   "html": {
    "prompt": "The valence molecular orbital diagram of O<sub>2</sub> is shown. What does it predict about the magnetic behavior of O<sub>2</sub>?",
@@ -24690,7 +24690,7 @@
     "",
     "O₂'s last two electrons are unpaired in π*₂p.",
     "The π₂p orbitals are full and paired.",
-    "σ*₂p is empty in O₂."
+    "σ*₂p is empty in O₂: it is the highest-energy valence orbital, and O₂'s 12 valence electrons run out before reaching it. The last electrons go into the orbitals just below it."
    ]
   },
   "data": {
@@ -26787,7 +26787,7 @@
   "why": [
    "",
    "Curve 3 is the coldest (100 K).",
-   "Curve 4 is 600 K.",
+   "Curve 4 is 600 K: its peak is at a higher speed and lower height than the 300 K curve. Rank the curves by peak speed, slowest peak for the coldest, then pick the second-coldest.",
    "Curve 2 is the hottest (1200 K)."
   ],
   "html": {
@@ -26803,7 +26803,7 @@
    "why": [
     "",
     "Curve 3 is the coldest (100 K).",
-    "Curve 4 is 600 K.",
+    "Curve 4 is 600 K: its peak is at a higher speed and lower height than the 300 K curve. Rank the curves by peak speed, slowest peak for the coldest, then pick the second-coldest.",
     "Curve 2 is the hottest (1200 K)."
    ]
   },
@@ -30879,7 +30879,7 @@
   "why": [
    "",
    "Box I loses the leftover O₂. Atoms can't disappear.",
-   "Box II adds an extra O₂.",
+   "Box II adds an extra O₂, so it has more oxygen atoms than the Before box. Atoms are conserved: count the atoms of each element before and after the reaction.",
    "Box IV stops before the limiting CO is used up."
   ],
   "html": {
@@ -30895,7 +30895,7 @@
    "why": [
     "",
     "Box I loses the leftover O₂. Atoms can't disappear.",
-    "Box II adds an extra O₂.",
+    "Box II adds an extra O₂, so it has more oxygen atoms than the Before box. Atoms are conserved: count the atoms of each element before and after the reaction.",
     "Box IV stops before the limiting CO is used up."
    ]
   },
@@ -32428,8 +32428,8 @@
   "why": [
    "",
    "III has the most particles, but they're spread through 2.0 L.",
-   "I has 6 per liter.",
-   "II has 8 per liter."
+   "I has 6 particles per liter, which is less than another sample. Molarity is particles divided by volume, so a sample with fewer particles in a much smaller volume can be more concentrated.",
+   "II has 8 particles per liter, which is not the highest. Molarity is particles divided by volume, so check the samples with small volumes: fewer particles in less space can be more concentrated."
   ],
   "html": {
    "prompt": "Each box shows the solute particles in a sample of a sugar solution; the volume of each sample is given under the box. Which solution has the greatest molarity?",
@@ -32444,8 +32444,8 @@
    "why": [
     "",
     "III has the most particles, but they're spread through 2.0 L.",
-    "I has 6 per liter.",
-    "II has 8 per liter."
+    "I has 6 particles per liter, which is less than another sample. Molarity is particles divided by volume, so a sample with fewer particles in a much smaller volume can be more concentrated.",
+    "II has 8 particles per liter, which is not the highest. Molarity is particles divided by volume, so check the samples with small volumes: fewer particles in less space can be more concentrated."
    ]
   },
   "data": {
@@ -32589,7 +32589,7 @@
   "why": [
    "",
    "25% is the fraction of atoms that are S, not the mass percent.",
-   "50% would be SO₂.",
+   "50% would be SO₂, where S (32.06) is about half of 64.06 g/mol. Count the O atoms in each molecule in the box; with more oxygen, sulfur is a smaller share of the mass.",
    "66.7% is not a mass percent. Use the molar mass of S and of the whole molecule."
   ],
   "html": {
@@ -32605,7 +32605,7 @@
    "why": [
     "",
     "25% is the fraction of atoms that are S, not the mass percent.",
-    "50% would be SO₂.",
+    "50% would be SO₂, where S (32.06) is about half of 64.06 g/mol. Count the O atoms in each molecule in the box; with more oxygen, sulfur is a smaller share of the mass.",
     "66.7% is not a mass percent. Use the molar mass of S and of the whole molecule."
    ]
   },
@@ -33712,7 +33712,7 @@
    "",
    "90° is just the flat drawing.",
    "120° would need a flat molecule with no lone pair.",
-   "180° would be linear."
+   "180° would be linear, which needs only two electron groups on the central atom. N in NH₃ has 3 bonds plus 1 lone pair, so the molecule cannot be a straight line."
   ],
   "html": {
    "prompt": "Ammonia is drawn below with 90° angles. What is the ACTUAL H–N–H bond angle in an NH<sub>3</sub> molecule?",
@@ -33728,7 +33728,7 @@
     "",
     "90° is just the flat drawing.",
     "120° would need a flat molecule with no lone pair.",
-    "180° would be linear."
+    "180° would be linear, which needs only two electron groups on the central atom. N in NH₃ has 3 bonds plus 1 lone pair, so the molecule cannot be a straight line."
    ]
   },
   "data": {
@@ -34404,7 +34404,7 @@
   "why": [
    "",
    "This counts only the two oxygens with a negative charge.",
-   "Carbonate has resonance.",
+   "Carbonate has resonance: the C=O double bond in the drawing could sit on another oxygen just as well. Count how many oxygens could hold that double bond.",
    "There are only 3 oxygens."
   ],
   "html": {
@@ -34420,7 +34420,7 @@
    "why": [
     "",
     "This counts only the two oxygens with a negative charge.",
-    "Carbonate has resonance.",
+    "Carbonate has resonance: the C=O double bond in the drawing could sit on another oxygen just as well. Count how many oxygens could hold that double bond.",
     "There are only 3 oxygens."
    ]
   },
@@ -34515,7 +34515,7 @@
   "explain": "The double bond can join the central O to either end oxygen, so there are 2 equivalent structures. 3 is the number of atoms; the central O cannot hold the double bond to itself.",
   "why": [
    "",
-   "Ozone has resonance.",
+   "Ozone has resonance: the double bond in the drawing could join the central O to the other end oxygen instead. Count how many equivalent placements of that double bond exist.",
    "3 counts the atoms. The double bond has only two places to go.",
    "There are only two O–O bonds."
   ],
@@ -34531,7 +34531,7 @@
    "explain": "The double bond can join the central O to either end oxygen, so there are <b>2</b> equivalent structures. 3 is the number of atoms; the central O cannot hold the double bond to itself.",
    "why": [
     "",
-    "Ozone has resonance.",
+    "Ozone has resonance: the double bond in the drawing could join the central O to the other end oxygen instead. Count how many equivalent placements of that double bond exist.",
     "3 counts the atoms. The double bond has only two places to go.",
     "There are only two O–O bonds."
    ]
@@ -34822,8 +34822,8 @@
   "explain": "Either oxygen can hold the N=O double bond (the other O then carries the −1 charge), so there are 2 equivalent resonance structures. The real ion has two identical N–O bonds.",
   "why": [
    "",
-   "Nitrite has resonance.",
-   "3 counts the atoms.",
+   "Nitrite has resonance: the N=O double bond could be on either oxygen, which is why the real ion has two identical N–O bonds. One drawing alone does not describe it.",
+   "3 counts the atoms, not the structures. Only the double bond moves, and it can only go between N and an oxygen; N cannot form a double bond to itself.",
    "There are only 2 oxygens."
   ],
   "html": {
@@ -34838,8 +34838,8 @@
    "explain": "Either oxygen can hold the N=O double bond (the other O then carries the −1 charge), so there are <b>2</b> equivalent resonance structures. The real ion has two identical N–O bonds.",
    "why": [
     "",
-    "Nitrite has resonance.",
-    "3 counts the atoms.",
+    "Nitrite has resonance: the N=O double bond could be on either oxygen, which is why the real ion has two identical N–O bonds. One drawing alone does not describe it.",
+    "3 counts the atoms, not the structures. Only the double bond moves, and it can only go between N and an oxygen; N cannot form a double bond to itself.",
     "There are only 2 oxygens."
    ]
   },
@@ -35047,7 +35047,7 @@
   "why": [
    "",
    "H can't take part in a double bond. Only the two O atoms can.",
-   "Formate has resonance.",
+   "Formate has resonance: the C=O double bond could be on either oxygen, so both C–O bonds are actually identical. One drawing alone does not describe it.",
    "Only 2 oxygens can hold the double bond."
   ],
   "html": {
@@ -35063,7 +35063,7 @@
    "why": [
     "",
     "H can't take part in a double bond. Only the two O atoms can.",
-    "Formate has resonance.",
+    "Formate has resonance: the C=O double bond could be on either oxygen, so both C–O bonds are actually identical. One drawing alone does not describe it.",
     "Only 2 oxygens can hold the double bond."
    ]
   },
@@ -38036,7 +38036,7 @@
   "why": [
    "",
    "1 → 2 is a smaller energy gap than 1 → 3.",
-   "2 → 6 is a smaller gap.",
+   "2 → 6 is a smaller energy gap than jumps that start at n = 1, because levels crowd together higher up. Shortest wavelength means largest energy, so compare ΔE, not the change in n.",
    "3 → 7 spans only a small gap high up in the atom."
   ],
   "html": {
@@ -38052,7 +38052,7 @@
    "why": [
     "",
     "1 → 2 is a smaller energy gap than 1 → 3.",
-    "2 → 6 is a smaller gap.",
+    "2 → 6 is a smaller energy gap than jumps that start at n = 1, because levels crowd together higher up. Shortest wavelength means largest energy, so compare ΔE, not the change in n.",
     "3 → 7 spans only a small gap high up in the atom."
    ]
   },
@@ -38253,7 +38253,7 @@
    "",
    "l can be at most n − 1 = 3.",
    "With l = 2, m_l can only go from −2 to +2.",
-   "l is never negative."
+   "l is never negative: it can only be 0, 1, 2 … up to n − 1. Only ml can be negative, and its size cannot exceed l."
   ],
   "html": {
    "prompt": "An electron has n = 4 and m<sub><i>l</i></sub> = −3. What must its angular-momentum quantum number <i>l</i> be?",
@@ -38269,7 +38269,7 @@
     "",
     "l can be at most n − 1 = 3.",
     "With l = 2, m_l can only go from −2 to +2.",
-    "l is never negative."
+    "l is never negative: it can only be 0, 1, 2 … up to n − 1. Only m<sub><i>l</i></sub> can be negative, and its size cannot exceed <i>l</i>."
    ]
   },
   "from": {
@@ -38468,8 +38468,8 @@
   "why": [
    "",
    "Zn has 30 electrons ([Ar] 4s² 3d¹⁰).",
-   "Ni has 28 electrons.",
-   "Ga has 31 electrons."
+   "Ni has 28 electrons, but [Ar]4s¹3d¹⁰ has 18 + 1 + 10 = 29. Add up the electrons in the configuration and match the total to the atomic number.",
+   "Ga has 31 electrons, with a 4p electron beyond the full 3d. This configuration has 18 + 1 + 10 = 29 electrons, so match that total to the atomic number."
   ],
   "html": {
    "prompt": "An element's atoms have their electrons arranged as [Ar]4s<sup>1</sup>3d<sup>10</sup> in the lowest-energy state. Identify the element.",
@@ -38484,8 +38484,8 @@
    "why": [
     "",
     "Zn has 30 electrons ([Ar] 4s² 3d¹⁰).",
-    "Ni has 28 electrons.",
-    "Ga has 31 electrons."
+    "Ni has 28 electrons, but [Ar]4s¹3d¹⁰ has 18 + 1 + 10 = 29. Add up the electrons in the configuration and match the total to the atomic number.",
+    "Ga has 31 electrons, with a 4p electron beyond the full 3d. This configuration has 18 + 1 + 10 = 29 electrons, so match that total to the atomic number."
    ]
   },
   "from": {
@@ -38576,8 +38576,8 @@
   "why": [
    "",
    "Neutral Fe has 3d⁶ but keeps its 4s².",
-   "Co²⁺ is 3d⁷.",
-   "Ni²⁺ is 3d⁸."
+   "Co²⁺ has 27 − 2 = 25 electrons, so it is [Ar]3d⁷, one d electron too many. Both 4s electrons leave first, and then more must come off to reach 3d⁶.",
+   "Ni²⁺ has 28 − 2 = 26 electrons, so it is [Ar]3d⁸ after losing its 4s electrons. That is two d electrons more than 3d⁶."
   ],
   "html": {
    "prompt": "Exactly one of these atoms or ions is described by [Ar]3d<sup>6</sup> in its lowest-energy state. Which one?",
@@ -38592,8 +38592,8 @@
    "why": [
     "",
     "Neutral Fe has 3d⁶ but keeps its 4s².",
-    "Co²⁺ is 3d⁷.",
-    "Ni²⁺ is 3d⁸."
+    "Co²⁺ has 27 − 2 = 25 electrons, so it is [Ar]3d⁷, one d electron too many. Both 4s electrons leave first, and then more must come off to reach 3d⁶.",
+    "Ni²⁺ has 28 − 2 = 26 electrons, so it is [Ar]3d⁸ after losing its 4s electrons. That is two d electrons more than 3d⁶."
    ]
   },
   "from": {
@@ -38684,8 +38684,8 @@
   "why": [
    "",
    "Mn²⁺ has 5 unpaired. Another choice has one more.",
-   "Fe has 4 unpaired.",
-   "V has 3 unpaired."
+   "Fe (4s²3d⁶) has 4 unpaired electrons: five d electrons fill each orbital singly, then the sixth pairs up. Another species here has more singly filled orbitals.",
+   "V (4s²3d³) has only 3 unpaired electrons, one in each of three d orbitals, with the 4s pair filled. Other species here have more singly occupied orbitals."
   ],
   "html": {
    "prompt": "Of the four species listed, which has the greatest number of unpaired electrons in its lowest-energy state?",
@@ -38700,8 +38700,8 @@
    "why": [
     "",
     "Mn²⁺ has 5 unpaired. Another choice has one more.",
-    "Fe has 4 unpaired.",
-    "V has 3 unpaired."
+    "Fe (4s²3d⁶) has 4 unpaired electrons: five d electrons fill each orbital singly, then the sixth pairs up. Another species here has more singly filled orbitals.",
+    "V (4s²3d³) has only 3 unpaired electrons, one in each of three d orbitals, with the 4s pair filled. Other species here have more singly occupied orbitals."
    ]
   },
   "from": {
@@ -38901,7 +38901,7 @@
    "",
    "4d has only 1 radial node.",
    "4p has only 1 angular node.",
-   "6d has 3 radial nodes."
+   "6d has 3 radial nodes, one too many: radial nodes = n − l − 1 = 6 − 2 − 1. It does have two angular nodes, but the n value is too high."
   ],
   "html": {
    "prompt": "Which orbital has exactly two radial nodes and two angular nodes?",
@@ -38917,7 +38917,7 @@
     "",
     "4d has only 1 radial node.",
     "4p has only 1 angular node.",
-    "6d has 3 radial nodes."
+    "6d has 3 radial nodes, one too many: radial nodes = n − l − 1 = 6 − 2 − 1. It does have two angular nodes, but the n value is too high."
    ]
   },
   "from": {
@@ -39333,7 +39333,7 @@
    "",
    "B has more protons than Be, not fewer.",
    "B's single 2p electron is unpaired.",
-   "B is smaller than Be."
+   "B is smaller than Be: across a period, added protons pull the electrons closer even as electrons are added. So size cannot explain why boron's ionization energy is lower."
   ],
   "html": {
    "prompt": "The first ionization energy of boron (801 kJ mol⁻¹) is LOWER than that of beryllium (900 kJ mol⁻¹). Which explanation is best?",
@@ -39349,7 +39349,7 @@
     "",
     "B has more protons than Be, not fewer.",
     "B's single 2p electron is unpaired.",
-    "B is smaller than Be."
+    "B is smaller than Be: across a period, added protons pull the electrons closer even as electrons are added. So size cannot explain why boron's ionization energy is lower."
    ]
   },
   "from": {
@@ -39386,7 +39386,7 @@
   "why": [
    "",
    "This ignores the dip at B. Its 2p electron is easier to remove.",
-   "This is reversed.",
+   "This is reversed: it ranks lowest to highest backwards. Ionization energy generally increases across a period (left to right) as nuclear charge grows, so Li, on the far left, is lowest.",
    "B's IE is higher than Li's."
   ],
   "html": {
@@ -39402,7 +39402,7 @@
    "why": [
     "",
     "This ignores the dip at B. Its 2p electron is easier to remove.",
-    "This is reversed.",
+    "This is reversed: it ranks lowest to highest backwards. Ionization energy generally increases across a period (left to right) as nuclear charge grows, so Li, on the far left, is lowest.",
     "B's IE is higher than Li's."
    ]
   },
@@ -39440,7 +39440,7 @@
   "why": [
    "",
    "N is higher than O, because O's paired 2p electron is easier to remove.",
-   "This is reversed.",
+   "This is reversed: it ranks the elements highest to lowest. F, with the greatest nuclear charge of the three, holds its electrons most tightly and has the highest ionization energy.",
    "F has the highest IE of the three."
   ],
   "html": {
@@ -39456,7 +39456,7 @@
    "why": [
     "",
     "N is higher than O, because O's paired 2p electron is easier to remove.",
-    "This is reversed.",
+    "This is reversed: it ranks the elements highest to lowest. F, with the greatest nuclear charge of the three, holds its electrons most tightly and has the highest ionization energy.",
     "F has the highest IE of the three."
    ]
   },
@@ -39851,7 +39851,7 @@
   "why": [
    "",
    "Mg²⁺ has more protons than Na⁺, so it's smaller.",
-   "This is reversed.",
+   "This is reversed: it ranks the ions from largest to smallest. Cl⁻ has electrons in a third shell, so it is biggest, and among the 10-electron ions more protons means a smaller ion.",
    "Cl⁻ has electrons in n = 3, so it's the largest."
   ],
   "html": {
@@ -39867,7 +39867,7 @@
    "why": [
     "",
     "Mg²⁺ has more protons than Na⁺, so it's smaller.",
-    "This is reversed.",
+    "This is reversed: it ranks the ions from largest to smallest. Cl⁻ has electrons in a third shell, so it is biggest, and among the 10-electron ions more protons means a smaller ion.",
     "Cl⁻ has electrons in n = 3, so it's the largest."
    ]
   },
@@ -39905,7 +39905,7 @@
   "why": [
    "",
    "This forgets to divide by the two S atoms.",
-   "+6 is sulfur in sulfate.",
+   "+6 is sulfur in sulfate (SO₄²⁻), which has four O atoms. Thiosulfate has two S atoms sharing the charge left over from three O atoms and two Na⁺, so set up the sum and divide by 2.",
    "−2 is sulfur in sulfides."
   ],
   "html": {
@@ -39921,7 +39921,7 @@
    "why": [
     "",
     "This forgets to divide by the two S atoms.",
-    "+6 is sulfur in sulfate.",
+    "+6 is sulfur in sulfate (SO₄²⁻), which has four O atoms. Thiosulfate has two S atoms sharing the charge left over from three O atoms and two Na⁺, so set up the sum and divide by 2.",
     "−2 is sulfur in sulfides."
    ]
   },
@@ -40066,9 +40066,9 @@
   "explain": "KClO₃: +1 + x + 3(−2) = 0 → x = +5. KClO₄ gives +7, NaClO₂ gives +3, and ClO₂ gives +4.",
   "why": [
    "",
-   "Cl is +7 in KClO₄.",
-   "Cl is +3 in NaClO₂.",
-   "Cl is +4 in ClO₂."
+   "Cl is +7 in KClO₄: K is +1 and four O give −8, so Cl must be +7 to make the total zero. Count the oxygens carefully.",
+   "Cl is +3 in NaClO₂: Na is +1 and two O give −4, so Cl must be +3 to make the total zero. Count the oxygens carefully.",
+   "Cl is +4 in ClO₂: there is no metal ion, so Cl must balance two O at −2 each by itself. Don't assume every chlorine oxide needs the same charge as a chlorate salt."
   ],
   "html": {
    "prompt": "In which compound does chlorine have an oxidation number of +5?",
@@ -40082,9 +40082,9 @@
    "explain": "KClO<sub>3</sub>: +1 + x + 3(−2) = 0 → x = <b>+5</b>. KClO<sub>4</sub> gives +7, NaClO<sub>2</sub> gives +3, and ClO<sub>2</sub> gives +4.",
    "why": [
     "",
-    "Cl is +7 in KClO₄.",
-    "Cl is +3 in NaClO₂.",
-    "Cl is +4 in ClO₂."
+    "Cl is +7 in KClO₄: K is +1 and four O give −8, so Cl must be +7 to make the total zero. Count the oxygens carefully.",
+    "Cl is +3 in NaClO₂: Na is +1 and two O give −4, so Cl must be +3 to make the total zero. Count the oxygens carefully.",
+    "Cl is +4 in ClO₂: there is no metal ion, so Cl must balance two O at −2 each by itself. Don't assume every chlorine oxide needs the same charge as a chlorate salt."
    ]
   },
   "from": {
@@ -40121,8 +40121,8 @@
   "why": [
    "",
    "Br⁻ is oxidized, so it's the reducing agent.",
-   "K⁺ is a spectator.",
-   "Br₂ is a product."
+   "K⁺ is a spectator: it stays +1 and appears unchanged on both sides. A species that does not change oxidation number cannot be an oxidizing or reducing agent.",
+   "Br₂ is a product, formed when Br⁻ is oxidized. The oxidizing agent is a reactant that takes electrons and is itself reduced in the reaction."
   ],
   "html": {
    "prompt": "Chlorine gas bubbled through potassium bromide solution turns it orange-brown (equation below). Which species acts as the oxidizing agent?",
@@ -40137,8 +40137,8 @@
    "why": [
     "",
     "Br⁻ is oxidized, so it's the reducing agent.",
-    "K⁺ is a spectator.",
-    "Br₂ is a product."
+    "K⁺ is a spectator: it stays +1 and appears unchanged on both sides. A species that does not change oxidation number cannot be an oxidizing or reducing agent.",
+    "Br₂ is a product, formed when Br⁻ is oxidized. The oxidizing agent is a reactant that takes electrons and is itself reduced in the reaction."
    ]
   },
   "data": {
@@ -40245,7 +40245,7 @@
   "why": [
    "",
    "Some O atoms go from −1 to 0 (oxidized).",
-   "O is −1 in H₂O₂, not −2.",
+   "O is −1 in H₂O₂, not −2, because the two O atoms are bonded to each other. Starting from −1, check where O ends up in each product: H₂O and O₂ give different results.",
    "O changes from −1 to both −2 and 0."
   ],
   "html": {
@@ -40261,7 +40261,7 @@
    "why": [
     "",
     "Some O atoms go from −1 to 0 (oxidized).",
-    "O is −1 in H₂O₂, not −2.",
+    "O is −1 in H₂O₂, not −2, because the two O atoms are bonded to each other. Starting from −1, check where O ends up in each product: H₂O and O₂ give different results.",
     "O changes from −1 to both −2 and 0."
    ]
   },
@@ -40377,7 +40377,7 @@
    "",
    "No reaction means Z is less active than X.",
    "Y is displaced by both, so it's the least active.",
-   "This is reversed."
+   "This is reversed: it ranks the metal that displaces the others as least active. A metal that pushes another metal's ion out of solution is the more active one."
   ],
   "html": {
    "prompt": "Strips of three metals, X, Y and Z, are put in solutions of each other's nitrates, with the results in the table. What is the order of activity (most active first)?",
@@ -40393,7 +40393,7 @@
     "",
     "No reaction means Z is less active than X.",
     "Y is displaced by both, so it's the least active.",
-    "This is reversed."
+    "This is reversed: it ranks the metal that displaces the others as least active. A metal that pushes another metal's ion out of solution is the more active one."
    ]
   },
   "data": {
@@ -40512,7 +40512,7 @@
   "explain": "Fe³⁺ + 3 OH⁻ → Fe(OH)₃(s), a rust-brown solid; most hydroxides are insoluble. NaNO₃ stays dissolved (nitrates and Na⁺ salts are soluble). Fe(OH)₂ uses the wrong iron charge.",
   "why": [
    "",
-   "NaNO₃ is soluble.",
+   "NaNO₃ is soluble: all nitrates and all Na⁺ salts dissolve, so Na⁺ and NO₃⁻ stay in solution as spectators. Look for the ion pair that forms an insoluble compound.",
    "Fe(OH)₂ uses the wrong iron charge. Iron(III) is Fe³⁺.",
    "Fe(OH)₃ is insoluble, so a solid does form."
   ],
@@ -40528,7 +40528,7 @@
    "explain": "Fe<sup>3+</sup> + 3 OH<sup>−</sup> → <b>Fe(OH)<sub>3</sub>(s)</b>, a rust-brown solid; most hydroxides are insoluble. NaNO<sub>3</sub> stays dissolved (nitrates and Na<sup>+</sup> salts are soluble). Fe(OH)<sub>2</sub> uses the wrong iron charge.",
    "why": [
     "",
-    "NaNO₃ is soluble.",
+    "NaNO₃ is soluble: all nitrates and all Na⁺ salts dissolve, so Na⁺ and NO₃⁻ stay in solution as spectators. Look for the ion pair that forms an insoluble compound.",
     "Fe(OH)₂ uses the wrong iron charge. Iron(III) is Fe³⁺.",
     "Fe(OH)₃ is insoluble, so a solid does form."
    ]
@@ -40784,7 +40784,7 @@
    "",
    "SO₃ + H₂ would need a redox change, which doesn't happen.",
    "KCl is soluble, so it stays (aq).",
-   "A gas (SO₂) does form."
+   "A gas (SO₂) does form: H⁺ from the acid combines with sulfite to make H₂SO₃, which breaks down into SO₂ gas and water. Forming a gas removes ions, so a reaction occurs."
   ],
   "html": {
    "prompt": "Aqueous potassium sulfite and hydrochloric acid are mixed as shown. What are the products?",
@@ -40800,7 +40800,7 @@
     "",
     "SO₃ + H₂ would need a redox change, which doesn't happen.",
     "KCl is soluble, so it stays (aq).",
-    "A gas (SO₂) does form."
+    "A gas (SO₂) does form: H⁺ from the acid combines with sulfite to make H₂SO₃, which breaks down into SO₂ gas and water. Forming a gas removes ions, so a reaction occurs."
    ]
   },
   "data": {
@@ -41263,7 +41263,7 @@
   "why": [
    "",
    "Aqueous ammonia isn't a source of free OH⁻ here.",
-   "NH₄Cl is soluble.",
+   "NH₄Cl is soluble (ammonium salts always dissolve), so no solid forms. NH₄⁺ and Cl⁻ stay dissolved, and Cl⁻ is a spectator that does not belong in a net ionic equation.",
    "HCl ionizes completely. Write it as H⁺."
   ],
   "html": {
@@ -41279,7 +41279,7 @@
    "why": [
     "",
     "Aqueous ammonia isn't a source of free OH⁻ here.",
-    "NH₄Cl is soluble.",
+    "NH₄Cl is soluble (ammonium salts always dissolve), so no solid forms. NH₄⁺ and Cl⁻ stay dissolved, and Cl⁻ is a spectator that does not belong in a net ionic equation.",
     "HCl ionizes completely. Write it as H⁺."
    ]
   },
@@ -41964,7 +41964,7 @@
   "explain": "Sublimation (solid → gas) breaks intermolecular attractions, so it absorbs heat. Freezing, condensation and deposition all bring particles together and release heat.",
   "why": [
    "",
-   "Freezing releases heat.",
+   "Freezing releases heat: as liquid becomes solid, molecules come closer and form attractions, giving off energy. A change that absorbs heat must pull particles apart instead.",
    "Condensation releases heat.",
    "Deposition releases heat."
   ],
@@ -41980,7 +41980,7 @@
    "explain": "<b>Sublimation</b> (solid → gas) breaks intermolecular attractions, so it absorbs heat. Freezing, condensation and deposition all bring particles together and release heat.",
    "why": [
     "",
-    "Freezing releases heat.",
+    "Freezing releases heat: as liquid becomes solid, molecules come closer and form attractions, giving off energy. A change that absorbs heat must pull particles apart instead.",
     "Condensation releases heat.",
     "Deposition releases heat."
    ]
@@ -42418,7 +42418,7 @@
    "",
    "II breaks Hund's rule, but it's still allowed (just higher in energy).",
    "IV is an allowed excited state.",
-   "I is the ground state."
+   "I is the ground state: it follows Aufbau order, Hund's rule and the Pauli principle. The forbidden arrangement puts two electrons with the same spin in one orbital."
   ],
   "html": {
    "prompt": "Arrangements I–IV each hold the eight electrons of an oxygen atom. Which arrangement is forbidden by the Pauli exclusion principle?",
@@ -42434,7 +42434,7 @@
     "",
     "II breaks Hund's rule, but it's still allowed (just higher in energy).",
     "IV is an allowed excited state.",
-    "I is the ground state."
+    "I is the ground state: it follows Aufbau order, Hund's rule and the Pauli principle. The forbidden arrangement puts two electrons with the same spin in one orbital."
    ]
   },
   "data": {
@@ -44035,7 +44035,7 @@
   "why": [
    "",
    "I and III are in different 2p orbitals (m_ℓ = 0 vs 1).",
-   "IV is in the 2s orbital.",
+   "IV is in the 2s orbital (ℓ = 0), while III is a 2p electron (ℓ = 1). Electrons in the same orbital must match in n, ℓ and m_ℓ, differing only in spin.",
    "II and IV are in different subshells."
   ],
   "html": {
@@ -44051,7 +44051,7 @@
    "why": [
     "",
     "I and III are in different 2p orbitals (m_ℓ = 0 vs 1).",
-    "IV is in the 2s orbital.",
+    "IV is in the 2s orbital (ℓ = 0), while III is a 2p electron (ℓ = 1). Electrons in the same orbital must match in n, ℓ and m<sub>ℓ</sub>, differing only in spin.",
     "II and IV are in different subshells."
    ]
   },
@@ -44290,7 +44290,7 @@
   "why": [
    "",
    "4 → 2 has the same wavelength but is emission (a bright line).",
-   "2 → 3 absorbs at 656 nm.",
+   "2 → 3 absorbs at 656 nm (the red line), not 486 nm. A shorter wavelength means a larger energy gap, so the 486 nm line needs a bigger jump up from n = 2.",
    "1 → 2 absorbs at 122 nm, in the ultraviolet."
   ],
   "html": {
@@ -44306,7 +44306,7 @@
    "why": [
     "",
     "4 → 2 has the same wavelength but is emission (a bright line).",
-    "2 → 3 absorbs at 656 nm.",
+    "2 → 3 absorbs at 656 nm (the red line), not 486 nm. A shorter wavelength means a larger energy gap, so the 486 nm line needs a bigger jump up from n = 2.",
     "1 → 2 absorbs at 122 nm, in the ultraviolet."
    ]
   },
@@ -44380,7 +44380,7 @@
   "explain": "Y is in period 4, group 1: the most shells and the fewest protons of the four, so its valence electron is held farthest out. W (period 2, group 1) is small because it has only two shells; Z is in period 4 but far to the right, where the higher nuclear charge contracts the atom; X is the smallest.",
   "why": [
    "",
-   "W has only two shells.",
+   "W has only two shells, so its valence electron is close to the nucleus and the atom is small. Atomic radius grows going down a group as shells are added.",
    "Z is far to the right, where higher nuclear charge shrinks the atom.",
    "X is the smallest of the four."
   ],
@@ -44396,7 +44396,7 @@
    "explain": "<b>Y</b> is in period 4, group 1: the most shells and the fewest protons of the four, so its valence electron is held farthest out. W (period 2, group 1) is small because it has only two shells; Z is in period 4 but far to the right, where the higher nuclear charge contracts the atom; X is the smallest.",
    "why": [
     "",
-    "W has only two shells.",
+    "W has only two shells, so its valence electron is close to the nucleus and the atom is small. Atomic radius grows going down a group as shells are added.",
     "Z is far to the right, where higher nuclear charge shrinks the atom.",
     "X is the smallest of the four."
    ]
@@ -44934,7 +44934,7 @@
    "",
    "Q is an alkali metal too, but it's smaller and holds its electron tighter.",
    "R is tin, a metal but less reactive.",
-   "S is boron, a metalloid."
+   "S is boron, a metalloid, so it does not give up electrons readily. Metallic character increases toward the lower left of the table, and S is near the top right of these positions."
   ],
   "html": {
    "prompt": "Elements P, Q, R and S sit at the highlighted positions. Which of them has the greatest metallic character, giving up an electron most readily?",
@@ -44950,7 +44950,7 @@
     "",
     "Q is an alkali metal too, but it's smaller and holds its electron tighter.",
     "R is tin, a metal but less reactive.",
-    "S is boron, a metalloid."
+    "S is boron, a metalloid, so it does not give up electrons readily. Metallic character increases toward the lower left of the table, and S is near the top right of these positions."
    ]
   },
   "data": {
@@ -45349,8 +45349,8 @@
   "why": [
    "",
    "III is the largest, so it's O²⁻.",
-   "IV is Na⁺.",
-   "I is F⁻."
+   "IV is Na⁺. All four ions have 10 electrons, so the one with the most protons (Mg²⁺, 12) pulls hardest and is the smallest bar; Na⁺, with only 11, is larger.",
+   "I is F⁻. All four ions have 10 electrons, and F⁻ has only 9 protons to hold them, so it is one of the largest. Mg²⁺, with 12 protons, should be the smallest bar."
   ],
   "html": {
    "prompt": "The bar chart shows the radii of four ions — O<sup>2−</sup>, F<sup>−</sup>, Na<sup>+</sup> and Mg<sup>2+</sup> — in scrambled order and labeled only I–IV. Which bar is Mg<sup>2+</sup>?",
@@ -45365,8 +45365,8 @@
    "why": [
     "",
     "III is the largest, so it's O²⁻.",
-    "IV is Na⁺.",
-    "I is F⁻."
+    "IV is Na⁺. All four ions have 10 electrons, so the one with the most protons (Mg²⁺, 12) pulls hardest and is the smallest bar; Na⁺, with only 11, is larger.",
+    "I is F⁻. All four ions have 10 electrons, and F⁻ has only 9 protons to hold them, so it is one of the largest. Mg²⁺, with 12 protons, should be the smallest bar."
    ]
   },
   "data": {
@@ -45460,8 +45460,8 @@
   "explain": "Region II lies at high pressure and moderate temperature, bounded by the steep melting line (to the solid, I) and the vaporization curve that ends at the critical point (to the gas, III). Region III, at the bottom, is the gas. The gray area past the critical point is a supercritical fluid, where liquid and gas are no longer distinct — not the liquid phase.",
   "why": [
    "",
-   "Region I is the solid.",
-   "Region III is the gas.",
+   "Region I is the solid: it lies at low temperature and high pressure, to the left of the steep melting line. The liquid lies between the melting line and the vaporization curve.",
+   "Region III is the gas: it lies at low pressure, below the vaporization curve. The liquid region sits above that curve at higher pressure.",
    "Past the critical point is a supercritical fluid, not a liquid."
   ],
   "html": {
@@ -45476,8 +45476,8 @@
    "explain": "Region <b>II</b> lies at high pressure and moderate temperature, bounded by the steep melting line (to the solid, I) and the vaporization curve that ends at the critical point (to the gas, III). Region III, at the bottom, is the gas. The gray area past the critical point is a supercritical fluid, where liquid and gas are no longer distinct — not the liquid phase.",
    "why": [
     "",
-    "Region I is the solid.",
-    "Region III is the gas.",
+    "Region I is the solid: it lies at low temperature and high pressure, to the left of the steep melting line. The liquid lies between the melting line and the vaporization curve.",
+    "Region III is the gas: it lies at low pressure, below the vaporization curve. The liquid region sits above that curve at higher pressure.",
     "Past the critical point is a supercritical fluid, not a liquid."
    ]
   },
@@ -51209,7 +51209,7 @@
    "",
    "Segment B is melting: solid and liquid together.",
    "Segment D is boiling: liquid and gas together.",
-   "Segment E is all gas."
+   "Segment E is all gas: it comes after boiling is complete, as the vapor heats up. All-liquid heating happens between the melting and boiling plateaus."
   ],
   "html": {
    "prompt": "A pure substance is heated at a constant rate; its heating curve is shown with segments A–E. During which segment is the sample entirely LIQUID (no solid and no gas present)?",
@@ -51225,7 +51225,7 @@
     "",
     "Segment B is melting: solid and liquid together.",
     "Segment D is boiling: liquid and gas together.",
-    "Segment E is all gas."
+    "Segment E is all gas: it comes after boiling is complete, as the vapor heats up. All-liquid heating happens between the melting and boiling plateaus."
    ]
   },
   "data": {
@@ -51646,7 +51646,7 @@
   "why": [
    "",
    "CH₃F has no H on N, O or F, so no hydrogen bonding.",
-   "SiH₄ is nonpolar.",
+   "SiH₄ is nonpolar, so it has only dispersion forces, which are similar for these molecules of near-equal molar mass. A molecule that can hydrogen-bond (O–H) will boil much higher.",
    "CH₄ is nonpolar and the smallest."
   ],
   "html": {
@@ -51662,7 +51662,7 @@
    "why": [
     "",
     "CH₃F has no H on N, O or F, so no hydrogen bonding.",
-    "SiH₄ is nonpolar.",
+    "SiH₄ is nonpolar, so it has only dispersion forces, which are similar for these molecules of near-equal molar mass. A molecule that can hydrogen-bond (O–H) will boil much higher.",
     "CH₄ is nonpolar and the smallest."
    ]
   },
@@ -52480,7 +52480,7 @@
   "why": [
    "",
    "Line I falls the least, so it's glucose (i = 1).",
-   "Line II is NaCl (i = 2).",
+   "Line II falls at a middle rate, which matches i = 2 (NaCl → Na⁺ + Cl⁻). The salt that makes the most particles per formula unit lowers the freezing point fastest.",
    "K_f is the same for all three, so it isn't needed."
   ],
   "html": {
@@ -52496,7 +52496,7 @@
    "why": [
     "",
     "Line I falls the least, so it's glucose (i = 1).",
-    "Line II is NaCl (i = 2).",
+    "Line II falls at a middle rate, which matches i = 2 (NaCl → Na⁺ + Cl⁻). The salt that makes the most particles per formula unit lowers the freezing point fastest.",
     "K_f is the same for all three, so it isn't needed."
    ]
   },
@@ -54192,8 +54192,8 @@
   "why": [
    "",
    "FeO would be only 22.3% O. Convert each mass percent to moles before comparing.",
-   "Fe₃O₄ would be 27.6% O.",
-   "FeO₃ would be 46% O."
+   "Fe₃O₄ has an O : Fe mole ratio of 1.33 and would be only 27.6% O, below the 30.1% in the chart. Convert each mass percent to moles and compare the ratio.",
+   "FeO₃ would be 46% O, far more than the chart shows; it puts three O per Fe. Convert each mass percent to moles: there are only 1.5 O for each Fe."
   ],
   "html": {
    "prompt": "An iron oxide has the composition shown in the bar chart. What is its empirical formula?",
@@ -54208,8 +54208,8 @@
    "why": [
     "",
     "FeO would be only 22.3% O. Convert each mass percent to moles before comparing.",
-    "Fe₃O₄ would be 27.6% O.",
-    "FeO₃ would be 46% O."
+    "Fe₃O₄ has an O : Fe mole ratio of 1.33 and would be only 27.6% O, below the 30.1% in the chart. Convert each mass percent to moles and compare the ratio.",
+    "FeO₃ would be 46% O, far more than the chart shows; it puts three O per Fe. Convert each mass percent to moles: there are only 1.5 O for each Fe."
    ]
   },
   "data": {
@@ -54564,8 +54564,8 @@
   "why": [
    "",
    "III has the biggest volume but is so dilute it has the fewest moles.",
-   "I has 0.0250 mol.",
-   "IV has 0.0250 mol."
+   "Solution I has 0.250 L × 0.100 M = 0.0250 mol. Moles depend on volume times molarity together, and another solution's product is larger.",
+   "Solution IV has 0.100 L × 0.250 M = 0.0250 mol. Multiply volume (in L) by molarity for every solution; another one has a larger product."
   ],
   "html": {
    "prompt": "Four solutions of sodium chloride are described in the table. Which solution contains the GREATEST number of moles of NaCl?",
@@ -54580,8 +54580,8 @@
    "why": [
     "",
     "III has the biggest volume but is so dilute it has the fewest moles.",
-    "I has 0.0250 mol.",
-    "IV has 0.0250 mol."
+    "Solution I has 0.250 L × 0.100 M = 0.0250 mol. Moles depend on volume times molarity together, and another solution's product is larger.",
+    "Solution IV has 0.100 L × 0.250 M = 0.0250 mol. Multiply volume (in L) by molarity for every solution; another one has a larger product."
    ]
   },
   "data": {
@@ -54781,7 +54781,7 @@
   "why": [
    "",
    "HClO is hypochlorous acid.",
-   "HClO₃ is chloric acid.",
+   "HClO₃ is chloric acid, from the chlorate ion. The -ic acids come from -ate ions; an -ous acid comes from the -ite ion, which has one fewer O.",
    "HClO₄ is perchloric acid."
   ],
   "html": {
@@ -54797,7 +54797,7 @@
    "why": [
     "",
     "HClO is hypochlorous acid.",
-    "HClO₃ is chloric acid.",
+    "HClO₃ is chloric acid, from the chlorate ion. The -ic acids come from -ate ions; an -ous acid comes from the -ite ion, which has one fewer O.",
     "HClO₄ is perchloric acid."
    ]
   },
@@ -55418,7 +55418,7 @@
    "",
    "Box II reverses the two isotopes.",
    "Box III shows a 50:50 mix.",
-   "Box IV shows only B-11."
+   "Box IV shows only B-11 and ignores the 19.9% of B-10. With ten atoms, about 2 should be B-10 and about 8 should be B-11."
   ],
   "html": {
    "prompt": "Natural boron is 19.9% <sup>10</sup>B and 80.1% <sup>11</sup>B. Each box holds ten boron atoms. Which box best represents a natural sample of boron?",
@@ -55434,7 +55434,7 @@
     "",
     "Box II reverses the two isotopes.",
     "Box III shows a 50:50 mix.",
-    "Box IV shows only B-11."
+    "Box IV shows only B-11 and ignores the 19.9% of B-10. With ten atoms, about 2 should be B-10 and about 8 should be B-11."
    ]
   },
   "data": {
@@ -55631,7 +55631,7 @@
   "why": [
    "",
    "Neon is a noble gas, so it exists as single atoms.",
-   "Sulfur forms S₈ rings.",
+   "Sulfur is a molecular nonmetal, but its atoms join into S₈ rings, not two-atom molecules. The diatomic elements are H, N, O and the halogens.",
    "Phosphorus forms P₄ molecules."
   ],
   "html": {
@@ -55647,7 +55647,7 @@
    "why": [
     "",
     "Neon is a noble gas, so it exists as single atoms.",
-    "Sulfur forms S₈ rings.",
+    "Sulfur is a molecular nonmetal, but its atoms join into S₈ rings, not two-atom molecules. The diatomic elements are H, N, O and the halogens.",
     "Phosphorus forms P₄ molecules."
    ]
   },
@@ -55685,7 +55685,7 @@
   "why": [
    "",
    "Group 1 is all metals (hydrogen aside).",
-   "Group 2 is all metals.",
+   "Every element in group 2, from Be to Ra, is a metal, so there is no change from nonmetal to metalloid going down. Look for the group that starts with a nonmetal at the top.",
    "Group 17 is all nonmetals."
   ],
   "html": {
@@ -55701,7 +55701,7 @@
    "why": [
     "",
     "Group 1 is all metals (hydrogen aside).",
-    "Group 2 is all metals.",
+    "Every element in group 2, from Be to Ra, is a metal, so there is no change from nonmetal to metalloid going down. Look for the group that starts with a nonmetal at the top.",
     "Group 17 is all nonmetals."
    ]
   },
@@ -55792,7 +55792,7 @@
   "explain": "In MO one O²⁻ is balanced by one M, so M is M²⁺. Three M²⁺ (+6) balance two PO³⁻₄ (−6): M₃(PO₄)₂. MPO₄ would need M³⁺; M₂(PO₄)₃ cannot balance at all (two M would have to supply +9); it copies the 2 : 3 pattern of an oxide such as M₂O₃.",
   "why": [
    "",
-   "MPO₄ would need M³⁺.",
+   "MPO₄ balances only if M is M³⁺ (to cancel one PO₄³⁻). But MO shows one M balancing one O²⁻, so M is M²⁺; balance +2 ions against −3 ions.",
    "In M₂(PO₄)₃, two M ions would have to balance a 9− charge, which no whole-number charge can do. Find the charge on M from MO first.",
    "M(PO₄)₂ gives +2 and −6, so the charges don't balance."
   ],
@@ -55808,7 +55808,7 @@
    "explain": "In MO one O<sup>2−</sup> is balanced by one M, so M is M<sup>2+</sup>. Three M<sup>2+</sup> (+6) balance two <span class=\"nw\">PO<span class=\"ss\"><sup>3−</sup><sub>4</sub></span></span> (−6): <b>M<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub></b>. MPO<sub>4</sub> would need M<sup>3+</sup>; M<sub>2</sub>(PO<sub>4</sub>)<sub>3</sub> cannot balance at all (two M would have to supply +9); it copies the 2 : 3 pattern of an oxide such as M<sub>2</sub>O<sub>3</sub>.",
    "why": [
     "",
-    "MPO₄ would need M³⁺.",
+    "MPO₄ balances only if M is M³⁺ (to cancel one PO₄³⁻). But MO shows one M balancing one O²⁻, so M is M²⁺; balance +2 ions against −3 ions.",
     "In M₂(PO₄)₃, two M ions would have to balance a 9− charge, which no whole-number charge can do. Find the charge on M from MO first.",
     "M(PO₄)₂ gives +2 and −6, so the charges don't balance."
    ]
@@ -55902,7 +55902,7 @@
    "",
    "3d¹⁰ is part of the core, not the valence shell.",
    "3s² 3p³ is phosphorus, in period 3.",
-   "4p⁵ would be group 17."
+   "4s² 4p⁵ has seven valence electrons, which is group 17 (bromine). Group 15 has five valence electrons, so only three go into 4p."
   ],
   "html": {
    "prompt": "An element is in period 4, group 15 of the periodic table. What is the electron configuration of its valence electrons?",
@@ -55918,7 +55918,7 @@
     "",
     "3d¹⁰ is part of the core, not the valence shell.",
     "3s² 3p³ is phosphorus, in period 3.",
-    "4p⁵ would be group 17."
+    "4s² 4p⁵ has seven valence electrons, which is group 17 (bromine). Group 15 has five valence electrons, so only three go into 4p."
    ]
   },
   "from": {
@@ -56117,8 +56117,8 @@
   "why": [
    "",
    "Ar (39.95 g/mol) is lighter than CO₂ (44.01 g/mol).",
-   "H₂O is only 18.02 g/mol.",
-   "He is only 4.003 g/mol."
+   "A mole of H₂O is only 18.02 g; it has three atoms, but they are light. With the same number of particles, the heaviest mole is the one with the largest molar mass.",
+   "Helium has the smallest molar mass here, only 4.003 g/mol. Equal moles means equal particles, so the sample with the largest molar mass weighs the most."
   ],
   "html": {
    "prompt": "Each of these samples contains Avogadro's number of particles. Which one weighs the most?",
@@ -56133,8 +56133,8 @@
    "why": [
     "",
     "Ar (39.95 g/mol) is lighter than CO₂ (44.01 g/mol).",
-    "H₂O is only 18.02 g/mol.",
-    "He is only 4.003 g/mol."
+    "A mole of H₂O is only 18.02 g; it has three atoms, but they are light. With the same number of particles, the heaviest mole is the one with the largest molar mass.",
+    "Helium has the smallest molar mass here, only 4.003 g/mol. Equal moles means equal particles, so the sample with the largest molar mass weighs the most."
    ]
   },
   "from": {
@@ -56334,7 +56334,7 @@
    "",
    "SF₄ is 108 g/mol, which would weigh only 0.540 g.",
    "SF₈ would be 184 g/mol. Find the molar mass from the sample mass and the number of moles, then compare.",
-   "SF₂ is far too light."
+   "SF₂ would be 70.06 g/mol, so 5.00×10⁻³ mol would weigh only 0.350 g, not 0.730 g. Find the molar mass (g ÷ mol) and solve for n."
   ],
   "html": {
    "prompt": "A compound of sulfur and fluorine has the formula SF<sub><i>n</i></sub>. A sample containing 3.01×10<sup>21</sup> molecules has a mass of 0.730 g. What is <i>n</i>?",
@@ -56350,7 +56350,7 @@
     "",
     "SF₄ is 108 g/mol, which would weigh only 0.540 g.",
     "SF₈ would be 184 g/mol. Find the molar mass from the sample mass and the number of moles, then compare.",
-    "SF₂ is far too light."
+    "SF₂ would be 70.06 g/mol, so 5.00×10⁻³ mol would weigh only 0.350 g, not 0.730 g. Find the molar mass (g ÷ mol) and solve for <i>n</i>."
    ]
   },
   "from": {
@@ -56386,9 +56386,9 @@
   "explain": "H₂O: 16.00/18.02 = 88.8% O. CO₂ is 72.7%, NO₂ 69.6% and SO₂ 50.0%. The dioxides have more O atoms, but each is paired with a heavier atom than hydrogen, so oxygen is a smaller fraction of the mass.",
   "why": [
    "",
-   "CO₂ is only 72.7% O.",
-   "NO₂ is only 69.6% O.",
-   "SO₂ is only 50.0% O."
+   "CO₂ is only 72.7% O by mass. Having two O atoms doesn't guarantee the largest fraction; the 12.01 g of carbon is much heavier than the partner atoms in another choice.",
+   "NO₂ is only 69.6% O by mass. The nitrogen (14.01 g) dilutes the oxygen's share; the largest fraction comes from pairing O with the lightest possible partner.",
+   "SO₂ is only 50.0% O by mass, because the sulfur atom (32.06 g) weighs as much as both oxygens. More O atoms don't help when the partner atom is heavy."
   ],
   "html": {
    "prompt": "Oxygen makes up a different fraction of the mass of each of these compounds. In which one is that fraction the largest?",
@@ -56402,9 +56402,9 @@
    "explain": "H<sub>2</sub>O: 16.00/18.02 = <b>88.8%</b> O. CO<sub>2</sub> is 72.7%, NO<sub>2</sub> 69.6% and SO<sub>2</sub> 50.0%. The dioxides have more O atoms, but each is paired with a heavier atom than hydrogen, so oxygen is a smaller fraction of the mass.",
    "why": [
     "",
-    "CO₂ is only 72.7% O.",
-    "NO₂ is only 69.6% O.",
-    "SO₂ is only 50.0% O."
+    "CO₂ is only 72.7% O by mass. Having two O atoms doesn't guarantee the largest fraction; the 12.01 g of carbon is much heavier than the partner atoms in another choice.",
+    "NO₂ is only 69.6% O by mass. The nitrogen (14.01 g) dilutes the oxygen's share; the largest fraction comes from pairing O with the lightest possible partner.",
+    "SO₂ is only 50.0% O by mass, because the sulfur atom (32.06 g) weighs as much as both oxygens. More O atoms don't help when the partner atom is heavy."
    ]
   },
   "from": {
@@ -56495,7 +56495,7 @@
   "why": [
    "",
    "110 g/mol is the empirical formula's mass.",
-   "P₄O₁₀ is only 43.6% P.",
+   "284 g/mol is P₄O₁₀, which is only 43.6% P, not 56.4%. Work out the P : O mole ratio from the percents (1 : 1.5) before scaling up to four P atoms.",
    "142 g/mol is P₂O₅, which doesn't match."
   ],
   "html": {
@@ -56511,7 +56511,7 @@
    "why": [
     "",
     "110 g/mol is the empirical formula's mass.",
-    "P₄O₁₀ is only 43.6% P.",
+    "284 g/mol is P₄O₁₀, which is only 43.6% P, not 56.4%. Work out the P : O mole ratio from the percents (1 : 1.5) before scaling up to four P atoms.",
     "142 g/mol is P₂O₅, which doesn't match."
    ]
   },
@@ -56656,7 +56656,7 @@
   "explain": "0.600 mol C₃H₈ × (5 mol O₂ / 1 mol C₃H₈) = 3.00 mol O₂. 0.120 mol inverts the ratio; 1.80 and 2.40 mol use the CO₂ (3) or H₂O (4) coefficient instead of the O₂ coefficient.",
   "why": [
    "",
-   "This flips the ratio.",
+   "0.120 mol comes from dividing 0.600 by 5, which inverts the mole ratio. Each mole of propane needs 5 mol O₂, so the O₂ amount must be larger than 0.600 mol.",
    "This uses CO₂'s coefficient (3).",
    "This uses H₂O's coefficient (4)."
   ],
@@ -56672,7 +56672,7 @@
    "explain": "0.600 mol C<sub>3</sub>H<sub>8</sub> × (5 mol O<sub>2</sub> / 1 mol C<sub>3</sub>H<sub>8</sub>) = <b>3.00 mol O<sub>2</sub></b>. 0.120 mol inverts the ratio; 1.80 and 2.40 mol use the CO<sub>2</sub> (3) or H<sub>2</sub>O (4) coefficient instead of the O<sub>2</sub> coefficient.",
    "why": [
     "",
-    "This flips the ratio.",
+    "0.120 mol comes from dividing 0.600 by 5, which inverts the mole ratio. Each mole of propane needs 5 mol O₂, so the O₂ amount must be larger than 0.600 mol.",
     "This uses CO₂'s coefficient (3).",
     "This uses H₂O's coefficient (4)."
    ]
@@ -56802,7 +56802,7 @@
   "why": [
    "",
    "This uses a 1:1 ratio. Use 3 N₂ per 2 NaN₃.",
-   "This flips the ratio.",
+   "8.03×10²¹ uses 2 N₂ per 3 NaN₃, which inverts the ratio. The equation makes 3 N₂ for every 2 NaN₃, so there are more N₂ molecules than NaN₃ units.",
    "This counts N atoms, not N₂ molecules."
   ],
   "html": {
@@ -56818,7 +56818,7 @@
    "why": [
     "",
     "This uses a 1:1 ratio. Use 3 N₂ per 2 NaN₃.",
-    "This flips the ratio.",
+    "8.03×10²¹ uses 2 N₂ per 3 NaN₃, which inverts the ratio. The equation makes 3 N₂ for every 2 NaN₃, so there are more N₂ molecules than NaN₃ units.",
     "This counts N atoms, not N₂ molecules."
    ]
   },
@@ -56943,7 +56943,7 @@
   "why": [
    "",
    "Compare moles ÷ coefficient for each reactant. CH₄ is not the one that runs out.",
-   "Helium doesn't react.",
+   "Helium is an inert noble gas and doesn't react at all, so it can't limit the product. Compare moles ÷ coefficient for CH₄ and O₂.",
    "Equal moles do not mean equal consumption; check the coefficients."
   ],
   "html": {
@@ -56959,7 +56959,7 @@
    "why": [
     "",
     "Compare moles ÷ coefficient for each reactant. CH₄ is not the one that runs out.",
-    "Helium doesn't react.",
+    "Helium is an inert noble gas and doesn't react at all, so it can't limit the product. Compare moles ÷ coefficient for CH₄ and O₂.",
     "Equal moles do not mean equal consumption; check the coefficients."
    ]
   },
@@ -57066,9 +57066,9 @@
   "explain": "Evaporation removes solvent only, so the moles of KCl stay the same while the volume shrinks, raising the molarity. Solute cannot leave or appear; the molarity changes because the denominator changes.",
   "why": [
    "",
-   "KCl can't evaporate.",
+   "KCl is a nonvolatile ionic solid, so it can't evaporate; only water leaves. With the same moles in less volume, the molarity can't go down.",
    "The volume shrank, so the molarity went up.",
-   "No KCl was added."
+   "Nothing added KCl to the beaker; evaporation removes only water, so the moles of solute stay fixed. The molarity rises only because the volume shrinks."
   ],
   "html": {
    "prompt": "An open beaker of 1.0 M KCl solution is left on the bench for a week and some of the water evaporates. Which statement describes the solution afterward?",
@@ -57082,9 +57082,9 @@
    "explain": "Evaporation removes solvent only, so the <b>moles of KCl stay the same while the volume shrinks, raising the molarity</b>. Solute cannot leave or appear; the molarity changes because the denominator changes.",
    "why": [
     "",
-    "KCl can't evaporate.",
+    "KCl is a nonvolatile ionic solid, so it can't evaporate; only water leaves. With the same moles in less volume, the molarity can't go down.",
     "The volume shrank, so the molarity went up.",
-    "No KCl was added."
+    "Nothing added KCl to the beaker; evaporation removes only water, so the moles of solute stay fixed. The molarity rises only because the volume shrinks."
    ]
   },
   "from": {
@@ -57229,7 +57229,7 @@
   "why": [
    "",
    "This uses a 1:1 ratio. Each CrO₄²⁻ takes 2 Ag⁺.",
-   "This flips the ratio.",
+   "107 mL comes from multiplying the Ag⁺ moles by 2, which inverts the ratio. Each CrO₄²⁻ precipitates 2 Ag⁺, so you need half as many moles of chromate as silver.",
    "This divides by 2 twice. Apply the 2:1 ratio only once."
   ],
   "html": {
@@ -57245,7 +57245,7 @@
    "why": [
     "",
     "This uses a 1:1 ratio. Each CrO₄²⁻ takes 2 Ag⁺.",
-    "This flips the ratio.",
+    "107 mL comes from multiplying the Ag⁺ moles by 2, which inverts the ratio. Each CrO₄²⁻ precipitates 2 Ag⁺, so you need half as many moles of chromate as silver.",
     "This divides by 2 twice. Apply the 2:1 ratio only once."
    ]
   },
@@ -57661,7 +57661,7 @@
   "why": [
    "",
    "This leaves out water's specific heat.",
-   "This flips the ratio.",
+   "2.77 divides (mass × ΔT) of the metal by the heat, which inverts the formula. Specific heat is c = q ÷ (m × ΔT), with the 732 J of heat on top.",
    "This uses the metal's 72.5 °C drop for the water too."
   ],
   "html": {
@@ -57677,7 +57677,7 @@
    "why": [
     "",
     "This leaves out water's specific heat.",
-    "This flips the ratio.",
+    "2.77 divides (mass × ΔT) of the metal by the heat, which inverts the formula. Specific heat is c = q ÷ (m × ΔT), with the 732 J of heat on top.",
     "This uses the metal's 72.5 °C drop for the water too."
    ]
   },
@@ -58152,7 +58152,7 @@
    "",
    "This adds equation 2 as written. Equation 2 must be reversed so SO₂ cancels, and reversing it changes the sign of its ΔH°.",
    "This neither doubles nor reverses.",
-   "This ignores equation 2."
+   "−593.6 kJ is just equation 1 doubled; it leaves out equation 2, so SO₂ never becomes SO₃. Add equation 2 (reversed, with its sign changed) so SO₂ cancels."
   ],
   "html": {
    "prompt": "Sulfur trioxide can be made from sulfur in two stages (table). Combine the two equations to obtain ΔH° for the overall reaction shown.",
@@ -58168,7 +58168,7 @@
     "",
     "This adds equation 2 as written. Equation 2 must be reversed so SO₂ cancels, and reversing it changes the sign of its ΔH°.",
     "This neither doubles nor reverses.",
-    "This ignores equation 2."
+    "−593.6 kJ is just equation 1 doubled; it leaves out equation 2, so SO₂ never becomes SO₃. Add equation 2 (reversed, with its sign changed) so SO₂ cancels."
    ]
   },
   "data": {
@@ -58385,7 +58385,7 @@
    "",
    "KCl's smaller Cl⁻ gives it a larger lattice energy than KBr.",
    "MgO's smaller Mg²⁺ gives it a larger lattice energy than CaO.",
-   "This is reversed."
+   "This list runs from strongest to weakest, the reverse of what was asked. Higher ion charges (2+/2−) and smaller ions give larger lattice energies, so those belong at the end."
   ],
   "html": {
    "prompt": "Which list places the ionic solids KBr, MgO, KCl and CaO in order from the weakest to the strongest lattice energy?",
@@ -58401,7 +58401,7 @@
     "",
     "KCl's smaller Cl⁻ gives it a larger lattice energy than KBr.",
     "MgO's smaller Mg²⁺ gives it a larger lattice energy than CaO.",
-    "This is reversed."
+    "This list runs from strongest to weakest, the reverse of what was asked. Higher ion charges (2+/2−) and smaller ions give larger lattice energies, so those belong at the end."
    ]
   },
   "from": {
@@ -58514,7 +58514,7 @@
    "",
    "Na–O isn't covalent (metal + nonmetal).",
    "O–H isn't ionic (two nonmetals sharing).",
-   "This is reversed."
+   "This swaps the bond types. Na–O is a metal–nonmetal pair with a big electronegativity difference (ionic), while O–H is two nonmetals sharing electrons (covalent)."
   ],
   "html": {
    "prompt": "Which description of the bonding in sodium hydroxide, NaOH, is correct?",
@@ -58530,7 +58530,7 @@
     "",
     "Na–O isn't covalent (metal + nonmetal).",
     "O–H isn't ionic (two nonmetals sharing).",
-    "This is reversed."
+    "This swaps the bond types. Na–O is a metal–nonmetal pair with a big electronegativity difference (ionic), while O–H is two nonmetals sharing electrons (covalent)."
    ]
   },
   "from": {
@@ -58804,7 +58804,7 @@
   "why": [
    "",
    "22.4 L/mol applies only at 0 °C.",
-   "This flips the ratio.",
+   "128% divides the theoretical moles (0.0500) by the actual moles (0.0389), which inverts the ratio. Percent yield is actual ÷ theoretical × 100, so it can't exceed 100% here.",
    "This uses CaO's molar mass. Use CaCO₃'s."
   ],
   "html": {
@@ -58820,7 +58820,7 @@
    "why": [
     "",
     "22.4 L/mol applies only at 0 °C.",
-    "This flips the ratio.",
+    "128% divides the theoretical moles (0.0500) by the actual moles (0.0389), which inverts the ratio. Percent yield is actual ÷ theoretical × 100, so it can't exceed 100% here.",
     "This uses CaO's molar mass. Use CaCO₃'s."
    ]
   },
@@ -58920,7 +58920,7 @@
   "why": [
    "",
    "The I–I bond is actually weaker, and bonds don't decide the phase anyway.",
-   "I₂ is nonpolar.",
+   "I₂ is nonpolar: two identical atoms share the electrons equally, so there is no dipole. The only attraction between I₂ molecules is London dispersion.",
    "I₂ has no H atoms, so it can't hydrogen bond."
   ],
   "html": {
@@ -58936,7 +58936,7 @@
    "why": [
     "",
     "The I–I bond is actually weaker, and bonds don't decide the phase anyway.",
-    "I₂ is nonpolar.",
+    "I₂ is nonpolar: two identical atoms share the electrons equally, so there is no dipole. The only attraction between I₂ molecules is London dispersion.",
     "I₂ has no H atoms, so it can't hydrogen bond."
    ]
   },
@@ -58975,7 +58975,7 @@
    "",
    "Stronger forces mean fewer molecules escape, so the vapor pressure is lower.",
    "Stronger forces mean a higher ΔH_vap.",
-   "This is reversed."
+   "This describes the liquid with weaker forces. Stronger attractions take more energy to overcome (higher ΔH_vap) and let fewer molecules escape (lower vapor pressure)."
   ],
   "html": {
    "prompt": "Liquid X has stronger intermolecular forces than liquid Y. At the same temperature, compared with Y, liquid X has",
@@ -58991,7 +58991,7 @@
     "",
     "Stronger forces mean fewer molecules escape, so the vapor pressure is lower.",
     "Stronger forces mean a higher ΔH_vap.",
-    "This is reversed."
+    "This describes the liquid with weaker forces. Stronger attractions take more energy to overcome (higher ΔH_vap) and let fewer molecules escape (lower vapor pressure)."
    ]
   },
   "from": {

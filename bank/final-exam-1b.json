@@ -89,7 +89,7 @@
   "why": [
    "",
    "This flips the ratio (4/6 instead of 6/4).",
-   "This uses a 1:1 ratio.",
+   "0.0480 M s⁻¹ assumes one H₂ forms per PH₃ used. The equation makes 6 H₂ for every 4 PH₃, so H₂ forms faster: multiply by 6/4.",
    "This divides by 4 but forgets to multiply by 6."
   ],
   "html": {
@@ -105,7 +105,7 @@
    "why": [
     "",
     "This flips the ratio (4/6 instead of 6/4).",
-    "This uses a 1:1 ratio.",
+    "0.0480 M s⁻¹ assumes one H₂ forms per PH₃ used. The equation makes 6 H₂ for every 4 PH₃, so H₂ forms faster: multiply by 6/4.",
     "This divides by 4 but forgets to multiply by 6."
    ]
   },
@@ -332,8 +332,8 @@
   "explain": "k = rate/[A]² = (M s⁻¹)/M² = M⁻¹ s⁻¹. s⁻¹ is first order; M s⁻¹ is zero order.",
   "why": [
    "",
-   "M s⁻¹ is for zero order.",
-   "s⁻¹ is for first order.",
+   "M s⁻¹ are the units of a rate, so they fit k only for a zero-order reaction. For second order, k = rate ÷ [A]², so divide M s⁻¹ by M².",
+   "s⁻¹ fits a first-order reaction, where k = rate ÷ [A]. Second order divides the rate by M², which leaves an extra M⁻¹.",
    "M⁻² s⁻¹ is for third order."
   ],
   "html": {
@@ -348,8 +348,8 @@
    "explain": "k = rate/[A]<sup>2</sup> = (M s<sup>−1</sup>)/M<sup>2</sup> = <b>M<sup>−1</sup> s<sup>−1</sup></b>. s<sup>−1</sup> is first order; M s<sup>−1</sup> is zero order.",
    "why": [
     "",
-    "M s⁻¹ is for zero order.",
-    "s⁻¹ is for first order.",
+    "M s⁻¹ are the units of a rate, so they fit k only for a zero-order reaction. For second order, k = rate ÷ [A]², so divide M s⁻¹ by M².",
+    "s⁻¹ fits a first-order reaction, where k = rate ÷ [A]. Second order divides the rate by M², which leaves an extra M⁻¹.",
     "M⁻² s⁻¹ is for third order."
    ]
   },
@@ -952,7 +952,7 @@
    "",
    "N₂O₂ is an intermediate, so it can't appear in the rate law.",
    "This leaves out H₂, which is in the slow step.",
-   "[NO] should be squared."
+   "This treats NO as first order, but the fast equilibrium uses 2 NO to make each N₂O₂. Substituting [N₂O₂] = K₁[NO]² into the slow step squares [NO]."
   ],
   "html": {
    "prompt": "Consider the mechanism shown below. Which rate law is consistent with this mechanism?",
@@ -968,7 +968,7 @@
     "",
     "N₂O₂ is an intermediate, so it can't appear in the rate law.",
     "This leaves out H₂, which is in the slow step.",
-    "[NO] should be squared."
+    "This treats NO as first order, but the fast equilibrium uses 2 NO to make each N₂O₂. Substituting [N₂O₂] = K₁[NO]² into the slow step squares [NO]."
    ]
   },
   "data": {
@@ -1018,7 +1018,7 @@
    "",
    "ClO is formed and then used up, so it's an intermediate.",
    "O₃ is a reactant that's used up.",
-   "O₂ is a product."
+   "O₂ is formed in both steps and never used up, so it is a product. A catalyst must be consumed in one step and regenerated in a later one."
   ],
   "html": {
    "prompt": "Ozone destruction in the stratosphere can occur by the two steps shown below. Which species acts as a catalyst?",
@@ -1034,7 +1034,7 @@
     "",
     "ClO is formed and then used up, so it's an intermediate.",
     "O₃ is a reactant that's used up.",
-    "O₂ is a product."
+    "O₂ is formed in both steps and never used up, so it is a product. A catalyst must be consumed in one step and regenerated in a later one."
    ]
   },
   "data": {
@@ -1353,7 +1353,7 @@
   "why": [
    "",
    "Solids are left out of K.",
-   "This is upside down.",
+   "1/[CO₂] puts the product in the denominator, which inverts K. K is products over reactants, and the solids CaCO₃ and CaO are left out.",
    "This is upside down, and it includes the solids."
   ],
   "html": {
@@ -1369,7 +1369,7 @@
    "why": [
     "",
     "Solids are left out of K.",
-    "This is upside down.",
+    "1/[CO₂] puts the product in the denominator, which inverts K. K is products over reactants, and the solids CaCO₃ and CaO are left out.",
     "This is upside down, and it includes the solids."
    ]
   },
@@ -1415,7 +1415,7 @@
   "why": [
    "",
    "Coefficients become exponents, not multipliers.",
-   "This is upside down.",
+   "This puts reactants over products, which inverts K. K is always products over reactants, each raised to its coefficient.",
    "Reactant terms are multiplied, not added."
   ],
   "html": {
@@ -1431,7 +1431,7 @@
    "why": [
     "",
     "Coefficients become exponents, not multipliers.",
-    "This is upside down.",
+    "This puts reactants over products, which inverts K. K is always products over reactants, each raised to its coefficient.",
     "Reactant terms are multiplied, not added."
    ]
   },
@@ -1538,7 +1538,7 @@
   "explain": "K_reverse = 1/K = 1/(4.0×10³) = 2.5×10⁻⁴. Reversing a reaction inverts K; 8.0×10³ doubles K for the coefficient 2, which does not apply to simply reversing the equation, and −4.0×10³ is impossible because K can never be negative.",
   "why": [
    "",
-   "K can never be negative.",
+   "K can never be negative, because it is a ratio of positive concentrations. Reversing a reaction doesn't flip the sign of K the way it does for ΔH.",
    "Reversing a reaction inverts K.",
    "Doubling doesn't apply. Just reversing inverts K."
   ],
@@ -1554,7 +1554,7 @@
    "explain": "<i>K</i><sub>reverse</sub> = 1/<i>K</i> = 1/(4.0×10<sup>3</sup>) = 2.5×10<sup>−4</sup>. Reversing a reaction inverts <i>K</i>; 8.0×10<sup>3</sup> doubles <i>K</i> for the coefficient 2, which does not apply to simply reversing the equation, and −4.0×10<sup>3</sup> is impossible because <i>K</i> can never be negative.",
    "why": [
     "",
-    "K can never be negative.",
+    "K can never be negative, because it is a ratio of positive concentrations. Reversing a reaction doesn't flip the sign of K the way it does for ΔH.",
     "Reversing a reaction inverts K.",
     "Doubling doesn't apply. Just reversing inverts K."
    ]
@@ -1601,7 +1601,7 @@
   "why": [
    "",
    "This divides K by 2. Halving the equation takes the square root.",
-   "This multiplies K by 2.",
+   "3.2×10⁻⁵ multiplies K by 2. Multiplying an equation by a factor raises K to that power; it never multiplies or divides K.",
    "This squares K. Halving the equation takes the square root."
   ],
   "html": {
@@ -1617,7 +1617,7 @@
    "why": [
     "",
     "This divides K by 2. Halving the equation takes the square root.",
-    "This multiplies K by 2.",
+    "3.2×10⁻⁵ multiplies K by 2. Multiplying an equation by a factor raises K to that power; it never multiplies or divides K.",
     "This squares K. Halving the equation takes the square root."
    ]
   },
@@ -1780,7 +1780,7 @@
    "",
    "Q is less than K, so the reaction shifts right, not left.",
    "This forgets to square [HI].",
-   "This is upside down."
+   "Q = 0.080 puts reactants over products, which inverts Q. Q is set up like K, products over reactants: [HI]²/([H₂][I₂])."
   ],
   "html": {
    "prompt": "For the reaction shown, K<sub>c</sub> = 50.5 at 448 °C. A mixture has the concentrations in the table. Which is correct?",
@@ -1796,7 +1796,7 @@
     "",
     "Q is less than K, so the reaction shifts right, not left.",
     "This forgets to square [HI].",
-    "This is upside down."
+    "Q = 0.080 puts reactants over products, which inverts Q. Q is set up like K, products over reactants: [HI]²/([H₂][I₂])."
    ]
   },
   "data": {
@@ -1924,7 +1924,7 @@
   "why": [
    "",
    "This uses the starting amounts. Use equilibrium amounts.",
-   "This forgets to square.",
+   "7.09 is 1.56 ÷ 0.22, which ignores the coefficient of 2 on HI and treats [H₂][I₂] as a single 0.22. Square [HI] and multiply 0.22 by 0.22.",
    "HI has a coefficient of 2, so square [HI] in the numerator as well as using 0.22 M for each reactant."
   ],
   "html": {
@@ -1940,7 +1940,7 @@
    "why": [
     "",
     "This uses the starting amounts. Use equilibrium amounts.",
-    "This forgets to square.",
+    "7.09 is 1.56 ÷ 0.22, which ignores the coefficient of 2 on HI and treats [H₂][I₂] as a single 0.22. Square [HI] and multiply 0.22 by 0.22.",
     "HI has a coefficient of 2, so square [HI] in the numerator as well as using 0.22 M for each reactant."
    ]
   },
@@ -2289,7 +2289,7 @@
    "",
    "K says nothing about how fast equilibrium is reached.",
    "A large K means mostly products.",
-   "K doesn't tell you ΔH."
+   "K tells you only how far the reaction goes (here, mostly products), not whether it absorbs or releases heat. You'd need ΔH, or how K changes with temperature."
   ],
   "html": {
    "prompt": "At 25 °C, K = 3.5×10<sup>8</sup> for a reaction. What does this tell you?",
@@ -2305,7 +2305,7 @@
     "",
     "K says nothing about how fast equilibrium is reached.",
     "A large K means mostly products.",
-    "K doesn't tell you ΔH."
+    "K tells you only how far the reaction goes (here, mostly products), not whether it absorbs or releases heat. You'd need ΔH, or how K changes with temperature."
    ]
   },
   "from": {
@@ -2868,8 +2868,8 @@
   "why": [
    "",
    "CO₃²⁻ has no H to donate.",
-   "NH₄⁺ can only donate H⁺.",
-   "Cl⁻ has no H to donate."
+   "NH₄⁺ can donate H⁺ to become NH₃, but it has no lone pair left to accept another H⁺. An amphoteric species must be able to do both.",
+   "Cl⁻ has no H to donate, so it can't act as an acid. It is also too weak a base to accept H⁺ in water, so it can do neither job."
   ],
   "html": {
    "prompt": "Which species is amphoteric (can act as either a Brønsted–Lowry acid or base)?",
@@ -2884,8 +2884,8 @@
    "why": [
     "",
     "CO₃²⁻ has no H to donate.",
-    "NH₄⁺ can only donate H⁺.",
-    "Cl⁻ has no H to donate."
+    "NH₄⁺ can donate H⁺ to become NH₃, but it has no lone pair left to accept another H⁺. An amphoteric species must be able to do both.",
+    "Cl⁻ has no H to donate, so it can't act as an acid. It is also too weak a base to accept H⁺ in water, so it can do neither job."
    ]
   },
   "from": {
@@ -2976,7 +2976,7 @@
   "why": [
    "",
    "This forgets that each Ba(OH)₂ gives 2 OH⁻.",
-   "1.52 is the pOH.",
+   "1.52 is the pOH, −log[OH⁻]. Ba(OH)₂ is a strong base, so the pH must be above 7: subtract the pOH from 14.00.",
    "This is the pOH, and it forgets the factor of 2."
   ],
   "html": {
@@ -2992,7 +2992,7 @@
    "why": [
     "",
     "This forgets that each Ba(OH)₂ gives 2 OH⁻.",
-    "1.52 is the pOH.",
+    "1.52 is the pOH, −log[OH⁻]. Ba(OH)₂ is a strong base, so the pH must be above 7: subtract the pOH from 14.00.",
     "This is the pOH, and it forgets the factor of 2."
    ]
   },
@@ -3029,8 +3029,8 @@
   "explain": "x = √[(1.8×10⁻⁵)(0.10)] = 1.3×10⁻³ M; pH = 2.87. 11.13 is the pOH, not the pH; 5.74 forgets the square root; 4.74 is just pK_a.",
   "why": [
    "",
-   "11.13 is the pOH.",
-   "4.74 is just the pKa.",
+   "11.13 is 14.00 minus the right value, as if the [H₃O⁺] you found were [OH⁻]. Acetic acid releases H₃O⁺, so −log of it is the pH and must be below 7.",
+   "4.74 is just the pKa, −log(1.8×10⁻⁵). pH = pKa only in a buffer with equal acid and base; here, find [H₃O⁺] = √(Ka × 0.10) first.",
    "This forgets the square root."
   ],
   "html": {
@@ -3045,8 +3045,8 @@
    "explain": "x = √[(1.8×10<sup>−5</sup>)(0.10)] = 1.3×10<sup>−3</sup> M; pH = <b>2.87</b>. 11.13 is the pOH, not the pH; 5.74 forgets the square root; 4.74 is just pK<sub>a</sub>.",
    "why": [
     "",
-    "11.13 is the pOH.",
-    "4.74 is just the pKa.",
+    "11.13 is 14.00 minus the right value, as if the [H₃O⁺] you found were [OH⁻]. Acetic acid releases H₃O⁺, so −log of it is the pH and must be below 7.",
+    "4.74 is just the pKa, −log(1.8×10⁻⁵). pH = pKa only in a buffer with equal acid and base; here, find [H₃O⁺] = √(Ka × 0.10) first.",
     "This forgets the square root."
    ]
   },
@@ -3083,8 +3083,8 @@
   "explain": "[OH⁻] = √[(1.8×10⁻⁵)(0.20)] = 1.9×10⁻³ M; pOH = 2.72; pH = 11.28. 2.72 is the pOH, not the pH; 4.74 is just pK_b.",
   "why": [
    "",
-   "2.72 is the pOH.",
-   "4.74 is just the pKb.",
+   "2.72 is the pOH, −log[OH⁻]. NH₃ is a base, so the pH must be above 7: subtract the pOH from 14.00.",
+   "4.74 is just the pKb, −log(1.8×10⁻⁵). It ignores the 0.20 M concentration; find [OH⁻] = √(Kb × 0.20), then convert to pH.",
    "This forgets the square root."
   ],
   "html": {
@@ -3099,8 +3099,8 @@
    "explain": "[OH<sup>−</sup>] = √[(1.8×10<sup>−5</sup>)(0.20)] = 1.9×10<sup>−3</sup> M; pOH = 2.72; pH = <b>11.28</b>. 2.72 is the pOH, not the pH; 4.74 is just pK<sub>b</sub>.",
    "why": [
     "",
-    "2.72 is the pOH.",
-    "4.74 is just the pKb.",
+    "2.72 is the pOH, −log[OH⁻]. NH₃ is a base, so the pH must be above 7: subtract the pOH from 14.00.",
+    "4.74 is just the pKb, −log(1.8×10⁻⁵). It ignores the 0.20 M concentration; find [OH⁻] = √(Kb × 0.20), then convert to pH.",
     "This forgets the square root."
    ]
   },
@@ -3299,7 +3299,7 @@
   "explain": "K_b = 5.6×10⁻¹⁰; [OH⁻] = √(K_b·0.10) = 7.5×10⁻⁶ M; pOH = 5.13, pH = 8.87. The salt of a weak acid and a strong base is basic, not neutral.",
   "why": [
    "",
-   "5.13 is the pOH.",
+   "5.13 is the pOH, from the [OH⁻] that acetate makes. Acetate is a weak base, so the pH must be above 7: subtract the pOH from 14.00.",
    "The salt of a weak acid and a strong base is basic.",
    "2.87 is the pH of acetic acid, not acetate."
   ],
@@ -3315,7 +3315,7 @@
    "explain": "K<sub>b</sub> = 5.6×10<sup>−10</sup>; [OH<sup>−</sup>] = √(K<sub>b</sub>·0.10) = 7.5×10<sup>−6</sup> M; pOH = 5.13, pH = <b>8.87</b>. The salt of a weak acid and a strong base is basic, not neutral.",
    "why": [
     "",
-    "5.13 is the pOH.",
+    "5.13 is the pOH, from the [OH⁻] that acetate makes. Acetate is a weak base, so the pH must be above 7: subtract the pOH from 14.00.",
     "The salt of a weak acid and a strong base is basic.",
     "2.87 is the pH of acetic acid, not acetate."
    ]
@@ -3353,7 +3353,7 @@
   "explain": "K_a(NH⁺₄) = 5.6×10⁻¹⁰; [H₃O⁺] = √(K_a·0.25) = 1.2×10⁻⁵ M; pH = 4.93. 9.07 is the pOH; 9.26 is just pK_a of NH⁺₄, and 7.00 ignores the acidic cation.",
   "why": [
    "",
-   "9.07 is the pOH.",
+   "9.07 is 14.00 minus the right value, as if the 1.2×10⁻⁵ M were [OH⁻]. NH₄⁺ is a weak acid that makes H₃O⁺, so the solution is acidic.",
    "9.26 is just the pKa of NH₄⁺.",
    "NH₄⁺ is a weak acid, so the solution isn't neutral."
   ],
@@ -3369,7 +3369,7 @@
    "explain": "<span class=\"nw\">K<sub>a</sub>(NH<span class=\"ss\"><sup>+</sup><sub>4</sub></span>)</span> = 5.6×10<sup>−10</sup>; [H<sub>3</sub>O<sup>+</sup>] = √(K<sub>a</sub>·0.25) = 1.2×10<sup>−5</sup> M; pH = <b>4.93</b>. 9.07 is the pOH; 9.26 is just pK<sub>a</sub> of <span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>4</sub></span>,</span> and 7.00 ignores the acidic cation.",
    "why": [
     "",
-    "9.07 is the pOH.",
+    "9.07 is 14.00 minus the right value, as if the 1.2×10⁻⁵ M were [OH⁻]. NH₄⁺ is a weak acid that makes H₃O⁺, so the solution is acidic.",
     "9.26 is just the pKa of NH₄⁺.",
     "NH₄⁺ is a weak acid, so the solution isn't neutral."
    ]
@@ -3408,8 +3408,8 @@
   "why": [
    "",
    "NH₄⁺ is a weak acid, so this solution is acidic.",
-   "KNO₃ is neutral.",
-   "NaCl is neutral."
+   "KNO₃ is neutral: K⁺ comes from the strong base KOH and NO₃⁻ from the strong acid HNO₃, so neither ion reacts with water. A basic salt needs the anion of a weak acid.",
+   "NaCl is neutral: Na⁺ and Cl⁻ come from a strong base and a strong acid, so neither ion reacts with water. A basic salt needs the anion of a weak acid."
   ],
   "html": {
    "prompt": "Which 0.10 M aqueous solution is basic?",
@@ -3424,8 +3424,8 @@
    "why": [
     "",
     "NH₄⁺ is a weak acid, so this solution is acidic.",
-    "KNO₃ is neutral.",
-    "NaCl is neutral."
+    "KNO₃ is neutral: K⁺ comes from the strong base KOH and NO₃⁻ from the strong acid HNO₃, so neither ion reacts with water. A basic salt needs the anion of a weak acid.",
+    "NaCl is neutral: Na⁺ and Cl⁻ come from a strong base and a strong acid, so neither ion reacts with water. A basic salt needs the anion of a weak acid."
    ]
   },
   "from": {
@@ -3517,7 +3517,7 @@
    "",
    "This is reversed. Cl is most electronegative, so HOCl is strongest.",
    "HOBr is stronger than HOI.",
-   "HOI is the weakest."
+   "This puts HOI in the middle, but I is the least electronegative halogen here, so HOI is the weakest acid. In oxyacids, a more electronegative halogen makes a stronger acid."
   ],
   "html": {
    "prompt": "Rank the hypohalous acids in order of increasing acid strength.",
@@ -3533,7 +3533,7 @@
     "",
     "This is reversed. Cl is most electronegative, so HOCl is strongest.",
     "HOBr is stronger than HOI.",
-    "HOI is the weakest."
+    "This puts HOI in the middle, but I is the least electronegative halogen here, so HOI is the weakest acid. In oxyacids, a more electronegative halogen makes a stronger acid."
    ]
   },
   "from": {
@@ -3569,7 +3569,7 @@
   "explain": "Going down the group, the H–X bond gets longer and weaker, so HI is the strongest. HF is actually a weak acid despite F being the most electronegative element.",
   "why": [
    "",
-   "HF is a weak acid.",
+   "HF is a weak acid: its H–F bond is short and very strong, so it barely ionizes in water. Down the group, the H–X bond gets longer and weaker.",
    "HCl is strong, but HI is stronger.",
    "HBr is strong, but HI is stronger."
   ],
@@ -3585,7 +3585,7 @@
    "explain": "Going down the group, the H–X bond gets longer and weaker, so <b>HI</b> is the strongest. HF is actually a weak acid despite F being the most electronegative element.",
    "why": [
     "",
-    "HF is a weak acid.",
+    "HF is a weak acid: its H–F bond is short and very strong, so it barely ionizes in water. Down the group, the H–X bond gets longer and weaker.",
     "HCl is strong, but HI is stronger.",
     "HBr is strong, but HI is stronger."
    ]
@@ -3624,7 +3624,7 @@
   "why": [
    "",
    "9.3×10⁻⁵ M is [H₃O⁺] (or [HCO₃⁻]).",
-   "4.3×10⁻⁷ is Ka₁.",
+   "4.3×10⁻⁷ is Ka₁, which governs the first ionization to HCO₃⁻. CO₃²⁻ forms only in the second step, so set up the Ka₂ expression instead.",
    "Write the Ka₂ expression and look for two concentrations in it that are about equal in this solution."
   ],
   "html": {
@@ -3640,7 +3640,7 @@
    "why": [
     "",
     "9.3×10⁻⁵ M is [H₃O⁺] (or [HCO₃⁻]).",
-    "4.3×10⁻⁷ is Ka₁.",
+    "4.3×10⁻⁷ is Ka₁, which governs the first ionization to HCO₃⁻. CO₃²⁻ forms only in the second step, so set up the Ka₂ expression instead.",
     "Write the Ka₂ expression and look for two concentrations in it that are about equal in this solution."
    ]
   },
@@ -3731,7 +3731,7 @@
   "explain": "pH = −log(2.5×10⁻⁴) = 3.60; pOH = 14.00 − 3.60 = 10.40.",
   "why": [
    "",
-   "3.60 is the pH.",
+   "3.60 is the pH, −log[H₃O⁺]. The question asks for the pOH, so subtract the pH from 14.00.",
    "Find the pH from [H₃O⁺] first and check it carefully; −log(2.5×10⁻⁴) is not 3.40.",
    "Calculate the pH from [H₃O⁺] first, then use pH + pOH = 14.00."
   ],
@@ -3747,7 +3747,7 @@
    "explain": "pH = −log(2.5×10<sup>−4</sup>) = 3.60; pOH = 14.00 − 3.60 = <b>10.40</b>.",
    "why": [
     "",
-    "3.60 is the pH.",
+    "3.60 is the pH, −log[H₃O⁺]. The question asks for the pOH, so subtract the pH from 14.00.",
     "Find the pH from [H₃O⁺] first and check it carefully; −log(2.5×10⁻⁴) is not 3.40.",
     "Calculate the pH from [H₃O⁺] first, then use pH + pOH = 14.00."
    ]
@@ -4139,7 +4139,7 @@
   "why": [
    "",
    "This flips the ratio. There's more NH₄⁺ than NH₃.",
-   "4.97 is the pOH.",
+   "4.97 is the pOH, 14.00 minus the buffer's pH. An NH₃/NH₄⁺ buffer is basic, so its pH must be above 7.",
    "This puts pKb into Henderson–Hasselbalch. Convert it to the pKa of NH₄⁺ first."
   ],
   "html": {
@@ -4155,7 +4155,7 @@
    "why": [
     "",
     "This flips the ratio. There's more NH₄⁺ than NH₃.",
-    "4.97 is the pOH.",
+    "4.97 is the pOH, 14.00 minus the buffer's pH. An NH₃/NH₄⁺ buffer is basic, so its pH must be above 7.",
     "This puts pKb into Henderson–Hasselbalch. Convert it to the pKa of NH₄⁺ first."
    ]
   },
@@ -4570,8 +4570,8 @@
   "explain": "At half-equivalence pH = pK_a = 4.20, so K_a = 10^−4.20 = 6.3×10⁻⁵.",
   "why": [
    "",
-   "This is Kb, not Ka.",
-   "4.20 is the pKa, not Ka.",
+   "1.6×10⁻¹⁰ is Kw ÷ Ka, the Kb of the conjugate base. At half-equivalence, pH = pKa, so take 10 to the −4.20 for Ka.",
+   "4.20 is the pKa, a log value, not Ka itself. Ka = 10^(−pKa), a small number for a weak acid.",
    "At half-equivalence pH = pKa. Take the antilog of −pKa."
   ],
   "html": {
@@ -4586,8 +4586,8 @@
    "explain": "At half-equivalence pH = pK<sub>a</sub> = 4.20, so K<sub>a</sub> = 10<sup>−4.20</sup> = <b>6.3×10<sup>−5</sup></b>.",
    "why": [
     "",
-    "This is Kb, not Ka.",
-    "4.20 is the pKa, not Ka.",
+    "1.6×10⁻¹⁰ is Kw ÷ Ka, the Kb of the conjugate base. At half-equivalence, pH = pKa, so take 10 to the −4.20 for Ka.",
+    "4.20 is the pKa, a log value, not Ka itself. Ka = 10^(−pKa), a small number for a weak acid.",
     "At half-equivalence pH = pKa. Take the antilog of −pKa."
    ]
   },
@@ -4626,7 +4626,7 @@
    "",
    "The acetate ion makes the solution basic, so it isn't 7.",
    "This ignores dilution. The volume doubled to 50.0 mL.",
-   "5.28 is the pOH."
+   "5.28 is the pOH, from the [OH⁻] that acetate makes. A weak acid titrated with a strong base gives a basic equivalence point: subtract from 14.00."
   ],
   "html": {
    "prompt": "25.0 mL of 0.100 M CH<sub>3</sub>COOH is titrated with 0.100 M NaOH. What is the pH at the equivalence point? (K<sub>a</sub> = 1.8×10<sup>−5</sup>)",
@@ -4642,7 +4642,7 @@
     "",
     "The acetate ion makes the solution basic, so it isn't 7.",
     "This ignores dilution. The volume doubled to 50.0 mL.",
-    "5.28 is the pOH."
+    "5.28 is the pOH, from the [OH⁻] that acetate makes. A weak acid titrated with a strong base gives a basic equivalence point: subtract from 14.00."
    ]
   },
   "from": {
@@ -4842,7 +4842,7 @@
    "",
    "This flips the ratio. There's more acid than base left.",
    "3.74 is the pH only at half-equivalence (25.0 mL).",
-   "10.43 is the pOH."
+   "10.43 is 14.00 minus the pH, as if Henderson–Hasselbalch gave the pOH. Before equivalence the solution is still mostly formic acid, so it must be acidic."
   ],
   "html": {
    "prompt": "50.0 mL of 0.100 M formic acid (K<sub>a</sub> = 1.8×10<sup>−4</sup>) is titrated with 0.100 M NaOH. What is the pH after 20.0 mL of NaOH has been added?",
@@ -4858,7 +4858,7 @@
     "",
     "This flips the ratio. There's more acid than base left.",
     "3.74 is the pH only at half-equivalence (25.0 mL).",
-    "10.43 is the pOH."
+    "10.43 is 14.00 minus the pH, as if Henderson–Hasselbalch gave the pOH. Before equivalence the solution is still mostly formic acid, so it must be acidic."
    ]
   },
   "from": {
@@ -4950,7 +4950,7 @@
    "",
    "H₂CO₃ is the acid part. It neutralizes added base.",
    "There's very little CO₃²⁻ in blood.",
-   "Water isn't the buffer."
+   "Water is the solvent, not a buffer component; it is far too weak a base to take up much H⁺. The buffer's weak-base component does that job."
   ],
   "html": {
    "prompt": "Blood is buffered mainly by H<sub>2</sub>CO<sub>3</sub>/<span class=\"nw\">HCO<span class=\"ss\"><sup>−</sup><sub>3</sub></span>.</span> When lactic acid enters the blood during intense exercise, which species neutralizes most of the added H<sup>+</sup>?",
@@ -4966,7 +4966,7 @@
     "",
     "H₂CO₃ is the acid part. It neutralizes added base.",
     "There's very little CO₃²⁻ in blood.",
-    "Water isn't the buffer."
+    "Water is the solvent, not a buffer component; it is far too weak a base to take up much H⁺. The buffer's weak-base component does that job."
    ]
   },
   "from": {
@@ -5585,7 +5585,7 @@
   "why": [
    "",
    "No NH₄Cl solid forms, and Cl⁻ isn't basic enough to react.",
-   "Ksp doesn't change.",
+   "Ksp depends only on temperature, so adding NH₃ can't change it. NH₃ removes Ag⁺ as a complex ion, and the equilibrium shifts to replace it.",
    "NH₃ isn't a common ion of AgCl."
   ],
   "html": {
@@ -5601,7 +5601,7 @@
    "why": [
     "",
     "No NH₄Cl solid forms, and Cl⁻ isn't basic enough to react.",
-    "Ksp doesn't change.",
+    "Ksp depends only on temperature, so adding NH₃ can't change it. NH₃ removes Ag⁺ as a complex ion, and the equilibrium shifts to replace it.",
     "NH₃ isn't a common ion of AgCl."
    ]
   },
@@ -6070,8 +6070,8 @@
   "explain": "Third law: a perfect crystal at absolute zero has S = 0 (only one microstate). Elements at 25 °C have positive S°; only their ΔH°_f and ΔG°_f are zero.",
   "why": [
    "",
-   "This is the second law.",
-   "This is the first law.",
+   "This is the second law, which is about the entropy of the universe in spontaneous processes. The third law sets the zero point of entropy.",
+   "This is the first law (conservation of energy). The third law is about entropy, and where entropy reaches zero.",
    "Elements in their standard states have positive S°."
   ],
   "html": {
@@ -6086,8 +6086,8 @@
    "explain": "Third law: a <b>perfect crystal at absolute zero has S = 0</b> (only one microstate). Elements at 25 °C have positive S°; only their ΔH°<sub>f</sub> and ΔG°<sub>f</sub> are zero.",
    "why": [
     "",
-    "This is the second law.",
-    "This is the first law.",
+    "This is the second law, which is about the entropy of the universe in spontaneous processes. The third law sets the zero point of entropy.",
+    "This is the first law (conservation of energy). The third law is about entropy, and where entropy reaches zero.",
     "Elements in their standard states have positive S°."
    ]
   },
@@ -6628,7 +6628,7 @@
    "",
    "This subtracts RT ln Q. Add it.",
    "This ignores the exponents in Q.",
-   "This leaves out ΔG°."
+   "+28.5 kJ is only the RT ln Q term. ΔG = ΔG° + RT ln Q, so the −32.8 kJ must be added to it."
   ],
   "html": {
    "prompt": "For the reaction shown, ΔG° = −32.8 kJ at 298 K. What is ΔG when the partial pressures are those in the table?",
@@ -6644,7 +6644,7 @@
     "",
     "This subtracts RT ln Q. Add it.",
     "This ignores the exponents in Q.",
-    "This leaves out ΔG°."
+    "+28.5 kJ is only the RT ln Q term. ΔG = ΔG° + RT ln Q, so the −32.8 kJ must be added to it."
    ]
   },
   "data": {
@@ -6872,7 +6872,7 @@
   "why": [
    "",
    "This reduces the moles of gas, so entropy decreases.",
-   "Freezing lowers entropy.",
+   "Freezing turns a gas into an ordered solid, which sharply lowers entropy, so ΔS° < 0. Look for a reaction that makes more moles of gas.",
    "Forming a precipitate lowers entropy."
   ],
   "html": {
@@ -6888,7 +6888,7 @@
    "why": [
     "",
     "This reduces the moles of gas, so entropy decreases.",
-    "Freezing lowers entropy.",
+    "Freezing turns a gas into an ordered solid, which sharply lowers entropy, so ΔS° < 0. Look for a reaction that makes more moles of gas.",
     "Forming a precipitate lowers entropy."
    ]
   },
@@ -6927,7 +6927,7 @@
    "",
    "The sign is wrong. TΔS slightly beats ΔH at 1000 K.",
    "This adds TΔS. Subtract it.",
-   "This mixes kJ and J."
+   "−1.33×10⁵ comes from 131.3 − (1000)(133.6), mixing ΔH in kJ with ΔS in J K⁻¹. Convert ΔS to 0.1336 kJ K⁻¹ first."
   ],
   "html": {
    "prompt": "For the reaction shown, ΔH° = +131.3 kJ and ΔS° = +133.6 J K⁻¹. Estimate ΔG° at 1000. K.",
@@ -6943,7 +6943,7 @@
     "",
     "The sign is wrong. TΔS slightly beats ΔH at 1000 K.",
     "This adds TΔS. Subtract it.",
-    "This mixes kJ and J."
+    "−1.33×10⁵ comes from 131.3 − (1000)(133.6), mixing ΔH in kJ with ΔS in J K⁻¹. Convert ΔS to 0.1336 kJ K⁻¹ first."
    ]
   },
   "data": {
@@ -7051,7 +7051,7 @@
    "",
    "O₃ isn't oxygen's standard state.",
    "Single O atoms aren't oxygen's standard state.",
-   "H₂O is a compound."
+   "H₂O is a compound, formed from H₂ and O₂ with a large negative ΔG°f. Only elements in their standard states have ΔG°f = 0."
   ],
   "html": {
    "prompt": "Which substance has ΔG°<sub>f</sub> = 0 at 25 °C?",
@@ -7067,7 +7067,7 @@
     "",
     "O₃ isn't oxygen's standard state.",
     "Single O atoms aren't oxygen's standard state.",
-    "H₂O is a compound."
+    "H₂O is a compound, formed from H₂ and O₂ with a large negative ΔG°f. Only elements in their standard states have ΔG°f = 0."
    ]
   },
   "from": {
@@ -7220,7 +7220,7 @@
   "why": [
    "",
    "This uses 78.3 °C. Use kelvins (351.45 K).",
-   "This leaves ΔH in kJ.",
+   "0.110 comes from leaving ΔH as 38.6 kJ mol⁻¹, so the answer is really in kJ, not J. Convert to 38,600 J mol⁻¹ before dividing by T.",
    "Vaporizing increases entropy, so ΔS is positive."
   ],
   "html": {
@@ -7236,7 +7236,7 @@
    "why": [
     "",
     "This uses 78.3 °C. Use kelvins (351.45 K).",
-    "This leaves ΔH in kJ.",
+    "0.110 comes from leaving ΔH as 38.6 kJ mol⁻¹, so the answer is really in kJ, not J. Convert to 38,600 J mol⁻¹ before dividing by T.",
     "Vaporizing increases entropy, so ΔS is positive."
    ]
   },
@@ -7274,8 +7274,8 @@
   "why": [
    "",
    "Zn is oxidized, so it's the reducing agent.",
-   "Zn²⁺ is a product.",
-   "Cu is a product."
+   "Zn²⁺ is a product, formed when Zn is oxidized. The oxidizing agent is the reactant that gains electrons (is reduced).",
+   "Cu is a product of the reaction. The oxidizing agent must be a reactant: the one that gains electrons and is reduced, not the species it turns into."
   ],
   "html": {
    "prompt": "In the reaction shown, which species is the oxidizing agent?",
@@ -7290,8 +7290,8 @@
    "why": [
     "",
     "Zn is oxidized, so it's the reducing agent.",
-    "Zn²⁺ is a product.",
-    "Cu is a product."
+    "Zn²⁺ is a product, formed when Zn is oxidized. The oxidizing agent is the reactant that gains electrons (is reduced).",
+    "Cu is a product of the reaction. The oxidizing agent must be a reactant: the one that gains electrons and is reduced, not the species it turns into."
    ]
   },
   "data": {
@@ -7337,7 +7337,7 @@
    "",
    "4 is the coefficient of H₂O.",
    "5 is the coefficient of Fe.",
-   "This doubles everything."
+   "16 is double the H⁺ in a balanced equation, so these coefficients aren't the smallest whole numbers. Combine the half-reactions using the fewest electrons (5)."
   ],
   "html": {
    "prompt": "When the skeleton equation shown is balanced in acidic solution with the smallest whole-number coefficients, what is the coefficient of H<sup>+</sup>?",
@@ -7353,7 +7353,7 @@
     "",
     "4 is the coefficient of H₂O.",
     "5 is the coefficient of Fe.",
-    "This doubles everything."
+    "16 is double the H⁺ in a balanced equation, so these coefficients aren't the smallest whole numbers. Combine the half-reactions using the fewest electrons (5)."
    ]
   },
   "data": {
@@ -7515,7 +7515,7 @@
    "",
    "Cations (K⁺) move toward the cathode, not the anions.",
    "Ions don't travel through the wire.",
-   "Both K⁺ and NO₃⁻ move."
+   "Both ions in the salt bridge move: K⁺ toward the cathode and NO₃⁻ toward the anode. Each compartment needs its charge balanced as the cell runs."
   ],
   "html": {
    "prompt": "In a Zn/Cu galvanic cell with a KNO<sub>3</sub> salt bridge, which way do the <span class=\"nw\">NO<span class=\"ss\"><sup>−</sup><sub>3</sub></span></span> ions migrate as the cell operates?",
@@ -7531,7 +7531,7 @@
     "",
     "Cations (K⁺) move toward the cathode, not the anions.",
     "Ions don't travel through the wire.",
-    "Both K⁺ and NO₃⁻ move."
+    "Both ions in the salt bridge move: K⁺ toward the cathode and NO₃⁻ toward the anode. Each compartment needs its charge balanced as the cell runs."
    ]
   },
   "from": {
@@ -7569,7 +7569,7 @@
    "",
    "This adds the two potentials. Subtract anode from cathode.",
    "Don't double E° for a coefficient.",
-   "The sign is reversed."
+   "−0.46 V subtracts the cathode from the anode, which flips the sign. Use E°cell = E°cathode − E°anode, with Ag⁺ reduced and Cu oxidized."
   ],
   "html": {
    "prompt": "Using the standard reduction potentials in the table, what is E°<sub>cell</sub> for the reaction shown?",
@@ -7585,7 +7585,7 @@
     "",
     "This adds the two potentials. Subtract anode from cathode.",
     "Don't double E° for a coefficient.",
-    "The sign is reversed."
+    "−0.46 V subtracts the cathode from the anode, which flips the sign. Use E°cell = E°cathode − E°anode, with Ag⁺ reduced and Cu oxidized."
    ]
   },
   "data": {
@@ -7793,7 +7793,7 @@
    "",
    "This uses n = 1. Two electrons transfer.",
    "A positive E° gives a negative ΔG°.",
-   "This mixes J and kJ."
+   "−0.212 kJ divides by 1000 one time too many. −nFE with F in C/mol already gives joules; convert that J value to kJ only once."
   ],
   "html": {
    "prompt": "For the Daniell cell reaction shown, E°<sub>cell</sub> = +1.10 V. What is ΔG°? (F = 96,485 C mol⁻¹)",
@@ -7809,7 +7809,7 @@
     "",
     "This uses n = 1. Two electrons transfer.",
     "A positive E° gives a negative ΔG°.",
-    "This mixes J and kJ."
+    "−0.212 kJ divides by 1000 one time too many. −nFE with F in C/mol already gives joules; convert that J value to kJ only once."
    ]
   },
   "data": {
@@ -9891,7 +9891,7 @@
   "why": [
    "",
    "This forgets to square [A].",
-   "This is upside down.",
+   "1.11 is 0.40/(0.60)², reactant over product, which inverts K. K is products over reactants: [A]²/[A₂].",
    "This uses raw particle counts, not mol/L."
   ],
   "html": {
@@ -9907,7 +9907,7 @@
    "why": [
     "",
     "This forgets to square [A].",
-    "This is upside down.",
+    "1.11 is 0.40/(0.60)², reactant over product, which inverts K. K is products over reactants: [A]²/[A₂].",
     "This uses raw particle counts, not mol/L."
    ]
   },
@@ -10238,7 +10238,7 @@
   "explain": "HZ ionized 10%, HX 20%, and HY 100% (a strong acid, no HY left). Increasing strength: HZ < HX < HY. Reading the number of intact acid molecules as strength reverses the order.",
   "why": [
    "",
-   "This reverses the order.",
+   "This ranks by how many intact HA molecules remain, which is backward. A stronger acid ionizes more, so it leaves fewer intact molecules.",
    "HZ ionized less than HX, so HZ is weaker.",
    "HY ionized completely, so it's the strongest."
   ],
@@ -10254,7 +10254,7 @@
    "explain": "HZ ionized 10%, HX 20%, and HY 100% (a strong acid, no HY left). Increasing strength: <b>HZ &lt; HX &lt; HY</b>. Reading the number of intact acid molecules as strength reverses the order.",
    "why": [
     "",
-    "This reverses the order.",
+    "This ranks by how many intact HA molecules remain, which is backward. A stronger acid ionizes more, so it leaves fewer intact molecules.",
     "HZ ionized less than HX, so HZ is weaker.",
     "HY ionized completely, so it's the strongest."
    ]
@@ -10487,9 +10487,9 @@
   "explain": "[H₃O⁺] = √(3.0×10⁻⁸ × 0.050) = 3.9×10⁻⁵ M → pH = 4.41. 7.52 is the pK_a; 8.82 comes from forgetting the square root.",
   "why": [
    "",
-   "7.52 is the pKa.",
+   "7.52 is just the pKa, −log(3.0×10⁻⁸). It ignores the 0.050 M concentration; find [H₃O⁺] = √(Ka × 0.050), then take −log.",
    "This forgets the square root.",
-   "9.59 is the pOH."
+   "9.59 is 14.00 minus the right value, as if the [H₃O⁺] you found were [OH⁻]. HOCl is an acid, so its pH must be below 7."
   ],
   "html": {
    "prompt": "Hypochlorous acid, HOCl, is the active disinfectant in chlorinated pool water. What is the pH of 0.050 M HOCl? (K<sub>a</sub> = 3.0×10<sup>−8</sup>)",
@@ -10503,9 +10503,9 @@
    "explain": "[H<sub>3</sub>O<sup>+</sup>] = √(3.0×10<sup>−8</sup> × 0.050) = 3.9×10<sup>−5</sup> M → pH = <b>4.41</b>. 7.52 is the pK<sub>a</sub>; 8.82 comes from forgetting the square root.",
    "why": [
     "",
-    "7.52 is the pKa.",
+    "7.52 is just the pKa, −log(3.0×10⁻⁸). It ignores the 0.050 M concentration; find [H₃O⁺] = √(Ka × 0.050), then take −log.",
     "This forgets the square root.",
-    "9.59 is the pOH."
+    "9.59 is 14.00 minus the right value, as if the [H₃O⁺] you found were [OH⁻]. HOCl is an acid, so its pH must be below 7."
    ]
   },
   "from": {
@@ -10650,7 +10650,7 @@
   "why": [
    "",
    "9.26 is the pKa. This ignores the ratio.",
-   "This flips the ratio.",
+   "8.78 uses log(0.00500/0.0150), with acid over base, which inverts the ratio. Henderson–Hasselbalch is pKa + log([base]/[acid]), and NH₃ is the base.",
    "This uses pKb instead of pKa."
   ],
   "html": {
@@ -10666,7 +10666,7 @@
    "why": [
     "",
     "9.26 is the pKa. This ignores the ratio.",
-    "This flips the ratio.",
+    "8.78 uses log(0.00500/0.0150), with acid over base, which inverts the ratio. Henderson–Hasselbalch is pKa + log([base]/[acid]), and NH₃ is the base.",
     "This uses pKb instead of pKa."
    ]
   },
@@ -10759,7 +10759,7 @@
    "",
    "This is Ka1 (from pH 2.15).",
    "The sign of the exponent is wrong.",
-   "7.20 is pKa2, not Ka2."
+   "7.20 is pKa₂, read from the pH halfway between the equivalence points. Ka₂ itself is 10^(−pKa₂)."
   ],
   "html": {
    "prompt": "A titration curve for an unknown acid with NaOH shows two equivalence points, at 12.5 mL and 25.0 mL of base. Readings from the curve are given in the table. What is K<sub>a2</sub> of the acid?",
@@ -10775,7 +10775,7 @@
     "",
     "This is Ka1 (from pH 2.15).",
     "The sign of the exponent is wrong.",
-    "7.20 is pKa2, not Ka2."
+    "7.20 is pKa₂, read from the pH halfway between the equivalence points. Ka₂ itself is 10^(−pKa₂)."
    ]
   },
   "data": {
@@ -10886,7 +10886,7 @@
   "explain": "[OH⁻] = √(5.5×10⁻¹⁶/0.010) = 2.3×10⁻⁷ M → pOH = 6.63 → pH = 7.37. 6.63 is the pOH; 6.37 ignores [Ni²⁺] and takes √K_sp.",
   "why": [
    "",
-   "6.63 is the pOH.",
+   "6.63 is the pOH, from [OH⁻] = 2.3×10⁻⁷ M. Subtract it from 14.00 to get the pH.",
    "This ignores [Ni²⁺] and takes √Ksp.",
    "This divides by 4 as if [OH⁻] were 2s. Here [Ni²⁺] is fixed at 0.010 M, so no extra factor is needed."
   ],
@@ -10902,7 +10902,7 @@
    "explain": "[OH<sup>−</sup>] = √(5.5×10<sup>−16</sup>/0.010) = 2.3×10<sup>−7</sup> M → pOH = 6.63 → pH = <b>7.37</b>. 6.63 is the pOH; 6.37 ignores [Ni<sup>2+</sup>] and takes √K<sub>sp</sub>.",
    "why": [
     "",
-    "6.63 is the pOH.",
+    "6.63 is the pOH, from [OH⁻] = 2.3×10⁻⁷ M. Subtract it from 14.00 to get the pH.",
     "This ignores [Ni²⁺] and takes √Ksp.",
     "This divides by 4 as if [OH⁻] were 2s. Here [Ni²⁺] is fixed at 0.010 M, so no extra factor is needed."
    ]
@@ -11386,7 +11386,7 @@
    "",
    "A downward slope means ΔS° is positive.",
    "The intercept is positive, so ΔH° is positive.",
-   "This mixes up kJ and J."
+   "0.15 is ΔS° in kJ K⁻¹, because the slope is 90 kJ ÷ 600 K. Multiply by 1000 to get J K⁻¹."
   ],
   "html": {
    "prompt": "A graph of ΔG° (kJ) versus temperature (K) for a reaction is a straight line. Extended back to T = 0, it meets the axis at +90 kJ, and it crosses ΔG° = 0 at 600 K, sloping downward. Assuming ΔH° and ΔS° are constant, what are they?",
@@ -11402,7 +11402,7 @@
     "",
     "A downward slope means ΔS° is positive.",
     "The intercept is positive, so ΔH° is positive.",
-    "This mixes up kJ and J."
+    "0.15 is ΔS° in kJ K⁻¹, because the slope is 90 kJ ÷ 600 K. Multiply by 1000 to get J K⁻¹."
    ]
   },
   "from": {
@@ -11492,7 +11492,7 @@
   "explain": "Cu in the dilute side is oxidized (adds Cu²⁺); Cu²⁺ is reduced in the concentrated side (removes Cu²⁺). As the concentrations approach each other, Q → 1, so E_cell falls toward zero.",
   "why": [
    "",
-   "This is reversed.",
+   "This reverses the electrode roles. Cu is oxidized on the dilute side, adding Cu²⁺ there, and the cell runs to even out the two concentrations, so E can't increase.",
    "Copper plates out on the concentrated side, and E falls.",
    "The concentrations change as the cell runs."
   ],
@@ -11508,7 +11508,7 @@
    "explain": "Cu in the dilute side is oxidized (adds Cu<sup>2+</sup>); Cu<sup>2+</sup> is reduced in the concentrated side (removes Cu<sup>2+</sup>). As the concentrations approach each other, Q → 1, so <b>E<sub>cell</sub> falls toward zero</b>.",
    "why": [
     "",
-    "This is reversed.",
+    "This reverses the electrode roles. Cu is oxidized on the dilute side, adding Cu²⁺ there, and the cell runs to even out the two concentrations, so E can't increase.",
     "Copper plates out on the concentrated side, and E falls.",
     "The concentrations change as the cell runs."
    ]
@@ -11546,8 +11546,8 @@
   "explain": "E° = −ΔG°/(nF) = 135,000 J/(3 × 96,485 C mol⁻¹) = +0.466 V. 1.40 V uses n = 1; a negative ΔG° must give a positive E°.",
   "why": [
    "",
-   "This uses n = 1.",
-   "This uses n = 2.",
+   "1.40 V uses n = 1. The reaction transfers 3 mol of electrons, so divide by 3 × 96,485 C mol⁻¹.",
+   "0.700 V uses n = 2. The reaction transfers 3 mol of electrons, so divide by 3 × 96,485 C mol⁻¹.",
    "A negative ΔG° gives a positive E°."
   ],
   "html": {
@@ -11562,8 +11562,8 @@
    "explain": "E° = −ΔG°/(nF) = 135,000 J/(3 × 96,485 C mol⁻¹) = <b>+0.466 V</b>. 1.40 V uses n = 1; a negative ΔG° must give a positive E°.",
    "why": [
     "",
-    "This uses n = 1.",
-    "This uses n = 2.",
+    "1.40 V uses n = 1. The reaction transfers 3 mol of electrons, so divide by 3 × 96,485 C mol⁻¹.",
+    "0.700 V uses n = 2. The reaction transfers 3 mol of electrons, so divide by 3 × 96,485 C mol⁻¹.",
     "A negative ΔG° gives a positive E°."
    ]
   },
@@ -11600,7 +11600,7 @@
   "explain": "E° = (0.0592/2) log(2.5×10⁻³) = (0.0296)(−2.60) = −0.077 V. A K below 1 always means a negative E°. −0.154 V uses n = 1; −0.177 V uses ln instead of log.",
   "why": [
    "",
-   "This uses n = 1.",
+   "−0.154 V uses n = 1, which doubles the result. Two electrons transfer, so use 0.0592 V/2.",
    "K is less than 1, so E° is negative.",
    "This uses ln instead of log."
   ],
@@ -11616,7 +11616,7 @@
    "explain": "E° = (0.0592/2) log(2.5×10<sup>−3</sup>) = (0.0296)(−2.60) = <b>−0.077 V</b>. A K below 1 always means a negative E°. −0.154 V uses n = 1; −0.177 V uses ln instead of log.",
    "why": [
     "",
-    "This uses n = 1.",
+    "−0.154 V uses n = 1, which doubles the result. Two electrons transfer, so use 0.0592 V/2.",
     "K is less than 1, so E° is negative.",
     "This uses ln instead of log."
    ]
@@ -11656,7 +11656,7 @@
    "",
    "This forgets to square the H⁺ terms in Q.",
    "This uses n = 1 with the squared Q.",
-   "10.00 is the pOH."
+   "Here E = 0.0592 × pH, so dividing 0.237 V by 0.0592 gives the pH directly. Subtracting that from 14 gives the pOH, which the question did not ask for."
   ],
   "html": {
    "prompt": "A pH meter works like a cell. A hydrogen electrode (P<sub>H<sub>2</sub></sub> = 1 atm) dipped in a test solution is the anode, and a standard hydrogen electrode is the cathode. At 25 °C the cell potential is 0.237 V. Use E = E° − (0.0592 V/n) log Q. What is the pH of the test solution?",
@@ -11672,7 +11672,7 @@
     "",
     "This forgets to square the H⁺ terms in Q.",
     "This uses n = 1 with the squared Q.",
-    "10.00 is the pOH."
+    "Here E = 0.0592 × pH, so dividing 0.237 V by 0.0592 gives the pH directly. Subtracting that from 14 gives the pOH, which the question did not ask for."
    ]
   },
   "from": {
@@ -11951,7 +11951,7 @@
    "",
    "This counts the ligands, not the electrons.",
    "d³ electrons go singly into three orbitals.",
-   "Recheck: Cr³⁺ is d³."
+   "Cr³⁺ is d³, and Hund's rule puts each electron in its own t₂g orbital before any pairing. Ending with only one unpaired electron would require pairing that a d³ ion never needs."
   ],
   "html": {
    "prompt": "The octahedral ion [Cr(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup> gives chromium(III) salts their violet color in water. How many of its d electrons are unpaired?",
@@ -11967,7 +11967,7 @@
     "",
     "This counts the ligands, not the electrons.",
     "d³ electrons go singly into three orbitals.",
-    "Recheck: Cr³⁺ is d³."
+    "Cr³⁺ is d³, and Hund's rule puts each electron in its own t₂g orbital before any pairing. Ending with only one unpaired electron would require pairing that a d³ ion never needs."
    ]
   },
   "from": {
@@ -12672,7 +12672,7 @@
   "why": [
    "",
    "Solids don't appear in K.",
-   "This is upside down.",
+   "This puts the reactant gas on top. K is always products over reactants, so [H₂O]⁴ belongs in the denominator; this inverted form is K for the reverse reaction.",
    "Coefficients become exponents, not multipliers."
   ],
   "html": {
@@ -12688,7 +12688,7 @@
    "why": [
     "",
     "Solids don't appear in K.",
-    "This is upside down.",
+    "This puts the reactant gas on top. K is always products over reactants, so [H₂O]⁴ belongs in the denominator; this inverted form is K for the reverse reaction.",
     "Coefficients become exponents, not multipliers."
    ]
   },
@@ -12858,8 +12858,8 @@
   "why": [
    "",
    "0.033 M is the CO left over.",
-   "That would make K = 1.",
-   "That would make K = 16."
+   "If [CO₂] = 0.050 M, then [H₂] = 0.050 M and CO and H₂O are also 0.050 M, so Q = 1. That falls short of K = 4.0, so more product must still form.",
+   "If [CO₂] = 0.080 M, the products are 0.080 M and the reactants only 0.020 M, so Q = (0.080)²/(0.020)² = 16. That overshoots K = 4.0."
   ],
   "html": {
    "prompt": "For the reaction shown, K<sub>c</sub> = 4.0 at a certain temperature. A vessel starts with 0.100 M CO and 0.100 M H<sub>2</sub>O and no products. What is [CO<sub>2</sub>] at equilibrium?",
@@ -12874,8 +12874,8 @@
    "why": [
     "",
     "0.033 M is the CO left over.",
-    "That would make K = 1.",
-    "That would make K = 16."
+    "If [CO₂] = 0.050 M, then [H₂] = 0.050 M and CO and H₂O are also 0.050 M, so Q = 1. That falls short of K = 4.0, so more product must still form.",
+    "If [CO₂] = 0.080 M, the products are 0.080 M and the reactants only 0.020 M, so Q = (0.080)²/(0.020)² = 16. That overshoots K = 4.0."
    ]
   },
   "data": {
@@ -13066,7 +13066,7 @@
    "",
    "This uses mole fractions. Multiply by 2.00 atm first.",
    "This forgets to square P(SO₂) and P(SO₃).",
-   "This is upside down."
+   "This is the inverted ratio: the reactant pressures were put on top. K_p is products over reactants, so P(SO₃)² goes in the numerator."
   ],
   "html": {
    "prompt": "An equilibrium mixture for the reaction shown has a total pressure of 2.00 atm and the mole fractions in the table. What is K<sub>p</sub>?",
@@ -13082,7 +13082,7 @@
     "",
     "This uses mole fractions. Multiply by 2.00 atm first.",
     "This forgets to square P(SO₂) and P(SO₃).",
-    "This is upside down."
+    "This is the inverted ratio: the reactant pressures were put on top. K<sub>p</sub> is products over reactants, so P(SO₃)² goes in the numerator."
    ]
   },
   "data": {
@@ -13149,7 +13149,7 @@
    "",
    "This uses moles instead of molarity.",
    "This forgets to subtract the SO₂Cl₂ that reacted.",
-   "This is upside down."
+   "This is the inverted ratio, with SO₂Cl₂ on top. K_c puts the products, [SO₂][Cl₂], in the numerator and the reactant SO₂Cl₂ in the denominator."
   ],
   "html": {
    "prompt": "0.500 mol SO<sub>2</sub>Cl<sub>2</sub> is placed in a 2.00 L flask and reacts as shown. At equilibrium the flask contains 0.100 mol Cl<sub>2</sub>. What is K<sub>c</sub>?",
@@ -13165,7 +13165,7 @@
     "",
     "This uses moles instead of molarity.",
     "This forgets to subtract the SO₂Cl₂ that reacted.",
-    "This is upside down."
+    "This is the inverted ratio, with SO₂Cl₂ on top. K<sub>c</sub> puts the products, [SO₂][Cl₂], in the numerator and the reactant SO₂Cl₂ in the denominator."
    ]
   },
   "data": {
@@ -13271,7 +13271,7 @@
   "explain": "RT = 0.08206 × 500 = 41, so K_p > K_c only when Δn(gas) is positive. Only PCl₅ → PCl₃ + Cl₂ has Δn = +1; HI has Δn = 0 (K_p = K_c) and the other two have negative Δn.",
   "why": [
    "",
-   "Δn = 0, so Kp = Kc.",
+   "K_p = K_c(RT)^Δn. Here 2 mol of gas form 2 mol of gas, so Δn = 0, (RT)⁰ = 1, and K_p equals K_c instead of exceeding it.",
    "Δn is negative, so Kp is smaller than Kc.",
    "Δn is negative, so Kp is smaller than Kc."
   ],
@@ -13287,7 +13287,7 @@
    "explain": "RT = 0.08206 × 500 = 41, so K<sub>p</sub> &gt; K<sub>c</sub> only when Δn(gas) is positive. Only <b>PCl<sub>5</sub> → PCl<sub>3</sub> + Cl<sub>2</sub></b> has Δn = +1; HI has Δn = 0 (K<sub>p</sub> = K<sub>c</sub>) and the other two have negative Δn.",
    "why": [
     "",
-    "Δn = 0, so Kp = Kc.",
+    "K<sub>p</sub> = K<sub>c</sub>(RT)<sup>Δn</sup>. Here 2 mol of gas form 2 mol of gas, so Δn = 0, (RT)⁰ = 1, and K<sub>p</sub> equals K<sub>c</sub> instead of exceeding it.",
     "Δn is negative, so Kp is smaller than Kc.",
     "Δn is negative, so Kp is smaller than Kc."
    ]
@@ -13442,7 +13442,7 @@
   "why": [
    "",
    "This treats the acid as strong.",
-   "4.77 is the pKa.",
+   "4.77 is the pK_a. pH = pK_a only when [HA] = [A⁻], as in a half-neutralized buffer; a solution of the acid alone is barely ionized, so its pH is much lower.",
    "This forgets the square root."
   ],
   "html": {
@@ -13458,7 +13458,7 @@
    "why": [
     "",
     "This treats the acid as strong.",
-    "4.77 is the pKa.",
+    "4.77 is the pK<sub>a</sub>. pH = pK<sub>a</sub> only when [HA] = [A⁻], as in a half-neutralized buffer; a solution of the acid alone is barely ionized, so its pH is much lower.",
     "This forgets the square root."
    ]
   },
@@ -13495,7 +13495,7 @@
   "explain": "K_b = 1.0×10⁻¹⁴/5.6×10⁻⁴ = 1.8×10⁻¹¹; [OH⁻] = √(1.8×10⁻¹¹ × 0.30) = 2.3×10⁻⁶ M; pOH = 5.64, pH = 8.36. 5.64 is the pOH; 1.89 uses K_a as if the salt were an acid.",
   "why": [
    "",
-   "5.64 is the pOH.",
+   "5.64 is the pOH, from −log[OH⁻]. Nitrite is a weak base, so its solution must have pH above 7; subtract the pOH from 14 to finish.",
    "This uses Ka as if the salt were an acid.",
    "Nitrite is a weak base, so the solution isn't neutral."
   ],
@@ -13511,7 +13511,7 @@
    "explain": "K<sub>b</sub> = 1.0×10<sup>−14</sup>/5.6×10<sup>−4</sup> = 1.8×10<sup>−11</sup>; [OH<sup>−</sup>] = √(1.8×10<sup>−11</sup> × 0.30) = 2.3×10<sup>−6</sup> M; pOH = 5.64, pH = <b>8.36</b>. 5.64 is the pOH; 1.89 uses K<sub>a</sub> as if the salt were an acid.",
    "why": [
     "",
-    "5.64 is the pOH.",
+    "5.64 is the pOH, from −log[OH⁻]. Nitrite is a weak base, so its solution must have pH above 7; subtract the pOH from 14 to finish.",
     "This uses Ka as if the salt were an acid.",
     "Nitrite is a weak base, so the solution isn't neutral."
    ]
@@ -13658,7 +13658,7 @@
   "why": [
    "",
    "NH₃ donates the electron pair.",
-   "BF₃ has no H to donate.",
+   "A Brønsted–Lowry acid must donate H⁺, but BF₃ contains no hydrogen at all. Its boron accepts a lone pair instead, which is a Lewis description.",
    "BF₃ accepts the electron pair."
   ],
   "html": {
@@ -13674,7 +13674,7 @@
    "why": [
     "",
     "NH₃ donates the electron pair.",
-    "BF₃ has no H to donate.",
+    "A Brønsted–Lowry acid must donate H⁺, but BF₃ contains no hydrogen at all. Its boron accepts a lone pair instead, which is a Lewis description.",
     "BF₃ accepts the electron pair."
    ]
   },
@@ -13719,9 +13719,9 @@
   "explain": "CO²⁻₃ is the conjugate base of the weak acid HCO⁻₃, so K₂CO₃ is basic. NH⁺₄ and hydrated Fe³⁺ are acidic; NaClO₄ is neutral (ions from a strong base and a strong acid).",
   "why": [
    "",
-   "NH₄⁺ is acidic.",
+   "NH₄⁺ is the conjugate acid of the weak base NH₃, so it donates H⁺ to water and makes the solution acidic. Red litmus would stay red.",
    "Its ions come from a strong acid and a strong base, so it's neutral.",
-   "Hydrated Fe³⁺ is acidic."
+   "Hydrated Fe³⁺ is small and highly charged, so it pulls on its water ligands until they release H⁺. The solution turns acidic, and red litmus stays red."
   ],
   "html": {
    "prompt": "A student tests four 0.10 M salt solutions with red litmus paper. Which one turns the paper blue?",
@@ -13735,9 +13735,9 @@
    "explain": "<span class=\"nw\">CO<span class=\"ss\"><sup>2−</sup><sub>3</sub></span></span> is the conjugate base of the weak acid <span class=\"nw\">HCO<span class=\"ss\"><sup>−</sup><sub>3</sub></span>,</span> so <b>K<sub>2</sub>CO<sub>3</sub></b> is basic. <span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>4</sub></span></span> and hydrated Fe<sup>3+</sup> are acidic; NaClO<sub>4</sub> is neutral (ions from a strong base and a strong acid).",
    "why": [
     "",
-    "NH₄⁺ is acidic.",
+    "NH₄⁺ is the conjugate acid of the weak base NH₃, so it donates H⁺ to water and makes the solution acidic. Red litmus would stay red.",
     "Its ions come from a strong acid and a strong base, so it's neutral.",
-    "Hydrated Fe³⁺ is acidic."
+    "Hydrated Fe³⁺ is small and highly charged, so it pulls on its water ligands until they release H⁺. The solution turns acidic, and red litmus stays red."
    ]
   },
   "from": {
@@ -13773,7 +13773,7 @@
   "explain": "Order the parent acids from strongest to weakest: HCl > HF > CH₃COOH > HCN. Their conjugate bases go the opposite way: Cl⁻ < F⁻ < CH₃COO⁻ < CN⁻. The reversed order ranks the acids, not the bases.",
   "why": [
    "",
-   "This reverses the order.",
+   "This lists the anions by the strength of their parent acids. A stronger acid has a weaker conjugate base, so the base with the strongest parent acid belongs first, not last.",
    "F⁻ is a stronger base than Cl⁻.",
    "CN⁻ comes from the weakest acid, so it's the strongest base."
   ],
@@ -13789,7 +13789,7 @@
    "explain": "Order the parent acids from strongest to weakest: HCl &gt; HF &gt; CH<sub>3</sub>COOH &gt; HCN. Their conjugate bases go the opposite way: <b>Cl<sup>−</sup> &lt; F<sup>−</sup> &lt; CH<sub>3</sub>COO<sup>−</sup> &lt; CN<sup>−</sup></b>. The reversed order ranks the acids, not the bases.",
    "why": [
     "",
-    "This reverses the order.",
+    "This lists the anions by the strength of their parent acids. A stronger acid has a weaker conjugate base, so the base with the strongest parent acid belongs first, not last.",
     "F⁻ is a stronger base than Cl⁻.",
     "CN⁻ comes from the weakest acid, so it's the strongest base."
    ]
@@ -13910,7 +13910,7 @@
   "explain": "pK_a = 4.10; pH = 4.10 + log(0.15/0.25) = 4.10 − 0.22 = 3.88. 4.32 inverts the ratio; with more acid than conjugate base, the pH must fall below pK_a.",
   "why": [
    "",
-   "This flips the ratio.",
+   "This uses log(0.25/0.15), putting the acid on top. Henderson–Hasselbalch is log([base]/[acid]); with more acid than base, the pH must land below pK_a = 4.10.",
    "4.10 is the pKa. This ignores the ratio.",
    "This is a pOH-style number. The solution is acidic."
   ],
@@ -13926,7 +13926,7 @@
    "explain": "pK<sub>a</sub> = 4.10; pH = 4.10 + log(0.15/0.25) = 4.10 − 0.22 = <b>3.88</b>. 4.32 inverts the ratio; with more acid than conjugate base, the pH must fall below pK<sub>a</sub>.",
    "why": [
     "",
-    "This flips the ratio.",
+    "This uses log(0.25/0.15), putting the acid on top. Henderson–Hasselbalch is log([base]/[acid]); with more acid than base, the pH must land below pK<sub>a</sub> = 4.10.",
     "4.10 is the pKa. This ignores the ratio.",
     "This is a pOH-style number. The solution is acidic."
    ]
@@ -13965,7 +13965,7 @@
   "why": [
    "",
    "9.38 is the pH before the HCl was added.",
-   "9.26 is the pKa.",
+   "9.26 is the pK_a of NH₄⁺, the pH only when NH₃ and NH₄⁺ are equal. After HCl converts 0.050 mol NH₃ to NH₄⁺, the acid form is in excess, so the pH is below pK_a.",
    "Recheck: NH₃ drops to 0.150 mol and NH₄⁺ rises to 0.200 mol."
   ],
   "html": {
@@ -13981,7 +13981,7 @@
    "why": [
     "",
     "9.38 is the pH before the HCl was added.",
-    "9.26 is the pKa.",
+    "9.26 is the pK<sub>a</sub> of NH₄⁺, the pH only when NH₃ and NH₄⁺ are equal. After HCl converts 0.050 mol NH₃ to NH₄⁺, the acid form is in excess, so the pH is below pK<sub>a</sub>.",
     "Recheck: NH₃ drops to 0.150 mol and NH₄⁺ rises to 0.200 mol."
    ]
   },
@@ -14073,7 +14073,7 @@
   "why": [
    "",
    "3.52 is the half-equivalence pH.",
-   "This flips the ratio.",
+   "This uses log(2.40/1.20), putting the acid on top. Henderson–Hasselbalch is log([base]/[acid]); with more acid left than conjugate base, the pH is below pK_a = 3.52.",
    "Recheck: 2.40 mmol acid and 1.20 mmol base remain."
   ],
   "html": {
@@ -14089,7 +14089,7 @@
    "why": [
     "",
     "3.52 is the half-equivalence pH.",
-    "This flips the ratio.",
+    "This uses log(2.40/1.20), putting the acid on top. Henderson–Hasselbalch is log([base]/[acid]); with more acid left than conjugate base, the pH is below pK<sub>a</sub> = 3.52.",
     "Recheck: 2.40 mmol acid and 1.20 mmol base remain."
    ]
   },
@@ -14344,7 +14344,7 @@
    "",
    "This forgets to cube the 3.",
    "This treats phosphate as 3s too.",
-   "4s³ is for a 1:2 salt."
+   "4s³ fits a salt that gives one cation and two anions, like PbF₂. Ag₃PO₄ releases 3 Ag⁺ and 1 PO₄³⁻, so K_sp = (3s)³(s), a fourth-power expression."
   ],
   "html": {
    "prompt": "Silver phosphate, Ag<sub>3</sub>PO<sub>4</sub>, has molar solubility s in pure water. Which expression gives K<sub>sp</sub>?",
@@ -14360,7 +14360,7 @@
     "",
     "This forgets to cube the 3.",
     "This treats phosphate as 3s too.",
-    "4s³ is for a 1:2 salt."
+    "4s³ fits a salt that gives one cation and two anions, like PbF₂. Ag₃PO₄ releases 3 Ag⁺ and 1 PO₄³⁻, so K<sub>sp</sub> = (3s)³(s), a fourth-power expression."
    ]
   },
   "from": {
@@ -14398,7 +14398,7 @@
    "",
    "This forgets that [F⁻] = 2s.",
    "This doubles [F⁻] but forgets to square it.",
-   "This is s, not Ksp."
+   "2.6×10⁻³ M is the molar solubility s (0.64 g ÷ 245.2 g/mol). K_sp needs the ion concentrations, [Pb²⁺] = s and [F⁻] = 2s, plugged into [Pb²⁺][F⁻]²."
   ],
   "html": {
    "prompt": "A saturated solution of lead(II) fluoride, PbF<sub>2</sub> (245.2 g mol⁻¹), contains 0.64 g of dissolved PbF<sub>2</sub> per liter. What is K<sub>sp</sub>?",
@@ -14414,7 +14414,7 @@
     "",
     "This forgets that [F⁻] = 2s.",
     "This doubles [F⁻] but forgets to square it.",
-    "This is s, not Ksp."
+    "2.6×10⁻³ M is the molar solubility s (0.64 g ÷ 245.2 g/mol). K<sub>sp</sub> needs the ion concentrations, [Pb²⁺] = s and [F⁻] = 2s, plugged into [Pb²⁺][F⁻]²."
    ]
   },
   "from": {
@@ -14961,7 +14961,7 @@
   "explain": "T = (30,900 J mol⁻¹)/(93.0 J mol⁻¹·K⁻¹) = 332 K (59 °C). 0.332 K comes from leaving ΔH in kJ while ΔS is in J. 59 is the Celsius value, not kelvins.",
   "why": [
    "",
-   "This mixes kJ with J.",
+   "This divides 30.9 kJ by 93.0 J/K without converting units. ΔH and ΔS must both be in joules (or both in kJ) before T = ΔH/ΔS gives kelvins.",
    "59 is in °C, not kelvins.",
    "Recheck: T = ΔH ÷ ΔS, with both in J."
   ],
@@ -14977,7 +14977,7 @@
    "explain": "T = (30,900 J mol⁻¹)/(93.0 J mol⁻¹·K⁻¹) = <b>332 K</b> (59 °C). 0.332 K comes from leaving ΔH in kJ while ΔS is in J. 59 is the Celsius value, not kelvins.",
    "why": [
     "",
-    "This mixes kJ with J.",
+    "This divides 30.9 kJ by 93.0 J/K without converting units. ΔH and ΔS must both be in joules (or both in kJ) before T = ΔH/ΔS gives kelvins.",
     "59 is in °C, not kelvins.",
     "Recheck: T = ΔH ÷ ΔS, with both in J."
    ]
@@ -15078,8 +15078,8 @@
   "why": [
    "",
    "The sign was dropped. A positive ΔG° means K is less than 1.",
-   "This uses 298 K.",
-   "This leaves ΔG° in kJ."
+   "This plugs in T = 298 K, the usual table temperature. The question sets T = 500. K, so ln K = −ΔG°/(RT) must use 500. K.",
+   "This divides 12.0 kJ by R in J mol⁻¹ K⁻¹, so ln K comes out nearly zero. Convert ΔG° to 12,000 J first so the units match R."
   ],
   "html": {
    "prompt": "At 500. K the standard free-energy change for a gas-phase reaction is +12.0 kJ. Calculate K at that temperature. (R = 8.314 J mol⁻¹·K⁻¹)",
@@ -15094,8 +15094,8 @@
    "why": [
     "",
     "The sign was dropped. A positive ΔG° means K is less than 1.",
-    "This uses 298 K.",
-    "This leaves ΔG° in kJ."
+    "This plugs in T = 298 K, the usual table temperature. The question sets T = 500. K, so ln K = −ΔG°/(RT) must use 500. K.",
+    "This divides 12.0 kJ by R in J mol⁻¹ K⁻¹, so ln K comes out nearly zero. Convert ΔG° to 12,000 J first so the units match R."
    ]
   },
   "from": {
@@ -15132,8 +15132,8 @@
   "why": [
    "",
    "This adds TΔS°. Subtract it.",
-   "This is ΔH° alone.",
-   "This mixes kJ and J."
+   "This is ΔH° by itself. ΔG° = ΔH° − TΔS°, and ΔS° here is negative (gas moles drop), so the −TΔS° term makes ΔG° less negative than ΔH°.",
+   "This uses ΔS° = −188.0 J K⁻¹ with ΔH° in kJ, so TΔS° is 1000 times too big. Convert ΔS° to −0.1880 kJ K⁻¹ before computing ΔH° − TΔS°."
   ],
   "html": {
    "prompt": "For the reaction shown at 298 K, use the data in the table to find ΔG°.",
@@ -15148,8 +15148,8 @@
    "why": [
     "",
     "This adds TΔS°. Subtract it.",
-    "This is ΔH° alone.",
-    "This mixes kJ and J."
+    "This is ΔH° by itself. ΔG° = ΔH° − TΔS°, and ΔS° here is negative (gas moles drop), so the −TΔS° term makes ΔG° less negative than ΔH°.",
+    "This uses ΔS° = −188.0 J K⁻¹ with ΔH° in kJ, so TΔS° is 1000 times too big. Convert ΔS° to −0.1880 kJ K⁻¹ before computing ΔH° − TΔS°."
    ]
   },
   "data": {
@@ -15389,8 +15389,8 @@
   "why": [
    "",
    "Fe₂O₃ gains electrons, so it's the oxidizing agent.",
-   "Fe is a product.",
-   "Al₂O₃ is a product."
+   "Fe is a product, formed when Fe³⁺ in Fe₂O₃ gains electrons. The reducing agent is a reactant that gives up electrons, and Fe's gain of electrons is reduction anyway.",
+   "Al₂O₃ is a product, and its Al is already at +3, so it is not losing electrons. The reducing agent must be a reactant that is oxidized during the reaction."
   ],
   "html": {
    "prompt": "Thermite welding of railroad rails uses the reaction shown. Which substance acts as the reducing agent?",
@@ -15405,8 +15405,8 @@
    "why": [
     "",
     "Fe₂O₃ gains electrons, so it's the oxidizing agent.",
-    "Fe is a product.",
-    "Al₂O₃ is a product."
+    "Fe is a product, formed when Fe³⁺ in Fe₂O₃ gains electrons. The reducing agent is a reactant that gives up electrons, and Fe's gain of electrons is reduction anyway.",
+    "Al₂O₃ is a product, and its Al is already at +3, so it is not losing electrons. The reducing agent must be a reactant that is oxidized during the reaction."
    ]
   },
   "data": {
@@ -15612,8 +15612,8 @@
   "explain": "E° = 0.80 − (−0.74) = 1.54 V; n = 3 (Cr → Cr³⁺). ΔG° = −(3)(96,485)(1.54) = −4.46×10⁵ J = −446 kJ. −149 kJ uses n = 1 (one Ag⁺); +446 kJ drops the minus sign in ΔG° = −nFE°, but a galvanic cell must have ΔG° < 0.",
   "why": [
    "",
-   "This uses n = 1.",
-   "This uses n = 2.",
+   "This uses n = 1, counting one Ag⁺. But each Cr atom loses 3 electrons and three Ag⁺ each gain one, so 3 mol of electrons move per reaction as written.",
+   "This uses n = 2, but neither half-reaction involves two electrons. Cr → Cr³⁺ loses 3 electrons, and three Ag⁺ each gain one, so n = 3.",
    "A galvanic cell has a negative ΔG°."
   ],
   "html": {
@@ -15628,8 +15628,8 @@
    "explain": "E° = 0.80 − (−0.74) = 1.54 V; n = 3 (Cr → Cr<sup>3+</sup>). ΔG° = −(3)(96,485)(1.54) = −4.46×10<sup>5</sup> J = <b>−446 kJ</b>. −149 kJ uses n = 1 (one Ag<sup>+</sup>); +446 kJ drops the minus sign in ΔG° = −nFE°, but a galvanic cell must have ΔG° &lt; 0.",
    "why": [
     "",
-    "This uses n = 1.",
-    "This uses n = 2.",
+    "This uses n = 1, counting one Ag⁺. But each Cr atom loses 3 electrons and three Ag⁺ each gain one, so 3 mol of electrons move per reaction as written.",
+    "This uses n = 2, but neither half-reaction involves two electrons. Cr → Cr³⁺ loses 3 electrons, and three Ag⁺ each gain one, so n = 3.",
     "A galvanic cell has a negative ΔG°."
    ]
   },
@@ -15691,7 +15691,7 @@
   "explain": "log K = (2)(0.15)/0.0592 = 5.07, so K = 10^5.07 = 1.2×10⁵. 3.4×10² uses n = 1; 1.6×10² uses e^x instead of 10^x. A positive E° must give K > 1.",
   "why": [
    "",
-   "This uses n = 1.",
+   "This uses n = 1, giving log K = 0.15/0.0592 = 2.53. The question says n = 2, which doubles log K, so K should be the square of this value.",
    "This uses e^x instead of 10^x.",
    "A positive E° gives K greater than 1."
   ],
@@ -15707,7 +15707,7 @@
    "explain": "log K = (2)(0.15)/0.0592 = 5.07, so K = 10<sup>5.07</sup> = <b>1.2×10<sup>5</sup></b>. 3.4×10<sup>2</sup> uses n = 1; 1.6×10<sup>2</sup> uses e<sup>x</sup> instead of 10<sup>x</sup>. A positive E° must give K &gt; 1.",
    "why": [
     "",
-    "This uses n = 1.",
+    "This uses n = 1, giving log K = 0.15/0.0592 = 2.53. The question says n = 2, which doubles log K, so K should be the square of this value.",
     "This uses e^x instead of 10^x.",
     "A positive E° gives K greater than 1."
    ]
@@ -15745,8 +15745,8 @@
   "explain": "E° = 0.34 − (−0.40) = 0.74 V. Q = 0.50/0.0050 = 100; E = 0.74 − (0.0592/2)(2) = 0.68 V. 0.80 V inverts Q; 0.62 V uses n = 1; 0.74 V ignores the concentrations.",
   "why": [
    "",
-   "This flips Q.",
-   "This uses n = 1.",
+   "This uses Q = 0.0050/0.50 = 0.010, putting the cathode ion on top. Q is [product ion]/[reactant ion] = [Cd²⁺]/[Cu²⁺]; a large Q should lower E below E°, not raise it.",
+   "This uses n = 1, doubling the concentration correction to 0.0592 × 2. Cd → Cd²⁺ and Cu²⁺ → Cu each transfer 2 electrons, so n = 2.",
    "This ignores the concentrations."
   ],
   "html": {
@@ -15761,8 +15761,8 @@
    "explain": "E° = 0.34 − (−0.40) = 0.74 V. Q = 0.50/0.0050 = 100; E = 0.74 − (0.0592/2)(2) = <b>0.68 V</b>. 0.80 V inverts Q; 0.62 V uses n = 1; 0.74 V ignores the concentrations.",
    "why": [
     "",
-    "This flips Q.",
-    "This uses n = 1.",
+    "This uses Q = 0.0050/0.50 = 0.010, putting the cathode ion on top. Q is [product ion]/[reactant ion] = [Cd²⁺]/[Cu²⁺]; a large Q should lower E below E°, not raise it.",
+    "This uses n = 1, doubling the concentration correction to 0.0592 × 2. Cd → Cd²⁺ and Cu²⁺ → Cu each transfer 2 electrons, so n = 2.",
     "This ignores the concentrations."
    ]
   },
@@ -15930,7 +15930,7 @@
    "",
    "This forgets to cancel the water used in the oxidation half.",
    "Water ends up on the product side.",
-   "8 is the number of H⁺."
+   "8 is the coefficient of H⁺, which is the species on the reactant side. The question asks about water; count the H₂O left after canceling the water in both half-reactions."
   ],
   "html": {
    "prompt": "In acid, dichromate converts sulfite into sulfate and is itself reduced to Cr<sup>3+</sup>. After the half-reaction method gives the overall net ionic equation in lowest whole numbers, how many water molecules does it contain, and on which side?",
@@ -15946,7 +15946,7 @@
     "",
     "This forgets to cancel the water used in the oxidation half.",
     "Water ends up on the product side.",
-    "8 is the number of H⁺."
+    "8 is the coefficient of H⁺, which is the species on the reactant side. The question asks about water; count the H₂O left after canceling the water in both half-reactions."
    ]
   },
   "from": {
@@ -20481,7 +20481,7 @@
    "",
    "This forgets to square [AB].",
    "Recheck: K = [AB]² ÷ ([A₂][B₂]).",
-   "This is upside down."
+   "This is 4/36, reactants over products. K_c puts the product AB (squared) on top and A₂ × B₂ on the bottom."
   ],
   "html": {
    "prompt": "The picture shows a 1.0 L container at equilibrium for the reaction shown. What is K<sub>c</sub>?",
@@ -20497,7 +20497,7 @@
     "",
     "This forgets to square [AB].",
     "Recheck: K = [AB]² ÷ ([A₂][B₂]).",
-    "This is upside down."
+    "This is 4/36, reactants over products. K<sub>c</sub> puts the product AB (squared) on top and A₂ × B₂ on the bottom."
    ]
   },
   "data": {
@@ -20810,7 +20810,7 @@
    "",
    "Q is less than K, so it runs to the right.",
    "This forgets to square [A].",
-   "This is upside down."
+   "0.40 is [A]²/[A₂], reactants over products. Q has the same form as K, with A₂ on top; and even Q = 0.40 is below K, which would not push the reaction left."
   ],
   "html": {
    "prompt": "For the reaction shown, K<sub>c</sub> = 6.0 at this temperature. The box shows the mixture at one moment; each particle represents 0.10 mol in a 1.0 L container. Which statement is true?",
@@ -20826,7 +20826,7 @@
     "",
     "Q is less than K, so it runs to the right.",
     "This forgets to square [A].",
-    "This is upside down."
+    "0.40 is [A]²/[A₂], reactants over products. Q has the same form as K, with A₂ on top; and even Q = 0.40 is below K, which would not push the reaction left."
    ]
   },
   "data": {
@@ -21185,7 +21185,7 @@
   "why": [
    "",
    "This forgets to square [B].",
-   "This is upside down.",
+   "This is [A]/[B]² = 0.40/1.44, reactants over products. K_c puts the product B, squared, in the numerator and A in the denominator.",
    "1.2 M is just the equilibrium [B]. Write the full Kc expression from the balanced equation and include both species."
   ],
   "html": {
@@ -21201,7 +21201,7 @@
    "why": [
     "",
     "This forgets to square [B].",
-    "This is upside down.",
+    "This is [A]/[B]² = 0.40/1.44, reactants over products. K<sub>c</sub> puts the product B, squared, in the numerator and A in the denominator.",
     "1.2 M is just the equilibrium [B]. Write the full Kc expression from the balanced equation and include both species."
    ]
   },
@@ -22992,9 +22992,9 @@
   "explain": "Box II has comparable amounts of the weak acid HA and its conjugate base A⁻, so it can neutralize both added acid and added base. Box I is a strong acid (HCl/Cl⁻), box III is a weak acid alone (almost no A⁻), and box IV is a base with excess OH⁻.",
   "why": [
    "",
-   "Box I is a strong acid.",
+   "Box I holds H⁺ and Cl⁻ from HCl, a strong acid. Cl⁻ is too weak a base to absorb added H⁺, and there is no weak acid to neutralize added OH⁻, so it is not a buffer.",
    "Box III is a weak acid with almost no A⁻.",
-   "Box IV has excess OH⁻."
+   "Box IV has excess OH⁻, a strong base. It can neutralize added acid but has nothing to absorb added base, so its pH would jump; a buffer needs a weak acid and its conjugate base."
   ],
   "html": {
    "prompt": "Each box shows an aqueous solution (water and Na<sup>+</sup> ions omitted). Which box represents a buffer?",
@@ -23008,9 +23008,9 @@
    "explain": "<b>Box II</b> has comparable amounts of the weak acid HA and its conjugate base A<sup>−</sup>, so it can neutralize both added acid and added base. Box I is a strong acid (HCl/Cl<sup>−</sup>), box III is a weak acid alone (almost no A<sup>−</sup>), and box IV is a base with excess OH<sup>−</sup>.",
    "why": [
     "",
-    "Box I is a strong acid.",
+    "Box I holds H⁺ and Cl⁻ from HCl, a strong acid. Cl⁻ is too weak a base to absorb added H⁺, and there is no weak acid to neutralize added OH⁻, so it is not a buffer.",
     "Box III is a weak acid with almost no A⁻.",
-    "Box IV has excess OH⁻."
+    "Box IV has excess OH⁻, a strong base. It can neutralize added acid but has nothing to absorb added base, so its pH would jump; a buffer needs a weak acid and its conjugate base."
    ]
   },
   "data": {
@@ -26141,7 +26141,7 @@
   "explain": "Equivalence points are at 25.0 and 50.0 mL. Halfway between them (37.5 mL), [HA⁻] = [A²⁻], so pH = pK_a2 = 8.0 and K_a2 = 1.0×10⁻⁸. 1.0×10⁻⁴ is K_a1 (pH at 12.5 mL); 1.0×10⁻⁶ comes from the first equivalence point (pH 6.0).",
   "why": [
    "",
-   "This is Ka1.",
+   "1.0×10⁻⁴ is K_a1, read at pH 4 halfway to the FIRST equivalence point (12.5 mL). K_a2 comes from the pH halfway between the first and second equivalence points.",
    "This uses the first equivalence point.",
    "pH 10 is near the second equivalence point. Ka2 comes from the pH halfway between the two equivalence points."
   ],
@@ -26157,7 +26157,7 @@
    "explain": "Equivalence points are at 25.0 and 50.0 mL. Halfway between them (37.5 mL), [HA<sup>−</sup>] = [A<sup>2−</sup>], so pH = pK<sub>a2</sub> = 8.0 and K<sub>a2</sub> = <b>1.0×10<sup>−8</sup></b>. 1.0×10<sup>−4</sup> is K<sub>a1</sub> (pH at 12.5 mL); 1.0×10<sup>−6</sup> comes from the first equivalence point (pH 6.0).",
    "why": [
     "",
-    "This is Ka1.",
+    "1.0×10⁻⁴ is K<sub>a1</sub>, read at pH 4 halfway to the FIRST equivalence point (12.5 mL). K<sub>a2</sub> comes from the pH halfway between the first and second equivalence points.",
     "This uses the first equivalence point.",
     "pH 10 is near the second equivalence point. Ka2 comes from the pH halfway between the two equivalence points."
    ]
@@ -26922,7 +26922,7 @@
   "explain": "MX: s = 3.0×10⁻⁴ M, K_sp = (3.0×10⁻⁴)² = 9.0×10⁻⁸. NY₂: s = [N²⁺] = 4.0×10⁻⁴ M, K_sp = (4.0×10⁻⁴)(8.0×10⁻⁴)² = 2.6×10⁻¹⁰. So NY₂ dissolves more but has the smaller K_sp; K_sp values can only rank solubility for salts with the same ion ratio.",
   "why": [
    "",
-   "NY₂ has the smaller Ksp.",
+   "Compute both: K_sp of NY₂ = (4.0×10⁻⁴)(8.0×10⁻⁴)² = 2.6×10⁻¹⁰, while K_sp of MX = (3.0×10⁻⁴)² = 9.0×10⁻⁸. Higher molar solubility doesn't guarantee a larger K_sp when ion ratios differ.",
    "NY₂ has the greater molar solubility.",
    "NY₂ has the greater molar solubility."
   ],
@@ -26938,7 +26938,7 @@
    "explain": "MX: s = 3.0×10<sup>−4</sup> M, K<sub>sp</sub> = (3.0×10<sup>−4</sup>)<sup>2</sup> = 9.0×10<sup>−8</sup>. NY<sub>2</sub>: s = [N<sup>2+</sup>] = 4.0×10<sup>−4</sup> M, K<sub>sp</sub> = (4.0×10<sup>−4</sup>)(8.0×10<sup>−4</sup>)<sup>2</sup> = 2.6×10<sup>−10</sup>. So <b>NY<sub>2</sub> dissolves more but has the smaller K<sub>sp</sub></b>; K<sub>sp</sub> values can only rank solubility for salts with the same ion ratio.",
    "why": [
     "",
-    "NY₂ has the smaller Ksp.",
+    "Compute both: K<sub>sp</sub> of NY₂ = (4.0×10⁻⁴)(8.0×10⁻⁴)² = 2.6×10⁻¹⁰, while K<sub>sp</sub> of MX = (3.0×10⁻⁴)² = 9.0×10⁻⁸. Higher molar solubility doesn't guarantee a larger K<sub>sp</sub> when ion ratios differ.",
     "NY₂ has the greater molar solubility.",
     "NY₂ has the greater molar solubility."
    ]
@@ -28223,7 +28223,7 @@
   "explain": "Mn goes from +7 to +2 (5 e⁻ gained); each C₂O²⁻₄ → 2 CO₂ loses 2 e⁻ (C +3 → +4). The LCM is 10: 2 MnO⁻₄ + 5 C₂O²⁻₄ + 16 H⁺ → 2 Mn²⁺ + 10 CO₂ + 8 H₂O, so 10 e⁻ are transferred. 5 is the count for one Mn only; 16 is the H⁺ coefficient.",
   "why": [
    "",
-   "5 is for one Mn only.",
+   "5 electrons is what one MnO₄⁻ gains, but each C₂O₄²⁻ loses 2. Electrons lost must equal electrons gained, so scale both halves to their lowest common multiple.",
    "2 is for one oxalate only.",
    "16 is the H⁺ coefficient."
   ],
@@ -28239,7 +28239,7 @@
    "explain": "Mn goes from +7 to +2 (5 e<sup>−</sup> gained); each <span class=\"nw\">C<sub>2</sub>O<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span> → 2 CO<sub>2</sub> loses 2 e<sup>−</sup> (C +3 → +4). The LCM is 10: 2 <span class=\"nw\">MnO<span class=\"ss\"><sup>−</sup><sub>4</sub></span></span> + 5 <span class=\"nw\">C<sub>2</sub>O<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span> + 16 H<sup>+</sup> → 2 Mn<sup>2+</sup> + 10 CO<sub>2</sub> + 8 H<sub>2</sub>O, so <b>10 e<sup>−</sup></b> are transferred. 5 is the count for one Mn only; 16 is the H<sup>+</sup> coefficient.",
    "why": [
     "",
-    "5 is for one Mn only.",
+    "5 electrons is what one MnO₄⁻ gains, but each C₂O₄²⁻ loses 2. Electrons lost must equal electrons gained, so scale both halves to their lowest common multiple.",
     "2 is for one oxalate only.",
     "16 is the H⁺ coefficient."
    ]
@@ -28465,7 +28465,7 @@
    "",
    "Fe²⁺ is oxidized, so it's the reducing agent.",
    "H⁺ doesn't change oxidation number.",
-   "Fe³⁺ is a product."
+   "Fe³⁺ is a product, formed when Fe²⁺ loses an electron. The oxidizing agent is the reactant that gets reduced, gaining the electrons Fe²⁺ gives up."
   ],
   "html": {
    "prompt": "In acid, hydrogen peroxide turns iron(II) into iron(III) (equation shown). Identify the oxidizing agent.",
@@ -28481,7 +28481,7 @@
     "",
     "Fe²⁺ is oxidized, so it's the reducing agent.",
     "H⁺ doesn't change oxidation number.",
-    "Fe³⁺ is a product."
+    "Fe³⁺ is a product, formed when Fe²⁺ loses an electron. The oxidizing agent is the reactant that gets reduced, gaining the electrons Fe²⁺ gives up."
    ]
   },
   "data": {
@@ -29080,8 +29080,8 @@
   "explain": "Cu is the cathode, M the anode: 0.62 = 0.34 − E°_M, so E°_M = −0.28 V (cobalt has this value). +0.96 V comes from adding 0.62 + 0.34; +0.28 V has the sign flipped.",
   "why": [
    "",
-   "The sign is flipped.",
-   "This adds 0.62 and 0.34.",
+   "With +0.28 V, E°_cell = 0.34 − 0.28 = 0.06 V, not 0.62 V. M is the anode, so E°_M = E°_cathode − E°_cell, and keep the sign that subtraction gives.",
+   "This adds 0.62 + 0.34, but E°_cell = E°_cathode − E°_anode. Plugging +0.96 V back in gives 0.34 − 0.96 = −0.62 V, a cell that would not run.",
    "This adds 0.62 and 0.34 and makes the sum negative. Solve E°cell = E°cathode − E°anode for the anode."
   ],
   "html": {
@@ -29096,8 +29096,8 @@
    "explain": "Cu is the cathode, M the anode: 0.62 = 0.34 − E°<sub>M</sub>, so E°<sub>M</sub> = <b>−0.28 V</b> (cobalt has this value). +0.96 V comes from adding 0.62 + 0.34; +0.28 V has the sign flipped.",
    "why": [
     "",
-    "The sign is flipped.",
-    "This adds 0.62 and 0.34.",
+    "With +0.28 V, E°<sub>cell</sub> = 0.34 − 0.28 = 0.06 V, not 0.62 V. M is the anode, so E°<sub>M</sub> = E°<sub>cathode</sub> − E°<sub>cell</sub>, and keep the sign that subtraction gives.",
+    "This adds 0.62 + 0.34, but E°<sub>cell</sub> = E°<sub>cathode</sub> − E°<sub>anode</sub>. Plugging +0.96 V back in gives 0.34 − 0.96 = −0.62 V, a cell that would not run.",
     "This adds 0.62 and 0.34 and makes the sum negative. Solve E°cell = E°cathode − E°anode for the anode."
    ]
   },
@@ -29804,9 +29804,9 @@
   "explain": "Trans means the two Cl ligands are directly across the metal: 180°. 90° is the cis angle; 109.5° and 120° belong to tetrahedral and trigonal planar shapes, not octahedral.",
   "why": [
    "",
-   "90° is the cis angle.",
-   "109.5° is tetrahedral.",
-   "120° is trigonal planar."
+   "90° is the angle between ligands on adjacent corners of an octahedron, the cis arrangement. Trans ligands sit on opposite sides of the metal.",
+   "109.5° is the angle in a tetrahedron (4 groups). This ion has six ligands in an octahedron, where every angle between ligands is either 90° or 180°.",
+   "120° is the angle in a trigonal planar shape (3 groups). This ion has six ligands in an octahedron, where every angle between ligands is either 90° or 180°."
   ],
   "html": {
    "prompt": "In the octahedral ion <i>trans</i>-[Co(NH<sub>3</sub>)<sub>4</sub>Cl<sub>2</sub>]<sup>+</sup>, what is the Cl–Co–Cl bond angle?",
@@ -29820,9 +29820,9 @@
    "explain": "<i>Trans</i> means the two Cl ligands are directly across the metal: <b>180°</b>. 90° is the cis angle; 109.5° and 120° belong to tetrahedral and trigonal planar shapes, not octahedral.",
    "why": [
     "",
-    "90° is the cis angle.",
-    "109.5° is tetrahedral.",
-    "120° is trigonal planar."
+    "90° is the angle between ligands on adjacent corners of an octahedron, the cis arrangement. Trans ligands sit on opposite sides of the metal.",
+    "109.5° is the angle in a tetrahedron (4 groups). This ion has six ligands in an octahedron, where every angle between ligands is either 90° or 180°.",
+    "120° is the angle in a trigonal planar shape (3 groups). This ion has six ligands in an octahedron, where every angle between ligands is either 90° or 180°."
    ]
   },
   "from": {
@@ -30046,7 +30046,7 @@
   "why": [
    "",
    "[CoF₆]³⁻ is high-spin with 4 unpaired.",
-   "Fe³⁺ is d⁵, not d⁶.",
+   "The diagram shows six electrons, but Fe³⁺ is d⁵. A high-spin d⁵ ion would also put two electrons in the e_g orbitals, while this diagram has all its electrons paired in t₂g.",
    "Ni²⁺ is d⁸, which needs e_g electrons."
   ],
   "html": {
@@ -30062,7 +30062,7 @@
    "why": [
     "",
     "[CoF₆]³⁻ is high-spin with 4 unpaired.",
-    "Fe³⁺ is d⁵, not d⁶.",
+    "The diagram shows six electrons, but Fe³⁺ is d⁵. A high-spin d⁵ ion would also put two electrons in the e<sub>g</sub> orbitals, while this diagram has all its electrons paired in t₂g.",
     "Ni²⁺ is d⁸, which needs e_g electrons."
    ]
   },
@@ -30120,7 +30120,7 @@
   "explain": "The spectrochemical series runs I⁻ < Cl⁻ < H₂O < NH₃ < CN⁻. Charge alone does not decide it: anionic halides are the WEAKEST field ligands, while CN⁻ is the strongest here.",
   "why": [
    "",
-   "This is reversed.",
+   "This runs the spectrochemical series backwards. Halides like I⁻ are weak-field ligands that give the smallest Δ_o, while CN⁻ is strong-field and gives the largest.",
    "Cl⁻ gives a larger split than I⁻.",
    "CN⁻ is the strongest-field ligand here."
   ],
@@ -30136,7 +30136,7 @@
    "explain": "The spectrochemical series runs <b>I<sup>−</sup> &lt; Cl<sup>−</sup> &lt; H<sub>2</sub>O &lt; NH<sub>3</sub> &lt; CN<sup>−</sup></b>. Charge alone does not decide it: anionic halides are the WEAKEST field ligands, while CN<sup>−</sup> is the strongest here.",
    "why": [
     "",
-    "This is reversed.",
+    "This runs the spectrochemical series backwards. Halides like I⁻ are weak-field ligands that give the smallest Δ<sub>o</sub>, while CN⁻ is strong-field and gives the largest.",
     "Cl⁻ gives a larger split than I⁻.",
     "CN⁻ is the strongest-field ligand here."
    ]
@@ -30274,7 +30274,7 @@
    "",
    "This is the value in J, not kJ.",
    "This is the energy of one photon in joules. A mole of ions needs Avogadro's number, and the answer must be in kJ.",
-   "This leaves λ in nm."
+   "This plugs in λ = 498 instead of 498×10⁻⁹ m, so the energy comes out 10⁹ times too small. Convert nm to meters before using E = hc/λ."
   ],
   "html": {
    "prompt": "The octahedral ion [Ti(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup> absorbs light most strongly at 498 nm, which promotes its single d electron from t<sub>2g</sub> to e<sub>g</sub>. What is Δ<sub>o</sub> in kJ mol⁻¹?",
@@ -30290,7 +30290,7 @@
     "",
     "This is the value in J, not kJ.",
     "This is the energy of one photon in joules. A mole of ions needs Avogadro's number, and the answer must be in kJ.",
-    "This leaves λ in nm."
+    "This plugs in λ = 498 instead of 498×10⁻⁹ m, so the energy comes out 10⁹ times too small. Convert nm to meters before using E = hc/λ."
    ]
   },
   "from": {
@@ -30558,7 +30558,7 @@
   "explain": "Mass drop 232 − 208 = 24 → 24/4 = 6 α, which lowers Z by 12 to 78. Each β⁻ raises Z by 1, and Z must reach 82: 4 β⁻. Answer: 6 α and 4 β⁻. 6 α and 8 β⁻ assumes Z = 90 − 82 = 8 must come from betas alone.",
   "why": [
    "",
-   "This swaps the numbers.",
+   "This swaps the counts. Only alpha decay changes the mass number, by 4 each: 4 α drops it by 16, to 216, not 208. Find the alphas from the mass change first.",
    "This assumes the Z change comes from betas alone.",
    "This has too many alphas. Each alpha removes 4 mass units; see how many fit the mass drop."
   ],
@@ -30574,7 +30574,7 @@
    "explain": "Mass drop 232 − 208 = 24 → 24/4 = 6 α, which lowers Z by 12 to 78. Each β<sup>−</sup> raises Z by 1, and Z must reach 82: 4 β<sup>−</sup>. Answer: <b>6 α and 4 β<sup>−</sup></b>. 6 α and 8 β<sup>−</sup> assumes Z = 90 − 82 = 8 must come from betas alone.",
    "why": [
     "",
-    "This swaps the numbers.",
+    "This swaps the counts. Only alpha decay changes the mass number, by 4 each: 4 α drops it by 16, to 216, not 208. Find the alphas from the mass change first.",
     "This assumes the Z change comes from betas alone.",
     "This has too many alphas. Each alpha removes 4 mass units; see how many fit the mass drop."
    ]
@@ -31378,7 +31378,7 @@
   "why": [
    "",
    "Solids don't appear in K.",
-   "This is upside down.",
+   "This puts the reactant ion Ag⁺ on top, which is K for the reverse reaction. K_c is products over reactants, so the product ion Cu²⁺ goes in the numerator.",
    "Coefficients become exponents, not multipliers."
   ],
   "html": {
@@ -31394,7 +31394,7 @@
    "why": [
     "",
     "Solids don't appear in K.",
-    "This is upside down.",
+    "This puts the reactant ion Ag⁺ on top, which is K for the reverse reaction. K<sub>c</sub> is products over reactants, so the product ion Cu²⁺ goes in the numerator.",
     "Coefficients become exponents, not multipliers."
    ]
   },
@@ -31934,7 +31934,7 @@
   "explain": "ln(k₂/k₁) = (50,000/8.314)(1/298.15 − 1/308.15) = 0.655, so k₂/k₁ = 1.92: the faster, more energetic collisions roughly double the rate. 1.00 leaves E_a in kJ; 0.655 is ln(k₂/k₁), not the ratio itself; 0.520 is the inverted ratio.",
   "why": [
    "",
-   "This leaves Ea in kJ.",
+   "This plugs E_a = 50.0 kJ into R in J, so the exponent is 1000 times too small and the ratio barely moves from 1. Use 50,000 J mol⁻¹ first.",
    "This is the inverted ratio.",
    "0.655 is ln(k₂/k₁), not the ratio."
   ],
@@ -31950,7 +31950,7 @@
    "explain": "ln(k<sub>2</sub>/k<sub>1</sub>) = (50,000/8.314)(1/298.15 − 1/308.15) = 0.655, so k<sub>2</sub>/k<sub>1</sub> = <b>1.92</b>: the faster, more energetic collisions roughly double the rate. 1.00 leaves E<sub>a</sub> in kJ; 0.655 is ln(k<sub>2</sub>/k<sub>1</sub>), not the ratio itself; 0.520 is the inverted ratio.",
    "why": [
     "",
-    "This leaves Ea in kJ.",
+    "This plugs E<sub>a</sub> = 50.0 kJ into R in J, so the exponent is 1000 times too small and the ratio barely moves from 1. Use 50,000 J mol⁻¹ first.",
     "This is the inverted ratio.",
     "0.655 is ln(k₂/k₁), not the ratio."
    ]
@@ -32042,7 +32042,7 @@
   "explain": "K_b = 1.0×10⁻¹⁴/3.0×10⁻⁸ = 3.3×10⁻⁷; [OH⁻] = √(0.10 × 3.3×10⁻⁷) = 1.8×10⁻⁴ M; pOH = 3.74, pH = 14.00 − 3.74 = 10.26. 3.74 is the pOH; 4.26 treats OCl⁻ as if it were the acid; Na⁺ salts of weak acids are basic, not neutral.",
   "why": [
    "",
-   "3.74 is the pOH.",
+   "3.74 is the pOH, from −log[OH⁻]. Hypochlorite is a weak base, so the pH must be above 7; subtract the pOH from 14 to finish.",
    "OCl⁻ is a weak base, so the solution isn't neutral.",
    "This treats OCl⁻ as if it were the acid."
   ],
@@ -32058,7 +32058,7 @@
    "explain": "K<sub>b</sub> = 1.0×10<sup>−14</sup>/3.0×10<sup>−8</sup> = 3.3×10<sup>−7</sup>; [OH<sup>−</sup>] = √(0.10 × 3.3×10<sup>−7</sup>) = 1.8×10<sup>−4</sup> M; pOH = 3.74, pH = 14.00 − 3.74 = <b>10.26</b>. 3.74 is the pOH; 4.26 treats OCl<sup>−</sup> as if it were the acid; Na<sup>+</sup> salts of weak acids are basic, not neutral.",
    "why": [
     "",
-    "3.74 is the pOH.",
+    "3.74 is the pOH, from −log[OH⁻]. Hypochlorite is a weak base, so the pH must be above 7; subtract the pOH from 14 to finish.",
     "OCl⁻ is a weak base, so the solution isn't neutral.",
     "This treats OCl⁻ as if it were the acid."
    ]
@@ -34556,7 +34556,7 @@
    "",
    "R is the equivalence point, where the pH shoots up.",
    "P has no conjugate base yet.",
-   "S is just excess NaOH."
+   "S is past the equivalence point: all the acetic acid is gone and the pH is set by excess NaOH. With no weak acid left to neutralize added base, it has little buffer capacity."
   ],
   "html": {
    "prompt": "The graph follows the pH as 0.100 M NaOH is added to 25.0 mL of 0.100 M acetic acid; four points are labeled. At which point is the buffer capacity of the mixture greatest?",
@@ -34572,7 +34572,7 @@
     "",
     "R is the equivalence point, where the pH shoots up.",
     "P has no conjugate base yet.",
-    "S is just excess NaOH."
+    "S is past the equivalence point: all the acetic acid is gone and the pH is set by excess NaOH. With no weak acid left to neutralize added base, it has little buffer capacity."
    ]
   },
   "data": {
@@ -35266,9 +35266,9 @@
   "explain": "The curves cross at pH 3.75, where [HA] = [A⁻] and so pH = pK_a. K_a = 10^−3.75 = 1.8×10⁻⁴. 5.6×10⁻¹¹ is K_b of A⁻ (10^−(14−3.75)); 3.8×10⁻⁴ just recycles the digits of the pK_a.",
   "why": [
    "",
-   "This is Kb of A⁻.",
+   "5.6×10⁻¹¹ is K_b of A⁻, found from K_w/K_a. The question asks for K_a of HA, which comes straight from the pH where the HA and A⁻ curves cross.",
    "This reuses the digits of the pKa. Ka is found by taking the antilog of −pKa, not by copying its digits.",
-   "Recheck: Ka = 10^(−pKa)."
+   "The digits are right but the power of ten is wrong. K_a = 10^−pK_a, and the curves cross near pH 3.75, so K_a must lie between 10⁻⁴ and 10⁻³."
   ],
   "html": {
    "prompt": "The graph shows the fraction of a weak acid present as HA and as A<sup>−</sup> at different pH values. What is K<sub>a</sub> of HA?",
@@ -35282,9 +35282,9 @@
    "explain": "The curves cross at pH 3.75, where [HA] = [A<sup>−</sup>] and so pH = pK<sub>a</sub>. K<sub>a</sub> = 10<sup>−3.75</sup> = <b>1.8×10<sup>−4</sup></b>. 5.6×10<sup>−11</sup> is K<sub>b</sub> of A<sup>−</sup> (10<sup>−(14−3.75)</sup>); 3.8×10<sup>−4</sup> just recycles the digits of the pK<sub>a</sub>.",
    "why": [
     "",
-    "This is Kb of A⁻.",
+    "5.6×10⁻¹¹ is K<sub>b</sub> of A⁻, found from K<sub>w</sub>/K<sub>a</sub>. The question asks for K<sub>a</sub> of HA, which comes straight from the pH where the HA and A⁻ curves cross.",
     "This reuses the digits of the pKa. Ka is found by taking the antilog of −pKa, not by copying its digits.",
-    "Recheck: Ka = 10^(−pKa)."
+    "The digits are right but the power of ten is wrong. K<sub>a</sub> = 10<sup>−pK<sub>a</sub></sup>, and the curves cross near pH 3.75, so K<sub>a</sub> must lie between 10⁻⁴ and 10⁻³."
    ]
   },
   "data": {
@@ -36348,7 +36348,7 @@
   "why": [
    "",
    "I changes most, so it has the least capacity.",
-   "II changes more than IV.",
+   "Buffer II's pH fell 0.18 units, more than two of the other buffers. A bigger pH drop means less acid and base on hand to absorb the added H⁺, so II is not the most concentrated.",
    "III changes more than IV."
   ],
   "html": {
@@ -36364,7 +36364,7 @@
    "why": [
     "",
     "I changes most, so it has the least capacity.",
-    "II changes more than IV.",
+    "Buffer II's pH fell 0.18 units, more than two of the other buffers. A bigger pH drop means less acid and base on hand to absorb the added H⁺, so II is not the most concentrated.",
     "III changes more than IV."
    ]
   },
@@ -37254,7 +37254,7 @@
    "",
    "This divides by only the 60.0 mL of acid.",
    "There's excess acid, so it isn't 7.00.",
-   "11.96 is the pOH."
+   "11.96 is the pOH. After the equivalence point the flask holds excess HCl, so the solution is acidic; −log[H⁺] gives the pH directly."
   ],
   "html": {
    "prompt": "The graph records the titration of 50.0 mL of a NaOH solution with 0.100 M HCl. What is the pH in the flask after a total of 60.0 mL of HCl has been delivered?",
@@ -37270,7 +37270,7 @@
     "",
     "This divides by only the 60.0 mL of acid.",
     "There's excess acid, so it isn't 7.00.",
-    "11.96 is the pOH."
+    "11.96 is the pOH. After the equivalence point the flask holds excess HCl, so the solution is acidic; −log[H⁺] gives the pH directly."
    ]
   },
   "data": {
@@ -38078,7 +38078,7 @@
   "explain": "Equivalence is at 40.0 mL, so the acid is equivalent to 40.0 mL of base. At 10.0 mL, one quarter of HA has become A⁻ and three quarters remain: [A⁻]/[HA] = 10.0/30.0 = 0.33 (and pH = pK_a − 0.48, matching the graph). 3.0 inverts the ratio; 0.25 divides by the original amount (10/40) instead of by the HA that is left.",
   "why": [
    "",
-   "This is upside down.",
+   "3.0 is 30.0/10.0, which is [HA]/[A⁻]. The question asks for [A⁻]/[HA], so the A⁻ formed by the base goes on top.",
    "This divides by the original amount, not the HA left.",
    "A ratio of 1 happens only at half-equivalence."
   ],
@@ -38094,7 +38094,7 @@
    "explain": "Equivalence is at 40.0 mL, so the acid is equivalent to 40.0 mL of base. At 10.0 mL, one quarter of HA has become A<sup>−</sup> and three quarters remain: [A<sup>−</sup>]/[HA] = 10.0/30.0 = <b>0.33</b> (and pH = pK<sub>a</sub> − 0.48, matching the graph). 3.0 inverts the ratio; 0.25 divides by the original amount (10/40) instead of by the HA that is left.",
    "why": [
     "",
-    "This is upside down.",
+    "3.0 is 30.0/10.0, which is [HA]/[A⁻]. The question asks for [A⁻]/[HA], so the A⁻ formed by the base goes on top.",
     "This divides by the original amount, not the HA left.",
     "A ratio of 1 happens only at half-equivalence."
    ]
@@ -38891,7 +38891,7 @@
   "explain": "Zn²⁺/Zn has the lower E° (−0.76 V), so zinc is oxidized: Zn(s) → Zn²⁺ + 2e⁻ at electrode A, the anode, which loses mass as metal atoms leave as ions (E°cell = 0.34 − (−0.76) = 1.10 V). Copper ions plate onto B, the cathode, so B gains mass. Thinking the anode gains mass mixes up the direction of the metal ↔ ion change.",
   "why": [
    "",
-   "B is the copper cathode.",
+   "B is the copper electrode, where Cu²⁺ (higher E°) is reduced and plates out as metal. That makes B the cathode, and it gains mass rather than losing it.",
    "The anode loses mass as metal turns into ions.",
    "B is the cathode, not the anode."
   ],
@@ -38907,7 +38907,7 @@
    "explain": "Zn<sup>2+</sup>/Zn has the lower E° (−0.76 V), so zinc is oxidized: Zn(s) → Zn<sup>2+</sup> + 2e<sup>−</sup> at electrode <b>A, the anode, which loses mass</b> as metal atoms leave as ions (E°cell = 0.34 − (−0.76) = 1.10 V). Copper ions plate onto B, the cathode, so B gains mass. Thinking the anode gains mass mixes up the direction of the metal ↔ ion change.",
    "why": [
     "",
-    "B is the copper cathode.",
+    "B is the copper electrode, where Cu²⁺ (higher E°) is reduced and plates out as metal. That makes B the cathode, and it gains mass rather than losing it.",
     "The anode loses mass as metal turns into ions.",
     "B is the cathode, not the anode."
    ]
@@ -39260,8 +39260,8 @@
   "why": [
    "",
    "The cathode is where Cu²⁺ is reduced and its concentration drops. Which side must lose Cu²⁺ to even out the concentrations?",
-   "This uses n = 1.",
-   "E° is zero, but E isn't."
+   "This uses n = 1, so the 0.0592 correction is doubled. Each Cu²⁺/Cu half-reaction transfers 2 electrons, so n = 2 halves the correction.",
+   "E° is zero because both half-cells are Cu²⁺/Cu, but the concentrations differ, so Q ≠ 1. The Nernst term −(0.0592/n) log Q then gives a nonzero voltage."
   ],
   "html": {
    "prompt": "Both electrodes of the cell shown are copper, but the Cu<sup>2+</sup> concentrations differ. Which electrode is the cathode, and what is the cell potential at 25 °C?",
@@ -39276,8 +39276,8 @@
    "why": [
     "",
     "The cathode is where Cu²⁺ is reduced and its concentration drops. Which side must lose Cu²⁺ to even out the concentrations?",
-    "This uses n = 1.",
-    "E° is zero, but E isn't."
+    "This uses n = 1, so the 0.0592 correction is doubled. Each Cu²⁺/Cu half-reaction transfers 2 electrons, so n = 2 halves the correction.",
+    "E° is zero because both half-cells are Cu²⁺/Cu, but the concentrations differ, so Q ≠ 1. The Nernst term −(0.0592/n) log Q then gives a nonzero voltage."
    ]
   },
   "data": {
@@ -39513,7 +39513,7 @@
   "why": [
    "",
    "This would make M the cathode, against the electron flow.",
-   "The sign is dropped.",
+   "With +0.12 V, E°_cell = 0.34 − 0.12 = 0.22 V, not the measured 0.46 V. M is the anode, so E°_M = 0.34 − 0.46; keep the sign that subtraction gives.",
    "Recheck the setup: E°cell = E°(cathode) − E°(anode), with M as the anode."
   ],
   "html": {
@@ -39529,7 +39529,7 @@
    "why": [
     "",
     "This would make M the cathode, against the electron flow.",
-    "The sign is dropped.",
+    "With +0.12 V, E°<sub>cell</sub> = 0.34 − 0.12 = 0.22 V, not the measured 0.46 V. M is the anode, so E°<sub>M</sub> = 0.34 − 0.46; keep the sign that subtraction gives.",
     "Recheck the setup: E°cell = E°(cathode) − E°(anode), with M as the anode."
    ]
   },
@@ -40149,7 +40149,7 @@
   "why": [
    "",
    "This forgets that the reactants aren't at zero.",
-   "30 kJ is the reverse Ea.",
+   "30 kJ is the reverse activation energy: transition state (80 kJ) minus products (50 kJ). The forward E_a is measured from the reactants, which sit at 10 kJ.",
    "The products are higher, so ΔH is positive."
   ],
   "html": {
@@ -40165,7 +40165,7 @@
    "why": [
     "",
     "This forgets that the reactants aren't at zero.",
-    "30 kJ is the reverse Ea.",
+    "30 kJ is the reverse activation energy: transition state (80 kJ) minus products (50 kJ). The forward E<sub>a</sub> is measured from the reactants, which sit at 10 kJ.",
     "The products are higher, so ΔH is positive."
    ]
   },
@@ -44984,8 +44984,8 @@
   "why": [
    "",
    "Mixture IV is still below Ksp.",
-   "Mixture II is below Ksp.",
-   "Mixture I is below Ksp."
+   "Mixture II has Q = 3.0×10⁻⁵, below the K_sp line at 4.9×10⁻⁵. When Q < K_sp, the solution is unsaturated and more solid could still dissolve, so nothing precipitates.",
+   "Mixture I has Q = 1.2×10⁻⁵, well below the K_sp line at 4.9×10⁻⁵. When Q < K_sp, the solution is unsaturated, so no precipitate forms."
   ],
   "html": {
    "prompt": "Four mixtures of CaCl<sub>2</sub>(aq) and Na<sub>2</sub>SO<sub>4</sub>(aq) are prepared. The bars show the ion product Q = [Ca<sup>2+</sup><span class=\"nw\">][SO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>]</span> immediately after mixing, and the dashed line is K<sub>sp</sub> of CaSO<sub>4</sub>. In which mixture does CaSO<sub>4</sub> precipitate?",
@@ -45000,8 +45000,8 @@
    "why": [
     "",
     "Mixture IV is still below Ksp.",
-    "Mixture II is below Ksp.",
-    "Mixture I is below Ksp."
+    "Mixture II has Q = 3.0×10⁻⁵, below the K<sub>sp</sub> line at 4.9×10⁻⁵. When Q &lt; K<sub>sp</sub>, the solution is unsaturated and more solid could still dissolve, so nothing precipitates.",
+    "Mixture I has Q = 1.2×10⁻⁵, well below the K<sub>sp</sub> line at 4.9×10⁻⁵. When Q &lt; K<sub>sp</sub>, the solution is unsaturated, so no precipitate forms."
    ]
   },
   "data": {
@@ -45123,9 +45123,9 @@
   "explain": "Diamminedichloro means two NH₃ and two Cl ligands, so only I and II have the right formula, Pt(NH₃)₂Cl₂. In II the two Cl ligands are opposite each other (180°), so II is the trans isomer; in I they are adjacent (90°), the cis isomer (cisplatin). III and IV are the trans and cis isomers of the bromo complex Pt(NH₃)₂Br₂.",
   "why": [
    "",
-   "I is the cis isomer.",
-   "III is a bromo complex.",
-   "IV is a bromo complex."
+   "In I the two Cl ligands sit on adjacent corners, 90° apart, which makes it the cis isomer (cisplatin). Trans means the two Cl ligands are directly across the Pt, 180° apart.",
+   "III has two Br ligands, not two Cl, so it is Pt(NH₃)₂Br₂. Dichloro requires two chloride ligands, so its formula doesn't match the name.",
+   "IV has two Br ligands, not two Cl, so it is Pt(NH₃)₂Br₂. Dichloro requires two chloride ligands, so its formula doesn't match the name."
   ],
   "html": {
    "prompt": "Structures I–IV are square planar platinum(II) complexes. Which structure is trans-diamminedichloroplatinum(II)?",
@@ -45139,9 +45139,9 @@
    "explain": "Diamminedichloro means two NH<sub>3</sub> and two Cl ligands, so only I and II have the right formula, Pt(NH<sub>3</sub>)<sub>2</sub>Cl<sub>2</sub>. In <b>II</b> the two Cl ligands are opposite each other (180°), so II is the trans isomer; in I they are adjacent (90°), the cis isomer (cisplatin). III and IV are the trans and cis isomers of the bromo complex Pt(NH<sub>3</sub>)<sub>2</sub>Br<sub>2</sub>.",
    "why": [
     "",
-    "I is the cis isomer.",
-    "III is a bromo complex.",
-    "IV is a bromo complex."
+    "In I the two Cl ligands sit on adjacent corners, 90° apart, which makes it the cis isomer (cisplatin). Trans means the two Cl ligands are directly across the Pt, 180° apart.",
+    "III has two Br ligands, not two Cl, so it is Pt(NH₃)₂Br₂. Dichloro requires two chloride ligands, so its formula doesn't match the name.",
+    "IV has two Br ligands, not two Cl, so it is Pt(NH₃)₂Br₂. Dichloro requires two chloride ligands, so its formula doesn't match the name."
    ]
   },
   "data": {
@@ -45659,8 +45659,8 @@
   "why": [
    "",
    "[Fe(CN)₆]³⁻ is low spin, with 1 unpaired.",
-   "Cr³⁺ is d³.",
-   "Co³⁺ is d⁶."
+   "Cr³⁺ is d³, so it has only three d electrons. The diagram shows five electrons, one in each d orbital, so the metal ion must be d⁵.",
+   "Co³⁺ is d⁶, one more electron than the five drawn. NH₃ is fairly strong-field, so it would also pair all six in t₂g rather than spread them out singly."
   ],
   "html": {
    "prompt": "An octahedral complex has the d-electron filling drawn below. Which of these complexes could it be?",
@@ -45675,8 +45675,8 @@
    "why": [
     "",
     "[Fe(CN)₆]³⁻ is low spin, with 1 unpaired.",
-    "Cr³⁺ is d³.",
-    "Co³⁺ is d⁶."
+    "Cr³⁺ is d³, so it has only three d electrons. The diagram shows five electrons, one in each d orbital, so the metal ion must be d⁵.",
+    "Co³⁺ is d⁶, one more electron than the five drawn. NH₃ is fairly strong-field, so it would also pair all six in t₂g rather than spread them out singly."
    ]
   },
   "data": {
@@ -45930,7 +45930,7 @@
    "",
    "This forgets to convert J to kJ.",
    "This adds TΔS°. Subtract it.",
-   "This is ΔH° alone."
+   "This is ΔH° by itself. ΔG° = ΔH° − TΔS°, and ΔS° is positive (a gas forms), so subtracting TΔS° makes ΔG° smaller than ΔH°."
   ],
   "html": {
    "prompt": "Using the data in the table, what is ΔG° at 298 K for the decomposition of limestone shown, and is the reaction spontaneous under standard conditions at this temperature?",
@@ -45946,7 +45946,7 @@
     "",
     "This forgets to convert J to kJ.",
     "This adds TΔS°. Subtract it.",
-    "This is ΔH° alone."
+    "This is ΔH° by itself. ΔG° = ΔH° − TΔS°, and ΔS° is positive (a gas forms), so subtracting TΔS° makes ΔG° smaller than ΔH°."
    ]
   },
   "data": {
@@ -46392,7 +46392,7 @@
   "why": [
    "",
    "Heating an endothermic reaction raises K.",
-   "Temperature changes K.",
+   "A catalyst leaves K unchanged, but temperature does change K. For an endothermic reaction, heat acts like a reactant, so warming shifts the equilibrium and its constant.",
    "Heating always raises the rate."
   ],
   "html": {
@@ -46408,7 +46408,7 @@
    "why": [
     "",
     "Heating an endothermic reaction raises K.",
-    "Temperature changes K.",
+    "A catalyst leaves K unchanged, but temperature does change K. For an endothermic reaction, heat acts like a reactant, so warming shifts the equilibrium and its constant.",
     "Heating always raises the rate."
    ]
   },
@@ -46577,9 +46577,9 @@
   "explain": "Adding the steps: I₂ + H₂ → 2 HI, and the I atoms cancel because they are produced in step 1 and consumed in step 2. I₂ and H₂ are reactants and HI is the product. A catalyst would be consumed first and regenerated later, the reverse order of an intermediate.",
   "why": [
    "",
-   "I₂ is a reactant.",
-   "H₂ is a reactant.",
-   "HI is the product."
+   "I₂ is a reactant: it is used up in step 1 and still appears in the overall equation. An intermediate is made in one step and consumed in a later one, so it cancels out.",
+   "H₂ is a reactant: it is used up in step 2 and appears in the overall equation. An intermediate is made in an earlier step and consumed later, so it cancels out.",
+   "HI is the final product: it is made in step 2 and never used up, so it stays in the overall equation. An intermediate is made and then consumed, so it cancels out."
   ],
   "html": {
    "prompt": "A proposed mechanism for the formation of hydrogen iodide is shown. Which species is a reaction intermediate?",
@@ -46593,9 +46593,9 @@
    "explain": "Adding the steps: I<sub>2</sub> + H<sub>2</sub> → 2 HI, and the <b>I atoms</b> cancel because they are produced in step 1 and consumed in step 2. I<sub>2</sub> and H<sub>2</sub> are reactants and HI is the product. A catalyst would be consumed first and regenerated later, the reverse order of an intermediate.",
    "why": [
     "",
-    "I₂ is a reactant.",
-    "H₂ is a reactant.",
-    "HI is the product."
+    "I₂ is a reactant: it is used up in step 1 and still appears in the overall equation. An intermediate is made in one step and consumed in a later one, so it cancels out.",
+    "H₂ is a reactant: it is used up in step 2 and appears in the overall equation. An intermediate is made in an earlier step and consumed later, so it cancels out.",
+    "HI is the final product: it is made in step 2 and never used up, so it stays in the overall equation. An intermediate is made and then consumed, so it cancels out."
    ]
   },
   "data": {
@@ -46645,7 +46645,7 @@
    "",
    "The minus sign makes larger Ea give a smaller k.",
    "Lowering T makes k smaller.",
-   "k depends on T."
+   "T sits in the exponent, −E_a/RT, so changing T changes how negative the exponent is and therefore changes k. Only a zero E_a would make k temperature-independent."
   ],
   "html": {
    "prompt": "The Arrhenius equation is k = A e<sup>−E<sub>a</sub>/RT</sup>. Which statement follows from it?",
@@ -46661,7 +46661,7 @@
     "",
     "The minus sign makes larger Ea give a smaller k.",
     "Lowering T makes k smaller.",
-    "k depends on T."
+    "T sits in the exponent, −E<sub>a</sub>/RT, so changing T changes how negative the exponent is and therefore changes k. Only a zero E<sub>a</sub> would make k temperature-independent."
    ]
   },
   "from": {
@@ -47155,7 +47155,7 @@
   "why": [
    "",
    "This uses moles instead of molarities.",
-   "This is upside down.",
+   "This is 0.400/(0.200 × 0.200), reactants over products. K_c puts the products PCl₃ and Cl₂ on top and PCl₅ on the bottom.",
    "This forgets that PCl₅ was used up."
   ],
   "html": {
@@ -47171,7 +47171,7 @@
    "why": [
     "",
     "This uses moles instead of molarities.",
-    "This is upside down.",
+    "This is 0.400/(0.200 × 0.200), reactants over products. K<sub>c</sub> puts the products PCl₃ and Cl₂ on top and PCl₅ on the bottom.",
     "This forgets that PCl₅ was used up."
    ]
   },
@@ -47378,7 +47378,7 @@
   "explain": "Forward: H₂PO⁻₄ gives a proton to CO²⁻₃, so CO²⁻₃ is a base. Reverse: HCO⁻₃ gives a proton to HPO²⁻₄, so HPO²⁻₄ is a base. The bases are CO²⁻₃ and HPO²⁻₄; the other two species are the acids. Pairing the two left-hand species mixes up acid and base roles.",
   "why": [
    "",
-   "These are the two acids.",
+   "H₂PO₄⁻ and HCO₃⁻ are the proton donors: H₂PO₄⁻ gives H⁺ in the forward reaction and HCO₃⁻ in the reverse. Bases are the species that accept those protons.",
    "H₂PO₄⁻ donates a proton here, so it's an acid.",
    "HCO₃⁻ donates a proton here, so it's an acid."
   ],
@@ -47394,7 +47394,7 @@
    "explain": "Forward: <span class=\"nw\">H<sub>2</sub>PO<span class=\"ss\"><sup>−</sup><sub>4</sub></span></span> gives a proton to <span class=\"nw\">CO<span class=\"ss\"><sup>2−</sup><sub>3</sub></span>,</span> so <span class=\"nw\">CO<span class=\"ss\"><sup>2−</sup><sub>3</sub></span></span> is a base. Reverse: <span class=\"nw\">HCO<span class=\"ss\"><sup>−</sup><sub>3</sub></span></span> gives a proton to <span class=\"nw\">HPO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>,</span> so <span class=\"nw\">HPO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span> is a base. The bases are <b><span class=\"nw\">CO<span class=\"ss\"><sup>2−</sup><sub>3</sub></span></span> and <span class=\"nw\">HPO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span></b>; the other two species are the acids. Pairing the two left-hand species mixes up acid and base roles.",
    "why": [
     "",
-    "These are the two acids.",
+    "H₂PO₄⁻ and HCO₃⁻ are the proton donors: H₂PO₄⁻ gives H⁺ in the forward reaction and HCO₃⁻ in the reverse. Bases are the species that accept those protons.",
     "H₂PO₄⁻ donates a proton here, so it's an acid.",
     "HCO₃⁻ donates a proton here, so it's an acid."
    ]
@@ -47495,8 +47495,8 @@
   "why": [
    "",
    "Products are favored, so CH₃COOH is the weaker acid.",
-   "NO₂⁻ is a base here.",
-   "CH₃COO⁻ is a base here."
+   "NO₂⁻ has no proton to give here; it is the conjugate base formed when HNO₂ donates H⁺. The strongest acid must be one of the two proton donors.",
+   "CH₃COO⁻ accepts a proton here, so it is a base, not an acid. The strongest acid must be one of the two species that donate H⁺."
   ],
   "html": {
    "prompt": "The proton-transfer reaction shown proceeds with K &gt; 1, so products are favored. Of the four species involved, which is the strongest acid?",
@@ -47511,8 +47511,8 @@
    "why": [
     "",
     "Products are favored, so CH₃COOH is the weaker acid.",
-    "NO₂⁻ is a base here.",
-    "CH₃COO⁻ is a base here."
+    "NO₂⁻ has no proton to give here; it is the conjugate base formed when HNO₂ donates H⁺. The strongest acid must be one of the two proton donors.",
+    "CH₃COO⁻ accepts a proton here, so it is a base, not an acid. The strongest acid must be one of the two species that donate H⁺."
    ]
   },
   "data": {
@@ -47557,8 +47557,8 @@
   "why": [
    "",
    "Cl⁻ donates the electron pair, so it's the Lewis base.",
-   "AlCl₄⁻ is the product.",
-   "No free Al³⁺ forms here."
+   "AlCl₄⁻ is the adduct, the product formed after the acid–base bond is made. The Lewis acid is a reactant that accepts an electron pair.",
+   "AlCl₃ does not ionize here; Cl⁻ bonds directly to the Al atom of the intact molecule. That Al, with only six valence electrons and an empty orbital, accepts the lone pair."
   ],
   "html": {
    "prompt": "Chloride ion adds to aluminum chloride as shown, forming <span class=\"nw\">AlCl<span class=\"ss\"><sup>−</sup><sub>4</sub></span>.</span> Which species is the Lewis acid?",
@@ -47573,8 +47573,8 @@
    "why": [
     "",
     "Cl⁻ donates the electron pair, so it's the Lewis base.",
-    "AlCl₄⁻ is the product.",
-    "No free Al³⁺ forms here."
+    "AlCl₄⁻ is the adduct, the product formed after the acid–base bond is made. The Lewis acid is a reactant that accepts an electron pair.",
+    "AlCl₃ does not ionize here; Cl⁻ bonds directly to the Al atom of the intact molecule. That Al, with only six valence electrons and an empty orbital, accepts the lone pair."
    ]
   },
   "data": {
@@ -47780,7 +47780,7 @@
   "explain": "mol HOCl = 0.250 L × 0.10 M = 0.025 mol; mol OCl⁻ = 0.015 mol. pH = 7.52 + log(0.015/0.025) = 7.52 + log(0.60) = 7.30. 7.74 inverts the ratio; 7.52 assumes equal amounts; 6.70 divides moles of salt by the molarity of the acid instead of by its moles.",
   "why": [
    "",
-   "This flips the ratio.",
+   "This uses log(0.025/0.015), putting the acid on top. Henderson–Hasselbalch is log([base]/[acid]); with less OCl⁻ than HOCl, the pH must be below pK_a = 7.52.",
    "Equal amounts would give pH = pKa.",
    "Divide moles by moles, not by molarity."
   ],
@@ -47796,7 +47796,7 @@
    "explain": "mol HOCl = 0.250 L × 0.10 M = 0.025 mol; mol OCl<sup>−</sup> = 0.015 mol. pH = 7.52 + log(0.015/0.025) = 7.52 + log(0.60) = <b>7.30</b>. 7.74 inverts the ratio; 7.52 assumes equal amounts; 6.70 divides moles of salt by the molarity of the acid instead of by its moles.",
    "why": [
     "",
-    "This flips the ratio.",
+    "This uses log(0.025/0.015), putting the acid on top. Henderson–Hasselbalch is log([base]/[acid]); with less OCl⁻ than HOCl, the pH must be below pK<sub>a</sub> = 7.52.",
     "Equal amounts would give pH = pKa.",
     "Divide moles by moles, not by molarity."
    ]
@@ -48051,7 +48051,7 @@
   "why": [
    "",
    "This forgets to reverse the second reaction.",
-   "This is upside down.",
+   "This is 1/K_sp, the constant for precipitating Zn(OH)₂. Dissolution is reaction 1 plus the reverse of reaction 2, so K_f belongs in the denominator.",
    "Constants multiply or divide, never subtract."
   ],
   "html": {
@@ -48067,7 +48067,7 @@
    "why": [
     "",
     "This forgets to reverse the second reaction.",
-    "This is upside down.",
+    "This is 1/K<sub>sp</sub>, the constant for precipitating Zn(OH)₂. Dissolution is reaction 1 plus the reverse of reaction 2, so K<sub>f</sub> belongs in the denominator.",
     "Constants multiply or divide, never subtract."
    ]
   },
@@ -48118,7 +48118,7 @@
    "",
    "AgCl is a 1:1 salt, so its [Ag⁺] is lower.",
    "AgI's Ksp is much smaller.",
-   "Ag₂S's Ksp is tiny."
+   "Ag₂S has K_sp = 6.0×10⁻⁵¹, so tiny that s is only about 10⁻¹⁷ M. Even with two Ag⁺ per formula unit, its [Ag⁺] is the lowest of the four."
   ],
   "html": {
    "prompt": "Four silver salts and their K<sub>sp</sub> values are tabulated. In which saturated solution is [Ag<sup>+</sup>] the GREATEST at 25 °C?",
@@ -48134,7 +48134,7 @@
     "",
     "AgCl is a 1:1 salt, so its [Ag⁺] is lower.",
     "AgI's Ksp is much smaller.",
-    "Ag₂S's Ksp is tiny."
+    "Ag₂S has K<sub>sp</sub> = 6.0×10⁻⁵¹, so tiny that s is only about 10⁻¹⁷ M. Even with two Ag⁺ per formula unit, its [Ag⁺] is the lowest of the four."
    ]
   },
   "data": {
@@ -48307,9 +48307,9 @@
   "explain": "A pure solid metal should have one of the smallest entropies in the table (the true value for Fe is about 27 J mol⁻¹ K⁻¹), yet 215 J mol⁻¹ K⁻¹ would put Fe(s) above the gas CH₄. The liquid metal (76), the ionic solid (72) and the gas (186) follow the normal solid < liquid < gas order.",
   "why": [
    "",
-   "76 fits a liquid metal.",
-   "72 fits an ionic solid.",
-   "186 fits a small gas."
+   "76 J mol⁻¹ K⁻¹ is reasonable for a liquid metal: higher than typical solids, far below gases. The wrong entry is one that breaks the solid < liquid < gas order.",
+   "72 J mol⁻¹ K⁻¹ is reasonable for an ionic solid like NaCl, well below any gas. The wrong entry is one that breaks the solid < liquid < gas order.",
+   "186 J mol⁻¹ K⁻¹ is typical of a small gas molecule, since gases have the highest entropies. The wrong entry is one that breaks the solid < liquid < gas order."
   ],
   "html": {
    "prompt": "Standard molar entropies at 298 K are listed for four substances; three values are correct and one is not. Which entry is wrong?",
@@ -48323,9 +48323,9 @@
    "explain": "A pure solid metal should have one of the smallest entropies in the table (the true value for Fe is about 27 J mol<sup>−1</sup> K<sup>−1</sup>), yet <b>215 J mol<sup>−1</sup> K<sup>−1</sup> would put Fe(s) above the gas CH<sub>4</sub></b>. The liquid metal (76), the ionic solid (72) and the gas (186) follow the normal solid &lt; liquid &lt; gas order.",
    "why": [
     "",
-    "76 fits a liquid metal.",
-    "72 fits an ionic solid.",
-    "186 fits a small gas."
+    "76 J mol⁻¹ K⁻¹ is reasonable for a liquid metal: higher than typical solids, far below gases. The wrong entry is one that breaks the solid &lt; liquid &lt; gas order.",
+    "72 J mol⁻¹ K⁻¹ is reasonable for an ionic solid like NaCl, well below any gas. The wrong entry is one that breaks the solid &lt; liquid &lt; gas order.",
+    "186 J mol⁻¹ K⁻¹ is typical of a small gas molecule, since gases have the highest entropies. The wrong entry is one that breaks the solid &lt; liquid &lt; gas order."
    ]
   },
   "data": {
@@ -48915,7 +48915,7 @@
    "",
    "Recheck the sign: at 800 K the TΔS° term is larger than ΔH°.",
    "ΔG° doesn't scale in proportion to T.",
-   "This is TΔS° at 298 K."
+   "+52.4 kJ is ΔH° − ΔG° at 298 K, which is TΔS° at 298 K. You still need ΔS° from it, then ΔG° = ΔH° − (800 K)ΔS°."
   ],
   "html": {
    "prompt": "Magnesium carbonate decomposes as shown; ΔH° = +100.7 kJ and ΔG° = +48.3 kJ at 298 K. Treating ΔH° and ΔS° as constant, estimate ΔG° at 800 K.",
@@ -48931,7 +48931,7 @@
     "",
     "Recheck the sign: at 800 K the TΔS° term is larger than ΔH°.",
     "ΔG° doesn't scale in proportion to T.",
-    "This is TΔS° at 298 K."
+    "+52.4 kJ is ΔH° − ΔG° at 298 K, which is TΔS° at 298 K. You still need ΔS° from it, then ΔG° = ΔH° − (800 K)ΔS°."
    ]
   },
   "data": {
@@ -49029,9 +49029,9 @@
   "explain": "ΔG°(HF) = −RT ln(6.8×10⁻⁴) = +18.1 kJ mol⁻¹ and ΔG°(HOCl) = −RT ln(3.0×10⁻⁸) = +42.9 kJ mol⁻¹. HOCl has the more positive ΔG°, meaning its ionization is less favorable, so HF is the stronger acid. Linking \"more positive ΔG°\" to \"stronger acid\" reverses the relationship.",
   "why": [
    "",
-   "HF has the smaller ΔG°.",
+   "From ΔG° = −RT ln K, HF's larger K_a gives the smaller ΔG° (+18.1 vs +42.9 kJ mol⁻¹). The acid with the less favorable ionization has the more positive ΔG°.",
    "HOCl has the more positive ΔG°, so it's weaker.",
-   "This reverses both."
+   "Both parts are reversed. Since ΔG° = −RT ln K_a, the acid with the smaller K_a has the more positive ΔG°, and the one with the larger K_a is stronger."
   ],
   "html": {
    "prompt": "Compare the two acids in the table. For which one is ΔG° of ionization in water at 25 °C more positive, and which one is the stronger acid?",
@@ -49045,9 +49045,9 @@
    "explain": "ΔG°(HF) = −RT ln(6.8×10<sup>−4</sup>) = +18.1 kJ mol⁻¹ and ΔG°(HOCl) = −RT ln(3.0×10<sup>−8</sup>) = +42.9 kJ mol⁻¹. <b>HOCl has the more positive ΔG°</b>, meaning its ionization is less favorable, so <b>HF is the stronger acid</b>. Linking \"more positive ΔG°\" to \"stronger acid\" reverses the relationship.",
    "why": [
     "",
-    "HF has the smaller ΔG°.",
+    "From ΔG° = −RT ln K, HF's larger K<sub>a</sub> gives the smaller ΔG° (+18.1 vs +42.9 kJ mol⁻¹). The acid with the less favorable ionization has the more positive ΔG°.",
     "HOCl has the more positive ΔG°, so it's weaker.",
-    "This reverses both."
+    "Both parts are reversed. Since ΔG° = −RT ln K<sub>a</sub>, the acid with the smaller K<sub>a</sub> has the more positive ΔG°, and the one with the larger K<sub>a</sub> is stronger."
    ]
   },
   "data": {
@@ -49106,7 +49106,7 @@
    "",
    "Leaving out the liquid doesn't change ΔG°.",
    "Different products give different ΔG° values.",
-   "Elements have ΔG°f = 0."
+   "ΔG°_f of an element in its standard state, like H₂ or O₂, is zero by definition. So the table already gives everything needed to find ΔG° and K for both reactions."
   ],
   "html": {
    "prompt": "Standard free energies of formation at 298 K are tabulated. How does the equilibrium constant for reaction (1) compare with that for reaction (2)?",
@@ -49122,7 +49122,7 @@
     "",
     "Leaving out the liquid doesn't change ΔG°.",
     "Different products give different ΔG° values.",
-    "Elements have ΔG°f = 0."
+    "ΔG°<sub>f</sub> of an element in its standard state, like H₂ or O₂, is zero by definition. So the table already gives everything needed to find ΔG° and K for both reactions."
    ]
   },
   "data": {
@@ -49189,7 +49189,7 @@
    "",
    "ΔG° is zero only if K = 1.",
    "Reaching equilibrium does not make ΔH zero. ΔH is the heat of the reaction, and it has the same value whether or not the mixture is at equilibrium.",
-   "K is never zero."
+   "K = e^−ΔG°/RT is always positive, never zero. A zero K would mean no product at all, which is not an equilibrium mixture of A and B."
   ],
   "html": {
    "prompt": "A mixture of A(g) and B(g) has come to equilibrium at 350 K for the isomerization A(g) ⇌ B(g). Which of these quantities is necessarily zero?",
@@ -49205,7 +49205,7 @@
     "",
     "ΔG° is zero only if K = 1.",
     "Reaching equilibrium does not make ΔH zero. ΔH is the heat of the reaction, and it has the same value whether or not the mixture is at equilibrium.",
-    "K is never zero."
+    "K = e<sup>−ΔG°/RT</sup> is always positive, never zero. A zero K would mean no product at all, which is not an equilibrium mixture of A and B."
    ]
   },
   "from": {
@@ -49704,7 +49704,7 @@
    "",
    "Adding base lowers [H⁺] and raises Q.",
    "E depends on pH, even though E° doesn't.",
-   "H⁺ is in Q, squared."
+   "H⁺ is a reactant in solution, so it appears in Q, squared: Q = [Zn²⁺]P_H₂/[H⁺]². Adding NaOH changes [H⁺], so it changes Q and the cell potential."
   ],
   "html": {
    "prompt": "The reaction shown has E° = +0.76 V. A cell runs this reaction with [Zn<sup>2+</sup>] = 1.0 M and P<sub>H2</sub> = 1.0 atm. If sodium hydroxide is added to the acid compartment, what happens to the cell potential?",
@@ -49720,7 +49720,7 @@
     "",
     "Adding base lowers [H⁺] and raises Q.",
     "E depends on pH, even though E° doesn't.",
-    "H⁺ is in Q, squared."
+    "H⁺ is a reactant in solution, so it appears in Q, squared: Q = [Zn²⁺]P<sub>H₂</sub>/[H⁺]². Adding NaOH changes [H⁺], so it changes Q and the cell potential."
    ]
   },
   "data": {
@@ -49955,9 +49955,9 @@
   "explain": "Mass: 14 + 4 − 17 = 1. Charge: 7 + 2 − 8 = 1. A particle with A = 1 and Z = 1 is a proton, ¹₁H (Rutherford's classic transmutation). A neutron has Z = 0; an electron or positron has A = 0.",
   "why": [
    "",
-   "A neutron has Z = 0.",
-   "An electron has A = 0.",
-   "A positron has A = 0."
+   "A neutron has Z = 0, but the charge balance needs a particle with Z = 1 (7 + 2 − 8). It does have A = 1, so only the mass balance works.",
+   "An electron has A = 0 and Z = −1, but the balances need A = 1 (14 + 4 − 17) and Z = 1 (7 + 2 − 8). Neither number matches.",
+   "A positron has the right charge (Z = 1) but A = 0. The mass balance, 14 + 4 − 17, needs a particle with A = 1."
   ],
   "html": {
    "prompt": "When nitrogen-14 is bombarded with alpha particles, oxygen-17 and one other particle are produced, as shown. What is the other particle?",
@@ -49971,9 +49971,9 @@
    "explain": "Mass: 14 + 4 − 17 = 1. Charge: 7 + 2 − 8 = 1. A particle with A = 1 and Z = 1 is a <b>proton, <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>1</sub></span>H</span></b> (Rutherford's classic transmutation). A neutron has Z = 0; an electron or positron has A = 0.",
    "why": [
     "",
-    "A neutron has Z = 0.",
-    "An electron has A = 0.",
-    "A positron has A = 0."
+    "A neutron has Z = 0, but the charge balance needs a particle with Z = 1 (7 + 2 − 8). It does have A = 1, so only the mass balance works.",
+    "An electron has A = 0 and Z = −1, but the balances need A = 1 (14 + 4 − 17) and Z = 1 (7 + 2 − 8). Neither number matches.",
+    "A positron has the right charge (Z = 1) but A = 0. The mass balance, 14 + 4 − 17, needs a particle with A = 1."
    ]
   },
   "data": {
@@ -50180,8 +50180,8 @@
   "why": [
    "",
    "A β⁻ particle would raise Z.",
-   "A proton has A = 1.",
-   "A neutron would lower A."
+   "A proton has A = 1, but the mass numbers already balance (13 = 13), so the emitted particle must have A = 0.",
+   "A neutron has A = 1 and Z = 0, but the mass numbers already balance (13 = 13) and Z drops from 7 to 6. The particle must carry A = 0 and Z = +1."
   ],
   "html": {
    "prompt": "The PET isotope nitrogen-13 undergoes the decay shown. Identify the emitted particle.",
@@ -50196,8 +50196,8 @@
    "why": [
     "",
     "A β⁻ particle would raise Z.",
-    "A proton has A = 1.",
-    "A neutron would lower A."
+    "A proton has A = 1, but the mass numbers already balance (13 = 13), so the emitted particle must have A = 0.",
+    "A neutron has A = 1 and Z = 0, but the mass numbers already balance (13 = 13) and Z drops from 7 to 6. The particle must carry A = 0 and Z = +1."
    ]
   },
   "data": {
@@ -52677,7 +52677,7 @@
    "",
    "X has the higher vapor pressure, so it's acetone.",
    "56 °C is acetone's boiling point.",
-   "X is acetone, not water."
+   "Curve X is acetone: it has the higher vapor pressure because its weaker intermolecular forces (no hydrogen bonding) let molecules escape more easily. X reaches 760 torr near 56 °C, not 100 °C."
   ],
   "html": {
    "prompt": "Curves X and Y are the vapor-pressure curves of water and of acetone, (CH<sub>3</sub>)<sub>2</sub>C=O. The dashed line marks 760 torr. Which curve is water, and what is its normal boiling point?",
@@ -52693,7 +52693,7 @@
     "",
     "X has the higher vapor pressure, so it's acetone.",
     "56 °C is acetone's boiling point.",
-    "X is acetone, not water."
+    "Curve X is acetone: it has the higher vapor pressure because its weaker intermolecular forces (no hydrogen bonding) let molecules escape more easily. X reaches 760 torr near 56 °C, not 100 °C."
    ]
   },
   "data": {

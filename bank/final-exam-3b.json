@@ -6105,7 +6105,7 @@
   "prompt": "Humans can digest starch but not cellulose because cellulose contains",
   "choices": [
    "β(1→4)-glycosidic bonds between glucose units",
-   "fructose units in place of glucose units",
+   "fructose units in place of some glucose units",
    "α(1→6)-glycosidic bonds at branch points",
    "galactose units in place of glucose units"
   ],
@@ -6122,7 +6122,7 @@
    "prompt": "Humans can digest starch but not cellulose because cellulose contains",
    "choices": [
     "β(1→4)-glycosidic bonds between glucose units",
-    "fructose units in place of glucose units",
+    "fructose units in place of some glucose units",
     "α(1→6)-glycosidic bonds at branch points",
     "galactose units in place of glucose units"
    ],
@@ -6159,8 +6159,8 @@
   "prompt": "Which statement best describes glycogen?",
   "choices": [
    "a highly branched glucose polymer stored in liver and muscle",
-   "an unbranched glucose polymer stored in plants",
-   "a polymer of fructose stored in the liver",
+   "an unbranched glucose polymer that plants store in seeds and roots",
+   "a branched polymer of fructose stored in the liver",
    "a structural polymer of β-glucose in plant cell walls"
   ],
   "answer": "a highly branched glucose polymer stored in liver and muscle",
@@ -6176,8 +6176,8 @@
    "prompt": "Which statement best describes glycogen?",
    "choices": [
     "a highly branched glucose polymer stored in liver and muscle",
-    "an unbranched glucose polymer stored in plants",
-    "a polymer of fructose stored in the liver",
+    "an unbranched glucose polymer that plants store in seeds and roots",
+    "a branched polymer of fructose stored in the liver",
     "a structural polymer of β-glucose in plant cell walls"
    ],
    "hint": "Glycogen is “animal starch.” Think about how often it branches and where it is stored.",
@@ -6412,7 +6412,7 @@
   }
  },
  {
-  "id": "finalexam-77acc7c6",
+  "id": "finalexam-48e11f5c",
   "skill": "finalexam.3b.lipids",
   "courses": [
    "3B"
@@ -6428,12 +6428,12 @@
   "calc": false,
   "prompt": "Linolenic acid is an omega-3 fatty acid. “Omega-3” means that",
   "choices": [
-   "the first double bond is 3 carbons from the methyl (CH₃) end",
-   "it has three double bonds",
+   "the first double bond is 3 carbons from the CH₃ end",
+   "it has three C=C double bonds somewhere along its chain",
    "the first double bond is at carbon 3 from the –COOH end",
-   "it has 3 carbons fewer than stearic acid"
+   "it has 3 carbons fewer than stearic acid, which has 18"
   ],
-  "answer": "the first double bond is 3 carbons from the methyl (CH₃) end",
+  "answer": "the first double bond is 3 carbons from the CH₃ end",
   "hint": "Omega (ω) is the last letter of the Greek alphabet, so count from the opposite end of the chain.",
   "explain": "Omega numbering counts from the CH₃ (omega) end: the first C=C starts at carbon 3 from that end. Linolenic acid happens to have three double bonds too, but that is not what ω-3 means.",
   "why": [
@@ -6445,10 +6445,10 @@
   "html": {
    "prompt": "Linolenic acid is an omega-3 fatty acid. “Omega-3” means that",
    "choices": [
-    "the first double bond is 3 carbons from the methyl (CH<sub>3</sub>) end",
-    "it has three double bonds",
+    "the first double bond is 3 carbons from the CH<sub>3</sub> end",
+    "it has three C=C double bonds somewhere along its chain",
     "the first double bond is at carbon 3 from the –COOH end",
-    "it has 3 carbons fewer than stearic acid"
+    "it has 3 carbons fewer than stearic acid, which has 18"
    ],
    "hint": "Omega (ω) is the last letter of the Greek alphabet, so count from the opposite end of the chain.",
    "explain": "Omega numbering counts from the CH<sub>3</sub> (omega) end: the first C=C starts at <b>carbon 3 from that end</b>. Linolenic acid happens to have three double bonds too, but that is not what ω-3 means.",
@@ -6647,7 +6647,7 @@
    "esters of a long-chain fatty acid and a long-chain alcohol",
    "triacylglycerols made only from saturated fatty acids",
    "steroids built from four fused carbon rings",
-   "phospholipids with a choline head group"
+   "phospholipids with a choline head group and two fatty acid tails"
   ],
   "answer": "esters of a long-chain fatty acid and a long-chain alcohol",
   "hint": "Waxes have only one ester bond. What is on each side of it?",
@@ -6664,7 +6664,7 @@
     "esters of a long-chain fatty acid and a long-chain alcohol",
     "triacylglycerols made only from saturated fatty acids",
     "steroids built from four fused carbon rings",
-    "phospholipids with a choline head group"
+    "phospholipids with a choline head group and two fatty acid tails"
    ],
    "hint": "Waxes have only one ester bond. What is on each side of it?",
    "explain": "A wax is <b>one ester made from a long-chain fatty acid and a long-chain alcohol</b>, which makes it very water-repellent. Triacylglycerols contain glycerol.",
@@ -6790,7 +6790,7 @@
   }
  },
  {
-  "id": "finalexam-b1d2c497",
+  "id": "finalexam-c520e421",
   "skill": "finalexam.3b.lipids",
   "courses": [
    "3B"
@@ -6806,12 +6806,12 @@
   "calc": false,
   "prompt": "Cholesterol, the sex hormones and cortisone are steroids. All steroids contain",
   "choices": [
-   "four fused carbon rings (three 6-membered, one 5-membered)",
-   "three fatty acids bonded to a glycerol backbone",
-   "a long-chain fatty acid joined by an ester bond",
+   "four fused rings: three six-membered and one five-membered",
+   "three fatty acids bonded by ester links to a glycerol backbone",
+   "a long-chain fatty acid joined by an ester bond to a long alcohol",
    "a phosphate head group and two fatty-acid tails"
   ],
-  "answer": "four fused carbon rings (three 6-membered, one 5-membered)",
+  "answer": "four fused rings: three six-membered and one five-membered",
   "hint": "Steroids are lipids with no fatty acids; recognize them by their ring system.",
   "explain": "The steroid nucleus is four fused rings: three cyclohexane rings and one cyclopentane ring. Cholesterol adds an –OH and a hydrocarbon side chain.",
   "why": [
@@ -6823,9 +6823,9 @@
   "html": {
    "prompt": "Cholesterol, the sex hormones and cortisone are steroids. All steroids contain",
    "choices": [
-    "four fused carbon rings (three 6-membered, one 5-membered)",
-    "three fatty acids bonded to a glycerol backbone",
-    "a long-chain fatty acid joined by an ester bond",
+    "four fused rings: three six-membered and one five-membered",
+    "three fatty acids bonded by ester links to a glycerol backbone",
+    "a long-chain fatty acid joined by an ester bond to a long alcohol",
     "a phosphate head group and two fatty-acid tails"
    ],
    "hint": "Steroids are lipids with no fatty acids; recognize them by their ring system.",
@@ -7563,8 +7563,8 @@
   "prompt": "A 70% isopropyl alcohol swab disinfects skin before an injection by denaturing bacterial proteins. Denaturation disrupts",
   "choices": [
    "secondary, tertiary and quaternary structure, but not peptide bonds",
-   "only the peptide bonds that join the amino acids together",
-   "the primary structure, but no higher levels of structure",
+   "only the covalent peptide bonds that join the amino acids together",
+   "the primary structure only, while the higher levels of structure stay intact",
    "all levels, breaking the protein into free amino acids"
   ],
   "answer": "secondary, tertiary and quaternary structure, but not peptide bonds",
@@ -7580,8 +7580,8 @@
    "prompt": "A 70% isopropyl alcohol swab disinfects skin before an injection by denaturing bacterial proteins. Denaturation disrupts",
    "choices": [
     "secondary, tertiary and quaternary structure, but not peptide bonds",
-    "only the peptide bonds that join the amino acids together",
-    "the primary structure, but no higher levels of structure",
+    "only the covalent peptide bonds that join the amino acids together",
+    "the primary structure only, while the higher levels of structure stay intact",
     "all levels, breaking the protein into free amino acids"
    ],
    "hint": "Denaturation unfolds a protein. Does it break covalent peptide bonds?",
@@ -9569,9 +9569,9 @@
   "prompt": "Glycogen breakdown releases glucose-6-phosphate, which cannot leave the cell until the enzyme glucose-6-phosphatase removes its phosphate. Liver and muscle both store glycogen, but only the liver releases free glucose into the blood. What is the best explanation?",
   "choices": [
    "Liver has glucose-6-phosphatase to remove the phosphate; muscle does not",
-   "Only liver has glycogen phosphorylase to split the glycogen",
+   "Only liver has glycogen phosphorylase to split the stored glycogen",
    "Muscle glycogen is a polymer of fructose instead of glucose",
-   "Muscle cells lack hexokinase, so glucose cannot be trapped"
+   "Muscle cells lack hexokinase, so glucose cannot be trapped inside them"
   ],
   "answer": "Liver has glucose-6-phosphatase to remove the phosphate; muscle does not",
   "hint": "Glucose-6-phosphate cannot cross the cell membrane. Which enzyme turns it into free glucose?",
@@ -9586,9 +9586,9 @@
    "prompt": "Glycogen breakdown releases glucose-6-phosphate, which cannot leave the cell until the enzyme glucose-6-phosphatase removes its phosphate. Liver and muscle both store glycogen, but only the liver releases free glucose into the blood. What is the best explanation?",
    "choices": [
     "Liver has glucose-6-phosphatase to remove the phosphate; muscle does not",
-    "Only liver has glycogen phosphorylase to split the glycogen",
+    "Only liver has glycogen phosphorylase to split the stored glycogen",
     "Muscle glycogen is a polymer of fructose instead of glucose",
-    "Muscle cells lack hexokinase, so glucose cannot be trapped"
+    "Muscle cells lack hexokinase, so glucose cannot be trapped inside them"
    ],
    "hint": "Glucose-6-phosphate cannot cross the cell membrane. Which enzyme turns it into free glucose?",
    "explain": "Glycogenolysis gives glucose-6-phosphate, which is trapped inside the cell. <b>The liver has glucose-6-phosphatase to remove the phosphate; muscle does not</b>, so muscle keeps its glucose-6-phosphate for its own glycolysis. Muscle does have glycogen phosphorylase.",
@@ -10817,7 +10817,7 @@
   "prompt": "Type B red blood cells carry an extra galactose unit on their surface markers that type O cells lack; type A cells carry an extra amino sugar (N-acetylgalactosamine) instead. The ABO blood types therefore differ in the",
   "choices": [
    "carbohydrate chains attached to the surface of red blood cells",
-   "number of hemoglobin molecules inside each red blood cell",
+   "number of hemoglobin molecules packed inside each red blood cell",
    "fatty acids in the phospholipids of the red cell membrane",
    "amount of iron in the heme groups of the red blood cells"
   ],
@@ -10834,7 +10834,7 @@
    "prompt": "Type B red blood cells carry an extra galactose unit on their surface markers that type O cells lack; type A cells carry an extra amino sugar (N-acetylgalactosamine) instead. The ABO blood types therefore differ in the",
    "choices": [
     "carbohydrate chains attached to the surface of red blood cells",
-    "number of hemoglobin molecules inside each red blood cell",
+    "number of hemoglobin molecules packed inside each red blood cell",
     "fatty acids in the phospholipids of the red cell membrane",
     "amount of iron in the heme groups of the red blood cells"
    ],
@@ -11411,9 +11411,9 @@
   "prompt": "Collagen’s three strands are held together partly by hydrogen bonds from hydroxyproline, a proline with an extra –OH group. Vitamin C is needed by the enzyme that adds that –OH. In scurvy (vitamin C deficiency), collagen is weak because",
   "choices": [
    "fewer –OH groups are added, so the strands form fewer hydrogen bonds",
-   "the peptide bonds between glycine and proline cannot form",
+   "the peptide bonds between glycine and proline in each strand cannot form",
    "the disulfide bonds holding the three strands together break",
-   "glucose units can no longer be attached to the strands"
+   "glucose units can no longer be attached to the strands to hold them"
   ],
   "answer": "fewer –OH groups are added, so the strands form fewer hydrogen bonds",
   "hint": "What attraction do –OH groups on neighboring strands form? What happens if fewer –OH groups are added?",
@@ -11428,9 +11428,9 @@
    "prompt": "Collagen’s three strands are held together partly by hydrogen bonds from hydroxyproline, a proline with an extra –OH group. Vitamin C is needed by the enzyme that adds that –OH. In scurvy (vitamin C deficiency), collagen is weak because",
    "choices": [
     "fewer –OH groups are added, so the strands form fewer hydrogen bonds",
-    "the peptide bonds between glycine and proline cannot form",
+    "the peptide bonds between glycine and proline in each strand cannot form",
     "the disulfide bonds holding the three strands together break",
-    "glucose units can no longer be attached to the strands"
+    "glucose units can no longer be attached to the strands to hold them"
    ],
    "hint": "What attraction do –OH groups on neighboring strands form? What happens if fewer –OH groups are added?",
    "explain": "Without vitamin C, proline is not converted to hydroxyproline, so <b>there are fewer –OH groups and fewer hydrogen bonds</b> holding the triple helix together. Collagen is weak, causing bleeding gums and poor wound healing. Peptide bonds still form normally.",
@@ -21060,9 +21060,9 @@
   "prompt": "Fish smells \"fishy\" partly because of volatile amines such as trimethylamine. Squeezing lemon juice on fish reduces the odor mainly because",
   "choices": [
    "the acid converts the amines into nonvolatile ammonium salts",
-   "the acid converts the amines into amides",
-   "the acid oxidizes the amines to carboxylic acids",
-   "the acid converts the amines into esters"
+   "the acid converts the amines into amides that have no smell",
+   "the acid oxidizes the amines to carboxylic acids that do not evaporate",
+   "the acid converts the amines into esters, which smell fruity"
   ],
   "answer": "the acid converts the amines into nonvolatile ammonium salts",
   "hint": "Amines are organic bases; lemon juice contains citric acid. What forms when an acid and a base react?",
@@ -21077,9 +21077,9 @@
    "prompt": "Fish smells \"fishy\" partly because of volatile amines such as trimethylamine. Squeezing lemon juice on fish reduces the odor mainly because",
    "choices": [
     "the acid converts the amines into nonvolatile ammonium salts",
-    "the acid converts the amines into amides",
-    "the acid oxidizes the amines to carboxylic acids",
-    "the acid converts the amines into esters"
+    "the acid converts the amines into amides that have no smell",
+    "the acid oxidizes the amines to carboxylic acids that do not evaporate",
+    "the acid converts the amines into esters, which smell fruity"
    ],
    "hint": "Amines are organic bases; lemon juice contains citric acid. What forms when an acid and a base react?",
    "explain": "Citric acid donates H<sup>+</sup> to the amine N, forming an <b>ammonium salt</b>. The ionic salt is water-soluble and not volatile, so it does not reach your nose. Amides would require heating, and a 3° amine cannot form one.",
@@ -23539,9 +23539,9 @@
   "prompt": "A lipid from brain tissue is hydrolyzed. The products are sphingosine, one fatty acid and galactose; no phosphate or glycerol is found. What type of lipid is it?",
   "choices": [
    "a glycolipid (cerebroside)",
-   "a sphingomyelin",
-   "a glycerophospholipid",
-   "a wax"
+   "a sphingomyelin (phospholipid)",
+   "a glycerophospholipid (lecithin)",
+   "a wax (long-chain ester)"
   ],
   "answer": "a glycolipid (cerebroside)",
   "hint": "Look at the backbone (sphingosine or glycerol) and whether the head group is a phosphate or a sugar.",
@@ -23556,9 +23556,9 @@
    "prompt": "A lipid from brain tissue is hydrolyzed. The products are sphingosine, one fatty acid and galactose; no phosphate or glycerol is found. What type of lipid is it?",
    "choices": [
     "a glycolipid (cerebroside)",
-    "a sphingomyelin",
-    "a glycerophospholipid",
-    "a wax"
+    "a sphingomyelin (phospholipid)",
+    "a glycerophospholipid (lecithin)",
+    "a wax (long-chain ester)"
    ],
    "hint": "Look at the backbone (sphingosine or glycerol) and whether the head group is a phosphate or a sugar.",
    "explain": "A sphingosine backbone with a monosaccharide head group and no phosphate is a <b>glycolipid (cerebroside)</b>. Sphingomyelin also has sphingosine but carries a phosphate–choline head group.",
@@ -23755,9 +23755,9 @@
   "prompt": "Cholesterol makes up about 25% of the lipid in some animal cell membranes. What is its main role there?",
   "choices": [
    "It fits between phospholipid tails and regulates membrane fluidity.",
-   "It forms channels that carry ions across the membrane.",
+   "It forms channels that carry ions and small polar molecules across the membrane.",
    "It provides the polar head groups that face the water.",
-   "It is broken down in the membrane to supply energy."
+   "It is broken down in the membrane to supply energy for the cell."
   ],
   "answer": "It fits between phospholipid tails and regulates membrane fluidity.",
   "hint": "Cholesterol is a rigid, mostly nonpolar steroid. Where in the bilayer would it sit, and what would it change?",
@@ -23772,9 +23772,9 @@
    "prompt": "Cholesterol makes up about 25% of the lipid in some animal cell membranes. What is its main role there?",
    "choices": [
     "It fits between phospholipid tails and regulates membrane fluidity.",
-    "It forms channels that carry ions across the membrane.",
+    "It forms channels that carry ions and small polar molecules across the membrane.",
     "It provides the polar head groups that face the water.",
-    "It is broken down in the membrane to supply energy."
+    "It is broken down in the membrane to supply energy for the cell."
    ],
    "hint": "Cholesterol is a rigid, mostly nonpolar steroid. Where in the bilayer would it sit, and what would it change?",
    "explain": "Rigid cholesterol molecules slip between the fatty acid tails, <b>keeping the membrane from becoming too fluid or too rigid</b>. Ion channels are membrane proteins, and cholesterol is not used as a fuel.",
@@ -23972,8 +23972,8 @@
   "choices": [
    "hydrophobic interactions",
    "salt bridges (ionic)",
-   "disulfide bridges",
-   "hydrogen bonds"
+   "disulfide bridges between side chains",
+   "hydrogen bonds between side chains"
   ],
   "answer": "hydrophobic interactions",
   "hint": "Classify both side chains: are they polar, charged, sulfur-containing or nonpolar hydrocarbons?",
@@ -23989,8 +23989,8 @@
    "choices": [
     "hydrophobic interactions",
     "salt bridges (ionic)",
-    "disulfide bridges",
-    "hydrogen bonds"
+    "disulfide bridges between side chains",
+    "hydrogen bonds between side chains"
    ],
    "hint": "Classify both side chains: are they polar, charged, sulfur-containing or nonpolar hydrocarbons?",
    "explain": "Leucine and isoleucine both have nonpolar hydrocarbon side chains, so they cluster together away from water by <b>hydrophobic interactions</b>. Salt bridges need opposite charges, and disulfide bonds need two cysteines.",
@@ -26085,7 +26085,7 @@
    "isocitrate → α-ketoglutarate",
    "succinate → fumarate",
    "citrate → isocitrate",
-   "succinyl CoA → succinate"
+   "succinyl CoA → succinate + GTP"
   ],
   "answer": "isocitrate → α-ketoglutarate",
   "hint": "An oxidative decarboxylation does two things at once: a coenzyme is reduced and a carbon leaves as CO₂.",
@@ -26102,7 +26102,7 @@
     "isocitrate → α-ketoglutarate",
     "succinate → fumarate",
     "citrate → isocitrate",
-    "succinyl CoA → succinate"
+    "succinyl CoA → succinate + GTP"
    ],
    "hint": "An oxidative decarboxylation does two things at once: a coenzyme is reduced and a carbon leaves as CO<sub>2</sub>.",
    "explain": "Isocitrate → α-ketoglutarate releases <b>both NADH and CO<sub>2</sub></b>: the substrate is oxidized (NAD<sup>+</sup> → NADH) and loses a carbon as CO<sub>2</sub>. Succinate → fumarate is an oxidation (FAD) with no CO<sub>2</sub>; citrate → isocitrate is an isomerization; succinyl CoA → succinate makes GTP but neither oxidizes nor decarboxylates.",
@@ -118843,9 +118843,9 @@
   "prompt": "Is the disaccharide shown (sucrose) a reducing sugar?",
   "choices": [
    "No: both anomeric carbons are tied up in the glycosidic bond",
-   "Yes: the glucose ring has a free hemiacetal –OH at C1",
+   "Yes: the glucose ring has a free hemiacetal –OH group at C1",
    "Yes: fructose is a ketose, and every ketose is reducing",
-   "No: a disaccharide can never be a reducing sugar"
+   "No: a disaccharide can never be a reducing sugar at all"
   ],
   "answer": "No: both anomeric carbons are tied up in the glycosidic bond",
   "hint": "A reducing sugar needs one anomeric carbon that still has a free –OH (a hemiacetal that can open to C=O).",
@@ -118860,9 +118860,9 @@
    "prompt": "Is the disaccharide shown (sucrose) a reducing sugar?",
    "choices": [
     "No: both anomeric carbons are tied up in the glycosidic bond",
-    "Yes: the glucose ring has a free hemiacetal –OH at C1",
+    "Yes: the glucose ring has a free hemiacetal –OH group at C1",
     "Yes: fructose is a ketose, and every ketose is reducing",
-    "No: a disaccharide can never be a reducing sugar"
+    "No: a disaccharide can never be a reducing sugar at all"
    ],
    "hint": "A reducing sugar needs one anomeric carbon that still has a free –OH (a hemiacetal that can open to C=O).",
    "explain": "The bridging O uses C1 of glucose <b>and</b> C2 of fructose, the two anomeric carbons. Neither ring has a free hemiacetal, so neither can open, and sucrose gives a <b>negative</b> Benedict's test. Maltose and lactose are disaccharides that are reducing.",
@@ -124196,7 +124196,7 @@
   "prompt": "The triglyceride shown (in \"MCT oil\" supplements) is heated with NaOH (saponification). What are the products?",
   "choices": [
    "Glycerol + 3 sodium octanoate (soap)",
-   "Glycerol + 3 octanoic acid",
+   "Glycerol + 3 free octanoic acid molecules",
    "1 sodium octanoate + a diglyceride",
    "Glycerol + 3 octanol"
   ],
@@ -124213,7 +124213,7 @@
    "prompt": "The triglyceride shown (in \"MCT oil\" supplements) is heated with NaOH (saponification). What are the products?",
    "choices": [
     "Glycerol + 3 sodium octanoate (soap)",
-    "Glycerol + 3 octanoic acid",
+    "Glycerol + 3 free octanoic acid molecules",
     "1 sodium octanoate + a diglyceride",
     "Glycerol + 3 octanol"
    ],
@@ -149818,7 +149818,7 @@
   "prompt": "The ring system shown is found in cholesterol, estrogen, testosterone and cortisol. Which description fits it?",
   "choices": [
    "A steroid nucleus: three six-membered rings and one five-membered ring",
-   "A steroid nucleus: four six-membered rings",
+   "A steroid nucleus: four fused six-membered rings and no five-membered ring",
    "A steroid nucleus: two six-membered and two five-membered rings",
    "A triacylglycerol core: three fatty acid chains on glycerol"
   ],
@@ -149835,7 +149835,7 @@
    "prompt": "The ring system shown is found in cholesterol, estrogen, testosterone and cortisol. Which description fits it?",
    "choices": [
     "A steroid nucleus: three six-membered rings and one five-membered ring",
-    "A steroid nucleus: four six-membered rings",
+    "A steroid nucleus: four fused six-membered rings and no five-membered ring",
     "A steroid nucleus: two six-membered and two five-membered rings",
     "A triacylglycerol core: three fatty acid chains on glycerol"
    ],
@@ -150103,7 +150103,7 @@
   "choices": [
    "For a fixed chain length, each added cis double bond lowers the melting point",
    "For saturated acids, a longer chain gives a lower melting point",
-   "Double bonds raise the melting point by strengthening dispersion forces",
+   "Double bonds raise the melting point by strengthening the dispersion forces between chains",
    "Melting point depends only on the number of carbons, not on double bonds"
   ],
   "answer": "For a fixed chain length, each added cis double bond lowers the melting point",
@@ -150120,7 +150120,7 @@
    "choices": [
     "For a fixed chain length, each added cis double bond lowers the melting point",
     "For saturated acids, a longer chain gives a lower melting point",
-    "Double bonds raise the melting point by strengthening dispersion forces",
+    "Double bonds raise the melting point by strengthening the dispersion forces between chains",
     "Melting point depends only on the number of carbons, not on double bonds"
    ],
    "hint": "Compare the three 18-carbon acids with each other, then compare the three saturated acids with each other.",
@@ -152786,7 +152786,7 @@
   }
  },
  {
-  "id": "finalexam-4a0dd7c8",
+  "id": "finalexam-c3221f16",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -152802,12 +152802,12 @@
   "calc": true,
   "prompt": "Aspartic acid has a pI of about 2.8, glycine about 6.0, and lysine about 9.7. Which statement best explains the difference?",
   "choices": [
-   "An extra acidic side chain lowers the pI; an extra basic side chain raises it",
-   "A larger side chain always gives a higher pI",
-   "Polar side chains lower the pI; nonpolar side chains raise it",
+   "An acidic side chain lowers the pI; a basic side chain raises it",
+   "A larger side chain always gives a higher pI, whatever its group",
+   "Polar side chains lower the pI, and nonpolar side chains raise it",
    "The pI depends only on the number of carbon atoms in the side chain"
   ],
-  "answer": "An extra acidic side chain lowers the pI; an extra basic side chain raises it",
+  "answer": "An acidic side chain lowers the pI; a basic side chain raises it",
   "hint": "Aspartic acid has an extra –COOH in its side chain; lysine has an extra –NH₂. What does each do to the charge?",
   "explain": "Aspartic acid’s side chain is acidic (–COOH), so it takes a lower pH to keep it neutral overall: a low pI. Lysine’s side chain is basic (–NH₂), so it stays positive until the pH is high: a high pI. Glycine (R = H) sits in between. Size, polarity and carbon count don’t set the pI.",
   "why": [
@@ -152819,9 +152819,9 @@
   "html": {
    "prompt": "Aspartic acid has a pI of about 2.8, glycine about 6.0, and lysine about 9.7. Which statement best explains the difference?",
    "choices": [
-    "An extra acidic side chain lowers the pI; an extra basic side chain raises it",
-    "A larger side chain always gives a higher pI",
-    "Polar side chains lower the pI; nonpolar side chains raise it",
+    "An acidic side chain lowers the pI; a basic side chain raises it",
+    "A larger side chain always gives a higher pI, whatever its group",
+    "Polar side chains lower the pI, and nonpolar side chains raise it",
     "The pI depends only on the number of carbon atoms in the side chain"
    ],
    "hint": "Aspartic acid has an extra –COOH in its side chain; lysine has an extra –NH<sub>2</sub>. What does each do to the charge?",
@@ -171270,9 +171270,9 @@
   "prompt": "A biological polymer is hydrolyzed by dilute acid and gives only glucose. The bonds that held the monomers together are best described as which functional group?",
   "choices": [
    "Acetal (glycosidic) linkages",
-   "Ester linkages",
+   "Carboxylic ester linkages",
    "Amide (peptide) linkages",
-   "Phosphodiester linkages"
+   "Phosphodiester (nucleotide) linkages"
   ],
   "answer": "Acetal (glycosidic) linkages",
   "hint": "Think about what forms when the hemiacetal –OH of one sugar ring reacts with an –OH of the next sugar.",
@@ -171287,9 +171287,9 @@
    "prompt": "A biological polymer is hydrolyzed by dilute acid and gives only glucose. The bonds that held the monomers together are best described as which functional group?",
    "choices": [
     "Acetal (glycosidic) linkages",
-    "Ester linkages",
+    "Carboxylic ester linkages",
     "Amide (peptide) linkages",
-    "Phosphodiester linkages"
+    "Phosphodiester (nucleotide) linkages"
    ],
    "hint": "Think about what forms when the hemiacetal –OH of one sugar ring reacts with an –OH of the next sugar.",
    "explain": "A polymer of glucose is a polysaccharide (starch, glycogen or cellulose). Each glycosidic bond forms when the hemiacetal carbon of one glucose bonds through oxygen to an –OH of the next unit, giving an <b>acetal</b> (two –OR groups on one carbon). Esters link fatty acids in lipids, amides link amino acids in proteins and phosphodiesters link nucleotides.",
@@ -171391,9 +171391,9 @@
   "prompt": "Lipids are grouped together as a class not by a shared functional group but by a shared property. Which property defines a lipid?",
   "choices": [
    "Insoluble in water but soluble in nonpolar solvents",
-   "Soluble in water because of many –OH groups",
-   "Made of repeating amino acid units",
-   "Always contains a phosphate group"
+   "Soluble in water because of its many polar –OH groups",
+   "Made of repeating amino acid units joined in a chain",
+   "Always contains a phosphate group in its structure"
   ],
   "answer": "Insoluble in water but soluble in nonpolar solvents",
   "hint": "Fats, oils, waxes, steroids and phospholipids have very different structures. What do they all do in water?",
@@ -171408,9 +171408,9 @@
    "prompt": "Lipids are grouped together as a class not by a shared functional group but by a shared property. Which property defines a lipid?",
    "choices": [
     "Insoluble in water but soluble in nonpolar solvents",
-    "Soluble in water because of many –OH groups",
-    "Made of repeating amino acid units",
-    "Always contains a phosphate group"
+    "Soluble in water because of its many polar –OH groups",
+    "Made of repeating amino acid units joined in a chain",
+    "Always contains a phosphate group in its structure"
    ],
    "hint": "Fats, oils, waxes, steroids and phospholipids have very different structures. What do they all do in water?",
    "explain": "A lipid is defined as a biomolecule that is <b>insoluble in water and soluble in nonpolar solvents</b> such as hexane or ether, because most of its structure is hydrocarbon. Carbohydrates are the water-soluble polyhydroxy compounds; only phospholipids contain phosphate, and proteins are the amino acid polymers.",
@@ -171644,7 +171644,7 @@
   }
  },
  {
-  "id": "finalexam-f31911af",
+  "id": "finalexam-1231a04b",
   "skill": "finalexam.3b.carbs",
   "courses": [
    "3B"
@@ -171660,12 +171660,12 @@
   "calc": false,
   "prompt": "Glucose gives a positive Benedict's test (a reducing sugar) but sucrose does not. Which structural feature makes glucose a reducing sugar?",
   "choices": [
-   "Its ring can open to a free aldehyde (hemiacetal carbon not locked in a glycosidic bond)",
-   "It has five –OH groups that are easily oxidized",
-   "Its ring oxygen can accept electrons from Cu²⁺",
+   "Its ring can open to a free aldehyde, since C1 is not locked in a glycosidic bond",
+   "It has five –OH groups, and Benedict’s reagent oxidizes these alcohol groups",
+   "Its ring oxygen has lone pairs that can pass electrons to Cu²⁺",
    "It contains an acetal carbon that is oxidized to a carboxylic acid"
   ],
-  "answer": "Its ring can open to a free aldehyde (hemiacetal carbon not locked in a glycosidic bond)",
+  "answer": "Its ring can open to a free aldehyde, since C1 is not locked in a glycosidic bond",
   "hint": "Benedict's reagent oxidizes aldehydes. Which carbon of glucose can become an aldehyde in solution, and why can't sucrose do the same?",
   "explain": "In solution the cyclic hemiacetal of glucose opens to the free aldehyde, which Cu²⁺ oxidizes to a carboxylate (red Cu₂O forms), so a free hemiacetal/aldehyde makes a sugar reducing. In sucrose both anomeric carbons are tied up as an acetal and a ketal, so no aldehyde can form. The alcohol –OH groups are not oxidized by Benedict's reagent.",
   "why": [
@@ -171677,9 +171677,9 @@
   "html": {
    "prompt": "Glucose gives a positive Benedict's test (a reducing sugar) but sucrose does not. Which structural feature makes glucose a reducing sugar?",
    "choices": [
-    "Its ring can open to a free aldehyde (hemiacetal carbon not locked in a glycosidic bond)",
-    "It has five –OH groups that are easily oxidized",
-    "Its ring oxygen can accept electrons from Cu<sup>2+</sup>",
+    "Its ring can open to a free aldehyde, since C1 is not locked in a glycosidic bond",
+    "It has five –OH groups, and Benedict’s reagent oxidizes these alcohol groups",
+    "Its ring oxygen has lone pairs that can pass electrons to Cu<sup>2+</sup>",
     "It contains an acetal carbon that is oxidized to a carboxylic acid"
    ],
    "hint": "Benedict's reagent oxidizes aldehydes. Which carbon of glucose can become an aldehyde in solution, and why can't sucrose do the same?",
@@ -172257,7 +172257,7 @@
   }
  },
  {
-  "id": "finalexam-f4dda7ee",
+  "id": "finalexam-d524f939",
   "skill": "finalexam.3b.lipids",
   "courses": [
    "3B"
@@ -172273,12 +172273,12 @@
   "calc": false,
   "prompt": "Two students break down samples of the same vegetable oil (a triacylglycerol): one uses hot water with an H₂SO₄ catalyst, the other uses aqueous NaOH. Compare the products of the two experiments.",
   "choices": [
-   "Glycerol forms in each case; acid gives free fatty acids, NaOH gives fatty acid salts (soaps)",
+   "Both give glycerol; acid gives fatty acids, and NaOH gives fatty acid salts (soaps)",
    "Acid gives glycerol and fatty acids; NaOH gives glycerol and three alcohols",
-   "Acid gives three esters; NaOH gives glycerol and fatty acids",
-   "Fatty acid salts form in each case; only NaOH releases glycerol"
+   "Acid gives three new esters; NaOH gives glycerol and free fatty acids",
+   "Fatty acid salts form in each case, but only the NaOH reaction releases glycerol"
   ],
-  "answer": "Glycerol forms in each case; acid gives free fatty acids, NaOH gives fatty acid salts (soaps)",
+  "answer": "Both give glycerol; acid gives fatty acids, and NaOH gives fatty acid salts (soaps)",
   "hint": "Both reactions break the same three ester bonds. Think about what a carboxylic acid becomes in a strongly basic solution.",
   "explain": "Either way the three ester bonds are hydrolyzed and the alcohol portion, glycerol, is released. In acid the carboxylic acids are freed as RCOOH; in NaOH the base neutralizes them to RCOO⁻Na⁺, the salts we call soap. Fatty acids are the acid part of the ester, so they are never released as alcohols.",
   "why": [
@@ -172290,10 +172290,10 @@
   "html": {
    "prompt": "Two students break down samples of the same vegetable oil (a triacylglycerol): one uses hot water with an H<sub>2</sub>SO<sub>4</sub> catalyst, the other uses aqueous NaOH. Compare the products of the two experiments.",
    "choices": [
-    "Glycerol forms in each case; acid gives free fatty acids, NaOH gives fatty acid salts (soaps)",
+    "Both give glycerol; acid gives fatty acids, and NaOH gives fatty acid salts (soaps)",
     "Acid gives glycerol and fatty acids; NaOH gives glycerol and three alcohols",
-    "Acid gives three esters; NaOH gives glycerol and fatty acids",
-    "Fatty acid salts form in each case; only NaOH releases glycerol"
+    "Acid gives three new esters; NaOH gives glycerol and free fatty acids",
+    "Fatty acid salts form in each case, but only the NaOH reaction releases glycerol"
    ],
    "hint": "Both reactions break the same three ester bonds. Think about what a carboxylic acid becomes in a strongly basic solution.",
    "explain": "Either way the three ester bonds are hydrolyzed and the alcohol portion, <b>glycerol</b>, is released. In acid the carboxylic acids are freed as RCOOH; in NaOH the base neutralizes them to <b>RCOO<sup>−</sup>Na<sup>+</sup></b>, the salts we call soap. Fatty acids are the acid part of the ester, so they are never released as alcohols.",
@@ -172311,7 +172311,7 @@
   }
  },
  {
-  "id": "finalexam-1ef66869",
+  "id": "finalexam-0346a215",
   "skill": "finalexam.3b.lipids",
   "courses": [
    "3B"
@@ -172327,12 +172327,12 @@
   "calc": false,
   "prompt": "Phospholipids form the bilayer of cell membranes, but triacylglycerols do not; they collect as droplets inside fat cells. Why?",
   "choices": [
-   "A triacylglycerol has no polar, charged head group, so it is nonpolar throughout",
-   "A triacylglycerol has only one fatty acid tail",
+   "A triacylglycerol has no polar, charged head group; it is nonpolar throughout",
+   "A triacylglycerol has only one fatty acid tail, too few to line up in a bilayer",
    "Triacylglycerols are too water soluble to stay in a membrane",
-   "Triacylglycerols contain a steroid ring that is too rigid"
+   "Triacylglycerols contain a steroid ring that is too rigid to fit in a bilayer"
   ],
-  "answer": "A triacylglycerol has no polar, charged head group, so it is nonpolar throughout",
+  "answer": "A triacylglycerol has no polar, charged head group; it is nonpolar throughout",
   "hint": "A bilayer needs molecules with a polar head facing water and nonpolar tails facing inward. Compare the \"head\" of each lipid.",
   "explain": "In a phospholipid one ester is replaced by a charged phosphate–amino alcohol head, so the molecule is amphipathic and lines up with heads toward water. In a triacylglycerol all three glycerol –OH groups are esterified to fatty acids, leaving no polar head; the whole molecule is nonpolar, so it simply clumps into oily droplets.",
   "why": [
@@ -172344,10 +172344,10 @@
   "html": {
    "prompt": "Phospholipids form the bilayer of cell membranes, but triacylglycerols do not; they collect as droplets inside fat cells. Why?",
    "choices": [
-    "A triacylglycerol has no polar, charged head group, so it is nonpolar throughout",
-    "A triacylglycerol has only one fatty acid tail",
+    "A triacylglycerol has no polar, charged head group; it is nonpolar throughout",
+    "A triacylglycerol has only one fatty acid tail, too few to line up in a bilayer",
     "Triacylglycerols are too water soluble to stay in a membrane",
-    "Triacylglycerols contain a steroid ring that is too rigid"
+    "Triacylglycerols contain a steroid ring that is too rigid to fit in a bilayer"
    ],
    "hint": "A bilayer needs molecules with a polar head facing water and nonpolar tails facing inward. Compare the \"head\" of each lipid.",
    "explain": "In a phospholipid one ester is replaced by a charged phosphate–amino alcohol head, so the molecule is amphipathic and lines up with heads toward water. In a <b>triacylglycerol all three glycerol –OH groups are esterified to fatty acids</b>, leaving no polar head; the whole molecule is nonpolar, so it simply clumps into oily droplets.",
@@ -175593,8 +175593,8 @@
   "prompt": "Which coenzyme carries the two-carbon acetyl group from pyruvate (or from β-oxidation) into the citric acid cycle?",
   "choices": [
    "Coenzyme A",
-   "NAD⁺",
-   "FAD",
+   "NAD⁺, from niacin",
+   "FAD, from riboflavin",
    "ATP"
   ],
   "answer": "Coenzyme A",
@@ -175610,8 +175610,8 @@
    "prompt": "Which coenzyme carries the two-carbon acetyl group from pyruvate (or from β-oxidation) into the citric acid cycle?",
    "choices": [
     "Coenzyme A",
-    "NAD<sup>+</sup>",
-    "FAD",
+    "NAD<sup>+</sup>, from niacin",
+    "FAD, from riboflavin",
     "ATP"
    ],
    "hint": "The acetyl group is attached through a thioester bond to a coenzyme made from vitamin B<sub>5</sub>.",
@@ -175744,7 +175744,7 @@
   }
  },
  {
-  "id": "finalexam-b65e7a10",
+  "id": "finalexam-7f3806f3",
   "skill": "finalexam.3b.metabolism",
   "courses": [
    "3B"
@@ -175763,12 +175763,12 @@
   "calc": false,
   "prompt": "When a cyclist pedals, ATP made from the oxidation of glucose is used by muscle proteins. Which energy conversion best describes muscle contraction?",
   "choices": [
-   "Chemical energy in ATP → mechanical energy of movement (plus heat)",
+   "Chemical energy in ATP → mechanical energy of movement",
    "Mechanical energy → chemical energy stored in glycogen",
-   "Light energy → chemical energy in ATP",
-   "Electrical energy → chemical energy in NADH"
+   "Light energy → chemical energy stored in ATP",
+   "Electrical energy of the nerve → chemical energy in NADH"
   ],
-  "answer": "Chemical energy in ATP → mechanical energy of movement (plus heat)",
+  "answer": "Chemical energy in ATP → mechanical energy of movement",
   "hint": "The energy was stored in chemical bonds of food, then of ATP. What form does it take when a muscle shortens?",
   "explain": "Hydrolysis of ATP releases chemical energy, which myosin converts into mechanical work as the muscle fibers slide, with much of the rest lost as heat (why exercise warms you). Storing glycogen is chemical → chemical; light → chemical is photosynthesis.",
   "why": [
@@ -175780,10 +175780,10 @@
   "html": {
    "prompt": "When a cyclist pedals, ATP made from the oxidation of glucose is used by muscle proteins. Which energy conversion best describes muscle contraction?",
    "choices": [
-    "Chemical energy in ATP → mechanical energy of movement (plus heat)",
+    "Chemical energy in ATP → mechanical energy of movement",
     "Mechanical energy → chemical energy stored in glycogen",
-    "Light energy → chemical energy in ATP",
-    "Electrical energy → chemical energy in NADH"
+    "Light energy → chemical energy stored in ATP",
+    "Electrical energy of the nerve → chemical energy in NADH"
    ],
    "hint": "The energy was stored in chemical bonds of food, then of ATP. What form does it take when a muscle shortens?",
    "explain": "Hydrolysis of ATP releases <b>chemical energy</b>, which myosin converts into <b>mechanical work</b> as the muscle fibers slide, with much of the rest lost as heat (why exercise warms you). Storing glycogen is chemical → chemical; light → chemical is photosynthesis.",
@@ -176222,7 +176222,7 @@
   }
  },
  {
-  "id": "finalexam-ef8d48e1",
+  "id": "finalexam-32370450",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -176238,12 +176238,12 @@
   "calc": false,
   "prompt": "A water-soluble enzyme is placed in a nonpolar solvent such as hexane. Which change in its structure is most likely, and why does activity fall?",
   "choices": [
-   "Hydrophobic side chains turn outward and polar ones inward, so the tertiary structure and active site are lost",
+   "Hydrophobic side chains turn outward and polar ones inward, so the active site is lost",
    "The peptide bonds hydrolyze, so the primary structure and with it the active site are destroyed",
    "New disulfide bonds form between all of the cysteine residues, locking the active site shut",
    "The α-helices convert into β-sheets, but the shape of the active site itself is unchanged"
   ],
-  "answer": "Hydrophobic side chains turn outward and polar ones inward, so the tertiary structure and active site are lost",
+  "answer": "Hydrophobic side chains turn outward and polar ones inward, so the active site is lost",
   "hint": "In water, hydrophobic R groups hide inside and polar R groups face out. What happens when the solvent itself is nonpolar?",
   "explain": "In hexane the driving force reverses: hydrophobic side chains are now happiest facing the solvent and polar side chains cluster inside, so the protein refolds or unfolds and the precisely shaped active site is lost: denaturation of tertiary structure. The covalent peptide bonds are not broken by a solvent (that needs hydrolysis), and disulfide formation requires an oxidizing agent.",
   "why": [
@@ -176255,7 +176255,7 @@
   "html": {
    "prompt": "A water-soluble enzyme is placed in a nonpolar solvent such as hexane. Which change in its structure is most likely, and why does activity fall?",
    "choices": [
-    "Hydrophobic side chains turn outward and polar ones inward, so the tertiary structure and active site are lost",
+    "Hydrophobic side chains turn outward and polar ones inward, so the active site is lost",
     "The peptide bonds hydrolyze, so the primary structure and with it the active site are destroyed",
     "New disulfide bonds form between all of the cysteine residues, locking the active site shut",
     "The α-helices convert into β-sheets, but the shape of the active site itself is unchanged"
@@ -176747,7 +176747,7 @@
   }
  },
  {
-  "id": "finalexam-f850b103",
+  "id": "finalexam-ae1318d2",
   "skill": "finalexam.3b.amines",
   "courses": [
    "3B"
@@ -176763,12 +176763,12 @@
   "calc": false,
   "prompt": "Which statement best describes a neurotransmitter?",
   "choices": [
-   "a chemical messenger that carries a signal from a nerve cell across a synapse",
+   "a chemical that carries a signal from a nerve cell across a synapse",
    "a hormone carried by the blood to organs far from where it is made",
-   "an enzyme that breaks down nerve signals in the brain",
-   "the electrical signal that travels along a nerve fiber"
+   "an enzyme that breaks down nerve signals in the brain and spinal cord",
+   "the electrical signal that travels along a nerve fiber to its end"
   ],
-  "answer": "a chemical messenger that carries a signal from a nerve cell across a synapse",
+  "answer": "a chemical that carries a signal from a nerve cell across a synapse",
   "hint": "Think about how a signal gets across the tiny gap between two nerve cells.",
   "explain": "A neurotransmitter is a chemical messenger released by a nerve cell. It crosses the synapse, binds to receptors on the next cell, and is then removed or broken down. Many neurotransmitters are amines, such as dopamine and serotonin.",
   "why": [
@@ -176780,10 +176780,10 @@
   "html": {
    "prompt": "Which statement best describes a neurotransmitter?",
    "choices": [
-    "a chemical messenger that carries a signal from a nerve cell across a synapse",
+    "a chemical that carries a signal from a nerve cell across a synapse",
     "a hormone carried by the blood to organs far from where it is made",
-    "an enzyme that breaks down nerve signals in the brain",
-    "the electrical signal that travels along a nerve fiber"
+    "an enzyme that breaks down nerve signals in the brain and spinal cord",
+    "the electrical signal that travels along a nerve fiber to its end"
    ],
    "hint": "Think about how a signal gets across the tiny gap between two nerve cells.",
    "explain": "A neurotransmitter is <b>a chemical messenger released by a nerve cell</b>. It crosses the synapse, binds to receptors on the next cell, and is then removed or broken down. Many neurotransmitters are amines, such as dopamine and serotonin.",
@@ -176872,9 +176872,9 @@
   "prompt": "SSRI antidepressants such as fluoxetine (Prozac) block the reuptake of serotonin, the step in which the sending nerve cell takes serotonin back in from the synapse. What is the effect?",
   "choices": [
    "Serotonin stays in the synapse longer, so its signal lasts longer",
-   "The body stops making serotonin",
-   "Serotonin is broken down faster in the synapse",
-   "Serotonin can no longer bind to its receptors"
+   "The body stops making serotonin in the sending nerve cell",
+   "Serotonin is broken down faster by enzymes in the synapse",
+   "Serotonin can no longer bind to its receptors on the next cell"
   ],
   "answer": "Serotonin stays in the synapse longer, so its signal lasts longer",
   "hint": "If the sending cell cannot take serotonin back in, where does the serotonin stay?",
@@ -176889,9 +176889,9 @@
    "prompt": "SSRI antidepressants such as fluoxetine (Prozac) block the reuptake of serotonin, the step in which the sending nerve cell takes serotonin back in from the synapse. What is the effect?",
    "choices": [
     "Serotonin stays in the synapse longer, so its signal lasts longer",
-    "The body stops making serotonin",
-    "Serotonin is broken down faster in the synapse",
-    "Serotonin can no longer bind to its receptors"
+    "The body stops making serotonin in the sending nerve cell",
+    "Serotonin is broken down faster by enzymes in the synapse",
+    "Serotonin can no longer bind to its receptors on the next cell"
    ],
    "hint": "If the sending cell cannot take serotonin back in, where does the serotonin stay?",
    "explain": "Reuptake normally clears serotonin from the synapse and ends its signal. Blocking it means <b>serotonin stays in the synapse longer</b> and keeps acting on the receptors of the next cell.",
@@ -176926,9 +176926,9 @@
   "prompt": "Ammonia (NH₃) from dairies and fertilizer reacts in Valley air with nitric acid (HNO₃) from vehicle exhaust, forming tiny particles of ammonium nitrate, NH₄NO₃. In this reaction, ammonia acts as",
   "choices": [
    "a base that accepts H⁺ to form the ammonium ion",
-   "an acid that donates H⁺",
-   "an oxidizing agent",
-   "a catalyst that is not changed"
+   "an acid that donates H⁺ to the nitrate ion",
+   "an oxidizing agent that takes electrons from HNO₃",
+   "a catalyst that speeds the reaction but is not changed"
   ],
   "answer": "a base that accepts H⁺ to form the ammonium ion",
   "hint": "Amines and ammonia have a lone pair on nitrogen. What do they do with H⁺?",
@@ -176943,9 +176943,9 @@
    "prompt": "Ammonia (NH<sub>3</sub>) from dairies and fertilizer reacts in Valley air with nitric acid (HNO<sub>3</sub>) from vehicle exhaust, forming tiny particles of ammonium nitrate, NH<sub>4</sub>NO<sub>3</sub>. In this reaction, ammonia acts as",
    "choices": [
     "a base that accepts H<sup>+</sup> to form the ammonium ion",
-    "an acid that donates H<sup>+</sup>",
-    "an oxidizing agent",
-    "a catalyst that is not changed"
+    "an acid that donates H<sup>+</sup> to the nitrate ion",
+    "an oxidizing agent that takes electrons from HNO<sub>3</sub>",
+    "a catalyst that speeds the reaction but is not changed"
    ],
    "hint": "Amines and ammonia have a lone pair on nitrogen. What do they do with H<sup>+</sup>?",
    "explain": "Like an amine, ammonia uses its nitrogen lone pair to <b>accept H<sup>+</sup> from the acid</b>, forming NH<sub>4</sub><sup>+</sup>. The product, ammonium nitrate, is an ammonium salt, just like the salt formed when an amine reacts with HCl.",
@@ -177251,8 +177251,8 @@
   "choices": [
    "only C6; C1 stays an aldehyde",
    "only C1; C6 stays –CH₂OH",
-   "both C1 and C6",
-   "only C2"
+   "both C1 and C6, giving a diacid",
+   "only C2; C1 and C6 are unchanged"
   ],
   "answer": "only C6; C1 stays an aldehyde",
   "hint": "Uronic acids are the \"other end\" acids: C1 is protected in a ring while the enzyme works.",
@@ -177268,8 +177268,8 @@
    "choices": [
     "only C6; C1 stays an aldehyde",
     "only C1; C6 stays –CH<sub>2</sub>OH",
-    "both C1 and C6",
-    "only C2"
+    "both C1 and C6, giving a diacid",
+    "only C2; C1 and C6 are unchanged"
    ],
    "hint": "Uronic acids are the \"other end\" acids: C1 is protected in a ring while the enzyme works.",
    "explain": "In a uronic (alduronic) acid, <b>only the last carbon, C6, is oxidized to –COOH</b>. C1 is untouched, so glucuronic acid is still a reducing sugar.",
@@ -177287,7 +177287,7 @@
   }
  },
  {
-  "id": "finalexam-41d3230d",
+  "id": "finalexam-ee4ddc66",
   "skill": "finalexam.3b.carbs",
   "courses": [
    "3B"
@@ -177303,12 +177303,12 @@
   "calc": false,
   "prompt": "Glucuronidation helps the kidneys excrete a drug in urine. Attaching glucuronic acid has this effect mainly because it",
   "choices": [
-   "adds several polar –OH groups and an ionized –COO⁻ group, making the drug more water soluble",
-   "makes the drug more nonpolar so it dissolves in body fat",
-   "breaks the drug into CO₂ and water",
+   "adds polar –OH and ionized –COO⁻ groups, making the drug water soluble",
+   "makes the drug more nonpolar, so it moves out of the blood into body fat",
+   "breaks the drug down completely into CO₂ and water for exhalation",
    "turns the drug into a polysaccharide that is stored in the liver"
   ],
-  "answer": "adds several polar –OH groups and an ionized –COO⁻ group, making the drug more water soluble",
+  "answer": "adds polar –OH and ionized –COO⁻ groups, making the drug water soluble",
   "hint": "Urine is mostly water. What kind of molecule dissolves well in water?",
   "explain": "Glucuronic acid has several –OH groups and a –COOH that is ionized (–COO⁻) at body pH. Attaching it makes the drug much more polar and water soluble, so the kidneys can excrete it in urine.",
   "why": [
@@ -177320,9 +177320,9 @@
   "html": {
    "prompt": "Glucuronidation helps the kidneys excrete a drug in urine. Attaching glucuronic acid has this effect mainly because it",
    "choices": [
-    "adds several polar –OH groups and an ionized –COO<sup>−</sup> group, making the drug more water soluble",
-    "makes the drug more nonpolar so it dissolves in body fat",
-    "breaks the drug into CO<sub>2</sub> and water",
+    "adds polar –OH and ionized –COO<sup>−</sup> groups, making the drug water soluble",
+    "makes the drug more nonpolar, so it moves out of the blood into body fat",
+    "breaks the drug down completely into CO<sub>2</sub> and water for exhalation",
     "turns the drug into a polysaccharide that is stored in the liver"
    ],
    "hint": "Urine is mostly water. What kind of molecule dissolves well in water?",
@@ -177341,7 +177341,7 @@
   }
  },
  {
-  "id": "finalexam-d1c9f8f3",
+  "id": "finalexam-5a950920",
   "skill": "finalexam.3b.carbs",
   "courses": [
    "3B"
@@ -177357,12 +177357,12 @@
   "calc": false,
   "prompt": "The A1C test measures hemoglobin A1C, which forms when glucose attaches, without any enzyme, to an –NH₂ group of hemoglobin. Which group of glucose reacts with the –NH₂?",
   "choices": [
-   "the aldehyde (C=O) group of the open-chain form",
-   "the –OH on carbon 6",
-   "a glycosidic bond",
-   "the oxygen atom inside the ring"
+   "the aldehyde C=O of the open-chain form",
+   "the primary –OH group on carbon 6",
+   "a glycosidic bond at the anomeric carbon",
+   "the oxygen atom inside the closed ring"
   ],
-  "answer": "the aldehyde (C=O) group of the open-chain form",
+  "answer": "the aldehyde C=O of the open-chain form",
   "hint": "Amines react with carbonyl groups. Where is the carbonyl group in glucose?",
   "explain": "In its open-chain form, glucose has an aldehyde (C=O) at C1. This carbonyl reacts with an amino group on hemoglobin. The more glucose in the blood, the more hemoglobin becomes glycated.",
   "why": [
@@ -177374,10 +177374,10 @@
   "html": {
    "prompt": "The A1C test measures hemoglobin A1C, which forms when glucose attaches, without any enzyme, to an –NH<sub>2</sub> group of hemoglobin. Which group of glucose reacts with the –NH<sub>2</sub>?",
    "choices": [
-    "the aldehyde (C=O) group of the open-chain form",
-    "the –OH on carbon 6",
-    "a glycosidic bond",
-    "the oxygen atom inside the ring"
+    "the aldehyde C=O of the open-chain form",
+    "the primary –OH group on carbon 6",
+    "a glycosidic bond at the anomeric carbon",
+    "the oxygen atom inside the closed ring"
    ],
    "hint": "Amines react with carbonyl groups. Where is the carbonyl group in glucose?",
    "explain": "In its open-chain form, glucose has an <b>aldehyde (C=O) at C1</b>. This carbonyl reacts with an amino group on hemoglobin. The more glucose in the blood, the more hemoglobin becomes glycated.",
@@ -177395,7 +177395,7 @@
   }
  },
  {
-  "id": "finalexam-523ff1d6",
+  "id": "finalexam-da816a08",
   "skill": "finalexam.3b.carbs",
   "courses": [
    "3B"
@@ -177411,12 +177411,12 @@
   "calc": false,
   "prompt": "Why does an A1C result reflect a patient's average blood glucose over the past 2–3 months instead of only today's level?",
   "choices": [
-   "Glucose stays attached to hemoglobin for the life of the red blood cell",
-   "Hemoglobin is made only once every three months",
-   "Glucose needs three months to enter red blood cells",
-   "The A1C test measures glycogen stored in the liver"
+   "Glucose stays bound to hemoglobin for the life of the red blood cell",
+   "Hemoglobin is made only once every three months, in a single batch",
+   "Glucose needs about three months to cross into red blood cells",
+   "The A1C test measures glycogen that the liver stored over those months"
   ],
-  "answer": "Glucose stays attached to hemoglobin for the life of the red blood cell",
+  "answer": "Glucose stays bound to hemoglobin for the life of the red blood cell",
   "hint": "How long does a red blood cell, and the hemoglobin inside it, last?",
   "explain": "Once glucose is attached to hemoglobin, it stays there for the rest of the red blood cell's life, about 120 days. So the percentage of glycated hemoglobin builds up in step with average blood glucose over the past few months.",
   "why": [
@@ -177428,10 +177428,10 @@
   "html": {
    "prompt": "Why does an A1C result reflect a patient's average blood glucose over the past 2–3 months instead of only today's level?",
    "choices": [
-    "Glucose stays attached to hemoglobin for the life of the red blood cell",
-    "Hemoglobin is made only once every three months",
-    "Glucose needs three months to enter red blood cells",
-    "The A1C test measures glycogen stored in the liver"
+    "Glucose stays bound to hemoglobin for the life of the red blood cell",
+    "Hemoglobin is made only once every three months, in a single batch",
+    "Glucose needs about three months to cross into red blood cells",
+    "The A1C test measures glycogen that the liver stored over those months"
    ],
    "hint": "How long does a red blood cell, and the hemoglobin inside it, last?",
    "explain": "Once glucose is attached to hemoglobin, it stays there for the rest of the red blood cell's life, <b>about 120 days</b>. So the percentage of glycated hemoglobin builds up in step with average blood glucose over the past few months.",
@@ -177449,7 +177449,7 @@
   }
  },
  {
-  "id": "finalexam-e55d6a1b",
+  "id": "finalexam-330735da",
   "skill": "finalexam.3b.carbs",
   "courses": [
    "3B"
@@ -177465,12 +177465,12 @@
   "calc": false,
   "prompt": "Lactose-free milk from Valley dairies is made by adding the enzyme lactase to milk. It tastes slightly sweeter than regular milk, even though no sugar is added. Why?",
   "choices": [
-   "Lactase hydrolyzes lactose into glucose and galactose, which together taste sweeter than lactose",
-   "Lactase converts lactose into sucrose",
-   "Lactase polymerizes lactose into starch",
+   "Lactase splits lactose into glucose and galactose, which taste sweeter together",
+   "Lactase converts lactose into sucrose, a sweeter disaccharide",
+   "Lactase polymerizes the lactose into short starch chains",
    "Removing lactose leaves only the milk proteins, which are sweet"
   ],
-  "answer": "Lactase hydrolyzes lactose into glucose and galactose, which together taste sweeter than lactose",
+  "answer": "Lactase splits lactose into glucose and galactose, which taste sweeter together",
   "hint": "What are the products when lactase hydrolyzes lactose?",
   "explain": "Lactase breaks the β(1→4) glycosidic bond, giving glucose and galactose. Together these monosaccharides taste sweeter than the same amount of lactose, and people who make little lactase can absorb them.",
   "why": [
@@ -177482,9 +177482,9 @@
   "html": {
    "prompt": "Lactose-free milk from Valley dairies is made by adding the enzyme lactase to milk. It tastes slightly sweeter than regular milk, even though no sugar is added. Why?",
    "choices": [
-    "Lactase hydrolyzes lactose into glucose and galactose, which together taste sweeter than lactose",
-    "Lactase converts lactose into sucrose",
-    "Lactase polymerizes lactose into starch",
+    "Lactase splits lactose into glucose and galactose, which taste sweeter together",
+    "Lactase converts lactose into sucrose, a sweeter disaccharide",
+    "Lactase polymerizes the lactose into short starch chains",
     "Removing lactose leaves only the milk proteins, which are sweet"
    ],
    "hint": "What are the products when lactase hydrolyzes lactose?",
@@ -178421,7 +178421,7 @@
   }
  },
  {
-  "id": "finalexam-128d3b08",
+  "id": "finalexam-eec857fb",
   "skill": "finalexam.3b.lipids",
   "courses": [
    "3B"
@@ -178437,12 +178437,12 @@
   "calc": false,
   "prompt": "After a heart attack, patients are often told to take low-dose aspirin, which lowers thromboxane production in platelets. What do thromboxanes normally do?",
   "choices": [
-   "promote platelet clumping (the start of a clot) and narrow blood vessels",
-   "constrict the airways in asthma",
-   "carry cholesterol from the liver to the tissues",
-   "store energy in fat cells"
+   "promote platelet clumping and narrow blood vessels",
+   "constrict the smooth muscle of the airways during an asthma attack",
+   "carry cholesterol in the blood from the liver out to the tissues",
+   "store energy in fat cells as long-chain fatty acid esters"
   ],
-  "answer": "promote platelet clumping (the start of a clot) and narrow blood vessels",
+  "answer": "promote platelet clumping and narrow blood vessels",
   "hint": "Aspirin is given to prevent clots. Which eicosanoid is made in platelets?",
   "explain": "Thromboxanes are eicosanoids made in platelets. They promote platelet aggregation and vasoconstriction. Aspirin blocks the COX enzymes that make them, so clots are less likely to form.",
   "why": [
@@ -178454,10 +178454,10 @@
   "html": {
    "prompt": "After a heart attack, patients are often told to take low-dose aspirin, which lowers thromboxane production in platelets. What do thromboxanes normally do?",
    "choices": [
-    "promote platelet clumping (the start of a clot) and narrow blood vessels",
-    "constrict the airways in asthma",
-    "carry cholesterol from the liver to the tissues",
-    "store energy in fat cells"
+    "promote platelet clumping and narrow blood vessels",
+    "constrict the smooth muscle of the airways during an asthma attack",
+    "carry cholesterol in the blood from the liver out to the tissues",
+    "store energy in fat cells as long-chain fatty acid esters"
    ],
    "hint": "Aspirin is given to prevent clots. Which eicosanoid is made in platelets?",
    "explain": "Thromboxanes are eicosanoids made in platelets. They <b>promote platelet aggregation and vasoconstriction</b>. Aspirin blocks the COX enzymes that make them, so clots are less likely to form.",
@@ -178546,9 +178546,9 @@
   "prompt": "Prostaglandins, thromboxanes and leukotrienes are all made from the same starting material. What is it?",
   "choices": [
    "arachidonic acid, a 20-carbon fatty acid",
-   "cholesterol, a steroid",
-   "glycerol",
-   "sphingosine, an amino alcohol"
+   "cholesterol, a steroid with four fused rings",
+   "glycerol, a three-carbon alcohol",
+   "sphingosine, a long-chain amino alcohol"
   ],
   "answer": "arachidonic acid, a 20-carbon fatty acid",
   "hint": "The name \"eicosanoid\" comes from the Greek word for twenty.",
@@ -178563,9 +178563,9 @@
    "prompt": "Prostaglandins, thromboxanes and leukotrienes are all made from the same starting material. What is it?",
    "choices": [
     "arachidonic acid, a 20-carbon fatty acid",
-    "cholesterol, a steroid",
-    "glycerol",
-    "sphingosine, an amino alcohol"
+    "cholesterol, a steroid with four fused rings",
+    "glycerol, a three-carbon alcohol",
+    "sphingosine, a long-chain amino alcohol"
    ],
    "hint": "The name \"eicosanoid\" comes from the Greek word for twenty.",
    "explain": "All eicosanoids come from <b>arachidonic acid</b>, a 20-carbon fatty acid with four cis C=C bonds that is cut out of membrane phospholipids when needed.",
@@ -178583,7 +178583,7 @@
   }
  },
  {
-  "id": "finalexam-941597fa",
+  "id": "finalexam-84f8d1a6",
   "skill": "finalexam.3b.lipids",
   "courses": [
    "3B"
@@ -178599,12 +178599,12 @@
   "calc": false,
   "prompt": "Flaxseed oil turns rancid by reacting with O₂ in the air much faster than coconut oil does. What is the best explanation?",
   "choices": [
-   "Flaxseed oil has many C=C double bonds, which O₂ attacks; coconut oil is mostly saturated",
-   "Flaxseed oil has more ester bonds per molecule than coconut oil",
-   "Saturated fats react with O₂ faster than unsaturated fats",
-   "Coconut oil contains no carbon–hydrogen bonds"
+   "Flaxseed oil has many C=C bonds that O₂ attacks; coconut oil is mostly saturated",
+   "Flaxseed oil has more ester bonds per molecule, and O₂ attacks ester bonds",
+   "Saturated fats react with O₂ faster, and flaxseed oil is the more saturated oil",
+   "Coconut oil contains no carbon–hydrogen bonds for O₂ to attack"
   ],
-  "answer": "Flaxseed oil has many C=C double bonds, which O₂ attacks; coconut oil is mostly saturated",
+  "answer": "Flaxseed oil has many C=C bonds that O₂ attacks; coconut oil is mostly saturated",
   "hint": "Oxidative rancidity starts at a particular part of a fatty acid chain. Which kind of fat has more of it?",
   "explain": "Oxygen attacks fatty acid chains at and next to their C=C bonds. Flaxseed oil is rich in polyunsaturated fatty acids with many C=C bonds, while coconut oil is mostly saturated, so flaxseed oil oxidizes and turns rancid faster.",
   "why": [
@@ -178616,10 +178616,10 @@
   "html": {
    "prompt": "Flaxseed oil turns rancid by reacting with O<sub>2</sub> in the air much faster than coconut oil does. What is the best explanation?",
    "choices": [
-    "Flaxseed oil has many C=C double bonds, which O<sub>2</sub> attacks; coconut oil is mostly saturated",
-    "Flaxseed oil has more ester bonds per molecule than coconut oil",
-    "Saturated fats react with O<sub>2</sub> faster than unsaturated fats",
-    "Coconut oil contains no carbon–hydrogen bonds"
+    "Flaxseed oil has many C=C bonds that O<sub>2</sub> attacks; coconut oil is mostly saturated",
+    "Flaxseed oil has more ester bonds per molecule, and O<sub>2</sub> attacks ester bonds",
+    "Saturated fats react with O<sub>2</sub> faster, and flaxseed oil is the more saturated oil",
+    "Coconut oil contains no carbon–hydrogen bonds for O<sub>2</sub> to attack"
    ],
    "hint": "Oxidative rancidity starts at a particular part of a fatty acid chain. Which kind of fat has more of it?",
    "explain": "Oxygen attacks fatty acid chains at and next to their C=C bonds. Flaxseed oil is rich in <b>polyunsaturated fatty acids with many C=C bonds</b>, while coconut oil is mostly saturated, so flaxseed oil oxidizes and turns rancid faster.",
@@ -178654,9 +178654,9 @@
   "prompt": "Butter left out too long smells sour and \"cheesy\" because butyric acid (a 4-carbon fatty acid) is released. Which reaction releases it?",
   "choices": [
    "hydrolysis of the ester bonds of triacylglycerols",
-   "hydrogenation of the C=C bonds in the fat",
+   "hydrogenation of the C=C double bonds in the fat’s chains",
    "saponification of the fat with NaOH",
-   "dehydration of the glycerol backbone"
+   "dehydration of the glycerol backbone, which splits off the chains"
   ],
   "answer": "hydrolysis of the ester bonds of triacylglycerols",
   "hint": "Butyric acid is attached to glycerol by an ester bond. Which reaction breaks an ester bond with water?",
@@ -178671,9 +178671,9 @@
    "prompt": "Butter left out too long smells sour and \"cheesy\" because butyric acid (a 4-carbon fatty acid) is released. Which reaction releases it?",
    "choices": [
     "hydrolysis of the ester bonds of triacylglycerols",
-    "hydrogenation of the C=C bonds in the fat",
+    "hydrogenation of the C=C double bonds in the fat’s chains",
     "saponification of the fat with NaOH",
-    "dehydration of the glycerol backbone"
+    "dehydration of the glycerol backbone, which splits off the chains"
    ],
    "hint": "Butyric acid is attached to glycerol by an ester bond. Which reaction breaks an ester bond with water?",
    "explain": "This is hydrolytic rancidity: lipase enzymes from microorganisms <b>hydrolyze the ester bonds</b> of butterfat, releasing free short-chain fatty acids such as butyric acid, which are volatile and smell bad.",
@@ -178691,7 +178691,7 @@
   }
  },
  {
-  "id": "finalexam-e7454642",
+  "id": "finalexam-88ae2aca",
   "skill": "finalexam.3b.lipids",
   "courses": [
    "3B"
@@ -178707,12 +178707,12 @@
   "calc": false,
   "prompt": "Valley citrus packing houses coat lemons and oranges with a thin layer of food-grade wax (such as carnauba wax) to reduce water loss. Why is a wax good at keeping water in?",
   "choices": [
-   "A wax is an ester with long nonpolar hydrocarbon chains on both sides, so it repels water",
-   "A wax is very polar and hydrogen bonds strongly to water",
-   "A wax is a triacylglycerol with three polar ester groups",
-   "A wax is a steroid with an –OH group that traps water"
+   "A wax is an ester with long nonpolar chains on both sides, so it repels water",
+   "A wax is very polar, so it hydrogen bonds strongly to water and holds it in",
+   "A wax is a triacylglycerol, with three polar ester groups that hold water",
+   "A wax is a steroid with an –OH group that traps water inside the fruit"
   ],
-  "answer": "A wax is an ester with long nonpolar hydrocarbon chains on both sides, so it repels water",
+  "answer": "A wax is an ester with long nonpolar chains on both sides, so it repels water",
   "hint": "Waxes are esters of a long-chain fatty acid and a long-chain alcohol. What do the long chains do?",
   "explain": "A wax is an ester of a long-chain fatty acid and a long-chain alcohol. Except for one small ester group, it is all long nonpolar hydrocarbon chains, so it repels water and forms a waterproof barrier, like the natural wax on fruit peel.",
   "why": [
@@ -178724,10 +178724,10 @@
   "html": {
    "prompt": "Valley citrus packing houses coat lemons and oranges with a thin layer of food-grade wax (such as carnauba wax) to reduce water loss. Why is a wax good at keeping water in?",
    "choices": [
-    "A wax is an ester with long nonpolar hydrocarbon chains on both sides, so it repels water",
-    "A wax is very polar and hydrogen bonds strongly to water",
-    "A wax is a triacylglycerol with three polar ester groups",
-    "A wax is a steroid with an –OH group that traps water"
+    "A wax is an ester with long nonpolar chains on both sides, so it repels water",
+    "A wax is very polar, so it hydrogen bonds strongly to water and holds it in",
+    "A wax is a triacylglycerol, with three polar ester groups that hold water",
+    "A wax is a steroid with an –OH group that traps water inside the fruit"
    ],
    "hint": "Waxes are esters of a long-chain fatty acid and a long-chain alcohol. What do the long chains do?",
    "explain": "A wax is an ester of a long-chain fatty acid and a long-chain alcohol. Except for one small ester group, it is <b>all long nonpolar hydrocarbon chains, so it repels water</b> and forms a waterproof barrier, like the natural wax on fruit peel.",
@@ -178762,8 +178762,8 @@
   "prompt": "A handful of Valley almonds supplies a good share of the day's vitamin E (α-tocopherol), an antioxidant that protects the polyunsaturated fatty acid chains in cell membranes. Which part of vitamin E gives up an H atom to stop the oxidation?",
   "choices": [
    "the phenol –OH group on its ring",
-   "its long hydrocarbon tail",
-   "an ester group",
+   "its long saturated hydrocarbon tail",
+   "an ester group on its side chain",
    "a carboxylic acid group"
   ],
   "answer": "the phenol –OH group on its ring",
@@ -178779,8 +178779,8 @@
    "prompt": "A handful of Valley almonds supplies a good share of the day's vitamin E (α-tocopherol), an antioxidant that protects the polyunsaturated fatty acid chains in cell membranes. Which part of vitamin E gives up an H atom to stop the oxidation?",
    "choices": [
     "the phenol –OH group on its ring",
-    "its long hydrocarbon tail",
-    "an ester group",
+    "its long saturated hydrocarbon tail",
+    "an ester group on its side chain",
     "a carboxylic acid group"
    ],
    "hint": "Vitamin E has a ring with one –OH group on it, plus a long nonpolar tail.",
@@ -178799,7 +178799,7 @@
   }
  },
  {
-  "id": "finalexam-73a2c4e8",
+  "id": "finalexam-2ec358ed",
   "skill": "finalexam.3b.lipids",
   "courses": [
    "3B"
@@ -178815,12 +178815,12 @@
   "calc": false,
   "prompt": "Vitamin E from almonds ends up mostly in cell membranes rather than in the watery cytosol. Why?",
   "choices": [
-   "Its long nonpolar hydrocarbon tail dissolves in the nonpolar interior of the lipid bilayer",
+   "Its long nonpolar tail dissolves in the nonpolar interior of the lipid bilayer",
    "It is a very polar molecule that is attracted to the phosphate heads",
-   "It is a protein that is built into the membrane",
+   "It is a protein that is built into the membrane and anchored there",
    "It is water soluble and is pumped into the membrane by active transport"
   ],
-  "answer": "Its long nonpolar hydrocarbon tail dissolves in the nonpolar interior of the lipid bilayer",
+  "answer": "Its long nonpolar tail dissolves in the nonpolar interior of the lipid bilayer",
   "hint": "Vitamin E is a fat-soluble vitamin. Where does a fat-soluble molecule dissolve in a cell?",
   "explain": "Except for a ring that holds an –OH and an ether oxygen, vitamin E is a large hydrocarbon, so it is fat soluble. Its nonpolar tail dissolves among the fatty acid chains of the bilayer, right next to the polyunsaturated chains it protects.",
   "why": [
@@ -178832,9 +178832,9 @@
   "html": {
    "prompt": "Vitamin E from almonds ends up mostly in cell membranes rather than in the watery cytosol. Why?",
    "choices": [
-    "Its long nonpolar hydrocarbon tail dissolves in the nonpolar interior of the lipid bilayer",
+    "Its long nonpolar tail dissolves in the nonpolar interior of the lipid bilayer",
     "It is a very polar molecule that is attracted to the phosphate heads",
-    "It is a protein that is built into the membrane",
+    "It is a protein that is built into the membrane and anchored there",
     "It is water soluble and is pumped into the membrane by active transport"
    ],
    "hint": "Vitamin E is a fat-soluble vitamin. Where does a fat-soluble molecule dissolve in a cell?",
@@ -178984,9 +178984,9 @@
   "prompt": "Linoleic acid (18 carbons, two C=C bonds) and stearic acid (18 carbons, saturated) are both oxidized completely. Compared with stearic acid, β-oxidation of linoleic acid produces",
   "choices": [
    "two fewer FADH₂ but the same number of acetyl CoA (9)",
-   "two fewer acetyl CoA",
+   "two fewer acetyl CoA and the same FADH₂",
    "two fewer NADH but the same number of FADH₂",
-   "exactly the same products"
+   "exactly the same products in the same amounts"
   ],
   "answer": "two fewer FADH₂ but the same number of acetyl CoA (9)",
   "hint": "The number of acetyl CoA depends on the number of carbons. Which step does a double bond that is already present skip?",
@@ -179001,9 +179001,9 @@
    "prompt": "Linoleic acid (18 carbons, two C=C bonds) and stearic acid (18 carbons, saturated) are both oxidized completely. Compared with stearic acid, β-oxidation of linoleic acid produces",
    "choices": [
     "two fewer FADH<sub>2</sub> but the same number of acetyl CoA (9)",
-    "two fewer acetyl CoA",
+    "two fewer acetyl CoA and the same FADH<sub>2</sub>",
     "two fewer NADH but the same number of FADH<sub>2</sub>",
-    "exactly the same products"
+    "exactly the same products in the same amounts"
    ],
    "hint": "The number of acetyl CoA depends on the number of carbons. Which step does a double bond that is already present skip?",
    "explain": "Both fatty acids have 18 carbons, so both give 9 acetyl CoA. Each existing C=C skips the FAD step once, so linoleic acid gives <b>two fewer FADH<sub>2</sub></b> and therefore less ATP.",
@@ -179135,7 +179135,7 @@
   }
  },
  {
-  "id": "finalexam-629e405e",
+  "id": "finalexam-f0d93a15",
   "skill": "finalexam.3b.metabolism",
   "courses": [
    "3B"
@@ -179154,12 +179154,12 @@
   "calc": false,
   "prompt": "What does protein turnover mean?",
   "choices": [
-   "Body proteins are continuously broken down and resynthesized",
-   "Dietary protein is digested only in the stomach",
-   "Proteins are converted into stored fat",
-   "Amino acids are excreted unchanged in the urine"
+   "Body proteins are constantly broken down and rebuilt",
+   "Dietary protein is digested only in the stomach by pepsin",
+   "Proteins are converted into stored fat when eaten in excess",
+   "Amino acids are excreted unchanged in the urine each day"
   ],
-  "answer": "Body proteins are continuously broken down and resynthesized",
+  "answer": "Body proteins are constantly broken down and rebuilt",
   "hint": "Turnover is the same idea as staff turnover at a job: the old ones leave and new ones replace them.",
   "explain": "Protein turnover is the ongoing breakdown of body proteins into amino acids and the building of new proteins from the amino acid pool. It lets cells replace damaged proteins and adjust enzyme levels.",
   "why": [
@@ -179171,10 +179171,10 @@
   "html": {
    "prompt": "What does protein turnover mean?",
    "choices": [
-    "Body proteins are continuously broken down and resynthesized",
-    "Dietary protein is digested only in the stomach",
-    "Proteins are converted into stored fat",
-    "Amino acids are excreted unchanged in the urine"
+    "Body proteins are constantly broken down and rebuilt",
+    "Dietary protein is digested only in the stomach by pepsin",
+    "Proteins are converted into stored fat when eaten in excess",
+    "Amino acids are excreted unchanged in the urine each day"
    ],
    "hint": "Turnover is the same idea as staff turnover at a job: the old ones leave and new ones replace them.",
    "explain": "<b>Protein turnover</b> is the ongoing breakdown of body proteins into amino acids and the building of new proteins from the amino acid pool. It lets cells replace damaged proteins and adjust enzyme levels.",
@@ -179192,7 +179192,7 @@
   }
  },
  {
-  "id": "finalexam-6a72fe42",
+  "id": "finalexam-7382f800",
   "skill": "finalexam.3b.metabolism",
   "courses": [
    "3B"
@@ -179211,12 +179211,12 @@
   "calc": false,
   "prompt": "The body has no storage form for amino acids. What happens to amino acids in the pool that are not needed for making proteins and other nitrogen compounds?",
   "choices": [
-   "Their amino groups are removed and become urea, and their carbon skeletons are used for energy or made into glucose or fat",
+   "Their amino groups become urea, and their carbon skeletons are burned or made into glucose or fat",
    "They are stored as a reserve protein in muscle, the way glucose is stored as glycogen",
-   "They are excreted unchanged in the urine",
-   "They are converted into essential amino acids"
+   "They are excreted unchanged in the urine, along with the extra water",
+   "They are converted into essential amino acids for use later on"
   ],
-  "answer": "Their amino groups are removed and become urea, and their carbon skeletons are used for energy or made into glucose or fat",
+  "answer": "Their amino groups become urea, and their carbon skeletons are burned or made into glucose or fat",
   "hint": "Think about transamination, deamination and the urea cycle.",
   "explain": "Extra amino acids are not stored. Their nitrogen is removed (transamination and oxidative deamination) and excreted as urea, and the carbon skeletons enter pathways that give energy, glucose or fat.",
   "why": [
@@ -179228,10 +179228,10 @@
   "html": {
    "prompt": "The body has no storage form for amino acids. What happens to amino acids in the pool that are not needed for making proteins and other nitrogen compounds?",
    "choices": [
-    "Their amino groups are removed and become urea, and their carbon skeletons are used for energy or made into glucose or fat",
+    "Their amino groups become urea, and their carbon skeletons are burned or made into glucose or fat",
     "They are stored as a reserve protein in muscle, the way glucose is stored as glycogen",
-    "They are excreted unchanged in the urine",
-    "They are converted into essential amino acids"
+    "They are excreted unchanged in the urine, along with the extra water",
+    "They are converted into essential amino acids for use later on"
    ],
    "hint": "Think about transamination, deamination and the urea cycle.",
    "explain": "Extra amino acids are not stored. Their <b>nitrogen is removed</b> (transamination and oxidative deamination) <b>and excreted as urea</b>, and the carbon skeletons enter pathways that give energy, glucose or fat.",
@@ -179755,9 +179755,9 @@
   "prompt": "Biuret reagent (blue Cu²⁺) turns violet when it reacts with two or more peptide bonds. Which sample gives a positive (violet) biuret test?",
   "choices": [
    "egg albumin solution",
-   "glycine solution",
+   "dilute glycine solution",
    "glucose solution",
-   "alanine solution"
+   "free alanine solution"
   ],
   "answer": "egg albumin solution",
   "hint": "Which sample contains molecules with many peptide bonds?",
@@ -179772,9 +179772,9 @@
    "prompt": "Biuret reagent (blue Cu<sup>2+</sup>) turns violet when it reacts with two or more peptide bonds. Which sample gives a positive (violet) biuret test?",
    "choices": [
     "egg albumin solution",
-    "glycine solution",
+    "dilute glycine solution",
     "glucose solution",
-    "alanine solution"
+    "free alanine solution"
    ],
    "hint": "Which sample contains molecules with many peptide bonds?",
    "explain": "The biuret test detects peptides and proteins with two or more peptide bonds. <b>Egg albumin</b> is a protein, so it turns violet. Free amino acids and sugars have no peptide bonds.",
@@ -179900,7 +179900,7 @@
   }
  },
  {
-  "id": "finalexam-1dee55c9",
+  "id": "finalexam-56832fd9",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -179916,12 +179916,12 @@
   "calc": false,
   "prompt": "A farmworker collapses on a very hot afternoon with a core body temperature above 40 °C (heat stroke). Rapid cooling is started at once. Why is cooling so urgent?",
   "choices": [
-   "The longer proteins stay that hot, the more enzymes unfold, and many cannot fold back",
-   "Cooling re-forms peptide bonds broken by the heat",
+   "Hot enzymes keep unfolding, and many of them cannot fold back",
+   "Cooling quickly re-forms the peptide bonds that were broken by the heat",
    "Cooling makes enzymes work faster than they do at 37 °C",
    "Heat converts proteins into fats, and cooling reverses this"
   ],
-  "answer": "The longer proteins stay that hot, the more enzymes unfold, and many cannot fold back",
+  "answer": "Hot enzymes keep unfolding, and many of them cannot fold back",
   "hint": "Heat breaks the weak attractions that hold a protein's shape. What happens to an unfolded enzyme's activity?",
   "explain": "High temperature breaks the hydrogen bonds, salt bridges and hydrophobic interactions that hold an enzyme's shape, so enzymes denature and can clump (aggregate). Peptide bonds survive, but many unfolded proteins do not refold, so every minute counts.",
   "why": [
@@ -179933,8 +179933,8 @@
   "html": {
    "prompt": "A farmworker collapses on a very hot afternoon with a core body temperature above 40 °C (heat stroke). Rapid cooling is started at once. Why is cooling so urgent?",
    "choices": [
-    "The longer proteins stay that hot, the more enzymes unfold, and many cannot fold back",
-    "Cooling re-forms peptide bonds broken by the heat",
+    "Hot enzymes keep unfolding, and many of them cannot fold back",
+    "Cooling quickly re-forms the peptide bonds that were broken by the heat",
     "Cooling makes enzymes work faster than they do at 37 °C",
     "Heat converts proteins into fats, and cooling reverses this"
    ],
@@ -180878,7 +180878,7 @@
   }
  },
  {
-  "id": "finalexam-bc2b5c0a",
+  "id": "finalexam-09e999cb",
   "skill": "finalexam.3b.metabolism",
   "courses": [
    "3B"
@@ -180897,12 +180897,12 @@
   "calc": false,
   "prompt": "How does ketoacidosis differ from ketosis?",
   "choices": [
-   "In ketosis ketone bodies build up in the blood and urine; in ketoacidosis they overwhelm the blood buffers and blood pH falls.",
+   "Both have ketone bodies in blood and urine; in ketoacidosis they overwhelm the buffers and pH falls.",
    "In ketosis blood pH falls; in ketoacidosis the blood buffers hold the pH at its normal value.",
    "In ketosis only acetone is made; in ketoacidosis the liver makes glucose instead of ketone bodies.",
-   "In ketosis blood pH falls below 7.4; in ketoacidosis blood pH rises above 7.4."
+   "In ketosis blood pH falls below 7.4; in ketoacidosis blood pH rises above 7.4 instead."
   ],
-  "answer": "In ketosis ketone bodies build up in the blood and urine; in ketoacidosis they overwhelm the blood buffers and blood pH falls.",
+  "answer": "Both have ketone bodies in blood and urine; in ketoacidosis they overwhelm the buffers and pH falls.",
   "hint": "Both words begin with keto-. What does the extra part, \"acidosis\", say about the blood?",
   "explain": "Ketosis means ketone bodies are accumulating in the blood and urine while the pH is still buffered. When the acidic ketone bodies exceed what the buffers can handle, blood pH drops (to 7.30 or lower in DKA), and the condition is ketoacidosis.",
   "why": [
@@ -180914,10 +180914,10 @@
   "html": {
    "prompt": "How does ketoacidosis differ from ketosis?",
    "choices": [
-    "In ketosis ketone bodies build up in the blood and urine; in ketoacidosis they overwhelm the blood buffers and blood pH falls.",
+    "Both have ketone bodies in blood and urine; in ketoacidosis they overwhelm the buffers and pH falls.",
     "In ketosis blood pH falls; in ketoacidosis the blood buffers hold the pH at its normal value.",
     "In ketosis only acetone is made; in ketoacidosis the liver makes glucose instead of ketone bodies.",
-    "In ketosis blood pH falls below 7.4; in ketoacidosis blood pH rises above 7.4."
+    "In ketosis blood pH falls below 7.4; in ketoacidosis blood pH rises above 7.4 instead."
    ],
    "hint": "Both words begin with keto-. What does the extra part, \"acidosis\", say about the blood?",
    "explain": "Ketosis means ketone bodies are accumulating in the blood and urine while the pH is still buffered. When the acidic ketone bodies exceed what the buffers can handle, <b>blood pH drops</b> (to 7.30 or lower in DKA), and the condition is ketoacidosis.",
@@ -180935,7 +180935,7 @@
   }
  },
  {
-  "id": "finalexam-2ac1256b",
+  "id": "finalexam-e24d5ec4",
   "skill": "finalexam.3b.metabolism",
   "courses": [
    "3B"
@@ -180954,12 +180954,12 @@
   "calc": false,
   "prompt": "A patient in diabetic ketoacidosis has fruity-smelling breath. Which ketone body causes the odor, and does it lower blood pH?",
   "choices": [
-   "acetone; it is volatile and is breathed out, and with no carboxylic acid group it does not release H⁺",
+   "acetone; it is volatile and breathed out, and it has no –COOH group to release H⁺",
    "acetone; it is breathed out, and it is the strongest acid of the three ketone bodies",
-   "acetoacetate; it is a volatile acid that is breathed out and also releases H⁺",
+   "acetoacetate; it is a volatile acid that is breathed out and also releases H⁺ into the blood",
    "β-hydroxybutyrate; its –OH group makes it evaporate easily, and it does not release H⁺"
   ],
-  "answer": "acetone; it is volatile and is breathed out, and with no carboxylic acid group it does not release H⁺",
+  "answer": "acetone; it is volatile and breathed out, and it has no –COOH group to release H⁺",
   "hint": "One ketone body is a small molecule with only a ketone group. Think about which functional group releases H⁺ and which molecule evaporates most easily.",
   "explain": "Acetone, CH₃–CO–CH₃, is small and volatile, so it leaves the blood in the lungs and is smelled on the breath. It has no carboxylic acid group, so the drop in pH comes from the other two, acetoacetate and β-hydroxybutyrate.",
   "why": [
@@ -180971,9 +180971,9 @@
   "html": {
    "prompt": "A patient in diabetic ketoacidosis has fruity-smelling breath. Which ketone body causes the odor, and does it lower blood pH?",
    "choices": [
-    "acetone; it is volatile and is breathed out, and with no carboxylic acid group it does not release H<sup>+</sup>",
+    "acetone; it is volatile and breathed out, and it has no –COOH group to release H<sup>+</sup>",
     "acetone; it is breathed out, and it is the strongest acid of the three ketone bodies",
-    "acetoacetate; it is a volatile acid that is breathed out and also releases H<sup>+</sup>",
+    "acetoacetate; it is a volatile acid that is breathed out and also releases H<sup>+</sup> into the blood",
     "β-hydroxybutyrate; its –OH group makes it evaporate easily, and it does not release H<sup>+</sup>"
    ],
    "hint": "One ketone body is a small molecule with only a ketone group. Think about which functional group releases H<sup>+</sup> and which molecule evaporates most easily.",
@@ -182617,7 +182617,7 @@
   }
  },
  {
-  "id": "finalexam-9423e16e",
+  "id": "finalexam-327d235c",
   "skill": "finalexam.3b.carbs",
   "courses": [
    "3B"
@@ -182633,12 +182633,12 @@
   "calc": false,
   "prompt": "Fructose is a ketose, with no aldehyde group, yet it gives a positive Benedict's test. Why?",
   "choices": [
-   "In the basic test solution fructose rearranges into an aldose, and the aldose is oxidized",
-   "The ketone group of fructose is oxidized directly to a carboxylic acid",
-   "Benedict's reagent first hydrolyzes fructose into two smaller aldehydes",
+   "In the basic test solution fructose rearranges to an aldose, which is oxidized",
+   "The ketone group of fructose is oxidized directly to a carboxylic acid group",
+   "Benedict’s reagent first hydrolyzes fructose into two smaller aldehyde sugars",
    "Fructose is a nonreducing sugar, and nonreducing sugars turn the reagent red"
   ],
-  "answer": "In the basic test solution fructose rearranges into an aldose, and the aldose is oxidized",
+  "answer": "In the basic test solution fructose rearranges to an aldose, which is oxidized",
   "hint": "Benedict's reagent is a basic solution. What can a ketose turn into in base?",
   "explain": "Benedict's reagent is basic, and in base a ketose is in equilibrium with an aldose. The aldose form has an aldehyde that is oxidized, so fructose reduces Cu²⁺ and counts as a reducing sugar.",
   "why": [
@@ -182650,9 +182650,9 @@
   "html": {
    "prompt": "Fructose is a ketose, with no aldehyde group, yet it gives a positive Benedict's test. Why?",
    "choices": [
-    "In the basic test solution fructose rearranges into an aldose, and the aldose is oxidized",
-    "The ketone group of fructose is oxidized directly to a carboxylic acid",
-    "Benedict's reagent first hydrolyzes fructose into two smaller aldehydes",
+    "In the basic test solution fructose rearranges to an aldose, which is oxidized",
+    "The ketone group of fructose is oxidized directly to a carboxylic acid group",
+    "Benedict’s reagent first hydrolyzes fructose into two smaller aldehyde sugars",
     "Fructose is a nonreducing sugar, and nonreducing sugars turn the reagent red"
    ],
    "hint": "Benedict's reagent is a basic solution. What can a ketose turn into in base?",
@@ -182905,7 +182905,7 @@
   "choices": [
    "Amylose, because its coiled chain traps iodine inside the helix",
    "Cellulose, because its straight chains pack around iodine",
-   "Glycogen, because its many branches trap iodine",
+   "Glycogen, because its many branches trap iodine between them",
    "Amylopectin, because iodine breaks its α(1→6) branch points"
   ],
   "answer": "Amylose, because its coiled chain traps iodine inside the helix",
@@ -182922,7 +182922,7 @@
    "choices": [
     "Amylose, because its coiled chain traps iodine inside the helix",
     "Cellulose, because its straight chains pack around iodine",
-    "Glycogen, because its many branches trap iodine",
+    "Glycogen, because its many branches trap iodine between them",
     "Amylopectin, because iodine breaks its α(1→6) branch points"
    ],
    "hint": "Which glucose polymer in a plant coils like a spring, with room in the middle of the coil?",
@@ -182941,7 +182941,7 @@
   }
  },
  {
-  "id": "finalexam-efb3639e",
+  "id": "finalexam-75f9e9fa",
   "skill": "finalexam.3b.carbs",
   "courses": [
    "3B"
@@ -182957,12 +182957,12 @@
   "calc": false,
   "prompt": "Glycogen has α(1→6) branch points about every 8–12 glucose units, more often than amylopectin. How does the extra branching help an animal?",
   "choices": [
-   "A branched molecule has many chain ends, so enzymes can release glucose from many places at once",
+   "Branching gives many chain ends, so enzymes can release glucose from many at once",
    "The branch points are β links, which makes glycogen resistant to digestion",
    "Branching lets glycogen store fructose and galactose as well as glucose",
-   "Branching lets the chains line up side by side into strong fibers"
+   "Branching lets the chains line up side by side into strong, rigid fibers"
   ],
-  "answer": "A branched molecule has many chain ends, so enzymes can release glucose from many places at once",
+  "answer": "Branching gives many chain ends, so enzymes can release glucose from many at once",
   "hint": "The enzyme that breaks glycogen down removes glucose units from the ends of chains. How does branching change the number of ends?",
   "explain": "Glycogen phosphorylase removes glucose units from chain ends. More branches mean more ends, so glucose can be released quickly between meals or during exercise.",
   "why": [
@@ -182974,10 +182974,10 @@
   "html": {
    "prompt": "Glycogen has α(1→6) branch points about every 8–12 glucose units, more often than amylopectin. How does the extra branching help an animal?",
    "choices": [
-    "A branched molecule has many chain ends, so enzymes can release glucose from many places at once",
+    "Branching gives many chain ends, so enzymes can release glucose from many at once",
     "The branch points are β links, which makes glycogen resistant to digestion",
     "Branching lets glycogen store fructose and galactose as well as glucose",
-    "Branching lets the chains line up side by side into strong fibers"
+    "Branching lets the chains line up side by side into strong, rigid fibers"
    ],
    "hint": "The enzyme that breaks glycogen down removes glucose units from the ends of chains. How does branching change the number of ends?",
    "explain": "Glycogen phosphorylase removes glucose units from chain ends. <b>More branches mean more ends</b>, so glucose can be released quickly between meals or during exercise.",
@@ -182995,7 +182995,7 @@
   }
  },
  {
-  "id": "finalexam-b371860f",
+  "id": "finalexam-9c8e7ea3",
   "skill": "finalexam.3b.carbs",
   "courses": [
    "3B"
@@ -183011,12 +183011,12 @@
   "calc": false,
   "prompt": "Cotton is about 95% cellulose. It is strong and does not dissolve in water, even though every glucose unit has several –OH groups. What explains this?",
   "choices": [
-   "The straight β(1→4) chains lie side by side and hydrogen bond to each other, forming tightly packed fibers",
-   "Cellulose is highly branched, and the branches tangle together",
+   "Straight β(1→4) chains lie side by side and hydrogen bond into tightly packed fibers",
+   "Cellulose is highly branched, and the branches tangle together into a mat water cannot enter",
    "The –OH groups of glucose are lost when the glycosidic bonds form, so cellulose is nonpolar",
-   "The chains coil into helices that hide the –OH groups from water"
+   "The chains coil into tight helices that hide the –OH groups from the surrounding water"
   ],
-  "answer": "The straight β(1→4) chains lie side by side and hydrogen bond to each other, forming tightly packed fibers",
+  "answer": "Straight β(1→4) chains lie side by side and hydrogen bond into tightly packed fibers",
   "hint": "Think about what the –OH groups on one chain can do with the –OH groups on the chain next to it when the chains are perfectly straight.",
   "explain": "The β(1→4) links make cellulose an extended, linear chain. Neighboring chains hydrogen bond to each other and pack into fibers, so the –OH groups are used up holding the chains together instead of interacting with water.",
   "why": [
@@ -183028,10 +183028,10 @@
   "html": {
    "prompt": "Cotton is about 95% cellulose. It is strong and does not dissolve in water, even though every glucose unit has several –OH groups. What explains this?",
    "choices": [
-    "The straight β(1→4) chains lie side by side and hydrogen bond to each other, forming tightly packed fibers",
-    "Cellulose is highly branched, and the branches tangle together",
+    "Straight β(1→4) chains lie side by side and hydrogen bond into tightly packed fibers",
+    "Cellulose is highly branched, and the branches tangle together into a mat water cannot enter",
     "The –OH groups of glucose are lost when the glycosidic bonds form, so cellulose is nonpolar",
-    "The chains coil into helices that hide the –OH groups from water"
+    "The chains coil into tight helices that hide the –OH groups from the surrounding water"
    ],
    "hint": "Think about what the –OH groups on one chain can do with the –OH groups on the chain next to it when the chains are perfectly straight.",
    "explain": "The β(1→4) links make cellulose an extended, linear chain. <b>Neighboring chains hydrogen bond to each other</b> and pack into fibers, so the –OH groups are used up holding the chains together instead of interacting with water.",
@@ -183157,7 +183157,7 @@
   }
  },
  {
-  "id": "finalexam-b5121bd5",
+  "id": "finalexam-88249502",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -183173,12 +183173,12 @@
   "calc": false,
   "prompt": "Glycine is the only one of the 20 common amino acids that is not chiral. What is the reason?",
   "choices": [
-   "Its side chain is an H atom, so the α-carbon is bonded to two identical H atoms",
+   "Its side chain is H, so the α-carbon carries two identical H atoms",
    "It has no amino group on the α-carbon, so only three groups are attached",
-   "Its side chain is a ring that loops back to include the nitrogen atom",
+   "Its side chain is a ring that loops back to bond to the α-amino nitrogen",
    "It has no α-carbon, because its side chain is too small to need one"
   ],
-  "answer": "Its side chain is an H atom, so the α-carbon is bonded to two identical H atoms",
+  "answer": "Its side chain is H, so the α-carbon carries two identical H atoms",
   "hint": "A chiral carbon needs four different groups. List the four groups on the α-carbon of glycine, whose R group is –H.",
   "explain": "The α-carbon of an amino acid holds –NH₃⁺, –COO⁻, –H and the R group. In glycine R is also H, so two of the four groups are the same and the carbon is not chiral.",
   "why": [
@@ -183190,9 +183190,9 @@
   "html": {
    "prompt": "Glycine is the only one of the 20 common amino acids that is <b>not</b> chiral. What is the reason?",
    "choices": [
-    "Its side chain is an H atom, so the α-carbon is bonded to two identical H atoms",
+    "Its side chain is H, so the α-carbon carries two identical H atoms",
     "It has no amino group on the α-carbon, so only three groups are attached",
-    "Its side chain is a ring that loops back to include the nitrogen atom",
+    "Its side chain is a ring that loops back to bond to the α-amino nitrogen",
     "It has no α-carbon, because its side chain is too small to need one"
    ],
    "hint": "A chiral carbon needs four different groups. List the four groups on the α-carbon of glycine, whose R group is –H.",
@@ -183230,7 +183230,7 @@
    "polar neutral",
    "basic",
    "acidic",
-   "nonpolar"
+   "nonpolar, hydrophobic"
   ],
   "answer": "polar neutral",
   "hint": "Name the functional group at the end of this side chain. Does the nitrogen of that group pick up H⁺ the way an amine nitrogen does?",
@@ -183247,7 +183247,7 @@
     "polar neutral",
     "basic",
     "acidic",
-    "nonpolar"
+    "nonpolar, hydrophobic"
    ],
    "hint": "Name the functional group at the end of this side chain. Does the nitrogen of that group pick up H<sup>+</sup> the way an amine nitrogen does?",
    "explain": "–CONH<sub>2</sub> is an amide. It hydrogen bonds with water, but an amide nitrogen does not pick up H<sup>+</sup> and there is no –COOH to lose one, so the side chain is <b>polar and uncharged (polar neutral)</b>.",
@@ -183598,7 +183598,7 @@
   }
  },
  {
-  "id": "finalexam-1a9e264b",
+  "id": "finalexam-5bc7b676",
   "skill": "finalexam.3b.metabolism",
   "courses": [
    "3B"
@@ -183617,12 +183617,12 @@
   "calc": false,
   "prompt": "How much ATP does the body capture when starch is hydrolyzed to glucose during digestion (Stage I)?",
   "choices": [
-   "None; the small amount of energy released by hydrolysis is lost as heat",
-   "2 ATP per glucose, the same as glycolysis",
-   "10 ATP per glucose, the same as one acetyl CoA",
+   "None; the little energy released by hydrolysis is lost as heat",
+   "2 ATP per glucose, the same as glycolysis gives in the cell",
+   "10 ATP per glucose, the same as one acetyl CoA gives",
    "None, because hydrolysis of starch needs ATP to be put in"
   ],
-  "answer": "None; the small amount of energy released by hydrolysis is lost as heat",
+  "answer": "None; the little energy released by hydrolysis is lost as heat",
   "hint": "Digestion only breaks glycosidic bonds with water. Where is the energy of the food after that step?",
   "explain": "Digestion is hydrolysis by hydrolase enzymes. No ATP is made or spent in Stage I: the energy of the food is still stored in the glucose and is captured later, in Stages II and III.",
   "why": [
@@ -183634,9 +183634,9 @@
   "html": {
    "prompt": "How much ATP does the body capture when starch is hydrolyzed to glucose during digestion (Stage I)?",
    "choices": [
-    "None; the small amount of energy released by hydrolysis is lost as heat",
-    "2 ATP per glucose, the same as glycolysis",
-    "10 ATP per glucose, the same as one acetyl CoA",
+    "None; the little energy released by hydrolysis is lost as heat",
+    "2 ATP per glucose, the same as glycolysis gives in the cell",
+    "10 ATP per glucose, the same as one acetyl CoA gives",
     "None, because hydrolysis of starch needs ATP to be put in"
    ],
    "hint": "Digestion only breaks glycosidic bonds with water. Where is the energy of the food after that step?",
@@ -183655,7 +183655,7 @@
   }
  },
  {
-  "id": "finalexam-5a2a1241",
+  "id": "finalexam-9aebeed5",
   "skill": "finalexam.3b.metabolism",
   "courses": [
    "3B"
@@ -183674,12 +183674,12 @@
   "calc": false,
   "prompt": "After sucrase, lactase and maltase finish their work, what happens to the glucose, fructose and galactose?",
   "choices": [
-   "They are absorbed through the wall of the small intestine into the blood and go to the liver first",
-   "They are absorbed through the stomach wall and go directly to the muscles",
-   "They pass on to the large intestine and leave the body as fiber",
+   "They cross the small intestine wall into the blood and go to the liver first",
+   "They are absorbed through the stomach wall and go directly to the muscles to be burned",
+   "They pass on to the large intestine and leave the body as fiber in the stool",
    "They are joined into glycogen on the brush border before being absorbed"
   ],
-  "answer": "They are absorbed through the wall of the small intestine into the blood and go to the liver first",
+  "answer": "They cross the small intestine wall into the blood and go to the liver first",
   "hint": "The three disaccharidases sit on the brush border. Where is that, and which organ receives the blood that leaves it?",
   "explain": "The brush border enzymes release monosaccharides right where they are absorbed. They cross the wall of the small intestine into the blood (the portal vein) and reach the liver first, where fructose and galactose are converted into glycolysis intermediates.",
   "why": [
@@ -183691,9 +183691,9 @@
   "html": {
    "prompt": "After sucrase, lactase and maltase finish their work, what happens to the glucose, fructose and galactose?",
    "choices": [
-    "They are absorbed through the wall of the small intestine into the blood and go to the liver first",
-    "They are absorbed through the stomach wall and go directly to the muscles",
-    "They pass on to the large intestine and leave the body as fiber",
+    "They cross the small intestine wall into the blood and go to the liver first",
+    "They are absorbed through the stomach wall and go directly to the muscles to be burned",
+    "They pass on to the large intestine and leave the body as fiber in the stool",
     "They are joined into glycogen on the brush border before being absorbed"
    ],
    "hint": "The three disaccharidases sit on the brush border. Where is that, and which organ receives the blood that leaves it?",
@@ -183712,7 +183712,7 @@
   }
  },
  {
-  "id": "finalexam-f5030763",
+  "id": "finalexam-33b4f59a",
   "skill": "finalexam.3b.metabolism",
   "courses": [
    "3B"
@@ -183731,12 +183731,12 @@
   "calc": false,
   "prompt": "Activating one palmitic acid (16 carbons) to palmitoyl CoA costs the equivalent of 2 ATP. What does it cost to activate one stearic acid (18 carbons)?",
   "choices": [
-   "2 ATP, because activation is done once per fatty acid whatever its length",
+   "2 ATP, because activation happens once per fatty acid",
    "4 ATP, because a longer chain needs a second activation",
    "9 ATP, one for each acetyl CoA that will be formed",
-   "16 ATP, two for each turn of β-oxidation"
+   "16 ATP, two for each turn of β-oxidation of the chain"
   ],
-  "answer": "2 ATP, because activation is done once per fatty acid whatever its length",
+  "answer": "2 ATP, because activation happens once per fatty acid",
   "hint": "Activation attaches one coenzyme A to one –COOH group. How many –COOH groups does a fatty acid have, long or short?",
   "explain": "A fatty acid has one carboxyl group, and activation joins it to one CoA using one ATP that is split to AMP. The cost is 2 ATP-equivalents per fatty acid, no matter how long the chain is.",
   "why": [
@@ -183748,10 +183748,10 @@
   "html": {
    "prompt": "Activating one palmitic acid (16 carbons) to palmitoyl CoA costs the equivalent of 2 ATP. What does it cost to activate one stearic acid (18 carbons)?",
    "choices": [
-    "2 ATP, because activation is done once per fatty acid whatever its length",
+    "2 ATP, because activation happens once per fatty acid",
     "4 ATP, because a longer chain needs a second activation",
     "9 ATP, one for each acetyl CoA that will be formed",
-    "16 ATP, two for each turn of β-oxidation"
+    "16 ATP, two for each turn of β-oxidation of the chain"
    ],
    "hint": "Activation attaches one coenzyme A to one –COOH group. How many –COOH groups does a fatty acid have, long or short?",
    "explain": "A fatty acid has one carboxyl group, and activation joins it to one CoA using one ATP that is split to AMP. <b>The cost is 2 ATP-equivalents per fatty acid, no matter how long the chain is.</b>",
@@ -183997,7 +183997,7 @@
   }
  },
  {
-  "id": "finalexam-18bdb7fd",
+  "id": "finalexam-b6297d58",
   "skill": "finalexam.3b.metabolism",
   "courses": [
    "3B"
@@ -184016,12 +184016,12 @@
   "calc": false,
   "prompt": "Why does the body convert the nitrogen from amino acids into urea instead of letting ammonia build up?",
   "choices": [
-   "Ammonia is a toxic base, while urea is neutral, relatively nontoxic and very soluble in water",
-   "Urea is insoluble in water, so it is easy to store in the liver",
-   "Making urea from ammonia produces ATP for the liver",
+   "Ammonia is a toxic base; urea is neutral, much less toxic and very soluble",
+   "Urea is insoluble in water, so it is easy to store safely in the liver",
+   "Making urea from ammonia produces ATP that the liver can use for its work",
    "Ammonia cannot dissolve in blood, so it could never reach the kidneys"
   ],
-  "answer": "Ammonia is a toxic base, while urea is neutral, relatively nontoxic and very soluble in water",
+  "answer": "Ammonia is a toxic base; urea is neutral, much less toxic and very soluble",
   "hint": "Compare the two molecules as waste products: which one is harmful to cells, and which one can be carried safely in the blood and excreted in urine?",
   "explain": "Ammonia (and NH₄⁺) is extremely toxic, especially to the brain. The urea cycle turns it into urea, a small, neutral, water-soluble and relatively nontoxic molecule that the blood carries to the kidneys.",
   "why": [
@@ -184033,9 +184033,9 @@
   "html": {
    "prompt": "Why does the body convert the nitrogen from amino acids into urea instead of letting ammonia build up?",
    "choices": [
-    "Ammonia is a toxic base, while urea is neutral, relatively nontoxic and very soluble in water",
-    "Urea is insoluble in water, so it is easy to store in the liver",
-    "Making urea from ammonia produces ATP for the liver",
+    "Ammonia is a toxic base; urea is neutral, much less toxic and very soluble",
+    "Urea is insoluble in water, so it is easy to store safely in the liver",
+    "Making urea from ammonia produces ATP that the liver can use for its work",
     "Ammonia cannot dissolve in blood, so it could never reach the kidneys"
    ],
    "hint": "Compare the two molecules as waste products: which one is harmful to cells, and which one can be carried safely in the blood and excreted in urine?",
@@ -184168,7 +184168,7 @@
   }
  },
  {
-  "id": "finalexam-fb6375c9",
+  "id": "finalexam-73c3366e",
   "skill": "finalexam.3b.metabolism",
   "courses": [
    "3B"
@@ -184187,12 +184187,12 @@
   "calc": false,
   "prompt": "Making one urea costs the equivalent of 3 ATP. Where is that ATP spent?",
   "choices": [
-   "2 ATP to make carbamoyl phosphate (entry step) and 1 ATP when citrulline joins aspartate (step 2)",
-   "1 ATP in each of the last three steps of the cycle",
+   "2 ATP to make carbamoyl phosphate and 1 ATP when citrulline joins aspartate",
+   "1 ATP in each of the last three steps of the urea cycle",
    "3 ATP in the final step, when arginine is hydrolyzed to urea and ornithine",
    "1 ATP to make carbamoyl phosphate and 2 ATP to split argininosuccinate"
   ],
-  "answer": "2 ATP to make carbamoyl phosphate (entry step) and 1 ATP when citrulline joins aspartate (step 2)",
+  "answer": "2 ATP to make carbamoyl phosphate and 1 ATP when citrulline joins aspartate",
   "hint": "ATP is needed where two molecules are joined (ligase steps). Which two steps of the cycle bring in a nitrogen atom?",
   "explain": "Both nitrogen-adding steps are ligase reactions that need ATP: 2 ATP at the entry step (NH₄⁺ + HCO₃⁻ → carbamoyl phosphate) and 1 ATP, split to AMP, at step 2 (citrulline + aspartate).",
   "why": [
@@ -184204,8 +184204,8 @@
   "html": {
    "prompt": "Making one urea costs the equivalent of 3 ATP. Where is that ATP spent?",
    "choices": [
-    "2 ATP to make carbamoyl phosphate (entry step) and 1 ATP when citrulline joins aspartate (step 2)",
-    "1 ATP in each of the last three steps of the cycle",
+    "2 ATP to make carbamoyl phosphate and 1 ATP when citrulline joins aspartate",
+    "1 ATP in each of the last three steps of the urea cycle",
     "3 ATP in the final step, when arginine is hydrolyzed to urea and ornithine",
     "1 ATP to make carbamoyl phosphate and 2 ATP to split argininosuccinate"
    ],

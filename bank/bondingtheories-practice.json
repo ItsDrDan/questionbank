@@ -1,6 +1,6 @@
 [
  {
-  "id": "bondingtheories-b73dbff8",
+  "id": "bondingtheories-553a65af",
   "skill": "bondingtheories.whatbond",
   "courses": [
    "1A",
@@ -12,15 +12,15 @@
   ],
   "type": "mc",
   "prompt": "<div>Valence bond theory predicts that He₂ does not form. Why?</div>",
-  "answer": "Each He atom’s 1s orbital is already full, so there is no half-filled orbital to overlap",
+  "answer": "Each He 1s orbital is full, so no half-filled orbital can overlap",
   "hint": "A covalent bond forms when two half-filled orbitals overlap, so the shared pair sits between the two nuclei. Ask where the electron density is and how many electrons each atom brings.",
   "explain": "With no unpaired electron, a He atom has nothing to share.",
   "origin": "original",
   "choices": [
-   "Helium is a gas",
-   "He atoms are too small to overlap",
-   "A He–He bond would be ionic",
-   "Each He atom’s 1s orbital is already full, so there is no half-filled orbital to overlap"
+   "Helium is a gas at room temperature, so its atoms stay apart",
+   "He atoms are too small for their 1s orbitals to overlap well",
+   "A He–He bond would be ionic instead of covalent",
+   "Each He 1s orbital is full, so no half-filled orbital can overlap"
   ],
   "why": [
    "H₂, N₂ and O₂ are gases too, and they have bonds. Look at the electrons: He’s 1s is full.",
@@ -52,7 +52,7 @@
   "explain": "σ (sigma) bonds put the density right on the internuclear axis, between the nuclei.",
   "origin": "original",
   "choices": [
-   "Inside the nuclei",
+   "Inside the two nuclei, where the protons are",
    "Above and below the line joining the nuclei",
    "On the far side of each nucleus",
    "Between the two nuclei, on the line joining them"
@@ -140,7 +140,7 @@
   }
  },
  {
-  "id": "bondingtheories-afc5fa32",
+  "id": "bondingtheories-a825f60e",
   "skill": "bondingtheories.whatbond",
   "courses": [
    "1A",
@@ -152,15 +152,15 @@
   ],
   "type": "mc",
   "prompt": "<div>In valence bond theory, when does a covalent bond form?</div>",
-  "answer": "When a half-filled orbital on one atom overlaps a half-filled orbital on another atom",
+  "answer": "When half-filled orbitals on two atoms overlap",
   "hint": "Each atom brings one electron to the bond.",
   "explain": "The two electrons pair up (opposite spins) in the overlap region, between the two nuclei.",
   "origin": "original",
   "choices": [
-   "When two empty orbitals overlap",
-   "When a half-filled orbital on one atom overlaps a half-filled orbital on another atom",
-   "When one atom hands an electron to the other",
-   "When two filled orbitals overlap"
+   "When two empty orbitals overlap between the nuclei",
+   "When half-filled orbitals on two atoms overlap",
+   "When one atom hands an electron over to the other atom",
+   "When two filled orbitals overlap and share all four electrons"
   ],
   "why": [
    "Empty orbitals have no electrons to share, so there is nothing to hold the atoms together.",
@@ -227,10 +227,10 @@
   "explain": "Nucleus–nucleus repulsion makes the energy rise at short distance.",
   "origin": "original",
   "choices": [
-   "The bond has already broken",
-   "The electrons leave the atoms",
+   "The bond has already broken and the atoms fly apart",
+   "The electrons leave the atoms and the bond is lost",
    "The two positive nuclei repel each other",
-   "The overlap gets smaller"
+   "The orbital overlap gets smaller as the atoms approach"
   ],
   "why": [
    "At short distance the atoms are squeezed together, not pulled apart.",
@@ -262,10 +262,10 @@
   "explain": "Well depth = bond energy (436 kJ/mol for H₂).",
   "origin": "original",
   "choices": [
-   "The bond length",
+   "The bond length, read at the bottom of the well",
    "The bond energy: 436 kJ/mol for H₂",
-   "The energy of point D",
-   "How many electrons are shared"
+   "The energy of point D on the steep left wall",
+   "How many electrons the two atoms share in the bond"
   ],
   "why": [
    "Bond length is read on the x-axis (distance) at the minimum: 74 pm.",
@@ -630,7 +630,7 @@
   }
  },
  {
-  "id": "bondingtheories-6f5891bf",
+  "id": "bondingtheories-133b2de5",
   "skill": "bondingtheories.strength",
   "courses": [
    "1A",
@@ -642,15 +642,15 @@
   ],
   "type": "mc",
   "prompt": "<div>The H–H bond energy is 436 kJ/mol. What does that mean?</div>",
-  "answer": "436 kJ is released when 1 mol of H–H bonds forms, and the same is needed to break them",
+  "answer": "Forming 1 mol of H–H bonds releases 436 kJ; breaking them takes 436 kJ",
   "hint": "More overlap → stronger bond. In a series of similar bonds, the shorter bond overlaps better. Head-on (σ) overlap is stronger than side-by-side (π) overlap.",
   "explain": "Bond energy is the depth of the energy well: released on forming, required to break (OpenStax §8.1).",
   "origin": "original",
   "choices": [
-   "436 kJ is absorbed when 1 mol of H–H bonds forms",
-   "436 kJ is released when 1 mol of H–H bonds forms, and the same is needed to break them",
-   "One H–H bond holds 436 kJ",
-   "The bond is 436 pm long"
+   "436 kJ is absorbed when 1 mol of H–H bonds forms from H atoms",
+   "Forming 1 mol of H–H bonds releases 436 kJ; breaking them takes 436 kJ",
+   "One H–H bond holds 436 kJ, so breaking one bond takes 436 kJ",
+   "The bond is 436 pm long, measured between the two nuclei"
   ],
   "why": [
    "Forming a bond lowers the energy, so energy is released, not absorbed.",
@@ -665,7 +665,7 @@
   }
  },
  {
-  "id": "bondingtheories-6b528e9d",
+  "id": "bondingtheories-f237fc47",
   "skill": "bondingtheories.strength",
   "courses": [
    "1A",
@@ -677,15 +677,15 @@
   ],
   "type": "mc",
   "prompt": "<div>Two p orbitals on different atoms overlap the most when they are…</div>",
-  "answer": "pointed end to end, along the line between the nuclei",
+  "answer": "pointed end to end, along the bond axis",
   "hint": "More overlap → stronger bond. In a series of similar bonds, the shorter bond overlaps better. Head-on (σ) overlap is stronger than side-by-side (π) overlap.",
   "explain": "OpenStax §8.1: overlap is greatest when the orbitals point at each other along the internuclear axis. That makes a σ bond.",
   "origin": "original",
   "choices": [
-   "side by side",
+   "side by side, parallel to each other",
    "tilted at an angle to each other",
    "in any direction: overlap is the same",
-   "pointed end to end, along the line between the nuclei"
+   "pointed end to end, along the bond axis"
   ],
   "why": [
    "Side-by-side overlap (π) is smaller than end-to-end overlap (σ). That is why a π bond is weaker.",
@@ -735,7 +735,7 @@
   }
  },
  {
-  "id": "bondingtheories-2ba4db4b",
+  "id": "bondingtheories-a835ae71",
   "skill": "bondingtheories.strength",
   "courses": [
    "1A",
@@ -747,15 +747,15 @@
   ],
   "type": "mc",
   "prompt": "<div><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><div style=\"overflow-x:auto\"><table style=\"max-width:420px;margin:6px auto;font-size:15.2px;line-height:23.56px;background-color:rgb(255, 255, 255);margin:6px auto 6px auto;max-width:420px;border-collapse:collapse\"><tbody style=\"border-collapse:collapse\"><tr style=\"vertical-align:middle;border-collapse:collapse\"><th style=\"font-weight:800;text-align:center;background-color:rgb(244, 245, 251);border-top:1px solid rgb(217, 214, 234);border-right:1px solid rgb(217, 214, 234);border-bottom:1px solid rgb(217, 214, 234);border-left:1px solid rgb(217, 214, 234);padding:5px 8px;vertical-align:middle;border-collapse:collapse\">Bond</th><th style=\"font-weight:800;text-align:center;background-color:rgb(244, 245, 251);border-top:1px solid rgb(217, 214, 234);border-right:1px solid rgb(217, 214, 234);border-bottom:1px solid rgb(217, 214, 234);border-left:1px solid rgb(217, 214, 234);padding:5px 8px;vertical-align:middle;border-collapse:collapse\">Length (pm)</th><th style=\"font-weight:800;text-align:center;background-color:rgb(244, 245, 251);border-top:1px solid rgb(217, 214, 234);border-right:1px solid rgb(217, 214, 234);border-bottom:1px solid rgb(217, 214, 234);border-left:1px solid rgb(217, 214, 234);padding:5px 8px;vertical-align:middle;border-collapse:collapse\">Energy (kJ/mol)</th></tr><tr style=\"vertical-align:middle;border-collapse:collapse\"><td style=\"text-align:center;border-top:1px solid rgb(217, 214, 234);border-right:1px solid rgb(217, 214, 234);border-bottom:1px solid rgb(217, 214, 234);border-left:1px solid rgb(217, 214, 234);padding:5px 8px;vertical-align:middle;border-collapse:collapse\">C–C</td><td style=\"text-align:center;border-top:1px solid rgb(217, 214, 234);border-right:1px solid rgb(217, 214, 234);border-bottom:1px solid rgb(217, 214, 234);border-left:1px solid rgb(217, 214, 234);padding:5px 8px;vertical-align:middle;border-collapse:collapse\">150.6</td><td style=\"text-align:center;border-top:1px solid rgb(217, 214, 234);border-right:1px solid rgb(217, 214, 234);border-bottom:1px solid rgb(217, 214, 234);border-left:1px solid rgb(217, 214, 234);padding:5px 8px;vertical-align:middle;border-collapse:collapse\">347</td></tr><tr style=\"vertical-align:middle;border-collapse:collapse\"><td style=\"text-align:center;border-top:1px solid rgb(217, 214, 234);border-right:1px solid rgb(217, 214, 234);border-bottom:1px solid rgb(217, 214, 234);border-left:1px solid rgb(217, 214, 234);padding:5px 8px;vertical-align:middle;border-collapse:collapse\">C=C</td><td style=\"text-align:center;border-top:1px solid rgb(217, 214, 234);border-right:1px solid rgb(217, 214, 234);border-bottom:1px solid rgb(217, 214, 234);border-left:1px solid rgb(217, 214, 234);padding:5px 8px;vertical-align:middle;border-collapse:collapse\">133.5</td><td style=\"text-align:center;border-top:1px solid rgb(217, 214, 234);border-right:1px solid rgb(217, 214, 234);border-bottom:1px solid rgb(217, 214, 234);border-left:1px solid rgb(217, 214, 234);padding:5px 8px;vertical-align:middle;border-collapse:collapse\">614</td></tr><tr style=\"vertical-align:middle;border-collapse:collapse\"><td style=\"text-align:center;border-top:1px solid rgb(217, 214, 234);border-right:1px solid rgb(217, 214, 234);border-bottom:1px solid rgb(217, 214, 234);border-left:1px solid rgb(217, 214, 234);padding:5px 8px;vertical-align:middle;border-collapse:collapse\">C≡C</td><td style=\"text-align:center;border-top:1px solid rgb(217, 214, 234);border-right:1px solid rgb(217, 214, 234);border-bottom:1px solid rgb(217, 214, 234);border-left:1px solid rgb(217, 214, 234);padding:5px 8px;vertical-align:middle;border-collapse:collapse\">120.8</td><td style=\"text-align:center;border-top:1px solid rgb(217, 214, 234);border-right:1px solid rgb(217, 214, 234);border-bottom:1px solid rgb(217, 214, 234);border-left:1px solid rgb(217, 214, 234);padding:5px 8px;vertical-align:middle;border-collapse:collapse\">839</td></tr></tbody></table></div><p style=\"text-align:center;color:rgb(79, 90, 116);font-size:14.72px;text-align:center;line-height:22.816px;margin:6px 0px 0px 0px\">Data: OpenStax Chemistry 2e, Table 8.1</p></div></div><div>A C=C bond (614 kJ/mol) is not twice as strong as a C–C bond (347 kJ/mol). What does that tell you about the π bond?</div>",
-  "answer": "The π bond adds only about 267 kJ/mol, so it is weaker than the σ bond",
+  "answer": "The π part (about 267 kJ/mol) is weaker than the σ bond",
   "hint": "More overlap → stronger bond. In a series of similar bonds, the shorter bond overlaps better. Head-on (σ) overlap is stronger than side-by-side (π) overlap.",
   "explain": "614 − 347 = 267 kJ/mol for the π part, less than the σ bond’s 347: π overlap (side by side) is weaker than σ overlap (end to end).",
   "origin": "original",
   "choices": [
-   "The π bond adds only about 267 kJ/mol, so it is weaker than the σ bond",
-   "A C=C bond has no σ bond",
-   "σ and π bonds are equally strong",
-   "The π bond is stronger than the σ bond"
+   "The π part (about 267 kJ/mol) is weaker than the σ bond",
+   "A C=C bond has no σ bond, only two π bonds",
+   "σ and π bonds are equally strong, about 347 kJ/mol each",
+   "The π bond is stronger than the σ bond, so it adds the most"
   ],
   "why": [
    "",
@@ -787,10 +787,10 @@
   "explain": "839 − 347 = 492 kJ/mol for two π bonds: about 246 each, weaker than the 347 σ.",
   "origin": "original",
   "choices": [
-   "A triple bond has three σ bonds",
-   "π bonds are stronger than σ bonds",
+   "A triple bond has three σ bonds, not one",
+   "π bonds are stronger than σ bonds of the same atoms",
    "The two π bonds are each weaker than the σ bond",
-   "The triple bond is longer"
+   "The triple bond is longer, so its overlap is weaker"
   ],
   "why": [
    "Every bond has exactly one σ. Double = 1σ + 1π. Triple = 1σ + 2π.",
@@ -895,8 +895,8 @@
   "choices": [
    "Three bonds at 90° and one different bond",
    "Four identical bonds at 90°",
-   "Two bonds in a straight line",
-   "Four identical bonds at 109.5°"
+   "Two bonds in a straight line, 180° apart",
+   "Four identical bonds at 109.5°, like a tetrahedron"
   ],
   "why": [
    "",
@@ -911,7 +911,7 @@
   }
  },
  {
-  "id": "bondingtheories-4eb338bf",
+  "id": "bondingtheories-83f48ae6",
   "skill": "bondingtheories.why",
   "courses": [
    "1A",
@@ -924,15 +924,15 @@
   ],
   "type": "mc",
   "prompt": "<div>PF₅ exists, but NF₅ does not. Why?</div>",
-  "answer": "N (period 2) has no d orbitals, so it can’t make 5 hybrids; P (period 3) can use sp³d",
+  "answer": "N (period 2) has no d orbitals for a fifth hybrid; P can use sp³d",
   "hint": "Hybridization mixes n atomic orbitals into n equal hybrid orbitals that point where the electron groups are. Orbitals in = orbitals out, and H is never hybridized.",
   "explain": "N is limited to 4 electron groups (sp³ at most).",
   "origin": "original",
   "choices": [
-   "N is more electronegative than P",
-   "N (period 2) has no d orbitals, so it can’t make 5 hybrids; P (period 3) can use sp³d",
-   "F can’t bond to N",
-   "P has more valence electrons than N"
+   "N is more electronegative than P, so it can’t share five electron pairs",
+   "N (period 2) has no d orbitals for a fifth hybrid; P can use sp³d",
+   "F can’t bond to N, because both atoms are too electronegative",
+   "P has more valence electrons than N to share with five F atoms"
   ],
   "why": [
    "Electronegativity isn’t the reason. N has no valence d orbitals for a 5th hybrid.",
@@ -1033,7 +1033,7 @@
   }
  },
  {
-  "id": "bondingtheories-4402f682",
+  "id": "bondingtheories-c1b5e06b",
   "skill": "bondingtheories.why",
   "courses": [
    "1A",
@@ -1046,15 +1046,15 @@
   ],
   "type": "mc",
   "prompt": "<div>Experiments show CH₄ has four identical C–H bonds at 109.5°. How does valence bond theory explain this?</div>",
-  "answer": "C mixes its 2s and three 2p orbitals into four identical sp³ hybrid orbitals",
+  "answer": "C mixes its 2s and three 2p orbitals into four sp³ hybrids",
   "hint": "Hybridization mixes n atomic orbitals into n equal hybrid orbitals that point where the electron groups are. Orbitals in = orbitals out, and H is never hybridized.",
   "explain": "Four equal hybrids point to the corners of a tetrahedron: 109.5° apart.",
   "origin": "original",
   "choices": [
-   "C uses its 2s and 2p orbitals unchanged",
-   "Each H atom hybridizes",
-   "C mixes its 2s and three 2p orbitals into four identical sp³ hybrid orbitals",
-   "C uses four 2p orbitals"
+   "C uses its 2s and 2p orbitals unchanged, without any mixing",
+   "Each H atom hybridizes its 1s orbital to fit the carbon",
+   "C mixes its 2s and three 2p orbitals into four sp³ hybrids",
+   "C uses four 2p orbitals, one for each C–H bond"
   ],
   "why": [
    "Unmixed orbitals would give one different bond and 90° angles.",
@@ -1069,7 +1069,7 @@
   }
  },
  {
-  "id": "bondingtheories-2ce17a13",
+  "id": "bondingtheories-9dfd5830",
   "skill": "bondingtheories.why",
   "courses": [
    "1A",
@@ -1082,15 +1082,15 @@
   ],
   "type": "mc",
   "prompt": "<div>The number of hybrid orbitals an atom uses equals…</div>",
-  "answer": "the number of electron groups around it (bonded atoms + lone pairs)",
+  "answer": "the number of electron groups (bonded atoms + lone pairs)",
   "hint": "Hybridization mixes n atomic orbitals into n equal hybrid orbitals that point where the electron groups are. Orbitals in = orbitals out, and H is never hybridized.",
   "explain": "One hybrid per group: each σ bond and each lone pair gets its own hybrid.",
   "origin": "original",
   "choices": [
-   "the number of bonds it makes",
-   "always 4",
-   "its number of valence electrons",
-   "the number of electron groups around it (bonded atoms + lone pairs)"
+   "the number of bonds it makes, counting a double bond twice",
+   "always 4, since there is one s and three p orbitals",
+   "its number of valence electrons, one hybrid per electron",
+   "the number of electron groups (bonded atoms + lone pairs)"
   ],
   "why": [
    "Lone pairs need hybrids too, and a double bond uses only one hybrid (for its σ part).",
@@ -1123,10 +1123,10 @@
   "explain": "Only n = 3 and higher shells have d orbitals, so sp³d and sp³d² are only possible from period 3 on (P, S, Cl, Xe…).",
   "origin": "original",
   "choices": [
-   "sp³d hybrids are only for metals",
+   "sp³d hybrids are only for metals, not for nonmetals like carbon",
    "Carbon’s valence shell (n = 2) has no d orbitals",
-   "Carbon’s 2s orbital is full",
-   "Five bonds would need five s orbitals"
+   "Carbon’s 2s orbital is full, so it can’t join a hybrid",
+   "Five bonds would need five s orbitals, and carbon has only one"
   ],
   "why": [
    "PCl₅ and SF₄ use sp³d and they are nonmetals. The issue is that n = 2 has no d orbitals.",
@@ -3276,10 +3276,10 @@
   "explain": "The leftover p orbitals stand parallel and overlap above and below the bond axis.",
   "origin": "original",
   "choices": [
-   "Hybrid orbitals, side by side",
-   "s orbitals",
+   "Hybrid orbitals, overlapping side by side",
+   "s orbitals, overlapping above and below the axis",
    "Unhybridized p orbitals, side by side",
-   "p orbitals, head-on"
+   "p orbitals, head-on along the bond axis"
   ],
   "why": [
    "π bonds use unhybridized p orbitals, side by side. Hybrid orbitals make σ bonds and hold lone pairs.",
@@ -3294,7 +3294,7 @@
   }
  },
  {
-  "id": "bondingtheories-d09e72cf",
+  "id": "bondingtheories-0d8d79e4",
   "skill": "bondingtheories.pisource",
   "courses": [
    "1A",
@@ -3306,15 +3306,15 @@
   ],
   "type": "mc",
   "prompt": "<div>How are the two π bonds in ethyne (C₂H₂) arranged?</div>",
-  "answer": "At 90° to each other, both wrapped around the C–C axis",
+  "answer": "At 90° to each other, around the C–C axis",
   "hint": "Find each atom’s hybridization first. Hybrid orbitals make σ bonds and hold lone pairs; only the leftover unhybridized p orbitals make π bonds.",
   "explain": "Each sp carbon has two leftover p orbitals at right angles, so the two π bonds are perpendicular.",
   "origin": "original",
   "choices": [
-   "Both on the C–C axis",
-   "Parallel, on the same side of the axis",
-   "At 90° to each other, both wrapped around the C–C axis",
-   "One is between C and H"
+   "Both on the C–C axis, between the two nuclei",
+   "Parallel to each other, on the same side of the axis",
+   "At 90° to each other, around the C–C axis",
+   "One between the carbons, one between C and H"
   ],
   "why": [
    "Density on the axis belongs to the σ bond. π density is off the axis.",
@@ -3346,10 +3346,10 @@
   "explain": "Each C keeps one unhybridized 2p orbital standing up out of the plane. They overlap above and below.",
   "origin": "original",
   "choices": [
-   "Along the C–C axis",
-   "On the H atoms",
+   "Along the C–C axis, between the two nuclei",
+   "On the H atoms at the ends of the molecule",
    "Above and below the plane of the molecule",
-   "In the C–H bonds"
+   "In the four C–H bonds around the carbons"
   ],
   "why": [
    "That is where the σ bond’s density is. The π density is above and below the axis.",
@@ -3364,7 +3364,7 @@
   }
  },
  {
-  "id": "bondingtheories-3faa18c8",
+  "id": "bondingtheories-fba200a1",
   "skill": "bondingtheories.pisource",
   "courses": [
    "1A",
@@ -3376,15 +3376,15 @@
   ],
   "type": "mc",
   "prompt": "<div>In allene, H₂C=C=CH₂, how are the two CH₂ groups arranged?</div>",
-  "answer": "In perpendicular planes",
+  "answer": "In perpendicular planes (90° apart)",
   "hint": "Find each atom’s hybridization first. Hybrid orbitals make σ bonds and hold lone pairs; only the leftover unhybridized p orbitals make π bonds.",
   "explain": "The middle C is sp with two p orbitals at 90°. Each makes a π bond with a different end carbon, which locks the two CH₂ planes at 90° to each other.",
   "origin": "original",
   "choices": [
-   "In perpendicular planes",
-   "Free to rotate",
-   "In the same plane",
-   "Tilted at 109.5°"
+   "In perpendicular planes (90° apart)",
+   "Free to rotate around the C=C=C axis",
+   "In the same flat plane, like the H atoms of ethene",
+   "In planes tilted 109.5° from each other"
   ],
   "why": [
    "",
@@ -3399,7 +3399,7 @@
   }
  },
  {
-  "id": "bondingtheories-77b58f2a",
+  "id": "bondingtheories-230be1ea",
   "skill": "bondingtheories.pisource",
   "courses": [
    "1A",
@@ -3411,15 +3411,15 @@
   ],
   "type": "mc",
   "prompt": "<div>A classmate says N₂ has three π bonds, one from each pair of p orbitals. Do you agree?</div>",
-  "answer": "No: one pair of p orbitals overlaps head-on (σ), so N≡N is 1 σ + 2 π",
+  "answer": "No: one p pair overlaps head-on (σ), so N≡N is 1 σ + 2 π",
   "hint": "Find each atom’s hybridization first. Hybrid orbitals make σ bonds and hold lone pairs; only the leftover unhybridized p orbitals make π bonds.",
   "explain": "Only the two p orbitals perpendicular to the bond axis can overlap side by side. The one along the axis makes the σ bond.",
   "origin": "original",
   "choices": [
-   "No: N₂ has no π bonds",
-   "Yes: three p orbitals make three π bonds",
-   "No: N₂ has one π bond",
-   "No: one pair of p orbitals overlaps head-on (σ), so N≡N is 1 σ + 2 π"
+   "No: N₂ has no π bonds, only three σ bonds",
+   "Yes: each of the three pairs of p orbitals makes one π bond",
+   "No: N₂ has one π bond, and the other two bonds are σ",
+   "No: one p pair overlaps head-on (σ), so N≡N is 1 σ + 2 π"
   ],
   "why": [
    "A triple bond has two π bonds.",
@@ -3452,9 +3452,9 @@
   "origin": "original",
   "choices": [
    "The C=C double bond in ethene",
-   "Both rotate freely",
+   "Both rotate freely at room temperature",
    "The C–C single bond in ethane",
-   "Neither one can rotate"
+   "Neither one can rotate; all bonds are locked"
   ],
   "why": [
    "The π part of a double bond locks the rotation.",
@@ -3487,9 +3487,9 @@
   "origin": "original",
   "choices": [
    "They end up perpendicular, so there is no π overlap",
-   "Nothing changes",
+   "Nothing changes; the π bond stays intact",
    "They turn into hybrid orbitals",
-   "They overlap even more"
+   "They overlap even more, making the π bond stronger"
   ],
   "why": [
    "",
@@ -3504,7 +3504,7 @@
   }
  },
  {
-  "id": "bondingtheories-80206249",
+  "id": "bondingtheories-bda1387b",
   "skill": "bondingtheories.rotation",
   "courses": [
    "1A",
@@ -3516,15 +3516,15 @@
   ],
   "type": "mc",
   "prompt": "<div><div style=\"display:flex;margin:6px 0px 6px 0px;flex-direction:column;align-items:center\"><svg viewBox=\"0 0 320 170\" style=\"width:340px;font-family:Nunito, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:16.5px;display:block;width:340px;max-width:100%;height:auto\" role=\"img\" aria-label=\"Ethene: the p orbitals on the two carbons overlap above and below the plane of the molecule\" xmlns=\"http://www.w3.org/2000/svg\"> <ellipse cx=\"160\" cy=\"45\" rx=\"70\" ry=\"26\" fill=\"#8fb8f0\" fill-opacity=\".75\" stroke=\"#346cc3\" stroke-width=\"2\"></ellipse><ellipse cx=\"160\" cy=\"125\" rx=\"70\" ry=\"26\" fill=\"#f6a99a\" fill-opacity=\".75\" stroke=\"#bf5266\" stroke-width=\"2\"></ellipse> <path d=\"M60 70l68 15M60 100l68-15M192 85l68-15M192 85l68 15M128 85h64\" stroke=\"#3d4a73\" stroke-width=\"3\" stroke-linecap=\"round\"></path> <circle cx=\"128\" cy=\"85\" r=\"13\" fill=\"#fff\" stroke=\"#3d4a73\" stroke-width=\"2\"></circle><circle cx=\"192\" cy=\"85\" r=\"13\" fill=\"#fff\" stroke=\"#3d4a73\" stroke-width=\"2\"></circle> <text x=\"128\" y=\"91\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"15\">C</text><text x=\"192\" y=\"91\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"15\">C</text> <text x=\"50\" y=\"72\" font-weight=\"700\" font-size=\"14\" fill=\"#55607a\">H</text><text x=\"50\" y=\"108\" font-weight=\"700\" font-size=\"14\" fill=\"#55607a\">H</text><text x=\"262\" y=\"72\" font-weight=\"700\" font-size=\"14\" fill=\"#55607a\">H</text><text x=\"262\" y=\"108\" font-weight=\"700\" font-size=\"14\" fill=\"#55607a\">H</text> </svg></div></div><div>Why can’t the two ends of a C=C double bond twist freely?</div>",
-  "answer": "Twisting turns the p orbitals away from each other and breaks the π overlap",
+  "answer": "Twisting breaks the side-by-side π overlap",
   "hint": "Turning around a σ bond keeps the head-on overlap. Turning around a double bond would twist the side-by-side p orbitals apart and break the π bond.",
   "explain": "π overlap needs the two p orbitals parallel. A twist destroys it, which costs a lot of energy.",
   "origin": "original",
   "choices": [
-   "Twisting turns the p orbitals away from each other and breaks the π overlap",
-   "The H atoms bump into each other",
+   "Twisting breaks the side-by-side π overlap",
+   "The H atoms on the two ends bump into each other",
    "The carbon atoms are too heavy to rotate",
-   "Twisting would break the σ bond"
+   "Twisting would stretch and break the σ bond"
   ],
   "why": [
    "",
@@ -3679,7 +3679,7 @@
   }
  },
  {
-  "id": "bondingtheories-025806eb",
+  "id": "bondingtheories-63408e38",
   "skill": "bondingtheories.resonance",
   "courses": [
    "1A",
@@ -3691,15 +3691,15 @@
   ],
   "type": "mc",
   "prompt": "<div>Experiments show all three C–O bonds in CO₃²⁻ are identical. What is the best explanation?</div>",
-  "answer": "The π electrons are delocalized over all three O atoms (a resonance hybrid)",
+  "answer": "The π electrons are spread over all three C–O bonds",
   "hint": "Draw the resonance structures. If the double bond can sit in more than one place, its π electrons are spread (delocalized) over those atoms. Average bond order = total bonds ÷ number of positions.",
   "explain": "No single Lewis structure is right. The π electrons are spread over the whole ion.",
   "origin": "original",
   "choices": [
-   "There are three C=O double bonds",
-   "There are no π bonds in carbonate",
+   "There are three C=O double bonds, one to each O atom",
+   "There are no π bonds in carbonate, only σ bonds",
    "The double bond rapidly flips from one O to another",
-   "The π electrons are delocalized over all three O atoms (a resonance hybrid)"
+   "The π electrons are spread over all three C–O bonds"
   ],
   "why": [
    "That would put 12 electrons around C, more than an octet. Each C–O bond is about 1⅓.",
@@ -5167,10 +5167,10 @@
   "explain": "Orbitals are conserved: 2 in, 2 out.",
   "origin": "original",
   "choices": [
-   "4",
+   "4: two bonding and two antibonding",
    "2: one bonding and one antibonding",
-   "3",
-   "1"
+   "3: bonding, nonbonding and antibonding",
+   "1: a single bonding MO"
   ],
   "why": [
    "You get exactly as many MOs as AOs you started with.",
@@ -5255,7 +5255,7 @@
   }
  },
  {
-  "id": "bondingtheories-97908508",
+  "id": "bondingtheories-9d78e958",
   "skill": "bondingtheories.lcao",
   "courses": [
    "1A",
@@ -5267,14 +5267,14 @@
   ],
   "type": "mc",
   "prompt": "<div>Two 1s orbitals combine in phase (same sign). What forms?</div>",
-  "answer": "A bonding σ<sub style=\"font-size:11.648px;line-height:0px\">1s</sub> MO with extra density between the nuclei",
+  "answer": "A bonding σ<sub style=\"font-size:11.648px;line-height:0px\">1s</sub> MO, with density between the nuclei",
   "hint": "Same phase meeting → density builds up between the nuclei → bonding. Opposite phases → a node between the nuclei → antibonding (*). Density on the axis → σ; above and below it → π.",
   "explain": "Waves in phase add up between the nuclei: bonding, lower in energy.",
   "origin": "original",
   "choices": [
-   "A bonding σ<sub style=\"font-size:11.648px;line-height:0px\">1s</sub> MO with extra density between the nuclei",
+   "A bonding σ<sub style=\"font-size:11.648px;line-height:0px\">1s</sub> MO, with density between the nuclei",
    "Nothing: two 1s orbitals cannot combine",
-   "A π<sub style=\"font-size:11.648px;line-height:0px\">1s</sub> MO",
+   "A π<sub style=\"font-size:11.648px;line-height:0px\">1s</sub> MO with density above and below the axis",
    "An antibonding σ*<sub style=\"font-size:11.648px;line-height:0px\">1s</sub> MO with a node between the nuclei"
   ],
   "why": [
@@ -5360,7 +5360,7 @@
   }
  },
  {
-  "id": "bondingtheories-00041bfa",
+  "id": "bondingtheories-2ad51e9b",
   "skill": "bondingtheories.ordering",
   "courses": [
    "1A",
@@ -5372,13 +5372,13 @@
   ],
   "type": "mc",
   "prompt": "<div>Which energy ordering does the MO diagram for O<sub style=\"font-size:12.768px;line-height:0px\">2</sub> use?</div>",
-  "answer": "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>",
+  "answer": "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)",
   "hint": "Which element is it? The charge doesn’t change the ordering.",
   "explain": "σ2p below π2p (O₂ through Ne₂).",
   "origin": "original",
   "choices": [
    "π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (s–p mixing)",
-   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>"
+   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)"
   ],
   "why": [
    "Li₂ through N₂: π2p sits below σ2p (s–p mixing). O₂ through Ne₂: σ2p sits below π2p.",
@@ -5391,7 +5391,7 @@
   }
  },
  {
-  "id": "bondingtheories-eb0c6d15",
+  "id": "bondingtheories-61e02ea5",
   "skill": "bondingtheories.ordering",
   "courses": [
    "1A",
@@ -5403,13 +5403,13 @@
   ],
   "type": "mc",
   "prompt": "<div>Which energy ordering does the MO diagram for F<sub style=\"font-size:12.768px;line-height:0px\">2</sub> use?</div>",
-  "answer": "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>",
+  "answer": "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)",
   "hint": "Which element is it? The charge doesn’t change the ordering.",
   "explain": "σ2p below π2p (O₂ through Ne₂).",
   "origin": "original",
   "choices": [
    "π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (s–p mixing)",
-   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>"
+   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)"
   ],
   "why": [
    "Li₂ through N₂: π2p sits below σ2p (s–p mixing). O₂ through Ne₂: σ2p sits below π2p.",
@@ -5422,7 +5422,7 @@
   }
  },
  {
-  "id": "bondingtheories-3fffa1b2",
+  "id": "bondingtheories-c0232ee8",
   "skill": "bondingtheories.ordering",
   "courses": [
    "1A",
@@ -5434,13 +5434,13 @@
   ],
   "type": "mc",
   "prompt": "<div>Which energy ordering does the MO diagram for F<sub style=\"font-size:12.768px;line-height:0px\">2</sub><sup style=\"font-size:12.768px;line-height:0px\">+</sup> use?</div>",
-  "answer": "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>",
+  "answer": "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)",
   "hint": "Which element is it? The charge doesn’t change the ordering.",
   "explain": "σ2p below π2p (O₂ through Ne₂).",
   "origin": "original",
   "choices": [
    "π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (s–p mixing)",
-   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>"
+   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)"
   ],
   "why": [
    "Li₂ through N₂: π2p sits below σ2p (s–p mixing). O₂ through Ne₂: σ2p sits below π2p.",
@@ -5471,7 +5471,7 @@
   "origin": "original",
   "choices": [
    "π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (s–p mixing)",
-   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>"
+   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)"
   ],
   "why": [
    "",
@@ -5502,7 +5502,7 @@
   "origin": "original",
   "choices": [
    "π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (s–p mixing)",
-   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>"
+   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)"
   ],
   "why": [
    "",
@@ -5515,7 +5515,7 @@
   }
  },
  {
-  "id": "bondingtheories-d59663ae",
+  "id": "bondingtheories-1c30b3c6",
   "skill": "bondingtheories.ordering",
   "courses": [
    "1A",
@@ -5527,13 +5527,13 @@
   ],
   "type": "mc",
   "prompt": "<div>Which energy ordering does the MO diagram for Ne<sub style=\"font-size:12.768px;line-height:0px\">2</sub> use?</div>",
-  "answer": "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>",
+  "answer": "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)",
   "hint": "Which element is it? The charge doesn’t change the ordering.",
   "explain": "σ2p below π2p (O₂ through Ne₂).",
   "origin": "original",
   "choices": [
    "π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (s–p mixing)",
-   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>"
+   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)"
   ],
   "why": [
    "Li₂ through N₂: π2p sits below σ2p (s–p mixing). O₂ through Ne₂: σ2p sits below π2p.",
@@ -5564,7 +5564,7 @@
   "origin": "original",
   "choices": [
    "π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (s–p mixing)",
-   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>"
+   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)"
   ],
   "why": [
    "",
@@ -5577,7 +5577,7 @@
   }
  },
  {
-  "id": "bondingtheories-b8b59e95",
+  "id": "bondingtheories-fe838d42",
   "skill": "bondingtheories.ordering",
   "courses": [
    "1A",
@@ -5589,13 +5589,13 @@
   ],
   "type": "mc",
   "prompt": "<div>Which energy ordering does the MO diagram for O<sub style=\"font-size:12.768px;line-height:0px\">2</sub><sup style=\"font-size:12.768px;line-height:0px\">+</sup> use?</div>",
-  "answer": "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>",
+  "answer": "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)",
   "hint": "Which element is it? The charge doesn’t change the ordering.",
   "explain": "σ2p below π2p (O₂ through Ne₂).",
   "origin": "original",
   "choices": [
    "π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (s–p mixing)",
-   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>"
+   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)"
   ],
   "why": [
    "Li₂ through N₂: π2p sits below σ2p (s–p mixing). O₂ through Ne₂: σ2p sits below π2p.",
@@ -5626,7 +5626,7 @@
   "origin": "original",
   "choices": [
    "π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (s–p mixing)",
-   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>"
+   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)"
   ],
   "why": [
    "",
@@ -5657,7 +5657,7 @@
   "origin": "original",
   "choices": [
    "π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (s–p mixing)",
-   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>"
+   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)"
   ],
   "why": [
    "",
@@ -5670,7 +5670,7 @@
   }
  },
  {
-  "id": "bondingtheories-0074a068",
+  "id": "bondingtheories-abe24974",
   "skill": "bondingtheories.ordering",
   "courses": [
    "1A",
@@ -5682,13 +5682,13 @@
   ],
   "type": "mc",
   "prompt": "<div>Which energy ordering does the MO diagram for F<sub style=\"font-size:12.768px;line-height:0px\">2</sub><sup style=\"font-size:12.768px;line-height:0px\">−</sup> use?</div>",
-  "answer": "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>",
+  "answer": "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)",
   "hint": "Which element is it? The charge doesn’t change the ordering.",
   "explain": "σ2p below π2p (O₂ through Ne₂).",
   "origin": "original",
   "choices": [
    "π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (s–p mixing)",
-   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>"
+   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)"
   ],
   "why": [
    "Li₂ through N₂: π2p sits below σ2p (s–p mixing). O₂ through Ne₂: σ2p sits below π2p.",
@@ -5719,7 +5719,7 @@
   "origin": "original",
   "choices": [
    "π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (s–p mixing)",
-   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>"
+   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)"
   ],
   "why": [
    "",
@@ -5750,7 +5750,7 @@
   "origin": "original",
   "choices": [
    "π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (s–p mixing)",
-   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>"
+   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)"
   ],
   "why": [
    "",
@@ -5781,7 +5781,7 @@
   "origin": "original",
   "choices": [
    "π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (s–p mixing)",
-   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>"
+   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)"
   ],
   "why": [
    "",
@@ -5812,7 +5812,7 @@
   "origin": "original",
   "choices": [
    "π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (s–p mixing)",
-   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>"
+   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)"
   ],
   "why": [
    "",
@@ -5825,7 +5825,7 @@
   }
  },
  {
-  "id": "bondingtheories-3534a91d",
+  "id": "bondingtheories-30a5017f",
   "skill": "bondingtheories.ordering",
   "courses": [
    "1A",
@@ -5837,13 +5837,13 @@
   ],
   "type": "mc",
   "prompt": "<div>Which energy ordering does the MO diagram for O<sub style=\"font-size:12.768px;line-height:0px\">2</sub><sup style=\"font-size:12.768px;line-height:0px\">−</sup> use?</div>",
-  "answer": "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>",
+  "answer": "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)",
   "hint": "Which element is it? The charge doesn’t change the ordering.",
   "explain": "σ2p below π2p (O₂ through Ne₂).",
   "origin": "original",
   "choices": [
    "π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (s–p mixing)",
-   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>"
+   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)"
   ],
   "why": [
    "Li₂ through N₂: π2p sits below σ2p (s–p mixing). O₂ through Ne₂: σ2p sits below π2p.",
@@ -5874,7 +5874,7 @@
   "origin": "original",
   "choices": [
    "π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (s–p mixing)",
-   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>"
+   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)"
   ],
   "why": [
    "",
@@ -5887,7 +5887,7 @@
   }
  },
  {
-  "id": "bondingtheories-02e1ad40",
+  "id": "bondingtheories-96e4f2ad",
   "skill": "bondingtheories.ordering",
   "courses": [
    "1A",
@@ -5899,13 +5899,13 @@
   ],
   "type": "mc",
   "prompt": "<div>Which energy ordering does the MO diagram for O<sub style=\"font-size:12.768px;line-height:0px\">2</sub><sup style=\"font-size:12.768px;line-height:0px\">2−</sup> use?</div>",
-  "answer": "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>",
+  "answer": "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)",
   "hint": "Which element is it? The charge doesn’t change the ordering.",
   "explain": "σ2p below π2p (O₂ through Ne₂).",
   "origin": "original",
   "choices": [
    "π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (s–p mixing)",
-   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>"
+   "σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> below π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> (no s–p mixing)"
   ],
   "why": [
    "Li₂ through N₂: π2p sits below σ2p (s–p mixing). O₂ through Ne₂: σ2p sits below π2p.",
@@ -9487,7 +9487,7 @@
   }
  },
  {
-  "id": "bondingtheories-72a66b40",
+  "id": "bondingtheories-2c1db2bd",
   "skill": "bondingtheories.moconcept",
   "courses": [
    "1A",
@@ -9499,14 +9499,14 @@
   ],
   "type": "mc",
   "prompt": "<div>Which has the higher first ionization energy: an H atom or an H₂ molecule?</div>",
-  "answer": "H₂: its electrons are in σ<sub style=\"font-size:11.648px;line-height:0px\">1s</sub>, lower in energy than H’s 1s",
+  "answer": "H₂: its σ<sub style=\"font-size:11.648px;line-height:0px\">1s</sub> electrons are lower in energy than H’s 1s",
   "hint": "Count valence electrons (add for − charge, subtract for +), fill the MO diagram from the bottom, then use BO = ½ (bonding − antibonding) and look for single arrows (paramagnetic).",
   "explain": "Lower energy = more tightly held, so more energy is needed to remove one.",
   "origin": "original",
   "choices": [
-   "The H atom",
-   "They are the same",
-   "H₂: its electrons are in σ<sub style=\"font-size:11.648px;line-height:0px\">1s</sub>, lower in energy than H’s 1s",
+   "The H atom: its single electron is held more tightly",
+   "They are the same, since both electrons come from H 1s orbitals",
+   "H₂: its σ<sub style=\"font-size:11.648px;line-height:0px\">1s</sub> electrons are lower in energy than H’s 1s",
    "H₂, because it has two protons in one nucleus"
   ],
   "why": [
@@ -9522,7 +9522,7 @@
   }
  },
  {
-  "id": "bondingtheories-0047c3ee",
+  "id": "bondingtheories-8e9a09aa",
   "skill": "bondingtheories.moconcept",
   "courses": [
    "1A",
@@ -9534,15 +9534,15 @@
   ],
   "type": "mc",
   "prompt": "<div>Can a molecule with an <b style=\"font-weight:900\">odd</b> number of electrons be diamagnetic?</div>",
-  "answer": "No: with an odd count, at least one electron has to be unpaired",
+  "answer": "No: an odd count always leaves one electron unpaired",
   "hint": "Count valence electrons (add for − charge, subtract for +), fill the MO diagram from the bottom, then use BO = ½ (bonding − antibonding) and look for single arrows (paramagnetic).",
   "explain": "Paired electrons come in twos, so an odd total always leaves at least one single electron → paramagnetic.",
   "origin": "original",
   "choices": [
-   "Yes, if all of its electrons are in bonding MOs",
-   "Yes, if it is an ion",
-   "No: with an odd count, at least one electron has to be unpaired",
-   "Only if it has a triple bond"
+   "Yes, as long as all of its electrons are in bonding MOs",
+   "Yes, if it is an ion with an extra or missing electron",
+   "No: an odd count always leaves one electron unpaired",
+   "Only if it has a triple bond that pairs every electron"
   ],
   "why": [
    "Where the electrons sit doesn’t matter; an odd number can’t all be paired.",
@@ -9644,10 +9644,10 @@
   "explain": "The bonding MO puts electron density between the two nuclei, so each electron feels two positive charges.",
   "origin": "original",
   "choices": [
-   "Its spin flips in the molecule",
+   "Its spin flips when it pairs up in the molecule",
    "In σ<sub style=\"font-size:11.648px;line-height:0px\">1s</sub> it is attracted to both nuclei at once",
-   "It moves faster in the molecule",
-   "It sits closer to one nucleus only"
+   "It moves faster in the molecule than in the atom",
+   "It sits closer to one nucleus only, away from the other"
   ],
   "why": [
    "Spin pairing is required, but the energy drop comes from attraction to two nuclei.",
@@ -9662,7 +9662,7 @@
   }
  },
  {
-  "id": "bondingtheories-f3d75ed5",
+  "id": "bondingtheories-c6444044",
   "skill": "bondingtheories.moconcept",
   "courses": [
    "1A",
@@ -9674,15 +9674,15 @@
   ],
   "type": "mc",
   "prompt": "<div>Which has the higher first ionization energy: an O atom or an O₂ molecule?</div>",
-  "answer": "The O atom: O₂ loses an electron from π*<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>, which is higher in energy than O’s 2p",
+  "answer": "The O atom: O₂ loses a higher-energy π*<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> electron",
   "hint": "Count valence electrons (add for − charge, subtract for +), fill the MO diagram from the bottom, then use BO = ½ (bonding − antibonding) and look for single arrows (paramagnetic).",
   "explain": "O₂’s HOMO is antibonding (above the atomic 2p), so that electron is easier to remove.",
   "origin": "original",
   "choices": [
    "O₂: bonding always holds electrons more tightly",
    "O₂, because it is paramagnetic",
-   "They are the same",
-   "The O atom: O₂ loses an electron from π*<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>, which is higher in energy than O’s 2p"
+   "They are the same, since both lose a 2p electron",
+   "The O atom: O₂ loses a higher-energy π*<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> electron"
   ],
   "why": [
    "Not for O₂: its highest electrons are in antibonding π*2p, above the atomic 2p.",
@@ -9697,7 +9697,7 @@
   }
  },
  {
-  "id": "bondingtheories-22b7aee0",
+  "id": "bondingtheories-3cbbda4c",
   "skill": "bondingtheories.moconcept",
   "courses": [
    "1A",
@@ -9709,15 +9709,15 @@
   ],
   "type": "mc",
   "prompt": "<div>Can a molecule with an <b style=\"font-weight:900\">even</b> number of electrons be paramagnetic?</div>",
-  "answer": "Yes: O₂ has 12 valence electrons and still has 2 unpaired electrons",
+  "answer": "Yes: O₂ has 12 valence electrons, but 2 are unpaired",
   "hint": "Count valence electrons (add for − charge, subtract for +), fill the MO diagram from the bottom, then use BO = ½ (bonding − antibonding) and look for single arrows (paramagnetic).",
   "explain": "Hund’s rule puts O₂’s last two electrons in the two π*2p orbitals, one each. B₂ is another example.",
   "origin": "original",
   "choices": [
-   "Only ions can be paramagnetic",
-   "No: an even number always pairs up completely",
-   "Yes: O₂ has 12 valence electrons and still has 2 unpaired electrons",
-   "Only if it has no π orbitals"
+   "Only ions can be paramagnetic, never neutral molecules",
+   "No: an even number of electrons always pairs up completely",
+   "Yes: O₂ has 12 valence electrons, but 2 are unpaired",
+   "Only if it has no π orbitals to hold electrons"
   ],
   "why": [
    "Neutral O₂ and B₂ are paramagnetic.",
@@ -9732,7 +9732,7 @@
   }
  },
  {
-  "id": "bondingtheories-0005e6ba",
+  "id": "bondingtheories-1471d8f6",
   "skill": "bondingtheories.moconcept",
   "courses": [
    "1A",
@@ -9744,15 +9744,15 @@
   ],
   "type": "mc",
   "prompt": "<div>N₂²⁺ and O₂⁴⁺ both have 8 valence electrons. Why is N₂²⁺ diamagnetic but O₂⁴⁺ paramagnetic?</div>",
-  "answer": "Different MO orders: N₂²⁺ fills both π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> orbitals; O₂⁴⁺ fills σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> first, leaving one electron in each π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>",
+  "answer": "O’s σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> fills before π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>, leaving one electron in each π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>",
   "hint": "Count valence electrons (add for − charge, subtract for +), fill the MO diagram from the bottom, then use BO = ½ (bonding − antibonding) and look for single arrows (paramagnetic).",
   "explain": "After σ2s and σ*2s, 4 electrons remain. With π2p lowest (N) they pair in π2p; with σ2p lowest (O), 2 go to σ2p and 2 spread over the π2p pair.",
   "origin": "original",
   "choices": [
-   "Different MO orders: N₂²⁺ fills both π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> orbitals; O₂⁴⁺ fills σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> first, leaving one electron in each π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>",
-   "N₂²⁺ is diamagnetic because it is an ion",
-   "O has more protons, so its electrons can’t pair",
-   "O₂⁴⁺ has a higher bond order"
+   "O’s σ<sub style=\"font-size:11.648px;line-height:0px\">2p</sub> fills before π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>, leaving one electron in each π<sub style=\"font-size:11.648px;line-height:0px\">2p</sub>",
+   "N₂²⁺ is diamagnetic because it is an ion with a 2+ charge",
+   "O has more protons, so its electrons can’t pair up in the same MO",
+   "O₂⁴⁺ has a higher bond order, which leaves electrons unpaired"
   ],
   "why": [
    "",
@@ -9767,7 +9767,7 @@
   }
  },
  {
-  "id": "bondingtheories-35f5d030",
+  "id": "bondingtheories-e96c79c7",
   "skill": "bondingtheories.moconcept",
   "courses": [
    "1A",
@@ -9779,14 +9779,14 @@
   ],
   "type": "mc",
   "prompt": "<div>Boron is 2s²2p¹. In the MO diagram of B₂, how many 2p orbitals from each B atom combine?</div>",
-  "answer": "All three: every valence orbital combines, even the empty ones",
+  "answer": "All three, even the empty ones",
   "hint": "Count valence electrons (add for − charge, subtract for +), fill the MO diagram from the bottom, then use BO = ½ (bonding − antibonding) and look for single arrows (paramagnetic).",
   "explain": "MOs form from all valence AOs; empty ones simply give MOs that stay empty.",
   "origin": "original",
   "choices": [
-   "Two",
-   "None: B₂ uses only 2s orbitals",
-   "All three: every valence orbital combines, even the empty ones",
+   "Two: the ones that line up with the other atom",
+   "None: B₂ uses only its 2s orbitals to bond",
+   "All three, even the empty ones",
    "Only one, because B has one p electron"
   ],
   "why": [
@@ -14810,7 +14810,7 @@
   "choices": [
    "either one, depending on the bond",
    "endothermic: energy must be put in",
-   "neither: no energy change",
+   "neither: there is no energy change at all",
    "exothermic: energy is released"
   ],
   "why": [
@@ -14861,7 +14861,7 @@
   }
  },
  {
-  "id": "bondingtheories-b6ca05c3",
+  "id": "bondingtheories-ffc825b6",
   "skill": "bondingtheories.bestrong",
   "courses": [
    "1A",
@@ -14873,13 +14873,13 @@
   ],
   "type": "mc",
   "prompt": "<div>The bond energy D for a bond is the energy needed to…</div>",
-  "answer": "break one mole of that bond in gas-phase molecules",
+  "answer": "break one mole of that bond in the gas phase",
   "hint": "Breaking bonds takes energy in; forming bonds gives energy out. ΔH ≈ ΣD(broken) − ΣD(formed).",
   "explain": "That is the OpenStax definition (§7.5).",
   "origin": "original",
   "choices": [
    "form one mole of that bond in a solid",
-   "break one mole of that bond in gas-phase molecules",
+   "break one mole of that bond in the gas phase",
    "break one mole of that bond in a liquid",
    "remove an electron from the atom"
   ],
@@ -14931,7 +14931,7 @@
   }
  },
  {
-  "id": "bondingtheories-dec39be1",
+  "id": "bondingtheories-a3e3c903",
   "skill": "bondingtheories.bestrong",
   "courses": [
    "1A",
@@ -14943,15 +14943,15 @@
   ],
   "type": "mc",
   "prompt": "<div>Why is ΔH calculated from bond energies only an estimate?</div>",
-  "answer": "Bond energies are averages over many different molecules",
+  "answer": "Bond energies are averages from many molecules",
   "hint": "Breaking bonds takes energy in; forming bonds gives energy out. ΔH ≈ ΣD(broken) − ΣD(formed).",
   "explain": "A C–H bond in CH₄ is not exactly the same as one in CH₃OH, so table values are averages.",
   "origin": "original",
   "choices": [
-   "Coefficients are ignored",
-   "The method only works for liquids",
-   "Bond energies are negative numbers",
-   "Bond energies are averages over many different molecules"
+   "Coefficients in the balanced equation are ignored",
+   "The method only works for liquids, not for gases",
+   "Bond energies are negative numbers, so the signs get mixed up",
+   "Bond energies are averages from many molecules"
   ],
   "why": [
    "Coefficients are used: multiply each molecule’s bonds by its coefficient.",

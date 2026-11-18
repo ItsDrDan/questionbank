@@ -823,7 +823,7 @@
   ]
  },
  {
-  "id": "quantumchemistry-3c253880",
+  "id": "quantumchemistry-792c9737",
   "skill": "quantum.light",
   "courses": [
    "3A",
@@ -838,10 +838,10 @@
   "prompt": "What does a bright-line atomic emission spectrum show?",
   "hint": "Think about discrete energy gaps.",
   "explain": "Atoms emit photons whose energies match allowed differences between electronic levels.",
-  "answer": "Specific wavelengths emitted during allowed transitions",
+  "answer": "Specific wavelengths the atoms emit",
   "choices": [
    "A continuous range of all wavelengths",
-   "Specific wavelengths emitted during allowed transitions",
+   "Specific wavelengths the atoms emit",
    "Only wavelengths absorbed",
    "The paths of electrons in an atom"
   ],
@@ -858,7 +858,7 @@
   ]
  },
  {
-  "id": "quantumchemistry-406b7c1a",
+  "id": "quantumchemistry-07d4564b",
   "skill": "quantum.light",
   "courses": [
    "1A"
@@ -871,10 +871,10 @@
   "prompt": "Which observation most directly demonstrates wave interference?",
   "hint": "Look for constructive and destructive superposition.",
   "explain": "Alternating bright and dark bands arise from constructive and destructive wave interference.",
-  "answer": "A diffraction pattern forms after light passes two slits",
+  "answer": "A two-slit diffraction pattern",
   "choices": [
    "An electron has mass",
-   "A diffraction pattern forms after light passes two slits",
+   "A two-slit diffraction pattern",
    "A photon ejects an electron from metal",
    "An atom emits a line spectrum"
   ],
@@ -1454,7 +1454,7 @@
   ]
  },
  {
-  "id": "quantumchemistry-53d61b23",
+  "id": "quantumchemistry-29fca9a5",
   "skill": "quantum.bohr",
   "courses": [
    "1A"
@@ -1467,10 +1467,10 @@
   "prompt": "What does the uncertainty principle say?",
   "hint": "It is a fundamental limit, not merely poor equipment.",
   "explain": "Position and momentum cannot both be specified with unlimited precision simultaneously.",
-  "answer": "There is a fundamental limit to simultaneous precision in position and momentum",
+  "answer": "Position and momentum can’t both be known exactly",
   "choices": [
    "We can know position and momentum both exactly",
-   "There is a fundamental limit to simultaneous precision in position and momentum",
+   "Position and momentum can’t both be known exactly",
    "Electrons move in known circular orbits",
    "Measurement errors can always be completely eliminated"
   ],
@@ -4268,7 +4268,7 @@
   ]
  },
  {
-  "id": "quantumchemistry-1477e197",
+  "id": "quantumchemistry-8fc25775",
   "skill": "quantum.trends",
   "courses": [
    "1A"
@@ -4281,12 +4281,12 @@
   "prompt": "Why is the first ionization energy of Al lower than that of Mg?",
   "hint": "Compare Mg 3s² with Al 3s²3p¹.",
   "explain": "The 3p electron is generally easier to remove than a 3s electron in Mg.",
-  "answer": "The removed Al electron occupies the higher-energy 3p subshell",
+  "answer": "Al loses a higher-energy 3p electron",
   "choices": [
-   "The removed Al electron occupies the higher-energy 3p subshell",
-   "Al has fewer protons",
-   "Mg has a larger radius",
-   "Al has a full 3p subshell"
+   "Al loses a higher-energy 3p electron",
+   "Al has fewer protons pulling on its electrons",
+   "Mg has a larger radius than Al does",
+   "Al has a full 3p subshell of six electrons"
   ],
   "from": {
    "game": "quantumchemistry",
@@ -4301,7 +4301,7 @@
   ]
  },
  {
-  "id": "quantumchemistry-3213de89",
+  "id": "quantumchemistry-bfa2d62c",
   "skill": "quantum.trends",
   "courses": [
    "1A"
@@ -4314,12 +4314,12 @@
   "prompt": "Why is the first ionization energy of O lower than that of N?",
   "hint": "Compare 2p³ with 2p⁴.",
   "explain": "One paired 2p electron in oxygen experiences added repulsion relative to half-filled nitrogen.",
-  "answer": "Pairing in a 2p orbital increases electron repulsion",
+  "answer": "Paired 2p electrons in O repel each other",
   "choices": [
-   "Pairing in a 2p orbital increases electron repulsion",
+   "Paired 2p electrons in O repel each other",
    "O has fewer electrons",
-   "N is larger and more shielded",
-   "O is a noble gas"
+   "N is larger and more shielded than O",
+   "O is a noble gas with a full octet"
   ],
   "from": {
    "game": "quantumchemistry",
@@ -4598,7 +4598,7 @@
   ]
  },
  {
-  "id": "quantumchemistry-d8a49b32",
+  "id": "quantumchemistry-b91df5c9",
   "skill": "quantum.bohr",
   "courses": [
    "3A",
@@ -4613,9 +4613,9 @@
   "prompt": "In the quantum mechanical model, what is an atomic orbital?",
   "hint": "Distinguish an orbit from an orbital.",
   "explain": "An orbital is a one-electron wavefunction; its squared magnitude describes probability density in space.",
-  "answer": "A probability description for an electron in space",
+  "answer": "A probability description of the electron",
   "choices": [
-   "A probability description for an electron in space",
+   "A probability description of the electron",
    "A circular path the electron must follow",
    "The path traced by one lobe of a p orbital",
    "A fixed-size solid object"
@@ -12997,7 +12997,7 @@
   }
  },
  {
-  "id": "quantumchemistry-4ba5b5d8",
+  "id": "quantumchemistry-50f2c94c",
   "skill": "quantum.trends",
   "courses": [
    "1A"
@@ -13010,9 +13010,9 @@
   "prompt": "Why is there a particularly large jump between the third and fourth ionization energies of aluminum?",
   "hint": "Track Al → Al³⁺ before removing one more electron.",
   "explain": "After three valence electrons are removed, the next electron belongs to the inner neon-like core.",
-  "answer": "The fourth electron is removed from an inner noble-gas core",
+  "answer": "The fourth electron comes from the [Ne] core",
   "choices": [
-   "The fourth electron is removed from an inner noble-gas core",
+   "The fourth electron comes from the [Ne] core",
    "The fourth electron is farther from the nucleus",
    "Al has no attraction for the fourth electron",
    "The fourth electron is added rather than removed"
@@ -14942,8 +14942,8 @@
   "answer": "They have equal energy",
   "choices": [
    "They have equal energy",
-   "2s is always lower",
-   "2p is always lower"
+   "2s is lower in energy",
+   "2p is lower in energy"
   ],
   "from": {
    "game": "quantumchemistry",
@@ -15002,8 +15002,8 @@
   "answer": "They have equal energy",
   "choices": [
    "They have equal energy",
-   "3s is always lower",
-   "3p is always lower"
+   "3s is lower in energy",
+   "3p is lower in energy"
   ],
   "from": {
    "game": "quantumchemistry",
@@ -15062,8 +15062,8 @@
   "answer": "They have equal energy",
   "choices": [
    "They have equal energy",
-   "3p is always lower",
-   "3d is always lower"
+   "3p is lower in energy",
+   "3d is lower in energy"
   ],
   "from": {
    "game": "quantumchemistry",
@@ -15122,8 +15122,8 @@
   "answer": "They have equal energy",
   "choices": [
    "They have equal energy",
-   "4s is always lower",
-   "4p is always lower"
+   "4s is lower in energy",
+   "4p is lower in energy"
   ],
   "from": {
    "game": "quantumchemistry",
@@ -15182,8 +15182,8 @@
   "answer": "They have equal energy",
   "choices": [
    "They have equal energy",
-   "4p is always lower",
-   "4d is always lower"
+   "4p is lower in energy",
+   "4d is lower in energy"
   ],
   "from": {
    "game": "quantumchemistry",
@@ -15242,8 +15242,8 @@
   "answer": "They have equal energy",
   "choices": [
    "They have equal energy",
-   "4d is always lower",
-   "4f is always lower"
+   "4d is lower in energy",
+   "4f is lower in energy"
   ],
   "from": {
    "game": "quantumchemistry",
@@ -22615,7 +22615,7 @@
   ]
  },
  {
-  "id": "quantumchemistry-728800a7",
+  "id": "quantumchemistry-f8dd1dde",
   "skill": "quantum.bohr",
   "courses": [
    "3A",
@@ -22630,9 +22630,9 @@
   "prompt": "When an excited atom emits a visible photon, what happens to its electronic energy?",
   "hint": "Connect excitation, downward transitions, and the relation Ephoton = ΔE = hc/λ.",
   "explain": "A downward electronic transition releases a photon with energy equal to the energy gap.",
-  "answer": "It decreases by the photon energy",
+  "answer": "It drops by the photon energy",
   "choices": [
-   "It decreases by the photon energy",
+   "It drops by the photon energy",
    "It increases by the photon energy",
    "It remains exactly unchanged"
   ],
@@ -22681,14 +22681,12 @@
   ]
  },
  {
-  "id": "quantumchemistry-83900044",
+  "id": "quantumchemistry-063c655a",
   "skill": "quantum.bohr",
   "courses": [
-   "3A",
    "1A"
   ],
   "chapters": [
-   "3A-3",
    "1A-6"
   ],
   "origin": "original",
@@ -22696,9 +22694,9 @@
   "prompt": "A graph compares representative photon energy with visible wavelength. What trend should it show?",
   "hint": "Connect excitation, downward transitions, and the relation Ephoton = ΔE = hc/λ.",
   "explain": "E = hc/λ is an inverse relationship. Shorter-wavelength violet photons carry more energy than longer-wavelength red photons.",
-  "answer": "Energy decreases nonlinearly as wavelength increases",
+  "answer": "Energy falls in a curve as wavelength rises",
   "choices": [
-   "Energy decreases nonlinearly as wavelength increases",
+   "Energy falls in a curve as wavelength rises",
    "Energy rises linearly with wavelength",
    "Energy remains constant"
   ],
@@ -22714,7 +22712,7 @@
   ]
  },
  {
-  "id": "quantumchemistry-56755ccf",
+  "id": "quantumchemistry-0b486819",
   "skill": "quantum.bohr",
   "courses": [
    "3A",
@@ -22729,9 +22727,9 @@
   "prompt": "Why is an observed flame color only an approximate wavelength guide?",
   "hint": "Connect excitation, downward transitions, and the relation Ephoton = ΔE = hc/λ.",
   "explain": "The observed color combines spectral features and experimental conditions. A representative wavelength is a classroom approximation.",
-  "answer": "A flame may contain several emission lines whose colors combine",
+  "answer": "Several emission lines may blend into one color",
   "choices": [
-   "A flame may contain several emission lines whose colors combine",
+   "Several emission lines may blend into one color",
    "All photons from a flame have exactly the same wavelength",
    "The speed of light changes to match each element"
   ],
@@ -22805,7 +22803,7 @@
   ]
  },
  {
-  "id": "quantumchemistry-da6d2232",
+  "id": "quantumchemistry-c9b7c2ad",
   "skill": "quantum.bohr",
   "courses": [
    "1A"
@@ -22818,9 +22816,9 @@
   "prompt": "For hydrogen 1s, why is radial probability distribution zero at r = 0 even though |ψ|² is largest there?",
   "hint": "Distinguish wavefunction amplitude ψ, point probability density |ψ|², and radial distribution P(r). Use the curve labels and the shell-volume factor.",
   "explain": "The shell volume contributes an r² factor. The density remains finite at the nucleus, but the radial distribution vanishes there.",
-  "answer": "The spherical-shell volume factor tends to zero",
+  "answer": "The shell volume 4πr² goes to zero",
   "choices": [
-   "The spherical-shell volume factor tends to zero",
+   "The shell volume 4πr² goes to zero",
    "The wavefunction is zero at the nucleus",
    "The electron follows a fixed circular orbit"
   ],
@@ -22867,7 +22865,7 @@
   ]
  },
  {
-  "id": "quantumchemistry-7bbdb57d",
+  "id": "quantumchemistry-7e6805dc",
   "skill": "quantum.bohr",
   "courses": [
    "1A"
@@ -22880,9 +22878,9 @@
   "prompt": "What gives the probability of finding the electron between radii r₁ and r₂?",
   "hint": "Distinguish wavefunction amplitude ψ, point probability density |ψ|², and radial distribution P(r). Use the curve labels and the shell-volume factor.",
   "explain": "Integrate the radial distribution P(r) over the radial interval. The separately scaled sketch is qualitative.",
-  "answer": "The area under curve B between the radii",
+  "answer": "Area under curve B from r₁ to r₂",
   "choices": [
-   "The area under curve B between the radii",
+   "Area under curve B from r₁ to r₂",
    "Only the height of curve A at r₁",
    "The sign of the wavefunction"
   ],
