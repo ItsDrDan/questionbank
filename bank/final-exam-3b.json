@@ -1434,7 +1434,7 @@
    "4"
   ],
   "answer": "3",
-  "hint": "A C=C uses 1 H₂; a C≡C uses 2 H₂.",
+  "hint": "Each H₂ adds across one pi bond. How many pi bonds are in a C=C, and how many in a C≡C?",
   "explain": "The triple bond needs 2 mol H₂ and the double bond needs 1 mol H₂: 2 + 1 = 3 mol H₂, giving butane. Counting each multiple bond as one gives the tempting answer 2.",
   "why": [
    "",
@@ -1450,7 +1450,7 @@
     "1",
     "4"
    ],
-   "hint": "A C=C uses 1 H<sub>2</sub>; a C≡C uses 2 H<sub>2</sub>.",
+   "hint": "Each H<sub>2</sub> adds across one pi bond. How many pi bonds are in a C=C, and how many in a C≡C?",
    "explain": "The triple bond needs 2 mol H<sub>2</sub> and the double bond needs 1 mol H<sub>2</sub>: 2 + 1 = <b>3 mol</b> H<sub>2</sub>, giving butane. Counting each multiple bond as one gives the tempting answer 2.",
    "why": [
     "",
@@ -2018,7 +2018,7 @@
   "made": "original",
   "exam": "midterm",
   "type": "mc",
-  "difficulty": 3,
+  "difficulty": 2,
   "calc": false,
   "prompt": "Which is a secondary (2°) alcohol?",
   "choices": [
@@ -3168,7 +3168,7 @@
    "",
    "CH₃CH(OH)OCH₃ is what forms after only one methanol adds. The question uses two molecules of methanol.",
    "An ester has a C=O, and it forms from a carboxylic acid, not an aldehyde. Here the C=O is used up as alcohols add.",
-   "CH3CH2OCH3 has only one oxygen, but two methanol molecules were used. Each methanol adds its own –OCH3 group to the former carbonyl carbon."
+   "CH₃CH₂OCH₃ has only one oxygen, but two methanol molecules were used. Each methanol adds its own –OCH₃ group to the former carbonyl carbon."
   ],
   "html": {
    "prompt": "Ethanal, CH<sub>3</sub>CHO, reacts with two molecules of methanol in the presence of acid. What is the organic product?",
@@ -3184,7 +3184,7 @@
     "",
     "CH<sub>3</sub>CH(OH)OCH<sub>3</sub> is what forms after only one methanol adds. The question uses two molecules of methanol.",
     "An ester has a C=O, and it forms from a carboxylic acid, not an aldehyde. Here the C=O is used up as alcohols add.",
-    "CH3CH2OCH3 has only one oxygen, but two methanol molecules were used. Each methanol adds its own –OCH3 group to the former carbonyl carbon."
+    "CH<sub>3</sub>CH<sub>2</sub>OCH<sub>3</sub> has only one oxygen, but two methanol molecules were used. Each methanol adds its own –OCH<sub>3</sub> group to the former carbonyl carbon."
    ]
   },
   "from": {
@@ -4934,7 +4934,7 @@
   "made": "original",
   "exam": "final",
   "type": "mc",
-  "difficulty": 3,
+  "difficulty": 2,
   "calc": false,
   "prompt": "In the Haworth projection of α-D-glucose, the –OH group on carbon 1 is",
   "choices": [
@@ -5258,7 +5258,7 @@
   "made": "original",
   "exam": "final",
   "type": "mc",
-  "difficulty": 3,
+  "difficulty": 2,
   "calc": false,
   "prompt": "In sucrose, glucose and fructose are joined by which glycosidic bond?",
   "choices": [
@@ -6190,7 +6190,7 @@
   "explain": "Some remaining double bonds isomerize to the trans form; trans fats raise LDL cholesterol and the risk of heart disease. Hydrogenation makes fats less, not more, unsaturated, and plant oils contain no cholesterol.",
   "why": [
    "",
-   "Cholesterol is made only by animals; hydrogenation adds H₂, not cholesterol, to plant oils.",
+   "Plant oils contain essentially no cholesterol, and hydrogenation adds only H₂ to C=C bonds; it does not add cholesterol.",
    "Hydrogenation adds H₂ to C=C double bonds. It leaves the ester bonds to glycerol in place.",
    "Adding H₂ removes double bonds, so hydrogenation makes fats less unsaturated, not more."
   ],
@@ -6206,7 +6206,7 @@
    "explain": "Some remaining double bonds isomerize to the <b>trans</b> form; trans fats raise LDL cholesterol and the risk of heart disease. Hydrogenation makes fats less, not more, unsaturated, and plant oils contain no cholesterol.",
    "why": [
     "",
-    "Cholesterol is made only by animals; hydrogenation adds H<sub>2</sub>, not cholesterol, to plant oils.",
+    "Plant oils contain essentially no cholesterol, and hydrogenation adds only H<sub>2</sub> to C=C bonds; it does not add cholesterol.",
     "Hydrogenation adds H<sub>2</sub> to C=C double bonds. It leaves the ester bonds to glycerol in place.",
     "Adding H<sub>2</sub> removes double bonds, so hydrogenation makes fats less unsaturated, not more."
    ]
@@ -7310,7 +7310,7 @@
   "made": "original",
   "exam": "final",
   "type": "mc",
-  "difficulty": 3,
+  "difficulty": 2,
   "calc": false,
   "prompt": "A noncompetitive inhibitor decreases an enzyme's activity by",
   "choices": [
@@ -8415,7 +8415,7 @@
    "oxaloacetate and aspartate"
   ],
   "answer": "pyruvate and glutamate",
-  "hint": "Alanine loses its –NH₂ and gets a C=O in its place; α-ketoglutarate gains the –NH₂. Which 3-carbon keto acid has the formula CH₃–CO–COOH?",
+  "hint": "Rewrite each reactant after the swap: put a C=O where alanine's –NH₂ was, and an –NH₂ where α-ketoglutarate's keto C=O was. Then name both new compounds.",
   "explain": "Alanine's –NH₂ goes to α-ketoglutarate, which becomes glutamate; alanine becomes the α-keto acid pyruvate. Free NH⁺₄ is released later, when glutamate is oxidatively deaminated, and is converted to urea in the urea cycle.",
   "why": [
    "",
@@ -8431,7 +8431,7 @@
     "pyruvate and ammonium ion",
     "oxaloacetate and aspartate"
    ],
-   "hint": "Alanine loses its –NH<sub>2</sub> and gets a C=O in its place; α-ketoglutarate gains the –NH<sub>2</sub>. Which 3-carbon keto acid has the formula CH<sub>3</sub>–CO–COOH?",
+   "hint": "Rewrite each reactant after the swap: put a C=O where alanine's –NH<sub>2</sub> was, and an –NH<sub>2</sub> where α-ketoglutarate's keto C=O was. Then name both new compounds.",
    "explain": "Alanine's –NH<sub>2</sub> goes to α-ketoglutarate, which becomes <b>glutamate</b>; alanine becomes the α-keto acid <b>pyruvate</b>. Free <span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>4</sub></span></span> is released later, when glutamate is oxidatively deaminated, and is converted to urea in the urea cycle.",
    "why": [
     "",
@@ -8843,7 +8843,7 @@
    "alanine from muscle protein"
   ],
   "answer": "acetyl CoA from fatty acids",
-  "hint": "Gluconeogenesis starts from pyruvate or a glycolysis intermediate. Which molecule is formed only after pyruvate has irreversibly lost a CO₂?",
+  "hint": "Gluconeogenesis can start only from pyruvate or a glycolysis intermediate. Trace each choice: which one cannot get back to either?",
   "explain": "Lactate and alanine (→ pyruvate) and glycerol (→ dihydroxyacetone phosphate) can all become glucose. Pyruvate → acetyl CoA is irreversible, and the 2 carbons of acetyl CoA leave as 2 CO₂ in the citric acid cycle, so acetyl CoA from fatty acids gives no net glucose.",
   "why": [
    "",
@@ -8859,7 +8859,7 @@
     "glycerol from triacylglycerols",
     "alanine from muscle protein"
    ],
-   "hint": "Gluconeogenesis starts from pyruvate or a glycolysis intermediate. Which molecule is formed only after pyruvate has irreversibly lost a CO<sub>2</sub>?",
+   "hint": "Gluconeogenesis can start only from pyruvate or a glycolysis intermediate. Trace each choice: which one cannot get back to either?",
    "explain": "Lactate and alanine (→ pyruvate) and glycerol (→ dihydroxyacetone phosphate) can all become glucose. Pyruvate → acetyl CoA is irreversible, and the 2 carbons of acetyl CoA leave as 2 CO<sub>2</sub> in the citric acid cycle, so <b>acetyl CoA from fatty acids</b> gives no net glucose.",
    "why": [
     "",
@@ -9729,7 +9729,7 @@
    "",
    "108 leaves out the 2-ATP cost of activating the fatty acid. Subtract it at the end.",
    "110 uses 8 β-oxidation cycles. A 16-carbon acid needs one fewer cycle than its number of acetyl CoA.",
-   "129 uses the older values of 12 ATP per acetyl CoA, 3 per NADH and 2 per FADH2. Use the values in the table."
+   "129 uses the older values of 12 ATP per acetyl CoA, 3 per NADH and 2 per FADH₂. Use the values in the table."
   ],
   "html": {
    "prompt": "Palmitic acid, CH<sub>3</sub>(CH<sub>2</sub>)<sub>14</sub>COOH, is completely oxidized. Using the ATP values in the table, what is the net ATP yield?",
@@ -9745,7 +9745,7 @@
     "",
     "108 leaves out the 2-ATP cost of activating the fatty acid. Subtract it at the end.",
     "110 uses 8 β-oxidation cycles. A 16-carbon acid needs one fewer cycle than its number of acetyl CoA.",
-    "129 uses the older values of 12 ATP per acetyl CoA, 3 per NADH and 2 per FADH2. Use the values in the table."
+    "129 uses the older values of 12 ATP per acetyl CoA, 3 per NADH and 2 per FADH<sub>2</sub>. Use the values in the table."
    ]
   },
   "data": {
@@ -9809,7 +9809,7 @@
    "6 NADH and 5 FADH₂"
   ],
   "answer": "5 NADH and 5 FADH₂",
-  "hint": "Each cycle cuts off 2 carbons and makes 1 NADH and 1 FADH₂. The last cycle splits a 4-carbon unit into two acetyl CoA.",
+  "hint": "Each cycle cuts off 2 carbons and makes 1 NADH and 1 FADH₂. How many cuts does it take to divide a 12-carbon chain into 2-carbon pieces?",
   "explain": "12 C gives 6 acetyl CoA, which needs 6 − 1 = 5 cycles. Each cycle yields 1 NADH and 1 FADH₂, so 5 NADH and 5 FADH₂. 6 and 6 is the common mistake of counting one cycle per acetyl CoA.",
   "why": [
    "",
@@ -9825,7 +9825,7 @@
     "5 NADH and 6 FADH<sub>2</sub>",
     "6 NADH and 5 FADH<sub>2</sub>"
    ],
-   "hint": "Each cycle cuts off 2 carbons and makes 1 NADH and 1 FADH<sub>2</sub>. The last cycle splits a 4-carbon unit into two acetyl CoA.",
+   "hint": "Each cycle cuts off 2 carbons and makes 1 NADH and 1 FADH<sub>2</sub>. How many cuts does it take to divide a 12-carbon chain into 2-carbon pieces?",
    "explain": "12 C gives 6 acetyl CoA, which needs 6 − 1 = 5 cycles. Each cycle yields 1 NADH and 1 FADH<sub>2</sub>, so <b>5 NADH and 5 FADH<sub>2</sub></b>. 6 and 6 is the common mistake of counting one cycle per acetyl CoA.",
    "why": [
     "",
@@ -18574,7 +18574,7 @@
   "why": [
    "",
    "This swaps the two sides. The C=O side, CH₃CO–, has only two carbons, so it came from a two-carbon acid.",
-   "In 2-methyl-1-butanol the branch is on C2, right next to the CH2OH carbon. In this ester two CH2 groups sit between the O and the branch.",
+   "In 2-methyl-1-butanol the branch is on C2, right next to the CH₂OH carbon. In this ester two CH₂ groups sit between the O and the branch.",
    "The C=O side has only two carbons, so it is not a five-carbon acid. The branched group is on the single-bonded O."
   ],
   "html": {
@@ -18590,7 +18590,7 @@
    "why": [
     "",
     "This swaps the two sides. The C=O side, CH<sub>3</sub>CO–, has only two carbons, so it came from a two-carbon acid.",
-    "In 2-methyl-1-butanol the branch is on C2, right next to the CH2OH carbon. In this ester two CH2 groups sit between the O and the branch.",
+    "In 2-methyl-1-butanol the branch is on C2, right next to the CH<sub>2</sub>OH carbon. In this ester two CH<sub>2</sub> groups sit between the O and the branch.",
     "The C=O side has only two carbons, so it is not a five-carbon acid. The branched group is on the single-bonded O."
    ]
   },
@@ -19603,33 +19603,33 @@
   "choices": [
    "CH₂=CHCH₂CH₂CH₂CH₃",
    "CH₃CH₂CH₂CH₂CH₂CH₃",
-   "C₆H₁₀ (cyclohexene)",
-   "C₆H₆ (benzene)"
+   "CH₂=CHCH₂CH₂CH=CH₂",
+   "HC≡CCH₂CH₂CH₂CH₃"
   ],
   "answer": "CH₂=CHCH₂CH₂CH₂CH₃",
   "hint": "Isomers must have exactly the same molecular formula. Count C and H in each choice.",
-  "explain": "A ring and a C=C each remove 2 H from the alkane formula, so an open-chain alkene has the same formula as a cycloalkane. 1-Hexene is C₆H₁₂; hexane is C₆H₁₄, cyclohexene C₆H₁₀ and benzene C₆H₆.",
+  "explain": "A ring and a C=C each remove 2 H from the alkane formula, so an open-chain alkene with one C=C has the same formula as a cycloalkane. 1-Hexene is C₆H₁₂; hexane is C₆H₁₄, and 1,5-hexadiene (two C=C) and 1-hexyne (one C≡C) are both C₆H₁₀.",
   "why": [
    "",
    "Hexane is C₆H₁₄, two H more than cyclohexane. Isomers must have exactly the same formula.",
-   "Cyclohexene is C₆H₁₀: it has a ring and a C=C, so it has two H fewer than cyclohexane.",
-   "Benzene is C₆H₆, far fewer H than cyclohexane. Isomers need exactly the same formula."
+   "This diene has two C=C bonds, so it is C₆H₁₀, two H fewer than cyclohexane. Each C=C or ring removes 2 H.",
+   "A C≡C triple bond removes 4 H, so 1-hexyne is C₆H₁₀, two H fewer than cyclohexane. Isomers need exactly the same formula."
   ],
   "html": {
    "prompt": "Cyclohexane, C<sub>6</sub>H<sub>12</sub>, is a saturated ring. Which compound below is its constitutional isomer?",
    "choices": [
     "CH<sub>2</sub>=CHCH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>",
     "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>",
-    "C<sub>6</sub>H<sub>10</sub> (cyclohexene)",
-    "C<sub>6</sub>H<sub>6</sub> (benzene)"
+    "CH<sub>2</sub>=CHCH<sub>2</sub>CH<sub>2</sub>CH=CH<sub>2</sub>",
+    "HC≡CCH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>"
    ],
    "hint": "Isomers must have exactly the same molecular formula. Count C and H in each choice.",
-   "explain": "A ring and a C=C each remove 2 H from the alkane formula, so an open-chain alkene has the same formula as a cycloalkane. <b>1-Hexene</b> is C<sub>6</sub>H<sub>12</sub>; hexane is C<sub>6</sub>H<sub>14</sub>, cyclohexene C<sub>6</sub>H<sub>10</sub> and benzene C<sub>6</sub>H<sub>6</sub>.",
+   "explain": "A ring and a C=C each remove 2 H from the alkane formula, so an open-chain alkene with one C=C has the same formula as a cycloalkane. <b>1-Hexene</b> is C<sub>6</sub>H<sub>12</sub>; hexane is C<sub>6</sub>H<sub>14</sub>, and 1,5-hexadiene (two C=C) and 1-hexyne (one C≡C) are both C<sub>6</sub>H<sub>10</sub>.",
    "why": [
     "",
     "Hexane is C<sub>6</sub>H<sub>14</sub>, two H more than cyclohexane. Isomers must have exactly the same formula.",
-    "Cyclohexene is C<sub>6</sub>H<sub>10</sub>: it has a ring and a C=C, so it has two H fewer than cyclohexane.",
-    "Benzene is C<sub>6</sub>H<sub>6</sub>, far fewer H than cyclohexane. Isomers need exactly the same formula."
+    "This diene has two C=C bonds, so it is C<sub>6</sub>H<sub>10</sub>, two H fewer than cyclohexane. Each C=C or ring removes 2 H.",
+    "A C≡C triple bond removes 4 H, so 1-hexyne is C<sub>6</sub>H<sub>10</sub>, two H fewer than cyclohexane. Isomers need exactly the same formula."
    ]
   },
   "from": {
@@ -23665,7 +23665,7 @@
   "why": [
    "",
    "34 counts the 4 ATP made in glycolysis without subtracting the 2 ATP invested at the start.",
-   "36 is an older total that uses 3 ATP per NADH and 2 per FADH2 but counts each glycolysis NADH as only 2 ATP. Use 2.5 and 1.5 from the table for every carrier.",
+   "36 is an older total that uses 3 ATP per NADH and 2 per FADH₂ but counts each glycolysis NADH as only 2 ATP. Use 2.5 and 1.5 from the table for every carrier.",
    "38 uses the older values of 3 ATP per NADH and 2 per FADH₂. Use the values in the table."
   ],
   "html": {
@@ -23681,7 +23681,7 @@
    "why": [
     "",
     "34 counts the 4 ATP made in glycolysis without subtracting the 2 ATP invested at the start.",
-    "36 is an older total that uses 3 ATP per NADH and 2 per FADH2 but counts each glycolysis NADH as only 2 ATP. Use 2.5 and 1.5 from the table for every carrier.",
+    "36 is an older total that uses 3 ATP per NADH and 2 per FADH<sub>2</sub> but counts each glycolysis NADH as only 2 ATP. Use 2.5 and 1.5 from the table for every carrier.",
     "38 uses the older values of 3 ATP per NADH and 2 per FADH<sub>2</sub>. Use the values in the table."
    ]
   },
@@ -52691,9 +52691,9 @@
   "explain": "2-Methylpentane is C₆H₁₄. Moving the branch to C3 gives 3-methylpentane, also C₆H₁₄: an isomer. The drawing with the branch on the second carbon from the left end is 2-methylpentane again (same compound, not an isomer); 2-methylbutane is C₅H₁₂, and the alkene is C₆H₁₂.",
   "why": [
    "",
-   "Turn §B around: the branch is on the second carbon from the right end, so it is 2-methylpentane again, the same compound.",
-   "§C has only five carbons (2-methylbutane, C₅H₁₂). Isomers must have the same formula, C₆H₁₄.",
-   "§D contains a C=C, so it is C₆H₁₂, two H fewer than 2-methylpentane."
+   "Turn this drawing around: the branch is on the second carbon from the left end, so it is 2-methylpentane again, the same compound.",
+   "This drawing has only five carbons (2-methylbutane, C₅H₁₂). Isomers must have the same formula, C₆H₁₄.",
+   "This drawing contains a C=C, so it is C₆H₁₂, two H fewer than 2-methylpentane."
   ],
   "html": {
    "prompt": "2-Methylpentane is shown. Which structure is a constitutional isomer of it?",
@@ -52707,9 +52707,9 @@
    "explain": "2-Methylpentane is C<sub>6</sub>H<sub>14</sub>. Moving the branch to C3 gives <b>3-methylpentane</b>, also C<sub>6</sub>H<sub>14</sub>: an isomer. The drawing with the branch on the second carbon from the left end is 2-methylpentane again (same compound, not an isomer); 2-methylbutane is C<sub>5</sub>H<sub>12</sub>, and the alkene is C<sub>6</sub>H<sub>12</sub>.",
    "why": [
     "",
-    "Turn §B around: the branch is on the second carbon from the right end, so it is 2-methylpentane again, the same compound.",
-    "§C has only five carbons (2-methylbutane, C<sub>5</sub>H<sub>12</sub>). Isomers must have the same formula, C<sub>6</sub>H<sub>14</sub>.",
-    "§D contains a C=C, so it is C<sub>6</sub>H<sub>12</sub>, two H fewer than 2-methylpentane."
+    "Turn this drawing around: the branch is on the second carbon from the left end, so it is 2-methylpentane again, the same compound.",
+    "This drawing has only five carbons (2-methylbutane, C<sub>5</sub>H<sub>12</sub>). Isomers must have the same formula, C<sub>6</sub>H<sub>14</sub>.",
+    "This drawing contains a C=C, so it is C<sub>6</sub>H<sub>12</sub>, two H fewer than 2-methylpentane."
    ]
   },
   "data": {
@@ -53110,9 +53110,9 @@
   "explain": "Ethyl acetate is C₄H₈O₂, and so is butanoic acid (esters and carboxylic acids with the same carbons are isomers). Butanal (C₄H₈O) has one O too few, ethyl propanoate has an extra CH₂, and 1-butanol is C₄H₁₀O.",
   "why": [
    "",
-   "§B is butanal, C₄H₈O: it has one O fewer than ethyl acetate.",
-   "§C is ethyl propanoate, C₅H₁₀O₂: it has one more CH₂ than ethyl acetate.",
-   "§D is 1-butanol, C₄H₁₀O: it has one O fewer and two H more than ethyl acetate."
+   "This drawing is butanal, C₄H₈O: it has one O fewer than ethyl acetate.",
+   "This drawing is ethyl propanoate, C₅H₁₀O₂: it has one more CH₂ than ethyl acetate.",
+   "This drawing is 1-butanol, C₄H₁₀O: it has one O fewer and two H more than ethyl acetate."
   ],
   "html": {
    "prompt": "Ethyl acetate, shown, is the solvent in many nail-polish removers. Which compound is a constitutional isomer of it?",
@@ -53126,9 +53126,9 @@
    "explain": "Ethyl acetate is C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>, and so is <b>butanoic acid</b> (esters and carboxylic acids with the same carbons are isomers). Butanal (C<sub>4</sub>H<sub>8</sub>O) has one O too few, ethyl propanoate has an extra CH<sub>2</sub>, and 1-butanol is C<sub>4</sub>H<sub>10</sub>O.",
    "why": [
     "",
-    "§B is butanal, C<sub>4</sub>H<sub>8</sub>O: it has one O fewer than ethyl acetate.",
-    "§C is ethyl propanoate, C<sub>5</sub>H<sub>10</sub>O<sub>2</sub>: it has one more CH<sub>2</sub> than ethyl acetate.",
-    "§D is 1-butanol, C<sub>4</sub>H<sub>10</sub>O: it has one O fewer and two H more than ethyl acetate."
+    "This drawing is butanal, C<sub>4</sub>H<sub>8</sub>O: it has one O fewer than ethyl acetate.",
+    "This drawing is ethyl propanoate, C<sub>5</sub>H<sub>10</sub>O<sub>2</sub>: it has one more CH<sub>2</sub> than ethyl acetate.",
+    "This drawing is 1-butanol, C<sub>4</sub>H<sub>10</sub>O: it has one O fewer and two H more than ethyl acetate."
    ]
   },
   "data": {
@@ -53529,9 +53529,9 @@
   "explain": "Cyclopentane is C₅H₁₀; 1-pentene is also C₅H₁₀, so they are isomers. Cyclopentene (C₅H₈) has a ring and a C=C; pentane (C₅H₁₂) has neither; methylcyclopentane has six carbons.",
   "why": [
    "",
-   "§B is cyclopentene. It has a ring and a C=C, so it is C₅H₈, two H fewer than cyclopentane.",
-   "§C is pentane, C₅H₁₂. With no ring and no C=C it has two more H than cyclopentane.",
-   "§D is methylcyclopentane, which has six carbons. Isomers need the same number of each atom."
+   "This drawing is cyclopentene. It has a ring and a C=C, so it is C₅H₈, two H fewer than cyclopentane.",
+   "This drawing is pentane, C₅H₁₂. With no ring and no C=C it has two more H than cyclopentane.",
+   "This drawing is methylcyclopentane, which has six carbons. Isomers need the same number of each atom."
   ],
   "html": {
    "prompt": "Cyclopentane, shown, is a constitutional isomer of which compound?",
@@ -53545,9 +53545,9 @@
    "explain": "Cyclopentane is C<sub>5</sub>H<sub>10</sub>; <b>1-pentene</b> is also C<sub>5</sub>H<sub>10</sub>, so they are isomers. Cyclopentene (C<sub>5</sub>H<sub>8</sub>) has a ring <i>and</i> a C=C; pentane (C<sub>5</sub>H<sub>12</sub>) has neither; methylcyclopentane has six carbons.",
    "why": [
     "",
-    "§B is cyclopentene. It has a ring and a C=C, so it is C<sub>5</sub>H<sub>8</sub>, two H fewer than cyclopentane.",
-    "§C is pentane, C<sub>5</sub>H<sub>12</sub>. With no ring and no C=C it has two more H than cyclopentane.",
-    "§D is methylcyclopentane, which has six carbons. Isomers need the same number of each atom."
+    "This drawing is cyclopentene. It has a ring and a C=C, so it is C<sub>5</sub>H<sub>8</sub>, two H fewer than cyclopentane.",
+    "This drawing is pentane, C<sub>5</sub>H<sub>12</sub>. With no ring and no C=C it has two more H than cyclopentane.",
+    "This drawing is methylcyclopentane, which has six carbons. Isomers need the same number of each atom."
    ]
   },
   "data": {
@@ -53927,9 +53927,9 @@
   "explain": "In cis-2-pentene the CH₃ (C1) and the CH₂CH₃ (C4–C5) are on the same side of the C2=C3 bond, giving a U-shaped drawing. The zig-zag with the groups on opposite sides is trans-2-pentene; 1-pentene and 2-methyl-2-butene cannot be cis or trans at all.",
   "why": [
    "",
-   "§B is the zig-zag with the CH₃ and CH₂CH₃ on opposite sides of the C=C, which is the trans form.",
-   "§C is 1-pentene. Its end carbon holds two H, so it cannot be cis or trans.",
-   "§D is 2-methyl-2-butene. One C=C carbon holds two CH₃ groups, so it cannot be cis or trans."
+   "This drawing is the zig-zag with the CH₃ and CH₂CH₃ on opposite sides of the C=C, which is the trans form.",
+   "This drawing is 1-pentene. Its end carbon holds two H, so it cannot be cis or trans.",
+   "This drawing is 2-methyl-2-butene. One C=C carbon holds two CH₃ groups, so it cannot be cis or trans."
   ],
   "html": {
    "prompt": "Which structure is <i>cis</i>-2-pentene?",
@@ -53943,9 +53943,9 @@
    "explain": "In <b>cis-2-pentene</b> the CH<sub>3</sub> (C1) and the CH<sub>2</sub>CH<sub>3</sub> (C4–C5) are on the same side of the C2=C3 bond, giving a U-shaped drawing. The zig-zag with the groups on opposite sides is trans-2-pentene; 1-pentene and 2-methyl-2-butene cannot be cis or trans at all.",
    "why": [
     "",
-    "§B is the zig-zag with the CH<sub>3</sub> and CH<sub>2</sub>CH<sub>3</sub> on opposite sides of the C=C, which is the trans form.",
-    "§C is 1-pentene. Its end carbon holds two H, so it cannot be cis or trans.",
-    "§D is 2-methyl-2-butene. One C=C carbon holds two CH<sub>3</sub> groups, so it cannot be cis or trans."
+    "This drawing is the zig-zag with the CH<sub>3</sub> and CH<sub>2</sub>CH<sub>3</sub> on opposite sides of the C=C, which is the trans form.",
+    "This drawing is 1-pentene. Its end carbon holds two H, so it cannot be cis or trans.",
+    "This drawing is 2-methyl-2-butene. One C=C carbon holds two CH<sub>3</sub> groups, so it cannot be cis or trans."
    ]
   },
   "data": {
@@ -54234,9 +54234,9 @@
   "explain": "In trans-4-methyl-2-pentene the CH₃ on C2 and the isopropyl group on C3 lie on opposite sides of the C=C. The drawing with them on the same side is the cis isomer. Moving the double bond to C1 or to the branched carbon gives alkenes with no cis/trans form.",
   "why": [
    "",
-   "In §B the CH₃ on C2 and the isopropyl group on C3 are on the same side of the C=C. That is the cis form.",
-   "§C has the C=C at the end of the chain (4-methyl-1-pentene). Its end carbon holds two H, so it has no trans form.",
-   "§D has the C=C at the branched carbon, which holds two CH₃ groups. That alkene has no cis or trans form."
+   "In this drawing the CH₃ on C2 and the isopropyl group on C3 are on the same side of the C=C. That is the cis form.",
+   "This drawing has the C=C at the end of the chain (4-methyl-1-pentene). Its end carbon holds two H, so it has no trans form.",
+   "This drawing has the C=C at the branched carbon, which holds two CH₃ groups. That alkene has no cis or trans form."
   ],
   "html": {
    "prompt": "Which structure is <i>trans</i>-4-methyl-2-pentene?",
@@ -54250,9 +54250,9 @@
    "explain": "In <b>trans-4-methyl-2-pentene</b> the CH<sub>3</sub> on C2 and the isopropyl group on C3 lie on opposite sides of the C=C. The drawing with them on the same side is the cis isomer. Moving the double bond to C1 or to the branched carbon gives alkenes with no cis/trans form.",
    "why": [
     "",
-    "In §B the CH<sub>3</sub> on C2 and the isopropyl group on C3 are on the same side of the C=C. That is the cis form.",
-    "§C has the C=C at the end of the chain (4-methyl-1-pentene). Its end carbon holds two H, so it has no trans form.",
-    "§D has the C=C at the branched carbon, which holds two CH<sub>3</sub> groups. That alkene has no cis or trans form."
+    "In this drawing the CH<sub>3</sub> on C2 and the isopropyl group on C3 are on the same side of the C=C. That is the cis form.",
+    "This drawing has the C=C at the end of the chain (4-methyl-1-pentene). Its end carbon holds two H, so it has no trans form.",
+    "This drawing has the C=C at the branched carbon, which holds two CH<sub>3</sub> groups. That alkene has no cis or trans form."
    ]
   },
   "data": {
@@ -54841,9 +54841,9 @@
   "explain": "In 2-methyl-2-butene, one C=C carbon carries two CH₃ groups, so there is no \"same side\" vs. \"opposite side\" difference. The other three each have two different groups on both C=C carbons, so they can be cis or trans (as drawn, two are trans and one is cis).",
   "why": [
    "",
-   "§B is 2-pentene. Each C=C carbon holds an H and a different carbon group, so cis and trans forms exist.",
-   "§C is 3-hexene. Each C=C carbon holds an H and an ethyl group, so cis and trans forms exist.",
-   "§D is 2-butene. Each C=C carbon holds an H and a CH₃, so cis and trans forms exist."
+   "This drawing is 2-pentene. Each C=C carbon holds an H and a different carbon group, so cis and trans forms exist.",
+   "This drawing is 3-hexene. Each C=C carbon holds an H and an ethyl group, so cis and trans forms exist.",
+   "This drawing is 2-butene. Each C=C carbon holds an H and a CH₃, so cis and trans forms exist."
   ],
   "html": {
    "prompt": "Which alkene <b>cannot</b> exist as cis and trans isomers?",
@@ -54857,9 +54857,9 @@
    "explain": "In <b>2-methyl-2-butene</b>, one C=C carbon carries two CH<sub>3</sub> groups, so there is no \"same side\" vs. \"opposite side\" difference. The other three each have two different groups on both C=C carbons, so they can be cis or trans (as drawn, two are trans and one is cis).",
    "why": [
     "",
-    "§B is 2-pentene. Each C=C carbon holds an H and a different carbon group, so cis and trans forms exist.",
-    "§C is 3-hexene. Each C=C carbon holds an H and an ethyl group, so cis and trans forms exist.",
-    "§D is 2-butene. Each C=C carbon holds an H and a CH<sub>3</sub>, so cis and trans forms exist."
+    "This drawing is 2-pentene. Each C=C carbon holds an H and a different carbon group, so cis and trans forms exist.",
+    "This drawing is 3-hexene. Each C=C carbon holds an H and an ethyl group, so cis and trans forms exist.",
+    "This drawing is 2-butene. Each C=C carbon holds an H and a CH<sub>3</sub>, so cis and trans forms exist."
    ]
   },
   "data": {
@@ -55148,9 +55148,9 @@
   "explain": "In 1-butene, C1 holds two H atoms, so flipping groups across the C=C gives the same molecule. 2-Butene, 2-hexene and 3-methyl-2-pentene each have two different groups on both carbons of the C=C, so they show cis–trans isomerism. A branch alone does not prevent it.",
   "why": [
    "",
-   "§B is 2-butene. Each C=C carbon holds an H and a CH₃, so it does have cis and trans forms.",
-   "§C is 2-hexene. Each C=C carbon holds two different groups, so it does have cis and trans forms.",
-   "§D is 3-methyl-2-pentene. The branch does not prevent cis–trans isomerism: each C=C carbon still holds two different groups."
+   "This drawing is 2-butene. Each C=C carbon holds an H and a CH₃, so it does have cis and trans forms.",
+   "This drawing is 2-hexene. Each C=C carbon holds two different groups, so it does have cis and trans forms.",
+   "This drawing is 3-methyl-2-pentene. The branch does not prevent cis–trans isomerism: each C=C carbon still holds two different groups."
   ],
   "html": {
    "prompt": "Which of these alkenes has <b>no</b> cis and trans forms?",
@@ -55164,9 +55164,9 @@
    "explain": "In <b>1-butene</b>, C1 holds two H atoms, so flipping groups across the C=C gives the same molecule. 2-Butene, 2-hexene and 3-methyl-2-pentene each have two different groups on both carbons of the C=C, so they show cis–trans isomerism. A branch alone does not prevent it.",
    "why": [
     "",
-    "§B is 2-butene. Each C=C carbon holds an H and a CH<sub>3</sub>, so it does have cis and trans forms.",
-    "§C is 2-hexene. Each C=C carbon holds two different groups, so it does have cis and trans forms.",
-    "§D is 3-methyl-2-pentene. The branch does not prevent cis–trans isomerism: each C=C carbon still holds two different groups."
+    "This drawing is 2-butene. Each C=C carbon holds an H and a CH<sub>3</sub>, so it does have cis and trans forms.",
+    "This drawing is 2-hexene. Each C=C carbon holds two different groups, so it does have cis and trans forms.",
+    "This drawing is 3-methyl-2-pentene. The branch does not prevent cis–trans isomerism: each C=C carbon still holds two different groups."
    ]
   },
   "data": {
@@ -117020,7 +117020,7 @@
   "why": [
    "",
    "Glucose C1 is the carbon bonded to the bridging O, so it has no free hemiacetal –OH.",
-   "Not every ketose disaccharide is reducing; the question is whether an anomeric carbon still has a free –OH. Here fructose C2 is in the glycosidic bond.",
+   "Free fructose is a reducing sugar, but only because its anomeric C2 has a free –OH that lets the ring open. In sucrose, fructose C2 is tied up in the glycosidic bond.",
    "\"No\" is right, but the reason is not: maltose and lactose are disaccharides that are reducing. Look at what is special about this glycosidic bond."
   ],
   "html": {
@@ -117036,7 +117036,7 @@
    "why": [
     "",
     "Glucose C1 is the carbon bonded to the bridging O, so it has no free hemiacetal –OH.",
-    "Not every ketose disaccharide is reducing; the question is whether an anomeric carbon still has a free –OH. Here fructose C2 is in the glycosidic bond.",
+    "Free fructose is a reducing sugar, but only because its anomeric C2 has a free –OH that lets the ring open. In sucrose, fructose C2 is tied up in the glycosidic bond.",
     "\"No\" is right, but the reason is not: maltose and lactose are disaccharides that are reducing. Look at what is special about this glycosidic bond."
    ]
   },
@@ -118237,9 +118237,9 @@
   "explain": "The correct structure is valine: its side chain is an isopropyl group, –CH(CH₃)₂, only C and H, so it is nonpolar. Serine (–CH₂OH) is polar neutral, aspartate (–COO⁻) acidic and lysine (–NH⁺₃) basic.",
   "why": [
    "",
-   "§B's side chain is –CH₂OH. The –OH group makes it polar.",
-   "§C's side chain ends in –COO⁻, a negatively charged acidic group.",
-   "§D's side chain ends in –NH₃⁺, a positively charged basic group."
+   "This side chain is –CH₂OH. The –OH group makes it polar.",
+   "This side chain ends in –COO⁻, a negatively charged acidic group.",
+   "This side chain ends in –NH₃⁺, a positively charged basic group."
   ],
   "html": {
    "prompt": "Which amino acid has a <b>nonpolar</b> side chain?",
@@ -118253,9 +118253,9 @@
    "explain": "The correct structure is valine: its side chain is an isopropyl group, –CH(CH<sub>3</sub>)<sub>2</sub>, only C and H, so it is <b>nonpolar</b>. Serine (–CH<sub>2</sub>OH) is polar neutral, aspartate (–COO<sup>−</sup>) acidic and lysine (–<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span>)</span> basic.",
    "why": [
     "",
-    "§B's side chain is –CH<sub>2</sub>OH. The –OH group makes it polar.",
-    "§C's side chain ends in –COO<sup>−</sup>, a negatively charged acidic group.",
-    "§D's side chain ends in –NH<sub>3</sub><sup>+</sup>, a positively charged basic group."
+    "This side chain is –CH<sub>2</sub>OH. The –OH group makes it polar.",
+    "This side chain ends in –COO<sup>−</sup>, a negatively charged acidic group.",
+    "This side chain ends in –NH<sub>3</sub><sup>+</sup>, a positively charged basic group."
    ]
   },
   "data": {
@@ -118895,9 +118895,9 @@
   "explain": "Condensation joins glycine's C=O carbon to alanine's N, giving the amide (peptide) bond of Gly–Ala; the free –NH₂ stays on glycine and the free –COOH on alanine. The reversed dipeptide is Ala–Gly; the C(=O)–O–C(=O) structure is an anhydride, and the N–CH₂ link has no C=O, so it is an amine, not an amide.",
   "why": [
    "",
-   "§B is the reversed dipeptide: alanine's C=O is bonded to glycine's N. That would come from alanine's –COOH reacting with glycine's –NH₂.",
-   "§C joins two C=O groups through an O, a C(=O)–O–C(=O) anhydride link. A peptide bond needs a nitrogen.",
-   "§D links the two residues through N–CH₂ with no C=O next to the N. That is an amine, not an amide (peptide) bond."
+   "This is the reversed dipeptide: alanine's C=O is bonded to glycine's N. That would come from alanine's –COOH reacting with glycine's –NH₂.",
+   "This structure joins two C=O groups through an O, a C(=O)–O–C(=O) anhydride link. A peptide bond needs a nitrogen.",
+   "This structure links the two residues through N–CH₂ with no C=O next to the N. That is an amine, not an amide (peptide) bond."
   ],
   "html": {
    "prompt": "The –COOH group of glycine (first structure) reacts with the –NH<sub>2</sub> group of alanine (second structure), releasing H<sub>2</sub>O. Which product forms?",
@@ -118911,9 +118911,9 @@
    "explain": "Condensation joins glycine's C=O carbon to alanine's N, giving the amide (peptide) bond of <b>Gly–Ala</b>; the free –NH<sub>2</sub> stays on glycine and the free –COOH on alanine. The reversed dipeptide is Ala–Gly; the C(=O)–O–C(=O) structure is an anhydride, and the N–CH<sub>2</sub> link has no C=O, so it is an amine, not an amide.",
    "why": [
     "",
-    "§B is the reversed dipeptide: alanine's C=O is bonded to glycine's N. That would come from alanine's –COOH reacting with glycine's –NH<sub>2</sub>.",
-    "§C joins two C=O groups through an O, a C(=O)–O–C(=O) anhydride link. A peptide bond needs a nitrogen.",
-    "§D links the two residues through N–CH<sub>2</sub> with no C=O next to the N. That is an amine, not an amide (peptide) bond."
+    "This is the reversed dipeptide: alanine's C=O is bonded to glycine's N. That would come from alanine's –COOH reacting with glycine's –NH<sub>2</sub>.",
+    "This structure joins two C=O groups through an O, a C(=O)–O–C(=O) anhydride link. A peptide bond needs a nitrogen.",
+    "This structure links the two residues through N–CH<sub>2</sub> with no C=O next to the N. That is an amine, not an amide (peptide) bond."
    ]
   },
   "data": {
@@ -119580,9 +119580,9 @@
   "explain": "At physiological pH alanine is a zwitterion: –NH⁺₃ and –COO⁻, net charge 0. The uncharged form is not actually present in water; –NH⁺₃/–COOH is the low-pH form, and –NH₂/–COO⁻ is the high-pH form.",
   "why": [
    "",
-   "§B is the uncharged form, with –NH₂ and –COOH. In water this form is almost never present.",
-   "§C has –COOH and –NH₃⁺, net +1. That is the main form at low pH, far below the pI.",
-   "§D has –NH₂ and –COO⁻, net −1. That is the main form at high pH, far above the pI."
+   "This is the uncharged form, with –NH₂ and –COOH. In water this form is almost never present.",
+   "This form has –COOH and –NH₃⁺, net +1. That is the main form at low pH, far below the pI.",
+   "This form has –NH₂ and –COO⁻, net −1. That is the main form at high pH, far above the pI."
   ],
   "html": {
    "prompt": "Which structure shows alanine as it mainly exists in blood plasma (pH 7.4)?",
@@ -119596,9 +119596,9 @@
    "explain": "At physiological pH alanine is a <b>zwitterion</b>: –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span></span> and –COO<sup>−</sup>, net charge 0. The uncharged form is not actually present in water; –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span></span>/–COOH is the low-pH form, and –NH<sub>2</sub>/–COO<sup>−</sup> is the high-pH form.",
    "why": [
     "",
-    "§B is the uncharged form, with –NH<sub>2</sub> and –COOH. In water this form is almost never present.",
-    "§C has –COOH and –NH<sub>3</sub><sup>+</sup>, net +1. That is the main form at low pH, far below the pI.",
-    "§D has –NH<sub>2</sub> and –COO<sup>−</sup>, net −1. That is the main form at high pH, far above the pI."
+    "This is the uncharged form, with –NH<sub>2</sub> and –COOH. In water this form is almost never present.",
+    "This form has –COOH and –NH<sub>3</sub><sup>+</sup>, net +1. That is the main form at low pH, far below the pI.",
+    "This form has –NH<sub>2</sub> and –COO<sup>−</sup>, net −1. That is the main form at high pH, far above the pI."
    ]
   },
   "data": {
@@ -119934,9 +119934,9 @@
   "explain": "Far below the pI both groups carry H: –NH⁺₃ and –COOH, net charge +1. The zwitterion (net 0) dominates at the pI (about 6), and –NH₂/–COO⁻ (net −1) far above the pI.",
   "why": [
    "",
-   "§B is the zwitterion (–NH₃⁺ and –COO⁻), the main form near the pI. Far below the pI there is extra H⁺ to pick up.",
-   "§C has –NH₂ and –COO⁻, net −1. That form is found far above the pI, in basic solution.",
-   "§D is the uncharged form, which is almost never present in water. In strong acid, think about what extra H⁺ does."
+   "This is the zwitterion (–NH₃⁺ and –COO⁻), the main form near the pI. Far below the pI there is extra H⁺ to pick up.",
+   "This form has –NH₂ and –COO⁻, net −1. That form is found far above the pI, in basic solution.",
+   "This is the uncharged form, which is almost never present in water. In strong acid, think about what extra H⁺ does."
   ],
   "html": {
    "prompt": "Glycine is dissolved in stomach acid, at a pH far below its pI. Which structure is the main form present?",
@@ -119950,9 +119950,9 @@
    "explain": "Far below the pI both groups carry H: –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span></span> and –COOH, net charge <b>+1</b>. The zwitterion (net 0) dominates at the pI (about 6), and –NH<sub>2</sub>/–COO<sup>−</sup> (net −1) far above the pI.",
    "why": [
     "",
-    "§B is the zwitterion (–NH<sub>3</sub><sup>+</sup> and –COO<sup>−</sup>), the main form near the pI. Far below the pI there is extra H<sup>+</sup> to pick up.",
-    "§C has –NH<sub>2</sub> and –COO<sup>−</sup>, net −1. That form is found far above the pI, in basic solution.",
-    "§D is the uncharged form, which is almost never present in water. In strong acid, think about what extra H<sup>+</sup> does."
+    "This is the zwitterion (–NH<sub>3</sub><sup>+</sup> and –COO<sup>−</sup>), the main form near the pI. Far below the pI there is extra H<sup>+</sup> to pick up.",
+    "This form has –NH<sub>2</sub> and –COO<sup>−</sup>, net −1. That form is found far above the pI, in basic solution.",
+    "This is the uncharged form, which is almost never present in water. In strong acid, think about what extra H<sup>+</sup> does."
    ]
   },
   "data": {
@@ -120588,9 +120588,9 @@
   "explain": "The correct structure is cysteine: its side chain ends in a thiol, –SH. Oxidizing two cysteine –SH groups forms an –S–S– bridge (tertiary structure). Methionine has sulfur but as a thioether (–S–CH₃) with no S–H; serine and threonine have –OH.",
   "why": [
    "",
-   "§B has sulfur, but as a thioether (–CH₂–S–CH₃) with no S–H bond. Without an –SH group it cannot form a disulfide.",
-   "§C's side chain is –CH₂OH. It has an –OH group and no sulfur, so it cannot form –S–S– bridges.",
-   "§D's side chain is –CH(OH)CH₃. It contains oxygen, not sulfur, so no disulfide is possible."
+   "This amino acid has sulfur, but as a thioether (–CH₂–S–CH₃) with no S–H bond. Without an –SH group it cannot form a disulfide.",
+   "This side chain is –CH₂OH. It has an –OH group and no sulfur, so it cannot form –S–S– bridges.",
+   "This side chain is –CH(OH)CH₃. It contains oxygen, not sulfur, so no disulfide is possible."
   ],
   "html": {
    "prompt": "Hair proteins (keratin) are held in shape by disulfide bridges, –S–S–. Which amino acid forms them?",
@@ -120604,9 +120604,9 @@
    "explain": "The correct structure is <b>cysteine</b>: its side chain ends in a thiol, –SH. Oxidizing two cysteine –SH groups forms an –S–S– bridge (tertiary structure). Methionine has sulfur but as a thioether (–S–CH<sub>3</sub>) with no S–H; serine and threonine have –OH.",
    "why": [
     "",
-    "§B has sulfur, but as a thioether (–CH<sub>2</sub>–S–CH<sub>3</sub>) with no S–H bond. Without an –SH group it cannot form a disulfide.",
-    "§C's side chain is –CH<sub>2</sub>OH. It has an –OH group and no sulfur, so it cannot form –S–S– bridges.",
-    "§D's side chain is –CH(OH)CH<sub>3</sub>. It contains oxygen, not sulfur, so no disulfide is possible."
+    "This amino acid has sulfur, but as a thioether (–CH<sub>2</sub>–S–CH<sub>3</sub>) with no S–H bond. Without an –SH group it cannot form a disulfide.",
+    "This side chain is –CH<sub>2</sub>OH. It has an –OH group and no sulfur, so it cannot form –S–S– bridges.",
+    "This side chain is –CH(OH)CH<sub>3</sub>. It contains oxygen, not sulfur, so no disulfide is possible."
    ]
   },
   "data": {
@@ -149938,7 +149938,7 @@
   "exam": "final",
   "type": "mc",
   "difficulty": 2,
-  "calc": true,
+  "calc": false,
   "prompt": "Glutamic acid (side chain –CH₂CH₂COOH) has a pI of 3.2. One sample is placed in an electrophoresis buffer at a pH equal to its pI, and another in a buffer at physiological pH (7.4). How does it move in each?",
   "choices": [
    "At the pI it does not move; at pH 7.4 it moves toward the + electrode",
@@ -150966,7 +150966,7 @@
   "exam": "final",
   "type": "mc",
   "difficulty": 2,
-  "calc": true,
+  "calc": false,
   "prompt": "Aspartic acid has a pI of about 2.8, glycine about 6.0, and lysine about 9.7. Which statement best explains the difference?",
   "choices": [
    "An acidic side chain lowers the pI; a basic side chain raises it",
@@ -151545,7 +151545,7 @@
   ],
   "answer": "About 20%",
   "hint": "Read the % saturation at 100 mmHg and at 40 mmHg from the curve. The difference is what was delivered.",
-  "explain": "From the curve, saturation is about 98% at 100 mmHg (lungs) and about 76% at 40 mmHg (tissue). The difference, roughly 98 − 76 ≈ 22%, or about 20%, is the fraction of sites that released O₂. \"75%\" is the saturation remaining in the tissue, not the amount unloaded; the sigmoid shape means most of the O₂ stays bound until the pressure falls further, as in exercising muscle.",
+  "explain": "From the curve, saturation is about 98% at 100 mmHg (lungs) and about 77% at 40 mmHg (tissue). The difference, roughly 98 − 77 ≈ 21%, or about 20%, is the fraction of sites that released O₂. \"75%\" is the saturation remaining in the tissue, not the amount unloaded; the sigmoid shape means most of the O₂ stays bound until the pressure falls further, as in exercising muscle.",
   "why": [
    "",
    "About 75% is the saturation still remaining at 40 mmHg. The amount unloaded is the difference between the lung and tissue values.",
@@ -151561,7 +151561,7 @@
     "About 50%"
    ],
    "hint": "Read the % saturation at 100 mmHg and at 40 mmHg from the curve. The difference is what was delivered.",
-   "explain": "From the curve, saturation is about 98% at 100 mmHg (lungs) and about 76% at 40 mmHg (tissue). The difference, roughly 98 − 76 ≈ 22%, or about <b>20%</b>, is the fraction of sites that released O<sub>2</sub>. \"75%\" is the saturation remaining in the tissue, not the amount unloaded; the sigmoid shape means most of the O<sub>2</sub> stays bound until the pressure falls further, as in exercising muscle.",
+   "explain": "From the curve, saturation is about 98% at 100 mmHg (lungs) and about 77% at 40 mmHg (tissue). The difference, roughly 98 − 77 ≈ 21%, or about <b>20%</b>, is the fraction of sites that released O<sub>2</sub>. \"75%\" is the saturation remaining in the tissue, not the amount unloaded; the sigmoid shape means most of the O<sub>2</sub> stays bound until the pressure falls further, as in exercising muscle.",
    "why": [
     "",
     "About 75% is the saturation still remaining at 40 mmHg. The amount unloaded is the difference between the lung and tissue values.",
@@ -169122,9 +169122,9 @@
   "explain": "The correct structure is alanine: an –NH₂ and a –COOH are both bonded to the same carbon, the α carbon, which also carries the side chain –CH₃. Lactic acid has –OH and –COOH (a hydroxy acid, no nitrogen); 2-aminoethanol has an amine and an alcohol but no carboxyl group; propanamide contains an amide group but no free amine or carboxylic acid.",
   "why": [
    "",
-   "§B has an –OH and a –COOH (a hydroxy acid) but no nitrogen, so it has no amino group.",
-   "§C has an amine and an alcohol, but no carboxylic acid group.",
-   "§D has a C=O bonded to –NH₂, which is an amide. It has neither a free amino group nor a carboxylic acid."
+   "This structure has an –OH and a –COOH (a hydroxy acid) but no nitrogen, so it has no amino group.",
+   "This structure has an amine and an alcohol, but no carboxylic acid group.",
+   "This structure has a C=O bonded to –NH₂, which is an amide. It has neither a free amino group nor a carboxylic acid."
   ],
   "html": {
    "prompt": "Which of the structures drawn is an <b>amino acid</b> of the kind found in proteins?",
@@ -169138,9 +169138,9 @@
    "explain": "The correct structure is alanine: an –NH<sub>2</sub> and a –COOH are both bonded to the same carbon, the α carbon, which also carries the side chain –CH<sub>3</sub>. Lactic acid has –OH and –COOH (a hydroxy acid, no nitrogen); 2-aminoethanol has an amine and an alcohol but no carboxyl group; propanamide contains an amide group but no free amine or carboxylic acid.",
    "why": [
     "",
-    "§B has an –OH and a –COOH (a hydroxy acid) but no nitrogen, so it has no amino group.",
-    "§C has an amine and an alcohol, but no carboxylic acid group.",
-    "§D has a C=O bonded to –NH<sub>2</sub>, which is an amide. It has neither a free amino group nor a carboxylic acid."
+    "This structure has an –OH and a –COOH (a hydroxy acid) but no nitrogen, so it has no amino group.",
+    "This structure has an amine and an alcohol, but no carboxylic acid group.",
+    "This structure has a C=O bonded to –NH<sub>2</sub>, which is an amide. It has neither a free amino group nor a carboxylic acid."
    ]
   },
   "data": {
@@ -170681,9 +170681,9 @@
   "explain": "Far above the pI the carboxyl group is deprotonated (–COO⁻) and the base has also pulled the proton off the –NH⁺₃, leaving a neutral –NH₂: the anion H₂N–CH(CH₃)–COO⁻, net charge −1. The zwitterion is the main form at the pI and the cation far below it; the fully uncharged –NH₂/–COOH molecule is not the major form at any pH.",
   "why": [
    "",
-   "§B is the zwitterion (–NH₃⁺ and –COO⁻), the main form at the pI. In strong base OH⁻ removes another H⁺.",
-   "§C has –COOH and –NH₃⁺, net +1. That is the main form in strong acid, far below the pI.",
-   "§D is the uncharged form, which is not the major form at any pH in water."
+   "This is the zwitterion (–NH₃⁺ and –COO⁻), the main form at the pI. In strong base OH⁻ removes another H⁺.",
+   "This form has –COOH and –NH₃⁺, net +1. That is the main form in strong acid, far below the pI.",
+   "This is the uncharged form, which is not the major form at any pH in water."
   ],
   "html": {
    "prompt": "A chemist makes an alanine solution strongly basic with NaOH, to a pH far above its pI. Which of the structures drawn is the predominant form of alanine?",
@@ -170697,9 +170697,9 @@
    "explain": "Far above the pI the carboxyl group is deprotonated (–COO<sup>−</sup>) and the base has also pulled the proton off the –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span>,</span> leaving a neutral –NH<sub>2</sub>: the anion <b>H<sub>2</sub>N–CH(CH<sub>3</sub>)–COO<sup>−</sup></b>, net charge −1. The zwitterion is the main form at the pI and the cation far below it; the fully uncharged –NH<sub>2</sub>/–COOH molecule is not the major form at any pH.",
    "why": [
     "",
-    "§B is the zwitterion (–NH<sub>3</sub><sup>+</sup> and –COO<sup>−</sup>), the main form at the pI. In strong base OH<sup>−</sup> removes another H<sup>+</sup>.",
-    "§C has –COOH and –NH<sub>3</sub><sup>+</sup>, net +1. That is the main form in strong acid, far below the pI.",
-    "§D is the uncharged form, which is not the major form at any pH in water."
+    "This is the zwitterion (–NH<sub>3</sub><sup>+</sup> and –COO<sup>−</sup>), the main form at the pI. In strong base OH<sup>−</sup> removes another H<sup>+</sup>.",
+    "This form has –COOH and –NH<sub>3</sub><sup>+</sup>, net +1. That is the main form in strong acid, far below the pI.",
+    "This is the uncharged form, which is not the major form at any pH in water."
    ]
   },
   "data": {
@@ -174949,7 +174949,7 @@
   }
  },
  {
-  "id": "finalexam-f5414086",
+  "id": "finalexam-b77f877c",
   "skill": "finalexam.3b.amines",
   "courses": [
    "3B"
@@ -174963,37 +174963,37 @@
   "type": "mc",
   "difficulty": 1,
   "calc": false,
-  "prompt": "Dopamine, norepinephrine, serotonin and histamine are all neurotransmitters. Which functional group do all four contain, which is protonated (–NH₃⁺) at body pH?",
+  "prompt": "Dopamine, norepinephrine, serotonin and histamine are neurotransmitters made from amino acids. Each carries a positive charge in body fluids (pH about 7.4). Which functional group do all four share, and why is it charged?",
   "choices": [
-   "an amine",
-   "an amide",
-   "a carboxylic acid",
-   "an ester"
+   "An amine, which accepts H⁺ at pH 7.4",
+   "An amide, which accepts H⁺ at pH 7.4",
+   "An amine, which gives up H⁺ at pH 7.4",
+   "A carboxylic acid, which gives up H⁺ at pH 7.4"
   ],
-  "answer": "an amine",
-  "hint": "These compounds are made from amino acids by removing the –COOH group. Which group is left?",
-  "explain": "All four contain an amine group. Like other amines, it is a weak base and is mostly protonated in body fluids, so these neurotransmitters carry a positive charge.",
+  "answer": "An amine, which accepts H⁺ at pH 7.4",
+  "hint": "They are made from amino acids by removing the –COOH group. Which group is left, and is it an acid or a base?",
+  "explain": "All four keep the amine nitrogen of their parent amino acid (the –COOH is removed). Amines are weak bases, so at pH 7.4 the nitrogen accepts H⁺ and becomes –NH₃⁺ (or –NH₂⁺–), giving the positive charge. Amides are not basic, and a group that gives up H⁺ (like –COOH) becomes negative.",
   "why": [
    "",
-   "An amide has N bonded to a C=O. These neurotransmitters have N bonded only to carbon and hydrogen atoms.",
-   "These compounds are made by removing the –COOH group from an amino acid, so they have no carboxylic acid left.",
-   "An ester is a C=O bonded to an –OR group. Acetylcholine is an ester, but these four neurotransmitters are amines."
+   "An amide N is bonded to a C=O, which pulls its lone pair into resonance, so amides are neutral, not basic. These four molecules have N bonded only to C and H.",
+   "The group is an amine, but amines are weak bases: they gain H⁺ (becoming –NH₃⁺), which is what makes them positive. Losing H⁺ would not give a positive charge.",
+   "A carboxylic acid that gives up H⁺ becomes –COO⁻, a negative charge. These molecules are made by removing the –COOH group, and they are positive."
   ],
   "html": {
-   "prompt": "Dopamine, norepinephrine, serotonin and histamine are all neurotransmitters. Which functional group do all four contain, which is protonated (–NH<sub>3</sub><sup>+</sup>) at body pH?",
+   "prompt": "Dopamine, norepinephrine, serotonin and histamine are neurotransmitters made from amino acids. Each carries a positive charge in body fluids (pH about 7.4). Which functional group do all four share, and why is it charged?",
    "choices": [
-    "an amine",
-    "an amide",
-    "a carboxylic acid",
-    "an ester"
+    "An amine, which accepts H<sup>+</sup> at pH 7.4",
+    "An amide, which accepts H<sup>+</sup> at pH 7.4",
+    "An amine, which gives up H<sup>+</sup> at pH 7.4",
+    "A carboxylic acid, which gives up H<sup>+</sup> at pH 7.4"
    ],
-   "hint": "These compounds are made from amino acids by removing the –COOH group. Which group is left?",
-   "explain": "All four contain an <b>amine</b> group. Like other amines, it is a weak base and is mostly protonated in body fluids, so these neurotransmitters carry a positive charge.",
+   "hint": "They are made from amino acids by removing the –COOH group. Which group is left, and is it an acid or a base?",
+   "explain": "All four keep the <b>amine</b> nitrogen of their parent amino acid (the –COOH is removed). Amines are weak bases, so at pH 7.4 the nitrogen <b>accepts H<sup>+</sup></b> and becomes –NH<sub>3</sub><sup>+</sup> (or –NH<sub>2</sub><sup>+</sup>–), giving the positive charge. Amides are not basic, and a group that gives up H<sup>+</sup> (like –COOH) becomes negative.",
    "why": [
     null,
-    "An amide has N bonded to a C=O. These neurotransmitters have N bonded only to carbon and hydrogen atoms.",
-    "These compounds are made by removing the –COOH group from an amino acid, so they have no carboxylic acid left.",
-    "An ester is a C=O bonded to an –OR group. Acetylcholine is an ester, but these four neurotransmitters are amines."
+    "An amide N is bonded to a C=O, which pulls its lone pair into resonance, so amides are neutral, not basic. These four molecules have N bonded only to C and H.",
+    "The group is an amine, but amines are weak bases: they gain H<sup>+</sup> (becoming –NH<sub>3</sub><sup>+</sup>), which is what makes them positive. Losing H<sup>+</sup> would not give a positive charge.",
+    "A carboxylic acid that gives up H<sup>+</sup> becomes –COO<sup>−</sup>, a negative charge. These molecules are made by removing the –COOH group, and they are positive."
    ]
   },
   "from": {
@@ -175884,8 +175884,8 @@
   "prompt": "Some California workers who mix and apply organophosphate pesticides have the cholinesterase activity of their blood checked. After a spraying season, a worker's result is well below the worker's own starting value. What does this most likely mean?",
   "choices": [
    "The pesticide has bonded covalently to the enzyme's active site and inhibited it",
-   "His body has made extra cholinesterase to protect itself",
-   "His blood is low in acetylcholine",
+   "The worker's body has made extra cholinesterase to protect itself",
+   "The worker's blood is low in acetylcholine",
    "The pesticide has been hydrolyzed by the enzyme and is now harmless"
   ],
   "answer": "The pesticide has bonded covalently to the enzyme's active site and inhibited it",
@@ -175901,8 +175901,8 @@
    "prompt": "Some California workers who mix and apply organophosphate pesticides have the cholinesterase activity of their blood checked. After a spraying season, a worker's result is well below the worker's own starting value. What does this most likely mean?",
    "choices": [
     "The pesticide has bonded covalently to the enzyme's active site and inhibited it",
-    "His body has made extra cholinesterase to protect itself",
-    "His blood is low in acetylcholine",
+    "The worker's body has made extra cholinesterase to protect itself",
+    "The worker's blood is low in acetylcholine",
     "The pesticide has been hydrolyzed by the enzyme and is now harmless"
    ],
    "hint": "Organophosphates bond to a serine –OH in the active site of cholinesterase. What does that do to enzyme activity?",
@@ -178344,7 +178344,7 @@
   "explain": "The H–C bond is one shared pair and the C≡N triple bond is three, so 4 pairs = 8 bonding electrons. The remaining 2 of the 10 valence electrons are the lone pair on N: 8 bonding, 2 nonbonding.",
   "why": [
    "",
-   "This is the structure before step 5, with only single bonds and three lone pairs on N. Carbon would have just 4 electrons, so two of those lone pairs must become shared pairs.",
+   "This is the structure with only single bonds (H–C–N) and three lone pairs on N. Carbon would have just 4 electrons, so two of those lone pairs must become shared pairs.",
    "This describes H–C=N with two lone pairs on N. Carbon would have only three bonds (6 electrons), so it would not have an octet.",
    "This forgets the lone pair on nitrogen. N has three bonds (6 electrons) and needs one lone pair to reach eight."
   ],
@@ -178360,7 +178360,7 @@
    "explain": "The H–C bond is one shared pair and the C≡N triple bond is three, so 4 pairs = 8 bonding electrons. The remaining 2 of the 10 valence electrons are the lone pair on N: <b>8 bonding, 2 nonbonding</b>.",
    "why": [
     null,
-    "This is the structure before step 5, with only single bonds and three lone pairs on N. Carbon would have just 4 electrons, so two of those lone pairs must become shared pairs.",
+    "This is the structure with only single bonds (H–C–N) and three lone pairs on N. Carbon would have just 4 electrons, so two of those lone pairs must become shared pairs.",
     "This describes H–C=N with two lone pairs on N. Carbon would have only three bonds (6 electrons), so it would not have an octet.",
     "This forgets the lone pair on nitrogen. N has three bonds (6 electrons) and needs one lone pair to reach eight."
    ]
@@ -178384,7 +178384,7 @@
   "made": "textbook",
   "exam": "midterm",
   "type": "mc",
-  "difficulty": 3,
+  "difficulty": 2,
   "calc": false,
   "prompt": "Four students describe a Lewis structure for O₂. Which description is correct?",
   "choices": [
@@ -178546,7 +178546,7 @@
   "made": "textbook",
   "exam": "midterm",
   "type": "mc",
-  "difficulty": 3,
+  "difficulty": 2,
   "calc": false,
   "prompt": "In the Lewis structure of the hydroxide ion, OH⁻, how many lone pairs are on the oxygen atom?",
   "choices": [
@@ -180791,7 +180791,7 @@
   "explain": "Benedict's reagent is basic, and in base a ketose is in equilibrium with an aldose. The aldose form has an aldehyde that is oxidized, so fructose reduces Cu²⁺ and counts as a reducing sugar.",
   "why": [
    "",
-   "Ketones are not oxidized by mild oxidizing agents (Chapter 5). The ketose has to rearrange into an aldose before anything reacts.",
+   "Ketones are not oxidized by mild oxidizing agents. The ketose has to rearrange into an aldose before anything reacts.",
    "Fructose is a monosaccharide, so there is no glycosidic bond to hydrolyze. It rearranges; it is not split.",
    "A positive test is what defines a reducing sugar. Fructose is a reducing sugar; a nonreducing sugar such as sucrose leaves the solution blue."
   ],
@@ -180807,7 +180807,7 @@
    "explain": "Benedict's reagent is basic, and in base a ketose is in equilibrium with an aldose. <b>The aldose form has an aldehyde that is oxidized</b>, so fructose reduces Cu<sup>2+</sup> and counts as a reducing sugar.",
    "why": [
     null,
-    "Ketones are not oxidized by mild oxidizing agents (Chapter 5). The ketose has to rearrange into an aldose before anything reacts.",
+    "Ketones are not oxidized by mild oxidizing agents. The ketose has to rearrange into an aldose before anything reacts.",
     "Fructose is a monosaccharide, so there is no glycosidic bond to hydrolyze. It rearranges; it is not split.",
     "A positive test is what defines a reducing sugar. Fructose is a reducing sugar; a nonreducing sugar such as sucrose leaves the solution blue."
    ]
@@ -181467,7 +181467,7 @@
   }
  },
  {
-  "id": "finalexam-74ba7f78",
+  "id": "finalexam-46de7b58",
   "skill": "finalexam.3b.proteins",
   "courses": [
    "3B"
@@ -181481,7 +181481,7 @@
   "type": "mc",
   "difficulty": 1,
   "calc": false,
-  "prompt": "Ten of the 20 amino acids are called essential. What does this term mean?",
+  "prompt": "Some of the 20 amino acids are called essential. What does this term mean?",
   "choices": [
    "The body cannot make them, so they must come from food",
    "They are the only amino acids used to build human proteins",
@@ -181493,12 +181493,12 @@
   "explain": "All 20 amino acids are needed to build proteins. An essential amino acid is one the body cannot synthesize, so the diet has to supply it (PVT TIM HALL lists the ten).",
   "why": [
    "",
-   "Human proteins use all 20 amino acids. The nonessential ten are just as necessary; the body makes them itself.",
+   "Human proteins use all 20 amino acids. The nonessential ones are just as necessary; the body makes them itself.",
    "Essential is about diet, not charge. Valine and leucine are essential and nonpolar, while aspartate and glutamate are charged and nonessential.",
    "This is the definition of a nonessential amino acid, the reverse of what essential means."
   ],
   "html": {
-   "prompt": "Ten of the 20 amino acids are called <b>essential</b>. What does this term mean?",
+   "prompt": "Some of the 20 amino acids are called <b>essential</b>. What does this term mean?",
    "choices": [
     "The body cannot make them, so they must come from food",
     "They are the only amino acids used to build human proteins",
@@ -181509,7 +181509,7 @@
    "explain": "All 20 amino acids are needed to build proteins. <b>An essential amino acid is one the body cannot synthesize, so the diet has to supply it</b> (PVT TIM HALL lists the ten).",
    "why": [
     null,
-    "Human proteins use all 20 amino acids. The nonessential ten are just as necessary; the body makes them itself.",
+    "Human proteins use all 20 amino acids. The nonessential ones are just as necessary; the body makes them itself.",
     "Essential is about diet, not charge. Valine and leucine are essential and nonpolar, while aspartate and glutamate are charged and nonessential.",
     "This is the definition of a nonessential amino acid, the reverse of what essential means."
    ]
@@ -183637,6 +183637,1727 @@
    "game": "finalexam",
    "list": "BANK.3B",
    "index": 1135
+  }
+ },
+ {
+  "id": "finalexam-2078c0ab",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Making many household detergents starts by heating an alkylbenzene with SO₃ in concentrated H₂SO₄. Which group replaces one ring H?",
+  "choices": [
+   "–SO₃H",
+   "–SH",
+   "–OH",
+   "–SO₄H"
+  ],
+  "answer": "–SO₃H",
+  "hint": "This is sulfonation, one of the three benzene substitutions. Which part of the reagent ends up on the ring?",
+  "explain": "SO₃ in H₂SO₄ carries out sulfonation: one ring H is replaced by a sulfonic acid group, giving an arylsulfonic acid. Neutralizing it with NaOH gives the sodium sulfonate salt used as a detergent. The group on the ring is –SO₃H.",
+  "why": [
+   "",
+   "A thiol group has sulfur but no oxygen. Sulfonation attaches a sulfur that still carries its oxygen atoms from SO₃.",
+   "An –OH group on the ring would make a phenol. Sulfonation attaches a sulfur-containing group, not a plain hydroxyl.",
+   "This counts the oxygen atoms of H₂SO₄, but sulfuric acid is only the catalyst and solvent. The atoms of the new group come from the other reagent."
+  ],
+  "html": {
+   "prompt": "Making many household detergents starts by heating an alkylbenzene with SO<sub>3</sub> in concentrated H<sub>2</sub>SO<sub>4</sub>. Which group replaces one ring H?",
+   "choices": [
+    "–SO<sub>3</sub>H",
+    "–SH",
+    "–OH",
+    "–SO<sub>4</sub>H"
+   ],
+   "hint": "This is sulfonation, one of the three benzene substitutions. Which part of the reagent ends up on the ring?",
+   "explain": "SO<sub>3</sub> in H<sub>2</sub>SO<sub>4</sub> carries out <b>sulfonation</b>: one ring H is replaced by a sulfonic acid group, giving an arylsulfonic acid. Neutralizing it with NaOH gives the sodium sulfonate salt used as a detergent. The group on the ring is <b>–SO<sub>3</sub>H</b>.",
+   "why": [
+    "",
+    "A thiol group has sulfur but no oxygen. Sulfonation attaches a sulfur that still carries its oxygen atoms from SO<sub>3</sub>.",
+    "An –OH group on the ring would make a phenol. Sulfonation attaches a sulfur-containing group, not a plain hydroxyl.",
+    "This counts the oxygen atoms of H<sub>2</sub>SO<sub>4</sub>, but sulfuric acid is only the catalyst and solvent. The atoms of the new group come from the other reagent."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1136
+  }
+ },
+ {
+  "id": "finalexam-5680c987",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "The sodium salt of the compound shown is a common food and soft-drink preservative. What is the compound's name?",
+  "choices": [
+   "benzoic acid",
+   "benzaldehyde",
+   "phenol",
+   "benzyl alcohol"
+  ],
+  "answer": "benzoic acid",
+  "hint": "Identify the functional group on the ring, then use the common parent name for that group.",
+  "explain": "A –COOH (carboxyl) group bonded directly to a benzene ring gives the parent name benzoic acid. Its sodium salt, sodium benzoate, is the preservative.",
+  "why": [
+   "",
+   "Benzaldehyde has a –CHO group: the carbonyl carbon carries an H, not an –OH.",
+   "Phenol has an –OH bonded directly to the ring, with no C=O group.",
+   "Benzyl alcohol is C₆H₅CH₂OH: an –OH on a CH₂, with no C=O group."
+  ],
+  "html": {
+   "prompt": "The sodium salt of the compound shown is a common food and soft-drink preservative. What is the compound's name?",
+   "choices": [
+    "benzoic acid",
+    "benzaldehyde",
+    "phenol",
+    "benzyl alcohol"
+   ],
+   "hint": "Identify the functional group on the ring, then use the common parent name for that group.",
+   "explain": "A –COOH (carboxyl) group bonded directly to a benzene ring gives the parent name <b>benzoic acid</b>. Its sodium salt, sodium benzoate, is the preservative.",
+   "why": [
+    "",
+    "Benzaldehyde has a –CHO group: the carbonyl carbon carries an H, not an –OH.",
+    "Phenol has an –OH bonded directly to the ring, with no C=O group.",
+    "Benzyl alcohol is C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>OH: an –OH on a CH<sub>2</sub>, with no C=O group."
+   ]
+  },
+  "data": {
+   "s": [
+    {
+     "smi": "OC(=O)C1=CC=CC=C1"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1137
+  }
+ },
+ {
+  "id": "finalexam-10cef8bc",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Benzaldehyde gives almond extract its smell. Which structure is benzaldehyde?",
+  "choices": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "answer": "§A",
+  "hint": "An aldehyde has a C=O at the end of a chain, with an H on the carbonyl carbon.",
+  "explain": "Benzaldehyde is a benzene ring bonded to a –CHO group: the carbonyl carbon has the ring on one side and an H on the other. The drawing with C₆H₅CHO is benzaldehyde.",
+  "why": [
+   "",
+   "This has an –OH on the carbonyl carbon, which makes it a carboxylic acid (benzoic acid), not an aldehyde.",
+   "This has an –OH on a CH₂ and no C=O, so it is an alcohol (benzyl alcohol).",
+   "The carbonyl carbon here is bonded to the ring and to a CH₃, so it is a ketone, not an aldehyde."
+  ],
+  "html": {
+   "prompt": "Benzaldehyde gives almond extract its smell. Which structure is benzaldehyde?",
+   "choices": [
+    "§A",
+    "§B",
+    "§C",
+    "§D"
+   ],
+   "hint": "An aldehyde has a C=O at the end of a chain, with an H on the carbonyl carbon.",
+   "explain": "Benzaldehyde is a benzene ring bonded to a –CHO group: the carbonyl carbon has the ring on one side and an H on the other. The drawing with <b>C<sub>6</sub>H<sub>5</sub>CHO</b> is benzaldehyde.",
+   "why": [
+    "",
+    "This has an –OH on the carbonyl carbon, which makes it a carboxylic acid (benzoic acid), not an aldehyde.",
+    "This has an –OH on a CH<sub>2</sub> and no C=O, so it is an alcohol (benzyl alcohol).",
+    "The carbonyl carbon here is bonded to the ring and to a CH<sub>3</sub>, so it is a ketone, not an aldehyde."
+   ]
+  },
+  "data": {
+   "cs": [
+    {
+     "smi": "O=CC1=CC=CC=C1"
+    },
+    {
+     "smi": "OC(=O)C1=CC=CC=C1"
+    },
+    {
+     "smi": "OCC1=CC=CC=C1"
+    },
+    {
+     "smi": "CC(=O)C1=CC=CC=C1"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1138
+  }
+ },
+ {
+  "id": "finalexam-048b1638",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "The compound shown is made by gut bacteria and is one of the waste products the kidneys must clear. What is its IUPAC name?",
+  "choices": [
+   "4-methylphenol",
+   "3-methylphenol",
+   "2-methylphenol",
+   "4-methyltoluene"
+  ],
+  "answer": "4-methylphenol",
+  "hint": "With an –OH on the ring, phenol is the parent and the –OH carbon is C1. Count to the methyl.",
+  "explain": "The –OH carbon is C1 of phenol. The –CH₃ is directly across the ring, on C4 (para), so the name is 4-methylphenol.",
+  "why": [
+   "",
+   "3- would put one ring carbon between the –OH and –CH₃ (meta). Count again from the –OH carbon around the ring.",
+   "2- means the –CH₃ is on the carbon next to the –OH (ortho). In the drawing the two groups are not neighbors.",
+   "Toluene already has its own methyl, so this name describes a dimethylbenzene with no –OH. The –OH group sets the parent name."
+  ],
+  "html": {
+   "prompt": "The compound shown is made by gut bacteria and is one of the waste products the kidneys must clear. What is its IUPAC name?",
+   "choices": [
+    "4-methylphenol",
+    "3-methylphenol",
+    "2-methylphenol",
+    "4-methyltoluene"
+   ],
+   "hint": "With an –OH on the ring, phenol is the parent and the –OH carbon is C1. Count to the methyl.",
+   "explain": "The –OH carbon is C1 of phenol. The –CH<sub>3</sub> is directly across the ring, on C4 (<i>para</i>), so the name is <b>4-methylphenol</b>.",
+   "why": [
+    "",
+    "3- would put one ring carbon between the –OH and –CH<sub>3</sub> (<i>meta</i>). Count again from the –OH carbon around the ring.",
+    "2- means the –CH<sub>3</sub> is on the carbon next to the –OH (<i>ortho</i>). In the drawing the two groups are not neighbors.",
+    "Toluene already has its own methyl, so this name describes a dimethylbenzene with no –OH. The –OH group sets the parent name."
+   ]
+  },
+  "data": {
+   "s": [
+    {
+     "smi": "CC1=CC=C(O)C=C1"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1139
+  }
+ },
+ {
+  "id": "finalexam-23b90659",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "The compound shown is used as a disinfectant and as a preservative in some creams. What is its IUPAC name?",
+  "choices": [
+   "4-chloro-3-methylphenol",
+   "4-chloro-5-methylphenol",
+   "3-chloro-4-methylphenol",
+   "4-chloro-3-methylcyclohexanol"
+  ],
+  "answer": "4-chloro-3-methylphenol",
+  "hint": "Phenol is the parent, so the –OH carbon is C1. Number around the ring in the direction that gives the lower numbers.",
+  "explain": "The –OH carbon is C1. Numbering toward the –CH₃ puts it on C3 and the Cl on C4 (locants 3,4); the other direction gives 4,5. Lower locants win, and substituents are listed alphabetically: 4-chloro-3-methylphenol.",
+  "why": [
+   "",
+   "This numbers around the ring the long way. Going the other direction from the –OH carbon gives a lower set of numbers.",
+   "The numbers for the two groups are swapped. Number from the –OH carbon (C1) in the direction that reaches a substituent first, and check which group is on C3.",
+   "The ring is a benzene ring with three alternating double bonds, not a saturated cyclohexane, so -cyclohexanol is the wrong parent."
+  ],
+  "html": {
+   "prompt": "The compound shown is used as a disinfectant and as a preservative in some creams. What is its IUPAC name?",
+   "choices": [
+    "4-chloro-3-methylphenol",
+    "4-chloro-5-methylphenol",
+    "3-chloro-4-methylphenol",
+    "4-chloro-3-methylcyclohexanol"
+   ],
+   "hint": "Phenol is the parent, so the –OH carbon is C1. Number around the ring in the direction that gives the lower numbers.",
+   "explain": "The –OH carbon is C1. Numbering toward the –CH<sub>3</sub> puts it on C3 and the Cl on C4 (locants 3,4); the other direction gives 4,5. Lower locants win, and substituents are listed alphabetically: <b>4-chloro-3-methylphenol</b>.",
+   "why": [
+    "",
+    "This numbers around the ring the long way. Going the other direction from the –OH carbon gives a lower set of numbers.",
+    "The numbers for the two groups are swapped. Number from the –OH carbon (C1) in the direction that reaches a substituent first, and check which group is on C3.",
+    "The ring is a benzene ring with three alternating double bonds, not a saturated cyclohexane, so -cyclohexanol is the wrong parent."
+   ]
+  },
+  "data": {
+   "s": [
+    {
+     "smi": "OC1=CC=C(Cl)C(C)=C1"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1140
+  }
+ },
+ {
+  "id": "finalexam-d8adf501",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Rank acetic acid (CH₃COOH), ethanol (CH₃CH₂OH) and phenol (C₆H₅OH) from most acidic to least acidic.",
+  "choices": [
+   "acetic acid > phenol > ethanol",
+   "phenol > acetic acid > ethanol",
+   "acetic acid > ethanol > phenol",
+   "ethanol > phenol > acetic acid"
+  ],
+  "answer": "acetic acid > phenol > ethanol",
+  "hint": "Lower pK_a means stronger acid. Recall the typical pK_a of a carboxylic acid, a phenol and an alcohol.",
+  "explain": "Approximate pK_a values: acetic acid 4.8, phenol 10, ethanol 16 (lower pK_a = stronger acid). Carboxylic acids are the strongest of the three, phenols are weak acids, and alcohols are barely acidic: acetic acid > phenol > ethanol.",
+  "why": [
+   "",
+   "Phenol is a weak acid, but a carboxylic acid is about 100,000 times stronger.",
+   "This ranks the alcohol above the phenol. A ring –OH is about a million times more acidic than an alcohol –OH.",
+   "This order is upside down. Compare pK_a values: the lower the pK_a, the stronger the acid."
+  ],
+  "html": {
+   "prompt": "Rank acetic acid (CH<sub>3</sub>COOH), ethanol (CH<sub>3</sub>CH<sub>2</sub>OH) and phenol (C<sub>6</sub>H<sub>5</sub>OH) from <b>most</b> acidic to <b>least</b> acidic.",
+   "choices": [
+    "acetic acid > phenol > ethanol",
+    "phenol > acetic acid > ethanol",
+    "acetic acid > ethanol > phenol",
+    "ethanol > phenol > acetic acid"
+   ],
+   "hint": "Lower pK<sub>a</sub> means stronger acid. Recall the typical pK<sub>a</sub> of a carboxylic acid, a phenol and an alcohol.",
+   "explain": "Approximate pK<sub>a</sub> values: acetic acid 4.8, phenol 10, ethanol 16 (lower pK<sub>a</sub> = stronger acid). Carboxylic acids are the strongest of the three, phenols are weak acids, and alcohols are barely acidic: <b>acetic acid > phenol > ethanol</b>.",
+   "why": [
+    "",
+    "Phenol is a weak acid, but a carboxylic acid is about 100,000 times stronger.",
+    "This ranks the alcohol above the phenol. A ring –OH is about a million times more acidic than an alcohol –OH.",
+    "This order is upside down. Compare pK<sub>a</sub> values: the lower the pK<sub>a</sub>, the stronger the acid."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1141
+  }
+ },
+ {
+  "id": "finalexam-592a1d60",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Which statements comparing phenol (C₆H₅OH) with cyclohexanol (C₆H₁₁OH) are correct? I. Phenol is the stronger acid. II. Both react with aqueous NaOH to form a salt. III. Both can hydrogen bond with water.",
+  "choices": [
+   "I and III only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "I and III only",
+  "hint": "Check each statement. Which –OH is acidic enough to react with NaOH?",
+  "explain": "I is true: phenol (pK_a about 10) is much more acidic than an alcohol (pK_a about 16–18). II is false: only phenol is acidic enough to be deprotonated by aqueous NaOH. III is true: any O–H group can hydrogen bond with water. Answer: I and III only.",
+  "why": [
+   "",
+   "Statement II fails for cyclohexanol: an alcohol is too weak an acid to be deprotonated by aqueous NaOH. Also recheck III: can any O–H group hydrogen bond with water?",
+   "This leaves out statement I and keeps statement II. An O–H on a benzene ring is far more acidic than one on a cyclohexane ring, and cyclohexanol does not react with aqueous NaOH.",
+   "Statement II is false. Only the phenol is acidic enough to form a salt with aqueous NaOH; cyclohexanol does not."
+  ],
+  "html": {
+   "prompt": "Which statements comparing phenol (C<sub>6</sub>H<sub>5</sub>OH) with cyclohexanol (C<sub>6</sub>H<sub>11</sub>OH) are correct?<br>I. Phenol is the stronger acid.<br>II. Both react with aqueous NaOH to form a salt.<br>III. Both can hydrogen bond with water.",
+   "choices": [
+    "I and III only",
+    "I and II only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Check each statement. Which –OH is acidic enough to react with NaOH?",
+   "explain": "I is true: phenol (pK<sub>a</sub> about 10) is much more acidic than an alcohol (pK<sub>a</sub> about 16–18). II is false: only phenol is acidic enough to be deprotonated by aqueous NaOH. III is true: any O–H group can hydrogen bond with water. Answer: <b>I and III only</b>.",
+   "why": [
+    "",
+    "Statement II fails for cyclohexanol: an alcohol is too weak an acid to be deprotonated by aqueous NaOH. Also recheck III: can any O–H group hydrogen bond with water?",
+    "This leaves out statement I and keeps statement II. An O–H on a benzene ring is far more acidic than one on a cyclohexane ring, and cyclohexanol does not react with aqueous NaOH.",
+    "Statement II is false. Only the phenol is acidic enough to form a salt with aqueous NaOH; cyclohexanol does not."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1142
+  }
+ },
+ {
+  "id": "finalexam-ad2a3aef",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "BHT, shown, is an antioxidant added to cereals and oils to keep fats from going rancid. To which compound class does BHT belong?",
+  "choices": [
+   "a phenol",
+   "an alcohol",
+   "an ether",
+   "a ketone"
+  ],
+  "answer": "a phenol",
+  "hint": "Look at what the –OH group is bonded to.",
+  "explain": "The –OH is bonded directly to a benzene ring carbon, so BHT (butylated hydroxytoluene) is a phenol. Phenols such as BHT and BHA are good antioxidants: the ring O–H gives up an H atom to stop the radical reactions that spoil fats.",
+  "why": [
+   "",
+   "An alcohol has its –OH on an sp³ carbon of an alkyl group. Here the –OH carbon is part of the aromatic ring.",
+   "An ether has an O bonded to two carbons, C–O–C. The oxygen here carries an H, not a second carbon.",
+   "A ketone needs a C=O bonded to two carbons. BHT has no C=O at all; its oxygen is single-bonded."
+  ],
+  "html": {
+   "prompt": "BHT, shown, is an antioxidant added to cereals and oils to keep fats from going rancid. To which compound class does BHT belong?",
+   "choices": [
+    "a phenol",
+    "an alcohol",
+    "an ether",
+    "a ketone"
+   ],
+   "hint": "Look at what the –OH group is bonded to.",
+   "explain": "The –OH is bonded directly to a benzene ring carbon, so BHT (butylated hydroxytoluene) is <b>a phenol</b>. Phenols such as BHT and BHA are good antioxidants: the ring O–H gives up an H atom to stop the radical reactions that spoil fats.",
+   "why": [
+    "",
+    "An alcohol has its –OH on an sp<sup>3</sup> carbon of an alkyl group. Here the –OH carbon is part of the aromatic ring.",
+    "An ether has an O bonded to two carbons, C–O–C. The oxygen here carries an H, not a second carbon.",
+    "A ketone needs a C=O bonded to two carbons. BHT has no C=O at all; its oxygen is single-bonded."
+   ]
+  },
+  "data": {
+   "s": [
+    {
+     "smi": "CC1=CC(C(C)(C)C)=C(O)C(C(C)(C)C)=C1"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1143
+  }
+ },
+ {
+  "id": "finalexam-2ac6bf39",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Acetaminophen (Tylenol), shown, is a common pain reliever. Which two functional groups does it contain besides the ring?",
+  "choices": [
+   "phenol and amide",
+   "alcohol and amide",
+   "phenol and amine",
+   "phenol and ketone"
+  ],
+  "answer": "phenol and amide",
+  "hint": "Look at what each heteroatom is attached to. Is the N next to a C=O?",
+  "explain": "The –OH is on a ring carbon (a phenol), and the N is bonded to a C=O carbon (an amide). So acetaminophen is a phenol and amide.",
+  "why": [
+   "",
+   "The –OH is attached directly to the aromatic ring, which makes it a phenol, not an alcohol.",
+   "The nitrogen is bonded to a C=O carbon. An N next to a carbonyl is not a plain amine.",
+   "The C=O carbon is bonded to N, not to two carbons, so it is not a ketone."
+  ],
+  "html": {
+   "prompt": "Acetaminophen (Tylenol), shown, is a common pain reliever. Which two functional groups does it contain besides the ring?",
+   "choices": [
+    "phenol and amide",
+    "alcohol and amide",
+    "phenol and amine",
+    "phenol and ketone"
+   ],
+   "hint": "Look at what each heteroatom is attached to. Is the N next to a C=O?",
+   "explain": "The –OH is on a ring carbon (a <b>phenol</b>), and the N is bonded to a C=O carbon (an <b>amide</b>). So acetaminophen is a <b>phenol and amide</b>.",
+   "why": [
+    "",
+    "The –OH is attached directly to the aromatic ring, which makes it a phenol, not an alcohol.",
+    "The nitrogen is bonded to a C=O carbon. An N next to a carbonyl is not a plain amine.",
+    "The C=O carbon is bonded to N, not to two carbons, so it is not a ketone."
+   ]
+  },
+  "data": {
+   "s": [
+    {
+     "smi": "CC(=O)NC1=CC=C(O)C=C1"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1144
+  }
+ },
+ {
+  "id": "finalexam-6a5cb6e2",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "In aspirin, shown, how are the two groups attached to the benzene ring arranged?",
+  "choices": [
+   "ortho (1,2)",
+   "meta (1,3)",
+   "para (1,4)",
+   "geminal (1,1)"
+  ],
+  "answer": "ortho (1,2)",
+  "hint": "Find the two ring carbons that carry groups. Are they next to each other, one apart, or across the ring?",
+  "explain": "The ester group and the –COOH group sit on neighboring ring carbons, 1 and 2, so they are ortho (1,2). Aspirin is 2-acetoxybenzoic acid.",
+  "why": [
+   "",
+   "Meta has one ring carbon between the two groups. In aspirin the two ring carbons that carry groups are bonded to each other.",
+   "Para places the groups directly across the ring. In aspirin they are on neighboring carbons.",
+   "Geminal means two groups on the same carbon. Each of aspirin's groups is on its own ring carbon."
+  ],
+  "html": {
+   "prompt": "In aspirin, shown, how are the two groups attached to the benzene ring arranged?",
+   "choices": [
+    "ortho (1,2)",
+    "meta (1,3)",
+    "para (1,4)",
+    "geminal (1,1)"
+   ],
+   "hint": "Find the two ring carbons that carry groups. Are they next to each other, one apart, or across the ring?",
+   "explain": "The ester group and the –COOH group sit on neighboring ring carbons, 1 and 2, so they are <b>ortho (1,2)</b>. Aspirin is 2-acetoxybenzoic acid.",
+   "why": [
+    "",
+    "Meta has one ring carbon between the two groups. In aspirin the two ring carbons that carry groups are bonded to each other.",
+    "Para places the groups directly across the ring. In aspirin they are on neighboring carbons.",
+    "Geminal means two groups on the same carbon. Each of aspirin's groups is on its own ring carbon."
+   ]
+  },
+  "data": {
+   "s": [
+    {
+     "smi": "CC(=O)OC1=CC=CC=C1C(=O)O"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1145
+  }
+ },
+ {
+  "id": "finalexam-12ab75fb",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Polycyclic aromatic hydrocarbons (PAHs) form when fuel, tobacco or meat is charred. Which compound shown is a PAH?",
+  "choices": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "answer": "§A",
+  "hint": "A PAH needs three things: fused rings, aromatic rings, and only C and H.",
+  "explain": "A PAH is made of benzene rings fused together (sharing sides) and contains only carbon and hydrogen. The drawing with three fused aromatic rings and no other elements (anthracene) is the PAH.",
+  "why": [
+   "",
+   "The two benzene rings are joined by a single bond, not fused: they share no ring carbons. This is biphenyl, not a polycyclic fused system.",
+   "These two rings are fused, but they are saturated cyclohexane rings with no double bonds, so the compound is not aromatic.",
+   "The rings are fused and aromatic, but the –OH group means this is not a hydrocarbon; it is a phenol (a naphthol)."
+  ],
+  "html": {
+   "prompt": "Polycyclic aromatic hydrocarbons (PAHs) form when fuel, tobacco or meat is charred. Which compound shown is a PAH?",
+   "choices": [
+    "§A",
+    "§B",
+    "§C",
+    "§D"
+   ],
+   "hint": "A PAH needs three things: fused rings, aromatic rings, and only C and H.",
+   "explain": "A PAH is made of benzene rings fused together (sharing sides) and contains only carbon and hydrogen. The drawing with three fused aromatic rings and no other elements (<b>anthracene</b>) is the PAH.",
+   "why": [
+    "",
+    "The two benzene rings are joined by a single bond, not fused: they share no ring carbons. This is biphenyl, not a polycyclic fused system.",
+    "These two rings are fused, but they are saturated cyclohexane rings with no double bonds, so the compound is not aromatic.",
+    "The rings are fused and aromatic, but the –OH group means this is not a hydrocarbon; it is a phenol (a naphthol)."
+   ]
+  },
+  "data": {
+   "cs": [
+    {
+     "smi": "C1=CC=C2C=C3C=CC=CC3=CC2=C1"
+    },
+    {
+     "smi": "C1=CC=C(C2=CC=CC=C2)C=C1"
+    },
+    {
+     "smi": "C1CCC2CCCCC2C1"
+    },
+    {
+     "smi": "OC1=CC=CC2=CC=CC=C12"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1146
+  }
+ },
+ {
+  "id": "finalexam-8cf2dd9d",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which statements about polycyclic aromatic hydrocarbons (PAHs) such as benzo[a]pyrene are correct? I. They contain two or more fused benzene rings. II. They are nonpolar and dissolve poorly in water. III. Some form in cigarette smoke and charred food and can cause cancer.",
+  "choices": [
+   "I, II and III",
+   "I and III only",
+   "I and II only",
+   "III only"
+  ],
+  "answer": "I, II and III",
+  "hint": "PAHs contain only C and H. What does that say about their polarity? Then think about where benzo[a]pyrene shows up.",
+  "explain": "I: PAHs are fused benzene rings (naphthalene has two, benzo[a]pyrene five). II: as hydrocarbons they are nonpolar, so they dissolve in fats rather than water. III: PAHs form during incomplete burning; benzo[a]pyrene in smoke and charred meat is converted in the body to a form that binds DNA, a known carcinogen. All three are correct: I, II and III.",
+  "why": [
+   "",
+   "Statement II is also true. A PAH has only C–H and C–C bonds, so it is nonpolar and barely dissolves in water.",
+   "Statement III is also true. Benzo[a]pyrene from smoke and charred food is a well-known carcinogen.",
+   "Statements I and II are also true. PAHs are by definition fused aromatic rings, and as hydrocarbons they are nonpolar."
+  ],
+  "html": {
+   "prompt": "Which statements about polycyclic aromatic hydrocarbons (PAHs) such as benzo[<i>a</i>]pyrene are correct?<br>I. They contain two or more fused benzene rings.<br>II. They are nonpolar and dissolve poorly in water.<br>III. Some form in cigarette smoke and charred food and can cause cancer.",
+   "choices": [
+    "I, II and III",
+    "I and III only",
+    "I and II only",
+    "III only"
+   ],
+   "hint": "PAHs contain only C and H. What does that say about their polarity? Then think about where benzo[<i>a</i>]pyrene shows up.",
+   "explain": "I: PAHs are fused benzene rings (naphthalene has two, benzo[<i>a</i>]pyrene five). II: as hydrocarbons they are nonpolar, so they dissolve in fats rather than water. III: PAHs form during incomplete burning; benzo[<i>a</i>]pyrene in smoke and charred meat is converted in the body to a form that binds DNA, a known carcinogen. All three are correct: <b>I, II and III</b>.",
+   "why": [
+    "",
+    "Statement II is also true. A PAH has only C–H and C–C bonds, so it is nonpolar and barely dissolves in water.",
+    "Statement III is also true. Benzo[<i>a</i>]pyrene from smoke and charred food is a well-known carcinogen.",
+    "Statements I and II are also true. PAHs are by definition fused aromatic rings, and as hydrocarbons they are nonpolar."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1147
+  }
+ },
+ {
+  "id": "finalexam-5df235e7",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Most sunscreen ingredients that absorb UV light, such as avobenzone and octinoxate, contain a benzene ring joined to C=C or C=O groups. What feature lets these molecules absorb UV light?",
+  "choices": [
+   "pi electrons delocalized over the ring and its double bonds",
+   "strong hydrogen bonds formed between the molecule and the skin",
+   "ionic bonds that break apart when sunlight strikes the molecule",
+   "the many C–H single bonds in their long carbon side chains"
+  ],
+  "answer": "pi electrons delocalized over the ring and its double bonds",
+  "hint": "Benzene rings, C=C and C=O groups all have one kind of electron in common.",
+  "explain": "Benzene rings and the C=C and C=O groups attached to them have pi electrons that are spread out (delocalized) over the whole system. Such conjugated pi systems absorb UV light and release the energy as heat. The key feature is delocalized pi electrons.",
+  "why": [
+   "",
+   "Hydrogen bonding helps a substance stay in a lotion or on skin, but it is not what absorbs UV light.",
+   "These sunscreen molecules are covalent organic compounds, not ionic. Absorbing UV should not break them apart.",
+   "C–H single bonds are found in all organic compounds, including ones that do not absorb UV. The absorbing part is the conjugated ring system."
+  ],
+  "html": {
+   "prompt": "Most sunscreen ingredients that absorb UV light, such as avobenzone and octinoxate, contain a benzene ring joined to C=C or C=O groups. What feature lets these molecules absorb UV light?",
+   "choices": [
+    "pi electrons delocalized over the ring and its double bonds",
+    "strong hydrogen bonds formed between the molecule and the skin",
+    "ionic bonds that break apart when sunlight strikes the molecule",
+    "the many C–H single bonds in their long carbon side chains"
+   ],
+   "hint": "Benzene rings, C=C and C=O groups all have one kind of electron in common.",
+   "explain": "Benzene rings and the C=C and C=O groups attached to them have pi electrons that are spread out (delocalized) over the whole system. Such conjugated pi systems absorb UV light and release the energy as heat. The key feature is <b>delocalized pi electrons</b>.",
+   "why": [
+    "",
+    "Hydrogen bonding helps a substance stay in a lotion or on skin, but it is not what absorbs UV light.",
+    "These sunscreen molecules are covalent organic compounds, not ionic. Absorbing UV should not break them apart.",
+    "C–H single bonds are found in all organic compounds, including ones that do not absorb UV. The absorbing part is the conjugated ring system."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1148
+  }
+ },
+ {
+  "id": "finalexam-6ea9a6ba",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "A few mL of toluene (density 0.87 g/mL) are shaken with water in one test tube and with hexane in another. What is observed?",
+  "choices": [
+   "It mixes with hexane but forms a layer on top of the water.",
+   "It mixes with water but forms a separate layer with the hexane.",
+   "It mixes completely with both the water and the hexane.",
+   "It mixes with hexane but forms a layer below the water."
+  ],
+  "answer": "It mixes with hexane but forms a layer on top of the water.",
+  "hint": "\"Like dissolves like.\" Is toluene polar or nonpolar? Then compare its density with water's.",
+  "explain": "Toluene is a nonpolar hydrocarbon, so it mixes with nonpolar hexane but not with polar water. It is less dense than water (0.87 vs 1.00 g/mL), so it mixes with hexane and floats as a layer on the water.",
+  "why": [
+   "",
+   "This reverses the solubility. Toluene is nonpolar, so it cannot hydrogen bond with water but mixes freely with another hydrocarbon.",
+   "Toluene does not mix with water: it has no polar group to attract water molecules, so the two form separate layers.",
+   "The solubility part is right, but toluene is less dense than water (0.87 g/mL vs 1.00 g/mL), so its layer is not on the bottom."
+  ],
+  "html": {
+   "prompt": "A few mL of toluene (density 0.87 g/mL) are shaken with water in one test tube and with hexane in another. What is observed?",
+   "choices": [
+    "It mixes with hexane but forms a layer on top of the water.",
+    "It mixes with water but forms a separate layer with the hexane.",
+    "It mixes completely with both the water and the hexane.",
+    "It mixes with hexane but forms a layer below the water."
+   ],
+   "hint": "\"Like dissolves like.\" Is toluene polar or nonpolar? Then compare its density with water's.",
+   "explain": "Toluene is a nonpolar hydrocarbon, so it mixes with nonpolar hexane but not with polar water. It is less dense than water (0.87 vs 1.00 g/mL), so <b>it mixes with hexane and floats as a layer on the water</b>.",
+   "why": [
+    "",
+    "This reverses the solubility. Toluene is nonpolar, so it cannot hydrogen bond with water but mixes freely with another hydrocarbon.",
+    "Toluene does not mix with water: it has no polar group to attract water molecules, so the two form separate layers.",
+    "The solubility part is right, but toluene is less dense than water (0.87 g/mL vs 1.00 g/mL), so its layer is not on the bottom."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1149
+  }
+ },
+ {
+  "id": "finalexam-9d4bcb45",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Rank benzoic acid (C₆H₅COOH), benzaldehyde (C₆H₅CHO) and toluene (C₆H₅CH₃) from highest to lowest boiling point.",
+  "choices": [
+   "benzoic acid > benzaldehyde > toluene",
+   "benzaldehyde > benzoic acid > toluene",
+   "toluene > benzaldehyde > benzoic acid",
+   "benzoic acid > toluene > benzaldehyde"
+  ],
+  "answer": "benzoic acid > benzaldehyde > toluene",
+  "hint": "Find the strongest intermolecular force for each: hydrogen bonding, dipole–dipole, or dispersion only.",
+  "explain": "Benzoic acid has an O–H and hydrogen bonds to itself (bp about 249 °C). Benzaldehyde has a polar C=O but no O–H, so it has dipole–dipole forces (bp about 178 °C). Toluene is nonpolar with only dispersion forces (bp about 111 °C). Order: benzoic acid > benzaldehyde > toluene.",
+  "why": [
+   "",
+   "An aldehyde has no H on O, so it cannot hydrogen bond to itself. The carboxylic acid's O–H hydrogen bonds give it the higher boiling point.",
+   "This order is reversed. A nonpolar hydrocarbon with only dispersion forces boils lowest, not highest.",
+   "Toluene is nonpolar, so it has weaker attractions than the polar aldehyde. A polar C=O adds dipole–dipole forces and raises the boiling point."
+  ],
+  "html": {
+   "prompt": "Rank benzoic acid (C<sub>6</sub>H<sub>5</sub>COOH), benzaldehyde (C<sub>6</sub>H<sub>5</sub>CHO) and toluene (C<sub>6</sub>H<sub>5</sub>CH<sub>3</sub>) from <b>highest</b> to <b>lowest</b> boiling point.",
+   "choices": [
+    "benzoic acid > benzaldehyde > toluene",
+    "benzaldehyde > benzoic acid > toluene",
+    "toluene > benzaldehyde > benzoic acid",
+    "benzoic acid > toluene > benzaldehyde"
+   ],
+   "hint": "Find the strongest intermolecular force for each: hydrogen bonding, dipole–dipole, or dispersion only.",
+   "explain": "Benzoic acid has an O–H and hydrogen bonds to itself (bp about 249 °C). Benzaldehyde has a polar C=O but no O–H, so it has dipole–dipole forces (bp about 178 °C). Toluene is nonpolar with only dispersion forces (bp about 111 °C). Order: <b>benzoic acid > benzaldehyde > toluene</b>.",
+   "why": [
+    "",
+    "An aldehyde has no H on O, so it cannot hydrogen bond to itself. The carboxylic acid's O–H hydrogen bonds give it the higher boiling point.",
+    "This order is reversed. A nonpolar hydrocarbon with only dispersion forces boils lowest, not highest.",
+    "Toluene is nonpolar, so it has weaker attractions than the polar aldehyde. A polar C=O adds dipole–dipole forces and raises the boiling point."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1150
+  }
+ },
+ {
+  "id": "finalexam-76f3c337",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Cyclohexene reacts with Br₂ at room temperature without a catalyst. Benzene reacts with Br₂ only when FeBr₃ is added. Which pair of organic products is correct?",
+  "choices": [
+   "cyclohexene: 1,2-dibromocyclohexane; benzene: bromobenzene",
+   "cyclohexene: bromocyclohexene; benzene: bromobenzene",
+   "cyclohexene: 1,2-dibromocyclohexane; benzene: 1,2-dibromocyclohexadiene",
+   "cyclohexene: bromocyclohexene; benzene: 1,2-dibromobenzene"
+  ],
+  "answer": "cyclohexene: 1,2-dibromocyclohexane; benzene: bromobenzene",
+  "hint": "Compare addition and substitution. Which reaction type leaves a ring’s double bonds in place, and which compound would want to keep them?",
+  "explain": "An alkene undergoes addition: Br₂ adds across the C=C to give 1,2-dibromocyclohexane. Benzene undergoes substitution: one Br replaces one H (HBr is the by-product), so the aromatic ring survives. Answer: 1,2-dibromocyclohexane and bromobenzene.",
+  "why": [
+   "",
+   "The benzene product is right, but an alkene adds both Br atoms across its double bond. Replacing an H is not what Br₂ does to a C=C.",
+   "The cyclohexene product is right, but benzene does not add Br₂ across a double bond. Addition would destroy its stable aromatic ring.",
+   "Both are wrong: the alkene adds Br₂ rather than swapping an H, and one Br₂ replaces only one ring H on benzene."
+  ],
+  "html": {
+   "prompt": "Cyclohexene reacts with Br<sub>2</sub> at room temperature without a catalyst. Benzene reacts with Br<sub>2</sub> only when FeBr<sub>3</sub> is added. Which pair of organic products is correct?",
+   "choices": [
+    "cyclohexene: 1,2-dibromocyclohexane; benzene: bromobenzene",
+    "cyclohexene: bromocyclohexene; benzene: bromobenzene",
+    "cyclohexene: 1,2-dibromocyclohexane; benzene: 1,2-dibromocyclohexadiene",
+    "cyclohexene: bromocyclohexene; benzene: 1,2-dibromobenzene"
+   ],
+   "hint": "Compare addition and substitution. Which reaction type leaves a ring’s double bonds in place, and which compound would want to keep them?",
+   "explain": "An alkene undergoes <b>addition</b>: Br<sub>2</sub> adds across the C=C to give 1,2-dibromocyclohexane. Benzene undergoes <b>substitution</b>: one Br replaces one H (HBr is the by-product), so the aromatic ring survives. Answer: <b>1,2-dibromocyclohexane and bromobenzene</b>.",
+   "why": [
+    "",
+    "The benzene product is right, but an alkene adds both Br atoms across its double bond. Replacing an H is not what Br<sub>2</sub> does to a C=C.",
+    "The cyclohexene product is right, but benzene does not add Br<sub>2</sub> across a double bond. Addition would destroy its stable aromatic ring.",
+    "Both are wrong: the alkene adds Br<sub>2</sub> rather than swapping an H, and one Br<sub>2</sub> replaces only one ring H on benzene."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1151
+  }
+ },
+ {
+  "id": "finalexam-e53fdf78",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Benzene can be halogenated, nitrated or sulfonated in one step. Which compound shown can be made from benzene in a single one of these reactions?",
+  "choices": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "answer": "§A",
+  "hint": "Recall which group each of the three reactions attaches, and check whether the ring is still aromatic afterward.",
+  "explain": "Sulfonation (SO₃, H₂SO₄) replaces one ring H with –SO₃H in one step, so benzenesulfonic acid can be made directly. None of the other groups is put on the ring by halogenation, nitration or sulfonation.",
+  "why": [
+   "",
+   "This ring carries –NH₂ (aniline). Nitration adds –NO₂; turning that into –NH₂ would take a second reaction.",
+   "This ring carries –OH (phenol). None of the three reactions puts an –OH group on the ring.",
+   "This ring is saturated (no double bonds). Benzene substitution keeps the ring aromatic; a chlorocyclohexane would need the ring's double bonds removed."
+  ],
+  "html": {
+   "prompt": "Benzene can be halogenated, nitrated or sulfonated in one step. Which compound shown can be made from benzene in a <b>single</b> one of these reactions?",
+   "choices": [
+    "§A",
+    "§B",
+    "§C",
+    "§D"
+   ],
+   "hint": "Recall which group each of the three reactions attaches, and check whether the ring is still aromatic afterward.",
+   "explain": "Sulfonation (SO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>) replaces one ring H with –SO<sub>3</sub>H in one step, so <b>benzenesulfonic acid</b> can be made directly. None of the other groups is put on the ring by halogenation, nitration or sulfonation.",
+   "why": [
+    "",
+    "This ring carries –NH<sub>2</sub> (aniline). Nitration adds –NO<sub>2</sub>; turning that into –NH<sub>2</sub> would take a second reaction.",
+    "This ring carries –OH (phenol). None of the three reactions puts an –OH group on the ring.",
+    "This ring is saturated (no double bonds). Benzene substitution keeps the ring aromatic; a chlorocyclohexane would need the ring's double bonds removed."
+   ]
+  },
+  "data": {
+   "cs": [
+    {
+     "smi": "OS(=O)(=O)C1=CC=CC=C1"
+    },
+    {
+     "smi": "NC1=CC=CC=C1"
+    },
+    {
+     "smi": "OC1=CC=CC=C1"
+    },
+    {
+     "smi": "ClC1CCCCC1"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1152
+  }
+ },
+ {
+  "id": "finalexam-ba8a121f",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "ortho-Xylene, shown, reacts with Cl₂ and FeCl₃ so that one ring H is replaced by Cl. How many different monochloro products are possible?",
+  "choices": [
+   "2",
+   "4",
+   "1",
+   "3"
+  ],
+  "answer": "2",
+  "hint": "Find which of the four ring H atoms are equivalent by the molecule's symmetry (a mirror line runs between the two CH₃ groups).",
+  "explain": "o-Xylene has four ring H atoms, but its mirror symmetry makes them equivalent in pairs: the two next to a CH₃ (C3 and C6) and the two farther away (C4 and C5). Replacing an H from each pair gives 3-chloro- and 4-chloro-1,2-dimethylbenzene: 2 products.",
+  "why": [
+   "",
+   "This counts every ring H as unique. The mirror line between the CH₃ groups makes the ring H atoms equivalent in pairs.",
+   "Not all four ring H atoms are equivalent. An H next to a CH₃ group is in a different spot from one that is farther away.",
+   "This treats the two H atoms in one pair as different. Mirror symmetry makes the two H atoms in each pair identical, so each pair gives just one product."
+  ],
+  "html": {
+   "prompt": "<i>ortho</i>-Xylene, shown, reacts with Cl<sub>2</sub> and FeCl<sub>3</sub> so that one ring H is replaced by Cl. How many <b>different</b> monochloro products are possible?",
+   "choices": [
+    "2",
+    "4",
+    "1",
+    "3"
+   ],
+   "hint": "Find which of the four ring H atoms are equivalent by the molecule's symmetry (a mirror line runs between the two CH<sub>3</sub> groups).",
+   "explain": "<i>o</i>-Xylene has four ring H atoms, but its mirror symmetry makes them equivalent in pairs: the two next to a CH<sub>3</sub> (C3 and C6) and the two farther away (C4 and C5). Replacing an H from each pair gives 3-chloro- and 4-chloro-1,2-dimethylbenzene: <b>2</b> products.",
+   "why": [
+    "",
+    "This counts every ring H as unique. The mirror line between the CH<sub>3</sub> groups makes the ring H atoms equivalent in pairs.",
+    "Not all four ring H atoms are equivalent. An H next to a CH<sub>3</sub> group is in a different spot from one that is farther away.",
+    "This treats the two H atoms in one pair as different. Mirror symmetry makes the two H atoms in each pair identical, so each pair gives just one product."
+   ]
+  },
+  "data": {
+   "s": [
+    {
+     "smi": "CC1=CC=CC=C1C"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1153
+  }
+ },
+ {
+  "id": "finalexam-63524136",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Two drawings of dichlorobenzene are shown. In I the bond between the two Cl-bearing carbons is drawn as a double bond; in II it is drawn as a single bond. How are I and II related?",
+  "choices": [
+   "They are the same compound drawn as two resonance forms.",
+   "They are two different isomers that can be separated.",
+   "They are cis and trans isomers of the same ring.",
+   "They are two compounds that quickly convert back and forth."
+  ],
+  "answer": "They are the same compound drawn as two resonance forms.",
+  "hint": "In benzene, are any of the six C–C bonds really different from the others?",
+  "explain": "Only the positions of the double bonds differ; every atom is in the same place. Benzene's pi electrons are spread evenly, so all six C–C bonds are identical and both drawings show ortho-dichlorobenzene. They are two resonance forms of one compound.",
+  "why": [
+   "",
+   "Isomers differ in how atoms are connected or arranged in space. Here the Cl atoms are on the same two neighboring carbons in both drawings.",
+   "Cis/trans isomers need restricted rotation with groups on the same or opposite sides. Both Cl atoms are in the flat ring plane in each drawing.",
+   "These are not two separate molecules. No atom moves between the drawings; only the double-bond lines are placed differently."
+  ],
+  "html": {
+   "prompt": "Two drawings of dichlorobenzene are shown. In I the bond between the two Cl-bearing carbons is drawn as a double bond; in II it is drawn as a single bond. How are I and II related?",
+   "choices": [
+    "They are the same compound drawn as two resonance forms.",
+    "They are two different isomers that can be separated.",
+    "They are cis and trans isomers of the same ring.",
+    "They are two compounds that quickly convert back and forth."
+   ],
+   "hint": "In benzene, are any of the six C–C bonds really different from the others?",
+   "explain": "Only the positions of the double bonds differ; every atom is in the same place. Benzene's pi electrons are spread evenly, so all six C–C bonds are identical and both drawings show <i>ortho</i>-dichlorobenzene. They are <b>two resonance forms of one compound</b>.",
+   "why": [
+    "",
+    "Isomers differ in how atoms are connected or arranged in space. Here the Cl atoms are on the same two neighboring carbons in both drawings.",
+    "Cis/trans isomers need restricted rotation with groups on the same or opposite sides. Both Cl atoms are in the flat ring plane in each drawing.",
+    "These are not two separate molecules. No atom moves between the drawings; only the double-bond lines are placed differently."
+   ]
+  },
+  "data": {
+   "s": [
+    {
+     "skel": true,
+     "cap": "I",
+     "a": [
+      [
+       "Cl",
+       -1.949,
+       1.5,
+       0,
+       0
+      ],
+      [
+       "C",
+       -0.65,
+       0.75,
+       0,
+       0
+      ],
+      [
+       "C",
+       0.65,
+       1.5,
+       0,
+       0
+      ],
+      [
+       "C",
+       1.949,
+       0.75,
+       0,
+       0
+      ],
+      [
+       "C",
+       1.949,
+       -0.75,
+       0,
+       0
+      ],
+      [
+       "C",
+       0.65,
+       -1.5,
+       0,
+       0
+      ],
+      [
+       "C",
+       -0.65,
+       -0.75,
+       0,
+       0
+      ],
+      [
+       "Cl",
+       -1.949,
+       -1.5,
+       0,
+       0
+      ]
+     ],
+     "b": [
+      [
+       0,
+       1,
+       1
+      ],
+      [
+       1,
+       2,
+       1
+      ],
+      [
+       2,
+       3,
+       2
+      ],
+      [
+       3,
+       4,
+       1
+      ],
+      [
+       4,
+       5,
+       2
+      ],
+      [
+       5,
+       6,
+       1
+      ],
+      [
+       6,
+       7,
+       1
+      ],
+      [
+       6,
+       1,
+       2
+      ]
+     ]
+    },
+    {
+     "skel": true,
+     "cap": "II",
+     "a": [
+      [
+       "Cl",
+       -1.949,
+       1.5,
+       0,
+       0
+      ],
+      [
+       "C",
+       -0.65,
+       0.75,
+       0,
+       0
+      ],
+      [
+       "C",
+       0.65,
+       1.5,
+       0,
+       0
+      ],
+      [
+       "C",
+       1.949,
+       0.75,
+       0,
+       0
+      ],
+      [
+       "C",
+       1.949,
+       -0.75,
+       0,
+       0
+      ],
+      [
+       "C",
+       0.65,
+       -1.5,
+       0,
+       0
+      ],
+      [
+       "C",
+       -0.65,
+       -0.75,
+       0,
+       0
+      ],
+      [
+       "Cl",
+       -1.949,
+       -1.5,
+       0,
+       0
+      ]
+     ],
+     "b": [
+      [
+       0,
+       1,
+       1
+      ],
+      [
+       1,
+       2,
+       2
+      ],
+      [
+       2,
+       3,
+       1
+      ],
+      [
+       3,
+       4,
+       2
+      ],
+      [
+       4,
+       5,
+       1
+      ],
+      [
+       5,
+       6,
+       2
+      ],
+      [
+       6,
+       7,
+       1
+      ],
+      [
+       6,
+       1,
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1154
+  }
+ },
+ {
+  "id": "finalexam-4a1653ec",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "TNT is 2,4,6-trinitrotoluene. Which structure is TNT?",
+  "choices": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "answer": "§A",
+  "hint": "Toluene is the parent: the CH₃ carbon is C1. Place the –NO₂ groups on C2, C4 and C6.",
+  "explain": "With the CH₃ carbon as C1, C2 and C6 are the two carbons next to it and C4 is directly across. The drawing with –NO₂ on both ortho carbons and the para carbon is 2,4,6-trinitrotoluene.",
+  "why": [
+   "",
+   "Here the three –NO₂ groups are on three neighboring carbons (2,3,4). That is not the 2,4,6 pattern, which alternates around the ring.",
+   "Here the –NO₂ groups are on C3, C4 and C5, away from the CH₃. That numbering does not match 2,4,6.",
+   "The pattern is 2,4,6, but the ring carries –OH instead of –CH₃. That is a nitrophenol (picric acid), not a toluene."
+  ],
+  "html": {
+   "prompt": "TNT is 2,4,6-trinitrotoluene. Which structure is TNT?",
+   "choices": [
+    "§A",
+    "§B",
+    "§C",
+    "§D"
+   ],
+   "hint": "Toluene is the parent: the CH<sub>3</sub> carbon is C1. Place the –NO<sub>2</sub> groups on C2, C4 and C6.",
+   "explain": "With the CH<sub>3</sub> carbon as C1, C2 and C6 are the two carbons next to it and C4 is directly across. The drawing with –NO<sub>2</sub> on <b>both ortho carbons and the para carbon</b> is 2,4,6-trinitrotoluene.",
+   "why": [
+    "",
+    "Here the three –NO<sub>2</sub> groups are on three neighboring carbons (2,3,4). That is not the 2,4,6 pattern, which alternates around the ring.",
+    "Here the –NO<sub>2</sub> groups are on C3, C4 and C5, away from the CH<sub>3</sub>. That numbering does not match 2,4,6.",
+    "The pattern is 2,4,6, but the ring carries –OH instead of –CH<sub>3</sub>. That is a nitrophenol (picric acid), not a toluene."
+   ]
+  },
+  "data": {
+   "cs": [
+    {
+     "smi": "CC1=C([N+](=O)[O-])C=C([N+](=O)[O-])C=C1[N+](=O)[O-]"
+    },
+    {
+     "smi": "CC1=CC=C([N+](=O)[O-])C([N+](=O)[O-])=C1[N+](=O)[O-]"
+    },
+    {
+     "smi": "CC1=CC([N+](=O)[O-])=C([N+](=O)[O-])C([N+](=O)[O-])=C1"
+    },
+    {
+     "smi": "OC1=C([N+](=O)[O-])C=C([N+](=O)[O-])C=C1[N+](=O)[O-]"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1155
+  }
+ },
+ {
+  "id": "finalexam-7df76157",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "What is the IUPAC name of the compound shown?",
+  "choices": [
+   "1-bromo-3-ethylbenzene",
+   "1-ethyl-3-bromobenzene",
+   "1-bromo-4-ethylbenzene",
+   "1-bromo-3-ethylcyclohexane"
+  ],
+  "answer": "1-bromo-3-ethylbenzene",
+  "hint": "Benzene is the parent. Number the ring to give the lowest locants, and list the substituents in alphabetical order.",
+  "explain": "One ring carbon sits between the Br and the ethyl group, so they are 1,3 (meta). Substituents are listed alphabetically (bromo before ethyl), and the first-listed group gets C1: 1-bromo-3-ethylbenzene (m-bromoethylbenzene).",
+  "why": [
+   "",
+   "The locants are right, but substituent names go in alphabetical order, and b comes before e.",
+   "4- would put the groups directly across the ring (para). In the drawing there is one carbon between them.",
+   "The ring has three alternating double bonds, so it is a benzene ring, not a saturated cyclohexane."
+  ],
+  "html": {
+   "prompt": "What is the IUPAC name of the compound shown?",
+   "choices": [
+    "1-bromo-3-ethylbenzene",
+    "1-ethyl-3-bromobenzene",
+    "1-bromo-4-ethylbenzene",
+    "1-bromo-3-ethylcyclohexane"
+   ],
+   "hint": "Benzene is the parent. Number the ring to give the lowest locants, and list the substituents in alphabetical order.",
+   "explain": "One ring carbon sits between the Br and the ethyl group, so they are 1,3 (<i>meta</i>). Substituents are listed alphabetically (bromo before ethyl), and the first-listed group gets C1: <b>1-bromo-3-ethylbenzene</b> (<i>m</i>-bromoethylbenzene).",
+   "why": [
+    "",
+    "The locants are right, but substituent names go in alphabetical order, and b comes before e.",
+    "4- would put the groups directly across the ring (<i>para</i>). In the drawing there is one carbon between them.",
+    "The ring has three alternating double bonds, so it is a benzene ring, not a saturated cyclohexane."
+   ]
+  },
+  "data": {
+   "s": [
+    {
+     "smi": "CCC1=CC=CC(Br)=C1"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1156
+  }
+ },
+ {
+  "id": "finalexam-ce40357a",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Which statements about benzene are correct? I. All six carbons are sp² and the ring is flat. II. With Br₂ and FeBr₃ it undergoes substitution, not addition. III. Its formula, C₆H₆, shows that it is a saturated hydrocarbon.",
+  "choices": [
+   "I and II only",
+   "II and III only",
+   "I and III only",
+   "II only"
+  ],
+  "answer": "I and II only",
+  "hint": "A saturated hydrocarbon has only single bonds. How many H would a saturated six-carbon ring have?",
+  "explain": "I is true: each carbon has three groups (two C, one H) and a p orbital in the ring's pi system, so the ring is flat. II is true: benzene keeps its aromatic ring by substitution. III is false: a saturated six-carbon ring is C₆H₁₂; C₆H₆ is highly unsaturated. Answer: I and II only.",
+  "why": [
+   "",
+   "Statement III is false: C₆H₆ has six fewer H atoms than the saturated ring C₆H₁₂. Statement I was also left out, yet every ring carbon is sp².",
+   "Statement III is false: benzene is unsaturated, with three C=C in its Kekulé drawing. Statement II was also left out, yet benzene substitutes rather than adds.",
+   "Statement I is also true: each ring carbon is sp², with three bonding groups and one p orbital, and the ring is flat."
+  ],
+  "html": {
+   "prompt": "Which statements about benzene are correct?<br>I. All six carbons are sp<sup>2</sup> and the ring is flat.<br>II. With Br<sub>2</sub> and FeBr<sub>3</sub> it undergoes substitution, not addition.<br>III. Its formula, C<sub>6</sub>H<sub>6</sub>, shows that it is a saturated hydrocarbon.",
+   "choices": [
+    "I and II only",
+    "II and III only",
+    "I and III only",
+    "II only"
+   ],
+   "hint": "A saturated hydrocarbon has only single bonds. How many H would a saturated six-carbon ring have?",
+   "explain": "I is true: each carbon has three groups (two C, one H) and a p orbital in the ring's pi system, so the ring is flat. II is true: benzene keeps its aromatic ring by substitution. III is false: a saturated six-carbon ring is C<sub>6</sub>H<sub>12</sub>; C<sub>6</sub>H<sub>6</sub> is highly unsaturated. Answer: <b>I and II only</b>.",
+   "why": [
+    "",
+    "Statement III is false: C<sub>6</sub>H<sub>6</sub> has six fewer H atoms than the saturated ring C<sub>6</sub>H<sub>12</sub>. Statement I was also left out, yet every ring carbon is sp<sup>2</sup>.",
+    "Statement III is false: benzene is unsaturated, with three C=C in its Kekulé drawing. Statement II was also left out, yet benzene substitutes rather than adds.",
+    "Statement I is also true: each ring carbon is sp<sup>2</sup>, with three bonding groups and one p orbital, and the ring is flat."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1157
+  }
+ },
+ {
+  "id": "finalexam-d81ac581",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Anthracene, shown, is a PAH made of three benzene rings fused in a row. What is its molecular formula?",
+  "choices": [
+   "C₁₄H₁₀",
+   "C₁₈H₁₈",
+   "C₁₈H₁₂",
+   "C₁₄H₁₄"
+  ],
+  "answer": "C₁₄H₁₀",
+  "hint": "Fused rings share carbons. Count each carbon once, and remember a shared carbon has no H.",
+  "explain": "Each fusion shares two carbons, so three rings in a row have 6 + 4 + 4 = 14 carbons. The four shared carbons carry no H; the other ten each carry one H. Formula: C₁₄H₁₀.",
+  "why": [
+   "",
+   "This adds three separate benzene molecules. Fused rings share carbons, and shared carbons have no H.",
+   "This counts the carbons in three separate rings. The shared carbons belong to two rings at once and must be counted only once.",
+   "The carbon count is right, but the four carbons shared between rings have no room for an H atom."
+  ],
+  "html": {
+   "prompt": "Anthracene, shown, is a PAH made of three benzene rings fused in a row. What is its molecular formula?",
+   "choices": [
+    "C<sub>14</sub>H<sub>10</sub>",
+    "C<sub>18</sub>H<sub>18</sub>",
+    "C<sub>18</sub>H<sub>12</sub>",
+    "C<sub>14</sub>H<sub>14</sub>"
+   ],
+   "hint": "Fused rings share carbons. Count each carbon once, and remember a shared carbon has no H.",
+   "explain": "Each fusion shares two carbons, so three rings in a row have 6 + 4 + 4 = 14 carbons. The four shared carbons carry no H; the other ten each carry one H. Formula: <b>C<sub>14</sub>H<sub>10</sub></b>.",
+   "why": [
+    "",
+    "This adds three separate benzene molecules. Fused rings share carbons, and shared carbons have no H.",
+    "This counts the carbons in three separate rings. The shared carbons belong to two rings at once and must be counted only once.",
+    "The carbon count is right, but the four carbons shared between rings have no room for an H atom."
+   ]
+  },
+  "data": {
+   "s": [
+    {
+     "smi": "C1=CC=C2C=C3C=CC=CC3=CC2=C1"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1158
+  }
+ },
+ {
+  "id": "finalexam-c28563f8",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Thymol, from thyme oil, is an antiseptic in some mouthwashes. Its IUPAC name is 2-isopropyl-5-methylphenol. Which structure is thymol?",
+  "choices": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "answer": "§A",
+  "hint": "Start at the –OH carbon (C1). The isopropyl group is next to it; the methyl is on C5.",
+  "explain": "C1 carries the –OH. The isopropyl group is on the neighboring carbon (C2). Continuing around the ring in that direction, C5 is the carbon meta to the –OH and para to the isopropyl group; that is where the CH₃ goes. That drawing is thymol.",
+  "why": [
+   "",
+   "This swaps the two alkyl groups: the methyl is next to the –OH and the isopropyl is on C5. This is carvacrol (oregano oil), an isomer.",
+   "Here the methyl group is on C4, directly across from the –OH, not on C5.",
+   "This ring has no double bonds, so it is a cyclohexanol (menthol), not a phenol."
+  ],
+  "html": {
+   "prompt": "Thymol, from thyme oil, is an antiseptic in some mouthwashes. Its IUPAC name is 2-isopropyl-5-methylphenol. Which structure is thymol?",
+   "choices": [
+    "§A",
+    "§B",
+    "§C",
+    "§D"
+   ],
+   "hint": "Start at the –OH carbon (C1). The isopropyl group is next to it; the methyl is on C5.",
+   "explain": "C1 carries the –OH. The isopropyl group is on the neighboring carbon (C2). Continuing around the ring in that direction, C5 is the carbon <i>meta</i> to the –OH and <i>para</i> to the isopropyl group; that is where the CH<sub>3</sub> goes. That drawing is <b>thymol</b>.",
+   "why": [
+    "",
+    "This swaps the two alkyl groups: the methyl is next to the –OH and the isopropyl is on C5. This is carvacrol (oregano oil), an isomer.",
+    "Here the methyl group is on C4, directly across from the –OH, not on C5.",
+    "This ring has no double bonds, so it is a cyclohexanol (menthol), not a phenol."
+   ]
+  },
+  "data": {
+   "cs": [
+    {
+     "smi": "CC(C)C1=CC=C(C)C=C1O"
+    },
+    {
+     "smi": "CC1=CC=C(C(C)C)C=C1O"
+    },
+    {
+     "smi": "CC(C)C1=CC(C)=CC=C1O"
+    },
+    {
+     "smi": "CC(C)C1CCC(C)CC1O"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1159
+  }
+ },
+ {
+  "id": "finalexam-a7e61385",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "original",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "2-Phenylethanol gives roses their scent and is also a preservative in some eye drops. Which structure is 2-phenylethanol?",
+  "choices": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "answer": "§A",
+  "hint": "Ethanol is the parent chain (C1 holds the –OH). A phenyl group, C₆H₅–, sits on C2.",
+  "explain": "The parent is a two-carbon alcohol, –CH₂CH₂OH, with C1 bonded to the –OH. A phenyl ring (a benzene ring as a substituent) is on C2, the far carbon: C₆H₅CH₂CH₂OH.",
+  "why": [
+   "",
+   "Here the ring and the –OH are on the same carbon, C1. That is 1-phenylethanol.",
+   "Here the –OH is on the ring itself, which makes the compound a phenol with an ethyl group, not an ethanol.",
+   "This ring has no double bonds: it is a cyclohexyl group, not a phenyl group."
+  ],
+  "html": {
+   "prompt": "2-Phenylethanol gives roses their scent and is also a preservative in some eye drops. Which structure is 2-phenylethanol?",
+   "choices": [
+    "§A",
+    "§B",
+    "§C",
+    "§D"
+   ],
+   "hint": "Ethanol is the parent chain (C1 holds the –OH). A phenyl group, C<sub>6</sub>H<sub>5</sub>–, sits on C2.",
+   "explain": "The parent is a two-carbon alcohol, –CH<sub>2</sub>CH<sub>2</sub>OH, with C1 bonded to the –OH. A phenyl ring (a benzene ring as a substituent) is on C2, the far carbon: <b>C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>CH<sub>2</sub>OH</b>.",
+   "why": [
+    "",
+    "Here the ring and the –OH are on the same carbon, C1. That is 1-phenylethanol.",
+    "Here the –OH is on the ring itself, which makes the compound a phenol with an ethyl group, not an ethanol.",
+    "This ring has no double bonds: it is a cyclohexyl group, not a phenyl group."
+   ]
+  },
+  "data": {
+   "cs": [
+    {
+     "smi": "OCCC1=CC=CC=C1"
+    },
+    {
+     "smi": "CC(O)C1=CC=CC=C1"
+    },
+    {
+     "smi": "CCC1=CC=CC=C1O"
+    },
+    {
+     "smi": "OCCC1CCCCC1"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1160
   }
  }
 ]

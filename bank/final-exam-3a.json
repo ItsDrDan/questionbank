@@ -5408,7 +5408,7 @@
   }
  },
  {
-  "id": "finalexam-7b02be03",
+  "id": "finalexam-f5216388",
   "skill": "finalexam.3a.gases",
   "courses": [
    "3A"
@@ -5425,14 +5425,14 @@
   "calc": true,
   "prompt": "A balloon containing 0.50 mol of helium has a volume of 12.0 L. If 0.25 mol of helium is added at constant temperature and pressure, what is the new volume?",
   "choices": [
-   "18.0 L",
+   "18 L",
    "6.0 L",
    "9.0 L",
    "8.0 L"
   ],
-  "answer": "18.0 L",
+  "answer": "18 L",
   "hint": "Avogadro's law: V₁/n₁ = V₂/n₂. Find the new total number of moles first.",
-  "explain": "n₂ = 0.50 + 0.25 = 0.75 mol. V₂ = 12.0 L × (0.75/0.50) = 18.0 L. Using 0.25 mol as n₂ gives 6.0 L, which ignores the helium already present; 9.0 L multiplies 12.0 L by the new 0.75 mol without dividing by the original 0.50 mol.",
+  "explain": "n₂ = 0.50 + 0.25 = 0.75 mol. V₂ = 12.0 L × (0.75/0.50) = 18 L (two significant figures, set by the 0.50 and 0.75 mol). Using 0.25 mol as n₂ gives 6.0 L, which ignores the helium already present; 9.0 L multiplies 12.0 L by the new 0.75 mol without dividing by the original 0.50 mol.",
   "why": [
    "",
    "This uses only the added 0.25 mol. The helium already in the balloon is still there.",
@@ -5442,13 +5442,13 @@
   "html": {
    "prompt": "A balloon containing 0.50 mol of helium has a volume of 12.0 L. If 0.25 mol of helium is added at constant temperature and pressure, what is the new volume?",
    "choices": [
-    "18.0 L",
+    "18 L",
     "6.0 L",
     "9.0 L",
     "8.0 L"
    ],
    "hint": "Avogadro's law: V<sub>1</sub>/n<sub>1</sub> = V<sub>2</sub>/n<sub>2</sub>. Find the new total number of moles first.",
-   "explain": "n<sub>2</sub> = 0.50 + 0.25 = 0.75 mol. V<sub>2</sub> = 12.0 L × (0.75/0.50) = <b>18.0 L</b>. Using 0.25 mol as n<sub>2</sub> gives 6.0 L, which ignores the helium already present; 9.0 L multiplies 12.0 L by the new 0.75 mol without dividing by the original 0.50 mol.",
+   "explain": "n<sub>2</sub> = 0.50 + 0.25 = 0.75 mol. V<sub>2</sub> = 12.0 L × (0.75/0.50) = <b>18 L</b> (two significant figures, set by the 0.50 and 0.75 mol). Using 0.25 mol as n<sub>2</sub> gives 6.0 L, which ignores the helium already present; 9.0 L multiplies 12.0 L by the new 0.75 mol without dividing by the original 0.50 mol.",
    "why": [
     "",
     "This uses only the added 0.25 mol. The helium already in the balloon is still there.",
@@ -6042,7 +6042,7 @@
    "",
    "This flips the equation. The concentrated acid volume should be small.",
    "150 is only M₂V₂, which is not a volume yet. Finish solving M₁V₁ = M₂V₂ for V₁.",
-   "This is not the volume of concentrated acid. A concentrated stock is used in a small amount, so solve M₁V₁ = M₂V₂ for V₁."
+   "488 mL is close to the total volume: it is the water you would add, not the volume of concentrated acid. Solve M₁V₁ = M₂V₂ for V₁, the acid you measure out."
   ],
   "html": {
    "prompt": "What volume of 12.0 M HCl is needed to prepare 500. mL of 0.300 M HCl?",
@@ -6058,7 +6058,7 @@
     "",
     "This flips the equation. The concentrated acid volume should be small.",
     "150 is only M₂V₂, which is not a volume yet. Finish solving M₁V₁ = M₂V₂ for V₁.",
-    "This is not the volume of concentrated acid. A concentrated stock is used in a small amount, so solve M₁V₁ = M₂V₂ for V₁."
+    "488 mL is close to the total volume: it is the water you would add, not the volume of concentrated acid. Solve M₁V₁ = M₂V₂ for V₁, the acid you measure out."
    ]
   },
   "from": {
@@ -6262,7 +6262,7 @@
    "",
    "This forgets that 100 mL is only 0.100 L.",
    "9.0 is grams per liter, not moles per liter. Divide by the molar mass.",
-   "Check the volume: 0.90 g per 100 mL is 9.0 g per liter."
+   "This divides by 0.0100 L, as if 100 mL were 10 mL. 100 mL is 0.100 L, so 0.90 g per 100 mL is 9.0 g per liter."
   ],
   "html": {
    "prompt": "Normal saline is 0.90% (m/v) NaCl. What is its molarity? (NaCl = 58.44 g mol⁻¹)",
@@ -6278,7 +6278,7 @@
     "",
     "This forgets that 100 mL is only 0.100 L.",
     "9.0 is grams per liter, not moles per liter. Divide by the molar mass.",
-    "Check the volume: 0.90 g per 100 mL is 9.0 g per liter."
+    "This divides by 0.0100 L, as if 100 mL were 10 mL. 100 mL is 0.100 L, so 0.90 g per 100 mL is 9.0 g per liter."
    ]
   },
   "from": {
@@ -9369,7 +9369,7 @@
   ],
   "answer": "4",
   "hint": "Non-zero digits count, zeros between them count, and trailing zeros count only when a decimal point is written.",
-  "explain": "The 2 counts. The zero right after it is sandwiched between the 2 and the decimal-point zeros, and the two trailing zeros count because a decimal point is shown, so there are 4. Picking 1 or 2 means you dropped zeros that the decimal point makes significant.",
+  "explain": "The 2 counts. The two zeros after the decimal point count because a decimal point is shown, and the zero between the 2 and the decimal point counts because it sits between significant digits, so there are 4. Picking 1 or 2 means you dropped zeros that the decimal point makes significant.",
   "why": [
    "",
    "This drops the trailing zeros. With a decimal point, they count.",
@@ -9385,7 +9385,7 @@
     "3"
    ],
    "hint": "Non-zero digits count, zeros between them count, and trailing zeros count only when a decimal point is written.",
-   "explain": "The 2 counts. The zero right after it is sandwiched between the 2 and the decimal-point zeros, and the two trailing zeros count because a decimal point is shown, so there are <b>4</b>. Picking 1 or 2 means you dropped zeros that the decimal point makes significant.",
+   "explain": "The 2 counts. The two zeros after the decimal point count because a decimal point is shown, and the zero between the 2 and the decimal point counts because it sits between significant digits, so there are <b>4</b>. Picking 1 or 2 means you dropped zeros that the decimal point makes significant.",
    "why": [
     "",
     "This drops the trailing zeros. With a decimal point, they count.",
@@ -11186,7 +11186,7 @@
   ],
   "answer": "0.200 M",
   "hint": "Grams → moles of Na₂SO₄ → divide by liters. Then ask: how many Na⁺ ions does each formula unit release?",
-  "explain": "Molar mass Na₂SO₄ = 142.04 g mol⁻¹, so 3.55 g = 0.0250 mol; ÷ 0.250 L = 0.100 M Na₂SO₄. Each unit gives 2 Na⁺, so [Na⁺] = 0.200 M. 0.100 M is the salt concentration (off by the factor of 2), and 0.0250 M forgets to divide by the volume.",
+  "explain": "Molar mass Na₂SO₄ = 142.05 g mol⁻¹, so 3.55 g = 0.0250 mol; ÷ 0.250 L = 0.100 M Na₂SO₄. Each unit gives 2 Na⁺, so [Na⁺] = 0.200 M. 0.100 M is the salt concentration (off by the factor of 2), and 0.0250 M forgets to divide by the volume.",
   "why": [
    "",
    "0.100 M is the Na₂SO₄ concentration. Each unit gives 2 Na⁺.",
@@ -11202,7 +11202,7 @@
     "0.0250 M"
    ],
    "hint": "Grams → moles of Na<sub>2</sub>SO<sub>4</sub> → divide by liters. Then ask: how many Na<sup>+</sup> ions does each formula unit release?",
-   "explain": "Molar mass Na<sub>2</sub>SO<sub>4</sub> = 142.04 g mol⁻¹, so 3.55 g = 0.0250 mol; ÷ 0.250 L = 0.100 M Na<sub>2</sub>SO<sub>4</sub>. Each unit gives 2 Na<sup>+</sup>, so [Na<sup>+</sup>] = <b>0.200 M</b>. 0.100 M is the salt concentration (off by the factor of 2), and 0.0250 M forgets to divide by the volume.",
+   "explain": "Molar mass Na<sub>2</sub>SO<sub>4</sub> = 142.05 g mol⁻¹, so 3.55 g = 0.0250 mol; ÷ 0.250 L = 0.100 M Na<sub>2</sub>SO<sub>4</sub>. Each unit gives 2 Na<sup>+</sup>, so [Na<sup>+</sup>] = <b>0.200 M</b>. 0.100 M is the salt concentration (off by the factor of 2), and 0.0250 M forgets to divide by the volume.",
    "why": [
     "",
     "0.100 M is the Na₂SO₄ concentration. Each unit gives 2 Na⁺.",
@@ -11246,7 +11246,7 @@
    "",
    "This flips the ratio. A diluted solution must have a larger volume.",
    "This multiplies by 0.600 M instead of dividing.",
-   "This is not the final volume of the solution. Solve M₁V₁ = M₂V₂ for V₂, the total volume after dilution."
+   "185 mL is the water you would add to the 15.0 mL of stock, not the final volume. Solve M₁V₁ = M₂V₂ for V₂, the total volume after dilution."
   ],
   "html": {
    "prompt": "To what final volume must 15.0 mL of 8.00 M NaOH be diluted to make a 0.600 M solution?",
@@ -11262,7 +11262,7 @@
     "",
     "This flips the ratio. A diluted solution must have a larger volume.",
     "This multiplies by 0.600 M instead of dividing.",
-    "This is not the final volume of the solution. Solve M₁V₁ = M₂V₂ for V₂, the total volume after dilution."
+    "185 mL is the water you would add to the 15.0 mL of stock, not the final volume. Solve M₁V₁ = M₂V₂ for V₂, the total volume after dilution."
    ]
   },
   "from": {
@@ -17984,8 +17984,7 @@
        3,
        1
       ]
-     ],
-     "br": "4−"
+     ]
     },
     {
      "a": [
@@ -18038,8 +18037,7 @@
        3,
        1
       ]
-     ],
-     "br": "2−"
+     ]
     },
     {
      "a": [
@@ -18092,8 +18090,7 @@
        3,
        1
       ]
-     ],
-     "br": "2−"
+     ]
     },
     {
      "a": [
@@ -18146,8 +18143,7 @@
        3,
        2
       ]
-     ],
-     "br": "2−"
+     ]
     }
    ]
   },
@@ -24154,7 +24150,7 @@
   ],
   "answer": "Iodine collects in the thyroid, and beta particles have a short range.",
   "hint": "Where in the body does iodine collect? How far do beta particles travel in tissue?",
-  "explain": "The thyroid takes up iodide to make its hormones, so I-131 collects there. Its beta particles travel only a few millimeters in tissue, so the dose is delivered mainly to the thyroid. Radioactive decay does not depend on location in the body.",
+  "explain": "The thyroid takes up iodide to make its hormones, so I-131 collects there. Its beta particles travel only about a millimeter or two in tissue, so the dose is delivered mainly to the thyroid. Radioactive decay does not depend on location in the body.",
   "why": [
    "",
    "Beta particles are absorbed by tissue. That's how they damage it.",
@@ -24170,7 +24166,7 @@
     "I-131 becomes radioactive only after the thyroid absorbs it."
    ],
    "hint": "Where in the body does iodine collect? How far do beta particles travel in tissue?",
-   "explain": "The thyroid takes up iodide to make its hormones, so I-131 collects there. Its beta particles travel only a few millimeters in tissue, so <b>the dose is delivered mainly to the thyroid</b>. Radioactive decay does not depend on location in the body.",
+   "explain": "The thyroid takes up iodide to make its hormones, so I-131 collects there. Its beta particles travel only about a millimeter or two in tissue, so <b>the dose is delivered mainly to the thyroid</b>. Radioactive decay does not depend on location in the body.",
    "why": [
     "",
     "Beta particles are absorbed by tissue. That's how they damage it.",
@@ -34104,7 +34100,7 @@
   ],
   "answer": "bile",
   "hint": "pH = −log[H₃O⁺], so [H₃O⁺] = 1 × 10⁻⁸ M corresponds to one specific pH.",
-  "explain": "[H₃O⁺] = 1 × 10⁻⁸ M means pH = 8, the bile bar. Saliva (pH 6.5) has about 3 × 10⁻⁷ M and blood (pH 7.4) about 4 × 10⁻⁸ M, which is more acidic than 10⁻⁸ M, not less: the exponent 8 belongs to pH 8 exactly.",
+  "explain": "[H₃O⁺] = 1 × 10⁻⁸ M means pH = 8, the bile bar. Saliva (pH 6.5) has about 3 × 10⁻⁷ M and blood (pH 7.4) about 4 × 10⁻⁸ M; both have more H₃O⁺ than 1 × 10⁻⁸ M, and stomach fluid (pH 1.5) has far more.",
   "why": [
    "",
    "Saliva's pH is about 6.5, not 8.",
@@ -34120,7 +34116,7 @@
     "stomach fluid"
    ],
    "hint": "pH = −log[H<sub>3</sub>O<sup>+</sup>], so [H<sub>3</sub>O<sup>+</sup>] = 1 × 10<sup>−8</sup> M corresponds to one specific pH.",
-   "explain": "[H<sub>3</sub>O<sup>+</sup>] = 1 × 10<sup>−8</sup> M means pH = 8, the <b>bile</b> bar. Saliva (pH 6.5) has about 3 × 10<sup>−7</sup> M and blood (pH 7.4) about 4 × 10<sup>−8</sup> M, which is more acidic than 10<sup>−8</sup> M, not less: the exponent 8 belongs to pH 8 exactly.",
+   "explain": "[H<sub>3</sub>O<sup>+</sup>] = 1 × 10<sup>−8</sup> M means pH = 8, the <b>bile</b> bar. Saliva (pH 6.5) has about 3 × 10<sup>−7</sup> M and blood (pH 7.4) about 4 × 10<sup>−8</sup> M; both have more H<sub>3</sub>O<sup>+</sup> than 1 × 10<sup>−8</sup> M, and stomach fluid (pH 1.5) has far more.",
    "why": [
     "",
     "Saliva's pH is about 6.5, not 8.",
@@ -37344,7 +37340,7 @@
    "0.870 g/mL",
    "1.15 g/mL",
    "348 g/mL",
-   "0.870 mL/g"
+   "0.0870 g/mL"
   ],
   "answer": "0.870 g/mL",
   "hint": "Density = mass &divide; volume. Write the units in the fraction too.",
@@ -37353,7 +37349,7 @@
    "",
    "This is volume divided by mass (20.0 &divide; 17.4); the fraction is upside down.",
    "This multiplies mass by volume; density divides mass by volume.",
-   "The number is right but the unit is inverted; mass &divide; volume gives g/mL."
+   "This is a decimal slip. 17.4 g in 20.0 mL is close to 1 g/mL, not 0.1 g/mL."
   ],
   "html": {
    "prompt": "A 20.0 mL sample of an alcohol-based hand sanitizer has a mass of 17.4 g. What is its density?",
@@ -37361,7 +37357,7 @@
     "0.870 g/mL",
     "1.15 g/mL",
     "348 g/mL",
-    "0.870 mL/g"
+    "0.0870 g/mL"
    ],
    "hint": "Density = mass &divide; volume. Write the units in the fraction too.",
    "explain": "d = m/V = 17.4 g &divide; 20.0 mL = <b>0.870 g/mL</b>. Check: the mass in grams is less than the volume in mL, so the density should be less than 1 g/mL, and it is.",
@@ -37369,7 +37365,7 @@
     "",
     "This is volume divided by mass (20.0 &divide; 17.4); the fraction is upside down.",
     "This multiplies mass by volume; density divides mass by volume.",
-    "The number is right but the unit is inverted; mass &divide; volume gives g/mL."
+    "This is a decimal slip. 17.4 g in 20.0 mL is close to 1 g/mL, not 0.1 g/mL."
    ]
   },
   "from": {
@@ -38282,7 +38278,7 @@
    "18.0 &times; 10² mL"
   ],
   "answer": "1.80 &times; 10³ mL",
-  "hint": "Under this book's rule, 1,800 shows only 2 significant figures. In scientific notation, every digit in A counts.",
+  "hint": "Written as 1,800 with no decimal point, the number shows only 2 significant figures. In scientific notation, every digit in A counts.",
   "explain": "Write A with exactly three digits: 1.80. The decimal point moved three places left, so the exponent is +3. Answer: 1.80 &times; 10³ mL.",
   "why": [
    "",
@@ -38298,7 +38294,7 @@
     "1.800 &times; 10<sup>3</sup> mL",
     "18.0 &times; 10<sup>2</sup> mL"
    ],
-   "hint": "Under this book's rule, 1,800 shows only 2 significant figures. In scientific notation, every digit in A counts.",
+   "hint": "Written as 1,800 with no decimal point, the number shows only 2 significant figures. In scientific notation, every digit in A counts.",
    "explain": "Write A with exactly three digits: 1.80. The decimal point moved three places left, so the exponent is +3. Answer: <b>1.80 &times; 10<sup>3</sup> mL</b>.",
    "why": [
     "",
@@ -39712,7 +39708,7 @@
    "The atom has a small, dense nucleus."
   ],
   "answer": "The beam is made of negatively charged particles.",
-  "hint": "Use the charge rules from Chapter 1: opposite charges attract, like charges repel.",
+  "hint": "Recall the charge rules: opposite charges attract, like charges repel.",
   "explain": "Opposite charges attract. A beam that bends toward the positive plate is negatively charged. Thomson showed the particles were the same for every metal he used: he had found the electron.",
   "why": [
    "",
@@ -39728,7 +39724,7 @@
     "The beam carries no charge.",
     "The atom has a small, dense nucleus."
    ],
-   "hint": "Use the charge rules from Chapter 1: opposite charges attract, like charges repel.",
+   "hint": "Recall the charge rules: opposite charges attract, like charges repel.",
    "explain": "Opposite charges attract. A beam that bends toward the positive plate is <b>negatively charged</b>. Thomson showed the particles were the same for every metal he used: he had found the electron.",
    "why": [
     "",
@@ -39878,7 +39874,7 @@
   ],
   "answer": "All atoms of a given element have the same mass.",
   "hint": "Isotopes are atoms of the same element that differ in the number of neutrons. Which of Dalton's ideas does that contradict?",
-  "explain": "Isotopes (Section 2.5) have the same number of protons but different numbers of neutrons, so atoms of the same element do not all have the same mass. Dalton's other main ideas have held up.",
+  "explain": "Isotopes have the same number of protons but different numbers of neutrons, so atoms of the same element do not all have the same mass. Dalton's other main ideas have held up.",
   "why": [
    "",
    "This idea still holds; it is why mass is conserved in a chemical reaction.",
@@ -39894,7 +39890,7 @@
     "Each element is made of tiny particles called atoms."
    ],
    "hint": "Isotopes are atoms of the same element that differ in the number of neutrons. Which of Dalton's ideas does that contradict?",
-   "explain": "Isotopes (Section 2.5) have the same number of protons but different numbers of neutrons, so <b>atoms of the same element do not all have the same mass</b>. Dalton's other main ideas have held up.",
+   "explain": "Isotopes have the same number of protons but different numbers of neutrons, so <b>atoms of the same element do not all have the same mass</b>. Dalton's other main ideas have held up.",
    "why": [
     "",
     "This idea still holds; it is why mass is conserved in a chemical reaction.",
@@ -39937,7 +39933,7 @@
   "why": [
    "",
    "The number of neutrons can differ among atoms of the same element, so it cannot define the element.",
-   "Protons plus neutrons is the mass number (A), which you will use in Section 2.5.",
+   "Protons plus neutrons is the mass number (A), not the atomic number.",
    "Ions have gained or lost electrons, so their electron count differs from Z; only a neutral atom has Z electrons."
   ],
   "html": {
@@ -39953,7 +39949,7 @@
    "why": [
     "",
     "The number of neutrons can differ among atoms of the same element, so it cannot define the element.",
-    "Protons plus neutrons is the mass number (A), which you will use in Section 2.5.",
+    "Protons plus neutrons is the mass number (A), not the atomic number.",
     "Ions have gained or lost electrons, so their electron count differs from Z; only a neutral atom has Z electrons."
    ]
   },
@@ -41309,7 +41305,7 @@
   }
  },
  {
-  "id": "finalexam-49cac8aa",
+  "id": "finalexam-1c1fdb8e",
   "skill": "finalexam.3a.electrons",
   "courses": [
    "3A"
@@ -41324,7 +41320,7 @@
   "type": "mc",
   "difficulty": 3,
   "calc": true,
-  "prompt": "Newborn jaundice is often treated with phototherapy, blue light that the baby's skin absorbs. One phototherapy lamp uses LEDs that give off light at 455 nm. What is the energy of one photon of this light?",
+  "prompt": "Newborn jaundice is often treated with phototherapy, blue light that the baby's skin absorbs. One phototherapy lamp uses LEDs that give off light at 455 nm. What is the energy of one photon of this light? (h = 6.626 &times; 10^&minus;34 J&middot;s; c = 3.00 &times; 10⁸ m/s)",
   "choices": [
    "4.37 &times; 10^&minus;19 J",
    "4.37 &times; 10^&minus;28 J",
@@ -41341,7 +41337,7 @@
    "This divides h by &lambda; and leaves out the speed of light. The combined equation is E = hc/&lambda;."
   ],
   "html": {
-   "prompt": "Newborn jaundice is often treated with phototherapy, blue light that the baby's skin absorbs. One phototherapy lamp uses LEDs that give off light at 455 nm. What is the energy of one photon of this light?",
+   "prompt": "Newborn jaundice is often treated with phototherapy, blue light that the baby's skin absorbs. One phototherapy lamp uses LEDs that give off light at 455 nm. What is the energy of one photon of this light? (h = 6.626 &times; 10<sup>&minus;34</sup> J&middot;s; c = 3.00 &times; 10<sup>8</sup> m/s)",
    "choices": [
     "4.37 &times; 10<sup>&minus;19</sup> J",
     "4.37 &times; 10<sup>&minus;28</sup> J",
@@ -41639,7 +41635,7 @@
   }
  },
  {
-  "id": "finalexam-cc3fe313",
+  "id": "finalexam-77814064",
   "skill": "finalexam.3a.electrons",
   "courses": [
    "3A"
@@ -41652,39 +41648,39 @@
   "made": "textbook-3A:c3-014",
   "exam": "final",
   "type": "mc",
-  "difficulty": 1,
+  "difficulty": 2,
   "calc": false,
-  "prompt": "In a hydrogen atom, which electron jump gives off a photon of light?",
+  "prompt": "In a hydrogen atom, which electron jump gives off the photon with the most energy?",
   "choices": [
+   "n = 3 to n = 1",
    "n = 4 to n = 2",
    "n = 1 to n = 3",
-   "n = 2 to n = 5",
-   "n = 2 to n = 2"
+   "n = 5 to n = 3"
   ],
-  "answer": "n = 4 to n = 2",
-  "hint": "Up arrows absorb energy; down arrows give off light.",
-  "explain": "Emission happens when an electron drops to a lower level: n = 4 to n = 2 releases the energy difference as a photon (hydrogen's 486 nm blue-green line). Upward jumps absorb energy.",
+  "answer": "n = 3 to n = 1",
+  "hint": "Light is given off only when the electron drops to a lower level. Then compare the gaps: hydrogen’s levels get closer together as n gets larger.",
+  "explain": "A photon is given off only when the electron drops (n = 1 to n = 3 is a jump up, so it absorbs light). Among the three drops, the photon energy equals the gap between the levels, and hydrogen’s levels crowd together as n increases: the gap from n = 3 to n = 1 is about 0.89 of the full ionization energy, n = 4 to n = 2 about 0.19, and n = 5 to n = 3 about 0.07. So n = 3 to n = 1 gives the most energetic photon (an ultraviolet line); n = 4 to n = 2 gives hydrogen’s blue-green visible line.",
   "why": [
    "",
-   "Moving up from n = 1 to n = 3 needs energy; the atom absorbs a photon instead of giving one off.",
-   "Moving up from n = 2 to n = 5 needs energy, so it is absorption, not emission.",
-   "Staying in the same level involves no energy change, so no photon is given off."
+   "This drop does give off light, but hydrogen’s levels get closer together as n increases, so the gap between n = 4 and n = 2 is small compared with a drop that ends at n = 1.",
+   "Moving up from n = 1 to n = 3 needs energy: the atom absorbs a photon here; it does not give one off.",
+   "This drop gives off light, but n = 3 and n = 5 are high levels that sit close together, so this is the smallest gap of the three drops."
   ],
   "html": {
-   "prompt": "In a hydrogen atom, which electron jump gives off a photon of light?",
+   "prompt": "In a hydrogen atom, which electron jump gives off the photon with the <b>most</b> energy?",
    "choices": [
+    "n = 3 to n = 1",
     "n = 4 to n = 2",
     "n = 1 to n = 3",
-    "n = 2 to n = 5",
-    "n = 2 to n = 2"
+    "n = 5 to n = 3"
    ],
-   "hint": "Up arrows absorb energy; down arrows give off light.",
-   "explain": "Emission happens when an electron <b>drops to a lower level</b>: n = 4 to n = 2 releases the energy difference as a photon (hydrogen's 486 nm blue-green line). Upward jumps absorb energy.",
+   "hint": "Light is given off only when the electron drops to a lower level. Then compare the gaps: hydrogen’s levels get closer together as n gets larger.",
+   "explain": "A photon is given off only when the electron <b>drops</b> (n = 1 to n = 3 is a jump up, so it absorbs light). Among the three drops, the photon energy equals the gap between the levels, and hydrogen’s levels crowd together as n increases: the gap from n = 3 to n = 1 is about 0.89 of the full ionization energy, n = 4 to n = 2 about 0.19, and n = 5 to n = 3 about 0.07. So <b>n = 3 to n = 1</b> gives the most energetic photon (an ultraviolet line); n = 4 to n = 2 gives hydrogen’s blue-green visible line.",
    "why": [
     "",
-    "Moving up from n = 1 to n = 3 needs energy; the atom absorbs a photon instead of giving one off.",
-    "Moving up from n = 2 to n = 5 needs energy, so it is absorption, not emission.",
-    "Staying in the same level involves no energy change, so no photon is given off."
+    "This drop does give off light, but hydrogen’s levels get closer together as n increases, so the gap between n = 4 and n = 2 is small compared with a drop that ends at n = 1.",
+    "Moving up from n = 1 to n = 3 needs energy: the atom absorbs a photon here; it does not give one off.",
+    "This drop gives off light, but n = 3 and n = 5 are high levels that sit close together, so this is the smallest gap of the three drops."
    ]
   },
   "from": {
@@ -43452,7 +43448,7 @@
   ],
   "answer": "2&minus;",
   "hint": "The total charge of the formula unit is zero, and there is one of each ion.",
-  "explain": "Ca²⁺ + oxalate = 0, so oxalate is 2&minus;: C₂O₄^2&minus;, as on the green sheet.",
+  "explain": "Ca²⁺ + oxalate = 0, so oxalate is 2&minus;: C₂O₄^2&minus;, as on the polyatomic ion list.",
   "why": [
    "",
    "This reads the subscript 4 on O as the charge. Subscripts inside a polyatomic ion count its atoms, not its charge.",
@@ -43468,7 +43464,7 @@
     "2+"
    ],
    "hint": "The total charge of the formula unit is zero, and there is one of each ion.",
-   "explain": "Ca<sup>2+</sup> + oxalate = 0, so oxalate is <b>2&minus;</b>: C<sub>2</sub>O<sub>4</sub><sup>2&minus;</sup>, as on the green sheet.",
+   "explain": "Ca<sup>2+</sup> + oxalate = 0, so oxalate is <b>2&minus;</b>: C<sub>2</sub>O<sub>4</sub><sup>2&minus;</sup>, as on the polyatomic ion list.",
    "why": [
     "",
     "This reads the subscript 4 on O as the charge. Subscripts inside a polyatomic ion count its atoms, not its charge.",
@@ -44716,7 +44712,7 @@
    "6.0221 &times; 10²³ grams of NaCl"
   ],
   "answer": "6.0221 &times; 10²³ NaCl formula units",
-  "hint": "What do we call the smallest repeating unit of an ionic compound (Section 4.1)?",
+  "hint": "What do we call the smallest repeating unit of an ionic compound?",
   "explain": "1 mol NaCl = 6.0221 &times; 10²³ formula units, each made of one Na⁺ ion and one Cl^&minus; ion.",
   "why": [
    "",
@@ -44732,7 +44728,7 @@
     "6.0221 &times; 10<sup>23</sup> Cl<sub>2</sub> molecules",
     "6.0221 &times; 10<sup>23</sup> grams of NaCl"
    ],
-   "hint": "What do we call the smallest repeating unit of an ionic compound (Section 4.1)?",
+   "hint": "What do we call the smallest repeating unit of an ionic compound?",
    "explain": "1 mol NaCl = 6.0221 &times; 10<sup>23</sup> <b>formula units</b>, each made of one Na<sup>+</sup> ion and one Cl<sup>&minus;</sup> ion.",
    "why": [
     "",
@@ -45207,7 +45203,7 @@
   "choices": [
    "1.16 &times; 10¹⁷ molecules",
    "1.16 &times; 10²⁰ molecules",
-   "1.93 &times; 10^&minus;7 mol",
+   "9.03 &times; 10¹⁹ molecules",
    "7.02 &times; 10²² molecules"
   ],
   "answer": "1.16 &times; 10¹⁷ molecules",
@@ -45216,7 +45212,7 @@
   "why": [
    "",
    "This skips the mg &rarr; g step, so the answer is 1000 times too large. The molar mass is in g/mol.",
-   "This stops at moles. One more step gives molecules.",
+   "This skips the molar mass: it multiplies the grams by Avogadro's number as if they were moles. Divide by 776.86 g/mol first.",
    "This multiplies by the molar mass instead of dividing in the first step."
   ],
   "html": {
@@ -45224,7 +45220,7 @@
    "choices": [
     "1.16 &times; 10<sup>17</sup> molecules",
     "1.16 &times; 10<sup>20</sup> molecules",
-    "1.93 &times; 10<sup>&minus;7</sup> mol",
+    "9.03 &times; 10<sup>19</sup> molecules",
     "7.02 &times; 10<sup>22</sup> molecules"
    ],
    "hint": "Change mg to g first, then go through moles.",
@@ -45232,7 +45228,7 @@
    "why": [
     "",
     "This skips the mg &rarr; g step, so the answer is 1000 times too large. The molar mass is in g/mol.",
-    "This stops at moles. One more step gives molecules.",
+    "This skips the molar mass: it multiplies the grams by Avogadro's number as if they were moles. Divide by 776.86 g/mol first.",
     "This multiplies by the molar mass instead of dividing in the first step."
    ]
   },
@@ -45428,7 +45424,7 @@
    "15.0 g I",
    "5.01 g I",
    "6.27 g I",
-   "0.118 mol I"
+   "1.67 g I"
   ],
   "answer": "15.0 g I",
   "hint": "g iohexol &rarr; mol iohexol &rarr; mol I (subscript) &rarr; g I.",
@@ -45437,7 +45433,7 @@
    "",
    "This skips the subscript 3; each iohexol molecule carries three iodine atoms.",
    "This uses 53, iodine's atomic number, instead of its molar mass, 126.90.",
-   "This stops at moles of iodine. One more step gives grams."
+   "This divides by 3 instead of multiplying. Each iohexol molecule carries three iodine atoms, so there are three times as many moles of I as moles of iohexol."
   ],
   "html": {
    "prompt": "A CT contrast dose contains 32.4 g of iohexol, C<sub>19</sub>H<sub>26</sub>I<sub>3</sub>N<sub>3</sub>O<sub>9</sub> (821.13 g/mol). What mass of iodine does it contain? (I 126.90)",
@@ -45445,7 +45441,7 @@
     "15.0 g I",
     "5.01 g I",
     "6.27 g I",
-    "0.118 mol I"
+    "1.67 g I"
    ],
    "hint": "g iohexol &rarr; mol iohexol &rarr; mol I (subscript) &rarr; g I.",
    "explain": "32.4 g &times; (1 mol / 821.13 g) &times; (3 mol I / 1 mol) &times; (126.90 g / 1 mol I) = <b>15.0 g I</b>, almost half the mass of the drug.",
@@ -45453,7 +45449,7 @@
     "",
     "This skips the subscript 3; each iohexol molecule carries three iodine atoms.",
     "This uses 53, iodine's atomic number, instead of its molar mass, 126.90.",
-    "This stops at moles of iodine. One more step gives grams."
+    "This divides by 3 instead of multiplying. Each iohexol molecule carries three iodine atoms, so there are three times as many moles of I as moles of iohexol."
    ]
   },
   "from": {
@@ -48179,7 +48175,7 @@
   "why": [
    "",
    "Atoms add up, but carbonic acid breaks into CO₂ and H₂O, not carbon monoxide and peroxide.",
-   "CO₃ is the carbonate ion, not a gas; carbonic acid does not release H₂.",
+   "Neutral CO₃ is not a real compound (carbonate is the CO₃^2&minus; ion), and carbonic acid does not release H₂.",
    "H₂CO₃ is one of the three products that should never be a final answer."
   ],
   "html": {
@@ -48195,7 +48191,7 @@
    "why": [
     "",
     "Atoms add up, but carbonic acid breaks into CO<sub>2</sub> and H<sub>2</sub>O, not carbon monoxide and peroxide.",
-    "CO<sub>3</sub> is the carbonate ion, not a gas; carbonic acid does not release H<sub>2</sub>.",
+    "Neutral CO<sub>3</sub> is not a real compound (carbonate is the CO<sub>3</sub><sup>2&minus;</sup> ion), and carbonic acid does not release H<sub>2</sub>.",
     "H<sub>2</sub>CO<sub>3</sub> is one of the three products that should never be a final answer."
    ]
   },
@@ -48941,7 +48937,7 @@
    "0.0800 mol C₆H₁₂O₆",
    "2.88 mol C₆H₁₂O₆",
    "0.480 mol C₆H₁₂O₆",
-   "14.4 g C₆H₁₂O₆"
+   "0.0133 mol C₆H₁₂O₆"
   ],
   "answer": "0.0800 mol C₆H₁₂O₆",
   "hint": "One glucose molecule makes how many CO₂ molecules?",
@@ -48950,7 +48946,7 @@
    "",
    "This multiplies by 6, the ratio upside down. One glucose makes six CO₂, not the other way around.",
    "This skips the mole ratio; the coefficients of glucose (1) and CO₂ (6) differ.",
-   "This goes one step too far, multiplying by the molar mass of glucose (180.156 g/mol). The question asks for moles."
+   "This applies the 1 : 6 ratio twice, once for CO₂ and once for O₂. Only glucose and CO₂ belong in this ratio."
   ],
   "html": {
    "prompt": "In cellular respiration, C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6 O<sub>2</sub> &rarr; 6 CO<sub>2</sub> + 6 H<sub>2</sub>O. How many moles of glucose are used when your cells produce 0.480 mol of CO<sub>2</sub>?",
@@ -48958,7 +48954,7 @@
     "0.0800 mol C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>",
     "2.88 mol C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>",
     "0.480 mol C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>",
-    "14.4 g C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>"
+    "0.0133 mol C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>"
    ],
    "hint": "One glucose molecule makes how many CO<sub>2</sub> molecules?",
    "explain": "0.480 mol CO<sub>2</sub> &times; (1 mol C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> / 6 mol CO<sub>2</sub>) = <b>0.0800 mol C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></b>.",
@@ -48966,7 +48962,7 @@
     "",
     "This multiplies by 6, the ratio upside down. One glucose makes six CO<sub>2</sub>, not the other way around.",
     "This skips the mole ratio; the coefficients of glucose (1) and CO<sub>2</sub> (6) differ.",
-    "This goes one step too far, multiplying by the molar mass of glucose (180.156 g/mol). The question asks for moles."
+    "This applies the 1 : 6 ratio twice, once for CO<sub>2</sub> and once for O<sub>2</sub>. Only glucose and CO<sub>2</sub> belong in this ratio."
    ]
   },
   "from": {
@@ -49051,7 +49047,7 @@
    "38.4 g C₂H₅OH",
    "19.2 g C₂H₅OH",
    "76.7 g C₂H₅OH",
-   "0.833 mol C₂H₅OH"
+   "150. g C₂H₅OH"
   ],
   "answer": "38.4 g C₂H₅OH",
   "hint": "g glucose &rarr; mol glucose &rarr; mol ethanol &rarr; g ethanol.",
@@ -49060,7 +49056,7 @@
    "",
    "This skips the mole ratio. Each glucose makes 2 ethanol molecules.",
    "This doubles twice: the coefficient 2 belongs in the mole ratio only, not in the molar mass. The molar mass of ethanol is 46.069 g/mol however many moles react.",
-   "This stops at moles of ethanol. One more step, with the molar mass, gives grams."
+   "This uses glucose’s molar mass for ethanol. A size check catches it: 75.0 g of glucose cannot make 150. g of one product."
   ],
   "html": {
    "prompt": "Yeast ferment grape sugar into wine: C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>(aq) &rarr; 2 C<sub>2</sub>H<sub>5</sub>OH(aq) + 2 CO<sub>2</sub>(g). What mass of ethanol can form from 75.0 g of glucose? (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> 180.156 g/mol; C<sub>2</sub>H<sub>5</sub>OH 46.069 g/mol)",
@@ -49068,7 +49064,7 @@
     "38.4 g C<sub>2</sub>H<sub>5</sub>OH",
     "19.2 g C<sub>2</sub>H<sub>5</sub>OH",
     "76.7 g C<sub>2</sub>H<sub>5</sub>OH",
-    "0.833 mol C<sub>2</sub>H<sub>5</sub>OH"
+    "150. g C<sub>2</sub>H<sub>5</sub>OH"
    ],
    "hint": "g glucose &rarr; mol glucose &rarr; mol ethanol &rarr; g ethanol.",
    "explain": "75.0 g &times; (1 mol / 180.156 g) &times; (2 mol C<sub>2</sub>H<sub>5</sub>OH / 1 mol C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>) &times; (46.069 g / 1 mol) = <b>38.4 g C<sub>2</sub>H<sub>5</sub>OH</b>.",
@@ -49076,7 +49072,7 @@
     "",
     "This skips the mole ratio. Each glucose makes 2 ethanol molecules.",
     "This doubles twice: the coefficient 2 belongs in the mole ratio only, not in the molar mass. The molar mass of ethanol is 46.069 g/mol however many moles react.",
-    "This stops at moles of ethanol. One more step, with the molar mass, gives grams."
+    "This uses glucose’s molar mass for ethanol. A size check catches it: 75.0 g of glucose cannot make 150. g of one product."
    ]
   },
   "from": {
@@ -49326,7 +49322,7 @@
    "30.0 mL",
    "0.0300 mL",
    "0.469 mL",
-   "0.00375 mol"
+   "3.75 mL"
   ],
   "answer": "30.0 mL",
   "hint": "liters = moles &divide; molarity.",
@@ -49335,7 +49331,7 @@
    "",
    "This is the volume in liters with a mL label; multiply liters by 1000 mL/L.",
    "This multiplies moles by molarity. To get liters, divide moles by molarity (L = mol &divide; M).",
-   "This stops at moles of HCl; dividing by the molarity gives the volume."
+   "This stops at moles of HCl (0.00375 mol) and relabels it as a volume; divide moles by molarity to get liters."
   ],
   "html": {
    "prompt": "Baking soda can neutralize acid: NaHCO<sub>3</sub>(s) + HCl(aq) &rarr; NaCl(aq) + H<sub>2</sub>O(l) + CO<sub>2</sub>(g). What volume of 0.125 M HCl reacts with 0.315 g of NaHCO<sub>3</sub>? (NaHCO<sub>3</sub> 84.01 g/mol)",
@@ -49343,7 +49339,7 @@
     "30.0 mL",
     "0.0300 mL",
     "0.469 mL",
-    "0.00375 mol"
+    "3.75 mL"
    ],
    "hint": "liters = moles &divide; molarity.",
    "explain": "0.315 g &times; (1 mol / 84.01 g) &times; (1 mol HCl / 1 mol NaHCO<sub>3</sub>) &times; (1 L / 0.125 mol) = 0.0300 L = <b>30.0 mL</b>.",
@@ -49351,7 +49347,7 @@
     "",
     "This is the volume in liters with a mL label; multiply liters by 1000 mL/L.",
     "This multiplies moles by molarity. To get liters, divide moles by molarity (L = mol &divide; M).",
-    "This stops at moles of HCl; dividing by the molarity gives the volume."
+    "This stops at moles of HCl (0.00375 mol) and relabels it as a volume; divide moles by molarity to get liters."
    ]
   },
   "from": {
@@ -49380,7 +49376,7 @@
   "choices": [
    "3.36 L CO₂",
    "336 L CO₂",
-   "0.150 mol CO₂",
+   "6.60 L CO₂",
    "0.00669 L CO₂"
   ],
   "answer": "3.36 L CO₂",
@@ -49389,7 +49385,7 @@
   "why": [
    "",
    "This multiplies grams by 22.4 L/mol. Molar volume converts moles, not grams.",
-   "This stops at moles of CO₂, but the question asks for a volume. One more step: moles &times; (22.4 L / 1 mol) at STP.",
+   "6.60 is the mass of CO₂ in grams (moles × 44.01 g/mol). At STP, moles × 22.4 L/mol gives the volume.",
    "This divides by 22.4 L/mol. Moles &times; (22.4 L / 1 mol) gives liters."
   ],
   "html": {
@@ -49397,7 +49393,7 @@
    "choices": [
     "3.36 L CO<sub>2</sub>",
     "336 L CO<sub>2</sub>",
-    "0.150 mol CO<sub>2</sub>",
+    "6.60 L CO<sub>2</sub>",
     "0.00669 L CO<sub>2</sub>"
    ],
    "hint": "g &rarr; mol CaCO<sub>3</sub> &rarr; mol CO<sub>2</sub> &rarr; L.",
@@ -49405,7 +49401,7 @@
    "why": [
     "",
     "This multiplies grams by 22.4 L/mol. Molar volume converts moles, not grams.",
-    "This stops at moles of CO<sub>2</sub>, but the question asks for a volume. One more step: moles &times; (22.4 L / 1 mol) at STP.",
+    "6.60 is the mass of CO<sub>2</sub> in grams (moles × 44.01 g/mol). At STP, moles × 22.4 L/mol gives the volume.",
     "This divides by 22.4 L/mol. Moles &times; (22.4 L / 1 mol) gives liters."
    ]
   },
@@ -49436,7 +49432,7 @@
    "3.43 L CO₂",
    "3.13 L CO₂",
    "1.71 L CO₂",
-   "0.140 mol CO₂"
+   "6.85 L CO₂"
   ],
   "answer": "3.43 L CO₂",
   "hint": "Use the molar volume given for these conditions, not the STP value.",
@@ -49445,7 +49441,7 @@
    "",
    "This uses 22.4 L/mol, which is only for STP (0 &deg;C, 1 atm). At 25 &deg;C a mole of gas takes up more room.",
    "This skips the mole ratio: each glucose makes 2 CO₂.",
-   "This stops at moles of CO₂, but the question asks for a volume. One more step: moles &times; (24.5 L / 1 mol) at these conditions."
+   "This counts the 2 ethanol as gas too. Ethanol stays dissolved (aq), so only the 2 CO₂ count."
   ],
   "html": {
    "prompt": "A winemaker ferments grapes at 25 &deg;C and 1 atm, where 1 mol of gas occupies 24.5 L: C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>(aq) &rarr; 2 C<sub>2</sub>H<sub>5</sub>OH(aq) + 2 CO<sub>2</sub>(g). What volume of CO<sub>2</sub> forms from 12.6 g of glucose? (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> 180.156 g/mol)",
@@ -49453,7 +49449,7 @@
     "3.43 L CO<sub>2</sub>",
     "3.13 L CO<sub>2</sub>",
     "1.71 L CO<sub>2</sub>",
-    "0.140 mol CO<sub>2</sub>"
+    "6.85 L CO<sub>2</sub>"
    ],
    "hint": "Use the molar volume given for these conditions, not the STP value.",
    "explain": "12.6 g &times; (1 mol / 180.156 g) &times; (2 mol CO<sub>2</sub> / 1 mol glucose) &times; (24.5 L / 1 mol) = <b>3.43 L CO<sub>2</sub></b>.",
@@ -49461,7 +49457,7 @@
     "",
     "This uses 22.4 L/mol, which is only for STP (0 &deg;C, 1 atm). At 25 &deg;C a mole of gas takes up more room.",
     "This skips the mole ratio: each glucose makes 2 CO<sub>2</sub>.",
-    "This stops at moles of CO<sub>2</sub>, but the question asks for a volume. One more step: moles &times; (24.5 L / 1 mol) at these conditions."
+    "This counts the 2 ethanol as gas too. Ethanol stays dissolved (aq), so only the 2 CO<sub>2</sub> count."
    ]
   },
   "from": {
@@ -50459,7 +50455,7 @@
   "prompt": "A Valley dairy digester burns captured methane, CH₄(g) + 2 O₂(g) &rarr; CO₂(g) + 2 H₂O(l), &Delta;H = &minus;890.3 kJ. What mass of methane must burn to release 3.60 &times; 10⁴ kJ? (CH₄ 16.043 g/mol)",
   "choices": [
    "649 g CH₄",
-   "40.4 mol CH₄",
+   "5.78 × 10⁵ g CH₄",
    "2.52 g CH₄",
    "324 g CH₄"
   ],
@@ -50468,7 +50464,7 @@
   "explain": "3.60 &times; 10⁴ kJ &times; (1 mol CH₄ / 890.3 kJ) &times; (16.043 g / 1 mol) = 649 g CH₄.",
   "why": [
    "",
-   "This stops at moles of methane, but the question asks for a mass. One more step: multiply by the molar mass, 16.043 g/mol.",
+   "This multiplies kJ by the molar mass and skips the 890.3 kJ per mole. More than half a tonne of methane is far too much.",
    "This divides by the molar mass instead of multiplying.",
    "This uses the coefficient of O₂ (2). The 890.3 kJ goes with 1 mol CH₄."
   ],
@@ -50476,7 +50472,7 @@
    "prompt": "A Valley dairy digester burns captured methane, CH<sub>4</sub>(g) + 2 O<sub>2</sub>(g) &rarr; CO<sub>2</sub>(g) + 2 H<sub>2</sub>O(l), &Delta;H = &minus;890.3 kJ. What mass of methane must burn to release 3.60 &times; 10<sup>4</sup> kJ? (CH<sub>4</sub> 16.043 g/mol)",
    "choices": [
     "649 g CH<sub>4</sub>",
-    "40.4 mol CH<sub>4</sub>",
+    "5.78 × 10<sup>5</sup> g CH<sub>4</sub>",
     "2.52 g CH<sub>4</sub>",
     "324 g CH<sub>4</sub>"
    ],
@@ -50484,7 +50480,7 @@
    "explain": "3.60 &times; 10<sup>4</sup> kJ &times; (1 mol CH<sub>4</sub> / 890.3 kJ) &times; (16.043 g / 1 mol) = <b>649 g CH<sub>4</sub></b>.",
    "why": [
     "",
-    "This stops at moles of methane, but the question asks for a mass. One more step: multiply by the molar mass, 16.043 g/mol.",
+    "This multiplies kJ by the molar mass and skips the 890.3 kJ per mole. More than half a tonne of methane is far too much.",
     "This divides by the molar mass instead of multiplying.",
     "This uses the coefficient of O<sub>2</sub> (2). The 890.3 kJ goes with 1 mol CH<sub>4</sub>."
    ]
@@ -51351,7 +51347,7 @@
   }
  },
  {
-  "id": "finalexam-68c636ae",
+  "id": "finalexam-4396d0bb",
   "skill": "finalexam.3a.energy",
   "courses": [
    "3A"
@@ -51366,7 +51362,7 @@
   "type": "mc",
   "difficulty": 3,
   "calc": true,
-  "prompt": "A 65.0 g piece of iron at 99.2 °C is dropped into 45.0 g of water at 21.0 °C in a calorimeter. Both end at 31.5 °C. How much heat did the iron release? (c for water = 4.184 J/(g·°C))",
+  "prompt": "A 65.0 g piece of iron at 99.2 °C is dropped into 45.0 g of water at 21.0 °C in a calorimeter. Both end at 31.5 °C. What is q for the iron, the heat it gained or lost? (c for water = 4.184 J/(g·°C))",
   "choices": [
    "q_iron = &minus;1.98 &times; 10³ J",
    "q_iron = +1.98 &times; 10³ J",
@@ -51383,7 +51379,7 @@
    "This uses the final temperature, 31.5 °C, as the water's &Delta;T. The water warmed by 10.5 °C."
   ],
   "html": {
-   "prompt": "A 65.0 g piece of iron at 99.2 °C is dropped into 45.0 g of water at 21.0 °C in a calorimeter. Both end at 31.5 °C. How much heat did the iron release? (c for water = 4.184 J/(g·°C))",
+   "prompt": "A 65.0 g piece of iron at 99.2 °C is dropped into 45.0 g of water at 21.0 °C in a calorimeter. Both end at 31.5 °C. What is q for the iron, the heat it gained or lost? (c for water = 4.184 J/(g·°C))",
    "choices": [
     "q<sub>iron</sub> = &minus;1.98 &times; 10<sup>3</sup> J",
     "q<sub>iron</sub> = +1.98 &times; 10<sup>3</sup> J",
@@ -55331,7 +55327,7 @@
   "choices": [
    "93.13%",
    "0.5169%",
-   "0.3958 g",
+   "20.68%",
    "107.4%"
   ],
   "answer": "93.13%",
@@ -55340,7 +55336,7 @@
   "why": [
    "",
    "This divides moles by grams; convert moles of aspirin to grams first.",
-   "This is the mass of aspirin; the question asks for the percent of the sample.",
+   "This uses the molar mass of NaOH (40.00 g/mol). The grams you need are grams of aspirin, so use 180.159 g/mol.",
    "This divides the sample mass by the aspirin mass; the part goes on top."
   ],
   "html": {
@@ -55348,7 +55344,7 @@
    "choices": [
     "93.13%",
     "0.5169%",
-    "0.3958 g",
+    "20.68%",
     "107.4%"
    ],
    "hint": "Find grams of aspirin, then divide by the sample mass.",
@@ -55356,7 +55352,7 @@
    "why": [
     "",
     "This divides moles by grams; convert moles of aspirin to grams first.",
-    "This is the mass of aspirin; the question asks for the percent of the sample.",
+    "This uses the molar mass of NaOH (40.00 g/mol). The grams you need are grams of aspirin, so use 180.159 g/mol.",
     "This divides the sample mass by the aspirin mass; the part goes on top."
    ]
   },
@@ -55721,7 +55717,7 @@
   ],
   "answer": "366 mOsm/kg",
   "hint": "Molality first, then &times; i, then &times; 1000 mOsm/Osm.",
-  "explain": "Molality: 1.45 g &divide; 95.21 g/mol = 0.01523 mol; 0.01523 mol &divide; 0.1250 kg = 0.1218 m. MgCl₂ gives 3 ions (Mg²⁺ + 2 Cl^&minus;): 3 &times; 0.1218 = 0.366 Osm/kg = 366 mOsm/kg.",
+  "explain": "Molality: 1.45 g &divide; 95.21 g/mol = 0.01523 mol; 0.01523 mol &divide; 0.1250 kg = 0.12184 m. MgCl₂ gives 3 ions (Mg²⁺ + 2 Cl^&minus;): 3 &times; 0.12184 = 0.3655 Osm/kg = 366 mOsm/kg.",
   "why": [
    "",
    "This forgets i; MgCl₂ gives Mg²⁺ + 2 Cl^&minus;, three particles.",
@@ -55737,7 +55733,7 @@
     "0.366 mOsm/kg"
    ],
    "hint": "Molality first, then &times; i, then &times; 1000 mOsm/Osm.",
-   "explain": "Molality: 1.45 g &divide; 95.21 g/mol = 0.01523 mol; 0.01523 mol &divide; 0.1250 kg = 0.1218 m. MgCl<sub>2</sub> gives 3 ions (Mg<sup>2+</sup> + 2 Cl<sup>&minus;</sup>): 3 &times; 0.1218 = 0.366 Osm/kg = <b>366 mOsm/kg</b>.",
+   "explain": "Molality: 1.45 g &divide; 95.21 g/mol = 0.01523 mol; 0.01523 mol &divide; 0.1250 kg = 0.12184 m. MgCl<sub>2</sub> gives 3 ions (Mg<sup>2+</sup> + 2 Cl<sup>&minus;</sup>): 3 &times; 0.12184 = 0.3655 Osm/kg = <b>366 mOsm/kg</b>.",
    "why": [
     "",
     "This forgets i; MgCl<sub>2</sub> gives Mg<sup>2+</sup> + 2 Cl<sup>&minus;</sup>, three particles.",
@@ -59366,15 +59362,15 @@
    "A gamma ray changes neither A nor Z, but here Z drops from 11 to 10."
   ],
   "html": {
-   "prompt": "Sodium-22 is used as a small source to check PET scanners. Identify the missing particle: <sup>22</sup><sub>11</sub>Na &rarr; <sup>22</sup><sub>10</sub>Ne + ?",
+   "prompt": "Sodium-22 is used as a small source to check PET scanners. Identify the missing particle: <span class=\"nw\"><span class=\"ss pre\"><sup>22</sup><sub>11</sub></span>Na</span> &rarr; <span class=\"nw\"><span class=\"ss pre\"><sup>22</sup><sub>10</sub></span>Ne</span> + ?",
    "choices": [
-    "<sup>0</sup><sub>+1</sub>e, a positron",
-    "<sup>0</sup><sub>&minus;1</sub>e, a beta particle",
-    "<sup>4</sup><sub>2</sub>He, an alpha particle",
-    "<sup>0</sup><sub>0</sub>&gamma;, a gamma ray"
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>+1</sub></span>e</span>, a positron",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>&minus;1</sub></span>e</span>, a beta particle",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span>, an alpha particle",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>0</sub></span>&gamma;</span>, a gamma ray"
    ],
    "hint": "Subtract: what A and Z must the particle have?",
-   "explain": "A: 22 = 22 + 0. Z: 11 = 10 + 1. The particle is <b>a positron, <sup>0</sup><sub>+1</sub>e</b>.",
+   "explain": "A: 22 = 22 + 0. Z: 11 = 10 + 1. The particle is <b>a positron, <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>+1</sub></span>e</span></b>.",
    "why": [
     "",
     "A beta particle (Z = &minus;1) would make the new atomic number one higher (12, magnesium), not lower.",
@@ -59421,15 +59417,15 @@
    "A proton becomes a neutron, so Z changes and the element changes."
   ],
   "html": {
-   "prompt": "Iodine-123, used for thyroid imaging, decays by electron capture. What is the product? <sup>123</sup><sub>53</sub>I + <sup>0</sup><sub>&minus;1</sub>e &rarr; ?",
+   "prompt": "Iodine-123, used for thyroid imaging, decays by electron capture. What is the product? <span class=\"nw\"><span class=\"ss pre\"><sup>123</sup><sub>53</sub></span>I</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>&minus;1</sub></span>e</span> &rarr; ?",
    "choices": [
-    "<sup>123</sup><sub>52</sub>Te (tellurium-123)",
-    "<sup>123</sup><sub>54</sub>Xe (xenon-123)",
-    "<sup>122</sup><sub>52</sub>Te (tellurium-122)",
-    "<sup>123</sup><sub>53</sub>I (iodine-123, unchanged)"
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>123</sup><sub>52</sub></span>Te</span> (tellurium-123)",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>123</sup><sub>54</sub></span>Xe</span> (xenon-123)",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>122</sup><sub>52</sub></span>Te</span> (tellurium-122)",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>123</sup><sub>53</sub></span>I</span> (iodine-123, unchanged)"
    ],
    "hint": "In electron capture the electron is a reactant: add it on the left.",
-   "explain": "A: 123 + 0 = 123. Z: 53 &minus; 1 = 52 (tellurium): <b><sup>123</sup><sub>52</sub>Te</b>.",
+   "explain": "A: 123 + 0 = 123. Z: 53 &minus; 1 = 52 (tellurium): <b><span class=\"nw\"><span class=\"ss pre\"><sup>123</sup><sub>52</sub></span>Te</span></b>.",
    "why": [
     "",
     "This raises Z, as if a beta particle were given off. In electron capture the electron is taken in, so Z drops by 1.",
@@ -59476,15 +59472,15 @@
    "This forgets the proton's charge: Z on the left is 52 + 1 = 53."
   ],
   "html": {
-   "prompt": "Iodine-123 is made in a cyclotron by hitting tellurium-124 with protons; two neutrons come out. Complete the equation: <sup>124</sup><sub>52</sub>Te + <sup>1</sup><sub>1</sub>H &rarr; ? + 2 <sup>1</sup><sub>0</sub>n",
+   "prompt": "Iodine-123 is made in a cyclotron by hitting tellurium-124 with protons; two neutrons come out. Complete the equation: <span class=\"nw\"><span class=\"ss pre\"><sup>124</sup><sub>52</sub></span>Te</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>1</sub></span>H</span> &rarr; ? + 2 <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>0</sub></span>n</span>",
    "choices": [
-    "<sup>123</sup><sub>53</sub>I (iodine-123)",
-    "<sup>124</sup><sub>53</sub>I (iodine-124)",
-    "<sup>125</sup><sub>53</sub>I (iodine-125)",
-    "<sup>123</sup><sub>52</sub>Te (tellurium-123)"
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>123</sup><sub>53</sub></span>I</span> (iodine-123)",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>124</sup><sub>53</sub></span>I</span> (iodine-124)",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>125</sup><sub>53</sub></span>I</span> (iodine-125)",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>123</sup><sub>52</sub></span>Te</span> (tellurium-123)"
    ],
    "hint": "Total the left side, then subtract 2 &times; the neutron.",
-   "explain": "A: 124 + 1 = 125 = ? + 2, so 123. Z: 52 + 1 = 53 = ? + 0, so 53: <b><sup>123</sup><sub>53</sub>I</b>.",
+   "explain": "A: 124 + 1 = 125 = ? + 2, so 123. Z: 52 + 1 = 53 = ? + 0, so 53: <b><span class=\"nw\"><span class=\"ss pre\"><sup>123</sup><sub>53</sub></span>I</span></b>.",
    "why": [
     "",
     "This counts only one neutron; the coefficient 2 means 2 mass units leave.",
@@ -59531,7 +59527,7 @@
    "In electron capture the electron is on the left as a reactant and Z drops by 1."
   ],
   "html": {
-   "prompt": "Chlorine-36 helps date very old groundwater. What kind of decay is this? <sup>36</sup><sub>17</sub>Cl &rarr; <sup>36</sup><sub>18</sub>Ar + <sup>0</sup><sub>&minus;1</sub>e",
+   "prompt": "Chlorine-36 helps date very old groundwater. What kind of decay is this? <span class=\"nw\"><span class=\"ss pre\"><sup>36</sup><sub>17</sub></span>Cl</span> &rarr; <span class=\"nw\"><span class=\"ss pre\"><sup>36</sup><sub>18</sub></span>Ar</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>&minus;1</sub></span>e</span>",
    "choices": [
     "Beta decay",
     "Positron emission",
@@ -59539,11 +59535,11 @@
     "Electron capture"
    ],
    "hint": "Look at which particle is a product and whether Z goes up or down.",
-   "explain": "The product <sup>0</sup><sub>&minus;1</sub>e and Z + 1 with A unchanged: <b>beta decay</b>.",
+   "explain": "The product <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>&minus;1</sub></span>e</span> and Z + 1 with A unchanged: <b>beta decay</b>.",
    "why": [
     "",
-    "Positron emission gives off <sup>0</sup><sub>+1</sub>e and lowers Z by 1; here Z rises.",
-    "Alpha decay gives off <sup>4</sup><sub>2</sub>He and lowers A by 4; here A does not change.",
+    "Positron emission gives off <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>+1</sub></span>e</span> and lowers Z by 1; here Z rises.",
+    "Alpha decay gives off <span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span> and lowers A by 4; here A does not change.",
     "In electron capture the electron is on the left as a reactant and Z drops by 1."
    ]
   },
@@ -59586,15 +59582,15 @@
    "This keeps Z = 88; the parent must have 2 more protons than radium."
   ],
   "html": {
-   "prompt": "Radium-224 forms when a parent nucleus gives off an alpha particle. What is the parent? ? &rarr; <sup>224</sup><sub>88</sub>Ra + <sup>4</sup><sub>2</sub>He",
+   "prompt": "Radium-224 forms when a parent nucleus gives off an alpha particle. What is the parent? ? &rarr; <span class=\"nw\"><span class=\"ss pre\"><sup>224</sup><sub>88</sub></span>Ra</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span>",
    "choices": [
-    "<sup>228</sup><sub>90</sub>Th (thorium-228)",
-    "<sup>220</sup><sub>86</sub>Rn (radon-220)",
-    "<sup>228</sup><sub>89</sub>Ac (actinium-228)",
-    "<sup>228</sup><sub>88</sub>Ra (radium-228)"
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>228</sup><sub>90</sub></span>Th</span> (thorium-228)",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>220</sup><sub>86</sub></span>Rn</span> (radon-220)",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>228</sup><sub>89</sub></span>Ac</span> (actinium-228)",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>228</sup><sub>88</sub></span>Ra</span> (radium-228)"
    ],
    "hint": "The parent is on the left: add the right-side numbers.",
-   "explain": "A: 224 + 4 = 228. Z: 88 + 2 = 90 (thorium): <b><sup>228</sup><sub>90</sub>Th</b>.",
+   "explain": "A: 224 + 4 = 228. Z: 88 + 2 = 90 (thorium): <b><span class=\"nw\"><span class=\"ss pre\"><sup>228</sup><sub>90</sub></span>Th</span></b>.",
    "why": [
     "",
     "This subtracts the alpha particle instead of adding it; the parent is heavier than its daughter.",
@@ -59797,7 +59793,7 @@
    "It loses its fluorine atoms to the air, even though its nuclei do not decay."
   ],
   "answer": "Its half-life is only 110 min, so most of it decays within a few hours.",
-  "hint": "Look up fluorine-18 in the half-life table.",
+  "hint": "Is the half-life of fluorine-18 long or short? How much is left after a few half-lives?",
   "explain": "Fluorine-18 has a short half-life, 110 min. Every 110 min half of it decays, so after about 3.7 hours (2 half-lives) only 1/4 is left, too little for a good scan.",
   "why": [
    "",
@@ -59813,7 +59809,7 @@
     "Its half-life gets shorter as the sample gets older.",
     "It loses its fluorine atoms to the air, even though its nuclei do not decay."
    ],
-   "hint": "Look up fluorine-18 in the half-life table.",
+   "hint": "Is the half-life of fluorine-18 long or short? How much is left after a few half-lives?",
    "explain": "Fluorine-18 has a short half-life, <b>110 min</b>. Every 110 min half of it decays, so after about 3.7 hours (2 half-lives) only 1/4 is left, too little for a good scan.",
    "why": [
     "",
@@ -59863,13 +59859,13 @@
   "html": {
    "prompt": "How is carbon-14 made in the upper atmosphere?",
    "choices": [
-    "Neutrons from cosmic rays hit nitrogen-14 nuclei: <sup>14</sup><sub>7</sub>N + <sup>1</sup><sub>0</sub>n &rarr; <sup>14</sup><sub>6</sub>C + <sup>1</sup><sub>1</sub>H",
-    "Carbon-12 atoms absorb two neutrons from sunlight: <sup>12</sup><sub>6</sub>C + 2 <sup>1</sup><sub>0</sub>n &rarr; <sup>14</sup><sub>6</sub>C",
+    "Neutrons from cosmic rays hit nitrogen-14 nuclei: <span class=\"nw\"><span class=\"ss pre\"><sup>14</sup><sub>7</sub></span>N</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>0</sub></span>n</span> &rarr; <span class=\"nw\"><span class=\"ss pre\"><sup>14</sup><sub>6</sub></span>C</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>1</sub></span>H</span>",
+    "Carbon-12 atoms absorb two neutrons from sunlight: <span class=\"nw\"><span class=\"ss pre\"><sup>12</sup><sub>6</sub></span>C</span> + 2 <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>0</sub></span>n</span> &rarr; <span class=\"nw\"><span class=\"ss pre\"><sup>14</sup><sub>6</sub></span>C</span>",
     "Carbon-14 is left over from when Earth formed and has not decayed yet",
     "Plants make carbon-14 during photosynthesis"
    ],
    "hint": "Most of the atmosphere is nitrogen.",
-   "explain": "Cosmic rays make fast neutrons in the upper air, and air is mostly nitrogen. A neutron knocks a proton out of a nitrogen-14 nucleus: <b><sup>14</sup><sub>7</sub>N + <sup>1</sup><sub>0</sub>n &rarr; <sup>14</sup><sub>6</sub>C + <sup>1</sup><sub>1</sub>H</b>. Mass numbers (15) and charges (7) balance.",
+   "explain": "Cosmic rays make fast neutrons in the upper air, and air is mostly nitrogen. A neutron knocks a proton out of a nitrogen-14 nucleus: <b><span class=\"nw\"><span class=\"ss pre\"><sup>14</sup><sub>7</sub></span>N</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>0</sub></span>n</span> &rarr; <span class=\"nw\"><span class=\"ss pre\"><sup>14</sup><sub>6</sub></span>C</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>1</sub></span>H</span></b>. Mass numbers (15) and charges (7) balance.",
    "why": [
     "",
     "This equation balances, but it is not how carbon-14 forms; carbon-14 comes from the nitrogen in the air.",
@@ -60191,15 +60187,15 @@
    "This gets Z wrong: 92 &minus; 56 = 36, krypton, not 38."
   ],
   "html": {
-   "prompt": "Complete this fission of uranium-235: <sup>1</sup><sub>0</sub>n + <sup>235</sup><sub>92</sub>U &rarr; <sup>144</sup><sub>56</sub>Ba + ? + 3 <sup>1</sup><sub>0</sub>n",
+   "prompt": "Complete this fission of uranium-235: <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>0</sub></span>n</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>235</sup><sub>92</sub></span>U</span> &rarr; <span class=\"nw\"><span class=\"ss pre\"><sup>144</sup><sub>56</sub></span>Ba</span> + ? + 3 <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>0</sub></span>n</span>",
    "choices": [
-    "<sup>89</sup><sub>36</sub>Kr (krypton-89)",
-    "<sup>91</sup><sub>36</sub>Kr (krypton-91)",
-    "<sup>88</sup><sub>36</sub>Kr (krypton-88)",
-    "<sup>89</sup><sub>38</sub>Sr (strontium-89)"
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>89</sup><sub>36</sub></span>Kr</span> (krypton-89)",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>91</sup><sub>36</sub></span>Kr</span> (krypton-91)",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>88</sup><sub>36</sub></span>Kr</span> (krypton-88)",
+    "<span class=\"nw\"><span class=\"ss pre\"><sup>89</sup><sub>38</sub></span>Sr</span> (strontium-89)"
    ],
    "hint": "Total the left side (do not forget the neutron), then count all 3 neutrons on the right.",
-   "explain": "A: 236 &minus; 144 &minus; 3 = 89. Z: 92 &minus; 56 = 36: <b><sup>89</sup><sub>36</sub>Kr</b>.",
+   "explain": "A: 236 &minus; 144 &minus; 3 = 89. Z: 92 &minus; 56 = 36: <b><span class=\"nw\"><span class=\"ss pre\"><sup>89</sup><sub>36</sub></span>Kr</span></b>.",
    "why": [
     "",
     "This counts the 3 neutrons as 1. The coefficient 3 adds 3 &times; 1 = 3 to the mass numbers.",
