@@ -146,6 +146,13 @@ function mcFromArray(a, hasTitle) {
   // functionalgroups / organicreactions / carbohydrates) draws them. Text-only items are plain 'mc'.
   {
     const g = 'finalexam', d = await pull(page, g, ['BANK']);
+    // Since v56 the banks live in finalexam/data/bank-<course>.json and the page fetches only the course a student
+    // opens, so BANK is mostly empty when read from the page: read the files instead.
+    d.BANK = d.BANK || {};
+    for (const course of ['3A', '3B', '1A', '1B']) {
+      const f = path.join(REPOS, g, 'data', 'bank-' + course + '.json');
+      if (fs.existsSync(f)) d.BANK[course] = JSON.parse(fs.readFileSync(f, 'utf8'));
+    }
     const SUB = '₀₁₂₃₄₅₆₇₈₉', SUP = { 0: '⁰', 1: '¹', 2: '²', 3: '³', 4: '⁴', 5: '⁵', 6: '⁶', 7: '⁷', 8: '⁸', 9: '⁹', '+': '⁺', '-': '⁻', '−': '⁻', n: 'ⁿ' };
     const plain = h => strip(String(h ?? '')
       .replace(/<sub>([^<]*)<\/sub>/g, (m, t) => /^[0-9]+$/.test(t) ? [...t].map(c => SUB[c]).join('') : '_' + t)

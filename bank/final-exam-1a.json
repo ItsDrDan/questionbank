@@ -62347,5 +62347,2705 @@
    "list": "BANK.1A",
    "index": 625
   }
+ },
+ {
+  "id": "finalexam-cf86a701",
+  "skill": "finalexam.1a.measure",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-1"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which statements about exact numbers and significant figures are true? I. The measurement 0.00450 g has five significant figures. II. A count of 32 students in a classroom is an exact number. III. The relation 1 in = 2.54 cm is exact, so it does not limit the significant figures in a conversion.",
+  "choices": [
+   "II and III only",
+   "III only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "answer": "II and III only",
+  "hint": "Leading zeros only locate the decimal point. Counted numbers and defined relations are exact.",
+  "explain": "Statement I is false: leading zeros are not significant, so 0.00450 g has three significant figures (4, 5 and the trailing 0). Statement II is true because a count of objects has no uncertainty. Statement III is true because the inch is defined as exactly 2.54 cm. The answer is II and III only.",
+  "why": [
+   "",
+   "Statement II was judged false. Counting whole objects such as students gives an exact number with no uncertainty.",
+   "Statement I was judged true. Leading zeros only place the decimal point, so they are not significant.",
+   "Statement I was judged true. Count only the digits from the first nonzero digit onward."
+  ],
+  "html": {
+   "prompt": "Which statements about exact numbers and significant figures are true?<br>I. The measurement 0.00450 g has five significant figures.<br>II. A count of 32 students in a classroom is an exact number.<br>III. The relation 1 in = 2.54 cm is exact, so it does not limit the significant figures in a conversion.",
+   "choices": [
+    "II and III only",
+    "III only",
+    "I and II only",
+    "I, II and III"
+   ],
+   "hint": "Leading zeros only locate the decimal point. Counted numbers and defined relations are exact.",
+   "explain": "Statement I is false: leading zeros are not significant, so 0.00450 g has three significant figures (4, 5 and the trailing 0). Statement II is true because a count of objects has no uncertainty. Statement III is true because the inch is defined as exactly 2.54 cm. The answer is <b>II and III only</b>.",
+   "why": [
+    "",
+    "Statement II was judged false. Counting whole objects such as students gives an exact number with no uncertainty.",
+    "Statement I was judged true. Leading zeros only place the decimal point, so they are not significant.",
+    "Statement I was judged true. Count only the digits from the first nonzero digit onward."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 626
+  }
+ },
+ {
+  "id": "finalexam-cdcef5bd",
+  "skill": "finalexam.1a.measure",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-1"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "A piece of copper is cut in half. Which properties are intensive (the same for each half as for the whole piece)? I. Temperature II. Volume III. Heat released when the piece cools by 10 °C",
+  "choices": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "answer": "I only",
+  "hint": "An intensive property does not depend on how much of the sample you have.",
+  "explain": "Temperature does not change when the piece is divided, so I is intensive. Volume (II) is halved, and the heat released on cooling by 10 °C (III) is also halved because q = mcΔT depends on mass. Both are extensive, so the answer is I only.",
+  "why": [
+   "",
+   "Statement II was judged intensive, but each half has half the volume of the whole piece.",
+   "Statement III was judged intensive, but q = mcΔT, so half the mass releases half the heat.",
+   "Statement I was judged extensive, but each half has the same temperature as the whole piece."
+  ],
+  "html": {
+   "prompt": "A piece of copper is cut in half. Which properties are intensive (the same for each half as for the whole piece)?<br>I. Temperature<br>II. Volume<br>III. Heat released when the piece cools by 10 °C",
+   "choices": [
+    "I only",
+    "I and II only",
+    "I and III only",
+    "II and III only"
+   ],
+   "hint": "An intensive property does not depend on how much of the sample you have.",
+   "explain": "Temperature does not change when the piece is divided, so I is intensive. Volume (II) is halved, and the heat released on cooling by 10 °C (III) is also halved because q = mcΔT depends on mass. Both are extensive, so the answer is <b>I only</b>.",
+   "why": [
+    "",
+    "Statement II was judged intensive, but each half has half the volume of the whole piece.",
+    "Statement III was judged intensive, but q = mcΔT, so half the mass releases half the heat.",
+    "Statement I was judged extensive, but each half has the same temperature as the whole piece."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 627
+  }
+ },
+ {
+  "id": "finalexam-101f4e30",
+  "skill": "finalexam.1a.measure",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-1"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "A metal cube is 2.00 cm on each edge and has a mass of 21.6 g. Which statements are true? I. The density of the metal is 2.70 g cm⁻³. II. The cube sinks in water (density 1.00 g cm⁻³). III. A 5.40 g piece of the same metal has a volume of 0.500 cm³.",
+  "choices": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "I and II only",
+  "hint": "Find the cube's volume from its edge length first, then use d = m/V for every statement.",
+  "explain": "The volume is (2.00 cm)³ = 8.00 cm³, so d = 21.6 g ÷ 8.00 cm³ = 2.70 g cm⁻³ (I true). The metal is denser than water, so the cube sinks (II true). A 5.40 g piece has V = 5.40 g ÷ 2.70 g cm⁻³ = 2.00 cm³, not 0.500 cm³ (III false: 0.500 comes from dividing density by mass). The answer is I and II only.",
+  "why": [
+   "",
+   "Statement II was judged false. An object denser than water sinks in it.",
+   "Statement I was judged false. The volume of a cube is the edge length cubed, 8.00 cm³ here.",
+   "Statement III was judged true. Volume is mass divided by density, not density divided by mass."
+  ],
+  "html": {
+   "prompt": "A metal cube is 2.00 cm on each edge and has a mass of 21.6 g. Which statements are true?<br>I. The density of the metal is 2.70 g cm<sup>−3</sup>.<br>II. The cube sinks in water (density 1.00 g cm<sup>−3</sup>).<br>III. A 5.40 g piece of the same metal has a volume of 0.500 cm<sup>3</sup>.",
+   "choices": [
+    "I and II only",
+    "I only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Find the cube's volume from its edge length first, then use d = m/V for every statement.",
+   "explain": "The volume is (2.00 cm)<sup>3</sup> = 8.00 cm<sup>3</sup>, so d = 21.6 g ÷ 8.00 cm<sup>3</sup> = 2.70 g cm<sup>−3</sup> (I true). The metal is denser than water, so the cube sinks (II true). A 5.40 g piece has V = 5.40 g ÷ 2.70 g cm<sup>−3</sup> = 2.00 cm<sup>3</sup>, not 0.500 cm<sup>3</sup> (III false: 0.500 comes from dividing density by mass). The answer is <b>I and II only</b>.",
+   "why": [
+    "",
+    "Statement II was judged false. An object denser than water sinks in it.",
+    "Statement I was judged false. The volume of a cube is the edge length cubed, 8.00 cm³ here.",
+    "Statement III was judged true. Volume is mass divided by density, not density divided by mass."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 628
+  }
+ },
+ {
+  "id": "finalexam-feaa3eea",
+  "skill": "finalexam.1a.measure",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-1"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "Rank these temperatures from lowest to highest. I. 300 K II. 25 °C III. 80 °F",
+  "choices": [
+   "II < III < I",
+   "III < II < I",
+   "I < II < III",
+   "II < I < III"
+  ],
+  "answer": "II < III < I",
+  "hint": "Convert all three to the same scale. K = °C + 273.15 and °C = (°F − 32) × 5/9.",
+  "explain": "25 °C = 298.15 K. 80 °F = (80 − 32) × 5/9 = 26.7 °C = 299.8 K. 300 K is 26.85 °C, the warmest of the three. So the order is II < III < I. Comparing the raw numbers without converting gives the wrong order.",
+  "why": [
+   "",
+   "80 °F is 26.7 °C, which is warmer than 25 °C.",
+   "The numbers cannot be compared until they are on the same scale. Convert each one to kelvins.",
+   "300 K is 26.85 °C, which is slightly warmer than 80 °F (26.7 °C)."
+  ],
+  "html": {
+   "prompt": "Rank these temperatures from lowest to highest.<br>I. 300 K<br>II. 25 °C<br>III. 80 °F",
+   "choices": [
+    "II &lt; III &lt; I",
+    "III &lt; II &lt; I",
+    "I &lt; II &lt; III",
+    "II &lt; I &lt; III"
+   ],
+   "hint": "Convert all three to the same scale. K = °C + 273.15 and °C = (°F − 32) × 5/9.",
+   "explain": "25 °C = 298.15 K. 80 °F = (80 − 32) × 5/9 = 26.7 °C = 299.8 K. 300 K is 26.85 °C, the warmest of the three. So the order is <b>II &lt; III &lt; I</b>. Comparing the raw numbers without converting gives the wrong order.",
+   "why": [
+    "",
+    "80 °F is 26.7 °C, which is warmer than 25 °C.",
+    "The numbers cannot be compared until they are on the same scale. Convert each one to kelvins.",
+    "300 K is 26.85 °C, which is slightly warmer than 80 °F (26.7 °C)."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 629
+  }
+ },
+ {
+  "id": "finalexam-8747ff95",
+  "skill": "finalexam.1a.atoms",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-2"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which statements correctly describe what early experiments showed about atoms? I. Thomson's cathode-ray experiments showed that atoms contain small, negatively charged particles (electrons). II. Rutherford's gold-foil experiment showed that an atom's positive charge and most of its mass are in a tiny nucleus. III. Millikan's oil-drop experiment showed that electrons move in orbits of fixed energy.",
+  "choices": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "I and II only",
+  "hint": "Match each scientist to what the experiment measured. One of them measured a charge, not an energy.",
+  "explain": "I is true: cathode rays are streams of electrons, negative particles present in all atoms. II is true: the rare large-angle deflections showed a small, dense, positive nucleus. III is false: Millikan measured the charge of the electron. Fixed electron energy levels came from Bohr's model of hydrogen. The answer is I and II only.",
+  "why": [
+   "",
+   "Statement II was judged false. The few alpha particles that bounced back showed a tiny, dense, positive nucleus.",
+   "Statement I was judged false. Thomson showed that cathode rays are negative particles present in all atoms.",
+   "Statement III was judged true. Millikan measured the charge on the electron, and fixed energy levels came from Bohr's model."
+  ],
+  "html": {
+   "prompt": "Which statements correctly describe what early experiments showed about atoms?<br>I. Thomson's cathode-ray experiments showed that atoms contain small, negatively charged particles (electrons).<br>II. Rutherford's gold-foil experiment showed that an atom's positive charge and most of its mass are in a tiny nucleus.<br>III. Millikan's oil-drop experiment showed that electrons move in orbits of fixed energy.",
+   "choices": [
+    "I and II only",
+    "I only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Match each scientist to what the experiment measured. One of them measured a charge, not an energy.",
+   "explain": "I is true: cathode rays are streams of electrons, negative particles present in all atoms. II is true: the rare large-angle deflections showed a small, dense, positive nucleus. III is false: Millikan measured the charge of the electron. Fixed electron energy levels came from Bohr's model of hydrogen. The answer is <b>I and II only</b>.",
+   "why": [
+    "",
+    "Statement II was judged false. The few alpha particles that bounced back showed a tiny, dense, positive nucleus.",
+    "Statement I was judged false. Thomson showed that cathode rays are negative particles present in all atoms.",
+    "Statement III was judged true. Millikan measured the charge on the electron, and fixed energy levels came from Bohr's model."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 630
+  }
+ },
+ {
+  "id": "finalexam-591a5344",
+  "skill": "finalexam.1a.atoms",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-2"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which species are isoelectronic with a neon atom (have 10 electrons)? I. O²⁻ II. K⁺ III. Al³⁺",
+  "choices": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "I and III only",
+  "hint": "Count electrons as the atomic number minus the charge.",
+  "explain": "O²⁻ has 8 + 2 = 10 electrons and Al³⁺ has 13 − 3 = 10 electrons, so I and III are isoelectronic with Ne. K⁺ has 19 − 1 = 18 electrons, like argon. The answer is I and III only.",
+  "why": [
+   "",
+   "Statement III was judged false. Al has 13 electrons, and Al³⁺ has lost 3 of them.",
+   "Statement I was judged false. O has 8 electrons, and O²⁻ has gained 2 more.",
+   "Statement II was judged true. K has 19 electrons, so K⁺ has 18, the same as argon."
+  ],
+  "html": {
+   "prompt": "Which species are isoelectronic with a neon atom (have 10 electrons)?<br>I. O<sup>2−</sup><br>II. K<sup>+</sup><br>III. Al<sup>3+</sup>",
+   "choices": [
+    "I and III only",
+    "I only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Count electrons as the atomic number minus the charge.",
+   "explain": "O<sup>2−</sup> has 8 + 2 = 10 electrons and Al<sup>3+</sup> has 13 − 3 = 10 electrons, so I and III are isoelectronic with Ne. K<sup>+</sup> has 19 − 1 = 18 electrons, like argon. The answer is <b>I and III only</b>.",
+   "why": [
+    "",
+    "Statement III was judged false. Al has 13 electrons, and Al³⁺ has lost 3 of them.",
+    "Statement I was judged false. O has 8 electrons, and O²⁻ has gained 2 more.",
+    "Statement II was judged true. K has 19 electrons, so K⁺ has 18, the same as argon."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 631
+  }
+ },
+ {
+  "id": "finalexam-0512dd89",
+  "skill": "finalexam.1a.atoms",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-2"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Chlorine has two naturally occurring isotopes, ³⁵Cl and ³⁷Cl, and its average atomic mass is 35.45 u. Which statements are true? I. The two isotopes have the same number of neutrons. II. Neutral atoms of both isotopes have 17 electrons. III. ³⁷Cl is more abundant in nature than ³⁵Cl.",
+  "choices": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "III only"
+  ],
+  "answer": "II only",
+  "hint": "Isotopes share an atomic number. The average atomic mass lies closer to the mass of the more abundant isotope.",
+  "explain": "I is false: ³⁵Cl has 18 neutrons and ³⁷Cl has 20. II is true: both have 17 protons, so their neutral atoms have 17 electrons. III is false: 35.45 u is much closer to 35 than to 37, so ³⁵Cl is more abundant (about 76%). The answer is II only.",
+  "why": [
+   "",
+   "Statement I was judged true. Neutrons equal the mass number minus 17, so the two isotopes differ in neutron count.",
+   "Statement III was judged true. The average mass, 35.45 u, sits much closer to 35 than to 37.",
+   "Statement II was judged false. Both isotopes are chlorine with 17 protons, so neutral atoms have 17 electrons."
+  ],
+  "html": {
+   "prompt": "Chlorine has two naturally occurring isotopes, <sup>35</sup>Cl and <sup>37</sup>Cl, and its average atomic mass is 35.45 u. Which statements are true?<br>I. The two isotopes have the same number of neutrons.<br>II. Neutral atoms of both isotopes have 17 electrons.<br>III. <sup>37</sup>Cl is more abundant in nature than <sup>35</sup>Cl.",
+   "choices": [
+    "II only",
+    "I and II only",
+    "II and III only",
+    "III only"
+   ],
+   "hint": "Isotopes share an atomic number. The average atomic mass lies closer to the mass of the more abundant isotope.",
+   "explain": "I is false: <sup>35</sup>Cl has 18 neutrons and <sup>37</sup>Cl has 20. II is true: both have 17 protons, so their neutral atoms have 17 electrons. III is false: 35.45 u is much closer to 35 than to 37, so <sup>35</sup>Cl is more abundant (about 76%). The answer is <b>II only</b>.",
+   "why": [
+    "",
+    "Statement I was judged true. Neutrons equal the mass number minus 17, so the two isotopes differ in neutron count.",
+    "Statement III was judged true. The average mass, 35.45 u, sits much closer to 35 than to 37.",
+    "Statement II was judged false. Both isotopes are chlorine with 17 protons, so neutral atoms have 17 electrons."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 632
+  }
+ },
+ {
+  "id": "finalexam-91a8facd",
+  "skill": "finalexam.1a.atoms",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-2"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which formula–name pairs are correct? I. Cu₂O, copper(II) oxide II. FeCl₃, iron(III) chloride III. Na₂SO₃, sodium sulfate",
+  "choices": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "II only",
+  "hint": "Work out the metal's charge from the anion's charge, and recall that the −ite and −ate anions differ by one oxygen.",
+  "explain": "I is wrong: in Cu₂O, two Cu ions balance one O²⁻, so each copper is +1 and the name is copper(I) oxide. II is right: three Cl⁻ ions require Fe³⁺. III is wrong: SO₃²⁻ is sulfite, so Na₂SO₃ is sodium sulfite (sulfate is SO₄²⁻). The answer is II only.",
+  "why": [
+   "",
+   "Pair I was judged correct. Two Cu ions balance one O²⁻, so each copper is +1, not +2.",
+   "Pair III was judged correct. SO₃²⁻ is sulfite, the ion with one fewer oxygen than sulfate.",
+   "Pair I was judged correct. In Cu₂O each copper must be +1 to balance a single O²⁻."
+  ],
+  "html": {
+   "prompt": "Which formula–name pairs are correct?<br>I. Cu<sub>2</sub>O, copper(II) oxide<br>II. FeCl<sub>3</sub>, iron(III) chloride<br>III. Na<sub>2</sub>SO<sub>3</sub>, sodium sulfate",
+   "choices": [
+    "II only",
+    "I and II only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Work out the metal's charge from the anion's charge, and recall that the −ite and −ate anions differ by one oxygen.",
+   "explain": "I is wrong: in Cu<sub>2</sub>O, two Cu ions balance one O<sup>2−</sup>, so each copper is +1 and the name is copper(I) oxide. II is right: three Cl<sup>−</sup> ions require Fe<sup>3+</sup>. III is wrong: SO<sub>3</sub><sup>2−</sup> is sulfite, so Na<sub>2</sub>SO<sub>3</sub> is sodium sulfite (sulfate is SO<sub>4</sub><sup>2−</sup>). The answer is <b>II only</b>.",
+   "why": [
+    "",
+    "Pair I was judged correct. Two Cu ions balance one O²⁻, so each copper is +1, not +2.",
+    "Pair III was judged correct. SO₃²⁻ is sulfite, the ion with one fewer oxygen than sulfate.",
+    "Pair I was judged correct. In Cu₂O each copper must be +1 to balance a single O²⁻."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 633
+  }
+ },
+ {
+  "id": "finalexam-b38c03ca",
+  "skill": "finalexam.1a.composition",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-3"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Consider a 1.00 mol sample of H₂O and a 1.00 mol sample of CO₂. Which statements are true? I. The two samples contain the same number of molecules. II. The two samples have the same mass. III. The two samples contain the same number of oxygen atoms.",
+  "choices": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "answer": "I only",
+  "hint": "A mole is a fixed number of particles, but each kind of molecule has its own molar mass and its own atom count.",
+  "explain": "I is true: each sample has 6.022 × 10²³ molecules. II is false: 1.00 mol H₂O is 18.0 g but 1.00 mol CO₂ is 44.0 g. III is false: each CO₂ has two O atoms, so the CO₂ sample holds 2.00 mol O and the H₂O sample holds 1.00 mol O. The answer is I only.",
+  "why": [
+   "",
+   "Statement II was judged true. Equal moles have equal mass only when the molar masses match, and 18.0 g/mol differs from 44.0 g/mol.",
+   "Statement III was judged true. Each CO₂ molecule carries two O atoms but each H₂O carries only one.",
+   "Statement I was judged false. One mole of any substance contains 6.022 × 10²³ particles."
+  ],
+  "html": {
+   "prompt": "Consider a 1.00 mol sample of H<sub>2</sub>O and a 1.00 mol sample of CO<sub>2</sub>. Which statements are true?<br>I. The two samples contain the same number of molecules.<br>II. The two samples have the same mass.<br>III. The two samples contain the same number of oxygen atoms.",
+   "choices": [
+    "I only",
+    "I and II only",
+    "I and III only",
+    "II and III only"
+   ],
+   "hint": "A mole is a fixed number of particles, but each kind of molecule has its own molar mass and its own atom count.",
+   "explain": "I is true: each sample has 6.022 × 10<sup>23</sup> molecules. II is false: 1.00 mol H<sub>2</sub>O is 18.0 g but 1.00 mol CO<sub>2</sub> is 44.0 g. III is false: each CO<sub>2</sub> has two O atoms, so the CO<sub>2</sub> sample holds 2.00 mol O and the H<sub>2</sub>O sample holds 1.00 mol O. The answer is <b>I only</b>.",
+   "why": [
+    "",
+    "Statement II was judged true. Equal moles have equal mass only when the molar masses match, and 18.0 g/mol differs from 44.0 g/mol.",
+    "Statement III was judged true. Each CO₂ molecule carries two O atoms but each H₂O carries only one.",
+    "Statement I was judged false. One mole of any substance contains 6.022 × 10²³ particles."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 634
+  }
+ },
+ {
+  "id": "finalexam-ba5d3e96",
+  "skill": "finalexam.1a.composition",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-3"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "Rank these compounds by mass percent of nitrogen, from lowest to highest. I. N₂O II. NH₃ III. NH₄NO₃",
+  "choices": [
+   "III < I < II",
+   "I < III < II",
+   "III < II < I",
+   "II < I < III"
+  ],
+  "answer": "III < I < II",
+  "hint": "Mass percent N = (mass of N in one formula unit ÷ molar mass) × 100%.",
+  "explain": "NH₄NO₃: 28.01/80.04 = 35.0% N. N₂O: 28.01/44.01 = 63.6% N. NH₃: 14.01/17.03 = 82.2% N. The order is III < I < II. Counting N atoms alone misleads: NH₄NO₃ has two N atoms but a large molar mass.",
+  "why": [
+   "",
+   "N₂O is 63.6% N, which is more than NH₄NO₃ at 35.0% N.",
+   "NH₃ has only one N atom, but its small molar mass makes its mass percent of N the largest of the three.",
+   "Ranking by the number of N atoms ignores molar mass. Compute each percent."
+  ],
+  "html": {
+   "prompt": "Rank these compounds by mass percent of nitrogen, from lowest to highest.<br>I. N<sub>2</sub>O<br>II. NH<sub>3</sub><br>III. NH<sub>4</sub>NO<sub>3</sub>",
+   "choices": [
+    "III &lt; I &lt; II",
+    "I &lt; III &lt; II",
+    "III &lt; II &lt; I",
+    "II &lt; I &lt; III"
+   ],
+   "hint": "Mass percent N = (mass of N in one formula unit ÷ molar mass) × 100%.",
+   "explain": "NH<sub>4</sub>NO<sub>3</sub>: 28.01/80.04 = 35.0% N. N<sub>2</sub>O: 28.01/44.01 = 63.6% N. NH<sub>3</sub>: 14.01/17.03 = 82.2% N. The order is <b>III &lt; I &lt; II</b>. Counting N atoms alone misleads: NH<sub>4</sub>NO<sub>3</sub> has two N atoms but a large molar mass.",
+   "why": [
+    "",
+    "N₂O is 63.6% N, which is more than NH₄NO₃ at 35.0% N.",
+    "NH₃ has only one N atom, but its small molar mass makes its mass percent of N the largest of the three.",
+    "Ranking by the number of N atoms ignores molar mass. Compute each percent."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 635
+  }
+ },
+ {
+  "id": "finalexam-08fffbdf",
+  "skill": "finalexam.1a.composition",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-3"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "A compound has the empirical formula CH₂O and a molar mass of 180.2 g mol⁻¹. Which statements are true? I. Its molecular formula is C₆H₁₂O₆. II. Its mass percent of carbon equals that of formaldehyde, CH₂O. III. Hydrogen makes up a larger mass percent of the compound than oxygen does, because there are more H atoms than O atoms.",
+  "choices": [
+   "I and II only",
+   "I only",
+   "I and III only",
+   "II and III only"
+  ],
+  "answer": "I and II only",
+  "hint": "Divide the molar mass by the empirical-formula mass. Mass percent depends on mass, not on atom count.",
+  "explain": "CH₂O has a formula mass of 30.03 g mol⁻¹, and 180.2/30.03 = 6, so the formula is C₆H₁₂O₆ (I true). A molecular formula is a whole-number multiple of the empirical formula, so its percent composition is identical: 40.0% C (II true). III is false: H is only 6.7% by mass and O is 53.3%, because each O atom (16.00 u) is much heavier than an H atom (1.008 u). The answer is I and II only.",
+  "why": [
+   "",
+   "Statement II was judged false. Multiplying every subscript by the same number leaves the percent composition unchanged.",
+   "Statement III was judged true. Each O atom is about 16 times heavier than an H atom, so O makes up more of the mass.",
+   "Statement I was judged false. 180.2 divided by 30.03 is 6, so multiply each subscript by 6."
+  ],
+  "html": {
+   "prompt": "A compound has the empirical formula CH<sub>2</sub>O and a molar mass of 180.2 g mol<sup>−1</sup>. Which statements are true?<br>I. Its molecular formula is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>.<br>II. Its mass percent of carbon equals that of formaldehyde, CH<sub>2</sub>O.<br>III. Hydrogen makes up a larger mass percent of the compound than oxygen does, because there are more H atoms than O atoms.",
+   "choices": [
+    "I and II only",
+    "I only",
+    "I and III only",
+    "II and III only"
+   ],
+   "hint": "Divide the molar mass by the empirical-formula mass. Mass percent depends on mass, not on atom count.",
+   "explain": "CH<sub>2</sub>O has a formula mass of 30.03 g mol<sup>−1</sup>, and 180.2/30.03 = 6, so the formula is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> (I true). A molecular formula is a whole-number multiple of the empirical formula, so its percent composition is identical: 40.0% C (II true). III is false: H is only 6.7% by mass and O is 53.3%, because each O atom (16.00 u) is much heavier than an H atom (1.008 u). The answer is <b>I and II only</b>.",
+   "why": [
+    "",
+    "Statement II was judged false. Multiplying every subscript by the same number leaves the percent composition unchanged.",
+    "Statement III was judged true. Each O atom is about 16 times heavier than an H atom, so O makes up more of the mass.",
+    "Statement I was judged false. 180.2 divided by 30.03 is 6, so multiply each subscript by 6."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 636
+  }
+ },
+ {
+  "id": "finalexam-bc82e74f",
+  "skill": "finalexam.1a.composition",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-3"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "A student prepares 250.0 mL of 0.200 M Na₂SO₄(aq). Which statements are true? I. The solution contains 0.0500 mol Na₂SO₄. II. The concentration of Na⁺ ions is 0.200 M. III. Diluting the solution with water to 500.0 mL gives 0.100 M Na₂SO₄.",
+  "choices": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "I and III only",
+  "hint": "Moles = molarity × volume in liters. Each formula unit of Na₂SO₄ releases two Na⁺ ions.",
+  "explain": "I: 0.2500 L × 0.200 mol L⁻¹ = 0.0500 mol (true). II is false: each Na₂SO₄ gives 2 Na⁺, so [Na⁺] = 0.400 M. III: M₁V₁ = M₂V₂ gives (0.200 M)(250.0 mL)/(500.0 mL) = 0.100 M (true). The answer is I and III only.",
+  "why": [
+   "",
+   "Statement III was judged false. Doubling the volume with water halves the concentration.",
+   "Statement I was judged false. Moles equal molarity times volume in liters, 0.2500 L here.",
+   "Statement II was judged true. Each Na₂SO₄ releases two Na⁺ ions, so [Na⁺] is twice the salt concentration."
+  ],
+  "html": {
+   "prompt": "A student prepares 250.0 mL of 0.200 M Na<sub>2</sub>SO<sub>4</sub>(aq). Which statements are true?<br>I. The solution contains 0.0500 mol Na<sub>2</sub>SO<sub>4</sub>.<br>II. The concentration of Na<sup>+</sup> ions is 0.200 M.<br>III. Diluting the solution with water to 500.0 mL gives 0.100 M Na<sub>2</sub>SO<sub>4</sub>.",
+   "choices": [
+    "I and III only",
+    "I only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Moles = molarity × volume in liters. Each formula unit of Na<sub>2</sub>SO<sub>4</sub> releases two Na<sup>+</sup> ions.",
+   "explain": "I: 0.2500 L × 0.200 mol L<sup>−1</sup> = 0.0500 mol (true). II is false: each Na<sub>2</sub>SO<sub>4</sub> gives 2 Na<sup>+</sup>, so [Na<sup>+</sup>] = 0.400 M. III: M<sub>1</sub>V<sub>1</sub> = M<sub>2</sub>V<sub>2</sub> gives (0.200 M)(250.0 mL)/(500.0 mL) = 0.100 M (true). The answer is <b>I and III only</b>.",
+   "why": [
+    "",
+    "Statement III was judged false. Doubling the volume with water halves the concentration.",
+    "Statement I was judged false. Moles equal molarity times volume in liters, 0.2500 L here.",
+    "Statement II was judged true. Each Na₂SO₄ releases two Na⁺ ions, so [Na⁺] is twice the salt concentration."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 637
+  }
+ },
+ {
+  "id": "finalexam-41df97b2",
+  "skill": "finalexam.1a.reactions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-4"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which substances are strong electrolytes when dissolved in water? I. HNO₃ II. NH₃ III. CH₃COOH (acetic acid)",
+  "choices": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "answer": "I only",
+  "hint": "A strong electrolyte breaks apart completely into ions. Only a few acids, the strong acids, do this.",
+  "explain": "HNO₃ is a strong acid that ionizes completely (I true). NH₃ is a weak base and acetic acid is a weak acid. Each forms only a few ions, so II and III are weak electrolytes. The answer is I only.",
+  "why": [
+   "",
+   "Statement II was judged strong. NH₃ is a weak base that makes only a few ions in water.",
+   "Statement III was judged strong. Acetic acid is a weak acid, mostly present as whole molecules in water.",
+   "Statement III was judged strong. Acetic acid ionizes only slightly, so its solution conducts weakly."
+  ],
+  "html": {
+   "prompt": "Which substances are strong electrolytes when dissolved in water?<br>I. HNO<sub>3</sub><br>II. NH<sub>3</sub><br>III. CH<sub>3</sub>COOH (acetic acid)",
+   "choices": [
+    "I only",
+    "I and II only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "hint": "A strong electrolyte breaks apart completely into ions. Only a few acids, the strong acids, do this.",
+   "explain": "HNO<sub>3</sub> is a strong acid that ionizes completely (I true). NH<sub>3</sub> is a weak base and acetic acid is a weak acid. Each forms only a few ions, so II and III are weak electrolytes. The answer is <b>I only</b>.",
+   "why": [
+    "",
+    "Statement II was judged strong. NH₃ is a weak base that makes only a few ions in water.",
+    "Statement III was judged strong. Acetic acid is a weak acid, mostly present as whole molecules in water.",
+    "Statement III was judged strong. Acetic acid ionizes only slightly, so its solution conducts weakly."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 638
+  }
+ },
+ {
+  "id": "finalexam-23927924",
+  "skill": "finalexam.1a.reactions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-4"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "For the reaction Mg(s) + 2 Ag⁺(aq) → Mg²⁺(aq) + 2 Ag(s), which statements are true? I. Mg is oxidized. II. Ag⁺ is the reducing agent. III. Two electrons are transferred in the equation as written.",
+  "choices": [
+   "I and III only",
+   "I only",
+   "I and II only",
+   "II and III only"
+  ],
+  "answer": "I and III only",
+  "hint": "Track oxidation numbers. The species that is reduced is the oxidizing agent.",
+  "explain": "Mg goes from 0 to +2, so it is oxidized (I true) and loses 2 electrons. Each Ag⁺ gains one electron, so the two Ag⁺ ions gain the 2 electrons that Mg lost (III true). Ag⁺ is reduced, which makes it the oxidizing agent, not the reducing agent (II false). The answer is I and III only.",
+  "why": [
+   "",
+   "Statement III was judged false. One Mg atom loses 2 electrons, and the two Ag⁺ ions gain them.",
+   "Statement II was judged true. Ag⁺ gains electrons, so it is reduced and acts as the oxidizing agent.",
+   "Statement I was judged false. Mg goes from 0 to +2, so it loses electrons."
+  ],
+  "html": {
+   "prompt": "For the reaction Mg(s) + 2 Ag<sup>+</sup>(aq) → Mg<sup>2+</sup>(aq) + 2 Ag(s), which statements are true?<br>I. Mg is oxidized.<br>II. Ag<sup>+</sup> is the reducing agent.<br>III. Two electrons are transferred in the equation as written.",
+   "choices": [
+    "I and III only",
+    "I only",
+    "I and II only",
+    "II and III only"
+   ],
+   "hint": "Track oxidation numbers. The species that is reduced is the oxidizing agent.",
+   "explain": "Mg goes from 0 to +2, so it is oxidized (I true) and loses 2 electrons. Each Ag<sup>+</sup> gains one electron, so the two Ag<sup>+</sup> ions gain the 2 electrons that Mg lost (III true). Ag<sup>+</sup> is reduced, which makes it the oxidizing agent, not the reducing agent (II false). The answer is <b>I and III only</b>.",
+   "why": [
+    "",
+    "Statement III was judged false. One Mg atom loses 2 electrons, and the two Ag⁺ ions gain them.",
+    "Statement II was judged true. Ag⁺ gains electrons, so it is reduced and acts as the oxidizing agent.",
+    "Statement I was judged false. Mg goes from 0 to +2, so it loses electrons."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 639
+  }
+ },
+ {
+  "id": "finalexam-b211a1af",
+  "skill": "finalexam.1a.reactions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-4"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "In which species does sulfur have an oxidation number of +6? I. SO₂ II. Na₂S₂O₃ III. SO₃",
+  "choices": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "II only"
+  ],
+  "answer": "III only",
+  "hint": "Give O −2 and Na +1, then solve for sulfur so the charges sum to zero.",
+  "explain": "SO₂: S + 2(−2) = 0, so S = +4. Na₂S₂O₃: 2(+1) + 2S + 3(−2) = 0, so each S = +2. SO₃: S + 3(−2) = 0, so S = +6. The answer is III only.",
+  "why": [
+   "",
+   "Statement I was judged +6. Two O atoms at −2 each give −4, so S in SO₂ is +4.",
+   "Statement II was judged +6. Two S atoms share the charge, so solve 2(+1) + 2x + 3(−2) = 0.",
+   "Statement III was judged not +6. In SO₃, three O atoms at −2 give −6, which S must balance."
+  ],
+  "html": {
+   "prompt": "In which species does sulfur have an oxidation number of +6?<br>I. SO<sub>2</sub><br>II. Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub><br>III. SO<sub>3</sub>",
+   "choices": [
+    "III only",
+    "I and III only",
+    "II and III only",
+    "II only"
+   ],
+   "hint": "Give O −2 and Na +1, then solve for sulfur so the charges sum to zero.",
+   "explain": "SO<sub>2</sub>: S + 2(−2) = 0, so S = +4. Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub>: 2(+1) + 2S + 3(−2) = 0, so each S = +2. SO<sub>3</sub>: S + 3(−2) = 0, so S = +6. The answer is <b>III only</b>.",
+   "why": [
+    "",
+    "Statement I was judged +6. Two O atoms at −2 each give −4, so S in SO₂ is +4.",
+    "Statement II was judged +6. Two S atoms share the charge, so solve 2(+1) + 2x + 3(−2) = 0.",
+    "Statement III was judged not +6. In SO₃, three O atoms at −2 give −6, which S must balance."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 640
+  }
+ },
+ {
+  "id": "finalexam-de016c49",
+  "skill": "finalexam.1a.reactions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-4"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which reactions are oxidation–reduction (redox) reactions? I. HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l) II. CaCO₃(s) → CaO(s) + CO₂(g) III. Zn(s) + 2 HCl(aq) → ZnCl₂(aq) + H₂(g)",
+  "choices": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I only"
+  ],
+  "answer": "III only",
+  "hint": "Assign oxidation numbers to every element on both sides. In a redox reaction at least one element's oxidation number changes.",
+  "explain": "In I (neutralization) and II (decomposition of a carbonate), every element keeps its oxidation number (H +1, Cl −1, Na +1, O −2, Ca +2, C +4). In III, Zn goes from 0 to +2 and H goes from +1 to 0, so III is a redox reaction. The answer is III only.",
+  "why": [
+   "",
+   "Statement I was judged redox. In a neutralization, H, O, Na and Cl all keep their oxidation numbers.",
+   "Statement II was judged redox. Ca stays +2, C stays +4 and O stays −2 when CaCO₃ decomposes.",
+   "Statement III was judged not redox. Zn starts as the element (0) and ends as Zn²⁺."
+  ],
+  "html": {
+   "prompt": "Which reactions are oxidation–reduction (redox) reactions?<br>I. HCl(aq) + NaOH(aq) → NaCl(aq) + H<sub>2</sub>O(l)<br>II. CaCO<sub>3</sub>(s) → CaO(s) + CO<sub>2</sub>(g)<br>III. Zn(s) + 2 HCl(aq) → ZnCl<sub>2</sub>(aq) + H<sub>2</sub>(g)",
+   "choices": [
+    "III only",
+    "I and III only",
+    "II and III only",
+    "I only"
+   ],
+   "hint": "Assign oxidation numbers to every element on both sides. In a redox reaction at least one element's oxidation number changes.",
+   "explain": "In I (neutralization) and II (decomposition of a carbonate), every element keeps its oxidation number (H +1, Cl −1, Na +1, O −2, Ca +2, C +4). In III, Zn goes from 0 to +2 and H goes from +1 to 0, so III is a redox reaction. The answer is <b>III only</b>.",
+   "why": [
+    "",
+    "Statement I was judged redox. In a neutralization, H, O, Na and Cl all keep their oxidation numbers.",
+    "Statement II was judged redox. Ca stays +2, C stays +4 and O stays −2 when CaCO₃ decomposes.",
+    "Statement III was judged not redox. Zn starts as the element (0) and ends as Zn²⁺."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 641
+  }
+ },
+ {
+  "id": "finalexam-c15480b6",
+  "skill": "finalexam.1a.reactions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-4"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "A 25.0 mL sample of 0.100 M H₂SO₄ is titrated to the equivalence point with 0.200 M NaOH. Which statements are true? I. 25.0 mL of the NaOH solution is needed. II. The salt in the flask at the equivalence point is Na₂SO₄. III. The moles of NaOH added equal twice the moles of H₂SO₄.",
+  "choices": [
+   "I, II and III",
+   "I and II only",
+   "II and III only",
+   "II only"
+  ],
+  "answer": "I, II and III",
+  "hint": "Write the balanced equation first. Sulfuric acid has two acidic hydrogens.",
+  "explain": "H₂SO₄ + 2 NaOH → Na₂SO₄ + 2 H₂O. Moles of acid = 0.0250 L × 0.100 M = 0.00250 mol, so 0.00500 mol NaOH is needed, twice the moles of acid (III true). That is 0.00500 mol ÷ 0.200 M = 0.0250 L = 25.0 mL (I true). The salt formed is Na₂SO₄ (II true). The answer is I, II and III.",
+  "why": [
+   "",
+   "Statement III was judged false. Each H₂SO₄ gives two H⁺, so it needs two OH⁻.",
+   "Statement I was judged false. Use the 1 : 2 mole ratio before dividing by the NaOH molarity.",
+   "Statement I was judged false. The acid needs 0.00500 mol NaOH, so find the volume of 0.200 M NaOH that holds that amount."
+  ],
+  "html": {
+   "prompt": "A 25.0 mL sample of 0.100 M H<sub>2</sub>SO<sub>4</sub> is titrated to the equivalence point with 0.200 M NaOH. Which statements are true?<br>I. 25.0 mL of the NaOH solution is needed.<br>II. The salt in the flask at the equivalence point is Na<sub>2</sub>SO<sub>4</sub>.<br>III. The moles of NaOH added equal twice the moles of H<sub>2</sub>SO<sub>4</sub>.",
+   "choices": [
+    "I, II and III",
+    "I and II only",
+    "II and III only",
+    "II only"
+   ],
+   "hint": "Write the balanced equation first. Sulfuric acid has two acidic hydrogens.",
+   "explain": "H<sub>2</sub>SO<sub>4</sub> + 2 NaOH → Na<sub>2</sub>SO<sub>4</sub> + 2 H<sub>2</sub>O. Moles of acid = 0.0250 L × 0.100 M = 0.00250 mol, so 0.00500 mol NaOH is needed, twice the moles of acid (III true). That is 0.00500 mol ÷ 0.200 M = 0.0250 L = 25.0 mL (I true). The salt formed is Na<sub>2</sub>SO<sub>4</sub> (II true). The answer is <b>I, II and III</b>.",
+   "why": [
+    "",
+    "Statement III was judged false. Each H₂SO₄ gives two H⁺, so it needs two OH⁻.",
+    "Statement I was judged false. Use the 1 : 2 mole ratio before dividing by the NaOH molarity.",
+    "Statement I was judged false. The acid needs 0.00500 mol NaOH, so find the volume of 0.200 M NaOH that holds that amount."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 642
+  }
+ },
+ {
+  "id": "finalexam-21894751",
+  "skill": "finalexam.1a.thermo",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-5"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "Samples of 100.0 g of water (c = 4.184 J g⁻¹ °C⁻¹) and 100.0 g of iron (c = 0.449 J g⁻¹ °C⁻¹) each absorb 1.00 kJ of heat. Which statements are true? I. The temperature of the iron rises more than that of the water. II. The temperature of the water rises by about 2.4 °C. III. Because both absorb the same heat, both have the same temperature change.",
+  "choices": [
+   "I and II only",
+   "II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "answer": "I and II only",
+  "hint": "Use q = mcΔT and solve for ΔT for each sample.",
+  "explain": "ΔT = q/(mc). Water: 1000 J ÷ (100.0 g × 4.184 J g⁻¹ °C⁻¹) = 2.39 °C (II true). Iron: 1000 J ÷ (100.0 g × 0.449 J g⁻¹ °C⁻¹) = 22.3 °C, so iron warms much more (I true). III is false: equal heat gives equal ΔT only if m × c is the same, and iron's specific heat is much smaller. The answer is I and II only.",
+  "why": [
+   "",
+   "Statement I was judged false. A smaller specific heat means a larger temperature change for the same heat.",
+   "Statement III was judged true. ΔT depends on the specific heat, which differs a lot here.",
+   "Statement I was judged false. Compute ΔT for iron with c = 0.449 J/(g·°C)."
+  ],
+  "html": {
+   "prompt": "Samples of 100.0 g of water (c = 4.184 J g<sup>−1</sup> °C<sup>−1</sup>) and 100.0 g of iron (c = 0.449 J g<sup>−1</sup> °C<sup>−1</sup>) each absorb 1.00 kJ of heat. Which statements are true?<br>I. The temperature of the iron rises more than that of the water.<br>II. The temperature of the water rises by about 2.4 °C.<br>III. Because both absorb the same heat, both have the same temperature change.",
+   "choices": [
+    "I and II only",
+    "II only",
+    "I and III only",
+    "II and III only"
+   ],
+   "hint": "Use q = mcΔT and solve for ΔT for each sample.",
+   "explain": "ΔT = q/(mc). Water: 1000 J ÷ (100.0 g × 4.184 J g<sup>−1</sup> °C<sup>−1</sup>) = 2.39 °C (II true). Iron: 1000 J ÷ (100.0 g × 0.449 J g<sup>−1</sup> °C<sup>−1</sup>) = 22.3 °C, so iron warms much more (I true). III is false: equal heat gives equal ΔT only if m × c is the same, and iron's specific heat is much smaller. The answer is <b>I and II only</b>.",
+   "why": [
+    "",
+    "Statement I was judged false. A smaller specific heat means a larger temperature change for the same heat.",
+    "Statement III was judged true. ΔT depends on the specific heat, which differs a lot here.",
+    "Statement I was judged false. Compute ΔT for iron with c = 0.449 J/(g·°C)."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 643
+  }
+ },
+ {
+  "id": "finalexam-c3f3f07a",
+  "skill": "finalexam.1a.thermo",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-5"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Which of these are state functions? I. The heat, q, absorbed by a system II. The work, w, done on a system III. The enthalpy, H, of a system",
+  "choices": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "III only",
+  "hint": "A state function depends only on the present state of the system, not on the path taken to reach it.",
+  "explain": "Enthalpy depends only on the state of the system, so ΔH is the same for any path (III true). The amounts of heat and work exchanged depend on how the change is carried out, so q and w are path functions (I and II false). Only their sum, ΔE = q + w, is a state function. The answer is III only.",
+  "why": [
+   "",
+   "Statement I was judged a state function. The heat exchanged depends on the path, even when the start and end are the same.",
+   "Statement II was judged a state function. Work depends on how the change is carried out.",
+   "Statement I was judged a state function. Heat is energy in transit along a particular path."
+  ],
+  "html": {
+   "prompt": "Which of these are state functions?<br>I. The heat, q, absorbed by a system<br>II. The work, w, done on a system<br>III. The enthalpy, H, of a system",
+   "choices": [
+    "III only",
+    "I and III only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "A state function depends only on the present state of the system, not on the path taken to reach it.",
+   "explain": "Enthalpy depends only on the state of the system, so ΔH is the same for any path (III true). The amounts of heat and work exchanged depend on how the change is carried out, so q and w are path functions (I and II false). Only their sum, ΔE = q + w, is a state function. The answer is <b>III only</b>.",
+   "why": [
+    "",
+    "Statement I was judged a state function. The heat exchanged depends on the path, even when the start and end are the same.",
+    "Statement II was judged a state function. Work depends on how the change is carried out.",
+    "Statement I was judged a state function. Heat is energy in transit along a particular path."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 644
+  }
+ },
+ {
+  "id": "finalexam-5d6ccafe",
+  "skill": "finalexam.1a.thermo",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-5"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "50.0 mL of 1.00 M HCl and 50.0 mL of 1.00 M NaOH are mixed in a foam coffee-cup calorimeter, and the temperature rises by 6.7 °C. Which changes would give a LARGER temperature rise? I. Using 100.0 mL of each solution instead of 50.0 mL II. Using 2.00 M HCl and 2.00 M NaOH (still 50.0 mL of each) III. Using a metal cup instead of a foam cup",
+  "choices": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I only"
+  ],
+  "answer": "II only",
+  "hint": "ΔT = q/(mc). Ask how each change affects both the heat released and the mass of solution that must be warmed.",
+  "explain": "Doubling both concentrations doubles the moles that react in the same 100 mL of solution, so twice the heat warms the same mass and ΔT is about 13 °C (II true). Doubling both volumes doubles the heat but also doubles the mass of solution to warm, so ΔT stays about 6.7 °C (I false). A metal cup conducts heat away to the room, so ΔT would be smaller (III false). The answer is II only.",
+  "why": [
+   "",
+   "Statement I was judged to raise ΔT. Twice the volume releases twice the heat but also has twice the mass to warm.",
+   "Statement III was judged to raise ΔT. A metal cup lets heat escape to the room.",
+   "Statement I was judged to raise ΔT. The heat per gram of solution stays the same when both volumes double."
+  ],
+  "html": {
+   "prompt": "50.0 mL of 1.00 M HCl and 50.0 mL of 1.00 M NaOH are mixed in a foam coffee-cup calorimeter, and the temperature rises by 6.7 °C. Which changes would give a LARGER temperature rise?<br>I. Using 100.0 mL of each solution instead of 50.0 mL<br>II. Using 2.00 M HCl and 2.00 M NaOH (still 50.0 mL of each)<br>III. Using a metal cup instead of a foam cup",
+   "choices": [
+    "II only",
+    "I and II only",
+    "II and III only",
+    "I only"
+   ],
+   "hint": "ΔT = q/(mc). Ask how each change affects both the heat released and the mass of solution that must be warmed.",
+   "explain": "Doubling both concentrations doubles the moles that react in the same 100 mL of solution, so twice the heat warms the same mass and ΔT is about 13 °C (II true). Doubling both volumes doubles the heat but also doubles the mass of solution to warm, so ΔT stays about 6.7 °C (I false). A metal cup conducts heat away to the room, so ΔT would be smaller (III false). The answer is <b>II only</b>.",
+   "why": [
+    "",
+    "Statement I was judged to raise ΔT. Twice the volume releases twice the heat but also has twice the mass to warm.",
+    "Statement III was judged to raise ΔT. A metal cup lets heat escape to the room.",
+    "Statement I was judged to raise ΔT. The heat per gram of solution stays the same when both volumes double."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 645
+  }
+ },
+ {
+  "id": "finalexam-ef49a7fb",
+  "skill": "finalexam.1a.thermo",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-5"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which processes are endothermic? I. Liquid water freezing II. Liquid ethanol evaporating III. Breaking the Cl–Cl bond in Cl₂(g) to form two Cl atoms",
+  "choices": [
+   "II and III only",
+   "II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "answer": "II and III only",
+  "hint": "Melting, evaporating and breaking bonds all need energy. Their reverse processes release it.",
+  "explain": "Freezing releases heat (it is the reverse of melting), so I is exothermic. Evaporation needs energy to separate the molecules (II endothermic), and breaking any chemical bond requires energy (III endothermic). The answer is II and III only.",
+  "why": [
+   "",
+   "Statement III was judged exothermic. Energy must always be added to break a chemical bond.",
+   "Statement I was judged endothermic. Water releases heat as it freezes.",
+   "Statement I was judged endothermic. Freezing is the reverse of melting, so heat flows out."
+  ],
+  "html": {
+   "prompt": "Which processes are endothermic?<br>I. Liquid water freezing<br>II. Liquid ethanol evaporating<br>III. Breaking the Cl–Cl bond in Cl<sub>2</sub>(g) to form two Cl atoms",
+   "choices": [
+    "II and III only",
+    "II only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "hint": "Melting, evaporating and breaking bonds all need energy. Their reverse processes release it.",
+   "explain": "Freezing releases heat (it is the reverse of melting), so I is exothermic. Evaporation needs energy to separate the molecules (II endothermic), and breaking any chemical bond requires energy (III endothermic). The answer is <b>II and III only</b>.",
+   "why": [
+    "",
+    "Statement III was judged exothermic. Energy must always be added to break a chemical bond.",
+    "Statement I was judged endothermic. Water releases heat as it freezes.",
+    "Statement I was judged endothermic. Freezing is the reverse of melting, so heat flows out."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 646
+  }
+ },
+ {
+  "id": "finalexam-3957edbc",
+  "skill": "finalexam.1a.quantum",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Compare red light with violet light. Which statements about red light are true? I. Each photon of red light has more energy than a photon of violet light. II. Red light has a longer wavelength than violet light. III. In a vacuum, red light travels at the same speed as violet light.",
+  "choices": [
+   "II and III only",
+   "I and II only",
+   "II only",
+   "I, II and III"
+  ],
+  "answer": "II and III only",
+  "hint": "All light moves at the same speed c in a vacuum. Photon energy is E = hc/λ.",
+  "explain": "Red light (about 700 nm) has a longer wavelength than violet light (about 400 nm), so II is true. Since E = hc/λ, the longer wavelength means LESS energy per photon, so I is false. All electromagnetic radiation travels at c = 3.00 × 10⁸ m s⁻¹ in a vacuum (III true). The answer is II and III only.",
+  "why": [
+   "",
+   "Statement I was judged true. A longer wavelength means a lower frequency and less energy per photon.",
+   "Statement III was judged false. Every color of light travels at the same speed c in a vacuum.",
+   "Statement I was judged true. Photon energy falls as wavelength grows, E = hc/λ."
+  ],
+  "html": {
+   "prompt": "Compare red light with violet light. Which statements about red light are true?<br>I. Each photon of red light has more energy than a photon of violet light.<br>II. Red light has a longer wavelength than violet light.<br>III. In a vacuum, red light travels at the same speed as violet light.",
+   "choices": [
+    "II and III only",
+    "I and II only",
+    "II only",
+    "I, II and III"
+   ],
+   "hint": "All light moves at the same speed c in a vacuum. Photon energy is E = hc/λ.",
+   "explain": "Red light (about 700 nm) has a longer wavelength than violet light (about 400 nm), so II is true. Since E = hc/λ, the longer wavelength means LESS energy per photon, so I is false. All electromagnetic radiation travels at c = 3.00 × 10<sup>8</sup> m s<sup>−1</sup> in a vacuum (III true). The answer is <b>II and III only</b>.",
+   "why": [
+    "",
+    "Statement I was judged true. A longer wavelength means a lower frequency and less energy per photon.",
+    "Statement III was judged false. Every color of light travels at the same speed c in a vacuum.",
+    "Statement I was judged true. Photon energy falls as wavelength grows, E = hc/λ."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 647
+  }
+ },
+ {
+  "id": "finalexam-7a4ea5b5",
+  "skill": "finalexam.1a.quantum",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which sets of quantum numbers (n, ℓ, m_ℓ) describe an allowed orbital? I. (3, 3, 0) II. (3, 2, −2) III. (4, 0, 0)",
+  "choices": [
+   "II and III only",
+   "II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "answer": "II and III only",
+  "hint": "ℓ can be any whole number from 0 up to n − 1, and m_ℓ any whole number from −ℓ to +ℓ.",
+  "explain": "I is not allowed because ℓ must be less than n (for n = 3, ℓ = 0, 1 or 2). II is a 3d orbital: ℓ = 2 allows m_ℓ = −2 through +2. III is the 4s orbital (ℓ = 0, m_ℓ = 0). The answer is II and III only.",
+  "why": [
+   "",
+   "Statement III was judged not allowed. ℓ = 0 is allowed for any n, and then mℓ must be 0.",
+   "Statement I was judged allowed. ℓ can go only up to n − 1.",
+   "Statement I was judged allowed. For n = 3 the largest ℓ is 2."
+  ],
+  "html": {
+   "prompt": "Which sets of quantum numbers (n, ℓ, m<sub>ℓ</sub>) describe an allowed orbital?<br>I. (3, 3, 0)<br>II. (3, 2, −2)<br>III. (4, 0, 0)",
+   "choices": [
+    "II and III only",
+    "II only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "hint": "ℓ can be any whole number from 0 up to n − 1, and m<sub>ℓ</sub> any whole number from −ℓ to +ℓ.",
+   "explain": "I is not allowed because ℓ must be less than n (for n = 3, ℓ = 0, 1 or 2). II is a 3d orbital: ℓ = 2 allows m<sub>ℓ</sub> = −2 through +2. III is the 4s orbital (ℓ = 0, m<sub>ℓ</sub> = 0). The answer is <b>II and III only</b>.",
+   "why": [
+    "",
+    "Statement III was judged not allowed. ℓ = 0 is allowed for any n, and then mℓ must be 0.",
+    "Statement I was judged allowed. ℓ can go only up to n − 1.",
+    "Statement I was judged allowed. For n = 3 the largest ℓ is 2."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 648
+  }
+ },
+ {
+  "id": "finalexam-51d9c523",
+  "skill": "finalexam.1a.quantum",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which statements about a 4f subshell are true? I. Its orbitals have ℓ = 3. II. It contains seven orbitals. III. It can hold up to 14 electrons.",
+  "choices": [
+   "I, II and III",
+   "I and II only",
+   "II and III only",
+   "I and III only"
+  ],
+  "answer": "I, II and III",
+  "hint": "For an f subshell, find ℓ, then count the allowed m_ℓ values and allow two electrons per orbital.",
+  "explain": "The letter f means ℓ = 3 (I true). m_ℓ runs from −3 to +3, giving 2ℓ + 1 = 7 orbitals (II true). Each orbital holds two electrons, so the subshell holds 14 (III true). The answer is I, II and III.",
+  "why": [
+   "",
+   "Statement III was judged false. Seven orbitals with two electrons each hold 14 electrons.",
+   "Statement I was judged false. The letters s, p, d and f stand for ℓ = 0, 1, 2 and 3.",
+   "Statement II was judged false. The mℓ values −3 through +3 make seven orbitals."
+  ],
+  "html": {
+   "prompt": "Which statements about a 4f subshell are true?<br>I. Its orbitals have ℓ = 3.<br>II. It contains seven orbitals.<br>III. It can hold up to 14 electrons.",
+   "choices": [
+    "I, II and III",
+    "I and II only",
+    "II and III only",
+    "I and III only"
+   ],
+   "hint": "For an f subshell, find ℓ, then count the allowed m<sub>ℓ</sub> values and allow two electrons per orbital.",
+   "explain": "The letter f means ℓ = 3 (I true). m<sub>ℓ</sub> runs from −3 to +3, giving 2ℓ + 1 = 7 orbitals (II true). Each orbital holds two electrons, so the subshell holds 14 (III true). The answer is <b>I, II and III</b>.",
+   "why": [
+    "",
+    "Statement III was judged false. Seven orbitals with two electrons each hold 14 electrons.",
+    "Statement I was judged false. The letters s, p, d and f stand for ℓ = 0, 1, 2 and 3.",
+    "Statement II was judged false. The mℓ values −3 through +3 make seven orbitals."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 649
+  }
+ },
+ {
+  "id": "finalexam-4a809217",
+  "skill": "finalexam.1a.quantum",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Rank these kinds of electromagnetic radiation by the energy of one photon, from lowest to highest. I. Visible light II. X-rays III. Microwaves",
+  "choices": [
+   "III < I < II",
+   "II < I < III",
+   "I < III < II",
+   "III < II < I"
+  ],
+  "answer": "III < I < II",
+  "hint": "Photon energy rises as frequency rises and as wavelength gets shorter.",
+  "explain": "Microwaves have wavelengths of centimeters, visible light about 400 to 700 nm and X-rays about 0.01 to 10 nm. Shorter wavelength means more energy per photon (E = hc/λ), so the order is III < I < II.",
+  "why": [
+   "",
+   "This is the order of wavelength from shortest to longest. Energy runs the opposite way.",
+   "Microwaves have much longer wavelengths than visible light, so their photons carry less energy.",
+   "X-rays have the shortest wavelength of the three, so their photons have the most energy."
+  ],
+  "html": {
+   "prompt": "Rank these kinds of electromagnetic radiation by the energy of one photon, from lowest to highest.<br>I. Visible light<br>II. X-rays<br>III. Microwaves",
+   "choices": [
+    "III &lt; I &lt; II",
+    "II &lt; I &lt; III",
+    "I &lt; III &lt; II",
+    "III &lt; II &lt; I"
+   ],
+   "hint": "Photon energy rises as frequency rises and as wavelength gets shorter.",
+   "explain": "Microwaves have wavelengths of centimeters, visible light about 400 to 700 nm and X-rays about 0.01 to 10 nm. Shorter wavelength means more energy per photon (E = hc/λ), so the order is <b>III &lt; I &lt; II</b>.",
+   "why": [
+    "",
+    "This is the order of wavelength from shortest to longest. Energy runs the opposite way.",
+    "Microwaves have much longer wavelengths than visible light, so their photons carry less energy.",
+    "X-rays have the shortest wavelength of the three, so their photons have the most energy."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 650
+  }
+ },
+ {
+  "id": "finalexam-500cbf02",
+  "skill": "finalexam.1a.periodic",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which comparisons of size are correct? I. Fe³⁺ is smaller than Fe²⁺. II. Se²⁻ is larger than Br⁻. III. A magnesium atom is larger than a sodium atom.",
+  "choices": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "I and II only",
+  "hint": "For ions of one element, compare how many electrons the same nucleus holds. For isoelectronic species and for atoms in one period, compare the nuclear charges.",
+  "explain": "I is true: Fe³⁺ has one fewer electron than Fe²⁺ held by the same 26 protons, so it is pulled in more tightly. II is true: Se²⁻ and Br⁻ both have 36 electrons, but Se has only 34 protons to Br's 35, so Se²⁻ is larger. III is false: Mg has one more proton than Na in the same n = 3 shell, so Mg is smaller. The answer is I and II only.",
+  "why": [
+   "",
+   "Statement II is also true. Se²⁻ and Br⁻ have the same 36 electrons, and Se has fewer protons to hold them.",
+   "Statement III is false. Mg has a larger nuclear charge than Na with its valence electrons in the same shell, so Mg is smaller.",
+   "Statement III is false. Atoms get smaller from left to right across a period, so Mg is smaller than Na."
+  ],
+  "html": {
+   "prompt": "Which comparisons of size are correct?<br>I. Fe<sup>3+</sup> is smaller than Fe<sup>2+</sup>.<br>II. Se<sup>2−</sup> is larger than Br<sup>−</sup>.<br>III. A magnesium atom is larger than a sodium atom.",
+   "choices": [
+    "I and II only",
+    "I only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "For ions of one element, compare how many electrons the same nucleus holds. For isoelectronic species and for atoms in one period, compare the nuclear charges.",
+   "explain": "I is true: Fe<sup>3+</sup> has one fewer electron than Fe<sup>2+</sup> held by the same 26 protons, so it is pulled in more tightly. II is true: Se<sup>2−</sup> and Br<sup>−</sup> both have 36 electrons, but Se has only 34 protons to Br's 35, so Se<sup>2−</sup> is larger. III is false: Mg has one more proton than Na in the same n = 3 shell, so Mg is smaller. The answer is <b>I and II only</b>.",
+   "why": [
+    "",
+    "Statement II is also true. Se²⁻ and Br⁻ have the same 36 electrons, and Se has fewer protons to hold them.",
+    "Statement III is false. Mg has a larger nuclear charge than Na with its valence electrons in the same shell, so Mg is smaller.",
+    "Statement III is false. Atoms get smaller from left to right across a period, so Mg is smaller than Na."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 651
+  }
+ },
+ {
+  "id": "finalexam-01e88550",
+  "skill": "finalexam.1a.periodic",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Arrange these atoms in order of increasing first ionization energy. I. N II. F III. O",
+  "choices": [
+   "III < I < II",
+   "I < III < II",
+   "II < I < III",
+   "III < II < I"
+  ],
+  "answer": "III < I < II",
+  "hint": "Ionization energy generally rises across period 2, but there is one well-known exception among these three. Think about a half-filled versus a paired 2p subshell.",
+  "explain": "First ionization energy rises across period 2 as the nuclear charge grows, so F is highest (1681 kJ/mol). Oxygen (1314 kJ/mol) is lower than nitrogen (1402 kJ/mol) because O's fourth 2p electron is paired, and repulsion within that orbital makes it easier to remove. The order is O < N < F, which is III < I < II.",
+  "why": [
+   "",
+   "This follows the general trend but misses the exception. Oxygen's paired 2p electron is easier to remove than any of nitrogen's half-filled 2p electrons.",
+   "Fluorine has the largest nuclear charge of the three in the same shell, so its ionization energy is the highest, not the lowest.",
+   "Fluorine holds its electrons most strongly of the three, so it cannot come in the middle of the order."
+  ],
+  "html": {
+   "prompt": "Arrange these atoms in order of increasing first ionization energy.<br>I. N<br>II. F<br>III. O",
+   "choices": [
+    "III &lt; I &lt; II",
+    "I &lt; III &lt; II",
+    "II &lt; I &lt; III",
+    "III &lt; II &lt; I"
+   ],
+   "hint": "Ionization energy generally rises across period 2, but there is one well-known exception among these three. Think about a half-filled versus a paired 2p subshell.",
+   "explain": "First ionization energy rises across period 2 as the nuclear charge grows, so F is highest (1681 kJ/mol). Oxygen (1314 kJ/mol) is lower than nitrogen (1402 kJ/mol) because O's fourth 2p electron is paired, and repulsion within that orbital makes it easier to remove. The order is O &lt; N &lt; F, which is <b>III &lt; I &lt; II</b>.",
+   "why": [
+    "",
+    "This follows the general trend but misses the exception. Oxygen's paired 2p electron is easier to remove than any of nitrogen's half-filled 2p electrons.",
+    "Fluorine has the largest nuclear charge of the three in the same shell, so its ionization energy is the highest, not the lowest.",
+    "Fluorine holds its electrons most strongly of the three, so it cannot come in the middle of the order."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 652
+  }
+ },
+ {
+  "id": "finalexam-c644141d",
+  "skill": "finalexam.1a.periodic",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Which statements are true? I. Removing an electron from a gaseous Cl⁻ ion takes more energy than removing an electron from a gaseous Cl atom. II. Argon has the most negative (most exothermic) electron affinity of the period 3 elements. III. The first ionization energy of potassium is lower than that of sodium.",
+  "choices": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "III only",
+  "hint": "Removing an electron from Cl⁻ is the reverse of adding one to Cl. For argon, ask where an added electron would have to go.",
+  "explain": "I is false: removing the electron from Cl⁻ takes only 349 kJ/mol (the reverse of chlorine's electron affinity), far less than the 1251 kJ/mol needed for a neutral Cl atom, because the extra electron is repelled by the others. II is false: an electron added to argon must enter the 4s orbital, far from the nucleus, so argon's electron affinity is not negative. Chlorine has the most negative value in period 3. III is true: potassium's valence electron is in n = 4, farther from the nucleus than sodium's n = 3 electron. The answer is III only.",
+  "why": [
+   "",
+   "Statement I is false. An anion holds its extra electron loosely because of electron repulsion, so removing it takes much less energy than ionizing the neutral atom.",
+   "Statement II is false. Argon has a full n = 3 shell, so an added electron would sit in a new, higher shell and is not held.",
+   "Statement II is false. A noble gas does not release energy when it gains an electron."
+  ],
+  "html": {
+   "prompt": "Which statements are true?<br>I. Removing an electron from a gaseous Cl<sup>−</sup> ion takes more energy than removing an electron from a gaseous Cl atom.<br>II. Argon has the most negative (most exothermic) electron affinity of the period 3 elements.<br>III. The first ionization energy of potassium is lower than that of sodium.",
+   "choices": [
+    "III only",
+    "I and III only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Removing an electron from Cl<sup>−</sup> is the reverse of adding one to Cl. For argon, ask where an added electron would have to go.",
+   "explain": "I is false: removing the electron from Cl<sup>−</sup> takes only 349 kJ/mol (the reverse of chlorine's electron affinity), far less than the 1251 kJ/mol needed for a neutral Cl atom, because the extra electron is repelled by the others. II is false: an electron added to argon must enter the 4s orbital, far from the nucleus, so argon's electron affinity is not negative. Chlorine has the most negative value in period 3. III is true: potassium's valence electron is in n = 4, farther from the nucleus than sodium's n = 3 electron. The answer is <b>III only</b>.",
+   "why": [
+    "",
+    "Statement I is false. An anion holds its extra electron loosely because of electron repulsion, so removing it takes much less energy than ionizing the neutral atom.",
+    "Statement II is false. Argon has a full n = 3 shell, so an added electron would sit in a new, higher shell and is not held.",
+    "Statement II is false. A noble gas does not release energy when it gains an electron."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 653
+  }
+ },
+ {
+  "id": "finalexam-8bda5dbf",
+  "skill": "finalexam.1a.periodic",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-6"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which statements correctly explain periodic trends in atomic radius? I. Atoms get larger across a period because each element has more electrons than the one before it. II. Atoms get larger down a group because the valence electrons are in shells with larger n. III. Atoms get smaller across a period because the added protons are only partly shielded by the electrons added to the same shell.",
+  "choices": [
+   "II and III only",
+   "I and II only",
+   "III only",
+   "I, II and III"
+  ],
+  "answer": "II and III only",
+  "hint": "First decide which direction each trend actually goes. Then ask whether the stated reason is the real cause.",
+  "explain": "I is false: atoms get smaller, not larger, across a period. Electrons added to the same shell shield each other poorly, so the rising effective nuclear charge pulls the shell inward (III true). II is true: each step down a group adds a new principal shell, so the valence electrons are farther from the nucleus. The answer is II and III only.",
+  "why": [
+   "",
+   "Statement I is false. Atomic radius decreases across a period even though electrons are added.",
+   "Statement II is true. A larger n means the valence electrons are on average farther from the nucleus.",
+   "Statement I is false. Across a period the atoms shrink, so it cannot be explained by atoms getting larger."
+  ],
+  "html": {
+   "prompt": "Which statements correctly explain periodic trends in atomic radius?<br>I. Atoms get larger across a period because each element has more electrons than the one before it.<br>II. Atoms get larger down a group because the valence electrons are in shells with larger n.<br>III. Atoms get smaller across a period because the added protons are only partly shielded by the electrons added to the same shell.",
+   "choices": [
+    "II and III only",
+    "I and II only",
+    "III only",
+    "I, II and III"
+   ],
+   "hint": "First decide which direction each trend actually goes. Then ask whether the stated reason is the real cause.",
+   "explain": "I is false: atoms get smaller, not larger, across a period. Electrons added to the same shell shield each other poorly, so the rising effective nuclear charge pulls the shell inward (III true). II is true: each step down a group adds a new principal shell, so the valence electrons are farther from the nucleus. The answer is <b>II and III only</b>.",
+   "why": [
+    "",
+    "Statement I is false. Atomic radius decreases across a period even though electrons are added.",
+    "Statement II is true. A larger n means the valence electrons are on average farther from the nucleus.",
+    "Statement I is false. Across a period the atoms shrink, so it cannot be explained by atoms getting larger."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 654
+  }
+ },
+ {
+  "id": "finalexam-a5df876d",
+  "skill": "finalexam.1a.bonding",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-7"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which molecules are polar? I. BF₃ II. NF₃ III. SO₂",
+  "choices": [
+   "II and III only",
+   "I and II only",
+   "III only",
+   "I, II and III"
+  ],
+  "answer": "II and III only",
+  "hint": "Draw each Lewis structure and check for lone pairs on the central atom. Polar bonds only make a polar molecule when the shape keeps the bond dipoles from canceling.",
+  "explain": "BF₃ is trigonal planar with no lone pair on boron, so its three B–F dipoles cancel and it is nonpolar (I false). NF₃ is trigonal pyramidal because of the lone pair on N, so its dipoles do not cancel (II polar). SO₂ is bent because of the lone pair on S, so it is polar (III polar). The answer is II and III only.",
+  "why": [
+   "",
+   "BF₃ is the one to recheck. Boron has no lone pair, so the molecule is flat and symmetric and its bond dipoles cancel.",
+   "NF₃ is polar too. Nitrogen has a lone pair, so the molecule is a pyramid and the N to F dipoles do not cancel.",
+   "BF₃ is nonpolar. Its three equal bond dipoles point 120° apart in a plane and add to zero."
+  ],
+  "html": {
+   "prompt": "Which molecules are polar?<br>I. BF<sub>3</sub><br>II. NF<sub>3</sub><br>III. SO<sub>2</sub>",
+   "choices": [
+    "II and III only",
+    "I and II only",
+    "III only",
+    "I, II and III"
+   ],
+   "hint": "Draw each Lewis structure and check for lone pairs on the central atom. Polar bonds only make a polar molecule when the shape keeps the bond dipoles from canceling.",
+   "explain": "BF<sub>3</sub> is trigonal planar with no lone pair on boron, so its three B–F dipoles cancel and it is nonpolar (I false). NF<sub>3</sub> is trigonal pyramidal because of the lone pair on N, so its dipoles do not cancel (II polar). SO<sub>2</sub> is bent because of the lone pair on S, so it is polar (III polar). The answer is <b>II and III only</b>.",
+   "why": [
+    "",
+    "BF₃ is the one to recheck. Boron has no lone pair, so the molecule is flat and symmetric and its bond dipoles cancel.",
+    "NF₃ is polar too. Nitrogen has a lone pair, so the molecule is a pyramid and the N to F dipoles do not cancel.",
+    "BF₃ is nonpolar. Its three equal bond dipoles point 120° apart in a plane and add to zero."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 655
+  }
+ },
+ {
+  "id": "finalexam-f41006e0",
+  "skill": "finalexam.1a.bonding",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-7"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "In which species does the central atom have MORE than eight valence electrons around it in the Lewis structure? I. ICl₄⁻ II. NH₄⁺ III. BCl₃",
+  "choices": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "answer": "I only",
+  "hint": "Count the bonding pairs and lone pairs on each central atom. Only atoms in period 3 and below can go beyond an octet.",
+  "explain": "In ICl₄⁻, iodine has four bonds and two lone pairs, 12 electrons, an expanded octet (I yes). In NH₄⁺, nitrogen has four bonds and no lone pairs, exactly 8 electrons (II no). In BCl₃, boron has three bonds and only 6 electrons, fewer than an octet (III no). The answer is I only.",
+  "why": [
+   "",
+   "Recheck NH₄⁺. Nitrogen has four bonding pairs and no lone pairs, which is exactly eight electrons.",
+   "Recheck BCl₃. Boron has only three bonding pairs, which is fewer than eight electrons, not more.",
+   "Recheck ICl₄⁻. Iodine has four bonds plus two lone pairs, which is more than eight electrons."
+  ],
+  "html": {
+   "prompt": "In which species does the central atom have MORE than eight valence electrons around it in the Lewis structure?<br>I. ICl<sub>4</sub><sup>−</sup><br>II. NH<sub>4</sub><sup>+</sup><br>III. BCl<sub>3</sub>",
+   "choices": [
+    "I only",
+    "I and II only",
+    "I and III only",
+    "II and III only"
+   ],
+   "hint": "Count the bonding pairs and lone pairs on each central atom. Only atoms in period 3 and below can go beyond an octet.",
+   "explain": "In ICl<sub>4</sub><sup>−</sup>, iodine has four bonds and two lone pairs, 12 electrons, an expanded octet (I yes). In NH<sub>4</sub><sup>+</sup>, nitrogen has four bonds and no lone pairs, exactly 8 electrons (II no). In BCl<sub>3</sub>, boron has three bonds and only 6 electrons, fewer than an octet (III no). The answer is <b>I only</b>.",
+   "why": [
+    "",
+    "Recheck NH₄⁺. Nitrogen has four bonding pairs and no lone pairs, which is exactly eight electrons.",
+    "Recheck BCl₃. Boron has only three bonding pairs, which is fewer than eight electrons, not more.",
+    "Recheck ICl₄⁻. Iodine has four bonds plus two lone pairs, which is more than eight electrons."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 656
+  }
+ },
+ {
+  "id": "finalexam-a21b7ddd",
+  "skill": "finalexam.1a.bonding",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-7"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which statements about molecular shapes are true? I. XeF₂ is linear. II. SF₄ is tetrahedral. III. ClF₃ is T-shaped.",
+  "choices": [
+   "I and III only",
+   "I only",
+   "I, II and III",
+   "II and III only"
+  ],
+  "answer": "I and III only",
+  "hint": "Count all electron groups (bonds and lone pairs) on the central atom first. Lone pairs in a trigonal bipyramid go to the equatorial positions.",
+  "explain": "XeF₂ has 5 electron groups (2 bonds, 3 lone pairs); the three lone pairs fill the equatorial positions, leaving a linear molecule (I true). SF₄ has 5 electron groups (4 bonds, 1 lone pair), so it is seesaw, not tetrahedral (II false). ClF₃ has 5 electron groups (3 bonds, 2 lone pairs), so it is T-shaped (III true). The answer is I and III only.",
+  "why": [
+   "",
+   "Statement III is also true. ClF₃ has three bonds and two equatorial lone pairs, which gives a T shape.",
+   "Statement II is false. Sulfur in SF₄ also has a lone pair, so there are five electron groups and the shape is a seesaw.",
+   "Statement I is true. The three lone pairs on Xe sit around the equator, so the two F atoms are 180° apart."
+  ],
+  "html": {
+   "prompt": "Which statements about molecular shapes are true?<br>I. XeF<sub>2</sub> is linear.<br>II. SF<sub>4</sub> is tetrahedral.<br>III. ClF<sub>3</sub> is T-shaped.",
+   "choices": [
+    "I and III only",
+    "I only",
+    "I, II and III",
+    "II and III only"
+   ],
+   "hint": "Count all electron groups (bonds and lone pairs) on the central atom first. Lone pairs in a trigonal bipyramid go to the equatorial positions.",
+   "explain": "XeF<sub>2</sub> has 5 electron groups (2 bonds, 3 lone pairs); the three lone pairs fill the equatorial positions, leaving a linear molecule (I true). SF<sub>4</sub> has 5 electron groups (4 bonds, 1 lone pair), so it is seesaw, not tetrahedral (II false). ClF<sub>3</sub> has 5 electron groups (3 bonds, 2 lone pairs), so it is T-shaped (III true). The answer is <b>I and III only</b>.",
+   "why": [
+    "",
+    "Statement III is also true. ClF₃ has three bonds and two equatorial lone pairs, which gives a T shape.",
+    "Statement II is false. Sulfur in SF₄ also has a lone pair, so there are five electron groups and the shape is a seesaw.",
+    "Statement I is true. The three lone pairs on Xe sit around the equator, so the two F atoms are 180° apart."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 657
+  }
+ },
+ {
+  "id": "finalexam-aed47cb0",
+  "skill": "finalexam.1a.bonding",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-7"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Arrange the carbon–oxygen bonds in these species from SHORTEST to LONGEST. I. CO₃²⁻ II. CO III. CO₂",
+  "choices": [
+   "II < III < I",
+   "I < III < II",
+   "III < II < I",
+   "II < I < III"
+  ],
+  "answer": "II < III < I",
+  "hint": "Find the C–O bond order in each species, averaging over resonance structures where needed. Higher bond order means a shorter bond.",
+  "explain": "CO has a triple bond (bond order 3). Each C=O in CO₂ is a double bond (bond order 2). The three equivalent bonds in carbonate each have bond order 1⅓ from resonance. Higher bond order gives a shorter bond, so CO < CO₂ < CO₃²⁻, which is II < III < I.",
+  "why": [
+   "",
+   "This is the order from longest to shortest. A higher bond order makes a shorter bond.",
+   "CO has a triple bond, which is shorter than the double bonds in CO₂.",
+   "The bonds in carbonate are partial double bonds (order 1⅓), so they are longer than the full double bonds in CO₂."
+  ],
+  "html": {
+   "prompt": "Arrange the carbon–oxygen bonds in these species from SHORTEST to LONGEST.<br>I. CO<sub>3</sub><sup>2−</sup><br>II. CO<br>III. CO<sub>2</sub>",
+   "choices": [
+    "II &lt; III &lt; I",
+    "I &lt; III &lt; II",
+    "III &lt; II &lt; I",
+    "II &lt; I &lt; III"
+   ],
+   "hint": "Find the C–O bond order in each species, averaging over resonance structures where needed. Higher bond order means a shorter bond.",
+   "explain": "CO has a triple bond (bond order 3). Each C=O in CO<sub>2</sub> is a double bond (bond order 2). The three equivalent bonds in carbonate each have bond order 1⅓ from resonance. Higher bond order gives a shorter bond, so CO &lt; CO<sub>2</sub> &lt; CO<sub>3</sub><sup>2−</sup>, which is <b>II &lt; III &lt; I</b>.",
+   "why": [
+    "",
+    "This is the order from longest to shortest. A higher bond order makes a shorter bond.",
+    "CO has a triple bond, which is shorter than the double bonds in CO₂.",
+    "The bonds in carbonate are partial double bonds (order 1⅓), so they are longer than the full double bonds in CO₂."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 658
+  }
+ },
+ {
+  "id": "finalexam-536f7232",
+  "skill": "finalexam.1a.bonding",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-7"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which statements about covalent bonds are true? I. A C=C double bond is stronger than a C–C single bond, but less than twice as strong. II. The H–F bond is more polar than the H–Cl bond. III. For bonds between the same kinds of atoms, a longer bond is generally a stronger bond.",
+  "choices": [
+   "I and II only",
+   "II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "answer": "I and II only",
+  "hint": "Think about what a π bond adds compared with a σ bond. Compare electronegativity differences, and how bond order affects both length and strength.",
+  "explain": "I is true: C=C is about 614 kJ/mol and C–C about 348 kJ/mol; the π bond adds less than a σ bond does, so the double bond is less than twice as strong. II is true: F is more electronegative than Cl, so the H–F bond has the larger electronegativity difference. III is false: for the same pair of atoms, higher bond order gives a shorter and stronger bond, so a longer bond is weaker. The answer is I and II only.",
+  "why": [
+   "",
+   "Statement I is true. The π bond in C=C is weaker than the σ bond, so the double bond is stronger than a single bond but not twice as strong.",
+   "Statement III is false. Going from single to double to triple, bonds get shorter and stronger together.",
+   "Statement III is false. A longer bond between the same two atoms is a weaker bond."
+  ],
+  "html": {
+   "prompt": "Which statements about covalent bonds are true?<br>I. A C=C double bond is stronger than a C–C single bond, but less than twice as strong.<br>II. The H–F bond is more polar than the H–Cl bond.<br>III. For bonds between the same kinds of atoms, a longer bond is generally a stronger bond.",
+   "choices": [
+    "I and II only",
+    "II only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "hint": "Think about what a π bond adds compared with a σ bond. Compare electronegativity differences, and how bond order affects both length and strength.",
+   "explain": "I is true: C=C is about 614 kJ/mol and C–C about 348 kJ/mol; the π bond adds less than a σ bond does, so the double bond is less than twice as strong. II is true: F is more electronegative than Cl, so the H–F bond has the larger electronegativity difference. III is false: for the same pair of atoms, higher bond order gives a shorter and stronger bond, so a longer bond is weaker. The answer is <b>I and II only</b>.",
+   "why": [
+    "",
+    "Statement I is true. The π bond in C=C is weaker than the σ bond, so the double bond is stronger than a single bond but not twice as strong.",
+    "Statement III is false. Going from single to double to triple, bonds get shorter and stronger together.",
+    "Statement III is false. A longer bond between the same two atoms is a weaker bond."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 659
+  }
+ },
+ {
+  "id": "finalexam-01e906c8",
+  "skill": "finalexam.1a.advanced",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-8"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "According to molecular orbital theory, which of these diatomic species are paramagnetic? I. N₂ II. B₂ III. C₂",
+  "choices": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "II only",
+  "hint": "For B₂, C₂ and N₂, the π_2p orbitals lie below σ_2p. Fill the valence electrons and look for unpaired ones.",
+  "explain": "B₂ has 6 valence electrons: (σ_2s)²(σ*_2s)²(π_2p)², with the two π electrons in separate orbitals, so it is paramagnetic. C₂ has 8: the two π_2p orbitals are completely filled, so it is diamagnetic. N₂ has 10: π_2p and σ_2p are both filled, so it is diamagnetic. The answer is II only.",
+  "why": [
+   "",
+   "Statement I is wrong. N₂ fills the π2p and σ2p orbitals completely, so all its electrons are paired.",
+   "Statement III is wrong. In C₂ the four π2p electrons exactly fill both π2p orbitals, so none are unpaired.",
+   "N₂ has all of its electrons paired, so it is diamagnetic."
+  ],
+  "html": {
+   "prompt": "According to molecular orbital theory, which of these diatomic species are paramagnetic?<br>I. N<sub>2</sub><br>II. B<sub>2</sub><br>III. C<sub>2</sub>",
+   "choices": [
+    "II only",
+    "I and II only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "For B<sub>2</sub>, C<sub>2</sub> and N<sub>2</sub>, the π<sub>2p</sub> orbitals lie below σ<sub>2p</sub>. Fill the valence electrons and look for unpaired ones.",
+   "explain": "B<sub>2</sub> has 6 valence electrons: (σ<sub>2s</sub>)<sup>2</sup>(σ*<sub>2s</sub>)<sup>2</sup>(π<sub>2p</sub>)<sup>2</sup>, with the two π electrons in separate orbitals, so it is paramagnetic. C<sub>2</sub> has 8: the two π<sub>2p</sub> orbitals are completely filled, so it is diamagnetic. N<sub>2</sub> has 10: π<sub>2p</sub> and σ<sub>2p</sub> are both filled, so it is diamagnetic. The answer is <b>II only</b>.",
+   "why": [
+    "",
+    "Statement I is wrong. N₂ fills the π2p and σ2p orbitals completely, so all its electrons are paired.",
+    "Statement III is wrong. In C₂ the four π2p electrons exactly fill both π2p orbitals, so none are unpaired.",
+    "N₂ has all of its electrons paired, so it is diamagnetic."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 660
+  }
+ },
+ {
+  "id": "finalexam-52357120",
+  "skill": "finalexam.1a.advanced",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-8"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which statements about ethene (ethylene), H₂C=CH₂, are true? I. Each carbon atom is sp² hybridized. II. The π bond forms from the overlap of two sp² hybrid orbitals. III. The molecule has five σ bonds and one π bond.",
+  "choices": [
+   "I and III only",
+   "I only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "answer": "I and III only",
+  "hint": "Each carbon has three electron groups. Ask which orbitals are left over after the hybrids are made, and count every bond, including the C–H bonds.",
+  "explain": "Each carbon has three electron groups (two C–H and one C=C), so it is sp² (I true). The σ bonds come from sp² hybrids, but the π bond comes from side-by-side overlap of the unhybridized 2p orbitals (II false). There are four C–H σ bonds plus one C–C σ bond, five σ in all, and one π bond (III true). The answer is I and III only.",
+  "why": [
+   "",
+   "Statement III is also true. Count the four C to H bonds plus the σ part of the double bond.",
+   "Statement II is false. The π bond uses the unhybridized p orbital left on each carbon, not hybrid orbitals.",
+   "Statement II is false. Hybrid orbitals point along the bond axis and form σ bonds. π bonds come from leftover p orbitals."
+  ],
+  "html": {
+   "prompt": "Which statements about ethene (ethylene), H<sub>2</sub>C=CH<sub>2</sub>, are true?<br>I. Each carbon atom is sp<sup>2</sup> hybridized.<br>II. The π bond forms from the overlap of two sp<sup>2</sup> hybrid orbitals.<br>III. The molecule has five σ bonds and one π bond.",
+   "choices": [
+    "I and III only",
+    "I only",
+    "I and II only",
+    "I, II and III"
+   ],
+   "hint": "Each carbon has three electron groups. Ask which orbitals are left over after the hybrids are made, and count every bond, including the C–H bonds.",
+   "explain": "Each carbon has three electron groups (two C–H and one C=C), so it is sp<sup>2</sup> (I true). The σ bonds come from sp<sup>2</sup> hybrids, but the π bond comes from side-by-side overlap of the unhybridized 2p orbitals (II false). There are four C–H σ bonds plus one C–C σ bond, five σ in all, and one π bond (III true). The answer is <b>I and III only</b>.",
+   "why": [
+    "",
+    "Statement III is also true. Count the four C to H bonds plus the σ part of the double bond.",
+    "Statement II is false. The π bond uses the unhybridized p orbital left on each carbon, not hybrid orbitals.",
+    "Statement II is false. Hybrid orbitals point along the bond axis and form σ bonds. π bonds come from leftover p orbitals."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 661
+  }
+ },
+ {
+  "id": "finalexam-5f205ed9",
+  "skill": "finalexam.1a.advanced",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-8"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "In which species is the central atom sp³ hybridized? I. BF₃ II. CO₃²⁻ III. H₃O⁺",
+  "choices": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "III only",
+  "hint": "Count electron groups (bonds plus lone pairs) on the central atom. A double bond counts as one group.",
+  "explain": "BF₃: boron has 3 bonds and no lone pair, 3 groups, so sp². CO₃²⁻: carbon has 3 groups (one double bond counts once), so sp². H₃O⁺: oxygen has 3 bonds and 1 lone pair, 4 groups, so sp³. The answer is III only.",
+  "why": [
+   "",
+   "Statement I is misjudged. Boron in BF₃ has only three electron groups and no lone pair, so it is sp².",
+   "Statement II is misjudged. The C=O double bond counts as one electron group, so carbon has three groups and is sp².",
+   "Recheck BF₃. Three electron groups means sp², not sp³."
+  ],
+  "html": {
+   "prompt": "In which species is the central atom sp<sup>3</sup> hybridized?<br>I. BF<sub>3</sub><br>II. CO<sub>3</sub><sup>2−</sup><br>III. H<sub>3</sub>O<sup>+</sup>",
+   "choices": [
+    "III only",
+    "I and III only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Count electron groups (bonds plus lone pairs) on the central atom. A double bond counts as one group.",
+   "explain": "BF<sub>3</sub>: boron has 3 bonds and no lone pair, 3 groups, so sp<sup>2</sup>. CO<sub>3</sub><sup>2−</sup>: carbon has 3 groups (one double bond counts once), so sp<sup>2</sup>. H<sub>3</sub>O<sup>+</sup>: oxygen has 3 bonds and 1 lone pair, 4 groups, so sp<sup>3</sup>. The answer is <b>III only</b>.",
+   "why": [
+    "",
+    "Statement I is misjudged. Boron in BF₃ has only three electron groups and no lone pair, so it is sp².",
+    "Statement II is misjudged. The C=O double bond counts as one electron group, so carbon has three groups and is sp².",
+    "Recheck BF₃. Three electron groups means sp², not sp³."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 662
+  }
+ },
+ {
+  "id": "finalexam-c837f4ab",
+  "skill": "finalexam.1a.advanced",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-8"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Which statements are correct according to molecular orbital theory? I. The peroxide ion, O₂²⁻, has a bond order of 2. II. F₂ has a bond order of 1. III. Adding an electron to O₂ to form O₂⁻ makes the O–O bond longer.",
+  "choices": [
+   "II and III only",
+   "II only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "answer": "II and III only",
+  "hint": "For O₂ and F₂, extra electrons go into the π*_2p antibonding orbitals. Bond order = ½(bonding − antibonding electrons).",
+  "explain": "O₂ (12 valence electrons) has bond order 2. Each added electron enters π*_2p, so O₂⁻ has bond order 1.5 and a longer bond (III true), and O₂²⁻ has bond order 1 (I false). F₂ (14 valence electrons) has 8 bonding and 6 antibonding, bond order 1 (II true). The answer is II and III only.",
+  "why": [
+   "",
+   "Statement III is also true. The added electron goes into an antibonding orbital, which lowers the bond order and lengthens the bond.",
+   "Statement I is false. Peroxide has two more antibonding electrons than O₂, which lowers the bond order below 2.",
+   "Statement I is false. O₂²⁻ has 8 bonding and 6 antibonding valence electrons."
+  ],
+  "html": {
+   "prompt": "Which statements are correct according to molecular orbital theory?<br>I. The peroxide ion, O<sub>2</sub><sup>2−</sup>, has a bond order of 2.<br>II. F<sub>2</sub> has a bond order of 1.<br>III. Adding an electron to O<sub>2</sub> to form O<sub>2</sub><sup>−</sup> makes the O–O bond longer.",
+   "choices": [
+    "II and III only",
+    "II only",
+    "I and II only",
+    "I, II and III"
+   ],
+   "hint": "For O<sub>2</sub> and F<sub>2</sub>, extra electrons go into the π*<sub>2p</sub> antibonding orbitals. Bond order = ½(bonding − antibonding electrons).",
+   "explain": "O<sub>2</sub> (12 valence electrons) has bond order 2. Each added electron enters π*<sub>2p</sub>, so O<sub>2</sub><sup>−</sup> has bond order 1.5 and a longer bond (III true), and O<sub>2</sub><sup>2−</sup> has bond order 1 (I false). F<sub>2</sub> (14 valence electrons) has 8 bonding and 6 antibonding, bond order 1 (II true). The answer is <b>II and III only</b>.",
+   "why": [
+    "",
+    "Statement III is also true. The added electron goes into an antibonding orbital, which lowers the bond order and lengthens the bond.",
+    "Statement I is false. Peroxide has two more antibonding electrons than O₂, which lowers the bond order below 2.",
+    "Statement I is false. O₂²⁻ has 8 bonding and 6 antibonding valence electrons."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 663
+  }
+ },
+ {
+  "id": "finalexam-7e53cf58",
+  "skill": "finalexam.1a.gases",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-9"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "A sample of an ideal gas is at 1.0 atm and 27 °C. Which changes, each made with the amount of gas held constant, would DOUBLE its volume? I. Heating the gas from 27 °C to 54 °C at constant pressure. II. Lowering the pressure to 0.50 atm at constant temperature. III. Doubling both the pressure and the Kelvin temperature.",
+  "choices": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "II only",
+  "hint": "Use V = nRT/P with T in kelvins. Convert both Celsius temperatures before comparing them.",
+  "explain": "I: 27 °C is 300 K and 54 °C is 327 K, so V rises only by 327/300, about 9% (does not double). II: halving P at constant T doubles V (Boyle's law). III: doubling both P and T leaves T/P, and so V, unchanged. The answer is II only.",
+  "why": [
+   "",
+   "Statement I does not double the volume. Gas laws use kelvins, and 300 K to 327 K is only about a 9% increase.",
+   "Statement III does not change the volume. Doubling P halves V and doubling T doubles V, so the effects cancel.",
+   "Statement I does not double the volume. Doubling a Celsius temperature does not double the Kelvin temperature."
+  ],
+  "html": {
+   "prompt": "A sample of an ideal gas is at 1.0 atm and 27 °C. Which changes, each made with the amount of gas held constant, would DOUBLE its volume?<br>I. Heating the gas from 27 °C to 54 °C at constant pressure.<br>II. Lowering the pressure to 0.50 atm at constant temperature.<br>III. Doubling both the pressure and the Kelvin temperature.",
+   "choices": [
+    "II only",
+    "I and II only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Use V = nRT/P with T in kelvins. Convert both Celsius temperatures before comparing them.",
+   "explain": "I: 27 °C is 300 K and 54 °C is 327 K, so V rises only by 327/300, about 9% (does not double). II: halving P at constant T doubles V (Boyle's law). III: doubling both P and T leaves T/P, and so V, unchanged. The answer is <b>II only</b>.",
+   "why": [
+    "",
+    "Statement I does not double the volume. Gas laws use kelvins, and 300 K to 327 K is only about a 9% increase.",
+    "Statement III does not change the volume. Doubling P halves V and doubling T doubles V, so the effects cancel.",
+    "Statement I does not double the volume. Doubling a Celsius temperature does not double the Kelvin temperature."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 664
+  }
+ },
+ {
+  "id": "finalexam-2511aa88",
+  "skill": "finalexam.1a.gases",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-9"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "A rigid container holds equal numbers of moles of He and CH₄ at 25 °C. Which statements are true? I. Helium atoms effuse through a tiny hole twice as fast as CH₄ molecules. II. The CH₄ molecules have a greater average kinetic energy than the He atoms. III. The partial pressure of CH₄ is four times the partial pressure of He.",
+  "choices": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "answer": "I only",
+  "hint": "Graham's law compares effusion rates using the square root of the molar masses. Average kinetic energy and partial pressure depend on different things than mass.",
+  "explain": "I is true: rate(He)/rate(CH₄) = √(16.04/4.00) = 2.00. II is false: average kinetic energy depends only on temperature, so both gases have the same value at 25 °C. III is false: partial pressure depends on the number of moles, not the mass, so equal moles give equal partial pressures. The answer is I only.",
+  "why": [
+   "",
+   "Statement II is false. At the same temperature every gas has the same average kinetic energy. Heavier molecules just move more slowly.",
+   "Statement III is false. Partial pressure is set by moles, and the moles of the two gases are equal.",
+   "Statement I is true. √(16/4) = 2, so helium effuses twice as fast."
+  ],
+  "html": {
+   "prompt": "A rigid container holds equal numbers of moles of He and CH<sub>4</sub> at 25 °C. Which statements are true?<br>I. Helium atoms effuse through a tiny hole twice as fast as CH<sub>4</sub> molecules.<br>II. The CH<sub>4</sub> molecules have a greater average kinetic energy than the He atoms.<br>III. The partial pressure of CH<sub>4</sub> is four times the partial pressure of He.",
+   "choices": [
+    "I only",
+    "I and II only",
+    "I and III only",
+    "II and III only"
+   ],
+   "hint": "Graham's law compares effusion rates using the square root of the molar masses. Average kinetic energy and partial pressure depend on different things than mass.",
+   "explain": "I is true: rate(He)/rate(CH<sub>4</sub>) = √(16.04/4.00) = 2.00. II is false: average kinetic energy depends only on temperature, so both gases have the same value at 25 °C. III is false: partial pressure depends on the number of moles, not the mass, so equal moles give equal partial pressures. The answer is <b>I only</b>.",
+   "why": [
+    "",
+    "Statement II is false. At the same temperature every gas has the same average kinetic energy. Heavier molecules just move more slowly.",
+    "Statement III is false. Partial pressure is set by moles, and the moles of the two gases are equal.",
+    "Statement I is true. √(16/4) = 2, so helium effuses twice as fast."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 665
+  }
+ },
+ {
+  "id": "finalexam-14e7a98f",
+  "skill": "finalexam.1a.gases",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-9"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which statements help explain why real gases do not behave exactly like ideal gases? I. Gas molecules take up some volume of their own, which matters when the gas is compressed to high pressure. II. Attractions between molecules make the measured pressure lower than the ideal-gas value. III. Deviations from ideal behavior are largest at high pressure and low temperature.",
+  "choices": [
+   "I, II and III",
+   "I and II only",
+   "I and III only",
+   "II only"
+  ],
+  "answer": "I, II and III",
+  "hint": "The van der Waals equation corrects the ideal gas law for two things the kinetic molecular theory ignores. Think about when molecules are crowded together and moving slowly.",
+  "explain": "I is true: molecular volume is ignored by the ideal model and becomes significant when molecules are crowded at high pressure (the b term). II is true: attractions pull molecules back as they approach the wall, so they hit it less hard and the pressure is lower than ideal (the a term). III is true: high pressure crowds the molecules and low temperature lets attractions matter more, so deviations are largest there. The answer is I, II and III.",
+  "why": [
+   "",
+   "Statement III is true as well. Crowding at high pressure and slow motion at low temperature both make the ideal model fail.",
+   "Statement II is true as well. Attractions between molecules soften their collisions with the wall and lower the pressure.",
+   "Statement I is true as well. At high pressure the molecules' own volume is no longer a tiny part of the container volume."
+  ],
+  "html": {
+   "prompt": "Which statements help explain why real gases do not behave exactly like ideal gases?<br>I. Gas molecules take up some volume of their own, which matters when the gas is compressed to high pressure.<br>II. Attractions between molecules make the measured pressure lower than the ideal-gas value.<br>III. Deviations from ideal behavior are largest at high pressure and low temperature.",
+   "choices": [
+    "I, II and III",
+    "I and II only",
+    "I and III only",
+    "II only"
+   ],
+   "hint": "The van der Waals equation corrects the ideal gas law for two things the kinetic molecular theory ignores. Think about when molecules are crowded together and moving slowly.",
+   "explain": "I is true: molecular volume is ignored by the ideal model and becomes significant when molecules are crowded at high pressure (the b term). II is true: attractions pull molecules back as they approach the wall, so they hit it less hard and the pressure is lower than ideal (the a term). III is true: high pressure crowds the molecules and low temperature lets attractions matter more, so deviations are largest there. The answer is <b>I, II and III</b>.",
+   "why": [
+    "",
+    "Statement III is true as well. Crowding at high pressure and slow motion at low temperature both make the ideal model fail.",
+    "Statement II is true as well. Attractions between molecules soften their collisions with the wall and lower the pressure.",
+    "Statement I is true as well. At high pressure the molecules' own volume is no longer a tiny part of the container volume."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 666
+  }
+ },
+ {
+  "id": "finalexam-51ca41ab",
+  "skill": "finalexam.1a.gases",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-9"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "Three 1.0 L flasks at 25 °C each contain 2.0 g of a different gas. Arrange the flasks in order of INCREASING pressure. I. H₂ II. He III. CH₄",
+  "choices": [
+   "III < II < I",
+   "I < II < III",
+   "II < I < III",
+   "III < I < II"
+  ],
+  "answer": "III < II < I",
+  "hint": "At the same V and T, pressure is proportional to moles. Convert each 2.0 g to moles.",
+  "explain": "Moles: H₂ 2.0/2.02 ≈ 0.99 mol, He 2.0/4.00 = 0.50 mol, CH₄ 2.0/16.04 ≈ 0.12 mol. At equal V and T, P is proportional to n, so the order of increasing pressure is CH₄ < He < H₂, which is III < II < I.",
+  "why": [
+   "",
+   "This is the order of molar mass. Equal masses of a lighter gas mean more moles, and more moles mean more pressure.",
+   "Helium has the higher molar mass of these two (4.00 vs 2.02 g/mol), so 2.0 g of it is fewer moles than 2.0 g of H₂.",
+   "H₂ has the smallest molar mass, so 2.0 g of it is the most moles of the three."
+  ],
+  "html": {
+   "prompt": "Three 1.0 L flasks at 25 °C each contain 2.0 g of a different gas. Arrange the flasks in order of INCREASING pressure.<br>I. H<sub>2</sub><br>II. He<br>III. CH<sub>4</sub>",
+   "choices": [
+    "III &lt; II &lt; I",
+    "I &lt; II &lt; III",
+    "II &lt; I &lt; III",
+    "III &lt; I &lt; II"
+   ],
+   "hint": "At the same V and T, pressure is proportional to moles. Convert each 2.0 g to moles.",
+   "explain": "Moles: H<sub>2</sub> 2.0/2.02 ≈ 0.99 mol, He 2.0/4.00 = 0.50 mol, CH<sub>4</sub> 2.0/16.04 ≈ 0.12 mol. At equal V and T, P is proportional to n, so the order of increasing pressure is CH<sub>4</sub> &lt; He &lt; H<sub>2</sub>, which is <b>III &lt; II &lt; I</b>.",
+   "why": [
+    "",
+    "This is the order of molar mass. Equal masses of a lighter gas mean more moles, and more moles mean more pressure.",
+    "Helium has the higher molar mass of these two (4.00 vs 2.02 g/mol), so 2.0 g of it is fewer moles than 2.0 g of H₂.",
+    "H₂ has the smallest molar mass, so 2.0 g of it is the most moles of the three."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 667
+  }
+ },
+ {
+  "id": "finalexam-22214290",
+  "skill": "finalexam.1a.liquids",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-10"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "In which pure liquids do the molecules hydrogen bond to one another? I. methanol, CH₃OH II. dimethyl ether, CH₃OCH₃ III. hydrogen fluoride, HF",
+  "choices": [
+   "I and III only",
+   "III only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "answer": "I and III only",
+  "hint": "A molecule can hydrogen bond to its own kind only if it has an H atom bonded directly to N, O or F.",
+  "explain": "Methanol has an O–H group, so its molecules hydrogen bond to each other (I yes). HF has H bonded directly to F (III yes). Dimethyl ether has an O atom, but all of its H atoms are bonded to carbon, so it has no H to donate and cannot hydrogen bond to itself (II no). The answer is I and III only.",
+  "why": [
+   "",
+   "Recheck methanol. Its O to H group can donate a hydrogen bond to the O of a neighboring molecule.",
+   "Recheck dimethyl ether. Its H atoms are all on carbon, so it has no H to donate to a neighbor.",
+   "Dimethyl ether is the one to recheck. An O atom alone is not enough, the H must be bonded to N, O or F."
+  ],
+  "html": {
+   "prompt": "In which pure liquids do the molecules hydrogen bond to one another?<br>I. methanol, CH<sub>3</sub>OH<br>II. dimethyl ether, CH<sub>3</sub>OCH<sub>3</sub><br>III. hydrogen fluoride, HF",
+   "choices": [
+    "I and III only",
+    "III only",
+    "I and II only",
+    "I, II and III"
+   ],
+   "hint": "A molecule can hydrogen bond to its own kind only if it has an H atom bonded directly to N, O or F.",
+   "explain": "Methanol has an O–H group, so its molecules hydrogen bond to each other (I yes). HF has H bonded directly to F (III yes). Dimethyl ether has an O atom, but all of its H atoms are bonded to carbon, so it has no H to donate and cannot hydrogen bond to itself (II no). The answer is <b>I and III only</b>.",
+   "why": [
+    "",
+    "Recheck methanol. Its O to H group can donate a hydrogen bond to the O of a neighboring molecule.",
+    "Recheck dimethyl ether. Its H atoms are all on carbon, so it has no H to donate to a neighbor.",
+    "Dimethyl ether is the one to recheck. An O atom alone is not enough, the H must be bonded to N, O or F."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 668
+  }
+ },
+ {
+  "id": "finalexam-ef21c3fb",
+  "skill": "finalexam.1a.liquids",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-10"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which statements about boiling are true? I. A liquid always boils when its vapor pressure reaches 760 torr, no matter what the external pressure is. II. Water boils below 100 °C on a high mountain. III. Of two liquids, the one with stronger intermolecular forces usually has the higher normal boiling point.",
+  "choices": [
+   "II and III only",
+   "I and II only",
+   "III only",
+   "I, II and III"
+  ],
+  "answer": "II and III only",
+  "hint": "Boiling happens when the vapor pressure of the liquid matches the pressure pushing down on it.",
+  "explain": "I is false: a liquid boils when its vapor pressure equals the external pressure, which is 760 torr only at sea level. II is true: on a mountain the air pressure is lower, so water's vapor pressure reaches it at a lower temperature. III is true: stronger intermolecular forces lower the vapor pressure, so a higher temperature is needed to reach 1 atm. The answer is II and III only.",
+  "why": [
+   "",
+   "Statement I is false. The boiling point depends on the external pressure, and 760 torr is only the pressure at sea level.",
+   "Statement II is true. Lower air pressure on a mountain means water boils at a lower temperature.",
+   "Statement I is false. A liquid boils when its vapor pressure equals whatever the external pressure is."
+  ],
+  "html": {
+   "prompt": "Which statements about boiling are true?<br>I. A liquid always boils when its vapor pressure reaches 760 torr, no matter what the external pressure is.<br>II. Water boils below 100 °C on a high mountain.<br>III. Of two liquids, the one with stronger intermolecular forces usually has the higher normal boiling point.",
+   "choices": [
+    "II and III only",
+    "I and II only",
+    "III only",
+    "I, II and III"
+   ],
+   "hint": "Boiling happens when the vapor pressure of the liquid matches the pressure pushing down on it.",
+   "explain": "I is false: a liquid boils when its vapor pressure equals the external pressure, which is 760 torr only at sea level. II is true: on a mountain the air pressure is lower, so water's vapor pressure reaches it at a lower temperature. III is true: stronger intermolecular forces lower the vapor pressure, so a higher temperature is needed to reach 1 atm. The answer is <b>II and III only</b>.",
+   "why": [
+    "",
+    "Statement I is false. The boiling point depends on the external pressure, and 760 torr is only the pressure at sea level.",
+    "Statement II is true. Lower air pressure on a mountain means water boils at a lower temperature.",
+    "Statement I is false. A liquid boils when its vapor pressure equals whatever the external pressure is."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 669
+  }
+ },
+ {
+  "id": "finalexam-3225fd90",
+  "skill": "finalexam.1a.liquids",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-10"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Heat is added at a steady rate to a sample of ice at −20 °C until it becomes steam at 120 °C. Which statements are true? I. The temperature stays constant while the ice melts. II. Melting the ice takes longer than boiling the water. III. While the water is boiling, the added energy raises the average kinetic energy of the molecules.",
+  "choices": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "answer": "I only",
+  "hint": "On a heating curve, flat sections are phase changes. Compare ΔH_fus (6.01 kJ/mol) with ΔH_vap (40.7 kJ/mol) for water.",
+  "explain": "I is true: during melting the added heat breaks intermolecular attractions, so the temperature stays at 0 °C. II is false: ΔH_vap (40.7 kJ/mol) is almost seven times ΔH_fus (6.01 kJ/mol), so at a steady heating rate boiling takes much longer. III is false: during boiling the temperature, and so the average kinetic energy, stays constant; the energy goes into separating molecules (raising potential energy). The answer is I only.",
+  "why": [
+   "",
+   "Statement II is false. Vaporizing water takes far more energy per mole than melting ice, so the boiling plateau is longer.",
+   "Statement III is false. Temperature does not change during boiling, so the average kinetic energy does not change either.",
+   "Statement II is false. ΔHvap is much larger than ΔHfus, so boiling takes longer than melting."
+  ],
+  "html": {
+   "prompt": "Heat is added at a steady rate to a sample of ice at −20 °C until it becomes steam at 120 °C. Which statements are true?<br>I. The temperature stays constant while the ice melts.<br>II. Melting the ice takes longer than boiling the water.<br>III. While the water is boiling, the added energy raises the average kinetic energy of the molecules.",
+   "choices": [
+    "I only",
+    "I and II only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "hint": "On a heating curve, flat sections are phase changes. Compare ΔH<sub>fus</sub> (6.01 kJ/mol) with ΔH<sub>vap</sub> (40.7 kJ/mol) for water.",
+   "explain": "I is true: during melting the added heat breaks intermolecular attractions, so the temperature stays at 0 °C. II is false: ΔH<sub>vap</sub> (40.7 kJ/mol) is almost seven times ΔH<sub>fus</sub> (6.01 kJ/mol), so at a steady heating rate boiling takes much longer. III is false: during boiling the temperature, and so the average kinetic energy, stays constant; the energy goes into separating molecules (raising potential energy). The answer is <b>I only</b>.",
+   "why": [
+    "",
+    "Statement II is false. Vaporizing water takes far more energy per mole than melting ice, so the boiling plateau is longer.",
+    "Statement III is false. Temperature does not change during boiling, so the average kinetic energy does not change either.",
+    "Statement II is false. ΔHvap is much larger than ΔHfus, so boiling takes longer than melting."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 670
+  }
+ },
+ {
+  "id": "finalexam-84713181",
+  "skill": "finalexam.1a.liquids",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-10"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which statements about solids are true? I. Diamond is a molecular solid held together by dispersion forces. II. Solid NaCl does not conduct electricity, but molten NaCl does. III. Metals conduct electricity because they contain anions that are free to move.",
+  "choices": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "II only",
+  "hint": "Match each solid with the particles it is made of and the forces between them. Conduction needs charged particles that can move.",
+  "explain": "I is false: diamond is a covalent network solid, with every carbon joined to four others by covalent bonds, which is why it is so hard and melts so high. II is true: the ions in solid NaCl are locked in the lattice, but in the melt they can move and carry current. III is false: metals conduct because their valence electrons are delocalized and mobile, not because of moving anions. The answer is II only.",
+  "why": [
+   "",
+   "Statement I is false. Diamond is a network of covalent bonds, not separate molecules held by dispersion forces.",
+   "Statement III is false. In a metal the charge carriers are delocalized electrons, and there are no anions.",
+   "Statement I is false. Diamond's extreme hardness comes from a continuous network of covalent bonds."
+  ],
+  "html": {
+   "prompt": "Which statements about solids are true?<br>I. Diamond is a molecular solid held together by dispersion forces.<br>II. Solid NaCl does not conduct electricity, but molten NaCl does.<br>III. Metals conduct electricity because they contain anions that are free to move.",
+   "choices": [
+    "II only",
+    "I and II only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Match each solid with the particles it is made of and the forces between them. Conduction needs charged particles that can move.",
+   "explain": "I is false: diamond is a covalent network solid, with every carbon joined to four others by covalent bonds, which is why it is so hard and melts so high. II is true: the ions in solid NaCl are locked in the lattice, but in the melt they can move and carry current. III is false: metals conduct because their valence electrons are delocalized and mobile, not because of moving anions. The answer is <b>II only</b>.",
+   "why": [
+    "",
+    "Statement I is false. Diamond is a network of covalent bonds, not separate molecules held by dispersion forces.",
+    "Statement III is false. In a metal the charge carriers are delocalized electrons, and there are no anions.",
+    "Statement I is false. Diamond's extreme hardness comes from a continuous network of covalent bonds."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 671
+  }
+ },
+ {
+  "id": "finalexam-0286150a",
+  "skill": "finalexam.1a.solutions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-11"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which changes would increase the solubility of CO₂ gas in water? I. Warming the water. II. Stirring the water faster. III. Raising the partial pressure of CO₂ above the water.",
+  "choices": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "III only",
+  "hint": "Solubility is how much dissolves at equilibrium, not how fast it dissolves. Think about Henry's law and why warm soda goes flat.",
+  "explain": "I: gases become less soluble in water as temperature rises, so warming lowers the solubility. II: stirring only speeds up how fast the gas dissolves; it does not change how much can dissolve at equilibrium. III: by Henry's law, the solubility of a gas is proportional to its partial pressure, so raising P(CO₂) increases it. The answer is III only.",
+  "why": [
+   "",
+   "Statement I is misjudged. Gas solubility in water decreases when the water is warmed, which is why warm soda goes flat.",
+   "Statement II is misjudged. Stirring changes the rate of dissolving, not the amount that can dissolve at equilibrium.",
+   "Warming the water does the opposite. Gases are less soluble in warmer water."
+  ],
+  "html": {
+   "prompt": "Which changes would increase the solubility of CO<sub>2</sub> gas in water?<br>I. Warming the water.<br>II. Stirring the water faster.<br>III. Raising the partial pressure of CO<sub>2</sub> above the water.",
+   "choices": [
+    "III only",
+    "I and III only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Solubility is how much dissolves at equilibrium, not how fast it dissolves. Think about Henry's law and why warm soda goes flat.",
+   "explain": "I: gases become less soluble in water as temperature rises, so warming lowers the solubility. II: stirring only speeds up how fast the gas dissolves; it does not change how much can dissolve at equilibrium. III: by Henry's law, the solubility of a gas is proportional to its partial pressure, so raising P(CO<sub>2</sub>) increases it. The answer is <b>III only</b>.",
+   "why": [
+    "",
+    "Statement I is misjudged. Gas solubility in water decreases when the water is warmed, which is why warm soda goes flat.",
+    "Statement II is misjudged. Stirring changes the rate of dissolving, not the amount that can dissolve at equilibrium.",
+    "Warming the water does the opposite. Gases are less soluble in warmer water."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 672
+  }
+ },
+ {
+  "id": "finalexam-f25b69e7",
+  "skill": "finalexam.1a.solutions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-11"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which statements about dissolving an ionic solid in water are true? I. Water molecules around a cation point their oxygen atoms toward it. II. A salt with a positive (endothermic) enthalpy of solution can still dissolve on its own. III. Dissolving an ionic solid in water is always exothermic.",
+  "choices": [
+   "I and II only",
+   "I only",
+   "II only",
+   "I, II and III"
+  ],
+  "answer": "I and II only",
+  "hint": "Think about which end of a water molecule carries the partial negative charge. Remember that a cold pack works by dissolving a salt.",
+  "explain": "I is true: oxygen carries the partial negative charge of water, so it faces the positive cation. II is true: salts such as NH₄NO₃ dissolve endothermically (the basis of cold packs); the increase in dispersal (entropy) of the ions drives the process. III is false: the enthalpy of solution is the balance of lattice energy and hydration energy and can be either positive or negative. The answer is I and II only.",
+  "why": [
+   "",
+   "Statement II is also true. Cold packs dissolve a salt that absorbs heat, and it still dissolves on its own.",
+   "Statement I is also true. The partially negative O end of water is attracted to a positive ion.",
+   "Statement III is false. Some salts, like NH₄NO₃, absorb heat when they dissolve."
+  ],
+  "html": {
+   "prompt": "Which statements about dissolving an ionic solid in water are true?<br>I. Water molecules around a cation point their oxygen atoms toward it.<br>II. A salt with a positive (endothermic) enthalpy of solution can still dissolve on its own.<br>III. Dissolving an ionic solid in water is always exothermic.",
+   "choices": [
+    "I and II only",
+    "I only",
+    "II only",
+    "I, II and III"
+   ],
+   "hint": "Think about which end of a water molecule carries the partial negative charge. Remember that a cold pack works by dissolving a salt.",
+   "explain": "I is true: oxygen carries the partial negative charge of water, so it faces the positive cation. II is true: salts such as NH<sub>4</sub>NO<sub>3</sub> dissolve endothermically (the basis of cold packs); the increase in dispersal (entropy) of the ions drives the process. III is false: the enthalpy of solution is the balance of lattice energy and hydration energy and can be either positive or negative. The answer is <b>I and II only</b>.",
+   "why": [
+    "",
+    "Statement II is also true. Cold packs dissolve a salt that absorbs heat, and it still dissolves on its own.",
+    "Statement I is also true. The partially negative O end of water is attracted to a positive ion.",
+    "Statement III is false. Some salts, like NH₄NO₃, absorb heat when they dissolve."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 673
+  }
+ },
+ {
+  "id": "finalexam-2829496e",
+  "skill": "finalexam.1a.solutions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-11"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "Which aqueous solutions have a LOWER freezing point than 0.20 m glucose? Assume the ionic solutes dissociate completely. I. 0.15 m NaCl II. 0.050 m CaCl₂ III. 0.10 m Na₂SO₄",
+  "choices": [
+   "I and III only",
+   "I only",
+   "III only",
+   "I, II and III"
+  ],
+  "answer": "I and III only",
+  "hint": "Freezing-point depression depends on the total molality of dissolved particles, i × m. Compare each with glucose's 0.20 m of particles.",
+  "explain": "Particle molality (i × m): glucose 1 × 0.20 = 0.20 m. NaCl 2 × 0.15 = 0.30 m (I lower freezing point). CaCl₂ 3 × 0.050 = 0.15 m, which is less than 0.20 m, so its freezing point is higher than glucose's (II no). Na₂SO₄ 3 × 0.10 = 0.30 m (III lower freezing point). The answer is I and III only.",
+  "why": [
+   "",
+   "Recheck Na₂SO₄. It gives 3 ions per formula unit, so 0.10 m makes 0.30 m of particles.",
+   "Recheck NaCl. It gives 2 ions per formula unit, so 0.15 m makes 0.30 m of particles.",
+   "Recheck CaCl₂. Its 3 ions times 0.050 m is only 0.15 m of particles, fewer than glucose's 0.20 m."
+  ],
+  "html": {
+   "prompt": "Which aqueous solutions have a LOWER freezing point than 0.20 m glucose? Assume the ionic solutes dissociate completely.<br>I. 0.15 m NaCl<br>II. 0.050 m CaCl<sub>2</sub><br>III. 0.10 m Na<sub>2</sub>SO<sub>4</sub>",
+   "choices": [
+    "I and III only",
+    "I only",
+    "III only",
+    "I, II and III"
+   ],
+   "hint": "Freezing-point depression depends on the total molality of dissolved particles, i × m. Compare each with glucose's 0.20 m of particles.",
+   "explain": "Particle molality (i × m): glucose 1 × 0.20 = 0.20 m. NaCl 2 × 0.15 = 0.30 m (I lower freezing point). CaCl<sub>2</sub> 3 × 0.050 = 0.15 m, which is less than 0.20 m, so its freezing point is higher than glucose's (II no). Na<sub>2</sub>SO<sub>4</sub> 3 × 0.10 = 0.30 m (III lower freezing point). The answer is <b>I and III only</b>.",
+   "why": [
+    "",
+    "Recheck Na₂SO₄. It gives 3 ions per formula unit, so 0.10 m makes 0.30 m of particles.",
+    "Recheck NaCl. It gives 2 ions per formula unit, so 0.15 m makes 0.30 m of particles.",
+    "Recheck CaCl₂. Its 3 ions times 0.050 m is only 0.15 m of particles, fewer than glucose's 0.20 m."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 674
+  }
+ },
+ {
+  "id": "finalexam-af70039b",
+  "skill": "finalexam.1a.solutions",
+  "courses": [
+   "1A"
+  ],
+  "chapters": [
+   "1A-11"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which pairs of liquids mix completely (are miscible) in all proportions? I. ethanol, CH₃CH₂OH, and water II. hexane, C₆H₁₄, and octane, C₈H₁₈ III. acetone, (CH₃)₂CO, and water",
+  "choices": [
+   "I, II and III",
+   "I only",
+   "I and III only",
+   "II and III only"
+  ],
+  "answer": "I, II and III",
+  "hint": "Like dissolves like: liquids mix well when the attractions between unlike molecules are similar to the attractions within each liquid.",
+  "explain": "I: ethanol and water both hydrogen bond, so they mix in all proportions. II: hexane and octane are both nonpolar and held by dispersion forces only, so they mix in all proportions. III: acetone is small and polar and its C=O oxygen accepts hydrogen bonds from water, so it mixes with water in all proportions. The answer is I, II and III.",
+  "why": [
+   "",
+   "Statement II is true as well. Two nonpolar hydrocarbons have the same kind of forces, so they mix freely.",
+   "Statement II is true as well. Hexane and octane are both nonpolar, so like dissolves like.",
+   "Statement I is true as well. Ethanol's O to H group hydrogen bonds with water."
+  ],
+  "html": {
+   "prompt": "Which pairs of liquids mix completely (are miscible) in all proportions?<br>I. ethanol, CH<sub>3</sub>CH<sub>2</sub>OH, and water<br>II. hexane, C<sub>6</sub>H<sub>14</sub>, and octane, C<sub>8</sub>H<sub>18</sub><br>III. acetone, (CH<sub>3</sub>)<sub>2</sub>CO, and water",
+   "choices": [
+    "I, II and III",
+    "I only",
+    "I and III only",
+    "II and III only"
+   ],
+   "hint": "Like dissolves like: liquids mix well when the attractions between unlike molecules are similar to the attractions within each liquid.",
+   "explain": "I: ethanol and water both hydrogen bond, so they mix in all proportions. II: hexane and octane are both nonpolar and held by dispersion forces only, so they mix in all proportions. III: acetone is small and polar and its C=O oxygen accepts hydrogen bonds from water, so it mixes with water in all proportions. The answer is <b>I, II and III</b>.",
+   "why": [
+    "",
+    "Statement II is true as well. Two nonpolar hydrocarbons have the same kind of forces, so they mix freely.",
+    "Statement II is true as well. Hexane and octane are both nonpolar, so like dissolves like.",
+    "Statement I is true as well. Ethanol's O to H group hydrogen bonds with water."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1A",
+   "index": 675
+  }
  }
 ]

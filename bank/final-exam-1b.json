@@ -59249,5 +59249,2747 @@
    "list": "BANK.1B",
    "index": 553
   }
+ },
+ {
+  "id": "finalexam-93b3e81c",
+  "skill": "finalexam.1b.kinetics",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-12"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "A reaction occurs in a single step and is exothermic. Which statements are true? I. The activation energy of the reverse reaction is larger than that of the forward reaction. II. Raising the temperature increases the rate constant of the forward reaction but not of the reverse reaction. III. The transition state is higher in energy than both the reactants and the products.",
+  "choices": [
+   "I and III only",
+   "I only",
+   "III only",
+   "I, II and III"
+  ],
+  "answer": "I and III only",
+  "hint": "Sketch the energy diagram: products lower than reactants, one hump between them. Measure each activation energy from its own starting point.",
+  "explain": "I and III only. The products lie below the reactants, so the climb from the products up to the transition state is longer: E_a(reverse) = E_a(forward) − ΔH, which is larger when ΔH is negative (I true). The transition state is the top of the hump, above both reactants and products (III true). Raising the temperature increases the fraction of energetic collisions in both directions, so both rate constants increase (II false).",
+  "why": [
+   "",
+   "Statement III is true. The transition state is the highest point on the path, so it lies above both reactants and products.",
+   "Statement I is true. Products of an exothermic reaction sit lower, so they need a bigger climb to reach the same transition state.",
+   "Statement II is false. A higher temperature gives more energetic collisions for the reverse reaction too, so its rate constant also rises."
+  ],
+  "html": {
+   "prompt": "A reaction occurs in a single step and is exothermic. Which statements are true?<br>I. The activation energy of the reverse reaction is larger than that of the forward reaction.<br>II. Raising the temperature increases the rate constant of the forward reaction but not of the reverse reaction.<br>III. The transition state is higher in energy than both the reactants and the products.",
+   "choices": [
+    "I and III only",
+    "I only",
+    "III only",
+    "I, II and III"
+   ],
+   "hint": "Sketch the energy diagram: products lower than reactants, one hump between them. Measure each activation energy from its own starting point.",
+   "explain": "<b>I and III only.</b> The products lie below the reactants, so the climb from the products up to the transition state is longer: E<sub>a</sub>(reverse) = E<sub>a</sub>(forward) − ΔH, which is larger when ΔH is negative (I true). The transition state is the top of the hump, above both reactants and products (III true). Raising the temperature increases the fraction of energetic collisions in both directions, so both rate constants increase (II false).",
+   "why": [
+    "",
+    "Statement III is true. The transition state is the highest point on the path, so it lies above both reactants and products.",
+    "Statement I is true. Products of an exothermic reaction sit lower, so they need a bigger climb to reach the same transition state.",
+    "Statement II is false. A higher temperature gives more energetic collisions for the reverse reaction too, so its rate constant also rises."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 554
+  }
+ },
+ {
+  "id": "finalexam-d50e154c",
+  "skill": "finalexam.1b.kinetics",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-12"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "The decomposition A → products is first order with a half-life of 20 min. Which statements are true? I. The half-life is the same whether the initial [A] is 0.10 M or 0.50 M. II. After 60 min, 12.5% of the original A remains. III. A plot of 1/[A] versus time is a straight line.",
+  "choices": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "I and II only",
+  "hint": "For a first-order reaction, t_1/2 = 0.693/k. Count how many half-lives fit into 60 min.",
+  "explain": "I and II only. For a first-order reaction t_1/2 = 0.693/k, which does not contain [A]₀ (I true). 60 min is three half-lives, so (½)³ = 1/8 = 12.5% remains (II true). A first-order reaction gives a straight line for ln[A] versus time, while 1/[A] versus time is linear for a second-order reaction (III false).",
+  "why": [
+   "",
+   "Statement II is true. 60 min is three half-lives, and halving three times leaves one eighth of the A.",
+   "Statement I is true. The first-order half-life depends only on k, not on the starting concentration.",
+   "Statement III is false. A straight line for 1/[A] versus time is the sign of a second-order reaction."
+  ],
+  "html": {
+   "prompt": "The decomposition A → products is first order with a half-life of 20 min. Which statements are true?<br>I. The half-life is the same whether the initial [A] is 0.10 M or 0.50 M.<br>II. After 60 min, 12.5% of the original A remains.<br>III. A plot of 1/[A] versus time is a straight line.",
+   "choices": [
+    "I and II only",
+    "I only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "For a first-order reaction, t<sub>1/2</sub> = 0.693/k. Count how many half-lives fit into 60 min.",
+   "explain": "<b>I and II only.</b> For a first-order reaction t<sub>1/2</sub> = 0.693/k, which does not contain [A]<sub>0</sub> (I true). 60 min is three half-lives, so (½)<sup>3</sup> = 1/8 = 12.5% remains (II true). A first-order reaction gives a straight line for ln[A] versus time, while 1/[A] versus time is linear for a second-order reaction (III false).",
+   "why": [
+    "",
+    "Statement II is true. 60 min is three half-lives, and halving three times leaves one eighth of the A.",
+    "Statement I is true. The first-order half-life depends only on k, not on the starting concentration.",
+    "Statement III is false. A straight line for 1/[A] versus time is the sign of a second-order reaction."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 555
+  }
+ },
+ {
+  "id": "finalexam-92d9367f",
+  "skill": "finalexam.1b.kinetics",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-12"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "The mechanism below is proposed for 2 NO(g) + Br₂(g) → 2 NOBr(g). Step 1 (fast, reversible): NO + Br₂ ⇌ NOBr₂ Step 2 (slow): NOBr₂ + NO → 2 NOBr Which statements are true? I. NOBr₂ is a reaction intermediate. II. The rate law predicted by this mechanism is rate = k[NO][Br₂]. III. The fast first step determines the overall rate.",
+  "choices": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "answer": "I only",
+  "hint": "An intermediate is made in one step and used up later. The slowest step sets the rate, and intermediates cannot appear in the final rate law.",
+  "explain": "I only. NOBr₂ is made in step 1 and used in step 2, so it is an intermediate (I true). The slow step 2 gives rate = k₂[NOBr₂][NO]; using the fast equilibrium of step 1, [NOBr₂] = K[NO][Br₂], so rate = k[NO]²[Br₂], not k[NO][Br₂] (II false). The slowest step, not the fast one, limits the overall rate (III false).",
+  "why": [
+   "",
+   "Statement II is false. The slow step uses NOBr₂ and NO, and replacing NOBr₂ with the step 1 equilibrium puts a second power on [NO].",
+   "Statement III is false. The overall rate is limited by the slowest step, like the slowest worker on an assembly line.",
+   "Statement II is false. The rate law comes from the slow step, and once the intermediate is replaced, NO appears to the second power."
+  ],
+  "html": {
+   "prompt": "The mechanism below is proposed for 2 NO(g) + Br<sub>2</sub>(g) → 2 NOBr(g).<br>Step 1 (fast, reversible): NO + Br<sub>2</sub> ⇌ NOBr<sub>2</sub><br>Step 2 (slow): NOBr<sub>2</sub> + NO → 2 NOBr<br>Which statements are true?<br>I. NOBr<sub>2</sub> is a reaction intermediate.<br>II. The rate law predicted by this mechanism is rate = k[NO][Br<sub>2</sub>].<br>III. The fast first step determines the overall rate.",
+   "choices": [
+    "I only",
+    "I and II only",
+    "I and III only",
+    "II and III only"
+   ],
+   "hint": "An intermediate is made in one step and used up later. The slowest step sets the rate, and intermediates cannot appear in the final rate law.",
+   "explain": "<b>I only.</b> NOBr<sub>2</sub> is made in step 1 and used in step 2, so it is an intermediate (I true). The slow step 2 gives rate = k<sub>2</sub>[NOBr<sub>2</sub>][NO]; using the fast equilibrium of step 1, [NOBr<sub>2</sub>] = K[NO][Br<sub>2</sub>], so rate = k[NO]<sup>2</sup>[Br<sub>2</sub>], not k[NO][Br<sub>2</sub>] (II false). The slowest step, not the fast one, limits the overall rate (III false).",
+   "why": [
+    "",
+    "Statement II is false. The slow step uses NOBr₂ and NO, and replacing NOBr₂ with the step 1 equilibrium puts a second power on [NO].",
+    "Statement III is false. The overall rate is limited by the slowest step, like the slowest worker on an assembly line.",
+    "Statement II is false. The rate law comes from the slow step, and once the intermediate is replaced, NO appears to the second power."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 556
+  }
+ },
+ {
+  "id": "finalexam-616938c8",
+  "skill": "finalexam.1b.kinetics",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-12"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which changes would increase the value of the rate constant, k, for a reaction? I. Increasing the concentration of a reactant II. Raising the temperature III. Adding a catalyst",
+  "choices": [
+   "II and III only",
+   "I and II only",
+   "II only",
+   "I, II and III"
+  ],
+  "answer": "II and III only",
+  "hint": "The rate constant is the number in front of the concentrations in the rate law. Ask which changes alter E_a or the fraction of collisions that clear it.",
+  "explain": "II and III only. By the Arrhenius equation, k = Ae^−Ea/RT, so a higher temperature increases k (II true). A catalyst gives a new pathway with a lower E_a, which increases k (III true). Raising a concentration speeds up the rate through the concentration terms in the rate law, but k itself does not change (I false).",
+  "why": [
+   "",
+   "Statement I is false. A higher concentration raises the rate through the concentration term, but k stays the same.",
+   "Statement III is true. A catalyst lowers the activation energy, and k grows when Ea gets smaller.",
+   "Statement I is false. Concentration appears separately in the rate law, so changing it leaves k unchanged."
+  ],
+  "html": {
+   "prompt": "Which changes would increase the value of the rate constant, k, for a reaction?<br>I. Increasing the concentration of a reactant<br>II. Raising the temperature<br>III. Adding a catalyst",
+   "choices": [
+    "II and III only",
+    "I and II only",
+    "II only",
+    "I, II and III"
+   ],
+   "hint": "The rate constant is the number in front of the concentrations in the rate law. Ask which changes alter E<sub>a</sub> or the fraction of collisions that clear it.",
+   "explain": "<b>II and III only.</b> By the Arrhenius equation, k = Ae<sup>−Ea/RT</sup>, so a higher temperature increases k (II true). A catalyst gives a new pathway with a lower E<sub>a</sub>, which increases k (III true). Raising a concentration speeds up the rate through the concentration terms in the rate law, but k itself does not change (I false).",
+   "why": [
+    "",
+    "Statement I is false. A higher concentration raises the rate through the concentration term, but k stays the same.",
+    "Statement III is true. A catalyst lowers the activation energy, and k grows when Ea gets smaller.",
+    "Statement I is false. Concentration appears separately in the rate law, so changing it leaves k unchanged."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 557
+  }
+ },
+ {
+  "id": "finalexam-4ca6a789",
+  "skill": "finalexam.1b.kinetics",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-12"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "For the reaction 2 A + B → C, the rate law is rate = k[A]²[B]. Three mixtures are prepared at the same temperature: I. [A] = 0.10 M, [B] = 0.10 M II. [A] = 0.20 M, [B] = 0.020 M III. [A] = 0.050 M, [B] = 0.30 M Which ranks the initial rates from SLOWEST to FASTEST?",
+  "choices": [
+   "III < II < I",
+   "II < I < III",
+   "I < II < III",
+   "III < I < II"
+  ],
+  "answer": "III < II < I",
+  "hint": "Since k is the same for all three, compare [A]²[B] for each mixture. Remember to square [A].",
+  "explain": "III < II < I. The values of [A]²[B] are I: (0.10)²(0.10) = 1.0×10⁻³; II: (0.20)²(0.020) = 8.0×10⁻⁴; III: (0.050)²(0.30) = 7.5×10⁻⁴. Forgetting to square [A] gives the products 0.010, 0.0040 and 0.015, which leads to the wrong order II < I < III.",
+  "why": [
+   "",
+   "This order treats the reaction as first order in A. Square [A] before multiplying by [B].",
+   "Compute [A]²[B] for each mixture. Mixture I does not have the smallest value.",
+   "Mixture II has the largest [A], but its small [B] matters too. Compute [A]²[B] for each mixture and compare."
+  ],
+  "html": {
+   "prompt": "For the reaction 2 A + B → C, the rate law is rate = k[A]<sup>2</sup>[B]. Three mixtures are prepared at the same temperature:<br>I. [A] = 0.10 M, [B] = 0.10 M<br>II. [A] = 0.20 M, [B] = 0.020 M<br>III. [A] = 0.050 M, [B] = 0.30 M<br>Which ranks the initial rates from SLOWEST to FASTEST?",
+   "choices": [
+    "III &lt; II &lt; I",
+    "II &lt; I &lt; III",
+    "I &lt; II &lt; III",
+    "III &lt; I &lt; II"
+   ],
+   "hint": "Since k is the same for all three, compare [A]<sup>2</sup>[B] for each mixture. Remember to square [A].",
+   "explain": "<b>III &lt; II &lt; I.</b> The values of [A]<sup>2</sup>[B] are I: (0.10)<sup>2</sup>(0.10) = 1.0×10<sup>−3</sup>; II: (0.20)<sup>2</sup>(0.020) = 8.0×10<sup>−4</sup>; III: (0.050)<sup>2</sup>(0.30) = 7.5×10<sup>−4</sup>. Forgetting to square [A] gives the products 0.010, 0.0040 and 0.015, which leads to the wrong order II &lt; I &lt; III.",
+   "why": [
+    "",
+    "This order treats the reaction as first order in A. Square [A] before multiplying by [B].",
+    "Compute [A]²[B] for each mixture. Mixture I does not have the smallest value.",
+    "Mixture II has the largest [A], but its small [B] matters too. Compute [A]²[B] for each mixture and compare."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 558
+  }
+ },
+ {
+  "id": "finalexam-09f9d58f",
+  "skill": "finalexam.1b.equilibrium",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-13"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "A reaction has K = 1×10⁻⁵ at 25 °C. Which statements are true at 25 °C? I. At equilibrium, reactants are favored over products. II. ΔG° for the reaction is positive. III. Adding more reactant increases the value of K.",
+  "choices": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "I and II only",
+  "hint": "K < 1 means the numerator (products) is small at equilibrium. Recall ΔG° = −RT ln K, and what changes the value of K.",
+  "explain": "I and II only. K is much smaller than 1, so at equilibrium the reactants predominate (I true). ΔG° = −RT ln K, and ln(1×10⁻⁵) is negative, so ΔG° is positive (II true). Adding reactant shifts the position of equilibrium, but at constant temperature K does not change (III false).",
+  "why": [
+   "",
+   "Statement II is true. With K below 1, ln K is negative, so ΔG° = −RT ln K comes out positive.",
+   "Statement III is false. Adding a reactant moves the system toward products, but the value of K stays fixed at a given temperature.",
+   "Statement III is false. Only a change in temperature changes the value of K."
+  ],
+  "html": {
+   "prompt": "A reaction has K = 1×10<sup>−5</sup> at 25 °C. Which statements are true at 25 °C?<br>I. At equilibrium, reactants are favored over products.<br>II. ΔG° for the reaction is positive.<br>III. Adding more reactant increases the value of K.",
+   "choices": [
+    "I and II only",
+    "I only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "K &lt; 1 means the numerator (products) is small at equilibrium. Recall ΔG° = −RT ln K, and what changes the value of K.",
+   "explain": "<b>I and II only.</b> K is much smaller than 1, so at equilibrium the reactants predominate (I true). ΔG° = −RT ln K, and ln(1×10<sup>−5</sup>) is negative, so ΔG° is positive (II true). Adding reactant shifts the position of equilibrium, but at constant temperature K does not change (III false).",
+   "why": [
+    "",
+    "Statement II is true. With K below 1, ln K is negative, so ΔG° = −RT ln K comes out positive.",
+    "Statement III is false. Adding a reactant moves the system toward products, but the value of K stays fixed at a given temperature.",
+    "Statement III is false. Only a change in temperature changes the value of K."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 559
+  }
+ },
+ {
+  "id": "finalexam-9da28bba",
+  "skill": "finalexam.1b.equilibrium",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-13"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "The system N₂O₄(g) ⇌ 2 NO₂(g), ΔH° = +57 kJ, is at equilibrium in a closed container. Which changes would shift the equilibrium toward more NO₂? I. Increasing the volume of the container II. Raising the temperature III. Adding more N₂O₄(g)",
+  "choices": [
+   "I, II and III",
+   "II and III only",
+   "I and II only",
+   "III only"
+  ],
+  "answer": "I, II and III",
+  "hint": "Apply Le Châtelier's principle to each change. Count moles of gas on each side, and treat heat as a reactant in an endothermic reaction.",
+  "explain": "I, II and III. A larger volume lowers the pressure, and the system shifts toward the side with more moles of gas, 2 NO₂ (I true). The forward reaction is endothermic, so heating shifts it forward (II true). Adding a reactant shifts the equilibrium toward products (III true).",
+  "why": [
+   "",
+   "Statement I is true. Expanding the container favors the side with more moles of gas.",
+   "Statement III is true. Adding a reactant uses up some of it by making more product.",
+   "Statement II is true. The forward reaction absorbs heat, so adding heat drives it forward."
+  ],
+  "html": {
+   "prompt": "The system N<sub>2</sub>O<sub>4</sub>(g) ⇌ 2 NO<sub>2</sub>(g), ΔH° = +57 kJ, is at equilibrium in a closed container. Which changes would shift the equilibrium toward more NO<sub>2</sub>?<br>I. Increasing the volume of the container<br>II. Raising the temperature<br>III. Adding more N<sub>2</sub>O<sub>4</sub>(g)",
+   "choices": [
+    "I, II and III",
+    "II and III only",
+    "I and II only",
+    "III only"
+   ],
+   "hint": "Apply Le Châtelier's principle to each change. Count moles of gas on each side, and treat heat as a reactant in an endothermic reaction.",
+   "explain": "<b>I, II and III.</b> A larger volume lowers the pressure, and the system shifts toward the side with more moles of gas, 2 NO<sub>2</sub> (I true). The forward reaction is endothermic, so heating shifts it forward (II true). Adding a reactant shifts the equilibrium toward products (III true).",
+   "why": [
+    "",
+    "Statement I is true. Expanding the container favors the side with more moles of gas.",
+    "Statement III is true. Adding a reactant uses up some of it by making more product.",
+    "Statement II is true. The forward reaction absorbs heat, so adding heat drives it forward."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 560
+  }
+ },
+ {
+  "id": "finalexam-bb10952d",
+  "skill": "finalexam.1b.equilibrium",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-13"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "For H₂(g) + I₂(g) ⇌ 2 HI(g), K_c = 50 at a certain temperature. A mixture at that temperature has [H₂] = 0.10 M, [I₂] = 0.10 M and [HI] = 0.50 M. Which statements are true? I. The reaction quotient Q_c is 25. II. The net reaction will proceed to form more H₂ and I₂. III. [HI] will increase as the mixture approaches equilibrium.",
+  "choices": [
+   "I and III only",
+   "I and II only",
+   "III only",
+   "II only"
+  ],
+  "answer": "I and III only",
+  "hint": "Calculate Q_c the same way as K_c, then compare. If Q < K, which side must grow?",
+  "explain": "I and III only. Q_c = (0.50)²/[(0.10)(0.10)] = 0.25/0.010 = 25 (I true). Since Q_c = 25 is less than K_c = 50, there are too few products, so the net reaction goes forward and [HI] increases (III true) while H₂ and I₂ are used up (II false).",
+  "why": [
+   "",
+   "Statement II is false. Q is less than K here, so the mixture needs more product, not more reactant.",
+   "Statement I is true. Square [HI] because its coefficient is 2, then divide by [H₂][I₂].",
+   "Statement II is false. When Q is smaller than K, the reaction runs forward, not in reverse."
+  ],
+  "html": {
+   "prompt": "For H<sub>2</sub>(g) + I<sub>2</sub>(g) ⇌ 2 HI(g), K<sub>c</sub> = 50 at a certain temperature. A mixture at that temperature has [H<sub>2</sub>] = 0.10 M, [I<sub>2</sub>] = 0.10 M and [HI] = 0.50 M. Which statements are true?<br>I. The reaction quotient Q<sub>c</sub> is 25.<br>II. The net reaction will proceed to form more H<sub>2</sub> and I<sub>2</sub>.<br>III. [HI] will increase as the mixture approaches equilibrium.",
+   "choices": [
+    "I and III only",
+    "I and II only",
+    "III only",
+    "II only"
+   ],
+   "hint": "Calculate Q<sub>c</sub> the same way as K<sub>c</sub>, then compare. If Q &lt; K, which side must grow?",
+   "explain": "<b>I and III only.</b> Q<sub>c</sub> = (0.50)<sup>2</sup>/[(0.10)(0.10)] = 0.25/0.010 = 25 (I true). Since Q<sub>c</sub> = 25 is less than K<sub>c</sub> = 50, there are too few products, so the net reaction goes forward and [HI] increases (III true) while H<sub>2</sub> and I<sub>2</sub> are used up (II false).",
+   "why": [
+    "",
+    "Statement II is false. Q is less than K here, so the mixture needs more product, not more reactant.",
+    "Statement I is true. Square [HI] because its coefficient is 2, then divide by [H₂][I₂].",
+    "Statement II is false. When Q is smaller than K, the reaction runs forward, not in reverse."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 561
+  }
+ },
+ {
+  "id": "finalexam-f270192c",
+  "skill": "finalexam.1b.equilibrium",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-13"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "The endothermic system CaCO₃(s) ⇌ CaO(s) + CO₂(g) is at equilibrium in a closed container. Which changes would increase the equilibrium pressure of CO₂? I. Adding more CaCO₃(s) II. Raising the temperature III. Removing some of the CaO(s)",
+  "choices": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "II only",
+  "hint": "Write K_p for this reaction. Pure solids do not appear in it. What does change K?",
+  "explain": "II only. K_p = P_CO2, because pure solids are left out of the expression. Adding or removing a solid does not change Q or K, so it has no effect on P_CO2 (I and III false). The reaction is endothermic, so raising the temperature increases K_p, and the equilibrium CO₂ pressure rises (II true).",
+  "why": [
+   "",
+   "Statement I is false. A pure solid does not appear in Kp, so adding more of it does not shift the equilibrium.",
+   "Statement III is false. As long as some CaO remains, its amount does not enter the equilibrium expression.",
+   "Statement III is false. Changing the amount of a pure solid leaves Q unchanged, so the CO₂ pressure does not shift."
+  ],
+  "html": {
+   "prompt": "The endothermic system CaCO<sub>3</sub>(s) ⇌ CaO(s) + CO<sub>2</sub>(g) is at equilibrium in a closed container. Which changes would increase the equilibrium pressure of CO<sub>2</sub>?<br>I. Adding more CaCO<sub>3</sub>(s)<br>II. Raising the temperature<br>III. Removing some of the CaO(s)",
+   "choices": [
+    "II only",
+    "I and II only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Write K<sub>p</sub> for this reaction. Pure solids do not appear in it. What does change K?",
+   "explain": "<b>II only.</b> K<sub>p</sub> = P<sub>CO2</sub>, because pure solids are left out of the expression. Adding or removing a solid does not change Q or K, so it has no effect on P<sub>CO2</sub> (I and III false). The reaction is endothermic, so raising the temperature increases K<sub>p</sub>, and the equilibrium CO<sub>2</sub> pressure rises (II true).",
+   "why": [
+    "",
+    "Statement I is false. A pure solid does not appear in Kp, so adding more of it does not shift the equilibrium.",
+    "Statement III is false. As long as some CaO remains, its amount does not enter the equilibrium expression.",
+    "Statement III is false. Changing the amount of a pure solid leaves Q unchanged, so the CO₂ pressure does not shift."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 562
+  }
+ },
+ {
+  "id": "finalexam-0fbf09a0",
+  "skill": "finalexam.1b.equilibrium",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-13"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which statements about a reaction mixture at chemical equilibrium are true? I. The rates of the forward and reverse reactions are equal. II. The concentrations of the reactants equal the concentrations of the products. III. The forward and reverse reactions have both stopped.",
+  "choices": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "answer": "I only",
+  "hint": "Equilibrium is dynamic. Think about what stays constant and what keeps happening.",
+  "explain": "I only. At equilibrium the forward and reverse rates are equal, so the concentrations stop changing (I true). Constant does not mean equal: the amounts of reactants and products are set by K and are usually different (II false). Both reactions keep running at the same rate, so equilibrium is dynamic, not stopped (III false).",
+  "why": [
+   "",
+   "Statement II is false. Concentrations at equilibrium are constant, but they are rarely equal to each other.",
+   "Statement III is false. Molecules keep reacting in both directions at equilibrium, just at equal rates.",
+   "Statement III is false. Equilibrium is dynamic, so both reactions are still running."
+  ],
+  "html": {
+   "prompt": "Which statements about a reaction mixture at chemical equilibrium are true?<br>I. The rates of the forward and reverse reactions are equal.<br>II. The concentrations of the reactants equal the concentrations of the products.<br>III. The forward and reverse reactions have both stopped.",
+   "choices": [
+    "I only",
+    "I and II only",
+    "I and III only",
+    "II and III only"
+   ],
+   "hint": "Equilibrium is dynamic. Think about what stays constant and what keeps happening.",
+   "explain": "<b>I only.</b> At equilibrium the forward and reverse rates are equal, so the concentrations stop changing (I true). Constant does not mean equal: the amounts of reactants and products are set by K and are usually different (II false). Both reactions keep running at the same rate, so equilibrium is dynamic, not stopped (III false).",
+   "why": [
+    "",
+    "Statement II is false. Concentrations at equilibrium are constant, but they are rarely equal to each other.",
+    "Statement III is false. Molecules keep reacting in both directions at equilibrium, just at equal rates.",
+    "Statement III is false. Equilibrium is dynamic, so both reactions are still running."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 563
+  }
+ },
+ {
+  "id": "finalexam-a2e8dc61",
+  "skill": "finalexam.1b.acidbase",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-14"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which species can act as both a Brønsted–Lowry acid and a Brønsted–Lowry base in water? I. HCO₃⁻ II. CO₃²⁻ III. HPO₄²⁻",
+  "choices": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "I and III only",
+  "hint": "An amphiprotic species must have an H⁺ it can give away and also be able to accept an H⁺.",
+  "explain": "I and III only. HCO₃⁻ can donate H⁺ (to form CO₃²⁻) or accept H⁺ (to form H₂CO₃) (I true). HPO₄²⁻ can donate H⁺ (to form PO₄³⁻) or accept H⁺ (to form H₂PO₄⁻) (III true). CO₃²⁻ has no H to donate, so it can act only as a base (II false).",
+  "why": [
+   "",
+   "Statement III is true. HPO₄²⁻ still has one H to donate and can also accept an H⁺.",
+   "Statement II is false. CO₃²⁻ has no hydrogen to give away, so it cannot act as an acid.",
+   "Statement II is false. A species needs a removable H⁺ to act as an acid, and CO₃²⁻ has none."
+  ],
+  "html": {
+   "prompt": "Which species can act as both a Brønsted–Lowry acid and a Brønsted–Lowry base in water?<br>I. HCO<sub>3</sub><sup>−</sup><br>II. CO<sub>3</sub><sup>2−</sup><br>III. HPO<sub>4</sub><sup>2−</sup>",
+   "choices": [
+    "I and III only",
+    "I only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "An amphiprotic species must have an H<sup>+</sup> it can give away and also be able to accept an H<sup>+</sup>.",
+   "explain": "<b>I and III only.</b> HCO<sub>3</sub><sup>−</sup> can donate H<sup>+</sup> (to form CO<sub>3</sub><sup>2−</sup>) or accept H<sup>+</sup> (to form H<sub>2</sub>CO<sub>3</sub>) (I true). HPO<sub>4</sub><sup>2−</sup> can donate H<sup>+</sup> (to form PO<sub>4</sub><sup>3−</sup>) or accept H<sup>+</sup> (to form H<sub>2</sub>PO<sub>4</sub><sup>−</sup>) (III true). CO<sub>3</sub><sup>2−</sup> has no H to donate, so it can act only as a base (II false).",
+   "why": [
+    "",
+    "Statement III is true. HPO₄²⁻ still has one H to donate and can also accept an H⁺.",
+    "Statement II is false. CO₃²⁻ has no hydrogen to give away, so it cannot act as an acid.",
+    "Statement II is false. A species needs a removable H⁺ to act as an acid, and CO₃²⁻ has none."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 564
+  }
+ },
+ {
+  "id": "finalexam-0070be3d",
+  "skill": "finalexam.1b.acidbase",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-14"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Consider three hypohalous acids: I. HBrO II. HIO III. HClO Which ranks them from WEAKEST to STRONGEST acid?",
+  "choices": [
+   "II < I < III",
+   "III < I < II",
+   "I < II < III",
+   "III < II < I"
+  ],
+  "answer": "II < I < III",
+  "hint": "All three have the structure H–O–X. A more electronegative X pulls electron density away from the O–H bond.",
+  "explain": "HIO < HBrO < HClO (II < I < III). In H–O–X acids, a more electronegative halogen pulls electron density from the O–H bond and stabilizes the conjugate base XO⁻, so the acid is stronger. Electronegativity increases I < Br < Cl, so acid strength follows the same order. The reverse order comes from applying the binary-acid trend (HI > HBr > HCl), which is based on bond length and does not apply here.",
+  "why": [
+   "",
+   "This is the binary acid trend, where H bonds directly to the halogen. Here H is bonded to O, so the electronegativity of X controls the strength.",
+   "Compare the electronegativities of Br, I and Cl. The acid with the most electronegative halogen is the strongest.",
+   "Br sits between Cl and I in electronegativity, so HBrO cannot be at either end of the order."
+  ],
+  "html": {
+   "prompt": "Consider three hypohalous acids:<br>I. HBrO<br>II. HIO<br>III. HClO<br>Which ranks them from WEAKEST to STRONGEST acid?",
+   "choices": [
+    "II &lt; I &lt; III",
+    "III &lt; I &lt; II",
+    "I &lt; II &lt; III",
+    "III &lt; II &lt; I"
+   ],
+   "hint": "All three have the structure H–O–X. A more electronegative X pulls electron density away from the O–H bond.",
+   "explain": "<b>HIO &lt; HBrO &lt; HClO (II &lt; I &lt; III).</b> In H–O–X acids, a more electronegative halogen pulls electron density from the O–H bond and stabilizes the conjugate base XO<sup>−</sup>, so the acid is stronger. Electronegativity increases I &lt; Br &lt; Cl, so acid strength follows the same order. The reverse order comes from applying the binary-acid trend (HI &gt; HBr &gt; HCl), which is based on bond length and does not apply here.",
+   "why": [
+    "",
+    "This is the binary acid trend, where H bonds directly to the halogen. Here H is bonded to O, so the electronegativity of X controls the strength.",
+    "Compare the electronegativities of Br, I and Cl. The acid with the most electronegative halogen is the strongest.",
+    "Br sits between Cl and I in electronegativity, so HBrO cannot be at either end of the order."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 565
+  }
+ },
+ {
+  "id": "finalexam-fc53d910",
+  "skill": "finalexam.1b.acidbase",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-14"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": true,
+  "prompt": "A solution at 25 °C has pH = 4.00. Which statements are true? I. [OH⁻] = 1.0×10⁻⁴ M II. [H₃O⁺] = 1.0×10⁻⁴ M III. pOH = 4.00",
+  "choices": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "II only",
+  "hint": "Use [H₃O⁺] = 10^−pH and pH + pOH = 14.00 at 25 °C.",
+  "explain": "II only. [H₃O⁺] = 10^−4.00 = 1.0×10⁻⁴ M (II true). pOH = 14.00 − 4.00 = 10.00, not 4.00 (III false), so [OH⁻] = 1.0×10⁻¹⁰ M, not 1.0×10⁻⁴ M (I false).",
+  "why": [
+   "",
+   "Statement I is false. [H₃O⁺][OH⁻] = 1.0×10⁻¹⁴, so [OH⁻] must be much smaller than [H₃O⁺] in an acidic solution.",
+   "Statement III is false. At 25 °C, pH + pOH = 14.00, so pOH is not equal to the pH here.",
+   "Statement I is false. An acidic solution has far less OH⁻ than H₃O⁺, so the two concentrations cannot be equal."
+  ],
+  "html": {
+   "prompt": "A solution at 25 °C has pH = 4.00. Which statements are true?<br>I. [OH<sup>−</sup>] = 1.0×10<sup>−4</sup> M<br>II. [H<sub>3</sub>O<sup>+</sup>] = 1.0×10<sup>−4</sup> M<br>III. pOH = 4.00",
+   "choices": [
+    "II only",
+    "I and II only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Use [H<sub>3</sub>O<sup>+</sup>] = 10<sup>−pH</sup> and pH + pOH = 14.00 at 25 °C.",
+   "explain": "<b>II only.</b> [H<sub>3</sub>O<sup>+</sup>] = 10<sup>−4.00</sup> = 1.0×10<sup>−4</sup> M (II true). pOH = 14.00 − 4.00 = 10.00, not 4.00 (III false), so [OH<sup>−</sup>] = 1.0×10<sup>−10</sup> M, not 1.0×10<sup>−4</sup> M (I false).",
+   "why": [
+    "",
+    "Statement I is false. [H₃O⁺][OH⁻] = 1.0×10⁻¹⁴, so [OH⁻] must be much smaller than [H₃O⁺] in an acidic solution.",
+    "Statement III is false. At 25 °C, pH + pOH = 14.00, so pOH is not equal to the pH here.",
+    "Statement I is false. An acidic solution has far less OH⁻ than H₃O⁺, so the two concentrations cannot be equal."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 566
+  }
+ },
+ {
+  "id": "finalexam-7a586710",
+  "skill": "finalexam.1b.acidbase",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-14"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which species can act as Lewis acids? I. NH₃ II. BF₃ III. Al³⁺",
+  "choices": [
+   "II and III only",
+   "II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "answer": "II and III only",
+  "hint": "A Lewis acid accepts an electron pair. Look for an empty orbital or an incomplete octet, not a lone pair.",
+  "explain": "II and III only. Boron in BF₃ has only six valence electrons, so it accepts an electron pair (II true). Al³⁺ is a small, highly charged cation with empty orbitals and accepts electron pairs from water or other ligands (III true). NH₃ has a lone pair to donate, so it is a Lewis base (I false).",
+  "why": [
+   "",
+   "Statement III is true. Metal cations like Al³⁺ accept electron pairs from water molecules and other ligands.",
+   "Statement I is false. NH₃ donates its lone pair, which makes it a Lewis base.",
+   "Statement I is false. A lone pair makes a species an electron pair donor, so NH₃ is a Lewis base."
+  ],
+  "html": {
+   "prompt": "Which species can act as Lewis acids?<br>I. NH<sub>3</sub><br>II. BF<sub>3</sub><br>III. Al<sup>3+</sup>",
+   "choices": [
+    "II and III only",
+    "II only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "hint": "A Lewis acid accepts an electron pair. Look for an empty orbital or an incomplete octet, not a lone pair.",
+   "explain": "<b>II and III only.</b> Boron in BF<sub>3</sub> has only six valence electrons, so it accepts an electron pair (II true). Al<sup>3+</sup> is a small, highly charged cation with empty orbitals and accepts electron pairs from water or other ligands (III true). NH<sub>3</sub> has a lone pair to donate, so it is a Lewis base (I false).",
+   "why": [
+    "",
+    "Statement III is true. Metal cations like Al³⁺ accept electron pairs from water molecules and other ligands.",
+    "Statement I is false. NH₃ donates its lone pair, which makes it a Lewis base.",
+    "Statement I is false. A lone pair makes a species an electron pair donor, so NH₃ is a Lewis base."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 567
+  }
+ },
+ {
+  "id": "finalexam-839503b1",
+  "skill": "finalexam.1b.acidbase",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-14"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "At 25 °C, K_a(HF) = 6.8×10⁻⁴ and K_a(HCN) = 6.2×10⁻¹⁰. Which statements are true? I. HF is the stronger acid. II. CN⁻ is a stronger base than F⁻. III. A 0.10 M HCN solution has a lower pH than a 0.10 M HF solution.",
+  "choices": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "I and II only",
+  "hint": "A larger K_a means a stronger acid. For a conjugate pair, K_a × K_b = K_w.",
+  "explain": "I and II only. HF has the larger K_a, so it is the stronger acid (I true). Because K_b = K_w/K_a, the weaker acid HCN has the stronger conjugate base, CN⁻ (II true). The weaker acid ionizes less at the same concentration, so 0.10 M HCN has the HIGHER pH (III false).",
+  "why": [
+   "",
+   "Statement II is true. Kb = Kw/Ka, so the acid with the smaller Ka has the stronger conjugate base.",
+   "Statement I is true. The acid with the larger Ka ionizes more and is the stronger acid.",
+   "Statement III is false. HCN ionizes less than HF at the same concentration, so it makes less H₃O⁺."
+  ],
+  "html": {
+   "prompt": "At 25 °C, K<sub>a</sub>(HF) = 6.8×10<sup>−4</sup> and K<sub>a</sub>(HCN) = 6.2×10<sup>−10</sup>. Which statements are true?<br>I. HF is the stronger acid.<br>II. CN<sup>−</sup> is a stronger base than F<sup>−</sup>.<br>III. A 0.10 M HCN solution has a lower pH than a 0.10 M HF solution.",
+   "choices": [
+    "I and II only",
+    "I only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "A larger K<sub>a</sub> means a stronger acid. For a conjugate pair, K<sub>a</sub> × K<sub>b</sub> = K<sub>w</sub>.",
+   "explain": "<b>I and II only.</b> HF has the larger K<sub>a</sub>, so it is the stronger acid (I true). Because K<sub>b</sub> = K<sub>w</sub>/K<sub>a</sub>, the weaker acid HCN has the stronger conjugate base, CN<sup>−</sup> (II true). The weaker acid ionizes less at the same concentration, so 0.10 M HCN has the HIGHER pH (III false).",
+   "why": [
+    "",
+    "Statement II is true. Kb = Kw/Ka, so the acid with the smaller Ka has the stronger conjugate base.",
+    "Statement I is true. The acid with the larger Ka ionizes more and is the stronger acid.",
+    "Statement III is false. HCN ionizes less than HF at the same concentration, so it makes less H₃O⁺."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 568
+  }
+ },
+ {
+  "id": "finalexam-82932ddb",
+  "skill": "finalexam.1b.buffers",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-15"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "A buffer contains 0.20 M HF and 0.20 M NaF (pK_a of HF = 3.17). Which statements are true? I. Diluting the buffer tenfold with water raises its pH by 1 unit. II. The pH of the buffer is 3.17. III. Adding a small amount of NaOH converts some F⁻ into HF.",
+  "choices": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "II only",
+  "hint": "Use the Henderson–Hasselbalch equation. Which buffer component reacts with an added base?",
+  "explain": "II only. With equal [HF] and [F⁻], pH = pK_a + log(1) = 3.17 (II true). Dilution lowers both concentrations by the same factor, so their ratio, and the pH, stay about the same (I false). Added OH⁻ reacts with the acid: HF + OH⁻ → F⁻ + H₂O, which converts HF into F⁻, not the other way (III false).",
+  "why": [
+   "",
+   "Statement I is false. Dilution changes both concentrations by the same factor, so the ratio [F⁻]/[HF] does not change.",
+   "Statement III is false. A base reacts with the acid part of the buffer, so OH⁻ uses up HF and makes more F⁻.",
+   "Statement III is false. OH⁻ reacts with HF, so it makes F⁻ rather than using it up."
+  ],
+  "html": {
+   "prompt": "A buffer contains 0.20 M HF and 0.20 M NaF (pK<sub>a</sub> of HF = 3.17). Which statements are true?<br>I. Diluting the buffer tenfold with water raises its pH by 1 unit.<br>II. The pH of the buffer is 3.17.<br>III. Adding a small amount of NaOH converts some F<sup>−</sup> into HF.",
+   "choices": [
+    "II only",
+    "I and II only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Use the Henderson–Hasselbalch equation. Which buffer component reacts with an added base?",
+   "explain": "<b>II only.</b> With equal [HF] and [F<sup>−</sup>], pH = pK<sub>a</sub> + log(1) = 3.17 (II true). Dilution lowers both concentrations by the same factor, so their ratio, and the pH, stay about the same (I false). Added OH<sup>−</sup> reacts with the acid: HF + OH<sup>−</sup> → F<sup>−</sup> + H<sub>2</sub>O, which converts HF into F<sup>−</sup>, not the other way (III false).",
+   "why": [
+    "",
+    "Statement I is false. Dilution changes both concentrations by the same factor, so the ratio [F⁻]/[HF] does not change.",
+    "Statement III is false. A base reacts with the acid part of the buffer, so OH⁻ uses up HF and makes more F⁻.",
+    "Statement III is false. OH⁻ reacts with HF, so it makes F⁻ rather than using it up."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 569
+  }
+ },
+ {
+  "id": "finalexam-88b7900b",
+  "skill": "finalexam.1b.buffers",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-15"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Three buffers are made from the same weak acid HA (pK_a = 5.00) and its sodium salt NaA: Buffer X: 0.10 M HA and 0.10 M A⁻ Buffer Y: 1.0 M HA and 1.0 M A⁻ Buffer Z: 0.50 M HA and 0.050 M A⁻ Which statements are true? I. Buffer Z has the highest pH. II. Buffers X and Y have the same pH. III. Buffer Y can absorb the most added strong base before its pH changes greatly.",
+  "choices": [
+   "II and III only",
+   "II only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "answer": "II and III only",
+  "hint": "pH depends on the ratio [A⁻]/[HA]. Buffer capacity depends on how much of each component is present.",
+  "explain": "II and III only. X and Y both have [A⁻]/[HA] = 1, so both have pH = 5.00 (II true). Y has ten times more HA than X and twice as much as Z, so it can neutralize the most OH⁻ (III true). Z has [A⁻]/[HA] = 0.10, so pH = 5.00 − 1 = 4.00, the LOWEST of the three (I false).",
+  "why": [
+   "",
+   "Statement III is true. Added OH⁻ is consumed by HA, and Buffer Y holds the most HA.",
+   "Statement I is false. Buffer Z has much more HA than A⁻, so its pH is below the pKa.",
+   "Statement I is false. In Buffer Z the ratio [A⁻]/[HA] is 0.10, which puts its pH one unit below the pKa."
+  ],
+  "html": {
+   "prompt": "Three buffers are made from the same weak acid HA (pK<sub>a</sub> = 5.00) and its sodium salt NaA:<br>Buffer X: 0.10 M HA and 0.10 M A<sup>−</sup><br>Buffer Y: 1.0 M HA and 1.0 M A<sup>−</sup><br>Buffer Z: 0.50 M HA and 0.050 M A<sup>−</sup><br>Which statements are true?<br>I. Buffer Z has the highest pH.<br>II. Buffers X and Y have the same pH.<br>III. Buffer Y can absorb the most added strong base before its pH changes greatly.",
+   "choices": [
+    "II and III only",
+    "II only",
+    "I and II only",
+    "I, II and III"
+   ],
+   "hint": "pH depends on the ratio [A<sup>−</sup>]/[HA]. Buffer capacity depends on how much of each component is present.",
+   "explain": "<b>II and III only.</b> X and Y both have [A<sup>−</sup>]/[HA] = 1, so both have pH = 5.00 (II true). Y has ten times more HA than X and twice as much as Z, so it can neutralize the most OH<sup>−</sup> (III true). Z has [A<sup>−</sup>]/[HA] = 0.10, so pH = 5.00 − 1 = 4.00, the LOWEST of the three (I false).",
+   "why": [
+    "",
+    "Statement III is true. Added OH⁻ is consumed by HA, and Buffer Y holds the most HA.",
+    "Statement I is false. Buffer Z has much more HA than A⁻, so its pH is below the pKa.",
+    "Statement I is false. In Buffer Z the ratio [A⁻]/[HA] is 0.10, which puts its pH one unit below the pKa."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 570
+  }
+ },
+ {
+  "id": "finalexam-29fdd5af",
+  "skill": "finalexam.1b.buffers",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-15"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "Each pair is mixed in equal moles in water. Which pairs give a buffer with a pH near 9? I. CH₃COOH and NaCH₃COO (K_a = 1.8×10⁻⁵) II. HNO₂ and NaNO₂ (K_a = 4.5×10⁻⁴) III. HCN and NaCN (K_a = 6.2×10⁻¹⁰)",
+  "choices": [
+   "III only",
+   "I only",
+   "I and III only",
+   "II and III only"
+  ],
+  "answer": "III only",
+  "hint": "With equal moles of acid and conjugate base, pH = pK_a. Convert each K_a to pK_a.",
+  "explain": "III only. With equal moles of the pair, pH = pK_a. pK_a(HCN) = −log(6.2×10⁻¹⁰) = 9.21, so the HCN/CN⁻ buffer is near pH 9 (III true). Acetic acid has pK_a = 4.74 and nitrous acid has pK_a = 3.35, so those buffers are acidic (I and II false).",
+  "why": [
+   "",
+   "Statement I is false. The pKa of acetic acid is 4.74, so an equal-mole acetate buffer has a pH near 4.7.",
+   "Statement I is false. Convert Ka = 1.8×10⁻⁵ to pKa, and the result is far from 9.",
+   "Statement II is false. HNO₂ has pKa = 3.35, so its buffer is quite acidic."
+  ],
+  "html": {
+   "prompt": "Each pair is mixed in equal moles in water. Which pairs give a buffer with a pH near 9?<br>I. CH<sub>3</sub>COOH and NaCH<sub>3</sub>COO (K<sub>a</sub> = 1.8×10<sup>−5</sup>)<br>II. HNO<sub>2</sub> and NaNO<sub>2</sub> (K<sub>a</sub> = 4.5×10<sup>−4</sup>)<br>III. HCN and NaCN (K<sub>a</sub> = 6.2×10<sup>−10</sup>)",
+   "choices": [
+    "III only",
+    "I only",
+    "I and III only",
+    "II and III only"
+   ],
+   "hint": "With equal moles of acid and conjugate base, pH = pK<sub>a</sub>. Convert each K<sub>a</sub> to pK<sub>a</sub>.",
+   "explain": "<b>III only.</b> With equal moles of the pair, pH = pK<sub>a</sub>. pK<sub>a</sub>(HCN) = −log(6.2×10<sup>−10</sup>) = 9.21, so the HCN/CN<sup>−</sup> buffer is near pH 9 (III true). Acetic acid has pK<sub>a</sub> = 4.74 and nitrous acid has pK<sub>a</sub> = 3.35, so those buffers are acidic (I and II false).",
+   "why": [
+    "",
+    "Statement I is false. The pKa of acetic acid is 4.74, so an equal-mole acetate buffer has a pH near 4.7.",
+    "Statement I is false. Convert Ka = 1.8×10⁻⁵ to pKa, and the result is far from 9.",
+    "Statement II is false. HNO₂ has pKa = 3.35, so its buffer is quite acidic."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 571
+  }
+ },
+ {
+  "id": "finalexam-390a3a0b",
+  "skill": "finalexam.1b.buffers",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-15"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "A solution of aqueous NH₃ is titrated with HCl (pK_a of NH₄⁺ = 9.25). Which statements are true? I. The pH at the equivalence point is below 7. II. At the half-equivalence point, pH = 9.25. III. Phenolphthalein (color change at pH 8.2 to 10) is a good indicator for this titration.",
+  "choices": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "I and II only",
+  "hint": "At the equivalence point, all the NH₃ has become NH₄⁺. At the half-equivalence point, [NH₃] = [NH₄⁺].",
+  "explain": "I and II only. At the equivalence point the solution holds NH₄⁺, a weak acid, so the pH is below 7 (I true). At the half-equivalence point [NH₃] = [NH₄⁺], so pH = pK_a of NH₄⁺ = 9.25 (II true). Phenolphthalein changes color between pH 8.2 and 10, in the buffer region well before the acidic equivalence point, so it would signal the endpoint far too early (III false).",
+  "why": [
+   "",
+   "Statement II is true. Halfway to equivalence, NH₃ and NH₄⁺ are equal, so the pH equals the pKa of NH₄⁺.",
+   "Statement I is true. At equivalence, all the base has become NH₄⁺, which is a weak acid.",
+   "Statement III is false. The equivalence point is acidic, so an indicator that changes near pH 9 changes much too early."
+  ],
+  "html": {
+   "prompt": "A solution of aqueous NH<sub>3</sub> is titrated with HCl (pK<sub>a</sub> of NH<sub>4</sub><sup>+</sup> = 9.25). Which statements are true?<br>I. The pH at the equivalence point is below 7.<br>II. At the half-equivalence point, pH = 9.25.<br>III. Phenolphthalein (color change at pH 8.2 to 10) is a good indicator for this titration.",
+   "choices": [
+    "I and II only",
+    "I only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "At the equivalence point, all the NH<sub>3</sub> has become NH<sub>4</sub><sup>+</sup>. At the half-equivalence point, [NH<sub>3</sub>] = [NH<sub>4</sub><sup>+</sup>].",
+   "explain": "<b>I and II only.</b> At the equivalence point the solution holds NH<sub>4</sub><sup>+</sup>, a weak acid, so the pH is below 7 (I true). At the half-equivalence point [NH<sub>3</sub>] = [NH<sub>4</sub><sup>+</sup>], so pH = pK<sub>a</sub> of NH<sub>4</sub><sup>+</sup> = 9.25 (II true). Phenolphthalein changes color between pH 8.2 and 10, in the buffer region well before the acidic equivalence point, so it would signal the endpoint far too early (III false).",
+   "why": [
+    "",
+    "Statement II is true. Halfway to equivalence, NH₃ and NH₄⁺ are equal, so the pH equals the pKa of NH₄⁺.",
+    "Statement I is true. At equivalence, all the base has become NH₄⁺, which is a weak acid.",
+    "Statement III is false. The equivalence point is acidic, so an indicator that changes near pH 9 changes much too early."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 572
+  }
+ },
+ {
+  "id": "finalexam-537cd719",
+  "skill": "finalexam.1b.buffers",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-15"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "A 1.00 L buffer contains 0.200 mol CH₃COOH and 0.200 mol NaCH₃COO (pK_a = 4.74). Then 0.050 mol HCl is added (assume no volume change). Which statements are true after the reaction? I. The pH is about 1.30, the same as 0.050 M HCl in pure water. II. The solution contains 0.250 mol CH₃COO⁻. III. The pH is about 4.52.",
+  "choices": [
+   "III only",
+   "II and III only",
+   "I only",
+   "I and II only"
+  ],
+  "answer": "III only",
+  "hint": "Added H⁺ reacts completely with the buffer's base. Update the moles of each component, then use Henderson–Hasselbalch.",
+  "explain": "III only. The HCl reacts with acetate: CH₃COO⁻ + H⁺ → CH₃COOH, leaving 0.150 mol CH₃COO⁻ and 0.250 mol CH₃COOH (II false). pH = 4.74 + log(0.150/0.250) = 4.74 − 0.22 = 4.52 (III true). The buffer absorbs the H⁺, so the pH does not fall to 1.30 (I false).",
+  "why": [
+   "",
+   "Statement II is false. Added H⁺ consumes acetate, so the amount of CH₃COO⁻ goes down, not up.",
+   "Statement I is false. The acetate in the buffer reacts with the added H⁺, so the pH does not drop to that of HCl alone.",
+   "Statement II is false. The added H⁺ turns some acetate into acetic acid, so acetate decreases."
+  ],
+  "html": {
+   "prompt": "A 1.00 L buffer contains 0.200 mol CH<sub>3</sub>COOH and 0.200 mol NaCH<sub>3</sub>COO (pK<sub>a</sub> = 4.74). Then 0.050 mol HCl is added (assume no volume change). Which statements are true after the reaction?<br>I. The pH is about 1.30, the same as 0.050 M HCl in pure water.<br>II. The solution contains 0.250 mol CH<sub>3</sub>COO<sup>−</sup>.<br>III. The pH is about 4.52.",
+   "choices": [
+    "III only",
+    "II and III only",
+    "I only",
+    "I and II only"
+   ],
+   "hint": "Added H<sup>+</sup> reacts completely with the buffer's base. Update the moles of each component, then use Henderson–Hasselbalch.",
+   "explain": "<b>III only.</b> The HCl reacts with acetate: CH<sub>3</sub>COO<sup>−</sup> + H<sup>+</sup> → CH<sub>3</sub>COOH, leaving 0.150 mol CH<sub>3</sub>COO<sup>−</sup> and 0.250 mol CH<sub>3</sub>COOH (II false). pH = 4.74 + log(0.150/0.250) = 4.74 − 0.22 = 4.52 (III true). The buffer absorbs the H<sup>+</sup>, so the pH does not fall to 1.30 (I false).",
+   "why": [
+    "",
+    "Statement II is false. Added H⁺ consumes acetate, so the amount of CH₃COO⁻ goes down, not up.",
+    "Statement I is false. The acetate in the buffer reacts with the added H⁺, so the pH does not drop to that of HCl alone.",
+    "Statement II is false. The added H⁺ turns some acetate into acetic acid, so acetate decreases."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 573
+  }
+ },
+ {
+  "id": "finalexam-d68a6b2f",
+  "skill": "finalexam.1b.solubility",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-15"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "Consider three silver salts at 25 °C: I. AgCl, K_sp = 1.8×10⁻¹⁰ II. Ag₂CrO₄, K_sp = 1.1×10⁻¹² III. AgBr, K_sp = 5.0×10⁻¹³ Which ranks them from LOWEST to HIGHEST molar solubility in pure water?",
+  "choices": [
+   "III < I < II",
+   "III < II < I",
+   "II < III < I",
+   "I < III < II"
+  ],
+  "answer": "III < I < II",
+  "hint": "K_sp values can be compared directly only for salts with the same ion ratio. For Ag₂CrO₄, K_sp = (2s)²(s) = 4s³.",
+  "explain": "III < I < II. For AgBr and AgCl, s = √K_sp: 7.1×10⁻⁷ M and 1.3×10⁻⁵ M. For Ag₂CrO₄, 4s³ = 1.1×10⁻¹², so s = 6.5×10⁻⁵ M, the highest even though its K_sp is not the largest. Ranking by K_sp alone gives the wrong order III < II < I.",
+  "why": [
+   "",
+   "This ranks by Ksp value alone. Ag₂CrO₄ makes three ions, so solve 4s³ = Ksp to find its molar solubility.",
+   "Ag₂CrO₄ does not have the lowest solubility. Solve 4s³ = Ksp for it and compare with √Ksp for the 1:1 salts.",
+   "AgCl has a larger Ksp than AgBr and the same 1:1 formula, so AgCl cannot be the least soluble."
+  ],
+  "html": {
+   "prompt": "Consider three silver salts at 25 °C:<br>I. AgCl, K<sub>sp</sub> = 1.8×10<sup>−10</sup><br>II. Ag<sub>2</sub>CrO<sub>4</sub>, K<sub>sp</sub> = 1.1×10<sup>−12</sup><br>III. AgBr, K<sub>sp</sub> = 5.0×10<sup>−13</sup><br>Which ranks them from LOWEST to HIGHEST molar solubility in pure water?",
+   "choices": [
+    "III &lt; I &lt; II",
+    "III &lt; II &lt; I",
+    "II &lt; III &lt; I",
+    "I &lt; III &lt; II"
+   ],
+   "hint": "K<sub>sp</sub> values can be compared directly only for salts with the same ion ratio. For Ag<sub>2</sub>CrO<sub>4</sub>, K<sub>sp</sub> = (2s)<sup>2</sup>(s) = 4s<sup>3</sup>.",
+   "explain": "<b>III &lt; I &lt; II.</b> For AgBr and AgCl, s = √K<sub>sp</sub>: 7.1×10<sup>−7</sup> M and 1.3×10<sup>−5</sup> M. For Ag<sub>2</sub>CrO<sub>4</sub>, 4s<sup>3</sup> = 1.1×10<sup>−12</sup>, so s = 6.5×10<sup>−5</sup> M, the highest even though its K<sub>sp</sub> is not the largest. Ranking by K<sub>sp</sub> alone gives the wrong order III &lt; II &lt; I.",
+   "why": [
+    "",
+    "This ranks by Ksp value alone. Ag₂CrO₄ makes three ions, so solve 4s³ = Ksp to find its molar solubility.",
+    "Ag₂CrO₄ does not have the lowest solubility. Solve 4s³ = Ksp for it and compare with √Ksp for the 1:1 salts.",
+    "AgCl has a larger Ksp than AgBr and the same 1:1 formula, so AgCl cannot be the least soluble."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 574
+  }
+ },
+ {
+  "id": "finalexam-5da2a207",
+  "skill": "finalexam.1b.solubility",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-15"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which salts are more soluble in an acidic solution than in pure water? I. Mg(OH)₂ II. AgBr III. CaCO₃",
+  "choices": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "I and III only",
+  "hint": "Acid increases solubility when the salt's anion is a base that H⁺ can remove from solution.",
+  "explain": "I and III only. H⁺ removes OH⁻ (forming water), which pulls Mg(OH)₂ dissolution forward (I true). H⁺ also reacts with CO₃²⁻ (forming HCO₃⁻ and then CO₂ and water), so CaCO₃ dissolves more (III true). Br⁻ is the conjugate base of a strong acid and does not react with H⁺, so the solubility of AgBr is not affected (II false).",
+  "why": [
+   "",
+   "Statement III is true. Carbonate is a base, and H⁺ turns it into HCO₃⁻ and CO₂, pulling more CaCO₃ into solution.",
+   "Statement II is false. Br⁻ comes from the strong acid HBr, so it does not combine with H⁺.",
+   "Statement II is false. Only salts with basic anions dissolve better in acid, and Br⁻ is not basic."
+  ],
+  "html": {
+   "prompt": "Which salts are more soluble in an acidic solution than in pure water?<br>I. Mg(OH)<sub>2</sub><br>II. AgBr<br>III. CaCO<sub>3</sub>",
+   "choices": [
+    "I and III only",
+    "I only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Acid increases solubility when the salt's anion is a base that H<sup>+</sup> can remove from solution.",
+   "explain": "<b>I and III only.</b> H<sup>+</sup> removes OH<sup>−</sup> (forming water), which pulls Mg(OH)<sub>2</sub> dissolution forward (I true). H<sup>+</sup> also reacts with CO<sub>3</sub><sup>2−</sup> (forming HCO<sub>3</sub><sup>−</sup> and then CO<sub>2</sub> and water), so CaCO<sub>3</sub> dissolves more (III true). Br<sup>−</sup> is the conjugate base of a strong acid and does not react with H<sup>+</sup>, so the solubility of AgBr is not affected (II false).",
+   "why": [
+    "",
+    "Statement III is true. Carbonate is a base, and H⁺ turns it into HCO₃⁻ and CO₂, pulling more CaCO₃ into solution.",
+    "Statement II is false. Br⁻ comes from the strong acid HBr, so it does not combine with H⁺.",
+    "Statement II is false. Only salts with basic anions dissolve better in acid, and Br⁻ is not basic."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 575
+  }
+ },
+ {
+  "id": "finalexam-24ad1e5f",
+  "skill": "finalexam.1b.solubility",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-15"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "Solutions are mixed. The concentrations shown are just after mixing, before any precipitate forms. K_sp: AgCl 1.8×10⁻¹⁰, CaSO₄ 4.9×10⁻⁵, PbI₂ 9.8×10⁻⁹. In which mixtures does a precipitate form? I. [Ag⁺] = 1.0×10⁻⁴ M and [Cl⁻] = 1.0×10⁻⁴ M II. [Ca²⁺] = 1.0×10⁻³ M and [SO₄²⁻] = 1.0×10⁻³ M III. [Pb²⁺] = 1.0×10⁻³ M and [I⁻] = 1.0×10⁻³ M",
+  "choices": [
+   "I only",
+   "I and III only",
+   "I and II only",
+   "II and III only"
+  ],
+  "answer": "I only",
+  "hint": "Compute Q for each mixture with the same form as K_sp, including any exponents. A precipitate forms when Q > K_sp.",
+  "explain": "I only. I: Q = (1.0×10⁻⁴)² = 1.0×10⁻⁸ > 1.8×10⁻¹⁰, so AgCl precipitates. II: Q = (1.0×10⁻³)² = 1.0×10⁻⁶ < 4.9×10⁻⁵, so no CaSO₄ forms. III: Q = [Pb²⁺][I⁻]² = (1.0×10⁻³)(1.0×10⁻³)² = 1.0×10⁻⁹ < 9.8×10⁻⁹, so no PbI₂ forms.",
+  "why": [
+   "",
+   "Mixture III does not precipitate. In Q for PbI₂ the iodide concentration is squared, which makes Q smaller than Ksp.",
+   "Mixture II does not precipitate. Q for CaSO₄ is 1.0×10⁻⁶, which is below its Ksp.",
+   "Mixture III does not precipitate. The Q expression for PbI₂ uses [I⁻] squared, which keeps Q below its Ksp."
+  ],
+  "html": {
+   "prompt": "Solutions are mixed. The concentrations shown are just after mixing, before any precipitate forms. K<sub>sp</sub>: AgCl 1.8×10<sup>−10</sup>, CaSO<sub>4</sub> 4.9×10<sup>−5</sup>, PbI<sub>2</sub> 9.8×10<sup>−9</sup>. In which mixtures does a precipitate form?<br>I. [Ag<sup>+</sup>] = 1.0×10<sup>−4</sup> M and [Cl<sup>−</sup>] = 1.0×10<sup>−4</sup> M<br>II. [Ca<sup>2+</sup>] = 1.0×10<sup>−3</sup> M and [SO<sub>4</sub><sup>2−</sup>] = 1.0×10<sup>−3</sup> M<br>III. [Pb<sup>2+</sup>] = 1.0×10<sup>−3</sup> M and [I<sup>−</sup>] = 1.0×10<sup>−3</sup> M",
+   "choices": [
+    "I only",
+    "I and III only",
+    "I and II only",
+    "II and III only"
+   ],
+   "hint": "Compute Q for each mixture with the same form as K<sub>sp</sub>, including any exponents. A precipitate forms when Q &gt; K<sub>sp</sub>.",
+   "explain": "<b>I only.</b> I: Q = (1.0×10<sup>−4</sup>)<sup>2</sup> = 1.0×10<sup>−8</sup> &gt; 1.8×10<sup>−10</sup>, so AgCl precipitates. II: Q = (1.0×10<sup>−3</sup>)<sup>2</sup> = 1.0×10<sup>−6</sup> &lt; 4.9×10<sup>−5</sup>, so no CaSO<sub>4</sub> forms. III: Q = [Pb<sup>2+</sup>][I<sup>−</sup>]<sup>2</sup> = (1.0×10<sup>−3</sup>)(1.0×10<sup>−3</sup>)<sup>2</sup> = 1.0×10<sup>−9</sup> &lt; 9.8×10<sup>−9</sup>, so no PbI<sub>2</sub> forms.",
+   "why": [
+    "",
+    "Mixture III does not precipitate. In Q for PbI₂ the iodide concentration is squared, which makes Q smaller than Ksp.",
+    "Mixture II does not precipitate. Q for CaSO₄ is 1.0×10⁻⁶, which is below its Ksp.",
+    "Mixture III does not precipitate. The Q expression for PbI₂ uses [I⁻] squared, which keeps Q below its Ksp."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 576
+  }
+ },
+ {
+  "id": "finalexam-433ca8fc",
+  "skill": "finalexam.1b.solubility",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-15"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "A solution contains 0.010 M Ba²⁺ and 0.010 M Ca²⁺. Solid Na₂SO₄ is added slowly. K_sp(BaSO₄) = 1.1×10⁻¹⁰ and K_sp(CaSO₄) = 4.9×10⁻⁵. Which statements are true? I. BaSO₄ begins to precipitate first. II. BaSO₄ begins to precipitate when [SO₄²⁻] exceeds 1.1×10⁻⁸ M. III. CaSO₄ begins to precipitate when [SO₄²⁻] exceeds 4.9×10⁻³ M.",
+  "choices": [
+   "I, II and III",
+   "I and II only",
+   "I only",
+   "II and III only"
+  ],
+  "answer": "I, II and III",
+  "hint": "For each salt, find the [SO₄²⁻] that makes Q = K_sp: divide K_sp by the metal ion concentration.",
+  "explain": "I, II and III. BaSO₄ starts to form when [SO₄²⁻] = 1.1×10⁻¹⁰/0.010 = 1.1×10⁻⁸ M (II true). CaSO₄ starts when [SO₄²⁻] = 4.9×10⁻⁵/0.010 = 4.9×10⁻³ M (III true). Since BaSO₄ needs far less sulfate, it precipitates first (I true), which lets the two ions be separated.",
+  "why": [
+   "",
+   "Statement III is true. Dividing the CaSO₄ Ksp by 0.010 M gives the sulfate level where Q reaches Ksp.",
+   "Statements II and III are true. Divide each Ksp by 0.010 M to find the sulfate level where each salt starts to form.",
+   "Statement I is true. The salt that needs less sulfate to reach its Ksp forms first."
+  ],
+  "html": {
+   "prompt": "A solution contains 0.010 M Ba<sup>2+</sup> and 0.010 M Ca<sup>2+</sup>. Solid Na<sub>2</sub>SO<sub>4</sub> is added slowly. K<sub>sp</sub>(BaSO<sub>4</sub>) = 1.1×10<sup>−10</sup> and K<sub>sp</sub>(CaSO<sub>4</sub>) = 4.9×10<sup>−5</sup>. Which statements are true?<br>I. BaSO<sub>4</sub> begins to precipitate first.<br>II. BaSO<sub>4</sub> begins to precipitate when [SO<sub>4</sub><sup>2−</sup>] exceeds 1.1×10<sup>−8</sup> M.<br>III. CaSO<sub>4</sub> begins to precipitate when [SO<sub>4</sub><sup>2−</sup>] exceeds 4.9×10<sup>−3</sup> M.",
+   "choices": [
+    "I, II and III",
+    "I and II only",
+    "I only",
+    "II and III only"
+   ],
+   "hint": "For each salt, find the [SO<sub>4</sub><sup>2−</sup>] that makes Q = K<sub>sp</sub>: divide K<sub>sp</sub> by the metal ion concentration.",
+   "explain": "<b>I, II and III.</b> BaSO<sub>4</sub> starts to form when [SO<sub>4</sub><sup>2−</sup>] = 1.1×10<sup>−10</sup>/0.010 = 1.1×10<sup>−8</sup> M (II true). CaSO<sub>4</sub> starts when [SO<sub>4</sub><sup>2−</sup>] = 4.9×10<sup>−5</sup>/0.010 = 4.9×10<sup>−3</sup> M (III true). Since BaSO<sub>4</sub> needs far less sulfate, it precipitates first (I true), which lets the two ions be separated.",
+   "why": [
+    "",
+    "Statement III is true. Dividing the CaSO₄ Ksp by 0.010 M gives the sulfate level where Q reaches Ksp.",
+    "Statements II and III are true. Divide each Ksp by 0.010 M to find the sulfate level where each salt starts to form.",
+    "Statement I is true. The salt that needs less sulfate to reach its Ksp forms first."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 577
+  }
+ },
+ {
+  "id": "finalexam-c14f0774",
+  "skill": "finalexam.1b.solubility",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-15"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Excess solid CaF₂ is in equilibrium with its saturated solution at constant temperature. Which statements are true? I. Adding more solid CaF₂ increases [Ca²⁺] in the solution. II. Adding NaF(s) decreases [Ca²⁺] in the solution. III. CaF₂ is still dissolving, at the same rate that it precipitates.",
+  "choices": [
+   "II and III only",
+   "II only",
+   "I and II only",
+   "I and III only"
+  ],
+  "answer": "II and III only",
+  "hint": "A saturated solution already holds the maximum dissolved amount. Think about the common-ion effect and about what dynamic equilibrium means.",
+  "explain": "II and III only. Adding F⁻ from NaF raises Q above K_sp, so some CaF₂ precipitates and [Ca²⁺] drops (II true). At equilibrium, dissolving and precipitation continue at equal rates (III true). The solution is already saturated, so extra solid simply sits at the bottom and [Ca²⁺] stays the same (I false).",
+  "why": [
+   "",
+   "Statement III is true. Saturation is a dynamic equilibrium, so dissolving and precipitating keep happening at equal rates.",
+   "Statement I is false. A saturated solution cannot hold more dissolved CaF₂, so the extra solid does not change [Ca²⁺].",
+   "Statement I is false. Adding more of the solid to a saturated solution does not raise the ion concentrations."
+  ],
+  "html": {
+   "prompt": "Excess solid CaF<sub>2</sub> is in equilibrium with its saturated solution at constant temperature. Which statements are true?<br>I. Adding more solid CaF<sub>2</sub> increases [Ca<sup>2+</sup>] in the solution.<br>II. Adding NaF(s) decreases [Ca<sup>2+</sup>] in the solution.<br>III. CaF<sub>2</sub> is still dissolving, at the same rate that it precipitates.",
+   "choices": [
+    "II and III only",
+    "II only",
+    "I and II only",
+    "I and III only"
+   ],
+   "hint": "A saturated solution already holds the maximum dissolved amount. Think about the common-ion effect and about what dynamic equilibrium means.",
+   "explain": "<b>II and III only.</b> Adding F<sup>−</sup> from NaF raises Q above K<sub>sp</sub>, so some CaF<sub>2</sub> precipitates and [Ca<sup>2+</sup>] drops (II true). At equilibrium, dissolving and precipitation continue at equal rates (III true). The solution is already saturated, so extra solid simply sits at the bottom and [Ca<sup>2+</sup>] stays the same (I false).",
+   "why": [
+    "",
+    "Statement III is true. Saturation is a dynamic equilibrium, so dissolving and precipitating keep happening at equal rates.",
+    "Statement I is false. A saturated solution cannot hold more dissolved CaF₂, so the extra solid does not change [Ca²⁺].",
+    "Statement I is false. Adding more of the solid to a saturated solution does not raise the ion concentrations."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 578
+  }
+ },
+ {
+  "id": "finalexam-3079e8d3",
+  "skill": "finalexam.1b.thermo",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-16"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which statements about entropy and spontaneity are true? I. For every spontaneous process, the entropy of the universe increases. II. A process in which the entropy of the system decreases can never be spontaneous. III. An exothermic process increases the entropy of the surroundings.",
+  "choices": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "I and III only",
+  "hint": "The second law is about the universe, not just the system. Think about where the heat from an exothermic process goes.",
+  "explain": "I and III only. The second law says ΔS_univ > 0 for any spontaneous process (I true). Heat released by the system flows into the surroundings and raises their entropy, since ΔS_surr = −ΔH/T (III true). II is false: water freezing below 0 °C has ΔS_sys < 0 yet is spontaneous, because the entropy gain of the surroundings is larger.",
+  "why": [
+   "",
+   "Statement III is true. Heat released by the system flows into the surroundings and raises their entropy.",
+   "Statement II is false. Water freezes spontaneously below 0 °C even though its entropy decreases.",
+   "Statement II is false. A drop in system entropy can be outweighed by a larger gain in the entropy of the surroundings."
+  ],
+  "html": {
+   "prompt": "Which statements about entropy and spontaneity are true?<br>I. For every spontaneous process, the entropy of the universe increases.<br>II. A process in which the entropy of the system decreases can never be spontaneous.<br>III. An exothermic process increases the entropy of the surroundings.",
+   "choices": [
+    "I and III only",
+    "I only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "The second law is about the universe, not just the system. Think about where the heat from an exothermic process goes.",
+   "explain": "<b>I and III only.</b> The second law says ΔS<sub>univ</sub> &gt; 0 for any spontaneous process (I true). Heat released by the system flows into the surroundings and raises their entropy, since ΔS<sub>surr</sub> = −ΔH/T (III true). II is false: water freezing below 0 °C has ΔS<sub>sys</sub> &lt; 0 yet is spontaneous, because the entropy gain of the surroundings is larger.",
+   "why": [
+    "",
+    "Statement III is true. Heat released by the system flows into the surroundings and raises their entropy.",
+    "Statement II is false. Water freezes spontaneously below 0 °C even though its entropy decreases.",
+    "Statement II is false. A drop in system entropy can be outweighed by a larger gain in the entropy of the surroundings."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 579
+  }
+ },
+ {
+  "id": "finalexam-89fc10a0",
+  "skill": "finalexam.1b.thermo",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-16"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "For a certain reaction at 298 K, ΔG° = +15 kJ. Which statements are true? I. The equilibrium constant K is greater than 1. II. When the reaction mixture reaches equilibrium, ΔG° becomes zero. III. If only reactants are mixed at the start, some products will form spontaneously.",
+  "choices": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I and II only"
+  ],
+  "answer": "III only",
+  "hint": "Connect ΔG° to K with ΔG° = −RT ln K, and remember that ΔG, not ΔG°, depends on the composition of the mixture.",
+  "explain": "III only. Since ΔG° = −RT ln K, a positive ΔG° makes ln K negative, so K < 1 (I false). At equilibrium it is ΔG, not ΔG°, that equals zero; ΔG° is a fixed value for the reaction at a given temperature (II false). With only reactants present, Q = 0, so ΔG = ΔG° + RT ln Q is very negative and the reaction moves forward until Q = K (III true).",
+  "why": [
+   "",
+   "Statement I is false. A positive ΔG° makes ln K negative.",
+   "Statement II is false. ΔG° is a fixed value for the reaction at a given temperature, so it does not become zero at equilibrium.",
+   "Statement I is false. A positive ΔG° means K is less than 1."
+  ],
+  "html": {
+   "prompt": "For a certain reaction at 298 K, ΔG° = +15 kJ. Which statements are true?<br>I. The equilibrium constant K is greater than 1.<br>II. When the reaction mixture reaches equilibrium, ΔG° becomes zero.<br>III. If only reactants are mixed at the start, some products will form spontaneously.",
+   "choices": [
+    "III only",
+    "I and III only",
+    "II and III only",
+    "I and II only"
+   ],
+   "hint": "Connect ΔG° to K with ΔG° = −RT ln K, and remember that ΔG, not ΔG°, depends on the composition of the mixture.",
+   "explain": "<b>III only.</b> Since ΔG° = −RT ln K, a positive ΔG° makes ln K negative, so K &lt; 1 (I false). At equilibrium it is ΔG, not ΔG°, that equals zero; ΔG° is a fixed value for the reaction at a given temperature (II false). With only reactants present, Q = 0, so ΔG = ΔG° + RT ln Q is very negative and the reaction moves forward until Q = K (III true).",
+   "why": [
+    "",
+    "Statement I is false. A positive ΔG° makes ln K negative.",
+    "Statement II is false. ΔG° is a fixed value for the reaction at a given temperature, so it does not become zero at equilibrium.",
+    "Statement I is false. A positive ΔG° means K is less than 1."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 580
+  }
+ },
+ {
+  "id": "finalexam-4e72f4f8",
+  "skill": "finalexam.1b.thermo",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-16"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Arrange these substances in order of INCREASING standard molar entropy, S°, at 25 °C. I. Br₂(l) II. Br₂(g) III. Cl₂(g)",
+  "choices": [
+   "I < III < II",
+   "III < I < II",
+   "I < II < III",
+   "III < II < I"
+  ],
+  "answer": "I < III < II",
+  "hint": "Phase matters most: gases have far more entropy than liquids. Among similar gases, heavier molecules have more entropy.",
+  "explain": "I < III < II. The liquid, Br₂(l), has the least freedom of motion, so it is lowest (S° = 152 J mol⁻¹ K⁻¹). Both gases are higher, and the heavier Br₂(g) (245 J mol⁻¹ K⁻¹) has more entropy than Cl₂(g) (223 J mol⁻¹ K⁻¹). Ranking by molar mass alone misplaces the liquid, and ranking by phase alone cannot order the two gases.",
+  "why": [
+   "",
+   "Br₂(l) is a liquid, so it should not rank above a gas, even a lighter one.",
+   "The two gases are out of order. The heavier gas has more entropy.",
+   "This puts the liquid highest. A liquid has less entropy than a gas."
+  ],
+  "html": {
+   "prompt": "Arrange these substances in order of INCREASING standard molar entropy, S°, at 25 °C.<br>I. Br<sub>2</sub>(l)<br>II. Br<sub>2</sub>(g)<br>III. Cl<sub>2</sub>(g)",
+   "choices": [
+    "I &lt; III &lt; II",
+    "III &lt; I &lt; II",
+    "I &lt; II &lt; III",
+    "III &lt; II &lt; I"
+   ],
+   "hint": "Phase matters most: gases have far more entropy than liquids. Among similar gases, heavier molecules have more entropy.",
+   "explain": "<b>I &lt; III &lt; II.</b> The liquid, Br<sub>2</sub>(l), has the least freedom of motion, so it is lowest (S° = 152 J mol<sup>−1</sup> K<sup>−1</sup>). Both gases are higher, and the heavier Br<sub>2</sub>(g) (245 J mol<sup>−1</sup> K<sup>−1</sup>) has more entropy than Cl<sub>2</sub>(g) (223 J mol<sup>−1</sup> K<sup>−1</sup>). Ranking by molar mass alone misplaces the liquid, and ranking by phase alone cannot order the two gases.",
+   "why": [
+    "",
+    "Br₂(l) is a liquid, so it should not rank above a gas, even a lighter one.",
+    "The two gases are out of order. The heavier gas has more entropy.",
+    "This puts the liquid highest. A liquid has less entropy than a gas."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 581
+  }
+ },
+ {
+  "id": "finalexam-a23418ab",
+  "skill": "finalexam.1b.thermo",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-16"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": true,
+  "prompt": "For the reaction 2 NO(g) + O₂(g) → 2 NO₂(g), ΔH° = −114.1 kJ and ΔS° = −146.5 J K⁻¹. Assume both are independent of temperature. Which statements are true? I. The reaction is spontaneous under standard conditions at 298 K. II. Raising the temperature makes ΔG° more negative. III. Raising the temperature decreases the equilibrium constant K.",
+  "choices": [
+   "I and III only",
+   "I only",
+   "I and II only",
+   "II and III only"
+  ],
+  "answer": "I and III only",
+  "hint": "Write ΔG° = ΔH° − TΔS° and ask what the −TΔS° term does as T rises when ΔS° is negative.",
+  "explain": "I and III only. At 298 K, ΔG° = −114.1 kJ − (298 K)(−0.1465 kJ K⁻¹) = −70.4 kJ, so the reaction is spontaneous (I true). Because ΔS° < 0, the −TΔS° term is positive and grows with T, so ΔG° becomes less negative, not more (II false). A less negative ΔG° means a smaller K, as Le Châtelier's principle predicts for heating an exothermic reaction (III true).",
+  "why": [
+   "",
+   "Statement III is true. A less negative ΔG° gives a smaller K, as expected when an exothermic reaction is heated.",
+   "Statement II is false. With ΔS° negative, the −TΔS° term is positive and grows as T rises.",
+   "Statement I is misjudged. At 298 K the large negative ΔH° outweighs the −TΔS° term."
+  ],
+  "html": {
+   "prompt": "For the reaction 2 NO(g) + O<sub>2</sub>(g) → 2 NO<sub>2</sub>(g), ΔH° = −114.1 kJ and ΔS° = −146.5 J K<sup>−1</sup>. Assume both are independent of temperature. Which statements are true?<br>I. The reaction is spontaneous under standard conditions at 298 K.<br>II. Raising the temperature makes ΔG° more negative.<br>III. Raising the temperature decreases the equilibrium constant K.",
+   "choices": [
+    "I and III only",
+    "I only",
+    "I and II only",
+    "II and III only"
+   ],
+   "hint": "Write ΔG° = ΔH° − TΔS° and ask what the −TΔS° term does as T rises when ΔS° is negative.",
+   "explain": "<b>I and III only.</b> At 298 K, ΔG° = −114.1 kJ − (298 K)(−0.1465 kJ K<sup>−1</sup>) = −70.4 kJ, so the reaction is spontaneous (I true). Because ΔS° &lt; 0, the −TΔS° term is positive and grows with T, so ΔG° becomes less negative, not more (II false). A less negative ΔG° means a smaller K, as Le Châtelier's principle predicts for heating an exothermic reaction (III true).",
+   "why": [
+    "",
+    "Statement III is true. A less negative ΔG° gives a smaller K, as expected when an exothermic reaction is heated.",
+    "Statement II is false. With ΔS° negative, the −TΔS° term is positive and grows as T rises.",
+    "Statement I is misjudged. At 298 K the large negative ΔH° outweighs the −TΔS° term."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 582
+  }
+ },
+ {
+  "id": "finalexam-95e3ec72",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "A galvanic cell is built from a Zn electrode in 1 M Zn(NO₃)₂ and a Ag electrode in 1 M AgNO₃, joined by a wire and a KNO₃ salt bridge. Use the standard reduction potentials in the table. Which statements are true? I. Electrons flow through the wire from the zinc electrode to the silver electrode. II. The mass of the silver electrode decreases as the cell operates. III. NO₃⁻ ions from the salt bridge move toward the silver compartment.",
+  "choices": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "answer": "I only",
+  "hint": "The metal with the more negative reduction potential is oxidized at the anode. Anions in the salt bridge move to balance the positive ions building up in the anode compartment.",
+  "explain": "I only. Zn (E° = −0.76 V) is oxidized at the anode and Ag⁺ (E° = +0.80 V) is reduced at the cathode, so electrons travel through the wire from Zn to Ag (I true). Silver metal plates out on the cathode, so its mass increases (II false). Zn²⁺ ions build up in the anode compartment, so NO₃⁻ ions move toward the zinc compartment, not the silver one (III false).",
+  "why": [
+   "",
+   "Statement II is false. Ag⁺ ions are reduced to silver metal, which deposits on the silver electrode.",
+   "Statement III is false. Anions migrate toward the compartment where positive ions are being produced.",
+   "Statement II is false. The silver electrode is where Ag⁺ is reduced, so silver metal is added to it."
+  ],
+  "html": {
+   "prompt": "A galvanic cell is built from a Zn electrode in 1 M Zn(NO<sub>3</sub>)<sub>2</sub> and a Ag electrode in 1 M AgNO<sub>3</sub>, joined by a wire and a KNO<sub>3</sub> salt bridge. Use the standard reduction potentials in the table. Which statements are true?<br>I. Electrons flow through the wire from the zinc electrode to the silver electrode.<br>II. The mass of the silver electrode decreases as the cell operates.<br>III. NO<sub>3</sub><sup>−</sup> ions from the salt bridge move toward the silver compartment.",
+   "choices": [
+    "I only",
+    "I and II only",
+    "I and III only",
+    "II and III only"
+   ],
+   "hint": "The metal with the more negative reduction potential is oxidized at the anode. Anions in the salt bridge move to balance the positive ions building up in the anode compartment.",
+   "explain": "<b>I only.</b> Zn (E° = −0.76 V) is oxidized at the anode and Ag<sup>+</sup> (E° = +0.80 V) is reduced at the cathode, so electrons travel through the wire from Zn to Ag (I true). Silver metal plates out on the cathode, so its mass increases (II false). Zn<sup>2+</sup> ions build up in the anode compartment, so NO<sub>3</sub><sup>−</sup> ions move toward the zinc compartment, not the silver one (III false).",
+   "why": [
+    "",
+    "Statement II is false. Ag⁺ ions are reduced to silver metal, which deposits on the silver electrode.",
+    "Statement III is false. Anions migrate toward the compartment where positive ions are being produced.",
+    "Statement II is false. The silver electrode is where Ag⁺ is reduced, so silver metal is added to it."
+   ]
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Half-reaction",
+      "E° (V)"
+     ],
+     "rows": [
+      [
+       "Ag<sup>+</sup>(aq) + e<sup>−</sup> → Ag(s)",
+       "+0.80"
+      ],
+      [
+       "Zn<sup>2+</sup>(aq) + 2 e<sup>−</sup> → Zn(s)",
+       "−0.76"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 583
+  }
+ },
+ {
+  "id": "finalexam-1d30902e",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "A redox reaction has a positive standard cell potential, E°_cell > 0. Which statements must be true? I. ΔG° for the reaction is negative. II. The equilibrium constant K is greater than 1. III. The reaction proceeds rapidly once the reactants are mixed.",
+  "choices": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "I and II only",
+  "hint": "Use ΔG° = −nFE° and ΔG° = −RT ln K. Does either equation contain any information about speed?",
+  "explain": "I and II only. ΔG° = −nFE°, so a positive E° gives a negative ΔG° (I true). Then ln K = −ΔG°/RT is positive, so K > 1 (II true). E° and ΔG° are thermodynamic quantities that say nothing about rate; a spontaneous reaction can be very slow (III false).",
+  "why": [
+   "",
+   "Statement II is true. A negative ΔG° makes ln K greater than zero.",
+   "Statement III is false. Cell potential tells whether a reaction is favorable, not how fast it goes.",
+   "Statement III is false. Thermodynamic quantities like E° carry no information about reaction rate."
+  ],
+  "html": {
+   "prompt": "A redox reaction has a positive standard cell potential, E°<sub>cell</sub> &gt; 0. Which statements must be true?<br>I. ΔG° for the reaction is negative.<br>II. The equilibrium constant K is greater than 1.<br>III. The reaction proceeds rapidly once the reactants are mixed.",
+   "choices": [
+    "I and II only",
+    "I only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Use ΔG° = −nFE° and ΔG° = −RT ln K. Does either equation contain any information about speed?",
+   "explain": "<b>I and II only.</b> ΔG° = −nFE°, so a positive E° gives a negative ΔG° (I true). Then ln K = −ΔG°/RT is positive, so K &gt; 1 (II true). E° and ΔG° are thermodynamic quantities that say nothing about rate; a spontaneous reaction can be very slow (III false).",
+   "why": [
+    "",
+    "Statement II is true. A negative ΔG° makes ln K greater than zero.",
+    "Statement III is false. Cell potential tells whether a reaction is favorable, not how fast it goes.",
+    "Statement III is false. Thermodynamic quantities like E° carry no information about reaction rate."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 584
+  }
+ },
+ {
+  "id": "finalexam-324c972f",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "The same current passes for the same time through three electrolytic cells connected in series. The cells contain AgNO₃(aq), CuSO₄(aq) and AuCl₃(aq), and each deposits its metal at the cathode. Which statements are true? (Molar masses: Ag 107.9, Cu 63.55, Au 197.0 g mol⁻¹) I. The moles of Ag deposited are twice the moles of Cu deposited. II. The mass of Cu deposited is greater than the mass of Ag deposited. III. The moles of Au deposited are one-third the moles of Ag deposited.",
+  "choices": [
+   "I and III only",
+   "I only",
+   "I and II only",
+   "II and III only"
+  ],
+  "answer": "I and III only",
+  "hint": "In series, every cell receives the same number of moles of electrons. Count how many electrons each metal ion needs.",
+  "explain": "I and III only. Each cell receives the same moles of electrons. Ag⁺ needs 1 e⁻, Cu²⁺ needs 2 and Au³⁺ needs 3, so 6 mol e⁻ deposits 6 mol Ag, 3 mol Cu and 2 mol Au. Moles of Ag are twice those of Cu (I true), and moles of Au are one-third those of Ag (III true). By mass, 3 mol Cu is 191 g while 6 mol Ag is 647 g, so less copper is deposited (II false).",
+  "why": [
+   "",
+   "Statement III is true. Au³⁺ needs three electrons for each atom, while Ag⁺ needs only one.",
+   "Statement II is false. Fewer moles of Cu form, and each mole of Cu is lighter than a mole of Ag.",
+   "Statement II is false. Copper forms half as many moles as silver, and copper has the smaller molar mass."
+  ],
+  "html": {
+   "prompt": "The same current passes for the same time through three electrolytic cells connected in series. The cells contain AgNO<sub>3</sub>(aq), CuSO<sub>4</sub>(aq) and AuCl<sub>3</sub>(aq), and each deposits its metal at the cathode. Which statements are true? (Molar masses: Ag 107.9, Cu 63.55, Au 197.0 g mol<sup>−1</sup>)<br>I. The moles of Ag deposited are twice the moles of Cu deposited.<br>II. The mass of Cu deposited is greater than the mass of Ag deposited.<br>III. The moles of Au deposited are one-third the moles of Ag deposited.",
+   "choices": [
+    "I and III only",
+    "I only",
+    "I and II only",
+    "II and III only"
+   ],
+   "hint": "In series, every cell receives the same number of moles of electrons. Count how many electrons each metal ion needs.",
+   "explain": "<b>I and III only.</b> Each cell receives the same moles of electrons. Ag<sup>+</sup> needs 1 e<sup>−</sup>, Cu<sup>2+</sup> needs 2 and Au<sup>3+</sup> needs 3, so 6 mol e<sup>−</sup> deposits 6 mol Ag, 3 mol Cu and 2 mol Au. Moles of Ag are twice those of Cu (I true), and moles of Au are one-third those of Ag (III true). By mass, 3 mol Cu is 191 g while 6 mol Ag is 647 g, so less copper is deposited (II false).",
+   "why": [
+    "",
+    "Statement III is true. Au³⁺ needs three electrons for each atom, while Ag⁺ needs only one.",
+    "Statement II is false. Fewer moles of Cu form, and each mole of Cu is lighter than a mole of Ag.",
+    "Statement II is false. Copper forms half as many moles as silver, and copper has the smaller molar mass."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 585
+  }
+ },
+ {
+  "id": "finalexam-8f48680a",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "A galvanic cell runs on the reaction Ni(s) + 2 Ag⁺(aq) → Ni²⁺(aq) + 2 Ag(s) Which changes would INCREASE the cell voltage? I. Adding solid NaCl to the silver compartment, which precipitates AgCl. II. Diluting the Ni²⁺ solution with water. III. Replacing the silver electrode with a larger silver electrode.",
+  "choices": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I only"
+  ],
+  "answer": "II only",
+  "hint": "Use the Nernst equation, E = E° − (0.0592 V/n) log Q, and write Q for this reaction. Solids do not appear in Q.",
+  "explain": "II only. Q = [Ni²⁺]/[Ag⁺]², and E rises as Q falls. Precipitating AgCl lowers [Ag⁺], which raises Q and lowers E (I false). Diluting the Ni²⁺ solution lowers [Ni²⁺], which lowers Q and raises E (II true). The size of a solid electrode does not appear in Q, so it does not change the voltage (III false).",
+  "why": [
+   "",
+   "Statement I is false. Removing Ag⁺, a reactant, raises Q and lowers the voltage.",
+   "Statement III is false. A solid electrode does not appear in Q, so its size does not change E.",
+   "Statement I is false. A lower [Ag⁺] makes Q larger, which reduces the voltage."
+  ],
+  "html": {
+   "prompt": "A galvanic cell runs on the reaction<br>Ni(s) + 2 Ag<sup>+</sup>(aq) → Ni<sup>2+</sup>(aq) + 2 Ag(s)<br>Which changes would INCREASE the cell voltage?<br>I. Adding solid NaCl to the silver compartment, which precipitates AgCl.<br>II. Diluting the Ni<sup>2+</sup> solution with water.<br>III. Replacing the silver electrode with a larger silver electrode.",
+   "choices": [
+    "II only",
+    "I and II only",
+    "II and III only",
+    "I only"
+   ],
+   "hint": "Use the Nernst equation, E = E° − (0.0592 V/n) log Q, and write Q for this reaction. Solids do not appear in Q.",
+   "explain": "<b>II only.</b> Q = [Ni<sup>2+</sup>]/[Ag<sup>+</sup>]<sup>2</sup>, and E rises as Q falls. Precipitating AgCl lowers [Ag<sup>+</sup>], which raises Q and lowers E (I false). Diluting the Ni<sup>2+</sup> solution lowers [Ni<sup>2+</sup>], which lowers Q and raises E (II true). The size of a solid electrode does not appear in Q, so it does not change the voltage (III false).",
+   "why": [
+    "",
+    "Statement I is false. Removing Ag⁺, a reactant, raises Q and lowers the voltage.",
+    "Statement III is false. A solid electrode does not appear in Q, so its size does not change E.",
+    "Statement I is false. A lower [Ag⁺] makes Q larger, which reduces the voltage."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 586
+  }
+ },
+ {
+  "id": "finalexam-80e657ee",
+  "skill": "finalexam.1b.electro",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-17"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Use the standard reduction potentials in the table. Which species can oxidize Fe²⁺ to Fe³⁺ under standard conditions? I. I₂ II. Cl₂ III. Br₂",
+  "choices": [
+   "II and III only",
+   "II only",
+   "I, II and III",
+   "I and II only"
+  ],
+  "answer": "II and III only",
+  "hint": "An oxidizing agent can take electrons from Fe²⁺ only if its own reduction potential is higher than that of Fe³⁺/Fe²⁺.",
+  "explain": "II and III only. For X + Fe²⁺ → Fe³⁺, E°_cell = E°(X) − 0.77 V. Cl₂ gives 1.36 − 0.77 = +0.59 V (II true) and Br₂ gives 1.07 − 0.77 = +0.30 V (III true), so both reactions are spontaneous. I₂ gives 0.54 − 0.77 = −0.23 V, so it cannot oxidize Fe²⁺; in fact Fe³⁺ oxidizes I⁻ (I false).",
+  "why": [
+   "",
+   "Statement III is misjudged. Br₂ has a higher reduction potential than Fe³⁺, so it can take electrons from Fe²⁺.",
+   "Statement I is false. I₂ has a lower reduction potential than Fe³⁺, so that cell potential would be negative.",
+   "Statement I is false. The reduction potential of I₂ is below that of Fe³⁺."
+  ],
+  "html": {
+   "prompt": "Use the standard reduction potentials in the table. Which species can oxidize Fe<sup>2+</sup> to Fe<sup>3+</sup> under standard conditions?<br>I. I<sub>2</sub><br>II. Cl<sub>2</sub><br>III. Br<sub>2</sub>",
+   "choices": [
+    "II and III only",
+    "II only",
+    "I, II and III",
+    "I and II only"
+   ],
+   "hint": "An oxidizing agent can take electrons from Fe<sup>2+</sup> only if its own reduction potential is higher than that of Fe<sup>3+</sup>/Fe<sup>2+</sup>.",
+   "explain": "<b>II and III only.</b> For X + Fe<sup>2+</sup> → Fe<sup>3+</sup>, E°<sub>cell</sub> = E°(X) − 0.77 V. Cl<sub>2</sub> gives 1.36 − 0.77 = +0.59 V (II true) and Br<sub>2</sub> gives 1.07 − 0.77 = +0.30 V (III true), so both reactions are spontaneous. I<sub>2</sub> gives 0.54 − 0.77 = −0.23 V, so it cannot oxidize Fe<sup>2+</sup>; in fact Fe<sup>3+</sup> oxidizes I<sup>−</sup> (I false).",
+   "why": [
+    "",
+    "Statement III is misjudged. Br₂ has a higher reduction potential than Fe³⁺, so it can take electrons from Fe²⁺.",
+    "Statement I is false. I₂ has a lower reduction potential than Fe³⁺, so that cell potential would be negative.",
+    "Statement I is false. The reduction potential of I₂ is below that of Fe³⁺."
+   ]
+  },
+  "data": {
+   "f": [
+    {
+     "type": "table",
+     "head": [
+      "Half-reaction",
+      "E° (V)"
+     ],
+     "rows": [
+      [
+       "Cl<sub>2</sub>(g) + 2 e<sup>−</sup> → 2 Cl<sup>−</sup>(aq)",
+       "+1.36"
+      ],
+      [
+       "Br<sub>2</sub>(l) + 2 e<sup>−</sup> → 2 Br<sup>−</sup>(aq)",
+       "+1.07"
+      ],
+      [
+       "Fe<sup>3+</sup>(aq) + e<sup>−</sup> → Fe<sup>2+</sup>(aq)",
+       "+0.77"
+      ],
+      [
+       "I<sub>2</sub>(s) + 2 e<sup>−</sup> → 2 I<sup>−</sup>(aq)",
+       "+0.54"
+      ]
+     ]
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 587
+  }
+ },
+ {
+  "id": "finalexam-f829c377",
+  "skill": "finalexam.1b.coordination",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-19"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Consider the coordination compound [Co(en)₂Cl₂]Cl, where en is the neutral bidentate ligand ethylenediamine. Which statements are true? I. The coordination number of cobalt is 6. II. The oxidation state of cobalt is +3. III. One mole of the compound dissolved in water gives 3 moles of ions.",
+  "choices": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "I and II only",
+  "hint": "Each en binds through two N atoms. Only the ions outside the square brackets separate from the complex ion in water.",
+  "explain": "I and II only. Two bidentate en ligands supply 4 donor atoms and the two Cl⁻ ligands supply 2 more, so the coordination number is 6 (I true). With one Cl⁻ outside the brackets, the complex ion is [Co(en)₂Cl₂]⁺; en is neutral, so Co + 2(−1) = +1 and Co is +3 (II true). In water the compound gives one [Co(en)₂Cl₂]⁺ and one Cl⁻, only 2 moles of ions (III false).",
+  "why": [
+   "",
+   "Statement II is true. The complex ion has a 1+ charge and holds two Cl⁻ ligands, so cobalt must be +3.",
+   "Statement I is misjudged. Each en ligand binds through two nitrogen atoms, so count donor atoms, not ligands.",
+   "Statement III is false. The Cl⁻ ligands inside the brackets stay bound to cobalt and are not free ions."
+  ],
+  "html": {
+   "prompt": "Consider the coordination compound [Co(en)<sub>2</sub>Cl<sub>2</sub>]Cl, where en is the neutral bidentate ligand ethylenediamine. Which statements are true?<br>I. The coordination number of cobalt is 6.<br>II. The oxidation state of cobalt is +3.<br>III. One mole of the compound dissolved in water gives 3 moles of ions.",
+   "choices": [
+    "I and II only",
+    "I only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Each en binds through two N atoms. Only the ions outside the square brackets separate from the complex ion in water.",
+   "explain": "<b>I and II only.</b> Two bidentate en ligands supply 4 donor atoms and the two Cl<sup>−</sup> ligands supply 2 more, so the coordination number is 6 (I true). With one Cl<sup>−</sup> outside the brackets, the complex ion is [Co(en)<sub>2</sub>Cl<sub>2</sub>]<sup>+</sup>; en is neutral, so Co + 2(−1) = +1 and Co is +3 (II true). In water the compound gives one [Co(en)<sub>2</sub>Cl<sub>2</sub>]<sup>+</sup> and one Cl<sup>−</sup>, only 2 moles of ions (III false).",
+   "why": [
+    "",
+    "Statement II is true. The complex ion has a 1+ charge and holds two Cl⁻ ligands, so cobalt must be +3.",
+    "Statement I is misjudged. Each en ligand binds through two nitrogen atoms, so count donor atoms, not ligands.",
+    "Statement III is false. The Cl⁻ ligands inside the brackets stay bound to cobalt and are not free ions."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 588
+  }
+ },
+ {
+  "id": "finalexam-bcc3ad68",
+  "skill": "finalexam.1b.coordination",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-19"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which complexes can exist as geometric (cis and trans) isomers? I. Tetrahedral [Zn(NH₃)₂Cl₂] II. Square planar [Pt(NH₃)₂Cl₂] III. Octahedral [Co(NH₃)₅Cl]²⁺",
+  "choices": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "II only",
+  "hint": "Cis/trans isomers need two different relationships between like ligands: next to each other or directly across. Check whether each shape allows both.",
+  "explain": "II only. In a square planar complex the two Cl⁻ ligands can be adjacent (cis) or opposite (trans), so [Pt(NH₃)₂Cl₂] has geometric isomers (II true). In a tetrahedron every corner is adjacent to every other corner, so there is only one arrangement (I false). [Co(NH₃)₅Cl]²⁺ has only one Cl, and every position for it is equivalent, so it has no cis/trans isomers (III false).",
+  "why": [
+   "",
+   "Statement I is false. In a tetrahedron all four positions are adjacent to one another, so there is no trans arrangement.",
+   "Statement III is false. With only one Cl ligand, every position on the octahedron gives the same complex.",
+   "Statement I is false. A tetrahedral complex with two pairs of like ligands has only one arrangement."
+  ],
+  "html": {
+   "prompt": "Which complexes can exist as geometric (cis and trans) isomers?<br>I. Tetrahedral [Zn(NH<sub>3</sub>)<sub>2</sub>Cl<sub>2</sub>]<br>II. Square planar [Pt(NH<sub>3</sub>)<sub>2</sub>Cl<sub>2</sub>]<br>III. Octahedral [Co(NH<sub>3</sub>)<sub>5</sub>Cl]<sup>2+</sup>",
+   "choices": [
+    "II only",
+    "I and II only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Cis/trans isomers need two different relationships between like ligands: next to each other or directly across. Check whether each shape allows both.",
+   "explain": "<b>II only.</b> In a square planar complex the two Cl<sup>−</sup> ligands can be adjacent (cis) or opposite (trans), so [Pt(NH<sub>3</sub>)<sub>2</sub>Cl<sub>2</sub>] has geometric isomers (II true). In a tetrahedron every corner is adjacent to every other corner, so there is only one arrangement (I false). [Co(NH<sub>3</sub>)<sub>5</sub>Cl]<sup>2+</sup> has only one Cl, and every position for it is equivalent, so it has no cis/trans isomers (III false).",
+   "why": [
+    "",
+    "Statement I is false. In a tetrahedron all four positions are adjacent to one another, so there is no trans arrangement.",
+    "Statement III is false. With only one Cl ligand, every position on the octahedron gives the same complex.",
+    "Statement I is false. A tetrahedral complex with two pairs of like ligands has only one arrangement."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 589
+  }
+ },
+ {
+  "id": "finalexam-45d5025c",
+  "skill": "finalexam.1b.coordination",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-19"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which statements about octahedral transition-metal complexes are true? I. Replacing H₂O ligands with CN⁻ ligands decreases the crystal-field splitting energy, Δ_o. II. A d³ metal ion has the same number of unpaired electrons whether its complex is high-spin or low-spin. III. A complex with a larger Δ_o absorbs light of longer wavelength.",
+  "choices": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I and III only"
+  ],
+  "answer": "II only",
+  "hint": "Recall the spectrochemical series, fill the t_2g orbitals first, and connect Δ_o to photon energy with E = hc/λ.",
+  "explain": "II only. CN⁻ is a strong-field ligand, high in the spectrochemical series, so it increases Δ_o (I false). In a d³ ion the three electrons go one each into the three t_2g orbitals whether Δ_o is large or small, so there are always 3 unpaired electrons (II true). A larger Δ_o needs a higher-energy photon, which has a shorter wavelength (III false).",
+  "why": [
+   "",
+   "Statement I is false. CN⁻ is a strong field ligand that makes the splitting larger than H₂O does.",
+   "Statement III is false. A larger energy gap absorbs higher energy light, which has a shorter wavelength.",
+   "Statement I is false. CN⁻ sits above H₂O in the spectrochemical series."
+  ],
+  "html": {
+   "prompt": "Which statements about octahedral transition-metal complexes are true?<br>I. Replacing H<sub>2</sub>O ligands with CN<sup>−</sup> ligands decreases the crystal-field splitting energy, Δ<sub>o</sub>.<br>II. A d<sup>3</sup> metal ion has the same number of unpaired electrons whether its complex is high-spin or low-spin.<br>III. A complex with a larger Δ<sub>o</sub> absorbs light of longer wavelength.",
+   "choices": [
+    "II only",
+    "I and II only",
+    "II and III only",
+    "I and III only"
+   ],
+   "hint": "Recall the spectrochemical series, fill the t<sub>2g</sub> orbitals first, and connect Δ<sub>o</sub> to photon energy with E = hc/λ.",
+   "explain": "<b>II only.</b> CN<sup>−</sup> is a strong-field ligand, high in the spectrochemical series, so it increases Δ<sub>o</sub> (I false). In a d<sup>3</sup> ion the three electrons go one each into the three t<sub>2g</sub> orbitals whether Δ<sub>o</sub> is large or small, so there are always 3 unpaired electrons (II true). A larger Δ<sub>o</sub> needs a higher-energy photon, which has a shorter wavelength (III false).",
+   "why": [
+    "",
+    "Statement I is false. CN⁻ is a strong field ligand that makes the splitting larger than H₂O does.",
+    "Statement III is false. A larger energy gap absorbs higher energy light, which has a shorter wavelength.",
+    "Statement I is false. CN⁻ sits above H₂O in the spectrochemical series."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 590
+  }
+ },
+ {
+  "id": "finalexam-a6e74619",
+  "skill": "finalexam.1b.coordination",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-19"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Arrange these octahedral complex ions in order of INCREASING number of unpaired electrons. I. [Co(NH₃)₆]³⁺ (low-spin) II. [Mn(H₂O)₆]²⁺ (high-spin) III. [Ni(H₂O)₆]²⁺",
+  "choices": [
+   "I < III < II",
+   "III < I < II",
+   "I < II < III",
+   "II < III < I"
+  ],
+  "answer": "I < III < II",
+  "hint": "Find each metal's oxidation state and d-electron count first, then fill t_2g and e_g as the spin label tells you.",
+  "explain": "I < III < II. Co³⁺ is d⁶; low-spin puts all six electrons in the t_2g set, so 0 are unpaired. Ni²⁺ is d⁸, t_2g⁶e_g², so 2 are unpaired in either spin state. Mn²⁺ is d⁵; high-spin puts one electron in each of the five d orbitals, so 5 are unpaired.",
+  "why": [
+   "",
+   "Recount the low spin d⁶ ion. With all six electrons in the lower t₂g set, how many are unpaired?",
+   "The Ni²⁺ complex is misplaced. A d⁸ ion has a filled t₂g set, so count only its eg electrons.",
+   "This order is reversed. A high spin d⁵ ion has one electron in every d orbital."
+  ],
+  "html": {
+   "prompt": "Arrange these octahedral complex ions in order of INCREASING number of unpaired electrons.<br>I. [Co(NH<sub>3</sub>)<sub>6</sub>]<sup>3+</sup> (low-spin)<br>II. [Mn(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup> (high-spin)<br>III. [Ni(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup>",
+   "choices": [
+    "I &lt; III &lt; II",
+    "III &lt; I &lt; II",
+    "I &lt; II &lt; III",
+    "II &lt; III &lt; I"
+   ],
+   "hint": "Find each metal's oxidation state and d-electron count first, then fill t<sub>2g</sub> and e<sub>g</sub> as the spin label tells you.",
+   "explain": "<b>I &lt; III &lt; II.</b> Co<sup>3+</sup> is d<sup>6</sup>; low-spin puts all six electrons in the t<sub>2g</sub> set, so 0 are unpaired. Ni<sup>2+</sup> is d<sup>8</sup>, t<sub>2g</sub><sup>6</sup>e<sub>g</sub><sup>2</sup>, so 2 are unpaired in either spin state. Mn<sup>2+</sup> is d<sup>5</sup>; high-spin puts one electron in each of the five d orbitals, so 5 are unpaired.",
+   "why": [
+    "",
+    "Recount the low spin d⁶ ion. With all six electrons in the lower t₂g set, how many are unpaired?",
+    "The Ni²⁺ complex is misplaced. A d⁸ ion has a filled t₂g set, so count only its eg electrons.",
+    "This order is reversed. A high spin d⁵ ion has one electron in every d orbital."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 591
+  }
+ },
+ {
+  "id": "finalexam-fb972b3a",
+  "skill": "finalexam.1b.nuclear",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-21"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which statements about beta (β⁻) decay are true? I. It increases the atomic number of the nucleus by 1. II. It decreases the mass number of the nucleus by 1. III. It is the usual decay mode for nuclides that have too few neutrons for stability.",
+  "choices": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "answer": "I only",
+  "hint": "Write β⁻ decay as a neutron changing into a proton plus an electron, and track what happens to Z, A and the neutron-to-proton ratio.",
+  "explain": "I only. In β⁻ decay a neutron becomes a proton and an electron is emitted, so Z rises by 1 (I true). The total number of nucleons does not change, so the mass number stays the same (II false). Turning a neutron into a proton lowers the n/p ratio, which helps nuclides with too MANY neutrons; nuclides with too few neutrons undergo positron emission or electron capture instead (III false).",
+  "why": [
+   "",
+   "Statement II is false. A neutron turns into a proton, so the total number of nucleons stays the same.",
+   "Statement III is false. Beta decay lowers the neutron to proton ratio, which helps nuclides with too many neutrons.",
+   "Statement II is false. The emitted electron is not a nucleon, so the mass number does not change."
+  ],
+  "html": {
+   "prompt": "Which statements about beta (β<sup>−</sup>) decay are true?<br>I. It increases the atomic number of the nucleus by 1.<br>II. It decreases the mass number of the nucleus by 1.<br>III. It is the usual decay mode for nuclides that have too few neutrons for stability.",
+   "choices": [
+    "I only",
+    "I and II only",
+    "I and III only",
+    "II and III only"
+   ],
+   "hint": "Write β<sup>−</sup> decay as a neutron changing into a proton plus an electron, and track what happens to Z, A and the neutron-to-proton ratio.",
+   "explain": "<b>I only.</b> In β<sup>−</sup> decay a neutron becomes a proton and an electron is emitted, so Z rises by 1 (I true). The total number of nucleons does not change, so the mass number stays the same (II false). Turning a neutron into a proton lowers the n/p ratio, which helps nuclides with too MANY neutrons; nuclides with too few neutrons undergo positron emission or electron capture instead (III false).",
+   "why": [
+    "",
+    "Statement II is false. A neutron turns into a proton, so the total number of nucleons stays the same.",
+    "Statement III is false. Beta decay lowers the neutron to proton ratio, which helps nuclides with too many neutrons.",
+    "Statement II is false. The emitted electron is not a nucleon, so the mass number does not change."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 592
+  }
+ },
+ {
+  "id": "finalexam-881f3a09",
+  "skill": "finalexam.1b.nuclear",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-21"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "A radioactive isotope has a half-life of 6.0 h. Which statements are true? I. After 18 h, one-eighth of the original radioactive nuclei remain. II. Heating the sample would shorten its half-life. III. The activity of the sample is proportional to the number of radioactive nuclei present.",
+  "choices": [
+   "I and III only",
+   "I only",
+   "III only",
+   "I, II and III"
+  ],
+  "answer": "I and III only",
+  "hint": "Radioactive decay is first order. Ask whether a nuclear process depends on temperature the way chemical reactions do.",
+  "explain": "I and III only. 18 h is three half-lives, so (1/2)³ = 1/8 of the nuclei remain (I true). Nuclear decay rates are essentially unaffected by temperature, pressure or chemical form, so heating does not change the half-life (II false). Decay is first order, so the activity, kN, is proportional to the number of radioactive nuclei N (III true).",
+  "why": [
+   "",
+   "Statement III is true. Decay is first order, so the rate depends directly on how many radioactive nuclei are left.",
+   "Statement I is true. 18 h is three half-lives.",
+   "Statement II is false. Nuclear decay rates do not depend on temperature."
+  ],
+  "html": {
+   "prompt": "A radioactive isotope has a half-life of 6.0 h. Which statements are true?<br>I. After 18 h, one-eighth of the original radioactive nuclei remain.<br>II. Heating the sample would shorten its half-life.<br>III. The activity of the sample is proportional to the number of radioactive nuclei present.",
+   "choices": [
+    "I and III only",
+    "I only",
+    "III only",
+    "I, II and III"
+   ],
+   "hint": "Radioactive decay is first order. Ask whether a nuclear process depends on temperature the way chemical reactions do.",
+   "explain": "<b>I and III only.</b> 18 h is three half-lives, so (1/2)<sup>3</sup> = 1/8 of the nuclei remain (I true). Nuclear decay rates are essentially unaffected by temperature, pressure or chemical form, so heating does not change the half-life (II false). Decay is first order, so the activity, kN, is proportional to the number of radioactive nuclei N (III true).",
+   "why": [
+    "",
+    "Statement III is true. Decay is first order, so the rate depends directly on how many radioactive nuclei are left.",
+    "Statement I is true. 18 h is three half-lives.",
+    "Statement II is false. Nuclear decay rates do not depend on temperature."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 593
+  }
+ },
+ {
+  "id": "finalexam-14a5b80e",
+  "skill": "finalexam.1b.nuclear",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-21"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which statements about nuclear fission and fusion are true? I. Both the fission of uranium-235 and the fusion of hydrogen nuclei release energy because the products have a higher binding energy per nucleon than the reactants. II. Fusion requires extremely high temperatures so that nuclei can overcome their electrostatic repulsion. III. In both processes, the total mass of the products equals the total mass of the reactants.",
+  "choices": [
+   "I and II only",
+   "II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "I and II only",
+  "hint": "Picture the curve of binding energy per nucleon, which peaks near iron, and recall E = mc².",
+  "explain": "I and II only. Binding energy per nucleon peaks near iron-56, so splitting a heavy nucleus or joining light nuclei both give more tightly bound products and release energy (I true). Positively charged nuclei repel strongly, so fusion needs temperatures of millions of kelvins (II true). The energy released comes from a loss of mass, ΔE = Δmc², so the products have less mass than the reactants (III false).",
+  "why": [
+   "",
+   "Statement I is true. Both processes move nuclei toward the peak of the binding energy curve near iron.",
+   "Statement III is false. The energy released comes from a measurable loss of mass.",
+   "Statement III is false. Nuclear reactions convert some mass into energy, so the products have less mass."
+  ],
+  "html": {
+   "prompt": "Which statements about nuclear fission and fusion are true?<br>I. Both the fission of uranium-235 and the fusion of hydrogen nuclei release energy because the products have a higher binding energy per nucleon than the reactants.<br>II. Fusion requires extremely high temperatures so that nuclei can overcome their electrostatic repulsion.<br>III. In both processes, the total mass of the products equals the total mass of the reactants.",
+   "choices": [
+    "I and II only",
+    "II only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Picture the curve of binding energy per nucleon, which peaks near iron, and recall E = mc<sup>2</sup>.",
+   "explain": "<b>I and II only.</b> Binding energy per nucleon peaks near iron-56, so splitting a heavy nucleus or joining light nuclei both give more tightly bound products and release energy (I true). Positively charged nuclei repel strongly, so fusion needs temperatures of millions of kelvins (II true). The energy released comes from a loss of mass, ΔE = Δmc<sup>2</sup>, so the products have less mass than the reactants (III false).",
+   "why": [
+    "",
+    "Statement I is true. Both processes move nuclei toward the peak of the binding energy curve near iron.",
+    "Statement III is false. The energy released comes from a measurable loss of mass.",
+    "Statement III is false. Nuclear reactions convert some mass into energy, so the products have less mass."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 594
+  }
+ },
+ {
+  "id": "finalexam-e88dd3f4",
+  "skill": "finalexam.1b.nuclear",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-21"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which nuclear equations are balanced in both mass number and atomic number? I. ¹⁸₉F → ¹⁸₁₀Ne + ⁰_+1e II. ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He III. ¹⁴₆C → ¹⁴₇N + ⁰_−1e",
+  "choices": [
+   "II and III only",
+   "II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "answer": "II and III only",
+  "hint": "Add the mass numbers (top) and the atomic numbers (bottom) on each side. Both sums must match.",
+  "explain": "II and III only. In II, 238 = 234 + 4 and 92 = 90 + 2 (balanced). In III, 14 = 14 + 0 and 6 = 7 + (−1) (balanced). In I the mass numbers match, but the atomic numbers do not: 9 ≠ 10 + 1. Positron emission lowers Z by 1, so fluorine-18 actually gives ¹⁸₈O (I false).",
+  "why": [
+   "",
+   "Statement III is balanced. Check the atomic numbers: 7 plus (−1) gives 6.",
+   "Statement I is unbalanced. The atomic numbers on the right add to 11, not 9.",
+   "Statement I is unbalanced. Positron emission lowers the atomic number, it does not raise it."
+  ],
+  "html": {
+   "prompt": "Which nuclear equations are balanced in both mass number and atomic number?<br>I. <sup>18</sup><sub>9</sub>F → <sup>18</sup><sub>10</sub>Ne + <sup>0</sup><sub>+1</sub>e<br>II. <sup>238</sup><sub>92</sub>U → <sup>234</sup><sub>90</sub>Th + <sup>4</sup><sub>2</sub>He<br>III. <sup>14</sup><sub>6</sub>C → <sup>14</sup><sub>7</sub>N + <sup>0</sup><sub>−1</sub>e",
+   "choices": [
+    "II and III only",
+    "II only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "hint": "Add the mass numbers (top) and the atomic numbers (bottom) on each side. Both sums must match.",
+   "explain": "<b>II and III only.</b> In II, 238 = 234 + 4 and 92 = 90 + 2 (balanced). In III, 14 = 14 + 0 and 6 = 7 + (−1) (balanced). In I the mass numbers match, but the atomic numbers do not: 9 ≠ 10 + 1. Positron emission lowers Z by 1, so fluorine-18 actually gives <sup>18</sup><sub>8</sub>O (I false).",
+   "why": [
+    "",
+    "Statement III is balanced. Check the atomic numbers: 7 plus (−1) gives 6.",
+    "Statement I is unbalanced. The atomic numbers on the right add to 11, not 9.",
+    "Statement I is unbalanced. Positron emission lowers the atomic number, it does not raise it."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 595
+  }
+ },
+ {
+  "id": "finalexam-5a5e6669",
+  "skill": "finalexam.1b.imf",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-ready"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "These compounds have similar molar masses. Arrange them in order of INCREASING normal boiling point. I. CH₃CH₂CH₂OH (1-propanol, 60 g mol⁻¹) II. CH₃CH₂CH₂CH₃ (butane, 58 g mol⁻¹) III. CH₃CH₂CHO (propanal, 58 g mol⁻¹)",
+  "choices": [
+   "II < III < I",
+   "III < II < I",
+   "II < I < III",
+   "I < III < II"
+  ],
+  "answer": "II < III < I",
+  "hint": "When molar masses are about equal, dispersion forces are similar, so compare the other kinds of intermolecular force each molecule can use.",
+  "explain": "II < III < I. With nearly equal molar masses, the dispersion forces are similar, so the other forces decide. Butane is nonpolar and has only dispersion forces (bp about −1 °C). Propanal has a polar C=O group, which adds dipole–dipole forces (bp about 48 °C). 1-Propanol has an O–H group and forms hydrogen bonds, the strongest of the three (bp about 97 °C).",
+  "why": [
+   "",
+   "Propanal is polar because of its C=O group, so it should not be below nonpolar butane.",
+   "Propanal has no H on oxygen, so it cannot hydrogen bond with itself and should not rank above the alcohol.",
+   "This order is reversed. Hydrogen bonding raises the boiling point, it does not lower it."
+  ],
+  "html": {
+   "prompt": "These compounds have similar molar masses. Arrange them in order of INCREASING normal boiling point.<br>I. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH (1-propanol, 60 g mol<sup>−1</sup>)<br>II. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> (butane, 58 g mol<sup>−1</sup>)<br>III. CH<sub>3</sub>CH<sub>2</sub>CHO (propanal, 58 g mol<sup>−1</sup>)",
+   "choices": [
+    "II &lt; III &lt; I",
+    "III &lt; II &lt; I",
+    "II &lt; I &lt; III",
+    "I &lt; III &lt; II"
+   ],
+   "hint": "When molar masses are about equal, dispersion forces are similar, so compare the other kinds of intermolecular force each molecule can use.",
+   "explain": "<b>II &lt; III &lt; I.</b> With nearly equal molar masses, the dispersion forces are similar, so the other forces decide. Butane is nonpolar and has only dispersion forces (bp about −1 °C). Propanal has a polar C=O group, which adds dipole–dipole forces (bp about 48 °C). 1-Propanol has an O–H group and forms hydrogen bonds, the strongest of the three (bp about 97 °C).",
+   "why": [
+    "",
+    "Propanal is polar because of its C=O group, so it should not be below nonpolar butane.",
+    "Propanal has no H on oxygen, so it cannot hydrogen bond with itself and should not rank above the alcohol.",
+    "This order is reversed. Hydrogen bonding raises the boiling point, it does not lower it."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 596
+  }
+ },
+ {
+  "id": "finalexam-d228f7a1",
+  "skill": "finalexam.1b.imf",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-ready"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which pure substances have hydrogen bonding between their own molecules? I. CH₃OCH₃ (dimethyl ether) II. CH₃NH₂ (methylamine) III. HF",
+  "choices": [
+   "II and III only",
+   "III only",
+   "I, II and III",
+   "I and III only"
+  ],
+  "answer": "II and III only",
+  "hint": "Look for an H atom bonded directly to N, O or F in each molecule.",
+  "explain": "II and III only. Hydrogen bonding between like molecules needs an H bonded directly to N, O or F. Methylamine has N–H bonds (II true) and HF has an H–F bond (III true). In dimethyl ether every H is bonded to carbon; its O can accept a hydrogen bond from water, but pure ether molecules cannot hydrogen-bond to one another (I false).",
+  "why": [
+   "",
+   "Statement II is true. Methylamine has H atoms bonded directly to nitrogen.",
+   "Statement I is false. In dimethyl ether every hydrogen is bonded to carbon.",
+   "Statement I is false. Having an oxygen atom is not enough if no hydrogen is bonded to it."
+  ],
+  "html": {
+   "prompt": "Which pure substances have hydrogen bonding between their own molecules?<br>I. CH<sub>3</sub>OCH<sub>3</sub> (dimethyl ether)<br>II. CH<sub>3</sub>NH<sub>2</sub> (methylamine)<br>III. HF",
+   "choices": [
+    "II and III only",
+    "III only",
+    "I, II and III",
+    "I and III only"
+   ],
+   "hint": "Look for an H atom bonded directly to N, O or F in each molecule.",
+   "explain": "<b>II and III only.</b> Hydrogen bonding between like molecules needs an H bonded directly to N, O or F. Methylamine has N–H bonds (II true) and HF has an H–F bond (III true). In dimethyl ether every H is bonded to carbon; its O can accept a hydrogen bond from water, but pure ether molecules cannot hydrogen-bond to one another (I false).",
+   "why": [
+    "",
+    "Statement II is true. Methylamine has H atoms bonded directly to nitrogen.",
+    "Statement I is false. In dimethyl ether every hydrogen is bonded to carbon.",
+    "Statement I is false. Having an oxygen atom is not enough if no hydrogen is bonded to it."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 597
+  }
+ },
+ {
+  "id": "finalexam-ef53547c",
+  "skill": "finalexam.1b.imf",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-ready"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Water (H₂O, 18 g mol⁻¹) boils at 100 °C, but hydrogen sulfide (H₂S, 34 g mol⁻¹) boils at −60 °C. Which statements help explain this difference? I. Water molecules form hydrogen bonds with one another, but H₂S molecules do not form significant hydrogen bonds. II. Water molecules have more electrons, so they have stronger dispersion forces. III. Boiling water breaks O–H covalent bonds, which are stronger than S–H bonds.",
+  "choices": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "answer": "I only",
+  "hint": "Count the electrons in each molecule, and remember what boiling does and does not break.",
+  "explain": "I only. O is small and very electronegative, so water forms strong hydrogen bonds; S is less electronegative, and H₂S does not hydrogen-bond significantly (I true). H₂S has 18 electrons and water only 10, so H₂S actually has the stronger dispersion forces (II false). Boiling separates whole molecules; it does not break the covalent bonds inside them (III false).",
+  "why": [
+   "",
+   "Statement II is false. H₂S has more electrons than H₂O, so its dispersion forces are stronger.",
+   "Statement III is false. Boiling separates whole molecules and leaves covalent bonds intact.",
+   "Statement II is false. Water has fewer electrons than H₂S."
+  ],
+  "html": {
+   "prompt": "Water (H<sub>2</sub>O, 18 g mol<sup>−1</sup>) boils at 100 °C, but hydrogen sulfide (H<sub>2</sub>S, 34 g mol<sup>−1</sup>) boils at −60 °C. Which statements help explain this difference?<br>I. Water molecules form hydrogen bonds with one another, but H<sub>2</sub>S molecules do not form significant hydrogen bonds.<br>II. Water molecules have more electrons, so they have stronger dispersion forces.<br>III. Boiling water breaks O–H covalent bonds, which are stronger than S–H bonds.",
+   "choices": [
+    "I only",
+    "I and II only",
+    "I and III only",
+    "II and III only"
+   ],
+   "hint": "Count the electrons in each molecule, and remember what boiling does and does not break.",
+   "explain": "<b>I only.</b> O is small and very electronegative, so water forms strong hydrogen bonds; S is less electronegative, and H<sub>2</sub>S does not hydrogen-bond significantly (I true). H<sub>2</sub>S has 18 electrons and water only 10, so H<sub>2</sub>S actually has the stronger dispersion forces (II false). Boiling separates whole molecules; it does not break the covalent bonds inside them (III false).",
+   "why": [
+    "",
+    "Statement II is false. H₂S has more electrons than H₂O, so its dispersion forces are stronger.",
+    "Statement III is false. Boiling separates whole molecules and leaves covalent bonds intact.",
+    "Statement II is false. Water has fewer electrons than H₂S."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 598
+  }
+ },
+ {
+  "id": "finalexam-ef1af30f",
+  "skill": "finalexam.1b.imf",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [
+   "1B-ready"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which statements about water are true? I. Ice is less dense than liquid water because hydrogen bonds hold the molecules in an open hexagonal network. II. Liquid water has its greatest density at about 4 °C. III. Water's unusually high specific heat comes partly from the energy needed to disrupt hydrogen bonds as it warms.",
+  "choices": [
+   "I, II and III",
+   "I and II only",
+   "I and III only",
+   "II only"
+  ],
+  "answer": "I, II and III",
+  "hint": "Hydrogen bonding explains several of water's unusual properties. Judge each statement on its own.",
+  "explain": "I, II and III. In ice each molecule hydrogen-bonds to four neighbors in an open hexagonal network, so ice is less dense than the liquid and floats (I true). When ice melts the network partly collapses, and liquid water keeps getting denser as it warms from 0 °C to about 4 °C, then expands like a normal liquid (II true). Some of the heat added to water goes into breaking hydrogen bonds rather than raising the molecules' kinetic energy, which gives water its high specific heat (III true).",
+  "why": [
+   "",
+   "Statement III is true. Some of the heat added to water goes into breaking hydrogen bonds instead of raising the temperature.",
+   "Statement II is true. Liquid water is densest near 4 °C.",
+   "Statement I is true. The open hydrogen bonded network in ice takes up more space than the liquid does."
+  ],
+  "html": {
+   "prompt": "Which statements about water are true?<br>I. Ice is less dense than liquid water because hydrogen bonds hold the molecules in an open hexagonal network.<br>II. Liquid water has its greatest density at about 4 °C.<br>III. Water's unusually high specific heat comes partly from the energy needed to disrupt hydrogen bonds as it warms.",
+   "choices": [
+    "I, II and III",
+    "I and II only",
+    "I and III only",
+    "II only"
+   ],
+   "hint": "Hydrogen bonding explains several of water's unusual properties. Judge each statement on its own.",
+   "explain": "<b>I, II and III.</b> In ice each molecule hydrogen-bonds to four neighbors in an open hexagonal network, so ice is less dense than the liquid and floats (I true). When ice melts the network partly collapses, and liquid water keeps getting denser as it warms from 0 °C to about 4 °C, then expands like a normal liquid (II true). Some of the heat added to water goes into breaking hydrogen bonds rather than raising the molecules' kinetic energy, which gives water its high specific heat (III true).",
+   "why": [
+    "",
+    "Statement III is true. Some of the heat added to water goes into breaking hydrogen bonds instead of raising the temperature.",
+    "Statement II is true. Liquid water is densest near 4 °C.",
+    "Statement I is true. The open hydrogen bonded network in ice takes up more space than the liquid does."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 599
+  }
+ },
+ {
+  "id": "finalexam-58fc47bb",
+  "skill": "finalexam.1b.colligative",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Assume ideal behavior. Which aqueous solutions have a LOWER freezing point than 0.20 m glucose? I. 0.10 m KBr II. 0.10 m CaCl₂ III. 0.25 m sucrose",
+  "choices": [
+   "II and III only",
+   "II only",
+   "I, II and III",
+   "I and II only"
+  ],
+  "answer": "II and III only",
+  "hint": "Multiply each molality by the number of particles the solute forms (i). The more particles, the lower the freezing point.",
+  "explain": "II and III only. ΔT_f = iK_fm, so compare particle concentrations; glucose gives 0.20 m particles. KBr gives 2 × 0.10 = 0.20 m, the same, so its freezing point is the same, not lower (I false). CaCl₂ gives 3 × 0.10 = 0.30 m (II true), and sucrose, a nonelectrolyte, gives 0.25 m (III true).",
+  "why": [
+   "",
+   "Statement III is misjudged. Sucrose does not ionize, but 0.25 m is still more particles than 0.20 m.",
+   "Statement I is false. KBr gives two ions, so 0.10 m KBr has the same particle concentration as 0.20 m glucose.",
+   "Statement I is false. 0.10 m KBr has the same total particle concentration as the glucose solution."
+  ],
+  "html": {
+   "prompt": "Assume ideal behavior. Which aqueous solutions have a LOWER freezing point than 0.20 m glucose?<br>I. 0.10 m KBr<br>II. 0.10 m CaCl<sub>2</sub><br>III. 0.25 m sucrose",
+   "choices": [
+    "II and III only",
+    "II only",
+    "I, II and III",
+    "I and II only"
+   ],
+   "hint": "Multiply each molality by the number of particles the solute forms (i). The more particles, the lower the freezing point.",
+   "explain": "<b>II and III only.</b> ΔT<sub>f</sub> = iK<sub>f</sub>m, so compare particle concentrations; glucose gives 0.20 m particles. KBr gives 2 × 0.10 = 0.20 m, the same, so its freezing point is the same, not lower (I false). CaCl<sub>2</sub> gives 3 × 0.10 = 0.30 m (II true), and sucrose, a nonelectrolyte, gives 0.25 m (III true).",
+   "why": [
+    "",
+    "Statement III is misjudged. Sucrose does not ionize, but 0.25 m is still more particles than 0.20 m.",
+    "Statement I is false. KBr gives two ions, so 0.10 m KBr has the same particle concentration as 0.20 m glucose.",
+    "Statement I is false. 0.10 m KBr has the same total particle concentration as the glucose solution."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 600
+  }
+ },
+ {
+  "id": "finalexam-1f1559f8",
+  "skill": "finalexam.1b.colligative",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "A student finds the molar mass of an unknown solute from the freezing-point depression of its solution, assuming the solute is a nonelectrolyte. Which errors would make the calculated molar mass too LOW? I. Some of the weighed solute stays undissolved at the bottom of the flask. II. The thermometer reads the solution's freezing point too high (too close to that of the pure solvent). III. The solute actually dissociates partly into ions.",
+  "choices": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I only"
+  ],
+  "answer": "III only",
+  "hint": "Write molar mass = grams/moles and find moles from ΔT_f. Decide whether each error makes the measured ΔT_f larger or smaller than it should be.",
+  "explain": "III only. The student uses molar mass = (mass of solute)/(moles), with moles = (ΔT_f/K_f) × (kg solvent). An error that makes ΔT_f too large makes the moles too large and the molar mass too low. Partial dissociation gives more particles than assumed, so ΔT_f is larger and the result is too low (III true). Undissolved solute puts fewer particles in solution while its mass is still counted, so ΔT_f is too small and the result is too high (I false). A freezing point read too high also makes ΔT_f too small and the result too high (II false).",
+  "why": [
+   "",
+   "Statement I is false. Undissolved solute makes the freezing point drop too small, so the moles found are too few.",
+   "Statement II is false. A freezing point read too high makes the measured depression too small.",
+   "Statement I is false. Solute that never dissolves still counts in the mass but not in the depression, which pushes the result up."
+  ],
+  "html": {
+   "prompt": "A student finds the molar mass of an unknown solute from the freezing-point depression of its solution, assuming the solute is a nonelectrolyte. Which errors would make the calculated molar mass too LOW?<br>I. Some of the weighed solute stays undissolved at the bottom of the flask.<br>II. The thermometer reads the solution's freezing point too high (too close to that of the pure solvent).<br>III. The solute actually dissociates partly into ions.",
+   "choices": [
+    "III only",
+    "I and III only",
+    "II and III only",
+    "I only"
+   ],
+   "hint": "Write molar mass = grams/moles and find moles from ΔT<sub>f</sub>. Decide whether each error makes the measured ΔT<sub>f</sub> larger or smaller than it should be.",
+   "explain": "<b>III only.</b> The student uses molar mass = (mass of solute)/(moles), with moles = (ΔT<sub>f</sub>/K<sub>f</sub>) × (kg solvent). An error that makes ΔT<sub>f</sub> too large makes the moles too large and the molar mass too low. Partial dissociation gives more particles than assumed, so ΔT<sub>f</sub> is larger and the result is too low (III true). Undissolved solute puts fewer particles in solution while its mass is still counted, so ΔT<sub>f</sub> is too small and the result is too high (I false). A freezing point read too high also makes ΔT<sub>f</sub> too small and the result too high (II false).",
+   "why": [
+    "",
+    "Statement I is false. Undissolved solute makes the freezing point drop too small, so the moles found are too few.",
+    "Statement II is false. A freezing point read too high makes the measured depression too small.",
+    "Statement I is false. Solute that never dissolves still counts in the mass but not in the depression, which pushes the result up."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 601
+  }
+ },
+ {
+  "id": "finalexam-e0c35197",
+  "skill": "finalexam.1b.colligative",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which statements about osmotic pressure are true? (Assume ideal behavior.) I. At the same temperature, 0.30 M glucose and 0.15 M NaCl have about the same osmotic pressure. II. In reverse osmosis, fresh water is obtained from seawater by applying a pressure greater than the seawater's osmotic pressure. III. Osmotic pressure is often used instead of freezing-point depression to find the molar mass of a protein, because it gives a measurable effect at very low concentrations.",
+  "choices": [
+   "I, II and III",
+   "I and III only",
+   "II and III only",
+   "I and II only"
+  ],
+  "answer": "I, II and III",
+  "hint": "Use Π = iMRT for each statement, and compare how large Π and ΔT_f are for a very dilute solution.",
+  "explain": "I, II and III. Π = iMRT: glucose gives 1 × 0.30 = 0.30 M particles and NaCl gives 2 × 0.15 = 0.30 M, so the osmotic pressures match (I true). Pushing on the seawater with more than its osmotic pressure forces water through the membrane in the reverse direction, leaving the salts behind (II true). A dilute protein solution may lower the freezing point by less than 0.001 °C, yet its osmotic pressure is several torr, which is easy to measure (III true).",
+  "why": [
+   "",
+   "Statement II is true. Pushing on the seawater with more than its osmotic pressure reverses the flow of water.",
+   "Statement I is true. Count the particles, since NaCl gives two ions per formula unit.",
+   "Statement III is true. For dilute solutions of large molecules, osmotic pressure is much easier to measure than a tiny freezing point change."
+  ],
+  "html": {
+   "prompt": "Which statements about osmotic pressure are true? (Assume ideal behavior.)<br>I. At the same temperature, 0.30 M glucose and 0.15 M NaCl have about the same osmotic pressure.<br>II. In reverse osmosis, fresh water is obtained from seawater by applying a pressure greater than the seawater's osmotic pressure.<br>III. Osmotic pressure is often used instead of freezing-point depression to find the molar mass of a protein, because it gives a measurable effect at very low concentrations.",
+   "choices": [
+    "I, II and III",
+    "I and III only",
+    "II and III only",
+    "I and II only"
+   ],
+   "hint": "Use Π = iMRT for each statement, and compare how large Π and ΔT<sub>f</sub> are for a very dilute solution.",
+   "explain": "<b>I, II and III.</b> Π = iMRT: glucose gives 1 × 0.30 = 0.30 M particles and NaCl gives 2 × 0.15 = 0.30 M, so the osmotic pressures match (I true). Pushing on the seawater with more than its osmotic pressure forces water through the membrane in the reverse direction, leaving the salts behind (II true). A dilute protein solution may lower the freezing point by less than 0.001 °C, yet its osmotic pressure is several torr, which is easy to measure (III true).",
+   "why": [
+    "",
+    "Statement II is true. Pushing on the seawater with more than its osmotic pressure reverses the flow of water.",
+    "Statement I is true. Count the particles, since NaCl gives two ions per formula unit.",
+    "Statement III is true. For dilute solutions of large molecules, osmotic pressure is much easier to measure than a tiny freezing point change."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 602
+  }
+ },
+ {
+  "id": "finalexam-d3a4dcce",
+  "skill": "finalexam.1b.colligative",
+  "courses": [
+   "1B"
+  ],
+  "chapters": [],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": true,
+  "prompt": "Benzene and toluene form a nearly ideal solution. At 25 °C the vapor pressure of pure benzene is 95 torr and that of pure toluene is 28 torr. For a liquid mixture with equal moles of the two, which statements are true? I. The total vapor pressure above the mixture is 123 torr. II. The vapor has the same composition as the liquid, 50 mol % benzene. III. The vapor is richer in benzene than the liquid is.",
+  "choices": [
+   "III only",
+   "I and III only",
+   "II only",
+   "I and II only"
+  ],
+  "answer": "III only",
+  "hint": "Each component contributes its mole fraction times its pure vapor pressure. Then compare each partial pressure with the total.",
+  "explain": "III only. By Raoult's law, P_benzene = 0.50 × 95 = 47.5 torr and P_toluene = 0.50 × 28 = 14 torr, so P_total = 61.5 torr, not 123 torr (I false). The mole fraction of benzene in the vapor is 47.5/61.5 = 0.77, so the vapor is not 50% benzene (II false); it is richer in benzene, the more volatile component (III true).",
+  "why": [
+   "",
+   "Statement I is false. Each pure vapor pressure must be multiplied by that component's mole fraction before adding.",
+   "Statement II is false. The more volatile component makes up a larger share of the vapor.",
+   "Statement I is false. Raoult's law scales each pure vapor pressure by its mole fraction, 0.50 here."
+  ],
+  "html": {
+   "prompt": "Benzene and toluene form a nearly ideal solution. At 25 °C the vapor pressure of pure benzene is 95 torr and that of pure toluene is 28 torr. For a liquid mixture with equal moles of the two, which statements are true?<br>I. The total vapor pressure above the mixture is 123 torr.<br>II. The vapor has the same composition as the liquid, 50 mol % benzene.<br>III. The vapor is richer in benzene than the liquid is.",
+   "choices": [
+    "III only",
+    "I and III only",
+    "II only",
+    "I and II only"
+   ],
+   "hint": "Each component contributes its mole fraction times its pure vapor pressure. Then compare each partial pressure with the total.",
+   "explain": "<b>III only.</b> By Raoult's law, P<sub>benzene</sub> = 0.50 × 95 = 47.5 torr and P<sub>toluene</sub> = 0.50 × 28 = 14 torr, so P<sub>total</sub> = 61.5 torr, not 123 torr (I false). The mole fraction of benzene in the vapor is 47.5/61.5 = 0.77, so the vapor is not 50% benzene (II false); it is richer in benzene, the more volatile component (III true).",
+   "why": [
+    "",
+    "Statement I is false. Each pure vapor pressure must be multiplied by that component's mole fraction before adding.",
+    "Statement II is false. The more volatile component makes up a larger share of the vapor.",
+    "Statement I is false. Raoult's law scales each pure vapor pressure by its mole fraction, 0.50 here."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.1B",
+   "index": 603
+  }
  }
 ]

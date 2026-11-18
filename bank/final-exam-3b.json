@@ -65,7 +65,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "What is the approximate H–C–H bond angle in ethane, CH₃CH₃?",
@@ -101,15 +101,6 @@
     "90° angles would crowd four groups together. Four groups spread out in 3-D, not in a flat square."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC",
-     "cap": "ethane",
-     "st": "expanded"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -128,7 +119,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "What is the shape around each carbon atom in ethene, CH₂=CH₂?",
@@ -164,15 +155,6 @@
     "Bent, about 105°, describes an atom like the O in water, with two bonds and two lone pairs. Carbon in ethene has no lone pairs."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "C=C",
-     "cap": "ethene",
-     "st": "expanded"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -191,7 +173,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Which of these molecules is polar?",
@@ -225,22 +207,6 @@
     "CCl<sub>4</sub> has polar C–Cl bonds, but they point to the corners of a tetrahedron and cancel, so the molecule is nonpolar.",
     "Propane has only C–C and C–H bonds, which are essentially nonpolar, so the molecule is nonpolar.",
     "CO<sub>2</sub> has polar C=O bonds, but the molecule is linear, so the two bond dipoles point in opposite directions and cancel."
-   ]
-  },
-  "data": {
-   "cs": [
-    {
-     "smi": "CO"
-    },
-    {
-     "smi": "ClC(Cl)(Cl)Cl"
-    },
-    {
-     "smi": "CCC"
-    },
-    {
-     "smi": "O=C=O"
-    }
    ]
   },
   "from": {
@@ -315,7 +281,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Which functional group is present in CH₃CH₂–O–CH₂CH₃?",
@@ -351,13 +317,6 @@
     "A ketone has a C=O bonded to two carbons. This molecule has no double bond to oxygen."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCOCC"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -376,7 +335,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Which functional group is present in CH₃CH₂COOCH₃?",
@@ -412,13 +371,6 @@
     "An aldehyde has a C=O at the end of a chain bonded to H (–CHO). Here the C=O carbon is bonded to another oxygen."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC(=O)OC"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -437,7 +389,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "The compound CH₃CONH₂ contains which functional group?",
@@ -471,13 +423,6 @@
     "In an amine, N is bonded only to carbons or H with no C=O next to it. Here the –NH<sub>2</sub> is on a C=O carbon.",
     "A ketone has a C=O bonded to two carbons. Here the C=O carbon is bonded to a nitrogen.",
     "That group has –COO–, an oxygen on the C=O carbon. Here the C=O carbon carries an –NH<sub>2</sub> instead."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(=O)N"
-    }
    ]
   },
   "from": {
@@ -606,7 +551,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "What is the molecular formula of CH₃CH₂CH₂OH?",
@@ -640,13 +585,6 @@
     "This misses the H on the –OH. Count every H, including the one on oxygen.",
     "This has two H too few, which would need a C=O or C=C. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH has only single bonds.",
     "Count the carbons again: CH<sub>3</sub>, CH<sub>2</sub> and CH<sub>2</sub> are three carbon groups."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CCCO"
-    }
    ]
   },
   "from": {
@@ -721,7 +659,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "What is the shape around the nitrogen atom in trimethylamine, (CH₃)₃N?",
@@ -757,15 +695,6 @@
     "Bent is for two bonded atoms plus lone pairs, like water. This N has three bonded carbons."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CN(C)C",
-     "cap": "trimethylamine",
-     "st": "expanded"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -784,7 +713,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "What is the IUPAC name of CH₃CH₂CH₂CH(CH(CH₃)₂)CH₂CH₂CH₃?",
@@ -820,13 +749,6 @@
     "A tert-butyl group has four carbons, C(CH<sub>3</sub>)<sub>3</sub>. Count the carbons in this branch: there are only three."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCCC(C(C)C)CCC"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -845,7 +767,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "How many primary (1°) carbons are in 2,2,4-trimethylpentane, (CH₃)₃CCH₂CH(CH₃)₂?",
@@ -881,14 +803,6 @@
     "2 counts only the two ends of the pentane chain. Branch CH<sub>3</sub> groups are also bonded to just one carbon, so they are 1° too."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(C)(C)CC(C)C",
-     "cap": "2,2,4-trimethylpentane"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -907,7 +821,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Which compound is a constitutional isomer of hexane?",
@@ -943,28 +857,6 @@
     "2,2-Dimethylpropane has only 5 carbons in total (C<sub>5</sub>H<sub>12</sub>). An isomer of hexane needs 6 carbons and 14 H."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCCCCC",
-     "cap": "hexane"
-    }
-   ],
-   "cs": [
-    {
-     "smi": "CCC(C)(C)C"
-    },
-    {
-     "smi": "C1CCCCC1"
-    },
-    {
-     "smi": "CCCCC(C)C"
-    },
-    {
-     "smi": "CC(C)(C)C"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -983,7 +875,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "Which alkene can exist as cis and trans isomers?",
@@ -1017,22 +909,6 @@
     "The end carbon of CH<sub>2</sub>=CH– carries two H atoms. When one double-bond carbon has two identical groups, swapping sides gives the same molecule.",
     "The left double-bond carbon carries two CH<sub>3</sub> groups. Two identical groups on one C=C carbon rule out cis and trans forms.",
     "Here one C=C carbon has two CH<sub>3</sub> groups and the other has two H atoms, so neither carbon has two different groups."
-   ]
-  },
-  "data": {
-   "cs": [
-    {
-     "smi": "CCC=CC"
-    },
-    {
-     "smi": "C=CCCC"
-    },
-    {
-     "smi": "CC(C)=CC"
-    },
-    {
-     "smi": "CC(C)=C"
-    }
    ]
   },
   "from": {
@@ -1107,7 +983,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Which alkane has the highest boiling point?",
@@ -1141,22 +1017,6 @@
     "2,2-Dimethylbutane has six carbons, but it is compact and highly branched, so it has less surface contact and weaker dispersion forces than an unbranched isomer.",
     "Pentane is unbranched but has only five carbons. A larger molecule here has more electrons and stronger dispersion forces.",
     "2-Methylbutane is small (five carbons) and branched, which both lower the boiling point."
-   ]
-  },
-  "data": {
-   "cs": [
-    {
-     "smi": "CCCCCC"
-    },
-    {
-     "smi": "CCC(C)(C)C"
-    },
-    {
-     "smi": "CCCCC"
-    },
-    {
-     "smi": "CCC(C)C"
-    }
    ]
   },
   "from": {
@@ -1239,7 +1099,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Methane reacts with chlorine in the presence of light to form a monochlorinated product. What are the products?",
@@ -1275,25 +1135,6 @@
     "Carbon can form only four bonds, so CH<sub>4</sub>Cl<sub>2</sub> cannot exist. Alkanes have no double bond to add to; a Cl swaps places with an H instead."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "C",
-     "cap": "methane",
-     "st": "expanded"
-    },
-    "+",
-    {
-     "smi": "ClCl",
-     "cap": "Cl₂",
-     "st": "expanded"
-    },
-    {
-     "arrow": "light"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -1312,7 +1153,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "What is the product when 2-butene, CH₃CH=CHCH₃, reacts with H₂ over a platinum catalyst?",
@@ -1348,18 +1189,6 @@
     "2-Butyne has a triple bond and fewer H atoms than 2-butene. Hydrogenation adds hydrogen, so the product has more H, not fewer."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC=CC",
-     "cap": "2-butene"
-    },
-    {
-     "arrow": "H₂, Pt"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -1378,7 +1207,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Propene, CH₃CH=CH₂, reacts with water in the presence of an acid catalyst. What is the major product?",
@@ -1414,18 +1243,6 @@
     "CH<sub>3</sub>CH<sub>2</sub>CHO is an aldehyde with a C=O. Hydration adds H and OH across the C=C, giving an alcohol, not a carbonyl compound."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC=C",
-     "cap": "propene"
-    },
-    {
-     "arrow": "H₂O, H⁺"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -1444,7 +1261,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "What is the major product when 2-methylpropene, (CH₃)₂C=CH₂, reacts with HBr?",
@@ -1478,18 +1295,6 @@
     "Br on the CH<sub>2</sub> end is the anti-Markovnikov product. The H goes to the double-bond carbon that already has more H atoms.",
     "Two Br atoms would come from Br<sub>2</sub>. HBr adds one H and one Br.",
     "2-Bromobutane has an unbranched four-carbon chain. Addition to the C=C never changes the branched carbon skeleton of 2-methylpropene."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(C)=C",
-     "cap": "2-methylpropene"
-    },
-    {
-     "arrow": "HBr"
-    },
-    "?"
    ]
   },
   "from": {
@@ -1564,7 +1369,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Poly(vinyl chloride), PVC, is used in IV bags and medical tubing. Which monomer is used to make it?",
@@ -1600,22 +1405,6 @@
     "CF<sub>2</sub>=CF<sub>2</sub> makes Teflon, a fluorine polymer. The monomer for PVC carries chlorine, not fluorine."
    ]
   },
-  "data": {
-   "cs": [
-    {
-     "smi": "C=CCl"
-    },
-    {
-     "smi": "C=C"
-    },
-    {
-     "smi": "C=CC"
-    },
-    {
-     "smi": "FC(F)=C(F)F"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -1634,7 +1423,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": true,
   "prompt": "How many moles of H₂ are needed to completely hydrogenate 1 mole of HC≡C–CH=CH₂?",
@@ -1670,19 +1459,6 @@
     "4 is too many. A triple bond takes two H<sub>2</sub> and a double bond takes one; there is nothing else to add to."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "C#CC=C"
-    },
-    "+",
-    "? H₂",
-    {
-     "arrow": "Pt"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -1701,7 +1477,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "Which compound has the molecular formula C₆H₁₀?",
@@ -1737,22 +1513,6 @@
     "Hexane is the saturated open-chain alkane, C<sub>6</sub>H<sub>14</sub>. It has no ring or double bond to remove H atoms."
    ]
   },
-  "data": {
-   "cs": [
-    {
-     "smi": "C1=CCCCC1"
-    },
-    {
-     "smi": "C1CCCCC1"
-    },
-    {
-     "smi": "C=CCCCC"
-    },
-    {
-     "smi": "CCCCCC"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -1771,7 +1531,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "What is the IUPAC name of CH₃CH₂CH=CHCH₃?",
@@ -1807,13 +1567,6 @@
     "1-Pentene has the C=C at the end of the chain. Here the double bond is between two inner carbons."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC=CC"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -1832,7 +1585,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Which statement about benzene, C₆H₆, is true?",
@@ -1868,14 +1621,6 @@
     "Two H on every carbon would be C<sub>6</sub>H<sub>12</sub> (cyclohexane). Benzene is C<sub>6</sub>H<sub>6</sub>: six H for six carbons."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "C1=CC=CC=C1",
-     "cap": "benzene"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -1894,7 +1639,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "A benzene ring has a –CH₃ group and a –Cl atom on adjacent carbons. Which name is correct?",
@@ -1928,13 +1673,6 @@
     "3- means one ring carbon sits between the –CH<sub>3</sub> and the –Cl (meta). Here the two groups are on neighboring carbons.",
     "4- puts the –Cl directly across the ring from the –CH<sub>3</sub> (para). Here the two groups are on neighboring carbons.",
     "Phenol is the parent name for a ring with an –OH group. This ring has a –CH<sub>3</sub> group instead, which sets a different parent name."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CC1=CC=CC=C1Cl"
-    }
    ]
   },
   "from": {
@@ -2009,7 +1747,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "What is the IUPAC name of CH₃CH₂CH(C₆H₅)CH₂CH₃?",
@@ -2043,13 +1781,6 @@
     "Benzyl is C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>–, a ring plus an extra CH<sub>2</sub>. Here the ring is bonded directly to a chain carbon, with no CH<sub>2</sub> in between.",
     "Count from either end: CH<sub>3</sub>, then CH<sub>2</sub>, then the CH that holds the ring. That carbon is not C2.",
     "Count the chain again: CH<sub>3</sub>CH<sub>2</sub>–CH–CH<sub>2</sub>CH<sub>3</sub> has five carbons, not six. The C<sub>6</sub>H<sub>5</sub> carbons belong to the ring substituent, not the main chain."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC(CC)C1=CC=CC=C1"
-    }
    ]
   },
   "from": {
@@ -2124,7 +1855,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Benzene reacts with Cl₂ in the presence of FeCl₃. What are the products?",
@@ -2160,24 +1891,6 @@
     "Only one Cl from each Cl<sub>2</sub> ends up on the ring; the other Cl leaves with the H that was displaced. H<sub>2</sub> is not a product."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "C1=CC=CC=C1",
-     "cap": "benzene"
-    },
-    "+",
-    {
-     "smi": "ClCl",
-     "cap": "Cl₂",
-     "st": "expanded"
-    },
-    {
-     "arrow": "FeCl₃"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -2196,7 +1909,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "What is the common name of C₆H₅NH₂, a benzene ring with an amino group?",
@@ -2232,13 +1945,6 @@
     "Benzamide is C<sub>6</sub>H<sub>5</sub>CONH<sub>2</sub>: its N is attached to a C=O, which makes an amide. Here the –NH<sub>2</sub> is bonded straight to the ring."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "NC1=CC=CC=C1"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -2257,7 +1963,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "What is the IUPAC name of (CH₃)₃COH?",
@@ -2293,13 +1999,6 @@
     "1-Butanol is a straight four-carbon chain with –OH on the end. This molecule is branched, with the –OH on a central carbon."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(C)(C)O"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -2318,7 +2017,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "Which is a secondary (2°) alcohol?",
@@ -2354,22 +2053,6 @@
     "This one is branched, but the branch is not on the C–OH carbon. The –CH<sub>2</sub>OH carbon has just one carbon neighbor, so it is primary."
    ]
   },
-  "data": {
-   "cs": [
-    {
-     "smi": "CCC(C)O"
-    },
-    {
-     "smi": "CC(C)(C)O"
-    },
-    {
-     "smi": "CCCCO"
-    },
-    {
-     "smi": "CC(C)CO"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -2388,7 +2071,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "What is the common name of CH₃–O–CH₂CH₂CH₃?",
@@ -2424,13 +2107,6 @@
     "Isopropyl is attached through its middle carbon, –CH(CH<sub>3</sub>)<sub>2</sub>. Here the three-carbon group is a straight chain attached at its end."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "COCCC"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -2449,7 +2125,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "What is the name of CH₃CH₂SH?",
@@ -2483,13 +2159,6 @@
     "Ethanol has an –OH group. This compound has –SH, with sulfur in place of oxygen.",
     "The meth- prefix means one carbon (CH<sub>3</sub>SH). Count the carbons in CH<sub>3</sub>CH<sub>2</sub>SH again.",
     "A sulfide has S between two carbon groups, with no H on S. Here the S carries an H."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CCS"
-    }
    ]
   },
   "from": {
@@ -2618,7 +2287,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Which compound has the highest boiling point?",
@@ -2654,22 +2323,6 @@
     "Propane is a small nonpolar hydrocarbon with only weak dispersion forces. It boils far below room temperature."
    ]
   },
-  "data": {
-   "cs": [
-    {
-     "smi": "CCCO"
-    },
-    {
-     "smi": "CCOC"
-    },
-    {
-     "smi": "CCCC"
-    },
-    {
-     "smi": "CCC"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -2688,7 +2341,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Which alcohol is the least soluble in water?",
@@ -2724,22 +2377,6 @@
     "1-Propanol's three-carbon chain is still short enough for it to mix completely with water. A longer chain dissolves less."
    ]
   },
-  "data": {
-   "cs": [
-    {
-     "smi": "CCCCCCO"
-    },
-    {
-     "smi": "CO"
-    },
-    {
-     "smi": "CCO"
-    },
-    {
-     "smi": "CCCO"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -2758,7 +2395,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "2-Butanol, CH₃CH(OH)CH₂CH₃, is heated with an acid catalyst. What is the major product?",
@@ -2794,24 +2431,6 @@
     "Butane has no C=C and no O, so it would require adding H<sub>2</sub>. Losing water from an alcohol forms a C=C."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC(C)O",
-     "cap": "2-butanol"
-    },
-    {
-     "arrow": "H₂SO₄, heat"
-    },
-    "?",
-    "+",
-    {
-     "smi": "O",
-     "cap": "water",
-     "st": "expanded"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -2830,7 +2449,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Rubbing alcohol, 2-propanol, is oxidized with K₂Cr₂O₇. What is the product?",
@@ -2866,18 +2485,6 @@
     "Propene is made by dehydration (loss of water), not by oxidation with K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(C)O",
-     "cap": "2-propanol"
-    },
-    {
-     "arrow": "K₂Cr₂O₇"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -2896,7 +2503,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Which alcohol is NOT oxidized by an oxidizing agent such as K₂Cr₂O₇?",
@@ -2932,22 +2539,6 @@
     "1-Butanol is primary, with two H atoms on the C–OH carbon, so it is readily oxidized."
    ]
   },
-  "data": {
-   "cs": [
-    {
-     "smi": "CC(C)(C)O"
-    },
-    {
-     "smi": "CC(C)CO"
-    },
-    {
-     "smi": "CC(C)O"
-    },
-    {
-     "smi": "CCCCO"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -2966,7 +2557,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "In the liver, ethanol from alcoholic drinks is first oxidized to",
@@ -3002,18 +2593,6 @@
     "Dimethyl ether is an isomer of ethanol, not an oxidation product. Oxidation forms a C=O."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCO",
-     "cap": "ethanol"
-    },
-    {
-     "arrow": "[O], liver enzyme"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -3032,7 +2611,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "When two thiol (–SH) groups are oxidized, as happens when permanent-wave solution reshapes hair keratin, the product contains a(n)",
@@ -3068,23 +2647,6 @@
     "A sulfonic acid needs oxygen atoms added to one sulfur. Oxidizing two –SH groups together just links them."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCS",
-     "cap": "thiol"
-    },
-    "+",
-    {
-     "smi": "CCS",
-     "cap": "thiol"
-    },
-    {
-     "arrow": "[O]"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -3103,7 +2665,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "What is the IUPAC name of CH₃CH₂CH₂CHO?",
@@ -3139,13 +2701,6 @@
     "Propanal has three carbons. The –CHO carbon counts as part of the chain, so count it too."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCCC=O"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -3164,7 +2719,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Methyl ethyl ketone, CH₃COCH₂CH₃, is a solvent. What is its IUPAC name?",
@@ -3200,13 +2755,6 @@
     "Propanone has only three carbons. Count the carbons on both sides of the C=O."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC(C)=O"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -3225,7 +2773,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "What is the IUPAC name of CH₃CH₂COCH₂CH₂CH₃?",
@@ -3261,13 +2809,6 @@
     "3-Pentanone has five carbons. Count every carbon on both sides of the C=O."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC(=O)CCC"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -3286,7 +2827,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "Acetone, CH₃COCH₃, mixes completely with water. The best explanation is that",
@@ -3322,14 +2863,6 @@
     "Water is very polar, and acetone's C=O is polar too. Nonpolar molecules would not mix with water."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(C)=O",
-     "cap": "acetone"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -3348,7 +2881,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Which compound is oxidized to propanoic acid, CH₃CH₂COOH, by a mild oxidizing agent?",
@@ -3384,18 +2917,6 @@
     "Propane is an alkane with no oxygen. A mild oxidizing agent does not convert it to an acid."
    ]
   },
-  "data": {
-   "s": [
-    "?",
-    {
-     "arrow": "[O], mild"
-    },
-    {
-     "smi": "CCC(=O)O",
-     "cap": "propanoic acid"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -3414,7 +2935,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Which compound gives a silver mirror with Tollens' reagent?",
@@ -3448,22 +2969,6 @@
     "CH<sub>3</sub>COCH<sub>3</sub> is a ketone (acetone). Ketones are not oxidized by Tollens' reagent, so no silver forms.",
     "CH<sub>3</sub>CH(OH)CH<sub>3</sub> is an alcohol. Tollens' reagent detects a more easily oxidized functional group.",
     "CH<sub>3</sub>OCH<sub>3</sub> is an ether, which is not oxidized by Tollens' reagent."
-   ]
-  },
-  "data": {
-   "cs": [
-    {
-     "smi": "CCC=O"
-    },
-    {
-     "smi": "CC(C)=O"
-    },
-    {
-     "smi": "CC(C)O"
-    },
-    {
-     "smi": "COC"
-    }
    ]
   },
   "from": {
@@ -3538,7 +3043,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "What is formed when butanone, CH₃COCH₂CH₃, is reduced with [H] (a reducing agent)?",
@@ -3572,18 +3077,6 @@
     "1-Butanol has the OH on the end carbon, but in butanone the C=O is on carbon 2. Reduction puts the OH on the former C=O carbon.",
     "Butanal is an aldehyde isomer, not a reduction product. Reduction ([H]) converts the C=O into C–OH.",
     "Butanoic acid would be an oxidation product, and a ketone cannot form it. [H] is a reducing agent."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC(C)=O",
-     "cap": "butanone"
-    },
-    {
-     "arrow": "[H]"
-    },
-    "?"
    ]
   },
   "from": {
@@ -3658,7 +3151,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "Ethanal, CH₃CHO, reacts with two molecules of methanol in the presence of acid. What is the organic product?",
@@ -3692,25 +3185,6 @@
     "CH<sub>3</sub>CH(OH)OCH<sub>3</sub> is what forms after only one methanol adds. The question uses two molecules of methanol.",
     "An ester has a C=O, and it forms from a carboxylic acid, not an aldehyde. Here the C=O is used up as alcohols add.",
     "CH3CH2OCH3 has only one oxygen, but two methanol molecules were used. Each methanol adds its own –OCH3 group to the former carbonyl carbon."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CC=O",
-     "cap": "ethanal"
-    },
-    "+",
-    "2",
-    {
-     "smi": "CO",
-     "cap": "methanol",
-     "st": "expanded"
-    },
-    {
-     "arrow": "H⁺"
-    },
-    "?"
    ]
   },
   "from": {
@@ -3785,7 +3259,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Which compound contains a chiral carbon?",
@@ -3821,22 +3295,6 @@
     "The C–OH carbon here holds three identical CH<sub>3</sub> groups and no H, so it cannot have four different groups."
    ]
   },
-  "data": {
-   "cs": [
-    {
-     "smi": "CCC(C)O"
-    },
-    {
-     "smi": "CC(C)O"
-    },
-    {
-     "smi": "CCC(O)CC"
-    },
-    {
-     "smi": "CC(C)(C)O"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -3855,7 +3313,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "How many chiral carbons are in the open-chain form of glucose, CH₂OH(CHOH)₄CHO?",
@@ -3889,15 +3347,6 @@
     "That count includes an end carbon. C6 is a CH<sub>2</sub>OH with two identical H atoms, and the CHO carbon has a C=O double bond.",
     "That counts every carbon. The CHO carbon has a double bond (only three groups), and the CH<sub>2</sub>OH carbon has two identical H atoms.",
     "Too few. Go through the chain carbon by carbon: each CH(OH) carbon in the middle has H, OH and two different chain pieces."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "OCC(O)C(O)C(O)C(O)C=O",
-     "cap": "glucose (open chain)",
-     "st": "condensed"
-    }
    ]
   },
   "from": {
@@ -4080,7 +3529,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "In the Fischer projection of D-glyceraldehyde, CHO–CH(OH)–CH₂OH, with CHO at the top, the –OH on the chiral carbon is",
@@ -4114,15 +3563,6 @@
     "An –OH on the left of the chiral carbon is the L form of glyceraldehyde, the mirror image of the D form.",
     "The top position holds the CHO group. The –OH on the chiral carbon sits on a horizontal bond, to one side.",
     "The bottom position holds the CH<sub>2</sub>OH group. The –OH on the chiral carbon sits on a horizontal bond, to one side."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "O=CC(O)CO",
-     "cap": "glyceraldehyde",
-     "st": "condensed"
-    }
    ]
   },
   "from": {
@@ -4251,7 +3691,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "What is the IUPAC name of CH₃CH₂CH₂COOH, the compound responsible for the smell of rancid butter?",
@@ -4287,13 +3727,6 @@
     "The ending -al names an aldehyde (–CHO). This compound has a –COOH group, which takes a different ending."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCCC(=O)O"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -4312,7 +3745,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Ethyl acetate, CH₃COOCH₂CH₃, is a solvent in nail-polish remover. What is its IUPAC name?",
@@ -4348,13 +3781,6 @@
     "The alkyl group on the single-bonded O is –CH<sub>2</sub>CH<sub>3</sub>, which has two carbons, not three."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(=O)OCC"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -4373,7 +3799,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Propanoic acid reacts with methanol in the presence of an acid catalyst. What is the organic product?",
@@ -4409,30 +3835,6 @@
     "C(=O)NH is an amide, which needs an amine as a reactant. Methanol supplies an –O–, not an –NH–."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC(=O)O",
-     "cap": "propanoic acid"
-    },
-    "+",
-    {
-     "smi": "CO",
-     "cap": "methanol",
-     "st": "expanded"
-    },
-    {
-     "arrow": "H⁺, heat"
-    },
-    "?",
-    "+",
-    {
-     "smi": "O",
-     "cap": "water",
-     "st": "expanded"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -4451,7 +3853,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Which species are present in an aqueous solution of acetic acid (vinegar), besides water and CH₃COOH molecules?",
@@ -4487,14 +3889,6 @@
     "Acetic acid does not lose OH<sup>−</sup> in water; it is an acid, not a base. Think about which H atom it gives away."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(=O)O",
-     "cap": "acetic acid"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -4513,7 +3907,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "What are the products of the neutralization of acetic acid with sodium hydroxide?",
@@ -4547,20 +3941,6 @@
     "Neutralization does not turn an acid into an alcohol, and no sodium oxide forms. Acid + base gives a salt and water.",
     "Methanoate means a one-carbon acid (formic acid). Acetic acid has two carbons, and neutralization does not change the carbon count.",
     "Neutralization does not make an anhydride or NaH. The OH<sup>−</sup> of the base picks up the acid's H<sup>+</sup>."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(=O)O",
-     "cap": "acetic acid"
-    },
-    "+",
-    "NaOH",
-    {
-     "arrow": ""
-    },
-    "?"
    ]
   },
   "from": {
@@ -4635,7 +4015,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "Propyl ethanoate (the odor of pears) is hydrolyzed in acid. What are the products?",
@@ -4671,24 +4051,6 @@
     "Propane is an alkane with no –OH. The propyl group on the ester oxygen leaves with that O as an alcohol."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(=O)OCCC",
-     "cap": "propyl ethanoate"
-    },
-    "+",
-    {
-     "smi": "O",
-     "cap": "water",
-     "st": "expanded"
-    },
-    {
-     "arrow": "H⁺, heat"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -4707,7 +4069,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "Methyl butanoate is heated with aqueous NaOH (saponification). What are the products?",
@@ -4743,20 +4105,6 @@
     "Butanoic acid and sodium methoxide cannot exist together in water: the base would grab the acid's H<sup>+</sup>. Which product actually carries the Na<sup>+</sup>?"
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCCC(=O)OC",
-     "cap": "methyl butanoate"
-    },
-    "+",
-    "NaOH",
-    {
-     "arrow": "heat"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -4775,7 +4123,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "These compounds all have molar mass 74 g mol⁻¹. Which has the highest boiling point?",
@@ -4809,22 +4157,6 @@
     "1-Butanol hydrogen bonds and boils high (118 °C), but one compound here can form two hydrogen bonds per pair of molecules.",
     "An ester has no O–H, so its molecules cannot hydrogen bond to each other. It boils much lower than compounds with O–H groups.",
     "An ether has no O–H, so it cannot hydrogen bond with itself and has a low boiling point (about 35 °C)."
-   ]
-  },
-  "data": {
-   "cs": [
-    {
-     "smi": "CCC(=O)O"
-    },
-    {
-     "smi": "CCCCO"
-    },
-    {
-     "smi": "CC(=O)OC"
-    },
-    {
-     "smi": "CCOCC"
-    }
    ]
   },
   "from": {
@@ -4899,7 +4231,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "Lactic acid, CH₃CH(OH)COOH, is a carboxylic acid (a weak acid). In blood at pH 7.4, lactic acid exists mainly as",
@@ -4935,14 +4267,6 @@
     "Esters form when an acid reacts with an alcohol, not simply by dissolving in blood. Think about acid–base behavior at pH 7.4."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(O)C(=O)O",
-     "cap": "lactic acid"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -4961,7 +4285,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Dimethylamine, (CH₃)₂NH, is classified as a",
@@ -4997,15 +4321,6 @@
     "An amide needs a C=O carbon bonded to the nitrogen. (CH<sub>3</sub>)<sub>2</sub>NH has no carbonyl group at all."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CNC",
-     "cap": "dimethylamine",
-     "st": "expanded"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -5024,7 +4339,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "sec-Butylamine, CH₃CH₂CH(NH₂)CH₃, is classified as a",
@@ -5060,13 +4375,6 @@
     "A quaternary ammonium ion has four carbons on a positively charged N. This compound is neutral and its N still holds H atoms."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC(C)N"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -5085,7 +4393,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "What is the common name of CH₃CH₂CH₂NH₂?",
@@ -5121,13 +4429,6 @@
     "\"Di\" would mean two propyl groups on the nitrogen. This N carries only one carbon group and two H."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCCN"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -5146,7 +4447,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Which condensed formula is tert-butylamine?",
@@ -5182,22 +4483,6 @@
     "This is isobutylamine: the N is on a CH<sub>2</sub> next to the branch. In tert-butyl, the N carbon itself carries the branches."
    ]
   },
-  "data": {
-   "cs": [
-    {
-     "smi": "CC(C)(C)N"
-    },
-    {
-     "smi": "CCC(C)N"
-    },
-    {
-     "smi": "CCCCN"
-    },
-    {
-     "smi": "CC(C)CN"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -5216,7 +4501,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Methylamine is a weak base. Which ions form when it dissolves in water?",
@@ -5250,25 +4535,6 @@
     "An amine acts as a base, so its nitrogen gains an H<sup>+</sup>; it does not lose one. Producing H<sub>3</sub>O<sup>+</sup> would make it an acid.",
     "Dissolving in water does not break the C–N bond. The amine stays intact and only its nitrogen lone pair reacts.",
     "If the amine takes H<sup>+</sup> from water, what is left of the water molecule? It cannot also form H<sub>3</sub>O<sup>+</sup>."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CN",
-     "cap": "methylamine",
-     "st": "expanded"
-    },
-    "+",
-    {
-     "smi": "O",
-     "cap": "water",
-     "st": "expanded"
-    },
-    {
-     "arrow": ""
-    },
-    "?"
    ]
   },
   "from": {
@@ -5343,7 +4609,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Which isomer of C₃H₉N has the lowest boiling point?",
@@ -5379,22 +4645,6 @@
     "Isopropylamine is a 1° amine with two N–H bonds, so it can hydrogen bond to itself. Look for the isomer with no N–H."
    ]
   },
-  "data": {
-   "cs": [
-    {
-     "smi": "CN(C)C"
-    },
-    {
-     "smi": "CCCN"
-    },
-    {
-     "smi": "CCNC"
-    },
-    {
-     "smi": "CC(C)N"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -5413,7 +4663,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "Propanoic acid is heated with methylamine. What is the organic product of this amidation?",
@@ -5449,30 +4699,6 @@
     "An amine has no C=O, but the acid's carbonyl stays in the product. Amidation keeps the C=O and forms a new C–N bond."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC(=O)O",
-     "cap": "propanoic acid"
-    },
-    "+",
-    {
-     "smi": "CN",
-     "cap": "methylamine",
-     "st": "expanded"
-    },
-    {
-     "arrow": "heat"
-    },
-    "?",
-    "+",
-    {
-     "smi": "O",
-     "cap": "water",
-     "st": "expanded"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -5491,7 +4717,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "N-Ethylethanamide, CH₃CONHCH₂CH₃, is heated with aqueous NaOH. What are the products?",
@@ -5525,20 +4751,6 @@
     "These are acid hydrolysis products. In NaOH the acid cannot stay neutral and the amine cannot stay protonated.",
     "Hydrolysis breaks the C–N bond of the amide, not a bond elsewhere. No alcohol forms, and the C=O carbon cannot keep its N.",
     "Ammonia comes only from an amide with an unsubstituted –NH<sub>2</sub>. Here the N carries an ethyl group, which stays attached when it is released."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(=O)NCC",
-     "cap": "N-ethylethanamide"
-    },
-    "+",
-    "NaOH",
-    {
-     "arrow": "heat"
-    },
-    "?"
    ]
   },
   "from": {
@@ -12573,7 +11785,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "What is the relationship between CH₃CH₂CH₂CH₃ and CH₃CH(CH₃)CH₃?",
@@ -12609,19 +11821,6 @@
     "Count the atoms: both are C<sub>4</sub>H<sub>10</sub>. Compounds with the same formula are isomers of some kind."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCCC",
-     "cap": "butane"
-    },
-    "vs",
-    {
-     "smi": "CC(C)C",
-     "cap": "2-methylpropane"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -12641,7 +11840,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "What is the relationship between CH₃CH₂CH(CH₃)CH₃ and CH₃CH(CH₃)CH₂CH₃?",
@@ -12675,17 +11874,6 @@
     "Name both: each is a 4-carbon chain with a methyl on carbon 2. Writing a chain from the other end does not change the connections.",
     "Cis–trans isomers need a C=C or a ring. These are alkanes, so that type of isomer is not possible.",
     "Count the atoms: both are C<sub>5</sub>H<sub>12</sub>. Ask whether the connections are actually different."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC(C)C"
-    },
-    "vs",
-    {
-     "smi": "CC(C)CC"
-    }
    ]
   },
   "from": {
@@ -12762,7 +11950,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "What is the relationship between CH₃CH=CHCH₃ and CH₃CH₂CH₂CH₃?",
@@ -12798,19 +11986,6 @@
     "Cis–trans isomers need the same formula and the same connections. Count the hydrogens in each."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC=CC",
-     "cap": "2-butene"
-    },
-    "vs",
-    {
-     "smi": "CCCC",
-     "cap": "butane"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -12830,7 +12005,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Which compound can exist as cis and trans isomers?",
@@ -12866,22 +12041,6 @@
     "Each carbon of the C=C carries two identical Cl atoms, so there is no same-side versus opposite-side difference."
    ]
   },
-  "data": {
-   "cs": [
-    {
-     "smi": "ClC=CCl"
-    },
-    {
-     "smi": "C=C(Cl)Cl"
-    },
-    {
-     "smi": "C=CCl"
-    },
-    {
-     "smi": "ClC(Cl)=C(Cl)Cl"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -12901,7 +12060,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Ethanol, CH₃CH₂OH, is a functional-group isomer of which compound?",
@@ -12937,28 +12096,6 @@
     "CH<sub>3</sub>OH has only one carbon. Isomers must have the same number of each atom."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCO",
-     "cap": "ethanol"
-    }
-   ],
-   "cs": [
-    {
-     "smi": "COC"
-    },
-    {
-     "smi": "CCOC"
-    },
-    {
-     "smi": "CC=O"
-    },
-    {
-     "smi": "CO"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -12978,7 +12115,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Which compound is a constitutional isomer of propanal, CH₃CH₂CHO?",
@@ -13014,28 +12151,6 @@
     "CH<sub>3</sub>CHO has only two carbons. Isomers need exactly the same formula, C<sub>3</sub>H<sub>6</sub>O."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC=O",
-     "cap": "propanal"
-    }
-   ],
-   "cs": [
-    {
-     "smi": "CC(C)=O"
-    },
-    {
-     "smi": "CCCO"
-    },
-    {
-     "smi": "CCC(=O)O"
-    },
-    {
-     "smi": "CC=O"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -13055,7 +12170,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Propanoic acid, CH₃CH₂COOH, has the same molecular formula as which ester?",
@@ -13091,28 +12206,6 @@
     "Methyl formate has only 2 carbons (C<sub>2</sub>H<sub>4</sub>O<sub>2</sub>). Propanoic acid has 3."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC(=O)O",
-     "cap": "propanoic acid"
-    }
-   ],
-   "cs": [
-    {
-     "smi": "CC(=O)OC"
-    },
-    {
-     "smi": "CCC(=O)OC"
-    },
-    {
-     "smi": "CC(=O)OCCC"
-    },
-    {
-     "smi": "O=COC"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -13131,7 +12224,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Which compound can form hydrogen bonds between its own molecules?",
@@ -13167,22 +12260,6 @@
     "Fluoroethane has an F, but the F is bonded to carbon, not to H. Every H here is on carbon, so there is nothing to donate."
    ]
   },
-  "data": {
-   "cs": [
-    {
-     "smi": "CCN"
-    },
-    {
-     "smi": "COC"
-    },
-    {
-     "smi": "CN(C)C"
-    },
-    {
-     "smi": "CCF"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -13201,7 +12278,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Which compound cannot hydrogen bond with other molecules of itself but can accept hydrogen bonds from water, making it partly water-soluble?",
@@ -13237,22 +12314,6 @@
     "Propanoic acid has an O–H in its COOH group, so its molecules hydrogen bond strongly with each other."
    ]
   },
-  "data": {
-   "cs": [
-    {
-     "smi": "CCOCC"
-    },
-    {
-     "smi": "CCCCO"
-    },
-    {
-     "smi": "CCCCC"
-    },
-    {
-     "smi": "CCC(=O)O"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -13271,7 +12332,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Which compound has the lowest boiling point?",
@@ -13305,22 +12366,6 @@
     "2-Methylbutane is a C<sub>5</sub>H<sub>12</sub> isomer with only one branch. An isomer with more branching is more compact and boils lower.",
     "Pentane is unbranched, so it has the most surface contact of the C<sub>5</sub>H<sub>12</sub> isomers and boils highest among them.",
     "Hexane has six carbons, more than the others, so its dispersion forces are strongest. It boils highest, not lowest."
-   ]
-  },
-  "data": {
-   "cs": [
-    {
-     "smi": "CC(C)(C)C"
-    },
-    {
-     "smi": "CCC(C)C"
-    },
-    {
-     "smi": "CCCCC"
-    },
-    {
-     "smi": "CCCCCC"
-    }
    ]
   },
   "from": {
@@ -13449,7 +12494,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Which compound is the most soluble in water?",
@@ -13485,22 +12530,6 @@
     "Pentane is a nonpolar hydrocarbon with no O or N, so it cannot hydrogen bond with water. It is insoluble."
    ]
   },
-  "data": {
-   "cs": [
-    {
-     "smi": "OCCO"
-    },
-    {
-     "smi": "CCCCO"
-    },
-    {
-     "smi": "CCOCC"
-    },
-    {
-     "smi": "CCCCC"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -13519,7 +12548,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "What is the shape around the oxygen atom in dimethyl ether, CH₃–O–CH₃, and the approximate C–O–C bond angle?",
@@ -13555,15 +12584,6 @@
     "Trigonal planar needs three bonding groups and no lone pairs. Oxygen here has two bonds and two lone pairs."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "COC",
-     "cap": "dimethyl ether",
-     "st": "expanded"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -13582,7 +12602,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "What is the shape and approximate bond angle around the carbonyl (C=O) carbon of acetone, CH₃COCH₃?",
@@ -13618,15 +12638,6 @@
     "Trigonal pyramidal requires a lone pair, as on the N of ammonia. The carbonyl carbon has no lone pair."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(C)=O",
-     "cap": "acetone",
-     "st": "expanded"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -13645,7 +12656,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Which molecule is nonpolar even though it contains polar bonds?",
@@ -13679,22 +12690,6 @@
     "CH<sub>2</sub>Cl<sub>2</sub> has two H and two Cl on carbon. The C–Cl and C–H dipoles differ, so they do not cancel and the molecule is polar.",
     "CHCl<sub>3</sub> has one H among three Cl atoms. With different atoms on carbon, the dipoles do not cancel.",
     "CH<sub>3</sub>Cl has one polar C–Cl bond that nothing balances, so the molecule is polar."
-   ]
-  },
-  "data": {
-   "cs": [
-    {
-     "smi": "ClC(Cl)(Cl)Cl"
-    },
-    {
-     "smi": "ClCCl"
-    },
-    {
-     "smi": "ClC(Cl)Cl"
-    },
-    {
-     "smi": "CCl"
-    }
    ]
   },
   "from": {
@@ -13939,7 +12934,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": true,
   "prompt": "Lactic acid, which builds up in muscles during hard exercise, is CH₃CH(OH)COOH. What is its molar mass?",
@@ -13973,14 +12968,6 @@
     "89.07 is one H short. Count every H in the formula, including the ones bonded to O.",
     "88.06 is two H short, as if the H atoms on the O atoms were skipped. Count every H in CH<sub>3</sub>CH(OH)COOH.",
     "74.08 counts only two O atoms. The –OH and the –COOH together contain three O."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(O)C(=O)O",
-     "cap": "lactic acid"
-    }
    ]
   },
   "from": {
@@ -14063,7 +13050,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Propene, CH₃CH=CH₂, reacts with HBr to give 2-bromopropane, CH₃CHBrCH₃. Why is this classified as an addition reaction?",
@@ -14099,18 +13086,6 @@
     "That describes combustion. This reaction uses HBr, not O<sub>2</sub>."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCBr",
-     "cap": "bromoethane"
-    },
-    {
-     "arrow": "KOH, heat"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -14129,7 +13104,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Which reactant gives propene, CH₃CH=CH₂, when it is heated with concentrated H₂SO₄ (dehydration)?",
@@ -14163,18 +13138,6 @@
     "This compound has no –OH group, so it cannot lose H<sub>2</sub>O.",
     "Propane has no –OH group to lose as water. Alkanes do not undergo dehydration.",
     "Propanal is an aldehyde. Its oxygen is in a C=O, not an –OH, so it does not lose water to form an alkene."
-   ]
-  },
-  "data": {
-   "s": [
-    "?",
-    {
-     "arrow": "Zn"
-    },
-    {
-     "smi": "CC=C",
-     "cap": "propene"
-    }
    ]
   },
   "from": {
@@ -14311,7 +13274,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "What is the common name of CH₃CH₂CHClCH₃?",
@@ -14347,13 +13310,6 @@
     "Butyl chloride has Cl on the end carbon of the chain. Here the Cl is on an inner carbon."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC(C)Cl"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -14372,7 +13328,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Propene, CH₃CH=CH₂, reacts with Br₂, decolorizing the red-brown bromine. What is the product?",
@@ -14408,24 +13364,6 @@
     "Both Br atoms are on the same carbon here. In halogenation each carbon of the C=C gets one Br."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC=C",
-     "cap": "propene"
-    },
-    "+",
-    {
-     "smi": "BrBr",
-     "cap": "Br₂",
-     "st": "expanded"
-    },
-    {
-     "arrow": ""
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -14444,7 +13382,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Which compound is a hemiketal?",
@@ -14478,22 +13416,6 @@
     "CH<sub>3</sub>CH(OH)OCH<sub>3</sub> has an H on the carbon bearing both oxygens, so it came from an aldehyde: that is a hemiacetal.",
     "(CH<sub>3</sub>)<sub>2</sub>C(OCH<sub>3</sub>)<sub>2</sub> has two –OCH<sub>3</sub> and no –OH, so it is a full ketal, not a hemi- compound.",
     "CH<sub>3</sub>CH(OCH<sub>3</sub>)<sub>2</sub> has two –OR groups and an H on that carbon: a full acetal from an aldehyde."
-   ]
-  },
-  "data": {
-   "cs": [
-    {
-     "smi": "CC(C)(O)OC"
-    },
-    {
-     "smi": "CC(O)OC"
-    },
-    {
-     "smi": "CC(C)(OC)OC"
-    },
-    {
-     "smi": "CC(OC)OC"
-    }
    ]
   },
   "from": {
@@ -14568,7 +13490,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Which compound is reduced to 2-pentanol, CH₃CH(OH)CH₂CH₂CH₃?",
@@ -14604,18 +13526,6 @@
     "A carboxylic acid has its C=O at the end of the chain, so reducing it gives a primary alcohol. The target has OH on carbon 2."
    ]
   },
-  "data": {
-   "s": [
-    "?",
-    {
-     "arrow": "[H]"
-    },
-    {
-     "smi": "CC(O)CCC",
-     "cap": "2-pentanol"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -14634,7 +13544,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Which compound is oxidized to propanoic acid, CH₃CH₂COOH, by a mild oxidizing agent and reduced to 1-propanol, CH₃CH₂CH₂OH, by [H] (a reducing agent)?",
@@ -14668,18 +13578,6 @@
     "Propanone is a ketone. It is not oxidized by mild oxidizing agents, and its reduction gives 2-propanol, not 1-propanol.",
     "2-Propanol is a 2° alcohol. Oxidizing it gives propanone, a ketone, not propanoic acid.",
     "Propane is an alkane with no oxygen. It is neither oxidized to an acid by a mild oxidizing agent nor reduced by [H]."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC(=O)O",
-     "cap": "propanoic acid"
-    },
-    {
-     "arrow": "[H], partial"
-    },
-    "?"
    ]
   },
   "from": {
@@ -14754,7 +13652,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "How many chiral carbons are in CH₃CH(OH)CH(NH₂)CH₂CH₃?",
@@ -14790,13 +13688,6 @@
     "Look again at the CH carbons bearing –OH and –NH<sub>2</sub>. List the four groups on each and compare them."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(O)C(N)CC"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -14815,7 +13706,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "How many chiral carbons are in (CH₃)₂CHCH(OH)CH₂CH(CH₃)₂?",
@@ -14851,13 +13742,6 @@
     "Look at the carbon bearing –OH. Compare the two carbon groups on each side of it: are they identical or different?"
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(C)C(O)CC(C)C"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -14876,7 +13760,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Which compound is a thiol?",
@@ -14912,22 +13796,6 @@
     "This has two sulfur atoms bonded to each other, so it is a disulfide. Neither S carries an H."
    ]
   },
-  "data": {
-   "cs": [
-    {
-     "smi": "CCCS"
-    },
-    {
-     "smi": "CCSC"
-    },
-    {
-     "smi": "CCCO"
-    },
-    {
-     "smi": "CSSC"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -14946,7 +13814,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "Acetic acid, CH₃COOH, and ethanethiol, CH₃CH₂SH, combine by condensation (water is lost). What is the organic product?",
@@ -14980,23 +13848,6 @@
     "This puts the C=O on the two-carbon ethyl side and a methyl on S, which reverses the pieces. The C=O stays with the acid's CH<sub>3</sub>.",
     "This is an ordinary ester with an –O– link. The reactant here is a thiol, so its sulfur, not an oxygen, joins to the C=O carbon.",
     "This has no C=O, so it is a sulfide. Condensation keeps the acid's carbonyl group."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(=O)O",
-     "cap": "acetic acid"
-    },
-    "+",
-    {
-     "smi": "CCS",
-     "cap": "ethanethiol"
-    },
-    {
-     "arrow": "−H₂O"
-    },
-    "?"
    ]
   },
   "from": {
@@ -15071,7 +13922,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "Acetaminophen is an amide, HO–C₆H₄–NH–C(=O)–CH₃. Which carboxylic acid and amine could form it by condensation?",
@@ -15107,14 +13958,6 @@
     "Formic acid supplies only an H–C=O piece. In acetaminophen the C=O carbon also carries a CH<sub>3</sub>."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(=O)NC1=CC=C(O)C=C1",
-     "cap": "acetaminophen"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -15133,7 +13976,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "What is the IUPAC name of HOCH₂CH₂CH₂COOH?",
@@ -15169,13 +14012,6 @@
     "This counts only 3 chain carbons. The –COOH carbon is part of the chain, so count it too."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "OCCCC(=O)O"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -15194,7 +14030,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "What is the IUPAC name of CH₃COCH₂CH₂OH?",
@@ -15230,13 +14066,6 @@
     "3-Hydroxy would put the –OH on the carbon next to the C=O, CH<sub>3</sub>COCH(OH)CH<sub>3</sub>. Here the –OH is on the end CH<sub>2</sub>."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(=O)CCO"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -15255,7 +14084,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "What is the IUPAC name of CH₃CH₂CH(CH₂CH₂CH₃)CH₂CH₃?",
@@ -15289,13 +14118,6 @@
     "Pentane is not the longest chain. Follow a path that runs from the propyl group, through the CH, into one ethyl group.",
     "This numbers from the wrong end. Number the chain so the branch gets the lowest possible number.",
     "A 7-carbon chain is not possible here; the longest path is shorter. 3-Methylheptane is a different isomer of C<sub>8</sub>H<sub>18</sub>."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC(CCC)CC"
-    }
    ]
   },
   "from": {
@@ -18068,7 +16890,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "Three of these alkenes give 2-methylbutane when H₂ adds over a Pt catalyst. Which alkene gives a different alkane?",
@@ -18104,22 +16926,6 @@
     "(CH<sub>3</sub>)<sub>2</sub>CHCH=CH<sub>2</sub> is branched; saturating its C=C gives 2-methylbutane. Look for a skeleton without a branch."
    ]
   },
-  "data": {
-   "cs": [
-    {
-     "smi": "C=CCCC"
-    },
-    {
-     "smi": "C=C(C)CC"
-    },
-    {
-     "smi": "CC(C)=CC"
-    },
-    {
-     "smi": "CC(C)C=C"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -18138,7 +16944,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Bromine is red-brown. When Br₂ is added to 1-butene, CH₂=CHCH₂CH₃, the color disappears. Which compound forms?",
@@ -18174,24 +16980,6 @@
     "This puts a Br on C3, which was not part of the double bond. Both Br atoms go on the two carbons of the C=C."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "C=CCC",
-     "cap": "1-butene"
-    },
-    "+",
-    {
-     "smi": "BrBr",
-     "cap": "Br₂",
-     "st": "expanded"
-    },
-    {
-     "arrow": ""
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -18210,7 +16998,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Predict the alcohol formed in greatest amount when H₂O (acid catalyst) adds to (CH₃)₂C=CHCH₃, 2-methyl-2-butene.",
@@ -18246,18 +17034,6 @@
     "This alkane has no OH; it is what H<sub>2</sub> would give. Water adds an H and an OH."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(C)=CC",
-     "cap": "2-methyl-2-butene"
-    },
-    {
-     "arrow": "H₂O, H⁺"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -18276,7 +17052,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "1-Butene, CH₃CH₂CH=CH₂, reacts with HI to give 2-iodobutane, CH₃CH₂CHICH₃. Which type of reaction is this?",
@@ -18312,23 +17088,6 @@
     "Hydrogenation adds H<sub>2</sub>, giving an alkane with no I. Look at what actually added across the double bond."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC=C",
-     "cap": "1-butene"
-    },
-    "+",
-    "HI",
-    {
-     "arrow": ""
-    },
-    {
-     "smi": "CCC(C)I",
-     "cap": "2-iodobutane"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -18347,7 +17106,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "An alkyne has the condensed formula CH₃CH₂C≡CCH(CH₃)₂. Which name is correct?",
@@ -18383,13 +17142,6 @@
     "4-Hexyne gives the triple bond a higher number than needed. Number from the end that gives the C≡C the lowest number."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC#CC(C)C"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -18408,7 +17160,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "A branched alkane has the condensed formula CH₃CH(CH₃)CH₂CH(CH₂CH₃)CH₂CH₃. Which name follows IUPAC rules?",
@@ -18444,13 +17196,6 @@
     "An ethyl group on C2 means the chain was not the longest one: that ethyl would extend the main chain. Also check which end is nearer the first branch."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(C)CC(CC)CC"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -18469,7 +17214,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Light shines on a mixture of cyclohexane, C₆H₁₂, and Br₂. Which set of products forms?",
@@ -18503,24 +17248,6 @@
     "Br<sub>2</sub> cannot add to an alkane: there is no double bond to open. In light, a Br replaces an H instead.",
     "The H removed from carbon pairs with the other Br atom, not with another H. Also, one Br<sub>2</sub> replaces only one H.",
     "C<sub>6</sub>H<sub>11</sub>Br is right, but the H that leaves does not form H<sub>2</sub>. It combines with the second Br atom of Br<sub>2</sub>."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "C1CCCCC1",
-     "cap": "cyclohexane"
-    },
-    "+",
-    {
-     "smi": "BrBr",
-     "cap": "Br₂",
-     "st": "expanded"
-    },
-    {
-     "arrow": "light"
-    },
-    "?"
    ]
   },
   "from": {
@@ -18603,7 +17330,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Name this alkene, in which the CH₃ group and the propyl group lie on opposite sides of the C=C: CH₃CH=CHCH₂CH₂CH₃.",
@@ -18637,13 +17364,6 @@
     "Cis means the two carbon groups are on the same side of the C=C. In this molecule they are on opposite sides.",
     "4-Hexene numbers from the end farther from the double bond. Number so the C=C gets the lowest number.",
     "Hexyne means a C≡C triple bond. This compound has a C=C double bond; a triple bond cannot have cis or trans forms."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CC=CCCC"
-    }
    ]
   },
   "from": {
@@ -18726,7 +17446,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "To which class of alcohol does isobutyl alcohol, (CH₃)₂CHCH₂OH, belong?",
@@ -18762,14 +17482,6 @@
     "A phenol has –OH directly on a benzene ring. This molecule has no ring."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(C)CO",
-     "cap": "isobutyl alcohol"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -18788,7 +17500,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Potassium dichromate oxidizes 3-pentanol, CH₃CH₂CH(OH)CH₂CH₃. Which compound forms?",
@@ -18824,18 +17536,6 @@
     "Only tertiary alcohols resist oxidation. The C–OH carbon in 3-pentanol still has an H to lose."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC(O)CC",
-     "cap": "3-pentanol"
-    },
-    {
-     "arrow": "K₂Cr₂O₇"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -18854,7 +17554,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "With an excess of K₂Cr₂O₇, 1-butanol, CH₃CH₂CH₂CH₂OH, is oxidized as far as it can go. Which compound is the final product?",
@@ -18890,18 +17590,6 @@
     "This alkene comes from dehydration, not oxidation. K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> adds C–O bonds."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCCCO",
-     "cap": "1-butanol"
-    },
-    {
-     "arrow": "excess K₂Cr₂O₇"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -18920,7 +17608,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "An alcohol with the formula C₄H₁₀O gives no reaction when treated with K₂Cr₂O₇. Which alcohol is it?",
@@ -18956,22 +17644,6 @@
     "This is a primary alcohol with two H atoms on the C–OH carbon, so it would be oxidized."
    ]
   },
-  "data": {
-   "cs": [
-    {
-     "smi": "CC(C)(C)O"
-    },
-    {
-     "smi": "CCC(C)O"
-    },
-    {
-     "smi": "CC(C)CO"
-    },
-    {
-     "smi": "CCCCO"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -18990,7 +17662,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Cyclohexanol is heated with concentrated H₂SO₄, producing cyclohexene and water. This reaction is classified as",
@@ -19026,27 +17698,6 @@
     "Oxidation would form a C=O, giving cyclohexanone. Here a C=C forms and the oxygen leaves the molecule."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "OC1CCCCC1",
-     "cap": "cyclohexanol"
-    },
-    {
-     "arrow": "H₂SO₄, heat"
-    },
-    {
-     "smi": "C1=CCCCC1",
-     "cap": "cyclohexene"
-    },
-    "+",
-    {
-     "smi": "O",
-     "cap": "water",
-     "st": "expanded"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -19065,7 +17716,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "Which alkene forms in the greatest amount when 2-methyl-2-pentanol, (CH₃)₂C(OH)CH₂CH₂CH₃, loses water in hot H₂SO₄?",
@@ -19101,18 +17752,6 @@
     "This is an alkane, with no C=C. Losing water from an alcohol forms a double bond."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(C)(O)CCC",
-     "cap": "2-methyl-2-pentanol"
-    },
-    {
-     "arrow": "H₂SO₄, heat"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -19131,7 +17770,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Skunk spray contains the thiol (CH₃)₂CHCH₂CH₂SH. What is its IUPAC name?",
@@ -19167,13 +17806,6 @@
     "3-Methyl-1-pentanethiol has six carbons in all, but this molecule has only five. Count the longest chain holding the –SH, then count the branch separately."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(C)CCS"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -19192,7 +17824,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Ethers are named by listing the two groups on the oxygen. How is CH₃CH₂–O–CH(CH₃)₂ named?",
@@ -19228,13 +17860,6 @@
     "sec-Butyl has four carbons. Count the carbons in –CH(CH<sub>3</sub>)<sub>2</sub>: there are three."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCOC(C)C"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -19253,7 +17878,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Number the parent chain so the –OH gets the lowest locant. Which IUPAC name fits CH₃CH(CH₃)CH₂CH(OH)CH₃?",
@@ -19289,13 +17914,6 @@
     "2-Methyl-2-pentanol would have the CH<sub>3</sub> and the –OH on the same carbon. Here they are on different carbons."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(C)CC(C)O"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -19314,7 +17932,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "The aldehyde (CH₃)₂CHCH₂CHO contributes to the aroma of cheese and chocolate. Which IUPAC name is correct?",
@@ -19350,13 +17968,6 @@
     "The -ol ending is for alcohols. This compound has a –CHO group, not an –OH."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(C)CC=O"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -19375,7 +17986,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "A nerve-damaging workplace solvent, methyl butyl ketone, has the structure CH₃COCH₂CH₂CH₂CH₃. Under IUPAC rules it is called",
@@ -19411,13 +18022,6 @@
     "2-Hexanol is an alcohol with –OH. This formula has a C=O, so it is not an alcohol."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(=O)CCCC"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -19436,7 +18040,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Reduction ([H]) of pentanal, CH₃CH₂CH₂CH₂CHO, gives which compound?",
@@ -19472,18 +18076,6 @@
     "An alkene has no oxygen. [H] adds H atoms across the C=O; it does not remove the oxygen."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCCCC=O",
-     "cap": "pentanal"
-    },
-    {
-     "arrow": "[H]"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -19502,7 +18094,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "When 3-methyl-2-butanone, (CH₃)₂CHCOCH₃, is reduced with [H] (a reducing agent), which product and alcohol class result?",
@@ -19538,18 +18130,6 @@
     "This moves the OH to a different carbon. Reduction keeps the oxygen on the same carbon that held the C=O."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(C)C(C)=O",
-     "cap": "3-methyl-2-butanone"
-    },
-    {
-     "arrow": "[H]"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -19568,7 +18148,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Hemiacetals form when an aldehyde adds one alcohol molecule. Which structure is a hemiacetal?",
@@ -19604,22 +18184,6 @@
     "Here the –OH and the –OR are on different carbons, so it is an alcohol and an ether. A hemiacetal has both on one carbon."
    ]
   },
-  "data": {
-   "cs": [
-    {
-     "smi": "CC(O)OCC"
-    },
-    {
-     "smi": "CC(OC)OC"
-    },
-    {
-     "smi": "CC(=O)OCC"
-    },
-    {
-     "smi": "CCOCCO"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -19638,7 +18202,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "Which reactants form the ketal (an acetal made from a ketone) CH₃C(OCH₃)₂CH₂CH₃ (with H⁺ catalyst)?",
@@ -19672,20 +18236,6 @@
     "Butanal has its C=O at the end of the chain, so it would give an acetal with an H on that carbon. The –OCH<sub>3</sub> carbon here has two carbon groups.",
     "Ethanol would put –OCH<sub>2</sub>CH<sub>3</sub> groups on the carbon. This ketal has –OCH<sub>3</sub> groups.",
     "Alcohols and ethers do not combine to make a ketal. A ketal forms when alcohol molecules add to a C=O."
-   ]
-  },
-  "data": {
-   "s": [
-    "?",
-    "+",
-    "2 ?",
-    {
-     "arrow": "H⁺"
-    },
-    {
-     "smi": "CC(OC)(OC)CC",
-     "cap": "ketal"
-    }
    ]
   },
   "from": {
@@ -19784,7 +18334,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "In uncontrolled diabetes, a patient's breath can smell like acetone, one of the ketone bodies. Which compound is a ketone?",
@@ -19818,22 +18368,6 @@
     "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CHO ends in –CHO, so its C=O carbon has an H: that is an aldehyde.",
     "CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub> has a C=O and an –O– on the same carbon: that is an ester.",
     "CH<sub>3</sub>CH<sub>2</sub>OCH<sub>2</sub>CH<sub>3</sub> has no C=O at all; C–O–C is an ether."
-   ]
-  },
-  "data": {
-   "cs": [
-    {
-     "smi": "CCC(C)=O"
-    },
-    {
-     "smi": "CCCC=O"
-    },
-    {
-     "smi": "CC(=O)OCC"
-    },
-    {
-     "smi": "CCOCC"
-    }
    ]
   },
   "from": {
@@ -19916,7 +18450,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "This ester has a fruity smell: CH₃CH₂COOCH₂CH₂CH₃. Choose its correct name.",
@@ -19952,13 +18486,6 @@
     "Butyl means four carbons on the O. The group on the single-bonded O, –CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>, has three."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC(=O)OCCC"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -19977,7 +18504,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Butanoic acid reacts with ethanol (H⁺, heat) to make ethyl butanoate, which smells like pineapple. Which is the ester?",
@@ -20013,23 +18540,6 @@
     "This has no C=O at all, so it is an ether. Esterification keeps the acid's carbonyl group."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCCC(=O)O",
-     "cap": "butanoic acid"
-    },
-    "+",
-    {
-     "smi": "CCO",
-     "cap": "ethanol"
-    },
-    {
-     "arrow": "H⁺, heat"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -20048,7 +18558,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "Isopentyl acetate, CH₃COOCH₂CH₂CH(CH₃)₂, gives bananas their smell. Which acid and alcohol are used to make it?",
@@ -20084,20 +18594,6 @@
     "The C=O side has only two carbons, so it is not a five-carbon acid. The branched group is on the single-bonded O."
    ]
   },
-  "data": {
-   "s": [
-    "?",
-    "+",
-    "?",
-    {
-     "arrow": "H⁺, heat"
-    },
-    {
-     "smi": "CC(=O)OCCC(C)C",
-     "cap": "isopentyl acetate"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -20116,7 +18612,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Isobutyl formate, HCOOCH₂CH(CH₃)₂, adds a raspberry-like note to flavorings. If this ester undergoes acid-catalyzed hydrolysis, which products form?",
@@ -20152,24 +18648,6 @@
     "Methanal is an aldehyde. Hydrolysis adds water across the ester bond and turns the C=O side into a carboxylic acid, not an aldehyde."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "O=COCC(C)C",
-     "cap": "isobutyl formate"
-    },
-    "+",
-    {
-     "smi": "O",
-     "cap": "water",
-     "st": "expanded"
-    },
-    {
-     "arrow": "H⁺"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -20188,7 +18666,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Saponification of ethyl propanoate, CH₃CH₂COOCH₂CH₃, with NaOH yields which two products?",
@@ -20224,20 +18702,6 @@
     "An acid and sodium ethoxide cannot exist together in water; the base would take the acid's H<sup>+</sup>. Which fragment carries the Na<sup>+</sup>?"
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC(=O)OCC",
-     "cap": "ethyl propanoate"
-    },
-    "+",
-    "NaOH",
-    {
-     "arrow": "heat"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -20256,7 +18720,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Isocaproic acid, CH₃CH(CH₃)CH₂CH₂COOH, has an unpleasant cheesy odor. Which IUPAC name is correct for this acid?",
@@ -20290,13 +18754,6 @@
     "Number from the –COOH carbon, which is always C1. Counting from it, the CH<sub>3</sub> branch is far from C2.",
     "Hexanoic means a six-carbon chain. The branch CH<sub>3</sub> is a substituent, not part of the main chain; count only to the end of the longest chain.",
     "The -al ending is for aldehydes (–CHO). This compound has a –COOH group."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(C)CCC(=O)O"
-    }
    ]
   },
   "from": {
@@ -20379,7 +18836,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "After it is swallowed, aspirin (acetylsalicylic acid) is hydrolyzed at its ester group by enzymes in the body. Which two products form?",
@@ -20415,24 +18872,6 @@
     "Methanol would come from a methyl ester such as methyl salicylate. In aspirin the C=O side of the ester is a two-carbon acetyl group."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(=O)OC1=CC=CC=C1C(=O)O",
-     "cap": "aspirin"
-    },
-    "+",
-    {
-     "smi": "O",
-     "cap": "water",
-     "st": "expanded"
-    },
-    {
-     "arrow": "enzyme"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -20451,7 +18890,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "An ester is written as CH₃–O–CO–CH₂CH₃. Acid-catalyzed hydrolysis of it produces which pair?",
@@ -20487,24 +18926,6 @@
     "A sodium salt forms only in base (saponification). Acid-catalyzed hydrolysis gives the neutral carboxylic acid."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "COC(=O)CC",
-     "cap": "ester"
-    },
-    "+",
-    {
-     "smi": "O",
-     "cap": "water",
-     "st": "expanded"
-    },
-    {
-     "arrow": "H⁺"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -20523,7 +18944,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "How is tetramethylammonium chloride, (CH₃)₄N⁺ Cl⁻, classified?",
@@ -20559,16 +18980,6 @@
     "A primary amine salt is RNH<sub>3</sub><sup>+</sup>, with just one carbon on N. Count the CH<sub>3</sub> groups on this nitrogen."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "C[N+](C)(C)C",
-     "cap": "tetramethylammonium ion",
-     "st": "expanded"
-    },
-    "Cl⁻"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -20587,7 +18998,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "Methamphetamine is C₆H₅CH₂CH(CH₃)NHCH₃. Its amine group is classified as",
@@ -20623,14 +19034,6 @@
     "A quaternary ammonium ion has four carbons on a positively charged N. This N is neutral and bears an H."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CNC(C)CC1=CC=CC=C1",
-     "cap": "methamphetamine"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -20649,7 +19052,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "How would you name CH₃NHCH₂CH₃, a secondary amine, using common (alkyl + amine) naming?",
@@ -20685,14 +19088,6 @@
     "An amide name needs a C=O carbon bonded to N. CH<sub>3</sub>NHCH<sub>2</sub>CH<sub>3</sub> has no carbonyl group."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CNCC",
-     "cap": "ethylmethylamine"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -20711,7 +19106,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Dimethylamine, (CH₃)₂NH, and acetic acid are heated together and water is driven off. Which amide forms?",
@@ -20747,24 +19142,6 @@
     "HCON(CH<sub>3</sub>)<sub>2</sub> has an H on the C=O carbon, so it comes from formic acid. Acetic acid supplies CH<sub>3</sub>CO–."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CNC",
-     "cap": "dimethylamine",
-     "st": "expanded"
-    },
-    "+",
-    {
-     "smi": "CC(=O)O",
-     "cap": "acetic acid"
-    },
-    {
-     "arrow": "heat, −H₂O"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -20783,7 +19160,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "When ethylamine, CH₃CH₂NH₂, is mixed with hydrochloric acid, which substance is formed?",
@@ -20819,20 +19196,6 @@
     "An amine is a base, so its N gains H<sup>+</sup> rather than losing it. Forming H<sub>3</sub>O<sup>+</sup> would make the amine act as an acid."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCN",
-     "cap": "ethylamine"
-    },
-    "+",
-    "HCl",
-    {
-     "arrow": ""
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -20851,7 +19214,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Hot aqueous HCl hydrolyzes propanamide, CH₃CH₂CONH₂. Which products result?",
@@ -20887,24 +19250,6 @@
     "Propanamine has no C=O, and hydrolysis adds water rather than producing it. The amide C–N bond is what breaks."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC(=O)N",
-     "cap": "propanamide"
-    },
-    "+",
-    {
-     "smi": "O",
-     "cap": "water",
-     "st": "expanded"
-    },
-    {
-     "arrow": "HCl, heat"
-    },
-    "?"
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -20923,7 +19268,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Name the amide CH₃CH₂CH₂CH₂CONHCH₃ using IUPAC rules.",
@@ -20959,13 +19304,6 @@
     "The -amine ending ignores the C=O bonded to the nitrogen. An N attached to a carbonyl carbon makes this an amide."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCCCC(=O)NC"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -20984,7 +19322,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "Which compound will NOT form an amide when heated with acetic acid?",
@@ -21018,22 +19356,6 @@
     "Dimethylamine still has one N–H, which can leave with the acid's –OH as water. It can form an amide.",
     "Methylamine has two N–H bonds, so it can lose one H as water and form an amide.",
     "NH<sub>3</sub> has three N–H bonds and forms a simple amide with acetic acid on heating."
-   ]
-  },
-  "data": {
-   "cs": [
-    {
-     "smi": "CN(C)C"
-    },
-    {
-     "smi": "CNC"
-    },
-    {
-     "smi": "CN"
-    },
-    {
-     "smi": "N"
-    }
    ]
   },
   "from": {
@@ -21164,7 +19486,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Butanal, CH₃CH₂CH₂CHO, and butanone, CH₃COCH₂CH₃, are best described as",
@@ -21200,19 +19522,6 @@
     "Enantiomers are mirror images with identical connections. Here the atoms are connected differently."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCCC=O",
-     "cap": "butanal"
-    },
-    "vs",
-    {
-     "smi": "CCC(C)=O",
-     "cap": "butanone"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -21232,7 +19541,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "A student writes 2-butanol two ways: CH₃CH₂CH(OH)CH₃ and CH₃CH(OH)CH₂CH₃. How are these two formulas related?",
@@ -21268,17 +19577,6 @@
     "Count the atoms: both formulas are C<sub>4</sub>H<sub>10</sub>O. Writing a chain backward does not change the formula."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CCC(C)O"
-    },
-    "vs",
-    {
-     "smi": "CC(O)CC"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -21298,7 +19596,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Cyclohexane, C₆H₁₂, is a saturated ring. Which compound below is its constitutional isomer?",
@@ -21332,28 +19630,6 @@
     "Hexane is C<sub>6</sub>H<sub>14</sub>, two H more than cyclohexane. Isomers must have exactly the same formula.",
     "Cyclohexene is C<sub>6</sub>H<sub>10</sub>: it has a ring and a C=C, so it has two H fewer than cyclohexane.",
     "Benzene is C<sub>6</sub>H<sub>6</sub>, far fewer H than cyclohexane. Isomers need exactly the same formula."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "C1CCCCC1",
-     "cap": "cyclohexane"
-    }
-   ],
-   "cs": [
-    {
-     "smi": "C=CCCCC"
-    },
-    {
-     "smi": "CCCCCC"
-    },
-    {
-     "smi": "C1=CCCCC1"
-    },
-    {
-     "smi": "C1=CC=CC=C1"
-    }
    ]
   },
   "from": {
@@ -21484,7 +19760,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "A chiral carbon is bonded to four different groups. Which compound has a chiral carbon?",
@@ -21520,22 +19796,6 @@
     "The C–Br carbon holds three identical CH<sub>3</sub> groups and no H, so it does not have four different groups."
    ]
   },
-  "data": {
-   "cs": [
-    {
-     "smi": "CC(Br)CC"
-    },
-    {
-     "smi": "CCC(Br)CC"
-    },
-    {
-     "smi": "BrCCC"
-    },
-    {
-     "smi": "CC(C)(Br)C"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -21554,7 +19814,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Threonine, an essential amino acid, is CH₃CH(OH)CH(NH₂)COOH. How many chiral carbons does it have?",
@@ -21588,14 +19848,6 @@
     "Too few. Check both CH carbons in threonine: the one with –OH and the one with –NH<sub>2</sub>. List the four groups on each.",
     "Too many. The CH<sub>3</sub> carbon has three identical H atoms, and the –COOH carbon has a C=O double bond, so neither is chiral.",
     "Threonine has only four carbons, and the CH<sub>3</sub> and –COOH carbons cannot be chiral. Count only carbons with four different groups."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(O)C(N)C(=O)O",
-     "cap": "threonine"
-    }
    ]
   },
   "from": {
@@ -21724,7 +19976,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "How many chiral carbons are in the pain reliever ibuprofen, (CH₃)₂CHCH₂–C₆H₄–CH(CH₃)COOH (the ring is a para-disubstituted benzene)?",
@@ -21758,14 +20010,6 @@
     "Look at the carbon bonded to –CH<sub>3</sub>, –COOH, H and the ring. Are all four of its groups different?",
     "That count includes the CH in (CH<sub>3</sub>)<sub>2</sub>CH–, which has two identical CH<sub>3</sub> groups, so it is not chiral.",
     "Ring, CH<sub>2</sub>, CH<sub>3</sub> and –COOH carbons cannot be chiral. Only the two CH carbons are worth checking, and one has two identical groups."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(C)CC1=CC=C(C=C1)C(C)C(=O)O",
-     "cap": "ibuprofen"
-    }
    ]
   },
   "from": {
@@ -21840,7 +20084,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Vanillin, the flavor of vanilla, is a benzene ring bearing –OH, –OCH₃ and –CHO groups. Which functional groups does it contain?",
@@ -21874,14 +20118,6 @@
     "–OH on a benzene ring is a phenol, not an alcohol. An ester needs a C=O next to the O, and –CHO (C=O with H) is not a ketone.",
     "An ester needs –COO–, a C=O next to the oxygen. The –OCH<sub>3</sub> here has no C=O beside it.",
     "–OH directly on a benzene ring is a phenol, not an alcohol. And –CHO has no –OH, so it is not a carboxylic acid."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "COC1=C(O)C=CC(C=O)=C1",
-     "cap": "vanillin"
-    }
    ]
   },
   "from": {
@@ -21956,7 +20192,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Count the atoms in (CH₃)₂CHCH₂COOCH₃. Which molecular formula is correct?",
@@ -21992,13 +20228,6 @@
     "This is one H short. Recount: (CH<sub>3</sub>)<sub>2</sub> gives 6 H, then CH, CH<sub>2</sub> and OCH<sub>3</sub>."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(C)CC(=O)OC"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -22017,7 +20246,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "In propyne, CH₃C≡CH, what angle is formed by the CH₃ carbon and the two triple-bonded carbons?",
@@ -22053,15 +20282,6 @@
     "90° angles are not found around carbon in this course. Count the electron groups on the middle carbon; the triple bond counts as one."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "CC#C",
-     "cap": "propyne",
-     "st": "expanded"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -22080,7 +20300,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 3,
   "calc": false,
   "prompt": "Lidocaine, a local anesthetic used in dentistry, is (CH₃)₂C₆H₃–NH–CO–CH₂–N(CH₂CH₃)₂. Which two nitrogen-containing groups does it have?",
@@ -22114,14 +20334,6 @@
     "The –NH– is bonded to a C=O carbon, which makes it an amide, not an amine. Then count carbons on the other N.",
     "An ester needs –COO–, a C=O next to an oxygen. The C=O here is bonded to nitrogen.",
     "There is no –NH<sub>2</sub>, so no 1° amine. The C=O carbon is bonded to N, so it is not a ketone either."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CCN(CC)CC(=O)NC1=C(C)C=CC=C1C",
-     "cap": "lidocaine"
-    }
    ]
   },
   "from": {
@@ -22333,7 +20545,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "Which compound's molecules attract each other ONLY through London dispersion forces?",
@@ -22369,22 +20581,6 @@
     "This is an amine with N–H bonds, so its molecules also hydrogen bond with each other."
    ]
   },
-  "data": {
-   "cs": [
-    {
-     "smi": "CCCCC"
-    },
-    {
-     "smi": "CCOCC"
-    },
-    {
-     "smi": "CCCC=O"
-    },
-    {
-     "smi": "CCCN"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -22403,7 +20599,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "1,4-Dichlorobenzene is used in some toilet-bowl deodorizers. Which name describes the same compound?",
@@ -22439,14 +20635,6 @@
     "Cyclohexane is a saturated ring with no double bonds, so 1,4-dichlorocyclohexane (C<sub>6</sub>H<sub>10</sub>Cl<sub>2</sub>) is a different compound. The question names a benzene ring."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "ClC1=CC=C(Cl)C=C1",
-     "cap": "1,4-dichlorobenzene"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -22465,7 +20653,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "A benzene ring carries an –OH group and an –NO₂ group directly across the ring from each other. What is its name?",
@@ -22501,13 +20689,6 @@
     "Toluene is the parent name for a ring with a –CH<sub>3</sub> group. This ring has an –OH group, which sets a different parent name."
    ]
   },
-  "data": {
-   "s": [
-    {
-     "smi": "OC1=CC=C(C=C1)[N+](=O)[O-]"
-    }
-   ]
-  },
   "from": {
    "game": "finalexam",
    "list": "BANK.3B",
@@ -22526,7 +20707,7 @@
   "origin": "original",
   "made": "original",
   "exam": "midterm",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 2,
   "calc": false,
   "prompt": "Nitration of benzene, C₆H₆, uses HNO₃ with H₂SO₄ as a catalyst. Which products form?",
@@ -22560,20 +20741,6 @@
     "Count oxygens: C<sub>6</sub>H<sub>6</sub> + HNO<sub>3</sub> has three O atoms, but C<sub>6</sub>H<sub>5</sub>NO<sub>2</sub> + H<sub>2</sub> has only two. The H removed from the ring pairs up with the OH left over from HNO<sub>3</sub>.",
     "That formula is benzene plus all of HNO<sub>3</sub>, which is what addition across a C=C would give. Benzene's ring resists addition because it would lose its aromatic stability.",
     "That would put an –OH on the ring. HNO<sub>3</sub> with H<sub>2</sub>SO<sub>4</sub> attaches the nitrogen to the ring, not an –OH."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "C1=CC=CC=C1",
-     "cap": "benzene"
-    },
-    "+",
-    "HNO₃",
-    {
-     "arrow": "H₂SO₄"
-    },
-    "?"
    ]
   },
   "from": {
@@ -169617,12 +167784,6 @@
    ]
   },
   "data": {
-   "s": [
-    {
-     "smi": "ClC=CCl",
-     "cap": "C₂H₂Cl₂ (one arrangement)"
-    }
-   ],
    "cs": [
     {
      "skel": true,
@@ -171264,7 +169425,7 @@
   "origin": "original",
   "made": "gap",
   "exam": "final",
-  "type": "finalboss-mc",
+  "type": "mc",
   "difficulty": 1,
   "calc": false,
   "prompt": "A biological polymer is hydrolyzed by dilute acid and gives only glucose. The bonds that held the monomers together are best described as which functional group?",
@@ -171298,19 +169459,6 @@
     "Ester linkages join fatty acids to glycerol in fats. A polymer that gives only glucose is linked through sugar–O–sugar bonds.",
     "Amide (peptide) bonds join amino acids in proteins. Hydrolysis here gives only glucose, not amino acids.",
     "Phosphodiester bonds link nucleotides in DNA and RNA. Hydrolysis here gives only glucose, with no phosphate."
-   ]
-  },
-  "data": {
-   "s": [
-    {
-     "smi": "CC(=O)OCC",
-     "cap": "ester"
-    },
-    "vs",
-    {
-     "smi": "CC(=O)SCC",
-     "cap": "thioester"
-    }
    ]
   },
   "from": {
@@ -184279,6 +182427,1216 @@
    "game": "finalexam",
    "list": "BANK.3B",
    "index": 1115
+  }
+ },
+ {
+  "id": "finalexam-fd1bc9a8",
+  "skill": "finalexam.3b.structure",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Allyl alcohol, CH₂=CHCH₂OH, is shown. Which statements about it are true? I. It contains a hydroxyl (–OH) group. II. All three carbon atoms have tetrahedral (109.5°) geometry. III. Its molecular formula is C₃H₆O.",
+  "choices": [
+   "I and III only",
+   "I only",
+   "I, II and III",
+   "II and III only"
+  ],
+  "answer": "I and III only",
+  "hint": "Count the electron groups around each carbon, then count every H, including the one on oxygen.",
+  "explain": "I and III only. I is true: the –OH on the end carbon is a hydroxyl group, so this is an alcohol. II is false: the two C=C carbons each have three electron groups and are trigonal planar (about 120°); only the CH₂OH carbon is tetrahedral. III is true: there are 3 C, 6 H (2 + 1 + 2 on carbon and 1 on oxygen) and 1 O.",
+  "why": [
+   "",
+   "Statement III is true. Count the H atoms: 2 + 1 + 2 on the carbons plus 1 on the oxygen gives six.",
+   "Statement II is false. Each carbon of the C=C double bond has three electron groups, so it is trigonal planar, not tetrahedral.",
+   "Statement I is true. The –OH on the end carbon is a hydroxyl group, which makes this compound an alcohol."
+  ],
+  "html": {
+   "prompt": "Allyl alcohol, CH<sub>2</sub>=CHCH<sub>2</sub>OH, is shown. Which statements about it are true?<br>I. It contains a hydroxyl (–OH) group.<br>II. All three carbon atoms have tetrahedral (109.5°) geometry.<br>III. Its molecular formula is C<sub>3</sub>H<sub>6</sub>O.",
+   "choices": [
+    "I and III only",
+    "I only",
+    "I, II and III",
+    "II and III only"
+   ],
+   "hint": "Count the electron groups around each carbon, then count every H, including the one on oxygen.",
+   "explain": "<b>I and III only</b>. I is true: the –OH on the end carbon is a hydroxyl group, so this is an alcohol. II is false: the two C=C carbons each have three electron groups and are trigonal planar (about 120°); only the CH<sub>2</sub>OH carbon is tetrahedral. III is true: there are 3 C, 6 H (2 + 1 + 2 on carbon and 1 on oxygen) and 1 O.",
+   "why": [
+    "",
+    "Statement III is true. Count the H atoms: 2 + 1 + 2 on the carbons plus 1 on the oxygen gives six.",
+    "Statement II is false. Each carbon of the C=C double bond has three electron groups, so it is trigonal planar, not tetrahedral.",
+    "Statement I is true. The –OH on the end carbon is a hydroxyl group, which makes this compound an alcohol."
+   ]
+  },
+  "data": {
+   "s": [
+    {
+     "smi": "C=CCO",
+     "cap": "allyl alcohol"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1116
+  }
+ },
+ {
+  "id": "finalexam-c6300977",
+  "skill": "finalexam.3b.hydrocarbons",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-2"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which statements about the alkene shown are true? I. Its IUPAC name is 2-methyl-2-butene. II. It can exist as cis and trans isomers. III. Its molecular formula is C₅H₁₂.",
+  "choices": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "answer": "I only",
+  "hint": "For cis–trans isomers, each C=C carbon needs two different groups. An alkene has two fewer H atoms than the alkane with the same number of carbons.",
+  "explain": "I only. I is true: the longest chain with the C=C has four carbons, numbered so the double bond starts at C2, and the methyl group is on C2. II is false: one C=C carbon holds two identical CH₃ groups, so cis and trans forms cannot exist. III is false: a five-carbon alkene with one C=C is C₅H₁₀; C₅H₁₂ is the formula of the saturated alkanes.",
+  "why": [
+   "",
+   "Statement II is false. One carbon of the double bond carries two identical CH₃ groups, so swapping sides gives the same molecule.",
+   "Statement III is false. C₅H₁₂ is the formula of a saturated alkane. The C=C double bond means two fewer H atoms.",
+   "Statement II is false. A C=C carbon with two identical groups cannot give cis and trans forms."
+  ],
+  "html": {
+   "prompt": "Which statements about the alkene shown are true?<br>I. Its IUPAC name is 2-methyl-2-butene.<br>II. It can exist as cis and trans isomers.<br>III. Its molecular formula is C<sub>5</sub>H<sub>12</sub>.",
+   "choices": [
+    "I only",
+    "I and II only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "hint": "For cis–trans isomers, each C=C carbon needs two different groups. An alkene has two fewer H atoms than the alkane with the same number of carbons.",
+   "explain": "<b>I only</b>. I is true: the longest chain with the C=C has four carbons, numbered so the double bond starts at C2, and the methyl group is on C2. II is false: one C=C carbon holds two identical CH<sub>3</sub> groups, so cis and trans forms cannot exist. III is false: a five-carbon alkene with one C=C is C<sub>5</sub>H<sub>10</sub>; C<sub>5</sub>H<sub>12</sub> is the formula of the saturated alkanes.",
+   "why": [
+    "",
+    "Statement II is false. One carbon of the double bond carries two identical CH₃ groups, so swapping sides gives the same molecule.",
+    "Statement III is false. C₅H₁₂ is the formula of a saturated alkane. The C=C double bond means two fewer H atoms.",
+    "Statement II is false. A C=C carbon with two identical groups cannot give cis and trans forms."
+   ]
+  },
+  "data": {
+   "s": [
+    {
+     "smi": "CC=C(C)C"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1117
+  }
+ },
+ {
+  "id": "finalexam-bc6e9806",
+  "skill": "finalexam.3b.aromatic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-3"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which of compounds I–III are aromatic?",
+  "choices": [
+   "II only",
+   "II and III only",
+   "I, II and III",
+   "I and III only"
+  ],
+  "answer": "II only",
+  "hint": "At this level, an aromatic compound contains a benzene ring: six ring carbons joined by three alternating double bonds.",
+  "explain": "II only. Toluene (II) is a benzene ring with a methyl group, so it is aromatic. Cyclohexene (I) has one C=C, and 1,3-cyclohexadiene (III) has two C=C bonds plus a CH₂ in the ring, so neither has the benzene ring of three alternating double bonds. I and III react like ordinary alkenes.",
+  "why": [
+   "",
+   "Compound III has two C=C bonds in a six-membered ring, but one ring carbon is a CH₂, so the ring is not a benzene ring.",
+   "Compound I is a cycloalkene. One C=C double bond in a ring does not make a benzene ring.",
+   "Compound III is not aromatic. A ring needs three alternating double bonds, and III has only two."
+  ],
+  "html": {
+   "prompt": "Which of compounds I–III are aromatic?",
+   "choices": [
+    "II only",
+    "II and III only",
+    "I, II and III",
+    "I and III only"
+   ],
+   "hint": "At this level, an aromatic compound contains a benzene ring: six ring carbons joined by three alternating double bonds.",
+   "explain": "<b>II only</b>. Toluene (II) is a benzene ring with a methyl group, so it is aromatic. Cyclohexene (I) has one C=C, and 1,3-cyclohexadiene (III) has two C=C bonds plus a CH<sub>2</sub> in the ring, so neither has the benzene ring of three alternating double bonds. I and III react like ordinary alkenes.",
+   "why": [
+    "",
+    "Compound III has two C=C bonds in a six-membered ring, but one ring carbon is a CH₂, so the ring is not a benzene ring.",
+    "Compound I is a cycloalkene. One C=C double bond in a ring does not make a benzene ring.",
+    "Compound III is not aromatic. A ring needs three alternating double bonds, and III has only two."
+   ]
+  },
+  "data": {
+   "s": [
+    {
+     "smi": "C1=CCCCC1",
+     "cap": "I"
+    },
+    {
+     "smi": "CC1=CC=CC=C1",
+     "cap": "II"
+    },
+    {
+     "smi": "C1=CC=CCC1",
+     "cap": "III"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1118
+  }
+ },
+ {
+  "id": "finalexam-bb752403",
+  "skill": "finalexam.3b.alcohols",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-4"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which of alcohols I–III are secondary (2°)?",
+  "choices": [
+   "II and III only",
+   "III only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "answer": "II and III only",
+  "hint": "Find the carbon that holds the –OH, then count how many other carbons are bonded directly to that carbon.",
+  "explain": "II and III only. In cyclohexanol (II) the –OH carbon is bonded to two ring carbons, and in 2-butanol (III) it is bonded to a CH₃ and a CH₂, so both are 2°. In 2-methyl-2-propanol (I) the –OH carbon is bonded to three CH₃ groups, so it is tertiary (3°).",
+  "why": [
+   "",
+   "Alcohol II is also secondary. The ring carbon that holds the –OH is bonded to two other ring carbons.",
+   "Alcohol I is tertiary. Its –OH carbon is bonded to three other carbons.",
+   "Alcohol I is not secondary. Count the carbons bonded to its –OH carbon and you get three."
+  ],
+  "html": {
+   "prompt": "Which of alcohols I–III are secondary (2°)?",
+   "choices": [
+    "II and III only",
+    "III only",
+    "I and II only",
+    "I, II and III"
+   ],
+   "hint": "Find the carbon that holds the –OH, then count how many other carbons are bonded directly to that carbon.",
+   "explain": "<b>II and III only</b>. In cyclohexanol (II) the –OH carbon is bonded to two ring carbons, and in 2-butanol (III) it is bonded to a CH<sub>3</sub> and a CH<sub>2</sub>, so both are 2°. In 2-methyl-2-propanol (I) the –OH carbon is bonded to three CH<sub>3</sub> groups, so it is tertiary (3°).",
+   "why": [
+    "",
+    "Alcohol II is also secondary. The ring carbon that holds the –OH is bonded to two other ring carbons.",
+    "Alcohol I is tertiary. Its –OH carbon is bonded to three other carbons.",
+    "Alcohol I is not secondary. Count the carbons bonded to its –OH carbon and you get three."
+   ]
+  },
+  "data": {
+   "s": [
+    {
+     "smi": "CC(C)(C)O",
+     "cap": "I"
+    },
+    {
+     "smi": "OC1CCCCC1",
+     "cap": "II"
+    },
+    {
+     "smi": "CCC(C)O",
+     "cap": "III"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1119
+  }
+ },
+ {
+  "id": "finalexam-2d95b61e",
+  "skill": "finalexam.3b.carbonyls",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-5"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "midterm",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which statements about aldehydes and ketones are true? I. In a ketone, the C=O carbon is at the end of the carbon chain. II. Propanal boils at a higher temperature than 1-propanol because aldehyde molecules hydrogen bond to each other. III. Reducing propanone (adding H₂) gives 2-propanol.",
+  "choices": [
+   "III only",
+   "II and III only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "answer": "III only",
+  "hint": "Recall where the C=O sits in an aldehyde versus a ketone, and which group lets molecules hydrogen bond to each other.",
+  "explain": "III only. I is false: the C=O carbon of a ketone is bonded to two carbons, so it sits inside the chain; an end-of-chain C=O bonded to H is an aldehyde. II is false: propanal has no O–H, so its molecules cannot hydrogen bond to each other, and it boils lower (48 °C) than 1-propanol (97 °C). III is true: reducing a ketone gives a secondary alcohol, and propanone gives 2-propanol.",
+  "why": [
+   "",
+   "Statement II is false. An aldehyde has no H on oxygen, so its molecules cannot hydrogen bond to each other, and 1-propanol boils higher.",
+   "Statement I is false. A C=O at the end of a chain, bonded to an H, is an aldehyde. A ketone's C=O carbon is bonded to two carbons.",
+   "Statement II is false. Without an O–H, aldehyde molecules cannot hydrogen bond to each other."
+  ],
+  "html": {
+   "prompt": "Which statements about aldehydes and ketones are true?<br>I. In a ketone, the C=O carbon is at the end of the carbon chain.<br>II. Propanal boils at a higher temperature than 1-propanol because aldehyde molecules hydrogen bond to each other.<br>III. Reducing propanone (adding H<sub>2</sub>) gives 2-propanol.",
+   "choices": [
+    "III only",
+    "II and III only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "hint": "Recall where the C=O sits in an aldehyde versus a ketone, and which group lets molecules hydrogen bond to each other.",
+   "explain": "<b>III only</b>. I is false: the C=O carbon of a ketone is bonded to two carbons, so it sits inside the chain; an end-of-chain C=O bonded to H is an aldehyde. II is false: propanal has no O–H, so its molecules cannot hydrogen bond to each other, and it boils lower (48 °C) than 1-propanol (97 °C). III is true: reducing a ketone gives a secondary alcohol, and propanone gives 2-propanol.",
+   "why": [
+    "",
+    "Statement II is false. An aldehyde has no H on oxygen, so its molecules cannot hydrogen bond to each other, and 1-propanol boils higher.",
+    "Statement I is false. A C=O at the end of a chain, bonded to an H, is an aldehyde. A ketone's C=O carbon is bonded to two carbons.",
+    "Statement II is false. Without an O–H, aldehyde molecules cannot hydrogen bond to each other."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1120
+  }
+ },
+ {
+  "id": "finalexam-c31917fa",
+  "skill": "finalexam.3b.chirality",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-6"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Glycerol (I), 2-bromobutane (II) and alanine (III) are shown. Which of them contain a chiral carbon?",
+  "choices": [
+   "II and III only",
+   "I, II and III",
+   "III only",
+   "I and III only"
+  ],
+  "answer": "II and III only",
+  "hint": "A chiral carbon has four different groups attached. Check carefully whether two groups on a carbon are really the same.",
+  "explain": "II and III only. In 2-bromobutane (II), C2 bears H, Br, CH₃ and CH₂CH₃; in alanine (III), the α carbon bears H, NH₂, CH₃ and COOH. Glycerol (I) has no chiral carbon: its middle carbon bears H, OH and two identical CH₂OH groups, and each end carbon has two H atoms.",
+  "why": [
+   "",
+   "Glycerol (I) is not chiral. Its middle carbon carries two identical –CH₂OH groups.",
+   "Molecule II also has a chiral carbon. C2 holds H, Br, CH₃ and CH₂CH₃, four different groups.",
+   "Glycerol (I) has no carbon with four different groups. The middle carbon has two identical CH₂OH groups."
+  ],
+  "html": {
+   "prompt": "Glycerol (I), 2-bromobutane (II) and alanine (III) are shown. Which of them contain a chiral carbon?",
+   "choices": [
+    "II and III only",
+    "I, II and III",
+    "III only",
+    "I and III only"
+   ],
+   "hint": "A chiral carbon has four different groups attached. Check carefully whether two groups on a carbon are really the same.",
+   "explain": "<b>II and III only</b>. In 2-bromobutane (II), C2 bears H, Br, CH<sub>3</sub> and CH<sub>2</sub>CH<sub>3</sub>; in alanine (III), the α carbon bears H, NH<sub>2</sub>, CH<sub>3</sub> and COOH. Glycerol (I) has no chiral carbon: its middle carbon bears H, OH and two identical CH<sub>2</sub>OH groups, and each end carbon has two H atoms.",
+   "why": [
+    "",
+    "Glycerol (I) is not chiral. Its middle carbon carries two identical –CH₂OH groups.",
+    "Molecule II also has a chiral carbon. C2 holds H, Br, CH₃ and CH₂CH₃, four different groups.",
+    "Glycerol (I) has no carbon with four different groups. The middle carbon has two identical CH₂OH groups."
+   ]
+  },
+  "data": {
+   "s": [
+    {
+     "smi": "OCC(O)CO",
+     "cap": "I"
+    },
+    {
+     "smi": "CCC(C)Br",
+     "cap": "II"
+    },
+    {
+     "smi": "CC(N)C(=O)O",
+     "cap": "III"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1121
+  }
+ },
+ {
+  "id": "finalexam-c08979af",
+  "skill": "finalexam.3b.acids_esters",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-7"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Acetic acid and methyl acetate are shown. Which statements are true? I. Acetic acid is a weak acid that is only partly ionized in water. II. At the body's pH of 7.4, acetic acid exists mainly as un-ionized CH₃COOH. III. Acetic acid boils at a higher temperature than methyl acetate because acetic acid molecules hydrogen bond to each other.",
+  "choices": [
+   "I and III only",
+   "I only",
+   "I and II only",
+   "II and III only"
+  ],
+  "answer": "I and III only",
+  "hint": "Carboxylic acids lose H⁺ in solutions that are much less acidic than the acid itself. Esters have no O–H.",
+  "explain": "I and III only. I is true: acetic acid is a weak acid, so only a small fraction of its molecules ionize in water. II is false: pH 7.4 is far less acidic than acetic acid's pK_a (about 4.8), so nearly all of it is present as the acetate ion, CH₃COO⁻. III is true: acetic acid (118 °C) has an O–H and hydrogen bonds to itself, while methyl acetate (57 °C) has no O–H.",
+  "why": [
+   "",
+   "Statement III is true. Acetic acid has an O–H and hydrogen bonds to itself, while methyl acetate has no O–H.",
+   "Statement II is false. At pH 7.4, well above acetic acid's pKa of about 4.8, nearly all of it is ionized as acetate.",
+   "Statement II is false. In the near-neutral pH of the body a carboxylic acid loses its H⁺ and exists mainly as the carboxylate ion."
+  ],
+  "html": {
+   "prompt": "Acetic acid and methyl acetate are shown. Which statements are true?<br>I. Acetic acid is a weak acid that is only partly ionized in water.<br>II. At the body's pH of 7.4, acetic acid exists mainly as un-ionized CH<sub>3</sub>COOH.<br>III. Acetic acid boils at a higher temperature than methyl acetate because acetic acid molecules hydrogen bond to each other.",
+   "choices": [
+    "I and III only",
+    "I only",
+    "I and II only",
+    "II and III only"
+   ],
+   "hint": "Carboxylic acids lose H<sup>+</sup> in solutions that are much less acidic than the acid itself. Esters have no O–H.",
+   "explain": "<b>I and III only</b>. I is true: acetic acid is a weak acid, so only a small fraction of its molecules ionize in water. II is false: pH 7.4 is far less acidic than acetic acid's pK<sub>a</sub> (about 4.8), so nearly all of it is present as the acetate ion, CH<sub>3</sub>COO<sup>−</sup>. III is true: acetic acid (118 °C) has an O–H and hydrogen bonds to itself, while methyl acetate (57 °C) has no O–H.",
+   "why": [
+    "",
+    "Statement III is true. Acetic acid has an O–H and hydrogen bonds to itself, while methyl acetate has no O–H.",
+    "Statement II is false. At pH 7.4, well above acetic acid's pKa of about 4.8, nearly all of it is ionized as acetate.",
+    "Statement II is false. In the near-neutral pH of the body a carboxylic acid loses its H⁺ and exists mainly as the carboxylate ion."
+   ]
+  },
+  "data": {
+   "s": [
+    {
+     "smi": "CC(=O)O",
+     "cap": "acetic acid"
+    },
+    {
+     "smi": "CC(=O)OC",
+     "cap": "methyl acetate"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1122
+  }
+ },
+ {
+  "id": "finalexam-1c2b5dc2",
+  "skill": "finalexam.3b.amines",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-8"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which of amines I–III are secondary (2°)?",
+  "choices": [
+   "II only",
+   "II and III only",
+   "I and II only",
+   "III only"
+  ],
+  "answer": "II only",
+  "hint": "For amines, count the carbon groups bonded directly to the nitrogen (not to a carbon, as you do for alcohols).",
+  "explain": "II only. Amines are classified by the number of carbon groups on N. Propylamine (I) has one (1°), ethylmethylamine (II) has two (2°) and trimethylamine (III) has three (3°). Only II is secondary.",
+  "why": [
+   "",
+   "Amine III is tertiary. Its nitrogen is bonded to three carbon groups and has no N–H.",
+   "Amine I is primary. Its nitrogen is bonded to only one carbon, the end of the propyl chain.",
+   "Amine III is tertiary, not secondary. Count the carbon groups on its nitrogen and you get three."
+  ],
+  "html": {
+   "prompt": "Which of amines I–III are secondary (2°)?",
+   "choices": [
+    "II only",
+    "II and III only",
+    "I and II only",
+    "III only"
+   ],
+   "hint": "For amines, count the carbon groups bonded directly to the nitrogen (not to a carbon, as you do for alcohols).",
+   "explain": "<b>II only</b>. Amines are classified by the number of carbon groups on N. Propylamine (I) has one (1°), ethylmethylamine (II) has two (2°) and trimethylamine (III) has three (3°). Only II is secondary.",
+   "why": [
+    "",
+    "Amine III is tertiary. Its nitrogen is bonded to three carbon groups and has no N–H.",
+    "Amine I is primary. Its nitrogen is bonded to only one carbon, the end of the propyl chain.",
+    "Amine III is tertiary, not secondary. Count the carbon groups on its nitrogen and you get three."
+   ]
+  },
+  "data": {
+   "s": [
+    {
+     "smi": "CCCN",
+     "cap": "I"
+    },
+    {
+     "smi": "CCNC",
+     "cap": "II"
+    },
+    {
+     "smi": "CN(C)C",
+     "cap": "III"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1123
+  }
+ },
+ {
+  "id": "finalexam-e9198bb5",
+  "skill": "finalexam.3b.carbs",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which statements about monosaccharides and disaccharides are true? I. Glucose and galactose differ only in the orientation of the –OH on one carbon (C4). II. Sucrose is a reducing sugar. III. Fructose is an aldohexose.",
+  "choices": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "answer": "I only",
+  "hint": "Ask which sugars have a free anomeric carbon that can open to a C=O, and where the C=O sits in open-chain fructose.",
+  "explain": "I only. I is true: glucose and galactose are both aldohexoses that differ only at C4. II is false: sucrose joins glucose C1 to fructose C2, so neither ring can open, and sucrose does not react with Benedict's reagent. III is false: fructose has its C=O at C2, a ketone, so it is a ketohexose.",
+  "why": [
+   "",
+   "Statement II is false. In sucrose both anomeric carbons are tied up in the glycosidic bond, so it cannot open and reduce Benedict's reagent.",
+   "Statement III is false. Fructose has a ketone group at C2, so it is a ketohexose.",
+   "Statement I is true. Glucose and galactose are both aldohexoses that differ only at C4."
+  ],
+  "html": {
+   "prompt": "Which statements about monosaccharides and disaccharides are true?<br>I. Glucose and galactose differ only in the orientation of the –OH on one carbon (C4).<br>II. Sucrose is a reducing sugar.<br>III. Fructose is an aldohexose.",
+   "choices": [
+    "I only",
+    "I and II only",
+    "I and III only",
+    "II and III only"
+   ],
+   "hint": "Ask which sugars have a free anomeric carbon that can open to a C=O, and where the C=O sits in open-chain fructose.",
+   "explain": "<b>I only</b>. I is true: glucose and galactose are both aldohexoses that differ only at C4. II is false: sucrose joins glucose C1 to fructose C2, so neither ring can open, and sucrose does not react with Benedict's reagent. III is false: fructose has its C=O at C2, a ketone, so it is a ketohexose.",
+   "why": [
+    "",
+    "Statement II is false. In sucrose both anomeric carbons are tied up in the glycosidic bond, so it cannot open and reduce Benedict's reagent.",
+    "Statement III is false. Fructose has a ketone group at C2, so it is a ketohexose.",
+    "Statement I is true. Glucose and galactose are both aldohexoses that differ only at C4."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1124
+  }
+ },
+ {
+  "id": "finalexam-d08348db",
+  "skill": "finalexam.3b.carbs",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-9"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which statements about polysaccharides are true? I. Amylose and cellulose are both polymers of glucose. II. Humans can digest cellulose because its glucose units are joined by α(1→4) glycosidic bonds. III. Glycogen is more highly branched than amylopectin.",
+  "choices": [
+   "I and III only",
+   "I only",
+   "I, II and III",
+   "II and III only"
+  ],
+  "answer": "I and III only",
+  "hint": "Compare the type of glycosidic link (α or β) in starch and cellulose, and how often each storage polymer branches.",
+  "explain": "I and III only. I is true: amylose and cellulose are both unbranched chains of glucose. II is false: cellulose's glucose units are joined by β(1→4) links, which human enzymes cannot hydrolyze, so cellulose passes through as fiber. III is true: glycogen branches about every 8–12 glucose units, more often than amylopectin (about every 24–30).",
+  "why": [
+   "",
+   "Statement III is true. Glycogen branches about every 8 to 12 glucose units, more often than amylopectin does.",
+   "Statement II is false. Cellulose has β(1→4) links, and human enzymes cannot break them.",
+   "Statement II is false. Humans lack an enzyme for the β(1→4) links in cellulose, so cellulose passes through as fiber."
+  ],
+  "html": {
+   "prompt": "Which statements about polysaccharides are true?<br>I. Amylose and cellulose are both polymers of glucose.<br>II. Humans can digest cellulose because its glucose units are joined by α(1→4) glycosidic bonds.<br>III. Glycogen is more highly branched than amylopectin.",
+   "choices": [
+    "I and III only",
+    "I only",
+    "I, II and III",
+    "II and III only"
+   ],
+   "hint": "Compare the type of glycosidic link (α or β) in starch and cellulose, and how often each storage polymer branches.",
+   "explain": "<b>I and III only</b>. I is true: amylose and cellulose are both unbranched chains of glucose. II is false: cellulose's glucose units are joined by β(1→4) links, which human enzymes cannot hydrolyze, so cellulose passes through as fiber. III is true: glycogen branches about every 8–12 glucose units, more often than amylopectin (about every 24–30).",
+   "why": [
+    "",
+    "Statement III is true. Glycogen branches about every 8 to 12 glucose units, more often than amylopectin does.",
+    "Statement II is false. Cellulose has β(1→4) links, and human enzymes cannot break them.",
+    "Statement II is false. Humans lack an enzyme for the β(1→4) links in cellulose, so cellulose passes through as fiber."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1125
+  }
+ },
+ {
+  "id": "finalexam-d9e6e5fc",
+  "skill": "finalexam.3b.lipids",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-10"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which statements about fats and oils are true? I. Vegetable oils are liquid at room temperature mainly because cis double bonds put kinks in their fatty acid chains. II. Hydrogenating an oil adds H₂ to C=C bonds and raises its melting point. III. Cholesterol is a triacylglycerol.",
+  "choices": [
+   "I and II only",
+   "I only",
+   "I, II and III",
+   "II and III only"
+  ],
+  "answer": "I and II only",
+  "hint": "Think about how chain shape affects how closely molecules pack, and what a triacylglycerol is built from.",
+  "explain": "I and II only. I is true: cis double bonds bend the chains, so oil molecules pack loosely and melt below room temperature. II is true: hydrogenation removes C=C bonds, the straighter chains pack better, and the melting point rises (oil becomes a soft solid such as margarine). III is false: cholesterol is a steroid with four fused rings, not glycerol esterified to three fatty acids.",
+  "why": [
+   "",
+   "Statement II is true. Adding H₂ removes C=C bonds, the straighter chains pack better, and the fat melts at a higher temperature.",
+   "Statement III is false. Cholesterol is a steroid with four fused rings, not glycerol joined to three fatty acids.",
+   "Statement III is false. Cholesterol has a fused four-ring steroid skeleton, not a glycerol backbone with fatty acids."
+  ],
+  "html": {
+   "prompt": "Which statements about fats and oils are true?<br>I. Vegetable oils are liquid at room temperature mainly because cis double bonds put kinks in their fatty acid chains.<br>II. Hydrogenating an oil adds H<sub>2</sub> to C=C bonds and raises its melting point.<br>III. Cholesterol is a triacylglycerol.",
+   "choices": [
+    "I and II only",
+    "I only",
+    "I, II and III",
+    "II and III only"
+   ],
+   "hint": "Think about how chain shape affects how closely molecules pack, and what a triacylglycerol is built from.",
+   "explain": "<b>I and II only</b>. I is true: cis double bonds bend the chains, so oil molecules pack loosely and melt below room temperature. II is true: hydrogenation removes C=C bonds, the straighter chains pack better, and the melting point rises (oil becomes a soft solid such as margarine). III is false: cholesterol is a steroid with four fused rings, not glycerol esterified to three fatty acids.",
+   "why": [
+    "",
+    "Statement II is true. Adding H₂ removes C=C bonds, the straighter chains pack better, and the fat melts at a higher temperature.",
+    "Statement III is false. Cholesterol is a steroid with four fused rings, not glycerol joined to three fatty acids.",
+    "Statement III is false. Cholesterol has a fused four-ring steroid skeleton, not a glycerol backbone with fatty acids."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1126
+  }
+ },
+ {
+  "id": "finalexam-b81def89",
+  "skill": "finalexam.3b.lipids",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-10"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Rank the fatty acids from lowest to highest melting point. I. stearic acid: 18 carbons, saturated II. oleic acid: 18 carbons, one cis C=C III. palmitic acid: 16 carbons, saturated",
+  "choices": [
+   "II < III < I",
+   "III < I < II",
+   "II < I < III",
+   "III < II < I"
+  ],
+  "answer": "II < III < I",
+  "hint": "A cis double bond kinks the chain and spoils packing. Among saturated chains, a longer chain has more dispersion forces.",
+  "explain": "II < III < I. Oleic acid (II) melts lowest (about 13 °C) because its cis double bond kinks the chain and prevents close packing. Of the two saturated acids, the longer stearic acid (I, about 69 °C) has more dispersion forces and melts higher than palmitic acid (III, about 63 °C).",
+  "why": [
+   "",
+   "This order puts oleic acid highest. A cis C=C bends the chain, so the molecules pack poorly and melt at a lower temperature, not a higher one.",
+   "Palmitic acid is placed above stearic acid here. Among saturated fatty acids, the longer chain has more dispersion forces and melts higher.",
+   "Palmitic acid is placed below oleic acid here. The cis kink lowers the melting point much more than removing two carbons does."
+  ],
+  "html": {
+   "prompt": "Rank the fatty acids from lowest to highest melting point.<br>I. stearic acid: 18 carbons, saturated<br>II. oleic acid: 18 carbons, one cis C=C<br>III. palmitic acid: 16 carbons, saturated",
+   "choices": [
+    "II &lt; III &lt; I",
+    "III &lt; I &lt; II",
+    "II &lt; I &lt; III",
+    "III &lt; II &lt; I"
+   ],
+   "hint": "A cis double bond kinks the chain and spoils packing. Among saturated chains, a longer chain has more dispersion forces.",
+   "explain": "<b>II &lt; III &lt; I</b>. Oleic acid (II) melts lowest (about 13 °C) because its cis double bond kinks the chain and prevents close packing. Of the two saturated acids, the longer stearic acid (I, about 69 °C) has more dispersion forces and melts higher than palmitic acid (III, about 63 °C).",
+   "why": [
+    "",
+    "This order puts oleic acid highest. A cis C=C bends the chain, so the molecules pack poorly and melt at a lower temperature, not a higher one.",
+    "Palmitic acid is placed above stearic acid here. Among saturated fatty acids, the longer chain has more dispersion forces and melts higher.",
+    "Palmitic acid is placed below oleic acid here. The cis kink lowers the melting point much more than removing two carbons does."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1127
+  }
+ },
+ {
+  "id": "finalexam-e5866b79",
+  "skill": "finalexam.3b.proteins",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-11"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which statements about protein structure are true? I. Primary structure is the sequence of amino acids joined by peptide bonds. II. The α-helix and β-pleated sheet are held mainly by hydrogen bonds between backbone C=O and N–H groups. III. Heating a protein until it denatures breaks its peptide bonds.",
+  "choices": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "I and II only",
+  "hint": "Denaturation unfolds a protein. Ask which levels of structure depend on weak attractions and which on covalent bonds.",
+  "explain": "I and II only. I is true: the order of amino acids linked by peptide (amide) bonds is the primary structure. II is true: secondary structures form when backbone C=O groups hydrogen bond to backbone N–H groups. III is false: heat disrupts hydrogen bonds and other attractions that hold the folded shape, but the covalent peptide bonds stay intact, so the primary structure survives.",
+  "why": [
+   "",
+   "Statement II is true. The C=O of one amino acid hydrogen bonds to the N–H of another along the backbone in both helices and sheets.",
+   "Statement I is true. The order of amino acids, linked by peptide bonds, is the primary structure.",
+   "Statement III is false. Heat disrupts hydrogen bonds and other attractions, but the covalent peptide bonds stay intact."
+  ],
+  "html": {
+   "prompt": "Which statements about protein structure are true?<br>I. Primary structure is the sequence of amino acids joined by peptide bonds.<br>II. The α-helix and β-pleated sheet are held mainly by hydrogen bonds between backbone C=O and N–H groups.<br>III. Heating a protein until it denatures breaks its peptide bonds.",
+   "choices": [
+    "I and II only",
+    "I only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Denaturation unfolds a protein. Ask which levels of structure depend on weak attractions and which on covalent bonds.",
+   "explain": "<b>I and II only</b>. I is true: the order of amino acids linked by peptide (amide) bonds is the primary structure. II is true: secondary structures form when backbone C=O groups hydrogen bond to backbone N–H groups. III is false: heat disrupts hydrogen bonds and other attractions that hold the folded shape, but the covalent peptide bonds stay intact, so the primary structure survives.",
+   "why": [
+    "",
+    "Statement II is true. The C=O of one amino acid hydrogen bonds to the N–H of another along the backbone in both helices and sheets.",
+    "Statement I is true. The order of amino acids, linked by peptide bonds, is the primary structure.",
+    "Statement III is false. Heat disrupts hydrogen bonds and other attractions, but the covalent peptide bonds stay intact."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1128
+  }
+ },
+ {
+  "id": "finalexam-407a8fef",
+  "skill": "finalexam.3b.enzymes",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-12"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "A human enzyme catalyzes a reaction at 37 °C when the substrate concentration is low. Which changes would increase the reaction rate? I. Heating the mixture to 80 °C II. Adding more enzyme III. Adding more substrate",
+  "choices": [
+   "II and III only",
+   "III only",
+   "I, II and III",
+   "I and III only"
+  ],
+  "answer": "II and III only",
+  "hint": "At low substrate concentration many active sites are empty. Think about what very high temperature does to a protein's shape.",
+  "explain": "II and III only. I is false: at 80 °C a human enzyme denatures, its active site loses its shape, and the rate drops. II is true: more enzyme means more active sites working at once. III is true: at low substrate concentration the active sites are not saturated, so more substrate means more enzyme–substrate complexes per second.",
+  "why": [
+   "",
+   "Change II also raises the rate. More enzyme molecules means more active sites working at once.",
+   "Change I does not raise the rate. A human enzyme denatures well below 80 °C and its active site loses its shape.",
+   "Change I lowers the rate. At 80 °C a human enzyme denatures."
+  ],
+  "html": {
+   "prompt": "A human enzyme catalyzes a reaction at 37 °C when the substrate concentration is low. Which changes would increase the reaction rate?<br>I. Heating the mixture to 80 °C<br>II. Adding more enzyme<br>III. Adding more substrate",
+   "choices": [
+    "II and III only",
+    "III only",
+    "I, II and III",
+    "I and III only"
+   ],
+   "hint": "At low substrate concentration many active sites are empty. Think about what very high temperature does to a protein's shape.",
+   "explain": "<b>II and III only</b>. I is false: at 80 °C a human enzyme denatures, its active site loses its shape, and the rate drops. II is true: more enzyme means more active sites working at once. III is true: at low substrate concentration the active sites are not saturated, so more substrate means more enzyme–substrate complexes per second.",
+   "why": [
+    "",
+    "Change II also raises the rate. More enzyme molecules means more active sites working at once.",
+    "Change I does not raise the rate. A human enzyme denatures well below 80 °C and its active site loses its shape.",
+    "Change I lowers the rate. At 80 °C a human enzyme denatures."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1129
+  }
+ },
+ {
+  "id": "finalexam-00402d3c",
+  "skill": "finalexam.3b.nucleic",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-13"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which statements about nucleic acids are true? I. DNA contains the sugar deoxyribose, while RNA contains ribose. II. A G–C base pair is held by three hydrogen bonds, while an A–T pair is held by two. III. Each nucleotide contains a nitrogen base, a five-carbon sugar and a phosphate group.",
+  "choices": [
+   "I, II and III",
+   "I and III only",
+   "II and III only",
+   "I only"
+  ],
+  "answer": "I, II and III",
+  "hint": "Recall the three parts of a nucleotide, how the two sugars differ, and how many hydrogen bonds each base pair forms.",
+  "explain": "I, II and III. I is true: RNA's ribose has an –OH on C2′, where DNA's deoxyribose has only H. II is true: G and C share three hydrogen bonds and A and T share two, so G–C rich DNA is harder to separate. III is true: a nucleotide is a base joined to a pentose sugar that carries a phosphate group.",
+  "why": [
+   "",
+   "Statement II is true. G and C are joined by three hydrogen bonds and A and T by two.",
+   "Statement I is true. RNA's ribose has an –OH on C2′ where DNA's deoxyribose has only an H.",
+   "Statement III is true. A nucleotide is a nitrogen base, a five-carbon sugar and a phosphate joined together."
+  ],
+  "html": {
+   "prompt": "Which statements about nucleic acids are true?<br>I. DNA contains the sugar deoxyribose, while RNA contains ribose.<br>II. A G–C base pair is held by three hydrogen bonds, while an A–T pair is held by two.<br>III. Each nucleotide contains a nitrogen base, a five-carbon sugar and a phosphate group.",
+   "choices": [
+    "I, II and III",
+    "I and III only",
+    "II and III only",
+    "I only"
+   ],
+   "hint": "Recall the three parts of a nucleotide, how the two sugars differ, and how many hydrogen bonds each base pair forms.",
+   "explain": "<b>I, II and III</b>. I is true: RNA's ribose has an –OH on C2′, where DNA's deoxyribose has only H. II is true: G and C share three hydrogen bonds and A and T share two, so G–C rich DNA is harder to separate. III is true: a nucleotide is a base joined to a pentose sugar that carries a phosphate group.",
+   "why": [
+    "",
+    "Statement II is true. G and C are joined by three hydrogen bonds and A and T by two.",
+    "Statement I is true. RNA's ribose has an –OH on C2′ where DNA's deoxyribose has only an H.",
+    "Statement III is true. A nucleotide is a nitrogen base, a five-carbon sugar and a phosphate joined together."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1130
+  }
+ },
+ {
+  "id": "finalexam-8ef1d450",
+  "skill": "finalexam.3b.metabolism",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-14",
+   "3B-15",
+   "3B-16",
+   "3B-17"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 1,
+  "calc": false,
+  "prompt": "Which statements about glycolysis are true? I. Glycolysis requires O₂. II. Glycolysis takes place in the mitochondrial matrix. III. Glycolysis converts one glucose into two pyruvate with a net gain of 2 ATP.",
+  "choices": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "III only",
+  "hint": "Glycolysis is the first stage of glucose breakdown and also runs in cells working without enough oxygen.",
+  "explain": "III only. I is false: glycolysis is anaerobic and runs with or without O₂, which is why muscles can make lactate during hard exercise. II is false: glycolysis happens in the cytoplasm; the citric acid cycle is the stage in the mitochondrial matrix. III is true: one six-carbon glucose gives two three-carbon pyruvate, with 4 ATP made and 2 used, a net of 2 ATP (plus 2 NADH).",
+  "why": [
+   "",
+   "Statement I is false. Glycolysis runs with or without oxygen, which is why muscles can make lactate during hard exercise.",
+   "Statement II is false. Glycolysis happens in the cytoplasm. The citric acid cycle is the stage in the mitochondrial matrix.",
+   "Statement I is false. Glycolysis does not use O₂ at any step."
+  ],
+  "html": {
+   "prompt": "Which statements about glycolysis are true?<br>I. Glycolysis requires O<sub>2</sub>.<br>II. Glycolysis takes place in the mitochondrial matrix.<br>III. Glycolysis converts one glucose into two pyruvate with a net gain of 2 ATP.",
+   "choices": [
+    "III only",
+    "I and III only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Glycolysis is the first stage of glucose breakdown and also runs in cells working without enough oxygen.",
+   "explain": "<b>III only</b>. I is false: glycolysis is anaerobic and runs with or without O<sub>2</sub>, which is why muscles can make lactate during hard exercise. II is false: glycolysis happens in the cytoplasm; the citric acid cycle is the stage in the mitochondrial matrix. III is true: one six-carbon glucose gives two three-carbon pyruvate, with 4 ATP made and 2 used, a net of 2 ATP (plus 2 NADH).",
+   "why": [
+    "",
+    "Statement I is false. Glycolysis runs with or without oxygen, which is why muscles can make lactate during hard exercise.",
+    "Statement II is false. Glycolysis happens in the cytoplasm. The citric acid cycle is the stage in the mitochondrial matrix.",
+    "Statement I is false. Glycolysis does not use O₂ at any step."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1131
+  }
+ },
+ {
+  "id": "finalexam-52f9f5da",
+  "skill": "finalexam.3b.metabolism",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-14",
+   "3B-15",
+   "3B-16",
+   "3B-17"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "final",
+  "type": "mc",
+  "difficulty": 3,
+  "calc": false,
+  "prompt": "Rank by the number of ATP produced when each is fully oxidized through the citric acid cycle and electron transport chain, from fewest to most. I. one NADH II. one FADH₂ III. one acetyl CoA",
+  "choices": [
+   "II < I < III",
+   "I < II < III",
+   "II < III < I",
+   "III < I < II"
+  ],
+  "answer": "II < I < III",
+  "hint": "FADH₂ passes its electrons in after complex I. One turn of the citric acid cycle makes several reduced coenzymes.",
+  "explain": "II < I < III. Using about 2.5 ATP per NADH and 1.5 per FADH₂, FADH₂ (II) gives fewer ATP than NADH (I) because its electrons enter at coenzyme Q and skip complex I's proton pumping. One acetyl CoA (III) gives 3 NADH, 1 FADH₂ and 1 GTP in the citric acid cycle: 3(2.5) + 1.5 + 1 = 10 ATP.",
+  "why": [
+   "",
+   "This puts FADH₂ above NADH. FADH₂ passes its electrons in after complex I, so fewer H⁺ are pumped and fewer ATP form.",
+   "This puts one NADH above a whole acetyl CoA. One turn of the citric acid cycle makes 3 NADH, 1 FADH₂ and 1 GTP, far more than one NADH.",
+   "This puts acetyl CoA lowest. Each acetyl CoA feeds several NADH and an FADH₂ into the chain, so it yields the most ATP."
+  ],
+  "html": {
+   "prompt": "Rank by the number of ATP produced when each is fully oxidized through the citric acid cycle and electron transport chain, from fewest to most.<br>I. one NADH<br>II. one FADH<sub>2</sub><br>III. one acetyl CoA",
+   "choices": [
+    "II &lt; I &lt; III",
+    "I &lt; II &lt; III",
+    "II &lt; III &lt; I",
+    "III &lt; I &lt; II"
+   ],
+   "hint": "FADH<sub>2</sub> passes its electrons in after complex I. One turn of the citric acid cycle makes several reduced coenzymes.",
+   "explain": "<b>II &lt; I &lt; III</b>. Using about 2.5 ATP per NADH and 1.5 per FADH<sub>2</sub>, FADH<sub>2</sub> (II) gives fewer ATP than NADH (I) because its electrons enter at coenzyme Q and skip complex I's proton pumping. One acetyl CoA (III) gives 3 NADH, 1 FADH<sub>2</sub> and 1 GTP in the citric acid cycle: 3(2.5) + 1.5 + 1 = 10 ATP.",
+   "why": [
+    "",
+    "This puts FADH₂ above NADH. FADH₂ passes its electrons in after complex I, so fewer H⁺ are pumped and fewer ATP form.",
+    "This puts one NADH above a whole acetyl CoA. One turn of the citric acid cycle makes 3 NADH, 1 FADH₂ and 1 GTP, far more than one NADH.",
+    "This puts acetyl CoA lowest. Each acetyl CoA feeds several NADH and an FADH₂ into the chain, so it yields the most ATP."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1132
+  }
+ },
+ {
+  "id": "finalexam-9f80ca1d",
+  "skill": "finalexam.3b.properties",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Compounds I–III all have a molar mass of about 74 g/mol. Rank them from lowest to highest boiling point.",
+  "choices": [
+   "III < II < I",
+   "II < III < I",
+   "III < I < II",
+   "I < II < III"
+  ],
+  "answer": "III < II < I",
+  "hint": "With similar masses, compare the attractions between molecules: which have no O–H, one O–H, or an O–H plus a C=O?",
+  "explain": "III < II < I. Diethyl ether (III, 35 °C) has no O–H, so its molecules cannot hydrogen bond to each other. 1-Butanol (II, 118 °C) hydrogen bonds through its O–H. Propanoic acid (I, 141 °C) boils highest because pairs of acid molecules hold together by two hydrogen bonds (C=O to O–H both ways).",
+  "why": [
+   "",
+   "Diethyl ether is placed above 1-butanol here. The ether has no O–H, so its molecules cannot hydrogen bond to each other.",
+   "1-Butanol is placed above propanoic acid here. Carboxylic acid molecules pair up through two hydrogen bonds, so the acid boils above an alcohol of the same mass.",
+   "This order is reversed. The ether has the weakest attractions between its molecules, so it boils lowest."
+  ],
+  "html": {
+   "prompt": "Compounds I–III all have a molar mass of about 74 g/mol. Rank them from lowest to highest boiling point.",
+   "choices": [
+    "III &lt; II &lt; I",
+    "II &lt; III &lt; I",
+    "III &lt; I &lt; II",
+    "I &lt; II &lt; III"
+   ],
+   "hint": "With similar masses, compare the attractions between molecules: which have no O–H, one O–H, or an O–H plus a C=O?",
+   "explain": "<b>III &lt; II &lt; I</b>. Diethyl ether (III, 35 °C) has no O–H, so its molecules cannot hydrogen bond to each other. 1-Butanol (II, 118 °C) hydrogen bonds through its O–H. Propanoic acid (I, 141 °C) boils highest because pairs of acid molecules hold together by two hydrogen bonds (C=O to O–H both ways).",
+   "why": [
+    "",
+    "Diethyl ether is placed above 1-butanol here. The ether has no O–H, so its molecules cannot hydrogen bond to each other.",
+    "1-Butanol is placed above propanoic acid here. Carboxylic acid molecules pair up through two hydrogen bonds, so the acid boils above an alcohol of the same mass.",
+    "This order is reversed. The ether has the weakest attractions between its molecules, so it boils lowest."
+   ]
+  },
+  "data": {
+   "s": [
+    {
+     "smi": "CCC(=O)O",
+     "cap": "I"
+    },
+    {
+     "smi": "CCCCO",
+     "cap": "II"
+    },
+    {
+     "smi": "CCOCC",
+     "cap": "III"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1133
+  }
+ },
+ {
+  "id": "finalexam-af33259d",
+  "skill": "finalexam.3b.properties",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-1"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "midterm",
+  "type": "mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which statements about solubility in water are true? I. 1-Pentanol is less soluble in water than ethanol. II. Hexane does not dissolve in water because it cannot hydrogen bond with water. III. Acetone dissolves in water because water's O–H hydrogen bonds to acetone's C=O oxygen.",
+  "choices": [
+   "I, II and III",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "answer": "I, II and III",
+  "hint": "Compare the polar part and the nonpolar part of each molecule, and ask whether it can hydrogen bond with water.",
+  "explain": "I, II and III. I is true: 1-pentanol's longer nonpolar chain outweighs its one –OH, while ethanol mixes with water in all proportions. II is true: hexane has only C–H bonds, cannot hydrogen bond with water and forms a separate layer. III is true: acetone has no O–H of its own, but the lone pairs on its C=O oxygen accept hydrogen bonds from water.",
+  "why": [
+   "",
+   "Statement III is true. Acetone's C=O oxygen has lone pairs that accept hydrogen bonds from water.",
+   "Statement II is true. Hexane has only C–H bonds, so it cannot hydrogen bond with water and stays as a separate layer.",
+   "Statement I is true. The longer nonpolar chain of 1-pentanol makes it less soluble than ethanol, which mixes with water in all proportions."
+  ],
+  "html": {
+   "prompt": "Which statements about solubility in water are true?<br>I. 1-Pentanol is less soluble in water than ethanol.<br>II. Hexane does not dissolve in water because it cannot hydrogen bond with water.<br>III. Acetone dissolves in water because water's O–H hydrogen bonds to acetone's C=O oxygen.",
+   "choices": [
+    "I, II and III",
+    "I and II only",
+    "I and III only",
+    "II and III only"
+   ],
+   "hint": "Compare the polar part and the nonpolar part of each molecule, and ask whether it can hydrogen bond with water.",
+   "explain": "<b>I, II and III</b>. I is true: 1-pentanol's longer nonpolar chain outweighs its one –OH, while ethanol mixes with water in all proportions. II is true: hexane has only C–H bonds, cannot hydrogen bond with water and forms a separate layer. III is true: acetone has no O–H of its own, but the lone pairs on its C=O oxygen accept hydrogen bonds from water.",
+   "why": [
+    "",
+    "Statement III is true. Acetone's C=O oxygen has lone pairs that accept hydrogen bonds from water.",
+    "Statement II is true. Hexane has only C–H bonds, so it cannot hydrogen bond with water and stays as a separate layer.",
+    "Statement I is true. The longer nonpolar chain of 1-pentanol makes it less soluble than ethanol, which mixes with water in all proportions."
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1134
+  }
+ },
+ {
+  "id": "finalexam-ef5bedd3",
+  "skill": "finalexam.3b.isomers",
+  "courses": [
+   "3B"
+  ],
+  "chapters": [
+   "3B-2",
+   "3B-6"
+  ],
+  "origin": "original",
+  "made": "acs-style",
+  "exam": "midterm",
+  "type": "finalboss-mc",
+  "difficulty": 2,
+  "calc": false,
+  "prompt": "Which of alkenes I–III can exist as cis and trans isomers?",
+  "choices": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "answer": "III only",
+  "hint": "Look at each carbon of the C=C. Cis–trans isomers need two different groups on both of those carbons.",
+  "explain": "III only. In 2-pentene (III), one C=C carbon holds H and CH₃ and the other holds H and CH₂CH₃, so cis and trans forms exist. 1-Butene (I) has a CH₂= end carbon with two identical H atoms. 2-Methylpropene (II) has two H on one C=C carbon and two CH₃ on the other.",
+  "why": [
+   "",
+   "Compound I cannot. Its end carbon is CH₂=, with two identical H atoms.",
+   "Compound II cannot. Each carbon of its double bond has two identical groups.",
+   "Compound II cannot. One carbon of its C=C holds two CH₃ groups, so swapping sides gives the same molecule."
+  ],
+  "html": {
+   "prompt": "Which of alkenes I–III can exist as cis and trans isomers?",
+   "choices": [
+    "III only",
+    "I and III only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "hint": "Look at each carbon of the C=C. Cis–trans isomers need two different groups on both of those carbons.",
+   "explain": "<b>III only</b>. In 2-pentene (III), one C=C carbon holds H and CH<sub>3</sub> and the other holds H and CH<sub>2</sub>CH<sub>3</sub>, so cis and trans forms exist. 1-Butene (I) has a CH<sub>2</sub>= end carbon with two identical H atoms. 2-Methylpropene (II) has two H on one C=C carbon and two CH<sub>3</sub> on the other.",
+   "why": [
+    "",
+    "Compound I cannot. Its end carbon is CH₂=, with two identical H atoms.",
+    "Compound II cannot. Each carbon of its double bond has two identical groups.",
+    "Compound II cannot. One carbon of its C=C holds two CH₃ groups, so swapping sides gives the same molecule."
+   ]
+  },
+  "data": {
+   "s": [
+    {
+     "smi": "C=CCC",
+     "cap": "I"
+    },
+    {
+     "smi": "C=C(C)C",
+     "cap": "II"
+    },
+    {
+     "smi": "CC=CCC",
+     "cap": "III"
+    }
+   ]
+  },
+  "from": {
+   "game": "finalexam",
+   "list": "BANK.3B",
+   "index": 1135
   }
  }
 ]

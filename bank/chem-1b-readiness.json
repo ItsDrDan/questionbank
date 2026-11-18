@@ -722,7 +722,7 @@
   "answer": "Average translational kinetic energy",
   "choices": [
    "Average translational kinetic energy",
-   "Average molecular speed",
+   "Average molecular speed of the gas",
    "Molecular mass",
    "Density"
   ],
@@ -868,7 +868,7 @@
   "answer": "Mostly acid molecules with some ions",
   "choices": [
    "Mostly acid molecules with some ions",
-   "Only free H+ and acetate ions",
+   "Only free H+ and acetate ions, with no acid molecules left",
    "No particles are present",
    "Only neutral carbon atoms"
   ],
@@ -1086,7 +1086,7 @@
    "Equivalence is stoichiometric; endpoint is an observed signal",
    "They always mean exactly the same volume",
    "Endpoint means all ions disappear",
-   "Equivalence always means pH 7"
+   "Equivalence always means pH 7, whatever acid is used"
   ],
   "explain": "The endpoint is the indicator or instrument response; it approximates equivalence.",
   "from": {
@@ -1408,7 +1408,7 @@
   "answer": "Particles move faster and collide harder and more often",
   "choices": [
    "Particles move faster and collide harder and more often",
-   "Molecules get larger",
+   "Molecules get larger, so they hit each other more easily",
    "The number of reactant molecules increases",
    "Products stop forming"
   ],
@@ -1462,7 +1462,7 @@
   ]
  },
  {
-  "id": "chem1bready-de058c98",
+  "id": "chem1bready-cf685be8",
   "skill": "bridge.kinetics-equilibrium",
   "courses": [
    "1A",
@@ -1477,9 +1477,9 @@
   "type": "mc",
   "title": "Concentration and collisions",
   "prompt": "You double the concentration of a reactant in solution. What happens to the collisions per second?",
-  "answer": "They increase (more particles in the same volume)",
+  "answer": "They increase",
   "choices": [
-   "They increase (more particles in the same volume)",
+   "They increase",
    "They decrease",
    "They stay the same",
    "They stop"
@@ -1724,7 +1724,7 @@
   ]
  },
  {
-  "id": "chem1bready-e1cf4229",
+  "id": "chem1bready-855b6667",
   "skill": "bridge.math-gym",
   "courses": [
    "1A",
@@ -1741,9 +1741,9 @@
   "type": "mc",
   "title": "Which root?",
   "prompt": "A quadratic from an ICE table gives x = 0.031 and x = −0.52. Which is right?",
-  "answer": "x = 0.031 (a concentration change can’t be negative)",
+  "answer": "x = 0.031",
   "choices": [
-   "x = 0.031 (a concentration change can’t be negative)",
+   "x = 0.031",
    "x = −0.52",
    "Both are valid",
    "Neither"
@@ -1800,7 +1800,7 @@
   ]
  },
  {
-  "id": "chem1bready-ee5440b0",
+  "id": "chem1bready-9a3038e8",
   "skill": "bridge.math-gym",
   "courses": [
    "1A",
@@ -1817,9 +1817,9 @@
   "type": "mc",
   "title": "Doubling test",
   "prompt": "Rate = k[A]². If [A] is doubled, the rate…",
-  "answer": "Quadruples (2² = 4)",
+  "answer": "Quadruples",
   "choices": [
-   "Quadruples (2² = 4)",
+   "Quadruples",
    "Doubles",
    "Stays the same",
    "Halves"
