@@ -5478,6 +5478,32 @@
   }
  },
  {
+  "id": "stoichiometry-121c5368",
+  "skill": "stoichiometry.learn-stp",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span> + 5 <span class=\"formula\">O<sub>2</sub></span> &rarr; 3 <span class=\"formula\">CO<sub>2</sub></span> + 4 <span class=\"formula\">H<sub>2</sub>O</span></div><div>What mass (in grams) of <span class=\"formula\">CO<sub>2</sub></span> can form from <span class=\"measure\">224 L</span> <span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span>? The gas is measured at <b>STP</b>. Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">C<sub>3</sub>H<sub>8</sub></span></td><td>44.097</td></tr><tr><td><span class=\"formula\">O<sub>2</sub></span></td><td>31.998</td></tr><tr><td><span class=\"formula\">CO<sub>2</sub></span></td><td>44.009</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table><div class=\"consts\">At STP, 1 mol of gas occupies 22.4 L</div>",
+  "answer": 1320,
+  "unit": "g CO2",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "At STP (273 K, 1 atm), 1 mol of any gas = 22.4 L. Get to moles first, use the mole ratio, then convert out of moles. Liters → moles: divide by 22.4. Moles → liters: multiply by 22.4.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 224 L C<sub>3</sub>H<sub>8</sub> × <span class=\"fraction\"><span class=\"num\">1 mol C<sub>3</sub>H<sub>8</sub></span><span class=\"den\">22.4 L C<sub>3</sub>H<sub>8</sub></span></span> = <b>10.00 mol C<sub>3</sub>H<sub>8</sub></b></li><li><b>Mole ratio:</b> 10.00 mol C<sub>3</sub>H<sub>8</sub> × <span class=\"fraction\"><span class=\"num\">3 mol CO<sub>2</sub></span><span class=\"den\">1 mol C<sub>3</sub>H<sub>8</sub></span></span> = <b>30.00 mol CO<sub>2</sub></b></li><li><b>Out of moles:</b> 30.00 mol CO<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">44.009 g CO<sub>2</sub></span><span class=\"den\">1 mol CO<sub>2</sub></span></span> = <b>1320. g CO<sub>2</sub></b></li></ol><div class=\"solution-chain\">224 L C<sub>3</sub>H<sub>8</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol C<sub>3</sub>H<sub>8</sub></span><span class=\"den\">22.4 L C<sub>3</sub>H<sub>8</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">3 mol CO<sub>2</sub></span><span class=\"den\">1 mol C<sub>3</sub>H<sub>8</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">44.009 g CO<sub>2</sub></span><span class=\"den\">1 mol CO<sub>2</sub></span></span> <b>=</b> 1320 g CO<sub>2</sub></div><div>At STP, 1 mol gas = 22.4 L (Yellow Sheet). 22.4 has three significant figures.</div><div>Round to 3 significant figures: <b>1320 g CO<sub>2</sub></b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-stp",
+   "index": 24
+  }
+ },
+ {
   "id": "stoichiometry-45ee64d1",
   "skill": "stoichiometry.learn-stp",
   "courses": [
@@ -5500,7 +5526,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-stp",
-   "index": 24
+   "index": 25
   }
  },
  {
@@ -5526,7 +5552,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-stp",
-   "index": 25
+   "index": 26
   }
  },
  {
@@ -5552,7 +5578,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-stp",
-   "index": 26
+   "index": 27
   }
  },
  {
@@ -5578,7 +5604,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-stp",
-   "index": 27
+   "index": 28
   }
  },
  {
@@ -5604,7 +5630,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-stp",
-   "index": 28
+   "index": 29
   }
  },
  {
@@ -5630,7 +5656,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-stp",
-   "index": 29
+   "index": 30
   }
  },
  {
@@ -5656,7 +5682,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-stp",
-   "index": 30
+   "index": 31
   }
  },
  {
@@ -5682,7 +5708,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-stp",
-   "index": 31
+   "index": 32
   }
  },
  {
@@ -5708,7 +5734,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-stp",
-   "index": 32
+   "index": 33
   }
  },
  {
@@ -5734,12 +5760,12 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-stp",
-   "index": 33
+   "index": 34
   }
  },
  {
-  "id": "stoichiometry-262375e2",
-  "skill": "stoichiometry.learn-stp",
+  "id": "stoichiometry-434613fc",
+  "skill": "stoichiometry.learn-soln",
   "courses": [
    "3A",
    "1A"
@@ -5749,18 +5775,96 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CH<sub>4</sub></span> + 2 <span class=\"formula\">O<sub>2</sub></span> &rarr; <span class=\"formula\">CO<sub>2</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>What volume (in L) of <span class=\"formula\">O<sub>2</sub></span> must react to make <span class=\"measure\">112 L</span> <span class=\"formula\">CO<sub>2</sub></span>? Both gases are at <b>STP</b>.</div><div class=\"consts\">At STP, 1 mol of gas occupies 22.4 L</div>",
-  "answer": 224,
-  "unit": "L O2",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">HCl</span> + <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">NaCl</span> + <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many moles of <span class=\"formula\">HCl</span> react completely with <span class=\"measure\">10.0 mL of 0.250 M</span> <span class=\"formula\">NaOH</span>?</div>",
+  "answer": 0.0025,
+  "unit": "mol HCl",
   "tolerance": 0.005,
   "sigfigs": 3,
-  "hint": "At STP (273 K, 1 atm), 1 mol of any gas = 22.4 L. Get to moles first, use the mole ratio, then convert out of moles. Liters → moles: divide by 22.4. Moles → liters: multiply by 22.4.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 112 L CO<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 mol CO<sub>2</sub></span><span class=\"den\">22.4 L CO<sub>2</sub></span></span> = <b>5.000 mol CO<sub>2</sub></b></li><li><b>Mole ratio:</b> 5.000 mol CO<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">2 mol O<sub>2</sub></span><span class=\"den\">1 mol CO<sub>2</sub></span></span> = <b>10.00 mol O<sub>2</sub></b></li><li><b>Out of moles:</b> 10.00 mol O<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">22.4 L O<sub>2</sub></span><span class=\"den\">1 mol O<sub>2</sub></span></span> = <b>224.0 L O<sub>2</sub></b></li></ol><div class=\"solution-chain\">112 L CO<sub>2</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol CO<sub>2</sub></span><span class=\"den\">22.4 L CO<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol O<sub>2</sub></span><span class=\"den\">1 mol CO<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">22.4 L O<sub>2</sub></span><span class=\"den\">1 mol O<sub>2</sub></span></span> <b>=</b> 224 L O<sub>2</sub></div><div>At STP, 1 mol gas = 22.4 L (Yellow Sheet). 22.4 has three significant figures.</div><div>Round to 3 significant figures: <b>224 L O<sub>2</sub></b></div>",
+  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 10.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.01000 L solution NaOH</b></li><li><b>Into moles:</b> 0.01000 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.250 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.002500 mol NaOH</b></li><li><b>Mole ratio:</b> 0.002500 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> = <b>0.002500 mol HCl</b></li></ol><div class=\"solution-chain\">10.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.250 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> <b>=</b> 0.00250 mol HCl</div><div>Round to 3 significant figures: <b>0.00250 mol HCl</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
-   "list": "sample:learn-stp",
-   "index": 34
+   "list": "sample:learn-soln",
+   "index": 0
+  }
+ },
+ {
+  "id": "stoichiometry-f0ec5f3e",
+  "skill": "stoichiometry.learn-soln",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">AgNO<sub>3</sub></span> + <span class=\"formula\">NaCl</span> &rarr; <span class=\"formula\">AgCl</span> + <span class=\"formula\">NaNO<sub>3</sub></span></div><div>How many moles of <span class=\"formula\">NaCl</span> react completely with <span class=\"measure\">10.0 mL of 0.100 M</span> <span class=\"formula\">AgNO<sub>3</sub></span>?</div>",
+  "answer": 0.001,
+  "unit": "mol NaCl",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 10.0 mL solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> = <b>0.01000 L solution AgNO<sub>3</sub></b></li><li><b>Into moles:</b> 0.01000 L solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">0.100 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> = <b>0.001000 mol AgNO<sub>3</sub></b></li><li><b>Mole ratio:</b> 0.001000 mol AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> = <b>0.001000 mol NaCl</b></li></ol><div class=\"solution-chain\">10.0 mL solution AgNO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.100 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> <b>=</b> 0.00100 mol NaCl</div><div>Round to 3 significant figures: <b>0.00100 mol NaCl</b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-soln",
+   "index": 1
+  }
+ },
+ {
+  "id": "stoichiometry-3500260d",
+  "skill": "stoichiometry.learn-soln",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many moles of <span class=\"formula\">NaOH</span> react completely with <span class=\"measure\">40.0 mL of 0.100 M</span> <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span>?</div>",
+  "answer": 0.008,
+  "unit": "mol NaOH",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 40.0 mL solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.04000 L solution H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Into moles:</b> 0.04000 L solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">0.100 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.004000 mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Mole ratio:</b> 0.004000 mol H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">2 mol NaOH</span><span class=\"den\">1 mol H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.008000 mol NaOH</b></li></ol><div class=\"solution-chain\">40.0 mL solution H<sub>2</sub>SO<sub>4</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.100 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol NaOH</span><span class=\"den\">1 mol H<sub>2</sub>SO<sub>4</sub></span></span> <b>=</b> 0.00800 mol NaOH</div><div>Round to 3 significant figures: <b>0.00800 mol NaOH</b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-soln",
+   "index": 2
+  }
+ },
+ {
+  "id": "stoichiometry-54fe6568",
+  "skill": "stoichiometry.learn-soln",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many moles of <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> react completely with <span class=\"measure\">20.0 mL of 0.500 M</span> <span class=\"formula\">NaOH</span>?</div>",
+  "answer": 0.005,
+  "unit": "mol H2SO4",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 20.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.02000 L solution NaOH</b></li><li><b>Into moles:</b> 0.02000 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.500 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.01000 mol NaOH</b></li><li><b>Mole ratio:</b> 0.01000 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>0.005000 mol H<sub>2</sub>SO<sub>4</sub></b></li></ol><div class=\"solution-chain\">20.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.500 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>=</b> 0.00500 mol H<sub>2</sub>SO<sub>4</sub></div><div>Round to 3 significant figures: <b>0.00500 mol H<sub>2</sub>SO<sub>4</sub></b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-soln",
+   "index": 3
   }
  },
  {
@@ -5781,12 +5885,12 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 75.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.07500 L solution NaOH</b></li><li><b>Into moles:</b> 0.07500 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>7.500 × 10⁻³ mol NaOH</b></li><li><b>Mole ratio:</b> 7.500 × 10⁻³ mol NaOH × <span class=\"fraction\"><span class=\"num\">2 mol H<sub>2</sub>O</span><span class=\"den\">2 mol NaOH</span></span> = <b>7.500 × 10⁻³ mol H<sub>2</sub>O</b></li><li><b>Out of moles:</b> 7.500 × 10⁻³ mol H<sub>2</sub>O × <span class=\"fraction\"><span class=\"num\">18.015 g H<sub>2</sub>O</span><span class=\"den\">1 mol H<sub>2</sub>O</span></span> = <b>0.1351 g H<sub>2</sub>O</b></li></ol><div class=\"solution-chain\">75.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol H<sub>2</sub>O</span><span class=\"den\">2 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">18.015 g H<sub>2</sub>O</span><span class=\"den\">1 mol H<sub>2</sub>O</span></span> <b>=</b> 0.135 g H<sub>2</sub>O</div><div>Round to 3 significant figures: <b>0.135 g H<sub>2</sub>O</b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 75.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.07500 L solution NaOH</b></li><li><b>Into moles:</b> 0.07500 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.007500 mol NaOH</b></li><li><b>Mole ratio:</b> 0.007500 mol NaOH × <span class=\"fraction\"><span class=\"num\">2 mol H<sub>2</sub>O</span><span class=\"den\">2 mol NaOH</span></span> = <b>0.007500 mol H<sub>2</sub>O</b></li><li><b>Out of moles:</b> 0.007500 mol H<sub>2</sub>O × <span class=\"fraction\"><span class=\"num\">18.015 g H<sub>2</sub>O</span><span class=\"den\">1 mol H<sub>2</sub>O</span></span> = <b>0.1351 g H<sub>2</sub>O</b></li></ol><div class=\"solution-chain\">75.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol H<sub>2</sub>O</span><span class=\"den\">2 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">18.015 g H<sub>2</sub>O</span><span class=\"den\">1 mol H<sub>2</sub>O</span></span> <b>=</b> 0.135 g H<sub>2</sub>O</div><div>Round to 3 significant figures: <b>0.135 g H<sub>2</sub>O</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 0
+   "index": 4
   }
  },
  {
@@ -5807,12 +5911,12 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 10.0 mL solution CaCl<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution CaCl<sub>2</sub></span><span class=\"den\">1000 mL solution CaCl<sub>2</sub></span></span> = <b>0.01000 L solution CaCl<sub>2</sub></b></li><li><b>Into moles:</b> 0.01000 L solution CaCl<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">0.250 mol CaCl<sub>2</sub></span><span class=\"den\">1 L solution CaCl<sub>2</sub></span></span> = <b>2.500 × 10⁻³ mol CaCl<sub>2</sub></b></li><li><b>Mole ratio:</b> 2.500 × 10⁻³ mol CaCl<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 mol CaCl<sub>2</sub></span></span> = <b>2.500 × 10⁻³ mol Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Out of moles:</b> 2.500 × 10⁻³ mol Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">0.250 mol Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.01000 L solution Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Out of moles:</b> 0.01000 L solution Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>10.00 mL solution Na<sub>2</sub>CO<sub>3</sub></b></li></ol><div class=\"solution-chain\">10.0 mL solution CaCl<sub>2</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution CaCl<sub>2</sub></span><span class=\"den\">1000 mL solution CaCl<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.250 mol CaCl<sub>2</sub></span><span class=\"den\">1 L solution CaCl<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 mol CaCl<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">0.250 mol Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> <b>=</b> 10.0 mL solution Na<sub>2</sub>CO<sub>3</sub></div><div>Round to 3 significant figures: <b>10.0 mL solution Na<sub>2</sub>CO<sub>3</sub></b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 10.0 mL solution CaCl<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution CaCl<sub>2</sub></span><span class=\"den\">1000 mL solution CaCl<sub>2</sub></span></span> = <b>0.01000 L solution CaCl<sub>2</sub></b></li><li><b>Into moles:</b> 0.01000 L solution CaCl<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">0.250 mol CaCl<sub>2</sub></span><span class=\"den\">1 L solution CaCl<sub>2</sub></span></span> = <b>0.002500 mol CaCl<sub>2</sub></b></li><li><b>Mole ratio:</b> 0.002500 mol CaCl<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 mol CaCl<sub>2</sub></span></span> = <b>0.002500 mol Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Out of moles:</b> 0.002500 mol Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">0.250 mol Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.01000 L solution Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Out of moles:</b> 0.01000 L solution Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>10.00 mL solution Na<sub>2</sub>CO<sub>3</sub></b></li></ol><div class=\"solution-chain\">10.0 mL solution CaCl<sub>2</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution CaCl<sub>2</sub></span><span class=\"den\">1000 mL solution CaCl<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.250 mol CaCl<sub>2</sub></span><span class=\"den\">1 L solution CaCl<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 mol CaCl<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">0.250 mol Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> <b>=</b> 10.0 mL solution Na<sub>2</sub>CO<sub>3</sub></div><div>Round to 3 significant figures: <b>10.0 mL solution Na<sub>2</sub>CO<sub>3</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 1
+   "index": 5
   }
  },
  {
@@ -5838,7 +5942,33 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 2
+   "index": 6
+  }
+ },
+ {
+  "id": "stoichiometry-1c359295",
+  "skill": "stoichiometry.learn-soln",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div>How many moles of <span class=\"formula\">CaCl<sub>2</sub></span> react completely with <span class=\"measure\">20.0 mL of 0.100 M</span> <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span>?</div>",
+  "answer": 0.002,
+  "unit": "mol CaCl2",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 20.0 mL solution Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.02000 L solution Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Into moles:</b> 0.02000 L solution Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">0.100 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.002000 mol Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Mole ratio:</b> 0.002000 mol Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol CaCl<sub>2</sub></span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.002000 mol CaCl<sub>2</sub></b></li></ol><div class=\"solution-chain\">20.0 mL solution Na<sub>2</sub>CO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.100 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol CaCl<sub>2</sub></span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> <b>=</b> 0.00200 mol CaCl<sub>2</sub></div><div>Round to 3 significant figures: <b>0.00200 mol CaCl<sub>2</sub></b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-soln",
+   "index": 7
   }
  },
  {
@@ -5864,7 +5994,33 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 3
+   "index": 8
+  }
+ },
+ {
+  "id": "stoichiometry-848e046b",
+  "skill": "stoichiometry.learn-soln",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many moles of <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> react completely with <span class=\"measure\">25.0 mL of 0.100 M</span> <span class=\"formula\">NaOH</span>?</div>",
+  "answer": 0.00125,
+  "unit": "mol H2SO4",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 25.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.02500 L solution NaOH</b></li><li><b>Into moles:</b> 0.02500 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.002500 mol NaOH</b></li><li><b>Mole ratio:</b> 0.002500 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>0.001250 mol H<sub>2</sub>SO<sub>4</sub></b></li></ol><div class=\"solution-chain\">25.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>=</b> 0.00125 mol H<sub>2</sub>SO<sub>4</sub></div><div>Round to 3 significant figures: <b>0.00125 mol H<sub>2</sub>SO<sub>4</sub></b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-soln",
+   "index": 9
   }
  },
  {
@@ -5890,7 +6046,33 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 4
+   "index": 10
+  }
+ },
+ {
+  "id": "stoichiometry-73705e10",
+  "skill": "stoichiometry.learn-soln",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many moles of <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> react completely with <span class=\"measure\">40.0 mL of 0.100 M</span> <span class=\"formula\">NaOH</span>?</div>",
+  "answer": 0.002,
+  "unit": "mol H2SO4",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 40.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.04000 L solution NaOH</b></li><li><b>Into moles:</b> 0.04000 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.004000 mol NaOH</b></li><li><b>Mole ratio:</b> 0.004000 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>0.002000 mol H<sub>2</sub>SO<sub>4</sub></b></li></ol><div class=\"solution-chain\">40.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>=</b> 0.00200 mol H<sub>2</sub>SO<sub>4</sub></div><div>Round to 3 significant figures: <b>0.00200 mol H<sub>2</sub>SO<sub>4</sub></b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-soln",
+   "index": 11
   }
  },
  {
@@ -5911,12 +6093,12 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 75.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.07500 L solution NaOH</b></li><li><b>Into moles:</b> 0.07500 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.200 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.01500 mol NaOH</b></li><li><b>Mole ratio:</b> 0.01500 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>7.500 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Out of moles:</b> 7.500 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">0.200 mol H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.03750 L solution H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Out of moles:</b> 0.03750 L solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>37.50 mL solution H<sub>2</sub>SO<sub>4</sub></b></li></ol><div class=\"solution-chain\">75.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.200 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">0.200 mol H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>=</b> 37.5 mL solution H<sub>2</sub>SO<sub>4</sub></div><div>Round to 3 significant figures: <b>37.5 mL solution H<sub>2</sub>SO<sub>4</sub></b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 75.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.07500 L solution NaOH</b></li><li><b>Into moles:</b> 0.07500 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.200 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.01500 mol NaOH</b></li><li><b>Mole ratio:</b> 0.01500 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>0.007500 mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Out of moles:</b> 0.007500 mol H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">0.200 mol H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.03750 L solution H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Out of moles:</b> 0.03750 L solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>37.50 mL solution H<sub>2</sub>SO<sub>4</sub></b></li></ol><div class=\"solution-chain\">75.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.200 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">0.200 mol H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>=</b> 37.5 mL solution H<sub>2</sub>SO<sub>4</sub></div><div>Round to 3 significant figures: <b>37.5 mL solution H<sub>2</sub>SO<sub>4</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 5
+   "index": 12
   }
  },
  {
@@ -5942,7 +6124,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 6
+   "index": 13
   }
  },
  {
@@ -5963,12 +6145,12 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 25.0 mL solution HCl × <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">1000 mL solution HCl</span></span> = <b>0.02500 L solution HCl</b></li><li><b>Into moles:</b> 0.02500 L solution HCl × <span class=\"fraction\"><span class=\"num\">0.250 mol HCl</span><span class=\"den\">1 L solution HCl</span></span> = <b>6.250 × 10⁻³ mol HCl</b></li><li><b>Mole ratio:</b> 6.250 × 10⁻³ mol HCl × <span class=\"fraction\"><span class=\"num\">1 mol NaOH</span><span class=\"den\">1 mol HCl</span></span> = <b>6.250 × 10⁻³ mol NaOH</b></li><li><b>Out of moles:</b> 6.250 × 10⁻³ mol NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">0.250 mol NaOH</span></span> = <b>0.02500 L solution NaOH</b></li><li><b>Out of moles:</b> 0.02500 L solution NaOH × <span class=\"fraction\"><span class=\"num\">1000 mL solution NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>25.00 mL solution NaOH</b></li></ol><div class=\"solution-chain\">25.0 mL solution HCl <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">1000 mL solution HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.250 mol HCl</span><span class=\"den\">1 L solution HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaOH</span><span class=\"den\">1 mol HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">0.250 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>=</b> 25.0 mL solution NaOH</div><div>Round to 3 significant figures: <b>25.0 mL solution NaOH</b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 25.0 mL solution HCl × <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">1000 mL solution HCl</span></span> = <b>0.02500 L solution HCl</b></li><li><b>Into moles:</b> 0.02500 L solution HCl × <span class=\"fraction\"><span class=\"num\">0.250 mol HCl</span><span class=\"den\">1 L solution HCl</span></span> = <b>0.006250 mol HCl</b></li><li><b>Mole ratio:</b> 0.006250 mol HCl × <span class=\"fraction\"><span class=\"num\">1 mol NaOH</span><span class=\"den\">1 mol HCl</span></span> = <b>0.006250 mol NaOH</b></li><li><b>Out of moles:</b> 0.006250 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">0.250 mol NaOH</span></span> = <b>0.02500 L solution NaOH</b></li><li><b>Out of moles:</b> 0.02500 L solution NaOH × <span class=\"fraction\"><span class=\"num\">1000 mL solution NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>25.00 mL solution NaOH</b></li></ol><div class=\"solution-chain\">25.0 mL solution HCl <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">1000 mL solution HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.250 mol HCl</span><span class=\"den\">1 L solution HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaOH</span><span class=\"den\">1 mol HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">0.250 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>=</b> 25.0 mL solution NaOH</div><div>Round to 3 significant figures: <b>25.0 mL solution NaOH</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 7
+   "index": 14
   }
  },
  {
@@ -5994,7 +6176,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 8
+   "index": 15
   }
  },
  {
@@ -6020,7 +6202,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 9
+   "index": 16
   }
  },
  {
@@ -6046,7 +6228,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 10
+   "index": 17
   }
  },
  {
@@ -6067,12 +6249,38 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 25.0 mL solution NaCl × <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">1000 mL solution NaCl</span></span> = <b>0.02500 L solution NaCl</b></li><li><b>Into moles:</b> 0.02500 L solution NaCl × <span class=\"fraction\"><span class=\"num\">0.250 mol NaCl</span><span class=\"den\">1 L solution NaCl</span></span> = <b>6.250 × 10⁻³ mol NaCl</b></li><li><b>Mole ratio:</b> 6.250 × 10⁻³ mol NaCl × <span class=\"fraction\"><span class=\"num\">1 mol NaNO<sub>3</sub></span><span class=\"den\">1 mol NaCl</span></span> = <b>6.250 × 10⁻³ mol NaNO<sub>3</sub></b></li><li><b>Out of moles:</b> 6.250 × 10⁻³ mol NaNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">84.99 g NaNO<sub>3</sub></span><span class=\"den\">1 mol NaNO<sub>3</sub></span></span> = <b>0.5312 g NaNO<sub>3</sub></b></li></ol><div class=\"solution-chain\">25.0 mL solution NaCl <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">1000 mL solution NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.250 mol NaCl</span><span class=\"den\">1 L solution NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaNO<sub>3</sub></span><span class=\"den\">1 mol NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">84.99 g NaNO<sub>3</sub></span><span class=\"den\">1 mol NaNO<sub>3</sub></span></span> <b>=</b> 0.531 g NaNO<sub>3</sub></div><div>Round to 3 significant figures: <b>0.531 g NaNO<sub>3</sub></b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 25.0 mL solution NaCl × <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">1000 mL solution NaCl</span></span> = <b>0.02500 L solution NaCl</b></li><li><b>Into moles:</b> 0.02500 L solution NaCl × <span class=\"fraction\"><span class=\"num\">0.250 mol NaCl</span><span class=\"den\">1 L solution NaCl</span></span> = <b>0.006250 mol NaCl</b></li><li><b>Mole ratio:</b> 0.006250 mol NaCl × <span class=\"fraction\"><span class=\"num\">1 mol NaNO<sub>3</sub></span><span class=\"den\">1 mol NaCl</span></span> = <b>0.006250 mol NaNO<sub>3</sub></b></li><li><b>Out of moles:</b> 0.006250 mol NaNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">84.99 g NaNO<sub>3</sub></span><span class=\"den\">1 mol NaNO<sub>3</sub></span></span> = <b>0.5312 g NaNO<sub>3</sub></b></li></ol><div class=\"solution-chain\">25.0 mL solution NaCl <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">1000 mL solution NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.250 mol NaCl</span><span class=\"den\">1 L solution NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaNO<sub>3</sub></span><span class=\"den\">1 mol NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">84.99 g NaNO<sub>3</sub></span><span class=\"den\">1 mol NaNO<sub>3</sub></span></span> <b>=</b> 0.531 g NaNO<sub>3</sub></div><div>Round to 3 significant figures: <b>0.531 g NaNO<sub>3</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 11
+   "index": 18
+  }
+ },
+ {
+  "id": "stoichiometry-2de1a01d",
+  "skill": "stoichiometry.learn-soln",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div>How many moles of <span class=\"formula\">CaCl<sub>2</sub></span> react completely with <span class=\"measure\">50.0 mL of 0.100 M</span> <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span>?</div>",
+  "answer": 0.005,
+  "unit": "mol CaCl2",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 50.0 mL solution Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.05000 L solution Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Into moles:</b> 0.05000 L solution Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">0.100 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.005000 mol Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Mole ratio:</b> 0.005000 mol Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol CaCl<sub>2</sub></span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.005000 mol CaCl<sub>2</sub></b></li></ol><div class=\"solution-chain\">50.0 mL solution Na<sub>2</sub>CO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.100 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol CaCl<sub>2</sub></span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> <b>=</b> 0.00500 mol CaCl<sub>2</sub></div><div>Round to 3 significant figures: <b>0.00500 mol CaCl<sub>2</sub></b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-soln",
+   "index": 19
   }
  },
  {
@@ -6093,12 +6301,38 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 20.0 mL solution NaCl × <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">1000 mL solution NaCl</span></span> = <b>0.02000 L solution NaCl</b></li><li><b>Into moles:</b> 0.02000 L solution NaCl × <span class=\"fraction\"><span class=\"num\">0.250 mol NaCl</span><span class=\"den\">1 L solution NaCl</span></span> = <b>5.000 × 10⁻³ mol NaCl</b></li><li><b>Mole ratio:</b> 5.000 × 10⁻³ mol NaCl × <span class=\"fraction\"><span class=\"num\">1 mol NaNO<sub>3</sub></span><span class=\"den\">1 mol NaCl</span></span> = <b>5.000 × 10⁻³ mol NaNO<sub>3</sub></b></li><li><b>Out of moles:</b> 5.000 × 10⁻³ mol NaNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">84.99 g NaNO<sub>3</sub></span><span class=\"den\">1 mol NaNO<sub>3</sub></span></span> = <b>0.4249 g NaNO<sub>3</sub></b></li></ol><div class=\"solution-chain\">20.0 mL solution NaCl <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">1000 mL solution NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.250 mol NaCl</span><span class=\"den\">1 L solution NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaNO<sub>3</sub></span><span class=\"den\">1 mol NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">84.99 g NaNO<sub>3</sub></span><span class=\"den\">1 mol NaNO<sub>3</sub></span></span> <b>=</b> 0.425 g NaNO<sub>3</sub></div><div>Round to 3 significant figures: <b>0.425 g NaNO<sub>3</sub></b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 20.0 mL solution NaCl × <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">1000 mL solution NaCl</span></span> = <b>0.02000 L solution NaCl</b></li><li><b>Into moles:</b> 0.02000 L solution NaCl × <span class=\"fraction\"><span class=\"num\">0.250 mol NaCl</span><span class=\"den\">1 L solution NaCl</span></span> = <b>0.005000 mol NaCl</b></li><li><b>Mole ratio:</b> 0.005000 mol NaCl × <span class=\"fraction\"><span class=\"num\">1 mol NaNO<sub>3</sub></span><span class=\"den\">1 mol NaCl</span></span> = <b>0.005000 mol NaNO<sub>3</sub></b></li><li><b>Out of moles:</b> 0.005000 mol NaNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">84.99 g NaNO<sub>3</sub></span><span class=\"den\">1 mol NaNO<sub>3</sub></span></span> = <b>0.4249 g NaNO<sub>3</sub></b></li></ol><div class=\"solution-chain\">20.0 mL solution NaCl <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">1000 mL solution NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.250 mol NaCl</span><span class=\"den\">1 L solution NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaNO<sub>3</sub></span><span class=\"den\">1 mol NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">84.99 g NaNO<sub>3</sub></span><span class=\"den\">1 mol NaNO<sub>3</sub></span></span> <b>=</b> 0.425 g NaNO<sub>3</sub></div><div>Round to 3 significant figures: <b>0.425 g NaNO<sub>3</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 12
+   "index": 20
+  }
+ },
+ {
+  "id": "stoichiometry-e092d3c7",
+  "skill": "stoichiometry.learn-soln",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many moles of <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> react completely with <span class=\"measure\">50.0 mL of 0.200 M</span> <span class=\"formula\">NaOH</span>?</div>",
+  "answer": 0.005,
+  "unit": "mol H2SO4",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 50.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.05000 L solution NaOH</b></li><li><b>Into moles:</b> 0.05000 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.200 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.01000 mol NaOH</b></li><li><b>Mole ratio:</b> 0.01000 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>0.005000 mol H<sub>2</sub>SO<sub>4</sub></b></li></ol><div class=\"solution-chain\">50.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.200 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>=</b> 0.00500 mol H<sub>2</sub>SO<sub>4</sub></div><div>Round to 3 significant figures: <b>0.00500 mol H<sub>2</sub>SO<sub>4</sub></b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-soln",
+   "index": 21
   }
  },
  {
@@ -6124,7 +6358,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 13
+   "index": 22
   }
  },
  {
@@ -6150,7 +6384,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 14
+   "index": 23
   }
  },
  {
@@ -6171,12 +6405,12 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 20.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.02000 L solution NaOH</b></li><li><b>Into moles:</b> 0.02000 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>2.000 × 10⁻³ mol NaOH</b></li><li><b>Mole ratio:</b> 2.000 × 10⁻³ mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>1.000 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Out of moles:</b> 1.000 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">0.100 mol H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.01000 L solution H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Out of moles:</b> 0.01000 L solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>10.00 mL solution H<sub>2</sub>SO<sub>4</sub></b></li></ol><div class=\"solution-chain\">20.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">0.100 mol H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>=</b> 10.0 mL solution H<sub>2</sub>SO<sub>4</sub></div><div>Round to 3 significant figures: <b>10.0 mL solution H<sub>2</sub>SO<sub>4</sub></b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 20.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.02000 L solution NaOH</b></li><li><b>Into moles:</b> 0.02000 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.002000 mol NaOH</b></li><li><b>Mole ratio:</b> 0.002000 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>0.001000 mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Out of moles:</b> 0.001000 mol H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">0.100 mol H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.01000 L solution H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Out of moles:</b> 0.01000 L solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>10.00 mL solution H<sub>2</sub>SO<sub>4</sub></b></li></ol><div class=\"solution-chain\">20.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">0.100 mol H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>=</b> 10.0 mL solution H<sub>2</sub>SO<sub>4</sub></div><div>Round to 3 significant figures: <b>10.0 mL solution H<sub>2</sub>SO<sub>4</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 15
+   "index": 24
   }
  },
  {
@@ -6197,12 +6431,12 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 20.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.02000 L solution NaOH</b></li><li><b>Into moles:</b> 0.02000 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>2.000 × 10⁻³ mol NaOH</b></li><li><b>Mole ratio:</b> 2.000 × 10⁻³ mol NaOH × <span class=\"fraction\"><span class=\"num\">2 mol H<sub>2</sub>O</span><span class=\"den\">2 mol NaOH</span></span> = <b>2.000 × 10⁻³ mol H<sub>2</sub>O</b></li><li><b>Out of moles:</b> 2.000 × 10⁻³ mol H<sub>2</sub>O × <span class=\"fraction\"><span class=\"num\">18.015 g H<sub>2</sub>O</span><span class=\"den\">1 mol H<sub>2</sub>O</span></span> = <b>0.03603 g H<sub>2</sub>O</b></li></ol><div class=\"solution-chain\">20.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol H<sub>2</sub>O</span><span class=\"den\">2 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">18.015 g H<sub>2</sub>O</span><span class=\"den\">1 mol H<sub>2</sub>O</span></span> <b>=</b> 0.0360 g H<sub>2</sub>O</div><div>Round to 3 significant figures: <b>0.0360 g H<sub>2</sub>O</b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 20.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.02000 L solution NaOH</b></li><li><b>Into moles:</b> 0.02000 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.002000 mol NaOH</b></li><li><b>Mole ratio:</b> 0.002000 mol NaOH × <span class=\"fraction\"><span class=\"num\">2 mol H<sub>2</sub>O</span><span class=\"den\">2 mol NaOH</span></span> = <b>0.002000 mol H<sub>2</sub>O</b></li><li><b>Out of moles:</b> 0.002000 mol H<sub>2</sub>O × <span class=\"fraction\"><span class=\"num\">18.015 g H<sub>2</sub>O</span><span class=\"den\">1 mol H<sub>2</sub>O</span></span> = <b>0.03603 g H<sub>2</sub>O</b></li></ol><div class=\"solution-chain\">20.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol H<sub>2</sub>O</span><span class=\"den\">2 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">18.015 g H<sub>2</sub>O</span><span class=\"den\">1 mol H<sub>2</sub>O</span></span> <b>=</b> 0.0360 g H<sub>2</sub>O</div><div>Round to 3 significant figures: <b>0.0360 g H<sub>2</sub>O</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 16
+   "index": 25
   }
  },
  {
@@ -6223,12 +6457,12 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 10.0 mL solution Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.01000 L solution Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Into moles:</b> 0.01000 L solution Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">0.200 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>2.000 × 10⁻³ mol Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Mole ratio:</b> 2.000 × 10⁻³ mol Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol CaCl<sub>2</sub></span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>2.000 × 10⁻³ mol CaCl<sub>2</sub></b></li><li><b>Out of moles:</b> 2.000 × 10⁻³ mol CaCl<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution CaCl<sub>2</sub></span><span class=\"den\">0.100 mol CaCl<sub>2</sub></span></span> = <b>0.02000 L solution CaCl<sub>2</sub></b></li><li><b>Out of moles:</b> 0.02000 L solution CaCl<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1000 mL solution CaCl<sub>2</sub></span><span class=\"den\">1 L solution CaCl<sub>2</sub></span></span> = <b>20.00 mL solution CaCl<sub>2</sub></b></li></ol><div class=\"solution-chain\">10.0 mL solution Na<sub>2</sub>CO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.200 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol CaCl<sub>2</sub></span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution CaCl<sub>2</sub></span><span class=\"den\">0.100 mol CaCl<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution CaCl<sub>2</sub></span><span class=\"den\">1 L solution CaCl<sub>2</sub></span></span> <b>=</b> 20.0 mL solution CaCl<sub>2</sub></div><div>Round to 3 significant figures: <b>20.0 mL solution CaCl<sub>2</sub></b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 10.0 mL solution Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.01000 L solution Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Into moles:</b> 0.01000 L solution Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">0.200 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.002000 mol Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Mole ratio:</b> 0.002000 mol Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol CaCl<sub>2</sub></span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.002000 mol CaCl<sub>2</sub></b></li><li><b>Out of moles:</b> 0.002000 mol CaCl<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution CaCl<sub>2</sub></span><span class=\"den\">0.100 mol CaCl<sub>2</sub></span></span> = <b>0.02000 L solution CaCl<sub>2</sub></b></li><li><b>Out of moles:</b> 0.02000 L solution CaCl<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1000 mL solution CaCl<sub>2</sub></span><span class=\"den\">1 L solution CaCl<sub>2</sub></span></span> = <b>20.00 mL solution CaCl<sub>2</sub></b></li></ol><div class=\"solution-chain\">10.0 mL solution Na<sub>2</sub>CO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.200 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol CaCl<sub>2</sub></span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution CaCl<sub>2</sub></span><span class=\"den\">0.100 mol CaCl<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution CaCl<sub>2</sub></span><span class=\"den\">1 L solution CaCl<sub>2</sub></span></span> <b>=</b> 20.0 mL solution CaCl<sub>2</sub></div><div>Round to 3 significant figures: <b>20.0 mL solution CaCl<sub>2</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 17
+   "index": 26
   }
  },
  {
@@ -6254,7 +6488,33 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 18
+   "index": 27
+  }
+ },
+ {
+  "id": "stoichiometry-42b8f85f",
+  "skill": "stoichiometry.learn-soln",
+  "courses": [
+   "3A",
+   "1A"
+  ],
+  "chapters": [
+   "3A-11",
+   "1A-4"
+  ],
+  "type": "number",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>How many moles of <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> react completely with <span class=\"measure\">50.0 mL of 0.100 M</span> <span class=\"formula\">NaOH</span>?</div>",
+  "answer": 0.0025,
+  "unit": "mol H2SO4",
+  "tolerance": 0.005,
+  "sigfigs": 3,
+  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 50.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.05000 L solution NaOH</b></li><li><b>Into moles:</b> 0.05000 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.005000 mol NaOH</b></li><li><b>Mole ratio:</b> 0.005000 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>0.002500 mol H<sub>2</sub>SO<sub>4</sub></b></li></ol><div class=\"solution-chain\">50.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>=</b> 0.00250 mol H<sub>2</sub>SO<sub>4</sub></div><div>Round to 3 significant figures: <b>0.00250 mol H<sub>2</sub>SO<sub>4</sub></b></div>",
+  "origin": "original",
+  "from": {
+   "game": "stoichiometry",
+   "list": "sample:learn-soln",
+   "index": 28
   }
  },
  {
@@ -6280,7 +6540,7 @@
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 19
+   "index": 29
   }
  },
  {
@@ -6301,12 +6561,12 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 20.0 mL solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> = <b>0.02000 L solution AgNO<sub>3</sub></b></li><li><b>Into moles:</b> 0.02000 L solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">0.250 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> = <b>5.000 × 10⁻³ mol AgNO<sub>3</sub></b></li><li><b>Mole ratio:</b> 5.000 × 10⁻³ mol AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol AgCl</span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> = <b>5.000 × 10⁻³ mol AgCl</b></li><li><b>Out of moles:</b> 5.000 × 10⁻³ mol AgCl × <span class=\"fraction\"><span class=\"num\">143.32 g AgCl</span><span class=\"den\">1 mol AgCl</span></span> = <b>0.7166 g AgCl</b></li></ol><div class=\"solution-chain\">20.0 mL solution AgNO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.250 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol AgCl</span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">143.32 g AgCl</span><span class=\"den\">1 mol AgCl</span></span> <b>=</b> 0.717 g AgCl</div><div>Round to 3 significant figures: <b>0.717 g AgCl</b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 20.0 mL solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> = <b>0.02000 L solution AgNO<sub>3</sub></b></li><li><b>Into moles:</b> 0.02000 L solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">0.250 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> = <b>0.005000 mol AgNO<sub>3</sub></b></li><li><b>Mole ratio:</b> 0.005000 mol AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol AgCl</span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> = <b>0.005000 mol AgCl</b></li><li><b>Out of moles:</b> 0.005000 mol AgCl × <span class=\"fraction\"><span class=\"num\">143.32 g AgCl</span><span class=\"den\">1 mol AgCl</span></span> = <b>0.7166 g AgCl</b></li></ol><div class=\"solution-chain\">20.0 mL solution AgNO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.250 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol AgCl</span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">143.32 g AgCl</span><span class=\"den\">1 mol AgCl</span></span> <b>=</b> 0.717 g AgCl</div><div>Round to 3 significant figures: <b>0.717 g AgCl</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 20
+   "index": 30
   }
  },
  {
@@ -6327,12 +6587,12 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 40.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.04000 L solution NaOH</b></li><li><b>Into moles:</b> 0.04000 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>4.000 × 10⁻³ mol NaOH</b></li><li><b>Mole ratio:</b> 4.000 × 10⁻³ mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>2.000 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Out of moles:</b> 2.000 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">0.250 mol H<sub>2</sub>SO<sub>4</sub></span></span> = <b>8.000 × 10⁻³ L solution H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Out of moles:</b> 8.000 × 10⁻³ L solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>8.000 mL solution H<sub>2</sub>SO<sub>4</sub></b></li></ol><div class=\"solution-chain\">40.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">0.250 mol H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>=</b> 8.00 mL solution H<sub>2</sub>SO<sub>4</sub></div><div>Round to 3 significant figures: <b>8.00 mL solution H<sub>2</sub>SO<sub>4</sub></b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 40.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.04000 L solution NaOH</b></li><li><b>Into moles:</b> 0.04000 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.004000 mol NaOH</b></li><li><b>Mole ratio:</b> 0.004000 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>0.002000 mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Out of moles:</b> 0.002000 mol H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">0.250 mol H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.008000 L solution H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Out of moles:</b> 0.008000 L solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>8.000 mL solution H<sub>2</sub>SO<sub>4</sub></b></li></ol><div class=\"solution-chain\">40.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.100 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">0.250 mol H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>=</b> 8.00 mL solution H<sub>2</sub>SO<sub>4</sub></div><div>Round to 3 significant figures: <b>8.00 mL solution H<sub>2</sub>SO<sub>4</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 21
+   "index": 31
   }
  },
  {
@@ -6353,12 +6613,12 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 10.0 mL solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> = <b>0.01000 L solution AgNO<sub>3</sub></b></li><li><b>Into moles:</b> 0.01000 L solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">0.250 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> = <b>2.500 × 10⁻³ mol AgNO<sub>3</sub></b></li><li><b>Mole ratio:</b> 2.500 × 10⁻³ mol AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol NaNO<sub>3</sub></span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> = <b>2.500 × 10⁻³ mol NaNO<sub>3</sub></b></li><li><b>Out of moles:</b> 2.500 × 10⁻³ mol NaNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">84.99 g NaNO<sub>3</sub></span><span class=\"den\">1 mol NaNO<sub>3</sub></span></span> = <b>0.2125 g NaNO<sub>3</sub></b></li></ol><div class=\"solution-chain\">10.0 mL solution AgNO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.250 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaNO<sub>3</sub></span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">84.99 g NaNO<sub>3</sub></span><span class=\"den\">1 mol NaNO<sub>3</sub></span></span> <b>=</b> 0.212 g NaNO<sub>3</sub></div><div>Round to 3 significant figures: <b>0.212 g NaNO<sub>3</sub></b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 10.0 mL solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> = <b>0.01000 L solution AgNO<sub>3</sub></b></li><li><b>Into moles:</b> 0.01000 L solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">0.250 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> = <b>0.002500 mol AgNO<sub>3</sub></b></li><li><b>Mole ratio:</b> 0.002500 mol AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol NaNO<sub>3</sub></span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> = <b>0.002500 mol NaNO<sub>3</sub></b></li><li><b>Out of moles:</b> 0.002500 mol NaNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">84.99 g NaNO<sub>3</sub></span><span class=\"den\">1 mol NaNO<sub>3</sub></span></span> = <b>0.2125 g NaNO<sub>3</sub></b></li></ol><div class=\"solution-chain\">10.0 mL solution AgNO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.250 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaNO<sub>3</sub></span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">84.99 g NaNO<sub>3</sub></span><span class=\"den\">1 mol NaNO<sub>3</sub></span></span> <b>=</b> 0.212 g NaNO<sub>3</sub></div><div>Round to 3 significant figures: <b>0.212 g NaNO<sub>3</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
    "list": "sample:learn-soln",
-   "index": 22
+   "index": 32
   }
  },
  {
@@ -6379,267 +6639,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 10.0 mL solution HCl × <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">1000 mL solution HCl</span></span> = <b>0.01000 L solution HCl</b></li><li><b>Into moles:</b> 0.01000 L solution HCl × <span class=\"fraction\"><span class=\"num\">0.100 mol HCl</span><span class=\"den\">1 L solution HCl</span></span> = <b>1.000 × 10⁻³ mol HCl</b></li><li><b>Mole ratio:</b> 1.000 × 10⁻³ mol HCl × <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol HCl</span></span> = <b>1.000 × 10⁻³ mol NaCl</b></li><li><b>Out of moles:</b> 1.000 × 10⁻³ mol NaCl × <span class=\"fraction\"><span class=\"num\">58.44 g NaCl</span><span class=\"den\">1 mol NaCl</span></span> = <b>0.05844 g NaCl</b></li></ol><div class=\"solution-chain\">10.0 mL solution HCl <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">1000 mL solution HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.100 mol HCl</span><span class=\"den\">1 L solution HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">58.44 g NaCl</span><span class=\"den\">1 mol NaCl</span></span> <b>=</b> 0.0584 g NaCl</div><div>Round to 3 significant figures: <b>0.0584 g NaCl</b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-soln",
-   "index": 23
-  }
- },
- {
-  "id": "stoichiometry-006c43c6",
-  "skill": "stoichiometry.learn-soln",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">HCl</span> + <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">NaCl</span> + <span class=\"formula\">H<sub>2</sub>O</span></div><div>What mass (in grams) of <span class=\"formula\">H<sub>2</sub>O</span> forms when <span class=\"measure\">75.0 mL of 0.500 M</span> <span class=\"formula\">NaOH</span> reacts completely? Assume the other reactant is in excess.</div><table class=\"mm-chart\"><tr><th>Substance</th><th>Molar mass (g mol⁻¹)</th></tr><tr><td><span class=\"formula\">HCl</span></td><td>36.46</td></tr><tr><td><span class=\"formula\">NaOH</span></td><td>40.00</td></tr><tr><td><span class=\"formula\">NaCl</span></td><td>58.44</td></tr><tr><td><span class=\"formula\">H<sub>2</sub>O</span></td><td>18.015</td></tr></table>",
-  "answer": 0.676,
-  "unit": "g H2O",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 75.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.07500 L solution NaOH</b></li><li><b>Into moles:</b> 0.07500 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.500 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.03750 mol NaOH</b></li><li><b>Mole ratio:</b> 0.03750 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>O</span><span class=\"den\">1 mol NaOH</span></span> = <b>0.03750 mol H<sub>2</sub>O</b></li><li><b>Out of moles:</b> 0.03750 mol H<sub>2</sub>O × <span class=\"fraction\"><span class=\"num\">18.015 g H<sub>2</sub>O</span><span class=\"den\">1 mol H<sub>2</sub>O</span></span> = <b>0.6756 g H<sub>2</sub>O</b></li></ol><div class=\"solution-chain\">75.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.500 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>O</span><span class=\"den\">1 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">18.015 g H<sub>2</sub>O</span><span class=\"den\">1 mol H<sub>2</sub>O</span></span> <b>=</b> 0.676 g H<sub>2</sub>O</div><div>Round to 3 significant figures: <b>0.676 g H<sub>2</sub>O</b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-soln",
-   "index": 24
-  }
- },
- {
-  "id": "stoichiometry-b5b73d8c",
-  "skill": "stoichiometry.learn-soln",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">HCl</span> + <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">NaCl</span> + <span class=\"formula\">H<sub>2</sub>O</span></div><div>What volume (in mL) of <span class=\"measure\">0.100 M</span> <span class=\"formula\">NaOH</span> reacts completely with <span class=\"measure\">50.0 mL of 0.250 M</span> <span class=\"formula\">HCl</span>?</div>",
-  "answer": 125,
-  "unit": "mL solution NaOH",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 50.0 mL solution HCl × <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">1000 mL solution HCl</span></span> = <b>0.05000 L solution HCl</b></li><li><b>Into moles:</b> 0.05000 L solution HCl × <span class=\"fraction\"><span class=\"num\">0.250 mol HCl</span><span class=\"den\">1 L solution HCl</span></span> = <b>0.01250 mol HCl</b></li><li><b>Mole ratio:</b> 0.01250 mol HCl × <span class=\"fraction\"><span class=\"num\">1 mol NaOH</span><span class=\"den\">1 mol HCl</span></span> = <b>0.01250 mol NaOH</b></li><li><b>Out of moles:</b> 0.01250 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">0.100 mol NaOH</span></span> = <b>0.1250 L solution NaOH</b></li><li><b>Out of moles:</b> 0.1250 L solution NaOH × <span class=\"fraction\"><span class=\"num\">1000 mL solution NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>125.0 mL solution NaOH</b></li></ol><div class=\"solution-chain\">50.0 mL solution HCl <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">1000 mL solution HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.250 mol HCl</span><span class=\"den\">1 L solution HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaOH</span><span class=\"den\">1 mol HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">0.100 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>=</b> 125 mL solution NaOH</div><div>Round to 3 significant figures: <b>125 mL solution NaOH</b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-soln",
-   "index": 25
-  }
- },
- {
-  "id": "stoichiometry-9c7b6598",
-  "skill": "stoichiometry.learn-soln",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div>What volume (in mL) of <span class=\"measure\">0.500 M</span> <span class=\"formula\">CaCl<sub>2</sub></span> reacts completely with <span class=\"measure\">50.0 mL of 0.200 M</span> <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span>?</div>",
-  "answer": 20,
-  "unit": "mL solution CaCl2",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 50.0 mL solution Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.05000 L solution Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Into moles:</b> 0.05000 L solution Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">0.200 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.01000 mol Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Mole ratio:</b> 0.01000 mol Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol CaCl<sub>2</sub></span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.01000 mol CaCl<sub>2</sub></b></li><li><b>Out of moles:</b> 0.01000 mol CaCl<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution CaCl<sub>2</sub></span><span class=\"den\">0.500 mol CaCl<sub>2</sub></span></span> = <b>0.02000 L solution CaCl<sub>2</sub></b></li><li><b>Out of moles:</b> 0.02000 L solution CaCl<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1000 mL solution CaCl<sub>2</sub></span><span class=\"den\">1 L solution CaCl<sub>2</sub></span></span> = <b>20.00 mL solution CaCl<sub>2</sub></b></li></ol><div class=\"solution-chain\">50.0 mL solution Na<sub>2</sub>CO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.200 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol CaCl<sub>2</sub></span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution CaCl<sub>2</sub></span><span class=\"den\">0.500 mol CaCl<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution CaCl<sub>2</sub></span><span class=\"den\">1 L solution CaCl<sub>2</sub></span></span> <b>=</b> 20.0 mL solution CaCl<sub>2</sub></div><div>Round to 3 significant figures: <b>20.0 mL solution CaCl<sub>2</sub></b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-soln",
-   "index": 26
-  }
- },
- {
-  "id": "stoichiometry-27dc3f90",
-  "skill": "stoichiometry.learn-soln",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>What volume (in mL) of <span class=\"measure\">0.200 M</span> <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> reacts completely with <span class=\"measure\">25.0 mL of 0.200 M</span> <span class=\"formula\">NaOH</span>?</div>",
-  "answer": 12.5,
-  "unit": "mL solution H2SO4",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 25.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.02500 L solution NaOH</b></li><li><b>Into moles:</b> 0.02500 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.200 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>5.000 × 10⁻³ mol NaOH</b></li><li><b>Mole ratio:</b> 5.000 × 10⁻³ mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>2.500 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Out of moles:</b> 2.500 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">0.200 mol H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.01250 L solution H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Out of moles:</b> 0.01250 L solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>12.50 mL solution H<sub>2</sub>SO<sub>4</sub></b></li></ol><div class=\"solution-chain\">25.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.200 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">0.200 mol H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>=</b> 12.5 mL solution H<sub>2</sub>SO<sub>4</sub></div><div>Round to 3 significant figures: <b>12.5 mL solution H<sub>2</sub>SO<sub>4</sub></b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-soln",
-   "index": 27
-  }
- },
- {
-  "id": "stoichiometry-3159236f",
-  "skill": "stoichiometry.learn-soln",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">HCl</span> + <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">NaCl</span> + <span class=\"formula\">H<sub>2</sub>O</span></div><div>What volume (in mL) of <span class=\"measure\">0.100 M</span> <span class=\"formula\">NaOH</span> reacts completely with <span class=\"measure\">10.0 mL of 0.500 M</span> <span class=\"formula\">HCl</span>?</div>",
-  "answer": 50,
-  "unit": "mL solution NaOH",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 10.0 mL solution HCl × <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">1000 mL solution HCl</span></span> = <b>0.01000 L solution HCl</b></li><li><b>Into moles:</b> 0.01000 L solution HCl × <span class=\"fraction\"><span class=\"num\">0.500 mol HCl</span><span class=\"den\">1 L solution HCl</span></span> = <b>5.000 × 10⁻³ mol HCl</b></li><li><b>Mole ratio:</b> 5.000 × 10⁻³ mol HCl × <span class=\"fraction\"><span class=\"num\">1 mol NaOH</span><span class=\"den\">1 mol HCl</span></span> = <b>5.000 × 10⁻³ mol NaOH</b></li><li><b>Out of moles:</b> 5.000 × 10⁻³ mol NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">0.100 mol NaOH</span></span> = <b>0.05000 L solution NaOH</b></li><li><b>Out of moles:</b> 0.05000 L solution NaOH × <span class=\"fraction\"><span class=\"num\">1000 mL solution NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>50.00 mL solution NaOH</b></li></ol><div class=\"solution-chain\">10.0 mL solution HCl <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">1000 mL solution HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.500 mol HCl</span><span class=\"den\">1 L solution HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaOH</span><span class=\"den\">1 mol HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">0.100 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>=</b> 50.0 mL solution NaOH</div><div>Round to 3 significant figures: <b>50.0 mL solution NaOH</b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-soln",
-   "index": 28
-  }
- },
- {
-  "id": "stoichiometry-f7133de2",
-  "skill": "stoichiometry.learn-soln",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div>How many moles of <span class=\"formula\">CaCl<sub>2</sub></span> react completely with <span class=\"measure\">75.0 mL of 0.500 M</span> <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span>?</div>",
-  "answer": 0.0375,
-  "unit": "mol CaCl2",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 75.0 mL solution Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.07500 L solution Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Into moles:</b> 0.07500 L solution Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">0.500 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.03750 mol Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Mole ratio:</b> 0.03750 mol Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol CaCl<sub>2</sub></span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.03750 mol CaCl<sub>2</sub></b></li></ol><div class=\"solution-chain\">75.0 mL solution Na<sub>2</sub>CO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.500 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol CaCl<sub>2</sub></span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> <b>=</b> 0.0375 mol CaCl<sub>2</sub></div><div>Round to 3 significant figures: <b>0.0375 mol CaCl<sub>2</sub></b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-soln",
-   "index": 29
-  }
- },
- {
-  "id": "stoichiometry-656dccc2",
-  "skill": "stoichiometry.learn-soln",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div>How many moles of <span class=\"formula\">CaCl<sub>2</sub></span> react completely with <span class=\"measure\">50.0 mL of 0.500 M</span> <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span>?</div>",
-  "answer": 0.025,
-  "unit": "mol CaCl2",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 50.0 mL solution Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.05000 L solution Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Into moles:</b> 0.05000 L solution Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">0.500 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.02500 mol Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Mole ratio:</b> 0.02500 mol Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol CaCl<sub>2</sub></span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.02500 mol CaCl<sub>2</sub></b></li></ol><div class=\"solution-chain\">50.0 mL solution Na<sub>2</sub>CO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.500 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol CaCl<sub>2</sub></span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> <b>=</b> 0.0250 mol CaCl<sub>2</sub></div><div>Round to 3 significant figures: <b>0.0250 mol CaCl<sub>2</sub></b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-soln",
-   "index": 30
-  }
- },
- {
-  "id": "stoichiometry-59dd36f0",
-  "skill": "stoichiometry.learn-soln",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">CaCl<sub>2</sub></span> + <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span> &rarr; <span class=\"formula\">CaCO<sub>3</sub></span> + 2 <span class=\"formula\">NaCl</span></div><div>What volume (in mL) of <span class=\"measure\">0.500 M</span> <span class=\"formula\">CaCl<sub>2</sub></span> reacts completely with <span class=\"measure\">25.0 mL of 0.100 M</span> <span class=\"formula\">Na<sub>2</sub>CO<sub>3</sub></span>?</div>",
-  "answer": 5,
-  "unit": "mL solution CaCl2",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 25.0 mL solution Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>0.02500 L solution Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Into moles:</b> 0.02500 L solution Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">0.100 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>2.500 × 10⁻³ mol Na<sub>2</sub>CO<sub>3</sub></b></li><li><b>Mole ratio:</b> 2.500 × 10⁻³ mol Na<sub>2</sub>CO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol CaCl<sub>2</sub></span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> = <b>2.500 × 10⁻³ mol CaCl<sub>2</sub></b></li><li><b>Out of moles:</b> 2.500 × 10⁻³ mol CaCl<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution CaCl<sub>2</sub></span><span class=\"den\">0.500 mol CaCl<sub>2</sub></span></span> = <b>5.000 × 10⁻³ L solution CaCl<sub>2</sub></b></li><li><b>Out of moles:</b> 5.000 × 10⁻³ L solution CaCl<sub>2</sub> × <span class=\"fraction\"><span class=\"num\">1000 mL solution CaCl<sub>2</sub></span><span class=\"den\">1 L solution CaCl<sub>2</sub></span></span> = <b>5.000 mL solution CaCl<sub>2</sub></b></li></ol><div class=\"solution-chain\">25.0 mL solution Na<sub>2</sub>CO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1000 mL solution Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.100 mol Na<sub>2</sub>CO<sub>3</sub></span><span class=\"den\">1 L solution Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol CaCl<sub>2</sub></span><span class=\"den\">1 mol Na<sub>2</sub>CO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution CaCl<sub>2</sub></span><span class=\"den\">0.500 mol CaCl<sub>2</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution CaCl<sub>2</sub></span><span class=\"den\">1 L solution CaCl<sub>2</sub></span></span> <b>=</b> 5.00 mL solution CaCl<sub>2</sub></div><div>Round to 3 significant figures: <b>5.00 mL solution CaCl<sub>2</sub></b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-soln",
-   "index": 31
-  }
- },
- {
-  "id": "stoichiometry-9d0e10b3",
-  "skill": "stoichiometry.learn-soln",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">Na<sub>2</sub>SO<sub>4</sub></span> + 2 <span class=\"formula\">H<sub>2</sub>O</span></div><div>What volume (in mL) of <span class=\"measure\">0.250 M</span> <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span> reacts completely with <span class=\"measure\">75.0 mL of 0.200 M</span> <span class=\"formula\">NaOH</span>?</div>",
-  "answer": 30,
-  "unit": "mL solution H2SO4",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 75.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.07500 L solution NaOH</b></li><li><b>Into moles:</b> 0.07500 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.200 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.01500 mol NaOH</b></li><li><b>Mole ratio:</b> 0.01500 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>7.500 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Out of moles:</b> 7.500 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">0.250 mol H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.03000 L solution H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Out of moles:</b> 0.03000 L solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>30.00 mL solution H<sub>2</sub>SO<sub>4</sub></b></li></ol><div class=\"solution-chain\">75.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.200 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">0.250 mol H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>=</b> 30.0 mL solution H<sub>2</sub>SO<sub>4</sub></div><div>Round to 3 significant figures: <b>30.0 mL solution H<sub>2</sub>SO<sub>4</sub></b></div>",
-  "origin": "original",
-  "from": {
-   "game": "stoichiometry",
-   "list": "sample:learn-soln",
-   "index": 32
-  }
- },
- {
-  "id": "stoichiometry-5c02908b",
-  "skill": "stoichiometry.learn-soln",
-  "courses": [
-   "3A",
-   "1A"
-  ],
-  "chapters": [
-   "3A-11",
-   "1A-4"
-  ],
-  "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">HCl</span> + <span class=\"formula\">NaOH</span> &rarr; <span class=\"formula\">NaCl</span> + <span class=\"formula\">H<sub>2</sub>O</span></div><div>What volume (in mL) of <span class=\"measure\">0.500 M</span> <span class=\"formula\">NaOH</span> reacts completely with <span class=\"measure\">10.0 mL of 0.250 M</span> <span class=\"formula\">HCl</span>?</div>",
-  "answer": 5,
-  "unit": "mL solution NaOH",
-  "tolerance": 0.005,
-  "sigfigs": 3,
-  "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 10.0 mL solution HCl × <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">1000 mL solution HCl</span></span> = <b>0.01000 L solution HCl</b></li><li><b>Into moles:</b> 0.01000 L solution HCl × <span class=\"fraction\"><span class=\"num\">0.250 mol HCl</span><span class=\"den\">1 L solution HCl</span></span> = <b>2.500 × 10⁻³ mol HCl</b></li><li><b>Mole ratio:</b> 2.500 × 10⁻³ mol HCl × <span class=\"fraction\"><span class=\"num\">1 mol NaOH</span><span class=\"den\">1 mol HCl</span></span> = <b>2.500 × 10⁻³ mol NaOH</b></li><li><b>Out of moles:</b> 2.500 × 10⁻³ mol NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">0.500 mol NaOH</span></span> = <b>5.000 × 10⁻³ L solution NaOH</b></li><li><b>Out of moles:</b> 5.000 × 10⁻³ L solution NaOH × <span class=\"fraction\"><span class=\"num\">1000 mL solution NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>5.000 mL solution NaOH</b></li></ol><div class=\"solution-chain\">10.0 mL solution HCl <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">1000 mL solution HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.250 mol HCl</span><span class=\"den\">1 L solution HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaOH</span><span class=\"den\">1 mol HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">0.500 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>=</b> 5.00 mL solution NaOH</div><div>Round to 3 significant figures: <b>5.00 mL solution NaOH</b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 10.0 mL solution HCl × <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">1000 mL solution HCl</span></span> = <b>0.01000 L solution HCl</b></li><li><b>Into moles:</b> 0.01000 L solution HCl × <span class=\"fraction\"><span class=\"num\">0.100 mol HCl</span><span class=\"den\">1 L solution HCl</span></span> = <b>0.001000 mol HCl</b></li><li><b>Mole ratio:</b> 0.001000 mol HCl × <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol HCl</span></span> = <b>0.001000 mol NaCl</b></li><li><b>Out of moles:</b> 0.001000 mol NaCl × <span class=\"fraction\"><span class=\"num\">58.44 g NaCl</span><span class=\"den\">1 mol NaCl</span></span> = <b>0.05844 g NaCl</b></li></ol><div class=\"solution-chain\">10.0 mL solution HCl <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">1000 mL solution HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.100 mol HCl</span><span class=\"den\">1 L solution HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">58.44 g NaCl</span><span class=\"den\">1 mol NaCl</span></span> <b>=</b> 0.0584 g NaCl</div><div>Round to 3 significant figures: <b>0.0584 g NaCl</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -6648,7 +6648,7 @@
   }
  },
  {
-  "id": "stoichiometry-17b759d4",
+  "id": "stoichiometry-af32ff96",
   "skill": "stoichiometry.learn-soln",
   "courses": [
    "3A",
@@ -6659,13 +6659,13 @@
    "1A-4"
   ],
   "type": "number",
-  "prompt": "<div class=\"eq\"><span class=\"formula\">AgNO<sub>3</sub></span> + <span class=\"formula\">NaCl</span> &rarr; <span class=\"formula\">AgCl</span> + <span class=\"formula\">NaNO<sub>3</sub></span></div><div>What volume (in mL) of <span class=\"measure\">0.250 M</span> <span class=\"formula\">AgNO<sub>3</sub></span> reacts completely with <span class=\"measure\">50.0 mL of 0.250 M</span> <span class=\"formula\">NaCl</span>?</div>",
-  "answer": 50,
-  "unit": "mL solution AgNO3",
+  "prompt": "<div class=\"eq\"><span class=\"formula\">AgNO<sub>3</sub></span> + <span class=\"formula\">NaCl</span> &rarr; <span class=\"formula\">AgCl</span> + <span class=\"formula\">NaNO<sub>3</sub></span></div><div>How many moles of <span class=\"formula\">AgNO<sub>3</sub></span> react completely with <span class=\"measure\">50.0 mL of 0.100 M</span> <span class=\"formula\">NaCl</span>?</div>",
+  "answer": 0.005,
+  "unit": "mol AgNO3",
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "mL → L: divide by 1000. Liters × molarity (mol/L) = moles. Use the mole ratio, then finish with molar mass or ÷ molarity.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 50.0 mL solution NaCl × <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">1000 mL solution NaCl</span></span> = <b>0.05000 L solution NaCl</b></li><li><b>Into moles:</b> 0.05000 L solution NaCl × <span class=\"fraction\"><span class=\"num\">0.250 mol NaCl</span><span class=\"den\">1 L solution NaCl</span></span> = <b>0.01250 mol NaCl</b></li><li><b>Mole ratio:</b> 0.01250 mol NaCl × <span class=\"fraction\"><span class=\"num\">1 mol AgNO<sub>3</sub></span><span class=\"den\">1 mol NaCl</span></span> = <b>0.01250 mol AgNO<sub>3</sub></b></li><li><b>Out of moles:</b> 0.01250 mol AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">0.250 mol AgNO<sub>3</sub></span></span> = <b>0.05000 L solution AgNO<sub>3</sub></b></li><li><b>Out of moles:</b> 0.05000 L solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1000 mL solution AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> = <b>50.00 mL solution AgNO<sub>3</sub></b></li></ol><div class=\"solution-chain\">50.0 mL solution NaCl <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">1000 mL solution NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.250 mol NaCl</span><span class=\"den\">1 L solution NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol AgNO<sub>3</sub></span><span class=\"den\">1 mol NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">0.250 mol AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> <b>=</b> 50.0 mL solution AgNO<sub>3</sub></div><div>Round to 3 significant figures: <b>50.0 mL solution AgNO<sub>3</sub></b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 50.0 mL solution NaCl × <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">1000 mL solution NaCl</span></span> = <b>0.05000 L solution NaCl</b></li><li><b>Into moles:</b> 0.05000 L solution NaCl × <span class=\"fraction\"><span class=\"num\">0.100 mol NaCl</span><span class=\"den\">1 L solution NaCl</span></span> = <b>0.005000 mol NaCl</b></li><li><b>Mole ratio:</b> 0.005000 mol NaCl × <span class=\"fraction\"><span class=\"num\">1 mol AgNO<sub>3</sub></span><span class=\"den\">1 mol NaCl</span></span> = <b>0.005000 mol AgNO<sub>3</sub></b></li></ol><div class=\"solution-chain\">50.0 mL solution NaCl <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">1000 mL solution NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.100 mol NaCl</span><span class=\"den\">1 L solution NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol AgNO<sub>3</sub></span><span class=\"den\">1 mol NaCl</span></span> <b>=</b> 0.00500 mol AgNO<sub>3</sub></div><div>Round to 3 significant figures: <b>0.00500 mol AgNO<sub>3</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -9542,7 +9542,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Use molarity for moles per liter, or the stated percent to find grams of solute. The balanced equation connects moles of NaOH to moles of HCl. For % (m/m) from a volume, first use density to obtain grams of solution.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 30.4 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.03040 L solution NaOH</b></li><li><b>Into moles:</b> 0.03040 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.130 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>3.952 × 10⁻³ mol NaOH</b></li><li><b>Mole ratio:</b> 3.952 × 10⁻³ mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> = <b>3.952 × 10⁻³ mol HCl</b></li><li><b>Out of moles:</b> 3.952 × 10⁻³ mol HCl × <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">0.217 mol HCl</span></span> = <b>0.01821 L solution HCl</b></li><li><b>Out of moles:</b> 0.01821 L solution HCl × <span class=\"fraction\"><span class=\"num\">1000 mL solution HCl</span><span class=\"den\">1 L solution HCl</span></span> = <b>18.21 mL solution HCl</b></li></ol><div class=\"solution-chain\">30.4 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.130 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">0.217 mol HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution HCl</span><span class=\"den\">1 L solution HCl</span></span> <b>=</b> 18.2 mL solution HCl</div><div>Round to 3 significant figures: <b>18.2 mL solution HCl</b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 30.4 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.03040 L solution NaOH</b></li><li><b>Into moles:</b> 0.03040 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.130 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.003952 mol NaOH</b></li><li><b>Mole ratio:</b> 0.003952 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> = <b>0.003952 mol HCl</b></li><li><b>Out of moles:</b> 0.003952 mol HCl × <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">0.217 mol HCl</span></span> = <b>0.01821 L solution HCl</b></li><li><b>Out of moles:</b> 0.01821 L solution HCl × <span class=\"fraction\"><span class=\"num\">1000 mL solution HCl</span><span class=\"den\">1 L solution HCl</span></span> = <b>18.21 mL solution HCl</b></li></ol><div class=\"solution-chain\">30.4 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.130 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">0.217 mol HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution HCl</span><span class=\"den\">1 L solution HCl</span></span> <b>=</b> 18.2 mL solution HCl</div><div>Round to 3 significant figures: <b>18.2 mL solution HCl</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -9672,7 +9672,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Use molarity for moles per liter, or the stated percent to find grams of solute. The balanced equation connects moles of H2SO4 to moles of NaOH. For % (m/m) from a volume, first use density to obtain grams of solution.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 21.5 mL solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.02150 L solution H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Into moles:</b> 0.02150 L solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">0.165 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>3.548 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Mole ratio:</b> 3.548 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">2 mol NaOH</span><span class=\"den\">1 mol H<sub>2</sub>SO<sub>4</sub></span></span> = <b>7.095 × 10⁻³ mol NaOH</b></li><li><b>Out of moles:</b> 7.095 × 10⁻³ mol NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">0.174 mol NaOH</span></span> = <b>0.04078 L solution NaOH</b></li><li><b>Out of moles:</b> 0.04078 L solution NaOH × <span class=\"fraction\"><span class=\"num\">1000 mL solution NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>40.78 mL solution NaOH</b></li></ol><div class=\"solution-chain\">21.5 mL solution H<sub>2</sub>SO<sub>4</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.165 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol NaOH</span><span class=\"den\">1 mol H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">0.174 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>=</b> 40.8 mL solution NaOH</div><div>Round to 3 significant figures: <b>40.8 mL solution NaOH</b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 21.5 mL solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.02150 L solution H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Into moles:</b> 0.02150 L solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">0.165 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.003548 mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Mole ratio:</b> 0.003548 mol H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">2 mol NaOH</span><span class=\"den\">1 mol H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.007095 mol NaOH</b></li><li><b>Out of moles:</b> 0.007095 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">0.174 mol NaOH</span></span> = <b>0.04078 L solution NaOH</b></li><li><b>Out of moles:</b> 0.04078 L solution NaOH × <span class=\"fraction\"><span class=\"num\">1000 mL solution NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>40.78 mL solution NaOH</b></li></ol><div class=\"solution-chain\">21.5 mL solution H<sub>2</sub>SO<sub>4</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.165 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol NaOH</span><span class=\"den\">1 mol H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">0.174 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>=</b> 40.8 mL solution NaOH</div><div>Round to 3 significant figures: <b>40.8 mL solution NaOH</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -9828,7 +9828,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Start with the given amount and convert it to moles. Use the coefficients of the balanced equation as the mole ratio. Convert moles of the desired substance to the requested unit.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 16.6 mL solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> = <b>0.01660 L solution AgNO<sub>3</sub></b></li><li><b>Into moles:</b> 0.01660 L solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">0.515 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> = <b>8.549 × 10⁻³ mol AgNO<sub>3</sub></b></li><li><b>Mole ratio:</b> 8.549 × 10⁻³ mol AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> = <b>8.549 × 10⁻³ mol NaCl</b></li><li><b>Finish:</b> 8.549 × 10⁻³ mol ÷ 0.01940 L = <b>0.4407 M</b></li></ol><div class=\"solution-chain\">16.6 mL solution AgNO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.515 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> <b>=</b> 8.549 × 10⁻³ mol NaCl</div><div><b>Molarity:</b> <span class=\"fraction\"><span class=\"num\">8.549 × 10⁻³ mol <span class=\"formula\">NaCl</span></span><span class=\"den\">0.01940 L solution</span></span> = 0.441 M.</div><div>Round to 3 significant figures: <b>0.441 M NaCl</b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 16.6 mL solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> = <b>0.01660 L solution AgNO<sub>3</sub></b></li><li><b>Into moles:</b> 0.01660 L solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">0.515 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> = <b>0.008549 mol AgNO<sub>3</sub></b></li><li><b>Mole ratio:</b> 0.008549 mol AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> = <b>0.008549 mol NaCl</b></li><li><b>Finish:</b> 0.008549 mol ÷ 0.01940 L = <b>0.4407 M</b></li></ol><div class=\"solution-chain\">16.6 mL solution AgNO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.515 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> <b>=</b> 0.008549 mol NaCl</div><div><b>Molarity:</b> <span class=\"fraction\"><span class=\"num\">0.008549 mol <span class=\"formula\">NaCl</span></span><span class=\"den\">0.01940 L solution</span></span> = 0.441 M.</div><div>Round to 3 significant figures: <b>0.441 M NaCl</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -9906,7 +9906,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Start with the given amount and convert it to moles. Use the coefficients of the balanced equation as the mole ratio. Convert moles of the desired substance to the requested unit.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 11.7 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.01170 L solution NaOH</b></li><li><b>Into moles:</b> 0.01170 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.160 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>1.872 × 10⁻³ mol NaOH</b></li><li><b>Mole ratio:</b> 1.872 × 10⁻³ mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>9.360 × 10⁻⁴ mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Finish:</b> 9.360 × 10⁻⁴ mol ÷ 0.03730 L = <b>0.02509 M</b></li></ol><div class=\"solution-chain\">11.7 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.160 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>=</b> 9.360 × 10⁻⁴ mol H<sub>2</sub>SO<sub>4</sub></div><div><b>Molarity:</b> <span class=\"fraction\"><span class=\"num\">9.360 × 10⁻⁴ mol <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span></span><span class=\"den\">0.03730 L solution</span></span> = 0.0251 M.</div><div>Round to 3 significant figures: <b>0.0251 M H<sub>2</sub>SO<sub>4</sub></b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 11.7 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.01170 L solution NaOH</b></li><li><b>Into moles:</b> 0.01170 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.160 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.001872 mol NaOH</b></li><li><b>Mole ratio:</b> 0.001872 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>9.360 × 10⁻⁴ mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Finish:</b> 9.360 × 10⁻⁴ mol ÷ 0.03730 L = <b>0.02509 M</b></li></ol><div class=\"solution-chain\">11.7 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.160 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>=</b> 9.360 × 10⁻⁴ mol H<sub>2</sub>SO<sub>4</sub></div><div><b>Molarity:</b> <span class=\"fraction\"><span class=\"num\">9.360 × 10⁻⁴ mol <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span></span><span class=\"den\">0.03730 L solution</span></span> = 0.0251 M.</div><div>Round to 3 significant figures: <b>0.0251 M H<sub>2</sub>SO<sub>4</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -10140,7 +10140,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Use molarity for moles per liter, or the stated percent to find grams of solute. The balanced equation connects moles of H2SO4 to moles of NaOH. For % (m/m) from a volume, first use density to obtain grams of solution.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 40.7 mL solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.04070 L solution H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Into moles:</b> 0.04070 L solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">0.167 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>6.797 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Mole ratio:</b> 6.797 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">2 mol NaOH</span><span class=\"den\">1 mol H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.01359 mol NaOH</b></li><li><b>Out of moles:</b> 0.01359 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">0.213 mol NaOH</span></span> = <b>0.06382 L solution NaOH</b></li><li><b>Out of moles:</b> 0.06382 L solution NaOH × <span class=\"fraction\"><span class=\"num\">1000 mL solution NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>63.82 mL solution NaOH</b></li></ol><div class=\"solution-chain\">40.7 mL solution H<sub>2</sub>SO<sub>4</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.167 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol NaOH</span><span class=\"den\">1 mol H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">0.213 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>=</b> 63.8 mL solution NaOH</div><div>Round to 3 significant figures: <b>63.8 mL solution NaOH</b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 40.7 mL solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.04070 L solution H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Into moles:</b> 0.04070 L solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">0.167 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.006797 mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Mole ratio:</b> 0.006797 mol H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">2 mol NaOH</span><span class=\"den\">1 mol H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.01359 mol NaOH</b></li><li><b>Out of moles:</b> 0.01359 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">0.213 mol NaOH</span></span> = <b>0.06382 L solution NaOH</b></li><li><b>Out of moles:</b> 0.06382 L solution NaOH × <span class=\"fraction\"><span class=\"num\">1000 mL solution NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>63.82 mL solution NaOH</b></li></ol><div class=\"solution-chain\">40.7 mL solution H<sub>2</sub>SO<sub>4</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.167 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol NaOH</span><span class=\"den\">1 mol H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">0.213 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>=</b> 63.8 mL solution NaOH</div><div>Round to 3 significant figures: <b>63.8 mL solution NaOH</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -10192,7 +10192,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Start with the given amount and convert it to moles. Use the coefficients of the balanced equation as the mole ratio. Convert moles of the desired substance to the requested unit.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 18.7 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.01870 L solution NaOH</b></li><li><b>Into moles:</b> 0.01870 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.388 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>7.256 × 10⁻³ mol NaOH</b></li><li><b>Mole ratio:</b> 7.256 × 10⁻³ mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> = <b>7.256 × 10⁻³ mol HCl</b></li><li><b>Finish:</b> 7.256 × 10⁻³ mol ÷ 0.03770 L = <b>0.1925 M</b></li></ol><div class=\"solution-chain\">18.7 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.388 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> <b>=</b> 7.256 × 10⁻³ mol HCl</div><div><b>Molarity:</b> <span class=\"fraction\"><span class=\"num\">7.256 × 10⁻³ mol <span class=\"formula\">HCl</span></span><span class=\"den\">0.03770 L solution</span></span> = 0.192 M.</div><div>Round to 3 significant figures: <b>0.192 M HCl</b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 18.7 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.01870 L solution NaOH</b></li><li><b>Into moles:</b> 0.01870 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.388 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.007256 mol NaOH</b></li><li><b>Mole ratio:</b> 0.007256 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> = <b>0.007256 mol HCl</b></li><li><b>Finish:</b> 0.007256 mol ÷ 0.03770 L = <b>0.1925 M</b></li></ol><div class=\"solution-chain\">18.7 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.388 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> <b>=</b> 0.007256 mol HCl</div><div><b>Molarity:</b> <span class=\"fraction\"><span class=\"num\">0.007256 mol <span class=\"formula\">HCl</span></span><span class=\"den\">0.03770 L solution</span></span> = 0.192 M.</div><div>Round to 3 significant figures: <b>0.192 M HCl</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -10218,7 +10218,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Use molarity for moles per liter, or the stated percent to find grams of solute. The balanced equation connects moles of AgNO3 to moles of NaCl. For % (m/m) from a volume, first use density to obtain grams of solution.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 40.3 mL solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> = <b>0.04030 L solution AgNO<sub>3</sub></b></li><li><b>Into moles:</b> 0.04030 L solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">0.148 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> = <b>5.964 × 10⁻³ mol AgNO<sub>3</sub></b></li><li><b>Mole ratio:</b> 5.964 × 10⁻³ mol AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> = <b>5.964 × 10⁻³ mol NaCl</b></li><li><b>Out of moles:</b> 5.964 × 10⁻³ mol NaCl × <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">0.104 mol NaCl</span></span> = <b>0.05735 L solution NaCl</b></li><li><b>Out of moles:</b> 0.05735 L solution NaCl × <span class=\"fraction\"><span class=\"num\">1000 mL solution NaCl</span><span class=\"den\">1 L solution NaCl</span></span> = <b>57.35 mL solution NaCl</b></li></ol><div class=\"solution-chain\">40.3 mL solution AgNO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.148 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">0.104 mol NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution NaCl</span><span class=\"den\">1 L solution NaCl</span></span> <b>=</b> 57.3 mL solution NaCl</div><div>Round to 3 significant figures: <b>57.3 mL solution NaCl</b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 40.3 mL solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> = <b>0.04030 L solution AgNO<sub>3</sub></b></li><li><b>Into moles:</b> 0.04030 L solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">0.148 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> = <b>0.005964 mol AgNO<sub>3</sub></b></li><li><b>Mole ratio:</b> 0.005964 mol AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> = <b>0.005964 mol NaCl</b></li><li><b>Out of moles:</b> 0.005964 mol NaCl × <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">0.104 mol NaCl</span></span> = <b>0.05735 L solution NaCl</b></li><li><b>Out of moles:</b> 0.05735 L solution NaCl × <span class=\"fraction\"><span class=\"num\">1000 mL solution NaCl</span><span class=\"den\">1 L solution NaCl</span></span> = <b>57.35 mL solution NaCl</b></li></ol><div class=\"solution-chain\">40.3 mL solution AgNO<sub>3</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.148 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol AgNO<sub>3</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">0.104 mol NaCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution NaCl</span><span class=\"den\">1 L solution NaCl</span></span> <b>=</b> 57.3 mL solution NaCl</div><div>Round to 3 significant figures: <b>57.3 mL solution NaCl</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -10244,7 +10244,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Use molarity for moles per liter, or the stated percent to find grams of solute. The balanced equation connects moles of NaOH to moles of HCl. For % (m/m) from a volume, first use density to obtain grams of solution.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 43.6 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.04360 L solution NaOH</b></li><li><b>Into moles:</b> 0.04360 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.135 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>5.886 × 10⁻³ mol NaOH</b></li><li><b>Mole ratio:</b> 5.886 × 10⁻³ mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> = <b>5.886 × 10⁻³ mol HCl</b></li><li><b>Out of moles:</b> 5.886 × 10⁻³ mol HCl × <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">0.324 mol HCl</span></span> = <b>0.01817 L solution HCl</b></li><li><b>Out of moles:</b> 0.01817 L solution HCl × <span class=\"fraction\"><span class=\"num\">1000 mL solution HCl</span><span class=\"den\">1 L solution HCl</span></span> = <b>18.17 mL solution HCl</b></li></ol><div class=\"solution-chain\">43.6 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.135 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">0.324 mol HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution HCl</span><span class=\"den\">1 L solution HCl</span></span> <b>=</b> 18.2 mL solution HCl</div><div>Round to 3 significant figures: <b>18.2 mL solution HCl</b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 43.6 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.04360 L solution NaOH</b></li><li><b>Into moles:</b> 0.04360 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.135 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.005886 mol NaOH</b></li><li><b>Mole ratio:</b> 0.005886 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> = <b>0.005886 mol HCl</b></li><li><b>Out of moles:</b> 0.005886 mol HCl × <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">0.324 mol HCl</span></span> = <b>0.01817 L solution HCl</b></li><li><b>Out of moles:</b> 0.01817 L solution HCl × <span class=\"fraction\"><span class=\"num\">1000 mL solution HCl</span><span class=\"den\">1 L solution HCl</span></span> = <b>18.17 mL solution HCl</b></li></ol><div class=\"solution-chain\">43.6 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.135 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution HCl</span><span class=\"den\">0.324 mol HCl</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1000 mL solution HCl</span><span class=\"den\">1 L solution HCl</span></span> <b>=</b> 18.2 mL solution HCl</div><div>Round to 3 significant figures: <b>18.2 mL solution HCl</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -10374,7 +10374,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Start with the given amount and convert it to moles. Use the coefficients of the balanced equation as the mole ratio. Convert moles of the desired substance to the requested unit.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 26.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.02600 L solution NaOH</b></li><li><b>Into moles:</b> 0.02600 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.742 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.01929 mol NaOH</b></li><li><b>Mole ratio:</b> 0.01929 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>9.646 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Finish:</b> 9.646 × 10⁻³ mol ÷ 0.01610 L = <b>0.5991 M</b></li></ol><div class=\"solution-chain\">26.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.742 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>=</b> 9.646 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub></div><div><b>Molarity:</b> <span class=\"fraction\"><span class=\"num\">9.646 × 10⁻³ mol <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span></span><span class=\"den\">0.01610 L solution</span></span> = 0.599 M.</div><div>Round to 3 significant figures: <b>0.599 M H<sub>2</sub>SO<sub>4</sub></b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 26.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.02600 L solution NaOH</b></li><li><b>Into moles:</b> 0.02600 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.742 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.01929 mol NaOH</b></li><li><b>Mole ratio:</b> 0.01929 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>0.009646 mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Finish:</b> 0.009646 mol ÷ 0.01610 L = <b>0.5991 M</b></li></ol><div class=\"solution-chain\">26.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.742 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>=</b> 0.009646 mol H<sub>2</sub>SO<sub>4</sub></div><div><b>Molarity:</b> <span class=\"fraction\"><span class=\"num\">0.009646 mol <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span></span><span class=\"den\">0.01610 L solution</span></span> = 0.599 M.</div><div>Round to 3 significant figures: <b>0.599 M H<sub>2</sub>SO<sub>4</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -11216,7 +11216,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Convert each solution volume to liters and multiply by its molarity. Divide moles of each reactant by its equation coefficient to find the limiting reactant. For leftovers, subtract the amount used; for yield, divide actual mass by theoretical mass.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Moles of AgNO3:</b> 61.5 mL solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> × <span class=\"fraction\"><span class=\"num\">0.183 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> = <b>0.01125 mol <span class=\"formula\">AgNO<sub>3</sub></span></b></li><li><b>Divide by coefficient:</b> 0.01125 ÷ 1 = <b>0.01125</b></li><li><b>Moles of NaCl:</b> 83.9 mL solution NaCl × <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">1000 mL solution NaCl</span></span> × <span class=\"fraction\"><span class=\"num\">0.0872 mol NaCl</span><span class=\"den\">1 L solution NaCl</span></span> = <b>7.316 × 10⁻³ mol <span class=\"formula\">NaCl</span></b></li><li><b>Divide by coefficient:</b> 7.316 × 10⁻³ ÷ 1 = <b>7.316 × 10⁻³</b></li><li><b>Limiting reactant:</b> <b><span class=\"formula\">NaCl</span></b> gives the smaller number (7.316 × 10⁻³), so it is limiting.</li></ol><div>Initial moles: <span class=\"formula\">AgNO<sub>3</sub></span> = 0.01125 mol; <span class=\"formula\">NaCl</span> = 7.316 × 10⁻³ mol. The smaller n/coefficient is 7.316 × 10⁻³ mol reaction extent.<br>Theoretical mass = 7.316 × 10⁻³ × 1 × 84.99 = 0.6218 g.<br>% yield = <span class=\"fraction\"><span class=\"num\">0.557 g actual</span><span class=\"den\">0.6218 g theoretical</span></span> × 100% = <b>89.6%</b>.</div><div>Round to 3 significant figures: <b>89.6 %</b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Moles of AgNO3:</b> 61.5 mL solution AgNO<sub>3</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution AgNO<sub>3</sub></span><span class=\"den\">1000 mL solution AgNO<sub>3</sub></span></span> × <span class=\"fraction\"><span class=\"num\">0.183 mol AgNO<sub>3</sub></span><span class=\"den\">1 L solution AgNO<sub>3</sub></span></span> = <b>0.01125 mol <span class=\"formula\">AgNO<sub>3</sub></span></b></li><li><b>Divide by coefficient:</b> 0.01125 ÷ 1 = <b>0.01125</b></li><li><b>Moles of NaCl:</b> 83.9 mL solution NaCl × <span class=\"fraction\"><span class=\"num\">1 L solution NaCl</span><span class=\"den\">1000 mL solution NaCl</span></span> × <span class=\"fraction\"><span class=\"num\">0.0872 mol NaCl</span><span class=\"den\">1 L solution NaCl</span></span> = <b>0.007316 mol <span class=\"formula\">NaCl</span></b></li><li><b>Divide by coefficient:</b> 0.007316 ÷ 1 = <b>0.007316</b></li><li><b>Limiting reactant:</b> <b><span class=\"formula\">NaCl</span></b> gives the smaller number (0.007316), so it is limiting.</li></ol><div>Initial moles: <span class=\"formula\">AgNO<sub>3</sub></span> = 0.01125 mol; <span class=\"formula\">NaCl</span> = 0.007316 mol. The smaller n/coefficient is 0.007316 mol reaction extent.<br>Theoretical mass = 0.007316 × 1 × 84.99 = 0.6218 g.<br>% yield = <span class=\"fraction\"><span class=\"num\">0.557 g actual</span><span class=\"den\">0.6218 g theoretical</span></span> × 100% = <b>89.6%</b>.</div><div>Round to 3 significant figures: <b>89.6 %</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -14996,7 +14996,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Convert the starting mass to moles, or use solution liters × molarity. Use the balanced equation coefficients to connect the two substances. Divide target moles by the target solution volume in liters.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 25.5 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.02550 L solution NaOH</b></li><li><b>Into moles:</b> 0.02550 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.356 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>9.078 × 10⁻³ mol NaOH</b></li><li><b>Mole ratio:</b> 9.078 × 10⁻³ mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> = <b>9.078 × 10⁻³ mol HCl</b></li><li><b>Finish:</b> 9.078 × 10⁻³ mol ÷ 0.04640 L = <b>0.1956 M</b></li></ol><div class=\"solution-chain\">25.5 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.356 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> <b>=</b> 9.078 × 10⁻³ mol HCl</div><div>Use the mole ratio to obtain moles of <span class=\"formula\">HCl</span>, then divide by 0.0464 L of its solution. The two reactants are present in stoichiometric amounts.</div><div>Round to 3 significant figures: <b>0.196 M HCl</b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 25.5 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.02550 L solution NaOH</b></li><li><b>Into moles:</b> 0.02550 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.356 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.009078 mol NaOH</b></li><li><b>Mole ratio:</b> 0.009078 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> = <b>0.009078 mol HCl</b></li><li><b>Finish:</b> 0.009078 mol ÷ 0.04640 L = <b>0.1956 M</b></li></ol><div class=\"solution-chain\">25.5 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.356 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol HCl</span><span class=\"den\">1 mol NaOH</span></span> <b>=</b> 0.009078 mol HCl</div><div>Use the mole ratio to obtain moles of <span class=\"formula\">HCl</span>, then divide by 0.0464 L of its solution. The two reactants are present in stoichiometric amounts.</div><div>Round to 3 significant figures: <b>0.196 M HCl</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -15046,7 +15046,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Convert the starting mass to moles, or use solution liters × molarity. Use the balanced equation coefficients to connect the two substances. Multiply product moles by its molar mass to find grams.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 81.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.08100 L solution NaOH</b></li><li><b>Into moles:</b> 0.08100 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.174 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.01409 mol NaOH</b></li><li><b>Mole ratio:</b> 0.01409 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol Na<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>7.047 × 10⁻³ mol Na<sub>2</sub>SO<sub>4</sub></b></li><li><b>Out of moles:</b> 7.047 × 10⁻³ mol Na<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">142.04 g Na<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 mol Na<sub>2</sub>SO<sub>4</sub></span></span> = <b>1.001 g Na<sub>2</sub>SO<sub>4</sub></b></li></ol><div class=\"solution-chain\">81.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.174 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol Na<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">142.04 g Na<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 mol Na<sub>2</sub>SO<sub>4</sub></span></span> <b>=</b> 1.00 g Na<sub>2</sub>SO<sub>4</sub></div><div>Round to 3 significant figures: <b>1.00 g Na<sub>2</sub>SO<sub>4</sub></b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 81.0 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.08100 L solution NaOH</b></li><li><b>Into moles:</b> 0.08100 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.174 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.01409 mol NaOH</b></li><li><b>Mole ratio:</b> 0.01409 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol Na<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>0.007047 mol Na<sub>2</sub>SO<sub>4</sub></b></li><li><b>Out of moles:</b> 0.007047 mol Na<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">142.04 g Na<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 mol Na<sub>2</sub>SO<sub>4</sub></span></span> = <b>1.001 g Na<sub>2</sub>SO<sub>4</sub></b></li></ol><div class=\"solution-chain\">81.0 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.174 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol Na<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">142.04 g Na<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 mol Na<sub>2</sub>SO<sub>4</sub></span></span> <b>=</b> 1.00 g Na<sub>2</sub>SO<sub>4</sub></div><div>Round to 3 significant figures: <b>1.00 g Na<sub>2</sub>SO<sub>4</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -15121,7 +15121,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Convert the starting mass to moles, or use solution liters × molarity. Use the balanced equation coefficients to connect the two substances. Divide target moles by the target solution volume in liters.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 37.8 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.03780 L solution NaOH</b></li><li><b>Into moles:</b> 0.03780 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.263 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>9.941 × 10⁻³ mol NaOH</b></li><li><b>Mole ratio:</b> 9.941 × 10⁻³ mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>4.971 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Finish:</b> 4.971 × 10⁻³ mol ÷ 0.04150 L = <b>0.1198 M</b></li></ol><div class=\"solution-chain\">37.8 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.263 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>=</b> 4.971 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub></div><div>Use the mole ratio to obtain moles of <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span>, then divide by 0.0415 L of its solution. The two reactants are present in stoichiometric amounts.</div><div>Round to 3 significant figures: <b>0.120 M H<sub>2</sub>SO<sub>4</sub></b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 37.8 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.03780 L solution NaOH</b></li><li><b>Into moles:</b> 0.03780 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.263 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.009941 mol NaOH</b></li><li><b>Mole ratio:</b> 0.009941 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> = <b>0.004971 mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Finish:</b> 0.004971 mol ÷ 0.04150 L = <b>0.1198 M</b></li></ol><div class=\"solution-chain\">37.8 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.263 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">2 mol NaOH</span></span> <b>=</b> 0.004971 mol H<sub>2</sub>SO<sub>4</sub></div><div>Use the mole ratio to obtain moles of <span class=\"formula\">H<sub>2</sub>SO<sub>4</sub></span>, then divide by 0.0415 L of its solution. The two reactants are present in stoichiometric amounts.</div><div>Round to 3 significant figures: <b>0.120 M H<sub>2</sub>SO<sub>4</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -15671,7 +15671,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Convert the starting mass to moles, or use solution liters × molarity. Use the balanced equation coefficients to connect the two substances. Multiply product moles by its molar mass to find grams.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 18.3 mL solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.01830 L solution H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Into moles:</b> 0.01830 L solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">0.251 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>4.593 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Mole ratio:</b> 4.593 × 10⁻³ mol H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">2 mol H<sub>2</sub>O</span><span class=\"den\">1 mol H<sub>2</sub>SO<sub>4</sub></span></span> = <b>9.187 × 10⁻³ mol H<sub>2</sub>O</b></li><li><b>Out of moles:</b> 9.187 × 10⁻³ mol H<sub>2</sub>O × <span class=\"fraction\"><span class=\"num\">18.015 g H<sub>2</sub>O</span><span class=\"den\">1 mol H<sub>2</sub>O</span></span> = <b>0.1655 g H<sub>2</sub>O</b></li></ol><div class=\"solution-chain\">18.3 mL solution H<sub>2</sub>SO<sub>4</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.251 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol H<sub>2</sub>O</span><span class=\"den\">1 mol H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">18.015 g H<sub>2</sub>O</span><span class=\"den\">1 mol H<sub>2</sub>O</span></span> <b>=</b> 0.165 g H<sub>2</sub>O</div><div>Round to 3 significant figures: <b>0.165 g H<sub>2</sub>O</b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 18.3 mL solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.01830 L solution H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Into moles:</b> 0.01830 L solution H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">0.251 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.004593 mol H<sub>2</sub>SO<sub>4</sub></b></li><li><b>Mole ratio:</b> 0.004593 mol H<sub>2</sub>SO<sub>4</sub> × <span class=\"fraction\"><span class=\"num\">2 mol H<sub>2</sub>O</span><span class=\"den\">1 mol H<sub>2</sub>SO<sub>4</sub></span></span> = <b>0.009187 mol H<sub>2</sub>O</b></li><li><b>Out of moles:</b> 0.009187 mol H<sub>2</sub>O × <span class=\"fraction\"><span class=\"num\">18.015 g H<sub>2</sub>O</span><span class=\"den\">1 mol H<sub>2</sub>O</span></span> = <b>0.1655 g H<sub>2</sub>O</b></li></ol><div class=\"solution-chain\">18.3 mL solution H<sub>2</sub>SO<sub>4</sub> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1000 mL solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.251 mol H<sub>2</sub>SO<sub>4</sub></span><span class=\"den\">1 L solution H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">2 mol H<sub>2</sub>O</span><span class=\"den\">1 mol H<sub>2</sub>SO<sub>4</sub></span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">18.015 g H<sub>2</sub>O</span><span class=\"den\">1 mol H<sub>2</sub>O</span></span> <b>=</b> 0.165 g H<sub>2</sub>O</div><div>Round to 3 significant figures: <b>0.165 g H<sub>2</sub>O</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -15696,7 +15696,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Convert the starting mass to moles, or use solution liters × molarity. Use the balanced equation coefficients to connect the two substances. Multiply product moles by its molar mass to find grams.",
-  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 34.6 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.03460 L solution NaOH</b></li><li><b>Into moles:</b> 0.03460 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.131 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>4.533 × 10⁻³ mol NaOH</b></li><li><b>Mole ratio:</b> 4.533 × 10⁻³ mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol NaOH</span></span> = <b>4.533 × 10⁻³ mol NaCl</b></li><li><b>Out of moles:</b> 4.533 × 10⁻³ mol NaCl × <span class=\"fraction\"><span class=\"num\">58.44 g NaCl</span><span class=\"den\">1 mol NaCl</span></span> = <b>0.2649 g NaCl</b></li></ol><div class=\"solution-chain\">34.6 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.131 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">58.44 g NaCl</span><span class=\"den\">1 mol NaCl</span></span> <b>=</b> 0.265 g NaCl</div><div>Round to 3 significant figures: <b>0.265 g NaCl</b></div>",
+  "explain": "<ol class=\"sol-steps\"><li><b>Into moles:</b> 34.6 mL solution NaOH × <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> = <b>0.03460 L solution NaOH</b></li><li><b>Into moles:</b> 0.03460 L solution NaOH × <span class=\"fraction\"><span class=\"num\">0.131 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> = <b>0.004533 mol NaOH</b></li><li><b>Mole ratio:</b> 0.004533 mol NaOH × <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol NaOH</span></span> = <b>0.004533 mol NaCl</b></li><li><b>Out of moles:</b> 0.004533 mol NaCl × <span class=\"fraction\"><span class=\"num\">58.44 g NaCl</span><span class=\"den\">1 mol NaCl</span></span> = <b>0.2649 g NaCl</b></li></ol><div class=\"solution-chain\">34.6 mL solution NaOH <b>×</b> <span class=\"fraction\"><span class=\"num\">1 L solution NaOH</span><span class=\"den\">1000 mL solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">0.131 mol NaOH</span><span class=\"den\">1 L solution NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">1 mol NaCl</span><span class=\"den\">1 mol NaOH</span></span> <b>×</b> <span class=\"fraction\"><span class=\"num\">58.44 g NaCl</span><span class=\"den\">1 mol NaCl</span></span> <b>=</b> 0.265 g NaCl</div><div>Round to 3 significant figures: <b>0.265 g NaCl</b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -15821,7 +15821,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Subtract consumed moles from initial moles of the excess reactant. Divide leftover moles by the combined volume in liters.",
-  "explain": "<div>Reaction extent = 0.01927 mol. Leftover = initial moles − 1 × extent = 9.649 × 10⁻³ mol. Divide by 0.1200 L: <b>0.0804 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0804 M Na<sub>2</sub>CO<sub>3</sub></b></div>",
+  "explain": "<div>Reaction extent = 0.01927 mol. Leftover = initial moles − 1 × extent = 0.009649 mol. Divide by 0.1200 L: <b>0.0804 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0804 M Na<sub>2</sub>CO<sub>3</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -16221,7 +16221,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Subtract consumed moles from initial moles of the excess reactant. Divide leftover moles by the combined volume in liters.",
-  "explain": "<div>Reaction extent = 0.01212 mol. Leftover = initial moles − 1 × extent = 6.081 × 10⁻³ mol. Divide by 0.07870 L: <b>0.0773 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0773 M Na<sub>2</sub>CO<sub>3</sub></b></div>",
+  "explain": "<div>Reaction extent = 0.01212 mol. Leftover = initial moles − 1 × extent = 0.006081 mol. Divide by 0.07870 L: <b>0.0773 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0773 M Na<sub>2</sub>CO<sub>3</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -16371,7 +16371,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Subtract consumed moles from initial moles of the excess reactant. Divide leftover moles by the combined volume in liters.",
-  "explain": "<div>Reaction extent = 0.01708 mol. Leftover = initial moles − 1 × extent = 9.270 × 10⁻³ mol. Divide by 0.1658 L: <b>0.0559 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0559 M H<sub>2</sub>SO<sub>4</sub></b></div>",
+  "explain": "<div>Reaction extent = 0.01708 mol. Leftover = initial moles − 1 × extent = 0.009270 mol. Divide by 0.1658 L: <b>0.0559 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0559 M H<sub>2</sub>SO<sub>4</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -16396,7 +16396,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Subtract consumed moles from initial moles of the excess reactant. Divide leftover moles by the combined volume in liters.",
-  "explain": "<div>Reaction extent = 5.863 × 10⁻³ mol. Leftover = initial moles − 1 × extent = 3.153 × 10⁻³ mol. Divide by 0.05734 L: <b>0.0550 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0550 M AgNO<sub>3</sub></b></div>",
+  "explain": "<div>Reaction extent = 0.005863 mol. Leftover = initial moles − 1 × extent = 0.003153 mol. Divide by 0.05734 L: <b>0.0550 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0550 M AgNO<sub>3</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -16421,7 +16421,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Subtract consumed moles from initial moles of the excess reactant. Divide leftover moles by the combined volume in liters.",
-  "explain": "<div>Reaction extent = 0.01195 mol. Leftover = initial moles − 1 × extent = 6.472 × 10⁻³ mol. Divide by 0.07890 L: <b>0.0820 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0820 M AgNO<sub>3</sub></b></div>",
+  "explain": "<div>Reaction extent = 0.01195 mol. Leftover = initial moles − 1 × extent = 0.006472 mol. Divide by 0.07890 L: <b>0.0820 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0820 M AgNO<sub>3</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",
@@ -16596,7 +16596,7 @@
   "tolerance": 0.005,
   "sigfigs": 3,
   "hint": "Subtract consumed moles from initial moles of the excess reactant. Divide leftover moles by the combined volume in liters.",
-  "explain": "<div>Reaction extent = 3.998 × 10⁻³ mol. Leftover = initial moles − 1 × extent = 2.161 × 10⁻³ mol. Divide by 0.06350 L: <b>0.0340 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0340 M H<sub>2</sub>SO<sub>4</sub></b></div>",
+  "explain": "<div>Reaction extent = 0.003998 mol. Leftover = initial moles − 1 × extent = 0.002161 mol. Divide by 0.06350 L: <b>0.0340 M</b>. This reports unreacted-solute equivalents; aqueous electrolytes exist as ions.</div><div>Round to 3 significant figures: <b>0.0340 M H<sub>2</sub>SO<sub>4</sub></b></div>",
   "origin": "original",
   "from": {
    "game": "stoichiometry",

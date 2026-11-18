@@ -4803,7 +4803,7 @@
   }
  },
  {
-  "id": "metric-1399929b",
+  "id": "metric-f5203cdd",
   "skill": "metric.iv",
   "courses": [
    "3A"
@@ -4811,9 +4811,9 @@
   "chapters": [
    "3A-1"
   ],
-  "prompt": "A patient drank and received <b>1,000 mL</b> of fluid in total today. How many <b>L</b> is that?<br>Enter the number, e.g. 4.5E-6 or 0.0045.",
-  "hint": "Start with 1,000 mL. Write a conversion factor with <b>mL</b> on the bottom so it cancels.",
-  "explain": "<div class=\"chain\"><span>1,000 mL</span><span class=\"x\">×</span><span class=\"frac\"><span>10<sup>−3</sup> L</span><span>1 mL</span></span><span class=\"x\">=</span><b>1.0 L</b></div><div class=\"tip\"><b>Professor Tip:</b> 1 L = 1000 mL. A liter bag is the big one; 50 to 250 mL bags are the small piggybacks.</div>",
+  "prompt": "A patient drank and received <b>1.0 × 10<sup>3</sup> mL</b> of fluid in total today. How many <b>L</b> is that?<br>Enter the number, e.g. 4.5E-6 or 0.0045.",
+  "hint": "Start with 1.0 × 10<sup>3</sup> mL. Write a conversion factor with <b>mL</b> on the bottom so it cancels.",
+  "explain": "<div class=\"chain\"><span>1.0 × 10<sup>3</sup> mL</span><span class=\"x\">×</span><span class=\"frac\"><span>10<sup>−3</sup> L</span><span>1 mL</span></span><span class=\"x\">=</span><b>1.0 L</b></div><div class=\"tip\"><b>Professor Tip:</b> 1 L = 1000 mL. A liter bag is the big one; 50 to 250 mL bags are the small piggybacks.</div>",
   "type": "number",
   "answer": 1,
   "tolerance": 0.001,
@@ -4826,7 +4826,7 @@
   }
  },
  {
-  "id": "metric-d6aa494f",
+  "id": "metric-5d38bedf",
   "skill": "metric.iv",
   "courses": [
    "3A"
@@ -4834,9 +4834,9 @@
   "chapters": [
    "3A-1"
   ],
-  "prompt": "The IV bag on the pole says <b>500 mL</b> normal saline. How many <b>L</b> is that?<br>Enter the number, e.g. 4.5E-6 or 0.0045.",
-  "hint": "Start with 500 mL. Write a conversion factor with <b>mL</b> on the bottom so it cancels.",
-  "explain": "<div class=\"chain\"><span>500 mL</span><span class=\"x\">×</span><span class=\"frac\"><span>10<sup>−3</sup> L</span><span>1 mL</span></span><span class=\"x\">=</span><b>0.50 L</b></div><div class=\"tip\"><b>Professor Tip:</b> 1 L = 1000 mL. A liter bag is the big one; 50 to 250 mL bags are the small piggybacks.</div>",
+  "prompt": "The IV bag on the pole says <b>5.0 × 10<sup>2</sup> mL</b> normal saline. How many <b>L</b> is that?<br>Enter the number, e.g. 4.5E-6 or 0.0045.",
+  "hint": "Start with 5.0 × 10<sup>2</sup> mL. Write a conversion factor with <b>mL</b> on the bottom so it cancels.",
+  "explain": "<div class=\"chain\"><span>5.0 × 10<sup>2</sup> mL</span><span class=\"x\">×</span><span class=\"frac\"><span>10<sup>−3</sup> L</span><span>1 mL</span></span><span class=\"x\">=</span><b>0.50 L</b></div><div class=\"tip\"><b>Professor Tip:</b> 1 L = 1000 mL. A liter bag is the big one; 50 to 250 mL bags are the small piggybacks.</div>",
   "type": "number",
   "answer": 0.5,
   "tolerance": 0.001,
@@ -4859,7 +4859,7 @@
   ],
   "prompt": "An IV bag holds <b>1.0 L</b> of normal saline. How many <b>mL</b> is that?<br>Enter the number, e.g. 4.5E-6 or 0.0045.",
   "hint": "Start with 1.0 L. Write a conversion factor with <b>L</b> on the bottom so it cancels.",
-  "explain": "<div class=\"chain\"><span>1.0 L</span><span class=\"x\">×</span><span class=\"frac\"><span>1 mL</span><span>10<sup>−3</sup> L</span></span><span class=\"x\">=</span><b>1,000 mL</b></div><div class=\"tip\"><b>Professor Tip:</b> 1 L = 1000 mL. A liter bag is the big one; 50 to 250 mL bags are the small piggybacks.</div>",
+  "explain": "<div class=\"chain\"><span>1.0 L</span><span class=\"x\">×</span><span class=\"frac\"><span>1 mL</span><span>10<sup>−3</sup> L</span></span><span class=\"x\">=</span><b>1.0 × 10<sup>3</sup> mL</b></div><div class=\"tip\"><b>Professor Tip:</b> 1 L = 1000 mL. A liter bag is the big one; 50 to 250 mL bags are the small piggybacks.</div>",
   "type": "number",
   "answer": 1000,
   "tolerance": 0.001,
@@ -4895,7 +4895,7 @@
   }
  },
  {
-  "id": "metric-96578829",
+  "id": "metric-07d7d6f8",
   "skill": "metric.iv",
   "courses": [
    "3A"
@@ -4903,9 +4903,9 @@
   "chapters": [
    "3A-1"
   ],
-  "prompt": "An IV piggyback bag of antibiotic holds <b>50 mL</b>. How many <b>L</b> is that?<br>Enter the number, e.g. 4.5E-6 or 0.0045.",
-  "hint": "Start with 50 mL. Write a conversion factor with <b>mL</b> on the bottom so it cancels.",
-  "explain": "<div class=\"chain\"><span>50 mL</span><span class=\"x\">×</span><span class=\"frac\"><span>10<sup>−3</sup> L</span><span>1 mL</span></span><span class=\"x\">=</span><b>0.050 L</b></div><div class=\"tip\"><b>Professor Tip:</b> 1 L = 1000 mL. A liter bag is the big one; 50 to 250 mL bags are the small piggybacks.</div>",
+  "prompt": "An IV piggyback bag of antibiotic holds <b>50. mL</b>. How many <b>L</b> is that?<br>Enter the number, e.g. 4.5E-6 or 0.0045.",
+  "hint": "Start with 50. mL. Write a conversion factor with <b>mL</b> on the bottom so it cancels.",
+  "explain": "<div class=\"chain\"><span>50. mL</span><span class=\"x\">×</span><span class=\"frac\"><span>10<sup>−3</sup> L</span><span>1 mL</span></span><span class=\"x\">=</span><b>0.050 L</b></div><div class=\"tip\"><b>Professor Tip:</b> 1 L = 1000 mL. A liter bag is the big one; 50 to 250 mL bags are the small piggybacks.</div>",
   "type": "number",
   "answer": 0.05,
   "tolerance": 0.001,
@@ -4928,7 +4928,7 @@
   ],
   "prompt": "A patient is ordered <b>0.50 L</b> of lactated Ringer’s solution. How many <b>mL</b> is that?<br>Enter the number, e.g. 4.5E-6 or 0.0045.",
   "hint": "Start with 0.50 L. Write a conversion factor with <b>L</b> on the bottom so it cancels.",
-  "explain": "<div class=\"chain\"><span>0.50 L</span><span class=\"x\">×</span><span class=\"frac\"><span>1 mL</span><span>10<sup>−3</sup> L</span></span><span class=\"x\">=</span><b>500 mL</b></div><div class=\"tip\"><b>Professor Tip:</b> 1 L = 1000 mL. A liter bag is the big one; 50 to 250 mL bags are the small piggybacks.</div>",
+  "explain": "<div class=\"chain\"><span>0.50 L</span><span class=\"x\">×</span><span class=\"frac\"><span>1 mL</span><span>10<sup>−3</sup> L</span></span><span class=\"x\">=</span><b>5.0 × 10<sup>2</sup> mL</b></div><div class=\"tip\"><b>Professor Tip:</b> 1 L = 1000 mL. A liter bag is the big one; 50 to 250 mL bags are the small piggybacks.</div>",
   "type": "number",
   "answer": 500,
   "tolerance": 0.001,
