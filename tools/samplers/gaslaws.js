@@ -43,6 +43,7 @@ module.exports = async (page, ctx) => {
       await ctx.seed(++seed);
       const raw = await page.evaluate(({ key, course, want, skip }) => {
         setCourse(course);
+        S.noLab = true;   // skip the interactive Piston Lab (answered by sliding, not typing), like the game's worked examples (set after setCourse, which resets it)
         const lvl = LEVELS.find(l => l.id === key);
         const out = [], seen = new Set();
         const vpTableHTML = '<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><th>T (°C)</th><th>P<sub>H₂O</sub> (mmHg)</th></tr>' +

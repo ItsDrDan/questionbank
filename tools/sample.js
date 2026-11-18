@@ -6,10 +6,22 @@
 const fs = require('fs'), path = require('path');
 const { chromium } = require('playwright');
 const SEED_SCRIPT = `(()=>{let s=20261101;const r=()=>{s|=0;s=s+0x6D2B79F5|0;let t=Math.imul(s^s>>>15,1|s);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296};Math.random=r;window.__seed=n=>{s=n|0};try{localStorage.clear()}catch(e){}})();`;
+// The games load shared scripts from the Study Hub site (e.g. brand/chemparse.v1.js, which reads typed numbers).
+// The network is blocked here, so serve https://itsdrdan.github.io/games/<file> from the local "games" clone next to
+// the other games; every other request is still aborted (no stats, no fonts).
+async function offline(page, reposDir) {
+  const hub = path.join(reposDir, 'games');
+  await page.route(/^https?:/, r => {
+    const m = r.request().url().match(/^https:\/\/itsdrdan\.github\.io\/games\/([^?#]+)/);
+    const f = m && path.join(hub, decodeURIComponent(m[1]));
+    if (f && f.startsWith(hub + path.sep) && fs.existsSync(f) && fs.statSync(f).isFile()) return r.fulfill({ path: f });
+    return r.abort();
+  });
+}
 async function openGame(browser, reposDir, game) {
   const page = await browser.newPage();
   await page.addInitScript(SEED_SCRIPT);
-  await page.route(/^https?:/, r => r.abort());
+  await offline(page, reposDir);
   page.on('pageerror', e => (page.__errors = (page.__errors || []).concat(e.message)));
   await page.goto('file://' + path.join(reposDir, game, 'index.html'), { waitUntil: 'load' });
   await page.waitForTimeout(500);
@@ -33,7 +45,7 @@ function validate(items) {
   });
   return problems;
 }
-module.exports = { openGame, validate, SEED_SCRIPT };
+module.exports = { openGame, offline, validate, SEED_SCRIPT };
 if (require.main === module) (async () => {
   const [game, repos = '/home/claude/repos'] = process.argv.slice(2);
   const sampler = require(path.join(__dirname, 'samplers', game + '.js'));

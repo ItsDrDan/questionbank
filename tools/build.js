@@ -6,7 +6,7 @@
 const fs = require('fs'), path = require('path'), crypto = require('crypto');
 const { chromium } = require('playwright');
 const { grab } = require('./grab');
-const { openGame, validate } = require('./sample');
+const { openGame, offline, validate } = require('./sample');
 const { refine } = require('./refine3b');
 const quantumWhy = require('./whys/quantum');
 const thermoWhy = require('./whys/thermo');
@@ -52,7 +52,7 @@ function mcFromArray(a, hasTitle) {
 (async () => {
   const browser = await chromium.launch();
   const page = await browser.newPage();
-  await page.route(/^https?:/, r => r.abort());
+  await offline(page, REPOS);
   page.on('pageerror', () => {});
   const banks = {}, earlyFailed = [];   // file -> items
   const add = (file, items) => (banks[file] = (banks[file] || []).concat(items));

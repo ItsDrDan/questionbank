@@ -1,11 +1,11 @@
 // Load a game page in headless Chromium and read variables from it after the page has run.
 // usage: node pull.js <gameDir> VAR1 VAR2 ...   -> prints JSON {VAR: value}
-const {chromium}=require('playwright');
+const {chromium}=require('playwright');const path=require('path');const {offline}=require('./sample');
 (async()=>{
   const [dir,...vars]=process.argv.slice(2);
   const b=await chromium.launch();const p=await b.newPage();
   p.on('pageerror',e=>process.stderr.write('pageerror: '+e.message+'\n'));
-  await p.route(/^https?:/,r=>r.abort());           // offline: no stats, no fonts
+  await offline(p,path.dirname(path.resolve(dir)));  // offline: Study Hub shared scripts from the local games clone; no stats, no fonts
   await p.goto('file://'+dir+'/index.html',{waitUntil:'load'});
   await p.waitForTimeout(500);
   const out={};

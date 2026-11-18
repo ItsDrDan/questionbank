@@ -43,7 +43,8 @@ module.exports = async (page, ctx) => {
   const items = [];
   let seed = 1100;
   for (const [slug, courses, chapters, course, gen, filter] of MODES) {
-    await page.evaluate(c => { setCourse(c); }, course);
+    // noLab: skip the interactive tray lab (no text prompt), the same way the game's worked examples do
+    await page.evaluate(c => { setCourse(c); state.noLab = true; }, course);
     await ctx.seed(seed++);
     const res = await page.evaluate(({ gen, filter, PER_MODE, MAX_TRIES }) => {
       const G = new Function('return ' + gen), F = filter ? new Function('return ' + filter)() : () => true;
